@@ -7,3 +7,18 @@
 
 /* Fotografie reali nelle rubriche */
 .photo-wrap{height:192px;overflow:hidden;background:#e5e5e5}.photo-wrap img{width:100%;height:100%;object-fit:cover;display:block}.feature-photo{max-width:280px}.feature-photo img{width:100%;border-radius:14px;display:block} .topic-visual{display:none}@media(max-width:740px){.photo-wrap{height:200px}}
+
+/* Struttura editoriale derivata dal metodo PiacereConsapevole, colori propri di Per Me */
+:root{--pm-burgundy:#29494d;--pm-cream:#f5f1e8;--pm-line:#cfdbd5}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:var(--pm-cream)}
+header{background:linear-gradient(180deg,#fff 0%,var(--pm-cream) 100%);border-bottom:3px solid #688e83}
+header .wrap{max-width:1000px}
+.pc-inspired{background:#fff;box-shadow:0 8px 24px rgba(36,63,60,.09);border:1px solid var(--pm-line);border-radius:18px;overflow:hidden;max-width:100%;padding:35px 35px 40px;margin-top:10px}
+.pc-inspired::before{content:"";position:absolute;top:0;left:0;right:0;height:7px;background:linear-gradient(90deg,#1d454c,#679e8e,#cfddd2)}
+.pc-inspired h1{font-family:Georgia,serif;font-size:clamp(2.15rem,4vw,3.3rem);line-height:1.12;color:var(--pm-burgundy)}
+.pc-feature{border:1px solid var(--pm-line);background:#fff;border-radius:18px;box-shadow:0 8px 24px rgba(36,63,60,.06)}
+.topic{background:#fff;border-radius:16px;box-shadow:0 6px 18px rgba(23,35,31,.08)}
+.topic img{display:block;width:100%;height:205px;object-fit:cover}
+.topic-copy h3{font-family:Georgia,serif;font-size:1.34rem}
+.section>h2{font-family:Georgia,serif}
+@media(max-width:600px){main.wrap{padding:12px 12px 45px!important}.pc-inspired{padding:25px 20px}.pc-inspired h1{font-size:2.22rem}.topic img{height:175px}}
