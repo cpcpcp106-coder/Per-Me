@@ -86,3 +86,7 @@ footer{background:#3e312b}
 
 /* Didascalia del ritratto del fondatore */
 .author-photo{margin:0;min-width:0}.author-photo figcaption{text-align:center;padding:13px 4px 3px;color:#604331;font-size:.96rem;font-weight:800;line-height:1.5;letter-spacing:.035em}.author-photo figcaption time{font-size:.87rem;font-weight:500;letter-spacing:0}
+
+/* Contrasto accessibile per i pulsanti nelle guide */
+.pagina-interna .article a.button,.pagina-interna .article a.button:visited{color:#ffffff;background:#80513d;text-decoration:none;font-weight:750;border:2px solid #80513d;display:inline-block}
+.pagina-interna .article a.button:hover,.pagina-interna .article a.button:focus-visible{color:#ffffff;background:#633a29;border-color:#633a29}
