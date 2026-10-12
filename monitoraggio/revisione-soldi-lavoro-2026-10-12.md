@@ -33,3 +33,14 @@ Data: 12 ottobre 2026. Ambito: indice di rubrica, sei guide numerate 01–06, in
 6. Rubrica oggi mescola percorso di formazione e FAQ sintetiche: struttura chiarita, ma in un secondo momento potrà essere snellita l'introduzione CIG nella pagina indice.
 ## Regola editoriale
 Per ogni futura pagina: controllare congruenza numero/titolo, inserire navigazione completa, verificare href e id, distinguere regola nazionale da CCNL, citare norme primarie e data di consultazione, controllare ogni esempio numerico, verificare mobile e desktop prima di togliere «in revisione».
+
+## Seconda revisione completa del 12 ottobre 2026
+- Riesaminate le sei guide 01–06 e l’indice generale.
+- Verificata su Normattiva la novità normativa dal 28 giugno 2026: codice alfanumerico unico del CCNL nel prospetto paga (legge 4/1953 art. 1). Aggiornate guide 01 e 05.
+- Confermata da fonte del Ministero del Lavoro la riduzione al 33% della seconda aliquota IRPEF per il 2026; da fonte INPS la circolare n. 4/2026 sui massimali delle integrazioni.
+- Chiariti sull’indice obiettivo e ordine delle sei guide numerate.
+- Completata la guida 06 con confronto numerico sulle ore di integrazione e collegamenti espliciti a guide 03 e 04.
+- Verificato automaticamente che i collegamenti locali e gli identificativi di sezione delle sette pagine (indice + sei guide) esistano; tutte e sei hanno navigazione comune con sei voci.
+- Risultano cinque fotografie nel percorso, con un’immagine riutilizzata tra guide 01 e 02; la guida 06 non ha una foto dedicata.
+- I controlli sul codice non equivalgono a test browser su dispositivi reali. I collegamenti esterni non sono stati testati uno per uno sul browser: conservarli come fonti di riferimento e verificare periodicamente eventuali cambi di URL.
+- La rubrica rimane in revisione prima della pubblicazione pubblica; verifica professionale necessaria per conclusioni giuridiche individuali e casi controversi.
