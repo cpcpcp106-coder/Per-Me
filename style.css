@@ -104,3 +104,21 @@ footer{background:#3e312b}
 .pagina-interna .guide-index-links a{display:flex;align-items:center;min-height:46px;padding:10px 13px;background:#fffcf8;border:1px solid #e4d1bd;border-radius:6px;text-decoration:none;color:#754832;font-size:.93rem;font-weight:650;line-height:1.3;overflow-wrap:anywhere}
 .pagina-interna .guide-index-links a:hover,.pagina-interna .guide-index-links a:focus-visible{background:#f0dcc8;border-color:#a97857;color:#49332a}
 @media(max-width:600px){.pagina-interna .guide-index{padding:15px;margin:18px 0 24px}.pagina-interna .guide-index-links{grid-template-columns:1fr;gap:7px}.pagina-interna .guide-index-links a{min-height:48px;font-size:1rem}}
+
+/* Facsimile didattico: cinque aree leggibili senza scorrimento orizzontale */
+.pagina-interna .cedolino-demo{margin:22px 0 13px;border:1px solid #d6c2ab;border-radius:9px;background:#fffdf8;overflow:hidden;max-width:100%;box-shadow:0 3px 12px #53351b12}
+.pagina-interna .cedolino-demo-header{padding:19px 23px;background:#684a37;color:#fff;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.pagina-interna .cedolino-demo-header strong{font-size:.95rem;letter-spacing:.055em}
+.pagina-interna .cedolino-demo-header span{font-size:.74rem;letter-spacing:.045em;font-weight:650}
+.pagina-interna .cedolino-demo-area{padding:17px 22px;border-bottom:1px solid #e8dbcb}
+.pagina-interna .cedolino-demo-area:last-child{border-bottom:0}
+.pagina-interna .cedolino-demo-label{display:flex;gap:11px;align-items:center;flex-wrap:wrap;margin-bottom:10px}
+.pagina-interna .cedolino-demo-label b{display:grid;place-items:center;flex:none;background:#865842;color:white;border-radius:50%;width:30px;height:30px}
+.pagina-interna .cedolino-demo-label strong{font-family:Georgia,serif;font-size:1.2rem;color:#44342c}
+.pagina-interna .cedolino-demo-label a{margin-left:auto;font-size:.82rem;text-decoration:underline;color:#75452d}
+.pagina-interna .cedolino-demo dl{margin:0}
+.pagina-interna .cedolino-demo dl>div{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);column-gap:16px;padding:8px 0;border-top:1px solid #f1e7db}
+.pagina-interna .cedolino-demo dt{font-weight:600;color:#57483d;overflow-wrap:anywhere}
+.pagina-interna .cedolino-demo dd{margin:0;text-align:right;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.pagina-interna .cedolino-demo-total{background:#f6ebdf;padding:9px!important}
+@media(max-width:600px){.pagina-interna .cedolino-demo-header,.pagina-interna .cedolino-demo-area{padding:15px}.pagina-interna .cedolino-demo-label a{margin-left:41px;width:100%}.pagina-interna .cedolino-demo dl>div{grid-template-columns:1fr;gap:2px}.pagina-interna .cedolino-demo dd{text-align:left;padding-left:10px;border-left:2px solid #dcc5ad}.pagina-interna .cedolino-demo-header span{font-size:.7rem}}
