@@ -25,11 +25,14 @@ Evitare duplicazioni: guida base sui cedolini → guida economica lordo/netto �
 - Fonti prioritarie: ISS, Ministero della Salute, linee guida SID/AMD, fonti sanitarie istituzionali; data e revisione medica per contenuti clinici.
 - Avvertenze esplicite su ipoglicemia, terapie e necessità di valutazione curante; non sostituire il diabetologo.
 
-### Ricette per persone con diabete tipo 2
-- Ricette accessibili ed economiche, con porzioni esplicite.
+### Dieta mediterranea scientificamente documentata e ricette per persone con diabete tipo 2
+- Principi della dieta mediterranea fondati su evidenze scientifiche: alimenti vegetali, cereali preferibilmente integrali, legumi, pesce, olio extravergine di oliva; frequenze, qualità alimentare e limiti delle prove.
+- Differenza tra modello alimentare mediterraneo e singole ricette; rapporto con prevenzione cardiovascolare e gestione del diabete tipo 2, evitando promesse terapeutiche.
+- Riferimenti prioritari: CREA (Linee guida per una sana alimentazione e tabelle di composizione), ISS, documenti SID/AMD, linee guida nazionali e revisioni sistematiche di qualità.
+- Ricette accessibili ed economiche, con porzioni esplicite, ispirate ai principi della dieta mediterranea.
 - Ingredienti, quantità, preparazione, carboidrati stimati per porzione, eventuali fibre e possibili sostituzioni.
 - Dati nutrizionali verificati in banche dati attendibili (es. CREA, BDA-IEO) e ipotesi di calcolo sempre dichiarate.
 - Nessuna promessa di «ricetta che cura il diabete», né dosaggi d'insulina o indicazioni terapeutiche standard per tutti.
 - Percorso collegato alla rubrica Diabete tipo 2 e all'area «Salute e autonomia», senza ripetere gli stessi contenuti.
 
-Stato di entrambe le nuove aree: pianificate, non ancora realizzate.
+Stato delle nuove aree: pianificate, non ancora realizzate. La dieta mediterranea scientifica e le ricette saranno un percorso coordinato, con basi documentate e schede pratiche distinte.
