@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Monitoraggio delle fonti | Per Me</title><link rel="stylesheet" href="style.css?v=monitor-1"></head>
+<body class="pagina-interna"><a class="skip" href="#contenuto">Vai al contenuto</a><header><div class="wrap top"><a class="brand" href="index.html">Per Me</a><nav aria-label="Navigazione"><a href="index.html#rubriche">Rubriche</a><a href="metodo.html">Il metodo</a><a href="monitoraggio.html" aria-current="page">Monitoraggio</a></nav></div></header>
+<main class="wrap" id="contenuto"><article class="article"><p class="eyebrow">Trasparenza editoriale</p><h1>Controllo delle fonti</h1><p class="lead">Il blog verifica periodicamente che le proprie fonti siano raggiungibili e segnala se i documenti monitorati sono cambiati.</p><p><strong>Attenzione:</strong> la variazione tecnica di una pagina non dimostra una modifica della legge. Una fonte irraggiungibile può dipendere da un problema temporaneo del sito.</p>
+<div id="monitor-stato" class="note" role="status">Rapporto non ancora disponibile. Il controllo iniziale deve essere eseguito da GitHub Actions.</div>
+<div id="monitor-risultati"></div>
+<p><a href="metodo.html">Come verifichiamo le informazioni</a> · <a href="index.html">Torna alla homepage</a></p></article></main><footer><div class="wrap">Per Me · Monitoraggio informativo · In costruzione</div></footer>
+<script>
+(async()=>{
+const status=document.getElementById('monitor-stato'),target=document.getElementById('monitor-risultati');
+try{
+const response=await fetch('monitoraggio/ultimo-controllo.json?no-cache='+Date.now(),{cache:'no-store'});
+if(!response.ok)throw Error('Rapporto non ancora pubblicato');
+const report=await response.json();
+const ts=new Date(report.checked_at_utc);
+status.textContent='Ultima esecuzione: '+(Number.isNaN(ts.getTime())?report.checked_at_utc:ts.toLocaleString('it-IT'))+'. Collego i risultati alle fonti ma non approvo automaticamente modifiche normative.';
+const h=document.createElement('h2');h.textContent='Fonti monitorate';target.append(h);
+const list=document.createElement('ul');
+for(const entry of report.fonti||[]){const li=document.createElement('li');li.textContent=entry.rubrica+' — '+entry.id+': '+entry.status.replaceAll('_',' ');list.append(li)}target.append(list);
+const p=document.createElement('p');p.textContent='Collegamenti interni problematici: '+(report.collegamenti_locali_problematici||[]).length+'. Link esterni da verificare: '+(report.collegamenti_esterni||[]).filter(x=>x.status!=='raggiungibile').length+'.';target.append(p);
+}catch(e){status.textContent='Il primo rapporto automatico non è ancora disponibile. Verifica la scheda Actions del repository.'}
+})();
+</script>
+</body></html>
