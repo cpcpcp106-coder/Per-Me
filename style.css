@@ -122,3 +122,15 @@ footer{background:#3e312b}
 .pagina-interna .cedolino-demo dd{margin:0;text-align:right;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
 .pagina-interna .cedolino-demo-total{background:#f6ebdf;padding:9px!important}
 @media(max-width:600px){.pagina-interna .cedolino-demo-header,.pagina-interna .cedolino-demo-area{padding:15px}.pagina-interna .cedolino-demo-label a{margin-left:41px;width:100%}.pagina-interna .cedolino-demo dl>div{grid-template-columns:1fr;gap:2px}.pagina-interna .cedolino-demo dd{text-align:left;padding-left:10px;border-left:2px solid #dcc5ad}.pagina-interna .cedolino-demo-header span{font-size:.7rem}}
+
+/* Tabelle guida 03: righe a scheda su smartphone, senza colonne nascoste */
+@media(max-width:650px){
+.pagina-interna.rubrica-lavoro .sample-pay table{width:100%;min-width:0;display:block}
+.pagina-interna.rubrica-lavoro .sample-pay table caption{display:block}
+.pagina-interna.rubrica-lavoro .sample-pay thead{display:none}
+.pagina-interna.rubrica-lavoro .sample-pay tbody{display:block}
+.pagina-interna.rubrica-lavoro .sample-pay tr{display:block;margin:0 0 11px;border:1px solid #e0cfbf;border-radius:6px;overflow:hidden;background:#fffdfa}
+.pagina-interna.rubrica-lavoro .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #eee0d3;text-align:left;white-space:normal;overflow-wrap:anywhere}
+.pagina-interna.rubrica-lavoro .sample-pay td:last-child{border-bottom:0}
+.pagina-interna.rubrica-lavoro .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
+}
