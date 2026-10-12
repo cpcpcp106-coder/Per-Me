@@ -48,3 +48,29 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline-color:va
 .pagina-interna.rubrica-ai main h1{color:var(--ink)}
 .pagina-interna.rubrica-ai main>.eyebrow{display:inline-block;background:var(--accent-soft);padding:7px 13px;border-radius:2px}
 @media(max-width:560px){:root{font-size:16px}.pagina-interna main.wrap{padding-top:22px}.pagina-interna .article{padding:24px 20px}.pagina-interna .article h1{font-size:2rem}.top{min-height:70px}nav{gap:16px}}
+
+/* Palette calda editoriale v3 — avorio, inchiostro bruno e tonalità naturali */
+:root{--ink:#392f2a;--paper:#f8f2e9;--surface:#fffaf4;--line:#e5d7c8;--accent:#85513c;--accent-soft:#f5e8dc;--muted:#65574e;color:var(--ink);background:var(--paper)}
+body{background:var(--paper);color:var(--ink)}
+header{background:#fffaf5;border-bottom-color:var(--line)}.brand,nav a{color:#392f2a}
+h1,h2,h3{color:#382d29}a{color:var(--accent)}.eyebrow,.card small{color:var(--accent)}
+.hero,.highlight,.card{background:#fffaf5;border-color:#e6d6c5;box-shadow:0 3px 18px #68462f11}
+.button{background:#80513d}.button.quiet{color:#704832;background:#f5e6d5;border-color:#e5ccb6}
+.about{background:#f2e3d2;border-left-color:#a56c4d}
+.method{background:#efdfcd}.steps>div{background:#fffaf5;border-color:#e5d6c4}.steps strong{color:#704832}
+.duo>div{background:#fffaf5;border-top-color:#b98762}.closing{background:#674a3d}
+footer{background:#3e312b}
+.card:nth-child(1){--accent:#855640}.card:nth-child(2){--accent:#785974}.card:nth-child(3){--accent:#9a5e40}.card:nth-child(4){--accent:#60724b}.card:nth-child(5){--accent:#477778}.card:nth-child(6){--accent:#78627b}
+.pagina-interna{--accent:#85513c;--accent-soft:#f5e8dc;background:#f8f2e9}
+.pagina-interna.rubrica-lavoro{--accent:#855640;--accent-soft:#f5e8db}
+.pagina-interna.rubrica-pensione{--accent:#785974;--accent-soft:#f3eaf0}
+.pagina-interna.rubrica-debiti{--accent:#9a5e40;--accent-soft:#f6e9dd}
+.pagina-interna.rubrica-diritti{--accent:#60724b;--accent-soft:#eff1e4}
+.pagina-interna.rubrica-salute{--accent:#477778;--accent-soft:#e8f1ee}
+.pagina-interna.rubrica-ai{--accent:#78627b;--accent-soft:#f0e9f1}
+.pagina-interna .brand,.pagina-interna.rubrica-ai main h1{color:#392f2a}
+.pagina-interna .article{background:#fffdf9;border-color:#e5d7c8;border-top-color:var(--accent);box-shadow:0 7px 28px #6e483013}
+.pagina-interna .article h2{border-top-color:#eaded1}
+.pagina-interna .lead{color:#594a40}
+.pagina-interna .muted-small,.pagina-interna .crumb{color:#726156}
+.pagina-interna.rubrica-ai main.wrap{background:#fffdf9;border-color:#e5d7c8;border-top-color:var(--accent)}
