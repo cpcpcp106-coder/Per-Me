@@ -1,0 +1,117 @@
+{
+  "checked_at_utc": "2026-10-12T14:27:27+00:00",
+  "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
+  "fonti": [
+    {
+      "id": "busta-paga",
+      "rubrica": "Soldi e lavoro",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"
+    },
+    {
+      "id": "cigo",
+      "rubrica": "Soldi e lavoro",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"
+    },
+    {
+      "id": "fis",
+      "rubrica": "Soldi e lavoro",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"
+    },
+    {
+      "id": "lavoro",
+      "rubrica": "Soldi e lavoro",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.lavoro.gov.it/",
+      "final_url": "https://www.lavoro.gov.it/"
+    },
+    {
+      "id": "pensioni",
+      "rubrica": "Pensione e invalidità",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.inps.it/",
+      "final_url": "https://www.inps.it/"
+    },
+    {
+      "id": "cartelle",
+      "rubrica": "Debiti e cartelle",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.agenziaentrateriscossione.gov.it/",
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/"
+    },
+    {
+      "id": "agevolazioni",
+      "rubrica": "Agevolazioni e diritti",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.regione.fvg.it/",
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/"
+    },
+    {
+      "id": "salute",
+      "rubrica": "Salute e autonomia",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.salute.gov.it/",
+      "final_url": "https://www.salute.gov.it/"
+    },
+    {
+      "id": "ai",
+      "rubrica": "Tutor AI essenziale",
+      "status": "prima_verifica",
+      "http": 200,
+      "url": "https://www.agid.gov.it/",
+      "final_url": "https://www.agid.gov.it/it"
+    }
+  ],
+  "pagine_controllate": 10,
+  "collegamenti_locali_problematici": [],
+  "collegamenti_esterni": [
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
+      "status": "raggiungibile",
+      "http": 200
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+      "status": "raggiungibile",
+      "http": 200
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "status": "raggiungibile",
+      "http": 200
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2022/10/Circolare_13955/Allegati/13847_Circolare-numero-109-del-05-10-2022.pdf",
+      "status": "raggiungibile",
+      "http": 200
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf",
+      "status": "raggiungibile",
+      "http": 200
+    }
+  ]
+}

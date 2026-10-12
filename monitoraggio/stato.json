@@ -1,0 +1,47 @@
+{
+  "busta-paga": {
+    "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+    "sha256": "5e5c81198466bd20123a89584fdf2fc9c39aa3845a83daa158528625ae3a2dae",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "cigo": {
+    "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+    "sha256": "2f4f5c4bf088e8a1d49058fa0f3726098a3fde4a216677e7e05033517401b163",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "fis": {
+    "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+    "sha256": "9581435dc214387db497340da20777b220939eba06497a6350bff1924b7002e8",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "lavoro": {
+    "url": "https://www.lavoro.gov.it/",
+    "sha256": "a62fcf9ad0fb8726853678d84ab70bbbd3a9a423ed66f093ece98e0bcf1af481",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "pensioni": {
+    "url": "https://www.inps.it/",
+    "sha256": "3f15ceeea8c6962b979868dbc5e4c368f902a487235b105451d824b76169f892",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "cartelle": {
+    "url": "https://www.agenziaentrateriscossione.gov.it/",
+    "sha256": "05dc77bc68dd5b7424062a5e1e56531cb8352d7fb6a6ce8237cfb9f763bb02ac",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "agevolazioni": {
+    "url": "https://www.regione.fvg.it/",
+    "sha256": "3edd106c26d5c3308c8a64d5876ecbe44f84ed3747ed248ceb1d6432d0ed17d0",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "salute": {
+    "url": "https://www.salute.gov.it/",
+    "sha256": "efe381696d76b24685d956ee5408d5df1863bc59a2d8b51c2d6d848fd5f6ef57",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  },
+  "ai": {
+    "url": "https://www.agid.gov.it/",
+    "sha256": "92518b0d5b2628f19f20e82b59838765fb149f149958f0f2ca5bbbba9bf3d9a4",
+    "last_checked": "2026-10-12T14:27:27+00:00"
+  }
+}
