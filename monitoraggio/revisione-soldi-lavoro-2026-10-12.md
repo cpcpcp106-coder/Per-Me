@@ -1,5 +1,5 @@
 # Per Me — Revisione trasversale «Soldi & Lavoro»
-Data: 12 ottobre 2026. Ambito: indice di rubrica, guide numerate 01–05, approfondimento sul cedolino con CIG/solidarietà.
+Data: 12 ottobre 2026. Ambito: indice di rubrica, sei guide numerate 01–06, inclusa la guida sul cedolino con CIG/solidarietà.
 
 ## Architettura editoriale verificata
 01. Come leggere una busta paga — riconoscimento delle sezioni del cedolino.
@@ -7,13 +7,13 @@ Data: 12 ottobre 2026. Ambito: indice di rubrica, guide numerate 01–05, approf
 03. Ore, ferie, permessi, malattia, straordinari — verifica delle quantità e causali.
 04. Lo stipendio è diminuito — confronto diagnostico fra mesi e richiesta di chiarimenti.
 05. CCNL, livello e superminimo — individuazione del contratto, inquadramento e assorbimento.
-Approfondimento autonomo: cedolino con CIG e solidarietà. Non è la guida 06: la futura guida 06 riguarderà differenze e requisiti CIGO, CIGS, FIS e solidarietà.
+06. Cedolino con CIG e solidarietà — controllo delle ore e del pagamento in regime di integrazione salariale.
 
 ## Verifiche automatiche sul repository
 - Percorso trasversale inserito in ciascuna delle 6 pagine: 6 voci, con stato della pagina corrente.
 - Tutti i link locali tra le 7 pagine di rubrica, oltre alle pagine index/metodo/progetto, risolti per esistenza del file e delle ancore nel codice.
 - Foglio di stile condiviso aggiornato con griglia su desktop e voci verticali su telefono.
-- Numerazione contraddittoria della guida specialistica CIG eliminata.
+- Numerazione delle sei guide resa coerente, inclusa la guida 06 su CIG e solidarietà.
 - Esempi controllati: guida 02 (26.400 / 24.000 / detrazioni e netto teorico), guida 03 (33 ore; 41,33 ore ferie; 45 euro su tre ore), guida 04 (1.480 vs 1.340), guida 05 (1.900 con superminimo assorbito; 1.960 non assorbito). Gli esempi sono ipotetici e non personalizzati.
 
 ## Fonti primarie controllate e utilità
@@ -29,7 +29,7 @@ Approfondimento autonomo: cedolino con CIG e solidarietà. Non è la guida 06: l
 2. Alcune pagine istituzionali possono limitare i controlli automatizzati o cambiare indirizzo; nessuna dichiarazione di funzionamento browser universale.
 3. Per pubblicazione definitiva delle parti legali (assorbibilità del superminimo, mansioni, contestazioni), opportuna revisione specialistica sul testo aggiornato e sul CCNL applicabile.
 4. Esempio IRPEF guida 02 con semplificazioni esplicite: verificare nelle successive revisioni eventuali cambi legislativi, regole di detrazione e prospetti mensili.
-5. Da sviluppare come guida 06 autonoma: differenze tra CIGO/CIGS/FIS/solidarietà e relativi requisiti. Non duplicare l'approfondimento pratico sul cedolino.
+5. Da sviluppare come futura guida 07: differenze tra CIGO/CIGS/FIS/solidarietà e relativi requisiti, senza duplicare i controlli della guida 06.
 6. Rubrica oggi mescola percorso di formazione e FAQ sintetiche: struttura chiarita, ma in un secondo momento potrà essere snellita l'introduzione CIG nella pagina indice.
 ## Regola editoriale
 Per ogni futura pagina: controllare congruenza numero/titolo, inserire navigazione completa, verificare href e id, distinguere regola nazionale da CCNL, citare norme primarie e data di consultazione, controllare ogni esempio numerico, verificare mobile e desktop prima di togliere «in revisione».
