@@ -90,3 +90,6 @@ footer{background:#3e312b}
 /* Contrasto accessibile per i pulsanti nelle guide */
 .pagina-interna .article a.button,.pagina-interna .article a.button:visited{color:#ffffff;background:#80513d;text-decoration:none;font-weight:750;border:2px solid #80513d;display:inline-block}
 .pagina-interna .article a.button:hover,.pagina-interna .article a.button:focus-visible{color:#ffffff;background:#633a29;border-color:#633a29}
+
+/* Immagine d'apertura della rubrica Soldi & Lavoro */
+.pagina-interna .rubrica-hero{margin:22px 0 28px}.pagina-interna .rubrica-hero img{display:block;width:100%;height:auto;max-height:380px;object-fit:cover;object-position:center;border-radius:8px}.pagina-interna .rubrica-hero figcaption{font-size:.84rem;color:#715849;margin-top:9px;text-align:right}
