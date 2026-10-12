@@ -1,6 +1,11 @@
 name: Per Me - Controllo fonti e collegamenti
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/monitoraggio.yml'
+      - 'monitoraggio/controlla.py'
+      - 'monitoraggio/fonti.json'
   schedule:
     - cron: '15 7 * * 1'
 
