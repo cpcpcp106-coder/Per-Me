@@ -93,3 +93,6 @@ footer{background:#3e312b}
 
 /* Immagine d'apertura della rubrica Soldi & Lavoro */
 .pagina-interna .rubrica-hero{margin:22px 0 28px}.pagina-interna .rubrica-hero img{display:block;width:100%;height:auto;max-height:380px;object-fit:cover;object-position:center;border-radius:8px}.pagina-interna .rubrica-hero figcaption{font-size:.84rem;color:#715849;margin-top:9px;text-align:right}
+
+/* Navigazione fra guide di Soldi & Lavoro */
+.pagina-interna .percorso-guide{padding:20px 24px;margin:32px 0;background:#f7ede2;border-left:4px solid #855640;border-radius:6px}.pagina-interna .percorso-guide h2{margin-top:0;border:0;padding-top:0}.pagina-interna .percorso-guide li{margin:12px 0}.pagina-interna .percorso-guide li span{display:block;font-size:.82rem;color:#755a46}.pagina-interna .guide-index{padding:17px;background:#f5e8dc;border-radius:6px;line-height:2}.pagina-interna .sample-pay{max-width:100%;overflow-x:auto;margin:18px 0 30px}.pagina-interna .sample-pay table{width:100%;border-collapse:collapse;font-size:.91rem}.pagina-interna .sample-pay caption{text-align:left;font-weight:700;margin-bottom:9px}.pagina-interna .sample-pay td,.pagina-interna .sample-pay th{padding:10px 12px;border:1px solid #e3d2c1;text-align:left}.pagina-interna .sample-pay th{background:#f3e5d5}
