@@ -96,3 +96,11 @@ footer{background:#3e312b}
 
 /* Navigazione fra guide di Soldi & Lavoro */
 .pagina-interna .percorso-guide{padding:20px 24px;margin:32px 0;background:#f7ede2;border-left:4px solid #855640;border-radius:6px}.pagina-interna .percorso-guide h2{margin-top:0;border:0;padding-top:0}.pagina-interna .percorso-guide li{margin:12px 0}.pagina-interna .percorso-guide li span{display:block;font-size:.82rem;color:#755a46}.pagina-interna .guide-index{padding:17px;background:#f5e8dc;border-radius:6px;line-height:2}.pagina-interna .sample-pay{max-width:100%;overflow-x:auto;margin:18px 0 30px}.pagina-interna .sample-pay table{width:100%;border-collapse:collapse;font-size:.91rem}.pagina-interna .sample-pay caption{text-align:left;font-weight:700;margin-bottom:9px}.pagina-interna .sample-pay td,.pagina-interna .sample-pay th{padding:10px 12px;border:1px solid #e3d2c1;text-align:left}.pagina-interna .sample-pay th{background:#f3e5d5}
+
+/* Indice guida a schede: leggibile su desktop e telefono */
+.pagina-interna .guide-index{background:#f5e8dc;padding:18px 20px;border-radius:8px;line-height:1.45;margin:22px 0 30px}
+.pagina-interna .guide-index>strong{display:block;margin-bottom:13px;color:#49332a}
+.pagina-interna .guide-index-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.pagina-interna .guide-index-links a{display:flex;align-items:center;min-height:46px;padding:10px 13px;background:#fffcf8;border:1px solid #e4d1bd;border-radius:6px;text-decoration:none;color:#754832;font-size:.93rem;font-weight:650;line-height:1.3;overflow-wrap:anywhere}
+.pagina-interna .guide-index-links a:hover,.pagina-interna .guide-index-links a:focus-visible{background:#f0dcc8;border-color:#a97857;color:#49332a}
+@media(max-width:600px){.pagina-interna .guide-index{padding:15px;margin:18px 0 24px}.pagina-interna .guide-index-links{grid-template-columns:1fr;gap:7px}.pagina-interna .guide-index-links a{min-height:48px;font-size:1rem}}
