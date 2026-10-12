@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "description": "Fonti iniziali da monitorare. Una variazione web non prova un cambio normativo.",
+  "sources": [
+    {"id":"busta-paga","rubrica":"Soldi e lavoro","url":"https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"},
+    {"id":"cigo","rubrica":"Soldi e lavoro","url":"https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"},
+    {"id":"fis","rubrica":"Soldi e lavoro","url":"https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"},
+    {"id":"lavoro","rubrica":"Soldi e lavoro","url":"https://www.lavoro.gov.it/"},
+    {"id":"pensioni","rubrica":"Pensione e invalidità","url":"https://www.inps.it/"},
+    {"id":"cartelle","rubrica":"Debiti e cartelle","url":"https://www.agenziaentrateriscossione.gov.it/"},
+    {"id":"agevolazioni","rubrica":"Agevolazioni e diritti","url":"https://www.regione.fvg.it/"},
+    {"id":"salute","rubrica":"Salute e autonomia","url":"https://www.salute.gov.it/"},
+    {"id":"ai","rubrica":"Tutor AI essenziale","url":"https://www.agid.gov.it/"}
+  ]
+}
