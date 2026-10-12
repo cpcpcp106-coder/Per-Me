@@ -151,3 +151,16 @@ footer{background:#3e312b}
 .pagina-interna.guida-04 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
 .pagina-interna.guida-04 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;color:#795744;font-size:.78rem;font-weight:700;margin-bottom:3px}
 }
+
+/* Guida 05: tabelle in schede verticali sui telefoni */
+@media(max-width:650px){
+.pagina-interna.guida-05 .sample-pay table{width:100%;min-width:0;display:block}
+.pagina-interna.guida-05 .sample-pay caption{display:block}
+.pagina-interna.guida-05 .sample-pay thead{display:none}
+.pagina-interna.guida-05 .sample-pay tbody{display:block}
+.pagina-interna.guida-05 .sample-pay tr{display:block;margin:0 0 11px;border:1px solid #e0cfbf;border-radius:6px;overflow:hidden;background:#fffdfa}
+.pagina-interna.guida-05 .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #eee0d3;text-align:left;white-space:normal;overflow-wrap:anywhere}
+.pagina-interna.guida-05 .sample-pay td:last-child{border-bottom:0}
+.pagina-interna.guida-05 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
+.pagina-interna.guida-05 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;color:#795744;font-size:.78rem;font-weight:700;margin-bottom:3px}
+}
