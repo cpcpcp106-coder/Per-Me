@@ -72,6 +72,7 @@ Esaminato l'intero albero del repository `main` (87 file prima di questo rapport
 | Media | Rapporto precedente elencava solo 8 guide e 19 pagine operative | **SUPERATO** | **CORRETTO storicamente**: presente V2, il rapporto originale è conservato |
 | Aperta | Cinque guide Soldi & Lavoro riportano `noindex` | SEO/decisione editoriale | **NON CAMBIATO**, in attesa di verifica normativa completa prima dell'indicizzazione |
 | Alta, aperta | File HTML di 1,2 MB esterno alla navigazione non controllato per dati personali | Privacy | **NON RISOLTO**: controllo dei contenuti e possibile bonifica da valutare; nessuna cancellazione effettuata |
+| Media, aperta | La Home pubblica nome e cognome dell'autore, ritratto e **data di nascita completa** | Privacy / minimizzazione | **NON CAMBIATO**: non è automaticamente un illecito, ma merita una decisione esplicita dell'autore sull'opportunità di mantenere la data completa online |
 | Alta, aperta | Non risultano test completi reali su 14 guide normative e PWA | Affidabilità | **NON RISOLTO**: richiede inventario delle proposizioni e prove browser/telefono |
 | Aperta | Necessità di test HTTP sistematico degli indirizzi HTTP(S) | Qualità fonti | **NON RISOLTO**: link presenti nel sorgente non equivale a disponibilità o prova della citazione |
 
@@ -120,7 +121,7 @@ Il voto per guida è deliberatamente **poco discriminante**: i controlli profond
 
 ## 6. Priorità residue prima di dichiarare il sito affidabile
 
-1. **Urgente: revisione privacy del file HTML storico da 1,2 MB**, incluse eventuali copie in GitHub history. Non cancellarlo senza esaminarlo, ma non assumere che l'assenza di link lo renda privato.
+1. **Urgente: revisione privacy del file HTML storico da 1,2 MB**, incluse eventuali copie in GitHub history. Non cancellarlo senza esaminarlo, ma non assumere che l'assenza di link lo renda privato. Nella stessa valutazione considerare la **data di nascita completa mostrata nella Home** accanto al nome e al ritratto; non modificarla senza decisione dell'autore.
 2. **Fact-check delle 14 guide a livello di singole proposizioni**, con matrice `affermazione → norma vigente → territorio → applicabilità → fonte → esito`, compresi benefici AOI, invalidità, redditi e termini; qualificare tutte le scadenze transitorie.
 3. **Test PWA Android e offline**: installazione reale da Home, icona unica, ritorno alla Home del sito, primo sync completo, navigazione in modalità aereo, perdita di memoria e aggiornamento di un articolo. Il codice consente un percorso ma non prova il risultato.
 4. **Test WCAG 2.2 AA** con tastiera, zoom 200% e 400%, contrasto calcolato, screen reader e area di tocco, in particolare sulle tabelle su mobile e dentro la PWA.
