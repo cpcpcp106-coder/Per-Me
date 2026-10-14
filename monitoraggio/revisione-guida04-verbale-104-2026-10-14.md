@@ -62,3 +62,27 @@ Verificati nuovamente testo della guida, INPS, normativa e rinvii.
 
 ### Limiti del collaudo
 Non è stata effettuata una navigazione autenticata a MyINPS né la visione del rendering effettivo sul telefono dell'utente. La verifica HTML non equivale a validazione W3C o test di accessibilità con lettore di schermo. Nelle controversie personali serve leggere il provvedimento e gli eventuali termini.
+
+
+## Terzo audit integrale — 14 ottobre 2026 (revisione operativa, pubblicazione)
+
+### Correzioni sul sito
+1. **Ricorso sanitario e termini**: integrato richiamo operativo al termine indicato da INPS di sei mesi dall'emissione del diniego sanitario, con ATPO e distinzione dalle contestazioni amministrative. Fonte nuova n. 13: https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html. Non fare affidamento su semplici richieste di chiarimento per interrompere i termini.
+2. **104 comma 1/3 e riforma**: spiegazione distinta tra le formulazioni dei verbali tradizionali e i livelli di sostegno/necessità di sostegno intensivo del d.lgs. 62/2024; verificati Normattiva e FAQ INPS.
+3. **INPS circolare 100/2026**: precisato che riguarda superamento del limite dei tre giorni e fruizione contemporanea da parte di più aventi diritto, non solo semplice suddivisione.
+4. **Over 70 dal 1° giugno 2026**: esplicitato che la procedura tradizionale con domanda entro 90 giorni vale quando ricorrono **entrambe** le condizioni rilevate dal medico (patologie croniche e perdita progressiva di autonomia); altrimenti l'invio del nuovo certificato avvia il procedimento.
+5. **Checklist e comprensibilità**: richiamo chiaro ai termini e alle convocazioni di revisione; titolo, metadati e fonti aggiornati.
+6. **SEO**: eliminata per questa guida l'istruzione `noindex,nofollow`; aggiunto URL canonico e `index,follow`. Gli analoghi metadati su **altre pagine** non sono stati modificati da questa revisione.
+7. **Leggibilità mobile**: aumentati gli stili di didascalie, note e piccole etichette per la Guida 04; CSS versionato nel collegamento HTML. La foto realistica sostituisce la precedente illustrazione, come richiesto dall'autore.
+
+### Prove effettuate
+- Consultate INPS: Portale disabilità, fonte 2026 marzo terza fase (40 province incluse Udine/Pordenone), comunicazione over 70 maggio, circolare 100/2026 settembre, circolare 127/2016 revisione, pagina sul ricorso e FAQ certificato unico.
+- Confermati 13 riferimenti numerati, 33 rinvii locali con ancore esistenti, nessun identificativo HTML ripetuto.
+- Modifiche commit del 14 ottobre 2026: `e40172f11ec887f337f89e25542d18c365276b39` (testo) e `6eecf36b6ca7a2f874cc69eefc6402f4860948a8` (CSS).
+- L'app testuale ottiene il contenuto dal sito con il successivo aggiornamento online. La revisione non ha modificato il codice dell'app.
+- La pubblicazione GitHub Pages e il rendering su smartphone devono essere controllati separatamente, senza equipararli al semplice commit.
+
+### Limiti residui
+- Nessuna verifica autenticata nei servizi personali INPS né consulenza giuridica su un caso concreto.
+- I metadati `noindex,nofollow` eventualmente presenti in altre pagine richiedono un intervento SEO distinto, se il blog è destinato alla ricerca pubblica.
+- L'accessibilità verificata nel codice non sostituisce collaudo con screen reader e dispositivi reali.
