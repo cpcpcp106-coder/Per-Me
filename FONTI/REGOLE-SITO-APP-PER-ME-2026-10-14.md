@@ -28,6 +28,7 @@
 - Logo coerente in sito, app, manifest PWA, icone Android e favicon/collegamento desktop. **Non tornare alle icone "PI" o "PM"**. Non sostituire il logo approvato senza consenso dell'autore.
 - Le fotografie editoriali sul sito devono essere differenti e pertinenti per guida/rubrica; per le immagini delle guide non è richiesta approvazione preventiva prima della pubblicazione. L'autore le verifica successivamente sul sito. L'app può mantenere la lettura prevalentemente solo testo.
 - **Coerenza fra copertine:** per le guide privilegiare scene fotografiche realistiche, ambientate e sobrie, con palette naturale (cognac, legno, crema, verde salvia); evitare copertine isolate in stile infografica o fumetto e grandi scritte dentro le immagini. Ogni guida deve avere una propria immagine distinta, non riciclata da altre guide.
+- **Varietà di persone e ambientazioni:** non riproporre sistematicamente lo stesso uomo maturo allo stesso tavolo. Alternare in modo realistico figure femminili e maschili, inquadrature, contesti e gesti, mantenendo coerenza con il tema di ciascuna guida e controllando l'anatomia (in particolare mani e braccia) prima della pubblicazione.
 
 ## 5. CAF/Patronato e precisione delle fonti
 - Quando pertinente, mantenere in prima persona la testimonianza: **"Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento (UD)."** Non presentarla come convenzione o patrocinio.
