@@ -8,14 +8,16 @@
 <title>Per Me · Guide offline</title>
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="app.css?v=4">
-<script defer src="main.js?v=6"></script>
+<link rel="stylesheet" href="app.css?v=7">
+<script defer src="main.js?v=7"></script>
 <meta name="robots" content="noindex,follow"></head>
 <body>
 <a class="skip" href="#main">Salta al contenuto</a>
 <header class="top">
  <div class="shell"><div class="app-brand"><img class="app-brand-logo" src="icon-192.png" width="88" height="88" alt=""><div><p class="eyebrow">PER ME · GUIDA PRATICA</p><h1>Per Me</h1></div></div><p>I testi del sito salvati sul telefono sono consultabili anche senza Internet. Per ricevere nuove versioni serve una connessione.</p>
- <div id="connection" class="connection" role="status" aria-live="polite">Verifico i contenuti disponibili…</div></div>
+ <div id="connection" class="connection" role="status" aria-live="polite">Verifico i contenuti disponibili…</div>
+ <div class="install-help" id="install-help"><button type="button" id="install-app" class="refresh">Installa Per Me sul telefono</button>
+ <p class="smallstatus" id="install-tip">L'installazione aggiunge un'icona alla schermata iniziale. Se il pulsante non apre la conferma, in Chrome usa il menu ⋮ e scegli «Aggiungi a schermata Home» oppure «Installa app», se disponibile. La prima sincronizzazione delle guide richiede Internet.</p></div></div>
 </header>
 <main class="shell" id="main">
  <section id="catalogue" aria-labelledby="catalogue-title">
@@ -24,7 +26,7 @@
    <button class="refresh" id="refresh" type="button">Aggiorna le guide</button>
   </div>
   <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Il primo salvataggio richiede Internet. Le copie già salvate si possono leggere offline; i collegamenti esterni richiedono una connessione.</p>
-  <p class="smallstatus">L’app conserva i testi delle sei rubriche e delle relative guide. Le foto e le pagine «Il metodo», «Monitoraggio» e «Il progetto» restano sul sito; i collegamenti a quelle pagine richiedono Internet.</p>
+  <p class="smallstatus">L’app prova a salvare <strong>soltanto i testi</strong> delle sei rubriche e delle guide. Le foto, le pagine esterne e le fonti richiedono Internet. Le copie offline possono essere rimosse dal telefono per esaurimento di spazio o pulizia dei dati: non sostituiscono la documentazione originale e vanno aggiornate quando possibile.</p>
   <label for="search">Cerca una guida</label>
   <input id="search" type="search" placeholder="Es. cedolino, INPS, ISEE" autocomplete="off">
   <div class="filters" role="group" aria-label="Filtra le guide">
@@ -42,5 +44,5 @@
   <button type="button" id="bottom-back" class="back">← Torna alle guide</button>
  </section>
 </main>
-<footer><div class="shell">Per Me · Blog personale gratuito, senza scopo di lucro. Le guide non sostituiscono i servizi competenti.</div></footer>
+<footer><div class="shell">Per Me · Blog personale gratuito, senza scopo di lucro. Le guide non sostituiscono i servizi competenti. <a href="../index.html">Torna al sito completo (richiede Internet)</a>.</div></footer>
 </body></html>
