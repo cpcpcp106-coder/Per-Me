@@ -1,5 +1,5 @@
-const CACHE='perme-reader-v2-20261014';
-const SHELL=['./','./index.html','./app.css?v=2','./main.js?v=2','./manifest.webmanifest','./icon.svg'];
+const CACHE='perme-reader-v3-20261014';
+const SHELL=['./','./index.html','./app.css?v=3','./main.js?v=3','./manifest.webmanifest','./icon.svg'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
 });
@@ -17,8 +17,9 @@ self.addEventListener('fetch',event=>{
   }).catch(async()=>await caches.match('./index.html')||Response.error()));
   return;
  }
- event.respondWith(caches.match(req).then(hit=>hit||fetch(req).then(response=>{
+ // In rete prendi le nuove risorse. Offline ripiega sulla cache.
+ event.respondWith(fetch(req,{cache:'no-store'}).then(response=>{
   if(response.ok){const copy=response.clone();caches.open(CACHE).then(cache=>cache.put(req,copy)).catch(()=>{})}
   return response;
- })));
+ }).catch(()=>caches.match(req).then(hit=>hit||Response.error())));
 });
