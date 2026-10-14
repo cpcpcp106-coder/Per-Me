@@ -38,7 +38,7 @@ Evitare duplicazioni: guida base sui cedolini → guida economica lordo/netto �
 Stato delle nuove aree: pianificate, non ancora realizzate. La dieta mediterranea scientifica e le ricette saranno un percorso coordinato, con basi documentate e schede pratiche distinte.
 
 ## Rubrica 02 — Pensione e invalidità (ripresa il 14 ottobre 2026)
-Stato: indice di rubrica riprogettato; guide 01–07 disponibili e collegate. Fonti istituzionali, verifica editoriale e immagini distinte per ogni guida.
+Stato: indice di rubrica riprogettato; guide 01–08 disponibili e collegate. Fonti istituzionali, verifica editoriale e immagini distinte per ogni guida.
 Percorso previsto (confermato nell'indice):
 1. Pagamento INPS sospeso o domanda respinta: prime verifiche e rimedi distinti — DISPONIBILE.
 2. AOI: requisiti, triennio, domanda di conferma, lavoro e integrazione al minimo 2026 — DISPONIBILE: `assegno-ordinario-invalidita-requisiti-conferma.html`.
@@ -47,5 +47,5 @@ Percorso previsto (confermato nell'indice):
 5. Cedolino pensione, OBIS/M e arretrati — DISPONIBILE: `cedolino-pensione-obism-arretrati-verificare-importi.html` (10 fonti INPS, cedolino/OBIS-M/CU distinti, controlli su pagamenti, arretrati, trattenute e casi pratici).
 6. Contributi, estratto conto e pensione vicina — DISPONIBILE: `contributi-inps-estratto-conto-pensione-vicina.html` (contributi figurativi, rettifiche, ECOCERT, simulazioni e requisiti 2026–2028).
 7. RED, redditi e comunicazioni obbligatorie — DISPONIBILE: `redditi-red-comunicazioni-obbligatorie-inps.html` (15 fonti INPS, RED Precompilato, differenze con 730/ISEE, Consulente RED, ICLAV/ICRIC/ACC. AS/PS, sospensioni e campagne RED 2026).
-8. Riesame, ricorsi e termini: procedure separate per materia — DA SVILUPPARE.
+8. Riesame, ricorsi e termini: procedure separate per materia — DISPONIBILE: `riesame-ricorso-inps-termini.html` (13 fonti INPS, autotutela, ricorsi amministrativi e giudiziari, invalidità civile, AGO e Gestione Dipendenti Pubblici, indebito e scadenze).
 Regole editoriali: fonti primarie INPS e norme aggiornate, distinguere strumenti e tipo di prestazione, verificare le scadenze specifiche e le norme transitorie; niente link a guide inesistenti. Sviluppare ogni guida solo dopo verifica delle fonti. Non usare casi personali né dati identificativi reali negli esempi. Eseguire collaudo browser e telefono prima di togliere noindex.
