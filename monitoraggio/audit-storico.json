@@ -91,6 +91,29 @@
         "fact-check frase per frase 14 guide non completato",
         "test link HTTP, PWA su Android e WCAG non eseguiti"
       ]
+    },
+    {
+      "date": "2026-10-14",
+      "version": "v3-interventi-autonomi",
+      "score_before": 57,
+      "score_after": 57,
+      "score_status": "Punteggio V2 invariato in attesa di ricalcolo basato su nuovi collaudi: i lavori sono documentati come interventi, non aumento automatico del voto.",
+      "guide_count": 14,
+      "candidate_paragraphs_identified": 476,
+      "confirmed_statements_new_record": 9,
+      "atomic_claims_complete": false,
+      "privacy_removed_from_main": true,
+      "privacy_removed_from_history": false,
+      "pwa_js_updated": true,
+      "pwa_live_android_test": false,
+      "monitoring_checker_updated": true,
+      "report": "monitoraggio/interventi-autonomi-2026-10-14.md",
+      "remaining": [
+        "storia Git contiene il documento rimosso",
+        "verifica delle affermazioni non completa",
+        "collaudo PWA su Samsung non eseguito",
+        "WCAG e link HTTP non verificati integralmente"
+      ]
     }
   ]
 }
