@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#234438">
+<meta name="description" content="Per Me: guide del sito consultabili anche senza connessione, con aggiornamento online.">
+<title>Per Me · Guide offline</title>
+<link rel="icon" type="image/svg+xml" href="icon.svg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app.css?v=2">
+<script defer src="main.js?v=2"></script>
+</head>
+<body>
+<a class="skip" href="#main">Salta al contenuto</a>
+<header class="top">
+ <div class="shell"><p class="eyebrow">PER ME · GUIDA PRATICA</p><h1>Per Me</h1><p>Le guide del sito, da leggere anche senza Internet.</p>
+ <div id="connection" class="connection" role="status" aria-live="polite">Verifico i contenuti disponibili…</div></div>
+</header>
+<main class="shell" id="main">
+ <section id="catalogue" aria-labelledby="catalogue-title">
+  <div class="toolbar">
+   <h2 id="catalogue-title">Le guide</h2>
+   <button class="refresh" id="refresh" type="button">Aggiorna le guide</button>
+  </div>
+  <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Le guide già salvate sono disponibili anche offline.</p>
+  <label for="search">Cerca una guida</label>
+  <input id="search" type="search" placeholder="Es. cedolino, INPS, ISEE" autocomplete="off">
+  <div class="filters" role="group" aria-label="Filtra le guide">
+   <button type="button" class="filter active" data-filter="all" aria-pressed="true">Tutte</button>
+   <button type="button" class="filter" data-filter="favorite" aria-pressed="false">Preferite</button>
+  </div>
+  <div id="guide-list" class="guide-list" aria-live="polite"></div>
+ </section>
+ <section id="reader" hidden aria-labelledby="reader-title">
+  <div class="reader-actions"><button type="button" id="back" class="back">← Torna alle guide</button><button type="button" id="favorite" class="favorite" aria-pressed="false">Salva nei preferiti</button></div>
+  <p class="eyebrow" id="reader-category"></p>
+  <h2 id="reader-title"></h2>
+  <article id="reader-content" class="reader-content"></article>
+  <button type="button" id="bottom-back" class="back">← Torna alle guide</button>
+ </section>
+</main>
+<footer><div class="shell">Per Me · Blog personale gratuito, senza scopo di lucro. Le guide non sostituiscono i servizi competenti.</div></footer>
+</body></html>
