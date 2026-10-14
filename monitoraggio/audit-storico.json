@@ -47,6 +47,50 @@
         "missing_image_alt": 0,
         "inline_js_syntax_errors": 0
       }
+    },
+    {
+      "date": "2026-10-14",
+      "version": "v2",
+      "scope": "Repository main: 26/26 pagine HTML operative, 14/14 guide; fonti normative campione; analisi statica PWA",
+      "score_before": 52,
+      "score_after": 57,
+      "score_status": "provvisorio; rubric V2 differente da audit iniziale; non certificazione",
+      "html_pages_scanned": 26,
+      "guides_scanned": 14,
+      "guides_fully_fact_checked": 0,
+      "factual_claims_sampled": 14,
+      "sample_confirmed": 13,
+      "sample_ambiguous": 1,
+      "factual_claims_total": "non enumerati integralmente",
+      "sitewide_factcheck_percentage": null,
+      "href_occurrences_before": 919,
+      "absolute_http_href_occurrences_before": 242,
+      "local_paths_missing_static": 0,
+      "external_http_end_to_end_checked": false,
+      "browser_site_public_access": "non disponibile nella sessione",
+      "browser_pwa_install_test": false,
+      "android_offline_test": false,
+      "wcag_22_full_test": false,
+      "sitemap_urls_before": 11,
+      "sitemap_urls_after": 14,
+      "javascript_syntax_check": "app/main.js e app/sw.js compilabili",
+      "corrections": [
+        "sitemap.xml",
+        "index.html",
+        "app/index.html",
+        "app/main.js",
+        "app/sw.js",
+        "app/app.css",
+        "style.css",
+        "monitoraggio.html"
+      ],
+      "report": "monitoraggio/audit-integrale-2026-10-14-v2.md",
+      "open": [
+        "file HTML storico pubblico da 1.2 MB da verificare per privacy",
+        "5 guide Soldi & Lavoro con noindex, in attesa di convalida completa",
+        "fact-check frase per frase 14 guide non completato",
+        "test link HTTP, PWA su Android e WCAG non eseguiti"
+      ]
     }
   ]
 }
