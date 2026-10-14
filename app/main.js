@@ -10,10 +10,10 @@ const SECTIONS=[
  ['tutor-ai.html','Tutor AI essenziale']
 ];
 const CATEGORIES=new Map(SECTIONS),EXCLUDED=new Set(['index.html','metodo.html','monitoraggio.html','chi-siamo.html']);
-const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false};
+const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false,storageOk:true};
 const element=id=>document.getElementById(id);
 function restore(){try{let s=JSON.parse(localStorage.getItem(KEY)||'{}');model.guides=Array.isArray(s.guides)?s.guides:[];model.favorites=Array.isArray(s.favorites)?s.favorites:[];model.updated=s.updated||null;}catch(e){}}
-function persist(){try{localStorage.setItem(KEY,JSON.stringify({guides:model.guides,favorites:model.favorites,updated:model.updated}));return true}catch(e){element('sync-status').textContent='Memoria piena: non posso salvare tutte le nuove guide.';return false}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify({guides:model.guides,favorites:model.favorites,updated:model.updated}));model.storageOk=true;return true}catch(e){model.storageOk=false;element('sync-status').textContent='Spazio di archiviazione insufficiente o salvataggio bloccato: le nuove guide NON sono state salvate per la consultazione offline.';return false}}
 function dateLabel(d){try{return new Date(d).toLocaleString('it-IT',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}catch(e){return 'data non disponibile'}}
 function isOnline(){return navigator.onLine}
 function statusConnection(){element('connection').textContent=isOnline()?'Online: puoi verificare gli aggiornamenti':'Offline: guide salvate disponibili';element('refresh').disabled=!isOnline()||model.syncing}
@@ -91,9 +91,11 @@ async function sync(){
   model.updated=new Date().toISOString();persist();
  }
  model.syncing=false;statusConnection();element('refresh').textContent='Aggiorna le guide';
- element('sync-status').textContent=newGuides.length
-  ?model.guides.length+' pagine salvate per la lettura offline · controllo online '+dateLabel(model.updated)+(failed.length?'. Alcune pagine non raggiunte: le copie conservate sono segnalate come da verificare.':'.')
-  :'Impossibile aggiornare ora. Le guide già salvate restano disponibili.';
+ element('sync-status').textContent=!model.storageOk
+  ?'Attenzione: salvataggio non riuscito. Le guide scaricate sono visibili ora, ma NON è garantita la lettura offline dopo la chiusura dell’app.'
+  :newGuides.length
+   ?model.guides.length+' pagine salvate per la lettura offline · controllo online '+dateLabel(model.updated)+(failed.length?'. Alcune pagine non raggiunte: le copie conservate sono segnalate come da verificare.':'.')
+   :'Impossibile aggiornare ora. Le guide già salvate restano disponibili.';
  renderList();if(model.current)openGuide(model.current,false);
 }
 function renderList(){
@@ -121,8 +123,20 @@ function openGuide(path,scroll){
  if(scroll){history.replaceState(null,'','#guida='+encodeURIComponent(path));window.scrollTo({top:0})}
 }
 function back(){model.current=null;element('catalogue').hidden=false;element('reader').hidden=true;history.replaceState(null,'',location.pathname);window.scrollTo({top:0})}
+let installEvent=null;
+function setupInstall(){
+ const button=element('install-app'),tip=element('install-tip'),help=element('install-help');
+ if(window.matchMedia('(display-mode: standalone)').matches||navigator.standalone){help.hidden=true;return}
+ window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();installEvent=event;tip.textContent='Premi «Installa Per Me sul telefono» e conferma la proposta del browser. Dopo l’installazione, apri l’icona creata sul telefono.'});
+ button.addEventListener('click',async()=>{
+  if(!installEvent){tip.textContent='In Chrome apri il menu ⋮ in alto, poi scegli «Aggiungi a schermata Home» o «Installa app» se presente. Non è necessario reinstallare l’app dopo gli aggiornamenti delle guide.';return}
+  const prompt=installEvent;installEvent=null;
+  try{await prompt.prompt();await prompt.userChoice;}catch(e){tip.textContent='Installazione non riuscita da questo pulsante. Prova dal menu ⋮ di Chrome.'}
+ });
+ window.addEventListener('appinstalled',()=>{help.hidden=true});
+}
 function init(){
- restore();statusConnection();renderList();
+ restore();setupInstall();statusConnection();renderList();
  if(model.updated)element('sync-status').textContent=model.guides.length+' pagine salvate · Ultimo aggiornamento '+dateLabel(model.updated)+'.';
  element('refresh').addEventListener('click',sync);
  element('search').addEventListener('input',e=>{model.query=e.target.value;renderList()});
