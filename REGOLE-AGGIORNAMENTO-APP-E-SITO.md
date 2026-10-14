@@ -1,47 +1,39 @@
-# Per Me — Regole editoriali permanenti per sito e app
+# Per Me — regole per i futuri aggiornamenti del sito e dell'app
 
-Ultimo aggiornamento: 14 ottobre 2026.
+Aggiornato il 14 ottobre 2026.
 
-## Esperienza personale CAF UIL di Tarcento
+## Testimonianza personale: CAF e Patronato UIL di Tarcento
 
-Quando un contenuto tratta ISEE, DSU, 730, dichiarazioni, agevolazioni fiscali oppure richiede di individuare un CAF, inserire, **solo se pertinente**, il riferimento personale:
+Dove il riferimento sia pertinente, riportare in prima persona, senza modificarne il significato:
 
-> **CAF UIL di Tarcento (UD). Io mi sono appoggiato a questo CAF.**
+> **Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento.**
 
-È un'esperienza personale, non una raccomandazione esclusiva e non indica alcuna convenzione o sponsorizzazione.
+La segnalazione non è una sponsorizzazione né una convenzione e non equivale a raccomandare un servizio esclusivo. Il CAF e il patronato sono soggetti distinti.
 
-Nei contenuti che consentono collegamenti aggiungere il pulsante:
+**CAF UIL Tarcento** — servizi fiscali (ISEE/DSU, 730, dichiarazioni e attività ammesse). Telefono 0432 785746; pulsante «Contatti CAF UIL» verso https://extranet.cafuil.it/sediuil/sedi.asp .
 
-**Apri sedi e contatti CAF UIL**
+**Patronato ITAL UIL Tarcento** — assistenza su previdenza, pensioni, contribuzione, invalidità e prestazioni nei limiti delle rispettive competenze. Telefono 0432 782024; pulsante «Contatti Patronato ITAL UIL» verso https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6 .
 
-URL ufficiale: https://extranet.cafuil.it/sediuil/sedi.asp
+I recapiti e l'indirizzo delle sedi devono essere ricontrollati periodicamente. Gli eventuali indirizzi dei due sportelli non vanno confusi.
 
-Telefono sede Tarcento: 0432 785746 (cliccabile con `tel:+390432785746` dove supportato). Prima di pubblicare indirizzo e orari di una sede confrontare le fonti aggiornate.
+## Dove applicare il riferimento
 
-## Distinzione di competenze
+Valutare il riferimento nelle guide sul CAF, ISEE, agevolazioni fiscali e dichiarazioni, sul patronato, prestazioni e pensioni, invalidità, pratiche e tutele INPS; anche in altre guide, come lavoro o debiti, solo se il contesto rende utili quei recapiti. Evitare inserimenti ripetitivi o fuori tema, soprattutto nelle guide di salute o tecnologia.
 
-- **CAF:** fiscalità, ISEE/DSU, dichiarazioni e servizi specifici offerti.
-- **Patronato e INPS:** pensioni, contributi, prestazioni e tutele previdenziali.
-- **Sindacato, consulente del lavoro o legale:** CCNL, inquadramenti, differenze di retribuzione e vertenze.
-- **Agenzia delle entrate-Riscossione:** atti, scadenze e procedure di riscossione.
+Le fonti ufficiali di diritto o istruzioni INPS non vanno sostituite con il recapito di un CAF o patronato.
 
-Non attribuire a un CAF l'esclusiva o competenze non previste. Il link a CAF UIL va distinto dalle fonti normative e istituzionali che sostengono ogni guida.
+## Accessibilità dei pulsanti
 
-## Ad ogni futuro aggiornamento del sito
+Utilizzare pulsanti separati, entrambi grandi e leggibili: **testo bianco (#fff), sfondo verde scuro (#234438), font almeno 1.08rem, altezza almeno 56px e larghezza intera sui telefoni**. Impostare esplicitamente il colore per i link in ogni stato, compreso `:visited`, `:focus-visible`, `:hover`. Evitare i vecchi link viola illeggibili.
 
-1. Cercare riferimenti a CAF, ISEE, dichiarazioni, agevolazioni e assistenza competente.
-2. Dove pertinente, riproporre la frase personale e il pulsante a `https://extranet.cafuil.it/sediuil/sedi.asp`, evitando duplicazioni nella stessa pagina.
-3. Non aggiungere la segnalazione dove l'argomento è estraneo (per esempio salute o tecnologia).
-4. Controllare visualizzazione e clic del pulsante su schermi piccoli, leggibilità, apertura in nuova scheda e link `tel:`.
+## Procedure di aggiornamento
 
-## Ad ogni futuro aggiornamento dell'app offline
+Per **ogni aggiornamento futuro del sito**, rileggere questa regola e verificare i riferimenti in tutti gli articoli pertinenti; conservare il pulsante e il numero corretti su schermi piccoli.
 
-**File dati dell'app:** `app-content.json` nella radice del repository. Aggiornare la versione e `updatedAt`, preservando `editorialPolicy` e `resources`, e aggiornare il riferimento quando i nuovi contenuti lo rendono pertinente.
+Per **ogni aggiornamento futuro dell'app**, sincronizzare i testi dalle pagine aggiornate del sito e non solo da un file statico di esempi. Nel repository la nuova app GitHub Pages è in `app/` e usa `main.js`, `sw.js` e il manifesto. Il file storico `app-content.json` contiene a sua volta la politica editoriale e i contatti; mantenerlo coerente se in uso.
 
-La scheda `caf-uil-tarcento` in `diritti-pratiche` riporta la frase, il numero e l'indirizzo web. La proprietà `action` con `label` e `url` è la definizione richiesta del collegamento/pulsante. **Non presumere** che il lettore dell'app visualizzi queste proprietà aggiuntive come pulsante: la visualizzazione del controllo richiede che l'interfaccia dell'app supporti `action`. Conservare quindi anche l'URL nel corpo testuale, consultabile offline.
+Non è corretto indicare completato un aggiornamento dell'app esterna `per-me-app.stilljelly65.chatgpt.site` se il relativo sorgente e la pubblicazione non sono accessibili. In tali casi mantenere distinta l'app pubblicata su GitHub Pages da quella esterna.
 
-Se si modifica il programma dell'app, implementare `action` come pulsante accessibile con link esterno, funzionante online e con un avviso comprensibile se il telefono è offline.
+## Controlli di chiusura
 
-## Verifica finale obbligatoria
-
-Verificare i testi pubblicati su GitHub, la validità JSON, la presenza del riferimento solo dove pertinente e le due destinazioni: il sito pubblicato su GitHub Pages e l'app esterna già installata, tenendo distinto l'aggiornamento del file dati dalla distribuzione di una nuova interfaccia.
+Confermare link, numeri distinti, contrasto, navigazione del sito, lettura delle guide offline dopo un primo aggiornamento riuscito, e sincronizzazione dei nuovi articoli online. Comunicare esplicitamente quali verifiche sono realmente state eseguite.
