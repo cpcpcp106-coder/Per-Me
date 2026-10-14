@@ -260,5 +260,6 @@ header .brand::before{content:"";display:block;flex:none;width:62px;height:62px;
 
 /* Correzione logo 14 ottobre 2026: elemento HTML reale, visibile anche con CSS in cache. */
 header .brand::before{content:none!important;display:none!important}
-header .brand .brand-logo{display:block!important;flex:0 0 auto;width:62px;height:62px;object-fit:contain;max-width:none}
-@media(max-width:560px){header .brand .brand-logo{width:52px;height:52px}}
+header .brand .brand-logo{display:block!important;flex:0 0 auto;width:86px;height:86px;object-fit:contain;max-width:none}
+header .brand{gap:14px;min-height:90px}
+@media(max-width:560px){header .brand{gap:12px;min-height:86px}header .brand .brand-logo{width:82px;height:82px}}
