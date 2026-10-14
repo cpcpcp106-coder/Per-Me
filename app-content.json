@@ -1,0 +1,59 @@
+{
+  "version": "0.1.1",
+  "updatedAt": "2026-10-14",
+  "sections": [
+    {
+      "id": "soldi-lavoro",
+      "title": "Soldi e lavoro",
+      "summary": "Cedolino, INPS, CIG, pensione, debiti e lavoro.",
+      "items": [
+        {
+          "id": "cedolino-controllo",
+          "title": "Il tuo cedolino è corretto?",
+          "body": "Controlla netto, trattenute, ore lavorate, CIG o solidarietà, eventuali conguagli e voci nuove rispetto ai mesi precedenti. Se il netto cala senza una spiegazione chiara, prepara una richiesta scritta semplice e conserva la risposta."
+        },
+        {
+          "id": "inps-prima-verifica",
+          "title": "Prima verifica INPS",
+          "body": "Quando una prestazione si ferma o cambia, annota data, importo atteso, importo ricevuto, protocollo della domanda e ultima comunicazione. Prima di telefonare o andare al patronato, prepara questi quattro dati."
+        }
+      ]
+    },
+    {
+      "id": "salute-pratica",
+      "title": "Salute pratica",
+      "summary": "Controlli, visite, patente, terapie e promemoria utili.",
+      "items": [
+        {
+          "id": "visita-preparazione",
+          "title": "Preparare una visita",
+          "body": "Porta elenco farmaci, esami recenti, domande principali e valori importanti degli ultimi giorni. Scrivi prima le tre cose che vuoi assolutamente chiarire."
+        }
+      ]
+    },
+    {
+      "id": "diritti-pratiche",
+      "title": "Diritti e pratiche",
+      "summary": "Invalidità, agevolazioni, documenti, trasporti e domande.",
+      "items": [
+        {
+          "id": "pratica-stato",
+          "title": "Controllare lo stato di una pratica",
+          "body": "Cerca sempre protocollo, data di invio, ente competente e canale usato. Se una pratica resta ferma, chiedi aggiornamento citando questi dati senza aggiungere spiegazioni lunghe."
+        }
+      ]
+    },
+    {
+      "id": "vita-quotidiana",
+      "title": "Vita quotidiana",
+      "summary": "Casa, telefono, email, documenti e organizzazione.",
+      "items": [
+        {
+          "id": "telefono-ordine",
+          "title": "Tenere ordine nel telefono",
+          "body": "Per ogni progetto importante crea una cartella o un nome coerente. Salva screenshot e documenti con parole che ricorderai: INPS, cedolino, patente, salute, lavoro."
+        }
+      ]
+    }
+  ]
+}
