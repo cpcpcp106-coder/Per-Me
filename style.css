@@ -200,3 +200,22 @@ footer{background:#3e312b}
 .experience-caf-uil .uil-contact-button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 20px;border-radius:7px;background:#254236;color:#fff;text-decoration:none;font-size:1.03rem;font-weight:750;line-height:1.35;text-align:center}
 .experience-caf-uil .uil-contact-button:hover,.experience-caf-uil .uil-contact-button:focus-visible{background:#19352a;color:#fff;outline-offset:3px}
 @media(max-width:600px){.experience-caf-uil{padding:20px 16px}.experience-caf-uil .uil-contact-button{display:flex;width:100%;box-sizing:border-box}}
+
+/* Pensione e invalidità – guida 02 AOI: percorso e tabelle leggibili */
+.pagina-interna.guida-pensione-02 .timeline-aoi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0 26px}
+.pagina-interna.guida-pensione-02 .timeline-aoi>div{background:#f3e5d5;border:1px solid #ddcab6;border-radius:8px;padding:17px;min-width:0}
+.pagina-interna.guida-pensione-02 .timeline-aoi strong{display:block;color:#583d2d;margin-bottom:8px;line-height:1.4}
+.pagina-interna.guida-pensione-02 .timeline-aoi span{display:block;font-size:.91rem;line-height:1.5}
+.pagina-interna.guida-pensione-02 .fonti-guide li{margin-bottom:12px;overflow-wrap:anywhere}
+@media(max-width:740px){.pagina-interna.guida-pensione-02 .timeline-aoi{grid-template-columns:1fr}}
+@media(max-width:650px){
+.pagina-interna.guida-pensione-02 .sample-pay table{width:100%;min-width:0;display:block}
+.pagina-interna.guida-pensione-02 .sample-pay caption{display:block}
+.pagina-interna.guida-pensione-02 .sample-pay thead{display:none}
+.pagina-interna.guida-pensione-02 .sample-pay tbody{display:block}
+.pagina-interna.guida-pensione-02 .sample-pay tr{display:block;margin:0 0 12px;border:1px solid #dfcebb;border-radius:7px;overflow:hidden;background:#fffdfa}
+.pagina-interna.guida-pensione-02 .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #ebd9c8;text-align:left;white-space:normal;overflow-wrap:anywhere}
+.pagina-interna.guida-pensione-02 .sample-pay td:last-child{border-bottom:0}
+.pagina-interna.guida-pensione-02 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
+.pagina-interna.guida-pensione-02 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.79rem;font-weight:750;color:#745642;margin-bottom:4px}
+}
