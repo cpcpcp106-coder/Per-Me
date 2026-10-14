@@ -86,3 +86,31 @@ Non è stata effettuata una navigazione autenticata a MyINPS né la visione del 
 - Nessuna verifica autenticata nei servizi personali INPS né consulenza giuridica su un caso concreto.
 - I metadati `noindex,nofollow` eventualmente presenti in altre pagine richiedono un intervento SEO distinto, se il blog è destinato alla ricerca pubblica.
 - L'accessibilità verificata nel codice non sostituisce collaudo con screen reader e dispositivi reali.
+
+## Quarto audit critico — 14 ottobre 2026
+
+### Problemi emersi in controllo indipendente
+- **Eccezione nei permessi legge 104 con pagamento diretto INPS:** il precedente testo non esplicitava l'obbligo della nuova domanda anche per i permessi art. 33, commi 3 e 6, se INPS paga direttamente. Corretto confrontando circolare INPS 127/2016, sezione 4, e scheda aggiornata dei permessi. Nei casi ordinari con autorizzazione preesistente e pagamento non diretto resta la regola della continuità in attesa della revisione; per congedi e riposi specifici domanda da verificare.
+- **Lettori prossimi o superiori ai 67 anni:** mancava un'indicazione che la pensione di inabilità civile e l'assegno mensile di assistenza non sono pagamenti concessi automaticamente dalla percentuale e che, al compimento dell'età per l'assegno sociale, opera la disciplina dell'assegno sociale sostitutivo. Aggiunta nota mirata sul 2026 (67 anni) senza confondere il diritto all'assegno ordinario previdenziale AOI con l'assistenza civile.
+- **Come leggere realmente il giudizio:** aggiunto esempio dichiaratamente illustrativo su percentuale civile, art. 3 comma 1 e comma 3 e nuovi livelli di sostegno, senza simulare un documento ufficiale.
+- **Precisione lessicale:** il sostegno intensivo si articola in livello elevato o molto elevato, distinto dal sostegno lieve o medio. Mantenuta avvertenza sul regime 2026 applicabile per territorio e data.
+- **Immagine precedente:** il file della foto corretto dopo la segnalazione dell'anomalia anatomica è pubblicato in `assets/pensione-guida-04.webp` e richiamato nel codice con parametro di aggiornamento, senza ulteriori sostituzioni in questo audit.
+
+### Fonti primarie aggiuntive verificate
+- INPS, circolare 127/2016: https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm
+- INPS, permessi lavorativi legge 104: https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html
+- INPS, assegno mensile di assistenza: https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html
+- INPS, pensione di inabilità civile: https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.pensione-di-inabilit-agli-invalidi-civili.html
+- INPS, over 70 dal giugno 2026: https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html
+- INPS, ricorso giudiziario (termine di sei mesi dall'emissione): https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html
+
+### Esito delle verifiche sul repository
+- 15 fonti numerate nella Guida 04; 35 ancore locali controllate, nessuna mancante; 14 identificatori, nessun duplicato; 13 link locali interni alle altre pagine/risorse, nessun file mancante.
+- File immagine indicato nella guida esistente nel repository. CSS con regole dedicate per la Guida 04 presente.
+- Il lettore PWA non duplica manualmente il testo: riacquisisce dal sito con sincronizzazione quando è online. La presenza del codice non prova però l'aggiornamento già avvenuto sul telefono.
+- Commit del testo revisionato: `54bc685a6886ce53ec55332cf8bf0b786a6dd947`.
+
+### Limiti
+- Rendering mobile effettivo non ripetuto in questa sessione; precedente screenshot dell'autore mostra la pagina ma antecedente a questa correzione testuale.
+- Il controllo per campionamento delle fonti e l'integrità HTML non sostituiscono l'audit legale di ogni possibile situazione individuale, né il collaudo WCAG completo.
+- La pubblicazione GitHub Pages è da verificare dal workflow dopo i commit di questo audit.
