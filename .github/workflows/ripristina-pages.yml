@@ -1,0 +1,43 @@
+name: Per Me - Ripristino pubblicazione Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ripristina-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  deployments: write
+  pages: write
+
+jobs:
+  ripristina:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Controlla e libera soltanto il deployment bloccato
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STUCK_SHA: de03a8c0b4ac88ae618d78af057dcf2e896a53cc
+        run: |
+          set -euo pipefail
+          echo "Ricerca del deployment bloccato $STUCK_SHA"
+          response=$(gh api "repos/$GITHUB_REPOSITORY/deployments?sha=$STUCK_SHA&per_page=100")
+          echo "$response" | jq -r '.[] | [.id,.sha,.environment] | @tsv'
+          ids=$(echo "$response" | jq -r --arg sha "$STUCK_SHA" '.[] | select(.sha==$sha and .environment=="github-pages") | .id')
+          if [ -z "$ids" ]; then
+            echo "Nessun deployment github-pages ordinario da rimuovere per $STUCK_SHA."
+            echo "Il blocco e' interno al servizio GitHub Pages."
+            exit 0
+          fi
+          for id in $ids; do
+            echo "Verifico il deployment $id"
+            states=$(gh api "repos/$GITHUB_REPOSITORY/deployments/$id/statuses?per_page=5" --jq '.[].state' || true)
+            echo "Stati: $states"
+            if ! echo "$states" | grep -Eq '^(inactive)$'; then
+              gh api --method POST "repos/$GITHUB_REPOSITORY/deployments/$id/statuses" -f state=inactive -f description='Sblocco deployment obsoleto di GitHub Pages' --silent
+            fi
+            gh api --method DELETE "repos/$GITHUB_REPOSITORY/deployments/$id" --silent
+            echo "Rimosso deployment obsoleto $id"
+          done
