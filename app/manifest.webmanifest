@@ -1,0 +1,19 @@
+{
+  "name": "Per Me – Guide offline",
+  "short_name": "Per Me",
+  "description": "Le guide di Per Me consultabili anche senza Internet.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbf8f3",
+  "theme_color": "#234438",
+  "lang": "it",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
