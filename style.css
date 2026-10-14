@@ -331,3 +331,26 @@ header .brand{gap:14px;min-height:90px}
  .pagina-interna.guida-pensione-05 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
  .pagina-interna.guida-pensione-05 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.95rem;font-weight:750;color:#745642;margin-bottom:5px}
 }
+
+
+/* Guida 06 – estratto conto contributivo: leggibilità mobile e tabelle accessibili */
+.pagina-interna.guida-pensione-06 .muted-small,
+.pagina-interna.guida-pensione-06 .rubrica-hero figcaption{font-size:1rem;line-height:1.6}
+.pagina-interna.guida-pensione-06 .rubrica-hero figcaption{text-align:left;color:#584b43}
+.pagina-interna.guida-pensione-06 .fonti-guide li{margin-bottom:14px;overflow-wrap:anywhere}
+.pagina-interna.guida-pensione-06 .sample-pay td,
+.pagina-interna.guida-pensione-06 .sample-pay th{overflow-wrap:anywhere}
+@media(max-width:650px){
+ .pagina-interna.guida-pensione-06 .article h1{font-size:clamp(1.7rem,6vw,2rem);line-height:1.23;overflow-wrap:normal;letter-spacing:-.017em}
+ .pagina-interna.guida-pensione-06 .article .eyebrow{font-size:.94rem;line-height:1.48;letter-spacing:.045em}
+ .pagina-interna.guida-pensione-06 .lead{font-size:1.09rem;line-height:1.64}
+ .pagina-interna.guida-pensione-06 .sample-pay table{width:100%;min-width:0;display:block;table-layout:auto}
+ .pagina-interna.guida-pensione-06 .sample-pay caption{display:block}
+ .pagina-interna.guida-pensione-06 .sample-pay thead{display:none}
+ .pagina-interna.guida-pensione-06 .sample-pay tbody{display:block}
+ .pagina-interna.guida-pensione-06 .sample-pay tr{display:block;margin:0 0 14px;border:1px solid #ddc8b7;border-radius:8px;overflow:hidden;background:#fffdfa}
+ .pagina-interna.guida-pensione-06 .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #ebd9ca;padding:12px 14px;text-align:left;white-space:normal;overflow-wrap:anywhere}
+ .pagina-interna.guida-pensione-06 .sample-pay td:first-child{background:#f3e5d5;font-weight:800}
+ .pagina-interna.guida-pensione-06 .sample-pay td:last-child{border-bottom:0}
+ .pagina-interna.guida-pensione-06 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.95rem;font-weight:750;color:#745642;margin-bottom:5px}
+}
