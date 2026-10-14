@@ -7,3 +7,11 @@ Il file maestro ad alta risoluzione (1254×1254 PNG RGBA) è salvato nella Libre
 La variante tecnica per il web /assets/logo-per-me.png e le icone /app/icon-192.png e /app/icon-512.png derivano dallo stesso maestro, ottimizzate per la leggibilità su schermi piccoli. /app/icon-maskable-512.png ha un margine sicuro per le maschere Android. Il file /favicon.ico serve come icona del sito e come collegamento desktop via browser.
 
 Non tornare alle icone con le iniziali “PM” o “PI”. Non sostituire il logo approvato con immagini caricaturali o scene figurative. Modifiche grafiche future richiedono nuova approvazione dell'autore.
+
+## Esito definitivo e dimensioni approvate
+
+L'autore ha confermato «Risolto» dopo l'ingrandimento del logo: **82 × 82 px sui telefoni** e **86 × 86 px sui computer**. Il logo va collocato a sinistra del nome «Per Me» e centrato in verticale. Tutte le pagine devono usare un vero elemento HTML `<img class="brand-logo" ...>` oltre alle regole CSS, evitando la sola soluzione `::before`, che in precedenza non rendeva il logo visibile. Aggiornare la versione di `style.css?v=...` in tutte le pagine quando si modificano le dimensioni del marchio.
+
+**Regole complete e cronologia degli errori risolti:** [DECISIONI-LOGO-SITO-APP-2026-10-14.md](DECISIONI-LOGO-SITO-APP-2026-10-14.md).
+
+Una copia del file maestro è in Google Drive, nel progetto **Per Me - Blog / Fonti**.
