@@ -285,3 +285,25 @@ header .brand{gap:14px;min-height:90px}
 .pagina-interna.guida-pensione-04 .rubrica-hero figcaption{text-align:left;font-size:.85rem;line-height:1.45}
 .pagina-interna.guida-pensione-04 .lead{font-size:1.02rem;line-height:1.6;padding:9px 0 9px 13px}
 }
+
+
+/* Per Me · Guida 04 · leggibilità delle istruzioni, note e fonti */
+.pagina-interna.guida-pensione-04 .muted-small,
+.pagina-interna.guida-pensione-04 .rubrica-hero figcaption {
+  font-size:1rem;
+  line-height:1.6;
+}
+.pagina-interna.guida-pensione-04 .fonti-guide li {
+  margin-bottom:14px;
+  overflow-wrap:anywhere;
+}
+@media (max-width:650px) {
+  .pagina-interna.guida-pensione-04 .article .eyebrow {
+    font-size:.94rem;
+    line-height:1.5;
+  }
+  .pagina-interna.guida-pensione-04 .sample-pay td:not(:first-child)::before {
+    font-size:.94rem;
+  }
+  .pagina-interna.guida-pensione-04 .lead {font-size:1.08rem;}
+}
