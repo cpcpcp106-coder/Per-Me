@@ -32,7 +32,21 @@
         "119 link esterni/azioni non controllati tutti in HTTP",
         "Inventario completo singole affermazioni non ultimato",
         "File HTML archivio 1,2 MB non ispezionato"
-      ]
+      ],
+      "links_after": {
+        "html_anchors": 471,
+        "local": 351,
+        "external_or_actions": 120
+      },
+      "contact_links_verified": 2,
+      "html_metadata_after": {
+        "pages_noindex": 18,
+        "missing_meta_description": 0,
+        "missing_h1": 0,
+        "missing_skip_link": 0,
+        "missing_image_alt": 0,
+        "inline_js_syntax_errors": 0
+      }
     }
   ]
 }
