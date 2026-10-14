@@ -32,3 +32,18 @@
 
 ## Verifica tecnica successiva
 Alla fine della sessione si devono confrontare le versioni richiamate dalla PWA, l'esistenza/assenza dei file in `main`, la sintassi JS del codice modificato e l'esito dell'ultimo workflow di GitHub Pages e del controllo fonti. Un workflow riuscito dimostra il rilascio del codice, non che l'app abbia sincronizzato sul telefono.
+
+
+## Secondo controllo del monitoraggio automatico — 14 ottobre 2026
+
+Il workflow periodico, attivato dal cambiamento del programma di controllo, ha completato una prima esecuzione con esito **success**. Nel rapporto generato risultavano **26 pagine HTML**, **129 indirizzi esterni** controllati, di cui 128 rispondevano e 1 restituiva HTTP 404. Non è una prova che tutti i contenuti esterni siano pertinenti o giuridicamente corretti: è un controllo HTTP.
+
+Il rapporto segnalava 6 file-immagine "mancanti"; la verifica dei nomi nel repository ha dimostrato che **tutti e sei esistono**: erano falsi positivi causati da percorsi con spazi percent-encoded (`%20`) e caratteri Unicode. Il programma `monitoraggio/controlla.py` è stato corretto per applicare `urllib.parse.unquote()` alla parte locale del collegamento prima di controllare i file. I sei errori precedenti non indicavano quindi sei immagini rotte.
+
+L'unico collegamento HTTP effettivamente non raggiungibile nel controllo era un PDF INPS storico della campagna RED 2025, precedentemente nella Guida 07. Il collegamento è stato **sostituito direttamente nella guida** con il documento INPS ufficiale sulla convenzione RED 2024–2025, accessibile nella verifica web:
+
+https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf
+
+Il testo della fonte è stato aggiornato per descrivere correttamente **redditi dei familiari e dichiarazione breve NO RED**, e non essere scambiato per la guida tecnica del 2025. Il documento è più risalente, ma pertinente a queste specifiche disposizioni. Gli altri 128 URL HTTP raggiungibili possono comunque essere non pertinenti o superati, e devono essere controllati separatamente.
+
+**Stato del nuovo controllo:** dopo la correzione dei nomi URL e del PDF, il workflow va nuovamente eseguito e ne va confermato l'esito prima di dichiarare zero collegamenti rotti. La fonte INPS non restituisce più l'errore 404 nella verifica separata eseguita, ma questo non garantisce che sia accessibile da qualsiasi telefono o browser.
