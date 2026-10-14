@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="titolo descrizione">
+<title id="titolo">Chiedere assistenza per affrontare una cartella</title>
+<desc id="descrizione">Scena originale in uno sportello di orientamento: una donna anziana conversa con una consulente. Nessun tavolo domestico, bolletta o calcolatrice.</desc>
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7efe5"/><stop offset="1" stop-color="#ddc7b3"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2=".9" y2="1"><stop stop-color="#d8edf0"/><stop offset="1" stop-color="#a2c6ca"/></linearGradient>
+ <linearGradient id="floor" x1="0" x2=".3" y2="1"><stop stop-color="#bf9677"/><stop offset="1" stop-color="#825f4d"/></linearGradient>
+ <linearGradient id="counter" x1="0" x2="1" y2="1"><stop stop-color="#d6a57a"/><stop offset="1" stop-color="#906546"/></linearGradient>
+ <linearGradient id="jacket" x2="1" y2="1"><stop stop-color="#b35e50"/><stop offset="1" stop-color="#80483f"/></linearGradient>
+ <linearGradient id="advisor" x2="1" y2="1"><stop stop-color="#3c7879"/><stop offset="1" stop-color="#255559"/></linearGradient>
+ <filter id="sh"><feDropShadow dx="0" dy="11" stdDeviation="13" flood-color="#4e3c32" flood-opacity=".2"/></filter>
+</defs>
+<rect width="1200" height="675" fill="url(#wall)"/>
+<path d="M0 0H1200V450H0Z" fill="#f7f0e6"/>
+<path d="M0 450H1200V675H0Z" fill="url(#floor)"/>
+<path d="M0 450H1200" stroke="#d6b69e" stroke-width="10"/>
+<!-- full-height window and greenery: light-filled institutional setting -->
+<g><rect x="845" y="40" width="315" height="376" rx="10" fill="#8bacae"/><rect x="859" y="54" width="287" height="348" fill="url(#glass)"/>
+<path d="M1005 54V402M859 248H1146" stroke="#f7f9f4" stroke-width="10"/>
+<path d="M860 353q74-95 140-39t146-34v122H860Z" fill="#9bb7a0"/>
+<path d="M860 378q53-40 100-14t96-17t90 3v52H860Z" fill="#6c9788"/>
+<circle cx="1090" cy="110" r="45" fill="#fcf1d0" opacity=".8"/></g>
+<!-- signage -->
+<g filter="url(#sh)"><rect x="57" y="61" width="528" height="96" rx="15" fill="#fffaf3"/>
+<circle cx="111" cy="109" r="27" fill="#795644"/><text x="111" y="120" font-family="Arial,sans-serif" font-size="37" font-weight="700" fill="#fff" text-anchor="middle">i</text>
+<text x="158" y="104" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#513d35">SPORTELLO</text>
+<text x="158" y="136" font-family="Arial,sans-serif" font-size="25" font-weight="600" fill="#795f52">informazioni e orientamento</text></g>
+<!-- screen indicating solutions rather than problem documents -->
+<g filter="url(#sh)"><rect x="639" y="73" width="160" height="184" rx="17" fill="#e8f2ee" stroke="#a5bbb2" stroke-width="5"/>
+<circle cx="717" cy="135" r="36" fill="#65a084"/>
+<path d="m698 135 15 15 27-32" fill="none" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="673" y="197" width="93" height="10" rx="5" fill="#829a90"/><rect x="688" y="220" width="63" height="8" rx="4" fill="#b5c4bb"/></g>
+<!-- wall clock -->
+<g><circle cx="754" cy="332" r="36" fill="#fffaf3" stroke="#bfa18d" stroke-width="6"/><path d="M754 313v19l15 9" stroke="#765a4b" stroke-width="6" stroke-linecap="round" fill="none"/></g>
+<!-- desk, visually distinct from home kitchen, no documents -->
+<g filter="url(#sh)"><path d="M360 407H923l-35 216H395Z" fill="url(#counter)"/><path d="M341 393H932l25 24H333Z" fill="#e8c29d"/>
+<rect x="451" y="454" width="381" height="113" rx="12" fill="#ab7958" opacity=".34"/>
+<rect x="560" y="493" width="172" height="62" rx="9" fill="#f5ead9"/>
+<text x="646" y="529" font-family="Arial,sans-serif" font-size="23" font-weight="700" text-anchor="middle" fill="#74523d">TI ASCOLTIAMO</text>
+</g>
+<!-- professional on right behind desk -->
+<g transform="translate(665 150)">
+ <ellipse cx="85" cy="176" rx="80" ry="104" fill="#315d60" opacity=".15"/>
+ <path d="M17 253q-15-93 20-108 36-17 95-5 49 22 52 113Z" fill="url(#advisor)"/>
+ <path d="M63 157l25 37 30-38 8 97H58Z" fill="#f7f0e7"/>
+ <path d="M67 116h47v60q-19 19-47 0Z" fill="#c78c67"/>
+ <ellipse cx="90" cy="75" rx="56" ry="70" fill="#c9916e"/>
+ <path d="M34 86q-20-52 8-83 53-42 103 7 18 22 10 70-4-18-13-22-23-7-39-34-13 30-65 29Z" fill="#463c3a"/>
+ <path d="M38 53q-10 31-4 50" stroke="#463c3a" stroke-width="18" stroke-linecap="round"/>
+ <path d="M72 83h9m25 0h9" stroke="#45342d" stroke-width="4" stroke-linecap="round"/>
+ <path d="M87 111q8 8 17 0" stroke="#845143" stroke-width="3.4" stroke-linecap="round" fill="none"/>
+ <path d="M26 229q-13 25-50 46-23 14-1 33 21 11 45-2l73-51" fill="#c9916e"/>
+ <path d="M-25 276q22-7 43 2" stroke="#976a51" stroke-width="5" fill="none"/>
+</g>
+<!-- older woman from street, foreground, receiving guidance -->
+<g transform="translate(145 201)" filter="url(#sh)">
+ <path d="M12 455q-28-135 8-231 35-45 126-44 83 22 104 100l17 175Z" fill="url(#jacket)"/>
+ <path d="M100 194l39 75-12 93-66-153Z" fill="#e9b99e"/>
+ <path d="M102 147h60v69q-26 25-60 0Z" fill="#ce967c"/>
+ <ellipse cx="122" cy="103" rx="67" ry="82" fill="#dba68a"/>
+ <path d="M58 95Q35 17 84-3q55-36 101 17 30 38 2 101l-10-37q-12-27-35-33Q105 76 62 63Z" fill="#c8c5c0"/>
+ <path d="M57 79Q35 33 79 11" stroke="#f0e9dd" stroke-width="15" fill="none" stroke-linecap="round"/>
+ <path d="M89 112h13m39 0h12" stroke="#674b41" stroke-width="4" stroke-linecap="round"/>
+ <path d="M103 155q18 10 35-1" stroke="#9b6e5d" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <path d="M214 270q69 15 103 46 19 15-2 34-16 12-33-2-30-18-72-22" fill="#dba68a"/>
+ <path d="M211 260q31-8 49 10l37 38-31 34-55-24Z" fill="#a35348"/>
+ <path d="M302 321q16-10 34-4" stroke="#a57057" stroke-width="4" fill="none" stroke-linecap="round"/>
+</g>
+<!-- plant -->
+<g transform="translate(1029 388)"><path d="M25 63Q-14 13 20-17Q75 12 25 63M34 58Q54-13 99-12Q116 53 34 58M27 44Q-35 41-41 0Q15-22 27 44" fill="#668a67"/><path d="M26 122V20M26 84L-15 29M26 76L80 8" stroke="#4d7051" stroke-width="8" fill="none"/><path d="M-9 102H80L71 185H5Z" fill="#bb7f5f"/><path d="M-12 102H82" stroke="#825a45" stroke-width="8"/></g>
+<!-- Warm reflections in foreground -->
+<path d="M0 645Q270 604 532 664H0Z" fill="#e7c1a1" opacity=".16"/>
+</svg>
