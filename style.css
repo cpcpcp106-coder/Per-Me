@@ -174,3 +174,6 @@ footer{background:#3e312b}
 .pagina-interna .rubrica-crossnav li>strong{background:#e2c9b2;color:#503626}
 .pagina-interna .rubrica-crossnav p{margin:16px 0 0}
 @media(max-width:600px){.pagina-interna .rubrica-crossnav{padding:15px}.pagina-interna .rubrica-crossnav ol{grid-template-columns:1fr}}
+
+/* Nasconde eventuale vecchio pulsante duplicato nella testata */
+.app-download-top{display:none!important}
