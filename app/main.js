@@ -81,8 +81,12 @@ async function sync(){
   // Una pagina rimossa dall'indice non resta automaticamente una pagina corrente.
   const previous=new Map(model.guides.map(g=>[g.path,g]));
   const fresh=newGuides.map(g=>({...g,stale:false}));
-  const oldCopies=[...new Set(failed)].filter(p=>previous.has(p)&&!fresh.some(g=>g.path===p))
-    .map(p=>({...previous.get(p),stale:true}));
+  const failedPaths=new Set(failed);
+  const failedCategories=new Set(failed.filter(p=>CATEGORIES.has(p)).map(p=>CATEGORIES.get(p)));
+  // Se non si raggiunge una rubrica, conserva le relative pagine già salvate, segnalandole.
+  const oldCopies=[...previous.values()].filter(g=>
+    (failedPaths.has(g.path)||failedCategories.has(g.category))&&!fresh.some(x=>x.path===g.path)
+  ).map(g=>({...g,stale:true}));
   model.guides=[...fresh,...oldCopies].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
   model.updated=new Date().toISOString();persist();
  }
