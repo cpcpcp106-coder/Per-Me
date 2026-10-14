@@ -1,11 +1,11 @@
 {
-  "checked_at_utc": "2026-10-12T14:27:27+00:00",
+  "checked_at_utc": "2026-10-14T14:08:44+00:00",
   "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
   "fonti": [
     {
       "id": "busta-paga",
       "rubrica": "Soldi e lavoro",
-      "status": "prima_verifica",
+      "status": "variata",
       "http": 200,
       "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
       "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"
@@ -13,7 +13,7 @@
     {
       "id": "cigo",
       "rubrica": "Soldi e lavoro",
-      "status": "prima_verifica",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"
@@ -21,7 +21,7 @@
     {
       "id": "fis",
       "rubrica": "Soldi e lavoro",
-      "status": "prima_verifica",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"
@@ -29,7 +29,7 @@
     {
       "id": "lavoro",
       "rubrica": "Soldi e lavoro",
-      "status": "prima_verifica",
+      "status": "variata",
       "http": 200,
       "url": "https://www.lavoro.gov.it/",
       "final_url": "https://www.lavoro.gov.it/"
@@ -37,7 +37,7 @@
     {
       "id": "pensioni",
       "rubrica": "Pensione e invalidità",
-      "status": "prima_verifica",
+      "status": "variata",
       "http": 200,
       "url": "https://www.inps.it/",
       "final_url": "https://www.inps.it/"
@@ -45,7 +45,7 @@
     {
       "id": "cartelle",
       "rubrica": "Debiti e cartelle",
-      "status": "prima_verifica",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.agenziaentrateriscossione.gov.it/",
       "final_url": "https://www.agenziaentrateriscossione.gov.it/"
@@ -53,7 +53,7 @@
     {
       "id": "agevolazioni",
       "rubrica": "Agevolazioni e diritti",
-      "status": "prima_verifica",
+      "status": "variata",
       "http": 200,
       "url": "https://www.regione.fvg.it/",
       "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/"
@@ -61,7 +61,7 @@
     {
       "id": "salute",
       "rubrica": "Salute e autonomia",
-      "status": "prima_verifica",
+      "status": "variata",
       "http": 200,
       "url": "https://www.salute.gov.it/",
       "final_url": "https://www.salute.gov.it/"
@@ -69,49 +69,818 @@
     {
       "id": "ai",
       "rubrica": "Tutor AI essenziale",
-      "status": "prima_verifica",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.agid.gov.it/",
       "final_url": "https://www.agid.gov.it/it"
     }
   ],
-  "pagine_controllate": 10,
-  "collegamenti_locali_problematici": [],
+  "pagine_controllate": 26,
+  "collegamenti_locali_problematici": [
+    {
+      "page": "ore-ferie-permessi-malattia-straordinari.html",
+      "target": "Uomo%20anziano%20pianifica%20il%20bilancio%20domestico.png",
+      "issue": "file_mancante"
+    },
+    {
+      "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "target": "Immagine%20ChatGPT%2012%20ott%202026%2C%2018_56_26-1.png",
+      "issue": "file_mancante"
+    },
+    {
+      "page": "stipendio-diminuito-cosa-controllare.html",
+      "target": "Uomo%20pensieroso%20alle%20prese%20con%20i%20documenti.png",
+      "issue": "file_mancante"
+    },
+    {
+      "page": "ccnl-inquadramento-livello-superminimo.html",
+      "target": "Donna%20anziana%20al%20lavoro%20tra%20documenti%20e%20piante.png",
+      "issue": "file_mancante"
+    },
+    {
+      "page": "soldi-lavoro.html",
+      "target": "assets/Uomo%20pensieroso%20tra%20conti%20e%20campagna%20%E6%81%92%E4%B8%80.png",
+      "issue": "file_mancante"
+    },
+    {
+      "page": "come-leggere-busta-paga.html",
+      "target": "assets/Uomo%20concentrato%20tra%20pratiche%20e%20calcolatrice.png",
+      "issue": "file_mancante"
+    }
+  ],
   "collegamenti_esterni": [
     {
-      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
+      "url": "https://extranet.cafuil.it/sediuil/sedi.asp",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://extranet.cafuil.it/sediuil/sedi.asp"
     },
     {
-      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-integrale-2026-10-14-v2.md",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-integrale-2026-10-14-v2.md"
     },
     {
-      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json"
     },
     {
-      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente"
     },
     {
-      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&iIDDalPortale=&iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+95+del+31-07-2014.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&iIDDalPortale=&iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+95+del+31-07-2014.htm"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+253+del+9-10-1993.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+253+del+9-10-1993.htm"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+262+del+3-12-1984.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+262+del+3-12-1984.htm"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+34+del+23-02-2018.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+34+del+23-02-2018.htm"
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/visualizzadoc.aspx?sVirtuAlURL=%2Fcircolari%2FCircolare+numero+119+del+27-5-1993.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/visualizzadoc.aspx?sVirtuAlURL=%2Fcircolari%2FCircolare+numero+119+del+27-5-1993.htm"
+    },
+    {
+      "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://temi.camera.it/leg19/temi/19_tl18_irpef"
+    },
+    {
+      "url": "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ardis.fvg.it/upload/news/1753696924.pdf"
+    },
+    {
+      "url": "https://www.cnel.it/archivio-contratti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cnel.it/archivio-contratti"
+    },
+    {
+      "url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato"
+    },
+    {
+      "url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018"
+    },
+    {
+      "url": "https://www.cuore.iss.it/altro/cuore",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cuore.iss.it/altro/cuore"
+    },
+    {
+      "url": "https://www.epicentro.iss.it/igea/diabete/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/igea/diabete/"
+    },
+    {
+      "url": "https://www.inps.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2019/06/Circolare_7955/Allegati/5313_Circolare-numero-88-del-12-06-2019.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2019/06/Circolare_7955/Allegati/5313_Circolare-numero-88-del-12-06-2019.pdf"
     },
     {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2022/10/Circolare_13955/Allegati/13847_Circolare-numero-109-del-05-10-2022.pdf",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2022/10/Circolare_13955/Allegati/13847_Circolare-numero-109-del-05-10-2022.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/02/Circolare_14832/Allegati/15908_Circolare-numero-42-del-17-02-2025.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/02/Circolare_14832/Allegati/15908_Circolare-numero-42-del-17-02-2025.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15180/Allegati/16592_Circolare-numero-20-del-25-02-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15180/Allegati/16592_Circolare-numero-20-del-25-02-2026.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/FAQ_Riforma_della_Disabilit%C3%A0_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/FAQ_Riforma_della_Disabilit%C3%A0_en.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/INPS_per_la_disabilita.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/INPS_per_la_disabilita.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/2025-3-6_Guida_interattiva_in_6_passi_per_Pensionati_titolari_di_pensioni_di_importo_basso.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/2025-3-6_Guida_interattiva_in_6_passi_per_Pensionati_titolari_di_pensioni_di_importo_basso.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/software/dichiarazioni-redita2025/07/260/guida_campagna_red_2025_vers.1.0.pdf",
+      "status": "da_verificare",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "url": "https://www.inps.it/it/it/amministrazione-trasparente/attivit--e-procedimenti/tipologie-di-procedimento.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/amministrazione-trasparente/attivit--e-procedimenti/tipologie-di-procedimento.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49947.cumulo-pensione-e-reddito-da-lavoro.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49947.cumulo-pensione-e-reddito-da-lavoro.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50651.agevolazioni-fiscali-e-contrassegno-invalidi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50651.agevolazioni-fiscali-e-contrassegno-invalidi.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50693.riconoscimento-dei-contributi-figurativi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50693.riconoscimento-dei-contributi-figurativi.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit--di-malattia-e-visite-mediche-di-controllo.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit--di-malattia-e-visite-mediche-di-controllo.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit-di-accompagnamento-agli-invalidi-civili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit-di-accompagnamento-agli-invalidi-civili.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.pensione-di-inabilit-agli-invalidi-civili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.pensione-di-inabilit-agli-invalidi-civili.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-aree-tematiche.portale-della-disabilit-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-aree-tematiche.portale-della-disabilit-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55608.gestione-dei-ricorsi-amministrativi-rivolti-agli-organismi-centrali-in-materia-di-entrate-contributive.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55608.gestione-dei-ricorsi-amministrativi-rivolti-agli-organismi-centrali-in-materia-di-entrate-contributive.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55616.gestione-dei-ricorsi-in-materia-di-iscrizione-e-contributi-di-competenza-dei-comitati-di-vigilanza-della-gestione-dipendenti-pubblici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55616.gestione-dei-ricorsi-in-materia-di-iscrizione-e-contributi-di-competenza-dei-comitati-di-vigilanza-della-gestione-dipendenti-pubblici.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55775.estratto-conto-certificativo-ecocert-ed-ecomar-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55775.estratto-conto-certificativo-ecocert-ed-ecomar-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Dichiarazioni-di-responsabilita-e-ricoveri-indennizzati.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Dichiarazioni-di-responsabilita-e-ricoveri-indennizzati.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assistenza-fiscale-730-4-servizi-al-cittadino-52056.assistenza-fiscale-730-4-servizi-al-cittadino.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assistenza-fiscale-730-4-servizi-al-cittadino-52056.assistenza-fiscale-730-4-servizi-al-cittadino.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cassetta-postale-online-50207.cassetta-postale-online.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cassetta-postale-online-50207.cassetta-postale-online.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cedolino-della-pensione-50615.cedolino-della-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cedolino-della-pensione-50615.cedolino-della-pensione.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.certificato-medico-mod-ss3.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.certificato-medico-mod-ss3.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consulente-red.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consulente-red.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-degli-attestati-di-malattia-telematici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-degli-attestati-di-malattia-telematici.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-estratto-conto-contributivo-previdenziale-50119.consultazione-estratto-conto-contributivo-previdenziale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-estratto-conto-contributivo-previdenziale-50119.consultazione-estratto-conto-contributivo-previdenziale.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.dati-socio-economici-prestazioni-di-disabilit-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.dati-socio-economici-prestazioni-di-disabilit-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.domanda-invalidita-civile-e-accertamento-sanitario-50004.accertamento-sanitario.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.domanda-invalidita-civile-e-accertamento-sanitario-50004.accertamento-sanitario.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.estratto-conto-visuale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.estratto-conto-visuale.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.fascicolo-previdenziale-del-cittadino-50865.fascicolo-previdenziale-del-cittadino.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.fascicolo-previdenziale-del-cittadino-50865.fascicolo-previdenziale-del-cittadino.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.generazione-qr-code-invalidi-civili-per-attestazione-status-54469.generazione-qr-code-invalidi-civili-per-attestazione-status.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.generazione-qr-code-invalidi-civili-per-attestazione-status-54469.generazione-qr-code-invalidi-civili-per-attestazione-status.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.il-certificato-di-pensione-modello-ObisM.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.il-certificato-di-pensione-modello-ObisM.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-mia-pensione-futura-simulazione-della-propria-pensione-50033.la-mia-pensione-futura-simulazione-della-propria-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-mia-pensione-futura-simulazione-della-propria-pensione-50033.la-mia-pensione-futura-simulazione-della-propria-pensione.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensami-simulatore-scenari-pensionistici.pensami---simulatore-scenari-pensionistici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensami-simulatore-scenari-pensionistici.pensami---simulatore-scenari-pensionistici.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-50308.pensione-anticipata.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-50308.pensione-anticipata.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-inabilit--50297.pensione-di-inabilit-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-inabilit--50297.pensione-di-inabilit-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva--50582.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva--50582.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorsi-amministrativi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorsi-amministrativi.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.riscatto-dei-periodi-per-contributi-omessi-e-prescritti-50255.riscatto-dei-periodi-per-contributi-omessi-e-prescritti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.riscatto-dei-periodi-per-contributi-omessi-e-prescritti-50255.riscatto-dei-periodi-per-contributi-omessi-e-prescritti.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-un-pagamento.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-un-pagamento.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-una-pratica-o-di-una-domanda.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-una-pratica-o-di-una-domanda.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.visualizzazione-indebiti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.visualizzazione-indebiti.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2021.05.circolare-numero-74-del-04-05-2021_11731.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2021.05.circolare-numero-74-del-04-05-2021_11731.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.03.circolare-numero-28-del-16-03-2026_15199.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.03.circolare-numero-28-del-16-03-2026_15199.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/aliquote-contributive.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/aliquote-contributive.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/consultazione-estratto-conto-contributivo.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/consultazione-estratto-conto-contributivo.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/dipendenti-pubblici-e-privati-domanda-prestazioni-previdenziali.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/dipendenti-pubblici-e-privati-domanda-prestazioni-previdenziali.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2021.12.assegno-mensile-di-invalidit-requisito-di-inattivit-lavorativa.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2021.12.assegno-mensile-di-invalidit-requisito-di-inattivit-lavorativa.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.12.invalidit-civile-verifiche-reddituali-anno-2020.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.12.invalidit-civile-verifiche-reddituali-anno-2020.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.11.rendita-vitalizia-nuove-indicazioni-per-la-richiesta.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.11.rendita-vitalizia-nuove-indicazioni-per-la-richiesta.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.dichiarazione-redditi-anno-2023-obbligo-invio-entro-il-28-febbraio.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.dichiarazione-redditi-anno-2023-obbligo-invio-entro-il-28-febbraio.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.avviata-la-terza-fase-sperimentale-della-riforma-della-disabilit.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.avviata-la-terza-fase-sperimentale-della-riforma-della-disabilit.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.online-la-certificazione-unica-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.online-la-certificazione-unica-2026.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.riforma-disabilit-riapertura-domande-online-per-invalidit-civile.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.riforma-disabilit-riapertura-domande-online-per-invalidit-civile.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.pagamento-indebiti-disponibile-online-la-rateizzazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.pagamento-indebiti-disponibile-online-la-rateizzazione.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.pensionati-il-cedolino-di-pensione-di-giugno-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.pensionati-il-cedolino-di-pensione-di-giugno-2026.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.06.redest-al-via-la-campagna-2026-relativa-ai-redditi-del-2025.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.06.redest-al-via-la-campagna-2026-relativa-ai-redditi-del-2025.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.pensionati-il-cedolino-di-pensione-di-agosto-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.pensionati-il-cedolino-di-pensione-di-agosto-2026.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensami-pensione-a-misura-online-la-nuova-versione-del-simulatore.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensami-pensione-a-misura-online-la-nuova-versione-del-simulatore.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensionati-il-cedolino-di-pensione-di-settembre-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensionati-il-cedolino-di-pensione-di-settembre-2026.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensioni-della-gestione-pubblica-conclusa-la-verifica-reddituale-2024.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensioni-della-gestione-pubblica-conclusa-la-verifica-reddituale-2024.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.pensionati-il-cedolino-di-pensione-di-ottobre-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.pensionati-il-cedolino-di-pensione-di-ottobre-2026.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/Video-audio-guida-per-destinatari-di-verbale-sanitario-di-invalidita-sordita-o-cecita.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/Video-audio-guida-per-destinatari-di-verbale-sanitario-di-invalidita-sordita-o-cecita.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/video-guida-sollecito-dichiarazione-reddituale-per-pensionati.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/video-guida-sollecito-dichiarazione-reddituale-per-pensionati.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/patto-con-l-utenza/carta-dei-servizi/strumenti-di-tutela.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/patto-con-l-utenza/carta-dei-servizi/strumenti-di-tutela.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/previdenza/domanda-di-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/previdenza/domanda-di-pensione.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/previdenza/posizione-contributiva.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/previdenza/posizione-contributiva.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/previdenza/ricongiunzioni-e-riscatti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/previdenza/ricongiunzioni-e-riscatti.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-disabili-invalidi-inabili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-disabili-invalidi-inabili.html"
+    },
+    {
+      "url": "https://www.ispettorato.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ispettorato.gov.it/"
+    },
+    {
+      "url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6"
     },
     {
       "url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf",
       "status": "raggiungibile",
-      "http": 200
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf"
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali"
+    },
+    {
+      "url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/disciplina-rapporto-lavoro/pagine/lavoro-a-tempo-parziale",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/disciplina-rapporto-lavoro/pagine/lavoro-a-tempo-parziale"
+    },
+    {
+      "url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/norme-contratti-collettivi/pagine/default",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/norme-contratti-collettivi/pagine/default"
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24"
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02"
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED"
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/"
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/"
     }
   ]
 }
