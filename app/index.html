@@ -8,22 +8,22 @@
 <title>Per Me · Guide offline</title>
 <link rel="icon" type="image/svg+xml" href="icon.svg">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="app.css?v=2">
-<script defer src="main.js?v=2"></script>
+<link rel="stylesheet" href="app.css?v=3">
+<script defer src="main.js?v=3"></script>
 </head>
 <body>
 <a class="skip" href="#main">Salta al contenuto</a>
 <header class="top">
- <div class="shell"><p class="eyebrow">PER ME · GUIDA PRATICA</p><h1>Per Me</h1><p>Le guide del sito, da leggere anche senza Internet.</p>
+ <div class="shell"><p class="eyebrow">PER ME · GUIDA PRATICA</p><h1>Per Me</h1><p>I testi del sito salvati sul telefono sono consultabili anche senza Internet. Per ricevere nuove versioni serve una connessione.</p>
  <div id="connection" class="connection" role="status" aria-live="polite">Verifico i contenuti disponibili…</div></div>
 </header>
 <main class="shell" id="main">
  <section id="catalogue" aria-labelledby="catalogue-title">
   <div class="toolbar">
-   <h2 id="catalogue-title">Le guide</h2>
+   <h2 id="catalogue-title">Pagine e guide</h2>
    <button class="refresh" id="refresh" type="button">Aggiorna le guide</button>
   </div>
-  <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Le guide già salvate sono disponibili anche offline.</p>
+  <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Il primo salvataggio richiede Internet. Le copie già salvate si possono leggere offline; i collegamenti esterni richiedono una connessione.</p>
   <label for="search">Cerca una guida</label>
   <input id="search" type="search" placeholder="Es. cedolino, INPS, ISEE" autocomplete="off">
   <div class="filters" role="group" aria-label="Filtra le guide">
@@ -36,6 +36,7 @@
   <div class="reader-actions"><button type="button" id="back" class="back">← Torna alle guide</button><button type="button" id="favorite" class="favorite" aria-pressed="false">Salva nei preferiti</button></div>
   <p class="eyebrow" id="reader-category"></p>
   <h2 id="reader-title"></h2>
+  <p id="reader-warning" class="smallstatus" role="status" hidden>Attenzione: questa pagina non è stata aggiornata. Prima di prendere decisioni, ricontrolla la versione online e le fonti ufficiali.</p>
   <article id="reader-content" class="reader-content"></article>
   <button type="button" id="bottom-back" class="back">← Torna alle guide</button>
  </section>
