@@ -47,3 +47,14 @@ https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/202
 Il testo della fonte è stato aggiornato per descrivere correttamente **redditi dei familiari e dichiarazione breve NO RED**, e non essere scambiato per la guida tecnica del 2025. Il documento è più risalente, ma pertinente a queste specifiche disposizioni. Gli altri 128 URL HTTP raggiungibili possono comunque essere non pertinenti o superati, e devono essere controllati separatamente.
 
 **Stato del nuovo controllo:** dopo la correzione dei nomi URL e del PDF, il workflow va nuovamente eseguito e ne va confermato l'esito prima di dichiarare zero collegamenti rotti. La fonte INPS non restituisce più l'errore 404 nella verifica separata eseguita, ma questo non garantisce che sia accessibile da qualsiasi telefono o browser.
+
+
+## Collaudo automatico dopo gli interventi — completato
+
+L'esecuzione del workflow `Per Me - Controllo fonti e collegamenti` sul commit `5b6175cee5dbd33f69f335dc210b59e4c6bca146` è terminata con esito **success**. Il nuovo `monitoraggio/ultimo-controllo.json` ha data **2026-10-14T14:14:13+00:00**.
+
+**Misure effettive:** 26 pagine HTML controllate, **zero** collegamenti locali problematici, **130** URL esterni controllati, **zero** non raggiungibili nell'esecuzione. Il precedente problema dei sei falsi positivi è risolto. Il nuovo PDF RED risulta raggiungibile nel controllo HTTP del monitor.
+
+Il controllo ha registrato modifiche nei contenuti di due fonti monitorate (rubriche **lavoro** e **salute**): sono **segnali da esaminare**, non prove automatiche di novità normativa o di errori delle guide. Non è stata apportata alcuna modifica normativa sulla sola base dell'hash cambiato.
+
+La nuova esecuzione del controllo dei link **non** certifica conformità WCAG, disponibilità offline su Samsung o correttezza giuridica di ogni frase: questi collaudi rimangono aperti.
