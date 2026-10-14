@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.2",
   "updatedAt": "2026-10-14",
   "sections": [
     {
@@ -10,12 +10,15 @@
         {
           "id": "cedolino-controllo",
           "title": "Il tuo cedolino è corretto?",
-          "body": "Controlla netto, trattenute, ore lavorate, CIG o solidarietà, eventuali conguagli e voci nuove rispetto ai mesi precedenti. Se il netto cala senza una spiegazione chiara, prepara una richiesta scritta semplice e conserva la risposta."
+          "body": "Controlla netto, trattenute, ore lavorate, CIG o solidarietà, eventuali conguagli e voci nuove rispetto ai mesi precedenti. Se il netto cala senza una spiegazione chiara, prepara una richiesta scritta semplice e conserva la risposta. Per dubbi su imposte e dichiarazioni può essere utile un CAF; per differenze salariali è competente un sindacato o un consulente del lavoro.",
+          "relatedResourceIds": [
+            "caf-uil-tarcento"
+          ]
         },
         {
           "id": "inps-prima-verifica",
           "title": "Prima verifica INPS",
-          "body": "Quando una prestazione si ferma o cambia, annota data, importo atteso, importo ricevuto, protocollo della domanda e ultima comunicazione. Prima di telefonare o andare al patronato, prepara questi quattro dati."
+          "body": "Quando una prestazione si ferma o cambia, annota data, importo atteso, importo ricevuto, protocollo della domanda e ultima comunicazione. Prima di telefonare all’INPS o rivolgerti a un patronato, prepara questi quattro dati. Un CAF e un patronato hanno competenze diverse."
         }
       ]
     },
@@ -40,6 +43,17 @@
           "id": "pratica-stato",
           "title": "Controllare lo stato di una pratica",
           "body": "Cerca sempre protocollo, data di invio, ente competente e canale usato. Se una pratica resta ferma, chiedi aggiornamento citando questi dati senza aggiungere spiegazioni lunghe."
+        },
+        {
+          "id": "caf-uil-tarcento",
+          "title": "CAF UIL di Tarcento: la mia esperienza",
+          "body": "CAF UIL di Tarcento (UD). Io mi sono appoggiato a questo CAF. Per ISEE, DSU, dichiarazioni e altri servizi fiscali puoi verificare i servizi disponibili. Contatti della sede: 0432 785746. Elenco ufficiale delle sedi e contatti: https://extranet.cafuil.it/sediuil/sedi.asp. Attenzione: il CAF non sostituisce il patronato per le pensioni, né il sindacato per le vertenze di lavoro. Non esistono convenzioni con Per Me.",
+          "action": {
+            "label": "Apri sedi e contatti CAF UIL",
+            "url": "https://extranet.cafuil.it/sediuil/sedi.asp"
+          },
+          "buttonLabel": "Apri sedi e contatti CAF UIL",
+          "buttonUrl": "https://extranet.cafuil.it/sediuil/sedi.asp"
         }
       ]
     },
@@ -54,6 +68,23 @@
           "body": "Per ogni progetto importante crea una cartella o un nome coerente. Salva screenshot e documenti con parole che ricorderai: INPS, cedolino, patente, salute, lavoro."
         }
       ]
+    }
+  ],
+  "editorialPolicy": {
+    "cafUilTarcento": "Per contenuti riguardanti CAF, ISEE, DSU, dichiarazioni e altre pratiche fiscali pertinenti, riportare come esperienza personale: «Io mi sono appoggiato a questo CAF.» riferita al CAF UIL di Tarcento (UD). Se il contenuto permette link/pulsanti, aggiungere «Apri sedi e contatti CAF UIL» verso la pagina ufficiale. Non presentarlo come convenzione né come sostituto di patronato, sindacato, consulente o uffici competenti.",
+    "actionLabel": "Apri sedi e contatti CAF UIL",
+    "actionUrl": "https://extranet.cafuil.it/sediuil/sedi.asp"
+  },
+  "resources": [
+    {
+      "id": "caf-uil-tarcento",
+      "name": "CAF UIL di Tarcento (UD)",
+      "personalExperience": "Io mi sono appoggiato a questo CAF.",
+      "telephone": "0432 785746",
+      "telephoneUrl": "tel:+390432785746",
+      "contactLabel": "Apri sedi e contatti CAF UIL",
+      "contactUrl": "https://extranet.cafuil.it/sediuil/sedi.asp",
+      "disclaimer": "Esperienza personale, senza convenzioni. Il CAF offre servizi di assistenza fiscale e non sostituisce il patronato per questioni previdenziali o un consulente/sindacato per questioni retributive."
     }
   ]
 }
