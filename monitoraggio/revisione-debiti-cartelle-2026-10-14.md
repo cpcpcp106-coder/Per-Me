@@ -41,3 +41,11 @@
 
 ## Esito
 Revisione testuale e di struttura completata in repository. Il completamento del deployment va verificato sul workflow GitHub Pages prima di dichiarare il rilascio effettivo. Il riscontro di pubblicazione dimostra la presenza del codice online ma non il collaudo della UX su telefono.
+
+## Chiusura tecnica del 14 ottobre 2026 — integrazione
+- **Immagine ottimizzata realmente:** conversione automatica eseguita su GitHub Actions con esito `success`: PNG originale 2.016.355 byte, nuova risorsa WebP 140.800 byte (riduzione 93,02%). La pagina usa l'elemento `picture` con WebP prioritario e PNG originale come riserva; foto e geometria della scena sono conservate. La conversione ha imposto una verifica di fedeltà (PSNR ≥ 40 dB) e dimensioni identiche.
+- **Collegamenti AdeR:** i due riferimenti alla sospensione sono stati corretti dalla sezione «imprese» a quella specifica **cittadini**: https://www.agenziaentrateriscossione.gov.it/it/cittadini/Sospensione/index.html.
+- **App offline:** ispezionato `app/main.js`: richiama `sync()` all'avvio se online e al ritorno della connessione, riscaricando le guide e salvandone solo testi/collegamenti. La routine filtra IMG e PICTURE. Non occorre includere il nuovo WebP nella cache della PWA. La sincronizzazione effettiva su ogni telefono e la persistenza offline non sono verificate su dispositivo reale.
+- **Verifiche statiche:** 10 sezioni, collegamenti dell'indice completi, fotografia ottimizzata e alternativa, un solo H1, nessun ID duplicato, collegamenti esterni con `noopener noreferrer`. Non equivalgono a un test WCAG o su browser Android.
+- **Qualità normativa:** ricontrollata la pagina AdeR per cittadini su sospensione (art. 1, legge 228/2012) e la differenza con l'avviso di addebito INPS; ricontrollate le 84/120 rate 2026, il periodo 16 ottobre–15 dicembre 2026 per la rottamazione degli enti territoriali e il limite agli enti aderenti. Nessuna pretesa di certificazione legale individuale.
+- **Rimane:** test visivo e offline reale sul dispositivo; monitoraggio di eventuali aggiornamenti normativi e dei link esterni. Non richiedere all'autore un'operazione sul telefono solo per chiudere questa revisione del repository.
