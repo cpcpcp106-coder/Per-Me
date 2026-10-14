@@ -38,12 +38,12 @@ Evitare duplicazioni: guida base sui cedolini → guida economica lordo/netto �
 Stato delle nuove aree: pianificate, non ancora realizzate. La dieta mediterranea scientifica e le ricette saranno un percorso coordinato, con basi documentate e schede pratiche distinte.
 
 ## Rubrica 02 — Pensione e invalidità (ripresa il 14 ottobre 2026)
-Stato: indice di rubrica aggiornato; guide 01, 02 e 03 disponibili. Guida 01: `inps-prestazione-sospesa-respinta-cosa-fare.html`.
+Stato: indice di rubrica riprogettato; guide 01–04 disponibili e collegate. Fonti istituzionali, verifica editoriale e immagini distinte per ogni guida.
 Percorso previsto (confermato nell'indice):
 1. Pagamento INPS sospeso o domanda respinta: prime verifiche e rimedi distinti — DISPONIBILE.
 2. AOI: requisiti, triennio, domanda di conferma, lavoro e integrazione al minimo 2026 — DISPONIBILE: `assegno-ordinario-invalidita-requisiti-conferma.html`.
 3. AOI e invalidità civile: differenze, requisiti, incompatibilità e riforma 2026 — DISPONIBILE: `aoi-invalidita-civile-differenze.html`.
-4. Verbale di invalidità e legge 104 — DA SVILUPPARE.
+4. Verbale di invalidità civile e legge 104: lettura, gravità/sostegno intensivo, revisione, privacy e riforma 2026 — DISPONIBILE: `verbale-invalidita-civile-legge-104-come-leggerlo.html`.
 5. Cedolino pensione, OBIS/M e arretrati — DA SVILUPPARE.
 6. Contributi, estratto conto e pensione vicina — DA SVILUPPARE.
 7. RED, redditi e comunicazioni obbligatorie — DA SVILUPPARE.
