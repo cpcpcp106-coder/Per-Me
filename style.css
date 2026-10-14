@@ -377,3 +377,26 @@ header .brand{gap:14px;min-height:90px}
  .pagina-interna.guida-pensione-07 .sample-pay td:last-child{border-bottom:0}
  .pagina-interna.guida-pensione-07 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.95rem;font-weight:750;color:#745642;margin-bottom:5px}
 }
+
+
+/* Guida 08 – riesame e ricorsi INPS: testo e tabelle leggibili su smartphone */
+.pagina-interna.guida-pensione-08 .muted-small,
+.pagina-interna.guida-pensione-08 .rubrica-hero figcaption{font-size:1.04rem;line-height:1.62}
+.pagina-interna.guida-pensione-08 .rubrica-hero figcaption{text-align:left;color:#54463f}
+.pagina-interna.guida-pensione-08 .fonti-guide li{margin-bottom:14px;overflow-wrap:anywhere}
+.pagina-interna.guida-pensione-08 .sample-pay td,
+.pagina-interna.guida-pensione-08 .sample-pay th{overflow-wrap:anywhere}
+@media(max-width:650px) {
+ .pagina-interna.guida-pensione-08 .article h1{font-size:clamp(1.7rem,6vw,2rem);line-height:1.23;letter-spacing:-.015em}
+ .pagina-interna.guida-pensione-08 .article .eyebrow{font-size:.95rem;line-height:1.48;letter-spacing:.04em}
+ .pagina-interna.guida-pensione-08 .article .lead{font-size:1.09rem;line-height:1.67}
+ .pagina-interna.guida-pensione-08 .sample-pay table{width:100%;min-width:0;display:block;table-layout:auto}
+ .pagina-interna.guida-pensione-08 .sample-pay caption{display:block}
+ .pagina-interna.guida-pensione-08 .sample-pay thead{display:none}
+ .pagina-interna.guida-pensione-08 .sample-pay tbody{display:block}
+ .pagina-interna.guida-pensione-08 .sample-pay tr{display:block;margin:0 0 14px;border:1px solid #ddc8b7;border-radius:8px;overflow:hidden;background:#fffdfa}
+ .pagina-interna.guida-pensione-08 .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #ebd9ca;padding:12px 14px;text-align:left;white-space:normal;overflow-wrap:anywhere}
+ .pagina-interna.guida-pensione-08 .sample-pay td:first-child{background:#f3e5d5;font-weight:800}
+ .pagina-interna.guida-pensione-08 .sample-pay td:last-child{border-bottom:0}
+ .pagina-interna.guida-pensione-08 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.95rem;font-weight:750;color:#745642;margin-bottom:5px}
+}
