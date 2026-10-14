@@ -263,3 +263,16 @@ header .brand::before{content:none!important;display:none!important}
 header .brand .brand-logo{display:block!important;flex:0 0 auto;width:86px;height:86px;object-fit:contain;max-width:none}
 header .brand{gap:14px;min-height:90px}
 @media(max-width:560px){header .brand{gap:12px;min-height:86px}header .brand .brand-logo{width:82px;height:82px}}
+
+/* Guida 04 Pensione e invalidita: confronto voci leggibile sui telefoni */
+@media(max-width:650px){
+.pagina-interna.guida-pensione-04 .sample-pay table{width:100%;min-width:0;display:block}
+.pagina-interna.guida-pensione-04 .sample-pay caption{display:block}
+.pagina-interna.guida-pensione-04 .sample-pay thead{display:none}
+.pagina-interna.guida-pensione-04 .sample-pay tbody{display:block}
+.pagina-interna.guida-pensione-04 .sample-pay tr{display:block;margin:0 0 12px;border:1px solid #dfcebb;border-radius:7px;overflow:hidden;background:#fffdfa}
+.pagina-interna.guida-pensione-04 .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #ebd9c8;text-align:left;overflow-wrap:anywhere;white-space:normal}
+.pagina-interna.guida-pensione-04 .sample-pay td:last-child{border-bottom:0}
+.pagina-interna.guida-pensione-04 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
+.pagina-interna.guida-pensione-04 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.79rem;font-weight:750;color:#745642;margin-bottom:4px}
+}
