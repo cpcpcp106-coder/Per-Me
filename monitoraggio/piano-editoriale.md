@@ -36,3 +36,16 @@ Evitare duplicazioni: guida base sui cedolini → guida economica lordo/netto �
 - Percorso collegato alla rubrica Diabete tipo 2 e all'area «Salute e autonomia», senza ripetere gli stessi contenuti.
 
 Stato delle nuove aree: pianificate, non ancora realizzate. La dieta mediterranea scientifica e le ricette saranno un percorso coordinato, con basi documentate e schede pratiche distinte.
+
+## Rubrica 02 — Pensione e invalidità (ripresa il 14 ottobre 2026)
+Stato: indice di rubrica riprogettato e guida 01 disponibile: `inps-prestazione-sospesa-respinta-cosa-fare.html`.
+Percorso previsto (confermato nell'indice):
+1. Pagamento INPS sospeso o domanda respinta: prime verifiche e rimedi distinti — DISPONIBILE.
+2. AOI: requisiti, triennio, domanda di conferma e scadenze — DA SVILUPPARE.
+3. AOI e invalidità civile: differenze previdenziale/assistenziale — DA SVILUPPARE.
+4. Verbale di invalidità e legge 104 — DA SVILUPPARE.
+5. Cedolino pensione, OBIS/M e arretrati — DA SVILUPPARE.
+6. Contributi, estratto conto e pensione vicina — DA SVILUPPARE.
+7. RED, redditi e comunicazioni obbligatorie — DA SVILUPPARE.
+8. Riesame, ricorsi e termini: procedure separate per materia — DA SVILUPPARE.
+Regole editoriali: fonti primarie INPS e norme aggiornate, distinguere strumenti e tipo di prestazione, verificare le scadenze specifiche e le norme transitorie; niente link a guide inesistenti. Sviluppare ogni guida solo dopo verifica delle fonti. Non usare casi personali né dati identificativi reali negli esempi. Eseguire collaudo browser e telefono prima di togliere noindex.
