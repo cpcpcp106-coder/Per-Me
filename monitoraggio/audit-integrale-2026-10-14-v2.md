@@ -28,14 +28,14 @@ Esaminato l'intero albero del repository `main` (87 file prima di questo rapport
 ## 2. Misure tecniche riproducibili
 
 - File HTML operativi: **26/26 letti staticamente**. Guide: **14/14** esaminate a livello di struttura e testo; **0/14** completamente scomposte e verificate frase-per-frase contro tutte le fonti (lacuna esplicita).
-- **919 riferimenti `href`** nel primo censimento delle 26 pagine; **242 occorrenze di destinazioni HTTP(S) esterne** comprese ripetizioni. Questi valori descrivono il primo snapshot, non un test HTTP. I collegamenti aggiunti nella PWA e nella Home modificano il totale in seguito.
+- **919 riferimenti `href`** nel primo censimento delle 26 pagine; **242 occorrenze di indirizzi assoluti HTTP(S)** comprese ripetizioni (alcuni appartenenti allo stesso dominio del sito). Questi valori descrivono il primo snapshot, non un test HTTP. I collegamenti aggiunti nella PWA e nella Home modificano il totale in seguito.
 - **0 destinazioni di file locali mancanti** nel controllo statico; `app/` è una directory valida con `app/index.html`. Nessuna ancora locale della stessa pagina mancante nei controlli eseguiti sulle 26 pagine. Collegamenti fra file o verso siti esterni non garantiti dalla sola presenza dei nomi.
 - **26/26 pagine con un H1 e meta description**; 0 immagini senza attributo `alt` nei tag esaminati. Non è stata certificata la qualità semantica di tutti gli `alt`.
 - **5 delle 6 guide Soldi & Lavoro** sono `noindex` malgrado siano accessibili dalla rubrica; non sono attualmente candidabili a Google tramite normale indicizzazione. Tale stato va conservato finché le guide non siano validate integralmente, o modificato su decisione editoriale consapevole. Fonte tecnica: Google Search Central, regole robots meta.
 - La vecchia `sitemap.xml` aveva **11 URL**: mancavano le guide Pensione 06–08. Ora il file ne contiene **14 senza duplicati**, corrispondenti alle pagine esplicitamente indicizzabili identificate.
 - `app/manifest.webmanifest` è JSON valido con id, start_url, scope, icone `any` e `maskable`. `app/main.js` e `app/sw.js`: controllo di compilabilità della sintassi JavaScript superato, non esecuzione browser.
 - Nuovo service worker: `perme-reader-v7-20261014-audit`; HTML PWA, cache shell, JS e CSS riportano versioni coerenti `v=7`.
-- **NON VERIFICABILE in questa sessione:** numero di risposte HTTP 200 dei 242 link esterni, effettiva installabilità su Chrome/Samsung, disponibilità offline dopo svuotamento cache, piena accessibilità WCAG 2.2 AA, prestazioni su rete lenta e comportamento reale del browser.
+- **NON VERIFICABILE in questa sessione:** numero di risposte HTTP 200 dei 242 indirizzi assoluti HTTP(S), effettiva installabilità su Chrome/Samsung, disponibilità offline dopo svuotamento cache, piena accessibilità WCAG 2.2 AA, prestazioni su rete lenta e comportamento reale del browser.
 
 ## 3. Campione di affermazioni normative confrontate con le fonti
 
@@ -73,7 +73,7 @@ Esaminato l'intero albero del repository `main` (87 file prima di questo rapport
 | Aperta | Cinque guide Soldi & Lavoro riportano `noindex` | SEO/decisione editoriale | **NON CAMBIATO**, in attesa di verifica normativa completa prima dell'indicizzazione |
 | Alta, aperta | File HTML di 1,2 MB esterno alla navigazione non controllato per dati personali | Privacy | **NON RISOLTO**: controllo dei contenuti e possibile bonifica da valutare; nessuna cancellazione effettuata |
 | Alta, aperta | Non risultano test completi reali su 14 guide normative e PWA | Affidabilità | **NON RISOLTO**: richiede inventario delle proposizioni e prove browser/telefono |
-| Aperta | Necessità di test HTTP sistematico dei link esterni | Qualità fonti | **NON RISOLTO**: link presenti nel sorgente non equivale a disponibilità o prova della citazione |
+| Aperta | Necessità di test HTTP sistematico degli indirizzi HTTP(S) | Qualità fonti | **NON RISOLTO**: link presenti nel sorgente non equivale a disponibilità o prova della citazione |
 
 **Correzioni realmente scritte su GitHub `main`:** `sitemap.xml`, `index.html`, `app/index.html`, `app/main.js`, `app/sw.js`, `app/app.css`, `style.css` e successivamente `monitoraggio.html` (rimando a questo rapporto). Modifiche della PWA senza pubblicazione su store esterni o su siti ChatGPT non collegati.
 
@@ -89,11 +89,11 @@ Ogni voce non verificata prende **0 nel sotto-test corrispondente**, non viene p
 | Coerenza/organizzazione **15** | 5 struttura/inventario, 5 numerazione e destinazioni locali, 5 coerenza sitemap/indicizzazione con penalizzazione per residui | 10 | 13 |
 | Correttezza normativa **15** | 5 distinzione dei procedimenti e limiti, 3 riscontro normativo prioritario, **7** verifica completa delle norme citate | 8 | 8 |
 | UX/accessibilità **15** | 5 struttura semantica, 3 CSS/mobile e comandi, **7** prova reale WCAG su dispositivo | 7 | 8 |
-| Tecnica/funzionamento **15** | 5 riferimenti locali, 3 sintassi e asset PWA, **7** prove reali: installazione, offline, runtime e resilienza; un punto documentale aggiuntivo per feedback di storage senza confondere test reale | 8 | 9 |
+| Tecnica/funzionamento **15** | 5 riferimenti locali, 3 sintassi e asset PWA, 2 gestione degli errori e salvataggio (prima 0, dopo 1 dimostrato sul sorgente), **5** prove runtime reali, ancora tutte 0 | 8 | 9 |
 | Editoriale **10** | 4 problema/azioni, 3 limiti ed esperienza personale distinta, **3** revisione completa delle ripetizioni e dell'esattezza editoriale | 7 | 7 |
 | **TOTALE** | Le regole e la documentazione utilizzate sono identiche nel confronto prima/dopo di questa V2 | **52/100** | **57/100** |
 
-**Nota metodologica:** il criterio tecnico contiene 5+3+7=15 punti; il miglioramento 8→9 deriva dalla correzione testabile per ispezione del feedback di storage, imputando un punto al controllo del caso d'errore e non a una prova offline su dispositivo. Questo punteggio rimane un indicatore **provvisorio di verificabilità**, non un voto sulla legalità del sito. Lo storico precedente (55→60) utilizzava sotto-test e perimetro differenti; NON confrontarlo come miglioramento o peggioramento matematico. D'ora in poi usare questa scala V2.
+**Nota metodologica:** il criterio tecnico contiene 5+3+2+5=15 punti; il miglioramento 8→9 deriva dalla correzione verificata nel sorgente del feedback di storage (1 dei 2 punti dedicati agli errori), e non da una prova offline sul dispositivo. Questo punteggio rimane un indicatore **provvisorio di verificabilità**, non un voto sulla legalità del sito. Lo storico precedente (55→60) utilizzava sotto-test e perimetro differenti; NON confrontarlo come miglioramento o peggioramento matematico. D'ora in poi usare questa scala V2.
 
 ### Punteggi per tutte le 14 guide
 
