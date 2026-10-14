@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Per Me: sorveglianza conservativa di fonti e collegamenti, senza dipendenze esterne."""
 import datetime as dt
+from concurrent.futures import ThreadPoolExecutor
 import hashlib
 import json
 import re
@@ -82,17 +83,20 @@ def main():
                 f = ROOT / target_name
             else:
                 f = ROOT / target_name.lstrip("/")
-            if not f.is_file():
+            if not (f.is_file() or (f.is_dir() and (f / 'index.html').is_file())):
                 broken.append({"page":name,"target":link,"issue":"file_mancante"})
             elif anchor and target_name in parsed and anchor not in parsed[target_name].ids:
                 broken.append({"page":name,"target":link,"issue":"ancora_mancante"})
-    external_results = []
-    for url in external:
+    def check_external(url):
         try:
             code, _, final_url = request(url)
-            external_results.append({"url":url,"status":"raggiungibile","http":code})
+            return {"url":url,"status":"raggiungibile","http":code,"final_url":final_url}
         except (urllib.error.URLError, TimeoutError, ValueError, ssl.SSLError) as exc:
-            external_results.append({"url":url,"status":"da_verificare","error":str(exc)[:180]})
+            return {"url":url,"status":"da_verificare","error":str(exc)[:180]}
+
+    # I controlli HTTP sono indipendenti: li parallelizziamo con un limite prudente.
+    with ThreadPoolExecutor(max_workers=8) as pool:
+        external_results = list(pool.map(check_external, sorted(external)))
     report = {
         "checked_at_utc":now,
         "note":"Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
