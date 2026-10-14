@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-14",
+  "scope": "Nove enunciati separati, confrontati con fonti INPS; non è una validazione dell'intera guida.",
+  "criteria": "Confronto testuale e di ambito tra la guida e il servizio/delibera INPS pertinente, con avvertenza su eccezioni individuali.",
+  "count": 9,
+  "results": [
+    {
+      "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "claim": "L'AOI ha durata triennale.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html"
+    },
+    {
+      "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "claim": "La conferma AOI può essere richiesta nel semestre precedente la scadenza oppure entro 120 giorni successivi.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html"
+    },
+    {
+      "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "claim": "La conferma AOI presentata nel semestre precedente opera alla scadenza, mentre quella presentata entro 120 giorni successivi decorre dal primo giorno del mese successivo alla domanda.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/1984/06/Circolare_12357/Allegati/12079_Delibera-numero-222-del-12-06-1984.pdf"
+    },
+    {
+      "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "claim": "Dopo tre riconoscimenti consecutivi dell'AOI la conferma è automatica, ferme restando le facoltà di revisione.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html"
+    },
+    {
+      "page": "aoi-invalidita-civile-differenze.html",
+      "claim": "L'assegno mensile di assistenza civile riguarda invalidità dal 74% al 99% ed età da 18 a 67 anni, in presenza degli altri requisiti.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html"
+    },
+    {
+      "page": "riesame-ricorso-inps-termini.html",
+      "claim": "Per molti ricorsi amministrativi il termine ordinario è di 90 giorni dalla ricezione; per i comitati della Gestione Dipendenti Pubblici è di 30 giorni, fatte salve eccezioni.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html"
+    },
+    {
+      "page": "riesame-ricorso-inps-termini.html",
+      "claim": "L'istanza di riesame non sospende automaticamente i termini di ricorso amministrativo o giudiziario.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html"
+    },
+    {
+      "page": "riesame-ricorso-inps-termini.html",
+      "claim": "Per il ricorso contro il silenzio-rigetto, quando ammesso, i 90 giorni decorrono dal 121° giorno successivo alla presentazione della domanda.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html"
+    },
+    {
+      "page": "contributi-inps-estratto-conto-pensione-vicina.html",
+      "claim": "La costituzione della rendita vitalizia può essere richiesta per periodi di contributi omessi e ormai prescritti, secondo i requisiti e gli oneri previsti.",
+      "outcome": "CONFERMATO",
+      "src": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.riscatto-dei-periodi-per-contributi-omessi-e-prescritti-50255.riscatto-dei-periodi-per-contributi-omessi-e-prescritti.html"
+    }
+  ]
+}
