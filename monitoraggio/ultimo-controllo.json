@@ -1,11 +1,11 @@
 {
-  "checked_at_utc": "2026-10-14T14:08:44+00:00",
+  "checked_at_utc": "2026-10-14T14:14:13+00:00",
   "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
   "fonti": [
     {
       "id": "busta-paga",
       "rubrica": "Soldi e lavoro",
-      "status": "variata",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
       "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"
@@ -37,7 +37,7 @@
     {
       "id": "pensioni",
       "rubrica": "Pensione e invalidità",
-      "status": "variata",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.inps.it/",
       "final_url": "https://www.inps.it/"
@@ -53,7 +53,7 @@
     {
       "id": "agevolazioni",
       "rubrica": "Agevolazioni e diritti",
-      "status": "variata",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.regione.fvg.it/",
       "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/"
@@ -76,38 +76,7 @@
     }
   ],
   "pagine_controllate": 26,
-  "collegamenti_locali_problematici": [
-    {
-      "page": "ore-ferie-permessi-malattia-straordinari.html",
-      "target": "Uomo%20anziano%20pianifica%20il%20bilancio%20domestico.png",
-      "issue": "file_mancante"
-    },
-    {
-      "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
-      "target": "Immagine%20ChatGPT%2012%20ott%202026%2C%2018_56_26-1.png",
-      "issue": "file_mancante"
-    },
-    {
-      "page": "stipendio-diminuito-cosa-controllare.html",
-      "target": "Uomo%20pensieroso%20alle%20prese%20con%20i%20documenti.png",
-      "issue": "file_mancante"
-    },
-    {
-      "page": "ccnl-inquadramento-livello-superminimo.html",
-      "target": "Donna%20anziana%20al%20lavoro%20tra%20documenti%20e%20piante.png",
-      "issue": "file_mancante"
-    },
-    {
-      "page": "soldi-lavoro.html",
-      "target": "assets/Uomo%20pensieroso%20tra%20conti%20e%20campagna%20%E6%81%92%E4%B8%80.png",
-      "issue": "file_mancante"
-    },
-    {
-      "page": "come-leggere-busta-paga.html",
-      "target": "assets/Uomo%20concentrato%20tra%20pratiche%20e%20calcolatrice.png",
-      "issue": "file_mancante"
-    }
-  ],
+  "collegamenti_locali_problematici": [],
   "collegamenti_esterni": [
     {
       "url": "https://extranet.cafuil.it/sediuil/sedi.asp",
@@ -126,6 +95,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json"
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/interventi-autonomi-2026-10-14.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/interventi-autonomi-2026-10-14.md"
     },
     {
       "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente",
@@ -242,6 +217,12 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2022/10/Circolare_13955/Allegati/13847_Circolare-numero-109-del-05-10-2022.pdf"
     },
     {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf"
+    },
+    {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/02/Circolare_14832/Allegati/15908_Circolare-numero-42-del-17-02-2025.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -282,11 +263,6 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/2025-3-6_Guida_interattiva_in_6_passi_per_Pensionati_titolari_di_pensioni_di_importo_basso.pdf"
-    },
-    {
-      "url": "https://www.inps.it/content/dam/inps-site/software/dichiarazioni-redita2025/07/260/guida_campagna_red_2025_vers.1.0.pdf",
-      "status": "da_verificare",
-      "error": "HTTP Error 404: Not Found"
     },
     {
       "url": "https://www.inps.it/it/it/amministrazione-trasparente/attivit--e-procedimenti/tipologie-di-procedimento.html",
