@@ -22,7 +22,7 @@ Il testo è presente sul ramo `main`, la guida è collegata dall'indice della ru
 4. Resa più informativa la descrizione SEO.
 
 ## Controlli repository
-- 58 collegamenti locali e di ancoraggio verificati con controllo statico; nessun percorso locale o ancoraggio mancante.
+- 58 collegamenti complessivi censiti nella pagina (interni ed esterni); verificati staticamente tutti i percorsi locali e gli ancoraggi: nessun collegamento locale o ancoraggio mancante. I link a siti esterni non sono stati tutti collaudati in un browser.
 - 12 identificativi `id`; nessun duplicato.
 - 8 voci nelle fonti, con schede INPS e riferimento a Normattiva.
 - Guida 03 presente nell'indice della rubrica `pensione-invalidita.html`.
