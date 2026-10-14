@@ -252,3 +252,8 @@ footer{background:#3e312b}
 .pagina-interna.guida-pensione-03 .sample-pay td:last-child{border-bottom:0}
 .pagina-interna.guida-pensione-03 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.79rem;font-weight:750;color:#745642;margin-bottom:5px}
 }
+
+/* LOGO UFFICIALE PER ME 2026-10-14: emblema cuoio naturale, comune a tutte le pagine. */
+header .brand{display:inline-flex;align-items:center;gap:12px;min-height:66px;text-decoration:none;color:#442a1d}
+header .brand::before{content:"";display:block;flex:none;width:62px;height:62px;background:url("assets/logo-per-me.png") center center/contain no-repeat}
+@media(max-width:560px){header .brand{gap:10px;min-height:54px;font-size:1.85rem}header .brand::before{width:52px;height:52px}}

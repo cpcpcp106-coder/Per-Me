@@ -1,5 +1,5 @@
-const CACHE='perme-reader-v3-20261014';
-const SHELL=['./','./index.html','./app.css?v=3','./main.js?v=3','./manifest.webmanifest','./icon.svg'];
+const CACHE='perme-reader-v4-20261014-logo';
+const SHELL=['./','./index.html','./app.css?v=4','./main.js?v=4','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
 });
