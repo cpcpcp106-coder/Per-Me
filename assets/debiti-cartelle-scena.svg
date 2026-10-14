@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="tit desc">
+<title id="tit">Documenti, calendario e calcolatrice per affrontare i debiti</title>
+<desc id="desc">Illustrazione originale: su un tavolo di legno, una cartella da verificare, un calendario delle scadenze, una calcolatrice e appunti.</desc>
+<defs>
+ <linearGradient id="wood" x2="1" y2=".8"><stop stop-color="#a6724e"/><stop offset=".5" stop-color="#86583b"/><stop offset="1" stop-color="#65402f"/></linearGradient>
+ <linearGradient id="paper" x2=".25" y2="1"><stop stop-color="#fffdfa"/><stop offset="1" stop-color="#ebdfcc"/></linearGradient>
+ <linearGradient id="envelope" x2=".6" y2="1"><stop stop-color="#e3c5a4"/><stop offset="1" stop-color="#b98966"/></linearGradient>
+ <linearGradient id="window" x2="1" y2="1"><stop stop-color="#f9d5a1"/><stop offset="1" stop-color="#fcf7ed"/></linearGradient>
+ <filter id="shadow" x="-30%" y="-40%" width="180%" height="190%"><feDropShadow dx="6" dy="14" stdDeviation="13" flood-color="#382419" flood-opacity=".36"/></filter>
+ <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="22"/></filter>
+ <pattern id="grain" width="96" height="95" patternUnits="userSpaceOnUse"><path d="M0 26Q47 10 96 25M0 65Q42 83 96 60" stroke="#ebc39a" opacity=".12" stroke-width="3" fill="none"/></pattern>
+</defs>
+<rect width="1200" height="660" fill="url(#wood)"/><rect width="1200" height="660" fill="url(#grain)"/>
+<path d="M0 60H1200M0 442H1200" fill="none" stroke="#eac199" stroke-opacity=".14" stroke-width="7"/>
+<ellipse cx="935" cy="153" rx="320" ry="165" fill="#ffe5ba" opacity=".4" filter="url(#soft)"/>
+<!-- A closed folder, not a repeated portrait -->
+<g transform="translate(70 83) rotate(-7 308 215)" filter="url(#shadow)">
+ <rect x="0" y="30" width="608" height="420" rx="17" fill="#ab7457"/>
+ <path d="M22 0h189l39 42h339a18 18 0 0 1 18 18v325H22a22 22 0 0 1-22-22V24A24 24 0 0 1 22 0" fill="#be8c66"/>
+ <rect x="47" y="77" width="513" height="321" rx="9" fill="#f6eadb"/>
+ <rect x="71" y="100" width="465" height="276" rx="8" fill="url(#paper)" stroke="#d4bda4" stroke-width="3"/>
+ <rect x="100" y="135" width="390" height="9" rx="5" fill="#b9ac9e"/>
+ <rect x="100" y="162" width="315" height="8" rx="4" fill="#d4c7b8"/>
+ <rect x="100" y="188" width="351" height="8" rx="4" fill="#d4c7b8"/>
+ <rect x="99" y="232" width="389" height="80" rx="6" fill="#f8e8db" stroke="#ae6850" stroke-width="3"/>
+ <path d="M124 258h231M124 279h291" stroke="#aa6148" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+ <rect x="99" y="332" width="215" height="10" rx="5" fill="#c3b4a4"/>
+ <rect x="331" y="332" width="141" height="10" rx="5" fill="#c3b4a4"/>
+ <path d="M0 339l305-192 304 192v95q0 20-22 20H21q-21 0-21-21Z" fill="url(#envelope)" opacity=".81"/>
+ <path d="M0 341l302 135L607 341" fill="none" stroke="#ab785a" stroke-width="4" opacity=".63"/>
+ <rect x="108" y="354" width="224" height="56" rx="6" fill="#8b4d39"/>
+ <text x="220" y="389" font-size="28" font-family="Arial,sans-serif" font-weight="700" fill="#fffaf5" text-anchor="middle">DA VERIFICARE</text>
+</g>
+<!-- compact notebook checklist -->
+<g transform="translate(718 326) rotate(6 202 132)" filter="url(#shadow)">
+ <rect width="414" height="255" rx="12" fill="#e6d7be"/>
+ <rect x="18" y="12" width="384" height="230" rx="8" fill="#fffaf0"/>
+ <path d="M58 0v245" stroke="#d8a09b" stroke-width="3"/>
+ <g stroke="#abc9c5" stroke-width="2" opacity=".8"><path d="M75 80h301M75 121h301M75 162h301M75 203h301"/></g>
+ <g stroke="#6f7c74" stroke-width="4" fill="none"><rect x="90" y="90" width="23" height="23" rx="3"/><path d="m95 101 8 6 16-22"/><rect x="90" y="134" width="23" height="23" rx="3"/><rect x="90" y="175" width="23" height="23" rx="3"/></g>
+ <g font-family="Arial,sans-serif" fill="#5e554c" font-weight="700" font-size="22"><text x="130" y="111">Tipo di atto</text><text x="130" y="155">Importo</text><text x="130" y="196">Scadenza</text></g>
+</g>
+<!-- desk calculator -->
+<g transform="translate(750 60) rotate(7 130 102)" filter="url(#shadow)">
+ <rect width="272" height="215" rx="22" fill="#343a38"/>
+ <rect x="21" y="21" width="230" height="55" rx="7" fill="#d6dbc9"/>
+ <text x="227" y="61" font-family="monospace" font-size="38" text-anchor="end" fill="#4b5852">00,00</text>
+ <g fill="#6e7774">
+  <rect x="23" y="98" width="46" height="38" rx="8"/><rect x="82" y="98" width="46" height="38" rx="8"/><rect x="141" y="98" width="46" height="38" rx="8"/><rect x="200" y="98" width="46" height="38" rx="8"/>
+  <rect x="23" y="146" width="46" height="38" rx="8"/><rect x="82" y="146" width="46" height="38" rx="8"/><rect x="141" y="146" width="46" height="38" rx="8"/>
+ </g>
+ <rect x="200" y="146" width="46" height="38" rx="8" fill="#d69a64"/>
+</g>
+<!-- plain pen -->
+<g transform="translate(1000 251) rotate(-29)"><rect x="0" y="0" width="183" height="14" rx="7" fill="#343b3b"/><rect x="125" y="0" width="20" height="14" fill="#bc9c75"/><path d="M0 3l-22 4 22 4Z" fill="#d2bda0"/></g>
+<rect x="0" y="0" width="1200" height="660" fill="url(#window)" opacity=".045"/>
+</svg>
