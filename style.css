@@ -236,3 +236,19 @@ footer{background:#3e312b}
 .experience-caf-uil .uil-contact-actions a.uil-contact-button:focus-visible{outline:3px solid #db9d2e;outline-offset:4px}
 .experience-caf-uil .uil-phone a,.experience-caf-uil .uil-phone a:visited{color:#214f4b!important;font-weight:800}
 @media(max-width:720px){.experience-caf-uil .uil-contact-actions{grid-template-columns:1fr}}
+
+/* Guida 03 Pensione e invalidità: tabelle consultabili da telefono */
+.pagina-interna.guida-pensione-03 .fonti-guide li{margin-bottom:12px;overflow-wrap:anywhere}
+.pagina-interna.guida-pensione-03 .sample-pay table{table-layout:fixed}
+.pagina-interna.guida-pensione-03 .sample-pay td,.pagina-interna.guida-pensione-03 .sample-pay th{overflow-wrap:anywhere}
+@media(max-width:760px){
+.pagina-interna.guida-pensione-03 .sample-pay table{width:100%;min-width:0;display:block;table-layout:auto}
+.pagina-interna.guida-pensione-03 .sample-pay caption{display:block}
+.pagina-interna.guida-pensione-03 .sample-pay thead{display:none}
+.pagina-interna.guida-pensione-03 .sample-pay tbody{display:block}
+.pagina-interna.guida-pensione-03 .sample-pay tr{display:block;margin:0 0 13px;border:1px solid #ddc8b5;border-radius:7px;overflow:hidden;background:#fffdfa}
+.pagina-interna.guida-pensione-03 .sample-pay td{display:block;width:100%;border:0;border-bottom:1px solid #e8d8ca;padding:12px 14px;box-sizing:border-box;text-align:left;white-space:normal;overflow-wrap:anywhere}
+.pagina-interna.guida-pensione-03 .sample-pay td:first-child{background:#f3e5d5;font-weight:750}
+.pagina-interna.guida-pensione-03 .sample-pay td:last-child{border-bottom:0}
+.pagina-interna.guida-pensione-03 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.79rem;font-weight:750;color:#745642;margin-bottom:5px}
+}
