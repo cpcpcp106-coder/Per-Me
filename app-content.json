@@ -1,5 +1,5 @@
 {
-  "version": "0.1.3",
+  "version": "0.1.4",
   "updatedAt": "2026-10-14",
   "sections": [
     {
@@ -14,6 +14,11 @@
           "relatedResourceIds": [
             "caf-uil-tarcento"
           ]
+        },
+        {
+          "id": "ore-ferie-permessi-malattia-straordinari",
+          "title": "03. Ore, ferie, permessi, malattia e straordinari",
+          "body": "Confronta sempre il cedolino con le presenze del mese. Verifica ore ordinarie, assenze, ferie, ROL, ex festività, malattia, banca ore, CIG o contratto di solidarietà. Se trovi una differenza, annota mese, voce del cedolino, ore indicate, ore attese e documento che lo dimostra. Prima chiedi spiegazione scritta all'azienda o all'ufficio paghe. Per imposte e ISEE può aiutare un CAF; per pensione, invalidità e pratiche INPS un patronato; per differenze salariali un sindacato o un consulente del lavoro."
         },
         {
           "id": "inps-prima-verifica",
