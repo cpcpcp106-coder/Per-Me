@@ -1,0 +1,32 @@
+name: Per Me - Sblocca pubblicazione Pages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/sblocca-pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+
+jobs:
+  sblocca:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Annulla solo il rilascio rimasto sospeso
+        env:
+          GH_TOKEN: ${{ github.token }}
+          STUCK_PAGES_SHA: de03a8c0b4ac88ae618d78af057dcf2e896a53cc
+        run: |
+          echo "Provo a cancellare la pubblicazione Pages sospesa per SHA $STUCK_PAGES_SHA"
+          set +e
+          gh api --method POST "repos/$GITHUB_REPOSITORY/pages/deployments/$STUCK_PAGES_SHA/cancel"
+          status=$?
+          set -e
+          if [ "$status" -eq 0 ]; then
+            echo "Richiesta di cancellazione eseguita."
+          else
+            echo "Annullamento non confermato. Può essere già terminato o mancare il permesso."
+            exit "$status"
+          fi
