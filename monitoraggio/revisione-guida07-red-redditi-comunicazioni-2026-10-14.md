@@ -46,3 +46,47 @@ Offrire istruzioni comprensibili a lettori 50–70 anni che ricevono pensioni, i
 ## Limiti del controllo
 
 Non è stato effettuato accesso a posizioni personali MyINPS. Non sono state verificate in un dispositivo reale tutte le schermate mobili o il comportamento dello screen reader. La verifica del commit e delle risorse nel repository non sostituisce la conferma della distribuzione GitHub Pages mediante workflow. Al termine dell'ultima modifica controllare lo stato di pubblicazione GitHub Actions.
+
+
+## Revisione critica approfondita — seconda passata del 14 ottobre 2026
+
+### Metodo
+Confronto diretto tra testo della Guida 07 e pagine istituzionali INPS, con lettura delle descrizioni operative e delle specifiche campagne 2026; controllo delle fonti normative/operative richiamate (circolare INPS 195/2015 e guida INPS RED 2025); verifica dei recapiti UIL rispetto a fonti ufficiali e a un elenco CAF FVG del 2025; ispezione del codice HTML, dei link locali, delle ancore, delle immagini e dei CSS per smartphone.
+
+### Problemi rilevati e risolti
+1. **Priorità alta: RED e dichiarazioni fiscali.** Il testo non esplicitava che, se anche un solo componente del nucleo ha obbligo RED secondo i redditi pertinenti alla prestazione, il RED può richiedere tutti i redditi rilevanti anche se già dichiarati fiscalmente, salvo eccezioni della procedura. Aggiunta distinzione fra obbligo di comunicare e redditi da includere; menzionata l'opzione “NO RED” per altri componenti del nucleo fiscalmente in regola. Evitata la regola falsa “se ho già fatto il 730, basta sempre”.
+2. **Priorità alta: trattenuta 5% nell'estate 2026.** Il testo parlava genericamente di “importo di riferimento”. Ora specifica **5% dell'imponibile pensionistico lordo di luglio 2026**, trattenuto sui ratei di agosto/settembre per la campagna RED 2023/redditi 2022. Avviso che, per pensioni fino a 100 euro, assenza di trattenuta non significava assenza di rischio revoca della prestazione interessata.
+3. **Priorità alta: riesame Gestione pubblica.** Aggiunto caso autonomo della verifica reddituale 2024 comunicata in agosto 2026: alcune quattordicesime e pensioni ai superstiti; recuperi annunciati da dicembre 2026 o gennaio 2027, secondo il trattamento, e **30 giorni dalla notifica dell'atto** per chiedere eventuale riesame. Esplicitato che il termine NON è generalizzabile alle altre campagne RED.
+4. **Priorità media: scelta procedura.** Inserita all'inizio della pagina una guida rapida alle priorità (sollecito, sospensione, dichiarazione preventiva), ribadendo che RED ordinario e ricostituzione reddituale per sospensione sono percorsi diversi; nella compilazione online precisata la verifica degli eventuali redditi già presenti nel 730.
+5. **Priorità media: elenco redditi.** Distinto chiaramente reddito da lavoro estero, interessi e titoli con ritenute sostitutive, rispetto a reddito autonomo/collaborazioni anche già dichiarati fiscalmente. Gli elenchi sono esempi, non una lista universalmente obbligatoria.
+6. **Priorità media: dichiarazioni socioeconomiche.** Chiarita la presenza della variante **ICRIC Frequenza** per minorenni; rimane separata la disciplina di ICLAV, ICRIC e ACC. AS/PS rispetto al RED.
+7. **Priorità media: recapiti territoriali.** Numeri CAF UIL (0432 785746) e Patronato ITAL UIL (0432 782024) verificati. Aggiunto indirizzo via Dante 27, Tarcento, confermato da elenco CAF UIL FVG 2025 disponibile presso ARDIS FVG e pagina ufficiale ITAL UIL. Distinte competenze e invito a confermare gli orari.
+8. **Priorità bassa: fruibilità.** Aggiunta indicazione “Da dove iniziare” in prima schermata, con collegamenti alle sezioni pertinenti, senza modificare grafica generale e copertina già approvata.
+
+### Fonti primarie specificamente ricontrollate
+- RED INPS aggiornata l'8 giugno 2026:
+  https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html
+- INPS Consulente RED:
+  https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consulente-red.html
+- Circolare INPS 195 del 2015:
+  https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2Fcircolari%2FCircolare+numero+195+del+30-11-2015.htm
+- Guida RED 2025 con specifiche su 730, redditi del nucleo e NO RED (PDF indicizzato INPS):
+  https://www.inps.it/content/dam/inps-site/software/dichiarazioni-redita2025/07/260/guida_campagna_red_2025_vers.1.0.pdf
+- INPS RED 2023, comunicazione luglio 2026:
+  https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html
+- INPS agosto 2026: verifica Gestione pubblica:
+  https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensioni-della-gestione-pubblica-conclusa-la-verifica-reddituale-2024.html
+- INPS dichiarazioni ICLAV, ICRIC, ACC AS/PS:
+  https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Dichiarazioni-di-responsabilita-e-ricoveri-indennizzati.html
+- CAF UIL sedi contatti (ufficiale):
+  https://extranet.cafuil.it/sediuil/sedi.asp
+- ITAL UIL Tarcento (ufficiale):
+  https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6
+- ARDIS FVG, elenco sedi CAF UIL FVG del 2025 (fonte pubblica istituzionale per recapiti):
+  https://www.ardis.fvg.it/upload/news/1753696924.pdf
+
+### Valutazione di accuratezza e limiti
+- I 15 collegamenti alle fonti INPS sono mantenuti, compresa la guida PDF RED 2025, di cui è confermata l'indicizzazione e la presenza di istruzioni. Durante la verifica l'apertura PDF mediante uno strumento automatico ha restituito un errore interno: non dichiarare verificata l'esperienza di download sul telefono.
+- Nessuna prestazione individuale è stata simulata, né sono stati inferiti obblighi RED per persone specifiche.
+- L'esito positivo di controlli su HTML e collegamenti locali non costituisce una verifica integrale WCAG, una prova con screen reader, un collaudo reale su Samsung o la prova che il lettore offline abbia già sincronizzato.
+- Verificare a fine revisione che l'ultima esecuzione GitHub Pages risulti `completed/success`. Conservare il testo storico di questo audit e registrare questa nuova passata come appendice, senza cancellare gli esiti precedenti.
