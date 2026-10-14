@@ -177,3 +177,16 @@ footer{background:#3e312b}
 
 /* Nasconde eventuale vecchio pulsante duplicato nella testata */
 .app-download-top{display:none!important}
+
+/* Pensione e invalidita: schede responsive per il primo confronto */
+@media(max-width:650px){
+.pagina-interna.guida-pensione-01 .sample-pay table{width:100%;min-width:0;display:block}
+.pagina-interna.guida-pensione-01 .sample-pay caption{display:block}
+.pagina-interna.guida-pensione-01 .sample-pay thead{display:none}
+.pagina-interna.guida-pensione-01 .sample-pay tbody{display:block}
+.pagina-interna.guida-pensione-01 .sample-pay tr{display:block;margin:0 0 12px;border:1px solid #dfcebb;border-radius:7px;overflow:hidden;background:#fffdfa}
+.pagina-interna.guida-pensione-01 .sample-pay td{display:block;width:100%;box-sizing:border-box;border:0;border-bottom:1px solid #ebd9c8;white-space:normal;overflow-wrap:anywhere}
+.pagina-interna.guida-pensione-01 .sample-pay td:last-child{border-bottom:0}
+.pagina-interna.guida-pensione-01 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
+.pagina-interna.guida-pensione-01 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.79rem;font-weight:750;color:#745642;margin-bottom:4px}
+}
