@@ -219,3 +219,20 @@ footer{background:#3e312b}
 .pagina-interna.guida-pensione-02 .sample-pay td:first-child{font-weight:750;background:#f3e5d5}
 .pagina-interna.guida-pensione-02 .sample-pay td:not(:first-child)::before{content:attr(data-label);display:block;font-size:.79rem;font-weight:750;color:#745642;margin-bottom:4px}
 }
+
+/* Tarcento: due sportelli distinti e pulsanti a contrasto elevato */
+.experience-caf-uil .uil-contact-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}
+.experience-caf-uil .uil-contact-actions a.uil-contact-button,
+.experience-caf-uil .uil-contact-actions a.uil-contact-button:link,
+.experience-caf-uil .uil-contact-actions a.uil-contact-button:visited,
+.experience-caf-uil .uil-contact-actions a.uil-contact-button:hover,
+.experience-caf-uil .uil-contact-actions a.uil-contact-button:active{
+ display:flex;align-items:center;justify-content:center;min-height:56px;padding:14px 15px;
+ background:#234438!important;color:#ffffff!important;text-decoration:none!important;
+ font-size:1.08rem;font-weight:800;line-height:1.35;text-align:center;word-break:normal;overflow-wrap:break-word;
+ border:2px solid #234438;border-radius:8px;box-shadow:none;
+}
+.experience-caf-uil .uil-contact-actions a.uil-contact-button:hover{background:#162f26!important}
+.experience-caf-uil .uil-contact-actions a.uil-contact-button:focus-visible{outline:3px solid #db9d2e;outline-offset:4px}
+.experience-caf-uil .uil-phone a,.experience-caf-uil .uil-phone a:visited{color:#214f4b!important;font-weight:800}
+@media(max-width:720px){.experience-caf-uil .uil-contact-actions{grid-template-columns:1fr}}
