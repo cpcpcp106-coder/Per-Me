@@ -313,6 +313,7 @@ header .brand{gap:14px;min-height:90px}
 .pagina-interna.guida-pensione-05 .fonti-guide li{margin-bottom:14px;overflow-wrap:anywhere}
 .pagina-interna.guida-pensione-05 .muted-small,
 .pagina-interna.guida-pensione-05 .rubrica-hero figcaption{font-size:1rem;line-height:1.55}
+.pagina-interna.guida-pensione-05 .rubrica-hero figcaption{text-align:left;color:#574b43}
 .pagina-interna.guida-pensione-05 .sample-pay table{table-layout:fixed}
 .pagina-interna.guida-pensione-05 .sample-pay td,
 .pagina-interna.guida-pensione-05 .sample-pay th{overflow-wrap:anywhere}
