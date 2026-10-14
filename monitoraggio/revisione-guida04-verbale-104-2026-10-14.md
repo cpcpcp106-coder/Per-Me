@@ -33,3 +33,32 @@ Immagine originale: `assets/pensione-guida-04.svg` (illustrazione vettoriale, di
 ## Verifica tecnica
 Pagina e immagine SVG esistono nel repository. Rubrica aggiornata a quattro guide disponibili su otto; collegamenti locali, ancore della nuova pagina e tag strutturali principali verificati. `noindex,nofollow` mantenuto come per le guide precedenti.
 Non testati: ingresso autenticato MyINPS, resa grafica su telefoni reali, disponibilità immediata GitHub Pages; la pubblicazione GitHub Pages può richiedere propagazione. Non dichiarare verificati i link esterni soltanto perché inclusi nel file.
+
+## Secondo audit critico — 14 ottobre 2026 (revisione successiva)
+Verificati nuovamente testo della guida, INPS, normativa e rinvii.
+
+### Criticità risolte
+1. **Citazione eccessivamente generalizzata della circolare INPS 34/2018.** Il punto 6, corretto nel distinguere i giudizi invalidità civile/104, si riferisce specificamente all'accesso all'APE sociale. Nella guida è ora indicato l'ambito di applicazione; la circolare non è presentata come fonte generale per ogni agevolazione.
+2. **Mancava il nuovo certificato unico della riforma.** Inserita la differenza tra vecchi verbali distinti e certificato attestante la condizione di disabilità (ex verbale), unico e complessivo, con accertamenti differenziati. Integrate le FAQ INPS sulla riforma e la brochure ufficiale, che esplicitano l'unificazione documentale.
+3. **I due giudizi erano spiegati senza chiarire come reperirli nel nuovo certificato.** Integrati i controlli nelle sezioni su invalidità civile, legge 104, valutazione di base e collocamento mirato, distinguendo il livello di sostegno dalla percentuale di invalidità.
+4. **Conservazione dei benefici con verbale rivedibile, da precisare.** La circolare 127/2016 distingue la continuità dei permessi già autorizzati dall'eventuale necessità di nuova domanda per congedo straordinario, prolungamento del congedo parentale e determinati riposi. La guida ora esplicita questa differenza.
+5. **Circolare INPS 100/2026 eccessivamente generica nella menzione.** Precisato che tratta i permessi dei caregiver quando sono più aventi diritto, non tutte le tutele legge 104.
+6. **Usabilità su smartphone.** Aggiunti stili CSS dedicati: la tabella diventa una serie di schede verticali sul telefono, con etichette chiare (data-label). Aggiornato il parametro di versione del CSS.
+
+### Fonti primarie direttamente controllate
+- INPS circolare 34/2018, punto 6 (APE sociale): https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+34+del+23-02-2018.htm
+- INPS FAQ nuova valutazione di base, certificato unico: https://www.inps.it/content/dam/inps-site/pdf/allegati/en/FAQ_Riforma_della_Disabilit%C3%A0_en.pdf
+- INPS brochure precedente/nuova procedura: https://www.inps.it/content/dam/inps-site/pdf/allegati/en/INPS_per_la_disabilita.pdf
+- INPS circolare 10/2015: https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm
+- INPS circolare 127/2016: https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm
+- INPS circolare 100/2026: https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html
+- INPS notizia over 70 2026: https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html
+
+### Verifiche eseguite
+- Codice su GitHub modificato e verificato mediante nuova lettura.
+- 12 voci nel capitolo fonti; immagine originale `assets/pensione-guida-04.svg` presente.
+-  Nessun link interno mancante, nessun ID duplicato, tag principali bilanciati.
+- Consultate anche online alcune pagine INPS: esistono le pagine su Portale, QR code, agevolazioni, terza fase 2026 e il PDF di FAQ INPS.
+
+### Limiti del collaudo
+Non è stata effettuata una navigazione autenticata a MyINPS né la visione del rendering effettivo sul telefono dell'utente. La verifica HTML non equivale a validazione W3C o test di accessibilità con lettore di schermo. Nelle controversie personali serve leggere il provvedimento e gli eventuali termini.
