@@ -46,3 +46,35 @@ Fornire a lettori 50-70 anni un percorso rigoroso per identificare ricorsi e rim
 - I controlli sul repository non costituiscono validazione completa WCAG né verificano l'accesso MyINPS di un utente.
 - Il risultato del workflow GitHub Pages deve essere confermato all'ultimo commit dopo aver scritto questo rapporto.
 - In nessun caso i numeri sintetici della tabella consentono di determinare un termine individuale senza leggere l'atto.
+
+
+## Seconda revisione critica sostanziale — 14 ottobre 2026
+
+**Correzione diretta della pagina pubblica** `riesame-ricorso-inps-termini.html`. Commit del contenuto: `36101844dc8550ec1c374cc07e4f2393ad36d8bf`.
+
+### Errori e lacune verificati e corretti
+1. **Scadenza giudiziaria sanitaria: decorrenza non univoca nelle fonti divulgative.** La scheda pubblica INPS «Ricorso giurisdizionale» usa la parola «emissione» del diniego; la circolare INPS 42 del 17 febbraio 2025, §4.1, indica «notifica del verbale». La guida ora riporta entrambe senza forzare una scelta e raccomanda subito verifica legale su atto e prova della notifica. È un avviso urgente, non un calcolo automatico.
+2. **Errore sostanziale per diniego socio-economico invalidità civile.** La formulazione precedente poteva essere letta come esclusione del termine giudiziario semestrale per i dinieghi economico-reddituali. La circolare INPS 42/2025, §4.2, conferma che anche l'atto introduttivo relativo al diniego amministrativo-reddituale è soggetto al termine di sei mesi dalla ricezione, nel quadro del contenzioso descritto. Ora distinzione esplicita fra ricorso amministrativo del beneficio e azione giudiziaria, che non è automaticamente un ATPO medico-legale.
+3. **Ricorsi dei dipendenti pubblici.** Precisata decorrenza da ricezione, primo rateo pensionistico in casi specifici e presa visione del prospetto TFS/TFR nel Fascicolo; non è previsto ricorso contro il silenzio-rigetto della Gestione Dipendenti Pubblici.
+4. **Silenzio-rigetto e fondi speciali.** Indicazione che 90 giorni decorrono, per le fattispecie ammesse, dal 121° giorno successivo alla domanda; inserito avviso di 30 giorni per alcune prestazioni spettacolo/sport professionistico.
+5. **Terminologia e tabelle.** Corretto titolo errato «Tre azioni» in «Quattro strumenti»; rafforzato invito a conservare comunicazione integrale e prova di notifica.
+6. **Fasi ATPO dopo consulenza CTU.** Chiariti due termini processuali separati: fino a 30 giorni fissati dal giudice per esprimere dissenso; ulteriori 30 giorni per depositare ricorso di merito in caso di contestazione, secondo §4.1 circolare INPS 42/2025.
+7. **Pensione e AOI: decadenza giudiziaria.** Specificato il riferimento all'art. 47 DPR 639/1970 e alle ipotesi distinte (diniego / liquidazione parziale), richiamando circolare INPS 95/2014. Una nuova domanda non recupera necessariamente ratei pregressi.
+8. **Indebiti INPS.** Aggiornata la nuova funzione di simulazione e domanda rateizzazione online attiva dal 21 aprile 2026; limiti massimi di 72/36/24 rate secondo la tipologia, senza confondere rateizzazione e contestazione né presumere sospensione dei termini.
+9. **Inoltro ricorsi.** Nella modalità di invio diretto, il ricorso va sottoscritto, allegato separatamente rispetto ad altri documenti; l'operazione è completata solo con «Inoltro». Conservare ricevuta e successivo protocollo (anche entro 24 ore).
+10. **FAQ.** Aggiunta domanda sulla decorrenza dei sei mesi. Nessuna modifica all'immagine approvata.
+
+### Fonti principali aggiunte
+- INPS, circolare 42/2025 (capitolo 4, ricorso sanitario e socioeconomico): https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/02/Circolare_14832/Allegati/15908_Circolare-numero-42-del-17-02-2025.pdf
+- INPS, Ricorso giurisdizionale (scheda con descrizione «emissione»): https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html
+- INPS, Ricorsi amministrativi (modalità «Inoltro» e termini): https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorsi-amministrativi.html
+- INPS, Istanza di riesame e ricorso pensionistico (eccezioni pubblici e fondi speciali): https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html
+- INPS, rateizzazione online (21 aprile 2026): https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.pagamento-indebiti-disponibile-online-la-rateizzazione.html
+- INPS, circolare 95/2014: https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&iIDDalPortale=&iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+95+del+31-07-2014.htm
+
+### Audit tecnico dopo la correzione
+- **16 fonti** numerate e riferimenti nel testo nell'intervallo 1–16, senza riferimenti fuori scala.
+- **16 identificativi HTML** tutti unici; **36 collegamenti ad ancore** con destinazioni valide; **10 link locali** con destinazioni presenti.
+- Copertina WebP invariata, blob `d34e870b50c87f24363479ca18764f54268e7716`.
+- Il link alla guida è presente nella rubrica; CSS mobile presente; l'app possiede funzione di sincronizzazione online, ma l'avvenuta sincronizzazione sul telefono non è provata.
+- L'esito GitHub Pages deve essere verificato dopo l'ultimo commit a questo rapporto. Non è stato eseguito un controllo visivo su Samsung o una valutazione WCAG completa.
