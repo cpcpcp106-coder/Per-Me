@@ -16,7 +16,7 @@ function restore(){try{let s=JSON.parse(localStorage.getItem(KEY)||'{}');model.g
 function persist(){try{localStorage.setItem(KEY,JSON.stringify({guides:model.guides,favorites:model.favorites,updated:model.updated}));return true}catch(e){element('sync-status').textContent='Memoria piena: non posso salvare tutte le nuove guide.';return false}}
 function dateLabel(d){try{return new Date(d).toLocaleString('it-IT',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}catch(e){return 'data non disponibile'}}
 function isOnline(){return navigator.onLine}
-function statusConnection(){element('connection').textContent=isOnline()?'Online: aggiornamenti disponibili':'Offline: guide salvate disponibili';element('refresh').disabled=!isOnline()||model.syncing}
+function statusConnection(){element('connection').textContent=isOnline()?'Online: puoi verificare gli aggiornamenti':'Offline: guide salvate disponibili';element('refresh').disabled=!isOnline()||model.syncing}
 function pathFor(href,source){
  try{let url=new URL(href,source);if(url.origin!==ROOT.origin||!url.pathname.startsWith(ROOT.pathname))return null;let p=decodeURIComponent(url.pathname.substring(ROOT.pathname.length));return /^[a-z0-9-]+\.html$/i.test(p)&&!EXCLUDED.has(p)?p:null}catch(e){return null}
 }
