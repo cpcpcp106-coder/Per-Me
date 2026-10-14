@@ -1,0 +1,63 @@
+name: Per Me - Ottimizza fotografia Debiti
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ottimizza-foto-debiti.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  ottimizza-fotografia:
+    if: github.repository == 'cpcpcp106-coder/Per-Me'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Installa Pillow per conversione locale
+        run: python -m pip install --disable-pip-version-check 'Pillow==11.3.0'
+      - name: Converte la fotografia approvata senza ridimensionarla
+        run: |
+          python - <<'PY'
+          from PIL import Image, ImageStat, ImageChops
+          from pathlib import Path
+          import math
+          source=Path('assets/debiti-consulenza-approvata.png')
+          target=Path('assets/debiti-consulenza-approvata.webp')
+          page=Path('debiti-cartelle.html')
+          if not source.exists():
+              raise SystemExit('Fotografia originale non trovata: il sito non viene modificato')
+          rgb=Image.open(source).convert('RGB')
+          for q in (90, 94, 97):
+              rgb.save(target,format='WEBP',quality=q,method=6,exact=True)
+              after=Image.open(target).convert('RGB')
+              mse=sum(v*v for v in ImageStat.Stat(ImageChops.difference(rgb,after)).rms)/3
+              psnr=10*math.log10(65025/mse) if mse else 99
+              if psnr>=40: break
+          if after.size!=rgb.size: raise SystemExit('Dimensioni cambiate: conversione interrotta')
+          if psnr<40: raise SystemExit(f'Fedelta insufficiente: PSNR {psnr:.2f} dB')
+          if target.stat().st_size>=source.stat().st_size*0.90:
+              raise SystemExit('Risparmio minore del 10%, conversione non pubblicata')
+          html=page.read_text('utf-8')
+          old='<img src="assets/debiti-consulenza-approvata.png"'
+          new='<picture><source srcset="assets/debiti-consulenza-approvata.webp" type="image/webp"><img src="assets/debiti-consulenza-approvata.png"'
+          closing='decoding="async" fetchpriority="high"><figcaption>'
+          if html.count(new)==0:
+              if html.count(old)!=1 or html.count(closing)!=1: raise SystemExit('Tag non trovato o ambiguo: non modifico')
+              html=html.replace(old,new,1).replace(closing,'decoding="async" fetchpriority="high"></picture><figcaption>',1)
+              page.write_text(html,'utf-8')
+          assert 'assets/debiti-consulenza-approvata.webp' in html
+          assert 'assets/debiti-consulenza-approvata.png' in html
+          assert html.count('<picture>')==html.count('</picture>')
+          print(f'Foto: PNG {source.stat().st_size} byte -> WebP {target.stat().st_size} byte, PSNR {psnr:.2f} dB, pixel {rgb.size[0]}x{rgb.size[1]}')
+          PY
+      - name: Registra i due file ottimizzati
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/debiti-consulenza-approvata.webp debiti-cartelle.html
+          if ! git diff --cached --quiet; then
+            git commit -m 'Usa WebP ottimizzato con PNG originale di riserva nella Rubrica Debiti'
+            git push origin HEAD:main
+          fi
