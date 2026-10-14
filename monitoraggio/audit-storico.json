@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "audits": [
+    {
+      "date": "2026-10-14",
+      "scope": "repo main + Home pubblicata",
+      "stage": "audit iniziale, campione normativo; test browser non effettuati",
+      "score_before": 55,
+      "score_after": 60,
+      "score_status": "provvisorio: punteggio di qualità dimostrata, non certificazione",
+      "html_pages_scanned": 19,
+      "guides_scanned": 8,
+      "guides_fully_fact_checked": 0,
+      "links_local_static": 349,
+      "links_local_missing": 0,
+      "links_external_or_actions": 119,
+      "external_destinations_fully_checked": false,
+      "substantial_verified_topics": 9,
+      "verified_factual_claims_total": "non quantificato: i nove nuclei tematici non costituiscono una lista completa di affermazioni",
+      "source_report": "monitoraggio/audit-integrale-2026-10-14.md",
+      "changed_paths": [
+        "index.html",
+        "app/main.js",
+        "app/index.html",
+        "app/sw.js",
+        "tutor-ai.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "monitoraggio.html"
+      ],
+      "blocked": [
+        "Browser/Android/PWA test non disponibili",
+        "119 link esterni/azioni non controllati tutti in HTTP",
+        "Inventario completo singole affermazioni non ultimato",
+        "File HTML archivio 1,2 MB non ispezionato"
+      ]
+    }
+  ]
+}
