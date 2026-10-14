@@ -10,7 +10,7 @@ import urllib.error
 import urllib.request
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urldefrag, urljoin, urlsplit
+from urllib.parse import urldefrag, urljoin, urlsplit, unquote
 
 ROOT = Path(__file__).resolve().parent.parent
 DIR = ROOT / "monitoraggio"
@@ -78,7 +78,7 @@ def main():
                 external[link] = True
                 continue
             clean, anchor = urldefrag(link)
-            target_name = clean.split("?")[0] or name
+            target_name = unquote(clean.split("?")[0]) or name
             if not target_name.startswith("/") and not target_name.startswith("#"):
                 f = ROOT / target_name
             else:
