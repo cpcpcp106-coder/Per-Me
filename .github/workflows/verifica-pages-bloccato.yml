@@ -28,9 +28,9 @@ jobs:
             state=$(gh api "repos/$GITHUB_REPOSITORY/deployments/$id/statuses" --jq 'if length == 0 then "none" else .[0].state end')
             echo "Deployment precedente id=$id stato=$state"
             case "$state" in
-              queued|pending|in_progress)
-                echo "Disattivo solo il vecchio deployment $id, non tocco gli altri."
-                gh api --method POST "repos/$GITHUB_REPOSITORY/deployments/$id/statuses" -f state=inactive -f description='Pulizia vecchio rilascio interrotto'
+              queued|pending|in_progress|error|failure|inactive)
+                echo "Rimuovo solo il precedente deployment fallito o incompleto $id; non tocco il sito pubblicato."
+                gh api --method POST "repos/$GITHUB_REPOSITORY/deployments/$id/statuses" -f state=inactive -f description='Archiviazione rilascio precedente fallito'
                 gh api --method DELETE "repos/$GITHUB_REPOSITORY/deployments/$id"
                 ;;
               *)
