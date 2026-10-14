@@ -78,13 +78,17 @@ async function sync(){
   element('sync-status').textContent='Guide verificate: '+Math.min(i+4,all.length)+' di '+all.length;
  }
  if(newGuides.length){
-  let m=new Map(model.guides.map(g=>[g.path,g]));newGuides.forEach(g=>m.set(g.path,g));
-  model.guides=[...m.values()].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
+  // Una pagina rimossa dall'indice non resta automaticamente una pagina corrente.
+  const previous=new Map(model.guides.map(g=>[g.path,g]));
+  const fresh=newGuides.map(g=>({...g,stale:false}));
+  const oldCopies=[...new Set(failed)].filter(p=>previous.has(p)&&!fresh.some(g=>g.path===p))
+    .map(p=>({...previous.get(p),stale:true}));
+  model.guides=[...fresh,...oldCopies].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
   model.updated=new Date().toISOString();persist();
  }
  model.syncing=false;statusConnection();element('refresh').textContent='Aggiorna le guide';
  element('sync-status').textContent=newGuides.length
-  ?model.guides.length+' pagine salvate per la lettura offline · aggiornate '+dateLabel(model.updated)+(failed.length?'. Alcune pagine non sono state raggiunte.':'.')
+  ?model.guides.length+' pagine salvate per la lettura offline · controllo online '+dateLabel(model.updated)+(failed.length?'. Alcune pagine non raggiunte: le copie conservate sono segnalate come da verificare.':'.')
   :'Impossibile aggiornare ora. Le guide già salvate restano disponibili.';
  renderList();if(model.current)openGuide(model.current,false);
 }
@@ -95,9 +99,9 @@ function renderList(){
  if(!found.length){let p=document.createElement('p');p.className='empty';p.textContent=model.guides.length?'Non trovo guide con queste parole.':'Nessuna guida ancora salvata: collegati a Internet e premi «Aggiorna le guide». Poi potrai leggerle anche offline.';area.appendChild(p);return}
  for(let guide of found){
   const btn=document.createElement('button');btn.type='button';btn.className='guide-card';
-  const cat=document.createElement('span');cat.textContent=guide.category+(model.favorites.includes(guide.path)?' · Preferita':'');
+  const cat=document.createElement('span');cat.textContent=guide.category+(guide.stale?' · Copia non aggiornata':'')+(model.favorites.includes(guide.path)?' · Preferita':'');
   const title=document.createElement('strong');title.textContent=guide.title;
-  const more=document.createElement('em');more.textContent='Apri la guida salvata';
+  const more=document.createElement('em');more.textContent=guide.stale?'Apri la copia da verificare':'Apri il testo salvato';
   btn.append(cat,title,more);btn.addEventListener('click',()=>openGuide(guide.path,true));area.appendChild(btn);
  }
 }
@@ -106,7 +110,7 @@ function openGuide(path,scroll){
  if(!g)return;
  model.current=path;
  element('catalogue').hidden=true;element('reader').hidden=false;
- element('reader-category').textContent=g.category;element('reader-title').textContent=g.title;
+ element('reader-category').textContent=g.category+(g.stale?' · COPIA DA VERIFICARE':'');element('reader-title').textContent=g.title;element('reader-warning').hidden=!g.stale;
  element('reader-content').innerHTML=g.content;
  const fav=model.favorites.includes(path);
  element('favorite').setAttribute('aria-pressed',String(fav));element('favorite').textContent=fav?'Rimuovi dai preferiti':'Salva nei preferiti';
