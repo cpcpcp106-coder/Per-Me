@@ -113,6 +113,17 @@
         "verifica delle affermazioni non completa",
         "collaudo PWA su Samsung non eseguito",
         "WCAG e link HTTP non verificati integralmente"
+      ],
+      "monitoraggio_pages_checked": 26,
+      "monitoraggio_external_http_reached": 130,
+      "monitoraggio_external_http_failed": 0,
+      "monitoraggio_local_broken": 0,
+      "monitoraggio_workflow": "completed/success",
+      "broken_official_pdf_replaced": "redditi-red-comunicazioni-obbligatorie-inps.html",
+      "image_false_positives_resolved": 6,
+      "monitoring_source_changed_needs_review": [
+        "lavoro",
+        "salute"
       ]
     }
   ]
