@@ -131,7 +131,25 @@ function init(){
  element('favorite').addEventListener('click',()=>{let path=model.current;if(!path)return;model.favorites=model.favorites.includes(path)?model.favorites.filter(p=>p!==path):[...model.favorites,path];persist();openGuide(path,false)});
  element('reader-content').addEventListener('click',e=>{
   let a=e.target.closest('a[href]');if(!a)return;
-  const p=pathFor(a.href,ROOT);if(p&&model.guides.some(g=>g.path===p)){e.preventDefault();openGuide(p,true)}
+  try{
+   const u=new URL(a.href,ROOT);
+   if(u.origin!==ROOT.origin||!u.pathname.startsWith(ROOT.pathname))return;
+   const p=pathFor(u.href,ROOT);
+   if(p&&model.guides.some(g=>g.path===p)){
+    e.preventDefault();
+    const same=p===model.current;
+    if(!same)openGuide(p,true);
+    if(u.hash){
+     const id=decodeURIComponent(u.hash.substring(1));
+     const target=[...element('reader-content').querySelectorAll('[id]')].find(n=>n.id===id);
+     if(target)target.scrollIntoView({block:'start'});
+     else if(same)window.scrollTo({top:0});
+    }else if(same)window.scrollTo({top:0});
+    return;
+   }
+   const path=u.pathname.substring(ROOT.pathname.length);
+   if(path===''||path==='index.html'){e.preventDefault();back();}
+  }catch(err){}
  });
  window.addEventListener('online',()=>{statusConnection();sync()});
  window.addEventListener('offline',statusConnection);
