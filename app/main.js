@@ -1,0 +1,136 @@
+'use strict';
+const ROOT=new URL('../',location.href);
+const KEY='perme-app-offline-20261014';
+const SECTIONS=[
+ ['soldi-lavoro.html','Soldi & Lavoro'],
+ ['pensione-invalidita.html','Pensione e invalidità'],
+ ['debiti-cartelle.html','Debiti e cartelle'],
+ ['agevolazioni-diritti.html','Agevolazioni e diritti'],
+ ['salute-autonomia.html','Salute e autonomia'],
+ ['tutor-ai.html','Tutor AI essenziale']
+];
+const CATEGORIES=new Map(SECTIONS),EXCLUDED=new Set(['index.html','metodo.html','monitoraggio.html','chi-siamo.html']);
+const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false};
+const element=id=>document.getElementById(id);
+function restore(){try{let s=JSON.parse(localStorage.getItem(KEY)||'{}');model.guides=Array.isArray(s.guides)?s.guides:[];model.favorites=Array.isArray(s.favorites)?s.favorites:[];model.updated=s.updated||null;}catch(e){}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify({guides:model.guides,favorites:model.favorites,updated:model.updated}));return true}catch(e){element('sync-status').textContent='Memoria piena: non posso salvare tutte le nuove guide.';return false}}
+function dateLabel(d){try{return new Date(d).toLocaleString('it-IT',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}catch(e){return 'data non disponibile'}}
+function isOnline(){return navigator.onLine}
+function statusConnection(){element('connection').textContent=isOnline()?'Online: aggiornamenti disponibili':'Offline: guide salvate disponibili';element('refresh').disabled=!isOnline()||model.syncing}
+function pathFor(href,source){
+ try{let url=new URL(href,source);if(url.origin!==ROOT.origin||!url.pathname.startsWith(ROOT.pathname))return null;let p=decodeURIComponent(url.pathname.substring(ROOT.pathname.length));return /^[a-z0-9-]+\.html$/i.test(p)&&!EXCLUDED.has(p)?p:null}catch(e){return null}
+}
+async function downloadPage(path){
+ let url=new URL(path,ROOT);url.searchParams.set('perme_refresh',String(Date.now()));
+ let response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);
+ return {doc:new DOMParser().parseFromString(await response.text(),'text/html'),src:url.href};
+}
+const SAFE_TAGS=new Set('H1 H2 H3 H4 H5 H6 P UL OL LI STRONG B EM I U BR SPAN DIV SECTION ASIDE BLOCKQUOTE TABLE CAPTION THEAD TBODY TR TH TD DL DT DD CODE PRE HR A SMALL SUP SUB DETAILS SUMMARY'.split(' '));
+const SKIP_TAGS=new Set('SCRIPT STYLE NAV FOOTER HEADER IMG PICTURE SVG VIDEO AUDIO IFRAME OBJECT FORM BUTTON INPUT TEXTAREA SELECT CANVAS NOSCRIPT'.split(' '));
+function filtered(node,src){
+ if(node.nodeType===3)return document.createTextNode(node.textContent||'');
+ if(node.nodeType!==1)return document.createDocumentFragment();
+ let t=node.tagName.toUpperCase();if(SKIP_TAGS.has(t))return document.createDocumentFragment();
+ let out=SAFE_TAGS.has(t)?document.createElement(t.toLowerCase()):document.createDocumentFragment();
+ if(out.nodeType===1){
+  if(node.id&&/^[a-z\w-]{1,100}$/i.test(node.id))out.id=node.id;
+  if(node.classList.contains('experience-caf-uil'))out.className='experience-caf-uil';
+  if(node.classList.contains('note'))out.className='note';
+  if(node.classList.contains('uil-contact-button'))out.className='uil-contact-button';
+  if(t==='A'){let href=node.getAttribute('href');if(href){try{let url=new URL(href,src);if(['http:','https:','tel:','mailto:'].includes(url.protocol)){out.href=url.href;if(['http:','https:'].includes(url.protocol)){out.target='_blank';out.rel='noopener noreferrer'}}}catch(e){}}}
+  if(t==='TH'&&node.getAttribute('scope'))out.setAttribute('scope',node.getAttribute('scope'));
+ }
+ for(const child of node.childNodes)out.appendChild(filtered(child,src));
+ return out;
+}
+function extract(doc,src){
+ let a=doc.querySelector('main article')||doc.querySelector('main');if(!a)throw Error('Nessun articolo');
+ let clone=a.cloneNode(true);clone.querySelectorAll('nav,.rubrica-crossnav,.breadcrumbs,.breadcrumb,script,style').forEach(n=>n.remove());
+ clone.querySelector('h1')?.remove();
+ let out=document.createElement('div');for(const child of clone.childNodes)out.appendChild(filtered(child,src));
+ if((out.textContent||'').trim().length<30)throw Error('Articolo vuoto');
+ return out.innerHTML;
+}
+async function fetchGuide(path,category){
+ let {doc,src}=await downloadPage(path);
+ let title=(doc.querySelector('main article h1,main h1')?.textContent||category).trim().replace(/\s+/g,' ');
+ return {path,category:CATEGORIES.get(path)||category,title,content:extract(doc,src),summary:doc.querySelector('.lead')?.textContent?.trim()||'Guida del sito Per Me'};
+}
+async function sync(){
+ if(model.syncing)return;
+ if(!isOnline()){element('sync-status').textContent='Offline: puoi consultare le guide già salvate.';return}
+ model.syncing=true;statusConnection();element('refresh').textContent='Aggiornamento…';
+ element('sync-status').textContent='Verifico le guide pubblicate sul sito.';
+ let pages=new Map(),failed=[];
+ for(let [path,cat] of SECTIONS){
+  try{let {doc}=await downloadPage(path);pages.set(path,cat);
+   for(let a of doc.querySelectorAll('main a[href]')){
+    let found=pathFor(a.getAttribute('href'),new URL(path,ROOT));
+    if(found&&!CATEGORIES.has(found))pages.set(found,cat);
+   }
+  }catch(e){failed.push(path)}
+ }
+ let all=[...pages.entries()],newGuides=[];
+ for(let i=0;i<all.length;i+=4){
+  let slice=all.slice(i,i+4);
+  let done=await Promise.allSettled(slice.map(([p,c])=>fetchGuide(p,c)));
+  done.forEach((v,k)=>v.status==='fulfilled'?newGuides.push(v.value):failed.push(slice[k][0]));
+  element('sync-status').textContent='Guide verificate: '+Math.min(i+4,all.length)+' di '+all.length;
+ }
+ if(newGuides.length){
+  let m=new Map(model.guides.map(g=>[g.path,g]));newGuides.forEach(g=>m.set(g.path,g));
+  model.guides=[...m.values()].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
+  model.updated=new Date().toISOString();persist();
+ }
+ model.syncing=false;statusConnection();element('refresh').textContent='Aggiorna le guide';
+ element('sync-status').textContent=newGuides.length
+  ?model.guides.length+' pagine salvate per la lettura offline · aggiornate '+dateLabel(model.updated)+(failed.length?'. Alcune pagine non sono state raggiunte.':'.')
+  :'Impossibile aggiornare ora. Le guide già salvate restano disponibili.';
+ renderList();if(model.current)openGuide(model.current,false);
+}
+function renderList(){
+ const area=element('guide-list');area.replaceChildren();
+ let norm=s=>String(s).toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+ const found=model.guides.filter(g=>(model.filter!=='favorite'||model.favorites.includes(g.path))&&norm(g.title+' '+g.category+' '+g.content.replace(/<[^>]*>/g,' ')).includes(norm(model.query)));
+ if(!found.length){let p=document.createElement('p');p.className='empty';p.textContent=model.guides.length?'Non trovo guide con queste parole.':'Nessuna guida ancora salvata: collegati a Internet e premi «Aggiorna le guide». Poi potrai leggerle anche offline.';area.appendChild(p);return}
+ for(let guide of found){
+  const btn=document.createElement('button');btn.type='button';btn.className='guide-card';
+  const cat=document.createElement('span');cat.textContent=guide.category+(model.favorites.includes(guide.path)?' · Preferita':'');
+  const title=document.createElement('strong');title.textContent=guide.title;
+  const more=document.createElement('em');more.textContent='Apri la guida salvata';
+  btn.append(cat,title,more);btn.addEventListener('click',()=>openGuide(guide.path,true));area.appendChild(btn);
+ }
+}
+function openGuide(path,scroll){
+ let g=model.guides.find(x=>x.path===path);
+ if(!g)return;
+ model.current=path;
+ element('catalogue').hidden=true;element('reader').hidden=false;
+ element('reader-category').textContent=g.category;element('reader-title').textContent=g.title;
+ element('reader-content').innerHTML=g.content;
+ const fav=model.favorites.includes(path);
+ element('favorite').setAttribute('aria-pressed',String(fav));element('favorite').textContent=fav?'Rimuovi dai preferiti':'Salva nei preferiti';
+ if(scroll){history.replaceState(null,'','#guida='+encodeURIComponent(path));window.scrollTo({top:0})}
+}
+function back(){model.current=null;element('catalogue').hidden=false;element('reader').hidden=true;history.replaceState(null,'',location.pathname);window.scrollTo({top:0})}
+function init(){
+ restore();statusConnection();renderList();
+ if(model.updated)element('sync-status').textContent=model.guides.length+' pagine salvate · Ultimo aggiornamento '+dateLabel(model.updated)+'.';
+ element('refresh').addEventListener('click',sync);
+ element('search').addEventListener('input',e=>{model.query=e.target.value;renderList()});
+ document.querySelectorAll('.filter').forEach(btn=>btn.addEventListener('click',()=>{model.filter=btn.dataset.filter;document.querySelectorAll('.filter').forEach(f=>{f.classList.toggle('active',f===btn);f.setAttribute('aria-pressed',String(f===btn))});renderList()}));
+ element('back').addEventListener('click',back);element('bottom-back').addEventListener('click',back);
+ element('favorite').addEventListener('click',()=>{let path=model.current;if(!path)return;model.favorites=model.favorites.includes(path)?model.favorites.filter(p=>p!==path):[...model.favorites,path];persist();openGuide(path,false)});
+ element('reader-content').addEventListener('click',e=>{
+  let a=e.target.closest('a[href]');if(!a)return;
+  const p=pathFor(a.href,ROOT);if(p&&model.guides.some(g=>g.path===p)){e.preventDefault();openGuide(p,true)}
+ });
+ window.addEventListener('online',()=>{statusConnection();sync()});
+ window.addEventListener('offline',statusConnection);
+ window.addEventListener('hashchange',()=>{let p=location.hash.startsWith('#guida=')?decodeURIComponent(location.hash.substring(7)):null;if(p&&model.guides.some(g=>g.path===p))openGuide(p,false);else if(model.current)back()});
+ if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(()=>{});
+ const initial=location.hash.startsWith('#guida=')?decodeURIComponent(location.hash.substring(7)):null;
+ if(initial)openGuide(initial,false);
+ if(isOnline())sync();
+}
+document.addEventListener('DOMContentLoaded',init);
