@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "updatedAt": "2026-10-14",
   "sections": [
     {
@@ -45,15 +45,19 @@
           "body": "Cerca sempre protocollo, data di invio, ente competente e canale usato. Se una pratica resta ferma, chiedi aggiornamento citando questi dati senza aggiungere spiegazioni lunghe."
         },
         {
-          "id": "caf-uil-tarcento",
-          "title": "CAF UIL di Tarcento: la mia esperienza",
-          "body": "CAF UIL di Tarcento (UD). Io mi sono appoggiato a questo CAF. Per ISEE, DSU, dichiarazioni e altri servizi fiscali puoi verificare i servizi disponibili. Contatti della sede: 0432 785746. Elenco ufficiale delle sedi e contatti: https://extranet.cafuil.it/sediuil/sedi.asp. Attenzione: il CAF non sostituisce il patronato per le pensioni, né il sindacato per le vertenze di lavoro. Non esistono convenzioni con Per Me.",
-          "action": {
-            "label": "Apri sedi e contatti CAF UIL",
-            "url": "https://extranet.cafuil.it/sediuil/sedi.asp"
-          },
-          "buttonLabel": "Apri sedi e contatti CAF UIL",
-          "buttonUrl": "https://extranet.cafuil.it/sediuil/sedi.asp"
+          "id": "caf-patronato-tarcento",
+          "title": "CAF e Patronato UIL: la mia esperienza",
+          "body": "Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento. CAF UIL: 0432 785746; pagina delle sedi: https://extranet.cafuil.it/sediuil/sedi.asp. Patronato ITAL UIL: 0432 782024; sedi e contatti: https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6. Il CAF segue i servizi fiscali (ISEE e dichiarazioni); il Patronato segue prestazioni e pratiche previdenziali e assistenziali. Verifica orari e recapiti prima di andare. Il progetto Per Me non ha alcuna convenzione.",
+          "actions": [
+            {
+              "label": "Contatti CAF UIL",
+              "url": "https://extranet.cafuil.it/sediuil/sedi.asp"
+            },
+            {
+              "label": "Contatti Patronato ITAL UIL",
+              "url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6"
+            }
+          ]
         }
       ]
     },
@@ -71,20 +75,37 @@
     }
   ],
   "editorialPolicy": {
-    "cafUilTarcento": "Per contenuti riguardanti CAF, ISEE, DSU, dichiarazioni e altre pratiche fiscali pertinenti, riportare come esperienza personale: «Io mi sono appoggiato a questo CAF.» riferita al CAF UIL di Tarcento (UD). Se il contenuto permette link/pulsanti, aggiungere «Apri sedi e contatti CAF UIL» verso la pagina ufficiale. Non presentarlo come convenzione né come sostituto di patronato, sindacato, consulente o uffici competenti.",
-    "actionLabel": "Apri sedi e contatti CAF UIL",
-    "actionUrl": "https://extranet.cafuil.it/sediuil/sedi.asp"
+    "cafPatronatoTarcento": "Quando è coerente, indicare l'esperienza personale: «Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento.» Distinguere servizi fiscali (CAF) da previdenza e invalidità (Patronato). Inserire i due collegamenti ufficiali come pulsanti ben leggibili, senza promuoverli come convenzione.",
+    "actionLinks": [
+      {
+        "label": "Contatti CAF UIL",
+        "url": "https://extranet.cafuil.it/sediuil/sedi.asp"
+      },
+      {
+        "label": "Contatti Patronato ITAL UIL",
+        "url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6"
+      }
+    ],
+    "buttonContrast": "Testo bianco su sfondo verde scuro, font grande, due pulsanti separati, min-height 56px."
   },
   "resources": [
     {
-      "id": "caf-uil-tarcento",
-      "name": "CAF UIL di Tarcento (UD)",
-      "personalExperience": "Io mi sono appoggiato a questo CAF.",
-      "telephone": "0432 785746",
-      "telephoneUrl": "tel:+390432785746",
-      "contactLabel": "Apri sedi e contatti CAF UIL",
-      "contactUrl": "https://extranet.cafuil.it/sediuil/sedi.asp",
-      "disclaimer": "Esperienza personale, senza convenzioni. Il CAF offre servizi di assistenza fiscale e non sostituisce il patronato per questioni previdenziali o un consulente/sindacato per questioni retributive."
+      "id": "caf-e-patronato-uil-tarcento",
+      "title": "CAF UIL e Patronato ITAL UIL di Tarcento (UD)",
+      "personalExperience": "Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento.",
+      "caf": {
+        "telephone": "0432 785746",
+        "tel": "tel:+390432785746",
+        "contactLabel": "Contatti CAF UIL",
+        "contactUrl": "https://extranet.cafuil.it/sediuil/sedi.asp"
+      },
+      "patronato": {
+        "telephone": "0432 782024",
+        "tel": "tel:+390432782024",
+        "contactLabel": "Contatti Patronato ITAL UIL",
+        "contactUrl": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6"
+      },
+      "disclaimer": "Esperienza personale, non convenzione. CAF per servizi fiscali e Patronato per pratiche previdenziali. Verificare sedi e orari."
     }
   ]
 }
