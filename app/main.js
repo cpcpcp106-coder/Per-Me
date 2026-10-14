@@ -116,7 +116,7 @@ function openGuide(path,scroll){
  if(!g)return;
  model.current=path;
  element('catalogue').hidden=true;element('reader').hidden=false;
- element('reader-category').textContent=g.category+(g.stale?' · COPIA DA VERIFICARE':'');element('reader-title').textContent=g.title;element('reader-warning').hidden=!g.stale;
+ element('reader-category').textContent=g.category+(g.stale?' · COPIA DA VERIFICARE':'');element('reader-title').textContent=g.title;const warning=element('reader-warning');warning.hidden=!(g.stale||!isOnline()||!model.storageOk);if(!warning.hidden){warning.textContent=!model.storageOk?'Attenzione: il salvataggio non è riuscito. Dopo aver chiuso l’app, le nuove guide potrebbero non essere disponibili.':g.stale?'Attenzione: copia non aggiornata. Prima di prendere decisioni consulta le fonti ufficiali.':'Stai leggendo una copia offline. Ultimo controllo: '+dateLabel(model.updated)+'. Verifica online le scadenze prima di agire.';}
  element('reader-content').innerHTML=g.content;
  const fav=model.favorites.includes(path);
  element('favorite').setAttribute('aria-pressed',String(fav));element('favorite').textContent=fav?'Rimuovi dai preferiti':'Salva nei preferiti';
