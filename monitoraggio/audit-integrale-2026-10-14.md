@@ -68,7 +68,7 @@ Questi 9 nuclei tematici sono stati confrontati con fonti primarie disponibili a
 | Aperto | File HTML non navigato da 1,2 MB nel repository pubblico: contenuto non ispezionabile con il mezzo utilizzato | Potenziale esposizione da valutare; nessuna cancellazione non autorizzata |
 | Aperto | Immagini PNG di diversi megabyte nel repository: possibile impatto sulle prestazioni di alcune guide | Compressione e test non effettuati |
 | Aperto | Installabilità Chromium/Android con icone SVG e un'unica istanza riconoscibile | Manifest ispezionato; prova sul telefono non eseguita |
-| Aperto | Pagina Monitoraggio diceva «rapporto non ancora disponibile» nonostante uno storico dati JSON già esistente | Aggiornare la pagina per collegare il presente rapporto |
+| Bassa | In Monitoraggio mancava un collegamento al rapporto integrale di audit | Corretto: collegato il presente rapporto; resta distinto dal monitoraggio automatico |
 
 ## 4. Correzioni effettuate nel repository
 - `index.html`: collegamento iniziale guida 01, messaggio online/offline comprensibile e dicitura di accesso all'app non equivalente a download istantaneo.
