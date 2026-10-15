@@ -1,14 +1,13 @@
 {
-  "date_utc": "2026-10-15T13:16:53.286300+00:00",
+  "date_utc": "2026-10-15T13:46:29.237126+00:00",
   "scope": {
     "pages": 41,
-    "unique_external_urls": 284,
-    "occurrences": 573
+    "unique_external_urls": 280,
+    "occurrences": 544
   },
   "counts": {
-    "raggiungibile": 279,
-    "bloccato_o_riservato": 4,
-    "non_verificato_trasporto": 1
+    "raggiungibile": 276,
+    "bloccato_o_riservato": 4
   },
   "results": [
     {
@@ -81,15 +80,6 @@
       "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
-      ]
-    },
-    {
-      "url": "https://cafuil.it/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://cafuil.it/",
-      "pages": [
-        "debiti-guida-09-a-chi-rivolgersi.html"
       ]
     },
     {
@@ -228,36 +218,6 @@
       ]
     },
     {
-      "url": "https://extranet.cafuil.it/sediuil/sedi.asp",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://extranet.cafuil.it/sediuil/sedi.asp",
-      "pages": [
-        "agevolazioni-diritti.html",
-        "agevolazioni-guida-01-isee-corrente.html",
-        "agevolazioni-guida-02-bonus-sociali.html",
-        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-        "aoi-invalidita-civile-differenze.html",
-        "cedolino-pensione-obism-arretrati-verificare-importi.html",
-        "come-leggere-busta-paga.html",
-        "contributi-inps-estratto-conto-pensione-vicina.html",
-        "controllare-cedolino-cassa-integrazione-solidarieta.html",
-        "dal-lordo-al-netto.html",
-        "debiti-cartelle.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "index.html",
-        "inps-prestazione-sospesa-respinta-cosa-fare.html",
-        "pensione-invalidita.html",
-        "redditi-red-comunicazioni-obbligatorie-inps.html",
-        "riesame-ricorso-inps-termini.html",
-        "soldi-lavoro.html",
-        "stipendio-diminuito-cosa-controllare.html",
-        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
-      ]
-    },
-    {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
       "status": "raggiungibile",
       "http": 200,
@@ -360,8 +320,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -1088,17 +1049,6 @@
       ]
     },
     {
-      "url": "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
-      "pages": [
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "redditi-red-comunicazioni-obbligatorie-inps.html"
-      ]
-    },
-    {
       "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
       "status": "raggiungibile",
       "http": 200,
@@ -1466,7 +1416,26 @@
       "final_url": "https://www.inps.it/",
       "pages": [
         "aoi-invalidita-civile-differenze.html",
-        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+        "aoi-invalidita-civile-differenze.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "come-leggere-busta-paga.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "dal-lordo-al-netto.html",
+        "debiti-cartelle.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "riesame-ricorso-inps-termini.html",
+        "soldi-lavoro.html",
+        "stipendio-diminuito-cosa-controllare.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
     {
@@ -2465,36 +2434,6 @@
       "final_url": "https://www.ispettorato.gov.it/",
       "pages": [
         "stipendio-diminuito-cosa-controllare.html"
-      ]
-    },
-    {
-      "url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
-      "pages": [
-        "agevolazioni-diritti.html",
-        "agevolazioni-guida-01-isee-corrente.html",
-        "agevolazioni-guida-02-bonus-sociali.html",
-        "aoi-invalidita-civile-differenze.html",
-        "cedolino-pensione-obism-arretrati-verificare-importi.html",
-        "come-leggere-busta-paga.html",
-        "contributi-inps-estratto-conto-pensione-vicina.html",
-        "controllare-cedolino-cassa-integrazione-solidarieta.html",
-        "dal-lordo-al-netto.html",
-        "debiti-cartelle.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "debiti-guida-09-a-chi-rivolgersi.html",
-        "index.html",
-        "inps-prestazione-sospesa-respinta-cosa-fare.html",
-        "pensione-invalidita.html",
-        "redditi-red-comunicazioni-obbligatorie-inps.html",
-        "redditi-red-comunicazioni-obbligatorie-inps.html",
-        "riesame-ricorso-inps-termini.html",
-        "soldi-lavoro.html",
-        "stipendio-diminuito-cosa-controllare.html",
-        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
     {

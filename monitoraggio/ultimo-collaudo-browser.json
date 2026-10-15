@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T13:15:54.819Z",
+  "checked_at_utc": "2026-10-15T13:45:33.811Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "35 pagine salvate per la lettura offline · controllo online 15 ott, 13:16.",
+        "status": "35 pagine salvate per la lettura offline · controllo online 15 ott, 13:45.",
         "stored": {
           "guides": 35,
-          "updated": "2026-10-15T13:16:16.047Z",
-          "bytes": 657812,
+          "updated": "2026-10-15T13:45:54.003Z",
+          "bytes": 648908,
           "includesNew09": true
         }
       }
@@ -93,7 +93,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 4454
+        "chars": 4633
       }
     },
     {
@@ -169,7 +169,7 @@
     {
       "page": "home",
       "violations": [],
-      "passes": 18,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -193,19 +193,19 @@
     {
       "page": "agevolazioni-guida-03-trasporti-fvg.html",
       "violations": [],
-      "passes": 22,
+      "passes": 23,
       "incomplete": 1
     },
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
       "violations": [],
-      "passes": 22,
+      "passes": 23,
       "incomplete": 1
     },
     {
       "page": "aoi-invalidita-civile-differenze.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
@@ -223,7 +223,7 @@
     {
       "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
@@ -235,25 +235,25 @@
     {
       "page": "come-leggere-busta-paga.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 2
     },
     {
       "page": "contributi-inps-estratto-conto-pensione-vicina.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
       "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
       "page": "dal-lordo-al-netto.html",
       "violations": [],
-      "passes": 25,
+      "passes": 24,
       "incomplete": 1
     },
     {
@@ -325,13 +325,13 @@
     {
       "page": "index.html",
       "violations": [],
-      "passes": 18,
+      "passes": 17,
       "incomplete": 0
     },
     {
       "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
@@ -361,13 +361,13 @@
     {
       "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
       "page": "riesame-ricorso-inps-termini.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
@@ -391,7 +391,7 @@
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
@@ -403,7 +403,7 @@
     {
       "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 1
     },
     {
