@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T17:46:17.096Z",
+  "checked_at_utc": "2026-10-15T17:55:42.417Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 17:46.",
+        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 17:55.",
         "stored": {
           "guides": 41,
-          "updated": "2026-10-15T17:46:39.984Z",
-          "bytes": 771861,
+          "updated": "2026-10-15T17:55:57.583Z",
+          "bytes": 774760,
           "includesNew09": true
         }
       }
@@ -430,7 +430,7 @@
     {
       "page": "salute-guida-01-preparare-visita.html",
       "violations": [],
-      "passes": 18,
+      "passes": 19,
       "incomplete": 1
     },
     {
