@@ -27,6 +27,22 @@ let htmls=fs.readdirSync('.').filter(x=>x.endsWith('.html')&&!x.startsWith('goog
 let failures=[];
 for(let name of htmls){let resp=await context.request.get(URL+name,{timeout:15000});if(!resp.ok())failures.push({page:name,status:resp.status()});}
 record('published_html_http_local',failures.length===0,{count:htmls.length,failures});
+const allPageOverflow=[],allPageBrowserErrors=[];
+for (const name of htmls){
+try{
+ await page.goto(URL+name,{waitUntil:'domcontentloaded',timeout:25000});
+ const width390=await page.evaluate(()=>({inner:innerWidth,scroll:document.documentElement.scrollWidth}));
+ await page.setViewportSize({width:320,height:820});
+ const width320=await page.evaluate(()=>({inner:innerWidth,scroll:document.documentElement.scrollWidth}));
+ if(width390.scroll>width390.inner+3 || width320.scroll>width320.inner+3)
+  allPageOverflow.push({name,width390,width320});
+ await page.setViewportSize({width:390,height:844});
+ await axeTest(page,name);
+}catch(e){allPageBrowserErrors.push({name,error:String(e).slice(0,260)})}
+}
+record('all_root_html_mobile_reflow',allPageOverflow.length===0,{checked:htmls.length,violations:allPageOverflow});
+record('all_root_html_axe_wcag_auto',!report.axe.some(x=>x.error||(x.violations||[]).length) && !allPageBrowserErrors.length,{checked:htmls.length,failed:report.axe.filter(x=>x.error||(x.violations||[]).length).map(x=>({page:x.page,violations:x.violations?.map(y=>({id:y.id,nodes:y.total})),error:x.error})),errors:allPageBrowserErrors});
+
 await page.goto(URL+'debiti-guida-09-a-chi-rivolgersi.html',{waitUntil:'domcontentloaded'});
 record('guide_09_load',await page.locator('article h1').count()===1,await page.locator('article h1').textContent());
 record('guide09_overflow_mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+3),await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth})));
