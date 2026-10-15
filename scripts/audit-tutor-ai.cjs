@@ -66,10 +66,10 @@ assert.match(app,/blockquote\[id\^="prompt-"\]/,'PWA non individua i prompt');
 assert.match(app,/navigator.clipboard&&navigator.clipboard.writeText/,'Clipboard API PWA assente');
 assert.match(app,/document.execCommand\('copy'\)/,'Fallback clipboard PWA assente');
 assert.match(read('app/app.css'),/\.reader-content \.prompt-copy/,'Stile pulsanti PWA assente');
-assert.match(read('app/index.html'),/main\.js\?v=10/,'PWA non aggiorna JavaScript');
-assert.match(read('app/index.html'),/app\.css\?v=10/,'PWA non aggiorna CSS');
-assert.match(read('app/sw.js'),/perme-reader-v12-20261015-tutor/,'Cache PWA non aggiornata');
-assert.match(read('app/sw.js'),/main\.js\?v=10/,'Service worker usa versione vecchia');
+assert.match(read('app/index.html'),/main\.js\?v=11/,'PWA non aggiorna JavaScript');
+assert.match(read('app/index.html'),/app\.css\?v=11/,'PWA non aggiorna CSS');
+assert.match(read('app/sw.js'),/perme-reader-v13-20261015-otto-rubriche/,'Cache PWA non aggiornata');
+assert.match(read('app/sw.js'),/main\.js\?v=11/,'Service worker usa versione vecchia');
 
 console.log('PASS Tutor AI: 6 prompt, pulsanti, script copiabile sintatticamente valido, fallback Android, privacy, SEO e salvataggio testo PWA.');
 console.log('LIMITI: test statico. Per il dispositivo Android reale verificare manualmente copia e incolla e salvataggio offline aggiornato.');
