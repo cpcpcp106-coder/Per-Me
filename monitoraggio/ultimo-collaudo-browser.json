@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T16:56:38.154Z",
+  "checked_at_utc": "2026-10-15T17:10:13.969Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 45,
+        "count": 46,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 45,
+        "checked": 46,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 45,
+        "checked": 46,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "40 pagine salvate per la lettura offline · controllo online 15 ott, 16:56.",
+        "status": "40 pagine salvate per la lettura offline · controllo online 15 ott, 17:10.",
         "stored": {
           "guides": 40,
-          "updated": "2026-10-15T16:56:55.820Z",
+          "updated": "2026-10-15T17:10:35.116Z",
           "bytes": 741334,
           "includesNew09": true
         }
@@ -237,6 +237,12 @@
     },
     {
       "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
       "violations": [],
       "passes": 20,
       "incomplete": 1

@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T16:57:35.988452+00:00",
+  "date_utc": "2026-10-15T17:11:16.073196+00:00",
   "scope": {
-    "pages": 47,
-    "unique_external_urls": 324,
-    "occurrences": 614
+    "pages": 48,
+    "unique_external_urls": 334,
+    "occurrences": 630
   },
   "counts": {
-    "raggiungibile": 309,
-    "bloccato_o_riservato": 11,
+    "raggiungibile": 318,
+    "bloccato_o_riservato": 12,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -349,6 +349,15 @@
       "final_url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
@@ -1802,6 +1811,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-di-maternit--dei-comuni.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-di-maternit--dei-comuni.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html",
       "status": "raggiungibile",
       "http": 200,
@@ -1945,7 +1964,8 @@
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
-        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
@@ -1993,6 +2013,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-unico-e-universale-per-i-figli-a-carico-55984.assegno-unico-e-universale-per-i-figli-a-carico.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-unico-e-universale-per-i-figli-a-carico-55984.assegno-unico-e-universale-per-i-figli-a-carico.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assistenza-fiscale-730-4-servizi-al-cittadino-52056.assistenza-fiscale-730-4-servizi-al-cittadino.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2013,6 +2043,15 @@
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.bonus-asilo-nido-e-forme-di-supporto-presso-la-propria-abitazione-51105.bonus-asilo-nido-e-forme-di-supporto-presso-la-propria-abitazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.bonus-asilo-nido-e-forme-di-supporto-presso-la-propria-abitazione-51105.bonus-asilo-nido-e-forme-di-supporto-presso-la-propria-abitazione.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
@@ -2396,12 +2435,40 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.01.nuovi-criteri-isee-per-l-inclusione-sociale-aggiornamento-procedure.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.01.nuovi-criteri-isee-per-l-inclusione-sociale-aggiornamento-procedure.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-di-inclusione-le-novit-2026.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-di-inclusione-le-novit-2026.html",
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-di-maternit-e-soglia-isee-aggiornamenti-per-il-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-di-maternit-e-soglia-isee-aggiornamenti-per-il-2026.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-unico-2026-presentazione-domanda-e-aggiornamento-importi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-unico-2026-presentazione-domanda-e-aggiornamento-importi.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
@@ -2423,6 +2490,16 @@
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "riesame-ricorso-inps-termini.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.bonus-asilo-nido-2026-attivo-il-servizio-per-la-domanda.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.bonus-asilo-nido-2026-attivo-il-servizio-per-la-domanda.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
@@ -2538,6 +2615,16 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.pensionati-il-cedolino-di-pensione-di-agosto-2026.html",
       "pages": [
         "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.bonus-nuovi-nati-2026-domande-entro-il-12-agosto.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.bonus-nuovi-nati-2026-domande-entro-il-12-agosto.html",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
@@ -3007,6 +3094,14 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/mother-and-child-sitting-at-the-table-8035972/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
     },
     {
