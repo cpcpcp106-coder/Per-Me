@@ -103,7 +103,7 @@
 
 ## Qualità, priorità e prossimo intervento
 
-**Punteggio globale:** resta **70/100 provvisorio** finché l'audit comparabile dell'intero progetto non è ripetuto dopo il deploy; non incrementare il voto in base al numero di modifiche. **P1:** completare il collaudo browser post-correzioni (nessuna violazione axe). **P1 contenutistico successivo:** completare l'audit atomico sui termini INPS e sui rimedi con decadenza, prima di aggiungere funzionalità.
+**Punteggio globale:** resta **70/100 provvisorio** finché l'audit comparabile dell'intero progetto non è ripetuto dopo il deploy; non incrementare il voto in base al numero di modifiche. **Collaudo browser post-correzioni: COMPLETATO E SUPERATO**. **P1 contenutistico successivo:** completare l'audit atomico sui termini INPS e sui rimedi con decadenza, prima di aggiungere funzionalità.
 
 **Fonti ufficiali ulteriori:**
 - Google noindex https://developers.google.com/search/docs/crawling-indexing/block-indexing?hl=it
@@ -111,3 +111,12 @@
 - WCAG 2.2 AA reflow https://www.w3.org/WAI/WCAG22/Understanding/reflow.html
 - AdeR rottamazione territoriale https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/
 
+
+## Addendum di chiusura del ciclo (15/10/2026)
+
+- **GATED CI:** [GitHub Actions, collaudo browser e fonti run 38717131173](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38717131173) **SUCCESS** sul commit `4f6ea2df59d8106bf420fb5960e200ee88c4eb12`. A differenza dei run precedenti, il programma avrebbe impostato un codice d'uscita fallito in presenza di violazioni axe o test FAIL.
+- Ultimo `monitoraggio/ultimo-collaudo-browser.json` consultato: 15/10/2026 10:01 UTC; **15/15 test PASS**, **zero violazioni axe registrate**, nessun errore della pagina; 35 pagine editoriali nel controllo automatico. Non certificazione WCAG manuale.
+- `monitoraggio/ultimo-audit-statico.json`: **37 file HTML**, **24 guide**, 25 URL indicizzabili/25 in sitemap, **zero riferimenti locali e ancore mancanti**.
+- `app/tests/sync-summary.test.cjs`: [run 38716975399](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38716975399) **SUCCESS** dopo aggiornamento delle regole CSS.
+- [GitHub Pages per commit `4f6ea2df`](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38717130192) **SUCCESS**: modifiche tecniche deployate. Il commit successivo che aggiunge soltanto questo rapporto richiede una distinta conferma di pubblicazione.
+- Priorità successiva unica: verifica giuridica atomica delle decadenze e dei ricorsi INPS.
