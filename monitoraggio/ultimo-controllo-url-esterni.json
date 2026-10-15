@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T16:41:45.557654+00:00",
+  "date_utc": "2026-10-15T16:48:13.867675+00:00",
   "scope": {
     "pages": 47,
     "unique_external_urls": 322,
     "occurrences": 612
   },
   "counts": {
-    "raggiungibile": 290,
+    "raggiungibile": 291,
     "bloccato_o_riservato": 11,
-    "errore_http": 17,
+    "errore_http": 16,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -265,8 +265,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
