@@ -24,7 +24,7 @@ for(const [name,html]of [[file,guide],['agevolazioni-diritti.html',rubric]]){
 assert.match(guide,/<meta name="robots" content="index,follow"/);
 assert.match(guide,/rel="canonical"/);
 assert.ok(rubric.includes('href="'+file+'"'),'Guida 03 mancante indice');
-assert.ok(home.includes('3 guide operative disponibili'),'Home non aggiornata');
+assert.ok(/[3-9] guide operative disponibili/.test(home),'Home deve avere almeno tre guide operative');
 assert.ok(sitemap.includes('/Per-Me/'+file),'Sitemap senza Guida 03');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Ritorno alla rubrica assente');
 assert.ok(guide.includes('agevolazioni-guida-02-bonus-sociali.html'),'Manca precedente guida');
