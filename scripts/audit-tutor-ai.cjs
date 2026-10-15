@@ -40,5 +40,17 @@ assert.match(app,/\['tutor-ai.html','Tutor AI essenziale'\]/,'Tutor non incluso 
 assert.match(app,/function extract\(doc,src\)/,'Estrazione testi PWA assente');
 assert.match(app,/SKIP_TAGS=new Set\('SCRIPT STYLE NAV/,'Script non deve finire nei testi offline');
 assert.match(app,/SAFE_TAGS=new Set\('[^']*BLOCKQUOTE/,'Testi prompt preservati offline');
+new vm.Script(app,{filename:'app/main.js'});
+assert.match(app,/function addTutorCopyControls\(\)/,'Pulsanti offline PWA assenti');
+assert.match(app,/if\(path==='tutor-ai.html'\)addTutorCopyControls\(\)/,'Tutor non attiva copia PWA');
+assert.match(app,/blockquote\[id\^="prompt-"\]/,'PWA non individua i prompt');
+assert.match(app,/navigator.clipboard&&navigator.clipboard.writeText/,'Clipboard API PWA assente');
+assert.match(app,/document.execCommand\('copy'\)/,'Fallback clipboard PWA assente');
+assert.match(read('app/app.css'),/\.reader-content \.prompt-copy/,'Stile pulsanti PWA assente');
+assert.match(read('app/index.html'),/main\.js\?v=10/,'PWA non aggiorna JavaScript');
+assert.match(read('app/index.html'),/app\.css\?v=10/,'PWA non aggiorna CSS');
+assert.match(read('app/sw.js'),/perme-reader-v12-20261015-tutor/,'Cache PWA non aggiornata');
+assert.match(read('app/sw.js'),/main\.js\?v=10/,'Service worker usa versione vecchia');
+
 console.log('PASS Tutor AI: 6 prompt, pulsanti, script copiabile sintatticamente valido, fallback Android, privacy, SEO e salvataggio testo PWA.');
 console.log('LIMITI: test statico. Per il dispositivo Android reale verificare manualmente copia e incolla e salvataggio offline aggiornato.');
