@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T12:43:47.661Z",
+  "checked_at_utc": "2026-10-15T12:53:13.056Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,29 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 39,
-        "failed": [
-          {
-            "page": "agevolazioni-guida-03-trasporti-fvg.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 8
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 8
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -86,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "35 pagine salvate per la lettura offline · controllo online 15 ott, 12:44.",
+        "status": "35 pagine salvate per la lettura offline · controllo online 15 ott, 12:53.",
         "stored": {
           "guides": 35,
-          "updated": "2026-10-15T12:44:03.098Z",
+          "updated": "2026-10-15T12:53:26.755Z",
           "bytes": 653566,
           "includesNew09": true
         }
@@ -139,6 +120,42 @@
       }
     },
     {
+      "name": "published_guide_01",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "ISEE ordinario e corrente 2026: requisiti, documenti e domanda | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html"
+      }
+    },
+    {
+      "name": "published_guide_02",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Bonus sociali 2026: luce, gas, acqua e TARI | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html"
+      }
+    },
+    {
+      "name": "published_guide_03",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Trasporti agevolati FVG 2026: invalidità e over 65 | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html"
+      }
+    },
+    {
+      "name": "published_guide_04",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Esenzioni ticket sanitari FVG 2026: reddito, diabete, invalidità | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      }
+    },
+    {
       "name": "published_app",
       "result": "PASS",
       "details": {
@@ -175,81 +192,13 @@
     },
     {
       "page": "agevolazioni-guida-03-trasporti-fvg.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "nav[aria-label=\"Navigazione della guida\"] > a:nth-child(1)"
-            ],
-            [
-              "a[href$=\"#differenze\"]"
-            ],
-            [
-              "a[href$=\"#domanda-invalidita\"]"
-            ],
-            [
-              "a[href$=\"#over65\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(2)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a[href$=\"#contenuto\"]"
-            ]
-          ],
-          "total": 8
-        }
-      ],
+      "violations": [],
       "passes": 22,
       "incomplete": 1
     },
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "nav[aria-label=\"Navigazione della guida\"] > a:nth-child(1)"
-            ],
-            [
-              "a[href$=\"#reddito\"]"
-            ],
-            [
-              "a[href$=\"#patologie\"]"
-            ],
-            [
-              "a[href$=\"#invalidita\"]"
-            ],
-            [
-              "a[href$=\"#sportelli\"]"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(2)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a[href$=\"#contenuto\"]"
-            ]
-          ],
-          "total": 8
-        }
-      ],
+      "violations": [],
       "passes": 22,
       "incomplete": 1
     },

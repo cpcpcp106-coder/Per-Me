@@ -1,15 +1,78 @@
 {
-  "date_utc": "2026-10-15T11:44:26.900753+00:00",
+  "date_utc": "2026-10-15T12:54:06.461517+00:00",
   "scope": {
-    "pages": 39,
-    "unique_external_urls": 251,
-    "occurrences": 514
+    "pages": 41,
+    "unique_external_urls": 281,
+    "occurrences": 570
   },
   "counts": {
-    "raggiungibile": 249,
-    "bloccato_o_riservato": 2
+    "raggiungibile": 277,
+    "bloccato_o_riservato": 4
   },
   "results": [
+    {
+      "url": "https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
     {
       "url": "https://cafuil.it/",
       "status": "raggiungibile",
@@ -126,6 +189,16 @@
       ]
     },
     {
+      "url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
       "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/diritti-e-tutele/arbitro-bancario-finanziario/",
       "status": "raggiungibile",
       "http": 200,
@@ -153,6 +226,7 @@
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "aoi-invalidita-civile-differenze.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "come-leggere-busta-paga.html",
@@ -219,12 +293,30 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
     {
@@ -254,6 +346,15 @@
       "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
       "pages": [
         "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
       ]
     },
     {
@@ -336,6 +437,56 @@
       "final_url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
       "pages": [
         "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://tplfvg.it/it/abbonamenti/agevolazioni-e-sconti/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tplfvg.it/it/abbonamenti/agevolazioni-e-sconti/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://tplfvg.it/it/abbonamenti/disabilita/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tplfvg.it/it/abbonamenti/disabilita/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://tplfvg.it/it/abbonamenti/tariffe/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tplfvg.it/it/abbonamenti/tariffe/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://tplfvg.it/it/abbonamenti/tesserini/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tplfvg.it/it/abbonamenti/tesserini/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://tplfvg.it/it/guide-rapide/abbonamenti-agevolati/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tplfvg.it/it/guide-rapide/abbonamenti-agevolati/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
       ]
     },
     {
@@ -930,6 +1081,24 @@
       ]
     },
     {
+      "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
       "status": "raggiungibile",
       "http": 200,
@@ -1188,6 +1357,15 @@
       "final_url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
       "pages": [
         "salute-guida-01-preparare-visita.html"
+      ]
+    },
+    {
+      "url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
       ]
     },
     {
@@ -2033,7 +2211,8 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.dichiarazione-sostitutiva-unica-disponibile-il-nuovo-modello.html",
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html",
-        "agevolazioni-guida-01-isee-corrente.html"
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
@@ -2484,11 +2663,68 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/elderly-woman-reading-a-document-7545331/",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/men-and-woman-waiting-at-bus-stop-15965909/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA105/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA105/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA33/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA33/",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/BancheDati/anagrafi/MCR",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/BancheDati/anagrafi/MCR",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-reddito/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-reddito/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
     {
@@ -2518,6 +2754,64 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/",
       "pages": [
         "dieta-mediterranea-ricette.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-diagnosi-precoce-tumori/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-diagnosi-precoce-tumori/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-invalidita/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-invalidita/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-rare/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-rare/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-fvg.html"
       ]
     },
     {
