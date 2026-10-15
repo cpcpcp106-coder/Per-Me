@@ -161,6 +161,35 @@
         "rischio dati personali in Git history da valutare",
         "orari CAF locali e stato operativo oggi non provati"
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "version": "audit-completamento-browser-pwa-wcag-sorgenti",
+      "score_before": 54,
+      "score_after": 67,
+      "score_kind": "Valutazione prudente della qualità dimostrata, non certificazione",
+      "scope": "36 HTML statici; 34 pagine axe/reflow; 23 guide nel registro di 62 proposizioni",
+      "browser_mobile_pages": 34,
+      "axe_automated_violations": 0,
+      "public_pages_http200": 3,
+      "external_urls_checked": 224,
+      "external_urls_reachable": 223,
+      "external_urls_403": 1,
+      "fact_checks": 62,
+      "fact_confirmed": 61,
+      "fact_non_verifiable": 1,
+      "pwa_content_offline": 30,
+      "pwa_samsung_test": false,
+      "fully_factchecked_guides": 0,
+      "wcag_manual_completed": false,
+      "report": "monitoraggio/audit-completamento-2026-10-15.md",
+      "open": [
+        "Verifica di tutte le proposizioni normative",
+        "Collaudo fisico Samsung",
+        "Test umani WCAG",
+        "Privacy della cronologia Git",
+        "Servizio rottamazione territoriale 16 ottobre"
+      ]
     }
   ]
 }
