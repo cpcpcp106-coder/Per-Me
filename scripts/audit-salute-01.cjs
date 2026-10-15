@@ -17,6 +17,27 @@ for(const tag of ['p','li','ul','ol','section','div','nav','main','article','h1'
  assert.equal(count(tag),close,'Tag HTML non bilanciato: '+tag);
 }
 for(const m of html.matchAll(/<img\b[^>]*>/gi))assert.match(m[0],/\balt="[^"]*"/i,'Immagine senza alt');
+const picture=html.match(/<figure class="foto-guida">([\s\S]*?)<\/figure>/i);
+assert.ok(picture,'La Guida 01 deve avere una fotografia editoriale reale, non soltanto il logo');
+const photoTag=picture[1].match(/<img\b[^>]*>/i)?.[0];
+assert.ok(photoTag,'Fotografia editoriale senza tag IMG');
+const assetPath='assets/salute-guida-01-visita-medica.jpg';
+assert.ok(photoTag.includes('src="'+assetPath+'"'),'La fotografia deve usare un file locale del progetto, non un collegamento esterno');
+assert.match(photoTag,/alt="[^"]{20,}"/i,'Descrizione alternativa fotografica assente o generica');
+assert.match(photoTag,/width="1400"/,'Dimensione reale dichiarata');
+assert.match(photoTag,/height="933"/,'Dimensione verticale dichiarata');
+assert.match(picture[1],/Towfiqu barbhuiya\s*\/\s*Pexels/,'Attribuzione fotografo mancante');
+assert.match(picture[1],/https:\/\/www\.pexels\.com\/photo\/hand-holding-medicine-over-paper-on-desk-11370618\//,'Pagina originale della fotografia assente');
+assert.match(picture[1],/https:\/\/www\.pexels\.com\/license\//,'Link alla licenza mancante');
+assert.match(html,/foto-guida img\{display:block;width:100%;height:auto/,'Immagine non resa adattiva al telefono');
+const imageBytes=fs.readFileSync(path.join(root,assetPath));
+assert.ok(imageBytes.length>20000&&imageBytes.length<1500000,'Dimensione immagine non valida');
+assert.ok(imageBytes[0]===0xff&&imageBytes[1]===0xd8&&imageBytes[2]===0xff,'Il file locale non è un JPEG');
+const registry=JSON.parse(read('FONTI/registro-diritti-immagini.json'));
+const record=registry.local.find(x=>x.file===assetPath),original=registry.stock.find(x=>x.photo_id==='11370618');
+assert.ok(record&&record.licensing==='PROVENIENZA_DOCUMENTATA'&&record.git_blob_sha,'Fotografia locale senza registrazione e integrità');
+assert.ok(original&&original.verification==='LICENZA_PIATTAFORMA_VERIFICATA'&&original.used_in===page,'Provenienza Pexels e licenza non verificabili');
+assert.ok(!registry.stock.some(x=>x.photo_id==='11370618'&&x.used_in!==page),'Riuso inconsistente fotografia');
 for(const cue of ['112 o il 118','dolore o oppressione al petto','forte difficoltà respiratoria','debolezza improvvisa','difficoltà improvvisa a parlare','Non guidare da solo','Non aspettare','grave alterazione dello stato di coscienza']){
  assert.ok(html.toLowerCase().includes(cue.toLowerCase()),'Avvertenza di sicurezza mancante: '+cue);
 }
@@ -37,5 +58,5 @@ assert.match(sitemap,/salute-guida-01-preparare-visita.html/,'Guida non presente
 assert.match(app,/\['salute-autonomia.html','Salute e autonomia'\]/,'Rubrica non presente nella PWA');
 assert.match(app,/doc.querySelectorAll\('main a\[href\]'\)/,'PWA non sincronizza le guide');
 new vm.Script(app,{filename:'app/main.js'});
-console.log('PASS Salute 01: emergenze, terapia, diabete, cuore, percorso pratico, fonti datate dichiarate, strutture, sito nazionale e PWA.');
+console.log('PASS Salute 01: foto editoriale locale documentata ('+imageBytes.length+' byte), alt, didascalia, licenza, responsive, emergenze, farmaci, fonti e PWA.');
 console.log('LIMITI: test statico; non e una revisione clinica professionale ne una prova su dispositivo Android.');
