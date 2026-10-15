@@ -20,3 +20,7 @@
 .install-help button:hover,.install-help button:focus-visible{background:#f4e8d7;color:#392215}
 .top .install-help .smallstatus{color:#fffaf2;font-size:1.02rem;line-height:1.55;max-width:640px;margin:12px 0}
 .install-help[hidden]{display:none}
+
+/* Collaudo axe WCAG 2 AA: collegamento del piè di pagina leggibile. */
+footer a,footer a:visited{color:#fffaf2;text-decoration:underline;text-underline-offset:3px}
+footer a:hover,footer a:focus-visible{color:#ffffff}

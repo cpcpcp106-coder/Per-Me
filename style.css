@@ -408,3 +408,10 @@ header .brand{gap:14px;min-height:90px}
 .experience-caf-uil .uil-contact-button:visited{min-height:56px;padding:13px 18px;background:#234438;color:#fff;font-size:1.08rem;line-height:1.45;text-align:center;font-weight:800}
 .experience-caf-uil .uil-contact-button:hover,
 .experience-caf-uil .uil-contact-button:focus-visible{background:#19352a;color:#fff;outline:3px solid #d39624;outline-offset:3px}
+
+/* Audit WCAG 2.2 AA automatico, 15 ottobre 2026: aumentato il contrasto degli elementi Guida 09. */
+.pagina-interna.rubrica-debiti .article>.eyebrow:first-child{color:#593424;background:#f0dfcf}
+.pagina-interna.rubrica-debiti .article .debt-guide-nav a,
+.pagina-interna.rubrica-debiti .article .debt-guide-nav a:visited{color:#563021;background:#f7e8db}
+.pagina-interna.rubrica-debiti .article .g09-detail a:not(.button),
+.pagina-interna.rubrica-debiti .article .g09-detail a:not(.button):visited{color:#543020;text-decoration:underline}
