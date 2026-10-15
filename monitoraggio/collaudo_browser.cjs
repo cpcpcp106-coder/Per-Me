@@ -76,6 +76,7 @@ for (const [label,remote,locator] of [
  ['published_guide_02','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html','article h1'],
  ['published_guide_03','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html','article h1'],
  ['published_guide_04','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html','article h1'],
+ ['published_guide_05','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html','article h1'],
  ['published_app','https://cpcpcp106-coder.github.io/Per-Me/app/','#catalogue-title']
 ]){
  try{
