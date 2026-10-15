@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T18:24:27.223Z",
+  "checked_at_utc": "2026-10-15T18:26:54.423Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 48,
+        "count": 49,
         "failures": []
       }
     },
@@ -28,16 +28,26 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 48,
+        "checked": 49,
         "violations": []
       }
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
-        "checked": 48,
-        "failed": [],
+        "checked": 49,
+        "failed": [
+          {
+            "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 11
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -67,10 +77,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 18:24.",
+        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 18:27.",
         "stored": {
           "guides": 41,
-          "updated": "2026-10-15T18:24:46.906Z",
+          "updated": "2026-10-15T18:27:18.048Z",
           "bytes": 778302,
           "includesNew09": true
         }
@@ -442,6 +452,52 @@
     {
       "page": "salute-guida-01-preparare-visita.html",
       "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#definizioni\"]"
+            ],
+            [
+              "a[href$=\"#diabete\"]"
+            ],
+            [
+              "a[href$=\"#esami\"]"
+            ],
+            [
+              "a[href$=\"#cure\"]"
+            ],
+            [
+              "a[href$=\"#quotidiano\"]"
+            ],
+            [
+              "a[href$=\"#domande\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine della Guida 02\"] > a[href=\"salute-autonomia.html#guide\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine della Guida 02\"] > a[href$=\"diabete-tipo-2.html\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine della Guida 02\"] > a:nth-child(3)"
+            ]
+          ],
+          "total": 11
+        }
+      ],
       "passes": 20,
       "incomplete": 1
     },
