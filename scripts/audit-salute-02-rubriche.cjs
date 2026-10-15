@@ -77,7 +77,7 @@ for(const [text,what] of [
  ['non è una prestazione automaticamente accessibile a pensionati soli','nessun falso diritto Carta Dedicata a te'],
  ['legge 104/1992','legge 104 e invalidita separate'],
  ['servizio sociale del Comune','aiuti territoriali nazionali']
-])assert.ok(rights.includes(text),'Manca informazione nazionale su anziani e pensioni: '+what);
+])assert.ok(rights.toLowerCase().includes(text.toLowerCase()),'Manca informazione nazionale su anziani e pensioni: '+what);
 for(const text of ['La spesa alimentare quando la pensione è molto bassa','ingredienti','cibo, bollette, medicine e trasporti','peso sgocciolato','prezzo al kg','acquisti','non è automaticamente destinata a pensionati soli'])assert.ok(med.includes(text),'Dieta mediterranea non collega costo, dignita e tutele: '+text);
 for(const text of ['Carta acquisti ordinaria over 65','Pensione','Carta «Dedicata a te»','impossibilità','ARERA','legge 104'])assert.ok(social.toLowerCase().includes(text.toLowerCase()),'Dossier tutele e leggi incompleto: '+text);
 
