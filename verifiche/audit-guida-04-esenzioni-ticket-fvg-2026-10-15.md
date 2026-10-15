@@ -1,4 +1,6 @@
 # Per Me — Guida 04 Rubrica 04: Esenzioni sanitarie e ticket in FVG
+**Nota del 15 ottobre 2026:** questo è il primo audit. Per le correzioni successive, sulla revoca E01–E04, E02, farmaci, doppio recapito Tarcento e collaudi, consultare [la seconda revisione](seconda-revisione-guida-04-esenzioni-ticket-fvg-2026-10-15.md). Il precedente stato «bozza sottoposta a test» non descrive più la versione aggiornata in GitHub.
+
 **Data del controllo:** 15 ottobre 2026. **Perimetro:** esenzioni per reddito, patologia cronica/rara e invalidità; prescrizione, accesso distrettuale, farmacia e rimborso in ASUFC.
 
 ## Matrice delle verifiche giuridiche e amministrative
