@@ -1,14 +1,13 @@
 {
-  "date_utc": "2026-10-15T14:57:24.248079+00:00",
+  "date_utc": "2026-10-15T15:12:15.867911+00:00",
   "scope": {
-    "pages": 45,
-    "unique_external_urls": 300,
-    "occurrences": 583
+    "pages": 44,
+    "unique_external_urls": 299,
+    "occurrences": 582
   },
   "counts": {
     "raggiungibile": 291,
-    "bloccato_o_riservato": 8,
-    "non_verificato_trasporto": 1
+    "bloccato_o_riservato": 8
   },
   "results": [
     {
@@ -90,15 +89,6 @@
       "final_url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
       "pages": [
         "debiti-guida-07-banche-bollette.html"
-      ]
-    },
-    {
-      "url": "https://counterapi.com/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://counterapi.com/",
-      "pages": [
-        "statistiche.html"
       ]
     },
     {
@@ -995,8 +985,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/cosa-succede-dopo-aver-richiesto-la-rateizzazione/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/cosa-succede-dopo-aver-richiesto-la-rateizzazione/",
       "pages": [
         "debiti-guida-04-rateizzazione.html",
         "debiti-guida-04-rateizzazione.html"

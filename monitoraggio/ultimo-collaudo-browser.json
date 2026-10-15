@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T15:06:33.396Z",
+  "checked_at_utc": "2026-10-15T15:11:15.860Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 43,
+        "count": 42,
         "failures": []
       }
     },
@@ -28,35 +28,16 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 43,
+        "checked": 42,
         "violations": []
       }
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
-        "checked": 43,
-        "failed": [
-          {
-            "page": "home",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "index.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          }
-        ],
+        "checked": 42,
+        "failed": [],
         "errors": []
       }
     },
@@ -86,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 15:06.",
+        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 15:11.",
         "stored": {
           "guides": 38,
-          "updated": "2026-10-15T15:06:56.755Z",
+          "updated": "2026-10-15T15:11:33.856Z",
           "bytes": 698528,
           "includesNew09": true
         }
@@ -196,21 +177,8 @@
   "axe": [
     {
       "page": "home",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "p:nth-child(3) > a[href$=\"statistiche.html\"]"
-            ]
-          ],
-          "total": 1
-        }
-      ],
-      "passes": 21,
+      "violations": [],
+      "passes": 18,
       "incomplete": 0
     },
     {
@@ -383,21 +351,8 @@
     },
     {
       "page": "index.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "p:nth-child(3) > a[href$=\"statistiche.html\"]"
-            ]
-          ],
-          "total": 1
-        }
-      ],
-      "passes": 21,
+      "violations": [],
+      "passes": 18,
       "incomplete": 0
     },
     {
@@ -459,12 +414,6 @@
       "violations": [],
       "passes": 20,
       "incomplete": 1
-    },
-    {
-      "page": "statistiche.html",
-      "violations": [],
-      "passes": 19,
-      "incomplete": 0
     },
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
