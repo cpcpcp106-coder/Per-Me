@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T11:35:58+00:00",
+  "date_utc": "2026-10-15T11:43:04+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 38,
-    "editorial_pages": 36,
+    "html_total": 39,
+    "editorial_pages": 37,
     "guide_pages": 25
   },
   "links": {
-    "local_occurrences": 1042,
-    "external_occurrences": 505,
-    "external_unique": 248,
+    "local_occurrences": 1055,
+    "external_occurrences": 514,
+    "external_unique": 251,
     "actions": 33,
     "broken_local": [],
     "broken_anchors": []
@@ -611,8 +611,23 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 11,
+      "links_local": 12,
       "links_external": 3,
+      "missing_local": 0,
+      "noindex": true,
+      "canonical": false,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "salute-guida-01-preparare-visita.html",
+      "title": "Diabete e cuore: come preparare una visita | Guida 01 Per Me",
+      "h1": 1,
+      "images": 1,
+      "images_without_alt": 0,
+      "links_local": 12,
+      "links_external": 9,
       "missing_local": 0,
       "noindex": true,
       "canonical": false,
