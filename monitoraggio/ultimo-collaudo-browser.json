@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T12:13:03.860Z",
+  "checked_at_utc": "2026-10-15T12:43:47.661Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 38,
+        "count": 39,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 38,
+        "checked": 39,
         "violations": []
       }
     },
@@ -36,10 +36,19 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 38,
+        "checked": 39,
         "failed": [
           {
             "page": "agevolazioni-guida-03-trasporti-fvg.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 8
+              }
+            ]
+          },
+          {
+            "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
             "violations": [
               {
                 "id": "color-contrast",
@@ -77,11 +86,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "34 pagine salvate per la lettura offline · controllo online 15 ott, 12:13.",
+        "status": "35 pagine salvate per la lettura offline · controllo online 15 ott, 12:44.",
         "stored": {
-          "guides": 34,
-          "updated": "2026-10-15T12:13:23.258Z",
-          "bytes": 628609,
+          "guides": 35,
+          "updated": "2026-10-15T12:44:03.098Z",
+          "bytes": 653566,
           "includesNew09": true
         }
       }
@@ -95,7 +104,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 34
+        "count": 35
       }
     },
     {
@@ -103,7 +112,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 4252
+        "chars": 4454
       }
     },
     {
@@ -187,6 +196,46 @@
             ],
             [
               "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
+            ],
+            [
+              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(2)"
+            ],
+            [
+              "nav[aria-label=\"Navigazione finale\"] > a[href$=\"#contenuto\"]"
+            ]
+          ],
+          "total": 8
+        }
+      ],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "nav[aria-label=\"Navigazione della guida\"] > a:nth-child(1)"
+            ],
+            [
+              "a[href$=\"#reddito\"]"
+            ],
+            [
+              "a[href$=\"#patologie\"]"
+            ],
+            [
+              "a[href$=\"#invalidita\"]"
+            ],
+            [
+              "a[href$=\"#sportelli\"]"
             ],
             [
               "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
