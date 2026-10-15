@@ -1,41 +1,63 @@
-# Per Me — verifica Google e correzione della raggiungibilità
+# Per Me — verifica Google e correzioni pubblicate
 
-Rilevazione: 2026-10-15T20:02:07+02:00. Ambito esclusivo: repository `cpcpcp106-coder/Per-Me`, sito e PWA ufficiali.
+Data: 15 ottobre 2026, sera (Europe/Rome). Ambito esclusivo: repository `cpcpcp106-coder/Per-Me`, sito e PWA ufficiali.
 
-## Esito verificato
+## Risultato tecnico conclusivo
 
-Controllo live concluso alle 19:57:53 del 15 ottobre 2026, su sorgente `dd887c879e1899ba135d585a4489b31b23ccba4c`: **46 pagine pubbliche, 46 URL nella sitemap, 52 URL online verificati, zero errori**. Gli URL aggiuntivi comprendono alias index e pagine tecniche, escluse dall'inventario editoriale e dalla sitemap. Verificati HTTP 200, corrispondenza sorgente/pubblicazione, canonical e assenza di direttive bloccanti sulle pagine pubbliche e nelle intestazioni.
+Audit live concluso il **2026-10-15T20:14:07+02:00**, sul sorgente `da93144af34a2c3801799cf29f527679ef66ed1b`: **46 pagine pubbliche, 46 URL nella sitemap, 46 pagine raggiungibili dalla home, 52 URL online controllati, zero errori**.
 
-Il robots.txt dell'origine restituisce 404: non è un divieto di scansione. Non è stato aggiunto un robots.txt nella sottocartella del progetto, dove non governerebbe la scansione dell'origine. Nessuna modifica a repository diversi da Per Me.
+Verificati HTTP 200, corrispondenza sorgente/pubblicazione, canonical e assenza di blocchi negli HTML pubblici e nelle intestazioni. Gli URL aggiuntivi comprendono alias index e pagine tecniche, escluse dall'inventario editoriale e dalla sitemap. Il robots.txt dell'origine restituisce 404: nessun divieto di scansione. Nessuna modifica ad altri repository o all'origine del dominio.
 
-Controllati inoltre titoli, descrizioni, H1, collegamenti interni e frammenti. Nessun titolo o descrizione mancante, un solo H1 per pagina e nessun collegamento interno o frammento mancante. Tutte le guide sono raggiungibili dalla home con due collegamenti HTML. La sola pagina pubblica isolata era `monitoraggio.html`.
+Tutte le pagine hanno titolo, descrizione e un solo H1; nessun collegamento interno o frammento mancante. Tutte le guide sono raggiungibili dalla home con due collegamenti HTML. La sola pagina pubblica inizialmente isolata era `monitoraggio.html`.
 
-## Correzione applicata
+## Correzione pubblicata e verificata
 
-Aggiunto nella pagina «Il metodo» il collegamento «controllo delle fonti e i limiti delle verifiche». Ora tutte le 46 pagine pubbliche sono raggiungibili dalla home. Aggiornata soltanto la data lastmod della pagina metodo nella sitemap, coerentemente con la modifica effettiva.
+Aggiunto nella pagina «Il metodo» il collegamento «controllo delle fonti e i limiti delle verifiche». Ora tutte le 46 pagine pubbliche sono raggiungibili dalla home. Aggiornata la data lastmod di metodo nella sitemap, coerentemente con la modifica effettiva.
 
-Esteso `scripts/audit-indicizzazione.py` al grafo dei collegamenti HTML: una pagina presente nella sitemap ma non raggiungibile dalla home produce un errore. Sono riconosciuti gli alias index.html, le directory, i collegamenti relativi, i parametri e i frammenti. Le stringhe JavaScript non sono considerate collegamenti. Il controllo esistente a ogni push e pull request comprende anche questa verifica.
+Esteso `scripts/audit-indicizzazione.py`: una pagina presente nella sitemap ma non raggiungibile dalla home tramite collegamenti HTML produce un errore. Il controllo riconosce alias index.html, directory, collegamenti relativi, parametri e frammenti; le stringhe JavaScript non sono considerate link. Il workflow di indicizzazione esistente esegue questa verifica a ogni push e pull request.
 
-## Stato osservato su Google
+Commit della correzione: `6d8be7e324fdc17c5faaaed6dd606ef1098597d0`. Pubblicazione Pages riuscita: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38782905471 . Verificati online metodo e sitemap coincidenti con i file aggiornati. Sono riusciti anche i workflow di indicizzazione, struttura nazionale e collaudo browser/fonti esterne.
 
-La ricerca pubblica su Google `site:cpcpcp106-coder.github.io/Per-Me/`, effettuata nel browser in questa sessione, mostrava due risultati: PWA «Per Me · Guide offline» e «Tutor AI essenziale». L'operatore site non è un inventario completo dell'indice: l'assenza delle altre pagine da quei risultati non dimostra che siano escluse.
+## Ispezioni individuali in Search Console
 
-Aperta la proprietà corretta in Search Console dal browser: il quadro generale riportava ancora «Elaborazione dei dati in corso. Ricontrolla tra un giorno o due». Il rapporto Sitemap mostrava `/sitemap.xml`, invio del 15 ottobre, tipo sconosciuto, stato «Impossibile recuperare» e zero pagine rilevate. Aprendo il dettaglio Google ha richiesto di rinnovare l'accesso. Nessuna nuova ispezione individuale e nessuna nuova richiesta di indicizzazione o reinvio della sitemap vengono dichiarati completati da questa verifica.
+Accesso alla proprietà corretta completato tramite autenticazione protetta. Ispezionate **10 pagine editoriali/app**; la sitemap è stata esaminata separatamente come file tecnico.
 
-Il collegamento GSC Wizard non restituisce dati perché richiede un abbonamento attivo; non sono stati attivati acquisti o abbonamenti.
+| Pagina | Stato nell'indice osservato | Ultima scansione mostrata |
+| --- | --- | --- |
+| Home | Scansionata, ma attualmente non indicizzata | 15 ottobre, 06:46:44 |
+| Soldi e lavoro | Scansionata, ma attualmente non indicizzata | 15 ottobre, 06:57:45 |
+| Pensione e invalidità | URL sconosciuto a Google | N/D |
+| Debiti e cartelle | Scansionata, ma attualmente non indicizzata | 15 ottobre, 06:57:45 |
+| Agevolazioni e diritti | Scansionata, ma attualmente non indicizzata | 15 ottobre, 06:49:45 |
+| Salute e autonomia | Scansionata, ma attualmente non indicizzata | 15 ottobre, 06:49:20 |
+| Tutor AI essenziale | **Indicizzata** | Dettaglio non aperto |
+| PWA /app/ | **Indicizzata** | Dettaglio non aperto |
+| Guida leggere la busta paga | URL sconosciuto a Google | N/D |
+| Guida 01 leggere una cartella | URL sconosciuto a Google | N/D |
 
-## Prove eseguite
+Gli orari della tabella sono quelli visualizzati da Search Console; il fuso usato dall'interfaccia non è stato verificato e non sono stati convertiti. Per tutte e cinque le pagine «scansionate, ma attualmente non indicizzate», Google indica scansione consentita, recupero positivo e indicizzazione consentita. Le tre pagine sconosciute non hanno una scansione registrata: i relativi campi N/D non dimostrano un blocco.
 
-- Audit completo di indicizzazione live prima della modifica: 46 pagine, 52 URL, zero errori.
-- Audit di indicizzazione dopo la modifica: 46 pagine su 46 raggiungibili, zero errori.
-- Controlli layout, struttura e perimetro nazionale superati.
-- Tre prove mirate del nuovo controllo: percorso relativo con alias/query/frammento; pagina isolata già presente nella sitemap; nome di pagina presente soltanto in JavaScript. Tutte superate.
-- Diff senza errori di spaziatura.
+Il rapporto generale Pagine continua a mostrare «Elaborazione dei dati in corso. Ricontrolla tra un giorno o due». Non si dispone quindi di un conteggio completo dell'indice. I due risultati della ricerca pubblica site corrispondono a Tutor e app, ma l'operatore site non è un inventario esaustivo.
 
-## Resta da accertare in Search Console
+## Azioni eseguite su Google
 
-Rinnovare l'accesso per leggere il dettaglio dell'errore sitemap, ricontrollare il recupero dell'XML aggiornato e lo stato individuale di home e rubriche. Confrontare in particolare la richiesta della rubrica Pensione che il precedente rapporto registrava non completata. Non ripetere in massa le richieste già accettate.
+1. **Pensione e invalidità: richiesta di indicizzazione accettata.** Verificata la conferma «Indicizzazione richiesta» e l'aggiunta alla coda di scansione prioritaria. È stata recuperata la richiesta che nel precedente rapporto risultava non completata. Non equivale ad avvenuta indicizzazione.
+2. **Sitemap aggiornata reinviata una sola volta.** Verificata la conferma «Sitemap inviata». Contiene 46 URL, rispetto ai 42 del precedente controllo documentato. Subito dopo l'invio il rapporto manteneva «Impossibile recuperare», tipo sconosciuto e zero pagine rilevate: l'elaborazione non è dichiarata riuscita.
+3. **Test Google in tempo reale della sitemap: positivo.** «L'URL è disponibile per Google», scansione consentita Sì, recupero Esito positivo, indicizzazione consentita Sì. Il test conferma la raggiungibilità dal servizio di ispezione; non certifica l'importazione nel processo Sitemap. Non è stata richiesta l'indicizzazione del file XML come pagina.
+4. **Azioni manuali e problemi di sicurezza: nessun problema rilevato** in entrambi i rapporti della proprietà.
 
-Il file XML è pubblicato, valido, con Content-Type application/xml e 46 URL coerenti; non è stata dimostrata una causa nel file che spieghi l'errore di recupero del processo sitemap di Google. Non si attribuisce a Google un errore specifico senza dati. Le verifiche tecniche e i collegamenti corretti consentono la scansione, ma non garantiscono indicizzazione o tempi di comparsa.
+Le richieste già accettate per le altre pagine non sono state ripetute. Nessun acquisto o abbonamento attivato.
 
-Riferimenti primari: https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site?hl=it ; https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=it ; https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec .
+## Verifiche della modifica
+
+Audit statico e live di indicizzazione superati; layout condiviso, struttura e perimetro nazionale coerenti. Tre prove mirate del nuovo controllo superate: percorso relativo con alias/query/frammento; pagina isolata anche se presente nella sitemap; nome di pagina presente soltanto in JavaScript. Diff senza errori di spaziatura. Il collaudo browser/fonti esterne associato alla modifica è riuscito: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38782906734 .
+
+## Che cosa resta aperto
+
+Resta da riscontrare la corretta elaborazione della sitemap nel relativo rapporto di Google, l'aggiornamento del rapporto generale Pagine e l'eventuale indicizzazione delle pagine ancora escluse o sconosciute. In particolare va verificato l'esito della richiesta Pensione appena accettata.
+
+Il file XML è valido, pubblicato con Content-Type application/xml e coerente con le 46 pagine canoniche. Lo strumento Google riesce a recuperarlo. L'errore del processo Sitemap non espone ulteriori dettagli utilizzabili; non è stata dimostrata una modifica aggiuntiva al sito che lo risolva. Alcune ispezioni riportano «Errore temporaneo di elaborazione» in corrispondenza della sitemap: è un'indicazione osservata, non una diagnosi completa della causa.
+
+Il sito ha meno di 500 pagine, tutte ora raggiungibili tramite link dalla home; la documentazione Google spiega che per siti così piccoli una sitemap non è necessariamente indispensabile per la scoperta. Il problema del rapporto non viene quindi confuso con un blocco totale delle pagine. Nessuna garanzia o scadenza di indicizzazione viene attribuita a Google.
+
+Fonti primarie: https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site?hl=it ; https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap?hl=it ; https://support.google.com/webmasters/answer/7451001?hl=it ; https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec .
