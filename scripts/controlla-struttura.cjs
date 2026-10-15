@@ -19,7 +19,13 @@ for(const page of pages){
    const target=decodeURIComponent(ref.split(/[?#]/)[0]).replace(/^\/Per-Me\//,'');
    if(!target)continue;
    const candidate=target.endsWith('/')?target+'index.html':target;
-   if(!fs.existsSync(path.join(root,candidate)))issues.push(page+': link locale mancante '+ref);
+   const destination=path.join(root,candidate);
+   if(!fs.existsSync(destination))issues.push(page+': link locale mancante '+ref);
+   else if(ref.includes('#')&&candidate.endsWith('.html')){
+     const anchor=decodeURIComponent(ref.slice(ref.indexOf('#')+1).split('?')[0]);
+     const ids=[...fs.readFileSync(destination,'utf8').matchAll(/\bid=["']([^"']+)["']/g)].map(m=>m[1]);
+     if(anchor&&!ids.includes(anchor))issues.push(page+': ancora locale mancante '+ref);
+   }
    links++;
  }
 }
