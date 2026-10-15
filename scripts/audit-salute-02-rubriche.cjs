@@ -83,7 +83,7 @@ for(const text of ['Carta acquisti ordinaria over 65','Pensione','Carta «Dedica
 
 const ledger=JSON.parse(read('FONTI/registro-dati-variabili-2026.json'));
 assert.equal(ledger.territorio,'Italia (nazionale)','Registro economico non nazionale');
-assert.ok(/^\\d{4}-\\d{2}-\\d{2}$/.test(ledger.ultimo_controllo),'Manca data di controllo');
+assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(ledger.ultimo_controllo),'Manca data di controllo');
 const expected={'inps_trattamento_minimo':'611,85','inps_assegno_sociale':'546,24','inps_maggiorazione_sociale_incremento_2026':'+20','arera_bonus_sociali_isee_ordinario':'9.796','inps_carta_acquisti_anziani':'80','inps_carta_dedicata_a_te':'500','inps_adi_isee':'10.140','istat_alimenti_non_lavorati_settembre_2026':'+5,5'};
 for(const [key,value] of Object.entries(expected)){
  const item=ledger.dati.find(d=>d.chiave===key);
