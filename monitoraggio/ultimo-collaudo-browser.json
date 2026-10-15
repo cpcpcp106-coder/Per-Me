@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T18:12:10.918Z",
+  "checked_at_utc": "2026-10-15T18:24:27.223Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 46,
+        "count": 48,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 46,
+        "checked": 48,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 46,
+        "checked": 48,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 18:12.",
+        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 18:24.",
         "stored": {
           "guides": 41,
-          "updated": "2026-10-15T18:12:33.283Z",
+          "updated": "2026-10-15T18:24:46.906Z",
           "bytes": 778302,
           "includesNew09": true
         }
@@ -368,9 +368,21 @@
       "incomplete": 1
     },
     {
+      "page": "diabete-tipo-2.html",
+      "violations": [],
+      "passes": 19,
+      "incomplete": 1
+    },
+    {
       "page": "dieta-mediterranea-ricette.html",
       "violations": [],
       "passes": 18,
+      "incomplete": 1
+    },
+    {
+      "page": "dieta-mediterranea-scientifica.html",
+      "violations": [],
+      "passes": 19,
       "incomplete": 1
     },
     {

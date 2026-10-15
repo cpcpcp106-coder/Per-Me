@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T18:13:05.318747+00:00",
+  "date_utc": "2026-10-15T18:25:22.655173+00:00",
   "scope": {
-    "pages": 48,
-    "unique_external_urls": 341,
-    "occurrences": 639
+    "pages": 50,
+    "unique_external_urls": 349,
+    "occurrences": 653
   },
   "counts": {
-    "raggiungibile": 323,
-    "bloccato_o_riservato": 14,
+    "raggiungibile": 327,
+    "bloccato_o_riservato": 18,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -226,6 +226,14 @@
       ]
     },
     {
+      "url": "https://diabetesjournals.org/care/issue/49/Supplement_1",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
       "url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
       "status": "raggiungibile",
       "http": 200,
@@ -233,6 +241,14 @@
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S012",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -316,6 +332,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -340,6 +365,15 @@
       "final_url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -1436,6 +1470,7 @@
       "http": 200,
       "final_url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
       "pages": [
+        "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
         "salute-guida-01-preparare-visita.html"
       ]
@@ -1447,6 +1482,7 @@
       "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
       "pages": [
         "dieta-mediterranea-ricette.html",
+        "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html"
       ]
     },
@@ -1477,6 +1513,15 @@
       "final_url": "https://www.epicentro.iss.it/igea/strumenti/documentiigea",
       "pages": [
         "salute-guida-01-preparare-visita.html"
+      ]
+    },
+    {
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cvd-and-diabetes/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cvd-and-diabetes/",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -3046,6 +3091,8 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-tipo-2.html",
+        "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html"
       ]
     },
@@ -3127,6 +3174,22 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/vegetable-salad-on-plate-1059905/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -3226,6 +3289,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
       "pages": [
+        "diabete-tipo-2.html",
         "salute-autonomia.html",
         "salute-guida-01-preparare-visita.html"
       ]
@@ -3236,7 +3300,8 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/",
       "pages": [
-        "dieta-mediterranea-ricette.html"
+        "dieta-mediterranea-ricette.html",
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -3358,6 +3423,15 @@
       "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     }
   ],
