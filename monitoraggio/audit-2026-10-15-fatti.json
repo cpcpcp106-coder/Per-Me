@@ -1,0 +1,319 @@
+{
+  "audit_date": "2026-10-15",
+  "scope": "Sottoinsieme selezionato di affermazioni atomiche ad alto rischio: NON copre tutte le proposizioni del sito",
+  "count": 32,
+  "counts": {
+    "CONFERMATO": 31,
+    "NON_VERIFICABILE": 1
+  },
+  "fully_exhaustive": false,
+  "sources": [
+    "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/index.html",
+    "https://www.agenziaentrateriscossione.gov.it/it/imprese/Sospensione/",
+    "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+    "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+    "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/ambito-applicativo/index.html",
+    "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html",
+    "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+    "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
+    "https://www.giustizia.it/giustizia/it/mg_3_14_1.wp",
+    "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+    "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
+    "https://extranet.cafuil.it/sediuil/sedi.asp",
+    "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
+    "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
+    "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
+    "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html"
+  ],
+  "records": [
+    {
+      "id": "C01",
+      "path": "debiti-guida-01-leggere-cartella.html",
+      "claim": "Cartella AdeR: termine ordinario di pagamento 60 giorni dalla notifica.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/index.html",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C02",
+      "path": "debiti-guida-03-cartella-errata.html",
+      "claim": "La richiesta di sospensione legale è soggetta in generale al termine di 60 giorni per gli atti ammessi.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/imprese/Sospensione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C03",
+      "path": "debiti-guida-03-cartella-errata.html",
+      "claim": "Sospensione legale: la mancata risposta per 220 giorni può determinare l'annullamento, solo per i motivi ammessi.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/imprese/Sospensione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C04",
+      "path": "debiti-guida-04-rateizzazione.html",
+      "claim": "Rateizzazione 2025-2026 fino a 120.000 euro: massimo 84 rate su semplice richiesta.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C05",
+      "path": "debiti-guida-04-rateizzazione.html",
+      "claim": "Rateizzazione AdeR: il limite 120.000 euro si applica alla singola richiesta.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C06",
+      "path": "debiti-guida-04-rateizzazione.html",
+      "claim": "Rata minima ordinaria dei piani AdeR: 50 euro.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C07",
+      "path": "debiti-guida-04-rateizzazione.html",
+      "claim": "Per 85–120 rate nel 2025–2026 la richiesta deve essere documentata.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C08",
+      "path": "debiti-guida-04-rateizzazione.html",
+      "claim": "Per importi oltre 120.000 euro la domanda deve sempre essere documentata.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C09",
+      "path": "debiti-guida-05-rottamazione.html",
+      "claim": "Rottamazione territoriale: adesioni telematiche dal 16 ottobre al 15 dicembre 2026.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C10",
+      "path": "debiti-guida-05-rottamazione.html",
+      "claim": "Rottamazione territoriale: massimo 54 rate bimestrali.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C11",
+      "path": "debiti-guida-05-rottamazione.html",
+      "claim": "Rottamazione territoriale: 3% di interessi annui sulle rate dal 1 aprile 2027.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C12",
+      "path": "debiti-guida-05-rottamazione.html",
+      "claim": "AdeR comunica le somme dovute per misura territoriale entro il 28 febbraio 2027.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C13",
+      "path": "debiti-guida-05-rottamazione.html",
+      "claim": "Rottamazione-quinquies: rata minima 100 euro, numero rate rideterminato se necessario.",
+      "status": "CONFERMATO",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/ambito-applicativo/index.html",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C14",
+      "path": "debiti-guida-06-fermo-pignoramento.html",
+      "claim": "Pignoramento AdeR retribuzione fino a 2500 euro: un decimo.",
+      "status": "CONFERMATO",
+      "source": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C15",
+      "path": "debiti-guida-06-fermo-pignoramento.html",
+      "claim": "Pignoramento AdeR retribuzione oltre 2500 e fino a 5000 euro: un settimo.",
+      "status": "CONFERMATO",
+      "source": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C16",
+      "path": "debiti-guida-06-fermo-pignoramento.html",
+      "claim": "Su conto corrente l'ultimo emolumento retributivo accreditato ha tutela specifica nel pignoramento dell'agente della riscossione.",
+      "status": "CONFERMATO",
+      "source": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C17",
+      "path": "debiti-guida-06-fermo-pignoramento.html",
+      "claim": "Assegno sociale 2026: importo mensile 546,24 euro.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C18",
+      "path": "debiti-guida-07-banche-bollette.html",
+      "claim": "Bonus sociali ordinari 2026: ISEE non superiore a 9796 euro.",
+      "status": "CONFERMATO",
+      "source": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C19",
+      "path": "debiti-guida-07-banche-bollette.html",
+      "claim": "Bonus sociali 2026: soglia di 20.000 euro per nuclei con almeno quattro figli a carico.",
+      "status": "CONFERMATO",
+      "source": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C20",
+      "path": "debiti-guida-07-banche-bollette.html",
+      "claim": "Fondo sospensione mutui Consap: ISEE massimo 30.000 euro.",
+      "status": "CONFERMATO",
+      "source": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C21",
+      "path": "debiti-guida-07-banche-bollette.html",
+      "claim": "Fondo sospensione mutui Consap: importo mutuo massimo 250.000 euro.",
+      "status": "CONFERMATO",
+      "source": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C22",
+      "path": "debiti-guida-07-banche-bollette.html",
+      "claim": "Fondo sospensione mutui Consap: durata massima complessiva 18 mesi.",
+      "status": "CONFERMATO",
+      "source": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C23",
+      "path": "debiti-guida-08-sovraindebitamento.html",
+      "claim": "Il Ministero della Giustizia indica per il registro OCC l'uso di Edge in compatibilità Internet Explorer.",
+      "status": "CONFERMATO",
+      "source": "https://www.giustizia.it/giustizia/it/mg_3_14_1.wp",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C24",
+      "path": "debiti-guida-08-sovraindebitamento.html",
+      "claim": "L'articolo 283, comma 6, dimezza i compensi OCC nella procedura dell'incapiente.",
+      "status": "NON_VERIFICABILE",
+      "source": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "date": "2026-10-15",
+      "note": "Il contenuto trova conferma in fonti specialistiche accreditate, ma l'URL ufficiale richiamato non è stato direttamente accessibile in questa sessione; riscontro primario non completato."
+    },
+    {
+      "id": "C25",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "Patronato ITAL UIL Tarcento: via Dante Alighieri 27 e numero 0432 782024 nell'elenco ufficiale.",
+      "status": "CONFERMATO",
+      "source": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C26",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "Numero verde nazionale CAF UIL: 800 933345.",
+      "status": "CONFERMATO",
+      "source": "https://extranet.cafuil.it/sediuil/sedi.asp",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C27",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "Il numero 0432 785746 del CAF UIL Tarcento appare nell'elenco ARDiS del 2025.",
+      "status": "CONFERMATO",
+      "source": "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
+      "date": "2026-10-15",
+      "note": "Confermato come recapito documentato nel 2025, NON verificato come orario o risposta telefonica attuale."
+    },
+    {
+      "id": "C28",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "Decreto 22 aprile 2025: limite generale patrocinio statale 13.659,64 euro.",
+      "status": "CONFERMATO",
+      "source": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C29",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "Conciliazione ARERA: 40 giorni dopo reclamo per energia, 50 idrico, 60 rifiuti urbani in assenza risposta.",
+      "status": "CONFERMATO",
+      "source": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C30",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "ARERA: conciliazione per rifiuti urbani facoltativa nel regime transitorio.",
+      "status": "CONFERMATO",
+      "source": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C31",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "ARERA: liti limitate a profili fiscali/tributari escluse dal Servizio Conciliazione.",
+      "status": "CONFERMATO",
+      "source": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C32",
+      "path": "debiti-guida-09-a-chi-rivolgersi.html",
+      "claim": "ABF: reclamo bancario normalmente 60 giorni, servizi pagamento 15 giorni lavorativi, ricorso entro 12 mesi.",
+      "status": "CONFERMATO",
+      "source": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html",
+      "date": "2026-10-15",
+      "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    }
+  ]
+}

@@ -125,6 +125,42 @@
         "lavoro",
         "salute"
       ]
+    },
+    {
+      "date": "2026-10-15",
+      "version": "audit-23-guide-inventario-e-registro-fonti",
+      "scope": "36 HTML (34 editoriali, 1 PWA, 1 verifica Google), 23 guide; analisi statica completa; 32 affermazioni selezionate",
+      "score_before": 54,
+      "score_after": 56,
+      "score_status": "Provvisorio: qualità dimostrata. Nuova rubrica con perimetro 23 guide, non comparabile direttamente al V2 con 14 guide",
+      "pages_static": 36,
+      "guides_static": 23,
+      "guides_fully_factchecked": 0,
+      "facts_selected": 32,
+      "facts_status": {
+        "CONFERMATO": 31,
+        "NON_VERIFICABILE": 1
+      },
+      "facts_total_atomic": null,
+      "factcheck_sitewide_percentage": null,
+      "external_unique_not_verified_all": 221,
+      "local_link_occurrences": 1000,
+      "missing_local_static": 0,
+      "corrected": [
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "monitoraggio/audit_statico.py",
+        ".github/workflows/audit-statico.yml",
+        "monitoraggio/ultimo-audit-statico.json"
+      ],
+      "report": "monitoraggio/audit-integrale-2026-10-15.md",
+      "open": [
+        "221 URL esterni non testati tutti end-to-end",
+        "fatti atomici in 23 guide non censiti e verificati integralmente",
+        "collaudo Android installazione/offline assente",
+        "WCAG 2.2 AA test dinamici non eseguiti",
+        "rischio dati personali in Git history da valutare",
+        "orari CAF locali e stato operativo oggi non provati"
+      ]
     }
   ]
 }
