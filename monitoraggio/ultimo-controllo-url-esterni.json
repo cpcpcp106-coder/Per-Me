@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T16:50:12.252086+00:00",
+  "date_utc": "2026-10-15T16:53:13.728145+00:00",
   "scope": {
     "pages": 47,
-    "unique_external_urls": 322,
-    "occurrences": 612
+    "unique_external_urls": 324,
+    "occurrences": 614
   },
   "counts": {
-    "raggiungibile": 304,
-    "bloccato_o_riservato": 11,
-    "non_verificato_trasporto": 7
+    "raggiungibile": 297,
+    "bloccato_o_riservato": 10,
+    "non_verificato_trasporto": 17
   },
   "results": [
     {
@@ -81,6 +81,15 @@
       "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
@@ -300,8 +309,9 @@
     },
     {
       "url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
       "pages": [
         "tutor-ai.html"
       ]
@@ -1166,27 +1176,24 @@
     },
     {
       "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1194,9 +1201,8 @@
     },
     {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1204,8 +1210,9 @@
     },
     {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/it/com-stampa/20/200527",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/it/com-stampa/20/200527",
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
@@ -1213,18 +1220,16 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/come-si-ottiene-il-bonus-per-disagio-fisico",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/come-si-ottiene-il-bonus-per-disagio-fisico",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1232,9 +1237,8 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1244,18 +1248,16 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/a-quanto-ammontano",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/a-quanto-ammontano",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1263,9 +1265,8 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1274,9 +1275,8 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-e-quando-si-ricevono",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-e-quando-si-ricevono",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1285,18 +1285,16 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-si-ottengono-i-bonus",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-si-ottengono-i-bonus",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1306,8 +1304,9 @@
     },
     {
       "url": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html",
@@ -1318,8 +1317,9 @@
     },
     {
       "url": "https://www.arera.it/consumatori/lo-sportello-per-il-consumatore-energia-e-ambiente",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/lo-sportello-per-il-consumatore-energia-e-ambiente",
       "pages": [
         "debiti-guida-07-banche-bollette.html"
       ]
@@ -1514,6 +1514,15 @@
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
