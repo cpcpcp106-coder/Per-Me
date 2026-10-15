@@ -20,13 +20,13 @@ assert.match(index,/<meta name="robots" content="index,follow">/,'Rubrica Agevol
 assert.ok(guide.includes('rel="canonical"'),'Manca canonical');
 assert.ok(index.includes('href="'+name+'"'),'Guida 02 assente dall’indice');
 assert.ok(home.includes('href="agevolazioni-diritti.html#guide"'),'Home non punta all’elenco Rubrica 04');
-assert.ok(/[2-9] guide operative disponibili/.test(home),'Home senza numero minimo di guide disponibili');
+assert.ok(home.includes('4 risorse disponibili'),'La home deve distinguere guide nazionali e schede regionali');
 assert.ok(sitemap.includes(name),'Guida 02 mancante dalla sitemap');
 assert.ok(guide.includes('agevolazioni-guida-01-isee-corrente.html'),'Manca navigazione Guida 01');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Manca ritorno alla rubrica');
 assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 assente dall app');
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App non estrae le guide dalla rubrica');
-for(const phrase of ['9.796','20.000','4 figli a carico','25%','l\'anno successivo','2027','3–4 mesi','6–7 mesi','50 litri','146,00','186,15','204,40','21 febbraio 2026','115 euro','25.000 euro','PDR condominiale','apparecchiature elettromedicali salvavita','800 166 654','CAF UIL']){
+for(const phrase of ['9.796','20.000','4 figli a carico','25%','l\'anno successivo','2027','3–4 mesi','6–7 mesi','50 litri','146,00','186,15','204,40','21 febbraio 2026','115 euro','25.000 euro','PDR condominiale','apparecchiature elettromedicali salvavita','800 166 654','CAF']){
  assert.ok(guide.includes(phrase),'Informazione istituzionale mancante: '+phrase);
 }
 assert.ok(guide.includes('images.pexels.com/photos/7545331'),'Fotografia unica mancante');

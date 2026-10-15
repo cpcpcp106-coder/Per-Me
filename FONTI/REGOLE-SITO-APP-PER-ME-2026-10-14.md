@@ -1,10 +1,10 @@
 # PER ME — Regole permanenti di coerenza tra sito e app
-**Versione:** 1.0 · **Consolidamento:** 14 ottobre 2026
+**Versione:** 2.0 · **Perimetro nazionale aggiornato:** 15 ottobre 2026
 **Ambito:** sito web `https://cpcpcp106-coder.github.io/Per-Me/`, app PWA `https://cpcpcp106-coder.github.io/Per-Me/app/`, manutenzioni e future pubblicazioni.
-**Documento di progetto:** conservare e consultare prima di modificare sito, guide o app.
+**Documento di progetto:** conservare e consultare prima di modificare sito, guide o app. **Priorità assoluta al nuovo documento [Perimetro nazionale](PERIMETRO-NAZIONALE-2026-10-15.md).**
 
 ## 1. Identità e finalità
-- "Per Me" è un blog personale gratuito, senza scopo di lucro, per persone prevalentemente tra i 50 e i 70 anni con problemi pratici economici, previdenziali, lavorativi, amministrativi, sanitari e di autonomia.
+- "Per Me" è un progetto divulgativo gratuito, nazionale e senza scopo di lucro, per persone prevalentemente tra i 50 e i 70 anni con problemi pratici economici, previdenziali, lavorativi, amministrativi, sanitari e di autonomia.
 - Priorità a risposte comprensibili, operative, fonti istituzionali aggiornate, limiti espliciti delle informazioni; distinguere fatti, ipotesi, esempi, norme e testimonianze personali.
 - Linguaggio chiaro, caratteri grandi e leggibili, buon contrasto, pulsanti riconoscibili e testo leggibile sullo smartphone. Evitare operazioni superflue e percorsi confusi.
 
@@ -30,11 +30,12 @@
 - **Coerenza fra copertine:** per le guide privilegiare scene fotografiche realistiche, ambientate e sobrie, con palette naturale (cognac, legno, crema, verde salvia); evitare copertine isolate in stile infografica o fumetto e grandi scritte dentro le immagini. Ogni guida deve avere una propria immagine distinta, non riciclata da altre guide.
 - **Varietà di persone e ambientazioni:** non riproporre sistematicamente lo stesso uomo maturo allo stesso tavolo. Alternare in modo realistico figure femminili e maschili, inquadrature, contesti e gesti, mantenendo coerenza con il tema di ciascuna guida e controllando l'anatomia (in particolare mani e braccia) prima della pubblicazione.
 
-## 5. CAF/Patronato e precisione delle fonti
-- Quando pertinente, mantenere in prima persona la testimonianza: **"Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento (UD)."** Non presentarla come convenzione o patrocinio.
-- Distinguere: CAF UIL = questioni fiscali/ISEE; Patronato ITAL UIL = previdenza/invalidità; sindacato, consulente del lavoro o legale = controversie retributive e tutela giuridica, secondo il caso.
-- Prevedere pulsanti leggibili verso pagine ufficiali dei contatti CAF UIL e Patronato ITAL UIL, con link verificati. Preservarli anche nei testi offline (utilizzabili online). Evitare duplicazioni inutili.
-- Per guide su diritti, previdenza, lavoro e scadenze: verifiche critiche con fonti istituzionali, riferimenti pertinenti e aggiornamento documentato; vietate affermazioni non fondate o numeri inventati.
+## 5. CAF/Patronato, ambito nazionale e fonti
+- Nessuna guida è modellata sul vissuto personale dell'autore o sulle sedi che ha frequentato.
+- CAF = pratiche fiscali e ISEE; patronato = previdenza e assistenza; sindacato, consulente del lavoro, OCC e legale = altri ambiti secondo competenze.
+- Indicare sempre come cercare una sede nel territorio del lettore, senza privilegiare una singola organizzazione, Comune o Regione.
+- Le guide generali partono da fonti nazionali; differenze di Regione e Comune vanno segnalate o rinviate a schede locali esplicite.
+- Non riprodurre recapiti personali o testimonianze nelle guide come standard.
 
 ## 6. Metodo tecnico e verifiche obbligatorie
 - Prima di dire "risolto", confrontare repository, pagina pubblicata e, quando indispensabile, conferma sul dispositivo. Un commit su GitHub non prova da solo che il telefono mostri l'ultima versione.

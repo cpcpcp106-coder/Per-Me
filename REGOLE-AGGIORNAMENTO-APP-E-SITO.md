@@ -1,26 +1,11 @@
-# Per Me — regole per i futuri aggiornamenti del sito e dell'app
+# Per Me — Regole permanenti per sito e app
 
-Aggiornato il 15 ottobre 2026.
+Aggiornate il **15 ottobre 2026**. Prevale il perimetro nazionale descritto in `FONTI/PERIMETRO-NAZIONALE-2026-10-15.md`.
 
-## Testimonianza personale: CAF e Patronato UIL di Tarcento
-
-Dove il riferimento sia pertinente, riportare in prima persona, senza modificarne il significato:
-
-> **Io mi sono appoggiato al CAF UIL e al Patronato ITAL UIL di Tarcento.**
-
-La segnalazione non è una sponsorizzazione né una convenzione e non equivale a raccomandare un servizio esclusivo. Il CAF e il patronato sono soggetti distinti.
-
-**CAF UIL Tarcento** — servizi fiscali (ISEE/DSU, 730, dichiarazioni e attività ammesse). Telefono 0432 785746; pulsante «Contatti CAF UIL» verso https://extranet.cafuil.it/sediuil/sedi.asp .
-
-**Patronato ITAL UIL Tarcento** — assistenza su previdenza, pensioni, contribuzione, invalidità e prestazioni nei limiti delle rispettive competenze. Telefono 0432 782024; pulsante «Contatti Patronato ITAL UIL» verso https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6 .
-
-I recapiti e l'indirizzo delle sedi devono essere ricontrollati periodicamente. Gli eventuali indirizzi dei due sportelli non vanno confusi.
-
-## Dove applicare il riferimento
-
-Valutare il riferimento nelle guide sul CAF, ISEE, agevolazioni fiscali e dichiarazioni, sul patronato, prestazioni e pensioni, invalidità, pratiche e tutele INPS; anche in altre guide, come lavoro o debiti, solo se il contesto rende utili quei recapiti. Evitare inserimenti ripetitivi o fuori tema, soprattutto nelle guide di salute o tecnologia.
-
-Le fonti ufficiali di diritto o istruzioni INPS non vanno sostituite con il recapito di un CAF o patronato.
+## Ambito e assistenza
+- Tutti i lettori sono in Italia, non nella zona dell'autore. Le guide partono dalle regole nazionali. I contenuti regionali restano in sezioni e pagine dichiaratamente locali.
+- Non inserire testimonianze personali, nomi, telefoni o contatti di un CAF/patronato scelto dall'autore nelle guide. Spiega come cercare il servizio competente nel territorio del lettore, distinguendo CAF (fisco e ISEE), patronato (previdenza), sindacato/consulente/legale (controversie), OCC (sovraindebitamento).
+- Non pubblicare un nuovo contenuto esclusivamente locale nell'elenco delle guide nazionali.
 
 ## Accessibilità dei pulsanti
 
@@ -28,7 +13,7 @@ Utilizzare pulsanti separati, entrambi grandi e leggibili: **testo bianco (#fff)
 
 ## Procedure di aggiornamento
 
-Per **ogni aggiornamento futuro del sito**, rileggere questa regola e verificare i riferimenti in tutti gli articoli pertinenti; conservare il pulsante e il numero corretti su schermi piccoli.
+Per **ogni aggiornamento futuro del sito**, rileggere queste regole nazionali e ricontrollare che nessuna guida generica raccomandi una sede personale o un regime locale.
 
 Per **ogni aggiornamento futuro dell'app**, sincronizzare i testi dalle pagine aggiornate del sito e non solo da un file statico di esempi. Nel repository la nuova app GitHub Pages è in `app/` e usa `main.js`, `sw.js` e il manifesto. Il file storico `app-content.json` contiene a sua volta la politica editoriale e i contatti; mantenerlo coerente se in uso.
 
@@ -40,7 +25,7 @@ Confermare link, numeri distinti, contrasto, navigazione del sito, lettura delle
 
 ## Indicizzazione delle pagine pubbliche
 
-Su indicazione di Enrico del 15 ottobre 2026, tutte le pagine pubbliche del sito e dell'app devono consentire l'indicizzazione e la scansione dei collegamenti (`index,follow`). Non reintrodurre blocchi `noindex` o `nofollow` su rubriche, guide, pagine di servizio o app. La richiesta supera tutte le precedenti istruzioni presenti in piani e audit storici che richiedevano di conservare tali blocchi fino al collaudo o al completamento delle rubriche.
+Per il sito pubblico, tutte le pagine pubbliche del sito e dell'app devono consentire l'indicizzazione e la scansione dei collegamenti (`index,follow`). Non reintrodurre blocchi `noindex` o `nofollow` su rubriche, guide, pagine di servizio o app. La richiesta supera tutte le precedenti istruzioni presenti in piani e audit storici che richiedevano di conservare tali blocchi fino al collaudo o al completamento delle rubriche.
 
 Il controllo automatico `python scripts/audit-indicizzazione.py` deve coprire ricorsivamente tutte le pagine HTML, comprese nuove pagine e sottocartelle, e fallire in presenza di direttive bloccanti, canonical incoerenti o omissioni dalla sitemap. La modalità `--live` verifica anche HTTP, intestazioni, robots.txt e corrispondenza con la pubblicazione. Il workflow «Indicizzazione di tutte le pagine» lo esegue a ogni push e pull request.
 

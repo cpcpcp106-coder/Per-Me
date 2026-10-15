@@ -1,6 +1,16 @@
 # Per Me — Piano editoriale e priorità
 
-Aggiornato: 12 ottobre 2026.
+Aggiornato: 15 ottobre 2026 — nuova priorità nazionale.
+
+## Priorità 0 — Riorganizzazione nazionale (vincolante)
+- Convalidare il perimetro nazionale per tutte le rubriche: lavoro, pensioni, debiti, agevolazioni, salute, AI e alimentazione.
+- Separare le schede regionali dei trasporti e ticket FVG dalle guide nazionali; non eliminarle e non trattarle come regole universali.
+- Pubblicare Guida 05 nazionale su Comune, ATS, segretariato sociale, accesso, contributi e documenti dopo verifica delle fonti centrali e differenze territoriali.
+- Sviluppare nuove guide nazionali su trasporti e ticket; le schede FVG restano come approfondimenti opzionali.
+- Rimuovere testimonianze personali e recapiti CAF/patronato locali da homepage e dalle guide; nel solo progetto spiegare le origini senza farne il criterio delle guide.
+- Automatizzare il controllo contro ritorno di localismi e dati biografici nella guida.
+
+
 
 ## Lavori in corso — Rubrica «Soldi & Lavoro»
 1. Completare e collaudare «Come leggere una busta paga»: facsimile leggibile con dati inventati, indicazioni visive delle voci, verifica sui dispositivi.

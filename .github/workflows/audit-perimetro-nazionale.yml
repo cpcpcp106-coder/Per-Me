@@ -1,0 +1,33 @@
+name: Per Me - Perimetro nazionale
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'app-content.json'
+      - 'scripts/audit-perimetro-nazionale.cjs'
+      - 'FONTI/**'
+      - 'REGOLE-AGGIORNAMENTO-APP-E-SITO.md'
+      - '.github/workflows/audit-perimetro-nazionale.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'app-content.json'
+      - 'scripts/audit-perimetro-nazionale.cjs'
+      - 'FONTI/**'
+      - 'REGOLE-AGGIORNAMENTO-APP-E-SITO.md'
+      - '.github/workflows/audit-perimetro-nazionale.yml'
+permissions:
+  contents: read
+jobs:
+  territorio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla perimetro nazionale e assenza localismi personali
+        run: node scripts/audit-perimetro-nazionale.cjs
