@@ -26,7 +26,7 @@ assert.ok(guide.includes('agevolazioni-guida-01-isee-corrente.html'),'Manca navi
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Manca ritorno alla rubrica');
 assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 assente dall app');
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App non estrae le guide dalla rubrica');
-for(const phrase of ['9.796','20.000','4 figli a carico','25%','l\'anno successivo','2027','3–4 mesi','6–7 mesi','50 litri','146,00','186,15','204,40','21 febbraio 2026','115 euro','25.000 euro','PDR condominiale','apparecchiature elettromedicali salvavita','800 166 654','CAF UIL']){
+for(const phrase of ['9.796','20.000','4 figli a carico','25%','l\'anno successivo','2027','3–4 mesi','6–7 mesi','50 litri','146,00','186,15','204,40','21 febbraio 2026','115 euro','25.000 euro','PDR condominiale','apparecchiature elettromedicali salvavita','800 166 654','CAF']){
  assert.ok(guide.includes(phrase),'Informazione istituzionale mancante: '+phrase);
 }
 assert.ok(guide.includes('images.pexels.com/photos/7545331'),'Fotografia unica mancante');
