@@ -1,9 +1,9 @@
 {
   "audit_date": "2026-10-15",
-  "scope": "Sottoinsieme selezionato di affermazioni atomiche ad alto rischio: NON copre tutte le proposizioni del sito",
-  "count": 32,
+  "scope": "Campione ampliato alle rubriche lavoro, pensioni e debiti. Non costituisce una verifica atomica ESAUSTIVA delle guide: atti individuali, esempi e deroghe restano da verificare.",
+  "count": 58,
   "counts": {
-    "CONFERMATO": 31,
+    "CONFERMATO": 57,
     "NON_VERIFICABILE": 1
   },
   "fully_exhaustive": false,
@@ -24,7 +24,24 @@
     "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
     "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
     "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
-    "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html"
+    "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html",
+    "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053U0004&atto.dataPubblicazioneGazzetta=1953-01-27&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=28%2F06%2F2026&generaTabId=true&qId=&tabID=&tipoDettaglio=singolavigenza&title=lbl.dettaglioAtto",
+    "https://temi.camera.it/leg19/temi/19_tl18_irpef",
+    "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.CU-2026--benefici-fiscali.html",
+    "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/orario-di-lavoro",
+    "https://distaccoue.lavoro.gov.it/it-it/Aree-Tematiche/Area-Tematica/id/1",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+    "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
+    "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.01.integrazione-salariale-assegni-disoccupazione-e-fondi-importi-2026.html",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-inabilit--50297.pensione-di-inabilit-.html",
+    "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html",
+    "https://www.inps.it/it/it/previdenza/versamento-contributi.html",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html",
+    "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html"
   ],
   "records": [
     {
@@ -314,6 +331,240 @@
       "source": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html",
       "date": "2026-10-15",
       "note": "Confronto con contenuto della fonte; verifica limitata a questa proposizione."
+    },
+    {
+      "id": "C33",
+      "path": "come-leggere-busta-paga.html",
+      "claim": "Nel testo vigente dal 28 giugno 2026 la legge n. 4/1953 richiede che il prospetto paga indichi anche il CCNL applicato, identificato dal codice alfanumerico unico.",
+      "status": "CONFERMATO",
+      "source": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053U0004&atto.dataPubblicazioneGazzetta=1953-01-27&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=28%2F06%2F2026&generaTabId=true&qId=&tabID=&tipoDettaglio=singolavigenza&title=lbl.dettaglioAtto",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C34",
+      "path": "come-leggere-busta-paga.html",
+      "claim": "Il prospetto paga deve indicare il periodo retributivo, le componenti della retribuzione e distintamente le trattenute.",
+      "status": "CONFERMATO",
+      "source": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053U0004&atto.dataPubblicazioneGazzetta=1953-01-27&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=28%2F06%2F2026&generaTabId=true&qId=&tabID=&tipoDettaglio=singolavigenza&title=lbl.dettaglioAtto",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C35",
+      "path": "dal-lordo-al-netto.html",
+      "claim": "IRPEF nazionale 2026: 23% fino a 28.000 euro, 33% oltre 28.000 e fino a 50.000, 43% oltre 50.000.",
+      "status": "CONFERMATO",
+      "source": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C36",
+      "path": "dal-lordo-al-netto.html",
+      "claim": "Ulteriore detrazione per lavoro dipendente 2025/2026: fino a 1.000 euro tra 20.000 e 32.000 euro di reddito complessivo, rapportata al periodo di lavoro.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.CU-2026--benefici-fiscali.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C37",
+      "path": "ore-ferie-permessi-malattia-straordinari.html",
+      "claim": "Orario normale di legge 40 ore settimanali, salvo durata diversa del contratto collettivo.",
+      "status": "CONFERMATO",
+      "source": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/orario-di-lavoro",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C38",
+      "path": "ore-ferie-permessi-malattia-straordinari.html",
+      "claim": "Durata media massima 48 ore su sette giorni, comprensive dello straordinario, secondo periodo di riferimento di legge.",
+      "status": "CONFERMATO",
+      "source": "https://distaccoue.lavoro.gov.it/it-it/Aree-Tematiche/Area-Tematica/id/1",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C39",
+      "path": "ore-ferie-permessi-malattia-straordinari.html",
+      "claim": "Ferie annue minime retribuite quattro settimane, secondo le regole dell'articolo 10 D.Lgs.66/2003.",
+      "status": "CONFERMATO",
+      "source": "https://distaccoue.lavoro.gov.it/it-it/Aree-Tematiche/Area-Tematica/id/1",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C40",
+      "path": "stipendio-diminuito-cosa-controllare.html",
+      "claim": "In CIGO l'integrazione è di norma l'80% della retribuzione globale persa per le ore non lavorate, entro massimali.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C41",
+      "path": "ccnl-inquadramento-livello-superminimo.html",
+      "claim": "Assegnazione a mansioni inferiori nelle ipotesi art.2103 c.c. richiede forma scritta; valgono condizioni su categoria, livello e trattamento economico.",
+      "status": "CONFERMATO",
+      "source": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C42",
+      "path": "ccnl-inquadramento-livello-superminimo.html",
+      "claim": "La legge 4/1953 aggiornata richiede il codice alfanumerico unico del CCNL nel prospetto paga dal 28 giugno 2026.",
+      "status": "CONFERMATO",
+      "source": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=053U0004&atto.dataPubblicazioneGazzetta=1953-01-27&bloccoAggiornamentoBreadCrumb=true&classica=true&dataVigenza=28%2F06%2F2026&generaTabId=true&qId=&tabID=&tipoDettaglio=singolavigenza&title=lbl.dettaglioAtto",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C43",
+      "path": "controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "claim": "La CIGO è ordinariamente 80% della retribuzione globale persa per ore non lavorate, con massimale.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C44",
+      "path": "controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "claim": "INPS ha aggiornato massimali CIGO, CIGS e fondi dall'1 gennaio 2026 con circolare 4 del 28 gennaio 2026.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.01.integrazione-salariale-assegni-disoccupazione-e-fondi-importi-2026.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C45",
+      "path": "inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "claim": "L'AOI ha validità triennale e può essere confermato nel semestre precedente o entro 120 giorni dopo la scadenza.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C46",
+      "path": "inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "claim": "Dopo tre riconoscimenti consecutivi dell'AOI è prevista conferma automatica, ferma la facoltà di revisione.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C47",
+      "path": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "claim": "Requisiti contributivi ordinari AOI: 260 settimane complessive e 156 nel quinquennio precedente.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C48",
+      "path": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "claim": "L'AOI non richiede la cessazione dell'attività lavorativa.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C49",
+      "path": "aoi-invalidita-civile-differenze.html",
+      "claim": "L'AOI previdenziale richiede riduzione capacità lavorativa a meno di un terzo e requisiti contributivi; non coincide con la prestazione civile.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C50",
+      "path": "aoi-invalidita-civile-differenze.html",
+      "claim": "La pensione previdenziale di inabilità richiede impossibilità assoluta e permanente di svolgere qualsiasi attività lavorativa e cessazione del lavoro.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-inabilit--50297.pensione-di-inabilit-.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C51",
+      "path": "cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "claim": "Il modello ObisM 2026 è disponibile dal 30 aprile 2026; contiene importi mensili lordi, ritenute, detrazioni e perequazione.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C52",
+      "path": "cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "claim": "Il modello ObisM normalmente non è predisposto per APE Sociale, assegni straordinari e isopensioni, con eccezione specifica commerciale.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C53",
+      "path": "contributi-inps-estratto-conto-pensione-vicina.html",
+      "claim": "L'Estratto conto certificativo ECOCERT è servizio distinto dalla semplice consultazione dell'estratto contributivo e dai simulatori.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/previdenza/versamento-contributi.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C54",
+      "path": "redditi-red-comunicazioni-obbligatorie-inps.html",
+      "claim": "La dichiarazione RED riguarda titolari di pensioni con prestazioni collegate al reddito, non indistintamente tutti i pensionati.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C55",
+      "path": "redditi-red-comunicazioni-obbligatorie-inps.html",
+      "claim": "RED 2023 mancato: INPS ha previsto trattenuta del 5% sul lordo di luglio nei ratei agosto/settembre 2026 e scadenza ricostituzione 15 settembre 2026.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C56",
+      "path": "riesame-ricorso-inps-termini.html",
+      "claim": "Il riesame/autotutela pensionistico INPS non sospende i termini dei ricorsi amministrativi e giudiziari.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C57",
+      "path": "riesame-ricorso-inps-termini.html",
+      "claim": "Ricorso amministrativo pensionistico generalmente entro 90 giorni; per comitati della Gestione Dipendenti Pubblici spesso 30 giorni secondo specifiche regole.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C58",
+      "path": "riesame-ricorso-inps-termini.html",
+      "claim": "Il ricorso amministrativo per invalidità civile è previsto per dinieghi su requisiti socio-economici, non per contestare ogni giudizio sanitario.",
+      "status": "CONFERMATO",
+      "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html",
+      "date": "2026-10-15",
+      "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
     }
   ]
 }
