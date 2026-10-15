@@ -193,9 +193,9 @@ L'etichetta descrive la classificazione editoriale prevalente, non la certezza e
 - La regola è un **intervento di primo livello, non una gestione domestica di ogni ipoglicemia**. Non improvvisare sospensioni/dosi di farmaci; trattare i sintomi urgenti con l'assistenza sanitaria.
 
 **Fonti primarie verificate il 15 ottobre 2026:**
-1. ADA, *Standards of Care in Diabetes 2026*, sezione 6, raccomandazioni 6.15–6.19: https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic .
-2. ADA, *A Practical Approach to Hypoglycemia Treatment*, capitolo **The Rule of 15**, 2026: https://diabetesjournals.org/compendia/article/2026/1/29/172316 .
-3. CDC, *Treatment of Low Blood Sugar (Hypoglycemia)*, aggiornato 15 maggio 2024: https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html .
+- ADA, *Standards of Care in Diabetes 2026*, sezione 6, raccomandazioni 6.15–6.19: https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic .
+- ADA, *A Practical Approach to Hypoglycemia Treatment*, capitolo **The Rule of 15**, 2026: https://diabetesjournals.org/compendia/article/2026/1/29/172316 .
+- CDC, *Treatment of Low Blood Sugar (Hypoglycemia)*, aggiornato 15 maggio 2024: https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html .
 
 
 
