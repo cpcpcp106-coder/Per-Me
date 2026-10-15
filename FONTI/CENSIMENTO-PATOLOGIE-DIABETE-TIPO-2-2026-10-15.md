@@ -181,6 +181,24 @@ L'etichetta descrive la classificazione editoriale prevalente, non la certezza e
 
 **Fonti:** ADA 2026 sezione 6 https://doi.org/10.2337/dc26-S006 ; sezione 9 https://doi.org/10.2337/dc26-S009 ; sezione 12 https://doi.org/10.2337/dc26-S012 .
 
+### Regola del 15 (15–15) — protocollo educativo per ipoglicemia
+
+**Da ripetere nelle guide 02, 27 e 28** e da includere nella scheda delle emergenze.
+
+- Per la **maggior parte degli adulti coscienti, vigili e capaci di deglutire**, con glicemia **<70 mg/dL (3,9 mmol/L)**: assumere **15 g di glucosio** o di carboidrati rapidi contenenti glucosio, attendere **15 minuti**, ricontrollare la glicemia; se permane sotto 70 mg/dL, ripetere e cercare assistenza se l'episodio persiste o peggiora.
+- Dopo la normalizzazione, uno **spuntino con carboidrati complessi e proteine** può ridurre nuove ipoglicemie se il pasto è lontano e vi sono terapie in corso che possono continuare ad abbassare la glicemia. Evitare cioccolato e alimenti grassi o ricchi di fibre come prima opzione per la correzione rapida.
+- **Emergenza:** in caso di perdita di coscienza, convulsioni, marcata alterazione della vigilanza, incapacità a deglutire o persona che necessita assistenza, **non dare nulla per bocca**, attivare il **112/118**; se è stato prescritto glucagone e una persona vicina è stata istruita al suo utilizzo, seguire il piano di emergenza senza ritardare la richiesta di soccorso.
+- **Non universale:** con sistemi automatizzati di somministrazione dell'insulina (AID) ADA 2026 indica spesso **5–10 g**, salvo eccezioni; non applicare automaticamente i 15 g a questi dispositivi senza piano clinico. In chi assume **acarbosio**, impiegare **glucosio puro** anziché saccarosio, perché l'assorbimento dello zucchero comune può essere ritardato.
+- Il rischio interessa soprattutto trattamenti con **insulina o secretagoghi**. Episodi gravi, ricorrenti o non avvertiti richiedono revisione del piano e formazione personalizzata. Anche i sensori possono mostrare valori con ritardo rispetto alla glicemia capillare: valutare il piano concordato con il diabetologo.
+- La regola è un **intervento di primo livello, non una gestione domestica di ogni ipoglicemia**. Non improvvisare sospensioni/dosi di farmaci; trattare i sintomi urgenti con l'assistenza sanitaria.
+
+**Fonti primarie verificate il 15 ottobre 2026:**
+1. ADA, *Standards of Care in Diabetes 2026*, sezione 6, raccomandazioni 6.15–6.19: https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic .
+2. ADA, *A Practical Approach to Hypoglycemia Treatment*, capitolo **The Rule of 15**, 2026: https://diabetesjournals.org/compendia/article/2026/1/29/172316 .
+3. CDC, *Treatment of Low Blood Sugar (Hypoglycemia)*, aggiornato 15 maggio 2024: https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html .
+
+
+
 ## Revisioni critiche finali: che cosa NON classificare erroneamente
 
 - **Maculopatia diabetica** significa soprattutto **edema maculare diabetico** nel contesto della retinopatia; **degenerazione maculare legata all'età (AMD)** è una patologia diversa e non va rinominata «maculopatia diabetica».
