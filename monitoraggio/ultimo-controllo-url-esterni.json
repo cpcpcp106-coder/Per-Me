@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T19:57:37.256882+00:00",
+  "date_utc": "2026-10-15T20:12:33.813357+00:00",
   "scope": {
     "pages": 52,
     "unique_external_urls": 392,
     "occurrences": 715
   },
   "counts": {
-    "raggiungibile": 356,
+    "raggiungibile": 354,
+    "non_verificato_trasporto": 6,
     "bloccato_o_riservato": 31,
-    "non_verificato_trasporto": 4,
     "errore_http": 1
   },
   "results": [
@@ -130,9 +130,8 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -3251,9 +3250,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
