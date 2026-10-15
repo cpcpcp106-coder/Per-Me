@@ -449,3 +449,15 @@ header .brand{gap:14px;min-height:90px}
     min-height:104px;
   }
 }
+
+/* WCAG: contrasto nav Guide 03 e 04 (audit browser 2026-10-15: otto link per pagina).
+   Specificita maggiore di .pagina-interna .article a senza effetti sulle altre rubriche. */
+.pagina-interna.guida-trasporti-03 .article nav.tpl-nav a,
+.pagina-interna.guida-trasporti-03 .article nav.tpl-nav a:visited,
+.pagina-interna.guida-ticket-04 .article nav.ticket-nav a,
+.pagina-interna.guida-ticket-04 .article nav.ticket-nav a:visited{
+  color:#35251c;
+  font-weight:800;
+  text-decoration:underline;
+  text-underline-offset:3px;
+}
