@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T13:59:36.033812+00:00",
+  "date_utc": "2026-10-15T14:06:25.314480+00:00",
   "scope": {
     "pages": 43,
     "unique_external_urls": 283,
     "occurrences": 550
   },
   "counts": {
-    "raggiungibile": 279,
-    "bloccato_o_riservato": 4
+    "raggiungibile": 277,
+    "bloccato_o_riservato": 6
   },
   "results": [
     {
@@ -2792,18 +2792,16 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
