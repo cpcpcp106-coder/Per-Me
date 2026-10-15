@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from collections import deque
 from concurrent.futures import ThreadPoolExecutor
 import datetime as dt
 import hashlib
@@ -11,7 +12,7 @@ import json
 from pathlib import Path
 import re
 from urllib.error import HTTPError, URLError
-from urllib.parse import quote, urljoin
+from urllib.parse import quote, urljoin, urlsplit
 from urllib.request import Request, urlopen
 from urllib.robotparser import RobotFileParser
 import xml.etree.ElementTree as ET
@@ -29,6 +30,7 @@ class Page(HTMLParser):
         self.blocked = []
         self.canonicals = []
         self.scripts = []
+        self.links = []
         self.inline_scripts = []
         self.in_script = False
 
@@ -43,6 +45,8 @@ class Page(HTMLParser):
             self.blocked.append("rel=nofollow")
         if tag == "link" and "canonical" in rel:
             self.canonicals.append(a.get("href", ""))
+        if tag == "a" and a.get("href"):
+            self.links.append(a["href"])
         if tag == "script":
             self.in_script = True
             if a.get("src"):
@@ -71,6 +75,7 @@ def audit_source(root):
                    and not any((part.startswith(".") and part != ".htaccess") or part in {"node_modules", "_site"}
                                for part in p.relative_to(root).parts))
     result = {"public_pages": [], "technical_pages": [], "issues": []}
+    navigation = {}
     for path in files:
         if path.suffix.lower() not in {".html", ".htm"}:
             continue
@@ -82,6 +87,8 @@ def audit_source(root):
         record = {"path": name, "url": url, "sha256": hashlib.sha256(raw).hexdigest()}
         key = "technical_pages" if name in TECHNICAL else "public_pages"
         result[key].append(record)
+        if key == "public_pages":
+            navigation[url] = (name, page.links)
         if page.blocked and name not in TECHNICAL:
             result["issues"].append(f"{name}: direttive bloccanti {page.blocked}")
         if key == "public_pages" and page.canonicals != [url]:
@@ -94,6 +101,35 @@ def audit_source(root):
                 script = root / script_url[len(BASE):].split("?")[0]
                 if script.is_file() and DYNAMIC_BLOCK.search(script.read_text(encoding="utf-8")):
                     result["issues"].append(f"{script.relative_to(root)}: istruzioni bloccanti in script")
+    # La presenza nella sitemap non basta: ogni pagina pubblica deve essere
+    # raggiungibile dalla home tramite normali collegamenti HTML.
+    aliases = {record["url"]: record["url"] for record in result["public_pages"]}
+    aliases.update({BASE + quote(record["path"], safe="/"): record["url"]
+                    for record in result["public_pages"]})
+    graph = {}
+    for url, (name, links) in navigation.items():
+        targets = set()
+        for href in links:
+            target = urlsplit(urljoin(BASE + quote(name, safe="/"), href))
+            canonical = aliases.get(target._replace(query="", fragment="").geturl())
+            if canonical:
+                targets.add(canonical)
+        graph[url] = targets
+    depth = {BASE: 0} if BASE in graph else {}
+    pending = deque(depth)
+    while pending:
+        current = pending.popleft()
+        for target in sorted(graph[current]):
+            if target not in depth:
+                depth[target] = depth[current] + 1
+                pending.append(target)
+    unreachable = sorted(set(graph) - set(depth))
+    result["navigation"] = {"reachable_from_home": len(depth),
+                            "unreachable_from_home": unreachable,
+                            "depth_from_home": dict(sorted(depth.items()))}
+    for url in unreachable:
+        result["issues"].append(f"{navigation[url][0]}: non raggiungibile dalla home tramite link HTML")
+
     for path in files:
         if path.name not in {"robots.txt", "_headers", ".htaccess", "_config.yml", "_config.yaml", "netlify.toml", "vercel.json"}:
             continue
@@ -209,7 +245,8 @@ def main():
         errors.extend(result["live"]["issues"])
         errors.extend(f"{r['url']}: {e}" for r in result["live"]["pages"] for e in r["issues"])
     summary = {"public_pages": len(result["public_pages"]), "technical_pages": len(result["technical_pages"]),
-               "sitemap_urls": len(result.get("sitemap_urls", [])), "issues": len(errors)}
+               "sitemap_urls": len(result.get("sitemap_urls", [])),
+               "reachable_from_home": result["navigation"]["reachable_from_home"], "issues": len(errors)}
     if args.live:
         summary["live_urls_checked"] = result["live"]["urls_checked"]
         summary["origin_robots_http"] = result["live"]["robots_http"]
