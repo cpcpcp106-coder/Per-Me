@@ -198,46 +198,6 @@
   ],
   "local": [
     {
-      "file": "Donna anziana al lavoro tra documenti e piante.png",
-      "git_blob_sha": "ac1ce1e057a282742e4adff0f378ecb9d79616f9",
-      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
-      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
-      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
-      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
-      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
-      "source_history_verified": false
-    },
-    {
-      "file": "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
-      "git_blob_sha": "ac1a2b5ff3e76cb3799753f05b1a376de46b9b68",
-      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
-      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
-      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
-      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
-      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
-      "source_history_verified": false
-    },
-    {
-      "file": "Uomo anziano pianifica il bilancio domestico.png",
-      "git_blob_sha": "48358df1950dc9961652439959e11ba947010714",
-      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
-      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
-      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
-      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
-      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
-      "source_history_verified": false
-    },
-    {
-      "file": "Uomo pensieroso alle prese con i documenti.png",
-      "git_blob_sha": "aef8a93c997e6ff21bb08be60a386e600061e533",
-      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
-      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
-      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
-      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
-      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
-      "source_history_verified": false
-    },
-    {
       "file": "app/icon-192.png",
       "git_blob_sha": "61fd19cc70998f26791190854d31b17c18db197d",
       "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
@@ -268,23 +228,13 @@
       "source_history_verified": false
     },
     {
-      "file": "assets/Uomo concentrato tra pratiche e calcolatrice.png",
-      "git_blob_sha": "3daf262266aae01b5fcde7346a306a29bb008cb0",
-      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
-      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
-      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
-      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
-      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
-      "source_history_verified": false
-    },
-    {
-      "file": "assets/Uomo pensieroso tra conti e campagna 恒一.png",
-      "git_blob_sha": "2aef303d8fbb7003ce95e5802d21bcee5c8c8fa6",
-      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
-      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
-      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
-      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
-      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "file": "assets/classifica-stella-dorata.webp",
+      "git_blob_sha": "9a9f36e7216d107c2e2ad17b6f676d0c1e291a6a",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Stella decorativa introdotta nella classifica dal commit GitHub 3d93d279842dff84b3fe6625f6f98c2343c2a28c (15/10/2026). La tracciabilità del file e il suo checksum sono accertati; la specifica origine creativa e la catena dei diritti non sono state comprovate e richiedono verifica distinta.",
+      "origin": "Risorsa grafica WebP decorativa caricata direttamente nel repository Per Me, usata esclusivamente in gradimento.html",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/3d93d279842dff84b3fe6625f6f98c2343c2a28c ; sha Git blob 9a9f36e7216d107c2e2ad17b6f676d0c1e291a6a; file 3644 byte",
+      "license_or_ownership": "Provenienza tecnica documentata dal commit; titolarità e licenza originali non documentate: non equivale a certificazione dei diritti",
       "source_history_verified": false
     },
     {
@@ -598,6 +548,56 @@
       "source_history_verified": false
     },
     {
+      "file": "assets/salute-guida-01-visita-medica.jpg",
+      "git_blob_sha": "06c108a54aa7b1a9be31bfbf9f4d83693c0f281f",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Copia locale compressa della fotografia Pexels 11370618 usata nella Guida 01 Salute. Autore Towfiqu barbhuiya; fonte e licenza citate sotto l'immagine. Persone e immagini solo illustrative, nessuna diagnosi attribuita.",
+      "origin": "Fotografia originale Pexels n. 11370618, Towfiqu barbhuiya",
+      "provenance_evidence": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/ ; importazione documentata nel workflow GitHub 'Per Me - Importazione fotografia Salute 01' del 15 ottobre 2026 (JPEG 187916 byte)",
+      "license_or_ownership": "Pexels License, uso gratuito editoriale: https://www.pexels.com/license/",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/Uomo concentrato tra pratiche e calcolatrice.png",
+      "git_blob_sha": "3daf262266aae01b5fcde7346a306a29bb008cb0",
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/Uomo pensieroso tra conti e campagna 恒一.png",
+      "git_blob_sha": "2aef303d8fbb7003ce95e5802d21bcee5c8c8fa6",
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
+    },
+    {
+      "file": "Donna anziana al lavoro tra documenti e piante.png",
+      "git_blob_sha": "ac1ce1e057a282742e4adff0f378ecb9d79616f9",
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
+    },
+    {
+      "file": "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
+      "git_blob_sha": "ac1a2b5ff3e76cb3799753f05b1a376de46b9b68",
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
+    },
+    {
       "file": "ritratto-enrico.webp",
       "git_blob_sha": "2d261a4ac590341e52b4075eadecf0005311d6aa",
       "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
@@ -608,14 +608,24 @@
       "source_history_verified": false
     },
     {
-      "file": "assets/salute-guida-01-visita-medica.jpg",
-      "git_blob_sha": "06c108a54aa7b1a9be31bfbf9f4d83693c0f281f",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "Copia locale compressa della fotografia Pexels 11370618 usata nella Guida 01 Salute. Autore Towfiqu barbhuiya; fonte e licenza citate sotto l'immagine. Persone e immagini solo illustrative, nessuna diagnosi attribuita.",
-      "origin": "Fotografia originale Pexels n. 11370618, Towfiqu barbhuiya",
-      "provenance_evidence": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/ ; importazione documentata nel workflow GitHub 'Per Me - Importazione fotografia Salute 01' del 15 ottobre 2026 (JPEG 187916 byte)",
-      "license_or_ownership": "Pexels License, uso gratuito editoriale: https://www.pexels.com/license/",
-      "source_history_verified": true
+      "file": "Uomo anziano pianifica il bilancio domestico.png",
+      "git_blob_sha": "48358df1950dc9961652439959e11ba947010714",
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
+    },
+    {
+      "file": "Uomo pensieroso alle prese con i documenti.png",
+      "git_blob_sha": "aef8a93c997e6ff21bb08be60a386e600061e533",
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     }
   ],
   "notes": [
