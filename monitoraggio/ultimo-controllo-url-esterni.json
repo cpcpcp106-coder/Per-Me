@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T19:06:05.142428+00:00",
+  "date_utc": "2026-10-15T19:16:45.883289+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 377,
-    "occurrences": 689
+    "unique_external_urls": 380,
+    "occurrences": 692
   },
   "counts": {
-    "raggiungibile": 343,
-    "bloccato_o_riservato": 30,
+    "raggiungibile": 345,
+    "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -260,6 +260,14 @@
       ]
     },
     {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163928/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
       "url": "https://diabetesjournals.org/care/issue/49/Supplement_1",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -384,6 +392,15 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -3601,6 +3618,15 @@
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/cosa-sono-i-lea/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/cosa-sono-i-lea/",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
