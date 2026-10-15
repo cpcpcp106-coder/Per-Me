@@ -37,5 +37,12 @@ assert.ok((guide.match(/www\.arera\.it/g)||[]).length>=10,'Fonti ARERA insuffici
 const internalLinks=[...guide.matchAll(/href="([^"]+\.html(?:#[^"]*)?)"/g)].map(m=>m[1]).filter(x=>!/^https?:/.test(x));
 for(const ref of internalLinks){const f=ref.split('#')[0];assert.ok(fs.existsSync(path.join(root,f)),name+': file collegato inesistente '+f)}
 for(const phrase of ['TEFA','componenti perequative','40 giorni','30 giugno','0,5 MWh','3 MWh','crediti certi, liquidi ed esigibili','indicatore specifico']) assert.ok(guide.includes(phrase),'Revisione ARERA incompleta: '+phrase);
+let paragraphOpen=false;
+for(const tag of guide.matchAll(/<\\/?p\\b[^>]*>/gi)){
+  const closing=tag[0].startsWith('<'+'/');
+  assert.ok(closing?paragraphOpen:!paragraphOpen,'Paragrafo HTML annidato o chiuso senza apertura alla posizione '+tag.index);
+  paragraphOpen=!closing;
+}
+assert.ok(!paragraphOpen,'Ultimo paragrafo rimasto aperto');
 console.log('PASS: bonus 2026 ARERA, soglie, requisiti, date TARI, altri bonus, immagine distinta, navigazione, SEO e scoperta PWA.');
 console.log('Limiti: nessuna verifica visiva di browser Android, download fotografico o raggiungibilita HTTP di tutte le fonti.');
