@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T15:55:48.003098+00:00",
+  "date_utc": "2026-10-15T16:09:59.718070+00:00",
   "scope": {
-    "pages": 45,
-    "unique_external_urls": 312,
-    "occurrences": 598
+    "pages": 46,
+    "unique_external_urls": 314,
+    "occurrences": 600
   },
   "counts": {
-    "raggiungibile": 301,
+    "raggiungibile": 300,
     "bloccato_o_riservato": 9,
-    "non_verificato_trasporto": 2
+    "non_verificato_trasporto": 5
   },
   "results": [
     {
@@ -90,6 +90,24 @@
       "final_url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
       "pages": [
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
+      "pages": [
+        "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
+      ]
+    },
+    {
+      "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
+      "pages": [
+        "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
@@ -1381,18 +1399,16 @@
     },
     {
       "url": "https://www.cuore.iss.it/altro/cuore",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cuore.iss.it/altro/cuore",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "salute-autonomia.html"
       ]
     },
     {
       "url": "https://www.epicentro.iss.it/igea/diabete/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.epicentro.iss.it/igea/diabete/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "salute-autonomia.html",
         "salute-guida-01-preparare-visita.html",
@@ -1401,9 +1417,8 @@
     },
     {
       "url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "salute-guida-01-preparare-visita.html"
       ]

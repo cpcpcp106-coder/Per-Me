@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T15:54:53.927Z",
+  "checked_at_utc": "2026-10-15T16:08:46.040Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 43,
+        "count": 44,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 43,
+        "checked": 44,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 43,
+        "checked": 44,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "39 pagine salvate per la lettura offline · controllo online 15 ott, 15:55.",
+        "status": "39 pagine salvate per la lettura offline · controllo online 15 ott, 16:09.",
         "stored": {
           "guides": 39,
-          "updated": "2026-10-15T15:55:08.573Z",
+          "updated": "2026-10-15T16:09:07.765Z",
           "bytes": 719920,
           "includesNew09": true
         }
@@ -270,6 +270,12 @@
       "violations": [],
       "passes": 21,
       "incomplete": 2
+    },
+    {
+      "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
+      "violations": [],
+      "passes": 11,
+      "incomplete": 0
     },
     {
       "page": "contributi-inps-estratto-conto-pensione-vicina.html",
