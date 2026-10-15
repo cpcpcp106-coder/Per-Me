@@ -170,6 +170,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Fotografia realistica di un'insalata mediterranea; immagine illustrativa, non composizione nutrizionale certificata."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "11391942",
+      "src_path": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg",
+      "source": "https://www.pexels.com/photo/close-up-of-person-using-a-blood-glucose-monitor-11391942/",
+      "author": "Towfiqu barbhuiya",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-01-cause-sintomi-diagnosi.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Fotografia illustrativa, soggetto diverso dagli altri articoli; nessuna diagnosi attribuita alla persona nella foto. Pagina Pexels e indicazione 'Free to use' verificate."
     }
   ],
   "local": [
@@ -598,7 +610,7 @@
     "Le 41 immagini locali sono riclassificate come generate o elaborate con ChatGPT sulla base della dichiarazione diretta dell'autore, non di una verifica tecnica individuale delle sessioni originali.",
     "Per quanto riguarda i rapporti fra utente e OpenAI, l'utente possiede l'Output nei limiti di legge secondo https://openai.com/it-IT/policies/terms-of-use/ . Questo non elimina eventuali diritti di terzi su materiali originari, marchi o persone ritratte.",
     "Il registro conserva le impronte blob Git per rintracciare esattamente le 41 immagini senza modificarne i file.",
-    "Le 8 fotografie esterne sono tenute distinte come fotografie stock gratuite di Pexels/Unsplash, con pagina fonte, fotografo e licenza.",
+    "Le fotografie esterne sono registrate individualmente come stock gratuito di Pexels/Unsplash, con pagina fonte, fotografo e licenza.",
     "Per qualsiasi nuova immagine non basta la dichiarazione generale: occorre registrare evidenza individuale della fonte o generazione prima della pubblicazione.",
     "Le immagini illustrative non devono suggerire che persone reali ritratte soffrano delle patologie o condizioni sociali descritte."
   ]
