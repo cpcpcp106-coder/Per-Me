@@ -1,72 +1,109 @@
-/* Per Me: conteggio delle visite e delle installazioni rilevate.
-   Il proprietario può escludere questo browser con ?perme_escludimi=1. */
+/* Per Me - due soli contatori: visite al sito e installazioni PWA rilevate.
+   Senza librerie e senza modifiche al service worker.
+   Escludi questo browser aprendo /Per-Me/?perme_escludimi=1 */
 (() => {
   'use strict';
+
+  const ROOT = '/Per-Me/';
   if (location.hostname !== 'cpcpcp106-coder.github.io' ||
-      !location.pathname.startsWith('/Per-Me/')) return;
-  const OWNER_FLAG = 'per-me-non-contare-questo-browser';
-  const COOKIE_NAME = 'perme_no_count';
-  const query = new URL(location.href);
-  const optOutRequested = query.searchParams.get('perme_escludimi') === '1';
-  let excluded = false;
+      !location.pathname.startsWith(ROOT)) return;
 
-  if (optOutRequested) {
-    try { localStorage.setItem(OWNER_FLAG, '1'); } catch (_) {}
+  const NAMESPACE = 'cpcpcp106-coder.github.io';
+  const VISITS_KEY = 'per-me-visite-da-zero-20261015';
+  const INSTALLS_KEY = 'per-me';
+  const OWNER_KEY = 'per-me-non-contare-questo-browser';
+  const OWNER_COOKIE = 'perme_no_count';
+  const VISIT_TIME_KEY = 'per-me-ultima-visita-30min-v1';
+  const VISIT_INTERVAL_MS = 30 * 60 * 1000;
+  const pending = new Set();
+
+  // Esclusione volontaria del proprietario, valida per questo browser.
+  const url = new URL(location.href);
+  const excludeNow = url.searchParams.get('perme_escludimi') === '1';
+
+  if (excludeNow) {
+    try { localStorage.setItem(OWNER_KEY, '1'); } catch (_) {}
     try {
-      document.cookie = COOKIE_NAME + '=1; Max-Age=31536000; Path=/Per-Me/; SameSite=Lax; Secure';
+      document.cookie = OWNER_COOKIE +
+        '=1; Max-Age=31536000; Path=/Per-Me/; SameSite=Lax; Secure';
     } catch (_) {}
-    query.searchParams.delete('perme_escludimi');
-    try { history.replaceState(history.state, '', query.pathname + query.search + query.hash); } catch (_) {}
-  }
-  try { excluded = localStorage.getItem(OWNER_FLAG) === '1'; } catch (_) {}
-  excluded = excluded || document.cookie.split(';').some(x => x.trim() === COOKIE_NAME + '=1');
-
-  if (optOutRequested) {
-    const status = document.createElement('p');
-    status.setAttribute('role', 'status');
-    status.style.cssText =
-      'padding:18px;margin:12px 0 16px;background:#e9f2e9;border:2px solid #254236;border-radius:10px;'+
-      'font-size:1.18rem;line-height:1.5;font-weight:700;color:#254236;';
-    status.textContent = excluded
-      ? 'Esclusione attiva: le visite da questo browser non verranno conteggiate.'
-      : 'Attenzione: il browser non ha memorizzato l’esclusione. Questa apertura non è stata conteggiata, ma le successive potrebbero esserlo.';
-    document.querySelector('main')?.prepend(status);
-  }
-
-  if (excluded || optOutRequested) return;
-  const page = location.pathname.slice('/Per-Me/'.length);
-  const images = new Set();
-  function count(action) {
-    if (!navigator.onLine) return;
-    const params = new URLSearchParams({
-      ns: 'cpcpcp106-coder.github.io',
-      action,
-      key: action === 'visita' ? 'per-me-visite-da-zero-20261015' : 'per-me',
-      nonce: Date.now() + '-' + Math.random().toString(36).slice(2)
-    });
-    const img = new Image();
-    images.add(img);
-    img.referrerPolicy = 'no-referrer';
-    img.onload = img.onerror = () => images.delete(img);
-    img.src = 'https://counterapi.com/pixel.gif?' + params;
-  }
-  const standalone = window.matchMedia?.('(display-mode: standalone)').matches ||
-    navigator.standalone === true;
-  if (!standalone) {
+    url.searchParams.delete('perme_escludimi');
     try {
-      const marker = 'per-me-visita-sessione-v2';
-      if (sessionStorage.getItem(marker) !== '1') {
-        sessionStorage.setItem(marker, '1');
-        count('visita');
-      }
-    } catch (_) { count('visita'); }
+      history.replaceState(history.state, '', url.pathname + url.search + url.hash);
+    } catch (_) {}
   }
-  if (page === 'app/' || page === 'app/index.html') {
+
+  let isOwner = excludeNow;
+  try { isOwner ||= localStorage.getItem(OWNER_KEY) === '1'; } catch (_) {}
+  try {
+    isOwner ||= document.cookie.split(';')
+      .some(item => item.trim() === OWNER_COOKIE + '=1');
+  } catch (_) {}
+
+  if (excludeNow) {
+    const message = document.createElement('p');
+    message.setAttribute('role', 'status');
+    message.style.cssText =
+      'margin:16px 0;padding:16px;border:2px solid #254236;' +
+      'font-size:19px;line-height:1.5;font-weight:bold';
+    message.textContent =
+      'Esclusione richiesta: questa apertura non viene conteggiata. ' +
+      'Le visite successive sono escluse finché il browser conserva ' +
+      'il dato di esclusione.';
+    document.querySelector('main')?.prepend(message);
+  }
+  if (isOwner) return;
+
+  // Una chiamata "pixel" invisibile: non modifica la pagina.
+  function track(action, key) {
+    if (!navigator.onLine) return false;
+    const query = new URLSearchParams({
+      ns: NAMESPACE,
+      action,
+      key,
+      nonce: Date.now().toString() + Math.random().toString(36).slice(2)
+    });
+    const pixel = new Image();
+    pending.add(pixel);
+    pixel.referrerPolicy = 'no-referrer';
+    pixel.onload = pixel.onerror = () => pending.delete(pixel);
+    pixel.src = 'https://counterapi.com/pixel.gif?' + query.toString();
+    return true; // Invio tentato, non conferma di registrazione.
+  }
+
+  // Una visita al massimo ogni 30 minuti per lo stesso browser.
+  // L'uso come app installata non conta come visita al sito.
+  const standalone = window.matchMedia?.('(display-mode: standalone)').matches ||
+                     navigator.standalone === true;
+  let attemptedThisPage = false;
+
+  function visit() {
+    if (standalone || attemptedThisPage || !navigator.onLine) return;
+    const now = Date.now();
+    try {
+      const last = Number(localStorage.getItem(VISIT_TIME_KEY)) || 0;
+      if (now - last < VISIT_INTERVAL_MS && now >= last) return;
+      localStorage.setItem(VISIT_TIME_KEY, String(now));
+    } catch (_) {
+      try {
+        if (sessionStorage.getItem(VISIT_TIME_KEY)) return;
+        sessionStorage.setItem(VISIT_TIME_KEY, String(now));
+      } catch (_) {}
+    }
+    attemptedThisPage = track('visita', VISITS_KEY);
+  }
+
+  visit();
+  window.addEventListener('online', visit);
+
+  // Solo l'evento di installazione confermata, non il semplice clic.
+  const appPage = location.pathname === ROOT + 'app/' ||
+                  location.pathname === ROOT + 'app/index.html';
+  if (appPage) {
     let counted = false;
     window.addEventListener('appinstalled', () => {
       if (counted) return;
-      counted = true;
-      count('installazione');
+      counted = track('installazione', INSTALLS_KEY);
     });
   }
 })();
