@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T16:14:50+00:00",
+  "date_utc": "2026-10-15T16:36:36+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 46,
@@ -7,9 +7,9 @@
     "guide_pages": 31
   },
   "links": {
-    "local_occurrences": 1367,
-    "external_occurrences": 600,
-    "external_unique": 314,
+    "local_occurrences": 1370,
+    "external_occurrences": 603,
+    "external_unique": 316,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -273,13 +273,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 25,
-      "links_external": 13,
+      "links_external": 16,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 11
+      "candidate_numeric_legal_mentions": 20
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
@@ -392,7 +392,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 0,
+      "links_local": 3,
       "links_external": 2,
       "missing_local": 0,
       "noindex": true,
@@ -630,7 +630,7 @@
       "file": "index.html",
       "title": "Per Me — Capire cosa fare",
       "h1": 1,
-      "images": 8,
+      "images": 9,
       "images_without_alt": 0,
       "links_local": 36,
       "links_external": 0,
