@@ -31,7 +31,7 @@ for(const url of [
  'https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/infarto-miocardico/'
 ])assert.ok(html.includes(url),'Fonte di sicurezza assente: '+url);
 assert.ok(!/Tarcento|Attimis|Racchiuso|ASUFC|Udine/i.test(html),'La guida deve avere rilevanza nazionale');
-assert.ok(!/mg\/dl\s*<|mg\/dl\s*>|HbA1c\s*<|HbA1c\s*>/.test(html),'Soglie cliniche individuali non ammesse');
+assert.ok(!/(?:mg\/dl|HbA1c)\s*(?:<|>|&lt;|&gt;)\s*\d/i.test(html),'Soglie cliniche individuali non ammesse');
 assert.match(section,/href="salute-guida-01-preparare-visita.html"/,'La pagina deve essere raggiungibile dalla rubrica');
 assert.match(sitemap,/salute-guida-01-preparare-visita.html/,'Guida non presente in sitemap');
 assert.match(app,/\['salute-autonomia.html','Salute e autonomia'\]/,'Rubrica non presente nella PWA');
