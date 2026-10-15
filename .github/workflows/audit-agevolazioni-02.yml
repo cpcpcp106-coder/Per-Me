@@ -1,0 +1,33 @@
+name: Per Me - Guida 02 Bonus sociali
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-agevolazioni-02.cjs'
+      - '.github/workflows/audit-agevolazioni-02.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-agevolazioni-02.cjs'
+      - '.github/workflows/audit-agevolazioni-02.yml'
+permissions:
+  contents: read
+jobs:
+  check-bonus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica Guida 02 con ARERA, SEO e indice PWA
+        run: node scripts/audit-agevolazioni-02.cjs
