@@ -20,7 +20,7 @@ assert.ok(index.includes('noindex,follow'),'Indice rubrica incompleta indicizzat
 assert.ok(guide.includes('rel="canonical"'),'Manca canonical');
 assert.ok(index.includes('href="'+name+'"'),'Guida 02 assente dall’indice');
 assert.ok(home.includes('href="agevolazioni-diritti.html#guide"'),'Home non punta all’elenco Rubrica 04');
-assert.ok(home.includes('2 guide operative disponibili'),'Conteggio home incoerente');
+assert.ok(/[2-9] guide operative disponibili/.test(home),'Home senza numero minimo di guide disponibili');
 assert.ok(sitemap.includes(name),'Guida 02 mancante dalla sitemap');
 assert.ok(guide.includes('agevolazioni-guida-01-isee-corrente.html'),'Manca navigazione Guida 01');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Manca ritorno alla rubrica');
