@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T19:49:12.600Z",
+  "checked_at_utc": "2026-10-15T19:56:25.905Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:49.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:56.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T19:49:37.462Z",
-          "bytes": 850097,
+          "updated": "2026-10-15T19:56:55.247Z",
+          "bytes": 854465,
           "includesNew09": true
         }
       }
@@ -346,44 +346,44 @@
     {
       "page": "debiti-guida-06-fermo-pignoramento.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-07-banche-bollette.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-08-sovraindebitamento.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-09-a-chi-rivolgersi.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "diabete-tipo-2.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-ricette.html",
       "violations": [],
-      "passes": 18,
-      "incomplete": 1
+      "passes": 23,
+      "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-scientifica.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "gradimento.html",
@@ -400,8 +400,8 @@
     {
       "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "metodo.html",
@@ -418,74 +418,74 @@
     {
       "page": "ore-ferie-permessi-malattia-straordinari.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "pensione-invalidita.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "riesame-ricorso-inps-termini.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "salute-autonomia.html",
       "violations": [],
-      "passes": 17,
-      "incomplete": 1
+      "passes": 22,
+      "incomplete": 2
     },
     {
       "page": "salute-guida-01-preparare-visita.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "soldi-lavoro.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "tutor-ai.html",
       "violations": [],
       "passes": 27,
-      "incomplete": 2
+      "incomplete": 3
     },
     {
       "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "guida09",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "app-catalogue",

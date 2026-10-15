@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T19:50:17.258097+00:00",
+  "date_utc": "2026-10-15T19:57:37.256882+00:00",
   "scope": {
     "pages": 52,
-    "unique_external_urls": 389,
-    "occurrences": 712
+    "unique_external_urls": 392,
+    "occurrences": 715
   },
   "counts": {
-    "raggiungibile": 352,
+    "raggiungibile": 356,
     "bloccato_o_riservato": 31,
-    "non_verificato_trasporto": 5,
+    "non_verificato_trasporto": 4,
     "errore_http": 1
   },
   "results": [
@@ -28,6 +28,15 @@
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://agriculture.ec.europa.eu/farming/crops/olive-oil_it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://agriculture.ec.europa.eu/farming/crops/olive-oil_it",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -391,6 +400,15 @@
       ]
     },
     {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
       "status": "raggiungibile",
       "http": 200,
@@ -419,8 +437,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
@@ -1123,8 +1142,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/opera-come-persona-di-fiducia-o-rappresentante/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/opera-come-persona-di-fiducia-o-rappresentante/",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html",
@@ -1669,6 +1689,14 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "dieta-mediterranea-scientifica.html"
       ]
