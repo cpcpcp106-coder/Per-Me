@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T19:43:45.738Z",
+  "checked_at_utc": "2026-10-15T19:46:57.222Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 49,
+        "count": 50,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 49,
+        "checked": 50,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 49,
+        "checked": 50,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:44.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:47.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T19:44:11.745Z",
-          "bytes": 847874,
+          "updated": "2026-10-15T19:47:17.126Z",
+          "bytes": 850097,
           "includesNew09": true
         }
       }
@@ -93,7 +93,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 10347
+        "chars": 11760
       }
     },
     {
@@ -178,14 +178,14 @@
     {
       "page": "home",
       "violations": [],
-      "passes": 18,
+      "passes": 19,
       "incomplete": 0
     },
     {
       "page": "agevolazioni-diritti.html",
       "violations": [],
-      "passes": 19,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-01-isee-corrente.html",
@@ -386,9 +386,15 @@
       "incomplete": 1
     },
     {
+      "page": "gradimento.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 0
+    },
+    {
       "page": "index.html",
       "violations": [],
-      "passes": 18,
+      "passes": 19,
       "incomplete": 0
     },
     {
@@ -484,7 +490,7 @@
     {
       "page": "app-catalogue",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 0
     }
   ],

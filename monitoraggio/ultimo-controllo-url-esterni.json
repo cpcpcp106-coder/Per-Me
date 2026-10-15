@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T19:45:06.773586+00:00",
+  "date_utc": "2026-10-15T19:47:57.194692+00:00",
   "scope": {
-    "pages": 51,
-    "unique_external_urls": 388,
-    "occurrences": 710
+    "pages": 52,
+    "unique_external_urls": 389,
+    "occurrences": 712
   },
   "counts": {
-    "raggiungibile": 353,
+    "raggiungibile": 354,
     "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
@@ -2795,6 +2795,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
+      "pages": [
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.avviata-la-terza-fase-sperimentale-della-riforma-della-disabilit.html",
       "status": "raggiungibile",
       "http": 200,
@@ -3096,6 +3105,7 @@
       "http": 200,
       "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
       "pages": [
+        "agevolazioni-diritti.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
