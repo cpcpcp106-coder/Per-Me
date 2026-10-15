@@ -1,14 +1,15 @@
 {
-  "date_utc": "2026-10-15T16:16:46.282471+00:00",
+  "date_utc": "2026-10-15T16:29:50.040815+00:00",
   "scope": {
     "pages": 46,
     "unique_external_urls": 314,
     "occurrences": 600
   },
   "counts": {
-    "raggiungibile": 299,
+    "raggiungibile": 297,
     "bloccato_o_riservato": 9,
-    "non_verificato_trasporto": 6
+    "non_verificato_trasporto": 3,
+    "errore_http": 5
   },
   "results": [
     {
@@ -238,45 +239,40 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
@@ -1041,9 +1037,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/decadenza/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/decadenza/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "pages": [
         "debiti-guida-04-rateizzazione.html",
         "debiti-guida-04-rateizzazione.html"
@@ -1109,8 +1104,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/link-esterni/Online-la-nuova-versione-del-servizio-Situazione-debitoria-e-la-guida",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Online-la-nuova-versione-del-servizio-Situazione-debitoria-e-la-guida/",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html"
@@ -1341,8 +1337,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -1435,8 +1432,9 @@
     },
     {
       "url": "https://www.garanteprivacy.it/it/temi/recupero-crediti",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/it/temi/recupero-crediti",
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
@@ -1444,8 +1442,9 @@
     },
     {
       "url": "https://www.garanteprivacy.it/temi/assistenti-digitali",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/temi/assistenti-digitali",
       "pages": [
         "tutor-ai.html"
       ]
