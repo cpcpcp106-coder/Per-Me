@@ -44,6 +44,13 @@ const clinicItems=[...inventory.split('## Revisioni critiche finali')[0].matchAl
 assert.equal(clinicItems.length,95,'Il censimento deve mantenere 95 voci cliniche');
 assert.ok(clinicItems.every((value,index)=>value===index+1),'Il censimento deve avere numerazione continua da 1 a 95');
 for(const crucial of ['Retinopatia','Macular','Necrobiosi','Piede diabetico','Pancreatite','Metformina','Ipoacusia','Neuropatia','Parodontite'])assert.ok(inventory.toLowerCase().includes(crucial.toLowerCase()),'Patologia mancante dal censimento: '+crucial);
+
+for(const cue of ['id="regola-15"','15 grammi','15 minuti','inferiore a 70 mg/dL','non darle cibo né bevande per bocca','112/118','glucagone','sistemi di somministrazione automatizzata','acarbosio','Guida 02:','Guida 27:']){
+ assert.ok(diab.includes(cue),'Regola del 15 o eccezioni mancanti dalla rubrica diabete: '+cue);
+}
+for(const cue of ['Regola del 15 (15–15)','15 g di glucosio','ADA 2026','CDC, *Treatment','Non universale','ipoglicemia grave']){
+ assert.ok(inventory.includes(cue),'Regola del 15 non documentata nel censimento: '+cue);
+}
 assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
