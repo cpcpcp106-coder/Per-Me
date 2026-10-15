@@ -4,7 +4,7 @@
  * node scripts/sincronizza-layout.cjs --write : allinea i file HTML pubblici
  */
 const fs=require('node:fs'),path=require('node:path');
-const ROOT=path.resolve(__dirname,'..'),head=fs.readFileSync(path.join(ROOT,'site/header.html'),'utf8').trim(),foot=fs.readFileSync(path.join(ROOT,'site/footer.html'),'utf8').trim();
+const ROOT=path.resolve(__dirname,'..'),head=fs.readFileSync(path.join(ROOT,'site/header.inc'),'utf8').trim(),foot=fs.readFileSync(path.join(ROOT,'site/footer.inc'),'utf8').trim();
 const write=process.argv.includes('--write'),pages=fs.readdirSync(ROOT).filter(p=>p.endsWith('.html')&&!p.startsWith('google'));
 let problems=[],changed=0;
 for(const file of pages){

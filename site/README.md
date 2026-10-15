@@ -1,6 +1,6 @@
 # Per Me — Layout e fonti condivise
 
-La navigazione e il footer delle pagine sono mantenuti in `site/header.html` e `site/footer.html`. Dopo ogni aggiornamento eseguire `node scripts/sincronizza-layout.cjs --write`, quindi `node scripts/sincronizza-layout.cjs --check` e `node scripts/controlla-struttura.cjs`.
+La navigazione e il footer delle pagine sono mantenuti in `site/header.inc` e `site/footer.inc`. Dopo ogni aggiornamento eseguire `node scripts/sincronizza-layout.cjs --write`, quindi `node scripts/sincronizza-layout.cjs --check` e `node scripts/controlla-struttura.cjs`.
 
 Le guide del sito restano la fonte editoriale per la PWA: `app/main.js` le scarica dalle rubriche, conserva i testi e preferiti nella memoria del dispositivo e consente la lettura offline dei testi già salvati. `app-content.json` è un dato storico e non deve introdurre contenuti divergenti.
 
