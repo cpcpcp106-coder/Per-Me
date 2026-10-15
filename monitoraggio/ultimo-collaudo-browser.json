@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T11:24:17.971Z",
+  "checked_at_utc": "2026-10-15T11:30:46.227Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,20 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 36,
-        "failed": [
-          {
-            "page": "agevolazioni-guida-02-bonus-sociali.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 7
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -77,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "32 pagine salvate per la lettura offline · controllo online 15 ott, 11:24.",
+        "status": "32 pagine salvate per la lettura offline · controllo online 15 ott, 11:31.",
         "stored": {
           "guides": 32,
-          "updated": "2026-10-15T11:24:36.591Z",
+          "updated": "2026-10-15T11:31:04.524Z",
           "bytes": 593101,
           "includesNew09": true
         }
@@ -160,38 +150,7 @@
     },
     {
       "page": "agevolazioni-guida-02-bonus-sociali.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "nav[aria-label=\"Percorso guide agevolazioni\"] > a:nth-child(1)"
-            ],
-            [
-              "nav[aria-label=\"Percorso guide agevolazioni\"] > a:nth-child(2)"
-            ],
-            [
-              "a[href$=\"#soglie\"]"
-            ],
-            [
-              "a[href$=\"#controlli\"]"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(2)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a[href$=\"#contenuto\"]"
-            ]
-          ],
-          "total": 7
-        }
-      ],
+      "violations": [],
       "passes": 22,
       "incomplete": 1
     },

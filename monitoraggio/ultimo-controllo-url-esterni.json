@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T10:10:44.278600+00:00",
+  "date_utc": "2026-10-15T11:31:42.713766+00:00",
   "scope": {
-    "pages": 37,
-    "unique_external_urls": 238,
-    "occurrences": 479
+    "pages": 38,
+    "unique_external_urls": 248,
+    "occurrences": 505
   },
   "counts": {
-    "raggiungibile": 237,
-    "bloccato_o_riservato": 1
+    "raggiungibile": 246,
+    "bloccato_o_riservato": 2
   },
   "results": [
     {
@@ -152,6 +152,7 @@
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
         "aoi-invalidita-civile-differenze.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "come-leggere-busta-paga.html",
@@ -215,6 +216,15 @@
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
@@ -920,6 +930,26 @@
       ]
     },
     {
+      "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/it/com-stampa/20/200527",
       "status": "raggiungibile",
       "http": 200,
@@ -930,13 +960,53 @@
       ]
     },
     {
+      "url": "https://www.arera.it/consumatori/bonus-sociale",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/come-si-ottiene-il-bonus-per-disagio-fisico",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/come-si-ottiene-il-bonus-per-disagio-fisico",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
       "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/a-quanto-ammontano",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/a-quanto-ammontano",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
@@ -945,7 +1015,29 @@
       "http": 200,
       "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
       "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-e-quando-si-ricevono",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-e-quando-si-ricevono",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-si-ottengono-i-bonus",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-si-ottengono-i-bonus",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
@@ -954,6 +1046,8 @@
       "http": 200,
       "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
       "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
       ]
@@ -1467,7 +1561,9 @@
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-01-isee-corrente.html",
-        "agevolazioni-guida-01-isee-corrente.html"
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
@@ -2160,6 +2256,7 @@
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
         "aoi-invalidita-civile-differenze.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "come-leggere-busta-paga.html",
@@ -2362,6 +2459,14 @@
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-woman-reading-a-document-7545331/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
