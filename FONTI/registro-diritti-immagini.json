@@ -131,9 +131,9 @@
       "author": "Towfiqu barbhuiya",
       "license": "https://www.pexels.com/license/",
       "used_in": "salute-guida-01-preparare-visita.html",
-      "verification": "FONTE_FOTO_E_LICENZA_PIATTAFORMA_VERIFICATE",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
-      "notes": "Fotografia editoriale realistica di materiali e medicinali durante una consultazione; evitare riferimenti a diagnosi, terapie o condizioni personali delle persone. Immagine diversa da quelle delle altre guide. La risorsa esterna richiede connessione, il lettore PWA offline conserva il testo."
+      "notes": "Fotografia realistica di un colloquio medico, fonte Pexels e licenza gratuite verificate. Copia locale nel progetto: assets/salute-guida-01-visita-medica.jpg (JPEG, 187916 byte); evitare di attribuire diagnosi alle persone ritratte. Il testo resta consultabile nel lettore offline."
     }
   ],
   "local": [
@@ -546,6 +546,16 @@
       "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
       "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
       "source_history_verified": false
+    },
+    {
+      "file": "assets/salute-guida-01-visita-medica.jpg",
+      "git_blob_sha": "06c108a54aa7b1a9be31bfbf9f4d83693c0f281f",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Copia locale compressa della fotografia Pexels 11370618 usata nella Guida 01 Salute. Autore Towfiqu barbhuiya; fonte e licenza citate sotto l'immagine. Persone e immagini solo illustrative, nessuna diagnosi attribuita.",
+      "origin": "Fotografia originale Pexels n. 11370618, Towfiqu barbhuiya",
+      "provenance_evidence": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/ ; importazione documentata nel workflow GitHub 'Per Me - Importazione fotografia Salute 01' del 15 ottobre 2026 (JPEG 187916 byte)",
+      "license_or_ownership": "Pexels License, uso gratuito editoriale: https://www.pexels.com/license/",
+      "source_history_verified": true
     }
   ],
   "notes": [
