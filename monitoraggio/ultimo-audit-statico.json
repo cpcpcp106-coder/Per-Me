@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T20:34:10+00:00",
+  "date_utc": "2026-10-15T20:39:43+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 53,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1625,
+    "local_occurrences": 1626,
     "external_occurrences": 726,
     "external_unique": 397,
     "actions": 7,
@@ -719,9 +719,9 @@
       "file": "gradimento.html",
       "title": "Gli articoli più votati — Per Me",
       "h1": 1,
-      "images": 1,
+      "images": 2,
       "images_without_alt": 0,
-      "links_local": 14,
+      "links_local": 15,
       "links_external": 0,
       "missing_local": 0,
       "noindex": false,
