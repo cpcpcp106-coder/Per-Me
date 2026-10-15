@@ -20,7 +20,10 @@ assert.match(index,/<meta name="robots" content="index,follow">/,'Rubrica Agevol
 assert.ok(guide.includes('rel="canonical"'),'Manca canonical');
 assert.ok(index.includes('href="'+name+'"'),'Guida 02 assente dall’indice');
 assert.ok(home.includes('href="agevolazioni-diritti.html#guide"'),'Home non punta all’elenco Rubrica 04');
-assert.ok(home.includes('7 risorse disponibili'),'La home deve distinguere guide nazionali e schede regionali');
+const countMatch=home.match(/<strong>(\d+) risorse disponibili<\/strong>/);
+assert.ok(countMatch,'La home deve mostrare il totale delle risorse della rubrica');
+assert.equal(Number(countMatch[1]),(index.match(/class="a04-guide-card"/g)||[]).length,'Il totale della home deve coincidere con le schede realmente presenti nella Rubrica 04');
+assert.ok(index.includes('Guide nazionali — per tutta Italia')&&index.includes('Schede regionali: soltanto Friuli Venezia Giulia'),'Perimetro nazionale e regionale devono restare distinti');
 assert.ok(sitemap.includes(name),'Guida 02 mancante dalla sitemap');
 assert.ok(guide.includes('agevolazioni-guida-01-isee-corrente.html'),'Manca navigazione Guida 01');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Manca ritorno alla rubrica');
