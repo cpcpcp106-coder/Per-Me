@@ -1,16 +1,24 @@
 {
-  "date_utc": "2026-10-15T18:25:22.655173+00:00",
+  "date_utc": "2026-10-15T18:39:57.439356+00:00",
   "scope": {
-    "pages": 50,
-    "unique_external_urls": 349,
-    "occurrences": 653
+    "pages": 51,
+    "unique_external_urls": 366,
+    "occurrences": 678
   },
   "counts": {
-    "raggiungibile": 327,
-    "bloccato_o_riservato": 18,
+    "raggiungibile": 336,
+    "bloccato_o_riservato": 26,
     "non_verificato_trasporto": 4
   },
   "results": [
+    {
+      "url": "https://academic.oup.com/eurheartj/article/44/38/3720/7243210",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
     {
       "url": "https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389",
       "status": "raggiungibile",
@@ -226,6 +234,15 @@
       ]
     },
     {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html",
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
       "url": "https://diabetesjournals.org/care/issue/49/Supplement_1",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -244,11 +261,54 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1016/S0140-6736(19)30041-8",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://linkinghub.elsevier.com/retrieve/pii/S0140673619300418",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1800389",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/eurheartj/ehae177",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S003",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S005",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html",
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
       "url": "https://doi.org/10.2337/dc26-S012",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "diabete-tipo-2.html"
+        "diabete-tipo-2.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -341,6 +401,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "pages": [
+        "index.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -377,6 +446,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "pages": [
+        "index.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -401,6 +479,15 @@
       "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -493,6 +580,24 @@
       "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6899507/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6899507/",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9510507/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9510507/",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -1409,6 +1514,14 @@
       ]
     },
     {
+      "url": "https://www.bmj.com/content/364/bmj.l341",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
       "url": "https://www.cnel.it/archivio-contratti",
       "status": "raggiungibile",
       "http": 200,
@@ -1501,7 +1614,6 @@
       "http": 200,
       "final_url": "https://www.epicentro.iss.it/igea/diabete/",
       "pages": [
-        "salute-autonomia.html",
         "salute-guida-01-preparare-visita.html",
         "salute-guida-01-preparare-visita.html"
       ]
@@ -1516,12 +1628,22 @@
       ]
     },
     {
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/",
+      "pages": [
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
       "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cvd-and-diabetes/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cvd-and-diabetes/",
       "pages": [
-        "diabete-tipo-2.html"
+        "diabete-tipo-2.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -2950,6 +3072,15 @@
       ]
     },
     {
+      "url": "https://www.nice.org.uk/guidance/ng28/chapter/person-centred-medicine",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng28/chapter/person-centred-medicine",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
       "status": "raggiungibile",
       "http": 200,
@@ -3093,7 +3224,8 @@
       "pages": [
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
-        "salute-guida-01-preparare-visita.html"
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -3134,6 +3266,14 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-man-patient-looking-at-his-doctor-8413300/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -3260,7 +3400,8 @@
       "final_url": "https://www.salute.gov.it/new/it/faq/faq-malattie-cardio-cerebrovascolari/",
       "pages": [
         "salute-guida-01-preparare-visita.html",
-        "salute-guida-01-preparare-visita.html"
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -3280,7 +3421,9 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/",
       "pages": [
         "salute-guida-01-preparare-visita.html",
-        "salute-guida-01-preparare-visita.html"
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -3290,7 +3433,6 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
       "pages": [
         "diabete-tipo-2.html",
-        "salute-autonomia.html",
         "salute-guida-01-preparare-visita.html"
       ]
     },
@@ -3372,7 +3514,8 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/infarto-miocardico/",
       "pages": [
-        "salute-guida-01-preparare-visita.html"
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
     },
     {
@@ -3423,6 +3566,16 @@
       "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
+      "pages": [
+        "diabete-tipo-2.html",
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {

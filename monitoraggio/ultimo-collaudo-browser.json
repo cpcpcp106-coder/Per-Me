@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T18:36:14.225Z",
+  "checked_at_utc": "2026-10-15T18:38:55.621Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,20 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 49,
-        "failed": [
-          {
-            "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 11
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -77,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 18:36.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 18:39.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T18:36:38.316Z",
+          "updated": "2026-10-15T18:39:20.358Z",
           "bytes": 817956,
           "includesNew09": true
         }
@@ -457,47 +447,7 @@
     },
     {
       "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#definizioni\"]"
-            ],
-            [
-              "a[href$=\"#diabete\"]"
-            ],
-            [
-              "a[href$=\"#esami\"]"
-            ],
-            [
-              "a[href$=\"#cure\"]"
-            ],
-            [
-              "a[href$=\"#quotidiano\"]"
-            ],
-            [
-              "a[href$=\"#domande\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine della Guida 02\"] > a[href=\"salute-autonomia.html#guide\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine della Guida 02\"] > a[href$=\"diabete-tipo-2.html\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine della Guida 02\"] > a:nth-child(3)"
-            ]
-          ],
-          "total": 11
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
