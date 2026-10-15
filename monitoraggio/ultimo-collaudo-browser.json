@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T07:40:25.023Z",
+  "checked_at_utc": "2026-10-15T07:43:26.599Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -22,6 +22,96 @@
       "details": {
         "count": 34,
         "failures": []
+      }
+    },
+    {
+      "name": "all_root_html_mobile_reflow",
+      "result": "PASS",
+      "details": {
+        "checked": 34,
+        "violations": []
+      }
+    },
+    {
+      "name": "all_root_html_axe_wcag_auto",
+      "result": "FAIL",
+      "details": {
+        "checked": 34,
+        "failed": [
+          {
+            "page": "dal-lordo-al-netto.html",
+            "violations": [
+              {
+                "id": "scrollable-region-focusable",
+                "nodes": 2
+              }
+            ]
+          },
+          {
+            "page": "debiti-cartelle.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          },
+          {
+            "page": "debiti-guida-02-controllare-debiti.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          },
+          {
+            "page": "debiti-guida-04-rateizzazione.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 2
+              }
+            ]
+          },
+          {
+            "page": "debiti-guida-05-rottamazione.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          },
+          {
+            "page": "debiti-guida-06-fermo-pignoramento.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 2
+              }
+            ]
+          },
+          {
+            "page": "dieta-mediterranea-ricette.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          },
+          {
+            "page": "salute-autonomia.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          }
+        ],
+        "errors": []
       }
     },
     {
@@ -50,10 +140,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:40.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:43.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T07:40:28.189Z",
+          "updated": "2026-10-15T07:43:43.587Z",
           "bytes": 524806,
           "includesNew09": true
         }
@@ -91,6 +181,323 @@
       "violations": [],
       "passes": 18,
       "incomplete": 0
+    },
+    {
+      "page": "agevolazioni-diritti.html",
+      "violations": [],
+      "passes": 17,
+      "incomplete": 1
+    },
+    {
+      "page": "aoi-invalidita-civile-differenze.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "violations": [],
+      "passes": 21,
+      "incomplete": 2
+    },
+    {
+      "page": "ccnl-inquadramento-livello-superminimo.html",
+      "violations": [],
+      "passes": 21,
+      "incomplete": 1
+    },
+    {
+      "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "chi-siamo.html",
+      "violations": [],
+      "passes": 15,
+      "incomplete": 0
+    },
+    {
+      "page": "come-leggere-busta-paga.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 2
+    },
+    {
+      "page": "contributi-inps-estratto-conto-pensione-vicina.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "dal-lordo-al-netto.html",
+      "violations": [
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "affected": [
+            [
+              ".sample-pay:nth-child(24)"
+            ],
+            [
+              ".sample-pay:nth-child(28)"
+            ]
+          ],
+          "total": 2
+        }
+      ],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-cartelle.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".note:nth-child(8) > p:nth-child(3) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 21,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-01-leggere-cartella.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-02-controllare-debiti.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".note > p > a"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-03-cartella-errata.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-04-rateizzazione.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "#inizia > p:nth-child(3) > a"
+            ],
+            [
+              ".note > p > a"
+            ]
+          ],
+          "total": 2
+        }
+      ],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-05-rottamazione.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "#oggi > p:nth-child(7) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-06-fermo-pignoramento.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "#subito > p:nth-child(5) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
+            ],
+            [
+              "p:nth-child(5) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
+            ]
+          ],
+          "total": 2
+        }
+      ],
+      "passes": 19,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-07-banche-bollette.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-08-sovraindebitamento.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "debiti-guida-09-a-chi-rivolgersi.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "dieta-mediterranea-ricette.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".eyebrow"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 18,
+      "incomplete": 1
+    },
+    {
+      "page": "index.html",
+      "violations": [],
+      "passes": 18,
+      "incomplete": 0
+    },
+    {
+      "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "metodo.html",
+      "violations": [],
+      "passes": 15,
+      "incomplete": 0
+    },
+    {
+      "page": "monitoraggio.html",
+      "violations": [],
+      "passes": 21,
+      "incomplete": 1
+    },
+    {
+      "page": "ore-ferie-permessi-malattia-straordinari.html",
+      "violations": [],
+      "passes": 21,
+      "incomplete": 1
+    },
+    {
+      "page": "pensione-invalidita.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "riesame-ricorso-inps-termini.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "salute-autonomia.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".eyebrow"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 16,
+      "incomplete": 1
+    },
+    {
+      "page": "soldi-lavoro.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "stipendio-diminuito-cosa-controllare.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "tutor-ai.html",
+      "violations": [],
+      "passes": 17,
+      "incomplete": 1
+    },
+    {
+      "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 1
     },
     {
       "page": "guida09",
