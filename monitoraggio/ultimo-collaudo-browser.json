@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T07:54:24.803Z",
+  "checked_at_utc": "2026-10-15T07:58:00.431Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:54.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:58.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T07:54:37.346Z",
+          "updated": "2026-10-15T07:58:16.832Z",
           "bytes": 540573,
           "includesNew09": true
         }
@@ -166,7 +166,7 @@
     {
       "page": "dal-lordo-al-netto.html",
       "violations": [],
-      "passes": 26,
+      "passes": 25,
       "incomplete": 1
     },
     {
