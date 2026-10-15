@@ -40,7 +40,9 @@ assert.ok(diab.includes('non tutte le neuropatie')&&diab.includes('rischio aumen
 assert.equal((diab.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,30,'Trenta guide diabete pianificate');
 assert.ok(diab.includes('95 condizioni')&&diab.includes('CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2'),'Mancano repertorio critico e fonti');
 const inventory=read('FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md');
-assert.equal((inventory.match(/^\d+\. \*\*/gm)||[]).length,95,'Il censimento deve mantenere 95 voci cliniche');
+const clinicItems=[...inventory.split('## Revisioni critiche finali')[0].matchAll(/^(\d+)\. /gm)].map(m=>Number(m[1]));
+assert.equal(clinicItems.length,95,'Il censimento deve mantenere 95 voci cliniche');
+assert.ok(clinicItems.every((value,index)=>value===index+1),'Il censimento deve avere numerazione continua da 1 a 95');
 for(const crucial of ['Retinopatia','Macular','Necrobiosi','Piede diabetico','Pancreatite','Metformina','Ipoacusia','Neuropatia','Parodontite'])assert.ok(inventory.toLowerCase().includes(crucial.toLowerCase()),'Patologia mancante dal censimento: '+crucial);
 assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
