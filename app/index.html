@@ -9,6 +9,7 @@
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="stylesheet" href="app.css?v=11">
+<script defer src="../gradimento.js?v=1"></script>
 <script defer src="main.js?v=11"></script>
 <meta name="robots" content="index,follow"><link rel="canonical" href="https://cpcpcp106-coder.github.io/Per-Me/app/"><script defer src="../analytics.js?v=2"></script></head>
 <body>
@@ -38,6 +39,7 @@
    <button type="button" class="filter active" data-filter="all" aria-pressed="true">Tutte</button>
    <button type="button" class="filter" data-filter="favorite" aria-pressed="false">Preferite</button>
   </div>
+  <p><a href="../gradimento.html" style="display:inline-flex;align-items:center;min-height:54px;font-size:1.08rem;font-weight:750">Articoli più votati (richiede Internet) →</a></p>
   <div id="guide-list" class="guide-list" aria-live="polite"></div>
  </section>
  <section id="reader" hidden aria-labelledby="reader-title">
@@ -46,6 +48,7 @@
   <h2 id="reader-title"></h2>
   <p id="reader-warning" class="smallstatus" role="status" hidden>Attenzione: questa pagina non è stata aggiornata. Prima di prendere decisioni, ricontrolla la versione online e le fonti ufficiali.</p>
   <article id="reader-content" class="reader-content"></article>
+  <div id="reader-rating"></div>
   <button type="button" id="bottom-back" class="back">← Torna alle guide</button>
  </section>
 </main>
