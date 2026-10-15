@@ -1,4 +1,4 @@
-name: Per Me - Diagnostica gradimento (sola lettura)
+name: Per Me - Diagnostica gradimento
 on:
   push:
     branches: [main]
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
-      - name: Verifica contatori esistenti senza incrementi
+      - name: Verifica contatori e due eventi sintetici isolati
         shell: bash
         run: |
           set -euo pipefail
@@ -45,5 +45,17 @@ jobs:
           echo "=== Contatore primo articolo con parametro anticache (solo lettura) ==="
           curl -sS --max-time 20 "$root/perme-stelle-5/debiti-guida-09-a-chi-rivolgersi?readOnly=true&revision=perme20261015c" |
             python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
+          echo "=== Test POST click via GET con contesto browser e behavior vote (isolato) ==="
+          browser_headers=(-H 'Origin: https://cpcpcp106-coder.github.io' -H 'Referer: https://cpcpcp106-coder.github.io/Per-Me/' -H 'User-Agent: Mozilla/5.0 Chrome/131.0.0.0 Safari/537.36')
+          work="https://counterapi.com/api/perme-diagnostica-stelle20261015"
+          echo "Incremento test voto: "
+          curl -sS --max-time 20 "${browser_headers[@]}" "$work/voto/test-clic-20261015?behavior=vote" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
+          echo "Test pixel immagine (isolato): "
+          curl -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "${browser_headers[@]}" "https://counterapi.com/pixel.gif?ns=perme-diagnostica-stelle20261015&action=pixel&key=test-clic-pixel-20261015"
+          sleep 4
+          echo "Rilettura sintetica voto (GET): "
+          curl -sS --max-time 20 "$work/voto/test-clic-20261015?readOnly=true&revision=probe20261015d" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
+          echo "Rilettura sintetica pixel (GET): "
+          curl -sS --max-time 20 "$work/pixel/test-clic-pixel-20261015?readOnly=true&revision=probe20261015d" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
           printf 'Origine pubblica sito: '
           curl -L -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "https://cpcpcp106-coder.github.io/Per-Me/gradimento.js"
