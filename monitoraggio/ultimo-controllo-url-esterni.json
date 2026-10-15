@@ -1,13 +1,14 @@
 {
-  "date_utc": "2026-10-15T13:04:45.273668+00:00",
+  "date_utc": "2026-10-15T13:16:53.286300+00:00",
   "scope": {
     "pages": 41,
     "unique_external_urls": 284,
     "occurrences": 573
   },
   "counts": {
-    "raggiungibile": 280,
-    "bloccato_o_riservato": 4
+    "raggiungibile": 279,
+    "bloccato_o_riservato": 4,
+    "non_verificato_trasporto": 1
   },
   "results": [
     {
@@ -359,9 +360,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
