@@ -1,24 +1,30 @@
-/* Gradimento Per Me: nessuna profilazione, cookie o preferenza; solo contatori per articolo e stelle.
- * ATTENZIONE: il servizio esterno riceve dati tecnici delle richieste HTTP.
+/* Gradimento Per Me: solo numeri aggregati di clic, senza dati dei visitatori salvati nel sito.
+ * Servizio esterno (v2): countapi.mileshilliard.com. Può ricevere dati tecnici HTTP.
  */
 (()=>{'use strict';
 const root=new URL('./',document.currentScript.src);
-const api='https://counterapi.com/api/cpcpcp106-coder.github.io/';
+const api='https://countapi.mileshilliard.com/api/v1/';
 const stars=[1,2,3,4,5];
 const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('gradimento.css?v=1',root).href;document.head.append(css);
 const valid=p=>/^[a-z0-9-]+\.html$/.test(p)&&p!=='gradimento.html';
 const key=p=>p.replace(/\.html$/,'');
 const action=n=>'perme-stelle-'+n;
-async function counter(a,p,readOnly){
+async function counter(actionName,p,readOnly){
+ // Solo 5 contatori numerici per articolo; nessuna informazione sull'utente.
+ if(!/^perme-stelle-[1-5]$/.test(actionName)||!valid(p))throw Error('Contatore non valido');
+ const counterKey='perme-20261015-'+actionName+'-'+key(p);
+ const endpoint=api+(readOnly?'get/':'hit/')+encodeURIComponent(counterKey);
  const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
  try{
-  const url=api+encodeURIComponent(a)+'/'+encodeURIComponent(key(p))+(readOnly?'?readOnly=true':'');
-  const response=await fetch(url,{method:'GET',mode:'cors',credentials:'omit',referrerPolicy:'no-referrer',cache:'no-store',signal:controller.signal});
+  const response=await fetch(endpoint,{
+   method:'GET',mode:'cors',credentials:'omit',cache:'no-store',
+   referrerPolicy:'no-referrer',signal:controller.signal
+  });
   if(readOnly&&response.status===404)return 0;
-  if(!response.ok)throw Error('HTTP '+response.status);
-  const data=await response.json(),v=Number(data.value);
-  if(!Number.isSafeInteger(v)||v<0)throw Error('Numero non valido');
-  return v;
+  if(!response.ok)throw Error('Servizio di voto HTTP '+response.status);
+  const data=await response.json(),n=Number(data.value);
+  if(!Number.isSafeInteger(n)||n<0)throw Error('Valore del contatore non valido');
+  return n;
  }finally{clearTimeout(timer)}
 }
 async function detail(p){
@@ -52,8 +58,8 @@ function mount(host,p){
   const n=i+1;busy=true;buttons();status.textContent='Registrazione del clic in corso…';
   try{
    const count=await counter(action(n),p,false);
-   summary.textContent='Clic ricevuti da questa valutazione ('+n+' stelle): '+count.toLocaleString('it-IT')+'.';
-   status.textContent='Registrato un clic da '+n+(n===1?' stella.':' stelle.');
+   summary.textContent='Conteggio confermato: '+count.toLocaleString('it-IT')+' clic da '+n+(n===1?' stella.':' stelle.');
+   status.textContent='Registrato un clic nel contatore condiviso da '+n+(n===1?' stella.':' stelle.');
   }catch(_){status.textContent='Registrazione non confermata. Ripetendo il clic potresti conteggiarlo due volte.'}
   finally{busy=false;buttons()}
  }));
