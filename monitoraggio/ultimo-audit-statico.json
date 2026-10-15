@@ -1,17 +1,30 @@
 {
-  "date_utc": "2026-10-15T18:13:17+00:00",
+  "date_utc": "2026-10-15T18:23:46+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 48,
-    "editorial_pages": 46,
+    "html_total": 49,
+    "editorial_pages": 47,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1440,
-    "external_occurrences": 639,
-    "external_unique": 341,
+    "local_occurrences": 1458,
+    "external_occurrences": 646,
+    "external_unique": 346,
     "actions": 7,
-    "broken_local": [],
+    "broken_local": [
+      {
+        "page": "diabete-tipo-2.html",
+        "ref": "dieta-mediterranea-scientifica.html",
+        "target": "dieta-mediterranea-scientifica.html",
+        "issue": "file_mancante"
+      },
+      {
+        "page": "diabete-tipo-2.html",
+        "ref": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+        "target": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+        "issue": "file_mancante"
+      }
+    ],
     "broken_anchors": []
   },
   "seo": {
@@ -47,6 +60,7 @@
       "debiti-guida-07-banche-bollette.html",
       "debiti-guida-08-sovraindebitamento.html",
       "debiti-guida-09-a-chi-rivolgersi.html",
+      "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "index.html",
       "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -111,7 +125,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-tipo-2.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -629,6 +645,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 6
+    },
+    {
+      "file": "diabete-tipo-2.html",
+      "title": "Diabete tipo 2 | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 18,
+      "links_external": 7,
+      "missing_local": 2,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
     },
     {
       "file": "dieta-mediterranea-ricette.html",
