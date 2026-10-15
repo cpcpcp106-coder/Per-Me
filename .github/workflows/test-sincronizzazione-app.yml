@@ -2,7 +2,7 @@ name: Per Me - Test sincronizzazione app
 on:
   push:
     branches:
-      - prepub-app-contatori-20261015
+      - main
     paths:
       - 'app/**'
       - '.github/workflows/test-sincronizzazione-app.yml'
@@ -26,4 +26,4 @@ jobs:
         with:
           node-version: '22'
       - name: Esegui controlli prepubblicazione
-        run: node --test app/tests/sync-summary.test.cjs
+        run: node --test app/tests/*.test.cjs
