@@ -1,0 +1,57 @@
+name: Per Me - Verifica HTTP pagine pubbliche
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'style.css'
+      - 'monitoraggio/collaudo_browser.cjs'
+      - '.github/workflows/verifica-pagine-pubbliche.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'style.css'
+      - 'monitoraggio/collaudo_browser.cjs'
+      - '.github/workflows/verifica-pagine-pubbliche.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verifica-pages-live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - name: Apri davvero home e Guide 01-04 su GitHub Pages
+        shell: bash
+        run: |
+          set -euo pipefail
+          base="https://cpcpcp106-coder.github.io/Per-Me/"
+          paths=(
+            ""
+            "agevolazioni-diritti.html"
+            "agevolazioni-guida-01-isee-corrente.html"
+            "agevolazioni-guida-02-bonus-sociali.html"
+            "agevolazioni-guida-03-trasporti-fvg.html"
+            "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+            "app/"
+          )
+          failed=0
+          for path in "${paths[@]}"; do
+            url="${base}${path}"
+            ok=0
+            for attempt in 1 2 3; do
+              status=$(curl -L -sS --max-time 25 -o /tmp/per-me-http-test.html -w '%{http_code}' "${url}?test=20261015" || true)
+              echo "HTTP ${status} | ${url} | tentativo ${attempt}"
+              if [[ "$status" == "200" ]] && grep -qi '<h1' /tmp/per-me-http-test.html; then
+                ok=1
+                break
+              fi
+              sleep 8
+            done
+            if [[ "$ok" != "1" ]]; then
+              echo "::error::Pagina non pubblicata (HTTP != 200 o H1 mancante): ${url}"
+              failed=1
+            fi
+          done
+          exit "$failed"
