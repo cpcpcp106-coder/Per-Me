@@ -43,6 +43,11 @@
 - L'utente non deve eseguire operazioni tecniche che sono eseguibili direttamente dagli strumenti disponibili. Se serve un'azione manuale sul Samsung, guidare **un solo passaggio alla volta**, con istruzioni brevi e precise. Leggere autonomamente gli screenshot forniti, senza richiederne altri quando non necessari.
 - **Tutti i link all'utente devono essere in chiaro, completi, copiabili**; preferire anche un pulsante di copia quando possibile. Non fare reinstallare l'app senza motivazione tecnica concreta e precauzione per preferiti e dati salvati.
 
+## Indicizzazione pubblica — aggiornamento del 15 ottobre 2026
+- Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`, avere un indirizzo canonico coerente ed essere incluse nella sitemap. Il file tecnico di verifica della proprietà Google resta fuori dalla sitemap senza alcun blocco di accesso o indicizzazione.
+- Sono superate le precedenti istruzioni di mantenere `noindex`/`nofollow` in attesa di revisione o completamento delle rubriche. Le verifiche editoriali continuano senza reintrodurre tali blocchi.
+- Eseguire `python scripts/audit-indicizzazione.py` a ogni modifica; con `--live` verificare anche le pagine pubblicate, le intestazioni HTTP e il robots.txt alla radice dell’host.
+
 ## 7. Stato e tracciabilità
 - Al 14/10/2026 nell'app risultavano **16 pagine salvate** dopo sincronizzazione, pari alle pagine previste. Questo certifica il conteggio, **non** una verifica automatica bit-per-bit del testo reso sul dispositivo.
 - Nella sessione di audit sono stati esaminati 236 riferimenti interni alle sezioni delle pagine, senza ancore mancanti; sono stati aggiornati i rimandi nel lettore e la gestione della cache alla versione 6. Ripetere i test quando cambia il codice.

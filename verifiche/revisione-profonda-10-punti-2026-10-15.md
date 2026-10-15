@@ -1,5 +1,7 @@
 # PER ME — Revisione critica approfondita dei 10 punti
 
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 **Data:** 15 ottobre 2026. **Perimetro:** esclusivamente sito https://cpcpcp106-coder.github.io/Per-Me/, applicazione PWA e repository pubblico `cpcpcp106-coder/Per-Me`.
 
 **Qualità documentata:** precedente voto 70/100 provvisorio, **non automaticamente aumentato** in questo ciclo. La revisione ha scoperto problemi assenti dal rapporto precedente. Il controllo non costituisce certificazione di conformità WCAG 2.2 AA, parere legale, referto clinico o verifica amministrativa di Google Search Console.

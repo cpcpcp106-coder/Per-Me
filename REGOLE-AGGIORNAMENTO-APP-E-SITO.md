@@ -1,6 +1,6 @@
 # Per Me — regole per i futuri aggiornamenti del sito e dell'app
 
-Aggiornato il 14 ottobre 2026.
+Aggiornato il 15 ottobre 2026.
 
 ## Testimonianza personale: CAF e Patronato UIL di Tarcento
 
@@ -40,7 +40,9 @@ Confermare link, numeri distinti, contrasto, navigazione del sito, lettura delle
 
 ## Indicizzazione delle pagine pubbliche
 
-Su indicazione di Enrico del 15 ottobre 2026, tutte le pagine pubbliche del sito e dell'app devono consentire l'indicizzazione e la scansione dei collegamenti (`index,follow`). Non reintrodurre blocchi `noindex` o `nofollow` su rubriche, guide, pagine di servizio o app.
+Su indicazione di Enrico del 15 ottobre 2026, tutte le pagine pubbliche del sito e dell'app devono consentire l'indicizzazione e la scansione dei collegamenti (`index,follow`). Non reintrodurre blocchi `noindex` o `nofollow` su rubriche, guide, pagine di servizio o app. La richiesta supera tutte le precedenti istruzioni presenti in piani e audit storici che richiedevano di conservare tali blocchi fino al collaudo o al completamento delle rubriche.
+
+Il controllo automatico `python scripts/audit-indicizzazione.py` deve coprire ricorsivamente tutte le pagine HTML, comprese nuove pagine e sottocartelle, e fallire in presenza di direttive bloccanti, canonical incoerenti o omissioni dalla sitemap. La modalità `--live` verifica anche HTTP, intestazioni, robots.txt e corrispondenza con la pubblicazione. Il workflow «Indicizzazione di tutte le pagine» lo esegue a ogni push e pull request.
 
 Mantenere gli indirizzi canonici coerenti e la sitemap aggiornata, senza inserire il file tecnico di verifica della proprietà Google. La home non deve presentare il sito nel suo complesso come «in costruzione»; lo stato dei singoli contenuti va comunicato nelle rispettive pagine.
 

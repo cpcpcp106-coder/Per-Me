@@ -1,4 +1,7 @@
 # PER ME — RAPPORTO DI AUDIT E QUALITÀ
+
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 **Seconda valutazione, 14 ottobre 2026 · revisione V2 · fonte di verità: GitHub `main`**
 
 **Sito:** https://cpcpcp106-coder.github.io/Per-Me/  

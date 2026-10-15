@@ -1,4 +1,7 @@
 # Per Me — Revisione critica approfondita della Guida 03
+
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 Data revisione: 14 ottobre 2026.
 Pagina esaminata: `aoi-invalidita-civile-differenze.html`.
 Ambito: differenza fra AOI, invalidità civile, assegno mensile, pensione civile di inabilità, accompagnamento, lavoro, compatibilità e procedure territoriali 2026.

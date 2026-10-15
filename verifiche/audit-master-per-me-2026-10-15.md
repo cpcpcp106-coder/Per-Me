@@ -1,5 +1,7 @@
 # PER ME — Audit master integrale, ciclo del 15 ottobre 2026
 
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 **Perimetro esclusivo:** https://cpcpcp106-coder.github.io/Per-Me/ e repository `cpcpcp106-coder/Per-Me`. Nessun altro progetto personale incluso.
 
 **Giudizio:** PARZIALMENTE VERIFICATO. **Punteggio iniziale ricalcolato 69/100; punteggio dopo le correzioni 70/100, PROVVISORIO.** Il precedente 67/100 era basato su un'altra ponderazione e resta un riferimento storico, non direttamente confrontabile. Non è una certificazione giuridica, clinica, WCAG o Google.

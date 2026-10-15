@@ -1,4 +1,7 @@
 # Per Me — Avvio Rubrica 04 «Agevolazioni e diritti»
+
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 Data verifica: 15 ottobre 2026.
 Stato iniziale verificato su GitHub: **una pagina indice di 3.348 caratteri, zero guide autonome**. Il file era contrassegnato `noindex,nofollow`, con indicazione «in preparazione» e una breve domanda sull'ISEE. Nessun audit metodologicamente corretto può assegnare a questa rubrica un punteggio di maturità paragonabile alla Rubrica 03.
 

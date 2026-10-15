@@ -1,4 +1,7 @@
 # PER ME — Verifica e pubblicazione Guida 01 «ISEE ordinario e corrente» (Rubrica 04)
+
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 Data: 15 ottobre 2026. Scopo: guida operativa, adatta a persone tra 50 e 70 anni, con procedure orientative e fonti ufficiali.
 
 ## Controlli legali puntuali

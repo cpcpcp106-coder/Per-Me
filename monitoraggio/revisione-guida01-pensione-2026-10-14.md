@@ -1,4 +1,7 @@
 # Per Me — Audit della Guida 01 di Pensione e invalidità
+
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 Data: 14 ottobre 2026.
 File: `inps-prestazione-sospesa-respinta-cosa-fare.html`.
 Scopo: individuare errori, affermazioni non fondate, mancanze e ambiguità procedurali.

@@ -1,5 +1,7 @@
 # PER ME — Audit di affidabilità: punti 2, 6, 7 e 9
 
+> **Aggiornamento vincolante del 15 ottobre 2026:** le precedenti indicazioni di mantenere blocchi di indicizzazione sono superate dalla richiesta di Enrico. Tutte le pagine pubbliche del sito e dell’app devono consentire `index,follow`. Le descrizioni sottostanti documentano lo stato storico e non autorizzano a ripristinare i blocchi. Vedi [regola vigente](../REGOLE-AGGIORNAMENTO-APP-E-SITO.md#indicizzazione-delle-pagine-pubbliche).
+
 **Data:** 15 ottobre 2026. **Ambito esclusivo:** https://cpcpcp106-coder.github.io/Per-Me/ — GitHub `cpcpcp106-coder/Per-Me`.  
 **Metodo:** confronto delle pagine con fonti primarie/istituzionali, lettura del codice, controlli automatici già presenti e ispezione delle immagini conservate nel repository.  
 **Esito complessivo:** **PARZIALMENTE VERIFICATO, migliorato e pubblicato nel codice**. *Non è possibile certificare l'intero sito come giuridicamente e clinicamente corretto senza verificare ogni singola affermazione e le eccezioni applicabili. Non assegnare 100/100 per il solo successo dei test.*
