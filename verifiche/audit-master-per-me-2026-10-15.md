@@ -28,7 +28,7 @@ Il valore misura le evidenze disponibili e applica penalità ai test mancanti. N
 3. **Contraddizione documentale (media):** il rapporto Guide 07–09 indicava correzioni «NON PUBBLICATE», mentre GitHub PR #2 era già unita a `main` il 15/10/2026 09:23 UTC.
 4. **Criticità aperte, non da considerare errori accertati:** copertura giuridica non esaustiva, test WCAG/manuali Android, status Google Search Console, licenze e originalità immagini, review indipendente e controllo completo del rilascio odierno.
 
-**Bloccanti accertati in questo ciclo:** nessuno tra i problemi puntualmente esaminati. **Assenza di bloccanti nel resto del sito NON DIMOSTRATA.** Nessun punto può essere attribuito per una verifica assente.
+**Problema operativo P1 accertato e corretto:** conflitti di scrittura GitHub Actions dai rami di sviluppo al ramo principale. Nessun problema bloccante per i diritti dei lettori rilevato nel campione esaminato; assenza di altri bloccanti NON dimostrata.
 
 ## C. Correzioni effettuate su `main`
 
@@ -71,3 +71,13 @@ L'app è collegata nella Home, con manifest, icone e service worker coerenti. Il
 - ABF (ricorsi/reclami): https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html
 - Consap (mutui): https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/
 - ARERA (bonus TARI): https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1
+
+## Addendum — Flusso GitHub Actions
+
+**Problema P1 verificato:** il vecchio audit statico e il collaudo browser venivano avviati anche sui rami di sviluppo e cercavano di pubblicare report su `main` tramite rebase. I log dei run 38714708850 e 38714612297 evidenziano conflitti Git add/add, distinti dai risultati dei test sui contenuti.
+
+**Correzioni:** limitati a `main` i trigger, aggiunto controllo `github.ref` e un gruppo condiviso di concorrenza per i due workflow. File `.github/workflows/audit-statico.yml` (commit aa5b65a9465c6e3d567302faa56b7341ab23ab2b); `.github/workflows/collaudo-browser.yml` (commit 127ea328e5f3c3712134f1bc63919052bbfd5d90).
+
+**Nuovi collaudi PASS:** audit statico https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38715032046 ; browser e link https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38715038014 ; Pages successivo https://github.com/cpcpcp106-coder/Per-Me/actions/runs/38715052818 .
+
+**Limite:** non certificati Android fisico, WCAG manuale o verità di tutte le proposizioni. La valutazione globale rimane **70/100 provvisorio**, senza incremento automatico per la sola correzione del workflow.
