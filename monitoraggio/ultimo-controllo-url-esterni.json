@@ -1,13 +1,15 @@
 {
-  "date_utc": "2026-10-15T15:31:46.639725+00:00",
+  "date_utc": "2026-10-15T15:39:33.654949+00:00",
   "scope": {
-    "pages": 44,
-    "unique_external_urls": 302,
-    "occurrences": 585
+    "pages": 45,
+    "unique_external_urls": 310,
+    "occurrences": 596
   },
   "counts": {
-    "raggiungibile": 294,
-    "bloccato_o_riservato": 8
+    "raggiungibile": 298,
+    "bloccato_o_riservato": 9,
+    "non_verificato_trasporto": 1,
+    "errore_http": 2
   },
   "results": [
     {
@@ -237,9 +239,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
@@ -255,9 +256,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
@@ -316,6 +316,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/8962383/pexels-photo-8962383.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8962383/pexels-photo-8962383.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -345,6 +354,15 @@
       ]
     },
     {
+      "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-e-oneri-e-spese",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-e-oneri-e-spese",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
       "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
       "status": "raggiungibile",
       "http": 200,
@@ -369,6 +387,14 @@
       "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://mit.gov.it/temi/casa/accesso-allabitazione",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
@@ -1295,6 +1321,15 @@
       ]
     },
     {
+      "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
       "url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
       "status": "raggiungibile",
       "http": 200,
@@ -1437,6 +1472,16 @@
       "pages": [
         "debiti-cartelle.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.giustizia.it/giustizia/it/mg_3_7_2.page?tab=w",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/it/mg_3_7_2.page?tab=w",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
@@ -1805,7 +1850,8 @@
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
-        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
@@ -2772,11 +2818,28 @@
       ]
     },
     {
+      "url": "https://www.parlamento.it/parlam/leggi/98431l.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.parlamento.it/parlam/leggi/98431l.htm",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-woman-holding-a-clipboard-8962383/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
@@ -3001,6 +3064,16 @@
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     }
   ],

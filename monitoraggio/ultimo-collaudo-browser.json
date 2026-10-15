@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T15:30:51.356Z",
+  "checked_at_utc": "2026-10-15T15:38:40.070Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 42,
+        "count": 43,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 42,
+        "checked": 43,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 42,
+        "checked": 43,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 15:31.",
+        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 15:39.",
         "stored": {
           "guides": 38,
-          "updated": "2026-10-15T15:31:12.286Z",
+          "updated": "2026-10-15T15:39:01.824Z",
           "bytes": 701422,
           "includesNew09": true
         }
@@ -160,7 +160,7 @@
       "result": "PASS",
       "details": {
         "http": 200,
-        "title": "Servizi sociali del Comune: come chiedere aiuto in Italia | Per Me",
+        "title": "Comune e servizi sociali: come chiedere aiuto in Italia | Per Me",
         "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       }
     },
@@ -227,6 +227,12 @@
       "page": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
       "violations": [],
       "passes": 22,
+      "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "violations": [],
+      "passes": 20,
       "incomplete": 1
     },
     {
