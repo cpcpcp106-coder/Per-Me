@@ -9,7 +9,7 @@
       !location.pathname.startsWith(ROOT)) return;
 
   const NAMESPACE = 'cpcpcp106-coder.github.io';
-  const VISITS_KEY = 'per-me-visite-da-zero-20261015';
+  const VISITS_KEY = 'per-me-visite-nuovo-inizio-20261015-v3';
   const INSTALLS_KEY = 'per-me';
   const OWNER_KEY = 'per-me-non-contare-questo-browser';
   const OWNER_COOKIE = 'perme_no_count';
