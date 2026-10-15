@@ -11,7 +11,7 @@ const countMatch=home.match(/<strong>(\d+) risorse disponibili<\/strong>/);
 assert.ok(countMatch,'La home deve mostrare il totale delle risorse della rubrica');
 assert.equal(Number(countMatch[1]),(rubrica.match(/class="a04-guide-card"/g)||[]).length,'Il totale della home deve coincidere con le schede realmente presenti nella Rubrica 04');
 assert.ok(rubrica.includes('Guide nazionali — per tutta Italia')&&rubrica.includes('Schede regionali: soltanto Friuli Venezia Giulia'),'Perimetro nazionale e regionale devono restare distinti');
-assert.ok(!home.includes('ritratto-enrico.webp'),'La home non deve pubblicare il ritratto autobiografico');
+if(home.includes('ritratto-enrico.webp')) assert.match(home,/<figcaption>Enrico<\/figcaption>/,'Il ritratto dell’autore deve mostrare soltanto il nome, senza cognome');
 assert.ok(!/Enrico Tirabasso|10\/gennaio\/1961|1961-01-10/i.test(home),'La home non deve riportare dati personali dell’autore');
 assert.match(rubrica,/Guide nazionali — per tutta Italia/,'Manca gruppo nazionale');
 assert.match(rubrica,/Schede regionali: soltanto Friuli Venezia Giulia/,'Manca distinzione regionale');
