@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T07:44:15.900441+00:00",
+  "date_utc": "2026-10-15T07:46:44.327536+00:00",
   "scope": {
     "pages": 36,
-    "unique_external_urls": 221,
-    "occurrences": 444
+    "unique_external_urls": 224,
+    "occurrences": 452
   },
   "counts": {
-    "raggiungibile": 221
+    "raggiungibile": 224
   },
   "results": [
     {
@@ -101,6 +101,15 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -295,6 +304,7 @@
       "http": 200,
       "final_url": "https://www.agcom.it/agcom-per-te/i-miei-diritti/contenzioso-tra-utenti-e-operatori",
       "pages": [
+        "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
@@ -521,6 +531,15 @@
       ]
     },
     {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/index.html",
       "status": "raggiungibile",
       "http": 200,
@@ -537,6 +556,7 @@
       "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Sospensione/index.html",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html",
@@ -630,6 +650,7 @@
       "http": 200,
       "final_url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
       "pages": [
+        "debiti-guida-05-rottamazione.html",
         "debiti-guida-05-rottamazione.html",
         "debiti-guida-05-rottamazione.html",
         "debiti-guida-05-rottamazione.html"
@@ -820,6 +841,15 @@
       ]
     },
     {
+      "url": "https://www.arbitrobancariofinanziario.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arbitrobancariofinanziario.it/",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
       "url": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html",
       "status": "raggiungibile",
       "http": 200,
@@ -878,6 +908,7 @@
       "http": 200,
       "final_url": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
       "pages": [
+        "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
@@ -1043,6 +1074,7 @@
       "http": 200,
       "final_url": "https://www.giustizia.it/giustizia/page/it/organismi_composizione_crisi_da_sovraindebitamento",
       "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
