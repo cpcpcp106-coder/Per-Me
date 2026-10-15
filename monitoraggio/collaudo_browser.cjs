@@ -72,6 +72,10 @@ const deployed=await context.newPage();
 for (const [label,remote,locator] of [
  ['published_home','https://cpcpcp106-coder.github.io/Per-Me/','main h1'],
  ['published_debt_guide09','https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html','article h1'],
+ ['published_guide_01','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html','article h1'],
+ ['published_guide_02','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html','article h1'],
+ ['published_guide_03','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html','article h1'],
+ ['published_guide_04','https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html','article h1'],
  ['published_app','https://cpcpcp106-coder.github.io/Per-Me/app/','#catalogue-title']
 ]){
  try{
