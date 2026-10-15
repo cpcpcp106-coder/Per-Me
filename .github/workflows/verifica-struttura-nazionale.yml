@@ -1,0 +1,29 @@
+name: Per Me - Integrità struttura nazionale
+on:
+  push:
+    branches: [main, riorganizzazione-strutturale-2026-10-15]
+    paths: ['*.html', 'app/**', 'site/**', 'style.css', 'sitemap.xml', 'scripts/**', '.github/workflows/verifica-struttura-nazionale.yml']
+  pull_request:
+    paths: ['*.html', 'app/**', 'site/**', 'style.css', 'sitemap.xml', 'scripts/**', '.github/workflows/verifica-struttura-nazionale.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Coerenza layout
+        run: node scripts/sincronizza-layout.cjs --check
+      - name: Integrità strutturale e SEO
+        run: node scripts/controlla-struttura.cjs
+      - name: Test PWA e lettura offline
+        run: node --test app/tests/*.test.cjs
+      - name: Verifica sintassi
+        run: |
+          node --check scripts/sincronizza-layout.cjs
+          node --check scripts/controlla-struttura.cjs
