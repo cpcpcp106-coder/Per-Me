@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="Primi passi con l’AI: tre esercizi per capire un avviso, preparare un messaggio e organizzare una lista. Esempi da copiare, privacy e controlli sulle risposte.">
+  <meta name="description" content="Tutor AI essenziale: cinque richieste già pronte da copiare, istruzioni per il cellulare, privacy e controlli sulle fonti ufficiali.">
   <title>Tutor AI essenziale: primi passi ed esempi pratici | Per Me</title>
   <link rel="stylesheet" href="style.css?v=logo-proporzionato-20261014">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -12,6 +12,14 @@
   <style>
     .rubrica-ai .article{font-size:1.08rem;line-height:1.75}
     .rubrica-ai .article .eyebrow{font-size:1rem;letter-spacing:.04em}
+    .rubrica-ai .tutor-start{padding:18px 20px;background:#fff8ee;border:2px solid #d7b99a;border-radius:10px;margin:22px 0}
+    .rubrica-ai .tutor-start strong{font-size:1.13rem}
+    .rubrica-ai .tutor-start ol{margin:10px 0 0;padding-left:24px}
+    .rubrica-ai .tutor-start li{margin:7px 0}
+    .rubrica-ai .tutor-warning{padding:14px 17px;border-left:5px solid #805335;background:#fff6eb;margin:20px 0}
+    .rubrica-ai .article blockquote[id^="prompt-"]{border-left-color:#28513b;background:#f2f7f1;user-select:text;-webkit-user-select:text}
+    .rubrica-ai .article .tutor-action{touch-action:manipulation}
+    .rubrica-ai .article #copia-stato{padding:10px 12px;background:#f6f0e8;border-radius:8px;min-height:48px}
     .rubrica-ai .article li{margin-bottom:12px}
     .rubrica-ai .article blockquote{margin:16px 0;padding:18px 20px;border-left:4px solid #78627b;background:#f0e9f1;color:#392f2a;overflow-wrap:anywhere}
     .rubrica-ai .article blockquote p:last-child{margin-bottom:0}
@@ -35,7 +43,10 @@
     <p class="eyebrow">Rubrica 06 · Primi passi</p>
     <h1>Tutor AI essenziale</h1>
     <p class="lead">Vuoi provare l’intelligenza artificiale senza perderti nelle parole difficili? Comincia con tre attività semplici: capire un avviso, preparare un messaggio e mettere in ordine una lista.</p>
-    <p><strong>Guida pratica disponibile in questa pagina.</strong> Ogni esercizio contiene un prompt già pronto, un pulsante per copiarlo e un controllo da fare sulla risposta. Tutti gli esempi sono inventati e non descrivono persone o uffici reali.</p>
+    <p><strong>Guida pratica già utilizzabile.</strong> Troverai tre esercizi iniziali e due richieste aggiuntive, con pulsanti per copiare il testo. <strong>Il Tutor non è una chat AI incorporata nel sito:</strong> Per Me prepara le istruzioni; le risposte arrivano dal servizio AI che scegli. Non devi acquistare alcun servizio per leggere e copiare gli esempi.</p>
+    <div class="tutor-start" aria-label="Tre passaggi per usare il Tutor AI"><strong>Dal telefono: tre passaggi per cominciare</strong>
+    <ol><li>Scegli un esempio qui sotto.</li><li>Tocca <strong>«Copia il prompt»</strong>.</li><li>Apri la chat AI che usi; tieni premuto nel campo di scrittura, scegli <strong>«Incolla»</strong> e invia.</li></ol></div>
+    <p class="tutor-warning"><strong>Proteggi i dati personali:</strong> i cinque esempi sono inventati. Non incollare documenti reali con nomi, codici fiscali, numeri di pratica, dati sanitari o informazioni di familiari. Prima di inviare testi a un servizio esterno elimina ciò che può identificare qualcuno.</p>
     <div class="tutor-actions"><a class="tutor-action" href="#iniziare">Comincia dal primo passo</a><a class="tutor-action" href="#controllare">Come controllare le risposte</a></div>
     <p id="copia-stato" role="status" aria-live="polite" aria-atomic="true">Puoi anche selezionare e copiare a mano i testi nei riquadri.</p>
     <img class="article-photo" src="assets/foto-7.webp" alt="Due adulti usano insieme un computer" loading="lazy">
@@ -46,6 +57,8 @@
         <li><a href="#avviso">Esercizio 1: capire un avviso</a></li>
         <li><a href="#messaggio">Esercizio 2: preparare un messaggio</a></li>
         <li><a href="#lista">Esercizio 3: organizzare una lista</a></li>
+        <li><a href="#domande">Prompt 4: preparare domande per un ufficio</a></li>
+        <li><a href="#fonti-prompt">Prompt 5: verificare una risposta</a></li>
         <li><a href="#controllare">Controllare e correggere una risposta</a></li>
         <li><a href="#fonti">Fonti e aggiornamento</a></li>
       </ol>
@@ -94,7 +107,21 @@
     </blockquote>
     <p><strong>Risultato da confrontare:</strong> tra le cose da portare devono esserci taccuino e penna; tra le domande, gli orari dello sportello e dove trovare il modulo ufficiale. Sono quattro elementi in tutto. Questa è una prova di organizzazione, non l’elenco dei documenti richiesti per una pratica.</p>
 
-    <h2 id="controllare">5. Controlla la risposta prima di usarla</h2>
+    <h2 id="domande">5. Prompt pronto: prepara le domande per un ufficio</h2>
+    <p><strong>Quando serve:</strong> devi parlare con il Comune, un CAF o un patronato e vuoi arrivare con domande ordinate, senza affidarti a requisiti inventati dall'AI.</p>
+    <button type="button" class="tutor-action" data-copy="prompt-domande" aria-describedby="copia-stato" hidden>Copia il prompt: domande per un ufficio</button>
+    <blockquote id="prompt-domande"><p>Voglio preparare una telefonata a [UFFICIO] per chiedere informazioni su [ARGOMENTO]. Crea cinque domande brevi da fare allo sportello: requisiti, documenti, scadenze, modalità della domanda e come ricevere una risposta scritta. Non scrivere che conosco già i requisiti e non inventare importi, date, numeri di telefono o indirizzi. Lascia i segnaposto tra parentesi quadre.</p></blockquote>
+    <p><strong>Controllo:</strong> questa richiesta produce <em>domande</em>, non risposte certificate. Usa il sito ufficiale per trovare l'ufficio; non trasmettere dati personali nella chat.</p>
+    <h2 id="fonti-prompt">6. Prompt pronto: controlla una risposta AI con una fonte</h2>
+    <p><strong>Quando serve:</strong> hai una risposta che cita una norma o una scadenza e puoi confrontarla con un breve estratto <strong>pubblico</strong> dell'ente competente.</p>
+    <button type="button" class="tutor-action" data-copy="prompt-verifica" aria-describedby="copia-stato" hidden>Copia il prompt: verifica una risposta</button>
+    <blockquote id="prompt-verifica">
+      <p>Confronta una risposta AI con un estratto di una fonte ufficiale che inserirò io. Dividi la verifica in tre parti: «Confermato dal testo», «Non confermato dal testo», «Da controllare sul sito ufficiale». Non aggiungere leggi, date o collegamenti non presenti nell'estratto. Se il testo non basta, dichiaralo. Non usare dati personali.</p>
+      <p>Risposta da verificare: [INCOLLA QUI UNA FRASE SENZA DATI PERSONALI]</p>
+      <p>Estratto pubblico dell'ente, con data: [INCOLLA QUI IL TESTO UFFICIALE E LA DATA]</p>
+    </blockquote>
+    <p><strong>Controllo:</strong> apri personalmente la pagina dell'ente, verifica che l'estratto corrisponda e controlla data e territorio. Una seconda risposta AI non sostituisce la fonte originale.</p>
+    <h2 id="controllare">7. Controlla la risposta prima di usarla</h2>
     <p>L’AI può sbagliare anche quando scrive in modo sicuro. Può inventare fatti, date o fonti. Una risposta ben scritta non basta a renderla corretta.</p>
     <ol>
       <li><strong>Confronta con il testo di partenza.</strong> Numeri, giorni, nomi e condizioni devono corrispondere. Cerca aggiunte e parti mancanti.</li>
@@ -111,7 +138,7 @@
     <h2 id="fonti">Fonti, limiti e aggiornamento</h2>
     <p><strong>Aggiornamento della guida:</strong> <time datetime="2026-10-15">15 ottobre 2026</time>. Gli esercizi e il messaggio di esempio sono contenuti didattici originali, non risposte garantite di un servizio AI. Le risposte effettive possono variare.</p>
     <ul>
-      <li><a href="https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth">OpenAI — accuratezza e limiti delle risposte di ChatGPT</a> (in inglese): spiega perché verificare fatti e riferimenti. È la documentazione di un singolo fornitore.</li>
+      <li><a href="https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth">OpenAI — accuratezza e limiti delle risposte di ChatGPT</a> (in italiano): spiega perché verificare fatti e riferimenti. È la documentazione di un singolo fornitore.</li>
       <li><a href="https://www.garanteprivacy.it/temi/assistenti-digitali">Garante per la protezione dei dati personali — Assistenti digitali</a>: indicazioni sulla riservatezza, sulle informazioni delicate e sulle autorizzazioni dei servizi.</li>
     </ul>
     <p>Fonti consultate il 15 ottobre 2026. Questa guida insegna piccoli esercizi di scrittura e lettura; non sostituisce assistenza medica, legale, fiscale o amministrativa.</p>
