@@ -47,5 +47,7 @@ test('Interfaccia con contatori, stili e cache coerenti',()=>{
   assert.ok(html.includes('id="'+id+'"'),id);
  assert.ok(css.includes('.sync-summary[hidden]'));
  assert.ok(html.includes('main.js?v=9')&&sw.includes('main.js?v=9'));
- assert.ok(html.includes('app.css?v=8')&&sw.includes('app.css?v=8'));
+ const cssHref=html.match(/href="(app\.css\?v=\d+)"/)?.[1];
+ assert.ok(cssHref,'Versione stylesheet nel documento');
+ assert.ok(sw.includes('./'+cssHref),'Il service worker deve precacheare la stessa versione del CSS');
 });
