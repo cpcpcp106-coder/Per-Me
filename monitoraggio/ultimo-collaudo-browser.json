@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T17:36:29.069Z",
+  "checked_at_utc": "2026-10-15T17:44:23.121Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 17:36.",
+        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 17:44.",
         "stored": {
           "guides": 41,
-          "updated": "2026-10-15T17:36:47.113Z",
-          "bytes": 764697,
+          "updated": "2026-10-15T17:44:46.586Z",
+          "bytes": 767294,
           "includesNew09": true
         }
       }
@@ -448,7 +448,7 @@
     {
       "page": "tutor-ai.html",
       "violations": [],
-      "passes": 24,
+      "passes": 27,
       "incomplete": 2
     },
     {
