@@ -182,6 +182,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Fotografia illustrativa, soggetto diverso dagli altri articoli; nessuna diagnosi attribuita alla persona nella foto. Pagina Pexels e indicazione 'Free to use' verificate."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "17947693",
+      "src_path": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg",
+      "source": "https://www.pexels.com/photo/woman-with-diabetes-wearing-a-cgm-device-on-her-arm-17947693/",
+      "author": "Nutrisense Inc",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Fotografia autentica di donna adulta con sensore CGM sul braccio, in scena domestica, diversa dalle altre foto della rubrica. Pagina Pexels consultata 2026-10-15: 'Free' e download pubblico; nessuna diagnosi attribuita alla persona ritratta."
     }
   ],
   "local": [
