@@ -1,0 +1,29 @@
+name: Per Me - Test sincronizzazione app
+on:
+  push:
+    branches:
+      - prepub-app-contatori-20261015
+    paths:
+      - 'app/**'
+      - '.github/workflows/test-sincronizzazione-app.yml'
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'app/**'
+      - '.github/workflows/test-sincronizzazione-app.yml'
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Preleva il repository
+        uses: actions/checkout@v4
+      - name: Configura Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Esegui controlli prepubblicazione
+        run: node --test app/tests/sync-summary.test.cjs
