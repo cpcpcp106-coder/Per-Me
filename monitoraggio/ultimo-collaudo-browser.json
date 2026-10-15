@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T20:39:02.838Z",
+  "checked_at_utc": "2026-10-15T20:43:55.404Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 51,
+        "count": 52,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 51,
+        "checked": 52,
         "violations": []
       }
     },
@@ -36,10 +36,19 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 51,
+        "checked": 52,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 11
+              }
+            ]
+          },
+          {
+            "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
             "violations": [
               {
                 "id": "color-contrast",
@@ -77,10 +86,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "45 pagine salvate per la lettura offline · controllo online 15 ott, 20:39.",
+        "status": "45 pagine salvate per la lettura offline · controllo online 15 ott, 20:44.",
         "stored": {
           "guides": 45,
-          "updated": "2026-10-15T20:39:27.308Z",
+          "updated": "2026-10-15T20:44:22.114Z",
           "bytes": 872814,
           "includesNew09": true
         }
@@ -415,6 +424,52 @@
             ],
             [
               "nav[aria-label=\"Fine guida\"] > a:nth-child(3)"
+            ]
+          ],
+          "total": 11
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#misure\"]"
+            ],
+            [
+              "a[href$=\"#hba1c\"]"
+            ],
+            [
+              "a[href$=\"#sensori\"]"
+            ],
+            [
+              "a[href$=\"#valori\"]"
+            ],
+            [
+              "a[href$=\"#regola-15\"]"
+            ],
+            [
+              "a[href$=\"#anziani\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine della Guida 02\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine della Guida 02\"] > a:nth-child(2)"
+            ],
+            [
+              "a[href=\"salute-autonomia.html#guide\"]"
             ]
           ],
           "total": 11
