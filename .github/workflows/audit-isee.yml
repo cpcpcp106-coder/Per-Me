@@ -1,0 +1,31 @@
+name: Per Me - Controllo Guida ISEE
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-isee.cjs'
+      - '.github/workflows/audit-isee.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-isee.cjs'
+      - '.github/workflows/audit-isee.yml'
+permissions:
+  contents: read
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controllo navigazione, ISEE, link interni, sitemap e app
+        run: node scripts/audit-isee.cjs
