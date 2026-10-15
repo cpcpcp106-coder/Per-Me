@@ -81,6 +81,21 @@ for(const [text,what] of [
 for(const text of ['La spesa alimentare quando la pensione è molto bassa','ingredienti','cibo, bollette, medicine e trasporti','peso sgocciolato','prezzo al kg','acquisti','non è automaticamente destinata a pensionati soli'])assert.ok(med.includes(text),'Dieta mediterranea non collega costo, dignita e tutele: '+text);
 for(const text of ['Carta acquisti ordinaria over 65','Pensione','Carta «Dedicata a te»','impossibilità','ARERA','legge 104'])assert.ok(social.toLowerCase().includes(text.toLowerCase()),'Dossier tutele e leggi incompleto: '+text);
 
+const ledger=JSON.parse(read('FONTI/registro-dati-variabili-2026.json'));
+assert.equal(ledger.territorio,'Italia (nazionale)','Registro economico non nazionale');
+assert.ok(/^\\d{4}-\\d{2}-\\d{2}$/.test(ledger.ultimo_controllo),'Manca data di controllo');
+const expected={'inps_trattamento_minimo':'611,85','inps_assegno_sociale':'546,24','inps_maggiorazione_sociale_incremento_2026':'+20','arera_bonus_sociali_isee_ordinario':'9.796','inps_carta_acquisti_anziani':'80','inps_carta_dedicata_a_te':'500','inps_adi_isee':'10.140','istat_alimenti_non_lavorati_settembre_2026':'+5,5'};
+for(const [key,value] of Object.entries(expected)){
+ const item=ledger.dati.find(d=>d.chiave===key);
+ assert.ok(item&&item.valore===value&&/^https:\\/\\//.test(item.fonte)&&item.riesame,'Fonte, importo o revisione mancante: '+key);
+}
+assert.ok(ledger.dati.find(x=>x.chiave.startsWith('istat_')).stato.includes('PROVVISORIO'),'Dati provvisori ISTAT non dichiarati');
+for(const str of ['id="dati-aggiornati"','611,85','546,24','5,5%','16 ottobre 2026','ogni mese'])
+ assert.ok(rights.includes(str),'Dato variabile o data revisione assente in Agevolazioni: '+str);
+for(const str of ['id="costo-alimentare"','611,85','5,5%','provvisorio','16 ottobre 2026','prezzo al kg','costo per porzione'])
+ assert.ok(med.toLowerCase().includes(str.toLowerCase()),'Costo alimentare o fonte non controllata: '+str);
+assert.ok(!med.includes('id="dieta-costo-reale"'),'Due capitoli duplicati sul costo del cibo');
+assert.ok(med.includes('agevolazioni-diritti.html#anziani-salute-reddito'),'Manca il rinvio alle tutele');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
 assert.ok(med.includes('10.1016/S0140-6736(19)30041-8'),'DOI Lancet mancante');
