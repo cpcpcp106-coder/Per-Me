@@ -1,9 +1,9 @@
 {
-  "date_utc": "2026-10-15T19:32:07.353577+00:00",
+  "date_utc": "2026-10-15T19:33:47.285605+00:00",
   "scope": {
     "pages": 51,
     "unique_external_urls": 387,
-    "occurrences": 706
+    "occurrences": 708
   },
   "counts": {
     "raggiungibile": 352,
@@ -2138,7 +2138,8 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -2973,7 +2974,8 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.carta-dedicata-a-te-modalit-operative-per-il-2026-2027.html",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
