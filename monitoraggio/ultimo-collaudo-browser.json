@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T14:56:23.869Z",
+  "checked_at_utc": "2026-10-15T15:06:33.396Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,10 +34,29 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
         "checked": 43,
-        "failed": [],
+        "failed": [
+          {
+            "page": "home",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          },
+          {
+            "page": "index.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -67,10 +86,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 14:56.",
+        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 15:06.",
         "stored": {
           "guides": 38,
-          "updated": "2026-10-15T14:56:46.618Z",
+          "updated": "2026-10-15T15:06:56.755Z",
           "bytes": 698528,
           "includesNew09": true
         }
@@ -177,8 +196,21 @@
   "axe": [
     {
       "page": "home",
-      "violations": [],
-      "passes": 18,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "p:nth-child(3) > a[href$=\"statistiche.html\"]"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 21,
       "incomplete": 0
     },
     {
@@ -351,8 +383,21 @@
     },
     {
       "page": "index.html",
-      "violations": [],
-      "passes": 18,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "p:nth-child(3) > a[href$=\"statistiche.html\"]"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 21,
       "incomplete": 0
     },
     {
