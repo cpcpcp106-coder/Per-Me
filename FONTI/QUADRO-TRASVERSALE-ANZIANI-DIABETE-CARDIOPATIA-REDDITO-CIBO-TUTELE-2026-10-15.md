@@ -12,6 +12,21 @@
 4. **Diritti verificabili:** quali misure nazionali o servizi territoriali sono pertinenti e quali sono i requisiti? A chi presentare domanda?
 5. **Passo pratico:** quale documento preparare e quale ufficio/ente contattare per la verifica individuale, privilegiando medico di base, ASL, INPS, CAF e patronati per i rispettivi ambiti?
 
+## Olio extravergine nelle ricette: origine italiana e costo per dose
+
+**Scelta editoriale Per Me, 15 ottobre 2026:** per le ricette si utilizza come riferimento **olio extravergine da olive 100% italiane**, dichiarando la provenienza in etichetta. La dicitura riferita al marchio o al confezionamento non sostituisce l'indicazione d'origine. Il regolamento delegato UE 2022/2104, articolo 8, chiarisce che un'origine nazionale designa normalmente sia il Paese di raccolta delle olive sia quello in cui si trova il frantoio.
+
+**Distinzione necessaria:** il 100% italiano è un criterio di provenienza e tracciabilità scelto per il progetto, **non** un requisito scientifico per beneficiare dei grassi insaturi della dieta mediterranea. Extravergini conformi di altri Paesi possono presentare qualità nutrizionali comparabili.
+
+**Costo verificabile:** indicare marca/prodotto (senza finalità pubblicitarie), formato, prezzo effettivamente rilevato, data e località/negozio; calcolare **euro al litro = prezzo della confezione ÷ litri contenuti**. Misurare i millilitri realmente usati, oppure i grammi su bilancia, senza confondere le unità. **Costo dell'olio = euro al litro × ml usati ÷ 1.000**. Una quantità di 10 ml costa l'1% del prezzo al litro. Per i grammi usare il prezzo reale al chilogrammo, non un rapporto 1:1 con i millilitri. Conservare il costo dell'olio nel totale e nella quota per porzione.
+
+**Quantità nutrizionale:** CREA, Linee guida per una sana alimentazione, tabella 5.3, indica 10 ml come porzione standard di riferimento, con circa 9 g di grassi; non è una prescrizione universale per anziani con diabete, cardiopatia o altre patologie. Non proporre olio costoso come obbligo quando il reddito non permette l'acquisto; dichiarare la difficoltà reale e considerare il sostegno economico senza ridurre indiscriminatamente l'alimentazione.
+
+**Fonti:**
+- Regolamento UE 2022/2104: https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104
+- Commissione europea: https://agriculture.ec.europa.eu/farming/crops/olive-oil_it
+- CREA, Linee guida per una sana alimentazione (tabella 5.3): https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf
+
 ## Impostazione clinica per anziani con diabete e cardiopatia
 
 - **ADA Standards of Care in Diabetes 2026, sezione 13 (Older Adults):** valutazione di salute medica, psicologica, cognitiva, funzionale e sociale (13.1); attenzione a fragilità, cadute, incontinenza, dolore, polifarmacoterapia e ipoglicemia (13.2). Non proporre un identico obiettivo HbA1c a ogni anziano.
