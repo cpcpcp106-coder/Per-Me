@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T20:28:17.548Z",
+  "checked_at_utc": "2026-10-15T20:31:17.769Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 50,
+        "count": 51,
         "failures": []
       }
     },
@@ -28,16 +28,26 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 50,
+        "checked": 51,
         "violations": []
       }
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
-        "checked": 50,
-        "failed": [],
+        "checked": 51,
+        "failed": [
+          {
+            "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 11
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -67,10 +77,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 20:28.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 20:31.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T20:28:43.776Z",
+          "updated": "2026-10-15T20:31:43.867Z",
           "bytes": 856399,
           "includesNew09": true
         }
@@ -365,6 +375,52 @@
       "page": "debiti-guida-09-a-chi-rivolgersi.html",
       "violations": [],
       "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#meccanismo\"]"
+            ],
+            [
+              "a[href$=\"#rischio\"]"
+            ],
+            [
+              "a[href$=\"#sintomi\"]"
+            ],
+            [
+              "a[href$=\"#diagnosi\"]"
+            ],
+            [
+              "a[href$=\"#forme\"]"
+            ],
+            [
+              "a[href$=\"#dopo\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine guida\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine guida\"] > a:nth-child(2)"
+            ],
+            [
+              "nav[aria-label=\"Fine guida\"] > a:nth-child(3)"
+            ]
+          ],
+          "total": 11
+        }
+      ],
+      "passes": 26,
       "incomplete": 2
     },
     {
