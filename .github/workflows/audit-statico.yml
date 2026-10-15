@@ -11,6 +11,7 @@ on:
       - "style.css"
       - "sitemap.xml"
       - "monitoraggio/audit_statico.py"
+      - "monitoraggio/pubblica_report.sh"
       - ".github/workflows/audit-statico.yml"
 permissions:
   contents: write
@@ -35,11 +36,4 @@ jobs:
         run: python monitoraggio/audit_statico.py
       - name: Salva lo storico statico senza sovrascrivere gli audit editoriali
         run: |
-          git config user.name "per-me-audit"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add monitoraggio/ultimo-audit-statico.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Per Me: snapshot automatico dell'audit statico"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          bash monitoraggio/pubblica_report.sh "Per Me: snapshot automatico dell'audit statico" monitoraggio/ultimo-audit-statico.json
