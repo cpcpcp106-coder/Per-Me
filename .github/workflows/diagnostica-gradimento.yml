@@ -57,5 +57,21 @@ jobs:
           curl -sS --max-time 20 "$work/voto/test-clic-20261015?readOnly=true&revision=probe20261015d" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
           echo "Rilettura sintetica pixel (GET): "
           curl -sS --max-time 20 "$work/pixel/test-clic-pixel-20261015?readOnly=true&revision=probe20261015d" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
+          echo "=== Test alternativo CountAPI, chiave separata da Per Me ==="
+          alternative='https://countapi.mileshilliard.com/api/v1'
+          testkey='perme-isolated-validation-20261015-2021'
+          echo "Lettura iniziale (può rispondere 404 se la chiave è nuova): "
+          curl -sS --max-time 18 -w '\nHTTP %{http_code}\n' "$alternative/get/$testkey" | head -c 250
+          echo
+          echo "Incremento di prova: "
+          curl -sS --max-time 18 -w '\nHTTP %{http_code}\n' "$alternative/hit/$testkey" | head -c 250
+          echo
+          echo "Rilettura finale: "
+          curl -sS --max-time 18 -w '\nHTTP %{http_code}\n' "$alternative/get/$testkey" | head -c 250
+          echo
+          echo "Intestazioni CORS per il sito: "
+          curl -sS --max-time 18 -D /tmp/alternative-headers -o /dev/null \
+           -H 'Origin: https://cpcpcp106-coder.github.io' "$alternative/get/$testkey"
+          grep -Ei '^(HTTP/|access-control-|content-type:)' /tmp/alternative-headers || true
           printf 'Origine pubblica sito: '
           curl -L -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "https://cpcpcp106-coder.github.io/Per-Me/gradimento.js"
