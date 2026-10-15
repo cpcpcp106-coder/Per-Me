@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T20:27:40.064380+00:00",
+  "date_utc": "2026-10-15T20:29:28.243434+00:00",
   "scope": {
     "pages": 52,
     "unique_external_urls": 392,
     "occurrences": 716
   },
   "counts": {
-    "raggiungibile": 356,
-    "bloccato_o_riservato": 31,
-    "non_verificato_trasporto": 4,
+    "raggiungibile": 354,
+    "bloccato_o_riservato": 32,
+    "non_verificato_trasporto": 5,
     "errore_http": 1
   },
   "results": [
@@ -332,8 +332,8 @@
     },
     {
       "url": "https://doi.org/10.2337/dc26-S004",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -3761,9 +3761,8 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -3771,9 +3770,8 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
