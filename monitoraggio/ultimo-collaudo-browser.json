@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T14:37:35.059Z",
+  "checked_at_utc": "2026-10-15T14:56:23.869Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -12,15 +12,15 @@
       "name": "home_overflow_mobile",
       "result": "PASS",
       "details": {
-        "width": 418,
-        "scrollWidth": 418
+        "width": 390,
+        "scrollWidth": 390
       }
     },
     {
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 42,
+        "count": 43,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 42,
+        "checked": 43,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 42,
+        "checked": 43,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 14:37.",
+        "status": "38 pagine salvate per la lettura offline · controllo online 15 ott, 14:56.",
         "stored": {
           "guides": 38,
-          "updated": "2026-10-15T14:37:50.340Z",
+          "updated": "2026-10-15T14:56:46.618Z",
           "bytes": 698528,
           "includesNew09": true
         }
@@ -414,6 +414,12 @@
       "violations": [],
       "passes": 20,
       "incomplete": 1
+    },
+    {
+      "page": "statistiche.html",
+      "violations": [],
+      "passes": 19,
+      "incomplete": 0
     },
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
