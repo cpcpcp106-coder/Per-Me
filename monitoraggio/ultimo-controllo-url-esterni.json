@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T15:12:15.867911+00:00",
+  "date_utc": "2026-10-15T15:18:05.407073+00:00",
   "scope": {
     "pages": 44,
     "unique_external_urls": 299,
@@ -2516,7 +2516,7 @@
       "url": "https://www.ispettorato.gov.it/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.ispettorato.gov.it/",
+      "final_url": "https://www.ispettorato.gov.it/?doing_wp_cron=1792077482.9795830249786376953125",
       "pages": [
         "stipendio-diminuito-cosa-controllare.html"
       ]
