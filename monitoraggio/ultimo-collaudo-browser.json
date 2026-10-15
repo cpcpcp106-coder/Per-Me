@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T17:23:42.164Z",
+  "checked_at_utc": "2026-10-15T17:30:28.468Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 17:24.",
+        "status": "41 pagine salvate per la lettura offline · controllo online 15 ott, 17:30.",
         "stored": {
           "guides": 41,
-          "updated": "2026-10-15T17:24:04.709Z",
-          "bytes": 762022,
+          "updated": "2026-10-15T17:30:49.750Z",
+          "bytes": 764697,
           "includesNew09": true
         }
       }
@@ -449,7 +449,7 @@
       "page": "tutor-ai.html",
       "violations": [],
       "passes": 24,
-      "incomplete": 1
+      "incomplete": 2
     },
     {
       "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
