@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T16:53:13.728145+00:00",
+  "date_utc": "2026-10-15T16:54:52.101072+00:00",
   "scope": {
     "pages": 47,
     "unique_external_urls": 324,
     "occurrences": 614
   },
   "counts": {
-    "raggiungibile": 297,
-    "bloccato_o_riservato": 10,
-    "non_verificato_trasporto": 17
+    "raggiungibile": 309,
+    "bloccato_o_riservato": 11,
+    "non_verificato_trasporto": 4
   },
   "results": [
     {
@@ -309,9 +309,8 @@
     },
     {
       "url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "tutor-ai.html"
       ]
@@ -1176,24 +1175,27 @@
     },
     {
       "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociale-elettrico-definite-le-modalita-di-erogazione-del-contributo-straordinario-da-115-euro",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1201,8 +1203,9 @@
     },
     {
       "url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1220,16 +1223,18 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/come-si-ottiene-il-bonus-per-disagio-fisico",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/come-si-ottiene-il-bonus-per-disagio-fisico",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1237,8 +1242,9 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1248,16 +1254,18 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/a-quanto-ammontano",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/a-quanto-ammontano",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
@@ -1265,8 +1273,9 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1275,8 +1284,9 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-e-quando-si-ricevono",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-e-quando-si-ricevono",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -1285,16 +1295,18 @@
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-si-ottengono-i-bonus",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/come-si-ottengono-i-bonus",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
     },
     {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html",
