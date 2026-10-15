@@ -37,7 +37,11 @@ for(const x of ['112 o il 118','angioplastica','bypass','angina','scompenso','di
 for(const host of ['www.salute.gov.it','www.escardio.org'])assert.ok(cardiology.includes(host),'Fonti cardio mancanti: '+host);
 assert.ok(/non significa che ogni cardiopatia/i.test(cardiology),'Confusione causa diabete');
 assert.ok(diab.includes('non tutte le neuropatie')&&diab.includes('rischio aumenta'),'Differenze causali patologie non chiarite');
-assert.equal((diab.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,10,'Dieci guide diabete pianificate');
+assert.equal((diab.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,30,'Trenta guide diabete pianificate');
+assert.ok(diab.includes('95 condizioni')&&diab.includes('CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2'),'Mancano repertorio critico e fonti');
+const inventory=read('FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md');
+assert.equal((inventory.match(/^\d+\. \*\*/gm)||[]).length,95,'Il censimento deve mantenere 95 voci cliniche');
+for(const crucial of ['Retinopatia','Macular','Necrobiosi','Piede diabetico','Pancreatite','Metformina','Ipoacusia','Neuropatia','Parodontite'])assert.ok(inventory.toLowerCase().includes(crucial.toLowerCase()),'Patologia mancante dal censimento: '+crucial);
 assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
