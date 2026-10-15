@@ -1,14 +1,13 @@
 {
-  "date_utc": "2026-10-15T15:23:50.076007+00:00",
+  "date_utc": "2026-10-15T15:31:46.639725+00:00",
   "scope": {
     "pages": 44,
-    "unique_external_urls": 299,
-    "occurrences": 582
+    "unique_external_urls": 302,
+    "occurrences": 585
   },
   "counts": {
-    "raggiungibile": 289,
-    "bloccato_o_riservato": 8,
-    "non_verificato_trasporto": 2
+    "raggiungibile": 294,
+    "bloccato_o_riservato": 8
   },
   "results": [
     {
@@ -564,8 +563,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/come-pagare/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/come-pagare/",
       "pages": [
         "debiti-guida-05-rottamazione.html",
         "debiti-guida-05-rottamazione.html"
@@ -837,8 +837,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html"
@@ -2255,6 +2256,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-di-inclusione-le-novit-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.assegno-di-inclusione-le-novit-2026.html",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2598,6 +2608,24 @@
       ]
     },
     {
+      "url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/temi-e-priorita/disabilita-e-non-autosufficienza/focus-on/fondo-per-non-autosufficienza/pagine/default",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/temi-e-priorita/disabilita-e-non-autosufficienza/focus-on/fondo-per-non-autosufficienza/pagine/default",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
       "url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/disciplina-rapporto-lavoro/pagine/lavoro-a-tempo-parziale",
       "status": "raggiungibile",
       "http": 200,
@@ -2713,16 +2741,6 @@
       ]
     },
     {
-      "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2000%3B328~art22-com2=",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2000%3B328~art22-com2=",
-      "pages": [
-        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
-        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
-      ]
-    },
-    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
       "status": "raggiungibile",
       "http": 200,
@@ -2738,6 +2756,16 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.parlamento.it/parlam/leggi/00328l.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.parlamento.it/parlam/leggi/00328l.htm",
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
