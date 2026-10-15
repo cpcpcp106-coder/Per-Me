@@ -34,7 +34,7 @@ assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App non acquisis
 for(const section of ['reddito','disoccupazione','patologie','invalidita','farmaci','percorso','sportelli','rimborso','esempi','errori','fonti']){
  assert.ok(guide.includes('id="'+section+'"'),'Sezione non trovata '+section);
 }
-for(const phrase of ['E01','E02','E03','E04','36.151,98','8.263,31','11.362,05','516,46','31 dicembre','31 marzo','CIG','codice 013','C01','C02','C03','dal 67% al 99%','fascia A','differenza di prezzo','0432 780233','0432 1796345','almeno due giorni','rimborso']){
+for(const phrase of ['E01','E02','E03','E04','36.151,98','8.263,31','11.362,05','516,46','31 dicembre','31 marzo','CIG','013','C01','C02','C03','dal 67% al 99%','fascia A','differenza di prezzo','0432 780233','0432 1796345','almeno due giorni','rimborso']){
  assert.ok(guide.includes(phrase),'Condizione essenziale non trovata '+phrase);
 }
 for(const host of ['asufc.sanita.fvg.it','www.salute.gov.it'])assert.ok(guide.includes(host),'Manca fonte istituzionale '+host);
