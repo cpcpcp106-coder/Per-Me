@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T11:34:53.315Z",
+  "checked_at_utc": "2026-10-15T11:36:57.519Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 36,
+        "count": 37,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 36,
+        "checked": 37,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 36,
+        "checked": 37,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "32 pagine salvate per la lettura offline · controllo online 15 ott, 11:35.",
+        "status": "32 pagine salvate per la lettura offline · controllo online 15 ott, 11:37.",
         "stored": {
           "guides": 32,
-          "updated": "2026-10-15T11:35:11.841Z",
+          "updated": "2026-10-15T11:37:14.568Z",
           "bytes": 593101,
           "includesNew09": true
         }
@@ -326,6 +326,12 @@
       "page": "salute-autonomia.html",
       "violations": [],
       "passes": 16,
+      "incomplete": 1
+    },
+    {
+      "page": "salute-guida-01-preparare-visita.html",
+      "violations": [],
+      "passes": 18,
       "incomplete": 1
     },
     {

@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T11:35:45.854022+00:00",
+  "date_utc": "2026-10-15T11:37:36.605862+00:00",
   "scope": {
-    "pages": 38,
-    "unique_external_urls": 248,
-    "occurrences": 505
+    "pages": 39,
+    "unique_external_urls": 251,
+    "occurrences": 514
   },
   "counts": {
-    "raggiungibile": 246,
+    "raggiungibile": 249,
     "bloccato_o_riservato": 2
   },
   "results": [
@@ -1142,12 +1142,23 @@
       ]
     },
     {
+      "url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
+      "pages": [
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-01-preparare-visita.html"
+      ]
+    },
+    {
       "url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
       "pages": [
-        "dieta-mediterranea-ricette.html"
+        "dieta-mediterranea-ricette.html",
+        "salute-guida-01-preparare-visita.html"
       ]
     },
     {
@@ -1165,7 +1176,18 @@
       "http": 200,
       "final_url": "https://www.epicentro.iss.it/igea/diabete/",
       "pages": [
-        "salute-autonomia.html"
+        "salute-autonomia.html",
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-01-preparare-visita.html"
+      ]
+    },
+    {
+      "url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
+      "pages": [
+        "salute-guida-01-preparare-visita.html"
       ]
     },
     {
@@ -2470,12 +2492,23 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/faq/faq-malattie-cardio-cerebrovascolari/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/faq/faq-malattie-cardio-cerebrovascolari/",
+      "pages": [
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-01-preparare-visita.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
       "pages": [
-        "salute-autonomia.html"
+        "salute-autonomia.html",
+        "salute-guida-01-preparare-visita.html"
       ]
     },
     {
