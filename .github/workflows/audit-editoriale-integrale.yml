@@ -1,0 +1,27 @@
+name: Per Me - Audit editoriale intero sito
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'scripts/audit-editoriale-integrale.cjs'
+      - '.github/workflows/audit-editoriale-integrale.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'scripts/audit-editoriale-integrale.cjs'
+      - '.github/workflows/audit-editoriale-integrale.yml'
+permissions:
+  contents: read
+jobs:
+  editorial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica tutte le pagine editoriali, navigazione, fonti e foto
+        run: node scripts/audit-editoriale-integrale.cjs
