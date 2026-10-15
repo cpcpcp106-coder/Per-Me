@@ -33,13 +33,15 @@ assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'PWA non identifi
 for(const section of ['differenze','invalidita','domanda-invalidita','titoli','rinnovo','over65','treni','esempi','problemi','errori','fonti']){
  assert.ok(guide.includes('id="'+section+'"'),'Sezione assente: '+section);
 }
-for(const phrase of ['1,5%','98,5%','50%','65 anni','reddito complessivo','non è una soglia ISEE','15 giorni','12 mesi solari','cinque percorsi','tesserino','SPID, CIE','Disability Card','Carta Blu','0432 279256','35.340 euro','non online','accompagnatore']){
+for(const phrase of ['1,5%','98,5%','50%','65 anni','reddito complessivo','non è una soglia ISEE','15 giorni','12 mesi solari','cinque percorsi','tesserino','SPID, CIE','Disability Card','Carta Blu','0432 279256','non online','accompagnatore','biglietterie CORE e rivendite ACTIVE','online a 5 €','cinque anni','servizi marittimi','Ferrovie Udine Cividale (FUC)','autocertificazione','anno reddituale di riferimento']){
  assert.ok(guide.includes(phrase),'Regola critica non dichiarata: '+phrase);
 }
 assert.ok(guide.includes('https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389'),'Link AgileFVG non presente');
 assert.ok(guide.includes('tplfvg.it/it/abbonamenti/disabilita/'),'Pagina TPL ufficiale non presente');
 assert.ok(guide.includes('FOGLIA33/'),'Pagina regionale over 65 non presente');
-assert.ok(guide.includes('images.pexels.com/photos/15965909'),'Nuova foto distinta assente');
+assert.ok(guide.includes('images.pexels.com/photos/15965909'),'Foto distinta assente');
+assert.ok(guide.includes('www.pexels.com/photo/men-and-woman-waiting-at-bus-stop-15965909/'),'Manca credito Pexels verificato');
+assert.ok(!guide.includes('35.340 euro'),'Soglia storica 2025 non va presentata nella guida 2026');
 assert.ok(!guide.includes('assets/debiti-guida-'),'Non riutilizzare foto Debiti');
 const links=[...guide.matchAll(/href="([^"]+)"/g)].map(x=>x[1]).filter(x=>/\.html/.test(x)&&!/^https?:/.test(x));
 for(const link of links)assert.ok(fs.existsSync(path.join(root,link.split('#')[0])),file+': link locale inesistente '+link);
