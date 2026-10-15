@@ -5,7 +5,7 @@
 const root=new URL('./',document.currentScript.src);
 const api='https://countapi.mileshilliard.com/api/v1/';
 const stars=[1,2,3,4,5];
-const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('gradimento.css?v=1',root).href;document.head.append(css);
+const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('gradimento.css?v=2',root).href;document.head.append(css);
 const valid=p=>/^[a-z0-9-]+\.html$/.test(p)&&p!=='gradimento.html';
 const key=p=>p.replace(/\.html$/,'');
 const action=n=>'perme-stelle-'+n;
