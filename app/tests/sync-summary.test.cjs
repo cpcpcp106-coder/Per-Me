@@ -46,8 +46,19 @@ test('Interfaccia con contatori, stili e cache coerenti',()=>{
  for(const id of ['sync-summary','sync-summary-title','sync-added','sync-modified','sync-unchanged','sync-summary-note'])
   assert.ok(html.includes('id="'+id+'"'),id);
  assert.ok(css.includes('.sync-summary[hidden]'));
- assert.ok(html.includes('main.js?v=9')&&sw.includes('main.js?v=9'));
+ const scriptHref=html.match(/src="(main\\.js\\?v=\\d+)"/)?.[1];
+ assert.ok(scriptHref,'Versione JavaScript nel documento');
+ assert.ok(sw.includes('./'+scriptHref),'Il service worker deve precacheare la stessa versione di JS');
  const cssHref=html.match(/href="(app\.css\?v=\d+)"/)?.[1];
  assert.ok(cssHref,'Versione stylesheet nel documento');
  assert.ok(sw.includes('./'+cssHref),'Il service worker deve precacheare la stessa versione del CSS');
+});
+
+test('Il Tutor AI puo copiare sei prompt anche offline',()=>{
+ assert.ok(main.includes('function addTutorCopyControls()'));
+ assert.ok(main.includes("if(path==='tutor-ai.html')addTutorCopyControls()"));
+ for(const id of ['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione'])
+  assert.ok(main.includes("'"+id+"'"),id);
+ assert.ok(css.includes('.reader-content .prompt-copy'));
+ assert.ok(sw.includes('perme-reader-v12-20261015-tutor'));
 });
