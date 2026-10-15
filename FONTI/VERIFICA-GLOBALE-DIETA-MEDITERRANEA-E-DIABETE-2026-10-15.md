@@ -27,6 +27,23 @@ Si può usare «il cibo come prima cura» solo come **metafora**, seguita dalla 
 | **ADA 2026, sezione 9** | In persone con diabete tipo 2 e malattia cardiovascolare aterosclerotica, scompenso cardiaco o malattia renale cronica, alcune classi di farmaci con beneficio d'organo possono essere indicate **indipendentemente dall'HbA1c**, con scelte individualizzate. | Linea guida clinica |
 | **International Diabetes Federation (IDF) — Global Clinical Practice Recommendations 2025** | Gestione integrata, prevenzione e ritardo delle complicanze: nessun messaggio di «dieta in sostituzione dei farmaci». | Linea guida internazionale |
 
+## Studio globale su The Lancet (2019): che cosa prova davvero
+
+**Identificato e letto il testo originale:** GBD 2017 Diet Collaborators, *Health effects of dietary risks in 195 countries, 1990–2017*, **The Lancet**, 2019;393:1958–1972. Pubblicazione online 4 aprile 2019. DOI: https://doi.org/10.1016/S0140-6736(19)30041-8 ; testo integrale https://pmc.ncbi.nlm.nih.gov/articles/PMC6899507/
+
+- **Paesi:** 195, non 196.
+- **Metodo:** valutazione comparativa del rischio, basata su 15 fattori alimentari e stime epidemiologiche; non sperimentazione randomizzata della dieta mediterranea.
+- **Anno della stima:** 2017, con periodo storico dei dati 1990–2017.
+- **Mortalità attribuibile a rischi alimentari:** 11 milioni di decessi, intervallo di incertezza 10–12 milioni, circa il 22% dei decessi nella popolazione adulta considerata.
+- **Malattie cardiovascolari:** circa 10 milioni di decessi attribuiti a rischi dietetici. **Diabete tipo 2 come causa di morte:** circa 339 mila.
+- **Tre principali rischi dietetici:** eccessivo sodio (circa 3 milioni); insufficienza di cereali integrali (circa 3 milioni); insufficienza di frutta (circa 2 milioni).
+- **Cosa dimostra:** il peso mondiale molto rilevante della qualità della dieta su mortalità e malattie croniche.
+- **Cosa non dimostra:** che l'adozione della dieta mediterranea in sé avrebbe evitato undici milioni di decessi o che una dieta sostituisca i medicinali. Lo studio non confronta direttamente il modello mediterraneo con alternative.
+- **Limiti dichiarati:** dati alimentari incompleti in diversi Paesi, modellizzazione e relazioni di rischio spesso derivate da coorti osservazionali con possibilità di confondimento residuo.
+- **Pubblicazione collegata per effetti di un intervento mediterraneo:** PREDIMED, trial di prevenzione cardiovascolare, pubblicazione corretta del 2018: https://doi.org/10.1056/NEJMoa1800389 . Non confondere prova sperimentale specifica con stima di rischio globale.
+
+**Conclusione per Per Me:** questo studio va trattato come una **fonte fondamentale di epidemiologia nutrizionale**, molto importante per spiegare l'impatto della dieta, **non come prova clinica diretta** dell'efficacia di una particolare dieta contro il diabete già diagnosticato.
+
 ## Studi clinici e qualità delle prove
 
 - Le rassegne di interventi alimentari supportano miglioramenti medi di parametri come HbA1c e lipidi con modelli mediterranei, ma variano partecipanti, durata e composizione delle diete. Un miglioramento di un valore non coincide con la prevenzione di un evento clinico o con la remissione.
