@@ -11,8 +11,8 @@ const countMatch=home.match(/<strong>(\d+) risorse disponibili<\/strong>/);
 assert.ok(countMatch,'La home deve mostrare il totale delle risorse della rubrica');
 assert.equal(Number(countMatch[1]),(rubrica.match(/class="a04-guide-card"/g)||[]).length,'Il totale della home deve coincidere con le schede realmente presenti nella Rubrica 04');
 assert.ok(rubrica.includes('Guide nazionali — per tutta Italia')&&rubrica.includes('Schede regionali: soltanto Friuli Venezia Giulia'),'Perimetro nazionale e regionale devono restare distinti');
-if(home.includes('ritratto-enrico.webp')) assert.match(home,/<figcaption>Enrico<\/figcaption>/,'Il ritratto dell’autore deve mostrare soltanto il nome, senza cognome');
-assert.ok(!/Enrico Tirabasso|10\/gennaio\/1961|1961-01-10/i.test(home),'La home non deve riportare dati personali dell’autore');
+if(home.includes('ritratto-enrico.webp')) assert.match(home,/<figcaption>Enrico TIRABASSO<br><time datetime="1961-01-10">10\/gennaio\/1961<\/time><\/figcaption>/,'Il ritratto dell’autore deve mantenere la didascalia espressamente richiesta');
+// La breve presentazione dell'autore in home e' autorizzata: non trasformarla in criterio delle guide nazionali.
 assert.match(rubrica,/Guide nazionali — per tutta Italia/,'Manca gruppo nazionale');
 assert.match(rubrica,/Schede regionali: soltanto Friuli Venezia Giulia/,'Manca distinzione regionale');
 assert.match(rubrica,/<meta name="robots" content="index,follow"/,'Indice non indicizzabile');
@@ -21,7 +21,8 @@ for(const f of ['agevolazioni-guida-03-trasporti-fvg.html','agevolazioni-guida-0
 const exceptions=new Set(['agevolazioni-guida-04-esenzioni-ticket-fvg.html']);
 for(const file of htmlNames){
  const html=get(file);
- assert.ok(!/Io mi sono appoggiato|mi sono rivolto al CAF UIL|Patronato ITAL UIL|CAF UIL|Enrico Tirabasso|10\/gennaio\/1961/i.test(html),file+': testo personale o promozionale in una pagina pubblica');
+ assert.ok(!/Io mi sono appoggiato|mi sono rivolto al CAF UIL|Patronato ITAL UIL|CAF UIL/i.test(html),file+': testo promozionale in una pagina pubblica');
+ if(file!=='index.html')assert.ok(!/Enrico Tirabasso|10\/gennaio\/1961|1961-01-10/i.test(html),file+': dati biografici ripetuti fuori dalla presentazione in home');
  if(!exceptions.has(file))assert.ok(!/Tarcento|Racchiuso|Attimis/i.test(html),file+': luogo personale presente in pagina non regionale');
  assert.ok(!/Sito in costruzione\s*·\s*Contenuti in verifica|Versione di lavoro non pubblicata/i.test(html),file+': vecchio footer fuorviante');
 }
