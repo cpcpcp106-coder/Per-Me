@@ -38,6 +38,7 @@ const sources=[...guide.matchAll(/href="https:\/\/(www\.inps\.it|www\.lavoro\.go
 assert.ok(sources.length>=7,'Set di fonti primarie');
 assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 registrata nella app');
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App estrae i link guide dalle rubriche');
+for(const phrase of ['quattro categorie di variazione','Quadro S5','giacenza media','bonus ARERA','agevolazioni-guida-02-bonus-sociali.html']) assert.ok(guide.includes(phrase),'Revisione ISEE incompleta: '+phrase);
 console.log('PASS: Guida 01 ISEE 2026, navigazione, fonti, contenuti chiave, indicizzazione e scoperta dalla PWA.');
 console.log('Limiti: il test non misura accuratezza dei link remoti, resa visiva o memorizzazione reale offline su Android.');
 assert.ok(guide.includes('Decreto-Dip-3-del-02032026-ISEE.pdf'),'Testo normativo integrale mancante');
