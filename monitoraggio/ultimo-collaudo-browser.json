@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T13:45:33.811Z",
+  "checked_at_utc": "2026-10-15T13:58:33.300Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 39,
+        "count": 41,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 39,
+        "checked": 41,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 39,
+        "checked": 41,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "35 pagine salvate per la lettura offline · controllo online 15 ott, 13:45.",
+        "status": "37 pagine salvate per la lettura offline · controllo online 15 ott, 13:58.",
         "stored": {
-          "guides": 35,
-          "updated": "2026-10-15T13:45:54.003Z",
-          "bytes": 648908,
+          "guides": 37,
+          "updated": "2026-10-15T13:58:53.658Z",
+          "bytes": 655472,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 35
+        "count": 37
       }
     },
     {
@@ -93,7 +93,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 4633
+        "chars": 4888
       }
     },
     {
@@ -169,7 +169,7 @@
     {
       "page": "home",
       "violations": [],
-      "passes": 17,
+      "passes": 18,
       "incomplete": 0
     },
     {
@@ -197,9 +197,21 @@
       "incomplete": 1
     },
     {
+      "page": "agevolazioni-guida-03-trasporti-italia.html",
+      "violations": [],
+      "passes": 18,
+      "incomplete": 1
+    },
+    {
       "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
       "violations": [],
       "passes": 23,
+      "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+      "violations": [],
+      "passes": 18,
       "incomplete": 1
     },
     {
@@ -229,7 +241,7 @@
     {
       "page": "chi-siamo.html",
       "violations": [],
-      "passes": 15,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -325,7 +337,7 @@
     {
       "page": "index.html",
       "violations": [],
-      "passes": 17,
+      "passes": 18,
       "incomplete": 0
     },
     {
@@ -337,13 +349,13 @@
     {
       "page": "metodo.html",
       "violations": [],
-      "passes": 15,
+      "passes": 16,
       "incomplete": 0
     },
     {
       "page": "monitoraggio.html",
       "violations": [],
-      "passes": 21,
+      "passes": 22,
       "incomplete": 1
     },
     {

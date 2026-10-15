@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T13:46:29.237126+00:00",
+  "date_utc": "2026-10-15T13:59:36.033812+00:00",
   "scope": {
-    "pages": 41,
-    "unique_external_urls": 280,
-    "occurrences": 544
+    "pages": 43,
+    "unique_external_urls": 283,
+    "occurrences": 550
   },
   "counts": {
-    "raggiungibile": 276,
+    "raggiungibile": 279,
     "bloccato_o_riservato": 4
   },
   "results": [
@@ -2676,6 +2676,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/banche-dati/banca-dati-delle-malattie-croniche-esenti/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/banche-dati/banca-dati-delle-malattie-croniche-esenti/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-malattie-croniche/",
       "status": "raggiungibile",
       "http": 200,
@@ -2738,7 +2747,8 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-invalidita/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
     {
@@ -2767,7 +2777,26 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
       "pages": [
-        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/ticket-ed-esenzioni/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/ticket-ed-esenzioni/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
     {
@@ -2777,7 +2806,8 @@
       "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
-        "agevolazioni-guida-03-trasporti-fvg.html"
+        "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
     {
