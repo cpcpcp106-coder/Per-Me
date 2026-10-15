@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T16:36:36+00:00",
+  "date_utc": "2026-10-15T16:38:30+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 46,
-    "editorial_pages": 44,
-    "guide_pages": 31
+    "html_total": 47,
+    "editorial_pages": 45,
+    "guide_pages": 32
   },
   "links": {
-    "local_occurrences": 1370,
-    "external_occurrences": 603,
-    "external_unique": 316,
+    "local_occurrences": 1395,
+    "external_occurrences": 612,
+    "external_unique": 322,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -25,6 +25,7 @@
       "agevolazioni-guida-04-esenzioni-ticket-italia.html",
       "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
       "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "aoi-invalidita-civile-differenze.html",
       "app/index.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
@@ -71,6 +72,7 @@
       "agevolazioni-guida-04-esenzioni-ticket-italia.html",
       "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
       "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "aoi-invalidita-civile-differenze.html",
       "app/index.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
@@ -152,7 +154,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 23,
+      "links_local": 24,
       "links_external": 3,
       "missing_local": 0,
       "noindex": false,
@@ -280,6 +282,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 20
+    },
+    {
+      "file": "agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "title": "Avvocato a spese dello Stato: requisiti e domanda 2026 | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 24,
+      "links_external": 9,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
