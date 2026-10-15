@@ -8,8 +8,8 @@
 <title>Per Me · Guide offline</title>
 <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="app.css?v=7">
-<script defer src="main.js?v=8"></script>
+<link rel="stylesheet" href="app.css?v=8">
+<script defer src="main.js?v=9"></script>
 <meta name="robots" content="noindex,follow"></head>
 <body>
 <a class="skip" href="#main">Salta al contenuto</a>
@@ -26,6 +26,11 @@
    <button class="refresh" id="refresh" type="button">Aggiorna le guide</button>
   </div>
   <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Il primo salvataggio richiede Internet. Le copie già salvate si possono leggere offline; i collegamenti esterni richiedono una connessione.</p>
+  <section id="sync-summary" class="sync-summary" hidden aria-labelledby="sync-summary-title">
+   <h3 id="sync-summary-title">Esito dell'ultimo controllo</h3>
+   <p class="sync-summary-counts"><span><strong id="sync-added">0</strong> nuove</span><span><strong id="sync-modified">0</strong> aggiornate</span><span><strong id="sync-unchanged">0</strong> invariate</span></p>
+   <p id="sync-summary-note" class="sync-summary-note"></p>
+  </section>
   <p class="smallstatus">L’app prova a salvare <strong>soltanto i testi</strong> delle sei rubriche e delle guide. Le foto, le pagine esterne e le fonti richiedono Internet. Le copie offline possono essere rimosse dal telefono per esaurimento di spazio o pulizia dei dati: non sostituiscono la documentazione originale e vanno aggiornate quando possibile.</p>
   <label for="search">Cerca una guida</label>
   <input id="search" type="search" placeholder="Es. cedolino, INPS, ISEE" autocomplete="off">
