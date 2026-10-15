@@ -85,4 +85,6 @@ await browserInstance.close();browserInstance=null;
 report.status='COMPLETED';
 } 
 (async()=>{try{await start()}catch(e){report.status='ERROR';report.error=String(e.stack||e).slice(0,1800)}
-finally{try{await browserInstance?.close()}catch(e){};try{server?.kill()}catch(e){};save();console.log(JSON.stringify({status:report.status,tests:report.tests,axe:report.axe.map(x=>({page:x.page,violations:x.violations?.length,error:x.error})),errors:report.page_errors},null,2));}})();
+finally{try{await browserInstance?.close()}catch(e){};try{server?.kill()}catch(e){};save();console.log(JSON.stringify({status:report.status,tests:report.tests,axe:report.axe.map(x=>({page:x.page,violations:x.violations?.length,error:x.error})),errors:report.page_errors},null,2));
+const failed=report.status!=='COMPLETED'||report.tests.some(x=>x.result!=='PASS')||report.axe.some(x=>x.error||(x.violations&&x.violations.length>0))||report.page_errors.length>0;
+if(failed){console.error('COLLAUDO NON SUPERATO: esiti FAIL o violazioni axe presenti nel rapporto');process.exitCode=1;}}})();
