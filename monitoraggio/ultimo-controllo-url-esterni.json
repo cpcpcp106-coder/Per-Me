@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T18:08:27.944000+00:00",
+  "date_utc": "2026-10-15T18:10:45.383359+00:00",
   "scope": {
     "pages": 48,
-    "unique_external_urls": 339,
-    "occurrences": 637
+    "unique_external_urls": 342,
+    "occurrences": 640
   },
   "counts": {
-    "raggiungibile": 323,
-    "bloccato_o_riservato": 12,
+    "raggiungibile": 324,
+    "bloccato_o_riservato": 14,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -313,6 +313,15 @@
       "http": 403,
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/11370618/pexels-photo-11370618.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/11370618/pexels-photo-11370618.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-01-preparare-visita.html"
       ]
     },
     {
@@ -3042,6 +3051,14 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/license/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-01-preparare-visita.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -3087,6 +3104,14 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-01-preparare-visita.html"
       ]
     },
     {
