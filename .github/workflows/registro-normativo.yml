@@ -1,0 +1,27 @@
+name: Per Me - Registro revisione normativa
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'verifiche/revisione-normativa-31-guide-2026-10-15.md'
+      - 'scripts/controlla-registro-normativo.cjs'
+      - '.github/workflows/registro-normativo.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'verifiche/revisione-normativa-31-guide-2026-10-15.md'
+      - 'scripts/controlla-registro-normativo.cjs'
+      - '.github/workflows/registro-normativo.yml'
+permissions:
+  contents: read
+jobs:
+  controllo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node scripts/controlla-registro-normativo.cjs
