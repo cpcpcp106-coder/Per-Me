@@ -1,13 +1,14 @@
 {
-  "date_utc": "2026-10-15T14:06:25.314480+00:00",
+  "date_utc": "2026-10-15T14:38:30.119828+00:00",
   "scope": {
-    "pages": 43,
-    "unique_external_urls": 283,
-    "occurrences": 550
+    "pages": 44,
+    "unique_external_urls": 299,
+    "occurrences": 582
   },
   "counts": {
-    "raggiungibile": 277,
-    "bloccato_o_riservato": 6
+    "raggiungibile": 290,
+    "bloccato_o_riservato": 8,
+    "non_verificato_trasporto": 1
   },
   "results": [
     {
@@ -263,12 +264,38 @@
       ]
     },
     {
+      "url": "https://help.openai.com/en/articles/8313428-does-chatgpt-tell-the-truth",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "tutor-ai.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/23720159/pexels-photo-23720159.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/23720159/pexels-photo-23720159.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-italia.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
     {
@@ -287,6 +314,15 @@
       "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
     },
     {
@@ -316,6 +352,15 @@
       "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
       "pages": [
         "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
     },
     {
@@ -1010,9 +1055,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/link-esterni/ComunicazioneSommeDovuteDefinizioneAgevolata.link",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.entrateriscossione.it/RDC/richiestaCOMDAG22.action",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-05-rottamazione.html"
       ]
@@ -1344,6 +1388,15 @@
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.garanteprivacy.it/temi/assistenti-digitali",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/temi/assistenti-digitali",
+      "pages": [
+        "tutor-ai.html"
       ]
     },
     {
@@ -1750,7 +1803,19 @@
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-02-bonus-sociali.html",
-        "agevolazioni-guida-02-bonus-sociali.html"
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
     },
     {
@@ -1808,6 +1873,16 @@
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.carta-europea-della-disabilit---disability-card-58828.carta-europea-della-disabilit---disability-card.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.carta-europea-della-disabilit---disability-card-58828.carta-europea-della-disabilit---disability-card.html",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-italia.html",
+        "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
     {
@@ -2068,6 +2143,16 @@
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "pensione-invalidita.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.supporto-per-la-formazione-e-il-lavoro-sfl-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.supporto-per-la-formazione-e-il-lavoro-sfl-.html",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
     },
     {
@@ -2437,12 +2522,32 @@
       ]
     },
     {
+      "url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/DI-del-24062025",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/DI-del-24062025",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
       "url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-interdipartimentale-n-3-del-2032026",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-interdipartimentale-n-3-del-2032026",
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/notizie/pagine/linee-guida-per-la-definizione-dei-modelli-organizzativi-omogenei-degli-ambiti-Territoriali-Sociali-per-l-attuazione-dei-LEPS",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/notizie/pagine/linee-guida-per-la-definizione-dei-modelli-organizzativi-omogenei-degli-ambiti-Territoriali-Sociali-per-l-attuazione-dei-LEPS",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
     },
     {
@@ -2609,6 +2714,16 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2000%3B328~art22-com2=",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn%3Anir%3Astato%3Alegge%3A2000%3B328~art22-com2=",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
       "status": "raggiungibile",
       "http": 200,
@@ -2620,6 +2735,16 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -2628,11 +2753,35 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/a-woman-talking-to-her-doctor-4266930/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/couple-and-social-worker-sitting-at-table-9870140/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/elderly-woman-reading-a-document-7545331/",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/man-walking-at-railway-station-23720159/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
     {
@@ -2681,6 +2830,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/banche-dati/banca-dati-delle-malattie-croniche-esenti/",
       "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
@@ -2690,7 +2840,8 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-malattie-croniche/",
       "pages": [
-        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
     {
@@ -2748,6 +2899,7 @@
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
@@ -2778,6 +2930,7 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
@@ -2787,24 +2940,29 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/ticket-ed-esenzioni/",
       "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
       "pages": [
+        "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
+        "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
       ]
     },
