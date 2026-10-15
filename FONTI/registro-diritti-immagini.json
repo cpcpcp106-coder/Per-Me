@@ -110,6 +110,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Incontro illustrativo con consulente; non indicare che sia una consulenza legale reale o che la persona ritratta abbia ottenuto patrocinio."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8035972",
+      "src_path": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg",
+      "source": "https://www.pexels.com/photo/mother-and-child-sitting-at-the-table-8035972/",
+      "author": "Kampus Production",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Immagine illustrativa di madre con figlio in casa, diversa dalle precedenti; non attribuire condizioni economiche personali alle persone ritratte."
     }
   ],
   "local": [
