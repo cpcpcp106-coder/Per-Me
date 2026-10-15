@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T15:56:01+00:00",
+  "date_utc": "2026-10-15T16:08:06+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 45,
-    "editorial_pages": 43,
+    "html_total": 46,
+    "editorial_pages": 44,
     "guide_pages": 31
   },
   "links": {
     "local_occurrences": 1365,
-    "external_occurrences": 598,
-    "external_unique": 312,
+    "external_occurrences": 600,
+    "external_unique": 314,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -385,6 +385,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 3
+    },
+    {
+      "file": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
+      "title": "Conteggi Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 0,
+      "links_external": 2,
+      "missing_local": 0,
+      "noindex": true,
+      "canonical": false,
+      "description": false,
+      "skip_link": false,
+      "candidate_numeric_legal_mentions": 0
     },
     {
       "file": "contributi-inps-estratto-conto-pensione-vicina.html",
