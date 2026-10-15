@@ -419,3 +419,10 @@ header .brand{gap:14px;min-height:90px}
 /* Audit dinamico su tutte le pagine, 15 ottobre 2026: collegamenti e contrasti. */
 .pagina-interna.rubrica-debiti .article a:not([class]),.pagina-interna.rubrica-debiti .article a:not([class]):visited{color:#49291b;text-decoration:underline}
 .pagina-interna.rubrica-salute .article>.eyebrow:first-child{color:#4f2d1e;background:#f0e0d0}
+
+/* Accessibilità tabelle lavoro/IRPEF: niente regioni a scorrimento orizzontale su smartphone. */
+@media(max-width:600px){
+.pagina-interna.guida-lordo-netto .sample-pay{overflow-x:visible}
+.pagina-interna.guida-lordo-netto .sample-pay table{width:100%;table-layout:fixed;font-size:1rem}
+.pagina-interna.guida-lordo-netto .sample-pay td,.pagina-interna.guida-lordo-netto .sample-pay th{overflow-wrap:anywhere;white-space:normal;padding:10px 7px}
+}
