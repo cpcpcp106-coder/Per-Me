@@ -1,0 +1,36 @@
+name: Per Me - Guida 07 Patrocinio a spese dello Stato
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'agevolazioni-guida-07-patrocinio-spese-stato.html'
+      - 'agevolazioni-diritti.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'FONTI/registro-diritti-immagini.json'
+      - 'scripts/audit-agevolazioni-07.cjs'
+      - '.github/workflows/audit-agevolazioni-07.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agevolazioni-guida-07-patrocinio-spese-stato.html'
+      - 'agevolazioni-diritti.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'FONTI/registro-diritti-immagini.json'
+      - 'scripts/audit-agevolazioni-07.cjs'
+      - '.github/workflows/audit-agevolazioni-07.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla Guida 07, fonti, foto, struttura nazionale e app
+        run: node scripts/audit-agevolazioni-07.cjs
