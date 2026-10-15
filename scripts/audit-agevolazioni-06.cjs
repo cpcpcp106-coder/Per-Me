@@ -18,6 +18,9 @@ for(const term of ['legge 431/1998','morosità incolpevole','sfratto','data di u
 for(const dom of ['www.parlamento.it','mit.gov.it','www.tribunale.torino.giustizia.it','www.giustizia.it','infoprecompilata.agenziaentrate.gov.it','www.conferenzastatocitta.gov.it'])assert.ok(html.includes(dom),'Fonte non presente '+dom);
 assert.ok(html.includes('photos/8962383'),'Fotografia distintiva assente');
 assert.ok(!read('agevolazioni-guida-05-comune-servizi-sociali-italia.html').includes('photos/8962383'),'Foto già usata nella Guida 05');
+for(const phrase of ['28 ottobre 2026 alle ore 12:00','7 ottobre 2026','genitori separati o divorziati','35.000 euro','6.000 euro l\'anno','Piattaforma ministeriale']) assert.ok(html.includes(phrase),'Misura MIT speciale 2026 o scadenza assente: '+phrase);
+assert.ok(html.includes('www.mit.gov.it/node/13118'),'Fonte ministeriale per contributo separati assente');
+assert.ok(!html.includes('mit.gov.it/temi/casa/accesso-allabitazione'),'Collegamento MIT non verificabile mantenuto');
 assert.ok(!/Tarcento|Attimis|Racchiuso|ASUFC|CAF UIL|Comune di Udine/i.test(html),'Localismo in guida nazionale');
 for(const match of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const href=match[1];if(!/^https?:/.test(href))assert.ok(fs.existsSync(path.join(root,href)),'Link locale inesistente: '+href);}
 assert.match(rubric,/href="agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"/,'Card Guida 06 assente');
