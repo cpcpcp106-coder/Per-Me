@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T07:39:24+00:00",
+  "date_utc": "2026-10-15T07:45:26+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 36,
@@ -7,9 +7,9 @@
     "guide_pages": 23
   },
   "links": {
-    "local_occurrences": 1000,
-    "external_occurrences": 444,
-    "external_unique": 221,
+    "local_occurrences": 1003,
+    "external_occurrences": 452,
+    "external_unique": 224,
     "actions": 32,
     "broken_local": [],
     "broken_anchors": []
@@ -292,7 +292,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 23,
+      "links_local": 25,
       "links_external": 18,
       "missing_local": 0,
       "noindex": false,
@@ -314,7 +314,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
+      "candidate_numeric_legal_mentions": 10
     },
     {
       "file": "debiti-guida-03-cartella-errata.html",
@@ -323,13 +323,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 20,
-      "links_external": 16,
+      "links_external": 17,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 15
+      "candidate_numeric_legal_mentions": 16
     },
     {
       "file": "debiti-guida-04-rateizzazione.html",
@@ -337,14 +337,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 23,
-      "links_external": 24,
+      "links_local": 24,
+      "links_external": 25,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 24
+      "candidate_numeric_legal_mentions": 32
     },
     {
       "file": "debiti-guida-05-rottamazione.html",
@@ -353,13 +353,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 20,
-      "links_external": 20,
+      "links_external": 21,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 13
+      "candidate_numeric_legal_mentions": 15
     },
     {
       "file": "debiti-guida-06-fermo-pignoramento.html",
@@ -368,13 +368,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 24,
-      "links_external": 23,
+      "links_external": 24,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 17
+      "candidate_numeric_legal_mentions": 18
     },
     {
       "file": "debiti-guida-07-banche-bollette.html",
@@ -383,13 +383,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 25,
-      "links_external": 30,
+      "links_external": 33,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 9
+      "candidate_numeric_legal_mentions": 10
     },
     {
       "file": "debiti-guida-08-sovraindebitamento.html",
@@ -398,13 +398,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 27,
-      "links_external": 19,
+      "links_external": 20,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 25
+      "candidate_numeric_legal_mentions": 29
     },
     {
       "file": "debiti-guida-09-a-chi-rivolgersi.html",
