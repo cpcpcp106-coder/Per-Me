@@ -1,9 +1,9 @@
 {
   "audit_date": "2026-10-15",
   "scope": "Campione ampliato alle rubriche lavoro, pensioni e debiti. Non costituisce una verifica atomica ESAUSTIVA delle guide: atti individuali, esempi e deroghe restano da verificare.",
-  "count": 58,
+  "count": 62,
   "counts": {
-    "CONFERMATO": 57,
+    "CONFERMATO": 61,
     "NON_VERIFICABILE": 1
   },
   "fully_exhaustive": false,
@@ -41,7 +41,11 @@
     "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html",
     "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html",
     "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
-    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html"
+    "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html",
+    "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
+    "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
+    "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.riforma-della-disabilit-al-via-la-terza-fase-sperimentale.html",
+    "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/pubblicazioni/Rassegna_Medicina_Legale_num_0_2025-2026.pdf"
   ],
   "records": [
     {
@@ -565,6 +569,42 @@
       "source": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html",
       "date": "2026-10-15",
       "note": "Controllata la formulazione generale contro fonte istituzionale; requisiti individuali e deroghe esclusi dal presente riscontro."
+    },
+    {
+      "id": "C59",
+      "path": "debiti-guida-02-controllare-debiti.html",
+      "claim": "Il servizio AdeR Situazione debitoria - consulta e paga mostra debiti, rateizzazioni e procedure in corso e richiede accesso all'area riservata.",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale sulla fonte pubblica INPS/AdeR, non su un provvedimento individuale."
+    },
+    {
+      "id": "C60",
+      "path": "debiti-guida-02-controllare-debiti.html",
+      "claim": "Il servizio di pagamento AdeR ricalcola importo effettivamente dovuto includendo eventuali sgravi, pagamenti già effettuati e accessori.",
+      "source": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale sulla fonte pubblica INPS/AdeR, non su un provvedimento individuale."
+    },
+    {
+      "id": "C61",
+      "path": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "claim": "Riforma disabilità: nelle province aderenti alla sperimentazione il certificato medico introduttivo avvia il nuovo procedimento di valutazione di base INPS; entrata a regime programmata al 1 gennaio 2027.",
+      "source": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.riforma-della-disabilit-al-via-la-terza-fase-sperimentale.html",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale sulla fonte pubblica INPS/AdeR, non su un provvedimento individuale."
+    },
+    {
+      "id": "C62",
+      "path": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "claim": "Nella valutazione di base riformata il certificato finale è unitario, ma contiene esiti distinti di invalidità civile, legge 104, cecità, sordità e legge 68/1999.",
+      "source": "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/pubblicazioni/Rassegna_Medicina_Legale_num_0_2025-2026.pdf",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale sulla fonte pubblica INPS/AdeR, non su un provvedimento individuale."
     }
   ]
 }
