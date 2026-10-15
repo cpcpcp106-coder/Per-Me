@@ -1,0 +1,33 @@
+name: Per Me - Guida ISEE 2026
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-agevolazioni-01.cjs'
+      - '.github/workflows/audit-agevolazioni.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-agevolazioni-01.cjs'
+      - '.github/workflows/audit-agevolazioni.yml'
+permissions:
+  contents: read
+jobs:
+  structure:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla guida ISEE, link, fonti e scoperta App
+        run: node scripts/audit-agevolazioni-01.cjs
