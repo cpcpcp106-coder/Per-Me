@@ -31,5 +31,20 @@ jobs:
             head -c 450 /tmp/perme-counter-$i 2>/dev/null || true
             printf '\n'
           done
+          echo "=== CORS su contatore esistente (solo lettura) ==="
+          curl -sS -D /tmp/perme-cors-headers -o /dev/null --max-time 20 \
+            -H 'Origin: https://cpcpcp106-coder.github.io' \
+            "$root/perme-stelle-5/debiti-guida-09-a-chi-rivolgersi?readOnly=true"
+          grep -Ei '^(HTTP/|access-control-|cache-control:|content-type:)' /tmp/perme-cors-headers || true
+          echo "=== Prova isolata di incremento (non inclusa nella classifica) ==="
+          probe='perme-probe-stelle-20261015'
+          probe_namespace='perme-probe-collaudo'
+          probe_url="https://counterapi.com/api/$probe_namespace/test/$probe"
+          echo "Prima: "
+          curl -sS --max-time 20 "$probe_url?readOnly=true" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
+          echo "Incremento isolato: "
+          curl -sS --max-time 20 "$probe_url" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
+          echo "Dopo: "
+          curl -sS --max-time 20 "$probe_url?readOnly=true" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
           printf 'Origine pubblica sito: '
           curl -L -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "https://cpcpcp106-coder.github.io/Per-Me/gradimento.js"
