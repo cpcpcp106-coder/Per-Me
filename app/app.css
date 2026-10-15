@@ -29,3 +29,6 @@
 .sync-summary-counts span{display:inline-flex;align-items:center;gap:8px;background:#fff;color:#302c27;border:1px solid #d8c2ab;border-radius:9px;padding:9px 12px;font-size:1rem;line-height:1.4}
 .sync-summary-counts strong{font-size:1.28rem;color:#492d1e}
 .sync-summary-note{font-size:1rem;margin:12px 0 0;line-height:1.5;color:#343b35}
+
+/* Audit WCAG 2.2 AA: collegamento al sito leggibile sul footer scuro della PWA. */
+footer a,footer a:link,footer a:visited{color:#fff3dc;text-decoration:underline;text-underline-offset:3px;font-weight:750}
