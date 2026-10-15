@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T19:42:45.770257+00:00",
+  "date_utc": "2026-10-15T19:45:06.773586+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 389,
-    "occurrences": 711
+    "unique_external_urls": 388,
+    "occurrences": 710
   },
   "counts": {
-    "raggiungibile": 354,
+    "raggiungibile": 353,
     "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
@@ -676,15 +676,6 @@
       "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
-      ]
-    },
-    {
-      "url": "https://sapermangiare.an.crea.gov.it/483/linee-guida.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://sapermangiare.an.crea.gov.it/483/linee-guida.html",
-      "pages": [
-        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
