@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T09:47:07.411Z",
+  "checked_at_utc": "2026-10-15T09:55:56.339Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -42,10 +42,6 @@
             "page": "agevolazioni-guida-01-isee-corrente.html",
             "violations": [
               {
-                "id": "color-contrast",
-                "nodes": 6
-              },
-              {
                 "id": "target-size",
                 "nodes": 1
               }
@@ -81,10 +77,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "31 pagine salvate per la lettura offline · controllo online 15 ott, 09:47.",
+        "status": "31 pagine salvate per la lettura offline · controllo online 15 ott, 09:56.",
         "stored": {
           "guides": 31,
-          "updated": "2026-10-15T09:47:19.038Z",
+          "updated": "2026-10-15T09:56:09.978Z",
           "bytes": 566343,
           "includesNew09": true
         }
@@ -159,33 +155,6 @@
     {
       "page": "agevolazioni-guida-01-isee-corrente.html",
       "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".isee-guide-nav:nth-child(5) > a:nth-child(1)"
-            ],
-            [
-              "a[href$=\"#requisiti\"]"
-            ],
-            [
-              "a[href$=\"#documenti\"]"
-            ],
-            [
-              "a[href$=\"#domanda\"]"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
-            ],
-            [
-              "nav[aria-label=\"Navigazione finale\"] > a[href$=\"#contenuto\"]"
-            ]
-          ],
-          "total": 6
-        },
         {
           "id": "target-size",
           "impact": "serious",
