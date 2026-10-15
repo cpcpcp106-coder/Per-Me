@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T20:39:43+00:00",
+  "date_utc": "2026-10-15T20:44:33+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 53,
-    "editorial_pages": 51,
+    "html_total": 54,
+    "editorial_pages": 52,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1626,
-    "external_occurrences": 726,
-    "external_unique": 397,
+    "local_occurrences": 1659,
+    "external_occurrences": 735,
+    "external_unique": 403,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -48,6 +48,7 @@
       "debiti-guida-08-sovraindebitamento.html",
       "debiti-guida-09-a-chi-rivolgersi.html",
       "diabete-guida-01-cause-sintomi-diagnosi.html",
+      "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -101,6 +102,7 @@
       "debiti-guida-08-sovraindebitamento.html",
       "debiti-guida-09-a-chi-rivolgersi.html",
       "diabete-guida-01-cause-sintomi-diagnosi.html",
+      "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -654,6 +656,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "title": "Glicemia, HbA1c, sensori e regola del 15 | Per Me · Diabete Guida 02",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 33,
+      "links_external": 9,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "diabete-tipo-2.html",
