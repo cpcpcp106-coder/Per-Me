@@ -1,13 +1,12 @@
 {
-  "date_utc": "2026-10-15T08:00:38.751282+00:00",
+  "date_utc": "2026-10-15T08:52:19.284391+00:00",
   "scope": {
     "pages": 36,
-    "unique_external_urls": 224,
-    "occurrences": 452
+    "unique_external_urls": 226,
+    "occurrences": 454
   },
   "counts": {
-    "raggiungibile": 223,
-    "bloccato_o_riservato": 1
+    "raggiungibile": 226
   },
   "results": [
     {
@@ -172,10 +171,19 @@
       ]
     },
     {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-integrale-2026-10-14-v2.md",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-integrale-2026-10-14-v2.md",
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
@@ -190,10 +198,19 @@
       ]
     },
     {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/interventi-autonomi-2026-10-14.md",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/interventi-autonomi-2026-10-14.md",
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
       ]
@@ -994,8 +1011,9 @@
     },
     {
       "url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
       "pages": [
         "dieta-mediterranea-ricette.html"
       ]
