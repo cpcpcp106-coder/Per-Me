@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T17:45:15.387510+00:00",
+  "date_utc": "2026-10-15T17:47:16.051436+00:00",
   "scope": {
     "pages": 48,
-    "unique_external_urls": 334,
-    "occurrences": 630
+    "unique_external_urls": 336,
+    "occurrences": 632
   },
   "counts": {
-    "raggiungibile": 316,
-    "bloccato_o_riservato": 14,
+    "raggiungibile": 320,
+    "bloccato_o_riservato": 12,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -432,6 +432,15 @@
       "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
       "pages": [
         "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/digital-competence-framework-digcomp/digcomp-30_en",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/digital-competence-framework-digcomp/digcomp-30_en",
+      "pages": [
+        "tutor-ai.html"
       ]
     },
     {
@@ -3258,8 +3267,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -3267,8 +3277,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
@@ -3293,6 +3304,15 @@
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "pages": [
+        "tutor-ai.html"
       ]
     }
   ],
