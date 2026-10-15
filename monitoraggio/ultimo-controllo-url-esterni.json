@@ -1,15 +1,14 @@
 {
-  "date_utc": "2026-10-15T15:39:33.654949+00:00",
+  "date_utc": "2026-10-15T15:41:02.878883+00:00",
   "scope": {
     "pages": 45,
     "unique_external_urls": 310,
     "occurrences": 596
   },
   "counts": {
-    "raggiungibile": 298,
+    "raggiungibile": 300,
     "bloccato_o_riservato": 9,
-    "non_verificato_trasporto": 1,
-    "errore_http": 2
+    "non_verificato_trasporto": 1
   },
   "results": [
     {
@@ -239,8 +238,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
       "pages": [
         "monitoraggio.html"
       ]
@@ -256,8 +256,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
       ]
