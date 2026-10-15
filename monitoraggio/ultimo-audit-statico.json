@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T17:37:48+00:00",
+  "date_utc": "2026-10-15T17:43:47+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 48,
@@ -7,12 +7,19 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1427,
+    "local_occurrences": 1430,
     "external_occurrences": 630,
     "external_unique": 334,
     "actions": 7,
     "broken_local": [],
-    "broken_anchors": []
+    "broken_anchors": [
+      {
+        "page": "tutor-ai.html",
+        "ref": "#verifica-apprendimento",
+        "target": "tutor-ai.html",
+        "anchor": "verifica-apprendimento"
+      }
+    ]
   },
   "seo": {
     "indexable_pages": [
@@ -846,7 +853,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 27,
+      "links_local": 30,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
