@@ -87,7 +87,7 @@ assert.ok(/^\\d{4}-\\d{2}-\\d{2}$/.test(ledger.ultimo_controllo),'Manca data di 
 const expected={'inps_trattamento_minimo':'611,85','inps_assegno_sociale':'546,24','inps_maggiorazione_sociale_incremento_2026':'+20','arera_bonus_sociali_isee_ordinario':'9.796','inps_carta_acquisti_anziani':'80','inps_carta_dedicata_a_te':'500','inps_adi_isee':'10.140','istat_alimenti_non_lavorati_settembre_2026':'+5,5'};
 for(const [key,value] of Object.entries(expected)){
  const item=ledger.dati.find(d=>d.chiave===key);
- assert.ok(item&&item.valore===value&&/^https:\\/\\//.test(item.fonte)&&item.riesame,'Fonte, importo o revisione mancante: '+key);
+ assert.ok(item&&item.valore===value&&item.fonte.startsWith('https://')&&item.riesame,'Fonte, importo o revisione mancante: '+key);
 }
 assert.ok(ledger.dati.find(x=>x.chiave.startsWith('istat_')).stato.includes('PROVVISORIO'),'Dati provvisori ISTAT non dichiarati');
 for(const str of ['id="dati-aggiornati"','611,85','546,24','5,5%','16 ottobre 2026','ogni mese'])
