@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T18:32:00+00:00",
+  "date_utc": "2026-10-15T18:36:52+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 51,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1514,
-    "external_occurrences": 672,
-    "external_unique": 363,
+    "local_occurrences": 1515,
+    "external_occurrences": 678,
+    "external_unique": 366,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -98,7 +98,9 @@
       "debiti-guida-07-banche-bollette.html",
       "debiti-guida-08-sovraindebitamento.html",
       "debiti-guida-09-a-chi-rivolgersi.html",
+      "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
+      "dieta-mediterranea-scientifica.html",
       "index.html",
       "inps-prestazione-sospesa-respinta-cosa-fare.html",
       "metodo.html",
@@ -109,16 +111,13 @@
       "riesame-ricorso-inps-termini.html",
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
+      "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "diabete-tipo-2.html",
-      "dieta-mediterranea-scientifica.html",
-      "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -643,8 +642,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 18,
-      "links_external": 7,
+      "links_local": 19,
+      "links_external": 10,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -674,7 +673,7 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 18,
-      "links_external": 14,
+      "links_external": 17,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
