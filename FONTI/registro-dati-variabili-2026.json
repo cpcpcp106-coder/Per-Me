@@ -1,0 +1,90 @@
+{
+  "progetto": "Per Me",
+  "territorio": "Italia (nazionale)",
+  "ultimo_controllo": "2026-10-15",
+  "metodo": "I dati cambiano: confrontare sempre l'ultima fonte ufficiale; gli indici ISTAT non sono prezzi al dettaglio dei singoli prodotti. Non sostituire automaticamente gli importi delle pagine senza verifica dei requisiti.",
+  "prossimo_controllo": {
+    "istat_settembre_dato_definitivo": "2026-10-16",
+    "ricognizione_mensile": "2026-10-18",
+    "pensioni_rivalutazione_annuale": "alle circolari ufficiali INPS di fine 2026/inizio 2027"
+  },
+  "dati": [
+    {
+      "chiave": "inps_trattamento_minimo",
+      "anno": 2026,
+      "valore": "611,85",
+      "unita": "EUR/mese",
+      "mensilita": 13,
+      "stato": "valore base provvisorio 2026, non importo garantito a ogni persona",
+      "fonte": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.pensioni-2026-i-nuovi-importi-e-le-date-di-pagamento.html",
+      "riesame": "annuale o nuova circolare"
+    },
+    {
+      "chiave": "inps_assegno_sociale",
+      "anno": 2026,
+      "valore": "546,24",
+      "unita": "EUR/mese in misura piena",
+      "mensilita": 13,
+      "stato": "dipende da requisiti anagrafici, reddituali e di soggiorno",
+      "fonte": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html",
+      "riesame": "annuale o variazione normativa"
+    },
+    {
+      "chiave": "inps_maggiorazione_sociale_incremento_2026",
+      "anno": 2026,
+      "valore": "+20",
+      "unita": "EUR/mese",
+      "stato": "incremento dell'incremento della maggiorazione sociale per aventi diritto, non aumento di ogni pensione",
+      "fonte": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
+      "riesame": "annuale o nuova legge"
+    },
+    {
+      "chiave": "arera_bonus_sociali_isee_ordinario",
+      "anno": 2026,
+      "valore": "9.796",
+      "unita": "EUR ISEE",
+      "stato": "soglia ordinaria; famiglie con almeno 4 figli a carico e casi speciali hanno discipline distinte",
+      "fonte": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "riesame": "alla delibera annuale o normativa"
+    },
+    {
+      "chiave": "inps_carta_acquisti_anziani",
+      "anno": 2026,
+      "valore": "80",
+      "unita": "EUR ogni 2 mesi",
+      "stato": "eta 65+ e requisiti economici, patrimoniali e ulteriori; non automatica",
+      "fonte": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html",
+      "riesame": "annuale o nuova norma"
+    },
+    {
+      "chiave": "inps_carta_dedicata_a_te",
+      "anno": 2026,
+      "valore": "500",
+      "unita": "EUR/anno",
+      "stato": "selezione automatica nuclei eleggibili, incompatibilita con altre prestazioni; non diritto universale dei pensionati soli",
+      "fonte": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.carta-dedicata-a-te-modalit-operative-per-il-2026-2027.html",
+      "riesame": "alle nuove comunicazioni 2026-2027"
+    },
+    {
+      "chiave": "inps_adi_isee",
+      "anno": 2026,
+      "valore": "10.140",
+      "unita": "EUR ISEE",
+      "stato": "limite con altri requisiti, indicatore specifico per ADI ove applicabile",
+      "fonte": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
+      "riesame": "annuale o modifica normativa"
+    },
+    {
+      "chiave": "istat_alimenti_non_lavorati_settembre_2026",
+      "anno": 2026,
+      "valore": "+5,5",
+      "unita": "% tendenziale anno su anno",
+      "periodo": "2026-09",
+      "stato": "PROVVISORIO; indice aggregato, NON prezzo di singoli alimenti",
+      "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
+      "pubblicato": "2026-09-30",
+      "riesame": "2026-10-16 (diffusione dati definitivi)"
+    }
+  ],
+  "politica_ricette": "Nessun costo per porzione senza prezzo osservato, luogo/contesto, data e quantità edibile; non trattare il reddito nominale come spesa effettivamente disponibile; evidenziare alternative e rischi di malnutrizione."
+}
