@@ -27,7 +27,9 @@ assert.ok(!guide.includes('noindex,nofollow'),'Guida autonoma indicizzabile');
 const must=[
  '31 dicembre 2024','31 dicembre 2025','31 dicembre 2026','superiore al 25%',
  'superiore al 20%','dal 1° aprile','ultimi 2 mesi','ultimi 12 mesi',
- '6 mesi','entro due mesi','documenti','modello MS'
+ '6 mesi','entro due mesi','documenti','modello MS',
+ '120 giorni','12 mesi continuativi','ragione della condizione di disabilità',
+ 'Se aggiorni prima il reddito e poi il patrimonio','non compresi nel reddito complessivo ai fini IRPEF'
 ];
 for(const key of must)assert.ok(guide.includes(key),'Contenuto essenziale mancante: '+key);
 assert.ok((guide.match(/<section\b/g)||[]).length>=11,'Minimo 11 blocchi tematici');
@@ -37,3 +39,4 @@ assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']")
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App estrae i link guide dalle rubriche');
 console.log('PASS: Guida 01 ISEE 2026, navigazione, fonti, contenuti chiave, indicizzazione e scoperta dalla PWA.');
 console.log('Limiti: il test non misura accuratezza dei link remoti, resa visiva o memorizzazione reale offline su Android.');
+assert.ok(guide.includes('Decreto-Dip-3-del-02032026-ISEE.pdf'),'Testo normativo integrale mancante');
