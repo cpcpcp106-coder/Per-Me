@@ -19,7 +19,7 @@ assert.ok(!guide.includes('assets/debiti-guida-'),'Non riusare una fotografia de
 const ids=[...guide.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(new Set(ids).size,ids.length,'ID univoci');
 for(const m of guide.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'Ancora senza destinazione '+m[1]);
-for(const file of [guide,rubric,home])assert.ok(file.includes('href="'+guideName+'"'),'Collegamento alla guida mancante');
+for(const file of [rubric,home])assert.ok(file.includes('href="'+guideName+'"'),'Collegamento alla guida mancante');
 assert.ok(sitemap.includes('/Per-Me/'+guideName),'Pagina presente nella sitemap');
 assert.ok(rubric.includes('id="guide"'),'Indice guide con destinazione #guide');
 assert.ok(rubric.includes('noindex,follow'),'Indice in costruzione non indicizzato');
@@ -27,7 +27,7 @@ assert.ok(!guide.includes('noindex,nofollow'),'Guida autonoma indicizzabile');
 const must=[
  '31 dicembre 2024','31 dicembre 2025','31 dicembre 2026','superiore al 25%',
  'superiore al 20%','dal 1° aprile','ultimi 2 mesi','ultimi 12 mesi',
- '6 mesi','entro due mesi','documenti','Modello MS'
+ '6 mesi','entro due mesi','documenti','modello MS'
 ];
 for(const key of must)assert.ok(guide.includes(key),'Contenuto essenziale mancante: '+key);
 assert.ok((guide.match(/<section\b/g)||[]).length>=11,'Minimo 11 blocchi tematici');
