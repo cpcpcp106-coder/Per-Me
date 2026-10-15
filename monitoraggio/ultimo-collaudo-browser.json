@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T09:39:12.483Z",
+  "checked_at_utc": "2026-10-15T09:44:01.689Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -12,8 +12,8 @@
       "name": "home_overflow_mobile",
       "result": "PASS",
       "details": {
-        "width": 390,
-        "scrollWidth": 390
+        "width": 418,
+        "scrollWidth": 418
       }
     },
     {
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 09:39.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 09:44.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T09:39:30.715Z",
+          "updated": "2026-10-15T09:44:13.110Z",
           "bytes": 547191,
           "includesNew09": true
         }
