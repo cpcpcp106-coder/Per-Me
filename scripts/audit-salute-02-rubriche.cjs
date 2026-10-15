@@ -37,7 +37,8 @@ for(const x of ['112 o il 118','angioplastica','bypass','angina','scompenso','di
 for(const host of ['www.salute.gov.it','www.escardio.org'])assert.ok(cardiology.includes(host),'Fonti cardio mancanti: '+host);
 assert.ok(/non significa che ogni cardiopatia/i.test(cardiology),'Confusione causa diabete');
 assert.ok(diab.includes('non tutte le neuropatie')&&diab.includes('rischio aumenta'),'Differenze causali patologie non chiarite');
-assert.ok(diab.includes('10 guide')&&med.includes('8 guide'),'Calendario guide non esplicitato');
+assert.equal((diab.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,10,'Dieci guide diabete pianificate');
+assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
 assert.ok(med.includes('10.1016/S0140-6736(19)30041-8'),'DOI Lancet mancante');
