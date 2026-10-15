@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T07:07:41+00:00",
+  "date_utc": "2026-10-15T07:39:24+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 36,
@@ -92,7 +92,7 @@
     "service_worker_shell_files": [
       "./",
       "./index.html",
-      "./app.css?v=7",
+      "./app.css?v=8",
       "./main.js?v=8",
       "./manifest.webmanifest",
       "./icon-192.png",
