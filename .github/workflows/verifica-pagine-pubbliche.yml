@@ -35,7 +35,6 @@ jobs:
             "agevolazioni-guida-03-trasporti-fvg.html"
             "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
             "app/"
-            "statistiche.html"
           )
           # Su una PR la nuova guida non esiste ancora sul sito pubblico.
           # Verificala esclusivamente dopo il merge (push main), quando Pages la distribuisce.
@@ -68,9 +67,11 @@ jobs:
           fi
           # Diagnostica non bloccante: servizio esterno e CORS (lettura senza incrementare).
           for action in visita installazione; do
+            key="per-me"
+            if [[ "$action" == "visita" ]]; then key="per-me-visite-da-zero-20261015"; fi
             curl -sS -L --max-time 20 -H 'Origin: https://cpcpcp106-coder.github.io' \
               -D "/tmp/per-me-${action}.headers" -o "/tmp/per-me-${action}.json" \
-              "https://counterapi.com/api/cpcpcp106-coder.github.io/${action}/per-me?readOnly=true" || true
+              "https://counterapi.com/api/cpcpcp106-coder.github.io/${action}/${key}?readOnly=true" || true
             echo "Contatore ${action}:"
             head -c 250 "/tmp/per-me-${action}.json" 2>/dev/null || true
             echo
