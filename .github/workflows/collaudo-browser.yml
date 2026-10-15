@@ -11,6 +11,7 @@ on:
       - "sitemap.xml"
       - "monitoraggio/collaudo_browser.cjs"
       - "monitoraggio/verifica_url_esterni.py"
+      - "monitoraggio/pubblica_report.sh"
       - ".github/workflows/collaudo-browser.yml"
 permissions:
   contents: write
@@ -41,11 +42,4 @@ jobs:
       - name: Archivia risultati con controlli non superati espliciti
         if: always()
         run: |
-          git config user.name "per-me-audit"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add monitoraggio/ultimo-collaudo-browser.json monitoraggio/ultimo-controllo-url-esterni.json
-          if ! git diff --cached --quiet; then
-            git commit -m "Per Me: evidenze browser e collegamenti esterni"
-            git pull --rebase origin main
-            git push origin HEAD:main
-          fi
+          bash monitoraggio/pubblica_report.sh "Per Me: evidenze browser e collegamenti esterni" monitoraggio/ultimo-collaudo-browser.json monitoraggio/ultimo-controllo-url-esterni.json
