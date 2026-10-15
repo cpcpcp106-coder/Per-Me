@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="Tutor AI essenziale: cinque richieste già pronte da copiare, istruzioni per il cellulare, privacy e controlli sulle fonti ufficiali.">
+  <meta name="description" content="Tutor AI essenziale: percorso guidato con sei prompt copiabili, obiettivi, esempi, autoverifica, privacy e controllo delle fonti. Anche nella PWA offline.">
   <title>Tutor AI essenziale: primi passi ed esempi pratici | Per Me</title>
   <link rel="stylesheet" href="style.css?v=logo-proporzionato-20261014">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
@@ -20,6 +20,19 @@
     .rubrica-ai .article blockquote[id^="prompt-"]{border-left-color:#28513b;background:#f2f7f1;user-select:text;-webkit-user-select:text}
     .rubrica-ai .article .tutor-action{touch-action:manipulation}
     .rubrica-ai .article #copia-stato{padding:10px 12px;background:#f6f0e8;border-radius:8px;min-height:48px}
+    .rubrica-ai .tutor-obiettivi,.rubrica-ai .tutor-verifica{background:#f6f5ec;border:1px solid #cbc9ad;border-radius:10px;padding:20px 22px;margin:24px 0}
+    .rubrica-ai .tutor-obiettivi h2,.rubrica-ai .tutor-verifica h2{margin-top:0}
+    .rubrica-ai .tutor-obiettivi li{margin:8px 0}
+    .rubrica-ai .tutor-modello{border:1px solid #d5c4af;border-radius:10px;padding:18px 20px;margin:18px 0;background:#fffaf4}
+    .rubrica-ai .tutor-modello dt{font-weight:800;margin-top:11px}
+    .rubrica-ai .tutor-modello dd{margin-left:0}
+    .rubrica-ai .article details{margin:16px 0;padding:14px 17px;border:1px solid #d8c6b0;border-radius:8px;background:#fffaf3}
+    .rubrica-ai .article details summary{font-weight:800;cursor:pointer;min-height:40px;padding:7px 2px}
+    .rubrica-ai .article details summary:focus-visible{outline:3px solid #ad793f;outline-offset:2px}
+    .rubrica-ai .tutor-score{font-weight:750}
+    .rubrica-ai .tutor-context{font-size:1rem}
+    .rubrica-ai .tutor-link{display:inline-block;min-height:44px}
+    @media(max-width:600px){.rubrica-ai .tutor-obiettivi,.rubrica-ai .tutor-verifica,.rubrica-ai .tutor-modello{padding:15px}}
     .rubrica-ai .article li{margin-bottom:12px}
     .rubrica-ai .article blockquote{margin:16px 0;padding:18px 20px;border-left:4px solid #78627b;background:#f0e9f1;color:#392f2a;overflow-wrap:anywhere}
     .rubrica-ai .article blockquote p:last-child{margin-bottom:0}
@@ -43,23 +56,38 @@
     <p class="eyebrow">Rubrica 06 · Primi passi</p>
     <h1>Tutor AI essenziale</h1>
     <p class="lead">Vuoi provare l’intelligenza artificiale senza perderti nelle parole difficili? Comincia con tre attività semplici: capire un avviso, preparare un messaggio e mettere in ordine una lista.</p>
-    <p><strong>Guida pratica già utilizzabile.</strong> Troverai tre esercizi iniziali e due richieste aggiuntive, con pulsanti per copiare il testo. <strong>Il Tutor non è una chat AI incorporata nel sito:</strong> Per Me prepara le istruzioni; le risposte arrivano dal servizio AI che scegli. Non devi acquistare alcun servizio per leggere e copiare gli esempi.</p>
+    <p><strong>Sei prompt pronti da copiare:</strong> tre esercizi di base, due applicazioni pratiche e un prompt per correggere una risposta. <strong>Il Tutor non è una chat AI incorporata nel sito:</strong> Per Me offre le istruzioni, mentre le risposte arrivano dal servizio AI che scegli. Leggere gli esempi non costa nulla e <strong>non richiede di registrarti su Per Me</strong>.</p>
+    <section class="tutor-obiettivi" aria-labelledby="obiettivi-titolo">
+      <h2 id="obiettivi-titolo">Che cosa imparerai</h2>
+      <p class="tutor-context"><strong>Livello iniziale · circa 20–30 minuti, anche a piccole tappe.</strong> Non devi conoscere termini informatici.</p>
+      <p>Alla fine saprai:</p>
+      <ul>
+        <li>scrivere una richiesta chiara che <strong>non inventi dati mancanti</strong>;</li>
+        <li>usare una chat per <strong>riassumere, scrivere e ordinare</strong> informazioni non riservate;</li>
+        <li>riconoscere almeno un errore o un'aggiunta <strong>non presente nel testo originale</strong>;</li>
+        <li>verificare informazioni importanti <strong>aprendo la fonte ufficiale</strong>, senza affidarti alla sola AI.</li>
+      </ul>
+      <p>Puoi esercitarti anche <strong>senza aprire una chat</strong>, leggendo esempi e soluzioni. Non sono previsti esami, attestati o certificazioni.</p>
+    </section>
     <div class="tutor-start" aria-label="Tre passaggi per usare il Tutor AI"><strong>Dal telefono: tre passaggi per cominciare</strong>
     <ol><li>Scegli un esempio qui sotto.</li><li>Tocca <strong>«Copia il prompt»</strong>.</li><li>Apri la chat AI che usi; tieni premuto nel campo di scrittura, scegli <strong>«Incolla»</strong> e invia.</li></ol></div>
-    <p class="tutor-warning"><strong>Proteggi i dati personali:</strong> i cinque esempi sono inventati. Non incollare documenti reali con nomi, codici fiscali, numeri di pratica, dati sanitari o informazioni di familiari. Prima di inviare testi a un servizio esterno elimina ciò che può identificare qualcuno.</p>
+    <p class="tutor-warning"><strong>Proteggi i dati personali:</strong> tutti gli esempi sono inventati. Non incollare documenti reali con nomi, codici fiscali, numeri di pratica, dati sanitari o informazioni di familiari. Prima di inviare testi a un servizio esterno elimina ciò che può identificare qualcuno.</p>
     <div class="tutor-actions"><a class="tutor-action" href="#iniziare">Comincia dal primo passo</a><a class="tutor-action" href="#controllare">Come controllare le risposte</a></div>
     <p id="copia-stato" role="status" aria-live="polite" aria-atomic="true">Puoi anche selezionare e copiare a mano i testi nei riquadri.</p>
     <img class="article-photo" src="assets/foto-7.webp" alt="Due adulti usano insieme un computer" loading="lazy">
     <nav class="tutor-index" aria-label="In questa guida">
       <strong>In questa guida</strong>
       <ol>
+        <li><a href="#obiettivi-titolo">Obiettivi e percorso</a></li>
         <li><a href="#iniziare">Come iniziare e quali dati evitare</a></li>
+        <li><a href="#formula">Come scrivere una richiesta chiara</a></li>
         <li><a href="#avviso">Esercizio 1: capire un avviso</a></li>
         <li><a href="#messaggio">Esercizio 2: preparare un messaggio</a></li>
         <li><a href="#lista">Esercizio 3: organizzare una lista</a></li>
         <li><a href="#domande">Prompt 4: preparare domande per un ufficio</a></li>
         <li><a href="#fonti-prompt">Prompt 5: verificare una risposta</a></li>
         <li><a href="#controllare">Controllare e correggere una risposta</a></li>
+        <li><a href="#verifica-apprendimento">Mettiti alla prova: 4 controlli</a></li>
         <li><a href="#fonti">Fonti e aggiornamento</a></li>
       </ol>
     </nav>
@@ -74,6 +102,16 @@
     </ol>
     <div class="note"><strong>Per queste prove non servono documenti personali.</strong> Evita password, codici di accesso o SPID, codice fiscale, numeri di carte e conti, referti e documenti d’identità. Non incollare dati di altre persone. Per chiedere aiuto sulla forma di un testo, usa segnaposto come [NOME] e [UFFICIO]; togli anche i dettagli che possono rendere riconoscibile qualcuno.</div>
     <p>Leggi come il servizio conserva e utilizza i messaggi e quali impostazioni privacy offre. Togliere soltanto il nome da un documento non garantisce che la persona non sia riconoscibile. Per iniziare, usa gli esempi inventati di questa pagina.</p>
+    <h3 id="formula">La formula per scrivere un buon prompt</h3>
+    <p>Un prompt efficace non ha bisogno di parole complicate. Puoi costruirlo con cinque informazioni, senza inserirne di superflue:</p>
+    <dl class="tutor-modello">
+      <dt>1. Compito</dt><dd>Che cosa vuoi ottenere? Per esempio: «Spiega questo avviso».</dd>
+      <dt>2. Testo di partenza</dt><dd>Quali informazioni può usare l'AI? Inserisci solo un esempio inventato oppure un testo pubblico e non riservato.</dd>
+      <dt>3. Forma</dt><dd>Come vuoi la risposta? Per esempio: «In tre punti, con parole semplici».</dd>
+      <dt>4. Limiti</dt><dd>Che cosa non deve fare? Per esempio: «Non aggiungere scadenze o documenti».</dd>
+      <dt>5. Controllo</dt><dd>Come verificare il risultato? «Se manca un dato, scrivi non indicato»; poi confronta con l'originale.</dd>
+    </dl>
+    <p><strong>Una richiesta più lunga non è necessariamente migliore.</strong> Usa il minimo di informazioni necessario. Se la risposta contiene errori, specifica cosa correggere e confrontala nuovamente con il testo originale.</p>
 
     <h2 id="avviso">2. Capire un avviso senza aggiungere informazioni</h2>
     <p><strong>Obiettivo:</strong> trasformare un breve avviso in parole semplici, mantenendo gli stessi orari. Copia tutto il testo nel riquadro.</p>
@@ -84,6 +122,10 @@
     </blockquote>
     <p><strong>Cosa deve restare nella risposta:</strong> martedì dalle 9 alle 12; appuntamento necessario; richiesta tramite il modulo sul sito dell’ufficio. I documenti da portare non sono indicati.</p>
     <p><strong>Come controllare:</strong> rileggi l’avviso originale. Se l’AI inventa un indirizzo, un numero di telefono o un documento obbligatorio, quella parte non è utilizzabile. Per un avviso reale, cerca i recapiti sul sito ufficiale dell’ufficio.</p>
+    <details><summary>Prova 1: riconosci due errori in una risposta?</summary>
+      <p>Risposta AI <strong>inventata e intenzionalmente errata</strong>: «Lo sportello riceve il lunedì dalle 9 alle 12. Porta il documento di identità».</p>
+      <p><strong>Soluzione:</strong> il giorno corretto è <strong>martedì</strong>, non lunedì; inoltre il documento di identità <strong>non è indicato</strong> nell'avviso. Anche un'indicazione verosimile può essere falsa.</p>
+    </details>
 
     <h2 id="messaggio">3. Preparare un messaggio da rileggere prima dell’invio</h2>
     <p><strong>Obiettivo:</strong> ottenere una bozza cortese per chiedere informazioni, senza raccontare una situazione privata. Copia il testo seguente.</p>
@@ -120,7 +162,7 @@
       <p>Risposta da verificare: [INCOLLA QUI UNA FRASE SENZA DATI PERSONALI]</p>
       <p>Estratto pubblico dell'ente, con data: [INCOLLA QUI IL TESTO UFFICIALE E LA DATA]</p>
     </blockquote>
-    <p><strong>Controllo:</strong> apri personalmente la pagina dell'ente, verifica che l'estratto corrisponda e controlla data e territorio. Una seconda risposta AI non sostituisce la fonte originale.</p>
+    <p><strong>Controllo:</strong> apri personalmente la pagina dell'ente, verifica che l'estratto corrisponda e controlla data e territorio. <strong>Se la fonte non è disponibile o non tratta esattamente quel caso, non concludere che la risposta sia corretta.</strong> Una seconda risposta AI non sostituisce la fonte originale.</p>
     <h2 id="controllare">7. Controlla la risposta prima di usarla</h2>
     <p>L’AI può sbagliare anche quando scrive in modo sicuro. Può inventare fatti, date o fonti. Una risposta ben scritta non basta a renderla corretta.</p>
     <ol>
