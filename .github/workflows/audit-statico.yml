@@ -2,6 +2,8 @@ name: Per Me - Audit statico integrale
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "*.html"
       - "app/**"
@@ -13,10 +15,11 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: per-me-audit-statico
+  group: per-me-evidenze-main
   cancel-in-progress: false
 jobs:
   audit:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
