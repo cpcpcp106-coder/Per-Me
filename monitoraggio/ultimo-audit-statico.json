@@ -1,21 +1,22 @@
 {
-  "date_utc": "2026-10-15T09:43:31+00:00",
+  "date_utc": "2026-10-15T09:46:35+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 36,
-    "editorial_pages": 34,
+    "html_total": 37,
+    "editorial_pages": 35,
     "guide_pages": 23
   },
   "links": {
-    "local_occurrences": 1003,
-    "external_occurrences": 458,
-    "external_unique": 230,
+    "local_occurrences": 1022,
+    "external_occurrences": 478,
+    "external_unique": 237,
     "actions": 32,
     "broken_local": [],
     "broken_anchors": []
   },
   "seo": {
     "indexable_pages": [
+      "agevolazioni-guida-01-isee-corrente.html",
       "aoi-invalidita-civile-differenze.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -42,6 +43,7 @@
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
     "sitemap_pages": [
+      "agevolazioni-guida-01-isee-corrente.html",
       "aoi-invalidita-civile-differenze.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -112,7 +114,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 10,
+      "links_local": 11,
       "links_external": 5,
       "missing_local": 0,
       "noindex": true,
@@ -120,6 +122,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "agevolazioni-guida-01-isee-corrente.html",
+      "title": "ISEE ordinario e corrente 2026: requisiti, documenti e domanda | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 17,
+      "links_external": 20,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 9
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
@@ -457,7 +474,7 @@
       "h1": 1,
       "images": 9,
       "images_without_alt": 0,
-      "links_local": 31,
+      "links_local": 32,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
