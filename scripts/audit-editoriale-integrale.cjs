@@ -1,7 +1,8 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
-const names=fs.readdirSync(root).filter(x=>x.endsWith('.html')&&!x.startsWith('google')).sort();
+const names=fs.readdirSync(root).filter(x=>x.endsWith('.html')&&!x.startsWith('google')&&!x.startsWith('contatori-per-me-')).sort();
+// Il pannello contatori e' una pagina tecnica con noindex: non e' una guida editoriale.
 const codeFor=file=>fs.readFileSync(path.join(root,file),'utf8');
 const unique=x=>[...new Set(x)];
 const getIds=html=>new Set([...html.matchAll(/\bid=["']([^"']+)["']/g)].map(m=>m[1]));
