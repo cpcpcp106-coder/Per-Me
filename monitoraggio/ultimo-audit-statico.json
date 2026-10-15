@@ -1,16 +1,16 @@
 {
-  "date_utc": "2026-10-15T12:12:26+00:00",
+  "date_utc": "2026-10-15T12:43:06+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 40,
-    "editorial_pages": 38,
-    "guide_pages": 26
+    "html_total": 41,
+    "editorial_pages": 39,
+    "guide_pages": 27
   },
   "links": {
-    "local_occurrences": 1076,
-    "external_occurrences": 543,
-    "external_unique": 267,
-    "actions": 34,
+    "local_occurrences": 1097,
+    "external_occurrences": 570,
+    "external_unique": 281,
+    "actions": 37,
     "broken_local": [],
     "broken_anchors": []
   },
@@ -19,6 +19,7 @@
       "agevolazioni-guida-01-isee-corrente.html",
       "agevolazioni-guida-02-bonus-sociali.html",
       "agevolazioni-guida-03-trasporti-fvg.html",
+      "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
       "aoi-invalidita-civile-differenze.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -48,6 +49,7 @@
       "agevolazioni-guida-01-isee-corrente.html",
       "agevolazioni-guida-02-bonus-sociali.html",
       "agevolazioni-guida-03-trasporti-fvg.html",
+      "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
       "aoi-invalidita-civile-differenze.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -118,7 +120,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 13,
+      "links_local": 14,
       "links_external": 5,
       "missing_local": 0,
       "noindex": true,
@@ -171,6 +173,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 20
+    },
+    {
+      "file": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "title": "Esenzioni ticket sanitari FVG 2026: reddito, diabete, invalidità | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 20,
+      "links_external": 27,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 8
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
