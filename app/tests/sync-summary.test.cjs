@@ -60,5 +60,12 @@ test('Il Tutor AI puo copiare sei prompt anche offline',()=>{
  for(const id of ['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione'])
   assert.ok(main.includes("'"+id+"'"),id);
  assert.ok(css.includes('.reader-content .prompt-copy'));
- assert.ok(sw.includes('perme-reader-v12-20261015-tutor'));
+ assert.ok(sw.includes('perme-reader-v13-20261015-otto-rubriche'));
+});
+
+test('Otto rubriche indipendenti e nessuna sovrascrittura categoria delle guide',()=>{
+ for(const pair of ["['diabete-tipo-2.html','Diabete tipo 2']","['dieta-mediterranea-scientifica.html','Dieta mediterranea scientifica']"])
+  assert.ok(main.includes(pair),pair);
+ assert.ok(main.includes('!pages.has(found)'),'Una rubrica non deve riclassificare guide gia trovate');
+ assert.ok(html.includes('delle otto rubriche'));
 });
