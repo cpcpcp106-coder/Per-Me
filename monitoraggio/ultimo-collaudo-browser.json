@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T18:30:47.333Z",
+  "checked_at_utc": "2026-10-15T18:32:34.848Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -77,11 +77,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 18:31.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 18:32.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T18:31:11.408Z",
-          "bytes": 808699,
+          "updated": "2026-10-15T18:32:59.801Z",
+          "bytes": 813946,
           "includesNew09": true
         }
       }
@@ -392,7 +392,7 @@
     {
       "page": "dieta-mediterranea-scientifica.html",
       "violations": [],
-      "passes": 19,
+      "passes": 20,
       "incomplete": 1
     },
     {
