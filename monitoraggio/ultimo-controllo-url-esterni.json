@@ -1,15 +1,14 @@
 {
-  "date_utc": "2026-10-15T16:29:50.040815+00:00",
+  "date_utc": "2026-10-15T16:31:22.149161+00:00",
   "scope": {
     "pages": 46,
-    "unique_external_urls": 314,
-    "occurrences": 600
+    "unique_external_urls": 316,
+    "occurrences": 603
   },
   "counts": {
-    "raggiungibile": 297,
+    "raggiungibile": 303,
     "bloccato_o_riservato": 9,
-    "non_verificato_trasporto": 3,
-    "errore_http": 5
+    "non_verificato_trasporto": 4
   },
   "results": [
     {
@@ -239,40 +238,45 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
       ]
@@ -1037,8 +1041,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/decadenza/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/decadenza/",
       "pages": [
         "debiti-guida-04-rateizzazione.html",
         "debiti-guida-04-rateizzazione.html"
@@ -1447,6 +1452,15 @@
       "final_url": "https://www.garanteprivacy.it/temi/assistenti-digitali",
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/gu/1978/07/29/211/sg/pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/gu/1978/07/29/211/sg/pdf",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
@@ -2705,10 +2719,19 @@
       ]
     },
     {
+      "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
       "url": "https://www.mit.gov.it/node/13118",
       "status": "non_verificato_trasporto",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
       "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
@@ -3099,9 +3122,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
