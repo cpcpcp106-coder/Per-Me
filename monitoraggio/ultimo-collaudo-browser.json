@@ -1,0 +1,161 @@
+{
+  "checked_at_utc": "2026-10-15T07:36:08.461Z",
+  "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
+  "status": "COMPLETED",
+  "tests": [
+    {
+      "name": "home_load",
+      "result": "PASS",
+      "details": "Per Me — Capire cosa fare"
+    },
+    {
+      "name": "home_overflow_mobile",
+      "result": "PASS",
+      "details": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "published_html_http_local",
+      "result": "PASS",
+      "details": {
+        "count": 34,
+        "failures": []
+      }
+    },
+    {
+      "name": "guide_09_load",
+      "result": "PASS",
+      "details": "A chi rivolgersi per debiti e cartelle"
+    },
+    {
+      "name": "guide09_overflow_mobile",
+      "result": "PASS",
+      "details": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "manifest_and_app_id",
+      "result": "PASS",
+      "details": {
+        "id": "./",
+        "start": "./",
+        "icons": 3
+      }
+    },
+    {
+      "name": "sync_and_persist_localStorage",
+      "result": "PASS",
+      "details": {
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:36.",
+        "stored": {
+          "guides": 30,
+          "updated": "2026-10-15T07:36:11.459Z",
+          "bytes": 524806,
+          "includesNew09": true
+        }
+      }
+    },
+    {
+      "name": "service_worker_registration",
+      "result": "PASS",
+      "details": true
+    },
+    {
+      "name": "offline_shell_and_catalogue",
+      "result": "PASS",
+      "details": {
+        "count": 30
+      }
+    },
+    {
+      "name": "offline_guide_readable",
+      "result": "PASS",
+      "details": {
+        "title": "Agevolazioni e diritti",
+        "chars": 1319
+      }
+    },
+    {
+      "name": "app_back_online_after_offline",
+      "result": "PASS",
+      "details": "App reopened after offline test"
+    }
+  ],
+  "axe": [
+    {
+      "page": "home",
+      "violations": [],
+      "passes": 18,
+      "incomplete": 0
+    },
+    {
+      "page": "guida09",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".eyebrow"
+            ],
+            [
+              "nav[aria-label=\"Percorso delle guide\"] > a[href=\"debiti-cartelle.html#guide\"]"
+            ],
+            [
+              "nav[aria-label=\"Percorso delle guide\"] > a:nth-child(2)"
+            ],
+            [
+              "#ader > .g09-detail > p:nth-child(4) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ],
+            [
+              ".g09-detail > p:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ],
+            [
+              "#patronato > .g09-detail > p:nth-child(4) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine delle nove guide\"] > a[href=\"debiti-cartelle.html#guide\"]"
+            ],
+            [
+              "nav[aria-label=\"Fine delle nove guide\"] > a:nth-child(2)"
+            ]
+          ],
+          "total": 8
+        }
+      ],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "app-catalogue",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href=\"../index.html\"]"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 25,
+      "incomplete": 0
+    }
+  ],
+  "page_errors": [],
+  "limitations": [
+    "Non certifica installazione di icona PWA su telefono Samsung",
+    "Non certifica WCAG 2.2 AA con lettore schermo e tastiera fisica",
+    "Non verifica semanticamente ogni fonte normativa"
+  ]
+}

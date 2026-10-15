@@ -1,0 +1,2230 @@
+{
+  "date_utc": "2026-10-15T07:36:38.174111+00:00",
+  "scope": {
+    "pages": 36,
+    "unique_external_urls": 221,
+    "occurrences": 444
+  },
+  "counts": {
+    "raggiungibile": 221
+  },
+  "results": [
+    {
+      "url": "https://cafuil.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://cafuil.it/",
+      "pages": [
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "pages": [
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/diritti-e-tutele/arbitro-bancario-finanziario/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://economiapertutti.bancaditalia.it/aree-tematiche/diritti-e-tutele/arbitro-bancario-finanziario/",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/prestiti/sovraindebitamento/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://economiapertutti.bancaditalia.it/aree-tematiche/prestiti/sovraindebitamento/index.html",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://extranet.cafuil.it/sediuil/sedi.asp",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://extranet.cafuil.it/sediuil/sedi.asp",
+      "pages": [
+        "agevolazioni-diritti.html",
+        "aoi-invalidita-civile-differenze.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "come-leggere-busta-paga.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "dal-lordo-al-netto.html",
+        "debiti-cartelle.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "index.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "riesame-ricorso-inps-termini.html",
+        "soldi-lavoro.html",
+        "stipendio-diminuito-cosa-controllare.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-integrale-2026-10-14-v2.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-integrale-2026-10-14-v2.md",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/interventi-autonomi-2026-10-14.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/interventi-autonomi-2026-10-14.md",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente",
+      "pages": [
+        "come-leggere-busta-paga.html",
+        "dal-lordo-al-netto.html",
+        "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
+      "pages": [
+        "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&iIDDalPortale=&iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+95+del+31-07-2014.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&iIDDalPortale=&iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+95+del+31-07-2014.htm",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+253+del+9-10-1993.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+253+del+9-10-1993.htm",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+262+del+3-12-1984.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+262+del+3-12-1984.htm",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+34+del+23-02-2018.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+34+del+23-02-2018.htm",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/visualizzadoc.aspx?sVirtuAlURL=%2Fcircolari%2FCircolare+numero+119+del+27-5-1993.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/visualizzadoc.aspx?sVirtuAlURL=%2Fcircolari%2FCircolare+numero+119+del+27-5-1993.htm",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
+      "pages": [
+        "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://tribunale-foggia.giustizia.it/cmsresources/cms/documents/SENT_5_6_2025_RISTRUTT_-_anonima.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tribunale-foggia.giustizia.it/cmsresources/cms/documents/SENT_5_6_2025_RISTRUTT_-_anonima.pdf",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.agcom.it/agcom-per-te/i-miei-diritti/contenzioso-tra-utenti-e-operatori",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agcom.it/agcom-per-te/i-miei-diritti/contenzioso-tra-utenti-e-operatori",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/La-nuova-situazione-debitoria-guida-alla-navigazione/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/La-nuova-situazione-debitoria-guida-alla-navigazione/index.html",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/ambito-applicativo/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/ambito-applicativo/index.html",
+      "pages": [
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/come-pagare/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/come-pagare/",
+      "pages": [
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/comunicazione-delle-somme-dovute/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/comunicazione-delle-somme-dovute/index.html",
+      "pages": [
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/documenti-della-riscossione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/documenti-della-riscossione/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/",
+      "pages": [
+        "debiti-cartelle.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/index.html",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/ultimi-provvedimenti-normativi-riscossione/legge-di-bilancio-2026/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/ultimi-provvedimenti-normativi-riscossione/legge-di-bilancio-2026/",
+      "pages": [
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/ultimi-provvedimenti-normativi-riscossione/legge-n.-88-2026/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/ultimi-provvedimenti-normativi-riscossione/legge-n.-88-2026/index.html",
+      "pages": [
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Pagamenti/pagamenti-a-rate",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Pagamenti/pagamenti-a-rate",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Pagamenti/pagamenti-a-rate/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Pagamenti/pagamenti-a-rate/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/Enti-Rateizzazione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/Enti-Rateizzazione/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/EntiCheNonHannoAutorizzatoRateizzazioneETributiNonRateizzabili/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/EntiCheNonHannoAutorizzatoRateizzazioneETributiNonRateizzabili/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/Proroga/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/Proroga/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-a-semplice-richiesta/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-a-semplice-richiesta/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-documentate-indicatori/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-documentate-indicatori/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-documentate-simula-il-numero-delle-rate/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-documentate-simula-il-numero-delle-rate/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-documentate/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/istanze-documentate/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/la-rateizzazione/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Sospensione/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Sospensione/index.html",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/delega-un-intermediario/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/delega-un-intermediario/index.html",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/notifica-a-mezzo-pec/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/notifica-a-mezzo-pec/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/opera-come-persona-di-fiducia-o-rappresentante/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/opera-come-persona-di-fiducia-o-rappresentante/",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-prima-come-richiedere-i-servizi-di-ader/il-contact-center/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-prima-come-richiedere-i-servizi-di-ader/il-contact-center/index.html",
+      "pages": [
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-documenti-o-informazioni-su-pagamenti-e-procedure/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-documenti-o-informazioni-su-pagamenti-e-procedure/index.html",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-la-sospensione-della-riscossione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-la-sospensione-della-riscossione/",
+      "pages": [
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-lannullamento-del-preavviso-o-la-cancellazione-del-fermo-casi-particolari/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-lannullamento-del-preavviso-o-la-cancellazione-del-fermo-casi-particolari/index.html",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Legge-n.-113-2026-piu-tempo-per-la-Rottamazione-degli-enti-territoriali/",
+      "pages": [
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Online-lelenco-delle-regioni-e-degli-enti-locali-che-hanno-adottato-il-provvedimento-di-Rottamazione-quinquies-per-le-loro-entrate/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Online-lelenco-delle-regioni-e-degli-enti-locali-che-hanno-adottato-il-provvedimento-di-Rottamazione-quinquies-per-le-loro-entrate/",
+      "pages": [
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/imprese/Rateizzazione/Cosa-succede-con-la-presentazione-della-richiesta-di-rateizzazione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/imprese/Rateizzazione/Cosa-succede-con-la-presentazione-della-richiesta-di-rateizzazione/",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/come-leggere-la-cartella/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/come-leggere-la-cartella/index.html",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/cosa-succede-dopo-la-notifica/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/cosa-succede-dopo-la-notifica/index.html",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-01-leggere-cartella.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-terza-e-quarta-pagina/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-terza-e-quarta-pagina/",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Fermo-amministrativo/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Fermo-amministrativo/",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Sospensione-00002/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Sospensione-00002/",
+      "pages": [
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/come-chiedere-la-rateizzazione/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/come-chiedere-la-rateizzazione/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/cosa-succede-dopo-aver-richiesto-la-rateizzazione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/cosa-succede-dopo-aver-richiesto-la-rateizzazione/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/decadenza/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/decadenza/",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/il-pagamento/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/il-pagamento/index.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
+      "pages": [
+        "debiti-cartelle.html",
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-05-rottamazione.html",
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/index.html",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/link-esterni/ComunicazioneSommeDovuteDefinizioneAgevolata.link",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.entrateriscossione.it/RDC/richiestaCOMDAG22.action",
+      "pages": [
+        "debiti-guida-05-rottamazione.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/link-esterni/Online-la-nuova-versione-del-servizio-Situazione-debitoria-e-la-guida",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/il-gruppo/lagenzia-comunica/novita/Online-la-nuova-versione-del-servizio-Situazione-debitoria-e-la-guida/",
+      "pages": [
+        "debiti-guida-02-controllare-debiti.html",
+        "debiti-guida-02-controllare-debiti.html"
+      ]
+    },
+    {
+      "url": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arbitrobancariofinanziario.it/presentare-ricorso/verifiche-preliminari/index.html",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ardis.fvg.it/upload/news/1753696924.pdf",
+      "pages": [
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/comunicati-stampa/dettaglio/it/com-stampa/20/200527",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/it/com-stampa/20/200527",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/conciliazione/servizio-conciliazione-domande-e-risposte",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.arera.it/consumatori/lo-sportello-per-il-consumatore-energia-e-ambiente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/lo-sportello-per-il-consumatore-energia-e-ambiente",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/faq-cr/faq-cr.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/faq-cr/faq-cr.html",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.cnel.it/archivio-contratti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cnel.it/archivio-contratti",
+      "pages": [
+        "ccnl-inquadramento-livello-superminimo.html",
+        "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato",
+      "pages": [
+        "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/faq/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/faq/",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/procedura-e-modulistica/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/procedura-e-modulistica/",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
+      "pages": [
+        "dieta-mediterranea-ricette.html"
+      ]
+    },
+    {
+      "url": "https://www.cuore.iss.it/altro/cuore",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cuore.iss.it/altro/cuore",
+      "pages": [
+        "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://www.epicentro.iss.it/igea/diabete/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/igea/diabete/",
+      "pages": [
+        "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://www.garanteprivacy.it/it/temi/recupero-crediti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/it/temi/recupero-crediti",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2024/09/27/24G00154/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2024/09/27/24G00154/sg",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2025/07/11/25A03904/SG",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2025/07/11/25A03904/SG",
+      "pages": [
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC408413",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC408413",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.giustizia.it/giustizia/it/mg_3_14_1.wp",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/it/mg_3_14_1.wp",
+      "pages": [
+        "debiti-cartelle.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.giustizia.it/giustizia/page/it/organismi_composizione_crisi_da_sovraindebitamento",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/page/it/organismi_composizione_crisi_da_sovraindebitamento",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.giustizia.it/giustizia/page/it/patrocinio_a_spese_dello_stato_nei_giudizi_civili_e_amministrativi",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/page/it/patrocinio_a_spese_dello_stato_nei_giudizi_civili_e_amministrativi",
+      "pages": [
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2019/06/Circolare_7955/Allegati/5313_Circolare-numero-88-del-12-06-2019.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2019/06/Circolare_7955/Allegati/5313_Circolare-numero-88-del-12-06-2019.pdf",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2022/10/Circolare_13955/Allegati/13847_Circolare-numero-109-del-05-10-2022.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2022/10/Circolare_13955/Allegati/13847_Circolare-numero-109-del-05-10-2022.pdf",
+      "pages": [
+        "controllare-cedolino-cassa-integrazione-solidarieta.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14121/Allegati/14119_Circolare-numero-38-del-03-04-2023.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14121/Allegati/14119_Circolare-numero-38-del-03-04-2023.pdf",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/02/Circolare_14832/Allegati/15908_Circolare-numero-42-del-17-02-2025.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/02/Circolare_14832/Allegati/15908_Circolare-numero-42-del-17-02-2025.pdf",
+      "pages": [
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/12/Circolare_15109/Allegati/16486_Circolare-numero-153-del-19-12-2025_Allegato-n-2.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/12/Circolare_15109/Allegati/16486_Circolare-numero-153-del-19-12-2025_Allegato-n-2.pdf",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf",
+      "pages": [
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15180/Allegati/16592_Circolare-numero-20-del-25-02-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15180/Allegati/16592_Circolare-numero-20-del-25-02-2026.pdf",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/FAQ_Riforma_della_Disabilit%C3%A0_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/FAQ_Riforma_della_Disabilit%C3%A0_en.pdf",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/INPS_per_la_disabilita.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/INPS_per_la_disabilita.pdf",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/2025-3-6_Guida_interattiva_in_6_passi_per_Pensionati_titolari_di_pensioni_di_importo_basso.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/2025-3-6_Guida_interattiva_in_6_passi_per_Pensionati_titolari_di_pensioni_di_importo_basso.pdf",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/amministrazione-trasparente/attivit--e-procedimenti/tipologie-di-procedimento.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/amministrazione-trasparente/attivit--e-procedimenti/tipologie-di-procedimento.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49947.cumulo-pensione-e-reddito-da-lavoro.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49947.cumulo-pensione-e-reddito-da-lavoro.html",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50651.agevolazioni-fiscali-e-contrassegno-invalidi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50651.agevolazioni-fiscali-e-contrassegno-invalidi.html",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50693.riconoscimento-dei-contributi-figurativi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.50693.riconoscimento-dei-contributi-figurativi.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-mensile-di-assistenza.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit--di-malattia-e-visite-mediche-di-controllo.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit--di-malattia-e-visite-mediche-di-controllo.html",
+      "pages": [
+        "ore-ferie-permessi-malattia-straordinari.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit-di-accompagnamento-agli-invalidi-civili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit-di-accompagnamento-agli-invalidi-civili.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.pensione-di-inabilit-agli-invalidi-civili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.pensione-di-inabilit-agli-invalidi-civili.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-aree-tematiche.portale-della-disabilit-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-aree-tematiche.portale-della-disabilit-.html",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
+      "pages": [
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "soldi-lavoro.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
+      "pages": [
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "pages": [
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "soldi-lavoro.html",
+        "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55608.gestione-dei-ricorsi-amministrativi-rivolti-agli-organismi-centrali-in-materia-di-entrate-contributive.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55608.gestione-dei-ricorsi-amministrativi-rivolti-agli-organismi-centrali-in-materia-di-entrate-contributive.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55616.gestione-dei-ricorsi-in-materia-di-iscrizione-e-contributi-di-competenza-dei-comitati-di-vigilanza-della-gestione-dipendenti-pubblici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55616.gestione-dei-ricorsi-in-materia-di-iscrizione-e-contributi-di-competenza-dei-comitati-di-vigilanza-della-gestione-dipendenti-pubblici.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55775.estratto-conto-certificativo-ecocert-ed-ecomar-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55775.estratto-conto-certificativo-ecocert-ed-ecomar-.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Dichiarazioni-di-responsabilita-e-ricoveri-indennizzati.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Dichiarazioni-di-responsabilita-e-ricoveri-indennizzati.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta-50294.assegno-ordinario-di-invalidit-per-persone-con-capacit-lavorativa-ridotta.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assistenza-fiscale-730-4-servizi-al-cittadino-52056.assistenza-fiscale-730-4-servizi-al-cittadino.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assistenza-fiscale-730-4-servizi-al-cittadino-52056.assistenza-fiscale-730-4-servizi-al-cittadino.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.avviso-di-addebito-informativa-sospensione-annullamento-e-rateazione-50129.avviso-di-addebito-informativa-sospensione-annullamento-e-rateazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.avviso-di-addebito-informativa-sospensione-annullamento-e-rateazione-50129.avviso-di-addebito-informativa-sospensione-annullamento-e-rateazione.html",
+      "pages": [
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-01-leggere-cartella.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cassetta-postale-online-50207.cassetta-postale-online.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cassetta-postale-online-50207.cassetta-postale-online.html",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cedolino-della-pensione-50615.cedolino-della-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.cedolino-della-pensione-50615.cedolino-della-pensione.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.certificato-medico-mod-ss3.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.certificato-medico-mod-ss3.html",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consulente-red.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consulente-red.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-degli-attestati-di-malattia-telematici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-degli-attestati-di-malattia-telematici.html",
+      "pages": [
+        "ore-ferie-permessi-malattia-straordinari.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-estratto-conto-contributivo-previdenziale-50119.consultazione-estratto-conto-contributivo-previdenziale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.consultazione-estratto-conto-contributivo-previdenziale-50119.consultazione-estratto-conto-contributivo-previdenziale.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.dati-socio-economici-prestazioni-di-disabilit-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.dati-socio-economici-prestazioni-di-disabilit-.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.domanda-invalidita-civile-e-accertamento-sanitario-50004.accertamento-sanitario.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.domanda-invalidita-civile-e-accertamento-sanitario-50004.accertamento-sanitario.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.estratto-conto-visuale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.estratto-conto-visuale.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.fascicolo-previdenziale-del-cittadino-50865.fascicolo-previdenziale-del-cittadino.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.fascicolo-previdenziale-del-cittadino-50865.fascicolo-previdenziale-del-cittadino.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html",
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.generazione-qr-code-invalidi-civili-per-attestazione-status-54469.generazione-qr-code-invalidi-civili-per-attestazione-status.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.generazione-qr-code-invalidi-civili-per-attestazione-status-54469.generazione-qr-code-invalidi-civili-per-attestazione-status.html",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.il-certificato-di-pensione-modello-ObisM.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.il-certificato-di-pensione-modello-ObisM.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-dichiarazione-della-situazione-reddituale-red--50574.la-dichiarazione-della-situazione-reddituale-red-.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-mia-pensione-futura-simulazione-della-propria-pensione-50033.la-mia-pensione-futura-simulazione-della-propria-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-mia-pensione-futura-simulazione-della-propria-pensione-50033.la-mia-pensione-futura-simulazione-della-propria-pensione.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensami-simulatore-scenari-pensionistici.pensami---simulatore-scenari-pensionistici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensami-simulatore-scenari-pensionistici.pensami---simulatore-scenari-pensionistici.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-50308.pensione-anticipata.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-anticipata-50308.pensione-anticipata.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-inabilit--50297.pensione-di-inabilit-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-inabilit--50297.pensione-di-inabilit-.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.pensione-di-vecchiaia.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva--50582.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva--50582.richiedere-la-rettifica-del-proprio-estratto-conto-contributivo-segnalazione-contributiva-.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorsi-amministrativi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorsi-amministrativi.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-invalidit-civile-50296.ricorso-amministrativo-invalidit-civile.html",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html",
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.riscatto-dei-periodi-per-contributi-omessi-e-prescritti-50255.riscatto-dei-periodi-per-contributi-omessi-e-prescritti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.riscatto-dei-periodi-per-contributi-omessi-e-prescritti-50255.riscatto-dei-periodi-per-contributi-omessi-e-prescritti.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-un-pagamento.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-un-pagamento.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-una-pratica-o-di-una-domanda.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-una-pratica-o-di-una-domanda.html",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.visualizzazione-indebiti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.visualizzazione-indebiti.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2021.05.circolare-numero-74-del-04-05-2021_11731.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2021.05.circolare-numero-74-del-04-05-2021_11731.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.01.circolare-numero-6-del-30-01-2026_15151.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.03.circolare-numero-28-del-16-03-2026_15199.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.03.circolare-numero-28-del-16-03-2026_15199.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/aliquote-contributive.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/aliquote-contributive.html",
+      "pages": [
+        "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/consultazione-estratto-conto-contributivo.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/consultazione-estratto-conto-contributivo.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/dipendenti-pubblici-e-privati-domanda-prestazioni-previdenziali.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/procedure/dipendenti-pubblici-e-privati-domanda-prestazioni-previdenziali.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2021.12.assegno-mensile-di-invalidit-requisito-di-inattivit-lavorativa.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2021.12.assegno-mensile-di-invalidit-requisito-di-inattivit-lavorativa.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.12.invalidit-civile-verifiche-reddituali-anno-2020.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.12.invalidit-civile-verifiche-reddituali-anno-2020.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.11.rendita-vitalizia-nuove-indicazioni-per-la-richiesta.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.11.rendita-vitalizia-nuove-indicazioni-per-la-richiesta.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.dichiarazione-redditi-anno-2023-obbligo-invio-entro-il-28-febbraio.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.dichiarazione-redditi-anno-2023-obbligo-invio-entro-il-28-febbraio.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html",
+      "pages": [
+        "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.avviata-la-terza-fase-sperimentale-della-riforma-della-disabilit.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.avviata-la-terza-fase-sperimentale-della-riforma-della-disabilit.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "riesame-ricorso-inps-termini.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.online-la-certificazione-unica-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.online-la-certificazione-unica-2026.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.riforma-disabilit-riapertura-domande-online-per-invalidit-civile.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.riforma-disabilit-riapertura-domande-online-per-invalidit-civile.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.pagamento-indebiti-disponibile-online-la-rateizzazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.pagamento-indebiti-disponibile-online-la-rateizzazione.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.prestazioni-previdenziali-e-assistenziali-online-modello-obism.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.nuova-disciplina-per-la-rateazione-dei-debiti-contributivi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.nuova-disciplina-per-la-rateazione-dei-debiti-contributivi.html",
+      "pages": [
+        "debiti-guida-04-rateizzazione.html",
+        "debiti-guida-04-rateizzazione.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.pensionati-il-cedolino-di-pensione-di-giugno-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.pensionati-il-cedolino-di-pensione-di-giugno-2026.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.06.redest-al-via-la-campagna-2026-relativa-ai-redditi-del-2025.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.06.redest-al-via-la-campagna-2026-relativa-ai-redditi-del-2025.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.campagna-red-2023-sospensione-delle-prestazioni-collegate-al-reddito.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.pensionati-il-cedolino-di-pensione-di-agosto-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.07.pensionati-il-cedolino-di-pensione-di-agosto-2026.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensami-pensione-a-misura-online-la-nuova-versione-del-simulatore.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensami-pensione-a-misura-online-la-nuova-versione-del-simulatore.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensionati-il-cedolino-di-pensione-di-settembre-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensionati-il-cedolino-di-pensione-di-settembre-2026.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensioni-della-gestione-pubblica-conclusa-la-verifica-reddituale-2024.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensioni-della-gestione-pubblica-conclusa-la-verifica-reddituale-2024.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.pensionati-il-cedolino-di-pensione-di-ottobre-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.pensionati-il-cedolino-di-pensione-di-ottobre-2026.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/Video-audio-guida-per-destinatari-di-verbale-sanitario-di-invalidita-sordita-o-cecita.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/Video-audio-guida-per-destinatari-di-verbale-sanitario-di-invalidita-sordita-o-cecita.html",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/video-guida-sollecito-dichiarazione-reddituale-per-pensionati.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/video-personalizzati-e-guide-interattive/video-personalizzati-e-interattivi/video-guida-sollecito-dichiarazione-reddituale-per-pensionati.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/patto-con-l-utenza/carta-dei-servizi/strumenti-di-tutela.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/patto-con-l-utenza/carta-dei-servizi/strumenti-di-tutela.html",
+      "pages": [
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/previdenza/domanda-di-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/previdenza/domanda-di-pensione.html",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/previdenza/posizione-contributiva.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/previdenza/posizione-contributiva.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/previdenza/ricongiunzioni-e-riscatti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/previdenza/ricongiunzioni-e-riscatti.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html",
+      "pages": [
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "riesame-ricorso-inps-termini.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-disabili-invalidi-inabili.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-disabili-invalidi-inabili.html",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.ispettorato.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ispettorato.gov.it/",
+      "pages": [
+        "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
+      "pages": [
+        "agevolazioni-diritti.html",
+        "aoi-invalidita-civile-differenze.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "come-leggere-busta-paga.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "dal-lordo-al-netto.html",
+        "debiti-cartelle.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "index.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-invalidita.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
+        "riesame-ricorso-inps-termini.html",
+        "soldi-lavoro.html",
+        "stipendio-diminuito-cosa-controllare.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf",
+      "pages": [
+        "soldi-lavoro.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
+      "pages": [
+        "ore-ferie-permessi-malattia-straordinari.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/disciplina-rapporto-lavoro/pagine/lavoro-a-tempo-parziale",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/disciplina-rapporto-lavoro/pagine/lavoro-a-tempo-parziale",
+      "pages": [
+        "ore-ferie-permessi-malattia-straordinari.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/norme-contratti-collettivi/pagine/default",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/norme-contratti-collettivi/pagine/default",
+      "pages": [
+        "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
+      "pages": [
+        "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
+      "pages": [
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
+      "pages": [
+        "aoi-invalidita-civile-differenze.html",
+        "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "pages": [
+        "ccnl-inquadramento-livello-superminimo.html",
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "soldi-lavoro.html",
+        "soldi-lavoro.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628",
+      "pages": [
+        "come-leggere-busta-paga.html",
+        "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED",
+      "pages": [
+        "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED",
+      "pages": [
+        "ore-ferie-permessi-malattia-straordinari.html",
+        "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
+      "pages": [
+        "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
+      "pages": [
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/diabete/diabete-mellito-tipo-2/",
+      "pages": [
+        "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/",
+      "pages": [
+        "dieta-mediterranea-ricette.html"
+      ]
+    },
+    {
+      "url": "https://www.tribunale.pisa.giustizia.it/carta_servizi.aspx?cfp_id_scheda=3849",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.pisa.giustizia.it/carta_servizi.aspx?cfp_id_scheda=3849",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html",
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    }
+  ],
+  "limitations": [
+    "Un HTTP 200 non prova che la fonte supporti il testo della guida.",
+    "403/429 possono essere un blocco di rete automatizzata, non un errore per il visitatore.",
+    "Non certifica pulsanti o interazioni nel browser."
+  ]
+}
