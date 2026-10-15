@@ -426,3 +426,26 @@ header .brand{gap:14px;min-height:90px}
 .pagina-interna.guida-lordo-netto .sample-pay table{width:100%;table-layout:fixed;font-size:1rem}
 .pagina-interna.guida-lordo-netto .sample-pay td,.pagina-interna.guida-lordo-netto .sample-pay th{overflow-wrap:anywhere;white-space:normal;padding:10px 7px}
 }
+
+/* Revisione Rubrica 03 — 15 ottobre 2026: testo secondario leggibile su smartphone.
+   Limitato alla Rubrica Debiti e cartelle; nessun effetto sulle altre rubriche o sulla PWA. */
+@media(max-width:650px){
+  .pagina-interna.rubrica-debiti .article {
+    font-size:1.15rem;
+    line-height:1.75;
+  }
+  .pagina-interna.rubrica-debiti .article .muted-small,
+  .pagina-interna.rubrica-debiti .article .rubrica-hero figcaption,
+  .pagina-interna.rubrica-debiti .article .eyebrow,
+  .pagina-interna.rubrica-debiti .article .debt-guide-card span,
+  .pagina-interna.rubrica-debiti .article .debt-guide-card em,
+  .pagina-interna.rubrica-debiti .crumb {
+    font-size:1.02rem;
+    line-height:1.55;
+    letter-spacing:normal;
+  }
+  .pagina-interna.rubrica-debiti .article .debt-guide-card {
+    padding:20px;
+    min-height:104px;
+  }
+}
