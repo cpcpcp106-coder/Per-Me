@@ -489,5 +489,5 @@ header[data-shared="per-me"] nav a{min-height:48px}
   header[data-shared="per-me"] .top{padding-top:10px;padding-bottom:10px;gap:3px}
   header[data-shared="per-me"] .brand .brand-logo{width:112px;height:112px}
   header[data-shared="per-me"] nav{justify-content:center;gap:2px 10px}
-  header[data-shared="per-me"] nav a{padding:8px 4px;font-size:clamp(.85rem,3.7vw,1rem)}
+  header[data-shared="per-me"] nav a{padding:8px 4px;font-size:1rem}
 }
