@@ -38,7 +38,7 @@ const internalLinks=[...guide.matchAll(/href="([^"]+\.html(?:#[^"]*)?)"/g)].map(
 for(const ref of internalLinks){const f=ref.split('#')[0];assert.ok(fs.existsSync(path.join(root,f)),name+': file collegato inesistente '+f)}
 for(const phrase of ['TEFA','componenti perequative','40 giorni','30 giugno','0,5 MWh','3 MWh','crediti certi, liquidi ed esigibili','indicatore specifico']) assert.ok(guide.includes(phrase),'Revisione ARERA incompleta: '+phrase);
 let paragraphOpen=false;
-for(const tag of guide.matchAll(/<\\/?p\\b[^>]*>/gi)){
+for(const tag of guide.matchAll(/<\/?p\b[^>]*>/gi)){
   const closing=tag[0].startsWith('<'+'/');
   assert.ok(closing?paragraphOpen:!paragraphOpen,'Paragrafo HTML annidato o chiuso senza apertura alla posizione '+tag.index);
   paragraphOpen=!closing;
