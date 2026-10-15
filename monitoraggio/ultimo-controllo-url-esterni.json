@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T15:41:02.878883+00:00",
+  "date_utc": "2026-10-15T15:55:48.003098+00:00",
   "scope": {
     "pages": 45,
-    "unique_external_urls": 310,
-    "occurrences": 596
+    "unique_external_urls": 312,
+    "occurrences": 598
   },
   "counts": {
-    "raggiungibile": 300,
+    "raggiungibile": 301,
     "bloccato_o_riservato": 9,
-    "non_verificato_trasporto": 1
+    "non_verificato_trasporto": 2
   },
   "results": [
     {
@@ -391,14 +391,6 @@
       ]
     },
     {
-      "url": "https://mit.gov.it/temi/casa/accesso-allabitazione",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-      "pages": [
-        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
-      ]
-    },
-    {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "status": "raggiungibile",
       "http": 200,
@@ -478,6 +470,15 @@
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://sostegnoabitativogenitoriseparati.mit.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://sostegnoabitativogenitoriseparati.mit.gov.it/",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
@@ -2688,6 +2689,22 @@
       "final_url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/norme-contratti-collettivi/pagine/default",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.mit.gov.it/node/13118",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.mit.gov.it/node/18419",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
