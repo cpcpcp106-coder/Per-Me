@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T09:04:22+00:00",
+  "date_utc": "2026-10-15T09:24:05+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 36,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 1003,
-    "external_occurrences": 454,
-    "external_unique": 226,
+    "external_occurrences": 455,
+    "external_unique": 227,
     "actions": 32,
     "broken_local": [],
     "broken_anchors": []
@@ -299,7 +299,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 11
+      "candidate_numeric_legal_mentions": 12
     },
     {
       "file": "debiti-guida-02-controllare-debiti.html",
@@ -329,7 +329,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 16
+      "candidate_numeric_legal_mentions": 17
     },
     {
       "file": "debiti-guida-04-rateizzazione.html",
@@ -344,7 +344,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 32
+      "candidate_numeric_legal_mentions": 34
     },
     {
       "file": "debiti-guida-05-rottamazione.html",
@@ -383,13 +383,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 25,
-      "links_external": 33,
+      "links_external": 34,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 10
+      "candidate_numeric_legal_mentions": 13
     },
     {
       "file": "debiti-guida-08-sovraindebitamento.html",
@@ -404,7 +404,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 29
+      "candidate_numeric_legal_mentions": 30
     },
     {
       "file": "debiti-guida-09-a-chi-rivolgersi.html",
@@ -419,7 +419,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 5
+      "candidate_numeric_legal_mentions": 6
     },
     {
       "file": "dieta-mediterranea-ricette.html",
