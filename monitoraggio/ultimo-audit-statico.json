@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T19:43:10+00:00",
+  "date_utc": "2026-10-15T19:45:18+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 51,
-    "editorial_pages": 49,
+    "html_total": 52,
+    "editorial_pages": 50,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1526,
-    "external_occurrences": 710,
-    "external_unique": 388,
+    "local_occurrences": 1544,
+    "external_occurrences": 712,
+    "external_unique": 389,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -50,6 +50,7 @@
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
+      "gradimento.html",
       "index.html",
       "inps-prestazione-sospesa-respinta-cosa-fare.html",
       "metodo.html",
@@ -117,7 +118,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "gradimento.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -162,8 +165,8 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 27,
-      "links_external": 14,
+      "links_local": 28,
+      "links_external": 16,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -342,7 +345,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 9,
+      "links_local": 11,
       "links_external": 0,
       "missing_local": 0,
       "noindex": false,
@@ -697,12 +700,27 @@
       "candidate_numeric_legal_mentions": 0
     },
     {
+      "file": "gradimento.html",
+      "title": "Gli articoli più votati — Per Me",
+      "h1": 1,
+      "images": 1,
+      "images_without_alt": 0,
+      "links_local": 14,
+      "links_external": 0,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
       "file": "index.html",
       "title": "Per Me — Capire cosa fare",
       "h1": 1,
       "images": 11,
       "images_without_alt": 0,
-      "links_local": 44,
+      "links_local": 45,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
