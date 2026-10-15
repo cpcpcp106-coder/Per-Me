@@ -16,7 +16,7 @@ let open=false;
 for(const t of guide.matchAll(/<\/?p\b[^>]*>/gi)){if(t[0].startsWith('</')){assert.ok(open,'Paragrafo chiuso senza apertura');open=false;}else{assert.ok(!open,'Paragrafo annidato');open=true;}}
 assert.ok(!open,'Paragrafo non chiuso');
 assert.match(index,/href="agevolazioni-guida-05-comune-servizi-sociali-italia.html"/,'Card Guida 05 assente');
-assert.match(home,/9 risorse disponibili/,'Homepage da aggiornare a nove risorse');
+assert.match(home,/10 risorse disponibili/,'Homepage da aggiornare a dieci risorse');
 assert.match(map,/agevolazioni-guida-05-comune-servizi-sociali-italia.html/,'Sitemap manca Guida 05');
 assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 non nella PWA');
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'PWA non scarica guide linkate');
