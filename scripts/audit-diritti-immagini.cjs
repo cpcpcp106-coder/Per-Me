@@ -2,7 +2,7 @@
 /**
  * Per Me - controllo tracciabilita immagini.
  * PASS significa: inventario tecnico completo e assenza di nuove immagini ignote.
- * NON significa: titolarita certificata dei file locali classificati DA_DOCUMENTARE.
+ * NON significa: certificazione legale dei diritti sulle immagini o verifica individuale delle chat originarie.
  */
 const fs=require('node:fs');
 const path=require('node:path');
@@ -12,7 +12,7 @@ const ROOT=path.resolve(__dirname,'..');
 const reg=JSON.parse(fs.readFileSync(path.join(ROOT,'FONTI/registro-diritti-immagini.json'),'utf8'));
 const local=new Map(reg.local.map(item=>[item.file,item]));
 const remote=new Map(reg.stock.map(item=>[item.src_path,item]));
-const LEGACY_PENDING=new Set([
+const LEGACY_AI_CONFIRMED_BY_OWNER=new Set([
   "Donna anziana al lavoro tra documenti e piante.png",
   "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
   "Uomo anziano pianifica il bilancio domestico.png",
@@ -74,8 +74,9 @@ for(const f of assets){
 }
 for(const item of reg.local){
  if(!assets.some(f=>f.rel===item.file))errors.push('File locale nel registro non trovato: '+item.file);
- if(!['PROVENIENZA_DA_DOCUMENTARE','PROVENIENZA_DOCUMENTATA'].includes(item.licensing))errors.push('Stato provenienza non valido: '+item.file);
- if(item.licensing==='PROVENIENZA_DA_DOCUMENTARE'&&!LEGACY_PENDING.has(item.file))errors.push('Nuova immagine senza prove di provenienza: '+item.file);
+ if(!['AI_CHATGPT_DICHIARATA_AUTORE','PROVENIENZA_DOCUMENTATA'].includes(item.licensing))errors.push('Stato provenienza non valido: '+item.file);
+ if(item.licensing==='AI_CHATGPT_DICHIARATA_AUTORE'&&!LEGACY_AI_CONFIRMED_BY_OWNER.has(item.file))errors.push('Nuova immagine AI senza evidenza individuale: '+item.file);
+ if(item.licensing==='AI_CHATGPT_DICHIARATA_AUTORE'&&(!(item.origin_evidence||'').trim()||!/^Generata o elaborata con ChatGPT/.test(item.origin||'')))errors.push('Dichiarazione originale AI non registrata: '+item.file);
  if(item.licensing==='PROVENIENZA_DOCUMENTATA'&&(!(item.provenance_evidence||'').trim()||!(item.license_or_ownership||'').trim()))errors.push('Documentazione mancante per nuova immagine: '+item.file);
 }
 for(const item of reg.stock){
@@ -115,10 +116,10 @@ for(const f of files){
   }
  }
 }
-const pending=[...usedLocal].filter(f=>local.get(f).licensing==='PROVENIENZA_DA_DOCUMENTARE');
+const aiLocal=[...usedLocal].filter(f=>local.get(f).licensing==='AI_CHATGPT_DICHIARATA_AUTORE');
 for(const msg of errors)console.error('ERROR: '+msg);
 console.log('Controllo immagini: '+assets.length+' file locali registrati; '+usedLocal.size+' locali richiamati; '+usedRemote.size+' fotografie stock con licenze piattaforma verificate.');
-console.log('Provenienza dei file locali usati ancora da documentare: '+pending.length+'. NON e una certificazione legale.');
-if(pending.length)console.log('AVVISO: '+pending.join(' | '));
+console.log('Immagini locali ChatGPT dichiarate dal proprietario e usate nel sito: '+aiLocal.length+'; in inventario storico: '+reg.local.filter(x=>x.licensing==='AI_CHATGPT_DICHIARATA_AUTORE').length+'.');
+console.log('La conferma dell’autore non sostituisce una prova individuale dei diritti di eventuali materiali di terzi.');
 assert.equal(errors.length,0,'Immagini assenti, non registrate o modificate senza aggiornare il registro.');
 console.log('PASS: nessuna nuova immagine senza registro; integrita dei file verificata.');
