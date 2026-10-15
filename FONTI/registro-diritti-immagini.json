@@ -122,6 +122,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Immagine illustrativa di madre con figlio in casa, diversa dalle precedenti; non attribuire condizioni economiche personali alle persone ritratte."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "11370618",
+      "src_path": "https://images.pexels.com/photos/11370618/pexels-photo-11370618.jpeg",
+      "source": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/",
+      "author": "Towfiqu barbhuiya",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "salute-guida-01-preparare-visita.html",
+      "verification": "FONTE_FOTO_E_LICENZA_PIATTAFORMA_VERIFICATE",
+      "verified_on": "2026-10-15",
+      "notes": "Fotografia editoriale realistica di materiali e medicinali durante una consultazione; evitare riferimenti a diagnosi, terapie o condizioni personali delle persone. Immagine diversa da quelle delle altre guide. La risorsa esterna richiede connessione, il lettore PWA offline conserva il testo."
     }
   ],
   "local": [
