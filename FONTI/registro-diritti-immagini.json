@@ -1,7 +1,7 @@
 {
   "scope": "Per Me",
   "as_of": "2026-10-15",
-  "rule": "Nessun costo foto; nuove immagini soltanto con fonte e licenza documentata o generazione originale documentata",
+  "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
       "provider": "Unsplash",
@@ -104,254 +104,420 @@
     {
       "file": "Donna anziana al lavoro tra documenti e piante.png",
       "git_blob_sha": "ac1ce1e057a282742e4adff0f378ecb9d79616f9",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
       "git_blob_sha": "ac1a2b5ff3e76cb3799753f05b1a376de46b9b68",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "Uomo anziano pianifica il bilancio domestico.png",
       "git_blob_sha": "48358df1950dc9961652439959e11ba947010714",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "Uomo pensieroso alle prese con i documenti.png",
       "git_blob_sha": "aef8a93c997e6ff21bb08be60a386e600061e533",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "app/icon-192.png",
       "git_blob_sha": "61fd19cc70998f26791190854d31b17c18db197d",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Logo/icone adottati nel progetto; approvazione grafica non equivale a prova di titolarità."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Generazione o rielaborazione AI dichiarata; eventuali fotografie, marchi o materiali originari restano soggetti a verifica dei diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "app/icon-512.png",
       "git_blob_sha": "bf562f58bee8da39db7ca01549ab6097ec36c241",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Logo/icone adottati nel progetto; approvazione grafica non equivale a prova di titolarità."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Generazione o rielaborazione AI dichiarata; eventuali fotografie, marchi o materiali originari restano soggetti a verifica dei diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "app/icon-maskable-512.png",
       "git_blob_sha": "ceeb99d59a32cffc56016185df00af2ad88fa88e",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Logo/icone adottati nel progetto; approvazione grafica non equivale a prova di titolarità."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Generazione o rielaborazione AI dichiarata; eventuali fotografie, marchi o materiali originari restano soggetti a verifica dei diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/Uomo concentrato tra pratiche e calcolatrice.png",
       "git_blob_sha": "3daf262266aae01b5fcde7346a306a29bb008cb0",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/Uomo pensieroso tra conti e campagna 恒一.png",
       "git_blob_sha": "2aef303d8fbb7003ce95e5802d21bcee5c8c8fa6",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-cartelle-scena.svg",
       "git_blob_sha": "4232d25667990cc0ad8721d2963c64c5fb1a106b",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-consulenza-approvata.png",
       "git_blob_sha": "58f5e83ff1ea30982c581b5e3070f49cff4be436",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-consulenza-approvata.webp",
       "git_blob_sha": "d6de5936c6b8b0b46e8f1f5c6c4eca34bf13a638",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-01-notifica.webp",
       "git_blob_sha": "303a549dbe595f9706816953d99242b470cad4c5",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-02-verifica-online.webp",
       "git_blob_sha": "b7fa2011ff3005103b2052f432e62463b4c84246",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-03-prove-documenti.webp",
       "git_blob_sha": "5357cfd61274f4b31f196653c29f09d4c4afe60e",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-04-spesa-sostenibile.webp",
       "git_blob_sha": "29b8fc2115771d0549cb1789a70e15f994910a51",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-05-avvisi-comunali.webp",
       "git_blob_sha": "10149a7e1fe53ef0ca8ad34e98274afea838bb3b",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-06-fermo-auto.webp",
       "git_blob_sha": "470bdccf762f5847c6bc5ca9b607bb6b9b2e973d",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-07-verifica-contatori.webp",
       "git_blob_sha": "48a3705422666d117a86f0fdbd9cf6bd897bc2a7",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-08-nuova-prospettiva.webp",
       "git_blob_sha": "6eb797ebf54df7c31ca480668fc34ea9e5577567",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-guida-09-consulenza-chiara.webp",
       "git_blob_sha": "475ce836320f09bb531bd8294d10754cad499489",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/debiti-sportello-ascolto.svg",
       "git_blob_sha": "7835e1b33af64d2fd9497b233bb8cf0a23cf1efa",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-1.webp",
       "git_blob_sha": "d62010f94dab5926e91bf1cbc8417501ea7fb35c",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-2.webp",
       "git_blob_sha": "32e0b6572087928891e9955e2142ec2847185b34",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-3.webp",
       "git_blob_sha": "6c20f297ecf4922b7d083e190637c404eeb17ed2",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-4.webp",
       "git_blob_sha": "6b3087b216f71cafe36df9bdbc45ac57cc72acdf",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-5.webp",
       "git_blob_sha": "b0945de79c525f8acdc774bde9ebd5614705b1fc",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-6.webp",
       "git_blob_sha": "87c12d777c7027f02b24ffc5779b2b2b7d3b8c27",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/foto-7.webp",
       "git_blob_sha": "05e035c3bf6ebd458b02195a129bc8965a3b2fbe",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/logo-per-me.png",
       "git_blob_sha": "bf562f58bee8da39db7ca01549ab6097ec36c241",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Logo/icone adottati nel progetto; approvazione grafica non equivale a prova di titolarità."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Generazione o rielaborazione AI dichiarata; eventuali fotografie, marchi o materiali originari restano soggetti a verifica dei diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-01.jpg",
       "git_blob_sha": "ebe967fb3f7a2b55767ca2a69c2684e20ef3e110",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-02.jpg",
       "git_blob_sha": "a84a2d59de23fa8af49f1de9781a44a63be7f96f",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-03.webp",
       "git_blob_sha": "66bcd45c90594d58ee52dbfee47ff55984a245ae",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-04.svg",
       "git_blob_sha": "18e82dc53b5b386cbf8651c00207dfae043aa161",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-04.webp",
       "git_blob_sha": "aa651425563ef9bfb41106b9df1b2edefc27e865",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-05.webp",
       "git_blob_sha": "06138121a4e409b630e2b6707b5a8fca6a78a847",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-06.webp",
       "git_blob_sha": "bac2173269b15edc8033e543508a922cc5becfdb",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-07.webp",
       "git_blob_sha": "bbbbd86a9745ff1495fe63f952edfc35247b4b0f",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-guida-08.webp",
       "git_blob_sha": "d34e870b50c87f24363479ca18764f54268e7716",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "assets/pensione-invalidita.jpg",
       "git_blob_sha": "17fddec5d8871b7410123ce9810c3ebe2683d791",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Origine ChatGPT confermata dall'autore del progetto; non sono previste licenze fotografiche stock o canoni OpenAI per questo output, salvo eventuali diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     },
     {
       "file": "ritratto-enrico.webp",
       "git_blob_sha": "2d261a4ac590341e52b4075eadecf0005311d6aa",
-      "licensing": "PROVENIENZA_DA_DOCUMENTARE",
-      "note": "Non attribuire automaticamente la provenienza a ChatGPT o a una banca immagini senza prova."
+      "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
+      "note": "Generazione o rielaborazione AI dichiarata; eventuali fotografie, marchi o materiali originari restano soggetti a verifica dei diritti di terzi.",
+      "origin": "Generata o elaborata con ChatGPT per il progetto Per Me (secondo conferma esplicita del responsabile del progetto)",
+      "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
+      "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
+      "source_history_verified": false
     }
   ],
   "notes": [
-    "Questo inventario prova il codice sorgente e le licenze delle fotografie esterne, non la titolarità giuridica di tutti i file locali.",
-    "NON mettere PROVENIENZA_DA_DOCUMENTARE in categoria verificata senza prova; non attribuire la creazione ad AI sulla base del solo nome file.",
-    "Le fotografie in ambito salute, vulnerabilità e debiti non devono suggerire che persone reali ritratte soffrano delle condizioni descritte.",
-    "In repository pubblico la presenza di una foto non equivale a cessione dei diritti ad altri."
+    "Le 41 immagini locali sono riclassificate come generate o elaborate con ChatGPT sulla base della dichiarazione diretta dell'autore, non di una verifica tecnica individuale delle sessioni originali.",
+    "Per quanto riguarda i rapporti fra utente e OpenAI, l'utente possiede l'Output nei limiti di legge secondo https://openai.com/it-IT/policies/terms-of-use/ . Questo non elimina eventuali diritti di terzi su materiali originari, marchi o persone ritratte.",
+    "Il registro conserva le impronte blob Git per rintracciare esattamente le 41 immagini senza modificarne i file.",
+    "Le 8 fotografie esterne sono tenute distinte come fotografie stock gratuite di Pexels/Unsplash, con pagina fonte, fotografo e licenza.",
+    "Per qualsiasi nuova immagine non basta la dichiarazione generale: occorre registrare evidenza individuale della fonte o generazione prima della pubblicazione.",
+    "Le immagini illustrative non devono suggerire che persone reali ritratte soffrano delle patologie o condizioni sociali descritte."
   ]
 }
