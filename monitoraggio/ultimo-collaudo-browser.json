@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T07:36:08.461Z",
+  "checked_at_utc": "2026-10-15T07:40:25.023Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -50,10 +50,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:36.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:40.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T07:36:11.459Z",
+          "updated": "2026-10-15T07:40:28.189Z",
           "bytes": 524806,
           "includesNew09": true
         }
@@ -94,60 +94,13 @@
     },
     {
       "page": "guida09",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".eyebrow"
-            ],
-            [
-              "nav[aria-label=\"Percorso delle guide\"] > a[href=\"debiti-cartelle.html#guide\"]"
-            ],
-            [
-              "nav[aria-label=\"Percorso delle guide\"] > a:nth-child(2)"
-            ],
-            [
-              "#ader > .g09-detail > p:nth-child(4) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ],
-            [
-              ".g09-detail > p:nth-child(2) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ],
-            [
-              "#patronato > .g09-detail > p:nth-child(4) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine delle nove guide\"] > a[href=\"debiti-cartelle.html#guide\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine delle nove guide\"] > a:nth-child(2)"
-            ]
-          ],
-          "total": 8
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
     {
       "page": "app-catalogue",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href=\"../index.html\"]"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 0
     }
