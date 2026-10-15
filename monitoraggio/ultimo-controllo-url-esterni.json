@@ -1,14 +1,15 @@
 {
-  "date_utc": "2026-10-15T19:47:57.194692+00:00",
+  "date_utc": "2026-10-15T19:50:17.258097+00:00",
   "scope": {
     "pages": 52,
     "unique_external_urls": 389,
     "occurrences": 712
   },
   "counts": {
-    "raggiungibile": 354,
+    "raggiungibile": 352,
     "bloccato_o_riservato": 31,
-    "non_verificato_trasporto": 4
+    "non_verificato_trasporto": 5,
+    "errore_http": 1
   },
   "results": [
     {
@@ -418,9 +419,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "monitoraggio.html"
       ]
@@ -1123,9 +1123,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/opera-come-persona-di-fiducia-o-rappresentante/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/opera-come-persona-di-fiducia-o-rappresentante/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html",

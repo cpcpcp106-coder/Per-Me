@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T19:46:57.222Z",
+  "checked_at_utc": "2026-10-15T19:49:12.600Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:47.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:49.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T19:47:17.126Z",
+          "updated": "2026-10-15T19:49:37.462Z",
           "bytes": 850097,
           "includesNew09": true
         }
@@ -190,86 +190,86 @@
     {
       "page": "agevolazioni-guida-01-isee-corrente.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-02-bonus-sociali.html",
       "violations": [],
-      "passes": 22,
-      "incomplete": 1
+      "passes": 26,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-03-trasporti-fvg.html",
       "violations": [],
-      "passes": 23,
-      "incomplete": 1
+      "passes": 27,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-03-trasporti-italia.html",
       "violations": [],
-      "passes": 19,
-      "incomplete": 1
+      "passes": 23,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
       "violations": [],
-      "passes": 23,
-      "incomplete": 1
+      "passes": 27,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
       "violations": [],
-      "passes": 19,
-      "incomplete": 1
+      "passes": 23,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
       "violations": [],
-      "passes": 22,
-      "incomplete": 1
+      "passes": 26,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "aoi-invalidita-civile-differenze.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 2
+      "passes": 25,
+      "incomplete": 3
     },
     {
       "page": "ccnl-inquadramento-livello-superminimo.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "chi-siamo.html",
@@ -280,8 +280,8 @@
     {
       "page": "come-leggere-busta-paga.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 2
+      "passes": 25,
+      "incomplete": 3
     },
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
@@ -292,56 +292,56 @@
     {
       "page": "contributi-inps-estratto-conto-pensione-vicina.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "dal-lordo-al-netto.html",
       "violations": [],
-      "passes": 24,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "debiti-cartelle.html",
       "violations": [],
-      "passes": 21,
-      "incomplete": 1
+      "passes": 25,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-01-leggere-cartella.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-02-controllare-debiti.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-03-cartella-errata.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-04-rateizzazione.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-05-rottamazione.html",
       "violations": [],
-      "passes": 20,
-      "incomplete": 1
+      "passes": 24,
+      "incomplete": 2
     },
     {
       "page": "debiti-guida-06-fermo-pignoramento.html",
@@ -388,7 +388,7 @@
     {
       "page": "gradimento.html",
       "violations": [],
-      "passes": 20,
+      "passes": 19,
       "incomplete": 0
     },
     {
