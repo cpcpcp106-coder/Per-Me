@@ -1,10 +1,10 @@
 {
-  "date_utc": "2026-10-15T09:56:42+00:00",
+  "date_utc": "2026-10-15T09:57:10+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 37,
     "editorial_pages": 35,
-    "guide_pages": 23
+    "guide_pages": 24
   },
   "links": {
     "local_occurrences": 1022,
