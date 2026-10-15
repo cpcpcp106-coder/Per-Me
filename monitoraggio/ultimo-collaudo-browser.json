@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T16:37:13.247Z",
+  "checked_at_utc": "2026-10-15T16:40:38.998Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 44,
+        "count": 45,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 44,
+        "checked": 45,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 44,
+        "checked": 45,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "39 pagine salvate per la lettura offline · controllo online 15 ott, 16:37.",
+        "status": "40 pagine salvate per la lettura offline · controllo online 15 ott, 16:41.",
         "stored": {
-          "guides": 39,
-          "updated": "2026-10-15T16:37:31.411Z",
-          "bytes": 722260,
+          "guides": 40,
+          "updated": "2026-10-15T16:41:02.017Z",
+          "bytes": 738792,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 39
+        "count": 40
       }
     },
     {
@@ -93,7 +93,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 5322
+        "chars": 5562
       }
     },
     {
@@ -231,6 +231,12 @@
     },
     {
       "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "violations": [],
+      "passes": 20,
+      "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "violations": [],
       "passes": 20,
       "incomplete": 1

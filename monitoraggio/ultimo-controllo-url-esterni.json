@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T16:38:12.341566+00:00",
+  "date_utc": "2026-10-15T16:41:45.557654+00:00",
   "scope": {
-    "pages": 46,
-    "unique_external_urls": 316,
-    "occurrences": 603
+    "pages": 47,
+    "unique_external_urls": 322,
+    "occurrences": 612
   },
   "counts": {
-    "raggiungibile": 287,
-    "bloccato_o_riservato": 9,
-    "errore_http": 16,
+    "raggiungibile": 290,
+    "bloccato_o_riservato": 11,
+    "errore_http": 17,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -209,6 +209,15 @@
       ]
     },
     {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
       "url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
       "status": "raggiungibile",
       "http": 200,
@@ -216,6 +225,14 @@
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://e-justice.europa.eu/topics/taking-legal-action/legal-aid/it_it?ITALY=&member=1",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
@@ -248,9 +265,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
@@ -333,6 +349,15 @@
       "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
@@ -1440,6 +1465,16 @@
       ]
     },
     {
+      "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html",
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/eli/gu/1978/07/29/211/sg/pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -1495,7 +1530,18 @@
       "final_url": "https://www.giustizia.it/giustizia/it/mg_3_7_2.page?tab=w",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
-        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+        "agevolazioni-guida-07-patrocinio-spese-stato.html",
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
+      "url": "https://www.giustizia.it/giustizia/it/mg_3_7_7.page",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/it/mg_3_7_7.page",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
@@ -2887,6 +2933,14 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/an-elderly-man-consulting-an-insurance-agent-8441780/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
