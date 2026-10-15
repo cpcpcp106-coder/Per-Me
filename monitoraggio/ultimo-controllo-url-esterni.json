@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T18:39:57.439356+00:00",
+  "date_utc": "2026-10-15T18:53:54.420343+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 366,
-    "occurrences": 678
+    "unique_external_urls": 373,
+    "occurrences": 685
   },
   "counts": {
-    "raggiungibile": 336,
-    "bloccato_o_riservato": 26,
+    "raggiungibile": 340,
+    "bloccato_o_riservato": 29,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -234,6 +234,15 @@
       ]
     },
     {
+      "url": "https://diabetes.org/about-diabetes/complications/skin-complications",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://diabetes.org/about-diabetes/complications/skin-complications",
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
       "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -294,6 +303,14 @@
       ]
     },
     {
+      "url": "https://doi.org/10.2337/dc26-S004",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
       "url": "https://doi.org/10.2337/dc26-S005",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -303,12 +320,28 @@
       ]
     },
     {
+      "url": "https://doi.org/10.2337/dc26-S010",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
       "url": "https://doi.org/10.2337/dc26-S012",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "diabete-tipo-2.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dci25-0012",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -336,6 +369,15 @@
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -1519,6 +1561,15 @@
       "http": 403,
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -3078,6 +3129,15 @@
       "final_url": "https://www.nice.org.uk/guidance/ng28/chapter/person-centred-medicine",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
