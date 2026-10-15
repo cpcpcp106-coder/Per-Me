@@ -88,6 +88,9 @@ function verifyImage(value,baseFile){
  if(/^https?:\/\//i.test(raw)){
   let u;try{u=new URL(raw)}catch(e){errors.push('URL immagine invalido in '+baseFile);return}
   const ref=u.origin+u.pathname;
+  // Contatori tecnici: grafica funzionale del fornitore, non fotografia editoriale.
+  // Solo questo widget sulla pagina privata di statistiche e' escluso dal registro stock.
+  if(ref==='https://counterapi.com/counter.svg'&&/^contatori-per-me-[a-f0-9]+\.html$/.test(baseFile))return;
   if(!remote.has(ref)){errors.push('Immagine remota non registrata: '+baseFile+' => '+ref);return}
   usedRemote.add(ref);
   return;
