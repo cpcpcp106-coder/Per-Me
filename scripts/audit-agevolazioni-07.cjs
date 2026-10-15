@@ -12,7 +12,8 @@ for(const m of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'A
 for(const tag of ['p','section','article','figure','div'])assert.equal((html.match(new RegExp('<'+tag+'(?:\\s|>)','gi'))||[]).length,(html.match(new RegExp('</'+tag+'>','gi'))||[]).length,'Tag sbilanciato '+tag);
 for(const img of html.matchAll(/<img\b[^>]*>/gi))assert.match(img[0],/\balt="[^"]*"/i,'Testo alternativo assente');
 for(const term of ['13.659,64','12.838,01','22 aprile 2025','11 luglio 2025','DPR 115/2002','Consiglio dell\'Ordine degli Avvocati','redditi dei conviventi','ISEE','controparte','giudice competente','15 ottobre 2026'])assert.ok(html.toLowerCase().includes(term.toLowerCase()),'Manca '+term);
-for(const src of ['www.gazzettaufficiale.it','www.giustizia.it','def.giustiziatributaria.gov.it','e-justice.europa.eu'])assert.ok(html.includes(src),'Fonte assente '+src);
+for(const src of ['www.gazzettaufficiale.it','www.giustizia.it','def.giustiziatributaria.gov.it','e-justice.europa.eu','ca-venezia.giustizia.it'])assert.ok(html.includes(src),'Fonte assente '+src);
+for(const term of ['articolo 126','nei dieci giorni','articolo 79','entro 30 giorni','articolo 76, comma 4-ter','115/2026, articolo 12','stranieri regolarmente soggiornanti'])assert.ok(html.toLowerCase().includes(term.toLowerCase()),'Verifica approfondita Guida 07: manca '+term);
 assert.match(html,/photos\/8441780/,'Foto diversa');
 assert.ok(!get('agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html').includes('photos/8441780'),'Foto duplicata con Guida 06');
 assert.ok(images.stock.some(item=>item.photo_id==='8441780'&&item.used_in===page&&item.license==='https://www.pexels.com/license/'),'Licenza foto 07 non registrata');
