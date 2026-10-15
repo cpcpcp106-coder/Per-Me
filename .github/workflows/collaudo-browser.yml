@@ -3,6 +3,10 @@ on:
   workflow_dispatch:
   push:
     paths:
+      - "*.html"
+      - "app/**"
+      - "style.css"
+      - "sitemap.xml"
       - "monitoraggio/collaudo_browser.cjs"
       - "monitoraggio/verifica_url_esterni.py"
       - ".github/workflows/collaudo-browser.yml"
