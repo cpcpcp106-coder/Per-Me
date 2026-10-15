@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T08:52:19.284391+00:00",
+  "date_utc": "2026-10-15T09:29:58.743994+00:00",
   "scope": {
     "pages": 36,
-    "unique_external_urls": 226,
-    "occurrences": 454
+    "unique_external_urls": 230,
+    "occurrences": 458
   },
   "counts": {
-    "raggiungibile": 226
+    "raggiungibile": 230
   },
   "results": [
     {
@@ -911,6 +911,15 @@
       ]
     },
     {
+      "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/bonus-sociale-rifiuti-2-1",
+      "pages": [
+        "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
       "status": "raggiungibile",
       "http": 200,
@@ -1407,6 +1416,15 @@
       "pages": [
         "redditi-red-comunicazioni-obbligatorie-inps.html",
         "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Portale-unico-ISEE.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Portale-unico-ISEE.html",
+      "pages": [
+        "agevolazioni-diritti.html"
       ]
     },
     {
@@ -2100,6 +2118,15 @@
       ]
     },
     {
+      "url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
+      "pages": [
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
       "url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -2115,6 +2142,15 @@
       "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
       "pages": [
         "ore-ferie-permessi-malattia-straordinari.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "pages": [
+        "agevolazioni-diritti.html"
       ]
     },
     {
