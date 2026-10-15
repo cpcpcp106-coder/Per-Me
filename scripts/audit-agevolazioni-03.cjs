@@ -24,7 +24,10 @@ for(const [name,html]of [[file,guide],['agevolazioni-diritti.html',rubric]]){
 assert.match(guide,/<meta name="robots" content="index,follow"/);
 assert.match(guide,/rel="canonical"/);
 assert.ok(rubric.includes('href="'+file+'"'),'Guida 03 mancante indice');
-assert.ok(home.includes('7 risorse disponibili'),'Home deve presentare chiaramente guide nazionali e schede regionali');
+const countMatch=home.match(/<strong>(\d+) risorse disponibili<\/strong>/);
+assert.ok(countMatch,'La home deve mostrare il totale delle risorse della rubrica');
+assert.equal(Number(countMatch[1]),(rubric.match(/class="a04-guide-card"/g)||[]).length,'Il totale della home deve coincidere con le schede realmente presenti nella Rubrica 04');
+assert.ok(rubric.includes('Guide nazionali — per tutta Italia')&&rubric.includes('Schede regionali: soltanto Friuli Venezia Giulia'),'Perimetro nazionale e regionale devono restare distinti');
 assert.ok(sitemap.includes('/Per-Me/'+file),'Sitemap senza Guida 03');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Ritorno alla rubrica assente');
 assert.ok(guide.includes('agevolazioni-guida-02-bonus-sociali.html'),'Manca precedente guida');
