@@ -98,6 +98,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Solo uso editoriale illustrativo; non implicare endorsement o condizioni personali delle persone riconoscibili."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8441780",
+      "src_path": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg",
+      "source": "https://www.pexels.com/photo/an-elderly-man-consulting-an-insurance-agent-8441780/",
+      "author": "Kampus Production",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Incontro illustrativo con consulente; non indicare che sia una consulenza legale reale o che la persona ritratta abbia ottenuto patrocinio."
     }
   ],
   "local": [
