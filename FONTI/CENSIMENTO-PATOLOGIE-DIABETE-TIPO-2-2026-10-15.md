@@ -194,6 +194,14 @@ L'etichetta descrive la classificazione editoriale prevalente, non la certezza e
 - **Malattie infettive**: un diabete ben gestito non implica che ogni infezione si verificherà; la prevenzione comprende vaccinazioni appropriate e cura tempestiva.
 - La presenza di nuove associazioni statistiche nella ricerca **non autorizza a dichiararle causali**. Valutare dimensione dell'effetto, confondenti, coerenza e qualità delle prove.
 
+## Verifica italiana: Sistema Nazionale Linee Guida e ISS
+
+La **linea guida SID–AMD «La terapia del diabete mellito di tipo 2»** è disponibile nel **Sistema Nazionale Linee Guida dell'Istituto Superiore di Sanità (ISS)**, con aggiornamento del 27 ottobre 2025. Conferma il ruolo coordinato di terapia nutrizionale, esercizio, educazione terapeutica, monitoraggio e farmaci secondo il profilo cardiovascolare. È una fonte nazionale da affiancare alle raccomandazioni ADA 2026: https://www.iss.it/-/snlg-terapia-diabete-tipo2 .
+
+L'**ISS EpiCentro** pubblica un quadro introduttivo delle complicanze oculari, renali, nervose e cardiovascolari: https://www.epicentro.iss.it/diabete/ . I documenti ISS IGEA del 2008–2012 possono essere usati come storia del percorso organizzativo, **non** come linee guida terapeutiche aggiornate al 2026.
+
+Lo stato delle linee guida **«La terapia del piede diabetico»** sul sito ISS al momento della consultazione risulta un iter di valutazione: non trattare un documento «in valutazione» come raccomandazione SNLG già conclusa e approvata. Riferimento: https://www.iss.it/-/terapia-del-piede-diabetico_in-val .
+
 ## Fonti primarie e gerarchia
 
 1. ADA, *Standards of Care in Diabetes—2026*: [comorbidità](https://doi.org/10.2337/dc26-S004), [rischio cardiovascolare](https://doi.org/10.2337/dc26-S010), [rischio renale](https://doi.org/10.2337/dc26-S011), [retina, nervi, piedi](https://doi.org/10.2337/dc26-S012), [crisi metaboliche](https://doi.org/10.2337/dc26-S006), [terapie](https://doi.org/10.2337/dc26-S009), [benessere](https://doi.org/10.2337/dc26-S005).
