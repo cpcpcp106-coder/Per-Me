@@ -3,7 +3,8 @@ const fs=require('node:fs'),path=require('node:path');
 const root=path.resolve(__dirname,'..');
 const base='https://cpcpcp106-coder.github.io/Per-Me/';
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
-const pages=fs.readdirSync(root).filter(p=>p.endsWith('.html')&&!p.startsWith('google'));
+const pages=fs.readdirSync(root).filter(p=>p.endsWith('.html')&&!p.startsWith('google')&&!p.startsWith('contatori-per-me-'));
+// Le pagine tecniche dei contatori restano senza sitemap, con noindex e layout indipendente.
 const map=read('sitemap.xml'),head=read('site/header.inc').trim(),foot=read('site/footer.inc').trim();
 const issues=[];let links=0;
 for(const page of pages){
