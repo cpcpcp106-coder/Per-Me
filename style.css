@@ -415,3 +415,7 @@ header .brand{gap:14px;min-height:90px}
 .pagina-interna.rubrica-debiti .article .debt-guide-nav a:visited{color:#563021;background:#f7e8db}
 .pagina-interna.rubrica-debiti .article .g09-detail a:not(.button),
 .pagina-interna.rubrica-debiti .article .g09-detail a:not(.button):visited{color:#543020;text-decoration:underline}
+
+/* Audit dinamico su tutte le pagine, 15 ottobre 2026: collegamenti e contrasti. */
+.pagina-interna.rubrica-debiti .article a:not([class]),.pagina-interna.rubrica-debiti .article a:not([class]):visited{color:#49291b;text-decoration:underline}
+.pagina-interna.rubrica-salute .article>.eyebrow:first-child{color:#4f2d1e;background:#f0e0d0}
