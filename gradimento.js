@@ -106,7 +106,7 @@ async function ranking(){
  });
  target.replaceChildren(list);
  const errors=rows.filter(r=>r.error).length;
- report(rows.length+' articoli, ordinati per stelle totali ricevute (somma delle stelle di tutti i clic), poi per media.'+(errors?' Conteggio non disponibile per '+errors+' articoli.':''));
+ report(rows.length+' articoli in classifica'+(errors?' · '+errors+(errors===1?' conteggio non disponibile.':' conteggi non disponibili.') :'.'));
 }
 window.PerMeGradimento=Object.freeze({mount});
 function boot(){
