@@ -10,7 +10,7 @@ let problems=[],changed=0;
 for(const file of pages){
  const filename=path.join(ROOT,file),source=fs.readFileSync(filename,'utf8');
  let next=source.replace(/<header\b[\s\S]*?<\/header>/i,head).replace(/<footer\b[\s\S]*?<\/footer>/i,foot);
- if(file!=='esperienza-caf-patronato.html')next=next.replace(/<aside class="experience-caf-uil"[\s\S]*?<\/aside>/gi,'');
+ if(file!=='esperienza-caf-patronato.html')next=next.replace(/<aside\b[^>]*class=["'][^"']*\bexperience-caf-uil\b[^"']*["'][^>]*>[\s\S]*?<\/aside>/gi,'');
  next=next.replace(/<meta\s+name=["']robots["']\s+content=["']noindex[^"']*["']\s*\/?>/gi,'<meta name="robots" content="index,follow">');
  if(next!==source){if(write){fs.writeFileSync(filename,next);changed++}else problems.push(file)}
  if(!/<main\b/i.test(next))problems.push(file+': manca main');
