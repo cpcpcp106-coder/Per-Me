@@ -77,4 +77,17 @@ jobs:
             echo
             grep -i '^access-control-allow-origin:' "/tmp/per-me-${action}.headers" || true
           done
+          echo "Diagnostica JSONP e SVG del servizio (sola lettura):"
+          for kind in jsonp svg; do
+            if [[ "$kind" == "jsonp" ]]; then
+              url="https://counterapi.com/api/cpcpcp106-coder.github.io/visita/per-me-visite-da-zero-20261015?readOnly=true&callback=permeTest"
+            else
+              url="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-da-zero-20261015&readOnly=true&style=big"
+            fi
+            http=$(curl -sSL --max-time 20 -D "/tmp/per-me-$kind.headers" -o "/tmp/per-me-$kind.out" -w '%{http_code}' "$url" || true)
+            echo "TEST $kind HTTP $http"
+            grep -i '^content-type:' "/tmp/per-me-$kind.headers" || true
+            head -c 220 "/tmp/per-me-$kind.out" || true
+            echo
+          done
           exit "$failed"
