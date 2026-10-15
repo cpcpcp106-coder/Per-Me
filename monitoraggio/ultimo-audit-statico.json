@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T18:27:31+00:00",
+  "date_utc": "2026-10-15T18:29:09+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 51,
@@ -7,8 +7,8 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1510,
-    "external_occurrences": 667,
+    "local_occurrences": 1514,
+    "external_occurrences": 665,
     "external_unique": 356,
     "actions": 7,
     "broken_local": [],
@@ -654,11 +654,11 @@
     },
     {
       "file": "dieta-mediterranea-ricette.html",
-      "title": "Dieta mediterranea e ricette | Per Me",
+      "title": "Alimentazione e ricette: introduzione | Per Me",
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 16,
+      "links_local": 17,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
@@ -823,8 +823,8 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 17,
-      "links_external": 3,
+      "links_local": 20,
+      "links_external": 1,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
