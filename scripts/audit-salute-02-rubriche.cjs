@@ -4,6 +4,8 @@ const root=path.resolve(__dirname,'..');const read=f=>fs.readFileSync(path.join(
 const guide='salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html';
 const diabetes='diabete-tipo-2.html',diet='dieta-mediterranea-scientifica.html';
 const map=read('sitemap.xml'),home=read('index.html'),hub=read('salute-autonomia.html');
+const rights=read('agevolazioni-diritti.html');
+const social=read('FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md');
 const pwa=read('app/main.js'),appPage=read('app/index.html'),sw=read('app/sw.js');
 const reg=JSON.parse(read('FONTI/registro-diritti-immagini.json'));
 for(const file of [guide,diabetes,diet]){
@@ -52,6 +54,18 @@ for(const cue of ['Regola del 15 (15–15)','15 g di glucosio','ADA 2026','CDC, 
  assert.ok(inventory.includes(cue),'Regola del 15 non documentata nel censimento: '+cue);
 }
 assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
+
+for(const x of ['id="anziani-reddito"','pensione','cardiopatia','malnutrizione','agevolazioni-diritti.html#anziani-salute-reddito'])
+ assert.ok(diab.toLowerCase().includes(x.toLowerCase()),'Anziani e accessibilita economica mancanti dalla rubrica diabete: '+x);
+for(const x of ['id="costo-alimentare"','costo per porzione','prezzo al kg','sarcopenia','legumi','agevolazioni-diritti.html#anziani-salute-reddito'])
+ assert.ok(med.toLowerCase().includes(x.toLowerCase()),'Costi, nutrienti e sostenibilita mancanti dalla dieta: '+x);
+for(const x of ['id="anziani-salute-reddito"','Assegno di inclusione','invalidità','accompagnamento','pensione','ticket','dieta-mediterranea-scientifica.html#costo-alimentare'])
+ assert.ok(rights.toLowerCase().includes(x.toLowerCase()),'Tutele, pensioni e aiuti mancanti dalla rubrica diritti: '+x);
+for(const x of ['id="anziani-cure-reddito"','diabete-tipo-2.html#anziani-reddito','agevolazioni-diritti.html#anziani-salute-reddito'])
+ assert.ok(hub.includes(x),'Percorso integrato mancante in Salute: '+x);
+for(const x of ['INPS','ARERA','ADA','CREA','LEA','104/1992','accompagnamento','costo per porzione'])
+ assert.ok(social.toLowerCase().includes(x.toLowerCase()),'Dossier interdisciplinare senza fonte/requisito: '+x);
+assert.ok(rights.includes('Esplora tutte le otto rubriche'),'Numero rubriche non aggiornato');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
 assert.ok(med.includes('10.1016/S0140-6736(19)30041-8'),'DOI Lancet mancante');
