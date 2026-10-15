@@ -1,0 +1,35 @@
+name: Per Me - Diagnostica gradimento (sola lettura)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/diagnostica-gradimento.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  diagnosi-contatori:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Verifica contatori esistenti senza incrementi
+        shell: bash
+        run: |
+          set -euo pipefail
+          root="https://counterapi.com/api/cpcpcp106-coder.github.io"
+          urls=(
+            "$root/perme-stelle-5/debiti-guida-09-a-chi-rivolgersi?readOnly=true"
+            "$root/perme-stelle-5/debiti-guida-01-leggere-cartella?readOnly=true"
+            "$root/perme-stelle-1/debiti-guida-09-a-chi-rivolgersi?readOnly=true"
+            "$root/visita/per-me-visite-nuovo-inizio-20261015-v3?readOnly=true"
+            "$root/visita/per-me-visite-da-zero-20261015?readOnly=true"
+          )
+          for i in "${!urls[@]}"; do
+            printf 'Sola lettura test %s: ' "$i"
+            code="$(curl --location --silent --show-error --max-time 20 --retry 1 --retry-delay 1 -o /tmp/perme-counter-$i -w '%{http_code}' "${urls[$i]}")" || code="transport_error"
+            printf 'HTTP %s\n' "$code"
+            head -c 450 /tmp/perme-counter-$i 2>/dev/null || true
+            printf '\n'
+          done
+          printf 'Origine pubblica sito: '
+          curl -L -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "https://cpcpcp106-coder.github.io/Per-Me/gradimento.js"
