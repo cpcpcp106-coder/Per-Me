@@ -1,9 +1,9 @@
 {
   "audit_date": "2026-10-15",
-  "scope": "Campione ampliato alle rubriche lavoro, pensioni e debiti. Non costituisce una verifica atomica ESAUSTIVA delle guide: atti individuali, esempi e deroghe restano da verificare.",
-  "count": 62,
+  "scope": "Controllo selettivo ampliato alle nuove guide Agevolazioni 01-02 e alla guida sanitaria organizzativa. Non verifica atomica esaustiva delle 25 guide; atti individuali, deroghe, limiti e procedure restano da riesaminare.",
+  "count": 72,
   "counts": {
-    "CONFERMATO": 62,
+    "CONFERMATO": 72,
     "NON_VERIFICABILE": 0
   },
   "fully_exhaustive": false,
@@ -45,7 +45,12 @@
     "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
     "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
     "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.riforma-della-disabilit-al-via-la-terza-fase-sperimentale.html",
-    "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/pubblicazioni/Rassegna_Medicina_Legale_num_0_2025-2026.pdf"
+    "https://www.inps.it/content/dam/inps-site/pdf/inpscomunica/pubblicazioni/Rassegna_Medicina_Legale_num_0_2025-2026.pdf",
+    "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+    "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
+    "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
+    "https://www.epicentro.iss.it/igea/diabete/",
+    "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti"
   ],
   "records": [
     {
@@ -605,6 +610,96 @@
       "status": "CONFERMATO",
       "date": "2026-10-15",
       "note": "Verifica puntuale sulla fonte pubblica INPS/AdeR, non su un provvedimento individuale."
+    },
+    {
+      "id": "C63",
+      "path": "agevolazioni-guida-01-isee-corrente.html",
+      "claim": "Per chiedere l'ISEE corrente occorre avere un ISEE ordinario in corso di validità.",
+      "source": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C64",
+      "path": "agevolazioni-guida-01-isee-corrente.html",
+      "claim": "Fra le condizioni alternative per ISEE corrente vi è una variazione della situazione reddituale del nucleo superiore al 25% rispetto all'ISEE ordinario.",
+      "source": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C65",
+      "path": "agevolazioni-guida-01-isee-corrente.html",
+      "claim": "La variazione del patrimonio del nucleo superiore al 20% può essere fatta valere a decorrere dal 1° aprile di ogni anno.",
+      "source": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C66",
+      "path": "agevolazioni-guida-01-isee-corrente.html",
+      "claim": "Il periodo di due mesi per l'ISEE corrente non è utilizzabile da tutti: la disciplina lo riserva a specifiche situazioni di lavoro dipendente a tempo indeterminato e interruzione di determinati trattamenti.",
+      "source": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C67",
+      "path": "agevolazioni-guida-02-bonus-sociali.html",
+      "claim": "Dal 1° gennaio 2026 la soglia ISEE generale dei bonus sociali per luce, gas, acqua e rifiuti è 9.796 euro; per nuclei con almeno quattro figli a carico la soglia è 20.000 euro.",
+      "source": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C68",
+      "path": "agevolazioni-guida-02-bonus-sociali.html",
+      "claim": "Per il bonus economico relativo a fornitura diretta elettrica, gas o idrica il contratto deve essere intestato a un componente del nucleo familiare ISEE.",
+      "source": "https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C69",
+      "path": "agevolazioni-guida-02-bonus-sociali.html",
+      "claim": "Il bonus sociale rifiuti corrisponde al 25% della TARI o tariffa corrispettiva ammessa.",
+      "source": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C70",
+      "path": "agevolazioni-guida-02-bonus-sociali.html",
+      "claim": "Il bonus elettrico per grave disagio fisico richiede, nei casi ammessi, l'utilizzo di apparecchiature elettromedicali salvavita: non discende automaticamente dalla sola invalidità.",
+      "source": "https://www.arera.it/consumatori/bonus-sociale/bonus-per-gravi-condizioni-di-salute/quali-sono-i-requisiti-per-accedere-al-bonus-per-disagio-fisico",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C71",
+      "path": "salute-guida-01-preparare-visita.html",
+      "claim": "Il diabete tipo 2 può comportare complicanze croniche a carico di occhi, reni, sistema cardiovascolare e nervi periferici.",
+      "source": "https://www.epicentro.iss.it/igea/diabete/",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
+    },
+    {
+      "id": "C72",
+      "path": "salute-guida-01-preparare-visita.html",
+      "claim": "Le tabelle CREA riportano valori di composizione degli alimenti per supportare lettura e confronto nutrizionale, non prescrizioni farmacologiche.",
+      "source": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
+      "status": "CONFERMATO",
+      "date": "2026-10-15",
+      "note": "Verifica puntuale della proposizione sulla fonte istituzionale indicata. Non estendibile all'intera guida o a casi personali."
     }
   ]
 }
