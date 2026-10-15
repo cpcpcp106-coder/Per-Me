@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T18:29:09+00:00",
+  "date_utc": "2026-10-15T18:32:00+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 51,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 1514,
-    "external_occurrences": 665,
-    "external_unique": 356,
+    "external_occurrences": 672,
+    "external_unique": 363,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -143,8 +143,8 @@
     "service_worker_shell_files": [
       "./",
       "./index.html",
-      "./app.css?v=10",
-      "./main.js?v=10",
+      "./app.css?v=11",
+      "./main.js?v=11",
       "./manifest.webmanifest",
       "./icon-192.png",
       "./icon-512.png",
@@ -674,7 +674,7 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 18,
-      "links_external": 7,
+      "links_external": 14,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
