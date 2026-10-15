@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T15:05:34+00:00",
+  "date_utc": "2026-10-15T15:10:23+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 45,
-    "editorial_pages": 43,
+    "html_total": 44,
+    "editorial_pages": 42,
     "guide_pages": 30
   },
   "links": {
-    "local_occurrences": 1353,
-    "external_occurrences": 583,
-    "external_unique": 300,
+    "local_occurrences": 1338,
+    "external_occurrences": 582,
+    "external_unique": 299,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -56,7 +56,6 @@
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
       "soldi-lavoro.html",
-      "statistiche.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
@@ -102,7 +101,6 @@
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
       "soldi-lavoro.html",
-      "statistiche.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
@@ -602,7 +600,7 @@
       "h1": 1,
       "images": 8,
       "images_without_alt": 0,
-      "links_local": 36,
+      "links_local": 34,
       "links_external": 0,
       "missing_local": 0,
       "noindex": false,
@@ -760,21 +758,6 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 8
-    },
-    {
-      "file": "statistiche.html",
-      "title": "I numeri di Per Me",
-      "h1": 1,
-      "images": 1,
-      "images_without_alt": 0,
-      "links_local": 13,
-      "links_external": 1,
-      "missing_local": 0,
-      "noindex": false,
-      "canonical": true,
-      "description": true,
-      "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
     },
     {
       "file": "stipendio-diminuito-cosa-controllare.html",
