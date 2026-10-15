@@ -1,5 +1,5 @@
 # PER ME — Audit giuridico approfondito delle Guide 07–09
-**Data:** 15 ottobre 2026 · **Stato:** verifica editoriale completata, integrazioni correttive in bozza **NON PUBBLICATE**.
+**Data:** 15 ottobre 2026 · **Stato aggiornato:** integrazioni correttive **UNITE A `main` il 15/10/2026 alle 09:23 UTC tramite PR #2**. Verifica automatica GitHub Pages successiva riuscita; il documento conserva il metodo e i limiti della revisione originaria.
 **Oggetto:** 07 debiti privati/banche/utenze; 08 sovraindebitamento; 09 competenze e contatti.
 **Metodo:** controllo dei singoli blocchi tematici rispetto a disposizioni di legge, fonti delle Autorità competenti, aggiornamenti 2024–2026; verifica delle cautele sulle scadenze e dei rinvii operativi. Non equivale al parere di un avvocato abilitato sulla singola pratica.
 
@@ -82,4 +82,4 @@
 1. Nessun controllo con atto reale, lettura di provvedimenti giudiziari individuali o rappresentanza professionale è stato eseguito.
 2. Non certificato il caricamento di tutti i link su ogni dispositivo: soprattutto Registro OCC e alcuni portali con autenticazione.
 3. Non testato il sito pubblico delle guide con lettore schermo mobile o scorrimento visivo durante questa specifica verifica.
-4. Le correzioni sono state preparate nel ramo `revisione-rubrica-03-20261015-a11y`, richiesta di revisione #2: **non pubblicarle senza nuovo ordine esplicito**. L'app, in richiesta #3, è stata invece pubblicata su `main` su ordine dell'autore.
+4. **Aggiornamento dello stato:** PR #2 e #3 risultano entrambe unite a `main` il 15/10/2026; le correzioni alle guide 07–09 non sono più in bozza. L'audit non costituisce prova di conformità WCAG completa né controllo giuridico esaustivo di ogni proposizione.
