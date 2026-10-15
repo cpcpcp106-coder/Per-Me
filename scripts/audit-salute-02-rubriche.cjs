@@ -66,6 +66,21 @@ for(const x of ['id="anziani-cure-reddito"','diabete-tipo-2.html#anziani-reddito
 for(const x of ['INPS','ARERA','ADA','CREA','LEA','104/1992','accompagnamento','costo per porzione'])
  assert.ok(social.toLowerCase().includes(x.toLowerCase()),'Dossier interdisciplinare senza fonte/requisito: '+x);
 assert.ok(rights.includes('Esplora tutte le otto rubriche'),'Numero rubriche non aggiornato');
+for(const [text,what] of [
+ ['611,85 €','valore minimo pensionistico 2026'],
+ ['546,24 €','assegno sociale 2026'],
+ ['80 € ogni due mesi','Carta acquisti 65+'],
+ ['8.230,81 €','ISEE Carta acquisti'],
+ ['9.796 €','ISEE ARERA'],
+ ['10.140 €','ISEE ADI'],
+ ['Carta «Dedicata a te» 2026–2027','distinzione Carta Dedicata a te'],
+ ['non è una prestazione automaticamente accessibile a pensionati soli','nessun falso diritto Carta Dedicata a te'],
+ ['legge 104/1992','legge 104 e invalidita separate'],
+ ['servizio sociale del Comune','aiuti territoriali nazionali']
+])assert.ok(rights.includes(text),'Manca informazione nazionale su anziani e pensioni: '+what);
+for(const text of ['La spesa alimentare quando la pensione è molto bassa','ingredienti','cibo, bollette, medicine e trasporti','peso sgocciolato','prezzo al kg','acquisti','non è automaticamente destinata a pensionati soli'])assert.ok(med.includes(text),'Dieta mediterranea non collega costo, dignita e tutele: '+text);
+for(const text of ['Carta acquisti ordinaria over 65','Pensione','Carta «Dedicata a te»','impossibilità','ARERA','legge 104'])assert.ok(social.toLowerCase().includes(text.toLowerCase()),'Dossier tutele e leggi incompleto: '+text);
+
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
 assert.ok(med.includes('10.1016/S0140-6736(19)30041-8'),'DOI Lancet mancante');
