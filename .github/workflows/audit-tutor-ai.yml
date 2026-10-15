@@ -1,0 +1,34 @@
+name: Per Me - Tutor AI essenziale
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tutor-ai.html'
+      - 'scripts/audit-tutor-ai.cjs'
+      - 'app/main.js'
+      - 'index.html'
+      - 'sitemap.xml'
+      - '.github/workflows/audit-tutor-ai.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'tutor-ai.html'
+      - 'scripts/audit-tutor-ai.cjs'
+      - 'app/main.js'
+      - 'index.html'
+      - 'sitemap.xml'
+      - '.github/workflows/audit-tutor-ai.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test prompt, copia Android, accessibilita e testi offline
+        run: node scripts/audit-tutor-ai.cjs
