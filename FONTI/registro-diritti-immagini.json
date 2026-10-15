@@ -134,6 +134,42 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Fotografia realistica di un colloquio medico, fonte Pexels e licenza gratuite verificate. Copia locale nel progetto: assets/salute-guida-01-visita-medica.jpg (JPEG, 187916 byte); evitare di attribuire diagnosi alle persone ritratte. Il testo resta consultabile nel lettore offline."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8413300",
+      "src_path": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg",
+      "source": "https://www.pexels.com/photo/elderly-man-patient-looking-at-his-doctor-8413300/",
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Fotografia realistica con medico e persona anziana, scena di colloquio generale, nessuna diagnosi attribuita; immagine diversa dalla Guida Salute 01."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "6941101",
+      "src_path": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg",
+      "source": "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/",
+      "author": "Nataliya Vaitkevich",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-tipo-2.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Fotografia realistica di mani che usano glucometro; misura indicativa, non istruzioni cliniche."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "1059905",
+      "src_path": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
+      "source": "https://www.pexels.com/photo/vegetable-salad-on-plate-1059905/",
+      "author": "Chan Walrus",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "dieta-mediterranea-scientifica.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-15",
+      "notes": "Fotografia realistica di un'insalata mediterranea; immagine illustrativa, non composizione nutrizionale certificata."
     }
   ],
   "local": [
