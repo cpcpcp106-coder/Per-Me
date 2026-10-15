@@ -1,0 +1,46 @@
+name: Per Me - Cardiopatia, diabete, dieta scientifica
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html'
+      - 'diabete-tipo-2.html'
+      - 'dieta-mediterranea-scientifica.html'
+      - 'salute-autonomia.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'app/index.html'
+      - 'app/sw.js'
+      - 'FONTI/registro-diritti-immagini.json'
+      - 'scripts/audit-salute-02-rubriche.cjs'
+      - '.github/workflows/audit-salute-02-rubriche.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html'
+      - 'diabete-tipo-2.html'
+      - 'dieta-mediterranea-scientifica.html'
+      - 'salute-autonomia.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'app/index.html'
+      - 'app/sw.js'
+      - 'FONTI/registro-diritti-immagini.json'
+      - 'scripts/audit-salute-02-rubriche.cjs'
+      - '.github/workflows/audit-salute-02-rubriche.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica fonti, Lancet, foto, struttura nazionale e PWA
+        run: node scripts/audit-salute-02-rubriche.cjs
