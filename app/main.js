@@ -140,6 +140,43 @@ function renderList(){
   btn.append(cat,title,more);btn.addEventListener('click',()=>openGuide(guide.path,true));area.appendChild(btn);
  }
 }
+// Ricrea i controlli di copia dei prompt del Tutor AI nella PWA, anche offline.
+// La PWA salva solo il contenuto, non gli script della pagina pubblica.
+function addTutorCopyControls(){
+ const area=element('reader-content'),status=document.createElement('p');
+ const prompts=[...area.querySelectorAll('blockquote[id^="prompt-"]')];
+ if(!prompts.length)return;
+ status.className='tutor-copy-status';
+ status.setAttribute('role','status');status.setAttribute('aria-live','polite');
+ status.textContent='I prompt sono salvati sul telefono. Puoi copiarli anche senza connessione; per usare una chat AI normalmente serve Internet.';
+ prompts[0].insertAdjacentElement('beforebegin',status);
+ const names={'prompt-avviso':'avviso','prompt-messaggio':'messaggio','prompt-lista':'lista','prompt-domande':'domande per un ufficio','prompt-verifica':'verifica della fonte','prompt-correzione':'riscrittura semplice'};
+ for(const prompt of prompts){
+  if(!Object.hasOwn(names,prompt.id))continue;
+  const button=document.createElement('button');button.type='button';button.className='prompt-copy';
+  const label='Copia il prompt: '+names[prompt.id];button.textContent=label;
+  prompt.insertAdjacentElement('beforebegin',button);
+  button.addEventListener('click',async()=>{
+   const txt=[...prompt.querySelectorAll('p')].map(p=>p.textContent.trim()).join('\n\n');
+   let ok=false;button.disabled=true;
+   try{
+    if(navigator.clipboard&&navigator.clipboard.writeText){try{await navigator.clipboard.writeText(txt);ok=true}catch(_){}}
+    if(!ok){
+     const box=document.createElement('textarea');box.value=txt;box.readOnly=true;
+     box.style.cssText='position:fixed;left:-9999px;top:0;opacity:0';
+     document.body.appendChild(box);box.focus();box.select();
+     try{ok=document.execCommand('copy')}catch(_){}
+     box.remove();
+    }
+    if(ok){button.textContent='Copiato ✓';status.textContent='Prompt copiato. Quando hai accesso alla chat AI, tieni premuto nel campo del messaggio e scegli Incolla.';}
+    else{
+     const sel=window.getSelection();if(sel){const r=document.createRange();r.selectNodeContents(prompt);sel.removeAllRanges();sel.addRange(r);}
+     status.textContent='Il testo è selezionato: usa Copia nel menu del telefono, poi Incolla nella chat AI.';
+    }
+   }finally{button.disabled=false;button.setAttribute('aria-label',label)}
+  });
+ }
+}
 function openGuide(path,scroll){
  let g=model.guides.find(x=>x.path===path);
  if(!g)return;
@@ -147,6 +184,7 @@ function openGuide(path,scroll){
  element('catalogue').hidden=true;element('reader').hidden=false;
  element('reader-category').textContent=g.category+(g.stale?' · COPIA DA VERIFICARE':'');element('reader-title').textContent=g.title;const warning=element('reader-warning');warning.hidden=!(g.stale||!isOnline()||!model.storageOk);if(!warning.hidden){warning.textContent=!model.storageOk?'Attenzione: il salvataggio non è riuscito. Dopo aver chiuso l’app, le nuove guide potrebbero non essere disponibili.':g.stale?'Attenzione: copia non aggiornata. Prima di prendere decisioni consulta le fonti ufficiali.':'Stai leggendo una copia offline. Ultimo controllo: '+dateLabel(model.updated)+'. Verifica online le scadenze prima di agire.';}
  element('reader-content').innerHTML=g.content;
+ if(path==='tutor-ai.html')addTutorCopyControls();
  const fav=model.favorites.includes(path);
  element('favorite').setAttribute('aria-pressed',String(fav));element('favorite').textContent=fav?'Rimuovi dai preferiti':'Salva nei preferiti';
  if(scroll){history.replaceState(null,'','#guida='+encodeURIComponent(path));window.scrollTo({top:0})}
