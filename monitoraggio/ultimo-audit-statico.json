@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T19:22:03+00:00",
+  "date_utc": "2026-10-15T19:30:30+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 51,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 1524,
-    "external_occurrences": 702,
-    "external_unique": 385,
+    "external_occurrences": 706,
+    "external_unique": 387,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -163,13 +163,13 @@
       "images": 1,
       "images_without_alt": 0,
       "links_local": 27,
-      "links_external": 10,
+      "links_external": 14,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 2
+      "candidate_numeric_legal_mentions": 6
     },
     {
       "file": "agevolazioni-guida-01-isee-corrente.html",
