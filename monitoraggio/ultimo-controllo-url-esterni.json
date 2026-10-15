@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T19:33:47.285605+00:00",
+  "date_utc": "2026-10-15T19:42:45.770257+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 387,
-    "occurrences": 708
+    "unique_external_urls": 389,
+    "occurrences": 711
   },
   "counts": {
-    "raggiungibile": 352,
+    "raggiungibile": 354,
     "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
@@ -676,6 +676,15 @@
       "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://sapermangiare.an.crea.gov.it/483/linee-guida.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://sapermangiare.an.crea.gov.it/483/linee-guida.html",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -2744,7 +2753,8 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.pensioni-2026-i-nuovi-importi-e-le-date-di-pagamento.html",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -3087,6 +3097,15 @@
       "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "pages": [
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
