@@ -1,0 +1,44 @@
+name: Per Me - Controllo diritti e immagini
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'app/**'
+      - 'assets/**'
+      - '*.png'
+      - '*.jpg'
+      - '*.webp'
+      - '*.svg'
+      - 'style.css'
+      - 'FONTI/registro-diritti-immagini.json'
+      - 'scripts/audit-diritti-immagini.cjs'
+      - '.github/workflows/audit-diritti-immagini.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - '*.html'
+      - 'app/**'
+      - 'assets/**'
+      - '*.png'
+      - '*.jpg'
+      - '*.webp'
+      - '*.svg'
+      - 'style.css'
+      - 'FONTI/registro-diritti-immagini.json'
+      - 'scripts/audit-diritti-immagini.cjs'
+      - '.github/workflows/audit-diritti-immagini.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit-immagini:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla inventario immagini, provenienza e integrita
+        run: node scripts/audit-diritti-immagini.cjs
