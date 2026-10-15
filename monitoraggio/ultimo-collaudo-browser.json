@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T11:43:43.613Z",
+  "checked_at_utc": "2026-10-15T11:50:55.521Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -26,10 +26,22 @@
     },
     {
       "name": "all_root_html_mobile_reflow",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
         "checked": 37,
-        "violations": []
+        "violations": [
+          {
+            "name": "soldi-lavoro.html",
+            "width390": {
+              "inner": 1560,
+              "scroll": 1720
+            },
+            "width320": {
+              "inner": 320,
+              "scroll": 320
+            }
+          }
+        ]
       }
     },
     {
@@ -67,11 +79,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "33 pagine salvate per la lettura offline · controllo online 15 ott, 11:43.",
+        "status": "33 pagine salvate per la lettura offline · controllo online 15 ott, 11:51.",
         "stored": {
           "guides": 33,
-          "updated": "2026-10-15T11:43:56.472Z",
-          "bytes": 600897,
+          "updated": "2026-10-15T11:51:14.582Z",
+          "bytes": 604219,
           "includesNew09": true
         }
       }
