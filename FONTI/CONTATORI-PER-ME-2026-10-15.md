@@ -8,3 +8,9 @@ Copertura richiesta: tutte le pagine HTML pubbliche (eccetto file tecnico Google
 
 ## Scelta di riservatezza (15 ottobre 2026)
 Su richiesta dell'autore, rimossi i due numeri dalla home, il collegamento pubblico, la pagina statistiche.html e il relativo URL nella sitemap. Il monitoraggio degli eventi continua. ATTENZIONE: CounterAPI conserva valori tecnicamente leggibili da terzi che conoscano l'endpoint; la riservatezza assoluta richiede la sostituzione con un pannello autenticato (es. Google Analytics 4). Non presentare questo servizio pubblico come protetto da password.
+
+## Reset e visita dell'autore — 15 ottobre 2026
+- Azzeramento pratico: il servizio gratuito non documenta un'API per cancellare il valore. Il nuovo conteggio delle visite parte dalla chiave "per-me-visite-da-zero-20261015"; la vecchia chiave "per-me" rimane archiviata nel servizio e non è più incrementata dalle visite.
+- L'autore può escludere il proprio browser visitando una volta: https://cpcpcp106-coder.github.io/Per-Me/?perme_escludimi=1 . Lo script analytics.js?v=2 memorizza l'esclusione sia in localStorage sia in un cookie tecnico di prima parte, senza salvare dati personali. La navigazione dal browser contrassegnato non genera più eventi visita o installazione.
+- Esclusione limitata al browser/dispositivo/profilo usato. Se si cambia browser o si cancellano i dati, occorre riattivarla. Impossibile escludere automaticamente il proprietario senza autenticazione.
+- CounterAPI.com ha una API pubblica: nascondere il conteggio nelle pagine Per Me NON protegge i dati da persone che conoscono l'endpoint. Per sola lettura dell'autore serve un servizio con autenticazione.
