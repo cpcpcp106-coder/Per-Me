@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T13:57:52+00:00",
+  "date_utc": "2026-10-15T14:06:37+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 43,
@@ -12,20 +12,7 @@
     "external_unique": 283,
     "actions": 7,
     "broken_local": [],
-    "broken_anchors": [
-      {
-        "page": "debiti-guida-01-leggere-cartella.html",
-        "ref": "debiti-cartelle.html#contatti-personali",
-        "target": "debiti-cartelle.html",
-        "anchor": "contatti-personali"
-      },
-      {
-        "page": "debiti-guida-09-a-chi-rivolgersi.html",
-        "ref": "debiti-cartelle.html#contatti-personali",
-        "target": "debiti-cartelle.html",
-        "anchor": "contatti-personali"
-      }
-    ]
+    "broken_anchors": []
   },
   "seo": {
     "indexable_pages": [
