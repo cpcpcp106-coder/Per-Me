@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T07:45:59.167Z",
+  "checked_at_utc": "2026-10-15T07:51:45.384Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -46,69 +46,6 @@
                 "nodes": 2
               }
             ]
-          },
-          {
-            "page": "debiti-cartelle.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-02-controllare-debiti.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-04-rateizzazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 2
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-05-rottamazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-06-fermo-pignoramento.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 2
-              }
-            ]
-          },
-          {
-            "page": "dieta-mediterranea-ricette.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-autonomia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
           }
         ],
         "errors": []
@@ -140,10 +77,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:46.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:51.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T07:46:16.846Z",
+          "updated": "2026-10-15T07:51:56.836Z",
           "bytes": 540573,
           "includesNew09": true
         }
@@ -260,20 +197,7 @@
     },
     {
       "page": "debiti-cartelle.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".note:nth-child(8) > p:nth-child(3) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 21,
       "incomplete": 1
     },
@@ -285,20 +209,7 @@
     },
     {
       "page": "debiti-guida-02-controllare-debiti.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".note > p > a"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
@@ -310,64 +221,19 @@
     },
     {
       "page": "debiti-guida-04-rateizzazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "#inizia > p:nth-child(3) > a"
-            ],
-            [
-              ".note > p > a"
-            ]
-          ],
-          "total": 2
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
     {
       "page": "debiti-guida-05-rottamazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "#oggi > p:nth-child(7) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
     {
       "page": "debiti-guida-06-fermo-pignoramento.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "#subito > p:nth-child(5) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(1)"
-            ],
-            [
-              "p:nth-child(5) > a[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
-            ]
-          ],
-          "total": 2
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
@@ -391,20 +257,7 @@
     },
     {
       "page": "dieta-mediterranea-ricette.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".eyebrow"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 18,
       "incomplete": 1
     },
@@ -458,20 +311,7 @@
     },
     {
       "page": "salute-autonomia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".eyebrow"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 16,
       "incomplete": 1
     },
