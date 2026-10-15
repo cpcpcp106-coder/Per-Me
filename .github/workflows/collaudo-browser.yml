@@ -2,6 +2,8 @@ name: Per Me - Collaudo browser e fonti esterne
 on:
   workflow_dispatch:
   push:
+    branches:
+      - main
     paths:
       - "*.html"
       - "app/**"
@@ -13,10 +15,11 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: perme-collaudo-browser
+  group: per-me-evidenze-main
   cancel-in-progress: false
 jobs:
   collaudo:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
