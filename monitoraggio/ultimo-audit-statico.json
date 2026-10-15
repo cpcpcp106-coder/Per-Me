@@ -1,22 +1,23 @@
 {
-  "date_utc": "2026-10-15T10:09:21+00:00",
+  "date_utc": "2026-10-15T11:23:44+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 37,
-    "editorial_pages": 35,
-    "guide_pages": 24
+    "html_total": 38,
+    "editorial_pages": 36,
+    "guide_pages": 25
   },
   "links": {
-    "local_occurrences": 1022,
-    "external_occurrences": 479,
-    "external_unique": 238,
-    "actions": 32,
+    "local_occurrences": 1042,
+    "external_occurrences": 505,
+    "external_unique": 248,
+    "actions": 33,
     "broken_local": [],
     "broken_anchors": []
   },
   "seo": {
     "indexable_pages": [
       "agevolazioni-guida-01-isee-corrente.html",
+      "agevolazioni-guida-02-bonus-sociali.html",
       "aoi-invalidita-civile-differenze.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -44,6 +45,7 @@
     ],
     "sitemap_pages": [
       "agevolazioni-guida-01-isee-corrente.html",
+      "agevolazioni-guida-02-bonus-sociali.html",
       "aoi-invalidita-civile-differenze.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -114,7 +116,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 11,
+      "links_local": 12,
       "links_external": 5,
       "missing_local": 0,
       "noindex": true,
@@ -137,6 +139,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 11
+    },
+    {
+      "file": "agevolazioni-guida-02-bonus-sociali.html",
+      "title": "Bonus sociali 2026: luce, gas, acqua e TARI | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 19,
+      "links_external": 26,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 20
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
