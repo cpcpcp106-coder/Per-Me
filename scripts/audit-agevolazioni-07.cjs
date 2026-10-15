@@ -3,21 +3,21 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const root=path.resolve(__dirname,'..'),get=p=>fs.readFileSync(path.join(root,p),'utf8');
 const page='agevolazioni-guida-07-patrocinio-spese-stato.html',html=get(page),rubric=get('agevolazioni-diritti.html'),home=get('index.html'),site=get('sitemap.xml'),app=get('app/main.js');
 const images=JSON.parse(get('FONTI/registro-diritti-immagini.json'));
-assert.equal((html.match(/<h1\\b/gi)||[]).length,1,'Guida 07 deve avere un solo H1');
+assert.equal((html.match(/<h1\b/gi)||[]).length,1,'Guida 07 deve avere un solo H1');
 assert.match(html,/<meta name="robots" content="index,follow"/,'Meta robots');
-assert.match(html,/<link rel="canonical" href="https:\\/\\/cpcpcp106-coder.github.io\\/Per-Me\\/agevolazioni-guida-07-patrocinio-spese-stato.html"/,'Canonical');
+assert.match(html,/<link rel="canonical" href="https:\/\/cpcpcp106-coder.github.io\/Per-Me\/agevolazioni-guida-07-patrocinio-spese-stato.html"/,'Canonical');
 assert.match(html,/<main id="contenuto"/,'Contenuto principale');
-const ids=[...html.matchAll(/\\bid="([^"]+)"/g)].map(x=>x[1]);assert.equal(ids.length,new Set(ids).size,'ID duplicati');
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(x=>x[1]);assert.equal(ids.length,new Set(ids).size,'ID duplicati');
 for(const m of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'Ancora non risolta '+m[1]);
-for(const tag of ['p','section','article','figure','div'])assert.equal((html.match(new RegExp('<'+tag+'(?:\\\\s|>)','gi'))||[]).length,(html.match(new RegExp('</'+tag+'>','gi'))||[]).length,'Tag sbilanciato '+tag);
-for(const img of html.matchAll(/<img\\b[^>]*>/gi))assert.match(img[0],/\\balt="[^"]*"/i,'Testo alternativo assente');
-for(const term of ['13.659,64','12.838,01','22 aprile 2025','11 luglio 2025','DPR 115/2002','Consiglio dell\\'Ordine degli Avvocati','redditi dei conviventi','ISEE','controparte','giudice competente','15 ottobre 2026'])assert.ok(html.toLowerCase().includes(term.toLowerCase()),'Manca '+term);
+for(const tag of ['p','section','article','figure','div'])assert.equal((html.match(new RegExp('<'+tag+'(?:\\s|>)','gi'))||[]).length,(html.match(new RegExp('</'+tag+'>','gi'))||[]).length,'Tag sbilanciato '+tag);
+for(const img of html.matchAll(/<img\b[^>]*>/gi))assert.match(img[0],/\balt="[^"]*"/i,'Testo alternativo assente');
+for(const term of ['13.659,64','12.838,01','22 aprile 2025','11 luglio 2025','DPR 115/2002','Consiglio dell\'Ordine degli Avvocati','redditi dei conviventi','ISEE','controparte','giudice competente','15 ottobre 2026'])assert.ok(html.toLowerCase().includes(term.toLowerCase()),'Manca '+term);
 for(const src of ['www.gazzettaufficiale.it','www.giustizia.it','def.giustiziatributaria.gov.it','e-justice.europa.eu'])assert.ok(html.includes(src),'Fonte assente '+src);
-assert.match(html,/photos\\/8441780/,'Foto diversa');
+assert.match(html,/photos\/8441780/,'Foto diversa');
 assert.ok(!get('agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html').includes('photos/8441780'),'Foto duplicata con Guida 06');
 assert.ok(images.stock.some(item=>item.photo_id==='8441780'&&item.used_in===page&&item.license==='https://www.pexels.com/license/'),'Licenza foto 07 non registrata');
 assert.ok(!/Tarcento|Attimis|Racchiuso|CAF UIL|Comune di Udine/i.test(html),'Personalizzazione geografica');
-for(const a of html.matchAll(/href="([^"]+\\.html)(?:#[^"]*)?"/g)){const u=a[1];if(!/^https?:/i.test(u))assert.ok(fs.existsSync(path.join(root,u)),'Link locale assente '+u);}
+for(const a of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const u=a[1];if(!/^https?:/i.test(u))assert.ok(fs.existsSync(path.join(root,u)),'Link locale assente '+u);}
 assert.match(rubric,/href="agevolazioni-guida-07-patrocinio-spese-stato.html"/,'Scheda Guida 07 assente');
 assert.match(rubric,/sette guide nazionali e due schede regionali/,'Conteggio rubrica');
 assert.match(home,/9 risorse disponibili/,'Conteggio home');
