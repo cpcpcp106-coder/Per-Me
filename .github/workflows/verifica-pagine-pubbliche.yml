@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 7
     steps:
-      - name: Apri davvero home e Guide 01-04 su GitHub Pages
+      - name: Verifica home e Guide 01-06 nazionali e regionali sul sito pubblico
         shell: bash
         run: |
           set -euo pipefail
@@ -34,6 +34,9 @@ jobs:
             "agevolazioni-guida-02-bonus-sociali.html"
             "agevolazioni-guida-03-trasporti-fvg.html"
             "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+            "agevolazioni-guida-03-trasporti-italia.html"
+            "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+            "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
             "app/"
           )
           # Su una PR la nuova guida non esiste ancora sul sito pubblico.
