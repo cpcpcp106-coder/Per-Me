@@ -92,7 +92,7 @@ for(const [key,value] of Object.entries(expected)){
 assert.ok(ledger.dati.find(x=>x.chiave.startsWith('istat_')).stato.includes('PROVVISORIO'),'Dati provvisori ISTAT non dichiarati');
 for(const str of ['id="dati-aggiornati"','611,85','546,24','5,5%','16 ottobre 2026','ogni mese'])
  assert.ok(rights.includes(str),'Dato variabile o data revisione assente in Agevolazioni: '+str);
-for(const str of ['id="costo-alimentare"','611,85','5,5%','provvisorio','16 ottobre 2026','prezzo al kg','costo per porzione'])
+for(const str of ['id="costo-alimentare"','611,85','5,5%','provvisori','16 ottobre 2026','prezzo al kg','costo per porzione'])
  assert.ok(med.toLowerCase().includes(str.toLowerCase()),'Costo alimentare o fonte non controllata: '+str);
 assert.ok(!med.includes('id="dieta-costo-reale"'),'Due capitoli duplicati sul costo del cibo');
 assert.ok(med.includes('agevolazioni-diritti.html#anziani-salute-reddito'),'Manca il rinvio alle tutele');
