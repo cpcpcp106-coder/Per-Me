@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'salute-guida-01-preparare-visita.html'
+      - 'assets/salute-guida-01-visita-medica.jpg'
+      - 'FONTI/registro-diritti-immagini.json'
       - 'salute-autonomia.html'
       - 'sitemap.xml'
       - 'app/main.js'
@@ -13,6 +15,8 @@ on:
     branches: [main]
     paths:
       - 'salute-guida-01-preparare-visita.html'
+      - 'assets/salute-guida-01-visita-medica.jpg'
+      - 'FONTI/registro-diritti-immagini.json'
       - 'salute-autonomia.html'
       - 'sitemap.xml'
       - 'app/main.js'
