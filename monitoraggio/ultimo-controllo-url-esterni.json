@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-15T18:55:28.890257+00:00",
+  "date_utc": "2026-10-15T19:06:05.142428+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 373,
-    "occurrences": 685
+    "unique_external_urls": 377,
+    "occurrences": 689
   },
   "counts": {
-    "raggiungibile": 340,
-    "bloccato_o_riservato": 29,
+    "raggiungibile": 343,
+    "bloccato_o_riservato": 30,
     "non_verificato_trasporto": 4
   },
   "results": [
@@ -238,6 +238,14 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://diabetes.org/about-diabetes/complications/skin-complications",
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -1573,6 +1581,15 @@
       ]
     },
     {
+      "url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+      "pages": [
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
       "url": "https://www.cnel.it/archivio-contratti",
       "status": "raggiungibile",
       "http": 200,
@@ -1657,6 +1674,15 @@
       "final_url": "https://www.cuore.iss.it/altro/cuore",
       "pages": [
         "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://www.epicentro.iss.it/diabete/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/diabete/",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
@@ -2982,6 +3008,15 @@
       "final_url": "https://www.ispettorato.gov.it/",
       "pages": [
         "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
+      "pages": [
+        "diabete-tipo-2.html"
       ]
     },
     {
