@@ -18,7 +18,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://cpcpcp106-coder.github.io/Per-Me/"
-TECHNICAL = {"googled120465f7b693b08.html"}
+TECHNICAL = {"googled120465f7b693b08.html", "contatori-personali/index.html"}
 BLOCK = re.compile(r"\b(noindex|nofollow|none|noimageindex|unavailable_after)\b", re.I)
 DYNAMIC_BLOCK = re.compile(r"\b(noindex|nofollow|noimageindex|unavailable_after)\b", re.I)
 
@@ -82,7 +82,7 @@ def audit_source(root):
         record = {"path": name, "url": url, "sha256": hashlib.sha256(raw).hexdigest()}
         key = "technical_pages" if name in TECHNICAL else "public_pages"
         result[key].append(record)
-        if page.blocked:
+        if page.blocked and name != "contatori-personali/index.html":
             result["issues"].append(f"{name}: direttive bloccanti {page.blocked}")
         if key == "public_pages" and page.canonicals != [url]:
             result["issues"].append(f"{name}: canonical {page.canonicals}, atteso {url}")
@@ -166,7 +166,7 @@ def audit_live(source):
                 row["issues"].append(f"X-Robots-Tag: {header}")
             page = Page()
             page.feed(body.decode("utf-8", errors="replace"))
-            if page.blocked:
+            if page.blocked and record["path"] != "contatori-personali/index.html":
                 row["issues"].append(f"HTML: {page.blocked}")
             if record["path"] not in TECHNICAL and page.canonicals != [record["url"]]:
                 row["issues"].append(f"canonical: {page.canonicals}")

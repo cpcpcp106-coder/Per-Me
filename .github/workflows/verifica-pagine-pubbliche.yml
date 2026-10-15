@@ -35,6 +35,7 @@ jobs:
             "agevolazioni-guida-03-trasporti-fvg.html"
             "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
             "app/"
+            "contatori-personali/"
           )
           # Su una PR la nuova guida non esiste ancora sul sito pubblico.
           # Verificala esclusivamente dopo il merge (push main), quando Pages la distribuisce.
