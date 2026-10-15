@@ -1,0 +1,32 @@
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),read=p=>fs.readFileSync(path.join(root,p),'utf8');
+const file='agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html';
+const html=read(file),hub=read('agevolazioni-diritti.html'),home=read('index.html'),map=read('sitemap.xml'),app=read('app/main.js');
+const register=JSON.parse(read('FONTI/registro-diritti-immagini.json'));
+assert.equal((html.match(/<h1\b/gi)||[]).length,1,'Un solo H1 per Guida 08');
+assert.match(html,/<main id="contenuto"/,'Main presente');
+assert.match(html,/<meta name="robots" content="index,follow"/,'Non escludere Google');
+assert.match(html,/<link rel="canonical" href="https:\/\/cpcpcp106-coder.github.io\/Per-Me\/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"/,'Canonical');
+const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
+assert.equal(ids.length,new Set(ids).size,'Identificativi univoci');
+for(const a of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(a[1]),'Ancora non risolta: '+a[1]);
+for(const tag of ['h1','h2','h3','p','div','section','figure','nav','article'])assert.equal((html.match(new RegExp('<'+tag+'(?:\\s|>)','gi'))||[]).length,(html.match(new RegExp('</'+tag+'>','gi'))||[]).length,'Tag sbilanciato '+tag);
+for(const el of html.matchAll(/<img\b[^>]*>/gi))assert.match(el[0],/\balt="[^"]+"/i,'Immagine senza testo alternativo');
+for(const q of ['Assegno unico','bonus nido','Bonus nuovi nati','maternità dei Comuni','46.582,71','17.468,51','58,30','203,80','40.000','1.000','120 giorni','12 agosto 2026','30 giugno 2026','3.600','2.065,50','20.668,26','sei mesi','ISEE corrente','15 ottobre 2026'])assert.ok(html.toLowerCase().includes(q.toLowerCase()),'Fatto nazionale 2026 assente: '+q);
+for(const host of ['www.inps.it'])assert.ok(html.includes(host),'Mancano le fonti istituzionali');
+assert.match(html,/photos\/8035972/,'Fotografia diversa');
+assert.ok(!read('agevolazioni-guida-07-patrocinio-spese-stato.html').includes('photos/8035972'),'Immagine duplicata da Guida 07');
+assert.ok(register.stock.some(x=>x.photo_id==='8035972'&&x.used_in===file&&x.license==='https://www.pexels.com/license/'),'Foto Guida 08 priva di fonte/diritti registrati');
+assert.ok(!/Tarcento|Attimis|Racchiuso|ASUFC|CAF UIL|Comune di Udine/i.test(html),'Riferimenti non nazionali/personalizzati');
+for(const m of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){
+ const ref=m[1];if(!/^https?:/.test(ref))assert.ok(fs.existsSync(path.join(root,ref)),'Link locale rotto: '+ref);
+}
+assert.match(hub,/href="agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"/,'Card Guida 08 assente');
+assert.match(hub,/otto guide nazionali e due schede regionali/,'Conteggio rubrica: 8+2');
+assert.match(home,/10 risorse disponibili/,'Conteggio home: 10');
+assert.match(map,/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html/,'Sitemap');
+assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica PWA assente');
+assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'PWA non sincronizza guide collegate');
+console.log('PASS Guida 08: SEO, struttura, ancore, fonti INPS, date 2026, foto distinta, regole nazionali, hub, sitemap, PWA');
+console.log('LIMITI: controllo statico; il test non certifica pubblicazione HTTP, navigazione Android reale o diritti individuali.');
