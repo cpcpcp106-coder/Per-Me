@@ -1,0 +1,44 @@
+name: Per Me - Collaudo browser e fonti esterne
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "monitoraggio/collaudo_browser.cjs"
+      - "monitoraggio/verifica_url_esterni.py"
+      - ".github/workflows/collaudo-browser.yml"
+permissions:
+  contents: write
+concurrency:
+  group: perme-collaudo-browser
+  cancel-in-progress: false
+jobs:
+  collaudo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Installa Playwright, Chromium e axe-core
+        run: |
+          npm install --no-save playwright axe-core
+          npx playwright install --with-deps chromium
+      - name: Test browser responsive, WCAG automatizzati, sincronizzazione e offline
+        run: node monitoraggio/collaudo_browser.cjs
+      - name: Controlla tutte le destinazioni HTTP esterne
+        run: python monitoraggio/verifica_url_esterni.py
+      - name: Archivia risultati con controlli non superati espliciti
+        if: always()
+        run: |
+          git config user.name "per-me-audit"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add monitoraggio/ultimo-collaudo-browser.json monitoraggio/ultimo-controllo-url-esterni.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Per Me: evidenze browser e collegamenti esterni"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
