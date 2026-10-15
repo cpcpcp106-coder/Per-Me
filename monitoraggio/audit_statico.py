@@ -109,7 +109,7 @@ def main():
     indexable=set(n for n,p in parsers.items() if n!="app/index.html" and not p.noindex and n!="googled120465f7b693b08.html")
     report={"date_utc":now,"method":"HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
         "scope":{"html_total":len(pages),"editorial_pages":len(pages)-2,
-                 "guide_pages":sum(x.startswith("debiti-guida-") or x.startswith(("aoi-","assegno-ordinario","cedolino-pensione","contributi-inps-","inps-prestazione","redditi-red-","riesame-ricorso","verbale-invalidita","come-leggere-busta","dal-lordo","ccnl-","controllare-cedolino","ore-ferie","stipendio-diminuito")) for x in parsers)},
+                 "guide_pages":sum(x.startswith(("debiti-guida-","agevolazioni-guida-")) or x.startswith(("aoi-","assegno-ordinario","cedolino-pensione","contributi-inps-","inps-prestazione","redditi-red-","riesame-ricorso","verbale-invalidita","come-leggere-busta","dal-lordo","ccnl-","controllare-cedolino","ore-ferie","stipendio-diminuito")) for x in parsers)},
         "links":{"local_occurrences":len(local),"external_occurrences":len(ext),
                  "external_unique":len(set(u for _,u in ext)),"actions":actions,
                  "broken_local":missing,"broken_anchors":anchors},
