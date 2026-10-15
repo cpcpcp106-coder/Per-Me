@@ -1,0 +1,33 @@
+name: Per Me - Guida 04 Esenzioni FVG
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-agevolazioni-04.cjs'
+      - '.github/workflows/audit-agevolazioni-04.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-agevolazioni-04.cjs'
+      - '.github/workflows/audit-agevolazioni-04.yml'
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla esenzioni ticket, link, markup e indicizzazione
+        run: node scripts/audit-agevolazioni-04.cjs
