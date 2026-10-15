@@ -12,6 +12,49 @@ const ROOT=path.resolve(__dirname,'..');
 const reg=JSON.parse(fs.readFileSync(path.join(ROOT,'FONTI/registro-diritti-immagini.json'),'utf8'));
 const local=new Map(reg.local.map(item=>[item.file,item]));
 const remote=new Map(reg.stock.map(item=>[item.src_path,item]));
+const LEGACY_PENDING=new Set([
+  "Donna anziana al lavoro tra documenti e piante.png",
+  "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
+  "Uomo anziano pianifica il bilancio domestico.png",
+  "Uomo pensieroso alle prese con i documenti.png",
+  "app/icon-192.png",
+  "app/icon-512.png",
+  "app/icon-maskable-512.png",
+  "assets/Uomo concentrato tra pratiche e calcolatrice.png",
+  "assets/Uomo pensieroso tra conti e campagna 恒一.png",
+  "assets/debiti-cartelle-scena.svg",
+  "assets/debiti-consulenza-approvata.png",
+  "assets/debiti-consulenza-approvata.webp",
+  "assets/debiti-guida-01-notifica.webp",
+  "assets/debiti-guida-02-verifica-online.webp",
+  "assets/debiti-guida-03-prove-documenti.webp",
+  "assets/debiti-guida-04-spesa-sostenibile.webp",
+  "assets/debiti-guida-05-avvisi-comunali.webp",
+  "assets/debiti-guida-06-fermo-auto.webp",
+  "assets/debiti-guida-07-verifica-contatori.webp",
+  "assets/debiti-guida-08-nuova-prospettiva.webp",
+  "assets/debiti-guida-09-consulenza-chiara.webp",
+  "assets/debiti-sportello-ascolto.svg",
+  "assets/foto-1.webp",
+  "assets/foto-2.webp",
+  "assets/foto-3.webp",
+  "assets/foto-4.webp",
+  "assets/foto-5.webp",
+  "assets/foto-6.webp",
+  "assets/foto-7.webp",
+  "assets/logo-per-me.png",
+  "assets/pensione-guida-01.jpg",
+  "assets/pensione-guida-02.jpg",
+  "assets/pensione-guida-03.webp",
+  "assets/pensione-guida-04.svg",
+  "assets/pensione-guida-04.webp",
+  "assets/pensione-guida-05.webp",
+  "assets/pensione-guida-06.webp",
+  "assets/pensione-guida-07.webp",
+  "assets/pensione-guida-08.webp",
+  "assets/pensione-invalidita.jpg",
+  "ritratto-enrico.webp"
+]);
 const errors=[],usedLocal=new Set(),usedRemote=new Set();
 function gitBlobSha(buffer){return crypto.createHash('sha1').update(Buffer.from('blob '+buffer.length+'\0')).update(buffer).digest('hex');}
 function walk(dir){
@@ -32,6 +75,8 @@ for(const f of assets){
 for(const item of reg.local){
  if(!assets.some(f=>f.rel===item.file))errors.push('File locale nel registro non trovato: '+item.file);
  if(!['PROVENIENZA_DA_DOCUMENTARE','PROVENIENZA_DOCUMENTATA'].includes(item.licensing))errors.push('Stato provenienza non valido: '+item.file);
+ if(item.licensing==='PROVENIENZA_DA_DOCUMENTARE'&&!LEGACY_PENDING.has(item.file))errors.push('Nuova immagine senza prove di provenienza: '+item.file);
+ if(item.licensing==='PROVENIENZA_DOCUMENTATA'&&(!(item.provenance_evidence||'').trim()||!(item.license_or_ownership||'').trim()))errors.push('Documentazione mancante per nuova immagine: '+item.file);
 }
 for(const item of reg.stock){
  if(item.verification!=='LICENZA_PIATTAFORMA_VERIFICATA'||!/^https:\/\//.test(item.source)||!/^https:\/\//.test(item.license))errors.push('Fonte esterna incompleta: '+item.src_path);
