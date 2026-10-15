@@ -55,7 +55,7 @@ for(const cue of ['Regola del 15 (15–15)','15 g di glucosio','ADA 2026','CDC, 
 }
 assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
 
-for(const x of ['id="anziani-reddito"','pensione','cardiopatia','malnutrizione','agevolazioni-diritti.html#anziani-salute-reddito'])
+for(const x of ['id="anziani-reddito"','pensionistico','cardiopatia','malnutrizione','agevolazioni-diritti.html#anziani-salute-reddito'])
  assert.ok(diab.toLowerCase().includes(x.toLowerCase()),'Anziani e accessibilita economica mancanti dalla rubrica diabete: '+x);
 for(const x of ['id="costo-alimentare"','costo per porzione','prezzo al kg','sarcopenia','legumi','agevolazioni-diritti.html#anziani-salute-reddito'])
  assert.ok(med.toLowerCase().includes(x.toLowerCase()),'Costi, nutrienti e sostenibilita mancanti dalla dieta: '+x);
