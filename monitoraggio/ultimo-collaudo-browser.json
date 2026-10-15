@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T09:44:01.689Z",
+  "checked_at_utc": "2026-10-15T09:47:07.411Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -12,15 +12,15 @@
       "name": "home_overflow_mobile",
       "result": "PASS",
       "details": {
-        "width": 418,
-        "scrollWidth": 418
+        "width": 390,
+        "scrollWidth": 390
       }
     },
     {
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 34,
+        "count": 35,
         "failures": []
       }
     },
@@ -28,16 +28,30 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 34,
+        "checked": 35,
         "violations": []
       }
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
-        "checked": 34,
-        "failed": [],
+        "checked": 35,
+        "failed": [
+          {
+            "page": "agevolazioni-guida-01-isee-corrente.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 6
+              },
+              {
+                "id": "target-size",
+                "nodes": 1
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -67,11 +81,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 09:44.",
+        "status": "31 pagine salvate per la lettura offline · controllo online 15 ott, 09:47.",
         "stored": {
-          "guides": 30,
-          "updated": "2026-10-15T09:44:13.110Z",
-          "bytes": 547191,
+          "guides": 31,
+          "updated": "2026-10-15T09:47:19.038Z",
+          "bytes": 566343,
           "includesNew09": true
         }
       }
@@ -85,7 +99,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 30
+        "count": 31
       }
     },
     {
@@ -93,7 +107,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 3450
+        "chars": 3847
       }
     },
     {
@@ -140,6 +154,52 @@
       "page": "agevolazioni-diritti.html",
       "violations": [],
       "passes": 19,
+      "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-guida-01-isee-corrente.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".isee-guide-nav:nth-child(5) > a:nth-child(1)"
+            ],
+            [
+              "a[href$=\"#requisiti\"]"
+            ],
+            [
+              "a[href$=\"#documenti\"]"
+            ],
+            [
+              "a[href$=\"#domanda\"]"
+            ],
+            [
+              "nav[aria-label=\"Navigazione finale\"] > a:nth-child(1)"
+            ],
+            [
+              "nav[aria-label=\"Navigazione finale\"] > a[href$=\"#contenuto\"]"
+            ]
+          ],
+          "total": 6
+        },
+        {
+          "id": "target-size",
+          "impact": "serious",
+          "description": "Ensure touch targets have sufficient size and space",
+          "help": "All touch targets must be 24px large, or leave sufficient space",
+          "affected": [
+            [
+              ".uil-contact-button[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 20,
       "incomplete": 1
     },
     {

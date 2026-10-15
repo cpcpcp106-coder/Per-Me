@@ -1,12 +1,13 @@
 {
-  "date_utc": "2026-10-15T09:44:34.322144+00:00",
+  "date_utc": "2026-10-15T09:47:38.106563+00:00",
   "scope": {
-    "pages": 36,
-    "unique_external_urls": 230,
-    "occurrences": 458
+    "pages": 37,
+    "unique_external_urls": 237,
+    "occurrences": 478
   },
   "counts": {
-    "raggiungibile": 230
+    "raggiungibile": 236,
+    "bloccato_o_riservato": 1
   },
   "results": [
     {
@@ -150,6 +151,7 @@
       "final_url": "https://extranet.cafuil.it/sediuil/sedi.asp",
       "pages": [
         "agevolazioni-diritti.html",
+        "agevolazioni-guida-01-isee-corrente.html",
         "aoi-invalidita-civile-differenze.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "come-leggere-busta-paga.html",
@@ -213,6 +215,15 @@
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758686254501-afb794642cf3?auto=format&fit=crop&w=1400&h=790&q=78",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.unsplash.com/photo-1758686254501-afb794642cf3?auto=format&fit=crop&w=1400&h=790&q=78",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
     {
@@ -299,6 +310,16 @@
       ]
     },
     {
+      "url": "https://servizi2.inps.it/servizi/ISEEPrecompilato/WfInfoModulistica.aspx/Home.aspx",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/ISEEPrecompilato/WfInfoModulistica.aspx/Home.aspx",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
       "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
       "status": "raggiungibile",
       "http": 200,
@@ -314,6 +335,14 @@
       "final_url": "https://tribunale-foggia.giustizia.it/cmsresources/cms/documents/SENT_5_6_2025_RISTRUTT_-_anonima.pdf",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://unsplash.com/photos/elderly-couple-using-a-laptop-together-at-home-Gi8-DM56n6Y",
+      "status": "bloccato_o_riservato",
+      "http": 401,
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
     {
@@ -1250,6 +1279,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49936.tipologie-di-isee.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49936.tipologie-di-isee.html",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49947.cumulo-pensione-e-reddito-da-lavoro.html",
       "status": "raggiungibile",
       "http": 200,
@@ -1424,7 +1463,11 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Portale-unico-ISEE.html",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
     {
@@ -1866,6 +1909,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.dichiarazione-sostitutiva-unica-disponibile-il-nuovo-modello.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.dichiarazione-sostitutiva-unica-disponibile-il-nuovo-modello.html",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.online-la-certificazione-unica-2026.html",
       "status": "raggiungibile",
       "http": 200,
@@ -1882,6 +1935,16 @@
       "pages": [
         "aoi-invalidita-civile-differenze.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.certificazione-isee-2026-convenzione-tra-l-istituto-e-i-caf.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.04.certificazione-isee-2026-convenzione-tra-l-istituto-e-i-caf.html",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
     {
@@ -2096,6 +2159,7 @@
       "final_url": "https://www.italuil.it/jsps/233/ALTRE_VOCI/234/Sedi_IT.jsp?regioni=6",
       "pages": [
         "agevolazioni-diritti.html",
+        "agevolazioni-guida-01-isee-corrente.html",
         "aoi-invalidita-civile-differenze.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "come-leggere-busta-paga.html",
@@ -2118,12 +2182,22 @@
       ]
     },
     {
+      "url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/decreto-n-3-del-02032026",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/decreto-n-3-del-02032026",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
       "url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
     {
@@ -2150,7 +2224,9 @@
       "http": 200,
       "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "agevolazioni-guida-01-isee-corrente.html",
+        "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
     {
