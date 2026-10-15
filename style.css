@@ -461,3 +461,10 @@ header .brand{gap:14px;min-height:90px}
   text-decoration:underline;
   text-underline-offset:3px;
 }
+
+/* Accessibilità del layout condiviso nazionale */
+header[data-shared="per-me"] nav{gap:clamp(8px,2vw,22px);align-items:center}
+header[data-shared="per-me"] nav a{display:inline-flex;align-items:center;min-height:44px;padding:8px 6px;line-height:1.3;font-size:1rem}
+footer[data-shared="per-me"] a,footer[data-shared="per-me"] a:visited{color:#fff7e8;text-decoration:underline;text-underline-offset:4px}
+footer[data-shared="per-me"] a:focus-visible{outline-color:#fff7e8}
+@media(max-width:560px){header[data-shared="per-me"] .top{gap:8px}header[data-shared="per-me"] nav{width:100%;justify-content:flex-start;gap:4px 12px}header[data-shared="per-me"] nav a{font-size:1rem;min-height:48px}}
