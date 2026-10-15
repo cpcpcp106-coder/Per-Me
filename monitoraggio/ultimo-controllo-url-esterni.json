@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T19:16:45.883289+00:00",
+  "date_utc": "2026-10-15T19:18:22.304245+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 380,
-    "occurrences": 692
+    "unique_external_urls": 381,
+    "occurrences": 694
   },
   "counts": {
-    "raggiungibile": 345,
+    "raggiungibile": 346,
     "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
@@ -264,7 +264,8 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "diabete-tipo-2.html"
+        "diabete-tipo-2.html",
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
@@ -1660,6 +1661,15 @@
       "final_url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/procedura-e-modulistica/",
       "pages": [
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
       ]
     },
     {
