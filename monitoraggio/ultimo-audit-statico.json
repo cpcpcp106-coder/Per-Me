@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T19:06:15+00:00",
+  "date_utc": "2026-10-15T19:22:03+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 51,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1515,
-    "external_occurrences": 689,
-    "external_unique": 377,
+    "local_occurrences": 1524,
+    "external_occurrences": 702,
+    "external_unique": 385,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -162,14 +162,14 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 25,
-      "links_external": 3,
+      "links_local": 27,
+      "links_external": 10,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 2
     },
     {
       "file": "agevolazioni-guida-01-isee-corrente.html",
@@ -642,8 +642,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 19,
-      "links_external": 21,
+      "links_local": 22,
+      "links_external": 24,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -672,8 +672,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 18,
-      "links_external": 17,
+      "links_local": 19,
+      "links_external": 19,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -822,8 +822,8 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 20,
-      "links_external": 1,
+      "links_local": 23,
+      "links_external": 2,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
