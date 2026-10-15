@@ -1,0 +1,32 @@
+name: Per Me - Collaudo struttura nazionale
+on:
+  push:
+    branches: [main, riorganizzazione-nazionale-integrata-2026-10-15]
+    paths: ['*.html', 'app/**', 'site/**', 'style.css', 'sitemap.xml', 'scripts/**', '.github/workflows/verifica-struttura-nazionale.yml']
+  pull_request:
+    branches: [main]
+    paths: ['*.html', 'app/**', 'site/**', 'style.css', 'sitemap.xml', 'scripts/**', '.github/workflows/verifica-struttura-nazionale.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  coerenza:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Unica fonte di layout
+        run: node scripts/sincronizza-layout.cjs --check
+      - name: URL sitemap e architettura
+        run: node scripts/controlla-struttura.cjs
+      - name: Nazionalità e privacy editoriale
+        run: node scripts/audit-perimetro-nazionale.cjs
+      - name: PWA lettura offline e sincronizzazione
+        run: node --test app/tests/*.test.cjs
+      - name: Sintassi manutenzione
+        run: |
+          node --check scripts/sincronizza-layout.cjs
+          node --check scripts/controlla-struttura.cjs

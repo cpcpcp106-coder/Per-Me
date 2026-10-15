@@ -25,7 +25,7 @@ assert.match(guide,/<meta name="robots" content="index,follow"/);
 assert.ok(guide.includes('rel="canonical"'),'Guida non ha canonical');
 assert.match(index,/<meta name="robots" content="index,follow">/,'Rubrica Agevolazioni aperta all’indicizzazione');
 assert.ok(index.includes('href="'+file+'"'),'Guida 04 non nel menu rubrica');
-assert.ok(home.includes('4 risorse disponibili'),'Contatore corretto Rubrica 04 nella home');
+assert.ok(home.includes('6 risorse disponibili'),'Contatore corretto Rubrica 04 nella home');
 assert.ok(home.includes('agevolazioni-diritti.html#guide'),'Link homepage a rubrica manca');
 assert.ok(map.includes('/Per-Me/'+file),'Guida 04 non in sitemap');
 assert.ok(guide.includes('agevolazioni-guida-03-trasporti-fvg.html'),'Manca link precedente');
