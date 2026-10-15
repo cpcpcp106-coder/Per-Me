@@ -7,7 +7,9 @@ const SECTIONS=[
  ['debiti-cartelle.html','Debiti e cartelle'],
  ['agevolazioni-diritti.html','Agevolazioni e diritti'],
  ['salute-autonomia.html','Salute e autonomia'],
- ['tutor-ai.html','Tutor AI essenziale']
+ ['tutor-ai.html','Tutor AI essenziale'],
+ ['diabete-tipo-2.html','Diabete tipo 2'],
+ ['dieta-mediterranea-scientifica.html','Dieta mediterranea scientifica']
 ];
 const CATEGORIES=new Map(SECTIONS),EXCLUDED=new Set(['index.html','metodo.html','monitoraggio.html','chi-siamo.html']);
 const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false,storageOk:true,lastSync:null};
@@ -89,7 +91,7 @@ async function sync(){
   try{let {doc}=await downloadPage(path);pages.set(path,cat);
    for(let a of doc.querySelectorAll('main a[href]')){
     let found=pathFor(a.getAttribute('href'),new URL(path,ROOT));
-    if(found&&!CATEGORIES.has(found))pages.set(found,cat);
+    if(found&&!CATEGORIES.has(found)&&!pages.has(found))pages.set(found,cat);
    }
   }catch(e){failed.push(path)}
  }
