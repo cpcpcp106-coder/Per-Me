@@ -7,6 +7,8 @@ on:
       - 'diabete-tipo-2.html'
       - 'dieta-mediterranea-scientifica.html'
       - 'salute-autonomia.html'
+      - 'agevolazioni-diritti.html'
+      - 'FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md'
       - 'index.html'
       - 'sitemap.xml'
       - 'app/main.js'
@@ -22,6 +24,8 @@ on:
       - 'diabete-tipo-2.html'
       - 'dieta-mediterranea-scientifica.html'
       - 'salute-autonomia.html'
+      - 'agevolazioni-diritti.html'
+      - 'FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md'
       - 'index.html'
       - 'sitemap.xml'
       - 'app/main.js'
@@ -42,5 +46,5 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Verifica fonti, Lancet, foto, struttura nazionale e PWA
+      - name: Verifica tutele, costo cibo, anziani, fonti, foto, sito nazionale e PWA
         run: node scripts/audit-salute-02-rubriche.cjs
