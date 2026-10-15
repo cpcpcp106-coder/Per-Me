@@ -96,6 +96,10 @@ for(const str of ['id="costo-alimentare"','611,85','5,5%','provvisorio','16 otto
  assert.ok(med.toLowerCase().includes(str.toLowerCase()),'Costo alimentare o fonte non controllata: '+str);
 assert.ok(!med.includes('id="dieta-costo-reale"'),'Due capitoli duplicati sul costo del cibo');
 assert.ok(med.includes('agevolazioni-diritti.html#anziani-salute-reddito'),'Manca il rinvio alle tutele');
+for(const k of ['id="olio-italiano-costo"','olive raccolte e molite in Italia','100% italiano','provenienza','Regolamento delegato','2022/2104','dosatore graduato','prezzo al litro × millilitri ÷ 1.000','10 ml','non è di per sé prova','costo esatto per porzione']){
+ assert.ok(med.toLowerCase().includes(k.toLowerCase()),'Olio extravergine: origine, costo o cautela mancanti '+k);
+}
+assert.ok(social.includes('Olio extravergine nelle ricette'),'Criterio costo olio non nel dossier');
 assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet non integrato');
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
 assert.ok(med.includes('10.1016/S0140-6736(19)30041-8'),'DOI Lancet mancante');
