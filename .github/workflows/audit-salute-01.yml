@@ -1,0 +1,34 @@
+name: Per Me - Salute Guida 01 sicurezza e fonti
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'salute-guida-01-preparare-visita.html'
+      - 'salute-autonomia.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-salute-01.cjs'
+      - '.github/workflows/audit-salute-01.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'salute-guida-01-preparare-visita.html'
+      - 'salute-autonomia.html'
+      - 'sitemap.xml'
+      - 'app/main.js'
+      - 'scripts/audit-salute-01.cjs'
+      - '.github/workflows/audit-salute-01.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Controlla fonti, emergenze e istruzioni Guida 01 Salute
+        run: node scripts/audit-salute-01.cjs
