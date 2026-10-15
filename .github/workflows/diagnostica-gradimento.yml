@@ -1,4 +1,4 @@
-name: Per Me - Diagnostica gradimento
+name: Per Me - Diagnostica gradimento, sola lettura
 on:
   push:
     branches: [main]
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
-      - name: Verifica contatori e due eventi sintetici isolati
+      - name: Verifica conteggi in sola lettura e CORS
         shell: bash
         run: |
           set -euo pipefail
@@ -45,33 +45,15 @@ jobs:
           echo "=== Contatore primo articolo con parametro anticache (solo lettura) ==="
           curl -sS --max-time 20 "$root/perme-stelle-5/debiti-guida-09-a-chi-rivolgersi?readOnly=true&revision=perme20261015c" |
             python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
-          echo "=== Test POST click via GET con contesto browser e behavior vote (isolato) ==="
-          browser_headers=(-H 'Origin: https://cpcpcp106-coder.github.io' -H 'Referer: https://cpcpcp106-coder.github.io/Per-Me/' -H 'User-Agent: Mozilla/5.0 Chrome/131.0.0.0 Safari/537.36')
-          work="https://counterapi.com/api/perme-diagnostica-stelle20261015"
-          echo "Incremento test voto: "
-          curl -sS --max-time 20 "${browser_headers[@]}" "$work/voto/test-clic-20261015?behavior=vote" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
-          echo "Test pixel immagine (isolato): "
-          curl -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "${browser_headers[@]}" "https://counterapi.com/pixel.gif?ns=perme-diagnostica-stelle20261015&action=pixel&key=test-clic-pixel-20261015"
-          sleep 4
-          echo "Rilettura sintetica voto (GET): "
-          curl -sS --max-time 20 "$work/voto/test-clic-20261015?readOnly=true&revision=probe20261015d" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
-          echo "Rilettura sintetica pixel (GET): "
-          curl -sS --max-time 20 "$work/pixel/test-clic-pixel-20261015?readOnly=true&revision=probe20261015d" | python3 -c 'import json,sys; print(json.load(sys.stdin).get("value", "n/d"))'
-          echo "=== Test alternativo CountAPI, chiave separata da Per Me ==="
-          alternative='https://countapi.mileshilliard.com/api/v1'
-          testkey='perme-isolated-validation-20261015-2021'
-          echo "Lettura iniziale (può rispondere 404 se la chiave è nuova): "
-          curl -sS --max-time 18 -w '\nHTTP %{http_code}\n' "$alternative/get/$testkey" | head -c 250
-          echo
-          echo "Incremento di prova: "
-          curl -sS --max-time 18 -w '\nHTTP %{http_code}\n' "$alternative/hit/$testkey" | head -c 250
-          echo
-          echo "Rilettura finale: "
-          curl -sS --max-time 18 -w '\nHTTP %{http_code}\n' "$alternative/get/$testkey" | head -c 250
-          echo
-          echo "Intestazioni CORS per il sito: "
-          curl -sS --max-time 18 -D /tmp/alternative-headers -o /dev/null \
-           -H 'Origin: https://cpcpcp106-coder.github.io' "$alternative/get/$testkey"
-          grep -Ei '^(HTTP/|access-control-|content-type:)' /tmp/alternative-headers || true
+          echo "=== Nuovo servizio, nessuna modifica a contatori (solo lettura) ==="
+          prefix="https://countapi.mileshilliard.com/api/v1/get/"
+          for k in 'perme-isolated-validation-20261015-2021' 'perme-20261015-perme-stelle-5-debiti-guida-09-a-chi-rivolgersi'; do
+            echo "Chiave: $k"
+            curl -sS --max-time 20 -D /tmp/perme-countapi-headers -o /tmp/perme-countapi-result -w 'HTTP %{http_code}\n' \
+              -H 'Origin: https://cpcpcp106-coder.github.io' "$prefix$k"
+            grep -Ei '^access-control-allow-origin:' /tmp/perme-countapi-headers || true
+            head -c 230 /tmp/perme-countapi-result || true
+            echo
+          done
           printf 'Origine pubblica sito: '
           curl -L -sS --max-time 20 -o /dev/null -w 'HTTP %{http_code}\n' "https://cpcpcp106-coder.github.io/Per-Me/gradimento.js"
