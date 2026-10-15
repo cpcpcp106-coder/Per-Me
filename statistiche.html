@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="it"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index,follow">
+<meta name="description" content="Conteggio semplice di visite al sito Per Me e installazioni dell'app rilevate.">
+<link rel="canonical" href="https://cpcpcp106-coder.github.io/Per-Me/statistiche.html">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="style.css?v=logo-proporzionato-20261014">
+<title>I numeri di Per Me</title>
+<style>
+.numbers{max-width:860px;margin:40px auto 70px}
+.number-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:30px 0}
+.number-box{border:1px solid #cdbdab;border-radius:12px;background:#f6f2e8;padding:28px 18px;text-align:center}
+.number-box h2{margin:0;font-size:clamp(1.15rem,3vw,1.45rem);color:#35291f}
+.number-box output{display:block;margin:12px 0;color:#254236;font-weight:800;font-size:clamp(3.2rem,9vw,5.2rem);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.numbers p{font-size:1.1rem;line-height:1.6}
+@media(max-width:630px){.number-grid{grid-template-columns:1fr}}
+</style></head><body>
+<a class="skip" href="#contenuto">Vai al contenuto</a>
+<header data-shared="per-me"><div class="wrap top"><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-per-me.png" width="86" height="86" alt="" decoding="async">Per Me</a><nav aria-label="Navigazione principale"><a href="index.html">Home</a><a href="index.html#rubriche">Rubriche</a><a href="metodo.html">Il metodo</a><a href="chi-siamo.html">Il progetto</a></nav></div></header>
+<main class="wrap" id="contenuto"><section class="numbers">
+<h1>I numeri di Per Me</h1>
+<p>Conteggi avviati il 15 ottobre 2026.</p>
+<div class="number-grid">
+<div class="number-box"><h2>Visite al sito</h2><output id="visite" aria-live="polite">—</output></div>
+<div class="number-box"><h2>Installazioni dell'app rilevate</h2><output id="installazioni" aria-live="polite">—</output></div>
+</div>
+<p id="stato" role="status" aria-live="polite">Caricamento dei contatori…</p>
+<p>Le visite sono sessioni di navigazione rilevate nella scheda del browser, non persone uniche. Le installazioni sono quelle comunicate dal browser: quelle manuali o fatte con browser non compatibili potrebbero non comparire. Consultare questa pagina non aumenta i contatori.</p>
+<p>I numeri sono forniti da <a href="https://counterapi.com/" target="_blank" rel="noopener noreferrer">CounterAPI</a>, servizio esterno gratuito, senza cookie di profilazione in questa integrazione. Blocchi della rete o del servizio possono ridurre i totali. Non comprendono il traffico precedente all'attivazione.</p>
+<p><a href="index.html" class="button">Torna al sito</a></p>
+</section></main>
+<footer data-shared="per-me"><div class="wrap">Per Me · Guide gratuite per tutta Italia · <a href="metodo.html">Fonti e limiti</a> · <a href="chi-siamo.html">Il progetto</a></div></footer>
+<script>
+(async()=>{
+ const items=[['visita','visite'],['installazione','installazioni']];
+ const states=await Promise.allSettled(items.map(async ([action,id])=>{
+  const url='https://counterapi.com/api/cpcpcp106-coder.github.io/'+action+'/per-me?readOnly=true&nonce='+Date.now();
+  const result=await fetch(url,{cache:'no-store',credentials:'omit'});
+  if(!result.ok)throw Error('HTTP '+result.status);
+  const data=await result.json();
+  const value=Number(data.value);
+  if(!Number.isSafeInteger(value)||value<0)throw Error('Risposta non valida');
+  document.getElementById(id).textContent=value.toLocaleString('it-IT');
+ }));
+ document.getElementById('stato').textContent=states.every(x=>x.status==='fulfilled')
+  ?'Conteggi aggiornati.'
+  :'Uno o entrambi i conteggi non sono disponibili. Il simbolo — non significa zero.';
+})();
+</script></body></html>
