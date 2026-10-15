@@ -34,6 +34,7 @@ jobs:
             "agevolazioni-guida-02-bonus-sociali.html"
             "agevolazioni-guida-03-trasporti-fvg.html"
             "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+            "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
             "app/"
           )
           failed=0
