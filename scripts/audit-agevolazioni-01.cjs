@@ -19,7 +19,8 @@ assert.ok(!guide.includes('assets/debiti-guida-'),'Non riusare una fotografia de
 const ids=[...guide.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(new Set(ids).size,ids.length,'ID univoci');
 for(const m of guide.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'Ancora senza destinazione '+m[1]);
-for(const file of [rubric,home])assert.ok(file.includes('href="'+guideName+'"'),'Collegamento alla guida mancante');
+assert.ok(rubric.includes('href="'+guideName+'"'),'Guida 01 assente dalla Rubrica 04');
+assert.ok(home.includes('href="agevolazioni-diritti.html#guide"')||home.includes('href="'+guideName+'"'),'La home deve raggiungere l\'indice o la guida 01');
 assert.ok(sitemap.includes('/Per-Me/'+guideName),'Pagina presente nella sitemap');
 assert.ok(rubric.includes('id="guide"'),'Indice guide con destinazione #guide');
 assert.ok(rubric.includes('noindex,follow'),'Indice in costruzione non indicizzato');
