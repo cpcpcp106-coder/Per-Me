@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T19:17:22.238Z",
+  "checked_at_utc": "2026-10-15T19:18:57.436Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:17.",
+        "status": "44 pagine salvate per la lettura offline · controllo online 15 ott, 19:19.",
         "stored": {
           "guides": 44,
-          "updated": "2026-10-15T19:17:47.035Z",
-          "bytes": 834697,
+          "updated": "2026-10-15T19:19:22.144Z",
+          "bytes": 840150,
           "includesNew09": true
         }
       }
@@ -93,7 +93,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 5767
+        "chars": 7953
       }
     },
     {
@@ -436,7 +436,7 @@
     {
       "page": "salute-autonomia.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 1
     },
     {

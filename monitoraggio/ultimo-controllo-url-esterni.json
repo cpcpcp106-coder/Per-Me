@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T19:18:22.304245+00:00",
+  "date_utc": "2026-10-15T19:20:08.041258+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 381,
-    "occurrences": 694
+    "unique_external_urls": 385,
+    "occurrences": 702
   },
   "counts": {
-    "raggiungibile": 346,
+    "raggiungibile": 350,
     "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
@@ -265,7 +265,8 @@
       "http": 403,
       "pages": [
         "diabete-tipo-2.html",
-        "dieta-mediterranea-scientifica.html"
+        "dieta-mediterranea-scientifica.html",
+        "salute-autonomia.html"
       ]
     },
     {
@@ -1408,6 +1409,15 @@
       ]
     },
     {
+      "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/2-26",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/2-26",
+      "pages": [
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
       "status": "raggiungibile",
       "http": 200,
@@ -2126,6 +2136,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.indennit-di-accompagnamento-agli-invalidi-civili.html",
       "pages": [
+        "agevolazioni-diritti.html",
         "aoi-invalidita-civile-differenze.html"
       ]
     },
@@ -2254,6 +2265,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
       "pages": [
+        "agevolazioni-diritti.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
@@ -2697,6 +2709,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.03.prestazione-universale-nuove-indicazioni-operative.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.03.prestazione-universale-nuove-indicazioni-operative.html",
+      "pages": [
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.11.rendita-vitalizia-nuove-indicazioni-per-la-richiesta.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2758,6 +2779,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html",
       "pages": [
         "assegno-ordinario-invalidita-requisiti-conferma.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
+      "pages": [
+        "agevolazioni-diritti.html"
       ]
     },
     {
@@ -3502,6 +3532,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-malattie-croniche/",
       "pages": [
+        "agevolazioni-diritti.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
@@ -3628,6 +3659,15 @@
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/assistenza-integrativa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/assistenza-integrativa/",
+      "pages": [
+        "agevolazioni-diritti.html"
       ]
     },
     {
