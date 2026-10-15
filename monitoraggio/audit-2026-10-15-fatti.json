@@ -3,8 +3,8 @@
   "scope": "Campione ampliato alle rubriche lavoro, pensioni e debiti. Non costituisce una verifica atomica ESAUSTIVA delle guide: atti individuali, esempi e deroghe restano da verificare.",
   "count": 62,
   "counts": {
-    "CONFERMATO": 61,
-    "NON_VERIFICABILE": 1
+    "CONFERMATO": 62,
+    "NON_VERIFICABILE": 0
   },
   "fully_exhaustive": false,
   "sources": [
@@ -259,10 +259,10 @@
       "id": "C24",
       "path": "debiti-guida-08-sovraindebitamento.html",
       "claim": "L'articolo 283, comma 6, dimezza i compensi OCC nella procedura dell'incapiente.",
-      "status": "NON_VERIFICABILE",
-      "source": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "CONFERMATO",
+      "source": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=24G00154&art.dataPubblicazioneGazzetta=2024-09-27&art.flagTipoArticolo=0&art.idArticolo=43&art.idGruppo=1&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
       "date": "2026-10-15",
-      "note": "Il contenuto trova conferma in fonti specialistiche accreditate, ma l'URL ufficiale richiamato non è stato direttamente accessibile in questa sessione; riscontro primario non completato."
+      "note": "Fonte primaria consultata: Gazzetta Ufficiale, D.Lgs. 136/2024, art. 43, note con testo dell'art. 283, comma 6, del D.Lgs. 14/2019. La conferma riguarda questa specifica proposizione, non tutte le guide."
     },
     {
       "id": "C25",
