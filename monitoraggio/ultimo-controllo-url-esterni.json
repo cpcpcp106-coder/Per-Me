@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-15T17:56:32.529845+00:00",
+  "date_utc": "2026-10-15T18:08:27.944000+00:00",
   "scope": {
     "pages": 48,
-    "unique_external_urls": 338,
-    "occurrences": 634
+    "unique_external_urls": 339,
+    "occurrences": 637
   },
   "counts": {
-    "raggiungibile": 320,
+    "raggiungibile": 323,
     "bloccato_o_riservato": 12,
-    "non_verificato_trasporto": 6
+    "non_verificato_trasporto": 4
   },
   "results": [
     {
@@ -1471,10 +1471,10 @@
       ]
     },
     {
-      "url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
+      "url": "https://www.epicentro.iss.it/igea/strumenti/documentiigea",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.epicentro.iss.it/igea/igea/doc_indirizzo",
+      "final_url": "https://www.epicentro.iss.it/igea/strumenti/documentiigea",
       "pages": [
         "salute-guida-01-preparare-visita.html"
       ]
@@ -3190,6 +3190,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/pubblicazione/raccomandazione-n-17-riconciliazione-della-terapia-farmacologica/",
       "pages": [
+        "salute-guida-01-preparare-visita.html",
         "salute-guida-01-preparare-visita.html"
       ]
     },
@@ -3199,6 +3200,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/",
       "pages": [
+        "salute-guida-01-preparare-visita.html",
         "salute-guida-01-preparare-visita.html"
       ]
     },
@@ -3232,8 +3234,9 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-invalidita/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-invalidita/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -3253,8 +3256,9 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-rare/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-rare/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -3279,6 +3283,15 @@
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/infarto-miocardico/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/infarto-miocardico/",
+      "pages": [
+        "salute-guida-01-preparare-visita.html"
       ]
     },
     {
