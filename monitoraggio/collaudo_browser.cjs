@@ -67,6 +67,20 @@ await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);
 record('app_back_online_after_offline',(await page.locator('h1').count())>=1,'App reopened after offline test');
+
+const deployed=await context.newPage();
+for (const [label,remote,locator] of [
+ ['published_home','https://cpcpcp106-coder.github.io/Per-Me/','main h1'],
+ ['published_debt_guide09','https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html','article h1'],
+ ['published_app','https://cpcpcp106-coder.github.io/Per-Me/app/','#catalogue-title']
+]){
+ try{
+ const res=await deployed.goto(remote,{waitUntil:'domcontentloaded',timeout:30000});
+ const ok=!!res&&res.status()===200&&await deployed.locator(locator).count()>=1;
+ record(label,ok,{http:res?.status(),title:await deployed.title(),url:deployed.url()});
+ }catch(e){record(label,false,{error:String(e).slice(0,280),url:remote})}
+}
+await deployed.close();
 await browserInstance.close();browserInstance=null;
 report.status='COMPLETED';
 } 
