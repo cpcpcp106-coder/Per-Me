@@ -24,7 +24,8 @@ async function counter(a,p,readOnly){
 async function detail(p){
  const counts=await Promise.all(stars.map(n=>counter(action(n),p,true)));
  const total=counts.reduce((a,b)=>a+b,0);
- return {counts,total,mean:total?counts.reduce((a,b,i)=>a+b*(i+1),0)/total:null};
+ const starTotal=counts.reduce((a,b,i)=>a+b*(i+1),0);
+ return {counts,total,starTotal,mean:total?starTotal/total:null};
 }
 function mount(host,p){
  if(!host||!valid(p))return;
@@ -69,32 +70,37 @@ async function ranking(){
   const res=await fetch(new URL('gradimento-articoli.json',root),{cache:'no-store'});
   if(!res.ok)throw Error('Catalogo');
   const data=await res.json();if(!Array.isArray(data))throw Error('Catalogo');
-  rows=data.filter(x=>x&&valid(x.path)&&typeof x.title==='string').map(x=>({...x,total:null,mean:null,error:false}));
+  rows=data.filter(x=>x&&valid(x.path)&&typeof x.title==='string').map(x=>({...x,total:null,starTotal:null,mean:null,error:false}));
  }catch(_){report('Non riesco a caricare gli articoli. Controlla la connessione.');return}
  let next=0,done=0;
  async function worker(){
   while(next<rows.length){
    const row=rows[next++];
    try{
-    row.total=await counter('any',row.path,true);
-    if(row.total>0){try{const d=await detail(row.path);row.total=d.total;row.mean=d.mean}catch(_){}}
+    // Leggere tutte le cinque categorie: "any" non equivale al totale delle stelle.
+    const d=await detail(row.path);
+    row.total=d.total;
+    row.starTotal=d.starTotal;
+    row.mean=d.mean;
    }catch(_){row.error=true}
    done++;report('Caricamento: '+done+' di '+rows.length+' articoli…');
   }
  }
- await Promise.all(Array.from({length:Math.min(6,rows.length)},()=>worker()));
- rows.sort((a,b)=>(Number(a.error)-Number(b.error))||(b.total||0)-(a.total||0)||(b.mean||0)-(a.mean||0)||a.title.localeCompare(b.title,'it'));
+ await Promise.all(Array.from({length:Math.min(4,rows.length)},()=>worker()));
+ rows.sort((a,b)=>(Number(a.error)-Number(b.error))||(b.starTotal||0)-(a.starTotal||0)||(b.mean||0)-(a.mean||0)||(b.total||0)-(a.total||0)||a.title.localeCompare(b.title,'it'));
  const list=document.createElement('ol');list.className='perme-ranking-list';
  rows.forEach(r=>{
   const li=document.createElement('li'),box=document.createElement('article'),a=document.createElement('a'),cat=document.createElement('p'),vote=document.createElement('p');
   a.href=new URL(r.path,root).href;a.textContent=r.title;cat.textContent=r.category;vote.className='perme-ranking-score';
-  vote.textContent=r.error?'Conteggio non disponibile':r.total===0?'0 clic · Nessuna valutazione':
-   r.total.toLocaleString('it-IT')+' clic'+(r.mean===null?' · Media non disponibile':' · Media '+r.mean.toFixed(1).replace('.',',')+' / 5 stelle');
+  vote.textContent=r.error?'Conteggio non disponibile':r.total===0?'★ 0 stelle totali · 0 clic':
+   '★ '+r.starTotal.toLocaleString('it-IT')+(r.starTotal===1?' stella totale':' stelle totali')+
+   ' · '+r.total.toLocaleString('it-IT')+(r.total===1?' clic':' clic')+
+   ' · Media '+r.mean.toFixed(1).replace('.',',')+' / 5';
   box.append(a,cat,vote);li.append(box);list.append(li);
  });
  target.replaceChildren(list);
  const errors=rows.filter(r=>r.error).length;
- report(rows.length+' articoli, ordinati per numero di clic e poi per media.'+(errors?' Conteggio non disponibile per '+errors+' articoli.':''));
+ report(rows.length+' articoli, ordinati per stelle totali ricevute (somma delle stelle di tutti i clic), poi per media.'+(errors?' Conteggio non disponibile per '+errors+' articoli.':''));
 }
 window.PerMeGradimento=Object.freeze({mount});
 function boot(){
