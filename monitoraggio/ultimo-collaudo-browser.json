@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T09:55:56.339Z",
+  "checked_at_utc": "2026-10-15T09:58:43.560Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,20 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 35,
-        "failed": [
-          {
-            "page": "agevolazioni-guida-01-isee-corrente.html",
-            "violations": [
-              {
-                "id": "target-size",
-                "nodes": 1
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -77,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "31 pagine salvate per la lettura offline · controllo online 15 ott, 09:56.",
+        "status": "31 pagine salvate per la lettura offline · controllo online 15 ott, 09:58.",
         "stored": {
           "guides": 31,
-          "updated": "2026-10-15T09:56:09.978Z",
+          "updated": "2026-10-15T09:58:55.105Z",
           "bytes": 566343,
           "includesNew09": true
         }
@@ -154,20 +144,7 @@
     },
     {
       "page": "agevolazioni-guida-01-isee-corrente.html",
-      "violations": [
-        {
-          "id": "target-size",
-          "impact": "serious",
-          "description": "Ensure touch targets have sufficient size and space",
-          "help": "All touch targets must be 24px large, or leave sufficient space",
-          "affected": [
-            [
-              ".uil-contact-button[target=\"_blank\"][rel=\"noopener noreferrer\"]:nth-child(2)"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 20,
       "incomplete": 1
     },
