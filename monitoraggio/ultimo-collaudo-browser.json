@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T07:51:45.384Z",
+  "checked_at_utc": "2026-10-15T07:54:24.803Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,20 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 34,
-        "failed": [
-          {
-            "page": "dal-lordo-al-netto.html",
-            "violations": [
-              {
-                "id": "scrollable-region-focusable",
-                "nodes": 2
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -77,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:51.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:54.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T07:51:56.836Z",
+          "updated": "2026-10-15T07:54:37.346Z",
           "bytes": 540573,
           "includesNew09": true
         }
@@ -175,24 +165,8 @@
     },
     {
       "page": "dal-lordo-al-netto.html",
-      "violations": [
-        {
-          "id": "scrollable-region-focusable",
-          "impact": "serious",
-          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
-          "help": "Scrollable region must have keyboard access",
-          "affected": [
-            [
-              ".sample-pay:nth-child(24)"
-            ],
-            [
-              ".sample-pay:nth-child(28)"
-            ]
-          ],
-          "total": 2
-        }
-      ],
-      "passes": 22,
+      "violations": [],
+      "passes": 26,
       "incomplete": 1
     },
     {
