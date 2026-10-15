@@ -27,6 +27,25 @@ for(const tag of ['p','h2','blockquote','article','main','nav','div']){
 assert.match(html,/Dal telefono: tre passaggi/,'Istruzioni telefono');
 assert.match(html,/Non incollare documenti reali/,'Protezione dati personali');
 assert.match(html,/non è una chat AI incorporata nel sito/i,'Distinzione sito/servizio AI');
+assert.match(html,/Che cosa imparerai/,'Obiettivi formativi non esplicitati');
+for(const cue of ['scrivere una richiesta chiara','riconoscere almeno un errore','verificare informazioni importanti','circa 20–30 minuti','senza aprire una chat'])
+ assert.ok(html.toLowerCase().includes(cue.toLowerCase()),'Obiettivo/istruzione assente: '+cue);
+for(const item of ['1. Compito','2. Testo di partenza','3. Forma','4. Limiti','5. Controllo'])
+ assert.ok(html.includes(item),'Metodo di formulazione incompleto: '+item);
+assert.match(html,/id="verifica-apprendimento"/,'Autoverifica formativa assente');
+assert.match(html,/Individua le due affermazioni sbagliate prima di aprire la soluzione/,'La prova non deve mostrare subito la risposta');
+const details=(html.match(/<details>/g)||[]).length,summary=(html.match(/<summary>/g)||[]).length;
+assert.equal(details,5,'Una prova guidata + quattro soluzioni di autoverifica');
+assert.equal(details,summary,'Ogni soluzione deve essere attivabile da tastiera tramite summary');
+for(const key of ['Mostra la soluzione 1','Mostra la soluzione 2','Mostra la soluzione 3','Mostra la soluzione 4'])
+ assert.ok(html.includes(key),'Manca feedback formativo: '+key);
+for(const term of ['Salute:','Scadenze e diritti:','Denaro:','Dati personali:'])
+ assert.ok(html.includes(term),'Limite di sicurezza mancante: '+term);
+for(const host of ['joint-research-centre.ec.europa.eu','www.unesco.org','www.garanteprivacy.it'])
+ assert.ok(html.includes(host),'Fonte pedagogica/etica assente: '+host);
+assert.match(html,/Non è un corso ufficiale di tali organizzazioni/i,'Non attribuire riconoscimenti istituzionali');
+assert.match(html,/copiare i sei prompt dal lettore anche senza rete/i,'Capacita offline non spiegata');
+
 assert.match(html,/https:\/\/help.openai.com\/it-it\/articles\//,'Fonte errori AI in italiano');
 assert.match(html,/www.garanteprivacy.it\/temi\/assistenti-digitali/,'Fonte Garante Privacy');
 const script=[...html.matchAll(/<script(?:\s[^>]*)?>([\s\S]*?)<\/script>/g)].map(x=>x[1]).find(x=>x.includes("button[data-copy]"));
