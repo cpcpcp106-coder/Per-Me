@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T07:58:00.431Z",
+  "checked_at_utc": "2026-10-15T07:59:47.355Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 07:58.",
+        "status": "30 pagine salvate per la lettura offline · controllo online 15 ott, 08:00.",
         "stored": {
           "guides": 30,
-          "updated": "2026-10-15T07:58:16.832Z",
+          "updated": "2026-10-15T08:00:04.916Z",
           "bytes": 540573,
           "includesNew09": true
         }
@@ -100,6 +100,33 @@
       "name": "app_back_online_after_offline",
       "result": "PASS",
       "details": "App reopened after offline test"
+    },
+    {
+      "name": "published_home",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Per Me — Capire cosa fare",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/"
+      }
+    },
+    {
+      "name": "published_debt_guide09",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "A chi rivolgersi per debiti e cartelle | Guida 09 Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html"
+      }
+    },
+    {
+      "name": "published_app",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Per Me · Guide offline",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/app/"
+      }
     }
   ],
   "axe": [

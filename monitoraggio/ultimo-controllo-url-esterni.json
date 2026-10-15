@@ -1,12 +1,13 @@
 {
-  "date_utc": "2026-10-15T07:58:41.467461+00:00",
+  "date_utc": "2026-10-15T08:00:38.751282+00:00",
   "scope": {
     "pages": 36,
     "unique_external_urls": 224,
     "occurrences": 452
   },
   "counts": {
-    "raggiungibile": 224
+    "raggiungibile": 223,
+    "bloccato_o_riservato": 1
   },
   "results": [
     {
@@ -993,9 +994,8 @@
     },
     {
       "url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "dieta-mediterranea-ricette.html"
       ]
