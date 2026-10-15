@@ -1,13 +1,14 @@
 {
-  "date_utc": "2026-10-15T15:18:05.407073+00:00",
+  "date_utc": "2026-10-15T15:23:50.076007+00:00",
   "scope": {
     "pages": 44,
     "unique_external_urls": 299,
     "occurrences": 582
   },
   "counts": {
-    "raggiungibile": 291,
-    "bloccato_o_riservato": 8
+    "raggiungibile": 289,
+    "bloccato_o_riservato": 8,
+    "non_verificato_trasporto": 2
   },
   "results": [
     {
@@ -563,9 +564,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/come-pagare/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies/come-pagare/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "pages": [
         "debiti-guida-05-rottamazione.html",
         "debiti-guida-05-rottamazione.html"
@@ -837,9 +837,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/pagare-cartelle-e-avvisi/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html"
@@ -2516,7 +2515,7 @@
       "url": "https://www.ispettorato.gov.it/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.ispettorato.gov.it/?doing_wp_cron=1792077482.9795830249786376953125",
+      "final_url": "https://www.ispettorato.gov.it/",
       "pages": [
         "stipendio-diminuito-cosa-controllare.html"
       ]
