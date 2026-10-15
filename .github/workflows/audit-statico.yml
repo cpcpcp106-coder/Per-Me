@@ -1,0 +1,42 @@
+name: Per Me - Audit statico integrale
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "*.html"
+      - "app/**"
+      - "assets/**"
+      - "style.css"
+      - "sitemap.xml"
+      - "monitoraggio/audit_statico.py"
+      - ".github/workflows/audit-statico.yml"
+permissions:
+  contents: write
+concurrency:
+  group: per-me-audit-statico
+  cancel-in-progress: false
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Verifica sintassi JavaScript
+        run: |
+          node --check app/main.js
+          node --check app/sw.js
+      - name: Inventario, collegamenti, PWA e sitemap
+        run: python monitoraggio/audit_statico.py
+      - name: Salva lo storico statico senza sovrascrivere gli audit editoriali
+        run: |
+          git config user.name "per-me-audit"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add monitoraggio/ultimo-audit-statico.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Per Me: snapshot automatico dell'audit statico"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
