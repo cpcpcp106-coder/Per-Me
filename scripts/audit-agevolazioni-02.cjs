@@ -16,7 +16,7 @@ for(const [p,content] of [[name,guide],['agevolazioni-diritti.html',index]]){
  for(const img of content.matchAll(/<img\b[^>]*>/g))assert.match(img[0],/\balt="[^"]*"/,p+': alt mancante');
 }
 assert.ok(guide.includes('content="index,follow"'),'Guida 02 esclusa dall’indicizzazione');
-assert.ok(index.includes('noindex,follow'),'Indice rubrica incompleta indicizzato');
+assert.match(index,/<meta name="robots" content="index,follow">/,'Rubrica Agevolazioni aperta all’indicizzazione');
 assert.ok(guide.includes('rel="canonical"'),'Manca canonical');
 assert.ok(index.includes('href="'+name+'"'),'Guida 02 assente dall’indice');
 assert.ok(home.includes('href="agevolazioni-diritti.html#guide"'),'Home non punta all’elenco Rubrica 04');

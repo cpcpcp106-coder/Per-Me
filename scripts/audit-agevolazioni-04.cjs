@@ -23,7 +23,7 @@ for(const [name,html] of [[file,guide],['agevolazioni-diritti.html',index]]){
 }
 assert.match(guide,/<meta name="robots" content="index,follow"/);
 assert.ok(guide.includes('rel="canonical"'),'Guida non ha canonical');
-assert.ok(index.includes('noindex,follow'),'Indice rubrica parziale non deve essere indicizzato');
+assert.match(index,/<meta name="robots" content="index,follow">/,'Rubrica Agevolazioni aperta all’indicizzazione');
 assert.ok(index.includes('href="'+file+'"'),'Guida 04 non nel menu rubrica');
 assert.ok(home.includes('4 guide operative disponibili'),'Contatore homepage erroneo');
 assert.ok(home.includes('agevolazioni-diritti.html#guide'),'Link homepage a rubrica manca');

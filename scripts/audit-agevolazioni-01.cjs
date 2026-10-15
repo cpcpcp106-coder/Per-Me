@@ -23,7 +23,7 @@ assert.ok(rubric.includes('href="'+guideName+'"'),'Guida 01 assente dalla Rubric
 assert.ok(home.includes('href="agevolazioni-diritti.html#guide"')||home.includes('href="'+guideName+'"'),'La home deve raggiungere l\'indice o la guida 01');
 assert.ok(sitemap.includes('/Per-Me/'+guideName),'Pagina presente nella sitemap');
 assert.ok(rubric.includes('id="guide"'),'Indice guide con destinazione #guide');
-assert.ok(rubric.includes('noindex,follow'),'Indice in costruzione non indicizzato');
+assert.match(rubric,/<meta name="robots" content="index,follow">/,'Rubrica Agevolazioni aperta all’indicizzazione');
 assert.ok(!guide.includes('noindex,nofollow'),'Guida autonoma indicizzabile');
 const must=[
  '31 dicembre 2024','31 dicembre 2025','31 dicembre 2026','superiore al 25%',

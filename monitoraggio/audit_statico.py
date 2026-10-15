@@ -105,8 +105,10 @@ def main():
     sitemap_paths=set()
     for url in re.findall(r"<loc>([^<]+)</loc>",sitemap):
         v=urlsplit(url);p=v.path[len(PREFIX):] if v.path.startswith(PREFIX) else v.path.lstrip("/")
-        sitemap_paths.add(p or "index.html")
-    indexable=set(n for n,p in parsers.items() if n!="app/index.html" and not p.noindex and n!="googled120465f7b693b08.html")
+        p=p or "index.html"
+        if p.endswith("/"):p+="index.html"
+        sitemap_paths.add(p)
+    indexable=set(n for n,p in parsers.items() if not p.noindex and n!="googled120465f7b693b08.html")
     report={"date_utc":now,"method":"HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
         "scope":{"html_total":len(pages),"editorial_pages":len(pages)-2,
                  "guide_pages":sum(x.startswith(("debiti-guida-","agevolazioni-guida-")) or x.startswith(("aoi-","assegno-ordinario","cedolino-pensione","contributi-inps-","inps-prestazione","redditi-red-","riesame-ricorso","verbale-invalidita","come-leggere-busta","dal-lordo","ccnl-","controllare-cedolino","ore-ferie","stipendio-diminuito")) for x in parsers)},

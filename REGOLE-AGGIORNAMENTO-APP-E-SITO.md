@@ -38,6 +38,12 @@ Non è corretto indicare completato un aggiornamento dell'app esterna `per-me-ap
 
 Confermare link, numeri distinti, contrasto, navigazione del sito, lettura delle guide offline dopo un primo aggiornamento riuscito, e sincronizzazione dei nuovi articoli online. Comunicare esplicitamente quali verifiche sono realmente state eseguite.
 
+## Indicizzazione delle pagine pubbliche
+
+Su indicazione di Enrico del 15 ottobre 2026, tutte le pagine pubbliche del sito e dell'app devono consentire l'indicizzazione e la scansione dei collegamenti (`index,follow`). Non reintrodurre blocchi `noindex` o `nofollow` su rubriche, guide, pagine di servizio o app.
+
+Mantenere gli indirizzi canonici coerenti e la sitemap aggiornata, senza inserire il file tecnico di verifica della proprietà Google. La home non deve presentare il sito nel suo complesso come «in costruzione»; lo stato dei singoli contenuti va comunicato nelle rispettive pagine.
+
 ## Identità grafica ufficiale Per Me (vincolante)
 
 Il logo è stato approvato il 14 ottobre 2026 e l'autore ha confermato l'ultima correzione («Risolto»). Prima di modificare testata, grafica o app consultare **[FONTI/DECISIONI-LOGO-SITO-APP-2026-10-14.md](FONTI/DECISIONI-LOGO-SITO-APP-2026-10-14.md)** e **[FONTI/LOGO-UFFICIALE.md](FONTI/LOGO-UFFICIALE.md)**. Formato circolare minimal color cuoio, trasparenza all'esterno; dimensione approvata **82 px mobile / 86 px desktop**; lo stesso logo va conservato in sito, app e icone di installazione. Non tornare ai vecchi simboli PI/PM. Mantenere l'elemento `<img>` esplicito su tutte le pagine, aggiornare versioni CSS e cache quando servono e verificare l'effettiva pubblicazione GitHub Pages. Le fonti sono archiviate anche in **Per Me - Blog / Fonti** su Google Drive e nella **Libreria ChatGPT / Per Me / Fonti**.
