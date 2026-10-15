@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T19:21:54.418133+00:00",
+  "date_utc": "2026-10-15T19:32:07.353577+00:00",
   "scope": {
     "pages": 51,
-    "unique_external_urls": 385,
-    "occurrences": 702
+    "unique_external_urls": 387,
+    "occurrences": 706
   },
   "counts": {
-    "raggiungibile": 350,
+    "raggiungibile": 352,
     "bloccato_o_riservato": 31,
     "non_verificato_trasporto": 4
   },
@@ -1409,15 +1409,6 @@
       ]
     },
     {
-      "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/2-26",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/2-26",
-      "pages": [
-        "agevolazioni-diritti.html"
-      ]
-    },
-    {
       "url": "https://www.arera.it/comunicati-operatore/dettaglio/chiarimenti-applicativi-per-lerogazione-del-bonus-rifiuti-2",
       "status": "raggiungibile",
       "http": 200,
@@ -1442,6 +1433,7 @@
       "http": 200,
       "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/bonus-sociali-arera-alza-a-9796-euro-la-soglia-isee-per-laccesso-alle-agevolazioni-per-acqua-luce-gas-e-rifiuti",
       "pages": [
+        "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
         "agevolazioni-guida-02-bonus-sociali.html"
       ]
@@ -2141,6 +2133,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html",
+      "pages": [
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.pensione-di-inabilit-agli-invalidi-civili.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2300,6 +2301,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-sociale-50184.assegno-sociale.html",
       "pages": [
+        "agevolazioni-diritti.html",
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -2736,6 +2738,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.pensioni-2026-i-nuovi-importi-e-le-date-di-pagamento.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.pensioni-2026-i-nuovi-importi-e-le-date-di-pagamento.html",
+      "pages": [
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.01.nuovi-criteri-isee-per-l-inclusione-sociale-aggiornamento-procedure.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2779,15 +2790,6 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.invalidit-novit-per-gli-assegni-ordinari.html",
       "pages": [
         "assegno-ordinario-invalidita-requisiti-conferma.html"
-      ]
-    },
-    {
-      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
-      "pages": [
-        "agevolazioni-diritti.html"
       ]
     },
     {
@@ -2963,6 +2965,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.08.pensioni-della-gestione-pubblica-conclusa-la-verifica-reddituale-2024.html",
       "pages": [
         "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.carta-dedicata-a-te-modalit-operative-per-il-2026-2027.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.carta-dedicata-a-te-modalit-operative-per-il-2026-2027.html",
+      "pages": [
+        "agevolazioni-diritti.html"
       ]
     },
     {
@@ -3187,6 +3198,15 @@
       "final_url": "https://www.lavoro.gov.it/temi-e-priorita/rapporti-di-lavoro-e-relazioni-industriali/focus-on/norme-contratti-collettivi/pagine/default",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "pages": [
+        "agevolazioni-diritti.html"
       ]
     },
     {
