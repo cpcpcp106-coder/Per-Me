@@ -24,7 +24,7 @@ assert.ok(!html.includes('mit.gov.it/temi/casa/accesso-allabitazione'),'Collegam
 assert.ok(!/Tarcento|Attimis|Racchiuso|ASUFC|CAF UIL|Comune di Udine/i.test(html),'Localismo in guida nazionale');
 for(const match of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const href=match[1];if(!/^https?:/.test(href))assert.ok(fs.existsSync(path.join(root,href)),'Link locale inesistente: '+href);}
 assert.match(rubric,/href="agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"/,'Card Guida 06 assente');
-assert.match(home,/8 risorse disponibili/,'Conteggio 6 guide nazionali + 2 schede');
+assert.match(home,/9 risorse disponibili/,'Conteggio 7 guide nazionali + 2 schede');
 assert.match(site,/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html/,'Sitemap senza Guida 06');
 assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 non indicizzata dalla PWA');
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione collegamenti PWA assente');
