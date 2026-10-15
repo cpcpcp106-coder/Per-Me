@@ -34,7 +34,7 @@ for(const file of names){
    if(!fs.existsSync(path.join(root,f))){faults.push(file+': file HTML non esistente '+link);continue;}
    if(anchor&&!idsCache.get(f)?.has(anchor))faults.push(file+': ancora assente '+link);
  }
- for(const image of imgs){const m=image.match(/\bsrc=["']([^"']+)/i);if(!m)continue;const src=m[1].split('?')[0];if(!/^https?:/.test(src)&&!fs.existsSync(path.join(root,src)))faults.push(file+': immagine locale mancante '+src);}
+ for(const image of imgs){const m=image.match(/\bsrc=["']([^"']+)/i);if(!m)continue;const src=m[1].split('?')[0];let decoded=src;try{decoded=decodeURIComponent(src)}catch(e){faults.push(file+': percorso immagine non decodificabile '+src);continue;}if(!/^https?:/.test(decoded)&&!fs.existsSync(path.join(root,decoded)))faults.push(file+': immagine locale mancante '+decoded);}
  if(/(?:Tarcento|Attimis|Racchiuso|CAF UIL|ITAL UIL)/i.test(main)&&!/agevolazioni-guida-0[34]-.*-fvg\.html/.test(file))faults.push(file+': riferimenti personali/territoriali impropri');
  if(/guida-\d+/.test(file)&&words<350)warnings.push(file+': guida troppo breve ('+words+' parole)');
  if(/(?:guida-\d+|contributi-|ricorsi-|debiti-|aoi-)/.test(file)&&official===0)warnings.push(file+': nessuna fonte istituzionale diretta riconosciuta');
