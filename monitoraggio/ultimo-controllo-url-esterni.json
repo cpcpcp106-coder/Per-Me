@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-15T12:54:06.461517+00:00",
+  "date_utc": "2026-10-15T13:04:45.273668+00:00",
   "scope": {
     "pages": 41,
-    "unique_external_urls": 281,
-    "occurrences": 570
+    "unique_external_urls": 284,
+    "occurrences": 573
   },
   "counts": {
-    "raggiungibile": 277,
+    "raggiungibile": 280,
     "bloccato_o_riservato": 4
   },
   "results": [
@@ -69,6 +69,15 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
@@ -355,6 +364,15 @@
       "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
     {
@@ -2715,6 +2733,15 @@
       "final_url": "https://www.salute.gov.it/BancheDati/anagrafi/MCR",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-malattie-croniche/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-malattie-croniche/",
+      "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
