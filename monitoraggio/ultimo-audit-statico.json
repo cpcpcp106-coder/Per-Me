@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-15T12:04:47+00:00",
+  "date_utc": "2026-10-15T12:12:26+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 40,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 1076,
-    "external_occurrences": 540,
-    "external_unique": 264,
+    "external_occurrences": 543,
+    "external_unique": 267,
     "actions": 34,
     "broken_local": [],
     "broken_anchors": []
@@ -164,13 +164,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 19,
-      "links_external": 23,
+      "links_external": 26,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 21
+      "candidate_numeric_legal_mentions": 20
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
