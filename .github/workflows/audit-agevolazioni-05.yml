@@ -1,0 +1,31 @@
+name: Per Me - Guida 05 Servizi sociali nazionali
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'scripts/audit-agevolazioni-05.cjs'
+      - '.github/workflows/audit-agevolazioni-05.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'agevolazioni-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'scripts/audit-agevolazioni-05.cjs'
+      - '.github/workflows/audit-agevolazioni-05.yml'
+permissions:
+  contents: read
+jobs:
+  guide:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica guida nazionale, accessibilita, ISEE, ADI e sitemap
+        run: node scripts/audit-agevolazioni-05.cjs
