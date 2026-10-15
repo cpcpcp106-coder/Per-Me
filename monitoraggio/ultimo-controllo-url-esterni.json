@@ -1,20 +1,20 @@
 {
-  "date_utc": "2026-10-15T10:02:03.580999+00:00",
+  "date_utc": "2026-10-15T10:10:44.278600+00:00",
   "scope": {
     "pages": 37,
-    "unique_external_urls": 237,
-    "occurrences": 478
+    "unique_external_urls": 238,
+    "occurrences": 479
   },
   "counts": {
-    "raggiungibile": 235,
-    "bloccato_o_riservato": 1,
-    "non_verificato_trasporto": 1
+    "raggiungibile": 237,
+    "bloccato_o_riservato": 1
   },
   "results": [
     {
       "url": "https://cafuil.it/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://cafuil.it/",
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html"
       ]
@@ -2182,10 +2182,10 @@
       ]
     },
     {
-      "url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/decreto-n-3-del-02032026",
+      "url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-interdipartimentale-n-3-del-2032026",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.lavoro.gov.it/documenti-e-norme/normativa/decreto-n-3-del-02032026",
+      "final_url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-interdipartimentale-n-3-del-2032026",
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html"
       ]
@@ -2197,6 +2197,15 @@
       "final_url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
       "pages": [
         "agevolazioni-diritti.html",
+        "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normativa/Decreto-Dip-3-del-02032026-ISEE.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normativa/Decreto-Dip-3-del-02032026-ISEE.pdf",
+      "pages": [
         "agevolazioni-guida-01-isee-corrente.html"
       ]
     },
