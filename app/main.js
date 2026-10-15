@@ -10,11 +10,34 @@ const SECTIONS=[
  ['tutor-ai.html','Tutor AI essenziale']
 ];
 const CATEGORIES=new Map(SECTIONS),EXCLUDED=new Set(['index.html','metodo.html','monitoraggio.html','chi-siamo.html']);
-const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false,storageOk:true};
+const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false,storageOk:true,lastSync:null};
 const element=id=>document.getElementById(id);
-function restore(){try{let s=JSON.parse(localStorage.getItem(KEY)||'{}');model.guides=Array.isArray(s.guides)?s.guides:[];model.favorites=Array.isArray(s.favorites)?s.favorites:[];model.updated=s.updated||null;}catch(e){}}
-function persist(){try{localStorage.setItem(KEY,JSON.stringify({guides:model.guides,favorites:model.favorites,updated:model.updated}));model.storageOk=true;return true}catch(e){model.storageOk=false;element('sync-status').textContent='Spazio di archiviazione insufficiente o salvataggio bloccato: le nuove guide NON sono state salvate per la consultazione offline.';return false}}
+function restore(){try{let s=JSON.parse(localStorage.getItem(KEY)||'{}');model.guides=Array.isArray(s.guides)?s.guides:[];model.favorites=Array.isArray(s.favorites)?s.favorites:[];model.updated=s.updated||null;model.lastSync=s.lastSync&&typeof s.lastSync==='object'?s.lastSync:null;}catch(e){}}
+function persist(){try{localStorage.setItem(KEY,JSON.stringify({guides:model.guides,favorites:model.favorites,updated:model.updated,lastSync:model.lastSync}));model.storageOk=true;return true}catch(e){model.storageOk=false;element('sync-status').textContent='Spazio di archiviazione insufficiente o salvataggio bloccato: le nuove guide NON sono state salvate per la consultazione offline.';return false}}
 function dateLabel(d){try{return new Date(d).toLocaleString('it-IT',{day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'})}catch(e){return 'data non disponibile'}}
+function compareGuides(previous,guides){
+ const old=new Map(previous.map(g=>[g.path,g]));
+ let added=0,modified=0,unchanged=0;
+ for(const guide of guides){
+  const prior=old.get(guide.path);
+  if(!prior){added++;continue}
+  if(['category','title','summary','content'].some(field=>(prior[field]||'')!==(guide[field]||'')))modified++;
+  else unchanged++;
+ }
+ return {added,modified,unchanged};
+}
+function renderSyncSummary(){
+ const area=element('sync-summary'),s=model.lastSync;
+ if(!s){area.hidden=true;return}
+ area.hidden=false;
+ element('sync-summary-title').textContent='Ultimo controllo: '+dateLabel(s.checkedAt||model.updated);
+ element('sync-added').textContent=String(s.added||0);
+ element('sync-modified').textContent=String(s.modified||0);
+ element('sync-unchanged').textContent=String(s.unchanged||0);
+ let note=s.failed>0?'Controllo parziale: '+s.failed+' pagine non raggiunte. Alcune copie precedenti possono essere ancora presenti.':s.removed>0?s.removed+' pagine non sono più presenti nell’indice del sito.':'Controllo completo: tutte le pagine trovate sono state verificate.';
+ if(!model.storageOk)note='ATTENZIONE: salvataggio sul telefono non riuscito. I testi nuovi potrebbero non essere disponibili offline.';
+ element('sync-summary-note').textContent=note;
+}
 function isOnline(){return navigator.onLine}
 function statusConnection(){let offline=!isOnline();element('connection').textContent=offline?(model.guides.length?'Offline: '+model.guides.length+' pagine salvate. Verifica le scadenze quando torni online.':'Offline: nessuna guida salvata. Collegati a Internet per il primo download.'):'Online: puoi verificare gli aggiornamenti';element('refresh').disabled=offline||model.syncing}
 function pathFor(href,source){
@@ -87,8 +110,14 @@ async function sync(){
   const oldCopies=[...previous.values()].filter(g=>
     (failedPaths.has(g.path)||failedCategories.has(g.category))&&!fresh.some(x=>x.path===g.path)
   ).map(g=>({...g,stale:true}));
-  model.guides=[...fresh,...oldCopies].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
-  model.updated=new Date().toISOString();persist();
+  const next=[...fresh,...oldCopies].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
+  const counts=compareGuides([...previous.values()],fresh);
+  const currentPaths=new Set(next.map(g=>g.path));
+  const removed=[...previous.keys()].filter(path=>!currentPaths.has(path)).length;
+  model.guides=next;
+  model.updated=new Date().toISOString();
+  model.lastSync={...counts,removed,failed:failed.length,checkedAt:model.updated};
+  persist();
  }
  model.syncing=false;statusConnection();element('refresh').textContent='Aggiorna le guide';
  element('sync-status').textContent=!model.storageOk
@@ -96,7 +125,7 @@ async function sync(){
   :newGuides.length
    ?model.guides.length+' pagine salvate per la lettura offline · controllo online '+dateLabel(model.updated)+(failed.length?'. Alcune pagine non raggiunte: le copie conservate sono segnalate come da verificare.':'.')
    :'Impossibile aggiornare ora. Le guide già salvate restano disponibili.';
- renderList();if(model.current)openGuide(model.current,false);
+ renderSyncSummary();renderList();if(model.current)openGuide(model.current,false);
 }
 function renderList(){
  const area=element('guide-list');area.replaceChildren();
@@ -136,7 +165,7 @@ function setupInstall(){
  window.addEventListener('appinstalled',()=>{help.hidden=true});
 }
 function init(){
- restore();setupInstall();statusConnection();renderList();
+ restore();setupInstall();statusConnection();renderList();renderSyncSummary();
  if(model.updated)element('sync-status').textContent=model.guides.length+' pagine salvate · Ultimo aggiornamento '+dateLabel(model.updated)+'.';
  element('refresh').addEventListener('click',sync);
  element('search').addEventListener('input',e=>{model.query=e.target.value;renderList()});
