@@ -37,6 +37,29 @@ for(const section of ['reddito','disoccupazione','patologie','invalidita','farma
 for(const phrase of ['E01','E02','E03','E04','36.151,98','8.263,31','11.362,05','516,46','31 dicembre','31 marzo','CIG','013','C01','C02','C03','dal 67% al 99%','fascia A','differenza di prezzo','0432 780233','0432 1796345','almeno due giorni','rimborso']){
  assert.ok(guide.includes(phrase),'Condizione essenziale non trovata '+phrase);
 }
+// Requisiti ad alto rischio di fraintendimento: non eliminare in revisioni successive.
+for(const phrase of [
+  "E03, invece, dipende dalla titolarità",
+  "precedente rapporto di lavoro dipendente",
+  "al momento della prescrizione",
+  "autonoma",
+  "annullo o revoca dell'autocertificazione",
+  "gratuita",
+  "più patologie croniche",
+  "non estende automaticamente la gratuità ai medicinali",
+  "0432 780230",
+  "0432 780233",
+  "residenti nel territorio aziendale",
+  "30 giorni",
+]){
+ assert.ok(guide.includes(phrase),'Seconda revisione Guida 04: requisito critico non presente: '+phrase);
+}
+for(const u of [
+ 'it/faq/faq-esenzioni-malattie-croniche/',
+ 'it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/',
+]){
+ assert.ok(guide.includes(u),'Fonte aggiuntiva revisione Guida 04 assente: '+u);
+}
 for(const host of ['asufc.sanita.fvg.it','www.salute.gov.it'])assert.ok(guide.includes(host),'Manca fonte istituzionale '+host);
 assert.ok(guide.includes('images.pexels.com/photos/8413217'),'Foto distinta assente');
 assert.ok(guide.includes('SHVETS production / Pexels'),'Attribuzione foto non trovata');
