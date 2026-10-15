@@ -27,7 +27,7 @@ const hub=read('agevolazioni-diritti.html');
 for(const p of ['agevolazioni-guida-03-trasporti-italia.html','agevolazioni-guida-04-esenzioni-ticket-italia.html','agevolazioni-guida-03-trasporti-fvg.html','agevolazioni-guida-04-esenzioni-ticket-fvg.html'])
  if(!hub.includes(p))issues.push('Rubrica 04: collegamento mancante '+p);
 for(const p of ['agevolazioni-guida-03-trasporti-fvg.html','agevolazioni-guida-04-esenzioni-ticket-fvg.html'])
- if(!read(p).includes('Approfondimento territoriale'))issues.push(p+': manca indicazione territoriale');
+ if(!read(p).includes('SOLO FRIULI VENEZIA GIULIA — SCHEDA REGIONALE'))issues.push(p+': manca indicazione territoriale');
 const app=read('app/main.js');
 if(!app.includes("const ROOT=new URL('../',location.href)")||!app.includes("const KEY='perme-app-offline-20261014'")||!app.includes('async function sync()'))issues.push('PWA: sorgente di sincronizzazione o memoria cambiata');
 if(!map.includes(base+'app/</loc>'))issues.push('PWA assente dalla sitemap');
