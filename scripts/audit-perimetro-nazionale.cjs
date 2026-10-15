@@ -7,7 +7,7 @@ const htmlNames=fs.readdirSync(root).filter(p=>p.endsWith('.html')&&!p.startsWit
 const get=p=>fs.readFileSync(path.join(root,p),'utf8');
 const rubrica=get('agevolazioni-diritti.html'),home=get('index.html'),about=get('chi-siamo.html');
 assert.match(home,/Italia · gratuito|Per tutta Italia/,'Home non nazionale');
-assert.match(home,/7 risorse disponibili/,'Home deve dichiarare conteggio guide e schede');
+assert.match(home,/8 risorse disponibili/,'Home deve dichiarare conteggio guide e schede');
 assert.ok(!home.includes('ritratto-enrico.webp'),'La home non deve pubblicare il ritratto autobiografico');
 assert.ok(!/Enrico Tirabasso|10\/gennaio\/1961|1961-01-10/i.test(home),'La home non deve riportare dati personali dell’autore');
 assert.match(rubrica,/Guide nazionali — per tutta Italia/,'Manca gruppo nazionale');
