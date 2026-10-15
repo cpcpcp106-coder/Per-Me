@@ -1,5 +1,7 @@
 # PER ME — RAPPORTO DI AUDIT E QUALITÀ
 
+> **Aggiornamento del 15 ottobre 2026:** questo documento descrive la *prima fase* dell'audit, con voto provvisorio 56/100 e controlli browser non ancora eseguiti. È conservato per lo storico e **non rappresenta più lo stato corrente**. Il rapporto successivo [audit-completamento-2026-10-15.md](audit-completamento-2026-10-15.md) registra i collaudi eseguiti, le correzioni e il nuovo voto provvisorio **67/100**. Restano incompleti il fact-check atomico esaustivo, i test WCAG manuali e la prova su Samsung.
+
 **Data: 15 ottobre 2026. Stato: AUDIT PARZIALE DELLE FONTI, INVENTARIO STATICO COMPLETO, PUBBLICAZIONE NON CERTIFICATA IN BROWSER.**
 
 Sito: https://cpcpcp106-coder.github.io/Per-Me/  
