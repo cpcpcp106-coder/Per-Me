@@ -33,7 +33,7 @@ assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'PWA non identifi
 for(const section of ['differenze','invalidita','domanda-invalidita','titoli','rinnovo','over65','treni','esempi','problemi','errori','fonti']){
  assert.ok(guide.includes('id="'+section+'"'),'Sezione assente: '+section);
 }
-for(const phrase of ['1,5%','98,5%','50%','65 anni','reddito complessivo','non quello ISEE','15 giorni','12 mesi solari','cinque percorsi','tesserino','SPID, CIE','Disability Card','Carta Blu','0432 279256','35.340 euro','non online','accompagnatore']){
+for(const phrase of ['1,5%','98,5%','50%','65 anni','reddito complessivo','non è una soglia ISEE','15 giorni','12 mesi solari','cinque percorsi','tesserino','SPID, CIE','Disability Card','Carta Blu','0432 279256','35.340 euro','non online','accompagnatore']){
  assert.ok(guide.includes(phrase),'Regola critica non dichiarata: '+phrase);
 }
 assert.ok(guide.includes('https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389'),'Link AgileFVG non presente');
