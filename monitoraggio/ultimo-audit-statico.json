@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T15:31:59+00:00",
+  "date_utc": "2026-10-15T15:38:06+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 44,
-    "editorial_pages": 42,
-    "guide_pages": 30
+    "html_total": 45,
+    "editorial_pages": 43,
+    "guide_pages": 31
   },
   "links": {
-    "local_occurrences": 1339,
-    "external_occurrences": 585,
-    "external_unique": 302,
+    "local_occurrences": 1364,
+    "external_occurrences": 596,
+    "external_unique": 310,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -24,6 +24,7 @@
       "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
       "agevolazioni-guida-04-esenzioni-ticket-italia.html",
       "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+      "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
       "aoi-invalidita-civile-differenze.html",
       "app/index.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
@@ -105,7 +106,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -263,6 +266,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 15
+    },
+    {
+      "file": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "title": "Affitto non pagato, contributi e sfratto: cosa fare in Italia | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 25,
+      "links_external": 11,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 8
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
