@@ -194,6 +194,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-15",
       "notes": "Fotografia autentica di donna adulta con sensore CGM sul braccio, in scena domestica, diversa dalle altre foto della rubrica. Pagina Pexels consultata 2026-10-15: 'Free' e download pubblico; nessuna diagnosi attribuita alla persona ritratta."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "20860624",
+      "src_path": "https://images.pexels.com/photos/20860624/pexels-photo-20860624.jpeg",
+      "source": "https://www.pexels.com/photo/patient-exercising-under-care-of-therapist-20860624/",
+      "author": "Funkcinės Terapijos Centras",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-16",
+      "notes": "Immagine realistica di uomo assistito da fisioterapista in riabilitazione generale, non presentata come riabilitazione cardiologica specifica; pagina Pexels marcata 'Free' verificata il 16/10/2026. Nessuna diagnosi attribuita alle persone ritratte. Fotografia diversa dalle Guide 01 e 02."
     }
   ],
   "local": [
