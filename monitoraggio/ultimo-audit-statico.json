@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T06:31:05+00:00",
+  "date_utc": "2026-10-16T06:45:14+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 62,
-    "editorial_pages": 60,
+    "html_total": 63,
+    "editorial_pages": 61,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1974,
-    "external_occurrences": 898,
-    "external_unique": 458,
+    "local_occurrences": 2011,
+    "external_occurrences": 914,
+    "external_unique": 465,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -55,6 +55,7 @@
       "diabete-guida-06-scompenso-miocardio-aritmie.html",
       "diabete-guida-07-ictus-tia-prevenzione.html",
       "diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "diabete-guida-09-retinopatia-edema-maculare-vista.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -139,7 +140,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -779,12 +782,27 @@
       "candidate_numeric_legal_mentions": 3
     },
     {
+      "file": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "title": "Diabete tipo 2: retinopatia, edema maculare e cura della vista | Per Me · Guida 09",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 36,
+      "links_external": 16,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 3
+    },
+    {
       "file": "diabete-tipo-2.html",
       "title": "Diabete tipo 2 | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 31,
+      "links_local": 32,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
