@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -302,6 +302,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-16",
       "notes": "Immagine Pexels Free autore José Antonio Otegui Auzmendi, visita oculistica con lampada a fessura, foto in formato orizzontale differente dalle precedenti. La fotografia non attribuisce diabete o retinopatia alle persone ritratte; non è presentata come OCT o fluorangiografia. Foto Pexels 32209715 e licenza gratuita consultate 16 ottobre 2026."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "7179233",
+      "src_path": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg",
+      "source": "https://www.pexels.com/photo/a-person-giving-an-elderly-man-an-eye-examination-7179233/",
+      "author": "Mike Sangma",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-16",
+      "notes": "Fotografia realistica Pexels di un uomo anziano sottoposto a prova visiva con lenti di prova in ambulatorio, autore Mike Sangma, ID 7179233. Pagina fotografica verificata e licenza Pexels: uso libero anche su blog con attribuzione facoltativa. Non attribuisce diabete, cataratta o glaucoma alle persone ritratte, né raffigura tonometria o interventi oculistici. Distinta dalla fotografia di lampada a fessura della Guida 09."
     }
   ],
   "local": [
