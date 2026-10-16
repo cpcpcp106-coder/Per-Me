@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T06:08:10.986Z",
+  "checked_at_utc": "2026-10-16T06:10:43.250Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -97,7 +97,7 @@
             "violations": [
               {
                 "id": "color-contrast",
-                "nodes": 14
+                "nodes": 15
               }
             ]
           },
@@ -158,11 +158,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "53 pagine salvate per la lettura offline · controllo online 16 ott, 06:08.",
+        "status": "54 pagine salvate per la lettura offline · controllo online 16 ott, 06:11.",
         "stored": {
-          "guides": 53,
-          "updated": "2026-10-16T06:08:41.413Z",
-          "bytes": 1097475,
+          "guides": 54,
+          "updated": "2026-10-16T06:11:04.677Z",
+          "bytes": 1123615,
           "includesNew09": true
         }
       }
@@ -176,7 +176,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 53
+        "count": 54
       }
     },
     {
@@ -774,7 +774,7 @@
               "a[href$=\"#fonti\"]"
             ]
           ],
-          "total": 14
+          "total": 15
         }
       ],
       "passes": 26,
