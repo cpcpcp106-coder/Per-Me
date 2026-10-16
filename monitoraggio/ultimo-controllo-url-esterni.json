@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-16T08:20:28.305940+00:00",
+  "date_utc": "2026-10-16T08:22:27.594364+00:00",
   "scope": {
     "pages": 68,
-    "unique_external_urls": 513,
+    "unique_external_urls": 512,
     "occurrences": 1027
   },
   "counts": {
-    "raggiungibile": 427,
+    "raggiungibile": 426,
     "bloccato_o_riservato": 81,
     "non_verificato_trasporto": 3,
     "errore_http": 2
@@ -2329,15 +2329,6 @@
       ]
     },
     {
-      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf",
-      "pages": [
-        "dieta-mediterranea-scientifica.html"
-      ]
-    },
-    {
       "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf",
       "status": "errore_http",
       "http": 404,
@@ -2363,6 +2354,7 @@
       "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
       "pages": [
         "dieta-mediterranea-ricette.html",
+        "dieta-mediterranea-scientifica.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html"
       ]
