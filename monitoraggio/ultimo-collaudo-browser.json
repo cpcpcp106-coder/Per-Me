@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T05:19:15.083Z",
+  "checked_at_utc": "2026-10-16T05:25:05.084Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 57,
+        "count": 58,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 57,
+        "checked": 58,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 57,
+        "checked": 58,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -76,6 +76,15 @@
           },
           {
             "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
+              }
+            ]
+          },
+          {
+            "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
             "violations": [
               {
                 "id": "color-contrast",
@@ -131,10 +140,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "51 pagine salvate per la lettura offline · controllo online 16 ott, 05:19.",
+        "status": "51 pagine salvate per la lettura offline · controllo online 16 ott, 05:25.",
         "stored": {
           "guides": 51,
-          "updated": "2026-10-16T05:19:44.548Z",
+          "updated": "2026-10-16T05:25:34.536Z",
           "bytes": 1030701,
           "includesNew09": true
         }
@@ -650,6 +659,52 @@
             ],
             [
               "a[href$=\"#domande\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#che-cosa\"]"
+            ],
+            [
+              "a[href$=\"#diabete\"]"
+            ],
+            [
+              "a[href$=\"#sintomi\"]"
+            ],
+            [
+              "a[href$=\"#esami\"]"
+            ],
+            [
+              "a[href$=\"#aritmie\"]"
+            ],
+            [
+              "a[href$=\"#cure\"]"
+            ],
+            [
+              "a[href$=\"#sicurezza\"]"
+            ],
+            [
+              "a[href$=\"#autonomia\"]"
+            ],
+            [
+              "a[href$=\"#diritti\"]"
             ],
             [
               "a[href$=\"#fonti\"]"
