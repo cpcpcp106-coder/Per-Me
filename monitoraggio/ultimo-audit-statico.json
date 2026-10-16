@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T04:40:18+00:00",
+  "date_utc": "2026-10-16T04:53:24+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 57,
-    "editorial_pages": 55,
+    "html_total": 58,
+    "editorial_pages": 56,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1773,
-    "external_occurrences": 781,
-    "external_unique": 419,
+    "local_occurrences": 1811,
+    "external_occurrences": 802,
+    "external_unique": 429,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -50,6 +50,7 @@
       "diabete-guida-01-cause-sintomi-diagnosi.html",
       "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
       "diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "diabete-guida-04-alimentazione-terapia-carboidrati.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -129,7 +130,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -669,7 +672,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 33,
+      "links_local": 34,
       "links_external": 10,
       "missing_local": 0,
       "noindex": false,
@@ -685,13 +688,28 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 36,
-      "links_external": 19,
+      "links_external": 23,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 1
+    },
+    {
+      "file": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "title": "Diabete tipo 2: alimentazione, carboidrati e pasti sostenibili | Per Me Guida 04",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 37,
+      "links_external": 17,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
     },
     {
       "file": "diabete-tipo-2.html",
