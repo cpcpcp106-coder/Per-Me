@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T09:06:17+00:00",
+  "date_utc": "2026-10-16T09:14:10+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 69,
-    "editorial_pages": 67,
+    "html_total": 70,
+    "editorial_pages": 68,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2261,
-    "external_occurrences": 1054,
-    "external_unique": 524,
+    "local_occurrences": 2307,
+    "external_occurrences": 1075,
+    "external_unique": 530,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -62,6 +62,7 @@
       "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
       "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
       "diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -153,7 +154,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -896,6 +899,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 1
+    },
+    {
+      "file": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+      "title": "Piede diabetico: ulcere, infezioni, Charcot e prevenzione delle amputazioni | Per Me · Guida 16",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 46,
+      "links_external": 21,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "diabete-tipo-2.html",
