@@ -1,5 +1,5 @@
-const CACHE='perme-reader-v13-20261015-otto-rubriche';
-const SHELL=['./','./index.html','./app.css?v=11','./main.js?v=11','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
+const CACHE='perme-reader-v14-20261016-accessibilita';
+const SHELL=['./','./index.html','./app.css?v=12','./main.js?v=11','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
 });

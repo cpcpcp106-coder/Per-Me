@@ -47,7 +47,7 @@ a{color:var(--accent);text-underline-offset:3px}a:focus-visible{outline-color:va
 .pagina-interna.rubrica-ai main.wrap{max-width:1060px;background:#fff;margin-top:30px;margin-bottom:40px;border-top:7px solid var(--accent);border-radius:7px;border-left:1px solid #dfe3e3;border-right:1px solid #dfe3e3;border-bottom:1px solid #dfe3e3;padding:clamp(25px,5vw,60px)!important}
 .pagina-interna.rubrica-ai main h1{color:var(--ink)}
 .pagina-interna.rubrica-ai main>.eyebrow{display:inline-block;background:var(--accent-soft);padding:7px 13px;border-radius:2px}
-@media(max-width:560px){:root{font-size:16px}.pagina-interna main.wrap{padding-top:22px}.pagina-interna .article{padding:24px 20px}.pagina-interna .article h1{font-size:2rem}.top{min-height:70px}nav{gap:16px}}
+@media(max-width:560px){:root{font-size:17px}.pagina-interna main.wrap{padding-top:22px}.pagina-interna .article{padding:24px 20px}.pagina-interna .article h1{font-size:2rem}.top{min-height:70px}nav{gap:16px}}
 
 /* Palette calda editoriale v3 — avorio, inchiostro bruno e tonalità naturali */
 :root{--ink:#392f2a;--paper:#f8f2e9;--surface:#fffaf4;--line:#e5d7c8;--accent:#85513c;--accent-soft:#f5e8dc;--muted:#65574e;color:var(--ink);background:var(--paper)}
@@ -492,4 +492,13 @@ header[data-shared="per-me"] nav a{min-height:48px}
   header[data-shared="per-me"] .brand .brand-logo{width:112px;height:112px}
   header[data-shared="per-me"] nav{justify-content:center;gap:2px 10px}
   header[data-shared="per-me"] nav a{padding:8px 4px;font-size:1rem}
+}
+
+
+/* Lettura da smartphone: testi accessori leggibili senza ingrandimenti manuali.
+   Non nascondere testi, controlli o etichette con zoom fino al 200%. */
+@media (max-width:650px){
+  .eyebrow,.card small{font-size:1rem;line-height:1.45;letter-spacing:.04em}
+  .pagina-interna .crumb,.pagina-interna .muted-small,
+  .pagina-interna .rubrica-hero figcaption{font-size:1rem;line-height:1.55}
 }

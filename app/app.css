@@ -39,3 +39,6 @@ footer a,footer a:link,footer a:visited{color:#fff3dc;text-decoration:underline;
 .reader-content .prompt-copy:disabled{opacity:.65}
 .reader-content .tutor-copy-status{padding:14px 16px;border:1px solid #d8c3a8;border-radius:8px;background:#f7f1e9;margin:18px 0;line-height:1.55}
 .reader-content blockquote[id^="prompt-"]{margin:0 0 22px;padding:16px;border-left:5px solid #315b43;background:#f1f7ef;user-select:text;-webkit-user-select:text;overflow-wrap:anywhere}
+
+/* Accessibilita PWA, etichette leggibili anche su schermi piccoli. */
+@media(max-width:500px){.guide-card span,.guide-card em,.eyebrow{font-size:1rem;line-height:1.5;letter-spacing:normal}}
