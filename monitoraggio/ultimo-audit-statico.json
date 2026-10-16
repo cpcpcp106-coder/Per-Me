@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-16T04:20:22+00:00",
+  "date_utc": "2026-10-16T04:33:06+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 56,
@@ -7,8 +7,8 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1734,
-    "external_occurrences": 761,
+    "local_occurrences": 1736,
+    "external_occurrences": 762,
     "external_unique": 414,
     "actions": 7,
     "broken_local": [],
@@ -121,14 +121,13 @@
       "salute-guida-01-preparare-visita.html",
       "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
       "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -878,7 +877,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 25,
+      "links_local": 26,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
@@ -923,7 +922,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 38,
+      "links_local": 39,
       "links_external": 12,
       "missing_local": 0,
       "noindex": false,
@@ -939,7 +938,7 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 34,
-      "links_external": 12,
+      "links_external": 13,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
