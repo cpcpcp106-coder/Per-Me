@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T09:16:01.170008+00:00",
+  "date_utc": "2026-10-16T09:18:29.386915+00:00",
   "scope": {
     "pages": 70,
-    "unique_external_urls": 530,
+    "unique_external_urls": 532,
     "occurrences": 1075
   },
   "counts": {
     "raggiungibile": 438,
-    "non_verificato_trasporto": 4,
-    "bloccato_o_riservato": 86,
+    "bloccato_o_riservato": 89,
+    "non_verificato_trasporto": 3,
     "errore_http": 2
   },
   "results": [
@@ -813,6 +813,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/13185359/pexels-photo-13185359.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/13185359/pexels-photo-13185359.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -854,8 +863,7 @@
       "http": 200,
       "final_url": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
-        "diabete-guida-08-arteriopatia-periferica-gambe.html",
-        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
       ]
     },
     {
@@ -4170,8 +4178,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -4765,6 +4774,14 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/leg-of-patient-on-bed-13185359/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/man-walking-at-railway-station-23720159/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -4777,8 +4794,7 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "diabete-guida-08-arteriopatia-periferica-gambe.html",
-        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
       ]
     },
     {
@@ -5148,9 +5164,8 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -5158,9 +5173,8 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
