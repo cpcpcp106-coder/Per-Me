@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T04:49:35.685Z",
+  "checked_at_utc": "2026-10-16T04:53:58.425Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 55,
+        "count": 56,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 55,
+        "checked": 56,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 55,
+        "checked": 56,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -62,6 +62,15 @@
               {
                 "id": "color-contrast",
                 "nodes": 13
+              }
+            ]
+          },
+          {
+            "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
               }
             ]
           },
@@ -113,10 +122,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "49 pagine salvate per la lettura offline · controllo online 16 ott, 04:50.",
+        "status": "49 pagine salvate per la lettura offline · controllo online 16 ott, 04:54.",
         "stored": {
           "guides": 49,
-          "updated": "2026-10-16T04:50:03.207Z",
+          "updated": "2026-10-16T04:54:25.555Z",
           "bytes": 976327,
           "includesNew09": true
         }
@@ -546,6 +555,52 @@
             ]
           ],
           "total": 13
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#terapia\"]"
+            ],
+            [
+              "a[href$=\"#mediterranea\"]"
+            ],
+            [
+              "a[href$=\"#carboidrati\"]"
+            ],
+            [
+              "a[href$=\"#pasta-ceci\"]"
+            ],
+            [
+              "a[href$=\"#piatto\"]"
+            ],
+            [
+              "a[href$=\"#insulina-pasti\"]"
+            ],
+            [
+              "a[href$=\"#cuore-reni\"]"
+            ],
+            [
+              "a[href$=\"#spesa\"]"
+            ],
+            [
+              "a[href$=\"#domande\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
         }
       ],
       "passes": 26,
