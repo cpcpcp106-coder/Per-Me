@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-16T09:14:10+00:00",
+  "date_utc": "2026-10-16T09:16:10+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 70,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2307,
+    "local_occurrences": 2309,
     "external_occurrences": 1075,
-    "external_unique": 530,
+    "external_unique": 532,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -891,7 +891,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 39,
+      "links_local": 40,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
@@ -921,7 +921,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 38,
+      "links_local": 39,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
