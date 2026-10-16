@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T09:06:48.933Z",
+  "checked_at_utc": "2026-10-16T09:14:43.105Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 67,
+        "count": 68,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 67,
+        "checked": 68,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 67,
+        "checked": 68,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "61 pagine salvate per la lettura offline · controllo online 16 ott, 09:07.",
+        "status": "61 pagine salvate per la lettura offline · controllo online 16 ott, 09:15.",
         "stored": {
           "guides": 61,
-          "updated": "2026-10-16T09:07:14.861Z",
+          "updated": "2026-10-16T09:15:18.191Z",
           "bytes": 1370499,
           "includesNew09": true
         }
@@ -453,6 +453,12 @@
     },
     {
       "page": "diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
       "violations": [],
       "passes": 26,
       "incomplete": 2

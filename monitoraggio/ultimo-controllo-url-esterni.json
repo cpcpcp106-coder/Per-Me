@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T09:08:07.241168+00:00",
+  "date_utc": "2026-10-16T09:16:01.170008+00:00",
   "scope": {
-    "pages": 69,
-    "unique_external_urls": 524,
-    "occurrences": 1054
+    "pages": 70,
+    "unique_external_urls": 530,
+    "occurrences": 1075
   },
   "counts": {
-    "raggiungibile": 435,
+    "raggiungibile": 438,
     "non_verificato_trasporto": 4,
-    "bloccato_o_riservato": 83,
+    "bloccato_o_riservato": 86,
     "errore_http": 2
   },
   "results": [
@@ -348,6 +348,24 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1002/dmrr.3646",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3647",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1002/dmrr.3657",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -378,6 +396,14 @@
       "http": 403,
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1093/cid/ciad527",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
     {
@@ -576,6 +602,9 @@
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-tipo-2.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
@@ -825,7 +854,8 @@
       "http": 200,
       "final_url": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
-        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
     {
@@ -1062,6 +1092,27 @@
       "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni",
       "pages": [
         "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://iwgdfguidelines.org/guidelines-2023/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://iwgdfguidelines.org/guidelines-2023/",
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
+      "url": "https://iwgdfguidelines.org/wound-healing-2023/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://iwgdfguidelines.org/wound-healing-2023/",
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
     {
@@ -2737,6 +2788,16 @@
       ]
     },
     {
+      "url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/",
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/",
       "status": "raggiungibile",
       "http": 200,
@@ -4265,7 +4326,8 @@
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
-        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
     {
@@ -4533,6 +4595,7 @@
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -4714,7 +4777,8 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
     {
@@ -4975,6 +5039,8 @@
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
