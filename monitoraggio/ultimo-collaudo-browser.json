@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T08:23:08.298Z",
+  "checked_at_utc": "2026-10-16T08:25:50.869Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "60 pagine salvate per la lettura offline · controllo online 16 ott, 08:23.",
+        "status": "60 pagine salvate per la lettura offline · controllo online 16 ott, 08:26.",
         "stored": {
           "guides": 60,
-          "updated": "2026-10-16T08:23:43.508Z",
-          "bytes": 1326660,
+          "updated": "2026-10-16T08:26:25.067Z",
+          "bytes": 1326652,
           "includesNew09": true
         }
       }
