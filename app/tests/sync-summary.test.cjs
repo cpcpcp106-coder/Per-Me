@@ -60,7 +60,7 @@ test('Il Tutor AI puo copiare sei prompt anche offline',()=>{
  for(const id of ['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione'])
   assert.ok(main.includes("'"+id+"'"),id);
  assert.ok(css.includes('.reader-content .prompt-copy'));
- assert.match(sw,/const CACHE='perme-reader-v\\d+-\\d{8}-[^']+';/,'Identificativo cache PWA valido e versionato');
+ assert.match(sw,/const CACHE='perme-reader-v\d+-\d{8}-[^']+';/,'Identificativo cache PWA valido e versionato');
  assert.ok(sw.includes("k.startsWith('perme-reader-')"),'Il service worker deve eliminare le vecchie cache');
 });
 
