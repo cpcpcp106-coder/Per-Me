@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T07:47:54.019Z",
+  "checked_at_utc": "2026-10-16T07:58:53.619Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 64,
+        "count": 65,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 64,
+        "checked": 65,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 64,
+        "checked": 65,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -167,10 +167,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "58 pagine salvate per la lettura offline · controllo online 16 ott, 07:48.",
+        "status": "58 pagine salvate per la lettura offline · controllo online 16 ott, 07:59.",
         "stored": {
           "guides": 58,
-          "updated": "2026-10-16T07:48:27.421Z",
+          "updated": "2026-10-16T07:59:29.753Z",
           "bytes": 1253722,
           "includesNew09": true
         }
@@ -895,6 +895,12 @@
     },
     {
       "page": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
       "violations": [],
       "passes": 26,
       "incomplete": 2
