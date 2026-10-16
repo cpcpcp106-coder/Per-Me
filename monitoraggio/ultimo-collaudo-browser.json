@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T04:32:33.544Z",
+  "checked_at_utc": "2026-10-16T04:39:38.826Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 54,
+        "count": 55,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 54,
+        "checked": 55,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 54,
+        "checked": 55,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -53,6 +53,15 @@
               {
                 "id": "color-contrast",
                 "nodes": 11
+              }
+            ]
+          },
+          {
+            "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 13
               }
             ]
           },
@@ -104,10 +113,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "48 pagine salvate per la lettura offline · controllo online 16 ott, 04:32.",
+        "status": "48 pagine salvate per la lettura offline · controllo online 16 ott, 04:40.",
         "stored": {
           "guides": 48,
-          "updated": "2026-10-16T04:32:53.343Z",
+          "updated": "2026-10-16T04:40:04.139Z",
           "bytes": 947693,
           "includesNew09": true
         }
@@ -491,6 +500,52 @@
             ]
           ],
           "total": 11
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#scelta\"]"
+            ],
+            [
+              "a[href$=\"#farmaci\"]"
+            ],
+            [
+              "a[href$=\"#cuore-reni\"]"
+            ],
+            [
+              "a[href$=\"#insulina\"]"
+            ],
+            [
+              "a[href$=\"#sicurezza\"]"
+            ],
+            [
+              "a[href$=\"#ipoglicemia\"]"
+            ],
+            [
+              "a[href$=\"#anziani\"]"
+            ],
+            [
+              "a[href$=\"#nota100\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Altre guide sul diabete\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
+            ]
+          ],
+          "total": 13
         }
       ],
       "passes": 26,
