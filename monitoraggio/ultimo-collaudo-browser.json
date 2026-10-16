@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T04:20:55.988Z",
+  "checked_at_utc": "2026-10-16T04:22:11.472Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -61,7 +61,7 @@
             "violations": [
               {
                 "id": "color-contrast",
-                "nodes": 13
+                "nodes": 14
               }
             ]
           },
@@ -104,11 +104,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "47 pagine salvate per la lettura offline · controllo online 16 ott, 04:21.",
+        "status": "48 pagine salvate per la lettura offline · controllo online 16 ott, 04:22.",
         "stored": {
-          "guides": 47,
-          "updated": "2026-10-16T04:21:18.867Z",
-          "bytes": 922740,
+          "guides": 48,
+          "updated": "2026-10-16T04:22:35.743Z",
+          "bytes": 946196,
           "includesNew09": true
         }
       }
@@ -122,7 +122,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 47
+        "count": 48
       }
     },
     {
@@ -626,7 +626,7 @@
               "nav[aria-label=\"Guide correlate\"] > a[href=\"salute-autonomia.html#guide\"]"
             ]
           ],
-          "total": 13
+          "total": 14
         }
       ],
       "passes": 26,
