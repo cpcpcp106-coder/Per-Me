@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T04:33:06+00:00",
+  "date_utc": "2026-10-16T04:39:05+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 56,
-    "editorial_pages": 54,
+    "html_total": 57,
+    "editorial_pages": 55,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1736,
-    "external_occurrences": 762,
-    "external_unique": 414,
+    "local_occurrences": 1772,
+    "external_occurrences": 781,
+    "external_unique": 419,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -49,6 +49,7 @@
       "debiti-guida-09-a-chi-rivolgersi.html",
       "diabete-guida-01-cause-sintomi-diagnosi.html",
       "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "diabete-guida-03-farmaci-insulina-sicurezza.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -127,7 +128,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-03-farmaci-insulina-sicurezza.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -669,6 +672,21 @@
       "images_without_alt": 0,
       "links_local": 33,
       "links_external": 10,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 1
+    },
+    {
+      "file": "diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "title": "Diabete tipo 2: farmaci, insulina e sicurezza | Per Me Guida 03",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 36,
+      "links_external": 19,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
