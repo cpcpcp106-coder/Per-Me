@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T08:09:04.130Z",
+  "checked_at_utc": "2026-10-16T08:16:52.001Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,110 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 65,
-        "failed": [
-          {
-            "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 11
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 12
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 14
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-07-ictus-tia-prevenzione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 14
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 13
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -167,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "59 pagine salvate per la lettura offline · controllo online 16 ott, 08:09.",
+        "status": "59 pagine salvate per la lettura offline · controllo online 16 ott, 08:17.",
         "stored": {
           "guides": 59,
-          "updated": "2026-10-16T08:09:31.583Z",
+          "updated": "2026-10-16T08:17:26.791Z",
           "bytes": 1288077,
           "includesNew09": true
         }
@@ -469,415 +369,55 @@
     },
     {
       "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#meccanismo\"]"
-            ],
-            [
-              "a[href$=\"#rischio\"]"
-            ],
-            [
-              "a[href$=\"#sintomi\"]"
-            ],
-            [
-              "a[href$=\"#diagnosi\"]"
-            ],
-            [
-              "a[href$=\"#forme\"]"
-            ],
-            [
-              "a[href$=\"#dopo\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine guida\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine guida\"] > a:nth-child(2)"
-            ],
-            [
-              "nav[aria-label=\"Fine guida\"] > a:nth-child(3)"
-            ]
-          ],
-          "total": 11
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#misure\"]"
-            ],
-            [
-              "a[href$=\"#hba1c\"]"
-            ],
-            [
-              "a[href$=\"#sensori\"]"
-            ],
-            [
-              "a[href$=\"#valori\"]"
-            ],
-            [
-              "a[href$=\"#regola-15\"]"
-            ],
-            [
-              "a[href$=\"#anziani\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine della Guida 02\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
-            ],
-            [
-              "nav[aria-label=\"Fine della Guida 02\"] > a:nth-child(2)"
-            ],
-            [
-              "nav[aria-label=\"Fine della Guida 02\"] > a:nth-child(3)"
-            ]
-          ],
-          "total": 12
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#scelta\"]"
-            ],
-            [
-              "a[href$=\"#farmaci\"]"
-            ],
-            [
-              "a[href$=\"#cuore-reni\"]"
-            ],
-            [
-              "a[href$=\"#insulina\"]"
-            ],
-            [
-              "a[href$=\"#sicurezza\"]"
-            ],
-            [
-              "a[href$=\"#ipoglicemia\"]"
-            ],
-            [
-              "a[href$=\"#anziani\"]"
-            ],
-            [
-              "a[href$=\"#nota100\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Altre guide sul diabete\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
-            ]
-          ],
-          "total": 14
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#terapia\"]"
-            ],
-            [
-              "a[href$=\"#mediterranea\"]"
-            ],
-            [
-              "a[href$=\"#carboidrati\"]"
-            ],
-            [
-              "a[href$=\"#pasta-ceci\"]"
-            ],
-            [
-              "a[href$=\"#piatto\"]"
-            ],
-            [
-              "a[href$=\"#insulina-pasti\"]"
-            ],
-            [
-              "a[href$=\"#cuore-reni\"]"
-            ],
-            [
-              "a[href$=\"#spesa\"]"
-            ],
-            [
-              "a[href$=\"#domande\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#legame\"]"
-            ],
-            [
-              "a[href$=\"#fattori\"]"
-            ],
-            [
-              "a[href$=\"#sintomi\"]"
-            ],
-            [
-              "a[href$=\"#screening\"]"
-            ],
-            [
-              "a[href$=\"#prevenzione\"]"
-            ],
-            [
-              "a[href$=\"#farmaci\"]"
-            ],
-            [
-              "a[href$=\"#dopo-evento\"]"
-            ],
-            [
-              "a[href$=\"#diritti\"]"
-            ],
-            [
-              "a[href$=\"#domande\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#che-cosa\"]"
-            ],
-            [
-              "a[href$=\"#diabete\"]"
-            ],
-            [
-              "a[href$=\"#sintomi\"]"
-            ],
-            [
-              "a[href$=\"#esami\"]"
-            ],
-            [
-              "a[href$=\"#aritmie\"]"
-            ],
-            [
-              "a[href$=\"#cure\"]"
-            ],
-            [
-              "a[href$=\"#sicurezza\"]"
-            ],
-            [
-              "a[href$=\"#autonomia\"]"
-            ],
-            [
-              "a[href$=\"#diritti\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-07-ictus-tia-prevenzione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#be-fast\"]"
-            ],
-            [
-              "a[href$=\"#tipi\"]"
-            ],
-            [
-              "a[href$=\"#rischio\"]"
-            ],
-            [
-              "a[href$=\"#esami\"]"
-            ],
-            [
-              "a[href$=\"#fase-acuta\"]"
-            ],
-            [
-              "a[href$=\"#recidive\"]"
-            ],
-            [
-              "a[href$=\"#fa\"]"
-            ],
-            [
-              "a[href$=\"#riabilitazione\"]"
-            ],
-            [
-              "a[href$=\"#tutele\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#capire\"]"
-            ],
-            [
-              "a[href$=\"#sintomi\"]"
-            ],
-            [
-              "a[href$=\"#differenze\"]"
-            ],
-            [
-              "a[href$=\"#esami\"]"
-            ],
-            [
-              "a[href$=\"#prevenzione\"]"
-            ],
-            [
-              "a[href$=\"#cammino\"]"
-            ],
-            [
-              "a[href$=\"#terapie\"]"
-            ],
-            [
-              "a[href$=\"#piede\"]"
-            ],
-            [
-              "a[href$=\"#diritti\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#differenze\"]"
-            ],
-            [
-              "a[href$=\"#rischi\"]"
-            ],
-            [
-              "a[href$=\"#screening\"]"
-            ],
-            [
-              "a[href$=\"#esami\"]"
-            ],
-            [
-              "a[href$=\"#cure\"]"
-            ],
-            [
-              "a[href$=\"#sicurezza\"]"
-            ],
-            [
-              "a[href$=\"#prevenzione\"]"
-            ],
-            [
-              "a[href$=\"#autonomia\"]"
-            ],
-            [
-              "a[href$=\"#diritti\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
@@ -997,93 +537,13 @@
     },
     {
       "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#significato\"]"
-            ],
-            [
-              "a[href$=\"#dimissioni\"]"
-            ],
-            [
-              "a[href$=\"#riabilitazione\"]"
-            ],
-            [
-              "a[href$=\"#farmaci\"]"
-            ],
-            [
-              "a[href$=\"#controlli\"]"
-            ],
-            [
-              "a[href$=\"#abitudini\"]"
-            ],
-            [
-              "a[href$=\"#autonomia\"]"
-            ],
-            [
-              "a[href$=\"#tutele\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Guide correlate\"] > a[href=\"salute-autonomia.html#guide\"]"
-            ]
-          ],
-          "total": 14
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#confronto\"]"
-            ],
-            [
-              "a[href$=\"#ecg\"]"
-            ],
-            [
-              "a[href$=\"#eco\"]"
-            ],
-            [
-              "a[href$=\"#holter\"]"
-            ],
-            [
-              "a[href$=\"#sforzo\"]"
-            ],
-            [
-              "a[href$=\"#coronarie\"]"
-            ],
-            [
-              "a[href$=\"#referti\"]"
-            ],
-            [
-              "a[href$=\"#costi\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
-            ],
-            [
-              "nav[aria-label=\"Guide correlate\"] > a[href=\"salute-autonomia.html#guide\"]"
-            ]
-          ],
-          "total": 13
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },

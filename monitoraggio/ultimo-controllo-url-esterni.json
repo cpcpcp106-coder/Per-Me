@@ -1,23 +1,80 @@
 {
-  "date_utc": "2026-10-15T20:29:28.243434+00:00",
+  "date_utc": "2026-10-16T08:18:24.807507+00:00",
   "scope": {
-    "pages": 52,
-    "unique_external_urls": 392,
-    "occurrences": 716
+    "pages": 67,
+    "unique_external_urls": 502,
+    "occurrences": 1001
   },
   "counts": {
-    "raggiungibile": 354,
-    "bloccato_o_riservato": 32,
-    "non_verificato_trasporto": 5,
-    "errore_http": 1
+    "raggiungibile": 417,
+    "bloccato_o_riservato": 80,
+    "non_verificato_trasporto": 3,
+    "errore_http": 2
   },
   "results": [
+    {
+      "url": "https://academic.oup.com/eurheartj/article/39/21/1883/4939241",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
     {
       "url": "https://academic.oup.com/eurheartj/article/44/38/3720/7243210",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/44/39/4043/7238227",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/45/36/3314/7738779",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/47/32/4357/8719720",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
+      ]
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/47/38/5346/8766302",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
       ]
     },
     {
@@ -253,14 +310,6 @@
       ]
     },
     {
-      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic",
-      "status": "bloccato_o_riservato",
-      "http": 403,
-      "pages": [
-        "diabete-tipo-2.html"
-      ]
-    },
-    {
       "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -284,6 +333,7 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -295,6 +345,22 @@
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3657",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3686",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
       ]
     },
     {
@@ -315,11 +381,76 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1093/eurheartj/ehad191",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1093/eurheartj/ehae177",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1161/CIR.0000000000001251",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000375",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000418",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000513",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000530",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S002",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html",
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
       ]
     },
     {
@@ -327,13 +458,14 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
     {
       "url": "https://doi.org/10.2337/dc26-S004",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -343,8 +475,46 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S006",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-tipo-2.html",
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S007",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S009",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
       ]
     },
     {
@@ -352,7 +522,35 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S011",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
@@ -360,8 +558,52 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-tipo-2.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S013",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S016",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dci21-0043",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
       ]
     },
     {
@@ -370,6 +612,17 @@
       "http": 403,
       "pages": [
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dci26-0141",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html"
       ]
     },
     {
@@ -498,12 +751,39 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/11058247/pexels-photo-11058247.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/11058247/pexels-photo-11058247.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
       ]
     },
     {
@@ -516,12 +796,57 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/32209715/pexels-photo-32209715.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/32209715/pexels-photo-32209715.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
@@ -543,12 +868,48 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/7108362/pexels-photo-7108362.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7108362/pexels-photo-7108362.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
@@ -585,6 +946,33 @@
       "final_url": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8460126/pexels-photo-8460126.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8460126/pexels-photo-8460126.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-05-coronarie-rischio-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
       ]
     },
     {
@@ -653,6 +1041,17 @@
       ]
     },
     {
+      "url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://kdigo.org/guidelines/ckd-evaluation-and-management/",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
       "url": "https://lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
       "status": "raggiungibile",
       "http": 200,
@@ -671,6 +1070,35 @@
       ]
     },
     {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11067441/",
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690177/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690177/",
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6899507/",
       "status": "raggiungibile",
       "http": 200,
@@ -686,6 +1114,78 @@
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9510507/",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870667/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870667/",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/2024-guideline-for-the-management-of-lower-extremity-peripheral-artery-disease/top-things-to-know",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/core-components-of-cardiac-rehabilitation-programs-2024-update/top-things-to-know",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/management-of-central-retinal-artery-occlusion",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/orthostatic-hypotension-in-adults-with-hypertension",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/secondary-prevention-after-coronary-artery-bypass-graft-surgery-2026-update/top-things-to-know",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34965987/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/34965987/",
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
       ]
     },
     {
@@ -853,6 +1353,24 @@
       "http": 401,
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://www.aaojournal.org/article/S0161-6420%2824%2900784-X/fulltext",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/05/09/15/00/2024-guideline-for-lower-extremity-pad",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/05/09/15/00/2024-guideline-for-lower-extremity-pad",
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
       ]
     },
     {
@@ -1398,6 +1916,90 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://www.aifa.gov.it/it/note-aifa",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html"
+      ]
+    },
+    {
+      "url": "https://www.aifa.gov.it/nota-100",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.aifa.gov.it/nota-98",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000800",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000800",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000805",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000805",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004005",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004005",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
       "url": "https://www.arbitrobancariofinanziario.it/",
       "status": "raggiungibile",
       "http": 200,
@@ -1625,6 +2227,7 @@
       "http": 200,
       "final_url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
       "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -1738,6 +2341,7 @@
       "http": 200,
       "final_url": "https://www.epicentro.iss.it/diabete/",
       "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -1761,13 +2365,24 @@
       ]
     },
     {
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/",
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
+      ]
+    },
+    {
       "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/",
       "pages": [
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
-        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
       ]
     },
     {
@@ -1776,8 +2391,40 @@
       "http": 200,
       "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/cvd-and-diabetes/",
       "pages": [
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-tipo-2.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/heart-failure",
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
+      ]
+    },
+    {
+      "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://www.esur.org/esur-guidelines-2025/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.esur.org/esur-guidelines-2025/",
+      "pages": [
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
       ]
     },
     {
@@ -1918,6 +2565,22 @@
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.heart.org/-/media/files/health-topics/answers-by-heart/how-can-i-recover-from-heart-surgery.pdf",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/diabetes/symptoms-diagnosis--monitoring-of-diabetes/heart-health-tests-for-diabetes-patients",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
       ]
     },
     {
@@ -3124,7 +3787,21 @@
       "http": 200,
       "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
       ]
     },
     {
@@ -3135,6 +3812,33 @@
       "pages": [
         "agevolazioni-diritti.html",
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2023.04.003",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
@@ -3285,6 +3989,135 @@
       ]
     },
     {
+      "url": "https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/about-areds-and-areds2",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/clinical-trials/age-related-eye-disease-studies-aredsareds2/about-areds-and-areds2",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts/cataract-surgery",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/temporal-arteritis/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhs.uk/conditions/temporal-arteritis/",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng19/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng19/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng203/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng242/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng242/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
       "url": "https://www.nice.org.uk/guidance/ng28/chapter/person-centred-medicine",
       "status": "raggiungibile",
       "http": 200,
@@ -3294,12 +4127,41 @@
       ]
     },
     {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies",
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
       "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
       "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
@@ -3444,10 +4306,41 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html",
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-guida-03-farmaci-insulina-sicurezza.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
-        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-cardiologist-examining-a-patient-undergoing-cardiac-stress-test-8460228/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-doctor-checking-a-patient-s-ecg-results-8460126/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-05-coronarie-rischio-prevenzione.html"
       ]
     },
     {
@@ -3459,11 +4352,27 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/a-person-giving-an-elderly-man-an-eye-examination-7179233/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/a-woman-holding-a-clipboard-8962383/",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-woman-holding-an-insulin-injection-pen-7653692/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
@@ -3483,11 +4392,59 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/black-ceramic-bowl-with-chickpeas-11058247/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/close-up-of-person-using-a-blood-glucose-monitor-11391942/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/close-up-shot-of-a-medical-equipment-7108362/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/couple-and-social-worker-sitting-at-table-9870140/",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-and-patient-reviewing-brain-mri-results-39192336/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-checking-man-blood-pressure-7108334/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-man-checking-his-blood-pressure-8900022/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
       ]
     },
     {
@@ -3523,6 +4480,14 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/medical-consultation-with-doctor-examining-foot-33934620/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/men-and-woman-waiting-at-bus-stop-15965909/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -3539,6 +4504,22 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/optometrist-examining-patient-with-slit-lamp-32209715/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/person-holding-a-container-6520138/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -3552,6 +4533,22 @@
       "http": 403,
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/woman-on-a-procedure-in-a-clinic-5619447/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/woman-with-diabetes-wearing-a-cgm-device-on-her-arm-17947693/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
       ]
     },
     {
@@ -3593,7 +4590,10 @@
       "final_url": "https://www.salute.gov.it/new/it/banche-dati/banca-dati-delle-malattie-croniche-esenti/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
-        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
       ]
     },
     {
@@ -3604,7 +4604,10 @@
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
@@ -3617,6 +4620,17 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/faq/faq-ictus-e-malattie-cerebrovascolari/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/faq/faq-ictus-e-malattie-cerebrovascolari/",
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/faq/faq-malattie-cardio-cerebrovascolari/",
       "status": "raggiungibile",
       "http": 200,
@@ -3625,6 +4639,15 @@
         "salute-guida-01-preparare-visita.html",
         "salute-guida-01-preparare-visita.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
       ]
     },
     {
@@ -3647,6 +4670,16 @@
         "salute-guida-01-preparare-visita.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/diabete/assistenza-alle-persone-con-diabete/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/diabete/assistenza-alle-persone-con-diabete/",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
@@ -3697,7 +4730,20 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-05-coronarie-rischio-prevenzione.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
       ]
     },
     {
@@ -3728,7 +4774,9 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/ticket-ed-esenzioni/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
-        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
       ]
     },
     {
@@ -3750,6 +4798,16 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/ictus-riconosci-subito-i-sintomi-e-risparmia-tempo-prezioso/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/ictus-riconosci-subito-i-sintomi-e-risparmia-tempo-prezioso/",
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/malattie-cardio-cerebrovascolari/infarto-miocardico/",
       "status": "raggiungibile",
       "http": 200,
@@ -3760,9 +4818,48 @@
       ]
     },
     {
-      "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "url": "https://www.salute.gov.it/new/it/tema/prevenzione-ipovisione-e-cecita/prevenzione-e-riabilitazione-delle-malattie-dellocchio/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/prevenzione-ipovisione-e-cecita/prevenzione-e-riabilitazione-delle-malattie-dellocchio/",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/prevenzione-ipovisione-e-cecita/quadro-normativo/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/prevenzione-ipovisione-e-cecita/quadro-normativo/",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
+      "status": "errore_http",
+      "http": 307,
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms",
       "status": "bloccato_o_riservato",
       "http": 403,
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html",
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -3770,8 +4867,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
@@ -3791,8 +4889,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
@@ -3808,11 +4907,21 @@
       ]
     },
     {
+      "url": "https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
       "url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.who.int/news-room/fact-sheets/detail/diabetes",
       "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html"
       ]
@@ -3824,6 +4933,15 @@
       "final_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.who.int/news-room/questions-and-answers/item/diabetes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.who.int/news-room/questions-and-answers/item/diabetes",
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
       ]
     }
   ],
