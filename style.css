@@ -66,7 +66,9 @@ footer{background:#3e312b}
 .pagina-interna.rubrica-pensione{--accent:#785974;--accent-soft:#f3eaf0}
 .pagina-interna.rubrica-debiti{--accent:#9a5e40;--accent-soft:#f6e9dd}
 .pagina-interna.rubrica-diritti{--accent:#60724b;--accent-soft:#eff1e4}
-.pagina-interna.rubrica-salute{--accent:#477778;--accent-soft:#e8f1ee}
+/* Contrasto link rubriche sanitarie: WCAG 2.2 AA (11 guide, indici e navigazione).
+   Il verde scuro supera 6.5:1 anche sugli sfondi tenui della rubrica. */
+.pagina-interna.rubrica-salute{--accent:#28585a;--accent-soft:#e8f1ee}
 .pagina-interna.rubrica-ai{--accent:#78627b;--accent-soft:#f0e9f1}
 .pagina-interna .brand,.pagina-interna.rubrica-ai main h1{color:#392f2a}
 .pagina-interna .article{background:#fffdf9;border-color:#e5d7c8;border-top-color:var(--accent);box-shadow:0 7px 28px #6e483013}
