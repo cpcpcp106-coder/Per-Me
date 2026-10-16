@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T05:41:40+00:00",
+  "date_utc": "2026-10-16T05:52:54+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 60,
-    "editorial_pages": 58,
+    "html_total": 61,
+    "editorial_pages": 59,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1897,
-    "external_occurrences": 851,
-    "external_unique": 439,
+    "local_occurrences": 1933,
+    "external_occurrences": 875,
+    "external_unique": 449,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -53,6 +53,7 @@
       "diabete-guida-04-alimentazione-terapia-carboidrati.html",
       "diabete-guida-05-coronarie-rischio-prevenzione.html",
       "diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "diabete-guida-07-ictus-tia-prevenzione.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -135,7 +136,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-07-ictus-tia-prevenzione.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -735,7 +738,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 39,
+      "links_local": 40,
       "links_external": 24,
       "missing_local": 0,
       "noindex": false,
@@ -745,12 +748,27 @@
       "candidate_numeric_legal_mentions": 1
     },
     {
+      "file": "diabete-guida-07-ictus-tia-prevenzione.html",
+      "title": "Diabete tipo 2: ictus, TIA, segnali e prevenzione | Per Me Guida 07",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 34,
+      "links_external": 24,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
       "file": "diabete-tipo-2.html",
       "title": "Diabete tipo 2 | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 29,
+      "links_local": 30,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
