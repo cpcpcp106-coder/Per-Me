@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T05:19:58+00:00",
+  "date_utc": "2026-10-16T05:24:31+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 59,
-    "editorial_pages": 57,
+    "html_total": 60,
+    "editorial_pages": 58,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1856,
-    "external_occurrences": 827,
-    "external_unique": 432,
+    "local_occurrences": 1895,
+    "external_occurrences": 847,
+    "external_unique": 438,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -52,6 +52,7 @@
       "diabete-guida-03-farmaci-insulina-sicurezza.html",
       "diabete-guida-04-alimentazione-terapia-carboidrati.html",
       "diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "diabete-guida-06-scompenso-miocardio-aritmie.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -133,7 +134,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-06-scompenso-miocardio-aritmie.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -726,6 +729,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 3
+    },
+    {
+      "file": "diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "title": "Diabete tipo 2, scompenso cardiaco e aritmie | Per Me · Guida 06",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 39,
+      "links_external": 20,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "diabete-tipo-2.html",
