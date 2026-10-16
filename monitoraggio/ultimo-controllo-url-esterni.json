@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T08:55:39.255470+00:00",
+  "date_utc": "2026-10-16T09:08:07.241168+00:00",
   "scope": {
     "pages": 69,
-    "unique_external_urls": 522,
-    "occurrences": 1052
+    "unique_external_urls": 524,
+    "occurrences": 1054
   },
   "counts": {
     "raggiungibile": 435,
-    "bloccato_o_riservato": 82,
-    "non_verificato_trasporto": 3,
+    "non_verificato_trasporto": 4,
+    "bloccato_o_riservato": 83,
     "errore_http": 2
   },
   "results": [
@@ -2279,6 +2279,14 @@
       ]
     },
     {
+      "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000003985",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
       "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/",
       "status": "raggiungibile",
       "http": 200,
@@ -2428,6 +2436,15 @@
       "final_url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/betmiga",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/betmiga",
+      "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
       ]
     },
@@ -4092,9 +4109,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
