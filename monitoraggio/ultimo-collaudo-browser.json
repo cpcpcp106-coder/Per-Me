@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T04:07:20.796Z",
+  "checked_at_utc": "2026-10-16T04:20:55.988Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 53,
+        "count": 54,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 53,
+        "checked": 54,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 53,
+        "checked": 54,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -58,6 +58,15 @@
           },
           {
             "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 13
+              }
+            ]
+          },
+          {
+            "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
             "violations": [
               {
                 "id": "color-contrast",
@@ -95,10 +104,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "47 pagine salvate per la lettura offline · controllo online 16 ott, 04:07.",
+        "status": "47 pagine salvate per la lettura offline · controllo online 16 ott, 04:21.",
         "stored": {
           "guides": 47,
-          "updated": "2026-10-16T04:07:48.388Z",
+          "updated": "2026-10-16T04:21:18.867Z",
           "bytes": 922740,
           "includesNew09": true
         }
@@ -609,6 +618,52 @@
             ],
             [
               "a[href$=\"#tutele\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Guide correlate\"] > a[href=\"salute-autonomia.html#guide\"]"
+            ]
+          ],
+          "total": 13
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#confronto\"]"
+            ],
+            [
+              "a[href$=\"#ecg\"]"
+            ],
+            [
+              "a[href$=\"#eco\"]"
+            ],
+            [
+              "a[href$=\"#holter\"]"
+            ],
+            [
+              "a[href$=\"#sforzo\"]"
+            ],
+            [
+              "a[href$=\"#coronarie\"]"
+            ],
+            [
+              "a[href$=\"#referti\"]"
+            ],
+            [
+              "a[href$=\"#costi\"]"
             ],
             [
               "a[href$=\"#fonti\"]"
