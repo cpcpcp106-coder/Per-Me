@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T09:18:29.386915+00:00",
+  "date_utc": "2026-10-16T09:31:47.701600+00:00",
   "scope": {
     "pages": 70,
-    "unique_external_urls": 532,
-    "occurrences": 1075
+    "unique_external_urls": 533,
+    "occurrences": 1076
   },
   "counts": {
-    "raggiungibile": 438,
-    "bloccato_o_riservato": 89,
-    "non_verificato_trasporto": 3,
+    "raggiungibile": 439,
+    "non_verificato_trasporto": 4,
+    "bloccato_o_riservato": 88,
     "errore_http": 2
   },
   "results": [
@@ -348,6 +348,14 @@
       ]
     },
     {
+      "url": "https://doi.org/10.1002/dmrr.3644",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
       "url": "https://doi.org/10.1002/dmrr.3646",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -378,7 +386,8 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+        "diabete-guida-08-arteriopatia-periferica-gambe.html",
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
     {
@@ -1119,7 +1128,6 @@
       "http": 200,
       "final_url": "https://iwgdfguidelines.org/wound-healing-2023/",
       "pages": [
-        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
     },
@@ -4178,9 +4186,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -5164,8 +5171,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -5173,8 +5181,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
