@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T05:42:10.519Z",
+  "checked_at_utc": "2026-10-16T05:52:10.319Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 58,
+        "count": 59,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 58,
+        "checked": 59,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 58,
+        "checked": 59,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -93,6 +93,15 @@
             ]
           },
           {
+            "page": "diabete-guida-07-ictus-tia-prevenzione.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
+              }
+            ]
+          },
+          {
             "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
             "violations": [
               {
@@ -140,10 +149,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "52 pagine salvate per la lettura offline · controllo online 16 ott, 05:42.",
+        "status": "52 pagine salvate per la lettura offline · controllo online 16 ott, 05:52.",
         "stored": {
           "guides": 52,
-          "updated": "2026-10-16T05:42:41.453Z",
+          "updated": "2026-10-16T05:52:39.839Z",
           "bytes": 1067903,
           "includesNew09": true
         }
@@ -705,6 +714,52 @@
             ],
             [
               "a[href$=\"#diritti\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-07-ictus-tia-prevenzione.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#be-fast\"]"
+            ],
+            [
+              "a[href$=\"#tipi\"]"
+            ],
+            [
+              "a[href$=\"#rischio\"]"
+            ],
+            [
+              "a[href$=\"#esami\"]"
+            ],
+            [
+              "a[href$=\"#fase-acuta\"]"
+            ],
+            [
+              "a[href$=\"#recidive\"]"
+            ],
+            [
+              "a[href$=\"#fa\"]"
+            ],
+            [
+              "a[href$=\"#riabilitazione\"]"
+            ],
+            [
+              "a[href$=\"#tutele\"]"
             ],
             [
               "a[href$=\"#fonti\"]"
