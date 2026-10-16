@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T08:31:40.535672+00:00",
+  "date_utc": "2026-10-16T08:53:39.573715+00:00",
   "scope": {
-    "pages": 68,
-    "unique_external_urls": 513,
-    "occurrences": 1029
+    "pages": 69,
+    "unique_external_urls": 522,
+    "occurrences": 1052
   },
   "counts": {
-    "raggiungibile": 427,
-    "bloccato_o_riservato": 81,
-    "non_verificato_trasporto": 3,
-    "errore_http": 2
+    "raggiungibile": 434,
+    "errore_http": 3,
+    "bloccato_o_riservato": 82,
+    "non_verificato_trasporto": 3
   },
   "results": [
     {
@@ -467,6 +467,8 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -890,6 +892,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -1117,7 +1128,9 @@
       "http": 200,
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690177/",
       "pages": [
-        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
       ]
     },
     {
@@ -1403,6 +1416,27 @@
       "http": 401,
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
       ]
     },
     {
@@ -2388,6 +2422,26 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/domperidone-containing-medicines",
       "status": "raggiungibile",
       "http": 200,
@@ -2653,6 +2707,16 @@
       "http": 403,
       "pages": [
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
       ]
     },
     {
@@ -4028,9 +4092,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -4146,6 +4209,25 @@
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/NG123/chapter/recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/NG123/chapter/recommendations",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/cg148/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/cg148/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
       ]
     },
     {
@@ -4433,6 +4515,7 @@
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -4447,6 +4530,14 @@
       "http": 403,
       "pages": [
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-couple-sitting-at-a-doctor-s-clinic-7108332/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
       ]
     },
     {
@@ -4865,6 +4956,8 @@
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
