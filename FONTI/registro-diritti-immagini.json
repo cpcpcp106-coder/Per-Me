@@ -278,6 +278,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-16",
       "notes": "Foto autentica Pexels pubblicata il 25 agosto 2026, autore Vitaly Gariev; medico mostra MRI cerebrale a donna adulta in ambulatorio. Pagina Free download e License Free verificata. Immagine pertinente alla Guida 07 ictus/TIA, diversa dalle precedenti, non dimostra diagnosi né rappresenta urgenza in atto."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "33934620",
+      "src_path": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg",
+      "source": "https://www.pexels.com/photo/medical-consultation-with-doctor-examining-foot-33934620/",
+      "author": "Natalia Lara",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-16",
+      "notes": "Fotografia realistica e differente dalle Guide precedenti: medico esamina piede del paziente in ambulatorio. Fonte Pexels Natalia Lara ID 33934620 con Free download e licenza Free verificata il 16 ottobre 2026. Non attribuisce condizioni patologiche alle persone ritratte."
     }
   ],
   "local": [
