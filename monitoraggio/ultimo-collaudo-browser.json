@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T07:33:09.495Z",
+  "checked_at_utc": "2026-10-16T07:40:12.246Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 63,
+        "count": 64,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 63,
+        "checked": 64,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 63,
+        "checked": 64,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -167,10 +167,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "57 pagine salvate per la lettura offline · controllo online 16 ott, 07:33.",
+        "status": "57 pagine salvate per la lettura offline · controllo online 16 ott, 07:40.",
         "stored": {
           "guides": 57,
-          "updated": "2026-10-16T07:33:35.528Z",
+          "updated": "2026-10-16T07:40:45.545Z",
           "bytes": 1219903,
           "includesNew09": true
         }
@@ -889,6 +889,12 @@
     },
     {
       "page": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
       "violations": [],
       "passes": 26,
       "incomplete": 2
