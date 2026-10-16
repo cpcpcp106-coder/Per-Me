@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-16T03:54:54+00:00",
+  "date_utc": "2026-10-16T03:57:16+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 55,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1698,
+    "local_occurrences": 1700,
     "external_occurrences": 749,
     "external_unique": 409,
     "actions": 7,
@@ -119,14 +119,13 @@
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
       "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -876,7 +875,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 24,
+      "links_local": 25,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
@@ -906,7 +905,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 32,
+      "links_local": 33,
       "links_external": 13,
       "missing_local": 0,
       "noindex": false,
