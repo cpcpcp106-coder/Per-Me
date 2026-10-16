@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T04:53:58.425Z",
+  "checked_at_utc": "2026-10-16T04:55:14.351Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -61,7 +61,7 @@
             "violations": [
               {
                 "id": "color-contrast",
-                "nodes": 13
+                "nodes": 14
               }
             ]
           },
@@ -122,11 +122,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "49 pagine salvate per la lettura offline · controllo online 16 ott, 04:54.",
+        "status": "50 pagine salvate per la lettura offline · controllo online 16 ott, 04:55.",
         "stored": {
-          "guides": 49,
-          "updated": "2026-10-16T04:54:25.555Z",
-          "bytes": 976327,
+          "guides": 50,
+          "updated": "2026-10-16T04:55:45.109Z",
+          "bytes": 1000369,
           "includesNew09": true
         }
       }
@@ -140,7 +140,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 49
+        "count": 50
       }
     },
     {
@@ -554,7 +554,7 @@
               "nav[aria-label=\"Altre guide sul diabete\"] > a[href=\"diabete-tipo-2.html#percorso\"]"
             ]
           ],
-          "total": 13
+          "total": 14
         }
       ],
       "passes": 26,
