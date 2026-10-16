@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-16T07:30:23+00:00",
+  "date_utc": "2026-10-16T07:31:50+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 65,
@@ -827,7 +827,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 2
+      "candidate_numeric_legal_mentions": 3
     },
     {
       "file": "diabete-tipo-2.html",
