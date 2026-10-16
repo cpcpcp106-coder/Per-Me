@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T06:56:16.726Z",
+  "checked_at_utc": "2026-10-16T07:12:11.004Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -115,7 +115,7 @@
             "violations": [
               {
                 "id": "color-contrast",
-                "nodes": 14
+                "nodes": 15
               }
             ]
           },
@@ -124,7 +124,7 @@
             "violations": [
               {
                 "id": "color-contrast",
-                "nodes": 14
+                "nodes": 15
               }
             ]
           },
@@ -176,11 +176,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "55 pagine salvate per la lettura offline · controllo online 16 ott, 06:56.",
+        "status": "56 pagine salvate per la lettura offline · controllo online 16 ott, 07:12.",
         "stored": {
-          "guides": 55,
-          "updated": "2026-10-16T06:56:48.505Z",
-          "bytes": 1157677,
+          "guides": 56,
+          "updated": "2026-10-16T07:12:31.294Z",
+          "bytes": 1186582,
           "includesNew09": true
         }
       }
@@ -194,7 +194,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 55
+        "count": 56
       }
     },
     {
@@ -884,7 +884,7 @@
               "a[href$=\"#fonti\"]"
             ]
           ],
-          "total": 14
+          "total": 15
         }
       ],
       "passes": 26,
@@ -899,6 +899,9 @@
           "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
           "help": "Elements must meet minimum color contrast ratio thresholds",
           "affected": [
+            [
+              "a[href$=\"#urgenze\"]"
+            ],
             [
               "a[href$=\"#confronto\"]"
             ],
@@ -925,12 +928,9 @@
             ],
             [
               "a[href$=\"#diritti\"]"
-            ],
-            [
-              "a[href$=\"#fonti\"]"
             ]
           ],
-          "total": 14
+          "total": 15
         }
       ],
       "passes": 26,
