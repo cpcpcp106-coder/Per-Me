@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-16T08:25:15+00:00",
+  "date_utc": "2026-10-16T08:31:52+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 68,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 2220,
-    "external_occurrences": 1027,
-    "external_unique": 512,
+    "external_occurrences": 1029,
+    "external_unique": 513,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -872,7 +872,7 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 43,
-      "links_external": 26,
+      "links_external": 28,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
