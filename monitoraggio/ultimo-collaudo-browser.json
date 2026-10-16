@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T07:12:11.004Z",
+  "checked_at_utc": "2026-10-16T07:14:50.733Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -120,15 +120,6 @@
             ]
           },
           {
-            "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 15
-              }
-            ]
-          },
-          {
             "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
             "violations": [
               {
@@ -176,10 +167,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "56 pagine salvate per la lettura offline · controllo online 16 ott, 07:12.",
+        "status": "56 pagine salvate per la lettura offline · controllo online 16 ott, 07:15.",
         "stored": {
           "guides": 56,
-          "updated": "2026-10-16T07:12:31.294Z",
+          "updated": "2026-10-16T07:15:23.013Z",
           "bytes": 1186582,
           "includesNew09": true
         }
@@ -892,47 +883,7 @@
     },
     {
       "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"#urgenze\"]"
-            ],
-            [
-              "a[href$=\"#confronto\"]"
-            ],
-            [
-              "a[href$=\"#cataratta\"]"
-            ],
-            [
-              "a[href$=\"#glaucoma\"]"
-            ],
-            [
-              "a[href$=\"#secchezza\"]"
-            ],
-            [
-              "a[href$=\"#altre\"]"
-            ],
-            [
-              "a[href$=\"#esami\"]"
-            ],
-            [
-              "a[href$=\"#diabete\"]"
-            ],
-            [
-              "a[href$=\"#autonomia\"]"
-            ],
-            [
-              "a[href$=\"#diritti\"]"
-            ]
-          ],
-          "total": 15
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
