@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-15T20:52:41.326Z",
+  "checked_at_utc": "2026-10-16T03:55:31.366Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 52,
+        "count": 53,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 52,
+        "checked": 53,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 52,
+        "checked": 53,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -53,6 +53,15 @@
               {
                 "id": "color-contrast",
                 "nodes": 11
+              }
+            ]
+          },
+          {
+            "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 13
               }
             ]
           }
@@ -86,10 +95,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "46 pagine salvate per la lettura offline · controllo online 15 ott, 20:53.",
+        "status": "46 pagine salvate per la lettura offline · controllo online 16 ott, 03:55.",
         "stored": {
           "guides": 46,
-          "updated": "2026-10-15T20:53:07.725Z",
+          "updated": "2026-10-16T03:55:51.117Z",
           "bytes": 895326,
           "includesNew09": true
         }
@@ -566,6 +575,52 @@
       "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
       "violations": [],
       "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#significato\"]"
+            ],
+            [
+              "a[href$=\"#dimissioni\"]"
+            ],
+            [
+              "a[href$=\"#riabilitazione\"]"
+            ],
+            [
+              "a[href$=\"#farmaci\"]"
+            ],
+            [
+              "a[href$=\"#controlli\"]"
+            ],
+            [
+              "a[href$=\"#abitudini\"]"
+            ],
+            [
+              "a[href$=\"#autonomia\"]"
+            ],
+            [
+              "a[href$=\"#tutele\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ],
+            [
+              "nav[aria-label=\"Guide correlate\"] > a[href=\"salute-autonomia.html#guide\"]"
+            ]
+          ],
+          "total": 13
+        }
+      ],
+      "passes": 26,
       "incomplete": 2
     },
     {
