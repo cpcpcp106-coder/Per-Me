@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T09:41:38.525890+00:00",
+  "date_utc": "2026-10-16T09:57:45.195012+00:00",
   "scope": {
     "pages": 71,
-    "unique_external_urls": 543,
-    "occurrences": 1097
+    "unique_external_urls": 549,
+    "occurrences": 1103
   },
   "counts": {
-    "raggiungibile": 449,
-    "bloccato_o_riservato": 89,
-    "non_verificato_trasporto": 3,
+    "raggiungibile": 453,
+    "bloccato_o_riservato": 90,
+    "non_verificato_trasporto": 4,
     "errore_http": 2
   },
   "results": [
@@ -75,6 +75,15 @@
         "diabete-guida-06-scompenso-miocardio-aritmie.html",
         "diabete-guida-06-scompenso-miocardio-aritmie.html",
         "diabete-guida-06-scompenso-miocardio-aritmie.html"
+      ]
+    },
+    {
+      "url": "https://adanews.ada.org/ada-news/2026/september/first-ada-living-guideline-reaffirms-dental-exams-crucial-to-detecting-oral-cancer-early/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adanews.ada.org/ada-news/2026/september/first-ada-living-guideline-reaffirms-dental-exams-crucial-to-detecting-oral-cancer-early/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -1173,9 +1182,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -1299,6 +1307,15 @@
       "http": 403,
       "pages": [
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34238654/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/34238654/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -1552,6 +1569,15 @@
       "final_url": "https://www.ada.org/resources/ada-library/oral-health-topics/oral-anticoagulant-and-antiplatelet-medications-and-dental-procedures",
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs",
+      "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
@@ -2832,6 +2858,14 @@
       "http": 403,
       "pages": [
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/infective-endocarditis",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -4348,6 +4382,15 @@
       ]
     },
     {
+      "url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhs.uk/live-well/healthy-teeth-and-gums/how-to-keep-your-teeth-clean/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
       "url": "https://www.nice.org.uk/guidance/NG123/chapter/recommendations",
       "status": "raggiungibile",
       "http": 200,
@@ -5259,6 +5302,15 @@
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.sidp.it/la-societa/linee-guida-sidp/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.sidp.it/la-societa/linee-guida-sidp/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
