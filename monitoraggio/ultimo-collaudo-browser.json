@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T05:59:46.566Z",
+  "checked_at_utc": "2026-10-16T06:08:10.986Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 59,
+        "count": 60,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 59,
+        "checked": 60,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 59,
+        "checked": 60,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -102,6 +102,15 @@
             ]
           },
           {
+            "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
+              }
+            ]
+          },
+          {
             "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
             "violations": [
               {
@@ -149,10 +158,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "53 pagine salvate per la lettura offline · controllo online 16 ott, 06:00.",
+        "status": "53 pagine salvate per la lettura offline · controllo online 16 ott, 06:08.",
         "stored": {
           "guides": 53,
-          "updated": "2026-10-16T06:00:05.861Z",
+          "updated": "2026-10-16T06:08:41.413Z",
           "bytes": 1097475,
           "includesNew09": true
         }
@@ -760,6 +769,52 @@
             ],
             [
               "a[href$=\"#tutele\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#capire\"]"
+            ],
+            [
+              "a[href$=\"#sintomi\"]"
+            ],
+            [
+              "a[href$=\"#differenze\"]"
+            ],
+            [
+              "a[href$=\"#esami\"]"
+            ],
+            [
+              "a[href$=\"#prevenzione\"]"
+            ],
+            [
+              "a[href$=\"#cammino\"]"
+            ],
+            [
+              "a[href$=\"#terapie\"]"
+            ],
+            [
+              "a[href$=\"#piede\"]"
+            ],
+            [
+              "a[href$=\"#diritti\"]"
             ],
             [
               "a[href$=\"#fonti\"]"
