@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T08:53:39.573715+00:00",
+  "date_utc": "2026-10-16T08:55:39.255470+00:00",
   "scope": {
     "pages": 69,
     "unique_external_urls": 522,
     "occurrences": 1052
   },
   "counts": {
-    "raggiungibile": 434,
-    "errore_http": 3,
+    "raggiungibile": 435,
     "bloccato_o_riservato": 82,
-    "non_verificato_trasporto": 3
+    "non_verificato_trasporto": 3,
+    "errore_http": 2
   },
   "results": [
     {
@@ -4092,8 +4092,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "errore_http",
-      "http": 502,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
