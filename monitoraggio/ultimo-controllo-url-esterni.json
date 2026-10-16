@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-16T08:18:24.807507+00:00",
+  "date_utc": "2026-10-16T08:20:28.305940+00:00",
   "scope": {
-    "pages": 67,
-    "unique_external_urls": 502,
-    "occurrences": 1001
+    "pages": 68,
+    "unique_external_urls": 513,
+    "occurrences": 1027
   },
   "counts": {
-    "raggiungibile": 417,
-    "bloccato_o_riservato": 80,
+    "raggiungibile": 427,
+    "bloccato_o_riservato": 81,
     "non_verificato_trasporto": 3,
     "errore_http": 2
   },
@@ -572,6 +572,8 @@
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-tipo-2.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
@@ -659,6 +661,17 @@
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -838,6 +851,15 @@
       "final_url": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -1186,6 +1208,15 @@
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40976635/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/40976635/",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -1925,6 +1956,16 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/it/note-aifa",
       "status": "raggiungibile",
       "http": 200,
@@ -2333,6 +2374,26 @@
       "final_url": "https://www.cuore.iss.it/altro/cuore",
       "pages": [
         "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/domperidone-containing-medicines",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/domperidone-containing-medicines",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/metoclopramide-containing-medicines",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/metoclopramide-containing-medicines",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -4152,7 +4213,38 @@
       "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
       "pages": [
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -4162,6 +4254,16 @@
       "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -4319,6 +4421,7 @@
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -4421,6 +4524,14 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-and-his-patient-lying-on-the-bed-with-her-hand-on-the-stomach-6285389/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
@@ -4741,6 +4852,8 @@
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
