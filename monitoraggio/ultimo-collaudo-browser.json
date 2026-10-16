@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T06:53:18.701Z",
+  "checked_at_utc": "2026-10-16T06:56:16.726Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 61,
+        "count": 62,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 61,
+        "checked": 62,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 61,
+        "checked": 62,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -120,6 +120,15 @@
             ]
           },
           {
+            "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
+              }
+            ]
+          },
+          {
             "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
             "violations": [
               {
@@ -167,10 +176,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "55 pagine salvate per la lettura offline · controllo online 16 ott, 06:53.",
+        "status": "55 pagine salvate per la lettura offline · controllo online 16 ott, 06:56.",
         "stored": {
           "guides": 55,
-          "updated": "2026-10-16T06:53:43.281Z",
+          "updated": "2026-10-16T06:56:48.505Z",
           "bytes": 1157677,
           "includesNew09": true
         }
@@ -864,6 +873,52 @@
             ],
             [
               "a[href$=\"#prevenzione\"]"
+            ],
+            [
+              "a[href$=\"#autonomia\"]"
+            ],
+            [
+              "a[href$=\"#diritti\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#confronto\"]"
+            ],
+            [
+              "a[href$=\"#cataratta\"]"
+            ],
+            [
+              "a[href$=\"#glaucoma\"]"
+            ],
+            [
+              "a[href$=\"#secchezza\"]"
+            ],
+            [
+              "a[href$=\"#altre\"]"
+            ],
+            [
+              "a[href$=\"#esami\"]"
+            ],
+            [
+              "a[href$=\"#diabete\"]"
             ],
             [
               "a[href$=\"#autonomia\"]"
