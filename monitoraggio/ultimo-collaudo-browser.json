@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T06:30:20.470Z",
+  "checked_at_utc": "2026-10-16T06:44:25.679Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 60,
+        "count": 61,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 60,
+        "checked": 61,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 60,
+        "checked": 61,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -111,6 +111,15 @@
             ]
           },
           {
+            "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
+              }
+            ]
+          },
+          {
             "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
             "violations": [
               {
@@ -158,10 +167,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "54 pagine salvate per la lettura offline · controllo online 16 ott, 06:30.",
+        "status": "54 pagine salvate per la lettura offline · controllo online 16 ott, 06:44.",
         "stored": {
           "guides": 54,
-          "updated": "2026-10-16T06:30:51.220Z",
+          "updated": "2026-10-16T06:44:58.926Z",
           "bytes": 1128453,
           "includesNew09": true
         }
@@ -812,6 +821,52 @@
             ],
             [
               "a[href$=\"#piede\"]"
+            ],
+            [
+              "a[href$=\"#diritti\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#differenze\"]"
+            ],
+            [
+              "a[href$=\"#rischi\"]"
+            ],
+            [
+              "a[href$=\"#screening\"]"
+            ],
+            [
+              "a[href$=\"#esami\"]"
+            ],
+            [
+              "a[href$=\"#cure\"]"
+            ],
+            [
+              "a[href$=\"#sicurezza\"]"
+            ],
+            [
+              "a[href$=\"#prevenzione\"]"
+            ],
+            [
+              "a[href$=\"#autonomia\"]"
             ],
             [
               "a[href$=\"#diritti\"]"
