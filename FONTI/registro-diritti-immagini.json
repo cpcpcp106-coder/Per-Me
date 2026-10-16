@@ -218,6 +218,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-16",
       "notes": "Fotografia realistica ravvicinata di elettrodi ECG applicati al torace in ambulatorio, diversa dalle foto di cardiologia precedenti; pagina Pexels 'Free' verificata 16 ottobre 2026. Nessuna diagnosi attribuita alla persona ritratta; non si impiega come risultato diagnostico."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "7653692",
+      "src_path": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg",
+      "source": "https://www.pexels.com/photo/a-woman-holding-an-insulin-injection-pen-7653692/",
+      "author": "Pavel Danilyuk",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-16",
+      "notes": "Fotografia realistica e differente dalle guide precedenti: persona che maneggia penna per insulina. Pagina Pexels Free download, License Free verificata il 16 ottobre 2026. Non si attribuisce malattia specifica alla persona fotografata; non offre istruzioni pratiche di somministrazione."
     }
   ],
   "local": [
