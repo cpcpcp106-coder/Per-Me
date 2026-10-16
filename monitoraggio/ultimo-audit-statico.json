@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-15T20:53:19+00:00",
+  "date_utc": "2026-10-16T03:54:54+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 54,
-    "editorial_pages": 52,
+    "html_total": 55,
+    "editorial_pages": 53,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1660,
-    "external_occurrences": 737,
-    "external_unique": 403,
+    "local_occurrences": 1698,
+    "external_occurrences": 749,
+    "external_unique": 409,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -64,6 +64,7 @@
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
       "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
@@ -123,7 +124,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -905,6 +908,21 @@
       "images_without_alt": 0,
       "links_local": 32,
       "links_external": 13,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "title": "Dopo infarto, stent o bypass: riabilitazione e prevenzione | Per Me Guida 03",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 38,
+      "links_external": 12,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
