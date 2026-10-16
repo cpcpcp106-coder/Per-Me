@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T05:01:50.451Z",
+  "checked_at_utc": "2026-10-16T05:09:00.017Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 56,
+        "count": 57,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 56,
+        "checked": 57,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 56,
+        "checked": 57,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -67,6 +67,15 @@
           },
           {
             "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 14
+              }
+            ]
+          },
+          {
+            "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
             "violations": [
               {
                 "id": "color-contrast",
@@ -122,11 +131,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "50 pagine salvate per la lettura offline · controllo online 16 ott, 05:02.",
+        "status": "50 pagine salvate per la lettura offline · controllo online 16 ott, 05:09.",
         "stored": {
           "guides": 50,
-          "updated": "2026-10-16T05:02:19.136Z",
-          "bytes": 1002044,
+          "updated": "2026-10-16T05:09:30.919Z",
+          "bytes": 1002820,
           "includesNew09": true
         }
       }
@@ -592,6 +601,52 @@
             ],
             [
               "a[href$=\"#spesa\"]"
+            ],
+            [
+              "a[href$=\"#domande\"]"
+            ],
+            [
+              "a[href$=\"#fonti\"]"
+            ]
+          ],
+          "total": 14
+        }
+      ],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"#legame\"]"
+            ],
+            [
+              "a[href$=\"#fattori\"]"
+            ],
+            [
+              "a[href$=\"#sintomi\"]"
+            ],
+            [
+              "a[href$=\"#screening\"]"
+            ],
+            [
+              "a[href$=\"#prevenzione\"]"
+            ],
+            [
+              "a[href$=\"#farmaci\"]"
+            ],
+            [
+              "a[href$=\"#dopo-evento\"]"
+            ],
+            [
+              "a[href$=\"#diritti\"]"
             ],
             [
               "a[href$=\"#domande\"]"
