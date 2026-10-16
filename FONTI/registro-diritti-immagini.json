@@ -386,6 +386,18 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-16",
       "notes": "Foto Pexels gratuita 13185359 'Leg of Patient on Bed', operatore sanitario esamina un piede con strumentazione in ambito clinico. Pagina originale verificata e licenza Free, autore Juan Manuel Montejano Lopez. Non documenta piede diabetico, ulcerazione, gangrena o osteomielite nei soggetti. Foto specifica e distinta dalle altre guide, in particolare dalla Guida 08."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "5622033",
+      "src_path": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg",
+      "source": "https://www.pexels.com/photo/close-up-of-dentist-patient-5622033/",
+      "author": "Gustavo Fring",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-16",
+      "notes": "Pexels 5622033, foto reale e gratuita di esame dei denti di una persona anziana in studio dentistico; fotografo Gustavo Fring, pagina Pexels originale e relativa licenza Free verificate il 16/10/2026. Non si attribuisce diabete, parodontite, carie o altre condizioni al soggetto. Immagine diversa da quelle precedentemente usate. Foto esterna richiede Internet, PWA salva il testo."
     }
   ],
   "local": [
