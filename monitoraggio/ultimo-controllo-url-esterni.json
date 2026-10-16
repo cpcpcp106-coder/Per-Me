@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T09:31:47.701600+00:00",
+  "date_utc": "2026-10-16T09:39:27.763558+00:00",
   "scope": {
-    "pages": 70,
-    "unique_external_urls": 533,
-    "occurrences": 1076
+    "pages": 71,
+    "unique_external_urls": 543,
+    "occurrences": 1097
   },
   "counts": {
-    "raggiungibile": 439,
-    "non_verificato_trasporto": 4,
-    "bloccato_o_riservato": 88,
+    "raggiungibile": 449,
+    "bloccato_o_riservato": 89,
+    "non_verificato_trasporto": 3,
     "errore_http": 2
   },
   "results": [
@@ -504,6 +504,8 @@
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -903,6 +905,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -1207,6 +1218,16 @@
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6899507/",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7891343/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7891343/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -1522,6 +1543,16 @@
       "final_url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/05/09/15/00/2024-guideline-for-lower-extremity-pad",
       "pages": [
         "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://www.ada.org/resources/ada-library/oral-health-topics/oral-anticoagulant-and-antiplatelet-medications-and-dental-procedures",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ada.org/resources/ada-library/oral-health-topics/oral-anticoagulant-and-antiplatelet-medications-and-dental-procedures",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -2417,6 +2448,16 @@
       "final_url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.cochrane.org/evidence/CD004714_does-treatment-gum-disease-help-people-diabetes-control-blood-sugar-levels",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cochrane.org/evidence/CD004714_does-treatment-gum-disease-help-people-diabetes-control-blood-sugar-levels",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -4186,8 +4227,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -4373,6 +4415,36 @@
       "final_url": "https://www.nice.org.uk/guidance/ng28/chapter/person-centred-medicine",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.nidcr.nih.gov/health-info/diabetes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nidcr.nih.gov/health-info/diabetes",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.nidcr.nih.gov/health-info/dry-mouth",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nidcr.nih.gov/health-info/dry-mouth",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.nidcr.nih.gov/health-info/gum-disease",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nidcr.nih.gov/health-info/gum-disease",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -4612,6 +4684,7 @@
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -4698,6 +4771,14 @@
       "http": 403,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/close-up-of-dentist-patient-5622033/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
@@ -4978,6 +5059,16 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/pubblicazione/revisione-dellaccesso-alle-cure-odontoiatriche-nel-ssn/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/pubblicazione/revisione-dellaccesso-alle-cure-odontoiatriche-nel-ssn/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/",
       "status": "raggiungibile",
       "http": 200,
@@ -5118,6 +5209,16 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/cosa-sono-i-lea/",
       "pages": [
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/il-dpcm-del-2017-e-gli-allegati/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/il-dpcm-del-2017-e-gli-allegati/",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
       ]
     },
     {
