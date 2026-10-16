@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T08:27:12.489578+00:00",
+  "date_utc": "2026-10-16T08:31:40.535672+00:00",
   "scope": {
     "pages": 68,
-    "unique_external_urls": 512,
-    "occurrences": 1027
+    "unique_external_urls": 513,
+    "occurrences": 1029
   },
   "counts": {
-    "raggiungibile": 425,
+    "raggiungibile": 427,
     "bloccato_o_riservato": 81,
-    "non_verificato_trasporto": 4,
+    "non_verificato_trasporto": 3,
     "errore_http": 2
   },
   "results": [
@@ -1084,8 +1084,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -1316,6 +1317,16 @@
       "final_url": "https://sostegnoabitativogenitoriseparati.mit.gov.it/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://sps.nhs.uk/articles/managing-interactions-between-macrolides-and-statins/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://sps.nhs.uk/articles/managing-interactions-between-macrolides-and-statins/",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
     },
     {
