@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-16T04:07:59+00:00",
+  "date_utc": "2026-10-16T04:20:22+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 55,
-    "editorial_pages": 53,
+    "html_total": 56,
+    "editorial_pages": 54,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 1700,
-    "external_occurrences": 749,
-    "external_unique": 409,
+    "local_occurrences": 1734,
+    "external_occurrences": 761,
+    "external_unique": 414,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -65,6 +65,7 @@
       "salute-guida-01-preparare-visita.html",
       "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
       "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
       "tutor-ai.html",
@@ -125,7 +126,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -921,6 +924,21 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 38,
+      "links_external": 12,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "title": "Esami cardiologici: ECG, ecocardiogramma, Holter e coronarografia | Per Me Guida 04",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 34,
       "links_external": 12,
       "missing_local": 0,
       "noindex": false,
