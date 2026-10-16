@@ -66,10 +66,14 @@ assert.match(app,/blockquote\[id\^="prompt-"\]/,'PWA non individua i prompt');
 assert.match(app,/navigator.clipboard&&navigator.clipboard.writeText/,'Clipboard API PWA assente');
 assert.match(app,/document.execCommand\('copy'\)/,'Fallback clipboard PWA assente');
 assert.match(read('app/app.css'),/\.reader-content \.prompt-copy/,'Stile pulsanti PWA assente');
-assert.match(read('app/index.html'),/main\.js\?v=11/,'PWA non aggiorna JavaScript');
-assert.match(read('app/index.html'),/app\.css\?v=11/,'PWA non aggiorna CSS');
-assert.match(read('app/sw.js'),/perme-reader-v13-20261015-otto-rubriche/,'Cache PWA non aggiornata');
-assert.match(read('app/sw.js'),/main\.js\?v=11/,'Service worker usa versione vecchia');
+const appHtml=read('app/index.html'),sw=read('app/sw.js');
+const versionJS=appHtml.match(/src="(main\.js\?v=\d+)"/)?.[1];
+const versionCSS=appHtml.match(/href="(app\.css\?v=\d+)"/)?.[1];
+assert.ok(versionJS,'Riferimento versionato al JS PWA mancante');
+assert.ok(versionCSS,'Riferimento versionato al CSS PWA mancante');
+assert.ok(sw.includes("'./"+versionJS+"'"),'La cache PWA non usa il JavaScript richiesto');
+assert.ok(sw.includes("'./"+versionCSS+"'"),'La cache PWA non usa il CSS richiesto');
+assert.match(sw,/const CACHE='perme-reader-v\d+-\d{8}-[^']+';/,'Nome cache PWA versionato mancante');
 
 console.log('PASS Tutor AI: 6 prompt, pulsanti, script copiabile sintatticamente valido, fallback Android, privacy, SEO e salvataggio testo PWA.');
 console.log('LIMITI: test statico. Per il dispositivo Android reale verificare manualmente copia e incolla e salvataggio offline aggiornato.');
