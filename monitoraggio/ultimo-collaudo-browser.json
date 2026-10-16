@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T07:14:50.733Z",
+  "checked_at_utc": "2026-10-16T07:22:02.034Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 62,
+        "count": 63,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 62,
+        "checked": 63,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "FAIL",
       "details": {
-        "checked": 62,
+        "checked": 63,
         "failed": [
           {
             "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
@@ -167,10 +167,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "56 pagine salvate per la lettura offline · controllo online 16 ott, 07:15.",
+        "status": "56 pagine salvate per la lettura offline · controllo online 16 ott, 07:22.",
         "stored": {
           "guides": 56,
-          "updated": "2026-10-16T07:15:23.013Z",
+          "updated": "2026-10-16T07:22:34.608Z",
           "bytes": 1186582,
           "includesNew09": true
         }
@@ -883,6 +883,12 @@
     },
     {
       "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
       "violations": [],
       "passes": 26,
       "incomplete": 2
