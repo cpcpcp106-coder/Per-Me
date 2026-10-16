@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T08:22:27.594364+00:00",
+  "date_utc": "2026-10-16T08:24:25.878717+00:00",
   "scope": {
     "pages": 68,
     "unique_external_urls": 512,
     "occurrences": 1027
   },
   "counts": {
-    "raggiungibile": 426,
+    "raggiungibile": 423,
     "bloccato_o_riservato": 81,
-    "non_verificato_trasporto": 3,
+    "non_verificato_trasporto": 6,
     "errore_http": 2
   },
   "results": [
@@ -4181,9 +4181,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -4212,9 +4211,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -4241,9 +4239,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
