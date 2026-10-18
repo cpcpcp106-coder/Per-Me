@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-18T09:41:51.549368+00:00",
+  "date_utc": "2026-10-18T09:58:15.046757+00:00",
   "scope": {
     "pages": 72,
-    "unique_external_urls": 560,
-    "occurrences": 1140
+    "unique_external_urls": 562,
+    "occurrences": 1144
   },
   "counts": {
-    "raggiungibile": 462,
+    "raggiungibile": 464,
     "bloccato_o_riservato": 92,
     "non_verificato_trasporto": 4,
     "errore_http": 2
@@ -1362,6 +1362,16 @@
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/40976635/",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42398590/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/42398590/",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -5231,6 +5241,16 @@
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/scheda-malattia/tetano/?paragraph=5",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/scheda-malattia/tetano/?paragraph=5",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {

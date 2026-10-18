@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T09:40:24.537Z",
+  "checked_at_utc": "2026-10-18T09:56:53.474Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "64 pagine salvate per la lettura offline · controllo online 18 ott, 09:41.",
+        "status": "64 pagine salvate per la lettura offline · controllo online 18 ott, 09:57.",
         "stored": {
           "guides": 64,
-          "updated": "2026-10-18T09:41:01.482Z",
-          "bytes": 1496918,
+          "updated": "2026-10-18T09:57:30.269Z",
+          "bytes": 1499286,
           "includesNew09": true
         }
       }
@@ -472,7 +472,7 @@
     {
       "page": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
       "violations": [],
-      "passes": 26,
+      "passes": 25,
       "incomplete": 2
     },
     {
