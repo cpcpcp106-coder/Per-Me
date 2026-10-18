@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-18T12:59:04.585127+00:00",
+  "date_utc": "2026-10-18T13:05:59.897511+00:00",
   "scope": {
     "pages": 77,
-    "unique_external_urls": 613,
-    "occurrences": 1297
+    "unique_external_urls": 615,
+    "occurrences": 1301
   },
   "counts": {
     "raggiungibile": 508,
-    "bloccato_o_riservato": 99,
+    "bloccato_o_riservato": 101,
     "non_verificato_trasporto": 4,
     "errore_http": 2
   },
@@ -327,6 +327,15 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/40/1/136/37160/Diabetic-Neuropathy-A-Position-Statement-by-the",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
@@ -722,6 +731,15 @@
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-guida-05-coronarie-rischio-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://drc.bmj.com/content/3/1/e000082",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
