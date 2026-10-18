@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-18T11:29:56.223595+00:00",
+  "date_utc": "2026-10-18T11:39:01.653341+00:00",
   "scope": {
-    "pages": 74,
-    "unique_external_urls": 583,
-    "occurrences": 1208
+    "pages": 75,
+    "unique_external_urls": 594,
+    "occurrences": 1239
   },
   "counts": {
-    "raggiungibile": 481,
-    "bloccato_o_riservato": 96,
+    "raggiungibile": 491,
+    "bloccato_o_riservato": 97,
     "non_verificato_trasporto": 4,
     "errore_http": 2
   },
@@ -514,7 +514,10 @@
       "http": 403,
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html",
-        "diabete-guida-01-cause-sintomi-diagnosi.html"
+        "diabete-guida-01-cause-sintomi-diagnosi.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -754,6 +757,17 @@
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://gastro.org/clinical-guidance/epidemiology-evaluation-management-exocrine-pancreatic-insufficiency/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://gastro.org/clinical-guidance/epidemiology-evaluation-management-exocrine-pancreatic-insufficiency/",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -1068,6 +1082,15 @@
       "final_url": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -1399,6 +1422,27 @@
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37737818/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/37737818/",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38857482/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/38857482/",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -2771,6 +2815,16 @@
       "pages": [
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -4699,6 +4753,16 @@
       ]
     },
     {
+      "url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng12/chapter/recommendations-organised-by-site-of-cancer",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
       "url": "https://www.nice.org.uk/guidance/ng136/chapter/recommendations",
       "status": "raggiungibile",
       "http": 200,
@@ -4750,6 +4814,16 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -4814,6 +4888,26 @@
       ]
     },
     {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/eating-diet-nutrition",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/eating-diet-nutrition",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/diagnosis",
       "status": "raggiungibile",
       "http": 200,
@@ -4840,6 +4934,17 @@
       "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/symptoms-causes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/symptoms-causes",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -5034,6 +5139,8 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5300,6 +5407,15 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/woman-in-red-and-white-dress-figurine-7723384/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/woman-on-a-procedure-in-a-clinic-5619447/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -5547,6 +5663,8 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"

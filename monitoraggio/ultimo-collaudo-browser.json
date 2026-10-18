@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T11:28:51.027Z",
+  "checked_at_utc": "2026-10-18T11:37:45.025Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 72,
+        "count": 73,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 72,
+        "checked": 73,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 72,
+        "checked": 73,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "66 pagine salvate per la lettura offline · controllo online 18 ott, 11:29.",
+        "status": "66 pagine salvate per la lettura offline · controllo online 18 ott, 11:38.",
         "stored": {
           "guides": 66,
-          "updated": "2026-10-18T11:29:17.034Z",
+          "updated": "2026-10-18T11:38:08.733Z",
           "bytes": 1578991,
           "includesNew09": true
         }
@@ -483,6 +483,12 @@
     },
     {
       "page": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2
