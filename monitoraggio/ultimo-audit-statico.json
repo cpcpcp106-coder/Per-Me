@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T12:27:34+00:00",
+  "date_utc": "2026-10-18T12:57:14+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 76,
-    "editorial_pages": 74,
+    "html_total": 77,
+    "editorial_pages": 75,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2604,
-    "external_occurrences": 1272,
-    "external_unique": 607,
+    "local_occurrences": 2652,
+    "external_occurrences": 1297,
+    "external_unique": 613,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -69,6 +69,7 @@
       "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
       "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
       "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -167,7 +168,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1015,6 +1018,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 4
+    },
+    {
+      "file": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "title": "Diabete tipo 2, ossa e muscoli: osteoporosi, sarcopenia, fratture e cadute | Per Me · Guida 23",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 48,
+      "links_external": 25,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "diabete-tipo-2.html",
