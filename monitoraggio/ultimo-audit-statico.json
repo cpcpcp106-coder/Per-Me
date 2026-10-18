@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T11:17:29+00:00",
+  "date_utc": "2026-10-18T11:28:08+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 74,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2505,
-    "external_occurrences": 1203,
-    "external_unique": 580,
+    "local_occurrences": 2506,
+    "external_occurrences": 1208,
+    "external_unique": 583,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -140,6 +140,7 @@
       "diabete-guida-17-bocca-denti-gengive-parodontite.html",
       "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
       "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -162,9 +163,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -959,7 +958,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 47,
+      "links_local": 48,
       "links_external": 35,
       "missing_local": 0,
       "noindex": false,
@@ -975,13 +974,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 45,
-      "links_external": 24,
+      "links_external": 29,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
+      "candidate_numeric_legal_mentions": 8
     },
     {
       "file": "diabete-tipo-2.html",
