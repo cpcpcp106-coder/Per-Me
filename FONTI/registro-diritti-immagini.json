@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-10-16",
+  "as_of": "2026-10-18",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -410,6 +410,126 @@
       "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
       "verified_on": "2026-10-18",
       "notes": "Foto reale professionale di visita dermatologica con strumento digitale e paziente adulta, Pexels ID 7446660, autore Gustavo Fring; pagina Pexels originale e licenza gratuita con permesso di uso su siti e app verificate il 18/10/2026. Non attribuire diabete o una specifica malattia cutanea alla persona. Originale 5760x3840; uso illustrative/alt, no face identification. Foto differente dalle guide precedenti."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "39192353",
+      "src_path": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg",
+      "source": "https://www.pexels.com/it-it/foto/medico-visita-un-paziente-anziano-in-un-moderno-studio-medico-39192353/",
+      "author": "Vitaly Gariev",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-19",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Visita di una persona anziana; non attribuire infezioni o diabete."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "16388112",
+      "src_path": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg",
+      "source": "https://www.pexels.com/photo/doctor-examining-stomach-with-ultrasound-16388112/",
+      "author": "Jorge Chan",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-20",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Ecografia illustrativa generica, non referto epatico."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "7723384",
+      "src_path": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg",
+      "source": "https://www.pexels.com/photo/woman-in-red-and-white-dress-figurine-7723384/",
+      "author": "Tara Winstead",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-21",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Modello anatomico; non diagnosi di pancreatite."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8313180",
+      "src_path": "https://images.pexels.com/photos/8313180/pexels-photo-8313180.jpeg",
+      "source": "https://www.pexels.com/photo/a-therapist-examining-a-patient-8313180/",
+      "author": "RDNE Stock project",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-22",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Esame clinico dell'avambraccio; non prova di neuropatia."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "6815699",
+      "src_path": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg",
+      "source": "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/",
+      "author": "Yan Krukau",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-23",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Esercizio con elastici di persone anziane, non diagnosi."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8860200",
+      "src_path": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg",
+      "source": "https://www.pexels.com/photo/adult-man-sleeping-8860200/",
+      "author": "cottonbro studio",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-24",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Persona che dorme; non diagnosticare apnee del sonno."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8413410",
+      "src_path": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg",
+      "source": "https://www.pexels.com/photo/elderly-man-patient-talking-at-his-doctor-8413410/",
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-25",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Colloquio medico illustrativo; non attribuire depressione o demenza."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "6823568",
+      "src_path": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg",
+      "source": "https://www.pexels.com/photo/person-s-hand-in-latex-gloves-holding-a-glucometer-6823568/",
+      "author": "Artem Podrez",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-27",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Glucometro durante consulto, non necessariamente urgenza."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "8657372",
+      "src_path": "https://images.pexels.com/photos/8657372/pexels-photo-8657372.jpeg",
+      "source": "https://www.pexels.com/photo/adult-woman-holding-a-white-medicine-bottle-8657372/",
+      "author": "cottonbro studio",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-28",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Colloquio su farmaci in farmacia; non attribuire patologie."
+    },
+    {
+      "provider": "Pexels",
+      "photo_id": "7088531",
+      "src_path": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg",
+      "source": "https://www.pexels.com/photo/people-woman-sitting-technology-7088531/",
+      "author": "MART PRODUCTION",
+      "license": "https://www.pexels.com/license/",
+      "used_in": "diabete-guida-29",
+      "verification": "LICENZA_PIATTAFORMA_VERIFICATA",
+      "verified_on": "2026-10-18",
+      "notes": "Pagina originale Pexels con autore e licenza Free verificata, uso illustrativo su sito web. Consulto ostetrico illustrativo, non suggerisce diabete della persona."
     }
   ],
   "local": [
@@ -842,14 +962,67 @@
       "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
       "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
       "source_history_verified": false
+    },
+    {
+      "file": "assets/guida-24-sonno-riserva.svg",
+      "git_blob_sha": "e221ad22c4a4084ca77f5e02a1aab5385bf80500",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 24, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/3b51e3ee871974a890ea1608bcb04859cc0c3215",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-25-salute-mentale-riserva.svg",
+      "git_blob_sha": "2948a59e4ec5c1fd7b8d9062236697b656ea2612",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 25, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/dc5ba2b44a4ee8db78a92cf7c8b09e8c570dc39f",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-26-prevenzione-oncologica-riserva.svg",
+      "git_blob_sha": "1ecad6996c7d0fa46aeeae584f178752330d1d63",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 26, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/f29ed763e7dd5caf44498c61e4c9bb87fa9416a3",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-27-ipoglicemia-emergenze-riserva.svg",
+      "git_blob_sha": "8e44524067d58111466649d38b5b63b266f671c8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 27, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/78ee28b647ccbe6f4d3e73608b57190d5146479d",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-28-revisione-terapia-riserva.svg",
+      "git_blob_sha": "c003679b691ee212c09618c63d9bd6c086fbb769",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 28, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/b7d8d39eaea742f4a85880ddf5fcefbb8025ddb4",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-29-gravidanza-consulto-riserva.svg",
+      "git_blob_sha": "38af91a5e587212cbe58bb40b571c73d2fd05d6c",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 29, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/1a13d844f311e133ebbcff30e739df226091ba74",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
     }
   ],
-  "notes": [
-    "Le 41 immagini locali sono riclassificate come generate o elaborate con ChatGPT sulla base della dichiarazione diretta dell'autore, non di una verifica tecnica individuale delle sessioni originali.",
-    "Per quanto riguarda i rapporti fra utente e OpenAI, l'utente possiede l'Output nei limiti di legge secondo https://openai.com/it-IT/policies/terms-of-use/ . Questo non elimina eventuali diritti di terzi su materiali originari, marchi o persone ritratte.",
-    "Il registro conserva le impronte blob Git per rintracciare esattamente le 41 immagini senza modificarne i file.",
-    "Le fotografie esterne sono registrate individualmente come stock gratuito di Pexels/Unsplash, con pagina fonte, fotografo e licenza.",
-    "Per qualsiasi nuova immagine non basta la dichiarazione generale: occorre registrare evidenza individuale della fonte o generazione prima della pubblicazione.",
-    "Le immagini illustrative non devono suggerire che persone reali ritratte soffrano delle patologie o condizioni sociali descritte."
-  ]
+  "notes": "Le 41 immagini locali sono riclassificate come generate o elaborate con ChatGPT sulla base della dichiarazione diretta dell'autore, non di una verifica tecnica individuale delle sessioni originali.,Per quanto riguarda i rapporti fra utente e OpenAI, l'utente possiede l'Output nei limiti di legge secondo https://openai.com/it-IT/policies/terms-of-use/ . Questo non elimina eventuali diritti di terzi su materiali originari, marchi o persone ritratte.,Il registro conserva le impronte blob Git per rintracciare esattamente le 41 immagini senza modificarne i file.,Le fotografie esterne sono registrate individualmente come stock gratuito di Pexels/Unsplash, con pagina fonte, fotografo e licenza.,Per qualsiasi nuova immagine non basta la dichiarazione generale: occorre registrare evidenza individuale della fonte o generazione prima della pubblicazione.,Le immagini illustrative non devono suggerire che persone reali ritratte soffrano delle patologie o condizioni sociali descritte.\n18/10/2026: integrate 10 fotografie Pexels con pagine autore/licenza verificate e 6 illustrazioni SVG con commit GitHub e impronte. Il registro descrive provenienza tecnica e condizioni Pexels; non sostituisce parere giuridico."
 }
