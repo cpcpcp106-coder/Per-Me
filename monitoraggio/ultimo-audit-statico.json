@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T14:39:37+00:00",
+  "date_utc": "2026-10-18T14:48:11+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 80,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2807,
-    "external_occurrences": 1405,
-    "external_unique": 650,
+    "local_occurrences": 2808,
+    "external_occurrences": 1412,
+    "external_unique": 654,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1075,14 +1075,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 45,
-      "links_external": 34,
+      "links_local": 46,
+      "links_external": 41,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 9
+      "candidate_numeric_legal_mentions": 10
     },
     {
       "file": "diabete-tipo-2.html",
