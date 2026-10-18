@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-18T13:45:32.781380+00:00",
+  "date_utc": "2026-10-18T13:47:57.075862+00:00",
   "scope": {
     "pages": 79,
     "unique_external_urls": 634,
     "occurrences": 1362
   },
   "counts": {
-    "raggiungibile": 521,
+    "raggiungibile": 522,
     "bloccato_o_riservato": 104,
-    "non_verificato_trasporto": 7,
+    "non_verificato_trasporto": 6,
     "errore_http": 2
   },
   "results": [
@@ -231,8 +231,9 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
@@ -263,7 +264,7 @@
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -1189,10 +1190,10 @@
       ]
     },
     {
-      "url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?cs=srgb&dl=pexels-shvets-production-8413410.jpg&fm=jpg",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "final_url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?cs=srgb&dl=pexels-shvets-production-8413410.jpg&fm=jpg",
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
