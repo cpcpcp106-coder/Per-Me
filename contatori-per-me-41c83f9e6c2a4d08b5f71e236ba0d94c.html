@@ -1,45 +1,55 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer"><title>Conteggi Per Me</title><link rel="icon" type="image/png" sizes="192x192" href="app/icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="app/icon-512.png"><link rel="apple-touch-icon" sizes="192x192" href="app/icon-192.png"><meta name="theme-color" content="#492d1e"><style>body{font:22px/1.5 system-ui,sans-serif;max-width:700px;padding:22px;margin:auto;color:#173027;background:#f5f7f3}h1{font-size:1.8rem}section{background:#fff;border:2px solid #2c4f3b;padding:20px;margin:20px 0;border-radius:12px}h2{font-size:1.15rem}img{display:block;max-width:100%;height:auto;min-height:34px}a{display:block;padding:16px;background:#234534;color:white;border-radius:10px;text-align:center;font-weight:700}.note{font-size:.8rem}.count-status{font-size:1rem;color:#173027;font-weight:650;line-height:1.5;min-height:34px;margin:12px 0 0}.count-status[hidden],.count-image[hidden]{display:none}.service-note{font-size:.82rem;line-height:1.45}</style></head><body><h1>Per Me - Conteggi</h1><p>Totali consultabili con Internet attivo.</p><section><h2>Visite al sito</h2><img src="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&amp;action=visita&amp;key=per-me-visite-nuovo-inizio-20261015-v3&amp;readOnly=true&amp;label=visite&amp;style=flat" class="count-image" data-counter="visite" alt="Numero di visite al sito"><p class="count-status" data-status="visite" role="status" aria-live="polite">Caricamento delle visite…</p></section><section><h2>Installazioni dell'app rilevate</h2><img src="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&amp;action=installazione&amp;key=per-me&amp;readOnly=true&amp;label=installazioni&amp;style=flat" class="count-image" data-counter="installazioni" alt="Numero di installazioni rilevate"><p class="count-status" data-status="installazioni" role="status" aria-live="polite">Caricamento delle installazioni…</p></section><a href="">Aggiorna i conteggi</a><p class="note">Questi numeri non sono visualizzati nel sito. Il servizio di conteggio è pubblico: chi conosce l'indirizzo può consultare i dati.</p><p class="service-note">I valori dipendono da un servizio esterno. Se il servizio è indisponibile, non è possibile stabilire se il totale sia zero o se alcuni eventi siano stati registrati.</p>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer"><title>Conteggi Per Me</title><link rel="icon" type="image/png" sizes="192x192" href="app/icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="app/icon-512.png"><link rel="apple-touch-icon" sizes="192x192" href="app/icon-192.png"><meta name="theme-color" content="#492d1e"><style>body{font:22px/1.5 system-ui,sans-serif;max-width:700px;padding:22px;margin:auto;color:#173027;background:#f5f7f3}h1{font-size:1.8rem}section{background:#fff;border:2px solid #2c4f3b;padding:20px;margin:20px 0;border-radius:12px}h2{font-size:1.15rem}img{display:block;max-width:100%;height:auto;min-height:34px}a{display:block;padding:16px;background:#234534;color:white;border-radius:10px;text-align:center;font-weight:700}.note{font-size:.8rem}.count-status{font-size:1rem;color:#173027;font-weight:650;line-height:1.5;min-height:34px;margin:12px 0 0}.count-status[hidden],.count-image[hidden]{display:none}.service-note{font-size:.82rem;line-height:1.45}.count-value{display:block;font-size:clamp(1.8rem,7vw,3.1rem);font-weight:800;overflow-wrap:anywhere;min-height:65px}.count-value.failed{font-size:1rem;line-height:1.6;font-weight:600}button{display:block;width:100%;padding:16px;background:#234534;color:white;border:0;border-radius:10px;font:inherit;font-weight:750;cursor:pointer}button:disabled{opacity:.75}button:focus-visible{outline:3px solid #9b5429;outline-offset:3px}#status{font-size:.8rem;min-height:34px}</style></head><body><h1>Per Me - Conteggi</h1><p>Conteggi degli eventi dal 18 ottobre 2026. Per aggiornarli serve Internet.</p><section><h2>Visite al sito</h2><output id="visite" class="count-value" aria-live="polite">Caricamento…</output></section><section><h2>Installazioni dell'app rilevate</h2><output id="installazioni" class="count-value" aria-live="polite">Caricamento…</output></section><button type="button" id="refresh">Aggiorna i conteggi</button><p id="status" role="status" aria-live="polite">Verifica del servizio in corso…</p><p class="note"><strong>Nuovo periodo di rilevazione:</strong> i conteggi precedenti al cambio di servizio non sono inclusi e non sono ancora recuperabili. I numeri indicano eventi registrati, non persone uniche. Leggere questa pagina non aumenta i valori. I dati sono consultabili presso il fornitore esterno, che può ricevere dati tecnici della connessione.</p>
 <script>
 (() => {
   'use strict';
-  const base='https://counterapi.com/api/cpcpcp106-coder.github.io/';
-  const counters={
-    visite:['visita','per-me-visite-nuovo-inizio-20261015-v3'],
-    installazioni:['installazione','per-me']
-  };
-  for(const img of document.querySelectorAll('img[data-counter]')){
-    const id=img.dataset.counter, status=document.querySelector('[data-status="'+id+'"]');
-    const [action,key]=counters[id];
-    let done=false;
-    const finish=(message,number)=>{
-      if(done)return;
-      done=true;
-      clearTimeout(timeout);
-      img.hidden=true;
-      status.hidden=false;
-      status.textContent=number===true?message:message;
-    };
-    const unavailable='Dato non disponibile: il servizio esterno non risponde. Non significa zero.';
-    const timeout=setTimeout(()=>fallback(),12000);
-    const fallback=async()=>{
-      if(done)return;
-      const controller=new AbortController();
-      const timer=setTimeout(()=>controller.abort(),9000);
-      try{
-        const url=base+encodeURIComponent(action)+'/'+encodeURIComponent(key)+'?readOnly=true&refresh='+Date.now();
-        const response=await fetch(url,{mode:'cors',cache:'no-store',credentials:'omit',signal:controller.signal});
-        if(!response.ok)throw new Error('HTTP '+response.status);
-        const data=await response.json();
-        const n=Number(data.value);
-        if(!Number.isSafeInteger(n)||n<0)throw new Error('Valore non valido');
-        finish(n.toLocaleString('it-IT')+' · dato letto dal servizio alternativo',true);
-      }catch(_){finish(unavailable,false)}
-      finally{clearTimeout(timer)}
-    };
-    img.addEventListener('load',()=>{if(done)return;done=true;clearTimeout(timeout);status.hidden=true;});
-    img.addEventListener('error',fallback);
-    if(img.complete){if(img.naturalWidth>0){done=true;clearTimeout(timeout);status.hidden=true;}else fallback();}
+  const api='https://countapi.mileshilliard.com/api/v1/get/';
+  const fields=[
+    ['visite','perme-visite-dal-20261018-43bcc26da793'],
+    ['installazioni','perme-installazioni-dal-20261018-43bcc26da793']
+  ];
+  const button=document.getElementById('refresh');
+  const status=document.getElementById('status');
+  let loading=false;
+  async function read(key){
+    const controller=new AbortController();
+    const timer=setTimeout(()=>controller.abort(),12000);
+    try {
+      const response=await fetch(api+encodeURIComponent(key)+'?refresh='+Date.now(),{
+        method:'GET',mode:'cors',credentials:'omit',cache:'no-store',
+        referrerPolicy:'no-referrer',signal:controller.signal
+      });
+      if(response.status===404)return 0;
+      if(!response.ok)throw Error('HTTP '+response.status);
+      const data=await response.json();
+      const value=Number(data.value);
+      if(!Number.isSafeInteger(value)||value<0)throw Error('Conteggio non valido');
+      return value;
+    } finally {clearTimeout(timer);}
   }
+  async function refresh(){
+    if(loading)return;
+    loading=true;button.disabled=true;
+    status.textContent='Lettura dei conteggi in corso…';
+    const outcomes=await Promise.allSettled(fields.map(async ([id,key])=>{
+      const node=document.getElementById(id);
+      try{
+        const value=await read(key);
+        node.classList.remove('failed');
+        node.textContent=value.toLocaleString('it-IT');
+        return true;
+      }catch(error){
+        node.classList.add('failed');
+        node.textContent='Numero non disponibile: servizio temporaneamente irraggiungibile (non equivale a zero).';
+        throw error;
+      }
+    }));
+    const failures=outcomes.filter(x=>x.status==='rejected').length;
+    status.textContent=failures?'Impossibile leggere '+(failures===2?'entrambi i contatori.':'uno dei contatori.'):
+      'Dati aggiornati alle '+new Date().toLocaleTimeString('it-IT',{hour:'2-digit',minute:'2-digit'})+'.';
+    loading=false;button.disabled=false;
+  }
+  button.addEventListener('click',refresh);
+  refresh();
 })();
 </script></body></html>
