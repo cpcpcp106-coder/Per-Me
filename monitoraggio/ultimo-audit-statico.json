@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T12:11:18+00:00",
+  "date_utc": "2026-10-18T12:21:00+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 75,
-    "editorial_pages": 73,
+    "html_total": 76,
+    "editorial_pages": 74,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2556,
-    "external_occurrences": 1241,
-    "external_unique": 595,
+    "local_occurrences": 2602,
+    "external_occurrences": 1267,
+    "external_unique": 604,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -68,6 +68,7 @@
       "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
       "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
       "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -165,7 +166,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -998,6 +1001,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 6
+    },
+    {
+      "file": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "title": "Diabete tipo 2, mani e spalle: spalla congelata, dito a scatto, Dupuytren e tunnel carpale | Per Me · Guida 22",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 46,
+      "links_external": 26,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 3
     },
     {
       "file": "diabete-tipo-2.html",
