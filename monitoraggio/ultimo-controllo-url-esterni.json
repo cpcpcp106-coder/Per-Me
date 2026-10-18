@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T13:05:59.897511+00:00",
+  "date_utc": "2026-10-18T13:14:36.188983+00:00",
   "scope": {
-    "pages": 77,
-    "unique_external_urls": 615,
-    "occurrences": 1301
+    "pages": 78,
+    "unique_external_urls": 627,
+    "occurrences": 1334
   },
   "counts": {
-    "raggiungibile": 508,
-    "bloccato_o_riservato": 101,
-    "non_verificato_trasporto": 4,
-    "errore_http": 2
+    "raggiungibile": 515,
+    "bloccato_o_riservato": 102,
+    "non_verificato_trasporto": 7,
+    "errore_http": 3
   },
   "results": [
     {
@@ -557,6 +557,8 @@
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -566,6 +568,9 @@
       "http": 403,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html"
       ]
@@ -772,7 +777,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1196,6 +1201,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -1403,6 +1417,26 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12634025/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12634025/",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12690177/",
       "status": "raggiungibile",
       "http": 200,
@@ -1414,6 +1448,16 @@
       ]
     },
     {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337595/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5337595/",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/",
       "status": "raggiungibile",
       "http": 200,
@@ -1421,6 +1465,16 @@
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
     },
     {
@@ -1549,6 +1603,16 @@
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38585386/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/38585386/",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
     },
     {
@@ -2766,6 +2830,16 @@
       ]
     },
     {
+      "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-hearing-loss.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-hearing-loss.html",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-your-feet.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2994,6 +3068,16 @@
       "pages": [
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
     },
     {
@@ -3346,6 +3430,15 @@
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.gov.patenti.it/ecom.dll/noAjax?idc=3186",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.gov.patenti.it'. (_ssl.c:1010)>",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
     },
     {
@@ -4641,9 +4734,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -4651,9 +4743,8 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -5026,6 +5117,24 @@
       ]
     },
     {
+      "url": "https://www.nidcd.nih.gov/health/hearing-ear-infections",
+      "status": "errore_http",
+      "http": 404,
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
+      "url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://www.nidcr.nih.gov/health-info/diabetes",
       "status": "raggiungibile",
       "http": 200,
@@ -5343,6 +5452,8 @@
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5430,6 +5541,15 @@
       "http": 403,
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/adult-man-sleeping-8860200/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
     },
     {
@@ -5889,6 +6009,8 @@
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
@@ -5926,6 +6048,8 @@
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
       ]
     },
