@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Revisione condivisa dei medicinali per il diabete</title><desc id="d">Illustrazione originale di un medico e una persona anziana che esaminano insieme la terapia prescritta, con medicinali e foglio di controllo sul tavolo.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e5f1ec"/><stop offset="1" stop-color="#eee8dc"/></linearGradient></defs>
+<rect width="1200" height="720" fill="url(#bg)"/><rect y="590" width="1200" height="130" fill="#d1dfd6"/>
+<rect x="105" y="95" width="295" height="290" rx="16" fill="#f7fcf9" stroke="#a8c4b4" stroke-width="10"/>
+<path d="M250 95v290M105 245h295" stroke="#b8cec2" stroke-width="8"/><circle cx="334" cy="174" r="40" fill="#fff1b8"/><path d="M105 333q72-61 145-20t150-35v106H105Z" fill="#98c0ad"/>
+<path d="M60 613h1080" stroke="#48695a" stroke-width="23" stroke-linecap="round"/>
+<path d="M130 540V602M350 540V602M840 540V602M1060 540V602" stroke="#516a64" stroke-width="23"/>
+<path d="M105 532q-24-103 37-168h188q55 83 25 168Z" fill="#557785"/>
+<path d="M807 528q-26-111 55-172h175q65 69 37 172Z" fill="#f1f7f2" stroke="#becfc5" stroke-width="6"/>
+<path d="M180 332q-79 25-71 140l-4 36h263l-12-83q-18-83-95-93Z" fill="#497484"/>
+<path d="M852 329q-75 23-80 110l-4 69h319l-16-82q-10-77-82-97Z" fill="#e9f4ef"/>
+<rect x="205" y="318" width="66" height="48" rx="22" fill="#c9967e"/><rect x="922" y="315" width="71" height="48" rx="20" fill="#b88770"/>
+<circle cx="236" cy="265" r="66" fill="#cb997e"/><circle cx="958" cy="258" r="67" fill="#b98b75"/>
+<path d="M174 252q-4-73 66-74 62 2 62 80-25-21-37-37-30 24-91 31Z" fill="#d5d8d0"/>
+<path d="M891 245q7-76 68-74 69 1 69 80-27-26-47-26-39 27-90 20Z" fill="#5e514a"/>
+<path d="M205 270q8-7 17 0m28 0q9-7 17 0m-53 27q18 13 37 0" stroke="#75554c" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M927 261q8-7 17 0m29 0q8-7 17 0m-52 28q20 12 39 0" stroke="#674d45" stroke-width="4" fill="none" stroke-linecap="round"/>
+<rect x="388" y="429" width="408" height="31" rx="12" fill="#bc9f7b"/><rect x="419" y="460" width="20" height="135" fill="#8f785c"/><rect x="746" y="460" width="20" height="135" fill="#8f785c"/>
+<path d="M350 405q101-29 191 34M793 408q-104-31-189 31" stroke="#c7957c" stroke-width="30" fill="none" stroke-linecap="round"/>
+<rect x="522" y="391" width="128" height="56" rx="8" fill="#fffdf7" stroke="#8eaa9a" stroke-width="3"/>
+<path d="M540 409h88M540 421h75M540 432h92" stroke="#97b3a2" stroke-width="4"/>
+<rect x="680" y="394" width="47" height="34" rx="5" fill="#d1e0d8" stroke="#6f9c89" stroke-width="3"/>
+<text x="600" y="679" font-family="Arial,sans-serif" font-size="23" font-weight="600" text-anchor="middle" fill="#375a4b" letter-spacing="2">CONOSCERE · VERIFICARE · CONCORDARE</text></svg>
