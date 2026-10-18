@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T14:48:00.487051+00:00",
+  "date_utc": "2026-10-18T15:02:07.566540+00:00",
   "scope": {
-    "pages": 80,
-    "unique_external_urls": 655,
-    "occurrences": 1409
+    "pages": 81,
+    "unique_external_urls": 661,
+    "occurrences": 1436
   },
   "counts": {
-    "raggiungibile": 541,
-    "bloccato_o_riservato": 106,
-    "non_verificato_trasporto": 6,
-    "errore_http": 2
+    "raggiungibile": 544,
+    "bloccato_o_riservato": 109,
+    "non_verificato_trasporto": 4,
+    "errore_http": 4
   },
   "results": [
     {
@@ -196,16 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -343,6 +343,15 @@
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ]
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
       ]
     },
     {
@@ -538,6 +547,7 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
@@ -623,6 +633,11 @@
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-guida-06-scompenso-miocardio-aritmie.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-tipo-2.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
       ]
@@ -747,7 +762,9 @@
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
-        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
       ]
     },
     {
@@ -756,6 +773,16 @@
       "http": 403,
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dci24-0032",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
       ]
     },
     {
@@ -818,7 +845,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1086,6 +1113,15 @@
       "final_url": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg?auto=compress&dpr=1&h=750&w=1260",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg",
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
       ]
     },
     {
@@ -1459,6 +1495,15 @@
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11272983/",
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
       ]
     },
     {
@@ -2583,11 +2628,23 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
@@ -3150,6 +3207,17 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/baqsimi",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/baqsimi",
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/betmiga",
       "status": "raggiungibile",
       "http": 200,
@@ -3294,6 +3362,7 @@
       "http": 200,
       "final_url": "https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-new-contra-indications-warnings-pioglitazone-reduce-small-increased-risk-bladder-cancer",
       "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
@@ -5641,6 +5710,8 @@
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5934,6 +6005,15 @@
       "http": 403,
       "pages": [
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/person-s-hand-in-latex-gloves-holding-a-glucometer-6823568/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
       ]
     },
     {
@@ -6293,15 +6373,6 @@
       ]
     },
     {
-      "url": "https://www.salute.gov.it/new/it/tema/hiv-aids-e-infezioni-sessualmente-trasmesse/infezioni-sessualmente-trasmesse/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/tema/hiv-aids-e-infezioni-sessualmente-trasmesse/infezioni-sessualmente-trasmesse/",
-      "pages": [
-        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
-      ]
-    },
-    {
       "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/assistenza-integrativa/",
       "status": "raggiungibile",
       "http": 200,
@@ -6425,6 +6496,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/malattie-prevenibili-con-i-vaccini/",
       "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },

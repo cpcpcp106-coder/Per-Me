@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T14:46:17.009Z",
+  "checked_at_utc": "2026-10-18T15:00:21.629Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 78,
+        "count": 79,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 78,
+        "checked": 79,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 78,
+        "checked": 79,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "72 pagine salvate per la lettura offline · controllo online 18 ott, 14:46.",
+        "status": "72 pagine salvate per la lettura offline · controllo online 18 ott, 15:01.",
         "stored": {
           "guides": 72,
-          "updated": "2026-10-18T14:46:58.726Z",
-          "bytes": 1829161,
+          "updated": "2026-10-18T15:01:04.190Z",
+          "bytes": 1831477,
           "includesNew09": true
         }
       }
@@ -519,6 +519,12 @@
     },
     {
       "page": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2
