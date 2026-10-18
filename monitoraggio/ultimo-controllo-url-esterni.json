@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T13:14:36.188983+00:00",
+  "date_utc": "2026-10-18T13:24:44.690448+00:00",
   "scope": {
     "pages": 78,
     "unique_external_urls": 627,
     "occurrences": 1334
   },
   "counts": {
-    "raggiungibile": 515,
+    "raggiungibile": 518,
     "bloccato_o_riservato": 102,
-    "non_verificato_trasporto": 7,
-    "errore_http": 3
+    "non_verificato_trasporto": 5,
+    "errore_http": 2
   },
   "results": [
     {
@@ -1201,10 +1201,10 @@
       ]
     },
     {
-      "url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?cs=srgb&dl=pexels-cottonbro-8860200.jpg&fm=jpg",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "final_url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?cs=srgb&dl=pexels-cottonbro-8860200.jpg&fm=jpg",
       "pages": [
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
@@ -4734,8 +4734,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -4743,8 +4744,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -5117,9 +5119,10 @@
       ]
     },
     {
-      "url": "https://www.nidcd.nih.gov/health/hearing-ear-infections",
-      "status": "errore_http",
-      "http": 404,
+      "url": "https://www.nidcd.nih.gov/health/hearing-ear-infections-deafness",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nidcd.nih.gov/health/hearing-ear-infections-deafness",
       "pages": [
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
