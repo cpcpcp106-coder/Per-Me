@@ -1,0 +1,5 @@
+---
+layout: null
+---
+{% capture xml %}{% include_relative sitemap.xml %}{% endcapture %}{% assign urls = xml | split: '<loc>' %}{% for item in urls offset:1 %}{{ item | split: '</loc>' | first | strip }}
+{% endfor %}
