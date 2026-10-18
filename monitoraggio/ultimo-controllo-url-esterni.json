@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-18T11:19:28.998450+00:00",
+  "date_utc": "2026-10-18T11:21:24.899418+00:00",
   "scope": {
     "pages": 74,
     "unique_external_urls": 580,
     "occurrences": 1203
   },
   "counts": {
-    "raggiungibile": 478,
+    "raggiungibile": 479,
     "bloccato_o_riservato": 95,
-    "non_verificato_trasporto": 5,
+    "non_verificato_trasporto": 4,
     "errore_http": 2
   },
   "results": [
@@ -4360,8 +4360,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
