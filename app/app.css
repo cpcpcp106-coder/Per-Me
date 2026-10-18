@@ -42,3 +42,10 @@ footer a,footer a:link,footer a:visited{color:#fff3dc;text-decoration:underline;
 
 /* Accessibilita PWA, etichette leggibili anche su schermi piccoli. */
 @media(max-width:500px){.guide-card span,.guide-card em,.eyebrow{font-size:1rem;line-height:1.5;letter-spacing:normal}}
+
+/* Collegamenti HTML alle rubriche: disponibili anche senza il catalogo JavaScript. */
+.online-rubrics{margin:20px 0;border:1px solid #c8c2b8;border-radius:12px;padding:0 16px;background:#fff}
+.online-rubrics summary{cursor:pointer;min-height:56px;padding:14px 0;font-size:1.08rem;font-weight:750}
+.online-rubrics p{margin:0 0 14px}
+.online-rubrics ul{list-style:none;margin:0 0 16px;padding:0;display:grid;gap:10px}
+.online-rubrics a,.online-rubrics a:link,.online-rubrics a:visited,.online-rubrics a:hover,.online-rubrics a:focus-visible{display:flex;align-items:center;width:100%;min-height:56px;padding:12px 16px;border-radius:8px;background:#234438;color:#fff;font-size:1.08rem;font-weight:750;line-height:1.4;text-decoration:none}
