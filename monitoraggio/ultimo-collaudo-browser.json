@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T16:40:02.699Z",
+  "checked_at_utc": "2026-10-18T17:21:15.952Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 81,
+        "count": 82,
         "failures": []
       }
     },
@@ -28,16 +28,26 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 81,
+        "checked": 82,
         "violations": []
       }
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
-        "checked": 81,
-        "failed": [],
+        "checked": 82,
+        "failed": [
+          {
+            "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+            "violations": [
+              {
+                "id": "scrollable-region-focusable",
+                "nodes": 1
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -67,10 +77,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "75 pagine salvate per la lettura offline · controllo online 18 ott, 16:40.",
+        "status": "75 pagine salvate per la lettura offline · controllo online 18 ott, 17:21.",
         "stored": {
           "guides": 75,
-          "updated": "2026-10-18T16:40:51.464Z",
+          "updated": "2026-10-18T17:21:46.823Z",
           "bytes": 1958361,
           "includesNew09": true
         }
@@ -539,6 +549,25 @@
       "page": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
       "violations": [],
       "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "violations": [
+        {
+          "id": "scrollable-region-focusable",
+          "impact": "serious",
+          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
+          "help": "Scrollable region must have keyboard access",
+          "affected": [
+            [
+              "table"
+            ]
+          ],
+          "total": 1
+        }
+      ],
+      "passes": 25,
       "incomplete": 2
     },
     {
