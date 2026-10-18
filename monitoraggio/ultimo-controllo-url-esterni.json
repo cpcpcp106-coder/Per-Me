@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T17:48:47.540420+00:00",
+  "date_utc": "2026-10-18T17:52:38.882089+00:00",
   "scope": {
     "pages": 84,
-    "unique_external_urls": 682,
-    "occurrences": 1555
+    "unique_external_urls": 683,
+    "occurrences": 1556
   },
   "counts": {
-    "raggiungibile": 559,
-    "bloccato_o_riservato": 112,
+    "raggiungibile": 561,
     "non_verificato_trasporto": 8,
-    "errore_http": 3
+    "bloccato_o_riservato": 112,
+    "errore_http": 2
   },
   "results": [
     {
@@ -1508,9 +1508,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/frozen-shoulder/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -2688,6 +2687,15 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "status": "raggiungibile",
       "http": 200,
@@ -2695,6 +2703,17 @@
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
+      "pages": [
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
       ]
     },
     {
@@ -2790,16 +2809,6 @@
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
-      ]
-    },
-    {
-      "url": "https://www.aifa.gov.it/segnalazioni-reazioni-avverse",
-      "status": "errore_http",
-      "http": 404,
-      "pages": [
-        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
-        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
-        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
       ]
     },
     {
@@ -5081,8 +5090,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
@@ -5090,8 +5100,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -5280,9 +5291,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
