@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T16:20:19.404Z",
+  "checked_at_utc": "2026-10-18T16:30:32.811Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 80,
+        "count": 81,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 80,
+        "checked": 81,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 80,
+        "checked": 81,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "74 pagine salvate per la lettura offline · controllo online 18 ott, 16:21.",
+        "status": "74 pagine salvate per la lettura offline · controllo online 18 ott, 16:31.",
         "stored": {
           "guides": 74,
-          "updated": "2026-10-18T16:21:01.995Z",
+          "updated": "2026-10-18T16:31:17.082Z",
           "bytes": 1916371,
           "includesNew09": true
         }
@@ -531,6 +531,12 @@
     },
     {
       "page": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2

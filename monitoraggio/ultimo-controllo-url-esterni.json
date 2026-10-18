@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-18T16:22:06.745982+00:00",
+  "date_utc": "2026-10-18T16:32:20.010562+00:00",
   "scope": {
-    "pages": 82,
-    "unique_external_urls": 668,
-    "occurrences": 1470
+    "pages": 83,
+    "unique_external_urls": 676,
+    "occurrences": 1508
   },
   "counts": {
-    "raggiungibile": 549,
-    "bloccato_o_riservato": 110,
+    "raggiungibile": 555,
+    "bloccato_o_riservato": 112,
     "non_verificato_trasporto": 6,
     "errore_http": 3
   },
@@ -562,7 +562,9 @@
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
-        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
@@ -602,6 +604,10 @@
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -764,6 +770,24 @@
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S015",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
@@ -1155,6 +1179,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -1495,6 +1528,16 @@
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
@@ -3305,7 +3348,10 @@
       "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
       "pages": [
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
-        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
@@ -3315,7 +3361,9 @@
       "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
-        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
@@ -5423,6 +5471,17 @@
       ]
     },
     {
+      "url": "https://www.nice.org.uk/guidance/ng3/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng3/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ]
+    },
+    {
       "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations",
       "status": "raggiungibile",
       "http": 200,
@@ -5791,6 +5850,8 @@
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -6080,6 +6141,15 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/photo/people-woman-sitting-technology-7088531/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/photo/person-holding-a-container-6520138/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -6180,6 +6250,16 @@
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-gravidanza/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/faq/faq-esenzioni-gravidanza/",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
@@ -6367,6 +6447,16 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-gravidanza/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-gravidanza/",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-invalidita/",
       "status": "raggiungibile",
       "http": 200,
@@ -6506,6 +6596,16 @@
       "pages": [
         "salute-guida-01-preparare-visita.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/nuova-assistenza-distrettuale/consultorio-familiare/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/nuova-assistenza-distrettuale/consultorio-familiare/",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
     },
     {
