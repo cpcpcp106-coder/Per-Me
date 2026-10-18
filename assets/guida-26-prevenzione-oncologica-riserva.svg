@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="720" viewBox="0 0 1260 720" role="img" aria-labelledby="t d">
+<title id="t">Prevenzione e confronto medico</title><desc id="d">Illustrazione originale di un colloquio di prevenzione tra un medico e una persona adulta con una scheda di controllo sanitario.</desc>
+<defs><linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf5ef"/><stop offset="1" stop-color="#dfebeb"/></linearGradient><linearGradient id="desk" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#bfaf93"/><stop offset="1" stop-color="#a68a70"/></linearGradient></defs>
+<rect width="1260" height="720" fill="url(#wall)"/><rect y="585" width="1260" height="135" fill="#d7e2db"/>
+<rect x="114" y="100" width="272" height="250" rx="18" fill="#fefbf4" stroke="#b5c9c0" stroke-width="9"/>
+<path d="M249 100v250M114 225h272" stroke="#b9cfc5" stroke-width="8"/><circle cx="312" cy="165" r="34" fill="#f7e5af"/>
+<path d="M114 287q65-55 138-11t134-24v98H114Z" fill="#a0c6af"/>
+<path d="M84 600h1090" stroke="#416255" stroke-width="22" stroke-linecap="round"/>
+<rect x="418" y="430" width="595" height="28" rx="10" fill="url(#desk)"/><rect x="483" y="457" width="25" height="131" rx="6" fill="#907d67"/><rect x="927" y="457" width="25" height="131" rx="6" fill="#907d67"/>
+<rect x="688" y="383" width="182" height="46" rx="7" fill="#fffefa" stroke="#879d8f" stroke-width="4"/>
+<path d="M719 396h92M720 409h129M720 420h100" stroke="#9eb6a7" stroke-width="5"/>
+<path d="M227 376Q246 325 299 321q71 0 94 67l10 133H205Z" fill="#527884"/>
+<path d="M907 371q19-54 84-58 71 0 94 72l8 141H873Z" fill="#f7fbfa" stroke="#ceddd6" stroke-width="5"/>
+<rect x="282" y="316" width="69" height="42" rx="18" fill="#c99d81"/><rect x="963" y="315" width="66" height="46" rx="18" fill="#b98d73"/>
+<circle cx="317" cy="254" r="65" fill="#cda389"/><path d="M255 254q-5-71 63-76 65-3 67 67l-22-19q-63 16-108 28" fill="#d8d8d0"/>
+<circle cx="997" cy="257" r="62" fill="#bd8c73"/><path d="M937 235q4-59 59-58 62 0 67 63l-32-20q-39 6-94 15" fill="#53433f"/>
+<path d="M282 262q9-8 17 0m28 0q9-8 18 0m-50 26q22 10 44-2" fill="none" stroke="#795749" stroke-width="4" stroke-linecap="round"/>
+<path d="M970 263q8-7 17 0m27 0q8-7 17 0m-52 24q20 11 39-2" fill="none" stroke="#654b43" stroke-width="4" stroke-linecap="round"/>
+<path d="M385 421q92-15 173 11" stroke="#c99d81" stroke-width="28" fill="none" stroke-linecap="round"/>
+<path d="M903 420q-80-9-164 13" stroke="#b98d73" stroke-width="28" fill="none" stroke-linecap="round"/>
+<rect x="565" y="404" width="98" height="32" rx="9" fill="#e9f2ec" stroke="#9bb9ad" stroke-width="4"/>
+<path d="M583 418h62" stroke="#648c7b" stroke-width="6"/>
+<text x="630" y="668" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" letter-spacing="2" font-weight="600" fill="#365e51">SCREENING · PREVENZIONE · SCELTE INFORMATE</text></svg>
