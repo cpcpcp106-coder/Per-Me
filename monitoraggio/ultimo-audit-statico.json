@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T13:37:53+00:00",
+  "date_utc": "2026-10-18T13:43:20+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 78,
-    "editorial_pages": 76,
+    "html_total": 79,
+    "editorial_pages": 77,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2705,
-    "external_occurrences": 1337,
-    "external_unique": 628,
+    "local_occurrences": 2757,
+    "external_occurrences": 1362,
+    "external_unique": 634,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -71,6 +71,7 @@
       "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
       "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
       "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -171,7 +172,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1049,6 +1052,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 1
+    },
+    {
+      "file": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "title": "Diabete tipo 2 e salute mentale: distress, depressione, ansia, memoria e demenze | Per Me · Guida 25",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 52,
+      "links_external": 25,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 7
     },
     {
       "file": "diabete-tipo-2.html",
