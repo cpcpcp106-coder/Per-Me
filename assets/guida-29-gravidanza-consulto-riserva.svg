@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="t d">
+<title id="t">Consulto sanitario in gravidanza</title><desc id="d">Illustrazione originale di una donna incinta in colloquio con una professionista sanitaria, durante una visita programmata.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eaf3ee"/><stop offset="1" stop-color="#f2ede4"/></linearGradient></defs>
+<rect width="1200" height="720" fill="url(#bg)"/>
+<rect x="70" y="67" width="1060" height="576" rx="29" fill="#fcfdfa"/>
+<rect x="123" y="116" width="262" height="270" rx="13" fill="#e0eff0" stroke="#a5bfbb" stroke-width="10"/>
+<path d="M252 116v270M123 251h262" stroke="#acc8c1" stroke-width="9"/><circle cx="315" cy="178" r="34" fill="#fce6a3"/>
+<path d="M123 335q90-75 151-29 43 30 111-20v100H123Z" fill="#afc8b4"/>
+<rect x="111" y="577" width="978" height="19" rx="9" fill="#b8cfc0"/>
+<path d="M240 523v75M435 521v77M788 520v78M990 520v78" stroke="#48695e" stroke-width="22" stroke-linecap="round"/>
+<path d="M240 460q-55-61-14-101l153-27q74 29 67 117v89H236Z" fill="#ba8f75"/>
+<path d="M813 448q0-81 72-113l130 17q69 57 34 110l-7 73H798Z" fill="#f5f7f0" stroke="#c3d1c8" stroke-width="5"/>
+<rect x="309" y="305" width="62" height="53" rx="22" fill="#d5a188"/>
+<circle cx="339" cy="256" r="60" fill="#d5a188"/><path d="M284 251q-8-70 55-71 56 2 58 70l-30-30q-39 37-83 31" fill="#4d413a"/>
+<path d="M316 257q8-8 17 0m26 0q8-8 16 0m-48 26q14 10 31 1" stroke="#76564a" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<rect x="888" y="309" width="57" height="49" rx="19" fill="#b98e75"/>
+<circle cx="916" cy="255" r="60" fill="#b98e75"/><path d="M856 251q-4-77 57-74 69 0 64 80l-29-29q-42 20-92 23" fill="#5d5755"/>
+<path d="M893 258q8-8 15 0m29-1q7-7 15 0m-45 29q16 10 30 0" stroke="#6d5047" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+<path d="M233 408q18-58 99-54 96 2 119 67l-14 122H236Z" fill="#d6e0c3"/>
+<ellipse cx="350" cy="456" rx="89" ry="70" fill="#cfdbc0"/><path d="M280 447q55-50 134 4" fill="none" stroke="#adc49d" stroke-width="9"/>
+<path d="M811 401q10-61 94-61 102 0 128 74l12 132H791Z" fill="#f3f7f3"/>
+<rect x="477" y="460" width="299" height="29" rx="10" fill="#ae987c"/>
+<rect x="515" y="489" width="20" height="90" rx="6" fill="#83755d"/><rect x="721" y="489" width="20" height="90" rx="6" fill="#83755d"/>
+<path d="M442 428q88-18 143 38m233-34q-90-28-146 33" fill="none" stroke="#d5a188" stroke-width="28" stroke-linecap="round"/>
+<rect x="575" y="414" width="109" height="76" rx="7" fill="#ffffff" stroke="#98afa3" stroke-width="3"/>
+<path d="M592 436h76M592 448h67M592 461h74" stroke="#a2bfb0" stroke-width="5"/>
+<path d="M624 406v-22" stroke="#6e9c8c" stroke-width="5"/>
+<text x="600" y="674" font-family="Arial,sans-serif" font-size="24" letter-spacing="1.7" font-weight="600" text-anchor="middle" fill="#3e6657">GRAVIDANZA · DIABETE · ASSISTENZA CONDIVISA</text></svg>
