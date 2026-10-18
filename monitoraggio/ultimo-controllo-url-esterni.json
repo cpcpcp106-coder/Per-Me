@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-18T10:10:17.039048+00:00",
+  "date_utc": "2026-10-18T11:09:59.672856+00:00",
   "scope": {
     "pages": 73,
-    "unique_external_urls": 571,
-    "occurrences": 1173
+    "unique_external_urls": 573,
+    "occurrences": 1179
   },
   "counts": {
-    "raggiungibile": 472,
-    "bloccato_o_riservato": 93,
+    "raggiungibile": 473,
+    "bloccato_o_riservato": 94,
     "non_verificato_trasporto": 4,
     "errore_http": 2
   },
@@ -817,9 +817,8 @@
     },
     {
       "url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "tutor-ai.html"
       ]
@@ -1392,6 +1391,16 @@
       "pages": [
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42566081/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/42566081/",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
@@ -2696,6 +2705,16 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/referral/metformin-article-31-referral-changes-product-information_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/documents/referral/metformin-article-31-referral-changes-product-information_en.pdf",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
@@ -5543,6 +5562,8 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/persone-rischio-patologia/",
       "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
