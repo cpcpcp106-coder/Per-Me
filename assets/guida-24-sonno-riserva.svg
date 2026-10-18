@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">Riposo notturno</title><desc id="desc">Illustrazione vettoriale di una persona adulta che dorme in un letto in un ambiente sereno.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#263c54"/><stop offset="1" stop-color="#51697c"/></linearGradient>
+<linearGradient id="duvet" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#afc8ce"/><stop offset="1" stop-color="#779aa9"/></linearGradient>
+<linearGradient id="bed" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#536c78"/><stop offset="1" stop-color="#304b5f"/></linearGradient>
+</defs>
+<rect width="1200" height="720" fill="url(#bg)"/>
+<rect y="570" width="1200" height="150" fill="#1d3446" opacity=".75"/>
+<rect x="805" y="83" width="282" height="304" rx="18" fill="#20374d" stroke="#9ab6c1" stroke-width="9"/>
+<rect x="825" y="104" width="242" height="264" rx="8" fill="#33596b"/>
+<circle cx="995" cy="167" r="43" fill="#f5ead1"/>
+<path d="M 983 112 A 55 55 0 1 0 1045 186 A 50 50 0 0 1 983 112" fill="#33596b"/>
+<circle cx="860" cy="180" r="4" fill="#d3ddc9"/><circle cx="910" cy="135" r="5" fill="#d3ddc9"/><circle cx="943" cy="222" r="3.5" fill="#d3ddc9"/><circle cx="868" cy="290" r="5" fill="#d3ddc9"/>
+<rect x="72" y="384" width="1058" height="228" rx="50" fill="url(#bed)"/>
+<rect x="83" y="310" width="176" height="282" rx="26" fill="#243c52"/>
+<rect x="123" y="329" width="460" height="110" rx="52" fill="#edf2e9"/>
+<path d="M 240 425 C 270 345 410 331 482 413 C 503 442 503 468 480 489 L 294 498 C 234 478 223 450 240 425 Z" fill="#b98872"/>
+<path d="M 244 420 C 260 361 339 342 404 368 C 390 381 379 397 381 415 C 337 413 314 443 300 480 Z" fill="#5e5c5c"/>
+<path d="M 395 446 Q 411 455 425 442" fill="none" stroke="#6b4a41" stroke-width="5" stroke-linecap="round"/>
+<path d="M 503 435 Q 625 370 773 401 Q 978 398 1083 491 L 1090 583 L 346 591 Q 325 546 360 512 Q 414 461 503 435 Z" fill="url(#duvet)"/>
+<path d="M 450 514 Q 651 469 1031 516" fill="none" stroke="#d2e0da" stroke-width="8" opacity=".48"/>
+<path d="M 760 580 Q 910 548 1090 576" fill="none" stroke="#547b8e" stroke-width="9" opacity=".5"/>
+<rect x="91" y="607" width="1042" height="21" rx="10" fill="#172e40"/>
+<rect x="145" y="617" width="28" height="71" rx="8" fill="#172e40"/><rect x="1058" y="617" width="28" height="71" rx="8" fill="#172e40"/>
+<rect x="48" y="517" width="108" height="101" rx="12" fill="#334b56"/>
+<rect x="61" y="503" width="84" height="24" rx="7" fill="#516e7b"/>
+<path d="M 85 495 L 85 457 Q 85 427 113 427 Q 136 427 136 456 L 136 495" fill="none" stroke="#dfc9a0" stroke-width="9"/>
+<ellipse cx="111" cy="419" rx="41" ry="23" fill="#efce95"/>
+<text x="600" y="678" text-anchor="middle" font-family="sans-serif" font-size="23" font-weight="600" fill="#e6eae5" letter-spacing="2">RIPOSO NOTTURNO</text>
+</svg>
