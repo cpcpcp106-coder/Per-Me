@@ -1,4 +1,5 @@
-/* Per Me - due soli contatori: visite al sito e installazioni PWA rilevate.
+/* Per Me - due soli contatori di eventi dal 18 ottobre 2026.
+   API verificata in GitHub Actions: countapi.mileshilliard.com; le vecchie chiavi CounterAPI restano archiviate nella cronologia Git.
    Senza librerie e senza modifiche al service worker.
    Escludi questo browser aprendo /Per-Me/?perme_escludimi=1 */
 (() => {
@@ -8,14 +9,13 @@
   if (location.hostname !== 'cpcpcp106-coder.github.io' ||
       !location.pathname.startsWith(ROOT)) return;
 
-  const NAMESPACE = 'cpcpcp106-coder.github.io';
-  const VISITS_KEY = 'per-me-visite-nuovo-inizio-20261015-v3';
-  const INSTALLS_KEY = 'per-me';
+  const COUNTER_BASE = 'https://countapi.mileshilliard.com/api/v1/hit/';
+  const VISITS_KEY = 'perme-visite-dal-20261018-43bcc26da793';
+  const INSTALLS_KEY = 'perme-installazioni-dal-20261018-43bcc26da793';
   const OWNER_KEY = 'per-me-non-contare-questo-browser';
   const OWNER_COOKIE = 'perme_no_count';
   const VISIT_TIME_KEY = 'per-me-ultima-visita-30min-v1';
   const VISIT_INTERVAL_MS = 30 * 60 * 1000;
-  const pending = new Set();
 
   // Esclusione volontaria del proprietario, valida per questo browser.
   const url = new URL(location.href);
@@ -54,21 +54,22 @@
   }
   if (isOwner) return;
 
-  // Una chiamata "pixel" invisibile: non modifica la pagina.
+  // Il solo evento viene registrato presso il fornitore esterno.
+  // La richiesta HTTP può esporre al fornitore dati tecnici di rete.
   function track(action, key) {
     if (!navigator.onLine) return false;
-    const query = new URLSearchParams({
-      ns: NAMESPACE,
-      action,
-      key,
-      nonce: Date.now().toString() + Math.random().toString(36).slice(2)
+    const endpoint = COUNTER_BASE + encodeURIComponent(key) +
+      '?_=' + encodeURIComponent(Date.now().toString() + '-' + Math.random().toString(36).slice(2));
+    fetch(endpoint, {
+      method: 'GET', mode: 'cors', credentials: 'omit', cache: 'no-store',
+      referrerPolicy: 'no-referrer', keepalive: true
+    }).then(response => {
+      if (!response.ok) throw Error('Contatore HTTP ' + response.status);
+      return response.json();
+    }).catch(() => {
+      // Non riprovare automaticamente: una risposta persa potrebbe aver già incrementato.
     });
-    const pixel = new Image();
-    pending.add(pixel);
-    pixel.referrerPolicy = 'no-referrer';
-    pixel.onload = pixel.onerror = () => pending.delete(pixel);
-    pixel.src = 'https://counterapi.com/pixel.gif?' + query.toString();
-    return true; // Invio tentato, non conferma di registrazione.
+    return true; // Tentativo di registrazione, non un evento confermato.
   }
 
   // Una visita al massimo ogni 30 minuti per lo stesso browser.
