@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T13:48:07+00:00",
+  "date_utc": "2026-10-18T14:05:19+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 79,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2759,
-    "external_occurrences": 1362,
-    "external_unique": 634,
+    "local_occurrences": 2760,
+    "external_occurrences": 1365,
+    "external_unique": 635,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1058,8 +1058,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 52,
-      "links_external": 25,
+      "links_local": 53,
+      "links_external": 28,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
