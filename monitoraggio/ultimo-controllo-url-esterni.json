@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-18T12:23:12.757896+00:00",
+  "date_utc": "2026-10-18T12:29:30.250029+00:00",
   "scope": {
     "pages": 76,
-    "unique_external_urls": 604,
-    "occurrences": 1267
+    "unique_external_urls": 607,
+    "occurrences": 1272
   },
   "counts": {
-    "raggiungibile": 499,
+    "raggiungibile": 502,
     "bloccato_o_riservato": 98,
     "non_verificato_trasporto": 4,
     "errore_http": 3
@@ -828,9 +828,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
@@ -1464,6 +1463,15 @@
       "http": 403,
       "pages": [
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16843159/",
+      "status": "raggiungibile",
+      "http": 203,
+      "final_url": "https://pubmed.ncbi.nlm.nih.gov/16843159/",
+      "pages": [
+        "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
       ]
     },
     {
@@ -2394,6 +2402,16 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
+      "pages": [
+        "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+        "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/it/note-aifa",
       "status": "raggiungibile",
       "http": 200,
@@ -2950,6 +2968,16 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xiapex",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xiapex",
+      "pages": [
+        "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+        "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/domperidone-containing-medicines",
       "status": "raggiungibile",
       "http": 200,
@@ -3268,8 +3296,9 @@
     },
     {
       "url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/",
-      "status": "errore_http",
-      "http": 525,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
