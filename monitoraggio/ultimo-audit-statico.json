@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T21:03:02+00:00",
+  "date_utc": "2026-10-18T21:18:58+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 3019,
-    "external_occurrences": 1556,
-    "external_unique": 683,
+    "external_occurrences": 1554,
+    "external_unique": 681,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -496,10 +496,10 @@
       "file": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "title": "Conteggi Per Me",
       "h1": 1,
-      "images": 2,
+      "images": 0,
       "images_without_alt": 0,
       "links_local": 3,
-      "links_external": 2,
+      "links_external": 0,
       "missing_local": 0,
       "noindex": true,
       "canonical": false,
