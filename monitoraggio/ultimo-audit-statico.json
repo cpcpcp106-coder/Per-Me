@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T13:06:09+00:00",
+  "date_utc": "2026-10-18T13:12:36+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 77,
-    "editorial_pages": 75,
+    "html_total": 78,
+    "editorial_pages": 76,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2656,
-    "external_occurrences": 1301,
-    "external_unique": 615,
+    "local_occurrences": 2703,
+    "external_occurrences": 1334,
+    "external_unique": 627,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -70,6 +70,7 @@
       "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
       "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
       "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -169,7 +170,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1032,6 +1035,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 6
+    },
+    {
+      "file": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "title": "Diabete tipo 2, udito e sonno: ipoacusia, apnee notturne, insonnia e alterazioni sensoriali | Per Me · Guida 24",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 47,
+      "links_external": 33,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "diabete-tipo-2.html",
