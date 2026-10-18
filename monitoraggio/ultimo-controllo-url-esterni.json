@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-18T11:09:59.672856+00:00",
+  "date_utc": "2026-10-18T11:16:50.296745+00:00",
   "scope": {
     "pages": 73,
     "unique_external_urls": 573,
     "occurrences": 1179
   },
   "counts": {
-    "raggiungibile": 473,
+    "raggiungibile": 472,
     "bloccato_o_riservato": 94,
-    "non_verificato_trasporto": 4,
+    "non_verificato_trasporto": 5,
     "errore_http": 2
   },
   "results": [
@@ -4750,9 +4750,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
