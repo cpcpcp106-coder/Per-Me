@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T09:58:25+00:00",
+  "date_utc": "2026-10-18T10:08:26+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 72,
-    "editorial_pages": 70,
+    "html_total": 73,
+    "editorial_pages": 71,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2402,
-    "external_occurrences": 1144,
-    "external_unique": 562,
+    "local_occurrences": 2449,
+    "external_occurrences": 1173,
+    "external_unique": 571,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -65,6 +65,7 @@
       "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
       "diabete-guida-17-bocca-denti-gengive-parodontite.html",
       "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -159,7 +160,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -947,6 +950,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 1
+    },
+    {
+      "file": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "title": "Diabete tipo 2 e infezioni: sintomi, vaccini, antibiotici e giorni di malattia | Per Me · Guida 19",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 47,
+      "links_external": 29,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 4
     },
     {
       "file": "diabete-tipo-2.html",
