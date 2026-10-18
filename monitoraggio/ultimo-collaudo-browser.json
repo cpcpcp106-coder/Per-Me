@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T17:33:55.697Z",
+  "checked_at_utc": "2026-10-18T17:46:32.733Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -34,20 +34,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 82,
-        "failed": [
-          {
-            "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
-            "violations": [
-              {
-                "id": "scrollable-region-focusable",
-                "nodes": 1
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -77,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "76 pagine salvate per la lettura offline · controllo online 18 ott, 17:34.",
+        "status": "76 pagine salvate per la lettura offline · controllo online 18 ott, 17:47.",
         "stored": {
           "guides": 76,
-          "updated": "2026-10-18T17:34:38.896Z",
+          "updated": "2026-10-18T17:47:17.010Z",
           "bytes": 2007588,
           "includesNew09": true
         }
@@ -553,21 +543,8 @@
     },
     {
       "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
-      "violations": [
-        {
-          "id": "scrollable-region-focusable",
-          "impact": "serious",
-          "description": "Ensure elements that have scrollable content are accessible by keyboard in Safari",
-          "help": "Scrollable region must have keyboard access",
-          "affected": [
-            [
-              "table"
-            ]
-          ],
-          "total": 1
-        }
-      ],
-      "passes": 26,
+      "violations": [],
+      "passes": 27,
       "incomplete": 2
     },
     {
