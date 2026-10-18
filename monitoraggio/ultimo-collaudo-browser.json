@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T11:15:20.183Z",
+  "checked_at_utc": "2026-10-18T11:18:05.437Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 71,
+        "count": 72,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 71,
+        "checked": 72,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 71,
+        "checked": 72,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "65 pagine salvate per la lettura offline · controllo online 18 ott, 11:15.",
+        "status": "66 pagine salvate per la lettura offline · controllo online 18 ott, 11:18.",
         "stored": {
-          "guides": 65,
-          "updated": "2026-10-18T11:15:57.304Z",
-          "bytes": 1541280,
+          "guides": 66,
+          "updated": "2026-10-18T11:18:44.435Z",
+          "bytes": 1575248,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 65
+        "count": 66
       }
     },
     {
@@ -480,6 +480,12 @@
       "violations": [],
       "passes": 23,
       "incomplete": 3
+    },
+    {
+      "page": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
     },
     {
       "page": "diabete-tipo-2.html",

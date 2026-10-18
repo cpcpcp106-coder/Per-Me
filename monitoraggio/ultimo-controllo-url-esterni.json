@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-18T11:16:50.296745+00:00",
+  "date_utc": "2026-10-18T11:19:28.998450+00:00",
   "scope": {
-    "pages": 73,
-    "unique_external_urls": 573,
-    "occurrences": 1179
+    "pages": 74,
+    "unique_external_urls": 580,
+    "occurrences": 1203
   },
   "counts": {
-    "raggiungibile": 472,
-    "bloccato_o_riservato": 94,
+    "raggiungibile": 478,
+    "bloccato_o_riservato": 95,
     "non_verificato_trasporto": 5,
     "errore_http": 2
   },
@@ -536,6 +536,8 @@
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -588,7 +590,9 @@
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-guida-06-scompenso-miocardio-aritmie.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
-        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -875,6 +879,15 @@
       "final_url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -1252,6 +1265,20 @@
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299976/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11299976/",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -2737,6 +2764,26 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kayshild",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kayshild",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rezdiffra",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/rezdiffra",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra",
       "status": "raggiungibile",
       "http": 200,
@@ -2744,6 +2791,15 @@
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -2775,6 +2831,16 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.epicentro.iss.it/croniche/primo-studio-ita-masld",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/croniche/primo-studio-ita-masld",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -4294,9 +4360,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -4750,8 +4815,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -4937,6 +5003,8 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5087,6 +5155,15 @@
       "http": 403,
       "pages": [
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-examining-stomach-with-ultrasound-16388112/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -5439,6 +5516,8 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
