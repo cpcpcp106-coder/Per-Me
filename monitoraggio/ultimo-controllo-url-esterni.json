@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T12:29:30.250029+00:00",
+  "date_utc": "2026-10-18T12:59:04.585127+00:00",
   "scope": {
-    "pages": 76,
-    "unique_external_urls": 607,
-    "occurrences": 1272
+    "pages": 77,
+    "unique_external_urls": 613,
+    "occurrences": 1297
   },
   "counts": {
-    "raggiungibile": 502,
-    "bloccato_o_riservato": 98,
+    "raggiungibile": 508,
+    "bloccato_o_riservato": 99,
     "non_verificato_trasporto": 4,
-    "errore_http": 3
+    "errore_http": 2
   },
   "results": [
     {
@@ -541,6 +541,13 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -671,7 +678,10 @@
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
-        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
@@ -828,8 +838,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
       ]
@@ -1002,6 +1013,15 @@
       "final_url": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
@@ -1373,6 +1393,16 @@
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6322506/",
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
@@ -2437,6 +2467,16 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/nota-79",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/nota-98",
       "status": "raggiungibile",
       "http": 200,
@@ -2909,6 +2949,16 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evenity",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evenity",
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/januvia",
       "status": "raggiungibile",
       "http": 200,
@@ -2936,6 +2986,16 @@
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prolia",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prolia",
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
@@ -5263,6 +5323,8 @@
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5447,6 +5509,15 @@
       "http": 403,
       "pages": [
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
       ]
     },
     {
@@ -5798,6 +5869,8 @@
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"

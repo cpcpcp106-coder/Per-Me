@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T12:28:07.512Z",
+  "checked_at_utc": "2026-10-18T12:57:47.952Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 74,
+        "count": 75,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 74,
+        "checked": 75,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 74,
+        "checked": 75,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "68 pagine salvate per la lettura offline · controllo online 18 ott, 12:28.",
+        "status": "68 pagine salvate per la lettura offline · controllo online 18 ott, 12:58.",
         "stored": {
           "guides": 68,
-          "updated": "2026-10-18T12:28:34.413Z",
+          "updated": "2026-10-18T12:58:20.362Z",
           "bytes": 1658711,
           "includesNew09": true
         }
@@ -495,6 +495,12 @@
     },
     {
       "page": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2
