@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T16:38:44.678393+00:00",
+  "date_utc": "2026-10-18T16:41:24.805889+00:00",
   "scope": {
     "pages": 83,
     "unique_external_urls": 677,
-    "occurrences": 1510
+    "occurrences": 1512
   },
   "counts": {
     "raggiungibile": 556,
     "bloccato_o_riservato": 112,
-    "non_verificato_trasporto": 6,
-    "errore_http": 3
+    "non_verificato_trasporto": 4,
+    "errore_http": 5
   },
   "results": [
     {
@@ -196,16 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -708,6 +708,7 @@
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-tipo-2.html"
       ]
@@ -3278,6 +3279,7 @@
       "http": 200,
       "final_url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
       "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
