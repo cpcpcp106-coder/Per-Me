@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-16T09:56:21.039Z",
+  "checked_at_utc": "2026-10-18T09:18:42.347Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 69,
+        "count": 70,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 69,
+        "checked": 70,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 69,
+        "checked": 70,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "63 pagine salvate per la lettura offline · controllo online 16 ott, 09:56.",
+        "status": "63 pagine salvate per la lettura offline · controllo online 18 ott, 09:19.",
         "stored": {
           "guides": 63,
-          "updated": "2026-10-16T09:56:56.825Z",
+          "updated": "2026-10-18T09:19:12.713Z",
           "bytes": 1452438,
           "includesNew09": true
         }
@@ -465,6 +465,12 @@
     },
     {
       "page": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
       "violations": [],
       "passes": 26,
       "incomplete": 2

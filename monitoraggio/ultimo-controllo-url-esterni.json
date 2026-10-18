@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-16T09:57:45.195012+00:00",
+  "date_utc": "2026-10-18T09:20:22.076361+00:00",
   "scope": {
-    "pages": 71,
-    "unique_external_urls": 549,
-    "occurrences": 1103
+    "pages": 72,
+    "unique_external_urls": 557,
+    "occurrences": 1133
   },
   "counts": {
-    "raggiungibile": 453,
-    "bloccato_o_riservato": 90,
-    "non_verificato_trasporto": 4,
+    "raggiungibile": 458,
+    "bloccato_o_riservato": 91,
+    "non_verificato_trasporto": 6,
     "errore_http": 2
   },
   "results": [
@@ -315,6 +315,8 @@
       "http": 200,
       "final_url": "https://diabetes.org/about-diabetes/complications/skin-complications",
       "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -549,6 +551,8 @@
       "http": 403,
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -562,7 +566,9 @@
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
-        "diabete-guida-06-scompenso-miocardio-aritmie.html"
+        "diabete-guida-06-scompenso-miocardio-aritmie.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -625,6 +631,7 @@
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-tipo-2.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
       ]
@@ -708,7 +715,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -995,6 +1002,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/7446660/pexels-photo-7446660.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/7446660/pexels-photo-7446660.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -1182,8 +1198,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -1542,6 +1559,27 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-treatment",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-treatment",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
+      "url": "https://www.aad.org/public/diseases/a-z/diabetes-warning-signs",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aad.org/public/diseases/a-z/diabetes-warning-signs",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -2439,12 +2477,36 @@
       ]
     },
     {
+      "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-your-feet.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-your-feet.html",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
       "pages": [
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/diabetes/signs-symptoms/diabetes-and-your-skin.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/signs-symptoms/diabetes-and-your-skin.html",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -2570,7 +2632,8 @@
       "final_url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
-        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+        "diabete-guida-15-vescica-incontinenza-sessualita.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -4129,9 +4192,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -4139,9 +4201,8 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -4369,6 +4430,26 @@
       "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/cellulitis/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhs.uk/conditions/cellulitis/",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
+      "url": "https://www.nhs.uk/conditions/necrotising-fasciitis/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhs.uk/conditions/necrotising-fasciitis/",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -4728,6 +4809,7 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -4774,6 +4856,14 @@
       "http": 403,
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-tablet-with-a-magnifier-7446660/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
@@ -5198,6 +5288,8 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
@@ -5356,9 +5448,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
