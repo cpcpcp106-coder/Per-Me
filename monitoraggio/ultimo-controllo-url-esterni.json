@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-18T16:34:38.424545+00:00",
+  "date_utc": "2026-10-18T16:38:44.678393+00:00",
   "scope": {
     "pages": 83,
-    "unique_external_urls": 676,
-    "occurrences": 1508
+    "unique_external_urls": 677,
+    "occurrences": 1510
   },
   "counts": {
-    "raggiungibile": 555,
+    "raggiungibile": 556,
     "bloccato_o_riservato": 112,
     "non_verificato_trasporto": 6,
     "errore_http": 3
@@ -708,6 +708,7 @@
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -3272,6 +3273,16 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/documents/referral/metformin-article-31-referral-changes-product-information_en.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -3349,7 +3360,6 @@
       "pages": [
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
-        "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html"
       ]
