@@ -17,6 +17,9 @@ server=spawn('python3',['-m','http.server','8765','--bind','127.0.0.1'],{stdio:'
 await new Promise(r=>setTimeout(r,1500));
 browserInstance=await chromium.launch({headless:true,args:['--no-sandbox']});
 const context=await browserInstance.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true,deviceScaleFactor:2,serviceWorkers:'allow'});
+// I collaudi del sito pubblicato non sono visite di lettori.
+// Usa l'esclusione già riconosciuta da analytics.js prima di aprire le pagine.
+await context.addCookies([{name:'perme_no_count',value:'1',domain:'cpcpcp106-coder.github.io',path:'/Per-Me/',secure:true,sameSite:'Lax'}]);
 const page=await context.newPage();
 page.on('pageerror',err=>report.page_errors.push(String(err).slice(0,280)));
 await page.goto(URL+'index.html',{waitUntil:'domcontentloaded'});

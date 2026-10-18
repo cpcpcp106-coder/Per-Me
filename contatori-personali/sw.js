@@ -1,4 +1,4 @@
-const CACHE='perme-contatori-shell-v1-20261015';
+const CACHE='perme-contatori-shell-v2-20261018';
 const SHELL=['./','./index.html','./manifest.webmanifest','../app/icon-192.png'];
 self.addEventListener('install',e=>{
  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));
