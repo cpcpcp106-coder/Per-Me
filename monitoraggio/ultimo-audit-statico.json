@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T14:59:49+00:00",
+  "date_utc": "2026-10-18T15:28:12+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 81,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2856,
-    "external_occurrences": 1436,
-    "external_unique": 661,
+    "local_occurrences": 2858,
+    "external_occurrences": 1438,
+    "external_unique": 662,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -154,6 +154,7 @@
       "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
       "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
       "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -176,9 +177,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1078,7 +1077,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 46,
+      "links_local": 47,
       "links_external": 41,
       "missing_local": 0,
       "noindex": false,
@@ -1094,13 +1093,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 48,
-      "links_external": 24,
+      "links_external": 26,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 3
     },
     {
       "file": "diabete-tipo-2.html",
@@ -1108,7 +1107,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 49,
+      "links_local": 50,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
