@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T10:05:12.750Z",
+  "checked_at_utc": "2026-10-18T10:08:58.906Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 70,
+        "count": 71,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 70,
+        "checked": 71,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 70,
+        "checked": 71,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "64 pagine salvate per la lettura offline · controllo online 18 ott, 10:05.",
+        "status": "64 pagine salvate per la lettura offline · controllo online 18 ott, 10:09.",
         "stored": {
           "guides": 64,
-          "updated": "2026-10-18T10:05:36.990Z",
+          "updated": "2026-10-18T10:09:23.076Z",
           "bytes": 1499286,
           "includesNew09": true
         }
@@ -474,6 +474,12 @@
       "violations": [],
       "passes": 25,
       "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 3
     },
     {
       "page": "diabete-tipo-2.html",

@@ -1,17 +1,26 @@
 {
-  "date_utc": "2026-10-18T10:06:46.973870+00:00",
+  "date_utc": "2026-10-18T10:10:17.039048+00:00",
   "scope": {
-    "pages": 72,
-    "unique_external_urls": 562,
-    "occurrences": 1144
+    "pages": 73,
+    "unique_external_urls": 571,
+    "occurrences": 1173
   },
   "counts": {
-    "raggiungibile": 464,
-    "bloccato_o_riservato": 92,
+    "raggiungibile": 472,
+    "bloccato_o_riservato": 93,
     "non_verificato_trasporto": 4,
     "errore_http": 2
   },
   "results": [
+    {
+      "url": "https://academic.oup.com/cid/article/68/10/e83/5407612",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
     {
       "url": "https://academic.oup.com/eurheartj/article/39/21/1883/4939241",
       "status": "bloccato_o_riservato",
@@ -526,6 +535,7 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -807,8 +817,9 @@
     },
     {
       "url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
       "pages": [
         "tutor-ai.html"
       ]
@@ -910,6 +921,15 @@
       "final_url": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg?auto=compress&dpr=1&h=750&w=1260",
       "pages": [
         "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
@@ -2511,7 +2531,19 @@
       "http": 200,
       "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
       "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/diabetes/living-with/managing-sick-days.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/living-with/managing-sick-days.html",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
@@ -2537,6 +2569,16 @@
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/flu/highrisk/diabetes.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/flu/highrisk/diabetes.html",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
@@ -2703,6 +2745,17 @@
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
@@ -4580,6 +4633,9 @@
       "http": 200,
       "final_url": "https://www.nice.org.uk/guidance/ng28/chapter/person-centred-medicine",
       "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -4830,6 +4886,15 @@
       ]
     },
     {
+      "url": "https://www.pexels.com/it-it/foto/medico-visita-un-paziente-anziano-in-un-moderno-studio-medico-39192353/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
       "url": "https://www.pexels.com/license/",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -4852,6 +4917,8 @@
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5224,6 +5291,16 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/influenza-pubblicata-la-circolare-con-le-raccomandazioni-la-stagione-2026-2027/?tema=Influenza",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/influenza-pubblicata-la-circolare-con-le-raccomandazioni-la-stagione-2026-2027/?tema=Influenza",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/pubblicazione/raccomandazione-n-17-riconciliazione-della-terapia-farmacologica/",
       "status": "raggiungibile",
       "http": 200,
@@ -5342,6 +5419,8 @@
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
@@ -5446,6 +5525,27 @@
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/calendario-vaccinale/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/calendario-vaccinale/",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/persone-rischio-patologia/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/persone-rischio-patologia/",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
       ]
     },
     {
