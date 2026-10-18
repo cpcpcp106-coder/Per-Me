@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T16:39:13+00:00",
+  "date_utc": "2026-10-18T17:22:01+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 83,
-    "editorial_pages": 81,
+    "html_total": 84,
+    "editorial_pages": 82,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2962,
-    "external_occurrences": 1512,
-    "external_unique": 677,
+    "local_occurrences": 3014,
+    "external_occurrences": 1542,
+    "external_unique": 681,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -76,6 +76,7 @@
       "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
       "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
       "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+      "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -181,7 +182,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1136,12 +1139,27 @@
       "candidate_numeric_legal_mentions": 1
     },
     {
+      "file": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "title": "Anziani, diabete, cuore e pensioni basse: cure, spesa e tutele | Per Me · Guida 30",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 51,
+      "links_external": 30,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 32
+    },
+    {
       "file": "diabete-tipo-2.html",
       "title": "Diabete tipo 2 | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 52,
+      "links_local": 53,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
