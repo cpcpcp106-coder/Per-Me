@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T14:45:44.255345+00:00",
+  "date_utc": "2026-10-18T14:48:00.487051+00:00",
   "scope": {
     "pages": 80,
-    "unique_external_urls": 651,
-    "occurrences": 1406
+    "unique_external_urls": 655,
+    "occurrences": 1409
   },
   "counts": {
-    "raggiungibile": 534,
+    "raggiungibile": 541,
     "bloccato_o_riservato": 106,
     "non_verificato_trasporto": 6,
-    "errore_http": 5
+    "errore_http": 2
   },
   "results": [
     {
@@ -196,16 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "errore_http",
-      "http": 502,
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "errore_http",
-      "http": 502,
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -1335,8 +1335,9 @@
     },
     {
       "url": "https://iwgdfguidelines.org/guidelines-2023/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://iwgdfguidelines.org/guidelines-2023/",
       "pages": [
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
@@ -1345,8 +1346,9 @@
     },
     {
       "url": "https://iwgdfguidelines.org/wound-healing-2023/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://iwgdfguidelines.org/wound-healing-2023/",
       "pages": [
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
@@ -1825,8 +1827,9 @@
     },
     {
       "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
       "pages": [
         "dal-lordo-al-netto.html"
       ]
@@ -2580,6 +2583,15 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "status": "raggiungibile",
       "http": 200,
@@ -3274,6 +3286,15 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-new-contra-indications-warnings-pioglitazone-reduce-small-increased-risk-bladder-cancer",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-new-contra-indications-warnings-pioglitazone-reduce-small-increased-risk-bladder-cancer",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -6108,6 +6129,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/scheda-malattia/papillomavirus-umano-infezione-da-hpv/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/scheda-malattia/papillomavirus-umano-infezione-da-hpv/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/scheda-malattia/tetano/?paragraph=5",
       "status": "raggiungibile",
       "http": 200,
@@ -6268,7 +6298,6 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/hiv-aids-e-infezioni-sessualmente-trasmesse/infezioni-sessualmente-trasmesse/",
       "pages": [
-        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
@@ -6388,6 +6417,15 @@
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/malattie-prevenibili-con-i-vaccini/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/malattie-prevenibili-con-i-vaccini/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
