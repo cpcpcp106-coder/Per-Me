@@ -15,12 +15,13 @@ jobs:
       - name: Test indipendenti dei due servizi con simulazione origine browser
         shell: bash
         run: |
+          set +e
           set -uo pipefail
           function check() {
             label="$1"; shift
             url="$1"; shift
             echo "::group::$label"
-            code="$(curl -sSL --connect-timeout 8 --max-time 15 -H 'Origin: https://cpcpcp106-coder.github.io' -H 'Cache-Control: no-store' -D /tmp/perme-c-headers -o /tmp/perme-c-body -w '%{http_code}' "$url")"
+            code="$(curl -sSL --connect-timeout 8 --max-time 8 -H 'Origin: https://cpcpcp106-coder.github.io' -H 'Cache-Control: no-store' -D /tmp/perme-c-headers -o /tmp/perme-c-body -w '%{http_code}' "$url")"
             rc=$?
             echo "code=$code curl_rc=$rc url=$url"
             echo "headers:"
