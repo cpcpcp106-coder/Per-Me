@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-18T11:21:24.899418+00:00",
+  "date_utc": "2026-10-18T11:29:56.223595+00:00",
   "scope": {
     "pages": 74,
-    "unique_external_urls": 580,
-    "occurrences": 1203
+    "unique_external_urls": 583,
+    "occurrences": 1208
   },
   "counts": {
-    "raggiungibile": 479,
-    "bloccato_o_riservato": 95,
+    "raggiungibile": 481,
+    "bloccato_o_riservato": 96,
     "non_verificato_trasporto": 4,
     "errore_http": 2
   },
@@ -2964,6 +2964,16 @@
       ]
     },
     {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
       "status": "raggiungibile",
       "http": 200,
@@ -3000,6 +3010,16 @@
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2025/12/22/25A06759/SG",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2025/12/22/25A06759/SG",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -4356,6 +4376,14 @@
       "http": 403,
       "pages": [
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.03.056",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
