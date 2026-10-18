@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T17:46:01+00:00",
+  "date_utc": "2026-10-18T17:48:58+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3014,
+    "local_occurrences": 3019,
     "external_occurrences": 1555,
     "external_unique": 682,
     "actions": 7,
@@ -1120,7 +1120,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
+      "candidate_numeric_legal_mentions": 10
     },
     {
       "file": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
@@ -1158,7 +1158,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 53,
+      "links_local": 58,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
