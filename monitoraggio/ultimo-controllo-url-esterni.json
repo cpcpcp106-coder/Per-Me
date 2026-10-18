@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T16:19:19.402605+00:00",
+  "date_utc": "2026-10-18T16:22:06.745982+00:00",
   "scope": {
     "pages": 82,
     "unique_external_urls": 668,
-    "occurrences": 1466
+    "occurrences": 1470
   },
   "counts": {
-    "raggiungibile": 548,
+    "raggiungibile": 549,
     "bloccato_o_riservato": 110,
     "non_verificato_trasporto": 6,
-    "errore_http": 4
+    "errore_http": 3
   },
   "results": [
     {
@@ -714,7 +714,8 @@
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
-        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
       ]
     },
     {
@@ -1863,14 +1864,6 @@
       ]
     },
     {
-      "url": "https://servizionline.aifa.gov.it/schedasegnalazioni/#/",
-      "status": "errore_http",
-      "http": 503,
-      "pages": [
-        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
-      ]
-    },
-    {
       "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "errore_http",
       "http": 307,
@@ -2696,6 +2689,16 @@
       ]
     },
     {
+      "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
+      "pages": [
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/nota-100",
       "status": "raggiungibile",
       "http": 200,
@@ -2735,6 +2738,7 @@
       "status": "errore_http",
       "http": 404,
       "pages": [
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
       ]
@@ -3220,6 +3224,7 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
       ]
     },
