@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="720" viewBox="0 0 1260 720" role="img" aria-labelledby="title desc">
+<title id="title">Controllo della glicemia e prevenzione delle emergenze</title><desc id="desc">Illustrazione originale di un professionista sanitario che aiuta una persona anziana a misurare la glicemia capillare usando un glucometro.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6f0ec"/><stop offset="1" stop-color="#f5f1e8"/></linearGradient><linearGradient id="scr" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d9f1e9"/><stop offset="1" stop-color="#f5fbf6"/></linearGradient></defs>
+<rect width="1260" height="720" fill="url(#bg)"/><rect x="65" y="72" width="1130" height="580" rx="32" fill="#fffefa"/>
+<path d="M126 610h1010" stroke="#536f64" stroke-width="23" stroke-linecap="round"/>
+<rect x="434" y="433" width="522" height="31" rx="15" fill="#b89f84"/><path d="M495 462v141M892 462v141" stroke="#98846b" stroke-width="24" stroke-linecap="round"/>
+<path d="M196 533V601M401 533V601" stroke="#415c6d" stroke-width="22"/><path d="M186 526Q151 435 206 372h183q61 70 23 154Z" fill="#557782"/>
+<path d="M838 530V601M1073 531V601" stroke="#8a7563" stroke-width="22"/><path d="M821 523Q798 438 844 358h212q52 86 22 165Z" fill="#e9f1ee" stroke="#a4b6ae" stroke-width="5"/>
+<path d="M259 305q-68 16-80 107l-11 79h269l-16-82q-9-82-81-103Z" fill="#3e6876"/>
+<path d="M879 308q-86 30-89 117l-4 70h311l-8-79q-15-94-91-108Z" fill="#f7fcfa"/>
+<rect x="277" y="286" width="72" height="52" rx="20" fill="#c89880"/><rect x="937" y="282" width="67" height="50" rx="19" fill="#b88773"/>
+<circle cx="311" cy="246" r="66" fill="#c99880"/><circle cx="971" cy="238" r="64" fill="#bb8e78"/>
+<path d="M244 241q-7-74 66-79 74-3 71 78-26-19-38-38-34 32-99 39" fill="#dcdbd4"/>
+<path d="M907 229q6-65 63-64 70-2 68 70-32-26-50-29-31 24-81 23" fill="#65554d"/>
+<path d="M279 244q8-8 16 0m33 0q9-8 16 0m-54 26q18 12 38 0" stroke="#685047" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M943 241q8-8 16 0m27 0q9-8 17 0m-47 27q16 11 33-2" stroke="#6b4d44" stroke-width="4" fill="none" stroke-linecap="round"/>
+<path d="M413 415q111-20 223 22" stroke="#c99880" stroke-width="32" fill="none" stroke-linecap="round"/><path d="M800 414q-106-19-195 24" stroke="#bb8e78" stroke-width="30" fill="none" stroke-linecap="round"/>
+<rect x="550" y="382" width="124" height="178" rx="17" fill="#345f64" stroke="#25474d" stroke-width="6"/>
+<rect x="565" y="407" width="95" height="77" rx="8" fill="url(#scr)"/><path d="M588 451h50" stroke="#35676a" stroke-width="6" stroke-linecap="round"/>
+<circle cx="615" cy="525" r="13" fill="#d9eee6"/><path d="M626 382v-21" stroke="#d8c3b0" stroke-width="12" stroke-linecap="round"/>
+<rect x="739" y="413" width="116" height="76" rx="10" fill="#ffffff" stroke="#9db5ac" stroke-width="5"/>
+<path d="M761 439h72M761 456h57" stroke="#8aac9f" stroke-width="5"/>
+<text x="630" y="674" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" letter-spacing="2" fill="#36594d" font-weight="600">MISURARE · RICONOSCERE · CHIEDERE AIUTO</text>
+</svg>
