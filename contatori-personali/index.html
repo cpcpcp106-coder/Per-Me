@@ -37,7 +37,7 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
 <main>
 <div class="brand"><img src="../app/icon-192.png" alt="">Per Me</div>
 <h1>I miei contatori</h1>
-<p class="subtitle">Visite al sito e installazioni dell’app rilevate.</p>
+<p class="subtitle">Visite e installazioni rilevate dalla riattivazione dei conteggi del 18 ottobre 2026.</p>
 <section class="stats" aria-label="Valori dei contatori">
  <div class="metric"><h2>Visite al sito</h2><output id="visite" aria-live="polite">—</output></div>
  <div class="metric"><h2>Installazioni dell’app</h2><output id="installazioni" aria-live="polite">—</output></div>
@@ -48,6 +48,7 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
 <div class="info">
  <p>Leggere questi dati non aumenta i contatori. Sono eventi registrati, non persone uniche: lo storico può includere controlli tecnici e aperture del proprietario non escluse.</p>
  <p>Per vedere gli aggiornamenti serve Internet. Se la connessione manca, vengono mostrati soltanto gli ultimi valori salvati sul dispositivo, quando disponibili.</p>
+ <p><strong>Nuova serie dal 18 ottobre 2026:</strong> i contatori del precedente fornitore sono attualmente irraggiungibili e non vengono sommati o stimati. Il servizio alternativo è quello utilizzato anche per le stelle; come ogni servizio web esterno può trattare dati tecnici di rete.</p>
  <p>Questa pagina non compare nella navigazione pubblica di Per Me. I conteggi restano però tecnicamente accessibili tramite il servizio esterno senza password.</p>
 </div>
 </main>
@@ -55,10 +56,10 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
 (() => {
  'use strict';
  const $=id=>document.getElementById(id);
- const ROOT='https://counterapi.com/api/cpcpcp106-coder.github.io/';
+ const ROOT='https://countapi.mileshilliard.com/api/v1/get/';
  const items=[
-  ['visita','per-me-visite-nuovo-inizio-20261015-v3','visite'],
-  ['installazione','per-me','installazioni']
+  ['visita','perme-visite-dal-20261018-43bcc26da793','visite'],
+  ['installazione','perme-installazioni-dal-20261018-43bcc26da793','installazioni']
  ];
  const opt=new URL(location.href);
  if(opt.searchParams.get('perme_escludimi')==='1'){
@@ -69,7 +70,7 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
  }
  const format=n=>n.toLocaleString('it-IT');
  const show=(id,n)=>{$(id).textContent=format(n);};
- const storedKey='perme-contatori-salvati-v2';
+ const storedKey='perme-contatori-salvati-v3-dal-20261018';
  try{
   const last=JSON.parse(localStorage.getItem(storedKey)||'null');
   if(last){
@@ -86,11 +87,11 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
   $('refresh').disabled=true;
   $('status').textContent='Aggiornamento dei due numeri in corso…';
   const numbers={},results=await Promise.allSettled(items.map(async ([action,key,id])=>{
-   const endpoint=ROOT+encodeURIComponent(action)+'/'+encodeURIComponent(key)
-      +'?readOnly=true&nonce='+Date.now()+'-'+Math.random().toString(36).slice(2);
+   const endpoint=ROOT+encodeURIComponent(key)+'?refresh='+Date.now()+'-'+Math.random().toString(36).slice(2);
    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),14000);
    try{
-    const resp=await fetch(endpoint,{method:'GET',mode:'cors',cache:'no-store',credentials:'omit',signal:controller.signal});
+    const resp=await fetch(endpoint,{method:'GET',mode:'cors',cache:'no-store',credentials:'omit',referrerPolicy:'no-referrer',signal:controller.signal});
+    if(resp.status===404){numbers[id]=0;show(id,0);return;}
     if(!resp.ok)throw Error('HTTP '+resp.status);
     const data=await resp.json(),n=Number(data.value);
     if(!Number.isSafeInteger(n)||n<0)throw Error('Conteggio non valido');
