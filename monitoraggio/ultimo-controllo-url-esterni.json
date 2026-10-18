@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T13:47:57.075862+00:00",
+  "date_utc": "2026-10-18T14:07:43.031808+00:00",
   "scope": {
     "pages": 79,
-    "unique_external_urls": 634,
-    "occurrences": 1362
+    "unique_external_urls": 635,
+    "occurrences": 1365
   },
   "counts": {
-    "raggiungibile": 522,
+    "raggiungibile": 523,
     "bloccato_o_riservato": 104,
-    "non_verificato_trasporto": 6,
-    "errore_http": 2
+    "non_verificato_trasporto": 4,
+    "errore_http": 4
   },
   "results": [
     {
@@ -196,16 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -542,6 +542,7 @@
       "http": 403,
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -580,6 +581,7 @@
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
@@ -793,7 +795,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -3064,6 +3066,15 @@
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
     {
