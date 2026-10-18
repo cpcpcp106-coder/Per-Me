@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T11:10:09+00:00",
+  "date_utc": "2026-10-18T11:17:00+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 73,
-    "editorial_pages": 71,
+    "html_total": 74,
+    "editorial_pages": 72,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2451,
-    "external_occurrences": 1179,
-    "external_unique": 573,
+    "local_occurrences": 2504,
+    "external_occurrences": 1203,
+    "external_unique": 580,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -66,6 +66,7 @@
       "diabete-guida-17-bocca-denti-gengive-parodontite.html",
       "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
       "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -161,7 +162,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -186,7 +189,7 @@
     "service_worker_shell_files": [
       "./",
       "./index.html",
-      "./app.css?v=12",
+      "./app.css?v=13",
       "./main.js?v=11",
       "./manifest.webmanifest",
       "./icon-192.png",
@@ -386,7 +389,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 11,
+      "links_local": 19,
       "links_external": 0,
       "missing_local": 0,
       "noindex": false,
@@ -964,6 +967,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 5
+    },
+    {
+      "file": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "title": "Diabete tipo 2 e fegato: MASLD, MASH, fibrosi, cirrosi ed esami | Per Me · Guida 20",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 45,
+      "links_external": 24,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 4
     },
     {
       "file": "diabete-tipo-2.html",
