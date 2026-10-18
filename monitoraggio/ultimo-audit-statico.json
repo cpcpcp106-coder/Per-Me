@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T12:57:14+00:00",
+  "date_utc": "2026-10-18T12:59:14+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 77,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2652,
+    "local_occurrences": 2654,
     "external_occurrences": 1297,
     "external_unique": 613,
     "actions": 7,
@@ -146,6 +146,7 @@
       "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
       "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
       "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -168,9 +169,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1010,7 +1009,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 46,
+      "links_local": 47,
       "links_external": 31,
       "missing_local": 0,
       "noindex": false,
@@ -1040,7 +1039,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 45,
+      "links_local": 46,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
