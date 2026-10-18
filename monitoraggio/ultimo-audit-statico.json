@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T10:08:26+00:00",
+  "date_utc": "2026-10-18T10:10:26+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 73,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 2449,
+    "local_occurrences": 2451,
     "external_occurrences": 1173,
     "external_unique": 571,
     "actions": 7,
@@ -138,6 +138,7 @@
       "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
       "diabete-guida-17-bocca-denti-gengive-parodontite.html",
       "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
       "diabete-tipo-2.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
@@ -160,9 +161,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -942,7 +941,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 49,
+      "links_local": 50,
       "links_external": 41,
       "missing_local": 0,
       "noindex": false,
@@ -972,7 +971,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 41,
+      "links_local": 42,
       "links_external": 25,
       "missing_local": 0,
       "noindex": false,
