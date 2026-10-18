@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-18T13:32:39.979515+00:00",
+  "date_utc": "2026-10-18T13:34:43.888829+00:00",
   "scope": {
     "pages": 78,
     "unique_external_urls": 628,
@@ -777,7 +777,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
