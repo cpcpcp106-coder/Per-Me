@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-18T13:24:44.690448+00:00",
+  "date_utc": "2026-10-18T13:32:39.979515+00:00",
   "scope": {
     "pages": 78,
-    "unique_external_urls": 627,
-    "occurrences": 1334
+    "unique_external_urls": 628,
+    "occurrences": 1337
   },
   "counts": {
-    "raggiungibile": 518,
+    "raggiungibile": 520,
     "bloccato_o_riservato": 102,
-    "non_verificato_trasporto": 5,
+    "non_verificato_trasporto": 4,
     "errore_http": 2
   },
   "results": [
@@ -3011,6 +3011,16 @@
       ]
     },
     {
+      "url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -3330,6 +3340,16 @@
       ]
     },
     {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2016/01/13/16A00299/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2016/01/13/16A00299/sg",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/eli/id/2024/09/27/24G00154/sg",
       "status": "raggiungibile",
       "http": 200,
@@ -3430,15 +3450,6 @@
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
-      ]
-    },
-    {
-      "url": "https://www.gov.patenti.it/ecom.dll/noAjax?idc=3186",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.gov.patenti.it'. (_ssl.c:1010)>",
-      "pages": [
-        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
-        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
     },
     {
@@ -5133,6 +5144,7 @@
       "http": 200,
       "final_url": "https://www.nidcd.nih.gov/health/sudden-deafness",
       "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
       ]
