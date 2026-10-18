@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T14:07:43.031808+00:00",
+  "date_utc": "2026-10-18T14:39:29.274413+00:00",
   "scope": {
-    "pages": 79,
-    "unique_external_urls": 635,
-    "occurrences": 1365
+    "pages": 80,
+    "unique_external_urls": 650,
+    "occurrences": 1405
   },
   "counts": {
-    "raggiungibile": 523,
-    "bloccato_o_riservato": 104,
-    "non_verificato_trasporto": 4,
-    "errore_http": 4
+    "raggiungibile": 535,
+    "bloccato_o_riservato": 106,
+    "non_verificato_trasporto": 7,
+    "errore_http": 2
   },
   "results": [
     {
@@ -196,16 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "errore_http",
-      "http": 502,
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "errore_http",
-      "http": 502,
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -325,6 +325,15 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/33/7/1674/39273/Diabetes-and-CancerA-consensus-report",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -533,7 +542,9 @@
         "diabete-guida-01-cause-sintomi-diagnosi.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
-        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -542,6 +553,7 @@
       "http": 403,
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "dieta-mediterranea-scientifica.html"
       ]
@@ -569,6 +581,7 @@
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -631,7 +644,9 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
-        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -1183,6 +1198,15 @@
       ]
     },
     {
+      "url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?cs=srgb&dl=pexels-shvets-production-8413217.jpg&fm=jpg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?cs=srgb&dl=pexels-shvets-production-8413217.jpg&fm=jpg",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "status": "raggiungibile",
       "http": 200,
@@ -1370,9 +1394,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/dupuytrens-disease/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1939,6 +1962,16 @@
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+      ]
+    },
+    {
+      "url": "https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/hcc-metabolic-dysfunction-associated-steatotic",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aasld.org/liver-fellow-network/core-series/clinical-pearls/hcc-metabolic-dysfunction-associated-steatotic",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -2857,6 +2890,16 @@
       ]
     },
     {
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-hearing-loss.html",
       "status": "raggiungibile",
       "http": 200,
@@ -3038,6 +3081,16 @@
       ]
     },
     {
+      "url": "https://www.demenze.it/it-mappa",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.demenze.it/it-mappa",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -3074,6 +3127,7 @@
       "http": 200,
       "final_url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf",
       "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
@@ -3520,6 +3574,16 @@
       "http": 403,
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -4741,6 +4805,16 @@
       ]
     },
     {
+      "url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ]
+    },
+    {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "status": "raggiungibile",
       "http": 200,
@@ -5026,9 +5100,8 @@
     },
     {
       "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
@@ -5099,6 +5172,16 @@
       "final_url": "https://www.nice.org.uk/guidance/cg148/chapter/Recommendations",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.nice.org.uk/guidance/ng12/chapter/Recommendations-organised-by-site-of-cancer",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng12/chapter/Recommendations-organised-by-site-of-cancer",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -5528,6 +5611,8 @@
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5565,7 +5650,9 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
-        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -5945,6 +6032,26 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/faq/faq-screening-tumori/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/faq/faq-screening-tumori/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/multimedia/campagna-screening-oncologici-uno-screening-puo-salvarti-la-vita/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/multimedia/campagna-screening-oncologici-uno-screening-puo-salvarti-la-vita/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
       "status": "raggiungibile",
       "http": 200,
@@ -5961,6 +6068,16 @@
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/libera-al-nuovo-piano-nazionale-della-prevenzione-2026-2031-0/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/libera-al-nuovo-piano-nazionale-della-prevenzione-2026-2031-0/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -6139,6 +6256,16 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/hiv-aids-e-infezioni-sessualmente-trasmesse/infezioni-sessualmente-trasmesse/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/hiv-aids-e-infezioni-sessualmente-trasmesse/infezioni-sessualmente-trasmesse/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/assistenza-integrativa/",
       "status": "raggiungibile",
       "http": 200,
@@ -6214,6 +6341,36 @@
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/nuovo-approccio-ue-ai-tumori-tumore-polmonare-e-prostata/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/nuovo-approccio-ue-ai-tumori-tumore-polmonare-e-prostata/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/screening-il-cancro-del-colon-retto/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/screening-il-cancro-del-colon-retto/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/screening-il-cancro-del-seno/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/screening-il-cancro-del-seno/",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {

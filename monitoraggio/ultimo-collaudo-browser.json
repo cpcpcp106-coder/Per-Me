@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T14:06:00.988Z",
+  "checked_at_utc": "2026-10-18T14:37:52.279Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 77,
+        "count": 78,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 77,
+        "checked": 78,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 77,
+        "checked": 78,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "71 pagine salvate per la lettura offline · controllo online 18 ott, 14:06.",
+        "status": "71 pagine salvate per la lettura offline · controllo online 18 ott, 14:38.",
         "stored": {
           "guides": 71,
-          "updated": "2026-10-18T14:06:44.177Z",
-          "bytes": 1784353,
+          "updated": "2026-10-18T14:38:35.698Z",
+          "bytes": 1787209,
           "includesNew09": true
         }
       }
@@ -513,6 +513,12 @@
     },
     {
       "page": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2
