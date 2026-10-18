@@ -1,2 +1,45 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer"><title>Conteggi Per Me</title><link rel="icon" type="image/png" sizes="192x192" href="app/icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="app/icon-512.png"><link rel="apple-touch-icon" sizes="192x192" href="app/icon-192.png"><meta name="theme-color" content="#492d1e"><style>body{font:22px/1.5 system-ui,sans-serif;max-width:700px;padding:22px;margin:auto;color:#173027;background:#f5f7f3}h1{font-size:1.8rem}section{background:#fff;border:2px solid #2c4f3b;padding:20px;margin:20px 0;border-radius:12px}h2{font-size:1.15rem}img{display:block;max-width:100%;height:auto;min-height:34px}a{display:block;padding:16px;background:#234534;color:white;border-radius:10px;text-align:center;font-weight:700}.note{font-size:.8rem}</style></head><body><h1>Per Me - Conteggi</h1><p>Totali consultabili con Internet attivo.</p><section><h2>Visite al sito</h2><img src="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&amp;action=visita&amp;key=per-me-visite-nuovo-inizio-20261015-v3&amp;readOnly=true&amp;label=visite&amp;style=flat" alt="Numero di visite al sito"></section><section><h2>Installazioni dell'app rilevate</h2><img src="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&amp;action=installazione&amp;key=per-me&amp;readOnly=true&amp;label=installazioni&amp;style=flat" alt="Numero di installazioni rilevate"></section><a href="">Aggiorna i conteggi</a><p class="note">Questi numeri non sono visualizzati nel sito. Il servizio di conteggio è pubblico: chi conosce l'indirizzo può consultare i dati.</p></body></html>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><meta name="referrer" content="no-referrer"><title>Conteggi Per Me</title><link rel="icon" type="image/png" sizes="192x192" href="app/icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="app/icon-512.png"><link rel="apple-touch-icon" sizes="192x192" href="app/icon-192.png"><meta name="theme-color" content="#492d1e"><style>body{font:22px/1.5 system-ui,sans-serif;max-width:700px;padding:22px;margin:auto;color:#173027;background:#f5f7f3}h1{font-size:1.8rem}section{background:#fff;border:2px solid #2c4f3b;padding:20px;margin:20px 0;border-radius:12px}h2{font-size:1.15rem}img{display:block;max-width:100%;height:auto;min-height:34px}a{display:block;padding:16px;background:#234534;color:white;border-radius:10px;text-align:center;font-weight:700}.note{font-size:.8rem}.count-status{font-size:1rem;color:#173027;font-weight:650;line-height:1.5;min-height:34px;margin:12px 0 0}.count-status[hidden],.count-image[hidden]{display:none}.service-note{font-size:.82rem;line-height:1.45}</style></head><body><h1>Per Me - Conteggi</h1><p>Totali consultabili con Internet attivo.</p><section><h2>Visite al sito</h2><img src="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&amp;action=visita&amp;key=per-me-visite-nuovo-inizio-20261015-v3&amp;readOnly=true&amp;label=visite&amp;style=flat" class="count-image" data-counter="visite" alt="Numero di visite al sito"><p class="count-status" data-status="visite" role="status" aria-live="polite">Caricamento delle visite…</p></section><section><h2>Installazioni dell'app rilevate</h2><img src="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&amp;action=installazione&amp;key=per-me&amp;readOnly=true&amp;label=installazioni&amp;style=flat" class="count-image" data-counter="installazioni" alt="Numero di installazioni rilevate"><p class="count-status" data-status="installazioni" role="status" aria-live="polite">Caricamento delle installazioni…</p></section><a href="">Aggiorna i conteggi</a><p class="note">Questi numeri non sono visualizzati nel sito. Il servizio di conteggio è pubblico: chi conosce l'indirizzo può consultare i dati.</p><p class="service-note">I valori dipendono da un servizio esterno. Se il servizio è indisponibile, non è possibile stabilire se il totale sia zero o se alcuni eventi siano stati registrati.</p>
+<script>
+(() => {
+  'use strict';
+  const base='https://counterapi.com/api/cpcpcp106-coder.github.io/';
+  const counters={
+    visite:['visita','per-me-visite-nuovo-inizio-20261015-v3'],
+    installazioni:['installazione','per-me']
+  };
+  for(const img of document.querySelectorAll('img[data-counter]')){
+    const id=img.dataset.counter, status=document.querySelector('[data-status="'+id+'"]');
+    const [action,key]=counters[id];
+    let done=false;
+    const finish=(message,number)=>{
+      if(done)return;
+      done=true;
+      clearTimeout(timeout);
+      img.hidden=true;
+      status.hidden=false;
+      status.textContent=number===true?message:message;
+    };
+    const unavailable='Dato non disponibile: il servizio esterno non risponde. Non significa zero.';
+    const timeout=setTimeout(()=>fallback(),12000);
+    const fallback=async()=>{
+      if(done)return;
+      const controller=new AbortController();
+      const timer=setTimeout(()=>controller.abort(),9000);
+      try{
+        const url=base+encodeURIComponent(action)+'/'+encodeURIComponent(key)+'?readOnly=true&refresh='+Date.now();
+        const response=await fetch(url,{mode:'cors',cache:'no-store',credentials:'omit',signal:controller.signal});
+        if(!response.ok)throw new Error('HTTP '+response.status);
+        const data=await response.json();
+        const n=Number(data.value);
+        if(!Number.isSafeInteger(n)||n<0)throw new Error('Valore non valido');
+        finish(n.toLocaleString('it-IT')+' · dato letto dal servizio alternativo',true);
+      }catch(_){finish(unavailable,false)}
+      finally{clearTimeout(timer)}
+    };
+    img.addEventListener('load',()=>{if(done)return;done=true;clearTimeout(timeout);status.hidden=true;});
+    img.addEventListener('error',fallback);
+    if(img.complete){if(img.naturalWidth>0){done=true;clearTimeout(timeout);status.hidden=true;}else fallback();}
+  }
+})();
+</script></body></html>
