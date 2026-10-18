@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T13:33:13.222Z",
+  "checked_at_utc": "2026-10-18T13:43:58.494Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 76,
+        "count": 77,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 76,
+        "checked": 77,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 76,
+        "checked": 77,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "70 pagine salvate per la lettura offline · controllo online 18 ott, 13:33.",
+        "status": "70 pagine salvate per la lettura offline · controllo online 18 ott, 13:44.",
         "stored": {
           "guides": 70,
-          "updated": "2026-10-18T13:33:55.131Z",
+          "updated": "2026-10-18T13:44:41.252Z",
           "bytes": 1741460,
           "includesNew09": true
         }
@@ -507,6 +507,12 @@
     },
     {
       "page": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2

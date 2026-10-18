@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-18T13:34:43.888829+00:00",
+  "date_utc": "2026-10-18T13:45:32.781380+00:00",
   "scope": {
-    "pages": 78,
-    "unique_external_urls": 628,
-    "occurrences": 1337
+    "pages": 79,
+    "unique_external_urls": 634,
+    "occurrences": 1362
   },
   "counts": {
-    "raggiungibile": 520,
-    "bloccato_o_riservato": 102,
-    "non_verificato_trasporto": 4,
+    "raggiungibile": 521,
+    "bloccato_o_riservato": 104,
+    "non_verificato_trasporto": 7,
     "errore_http": 2
   },
   "results": [
@@ -196,18 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -233,9 +231,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
@@ -266,7 +263,7 @@
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}",
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -355,6 +352,15 @@
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932/5-Facilitating-Positive-Health-Behaviors-and-Well",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
     {
@@ -559,6 +565,8 @@
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-tipo-2.html"
       ]
     },
@@ -571,6 +579,10 @@
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html"
       ]
@@ -695,7 +707,10 @@
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
-        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
     {
@@ -1171,6 +1186,15 @@
       "final_url": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
     {
@@ -3191,6 +3215,16 @@
       ]
     },
     {
+      "url": "https://www.epicentro.iss.it/demenza/mappa-cdcd",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/demenza/mappa-cdcd",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ]
+    },
+    {
       "url": "https://www.epicentro.iss.it/diabete/",
       "status": "raggiungibile",
       "http": 200,
@@ -5130,6 +5164,17 @@
       ]
     },
     {
+      "url": "https://www.nice.org.uk/guidance/ng97/chapter/Recommendations",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nice.org.uk/guidance/ng97/chapter/Recommendations",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ]
+    },
+    {
       "url": "https://www.nidcd.nih.gov/health/hearing-ear-infections-deafness",
       "status": "raggiungibile",
       "http": 200,
@@ -5469,6 +5514,8 @@
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html",
@@ -5662,6 +5709,15 @@
       "http": 403,
       "pages": [
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ]
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-man-patient-talking-at-his-doctor-8413410/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
     {
@@ -6026,6 +6082,8 @@
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
@@ -6134,6 +6192,16 @@
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/salute-mentale/la-rete-dei-servizi-la-salute-mentale/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/salute-mentale/la-rete-dei-servizi-la-salute-mentale/",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
       ]
     },
     {
