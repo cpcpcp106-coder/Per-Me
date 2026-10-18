@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-18T11:41:00.713288+00:00",
+  "date_utc": "2026-10-18T12:13:11.110890+00:00",
   "scope": {
     "pages": 75,
-    "unique_external_urls": 594,
-    "occurrences": 1239
+    "unique_external_urls": 595,
+    "occurrences": 1241
   },
   "counts": {
-    "raggiungibile": 491,
+    "raggiungibile": 492,
     "bloccato_o_riservato": 97,
     "non_verificato_trasporto": 4,
     "errore_http": 2
@@ -1442,6 +1442,7 @@
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
@@ -2298,6 +2299,16 @@
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ]
+    },
+    {
+      "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
     },
     {
@@ -4942,7 +4953,6 @@
       "http": 200,
       "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/symptoms-causes",
       "pages": [
-        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
       ]
