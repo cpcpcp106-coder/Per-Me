@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-18T14:39:29.274413+00:00",
+  "date_utc": "2026-10-18T14:45:44.255345+00:00",
   "scope": {
     "pages": 80,
-    "unique_external_urls": 650,
-    "occurrences": 1405
+    "unique_external_urls": 651,
+    "occurrences": 1406
   },
   "counts": {
-    "raggiungibile": 535,
+    "raggiungibile": 534,
     "bloccato_o_riservato": 106,
-    "non_verificato_trasporto": 7,
-    "errore_http": 2
+    "non_verificato_trasporto": 6,
+    "errore_http": 5
   },
   "results": [
     {
@@ -196,16 +196,16 @@
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=installazione&key=per-me&readOnly=true&label=installazioni&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
     },
     {
       "url": "https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-nuovo-inizio-20261015-v3&readOnly=true&label=visite&style=flat",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"
       ]
@@ -531,6 +531,14 @@
       "http": 403,
       "pages": [
         "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2337/dc20-0204",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
@@ -1327,9 +1335,8 @@
     },
     {
       "url": "https://iwgdfguidelines.org/guidelines-2023/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://iwgdfguidelines.org/guidelines-2023/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
@@ -1338,9 +1345,8 @@
     },
     {
       "url": "https://iwgdfguidelines.org/wound-healing-2023/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://iwgdfguidelines.org/wound-healing-2023/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
       ]
@@ -1394,8 +1400,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/dupuytrens-disease/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1818,9 +1825,8 @@
     },
     {
       "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "dal-lordo-al-netto.html"
       ]
@@ -5100,8 +5106,9 @@
     },
     {
       "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/glaucoma-medicines",
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
