@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1260" height="720" viewBox="0 0 1260 720" role="img" aria-labelledby="t d">
+<title id="t">Dialogo di ascolto e sostegno</title><desc id="d">Illustrazione originale di una persona anziana seduta a colloquio con una professionista sanitaria in un ambulatorio luminoso.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e6f0e8"/><stop offset="1" stop-color="#eae9dd"/></linearGradient><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fcfaf6"/><stop offset="1" stop-color="#edf4ed"/></linearGradient></defs>
+<rect width="1260" height="720" fill="url(#bg)"/><rect x="60" y="62" width="1140" height="590" rx="26" fill="url(#wall)"/>
+<rect x="160" y="114" width="286" height="266" rx="12" fill="#d9e8e8" stroke="#a7c1bf" stroke-width="10"/>
+<path d="M303 119V373M160 249H447" stroke="#afc6bf" stroke-width="9"/>
+<circle cx="366" cy="180" r="40" fill="#f9e8ab"/><path d="M160 315q80-68 149-24t138-18v107H160Z" fill="#9abf9c"/>
+<rect x="94" y="603" width="1074" height="21" rx="10" fill="#c6d3c3"/>
+<path d="M101 603q90-31 161-35t183 33" fill="#91ab95"/>
+<rect x="605" y="397" width="316" height="32" rx="16" fill="#b79072"/>
+<rect x="634" y="429" width="22" height="164" rx="9" fill="#85684f"/><rect x="860" y="429" width="22" height="164" rx="9" fill="#85684f"/>
+<path d="M268 531V604M466 528V604M265 527Q242 450 277 404L455 404Q490 456 466 529Z" fill="#52737b" stroke="#355a66" stroke-width="9"/>
+<path d="M973 530V604M1103 531V604M959 524Q942 455 977 402H1097Q1129 453 1107 524Z" fill="#79998c" stroke="#4c7868" stroke-width="8"/>
+<path d="M328 320Q261 331 254 402L251 459H499Q492 352 427 324Z" fill="#416b72"/>
+<path d="M997 325Q932 348 934 429L923 476H1155L1144 419Q1134 341 1065 326Z" fill="#9b806b"/>
+<rect x="337" y="305" width="78" height="47" rx="20" fill="#c6977f"/><rect x="1013" y="302" width="70" height="47" rx="19" fill="#b78a72"/>
+<circle cx="372" cy="252" r="66" fill="#cc9b81"/><circle cx="1052" cy="252" r="61" fill="#b98b71"/>
+<path d="M306 234Q306 171 377 175Q439 179 439 246Q412 229 389 202Q340 234 306 234" fill="#e1e0d8"/>
+<path d="M994 236Q996 181 1056 185Q1113 190 1115 242Q1093 222 1082 215Q1044 232 994 236" fill="#62544e"/>
+<path d="M343 255q8-8 16 0M385 255q9-8 17 0M354 284q17 12 38 1" stroke="#664e46" fill="none" stroke-width="4" stroke-linecap="round"/>
+<path d="M1023 253q8-7 14 0M1062 251q8-7 17 0M1035 276q16 11 33 0" stroke="#5a4841" fill="none" stroke-width="4" stroke-linecap="round"/>
+<path d="M483 408Q563 387 631 417" stroke="#ca9a81" stroke-width="33" stroke-linecap="round" fill="none"/>
+<path d="M925 402Q874 397 826 417" stroke="#b78b73" stroke-width="31" stroke-linecap="round" fill="none"/>
+<path d="M617 397L655 415M833 397L808 415" stroke="#ddae93" stroke-width="27" stroke-linecap="round"/>
+<rect x="709" y="385" width="80" height="64" rx="6" fill="#faf8f1" stroke="#9faba4" stroke-width="3"/>
+<path d="M724 406H777M724 419H773M725 431H757" stroke="#7d9995" stroke-width="4"/>
+<path d="M270 495H480M971 495H1097" stroke="#355a66" stroke-width="9" stroke-linecap="round" opacity=".35"/>
+<text x="630" y="677" text-anchor="middle" font-family="Arial,sans-serif" font-size="26" fill="#37564d" letter-spacing="1">ASCOLTO · DIALOGO · ASSISTENZA</text>
+</svg>
