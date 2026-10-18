@@ -1,0 +1,37 @@
+name: Per Me - Diagnostica servizi contatori
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/diagnostica-servizio-contatori.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test-read-only-and-temporary:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - name: Test indipendenti dei due servizi con simulazione origine browser
+        shell: bash
+        run: |
+          set -uo pipefail
+          function check() {
+            label="$1"; shift
+            url="$1"; shift
+            echo "::group::$label"
+            code="$(curl -sSL --connect-timeout 8 --max-time 15 -H 'Origin: https://cpcpcp106-coder.github.io' -H 'Cache-Control: no-store' -D /tmp/perme-c-headers -o /tmp/perme-c-body -w '%{http_code}' "$url")"
+            rc=$?
+            echo "code=$code curl_rc=$rc url=$url"
+            echo "headers:"
+            grep -iE '^(content-type|access-control-allow-origin|location|server|cache-control):' /tmp/perme-c-headers || true
+            echo "body:"; head -c 360 /tmp/perme-c-body 2>/dev/null || true; echo
+            echo "::endgroup::"
+          }
+          check "OLD read visits" 'https://counterapi.com/api/cpcpcp106-coder.github.io/visita/per-me-visite-nuovo-inizio-20261015-v3?readOnly=true'
+          check "OLD read installs" 'https://counterapi.com/api/cpcpcp106-coder.github.io/installazione/per-me?readOnly=true'
+          check "NEW health" 'https://countapi.mileshilliard.com/api/v1/health'
+          check "NEW nonexistent key read (404 expected)" 'https://countapi.mileshilliard.com/api/v1/get/perme-diagnostics-nonexistent-20261018'
+          check "NEW temp key hit - NOT a production counter" "https://countapi.mileshilliard.com/api/v1/hit/perme-diagnostic-${GITHUB_RUN_ID}-probe"
+          check "NEW temp key get" "https://countapi.mileshilliard.com/api/v1/get/perme-diagnostic-${GITHUB_RUN_ID}-probe"
+          echo "Diagnostic is informational; no real visits or installs were incremented."
