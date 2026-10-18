@@ -1,9 +1,9 @@
 {
-  "date_utc": "2026-10-18T15:41:40.979180+00:00",
+  "date_utc": "2026-10-18T16:19:19.402605+00:00",
   "scope": {
     "pages": 82,
     "unique_external_urls": 668,
-    "occurrences": 1465
+    "occurrences": 1466
   },
   "counts": {
     "raggiungibile": 548,
@@ -856,7 +856,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -3219,7 +3219,8 @@
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
-        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
       ]
     },
     {
