@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T12:11:54.244Z",
+  "checked_at_utc": "2026-10-18T12:21:37.011Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 73,
+        "count": 74,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 73,
+        "checked": 74,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 73,
+        "checked": 74,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "67 pagine salvate per la lettura offline · controllo online 18 ott, 12:12.",
+        "status": "67 pagine salvate per la lettura offline · controllo online 18 ott, 12:22.",
         "stored": {
           "guides": 67,
-          "updated": "2026-10-18T12:12:26.580Z",
+          "updated": "2026-10-18T12:22:17.444Z",
           "bytes": 1618867,
           "includesNew09": true
         }
@@ -489,6 +489,12 @@
     },
     {
       "page": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2
