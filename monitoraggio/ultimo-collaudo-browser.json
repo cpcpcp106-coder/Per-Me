@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-18T15:26:28.885Z",
+  "checked_at_utc": "2026-10-18T15:40:05.759Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 79,
+        "count": 80,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 79,
+        "checked": 80,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 79,
+        "checked": 80,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "73 pagine salvate per la lettura offline · controllo online 18 ott, 15:27.",
+        "status": "73 pagine salvate per la lettura offline · controllo online 18 ott, 15:40.",
         "stored": {
           "guides": 73,
-          "updated": "2026-10-18T15:27:11.106Z",
-          "bytes": 1871741,
+          "updated": "2026-10-18T15:40:49.525Z",
+          "bytes": 1873780,
           "includesNew09": true
         }
       }
@@ -525,6 +525,12 @@
     },
     {
       "page": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
       "violations": [],
       "passes": 23,
       "incomplete": 2
