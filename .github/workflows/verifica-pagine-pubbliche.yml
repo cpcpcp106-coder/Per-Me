@@ -63,35 +63,23 @@ jobs:
               failed=1
             fi
           done
-          # Verifica che il codice di conteggio sia realmente pubblicato.
+          # Verifica che il nuovo codice di conteggio sia stato distribuito.
           asset_status=$(curl -L -sS --max-time 25 -o /tmp/per-me-analytics.js -w '%{http_code}' "${base}analytics.js?verifica=${GITHUB_RUN_ID}" || true)
-          if [[ "$asset_status" != "200" ]] || ! grep -q 'counterapi.com/pixel.gif' /tmp/per-me-analytics.js; then
-            echo "::error::Lo script del contatore non risulta pubblicato correttamente"
+          if [[ "$asset_status" != "200" ]] || ! grep -q 'countapi.mileshilliard.com/api/v1/hit/' /tmp/per-me-analytics.js; then
+            echo "::error::Lo script del nuovo contatore non risulta pubblicato correttamente"
             failed=1
           fi
-          # Diagnostica non bloccante: servizio esterno e CORS (lettura senza incrementare).
-          for action in visita installazione; do
-            key="per-me"
-            if [[ "$action" == "visita" ]]; then key="per-me-visite-da-zero-20261015"; fi
-            curl -sS -L --max-time 20 -H 'Origin: https://cpcpcp106-coder.github.io' \
-              -D "/tmp/per-me-${action}.headers" -o "/tmp/per-me-${action}.json" \
-              "https://counterapi.com/api/cpcpcp106-coder.github.io/${action}/${key}?readOnly=true" || true
-            echo "Contatore ${action}:"
-            head -c 250 "/tmp/per-me-${action}.json" 2>/dev/null || true
+          # Diagnostica non bloccante: sola lettura delle nuove chiavi,
+          # HTTP 404 valido se non è stato ancora registrato alcun evento.
+          for item in "visita:perme-visite-dal-20261018-43bcc26da793" "installazione:perme-installazioni-dal-20261018-43bcc26da793"; do
+            action="${item%%:*}"
+            key="${item#*:}"
+            http=$(curl -sSL --max-time 12 -H 'Origin: https://cpcpcp106-coder.github.io' \
+              -D "/tmp/per-me-${action}.headers" -o "/tmp/per-me-${action}.json" -w '%{http_code}' \
+              "https://countapi.mileshilliard.com/api/v1/get/${key}?test=${GITHUB_RUN_ID}" || true)
+            echo "Contatore ${action}: HTTP ${http} (200=valore, 404=nuova chiave vuota)"
+            head -c 200 "/tmp/per-me-${action}.json" 2>/dev/null || true
             echo
             grep -i '^access-control-allow-origin:' "/tmp/per-me-${action}.headers" || true
-          done
-          echo "Diagnostica JSONP e SVG del servizio (sola lettura):"
-          for kind in jsonp svg; do
-            if [[ "$kind" == "jsonp" ]]; then
-              url="https://counterapi.com/api/cpcpcp106-coder.github.io/visita/per-me-visite-da-zero-20261015?readOnly=true&callback=permeTest"
-            else
-              url="https://counterapi.com/counter.svg?ns=cpcpcp106-coder.github.io&action=visita&key=per-me-visite-da-zero-20261015&readOnly=true&style=big"
-            fi
-            http=$(curl -sSL --max-time 20 -D "/tmp/per-me-$kind.headers" -o "/tmp/per-me-$kind.out" -w '%{http_code}' "$url" || true)
-            echo "TEST $kind HTTP $http"
-            grep -i '^content-type:' "/tmp/per-me-$kind.headers" || true
-            head -c 220 "/tmp/per-me-$kind.out" || true
-            echo
           done
           exit "$failed"
