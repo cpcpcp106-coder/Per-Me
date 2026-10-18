@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-18T17:52:38.882089+00:00",
+  "date_utc": "2026-10-18T18:02:20.985009+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 683,
     "occurrences": 1556
   },
   "counts": {
-    "raggiungibile": 561,
-    "non_verificato_trasporto": 8,
+    "raggiungibile": 563,
     "bloccato_o_riservato": 112,
+    "non_verificato_trasporto": 6,
     "errore_http": 2
   },
   "results": [
@@ -1508,8 +1508,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/diseases--conditions/frozen-shoulder/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -5291,8 +5292,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
