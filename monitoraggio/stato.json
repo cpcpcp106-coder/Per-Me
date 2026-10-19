@@ -1,47 +1,47 @@
 {
   "busta-paga": {
     "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
-    "sha256": "e30289c8418f89cdce4a960dd221e50bbbbbb562c11b9140349c655b1294a5fa",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "c95d48965877dca67b811f56bceca6d4f660cc4a02611cdc90af47780cdfa265",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "cigo": {
     "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
-    "sha256": "2f4f5c4bf088e8a1d49058fa0f3726098a3fde4a216677e7e05033517401b163",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "b0c48115b5ad10fc4641c8d1d3f4de870c7e35a46f0a71e05d3cc6c9c4c0b340",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "fis": {
     "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
-    "sha256": "9581435dc214387db497340da20777b220939eba06497a6350bff1924b7002e8",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "39868a0f7b4712d8dcef33f76d9b4016f7db1a48009e58422a506ae2b0c0bc08",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "lavoro": {
     "url": "https://www.lavoro.gov.it/",
-    "sha256": "411aad0fda7d6d6ee61ae9c109221fb11647a27b183ac32e71ba345abcaa9790",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "2f1f8449f66bde4c37f01ffb944a24d6c9f395f71cd944e3b7efa3e72c263764",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "pensioni": {
     "url": "https://www.inps.it/",
-    "sha256": "41238550218891b7f74a4323d297a0927651a6711b7b6cfbca5a02fe83cbc944",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "f67d514b50e932e005101a664e671ca0423dee409812b58236bacc0a1e3e03f2",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "cartelle": {
     "url": "https://www.agenziaentrateriscossione.gov.it/",
-    "sha256": "05dc77bc68dd5b7424062a5e1e56531cb8352d7fb6a6ce8237cfb9f763bb02ac",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "021c2f6b95238933053427f72f4765632a7d1d40ab6b60dc9e01e927fc01b097",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "agevolazioni": {
     "url": "https://www.regione.fvg.it/",
-    "sha256": "00fb4818c534bc15b057d8a68f33dc0154655ab593ec6742ed4bf4bbe449a812",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "96b0e380b967038afe66860016070cb6abdcd8ec666eaf64eb1ff86fa80b33bd",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "salute": {
     "url": "https://www.salute.gov.it/",
-    "sha256": "b6e0d633229f4b22579e5a00a05500823ffb937bd1f8cd4a21f11697dfbb6d23",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "87a297c0d905b2a7da97b69e0f1a4592aa07fd46e173564e68a3a1d6929aa1e8",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   },
   "ai": {
     "url": "https://www.agid.gov.it/",
-    "sha256": "92518b0d5b2628f19f20e82b59838765fb149f149958f0f2ca5bbbba9bf3d9a4",
-    "last_checked": "2026-10-14T14:14:13+00:00"
+    "sha256": "0a94e365b81fc476eae49196f4fe836fdf5154106c1eab314b9df9aa26beea24",
+    "last_checked": "2026-10-19T14:40:01+00:00"
   }
 }
