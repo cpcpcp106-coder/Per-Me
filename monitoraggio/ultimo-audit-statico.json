@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-19T06:07:29+00:00",
+  "date_utc": "2026-10-19T11:31:43+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -9,7 +9,7 @@
   "links": {
     "local_occurrences": 3154,
     "external_occurrences": 1556,
-    "external_unique": 683,
+    "external_unique": 685,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
