@@ -40,7 +40,7 @@ for(const file of names){
  // I controlli tecnici non attestano una revisione professionale indipendente.
  const guidaConResponsabilita=/^(?:diabete-guida-|salute-guida-|agevolazioni-guida-|debiti-guida-|aoi-invalidita|assegno-ordinario|ccnl-|cedolino-pensione|come-leggere-busta|contributi-inps|controllare-cedolino|dal-lordo|inps-prestazione|ore-ferie|redditi-red|riesame-ricorso|stipendio-diminuito|verbale-invalidita)/.test(file);
  if(guidaConResponsabilita){
-   const crediti=[...main.matchAll(/<aside\\s+class=[\"']editorial-info[\"'][^>]*>/g)].length;
+   const crediti=[...main.matchAll(/<aside\s+class=["']editorial-info["'][^>]*>/g)].length;
    if(crediti!==1)faults.push(file+': responsabilità editoriale assente o ripetuta '+crediti);
    if(!/Responsabilit[aà] editoriale:/.test(main))faults.push(file+': ruolo del curatore non dichiarato');
    if(!/AI generativa/.test(main)||!/revisione (?:clinica|giuridica) indipendente/.test(main))faults.push(file+': metodo AI o limiti indipendenti non dichiarati');
