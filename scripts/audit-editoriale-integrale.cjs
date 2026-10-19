@@ -16,7 +16,7 @@ for(const file of names){
  const text=main.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>/gi,'').replace(/<[^>]+>/g,' ').replace(/&[a-z0-9#]+;/gi,' ').replace(/\s+/g,' ').trim();
  const words=text?text.split(' ').length:0;
  const a=[...html.matchAll(/<a\b[^>]*href=["']([^"']+)["']/gi)].map(m=>m[1]);
- const external=a.filter(x=>/^https?:/.test(x));const official=unique(external.map(x=>{try{return new URL(x).hostname}catch{return''}}).filter(x=>/\.gov\.it$|\.inps\.it$|\.salute\.gov\.it$|\.regione\.[a-z]+\.it$|\.arera\.it$|\.normattiva\.it$|\.agenziaentrateriscossione\.gov\.it$|\.trenitalia\.com$/.test(x))).length;
+ const external=a.filter(x=>/^https?:/.test(x));const official=unique(external.map(x=>{try{return new URL(x).hostname}catch{return''}}).filter(x=>/\.gov\.it$|\.inps\.it$|\.salute\.gov\.it$|\.regione\.[a-z]+\.it$|\.arera\.it$|\.normattiva\.it$|\.agenziaentrateriscossione\.gov\.it$|\.trenitalia\.com$|(^|\.)iss\.it$|(^|\.)issalute\.it$|(^|\.)who\.int$|(^|\.)cdc\.gov$|(^|\.)siditalia\.it$|(^|\.)alimentinutrizione\.it$/.test(x))).length;
  const imgs=[...html.matchAll(/<img\b[^>]*>/gi)].map(m=>m[0]);
  if(!main)faults.push(file+': nessun main');
  if(h1!==1)faults.push(file+': '+h1+' titoli H1');
