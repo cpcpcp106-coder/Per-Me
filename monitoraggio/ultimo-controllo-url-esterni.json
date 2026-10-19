@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-19T06:11:42.560237+00:00",
+  "date_utc": "2026-10-19T11:31:34.279158+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 685,
     "occurrences": 1556
   },
   "counts": {
-    "raggiungibile": 559,
-    "bloccato_o_riservato": 113,
-    "non_verificato_trasporto": 6,
-    "errore_http": 7
+    "raggiungibile": 567,
+    "bloccato_o_riservato": 112,
+    "non_verificato_trasporto": 3,
+    "errore_http": 3
   },
   "results": [
     {
@@ -196,8 +196,9 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -207,7 +208,7 @@
       "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={57BBB567-1573-4FC0-BD87-BE4D68CB1B5F}",
+      "final_url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -245,16 +246,18 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "pages": [
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html"
@@ -262,24 +265,27 @@
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html"
@@ -958,8 +964,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -3850,8 +3857,8 @@
     },
     {
       "url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -6868,8 +6875,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
