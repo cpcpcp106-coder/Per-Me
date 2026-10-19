@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-19T05:11:42.861879+00:00",
+  "date_utc": "2026-10-19T05:33:34.662743+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 681,
     "occurrences": 1554
   },
   "counts": {
-    "raggiungibile": 547,
-    "non_verificato_trasporto": 14,
+    "raggiungibile": 556,
     "bloccato_o_riservato": 112,
-    "errore_http": 8
+    "non_verificato_trasporto": 6,
+    "errore_http": 7
   },
   "results": [
     {
@@ -224,8 +224,9 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -233,8 +234,9 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -242,9 +244,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -285,16 +286,18 @@
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
     },
     {
       "url": "https://diabetes.org/about-diabetes/complications/skin-complications",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://diabetes.org/about-diabetes/complications/skin-complications",
       "pages": [
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
@@ -3136,8 +3139,9 @@
     },
     {
       "url": "https://www.cnel.it/archivio-contratti",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cnel.it/archivio-contratti",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html",
         "ccnl-inquadramento-livello-superminimo.html"
@@ -3145,8 +3149,9 @@
     },
     {
       "url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cnel.it/archivio-contratti/entra-nell-archivio/contratti-collettivi-del-settore-privato",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html"
       ]
@@ -5151,8 +5156,9 @@
     },
     {
       "url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-interdipartimentale-n-3-del-2032026",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/documenti-e-norme/normative/pagine/decreto-interdipartimentale-n-3-del-2032026",
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html"
       ]
@@ -5169,8 +5175,9 @@
     },
     {
       "url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/notizie/pagine/nuovo-isee-specifiche-prestazioni-familiari-e-linclusione",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html"
@@ -5196,8 +5203,9 @@
     },
     {
       "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
       "pages": [
         "ore-ferie-permessi-malattia-straordinari.html"
       ]
@@ -5215,8 +5223,9 @@
     },
     {
       "url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
       ]
