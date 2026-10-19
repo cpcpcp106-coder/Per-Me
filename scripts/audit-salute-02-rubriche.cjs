@@ -39,7 +39,8 @@ for(const x of ['112 o il 118','angioplastica','bypass','angina','scompenso','di
 for(const host of ['www.salute.gov.it','www.escardio.org'])assert.ok(cardiology.includes(host),'Fonti cardio mancanti: '+host);
 assert.ok(/non significa che ogni cardiopatia/i.test(cardiology),'Confusione causa diabete');
 assert.ok(diab.includes('non tutte le neuropatie')&&diab.includes('rischio aumenta'),'Differenze causali patologie non chiarite');
-assert.equal((diab.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,30,'Trenta guide diabete pianificate');
+const plannedDiabetesGuides=[...diab.matchAll(/<li\b[^>]*>\s*<strong>Guida (\d\d):<\/strong>/g)].map(match=>Number(match[1]));
+assert.deepEqual(plannedDiabetesGuides,Array.from({length:30},(_,index)=>index+1),'Trenta guide diabete, in ordine e senza numeri mancanti o duplicati');
 assert.ok(diab.includes('95 condizioni')&&diab.includes('CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2'),'Mancano repertorio critico e fonti');
 const inventory=read('FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md');
 const clinicItems=[...inventory.split('## Revisioni critiche finali')[0].matchAll(/^(\d+)\. /gm)].map(m=>Number(m[1]));
