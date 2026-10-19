@@ -1,0 +1,27 @@
+name: Per Me - Test browser contatori
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/test-contatori-browser.cjs'
+      - '.github/workflows/test-contatori-browser.yml'
+      - 'analytics.js'
+      - 'app/index.html'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  contatori-browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Installa Playwright Chromium
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Simula lettore e nuova installazione senza incrementi reali
+        run: node scripts/test-contatori-browser.cjs
