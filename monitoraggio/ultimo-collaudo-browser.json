@@ -1,12 +1,12 @@
 {
-  "checked_at_utc": "2026-10-19T06:01:07.835Z",
+  "checked_at_utc": "2026-10-19T06:05:38.445Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
     {
       "name": "home_load",
       "result": "PASS",
-      "details": "Per Me — Capire cosa fare"
+      "details": "Per Me — Guide gratuite su lavoro, pensioni, salute e diritti"
     },
     {
       "name": "home_overflow_mobile",
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "76 pagine salvate per la lettura offline · controllo online 19 ott, 06:01.",
+        "status": "76 pagine salvate per la lettura offline · controllo online 19 ott, 06:06.",
         "stored": {
           "guides": 76,
-          "updated": "2026-10-19T06:01:53.211Z",
+          "updated": "2026-10-19T06:06:24.668Z",
           "bytes": 2041501,
           "includesNew09": true
         }
@@ -106,7 +106,7 @@
       "result": "PASS",
       "details": {
         "http": 200,
-        "title": "Per Me — Capire cosa fare",
+        "title": "Per Me — Guide gratuite su lavoro, pensioni, salute e diritti",
         "url": "https://cpcpcp106-coder.github.io/Per-Me/"
       }
     },
