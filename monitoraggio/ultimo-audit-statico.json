@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-19T06:03:11+00:00",
+  "date_utc": "2026-10-19T06:07:29+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 3154,
-    "external_occurrences": 1554,
-    "external_unique": 681,
+    "external_occurrences": 1556,
+    "external_unique": 683,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1229,7 +1229,7 @@
     },
     {
       "file": "index.html",
-      "title": "Per Me — Capire cosa fare",
+      "title": "Per Me — Guide gratuite su lavoro, pensioni, salute e diritti",
       "h1": 1,
       "images": 11,
       "images_without_alt": 0,
@@ -1264,7 +1264,7 @@
       "images": 1,
       "images_without_alt": 0,
       "links_local": 14,
-      "links_external": 0,
+      "links_external": 2,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
