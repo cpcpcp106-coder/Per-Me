@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-22T11:19:30.460236+00:00",
+  "date_utc": "2026-10-22T11:25:19.765058+00:00",
   "scope": {
     "pages": 84,
-    "unique_external_urls": 684,
+    "unique_external_urls": 683,
     "occurrences": 1555
   },
   "counts": {
-    "raggiungibile": 566,
-    "bloccato_o_riservato": 112,
-    "non_verificato_trasporto": 3,
-    "errore_http": 3
+    "raggiungibile": 564,
+    "non_verificato_trasporto": 4,
+    "bloccato_o_riservato": 113,
+    "errore_http": 2
   },
   "results": [
     {
@@ -946,9 +946,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -3236,14 +3235,6 @@
       ]
     },
     {
-      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf",
-      "status": "errore_http",
-      "http": 404,
-      "pages": [
-        "dieta-mediterranea-scientifica.html"
-      ]
-    },
-    {
       "url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
       "status": "raggiungibile",
       "http": 200,
@@ -3263,6 +3254,7 @@
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "dieta-mediterranea-ricette.html",
+        "dieta-mediterranea-scientifica.html",
         "dieta-mediterranea-scientifica.html",
         "dieta-mediterranea-scientifica.html",
         "salute-guida-01-preparare-visita.html"
@@ -5300,9 +5292,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
