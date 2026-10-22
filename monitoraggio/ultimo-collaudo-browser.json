@@ -1,12 +1,12 @@
 {
-  "checked_at_utc": "2026-10-22T11:23:50.259Z",
+  "checked_at_utc": "2026-10-22T12:23:38.591Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
     {
       "name": "home_load",
       "result": "PASS",
-      "details": "Per Me — Guide gratuite su lavoro, pensioni, salute e diritti"
+      "details": "Pensioni, INPS, lavoro e salute: guide gratuite | Per Me"
     },
     {
       "name": "home_overflow_mobile",
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "76 pagine salvate per la lettura offline · controllo online 22 ott, 11:24.",
+        "status": "76 pagine salvate per la lettura offline · controllo online 22 ott, 12:24.",
         "stored": {
           "guides": 76,
-          "updated": "2026-10-22T11:24:22.151Z",
-          "bytes": 2041966,
+          "updated": "2026-10-22T12:24:15.452Z",
+          "bytes": 2041992,
           "includesNew09": true
         }
       }
@@ -106,7 +106,7 @@
       "result": "PASS",
       "details": {
         "http": 200,
-        "title": "Per Me — Guide gratuite su lavoro, pensioni, salute e diritti",
+        "title": "Pensioni, INPS, lavoro e salute: guide gratuite | Per Me",
         "url": "https://cpcpcp106-coder.github.io/Per-Me/"
       }
     },

@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-22T11:25:19.765058+00:00",
+  "date_utc": "2026-10-22T12:26:16.794684+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 683,
     "occurrences": 1555
   },
   "counts": {
-    "raggiungibile": 564,
-    "non_verificato_trasporto": 4,
+    "raggiungibile": 531,
     "bloccato_o_riservato": 113,
+    "non_verificato_trasporto": 37,
     "errore_http": 2
   },
   "results": [
@@ -196,9 +196,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -206,18 +205,16 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
@@ -226,9 +223,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -236,9 +232,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -246,18 +241,16 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html"
@@ -265,27 +258,24 @@
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html"
@@ -293,9 +283,8 @@
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
@@ -3199,9 +3188,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -3663,9 +3651,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
@@ -3673,9 +3660,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/atto/vediMenuHTML?atto.codiceRedazionale=25A03904&atto.dataPubblicazioneGazzetta=2025-07-11&tipoSerie=serie_generale&tipoVigenza=originario",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html",
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
@@ -3683,18 +3669,16 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/gu/1978/07/29/211/sg/pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/gu/1978/07/29/211/sg/pdf",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2016/01/13/16A00299/sg",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/id/2016/01/13/16A00299/sg",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
@@ -3702,9 +3686,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2024/09/27/24G00154/sg",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/id/2024/09/27/24G00154/sg",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -3712,9 +3695,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2025/02/20/25A01110/SG",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/id/2025/02/20/25A01110/SG",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
@@ -3723,9 +3705,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2025/07/11/25A03904/SG",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/id/2025/07/11/25A03904/SG",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
@@ -3733,9 +3714,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2025/12/22/25A06759/SG",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/id/2025/12/22/25A06759/SG",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
@@ -3743,9 +3723,8 @@
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
@@ -5282,9 +5261,8 @@
     },
     {
       "url": "https://www.malattierare.gov.it/malattie/dettaglio/9868",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.malattierare.gov.it/malattie/dettaglio/9868",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
@@ -5292,8 +5270,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -5736,27 +5715,24 @@
     },
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "inps-prestazione-sospesa-respinta-cosa-fare.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "aoi-invalidita-civile-differenze.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
@@ -5765,9 +5741,8 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html",
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
@@ -5777,9 +5752,8 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "come-leggere-busta-paga.html",
         "stipendio-diminuito-cosa-controllare.html"
@@ -5787,18 +5761,16 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "dal-lordo-al-netto.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "ore-ferie-permessi-malattia-straordinari.html",
         "stipendio-diminuito-cosa-controllare.html"
@@ -5806,36 +5778,32 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "dal-lordo-al-netto.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
@@ -5844,9 +5812,8 @@
     },
     {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
