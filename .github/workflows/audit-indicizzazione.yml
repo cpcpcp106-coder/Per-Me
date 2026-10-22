@@ -1,4 +1,4 @@
-name: Per Me - Indicizzazione di tutte le pagine
+name: Per Me - Verifica tecnica di indicizzabilità
 on:
   push:
     branches: [main]
@@ -16,5 +16,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: HTML, canonical, sitemap, raggiungibilità dalla home, script e robots
+      # Verifica l'indicizzabilità tecnica, non l'effettiva presenza nell'indice Google.
+      - name: HTML, canonical, sitemap, collegamenti e direttive robots
         run: python scripts/audit-indicizzazione.py
