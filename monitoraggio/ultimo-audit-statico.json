@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-19T11:31:43+00:00",
+  "date_utc": "2026-10-22T11:13:40+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3154,
+    "local_occurrences": 3163,
     "external_occurrences": 1556,
     "external_unique": 685,
     "actions": 7,
@@ -224,7 +224,7 @@
   "inventario": [
     {
       "file": "agevolazioni-diritti.html",
-      "title": "Agevolazioni e diritti | Per Me",
+      "title": "ISEE, bonus, ticket e aiuti: guide e diritti | Per Me",
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
@@ -1154,7 +1154,7 @@
     },
     {
       "file": "diabete-tipo-2.html",
-      "title": "Diabete tipo 2 | Per Me",
+      "title": "Diabete tipo 2: controlli, terapie e complicanze | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
@@ -1233,14 +1233,14 @@
       "h1": 1,
       "images": 11,
       "images_without_alt": 0,
-      "links_local": 45,
+      "links_local": 54,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 3
     },
     {
       "file": "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -1304,7 +1304,7 @@
     },
     {
       "file": "pensione-invalidita.html",
-      "title": "Pensione e invalidità | Per Me",
+      "title": "Pensione e invalidità: AOI, contributi e ricorsi INPS | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
@@ -1349,7 +1349,7 @@
     },
     {
       "file": "salute-autonomia.html",
-      "title": "Salute e autonomia | Per Me",
+      "title": "Salute e autonomia: cuore, infarto e visite | Per Me",
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
@@ -1424,7 +1424,7 @@
     },
     {
       "file": "soldi-lavoro.html",
-      "title": "Soldi & Lavoro | Per Me",
+      "title": "Busta paga, stipendio e lavoro: guide pratiche | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
