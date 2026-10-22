@@ -1,0 +1,32 @@
+name: Per Me - Verifica indicizzabilita online
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verifica-indicizzabilita-live.yml'
+  schedule:
+    - cron: '35 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Scarica il sorgente pubblicato
+        uses: actions/checkout@v4
+      - name: Configura Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Controlla tutte le pagine online, canonical, sitemap, robot e HTTP
+        run: python scripts/audit-indicizzazione.py --live --report rapporto-indicizzabilita-live.json
+      - name: Conserva il rapporto anche in caso di errori
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapporto-indicizzabilita-live
+          path: rapporto-indicizzabilita-live.json
+          retention-days: 30
+          if-no-files-found: warn
