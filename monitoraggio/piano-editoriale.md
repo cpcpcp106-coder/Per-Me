@@ -2,6 +2,12 @@
 
 **Stato aggiornato al 22 ottobre 2026.** La sezione del 15 ottobre in fondo è conservata come documento storico: contiene previsioni superate e non va utilizzata per dedurre quali guide siano ancora da pubblicare.
 
+## Intervento operativo avviato il 22 ottobre 2026
+- **Google:** verifica delle fonti ufficiali e dati Search Console disponibili: 22 impressioni e 0 clic dal 15 al 20 ottobre; il rapporto nativo di «Indicizzazione delle pagine» e le eventuali azioni manuali restano inaccessibili dagli strumenti attualmente collegati. Il connettore GSC Wizard è bloccato da fine prova; non riprovare né suggerire acquisti come soluzione tecnica. Nessun numero di URL indicizzati è stato inventato.
+- **Salute e autonomia:** predisposta **bozza non pubblicata** della nuova Guida 05 «Tornare a casa dopo un ricovero», in [`bozze/salute-guida-05-dimissione-ospedale-ritorno-casa.md`](../bozze/salute-guida-05-dimissione-ospedale-ritorno-casa.md). Fonti ministeriali individuate, da ricontrollare quando accessibili; non attribuire una revisione clinica indipendente. Le 82 pagine esistenti non vengono aumentate finché non sono concluse le verifiche.
+- **Divulgazione:** scheda PDF gratuita A4 con QR e sei accessi diretti alle guide generata per condivisione; protocollo di prova con circa cinque lettori volontari registrato in [`divulgazione/piano-pubblico-50-70-2026-10-22.md`](../divulgazione/piano-pubblico-50-70-2026-10-22.md). Nessuna comunicazione esterna effettuata.
+- **Prossima scelta prioritaria:** ottenere motivazioni del rapporto originale Search Console con un accesso autenticato, senza reiterare audit HTTP come surrogato. In parallelo, completare verifiche cliniche sulla bozza, test di leggibilità e attivare il pilot di divulgazione dopo approvazione dei destinatari.
+
 ## Quadro verificato delle otto rubriche
 - **01 Soldi & Lavoro:** 6 guide pubblicate; ancora da sviluppare i temi programmati su CIGO/CIGS/FIS, pagamenti e tutele, NASpI, fine rapporto, TFR e ricerca lavoro dopo i 50 anni. Definire le singole guide senza duplicare testi già pubblicati.
 - **02 Pensione e invalidità:** percorso di 8 guide pubblicate; attività corrente: verifica di novità INPS, scadenze e fonti.
