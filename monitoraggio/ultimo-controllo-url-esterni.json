@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-22T11:15:52.859127+00:00",
+  "date_utc": "2026-10-22T11:19:30.460236+00:00",
   "scope": {
     "pages": 84,
-    "unique_external_urls": 685,
-    "occurrences": 1556
+    "unique_external_urls": 684,
+    "occurrences": 1555
   },
   "counts": {
     "raggiungibile": 566,
     "bloccato_o_riservato": 112,
     "non_verificato_trasporto": 3,
-    "errore_http": 4
+    "errore_http": 3
   },
   "results": [
     {
@@ -900,6 +900,24 @@
       ]
     },
     {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/audit-editoriale-integrale.yml",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/audit-editoriale-integrale.yml",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/verifica-indicizzabilita-live.yml",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/verifica-indicizzabilita-live.yml",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
       "status": "raggiungibile",
       "http": 200,
@@ -918,46 +936,10 @@
       ]
     },
     {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
-      "pages": [
-        "monitoraggio.html"
-      ]
-    },
-    {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "pages": [
-        "monitoraggio.html"
-      ]
-    },
-    {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "pages": [
-        "monitoraggio.html"
-      ]
-    },
-    {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
-      "pages": [
-        "monitoraggio.html"
-      ]
-    },
-    {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
       "pages": [
         "monitoraggio.html"
       ]
@@ -2047,6 +2029,15 @@
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://wa.me/?text=Per%20Me%3A%20guide%20gratuite%20su%20pensioni%2C%20INPS%2C%20lavoro%2C%20salute%20e%20diritti%2C%20con%20fonti%20da%20verificare.%20https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://api.whatsapp.com/send/?text=Per+Me%3A+guide+gratuite+su+pensioni%2C+INPS%2C+lavoro%2C+salute+e+diritti%2C+con+fonti+da+verificare.+https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&type=custom_url&app_absent=0",
+      "pages": [
+        "index.html"
       ]
     },
     {
@@ -3769,8 +3760,9 @@
     },
     {
       "url": "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC408413",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC408413",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
