@@ -1,6 +1,24 @@
 # Per Me — Piano di divulgazione per lettori tra 50 e 70 anni
 **Avvio: 22 ottobre 2026. Stato: materiali predisposti, nessun contatto ancora inviato.**
 
+## Primo esperimento operativo approvato il 22 ottobre 2026
+**Materiale pronto:** scheda A4 divulgativa di Per Me, con QR della homepage e collegamenti cliccabili a sei guide; file PDF consegnato nella conversazione, non pubblicato sul sito. Nessuna associazione ha ancora ricevuto comunicazioni a nome del curatore.
+
+**Pubblico iniziale:** un piccolo gruppo volontario di circa 5 persone di 50–70 anni (o familiari che le aiutano). Nessuna richiesta di documenti sanitari, fiscali o personali.
+
+**Prova sul telefono in tre compiti, con tempo indicativo non imposto:**
+1. Da una pagina iniziale aperta sul telefono, trova la guida che spiega che cosa controllare se l'INPS non paga.
+2. Torna all'elenco e individua la guida per uno stipendio diminuito o una cartella.
+3. Dentro una guida, individua una fonte ufficiale e spiega con parole tue che cosa consiglia di verificare.
+
+**Scheda di osservazione anonima, un foglio per persona:** lettura agevole sì/no; parole difficili individuate; collegamento trovato senza suggerimenti sì/no; fonte individuata sì/no; osservazioni testuali volontarie. Non registrare nominativi, età esatta, diagnosi, indirizzi, redditi, recapiti né risposte su casi personali.
+
+**Primi interlocutori possibili, solo dopo scelta dei contatti e autorizzazione dell'invio:** biblioteca/punto di facilitazione digitale, associazione di promozione sociale per adulti/anziani, patronato o CAF disponibile a verificare la correttezza delle informazioni (mai attribuire patrocinio o certificazione senza consenso).
+
+**Porta d'ingresso nazionale confermata:** la pagina governativa [Rete dei servizi di facilitazione digitale](https://repubblicadigitale.gov.it/portale/progetti-del-dipartimento/rete-dei-servizi-di-facilitazione-digitale) segnala la rete territoriale e le mappe regionali; nessuna affiliazione di Per Me è dichiarata.
+
+**Esito da misurare:** numero di prove effettive, problemi concreti di usabilità da correggere, conferme di interesse realmente ricevute e traffico rilevato separando impressioni Google, clic e visite. Nessun obiettivo artificiale di iscrizioni o quantità di guide.
+
 ## Missione e pubblico
 Per Me è un progetto personale gratuito e non commerciale di orientamento pratico: pensione, AOI, lavoro, debiti, agevolazioni, salute, diabete e alfabetizzazione all'AI. Si rivolge in particolare a persone tra 50 e 70 anni e a familiari che le aiutano. Le guide non sono consulenze mediche, previdenziali, legali o fiscali individuali.
 
