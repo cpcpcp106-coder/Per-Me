@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-22T11:19:39+00:00",
+  "date_utc": "2026-10-22T11:25:31+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -9,7 +9,7 @@
   "links": {
     "local_occurrences": 3164,
     "external_occurrences": 1555,
-    "external_unique": 684,
+    "external_unique": 683,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1229,7 +1229,7 @@
     },
     {
       "file": "index.html",
-      "title": "Per Me — Guide gratuite su lavoro, pensioni, salute e diritti",
+      "title": "Pensioni, INPS, lavoro e salute: guide gratuite | Per Me",
       "h1": 1,
       "images": 11,
       "images_without_alt": 0,
@@ -1240,7 +1240,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 3
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "inps-prestazione-sospesa-respinta-cosa-fare.html",
