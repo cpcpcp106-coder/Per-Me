@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-22T11:13:30.511532+00:00",
+  "date_utc": "2026-10-22T11:15:52.859127+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 685,
@@ -7,9 +7,9 @@
   },
   "counts": {
     "raggiungibile": 566,
-    "non_verificato_trasporto": 4,
     "bloccato_o_riservato": 112,
-    "errore_http": 3
+    "non_verificato_trasporto": 3,
+    "errore_http": 4
   },
   "results": [
     {
@@ -3769,9 +3769,8 @@
     },
     {
       "url": "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC408413",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.giustizia.it/giustizia/it/mg_1_40_0.page?contentId=IGC408413",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -5309,8 +5308,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
