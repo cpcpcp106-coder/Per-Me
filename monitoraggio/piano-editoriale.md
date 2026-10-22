@@ -1,5 +1,32 @@
 # Per Me — Piano editoriale e priorità
 
+**Stato aggiornato al 22 ottobre 2026.** La sezione del 15 ottobre in fondo è conservata come documento storico: contiene previsioni superate e non va utilizzata per dedurre quali guide siano ancora da pubblicare.
+
+## Quadro verificato delle otto rubriche
+- **01 Soldi & Lavoro:** 6 guide pubblicate; ancora da sviluppare i temi programmati su CIGO/CIGS/FIS, pagamenti e tutele, NASpI, fine rapporto, TFR e ricerca lavoro dopo i 50 anni. Definire le singole guide senza duplicare testi già pubblicati.
+- **02 Pensione e invalidità:** percorso di 8 guide pubblicate; attività corrente: verifica di novità INPS, scadenze e fonti.
+- **03 Debiti e cartelle:** percorso di 9 guide pubblicate; attività corrente: monitorare scadenze, norme e fonti.
+- **04 Agevolazioni e diritti:** 8 guide nazionali e 2 approfondimenti FVG pubblicati; aggiornare requisiti, importi, bandi e distinzione nazionale/locale.
+- **05 Salute e autonomia:** 4 guide nazionali pubblicate. **Rubrica ancora aperta:** definire altri temi generali di salute e autonomia pertinenti ai lettori 50–70, senza replicare le 30 guide Diabete; validare documentazione e limiti clinici prima di estendere.
+- **06 Tutor AI essenziale:** percorso base e 6 prompt disponibili; prossimo lavoro: prove di comprensione su smartphone, non aggiungere materiale per quantità.
+- **07 Diabete tipo 2:** **30 guide pubblicate su 30**. Il percorso programmato è terminato; richiede manutenzione delle fonti e verifica clinica dei contenuti a più alto rischio, non la rigenerazione.
+- **08 Dieta mediterranea scientifica:** rubrica introduttiva e pagina ricette introduttiva disponibili; **otto guide scientifiche previste e ancora non pubblicate**. Procedere una alla volta, con dati nutrizionali e fonti CREA verificabili, evitando di confondere una pagina introduttiva con una guida completa.
+
+## Priorità operative coordinate (non attendere la fine di tutte le rubriche per iniziare la divulgazione)
+**0 — Indicizzazione reale:** leggere in Google Search Console il rapporto «Indicizzazione delle pagine», gli eventuali motivi di esclusione, le eventuali azioni manuali e il Controllo URL delle principali rubriche e di un campione rappresentativo di guide. Le 82 URL nella sitemap sono tecnicamente controllate, **non 82 URL dimostrate indicizzate**. Consultare anche i dati di rendimento per pagina e la data di aggiornamento, senza interpretare assenza di impressioni come prova di esclusione.
+
+**1 — Affidabilità, usabilità e manutenzione:** correggere incongruenze editoriali documentate, collegamenti esterni realmente non funzionanti e informazioni obsolete; dare precedenza a farmaci, emergenze, AOI, ricorsi, importi e scadenze. Sottoporre i passaggi ad alto rischio a revisori umani qualificati prima di attribuire un'approvazione professionale. Verificare la leggibilità da smartphone con lettori volontari 50–70.
+
+**2 — Divulgazione pilota:** utilizzare i materiali già predisposti in `divulgazione/piano-pubblico-50-70-2026-10-22.md`. Nessun invio né affermazione di collaborazione senza autorizzazione del curatore; favorire biblioteche, punti di facilitazione e realtà associative affidabili. Monitorare riscontri reali e navigazione senza acquisire dati sanitari.
+
+**3 — Completamento editoriale graduale delle tre rubriche aperte:** (a) prima definire il completamento di Salute e autonomia, preservando la distinzione da Diabete; (b) sviluppare le otto guide scientifiche di Dieta mediterranea con ricette solo quando le quantità sono verificabili; (c) completare progressivamente Soldi e Lavoro con NASpI/TFR/CIG e temi lavorativi dopo i 50 anni. Per ogni guida nuova: verifica documentale, revisione critica, pubblicazione solo dopo collaudi, misurazione dell'utilità. L'ordine dei singoli argomenti dipende dalle lacune documentate e dalla domanda dei lettori; non è una scadenza per chiudere il progetto.
+
+**4 — Misurazione:** confrontare finestre temporali omogenee su Google Search Console (impressioni e clic), effettive visite rilevabili e riscontri dei lettori; annotare gli interventi e non dichiarare miglioramenti prima di avere i dati.
+
+---
+
+## Archivio storico — piano del 15 ottobre 2026 (stati editoriali non aggiornati)
+
 Aggiornato: 15 ottobre 2026 — nuova priorità nazionale.
 
 ## Priorità 0 — Riorganizzazione nazionale (vincolante)
