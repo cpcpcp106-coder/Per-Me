@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-19T11:31:34.279158+00:00",
+  "date_utc": "2026-10-22T11:13:30.511532+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 685,
     "occurrences": 1556
   },
   "counts": {
-    "raggiungibile": 567,
+    "raggiungibile": 566,
+    "non_verificato_trasporto": 4,
     "bloccato_o_riservato": 112,
-    "non_verificato_trasporto": 3,
     "errore_http": 3
   },
   "results": [
@@ -3857,8 +3857,9 @@
     },
     {
       "url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -5132,9 +5133,8 @@
     },
     {
       "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html"
       ]
@@ -5309,9 +5309,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
