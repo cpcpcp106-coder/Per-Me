@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-23T20:07:25.554361+00:00",
+  "date_utc": "2026-10-23T20:18:51.092597+00:00",
   "scope": {
-    "pages": 95,
-    "unique_external_urls": 703,
-    "occurrences": 1615
+    "pages": 96,
+    "unique_external_urls": 705,
+    "occurrences": 1625
   },
   "counts": {
-    "raggiungibile": 579,
-    "bloccato_o_riservato": 118,
+    "raggiungibile": 580,
+    "bloccato_o_riservato": 119,
     "non_verificato_trasporto": 5,
     "errore_http": 1
   },
@@ -111,6 +111,7 @@
       "http": 200,
       "final_url": "https://agriculture.ec.europa.eu/farming/crops/olive-oil_it",
       "pages": [
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -897,6 +898,16 @@
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
+      "pages": [
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
       ]
     },
     {
@@ -1744,7 +1755,9 @@
       "http": 403,
       "pages": [
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
-        "dieta-guida-02-prevenzione-cardiovascolare-studi.html"
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
       ]
     },
     {
@@ -3002,6 +3015,8 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210",
       "pages": [
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
       ]
     },
@@ -3799,6 +3814,7 @@
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",
@@ -4023,6 +4039,15 @@
       "http": 403,
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/fats-in-foods",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
       ]
     },
     {
