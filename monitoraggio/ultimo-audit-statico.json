@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T15:05:32+00:00",
+  "date_utc": "2026-10-23T15:11:47+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 85,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3193,
+    "local_occurrences": 3194,
     "external_occurrences": 1562,
     "external_unique": 689,
     "actions": 7,
@@ -1458,9 +1458,9 @@
       "file": "tutor-ai-android-primi-passi.html",
       "title": "Usare una chat AI su Android: guida pratica | Per Me",
       "h1": 1,
-      "images": 1,
+      "images": 2,
       "images_without_alt": 0,
-      "links_local": 18,
+      "links_local": 19,
       "links_external": 6,
       "missing_local": 0,
       "noindex": false,
