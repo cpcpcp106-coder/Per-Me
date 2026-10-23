@@ -152,7 +152,7 @@ function addTutorCopyControls(){
  status.setAttribute('role','status');status.setAttribute('aria-live','polite');
  status.textContent='I prompt sono salvati sul telefono. Puoi copiarli anche senza connessione; per usare una chat AI normalmente serve Internet.';
  prompts[0].insertAdjacentElement('beforebegin',status);
- const names={'prompt-avviso':'avviso','prompt-messaggio':'messaggio','prompt-lista':'lista','prompt-domande':'domande per un ufficio','prompt-verifica':'verifica della fonte','prompt-correzione':'riscrittura semplice'};
+ const names={'prompt-avviso':'avviso','prompt-messaggio':'messaggio','prompt-lista':'lista','prompt-domande':'domande per un ufficio','prompt-verifica':'verifica della fonte','prompt-correzione':'riscrittura semplice','prompt-dialogo':'richiesta iniziale','prompt-correzione-dialogo':'correzione nella conversazione','prompt-fonte':'verifica fonte','prompt-citazione':'controllo riferimento','prompt-confronto':'confronto due avvisi','prompt-riassunto':'riassunto','prompt-truffa':'segnali di rischio','prompt-privacy':'privacy','prompt-persona':'domande per uno sportello','prompt-domande-professionista':'domande per un professionista'};
  for(const prompt of prompts){
   if(!Object.hasOwn(names,prompt.id))continue;
   const button=document.createElement('button');button.type='button';button.className='prompt-copy';
@@ -189,6 +189,11 @@ function openGuide(path,scroll){
  if(window.PerMeGradimento?.mount)window.PerMeGradimento.mount(element('reader-rating'),path);
  if(path==='tutor-ai.html')addTutorCopyControls();
  if(path==='tutor-ai-android-primi-passi.html')addTutorCopyControls();
+ if(path==='tutor-ai-conversazione-correzioni.html')addTutorCopyControls();
+ if(path==='tutor-ai-verifica-fonti-date.html')addTutorCopyControls();
+ if(path==='tutor-ai-riassumere-confrontare.html')addTutorCopyControls();
+ if(path==='tutor-ai-privacy-truffe.html')addTutorCopyControls();
+ if(path==='tutor-ai-quando-chiedere-aiuto.html')addTutorCopyControls();
  const fav=model.favorites.includes(path);
  element('favorite').setAttribute('aria-pressed',String(fav));element('favorite').textContent=fav?'Rimuovi dai preferiti':'Salva nei preferiti';
  if(scroll){history.replaceState(null,'','#guida='+encodeURIComponent(path));window.scrollTo({top:0})}
