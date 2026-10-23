@@ -53,6 +53,17 @@ const guide05=fs.readFileSync(path.join(root,filenames[4]),'utf8');
 assert.match(guide05,/16 ottobre al 15 dicembre 2026/i);
 const guide03=fs.readFileSync(path.join(root,filenames[2]),'utf8');
 assert.match(guide03,/I 220 giorni non sono un termine generale/i);
+// Revisione documentale del 23 ottobre 2026: controlli minimi anti-regressione.
+// Le asserzioni verificano la presenza delle avvertenze, NON validano automaticamente le norme.
+const guida06=fs.readFileSync(path.join(root,filenames[5]),'utf8');
+assert.match(guida06,/concorso simultaneo di cause diverse/i,'Guida 06 senza distinzione fra crediti');
+assert.match(guida06,/Non significa che sia sempre legittimo trattenere il 50%/i,'Guida 06 senza limite sulla regola del 50%');
+assert.match(guida06,/articolo 546 c\\.p\\.c\\./i,'Guida 06 senza rimedio per pignoramenti presso più terzi');
+assert.match(guida06,/La cessione del quinto già in corso non è un pignoramento/i,'Guida 06 senza distinzione fra cessione e pignoramento');
+const guida08=fs.readFileSync(path.join(root,filenames[7]),'utf8');
+assert.match(guida08,/articolo 70, comma 4/i,'Guida 08 senza norma sulle misure protettive');
+assert.match(guida08,/Presentare una domanda all.OCC non equivale/i,'Guida 08 senza avviso OCC non sospende');
+assert.match(guida08,/Tre anni di controlli sulle nuove utilità/i,'Guida 08 senza limite all.esdebitazione incapiente');
 const css=fs.readFileSync(path.join(root,'style.css'),'utf8');
 assert.ok(css.includes('.rubrica-debiti'),'Stili dedicati Rubrica 03');
 console.log('OK: '+inspected+' pagine HTML, 9 immagini presenti con percorsi distinti, navigazione interna e riferimenti critici.');
