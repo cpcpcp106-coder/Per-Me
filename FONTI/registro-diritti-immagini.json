@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-10-18",
+  "as_of": "2026-10-23",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -704,6 +704,46 @@
       "source_history_verified": false
     },
     {
+      "file": "assets/dieta-mediterranea-guida01-originale.webp",
+      "git_blob_sha": "283210959f282320705a99b975bbdf7671aeb981",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/98704228ed591b9cff26c08c8ab918e405f6b506 ; messaggio commit: Dieta mediterranea: fotografia originale guida 01. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/dieta-mediterranea-guida02-originale.webp",
+      "git_blob_sha": "0869943e95f7232a8177ae3b7de4f1871343ff12",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/bb5f8e40e43c3e3a9e72640fd5c3426ff6f9fd7c ; messaggio commit: Dieta Guida 02: fotografia originale WebP. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp",
+      "git_blob_sha": "8878c1be8696c6f99e2aa1b9615828830daf0376",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/8ad186a5f5e875c2fe3c7766d7f5129b3a54cda2 ; messaggio commit: Dieta Guida 04: fotografia originale crudo e cotto. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+      "git_blob_sha": "66bad1af48b0ce91059d30a321b8f76b9a263d8e",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/4c7567798eab98f4aec75217ab349eb1fc6e4f24 ; messaggio commit: Guida Dieta 05: foto originale iperrealistica olio e grassi. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
       "file": "assets/foto-1.webp",
       "git_blob_sha": "d62010f94dab5926e91bf1cbc8417501ea7fb35c",
       "licensing": "AI_CHATGPT_DICHIARATA_AUTORE",
@@ -772,6 +812,66 @@
       "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
       "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
       "source_history_verified": false
+    },
+    {
+      "file": "assets/guida-24-sonno-riserva.svg",
+      "git_blob_sha": "e221ad22c4a4084ca77f5e02a1aab5385bf80500",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 24, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/3b51e3ee871974a890ea1608bcb04859cc0c3215",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-25-salute-mentale-riserva.svg",
+      "git_blob_sha": "2948a59e4ec5c1fd7b8d9062236697b656ea2612",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 25, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/dc5ba2b44a4ee8db78a92cf7c8b09e8c570dc39f",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-26-prevenzione-oncologica-riserva.svg",
+      "git_blob_sha": "1ecad6996c7d0fa46aeeae584f178752330d1d63",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 26, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/f29ed763e7dd5caf44498c61e4c9bb87fa9416a3",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-27-ipoglicemia-emergenze-riserva.svg",
+      "git_blob_sha": "8e44524067d58111466649d38b5b63b266f671c8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 27, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/78ee28b647ccbe6f4d3e73608b57190d5146479d",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-28-revisione-terapia-riserva.svg",
+      "git_blob_sha": "c003679b691ee212c09618c63d9bd6c086fbb769",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 28, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/b7d8d39eaea742f4a85880ddf5fcefbb8025ddb4",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/guida-29-gravidanza-consulto-riserva.svg",
+      "git_blob_sha": "38af91a5e587212cbe58bb40b571c73d2fd05d6c",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "SVG vettoriale di riserva della Guida 29, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
+      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/1a13d844f311e133ebbcff30e739df226091ba74",
+      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
+      "source_history_verified": true
     },
     {
       "file": "assets/logo-per-me.png",
@@ -884,6 +984,36 @@
       "source_history_verified": false
     },
     {
+      "file": "assets/ricetta-borlotti-riso-piatto-originale-hd.webp",
+      "git_blob_sha": "fff23c62626d7fa4b408c74f1b4df440433a2a95",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/9f3444112b68145e3ff702aa64e345890b7cb5f9 ; messaggio commit: Ricetta borlotti: nuova fotografia originale in alta definizione. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/ricetta-borlotti-riso-piatto-originale.png",
+      "git_blob_sha": "8f8c650d12fd791691c97a363aeefa98193c7ac8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/cb47f733315e9212f8eae295c5ba47328e1b81c5 ; messaggio commit: Ricetta: fotografia originale del piatto borlotti e riso. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+      "git_blob_sha": "2ec3a2bb37c01fab7de887a67eb8b76b4c7fcca0",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/9cb07285fc904b9f089e268d64b8cbc7bde1b856 ; messaggio commit: Ricette Dieta: fotografia originale della zuppa di lenticchie. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
       "file": "assets/salute-guida-01-visita-medica.jpg",
       "git_blob_sha": "06c108a54aa7b1a9be31bfbf9f4d83693c0f281f",
       "licensing": "PROVENIENZA_DOCUMENTATA",
@@ -892,6 +1022,96 @@
       "provenance_evidence": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/ ; importazione documentata nel workflow GitHub 'Per Me - Importazione fotografia Salute 01' del 15 ottobre 2026 (JPEG 187916 byte)",
       "license_or_ownership": "Pexels License, uso gratuito editoriale: https://www.pexels.com/license/",
       "source_history_verified": true
+    },
+    {
+      "file": "assets/tutor-ai-android-foto-donna.webp",
+      "git_blob_sha": "34752d1e2b1b05d4013aa1e37f264788b069dae0",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/3e383c466645dadad394a7603e97d234cd879705 ; messaggio commit: Tutor AI: salva due fotografie originali iperrealistiche nel sito. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-android-foto-uomo.webp",
+      "git_blob_sha": "6825a9cec1d6fe7560d1d39a058d6599d06719ba",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/3e383c466645dadad394a7603e97d234cd879705 ; messaggio commit: Tutor AI: salva due fotografie originali iperrealistiche nel sito. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-android-originale.webp",
+      "git_blob_sha": "8bad8f150e340b6f0f50efdddd0bd524d89f7b90",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Foto illustrativa iperrealistica originale generata per la guida Tutor AI Android; rappresenta una persona fittizia. Conversions e modifiche successive documentate in GitHub.",
+      "origin": "Immagine generata con intelligenza artificiale su richiesta del progetto Per Me; versione WebP ottimizzata registrata nel repository.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/042fb37d9d19573c9b9cb157935d5ab3e5ae8652 ; fotografia originale generata nella conversazione ChatGPT del 23 ottobre 2026",
+      "license_or_ownership": "Output illustrativo prodotto per Per Me tramite generazione AI; origine registrata, nessuna attribuzione a fotografia stock. Eventuali diritti di terzi non sono verificati indipendentemente.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-base-foto-originale.webp",
+      "git_blob_sha": "fa71950cba1d1c46d29e70bb10233d5e1e3c78a4",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Immagine illustrativa generata per la pagina introduttiva Tutor AI e la card della homepage; la provenienza è supportata dal commit di creazione e da dichiarazioni editoriali, senza certificazione esterna.",
+      "origin": "Immagine generata con intelligenza artificiale, preparata per la rubrica Tutor AI del progetto Per Me.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/dd6aff00f3e7a9718192233fe99538cfecc1d1f2",
+      "license_or_ownership": "Immagine preparata per Per Me e archiviata nel repository, senza indicazione di fonte stock. Diritti e storia della generazione non revisionati indipendentemente.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-confronto-originale.webp",
+      "git_blob_sha": "2bde6bf9a1f269ea042f9e6a0d39eba6053d0e1f",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/5b8560c3356fc82be4555e99c517e3a16221f2bb ; messaggio commit: Tutor AI: cinque immagini originali per approfondimenti 2-6. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-dialogo-originale.webp",
+      "git_blob_sha": "662d8554b43465006b992f07a73f062064876ee2",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/5b8560c3356fc82be4555e99c517e3a16221f2bb ; messaggio commit: Tutor AI: cinque immagini originali per approfondimenti 2-6. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-fonti-originale.webp",
+      "git_blob_sha": "60eab50dbd396ddbd4ec42d86a2b59903457e6e1",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/5b8560c3356fc82be4555e99c517e3a16221f2bb ; messaggio commit: Tutor AI: cinque immagini originali per approfondimenti 2-6. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-professionisti-originale.webp",
+      "git_blob_sha": "5b69fdb9d86f43950c4c7bc40a5ef67e7e53caa2",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/5b8560c3356fc82be4555e99c517e3a16221f2bb ; messaggio commit: Tutor AI: cinque immagini originali per approfondimenti 2-6. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-sicurezza-originale.webp",
+      "git_blob_sha": "305e571bc287c2d4c9dbe6528068c6fa5254f203",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Registrazione retrospettiva del 23/10/2026: file pubblicato come immagine originale illustrativa di Per Me, con cronologia e impronta Git controllate. L'immagine e' descritta come generata con AI nel lavoro editoriale; la sessione originale e i diritti di eventuali terzi non sono verificati indipendentemente.",
+      "origin": "Immagine illustrativa dichiarata originale e generata con strumenti AI per il progetto Per Me; origine dichiarata nel contesto editoriale, non attestazione indipendente.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/5b8560c3356fc82be4555e99c517e3a16221f2bb ; messaggio commit: Tutor AI: cinque immagini originali per approfondimenti 2-6. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
+      "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
+      "source_history_verified": false
     },
     {
       "file": "assets/Uomo concentrato tra pratiche e calcolatrice.png",
@@ -962,86 +1182,6 @@
       "origin_evidence": "Dichiarazione diretta del responsabile del progetto del 15 ottobre 2026; non verificata una per una la chat originale di generazione",
       "license_or_ownership": "Output ChatGPT: diritti dell'utente nei confronti di OpenAI ai sensi dei Termini d'uso, nei limiti del diritto applicabile e di eventuali diritti terzi",
       "source_history_verified": false
-    },
-    {
-      "file": "assets/guida-24-sonno-riserva.svg",
-      "git_blob_sha": "e221ad22c4a4084ca77f5e02a1aab5385bf80500",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "SVG vettoriale di riserva della Guida 24, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
-      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/3b51e3ee871974a890ea1608bcb04859cc0c3215",
-      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
-      "source_history_verified": true
-    },
-    {
-      "file": "assets/guida-25-salute-mentale-riserva.svg",
-      "git_blob_sha": "2948a59e4ec5c1fd7b8d9062236697b656ea2612",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "SVG vettoriale di riserva della Guida 25, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
-      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/dc5ba2b44a4ee8db78a92cf7c8b09e8c570dc39f",
-      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
-      "source_history_verified": true
-    },
-    {
-      "file": "assets/guida-26-prevenzione-oncologica-riserva.svg",
-      "git_blob_sha": "1ecad6996c7d0fa46aeeae584f178752330d1d63",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "SVG vettoriale di riserva della Guida 26, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
-      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/f29ed763e7dd5caf44498c61e4c9bb87fa9416a3",
-      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
-      "source_history_verified": true
-    },
-    {
-      "file": "assets/guida-27-ipoglicemia-emergenze-riserva.svg",
-      "git_blob_sha": "8e44524067d58111466649d38b5b63b266f671c8",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "SVG vettoriale di riserva della Guida 27, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
-      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/78ee28b647ccbe6f4d3e73608b57190d5146479d",
-      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
-      "source_history_verified": true
-    },
-    {
-      "file": "assets/guida-28-revisione-terapia-riserva.svg",
-      "git_blob_sha": "c003679b691ee212c09618c63d9bd6c086fbb769",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "SVG vettoriale di riserva della Guida 28, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
-      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/b7d8d39eaea742f4a85880ddf5fcefbb8025ddb4",
-      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
-      "source_history_verified": true
-    },
-    {
-      "file": "assets/guida-29-gravidanza-consulto-riserva.svg",
-      "git_blob_sha": "38af91a5e587212cbe58bb40b571c73d2fd05d6c",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "SVG vettoriale di riserva della Guida 29, incluso nel progetto Per Me. Forma grafica composta da elementi SVG; non incorpora fotografie o file immagine esterni. La cronologia Git documenta l'aggiunta del codice, non è attestazione giuridica universale dell'originalità.",
-      "origin": "Illustrazione vettoriale SVG inserita direttamente come codice nel repository Per Me",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/1a13d844f311e133ebbcff30e739df226091ba74",
-      "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
-      "source_history_verified": true
-    },
-    {
-      "file": "assets/tutor-ai-android-originale.webp",
-      "git_blob_sha": "8bad8f150e340b6f0f50efdddd0bd524d89f7b90",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "Foto illustrativa iperrealistica originale generata per la guida Tutor AI Android; rappresenta una persona fittizia. Conversions e modifiche successive documentate in GitHub.",
-      "origin": "Immagine generata con intelligenza artificiale su richiesta del progetto Per Me; versione WebP ottimizzata registrata nel repository.",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/042fb37d9d19573c9b9cb157935d5ab3e5ae8652 ; fotografia originale generata nella conversazione ChatGPT del 23 ottobre 2026",
-      "license_or_ownership": "Output illustrativo prodotto per Per Me tramite generazione AI; origine registrata, nessuna attribuzione a fotografia stock. Eventuali diritti di terzi non sono verificati indipendentemente.",
-      "source_history_verified": false
-    },
-    {
-      "file": "assets/tutor-ai-base-foto-originale.webp",
-      "git_blob_sha": "fa71950cba1d1c46d29e70bb10233d5e1e3c78a4",
-      "licensing": "PROVENIENZA_DOCUMENTATA",
-      "note": "Immagine illustrativa generata per la pagina introduttiva Tutor AI e la card della homepage; la provenienza è supportata dal commit di creazione e da dichiarazioni editoriali, senza certificazione esterna.",
-      "origin": "Immagine generata con intelligenza artificiale, preparata per la rubrica Tutor AI del progetto Per Me.",
-      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/dd6aff00f3e7a9718192233fe99538cfecc1d1f2",
-      "license_or_ownership": "Immagine preparata per Per Me e archiviata nel repository, senza indicazione di fonte stock. Diritti e storia della generazione non revisionati indipendentemente.",
-      "source_history_verified": false
     }
   ],
   "notes": [
@@ -1051,6 +1191,7 @@
     "Le fotografie esterne sono registrate individualmente come stock gratuito di Pexels/Unsplash, con pagina fonte, fotografo e licenza.",
     "Per qualsiasi nuova immagine non basta la dichiarazione generale: occorre registrare evidenza individuale della fonte o generazione prima della pubblicazione.",
     "Le immagini illustrative non devono suggerire che persone reali ritratte soffrano delle patologie o condizioni sociali descritte.",
-    "18/10/2026: integrate 10 fotografie Pexels con autore/licenza verificati e 6 illustrazioni vettoriali SVG con provenienza documentata tramite commit e impronte. L'inventario non equivale a una certificazione legale assoluta."
+    "18/10/2026: integrate 10 fotografie Pexels con autore/licenza verificati e 6 illustrazioni vettoriali SVG con provenienza documentata tramite commit e impronte. L'inventario non equivale a una certificazione legale assoluta.",
+    "23/10/2026: completate retrospettivamente 14 schede per le immagini Dieta mediterranea, ricette e Tutor AI gia' pubblicate. Ogni scheda contiene blob SHA e link al commit di introduzione. La cronologia documenta esistenza e integrita', NON una verifica tecnica della sessione AI ne' una certificazione giuridica dei diritti; le dichiarazioni editoriali di provenienza restano da confermare individualmente se richiesto."
   ]
 }
