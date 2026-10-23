@@ -103,6 +103,37 @@ const expectedText=async(page,id)=>{
    }
    await page.setViewportSize({width:390,height:844});
   });
+  const nuoviApprofondimenti=[{"path":"tutor-ai-conversazione-correzioni.html","title":"Come continuare una conversazione AI e correggere gli errori"},{"path":"tutor-ai-verifica-fonti-date.html","title":"Verificare date, numeri e fonti citate dall'intelligenza artificiale"},{"path":"tutor-ai-riassumere-confrontare.html","title":"Riassumere e confrontare due testi con l'AI"},{"path":"tutor-ai-privacy-truffe.html","title":"Privacy, truffe e messaggi ingannevoli: usare l'AI in sicurezza"},{"path":"tutor-ai-quando-chiedere-aiuto.html","title":"Quando fermare l'AI e rivolgersi a un professionista"}];
+  for (const guida of nuoviApprofondimenti) {
+   await step('Sito mobile: '+guida.path,async()=>{
+    await page.goto(BASE+'tutor-ai.html',{waitUntil:'domcontentloaded'});
+    await page.locator('a[href="'+guida.path+'"]').first().click();
+    await page.waitForURL('**/'+guida.path);
+    assert.equal((await page.locator('article h1').innerText()).trim(),guida.title);
+    assert.equal(await page.locator('button[data-copy]').count(),2);
+    assert.ok(await page.locator('details summary').count()>=1);
+    const photo=page.locator('.tutor-hero img');
+    await photo.waitFor({state:'visible'});
+    await photo.evaluate(img=>img.decode());
+    const metrics=await photo.evaluate(img=>({complete:img.complete,naturalWidth:img.naturalWidth,naturalHeight:img.naturalHeight}));
+    assert.ok(metrics.naturalWidth>=450 && metrics.naturalHeight>=450,JSON.stringify(metrics));
+    for(const width of [390,320]){
+      await page.setViewportSize({width,height:740});
+      const layout=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));
+      assert.ok(layout.scroll<=layout.width+3,JSON.stringify(layout));
+      const b=await page.locator('button[data-copy]').first().boundingBox(); assert.ok(b&&b.height>=48);
+    }
+    await page.setViewportSize({width:390,height:844});
+    for(const b of await page.locator('button[data-copy]').all()){
+      const id=await b.getAttribute('data-copy');
+      const expected=await expectedText(page,id);
+      await b.click();
+      await page.waitForTimeout(60);
+      assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
+    }
+    return {title:guida.title,photo:metrics,prompts:2};
+   });
+  }
   await step('Sincronizzazione PWA comprende la pagina Tutor AI',async()=>{
    await page.goto(BASE+'app/',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>{
@@ -139,6 +170,20 @@ const expectedText=async(page,id)=>{
    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
    return {characters:expected.length};
   });
+  await step('PWA online: cinque nuovi approfondimenti, due prompt ciascuno',async()=>{
+   let checked=0;
+   for(const g of nuoviApprofondimenti){
+    await page.locator('#back').click();
+    await page.locator('#guide-list .guide-card').filter({hasText:g.title}).first().click();
+    assert.equal(await page.locator('#reader-content .prompt-copy').count(),2,g.path);
+    const p=page.locator('#reader-content blockquote[id^="prompt-"]').first();
+    const expected=(await p.locator('p').allTextContents()).map(x=>x.trim()).join('\n\n');
+    await page.locator('#reader-content .prompt-copy').first().click();
+    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected,g.path);
+    checked++;
+   }
+   return {checked,prompts:10};
+  });
   await step('PWA offline: riapertura, lettura e copia',async()=>{
    await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
    await page.goto(BASE+'app/',{waitUntil:'domcontentloaded'}); 
@@ -165,6 +210,20 @@ const expectedText=async(page,id)=>{
    await page.waitForTimeout(100);
    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
    return {characters:expected.length};
+  });
+  await step('PWA offline: cinque nuovi approfondimenti leggibili e copiabili',async()=>{
+   let checked=0;
+   for(const g of nuoviApprofondimenti){
+    await page.locator('#back').click();
+    await page.locator('#guide-list .guide-card').filter({hasText:g.title}).first().click();
+    assert.equal(await page.locator('#reader-content .prompt-copy').count(),2,g.path);
+    const p=page.locator('#reader-content blockquote[id^="prompt-"]').last();
+    const expected=(await p.locator('p').allTextContents()).map(x=>x.trim()).join('\n\n');
+    await page.locator('#reader-content .prompt-copy').last().click();
+    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected,g.path);
+    checked++;
+   }
+   return {checked,prompts:10};
   });
   await context.setOffline(false);
   await context.close();
