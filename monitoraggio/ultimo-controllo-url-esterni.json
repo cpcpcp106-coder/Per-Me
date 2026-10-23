@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T07:50:34.680555+00:00",
+  "date_utc": "2026-10-23T08:35:13.904283+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 683,
     "occurrences": 1555
   },
   "counts": {
-    "raggiungibile": 565,
-    "bloccato_o_riservato": 113,
-    "non_verificato_trasporto": 3,
+    "raggiungibile": 552,
+    "bloccato_o_riservato": 114,
+    "non_verificato_trasporto": 15,
     "errore_http": 2
   },
   "results": [
@@ -97,9 +97,8 @@
     },
     {
       "url": "https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
@@ -116,9 +115,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -126,9 +124,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -137,9 +134,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -150,9 +146,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -160,18 +155,16 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
@@ -377,9 +370,8 @@
     },
     {
       "url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
@@ -1463,9 +1455,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -1491,9 +1482,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/frozen-shoulder/",
+      "status": "errore_http",
+      "http": 520,
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -5116,8 +5106,8 @@
     },
     {
       "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
-      "status": "errore_http",
-      "http": 503,
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html"
       ]
@@ -6285,9 +6275,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA105/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA105/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
@@ -6296,9 +6285,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA33/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA33/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
@@ -6858,9 +6846,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
