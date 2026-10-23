@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-23T21:08:13.561015+00:00",
+  "date_utc": "2026-10-23T21:10:20.516823+00:00",
   "scope": {
-    "pages": 97,
-    "unique_external_urls": 712,
-    "occurrences": 1639
+    "pages": 100,
+    "unique_external_urls": 715,
+    "occurrences": 1657
   },
   "counts": {
-    "raggiungibile": 586,
+    "raggiungibile": 589,
     "bloccato_o_riservato": 120,
     "non_verificato_trasporto": 5,
     "errore_http": 1
@@ -660,6 +660,8 @@
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -744,7 +746,9 @@
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html",
         "diabete-guida-29-gravidanza-fertilita-ormoni.html",
-        "diabete-tipo-2.html"
+        "diabete-tipo-2.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html"
       ]
     },
     {
@@ -757,7 +761,9 @@
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
-        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html"
       ]
     },
     {
@@ -919,6 +925,15 @@
       ]
     },
     {
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
+      "pages": [
+        "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
+      ]
+    },
+    {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
       "http": 202,
@@ -935,6 +950,16 @@
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en",
+      "pages": [
+        "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+        "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
       ]
     },
     {
@@ -3017,6 +3042,7 @@
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html"
       ]
     },
@@ -3026,6 +3052,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155",
       "pages": [
+        "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html"
       ]
     },
@@ -3035,6 +3062,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006515",
       "pages": [
+        "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html"
       ]
     },
@@ -3055,6 +3083,7 @@
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+        "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html"
       ]
@@ -3864,6 +3893,9 @@
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+        "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+        "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html",
         "tutor-ai-android-primi-passi.html",
@@ -6803,6 +6835,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/alimenti-fini-medici-speciali-ed-integratori/etichettatura/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/alimenti-fini-medici-speciali-ed-integratori/etichettatura/",
+      "pages": [
+        "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/diabete/assistenza-alle-persone-con-diabete/",
       "status": "raggiungibile",
       "http": 200,
@@ -7209,6 +7250,7 @@
       "pages": [
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T21:06:16.777Z",
+  "checked_at_utc": "2026-10-23T21:08:49.576Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 95,
+        "count": 98,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 95,
+        "checked": 98,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 95,
+        "checked": 98,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "88 pagine salvate per la lettura offline · controllo online 23 ott, 21:07.",
+        "status": "92 pagine salvate per la lettura offline · controllo online 23 ott, 21:09.",
         "stored": {
-          "guides": 88,
-          "updated": "2026-10-23T21:07:10.283Z",
-          "bytes": 2159934,
+          "guides": 92,
+          "updated": "2026-10-23T21:09:24.274Z",
+          "bytes": 2194374,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 88
+        "count": 92
       }
     },
     {
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -582,6 +582,24 @@
       "violations": [],
       "passes": 24,
       "incomplete": 3
+    },
+    {
+      "page": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-ricette.html",
