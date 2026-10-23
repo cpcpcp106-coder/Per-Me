@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-22T12:26:28+00:00",
+  "date_utc": "2026-10-23T07:09:30+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 84,
@@ -7,7 +7,7 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3164,
+    "local_occurrences": 3173,
     "external_occurrences": 1555,
     "external_unique": 683,
     "actions": 7,
@@ -1278,7 +1278,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 16,
+      "links_local": 25,
       "links_external": 3,
       "missing_local": 0,
       "noindex": false,
