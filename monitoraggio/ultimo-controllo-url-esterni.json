@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T06:26:40.000953+00:00",
+  "date_utc": "2026-10-23T06:28:26.204546+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 683,
@@ -5308,7 +5308,7 @@
       ]
     },
     {
-      "url": "https://www.mit.gov.it/temi/casa/accesso-allabitazione",
+      "url": "https://www.mit.gov.it/temi/casa",
       "status": "non_verificato_trasporto",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
       "pages": [
