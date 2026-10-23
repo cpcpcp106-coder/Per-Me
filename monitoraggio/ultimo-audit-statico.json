@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T14:43:44+00:00",
+  "date_utc": "2026-10-23T14:59:30+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 85,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3192,
-    "external_occurrences": 1560,
-    "external_unique": 688,
+    "local_occurrences": 3193,
+    "external_occurrences": 1562,
+    "external_unique": 689,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -181,12 +181,11 @@
       "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
+      "tutor-ai-android-primi-passi.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "tutor-ai-android-primi-passi.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -212,7 +211,7 @@
       "./",
       "./index.html",
       "./app.css?v=13",
-      "./main.js?v=11",
+      "./main.js?v=12",
       "./manifest.webmanifest",
       "./icon-192.png",
       "./icon-512.png",
@@ -1462,7 +1461,7 @@
       "images": 1,
       "images_without_alt": 0,
       "links_local": 18,
-      "links_external": 5,
+      "links_external": 6,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -1476,8 +1475,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 31,
-      "links_external": 4,
+      "links_local": 32,
+      "links_external": 5,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
