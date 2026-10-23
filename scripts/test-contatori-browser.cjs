@@ -188,6 +188,31 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     network:cfNetwork.slice(beforeRequests),errors:staticErrors,
     note:'Pagina temporanea simulata nel browser, nessuna modifica al sito e nessuna metrica reale inviata'
   });
+  // Verifica se il problema è type="module" su script creato con appendChild:
+  // confronta il caricamento classico nello stesso ambiente e senza richieste reali.
+  await cfCtx.route('**/Per-Me/cf-diagnostica-classic.html',route=>route.fulfill({
+    status:200,contentType:'text/html',
+    body:`<!doctype html><html><head><meta charset="utf-8"><title>Test script classico</title>
+    <script>
+    const s=document.createElement('script');
+    s.src='https://static.cloudflareinsights.com/beacon.min.js?token=f16507f2d95944b0be1e747974750ad1';
+    document.head.appendChild(s);
+    </script></head><body>Diagnostica</body></html>`
+  }));
+  const classicPage=await cfCtx.newPage();
+  const classicErrors=[];
+  classicPage.on('pageerror',e=>classicErrors.push(String(e).slice(0,200)));
+  const beforeClassic=cfPosts;
+  await classicPage.goto(site+'cf-diagnostica-classic.html',{waitUntil:'load',timeout:35000});
+  await classicPage.waitForTimeout(2400);
+  const classicBeaconCalls=await classicPage.evaluate(()=>window.__perme_cf_attempts||[]);
+  await classicPage.goto('about:blank',{waitUntil:'load',timeout:20000});
+  await classicPage.waitForTimeout(700);
+  row('cloudflare_dynamic_classic_comparison',true,{
+    posts:cfPosts-beforeClassic,
+    sendBeaconCalls:classicBeaconCalls,errors:classicErrors,
+    note:'Script classico caricato dinamicamente: POST solo simulati'
+  });
   await cfCtx.close();
  }finally{await browser.close()}
  console.log('Diagnostica con intercettazione HTTP, nessun incremento delle chiavi reali.');
