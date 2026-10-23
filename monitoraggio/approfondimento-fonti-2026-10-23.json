@@ -11,8 +11,8 @@
     {
       "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
       "old_url": "https://www.mit.gov.it/node/18419",
-      "replacement_url": "https://www.mit.gov.it/temi/casa/accesso-allabitazione",
-      "reason": "Sostituito il riferimento numerico non verificabile con la pagina ministeriale che riguarda esplicitamente accesso all’abitazione. Pertinenza confermata nella ricerca della fonte ufficiale; richiesta diretta HTTP 503 nel controllo corrente."
+      "replacement_url": "https://www.mit.gov.it/temi/casa",
+      "reason": "Sostituito il riferimento numerico non verificabile con la sezione ministeriale Casa, pertinente alle politiche abitative e recuperata dalla ricerca ufficiale. Nessuna disponibilità HTTP 200 dichiarata per il sito ministeriale: il recupero diretto del dominio resta problematico dal controllo."
     }
   ],
   "retained": [
