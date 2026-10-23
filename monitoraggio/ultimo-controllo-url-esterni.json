@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-23T17:49:50.959162+00:00",
+  "date_utc": "2026-10-23T17:52:08.058371+00:00",
   "scope": {
-    "pages": 92,
-    "unique_external_urls": 695,
-    "occurrences": 1594
+    "pages": 93,
+    "unique_external_urls": 700,
+    "occurrences": 1600
   },
   "counts": {
-    "raggiungibile": 570,
+    "raggiungibile": 575,
     "bloccato_o_riservato": 119,
     "non_verificato_trasporto": 5,
     "errore_http": 1
@@ -2892,6 +2892,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
+      "pages": [
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000800",
       "status": "raggiungibile",
       "http": 200,
@@ -2922,6 +2931,24 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004125",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004125",
+      "pages": [
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004130",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004130",
+      "pages": [
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
       "status": "raggiungibile",
       "http": 200,
@@ -2929,6 +2956,24 @@
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006610",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006610",
+      "pages": [
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210",
+      "pages": [
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
       ]
     },
     {
@@ -3714,6 +3759,7 @@
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",
         "tutor-ai-privacy-truffe.html",

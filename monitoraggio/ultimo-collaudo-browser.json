@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T17:48:16.161Z",
+  "checked_at_utc": "2026-10-23T17:50:29.340Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 90,
+        "count": 91,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 90,
+        "checked": 91,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 90,
+        "checked": 91,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "83 pagine salvate per la lettura offline · controllo online 23 ott, 17:48.",
+        "status": "84 pagine salvate per la lettura offline · controllo online 23 ott, 17:51.",
         "stored": {
-          "guides": 83,
-          "updated": "2026-10-23T17:48:52.505Z",
-          "bytes": 2092836,
+          "guides": 84,
+          "updated": "2026-10-23T17:51:20.286Z",
+          "bytes": 2103758,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 83
+        "count": 84
       }
     },
     {
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -624,6 +624,12 @@
       "violations": [],
       "passes": 25,
       "incomplete": 2
+    },
+    {
+      "page": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 3
     },
     {
       "page": "riesame-ricorso-inps-termini.html",
