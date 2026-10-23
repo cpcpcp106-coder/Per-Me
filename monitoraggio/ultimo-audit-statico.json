@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T14:32:41+00:00",
+  "date_utc": "2026-10-23T14:43:44+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 84,
-    "editorial_pages": 82,
+    "html_total": 85,
+    "editorial_pages": 83,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3174,
-    "external_occurrences": 1555,
-    "external_unique": 683,
+    "local_occurrences": 3192,
+    "external_occurrences": 1560,
+    "external_unique": 688,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -96,6 +96,7 @@
       "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
+      "tutor-ai-android-primi-passi.html",
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
@@ -183,7 +184,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "tutor-ai-android-primi-passi.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1451,6 +1454,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 3
+    },
+    {
+      "file": "tutor-ai-android-primi-passi.html",
+      "title": "Usare una chat AI su Android: guida pratica | Per Me",
+      "h1": 1,
+      "images": 1,
+      "images_without_alt": 0,
+      "links_local": 18,
+      "links_external": 5,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
     },
     {
       "file": "tutor-ai.html",
