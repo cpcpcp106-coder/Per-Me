@@ -109,11 +109,37 @@ async function ranking(){
  report(rows.length+' articoli in classifica'+(errors?' · '+errors+(errors===1?' conteggio non disponibile.':' conteggi non disponibili.') :'.'));
 }
 window.PerMeGradimento=Object.freeze({mount});
+
+// Collegamento alla pagina Facebook ufficiale di Per Me, presente anche su smartphone.
+function facebookContact(article){
+ if(!article||article.querySelector('.perme-facebook-contact'))return;
+ const styleId='perme-facebook-contact-style';
+ if(!document.getElementById(styleId)){
+  const style=document.createElement('style');style.id=styleId;
+  style.textContent=`
+   main .article .perme-facebook-contact{margin:30px 0 28px;padding:22px 20px;border:2px solid #8ba998;border-radius:12px;background:#f0f6f1;color:#1d3529;clear:both}
+   main .article .perme-facebook-contact h2{margin:0 0 9px;padding:0;border:0;font-size:clamp(1.35rem,4vw,1.7rem);line-height:1.35;color:#183c2b}
+   main .article .perme-facebook-contact p{margin:0 0 17px;font-size:1.06rem;line-height:1.6;color:#243e30;max-width:68ch}
+   .pagina-interna .article .perme-facebook-contact a.perme-facebook-button,
+   main .article .perme-facebook-contact a.perme-facebook-button{display:inline-flex;align-items:center;justify-content:center;min-height:58px;max-width:100%;padding:13px 20px;border:2px solid #214333;border-radius:9px;background:#214333;color:#fff;text-align:center;text-decoration:none;font-family:inherit;font-size:1.13rem;font-weight:800;line-height:1.35;overflow-wrap:anywhere}
+   main .article .perme-facebook-contact a.perme-facebook-button:hover{background:#153125;color:#fff}
+   main .article .perme-facebook-contact a.perme-facebook-button:focus-visible{outline:4px solid #a9652b;outline-offset:4px}
+   @media(max-width:600px){main .article .perme-facebook-contact{padding:18px 14px}main .article .perme-facebook-contact a.perme-facebook-button{display:flex;width:100%;font-size:1.12rem}}
+  `;
+  document.head.append(style);
+ }
+ const box=document.createElement('section');box.className='perme-facebook-contact';box.setAttribute('aria-label','Commenti sulla pagina Facebook di Per Me');
+ const title=document.createElement('h2');title.textContent='Vuoi commentare questa guida?';
+ const intro=document.createElement('p');intro.textContent='Apri la pagina Facebook di Per Me. Puoi commentare un post oppure usare «Messaggio», se disponibile. Non pubblicare dati personali, documenti o informazioni sanitarie.';
+ const link=document.createElement('a');link.className='perme-facebook-button';link.href='https://www.facebook.com/PerMeGuide';link.target='_blank';link.rel='noopener noreferrer';link.textContent='Apri Per Me su Facebook e scrivi →';
+ box.append(title,intro,link);
+ article.append(box);
+}
 function boot(){
  const target=document.querySelector('main article');
  if(target&&!document.querySelector('[data-gradimento-classifica]')){
   const p=decodeURIComponent(location.pathname.split('/').pop());
-  if(valid(p)){const slot=document.createElement('div');slot.id='valuta-articolo';target.append(slot);mount(slot,p)}
+  if(valid(p)){facebookContact(target);const slot=document.createElement('div');slot.id='valuta-articolo';target.append(slot);mount(slot,p)}
  }
  ranking();
 }
