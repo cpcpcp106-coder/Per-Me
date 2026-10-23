@@ -1,4 +1,4 @@
-/* Per Me - due soli contatori di eventi dal 18 ottobre 2026.
+/* Per Me - visite/installazioni dal 18 ottobre; origini aggregate dal 23 ottobre 2026.
    API verificata in GitHub Actions: countapi.mileshilliard.com; le vecchie chiavi CounterAPI restano archiviate nella cronologia Git.
    Senza librerie e senza modifiche al service worker.
    Escludi questo browser aprendo /Per-Me/?perme_escludimi=1 */
@@ -12,6 +12,38 @@
   const COUNTER_BASE = 'https://countapi.mileshilliard.com/api/v1/hit/';
   const VISITS_KEY = 'perme-visite-dal-20261018-43bcc26da793';
   const INSTALLS_KEY = 'perme-installazioni-dal-20261018-43bcc26da793';
+  // Solo conteggi aggregati. Nessun indirizzo del visitatore o URL di provenienza viene trasmesso.
+  // Serie distinte dal 23 ottobre 2026: non ricostruiscono retroattivamente le visite.
+  const SOURCE_KEYS = Object.freeze({
+    facebook: 'perme-origine-facebook-dal-20261023-43bcc26da793',
+    google: 'perme-origine-google-dal-20261023-43bcc26da793',
+    altri: 'perme-origine-altri-dal-20261023-43bcc26da793',
+    sconosciuta: 'perme-origine-sconosciuta-dal-20261023-43bcc26da793'
+  });
+
+  function sourceForVisit() {
+    const qs = new URL(location.href).searchParams;
+    const campaign = (qs.get('utm_source') || '').trim().toLowerCase();
+    // Le app social a volte non forniscono un referrer: usa anche i tag del link.
+    if (campaign === 'facebook' || campaign === 'fb' || qs.has('fbclid')) return 'facebook';
+    if (campaign === 'google' || qs.has('gclid')) return 'google';
+    if (campaign) return 'altri';
+
+    try {
+      if (!document.referrer) return 'sconosciuta';
+      const from = new URL(document.referrer);
+      if (from.origin === location.origin) return 'sconosciuta';
+      const host = from.hostname.toLowerCase();
+      if (host === 'facebook.com' || host.endsWith('.facebook.com') ||
+          host === 'fb.com' || host.endsWith('.fb.com')) return 'facebook';
+      // Google Search in Italia e altri domini di ricerca Google più comuni.
+      if (/(^|\\.)google\\.(com|it|de|fr|es|ch|at|co\\.uk|com\\.au|ca|nl|be|pt|pl)$/.test(host))
+        return 'google';
+      return 'altri';
+    } catch (_) {
+      return 'sconosciuta';
+    }
+  }
   const OWNER_KEY = 'per-me-non-contare-questo-browser';
   const OWNER_COOKIE = 'perme_no_count';
   const VISIT_TIME_KEY = 'per-me-ultima-visita-30min-v1';
@@ -92,6 +124,10 @@
       } catch (_) {}
     }
     attemptedThisPage = track('visita', VISITS_KEY);
+    if (attemptedThisPage) {
+      const source = sourceForVisit();
+      track('origine-' + source, SOURCE_KEYS[source]);
+    }
   }
 
   visit();
