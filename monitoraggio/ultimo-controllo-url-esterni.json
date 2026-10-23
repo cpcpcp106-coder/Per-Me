@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T14:32:28.578066+00:00",
+  "date_utc": "2026-10-23T14:47:15.242559+00:00",
   "scope": {
-    "pages": 84,
-    "unique_external_urls": 683,
-    "occurrences": 1555
+    "pages": 85,
+    "unique_external_urls": 688,
+    "occurrences": 1560
   },
   "counts": {
-    "raggiungibile": 514,
-    "bloccato_o_riservato": 113,
-    "non_verificato_trasporto": 55,
+    "raggiungibile": 517,
+    "bloccato_o_riservato": 116,
+    "non_verificato_trasporto": 54,
     "errore_http": 1
   },
   "results": [
@@ -183,6 +183,14 @@
       "final_url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "tutor-ai-android-primi-passi.html"
       ]
     },
     {
@@ -959,6 +967,22 @@
       "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcpcpcp106-coder%2FPer-Me%2Fissues%2Fnew",
       "pages": [
         "metodo.html"
+      ]
+    },
+    {
+      "url": "https://help.openai.com/it-it/articles/7730893-data-controls-in-chatgpt",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "tutor-ai-android-primi-passi.html"
+      ]
+    },
+    {
+      "url": "https://help.openai.com/it-it/articles/8142208-faq-app-chatgpt-per-android",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "tutor-ai-android-primi-passi.html"
       ]
     },
     {
@@ -1934,6 +1958,24 @@
       ]
     },
     {
+      "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
+      "pages": [
+        "tutor-ai-android-primi-passi.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
+      "pages": [
+        "tutor-ai-android-primi-passi.html"
+      ]
+    },
+    {
       "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
       "status": "raggiungibile",
       "http": 200,
@@ -2152,9 +2194,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies-enti-territoriali/prospetto-informativo/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies-enti-territoriali/prospetto-informativo/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-05-rottamazione.html"
       ]
@@ -2194,8 +2235,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/",
       "pages": [
         "debiti-cartelle.html"
       ]
@@ -2211,8 +2253,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html",
@@ -2297,9 +2340,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/Proroga/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/Rateizzazione/Proroga/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-04-rateizzazione.html",
         "debiti-guida-04-rateizzazione.html"
@@ -2425,9 +2467,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-documenti-o-informazioni-su-pagamenti-e-procedure/index.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-documenti-o-informazioni-su-pagamenti-e-procedure/index.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html"
@@ -2481,8 +2522,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2525,9 +2567,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Fermo-amministrativo/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Fermo-amministrativo/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -2579,9 +2620,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/index.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-cartelle.html",
         "debiti-guida-01-leggere-cartella.html",
@@ -2604,8 +2644,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
@@ -3533,8 +3574,9 @@
     },
     {
       "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/chronic-coronary-syndromes/",
       "pages": [
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
         "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
@@ -3565,8 +3607,9 @@
     },
     {
       "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/",
       "pages": [
         "diabete-guida-08-arteriopatia-periferica-gambe.html",
         "diabete-guida-08-arteriopatia-periferica-gambe.html"

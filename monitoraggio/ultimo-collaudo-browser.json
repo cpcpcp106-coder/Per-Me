@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T14:29:10.120Z",
+  "checked_at_utc": "2026-10-23T14:44:21.540Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 82,
+        "count": 83,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 82,
+        "checked": 83,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 82,
+        "checked": 83,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "76 pagine salvate per la lettura offline · controllo online 23 ott, 14:29.",
+        "status": "76 pagine salvate per la lettura offline · controllo online 23 ott, 14:45.",
         "stored": {
           "guides": 76,
-          "updated": "2026-10-23T14:29:57.691Z",
+          "updated": "2026-10-23T14:45:00.999Z",
           "bytes": 2042525,
           "includesNew09": true
         }
@@ -657,6 +657,12 @@
     },
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-android-primi-passi.html",
       "violations": [],
       "passes": 25,
       "incomplete": 2
