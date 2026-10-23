@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-23T20:45:54.248441+00:00",
+  "date_utc": "2026-10-23T20:53:02.860157+00:00",
   "scope": {
     "pages": 96,
     "unique_external_urls": 707,
-    "occurrences": 1630
+    "occurrences": 1631
   },
   "counts": {
-    "raggiungibile": 578,
-    "bloccato_o_riservato": 123,
+    "raggiungibile": 581,
+    "bloccato_o_riservato": 120,
     "non_verificato_trasporto": 5,
     "errore_http": 1
   },
@@ -988,8 +988,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -5032,6 +5033,7 @@
         "aoi-invalidita-civile-differenze.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "riesame-ricorso-inps-termini.html",
+        "riesame-ricorso-inps-termini.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -7083,8 +7085,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -7092,8 +7095,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
