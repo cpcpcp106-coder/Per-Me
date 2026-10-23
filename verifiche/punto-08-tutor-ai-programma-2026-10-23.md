@@ -2,7 +2,7 @@
 
 **Data:** 23 ottobre 2026  
 **Ambito:** rubrica 06 «Tutor AI essenziale», pubblico principale 50–70 anni e familiari che aiutano, in tutta Italia.  
-**Stato complessivo (aggiornato al 23 ottobre):** percorso base pubblicato e sei approfondimenti realizzati e collegati (Android più cinque lezioni); verifiche automatiche in corso dopo l'ampliamento; collaudi con lettori reali 50–70 anni e su dispositivi Android fisici non eseguiti.
+**Stato complessivo (aggiornato al 23 ottobre):** percorso base pubblicato e sei approfondimenti realizzati e collegati (Android più cinque lezioni); audit statico dei cinque approfondimenti superato; collaudo browser completo ancora da chiudere; collaudi con lettori reali 50–70 anni e su dispositivi Android fisici non eseguiti.
 
 ## 1. Stato verificato: distinguere quanto esiste da quanto resta da fare
 
@@ -136,3 +136,12 @@ Le cinque guide seguenti sono state create, collegate al percorso introduttivo e
 **Accessibilità e PWA:** testi leggibili anche con immagine non caricata, pulsanti grandi, due prompt copiabili in ogni approfondimento e soluzioni espandibili. I testi possono essere letti e copiati offline dopo una sincronizzazione online. Le immagini non sono incluse nel lettore offline di solo testo, coerentemente con l'impostazione PWA del progetto. Sono stati aggiornati `tutor-ai.html`, `app/main.js`, `app/index.html`, `app/sw.js`, `sitemap.xml` e il collaudo `monitoraggio/collaudo_tutor_mobile.cjs`.
 
 **Prove ancora necessarie:** effettiva facilità di lettura, comprensione e capacità di svolgere gli esercizi da parte di volontari 50–70 anni; eventuali impedimenti su un Android fisico; aggiornamento futuro dei riferimenti alle piattaforme. Non dichiarare risultati non osservati.
+
+
+## 10. Audit dell'ampliamento pubblicato
+
+Nel workflow GitHub Actions [Verifica approfondimenti Tutor AI — esecuzione 39988226621](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/39988226621) il controllo statico dell'intera serie 2–6 si è concluso con **successo**. Il controllo verifica: presenza di cinque immagini originali, cinque URL collegate dalla rubrica e dalla sitemap, 10 corrispondenze pulsante/testo, script di copia sintatticamente valido, indicazioni privacy, soluzioni di autovalutazione, titolo H1 e canonical, attivazione della copia nel lettore PWA, coerenza della versione JavaScript e della cache.
+
+Le pagine pubbliche sono state verificate tramite lettura delle URL, dei titoli, del canonical, del robots `index,follow` e dei cinque collegamenti alle rispettive immagini originali. La pubblicazione GitHub Pages della versione contenutistica è risultata **success** nell'esecuzione [39987690124](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/39987690124).
+
+**Limite:** il controllo statico non dimostra che un lettore capisca le spiegazioni. Non prova il funzionamento su un dispositivo Android reale e non sostituisce test completi nel browser emulato. Non dichiarare questi collaudi superati se il loro workflow non è concluso con successo.
