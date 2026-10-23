@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T19:10:24+00:00",
+  "date_utc": "2026-10-23T19:53:31+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 93,
-    "editorial_pages": 91,
+    "html_total": 94,
+    "editorial_pages": 92,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3376,
-    "external_occurrences": 1600,
-    "external_unique": 700,
+    "local_occurrences": 3397,
+    "external_occurrences": 1607,
+    "external_unique": 701,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -80,6 +80,7 @@
       "diabete-tipo-2.html",
       "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -201,7 +202,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1208,6 +1211,21 @@
       "images_without_alt": 0,
       "links_local": 20,
       "links_external": 9,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "title": "Carboidrati, fibre, indice e carico glicemico: guida pratica | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 21,
+      "links_external": 7,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
