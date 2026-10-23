@@ -29,6 +29,14 @@ Conseguenza dimostrata: **Per Me ha generato impressioni nella Ricerca Google**,
 - La somma 19+17 = 36 **non coincide con il totale property-level di 22**: le aggregazioni di Search Console a livello proprietà e pagina possono trattare le impressioni e il raggruppamento diversamente. **Non sostituire mai il totale 22 con la somma 36**. Una posizione media si riferisce alle impressioni osservate, non a una classifica fissa del sito su tutte le parole chiave.
 - La query per termini di ricerca ha restituito un elenco vuoto: **non significa zero ricerche**, perché dati per singola query possono essere limitati o anonimizzati.
 
+## Contesto dei risultati: dispositivi e Paesi delle impressioni
+Query sullo stesso periodo disponibile 14–21 ottobre 2026, sempre dalla proprietà Google Search Console via Windsor.ai:
+
+- **Dispositivi:** 20 impressioni su desktop e 2 su mobile; 0 clic in entrambe le categorie.
+- **Paesi della ricerca:** Italia 18 impressioni, Stati Uniti 3, Brasile 1; 0 clic in tutte le categorie.
+- Il totale per dispositivi e Paesi è 22 impressioni. Questi numeri **non** sono visite, non identificano i lettori e **non** descrivono la provenienza geografica dei visitatori Cloudflare.
+- Con così poche impressioni non si possono trarre conclusioni affidabili sulle preferenze dei lettori 50–70, né sulla qualità mobile. I test di usabilità restano necessari.
+
 ## Sitemap: cosa possiamo dimostrare e cosa no
 - Il sorgente `sitemap.xml` sul ramo `main` è stato verificato rispetto all'albero dei file. Contiene **99 URL**, senza duplicati e senza URL che puntino a file assenti. Include la homepage canonica `/Per-Me/`, la PWA `/Per-Me/app/`, le nuove Guide Dieta 06–08, la seconda ricetta con fotografia, e la Guida Salute 05.
 - Le 100 pagine HTML nella radice includono `index.html`, rappresentato dalla URL canonica della homepage `/Per-Me/`; per questo **100 HTML e 99 URL in sitemap non sono una contraddizione**. La PWA ha una URL di directory specifica.
