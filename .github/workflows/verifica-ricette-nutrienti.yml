@@ -1,0 +1,26 @@
+name: Per Me - Controllo carboidrati e calorie ricette
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'dieta-*.html'
+      - 'ricetta-*.html'
+      - 'index.html'
+      - 'sitemap.xml'
+      - 'assets/dieta-mediterranea-guida02-originale.webp'
+      - 'scripts/verifica-ricetta-carbo-calorie.cjs'
+      - '.github/workflows/verifica-ricette-nutrienti.yml'
+permissions:
+  contents: read
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica quantità, nutrienti per porzione e fonte CREA
+        run: node scripts/verifica-ricetta-carbo-calorie.cjs
