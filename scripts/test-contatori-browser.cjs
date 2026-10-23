@@ -158,9 +158,9 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   // caricamento, registrando separatamente se il beacon avrebbe trasmesso.
   const loaded=cfNetwork.some(x=>x.type==='response' &&
     x.path==='/beacon.min.js' && x.status===200);
-  row('cloudflare_real_js_downloaded',loaded,
+  row('cloudflare_real_js_posts_intercepted',loaded && cfPosts>=1,
     {loaded,attemptedPosts:cfPosts,sendBeaconAttempts:cfBeaconAttempts,context:cfState,network:cfNetwork,errors:cfErrors,
-     note:'I POST non sono criterio di successo nei browser automatizzati: nessun evento reale inviato.'});
+     note:'Verifica invio HTTP POST reale intercettato dal test: nessuna statistica trasmessa al fornitore.'});
   // Controllo comparativo con la configurazione HTML statica ufficiale:
   // stessa origine di Per Me, stesso browser, script caricato come nella dashboard.
   // La risposta HTML è simulata e non esiste alcuna pagina nuova sul sito.
