@@ -1,0 +1,807 @@
+{
+  "checked_at_utc": "2026-10-22T10:40:10+00:00",
+  "completed_at_utc": "2026-10-22T10:42:12+00:00",
+  "previous_checked_at_utc": "2026-10-19T14:40:01+00:00",
+  "scope": "Riesame dei soli URL esterni segnalati da verificare nel rapporto del 19 ottobre; una richiesta per indirizzo, senza aggirare limitazioni di accesso.",
+  "previous_flagged_count": 118,
+  "counts": {
+    "accesso_non_verificabile": 54,
+    "raggiungibile": 59,
+    "reindirizzamento_da_verificare": 1,
+    "non_trovato": 1,
+    "errore_http_da_verificare": 3
+  },
+  "results": [
+    {
+      "url": "https://academic.oup.com/cid/article/68/10/e83/5407612",
+      "checked_at_utc": "2026-10-22T10:40:10+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/39/21/1883/4939241",
+      "checked_at_utc": "2026-10-22T10:40:10+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/44/38/3720/7243210",
+      "checked_at_utc": "2026-10-22T10:40:10+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/44/39/4043/7238227",
+      "checked_at_utc": "2026-10-22T10:40:10+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/45/36/3314/7738779",
+      "checked_at_utc": "2026-10-22T10:40:10+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/45/36/3538/7738955",
+      "checked_at_utc": "2026-10-22T10:40:10+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/47/32/4357/8719720",
+      "checked_at_utc": "2026-10-22T10:40:16+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://academic.oup.com/eurheartj/article/47/38/5346/8766302",
+      "checked_at_utc": "2026-10-22T10:40:16+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/33/7/1674/39273/Diabetes-and-CancerA-consensus-report",
+      "checked_at_utc": "2026-10-22T10:40:16+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/40/1/136/37160/Diabetic-Neuropathy-A-Position-Statement-by-the",
+      "checked_at_utc": "2026-10-22T10:40:16+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S132/163927/6-Glycemic-Goals-Hypoglycemia-and-Hyperglycemic",
+      "checked_at_utc": "2026-10-22T10:40:16+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S183/163934/9-Pharmacologic-Approaches-to-Glycemic-Treatment",
+      "checked_at_utc": "2026-10-22T10:40:16+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163928/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+      "checked_at_utc": "2026-10-22T10:40:20+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932/5-Facilitating-Positive-Health-Behaviors-and-Well",
+      "checked_at_utc": "2026-10-22T10:40:20+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://diabetesjournals.org/care/issue/49/Supplement_1",
+      "checked_at_utc": "2026-10-22T10:40:21+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3644",
+      "checked_at_utc": "2026-10-22T10:40:21+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3646",
+      "checked_at_utc": "2026-10-22T10:40:21+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3647",
+      "checked_at_utc": "2026-10-22T10:40:21+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3657",
+      "checked_at_utc": "2026-10-22T10:40:21+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1002/dmrr.3686",
+      "checked_at_utc": "2026-10-22T10:40:21+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1056/NEJMoa1800389",
+      "checked_at_utc": "2026-10-22T10:40:25+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1093/cid/ciad527",
+      "checked_at_utc": "2026-10-22T10:40:31+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1093/eurheartj/ehad191",
+      "checked_at_utc": "2026-10-22T10:40:31+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1093/eurheartj/ehae177",
+      "checked_at_utc": "2026-10-22T10:40:31+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1111/jdv.70638",
+      "checked_at_utc": "2026-10-22T10:40:31+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1161/CIR.0000000000001251",
+      "checked_at_utc": "2026-10-22T10:40:31+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000375",
+      "checked_at_utc": "2026-10-22T10:40:38+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000418",
+      "checked_at_utc": "2026-10-22T10:40:38+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000513",
+      "checked_at_utc": "2026-10-22T10:40:40+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.1161/STR.0000000000000530",
+      "checked_at_utc": "2026-10-22T10:40:40+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc20-0204",
+      "checked_at_utc": "2026-10-22T10:40:40+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S002",
+      "checked_at_utc": "2026-10-22T10:40:41+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S003",
+      "checked_at_utc": "2026-10-22T10:40:47+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S004",
+      "checked_at_utc": "2026-10-22T10:40:47+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S005",
+      "checked_at_utc": "2026-10-22T10:40:47+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S006",
+      "checked_at_utc": "2026-10-22T10:40:47+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S007",
+      "checked_at_utc": "2026-10-22T10:40:49+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S009",
+      "checked_at_utc": "2026-10-22T10:40:49+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S010",
+      "checked_at_utc": "2026-10-22T10:40:56+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S011",
+      "checked_at_utc": "2026-10-22T10:40:56+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S012",
+      "checked_at_utc": "2026-10-22T10:40:56+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S013",
+      "checked_at_utc": "2026-10-22T10:40:56+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S015",
+      "checked_at_utc": "2026-10-22T10:40:56+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dc26-S016",
+      "checked_at_utc": "2026-10-22T10:40:56+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dci21-0043",
+      "checked_at_utc": "2026-10-22T10:41:05+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dci24-0032",
+      "checked_at_utc": "2026-10-22T10:41:05+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dci25-0012",
+      "checked_at_utc": "2026-10-22T10:41:05+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://doi.org/10.2337/dci26-0141",
+      "checked_at_utc": "2026-10-22T10:41:05+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://drc.bmj.com/content/3/1/e000082",
+      "checked_at_utc": "2026-10-22T10:41:05+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://drc.bmj.com/content/3/1/e000082"
+    },
+    {
+      "url": "https://e-justice.europa.eu/topics/taking-legal-action/legal-aid/it_it?ITALY=&member=1",
+      "checked_at_utc": "2026-10-22T10:41:05+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://e-justice.europa.eu/topics/taking-legal-action/legal-aid/it_it?ITALY=&member=1"
+    },
+    {
+      "url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
+      "checked_at_utc": "2026-10-22T10:41:10+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth"
+    },
+    {
+      "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
+      "checked_at_utc": "2026-10-22T10:41:13+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/2024-guideline-for-the-management-of-lower-extremity-peripheral-artery-disease/top-things-to-know",
+      "checked_at_utc": "2026-10-22T10:41:15+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://professional.heart.org/en/science-news/2024-guideline-for-the-management-of-lower-extremity-peripheral-artery-disease/top-things-to-know"
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know",
+      "checked_at_utc": "2026-10-22T10:41:16+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know"
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/core-components-of-cardiac-rehabilitation-programs-2024-update/top-things-to-know",
+      "checked_at_utc": "2026-10-22T10:41:20+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://professional.heart.org/en/science-news/core-components-of-cardiac-rehabilitation-programs-2024-update/top-things-to-know"
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/management-of-central-retinal-artery-occlusion",
+      "checked_at_utc": "2026-10-22T10:41:20+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://professional.heart.org/en/science-news/management-of-central-retinal-artery-occlusion"
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/orthostatic-hypotension-in-adults-with-hypertension",
+      "checked_at_utc": "2026-10-22T10:41:20+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://professional.heart.org/en/science-news/orthostatic-hypotension-in-adults-with-hypertension"
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/secondary-prevention-after-coronary-artery-bypass-graft-surgery-2026-update/top-things-to-know",
+      "checked_at_utc": "2026-10-22T10:41:20+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://professional.heart.org/en/science-news/secondary-prevention-after-coronary-artery-bypass-graft-surgery-2026-update/top-things-to-know"
+    },
+    {
+      "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
+      "checked_at_utc": "2026-10-22T10:41:20+00:00",
+      "status": "reindirizzamento_da_verificare",
+      "http": 307
+    },
+    {
+      "url": "https://unsplash.com/photos/elderly-couple-using-a-laptop-together-at-home-Gi8-DM56n6Y",
+      "checked_at_utc": "2026-10-22T10:41:20+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 401
+    },
+    {
+      "url": "https://www.aaojournal.org/article/S0161-6420%2824%2900784-X/fulltext",
+      "checked_at_utc": "2026-10-22T10:41:24+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000003985",
+      "checked_at_utc": "2026-10-22T10:41:24+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://www.bmj.com/content/364/bmj.l341",
+      "checked_at_utc": "2026-10-22T10:41:24+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.bmj.com/content/364/bmj.l341"
+    },
+    {
+      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf",
+      "checked_at_utc": "2026-10-22T10:41:25+00:00",
+      "status": "non_trovato",
+      "http": 404
+    },
+    {
+      "url": "https://www.heart.org/-/media/files/health-topics/answers-by-heart/how-can-i-recover-from-heart-surgery.pdf",
+      "checked_at_utc": "2026-10-22T10:41:25+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.heart.org/-/media/files/health-topics/answers-by-heart/how-can-i-recover-from-heart-surgery.pdf"
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/diabetes/symptoms-diagnosis--monitoring-of-diabetes/heart-health-tests-for-diabetes-patients",
+      "checked_at_utc": "2026-10-22T10:41:28+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.heart.org/en/health-topics/diabetes/symptoms-diagnosis--monitoring-of-diabetes/heart-health-tests-for-diabetes-patients"
+    },
+    {
+      "url": "https://www.heart.org/en/health-topics/infective-endocarditis",
+      "checked_at_utc": "2026-10-22T10:41:29+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.heart.org/en/health-topics/infective-endocarditis"
+    },
+    {
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2023.04.003",
+      "checked_at_utc": "2026-10-22T10:41:30+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://www.jacc.org/doi/10.1016/j.jacc.2026.03.056",
+      "checked_at_utc": "2026-10-22T10:41:32+00:00",
+      "status": "accesso_non_verificabile",
+      "http": 403
+    },
+    {
+      "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "checked_at_utc": "2026-10-22T10:41:34+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1"
+    },
+    {
+      "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
+      "checked_at_utc": "2026-10-22T10:41:34+00:00",
+      "status": "errore_http_da_verificare",
+      "http": 503
+    },
+    {
+      "url": "https://www.mit.gov.it/node/13118",
+      "checked_at_utc": "2026-10-22T10:41:35+00:00",
+      "status": "errore_http_da_verificare",
+      "http": 503
+    },
+    {
+      "url": "https://www.mit.gov.it/node/18419",
+      "checked_at_utc": "2026-10-22T10:41:36+00:00",
+      "status": "errore_http_da_verificare",
+      "http": 503
+    },
+    {
+      "url": "https://www.pexels.com/it-it/foto/medico-visita-un-paziente-anziano-in-un-moderno-studio-medico-39192353/",
+      "checked_at_utc": "2026-10-22T10:41:36+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/it-it/foto/medico-visita-un-paziente-anziano-in-un-moderno-studio-medico-39192353/"
+    },
+    {
+      "url": "https://www.pexels.com/license/",
+      "checked_at_utc": "2026-10-22T10:41:36+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/license/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-cardiologist-examining-a-patient-undergoing-cardiac-stress-test-8460228/",
+      "checked_at_utc": "2026-10-22T10:41:39+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-cardiologist-examining-a-patient-undergoing-cardiac-stress-test-8460228/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-couple-sitting-at-a-doctor-s-clinic-7108332/",
+      "checked_at_utc": "2026-10-22T10:41:41+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-couple-sitting-at-a-doctor-s-clinic-7108332/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-doctor-checking-a-patient-s-ecg-results-8460126/",
+      "checked_at_utc": "2026-10-22T10:41:41+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-doctor-checking-a-patient-s-ecg-results-8460126/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/",
+      "checked_at_utc": "2026-10-22T10:41:41+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-person-giving-an-elderly-man-an-eye-examination-7179233/",
+      "checked_at_utc": "2026-10-22T10:41:41+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-person-giving-an-elderly-man-an-eye-examination-7179233/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-tablet-with-a-magnifier-7446660/",
+      "checked_at_utc": "2026-10-22T10:41:41+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-tablet-with-a-magnifier-7446660/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-therapist-examining-a-patient-8313180/",
+      "checked_at_utc": "2026-10-22T10:41:41+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-therapist-examining-a-patient-8313180/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-woman-holding-a-clipboard-8962383/",
+      "checked_at_utc": "2026-10-22T10:41:45+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-woman-holding-a-clipboard-8962383/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-woman-holding-an-insulin-injection-pen-7653692/",
+      "checked_at_utc": "2026-10-22T10:41:45+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-woman-holding-an-insulin-injection-pen-7653692/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/a-woman-talking-to-her-doctor-4266930/",
+      "checked_at_utc": "2026-10-22T10:41:45+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/a-woman-talking-to-her-doctor-4266930/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/adult-man-sleeping-8860200/",
+      "checked_at_utc": "2026-10-22T10:41:45+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/adult-man-sleeping-8860200/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/adult-woman-holding-a-white-medicine-bottle-8657372/",
+      "checked_at_utc": "2026-10-22T10:41:45+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/adult-woman-holding-a-white-medicine-bottle-8657372/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/an-elderly-man-consulting-an-insurance-agent-8441780/",
+      "checked_at_utc": "2026-10-22T10:41:45+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/an-elderly-man-consulting-an-insurance-agent-8441780/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/black-ceramic-bowl-with-chickpeas-11058247/",
+      "checked_at_utc": "2026-10-22T10:41:49+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/black-ceramic-bowl-with-chickpeas-11058247/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/close-up-of-dentist-patient-5622033/",
+      "checked_at_utc": "2026-10-22T10:41:49+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/close-up-of-dentist-patient-5622033/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/close-up-of-person-using-a-blood-glucose-monitor-11391942/",
+      "checked_at_utc": "2026-10-22T10:41:49+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/close-up-of-person-using-a-blood-glucose-monitor-11391942/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/close-up-shot-of-a-medical-equipment-7108362/",
+      "checked_at_utc": "2026-10-22T10:41:49+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/close-up-shot-of-a-medical-equipment-7108362/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/couple-and-social-worker-sitting-at-table-9870140/",
+      "checked_at_utc": "2026-10-22T10:41:49+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/couple-and-social-worker-sitting-at-table-9870140/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-and-his-patient-lying-on-the-bed-with-her-hand-on-the-stomach-6285389/",
+      "checked_at_utc": "2026-10-22T10:41:49+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/doctor-and-his-patient-lying-on-the-bed-with-her-hand-on-the-stomach-6285389/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-and-patient-reviewing-brain-mri-results-39192336/",
+      "checked_at_utc": "2026-10-22T10:41:54+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/doctor-and-patient-reviewing-brain-mri-results-39192336/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-checking-man-blood-pressure-7108334/",
+      "checked_at_utc": "2026-10-22T10:41:54+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/doctor-checking-man-blood-pressure-7108334/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/doctor-examining-stomach-with-ultrasound-16388112/",
+      "checked_at_utc": "2026-10-22T10:41:54+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/doctor-examining-stomach-with-ultrasound-16388112/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-man-checking-his-blood-pressure-8900022/",
+      "checked_at_utc": "2026-10-22T10:41:54+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/elderly-man-checking-his-blood-pressure-8900022/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-man-patient-looking-at-his-doctor-8413300/",
+      "checked_at_utc": "2026-10-22T10:41:54+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/elderly-man-patient-looking-at-his-doctor-8413300/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-man-patient-talking-at-his-doctor-8413410/",
+      "checked_at_utc": "2026-10-22T10:41:54+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/elderly-man-patient-talking-at-his-doctor-8413410/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/",
+      "checked_at_utc": "2026-10-22T10:41:58+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/elderly-woman-reading-a-document-7545331/",
+      "checked_at_utc": "2026-10-22T10:41:58+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/elderly-woman-reading-a-document-7545331/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/",
+      "checked_at_utc": "2026-10-22T10:41:58+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/leg-of-patient-on-bed-13185359/",
+      "checked_at_utc": "2026-10-22T10:41:58+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/leg-of-patient-on-bed-13185359/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/man-walking-at-railway-station-23720159/",
+      "checked_at_utc": "2026-10-22T10:41:58+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/man-walking-at-railway-station-23720159/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/medical-consultation-with-doctor-examining-foot-33934620/",
+      "checked_at_utc": "2026-10-22T10:41:58+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/medical-consultation-with-doctor-examining-foot-33934620/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/men-and-woman-waiting-at-bus-stop-15965909/",
+      "checked_at_utc": "2026-10-22T10:42:02+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/men-and-woman-waiting-at-bus-stop-15965909/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/mother-and-child-sitting-at-the-table-8035972/",
+      "checked_at_utc": "2026-10-22T10:42:02+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/mother-and-child-sitting-at-the-table-8035972/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/optometrist-examining-patient-with-slit-lamp-32209715/",
+      "checked_at_utc": "2026-10-22T10:42:03+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/optometrist-examining-patient-with-slit-lamp-32209715/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/people-woman-sitting-technology-7088531/",
+      "checked_at_utc": "2026-10-22T10:42:03+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/people-woman-sitting-technology-7088531/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/person-holding-a-container-6520138/",
+      "checked_at_utc": "2026-10-22T10:42:03+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/person-holding-a-container-6520138/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/",
+      "checked_at_utc": "2026-10-22T10:42:03+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/person-s-hand-in-latex-gloves-holding-a-glucometer-6823568/",
+      "checked_at_utc": "2026-10-22T10:42:07+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/person-s-hand-in-latex-gloves-holding-a-glucometer-6823568/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/vegetable-salad-on-plate-1059905/",
+      "checked_at_utc": "2026-10-22T10:42:07+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/vegetable-salad-on-plate-1059905/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/woman-in-red-and-white-dress-figurine-7723384/",
+      "checked_at_utc": "2026-10-22T10:42:07+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/woman-in-red-and-white-dress-figurine-7723384/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/woman-on-a-procedure-in-a-clinic-5619447/",
+      "checked_at_utc": "2026-10-22T10:42:07+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/woman-on-a-procedure-in-a-clinic-5619447/"
+    },
+    {
+      "url": "https://www.pexels.com/photo/woman-with-diabetes-wearing-a-cgm-device-on-her-arm-17947693/",
+      "checked_at_utc": "2026-10-22T10:42:07+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pexels.com/photo/woman-with-diabetes-wearing-a-cgm-device-on-her-arm-17947693/"
+    },
+    {
+      "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms",
+      "checked_at_utc": "2026-10-22T10:42:07+00:00",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.stroke.org/en/about-stroke/stroke-symptoms"
+    }
+  ],
+  "limitations": [
+    "401, 403 e 429 non dimostrano che il collegamento sia rotto per il lettore.",
+    "Un errore TLS o di connessione non dimostra l’assenza del documento.",
+    "Un HTTP 200 dimostra il recupero dal controllo, non la correttezza scientifica o normativa della fonte.",
+    "Il riesame non sostituisce un nuovo controllo di tutti i collegamenti del sito."
+  ],
+  "correzioni": [
+    {
+      "old_url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf",
+      "old_http": 404,
+      "content_type": "application/pdf",
+      "document_signature": "%PDF",
+      "verified_at_utc": "2026-10-22T10:46:04+00:00",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ],
+      "reason": "Nome del file errato: GUIDE invece di GUIDA. Documento corretto individuato anche dalla pagina istituzionale CREA delle linee guida 2018. Il sito pubblicato usa la pagina istituzionale con il collegamento al PDF, conservando la modifica più recente.",
+      "verified_pdf_url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf",
+      "verified_pdf_http": 200,
+      "replacement_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
+      "replacement_http": 200,
+      "published_by_commit": "272bea4"
+    }
+  ]
+}

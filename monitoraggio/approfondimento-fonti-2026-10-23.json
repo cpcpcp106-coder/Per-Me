@@ -1,0 +1,33 @@
+{
+  "checked_at_utc": "2026-10-23T06:23:43.229302+00:00",
+  "scope": "Approfondimento dei quattro indirizzi rimasti da chiarire nel riesame del 22 ottobre; accesso alle fonti confrontato con recupero dai risultati web delle rispettive istituzioni.",
+  "changes": [
+    {
+      "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "old_url": "https://www.mit.gov.it/node/13118",
+      "replacement_url": "https://www.mit.gov.it/urp-domande-frequenti",
+      "reason": "La fonte indicizzata è la pagina URP domande frequenti. Usato il percorso descrittivo ufficiale per rendere chiara la destinazione. Contenuto del bonus e scadenza 28 ottobre confermati nella fonte ministeriale recuperata via ricerca; richiesta diretta HTTP 503 nel controllo corrente."
+    },
+    {
+      "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "old_url": "https://www.mit.gov.it/node/18419",
+      "replacement_url": "https://www.mit.gov.it/temi/casa/accesso-allabitazione",
+      "reason": "Sostituito il riferimento numerico non verificabile con la pagina ministeriale che riguarda esplicitamente accesso all’abitazione. Pertinenza confermata nella ricerca della fonte ufficiale; richiesta diretta HTTP 503 nel controllo corrente."
+    }
+  ],
+  "retained": [
+    {
+      "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
+      "reason": "Pagina istituzionale pertinente recuperata dalla ricerca. Il 503 diretto non dimostra che il documento sia assente; non sostituito con fonti estranee."
+    },
+    {
+      "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
+      "reason": "Il controllo diretto riceve 307 con richiesta JavaScript. Il contenuto Alimentazione è stato recuperato dalla ricerca web della fonte e corrisponde al tema della guida; non classificato come collegamento inesistente."
+    }
+  ],
+  "limitations": [
+    "Nessuna modifica normativa o clinica introdotta da questo intervento.",
+    "Le nuove pagine MIT non sono dichiarate HTTP 200: il recupero diretto resta non verificabile dal controllo.",
+    "Un collegamento esterno sostituito non dimostra che sia risolta l’indicizzazione su Google."
+  ]
+}

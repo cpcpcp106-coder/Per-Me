@@ -1,0 +1,14 @@
+{
+  "checked_at_utc": "2026-10-22T08:59:09.997603+00:00",
+  "public_pages": 82,
+  "reachable_from_home": 82,
+  "live_addresses_checked": 88,
+  "http_200": 88,
+  "issues": [],
+  "scope": "Controllo del 22 ottobre di accesso HTTP, collegamenti HTML dalla home, canonici, direttive robots e sitemap; include le varianti di indirizzo e le pagine tecniche nel conteggio degli indirizzi verificati.",
+  "limitations": [
+    "Non misura le pagine effettivamente indicizzate da Google.",
+    "Non certifica ogni affermazione scientifica o normativa.",
+    "Non equivale a certificazione di accessibilità."
+  ]
+}

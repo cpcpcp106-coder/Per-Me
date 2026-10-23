@@ -1,33 +1,102 @@
 <!doctype html>
-<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><meta name="description" content="Come Per Me monitora le fonti istituzionali e distingue i cambiamenti delle pagine dalle modifiche normative."><title>Monitoraggio delle fonti | Per Me</title><link rel="stylesheet" href="style.css?v=audit-20261015"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="canonical" href="https://cpcpcp106-coder.github.io/Per-Me/monitoraggio.html"><script defer src="analytics.js?v=2"></script></head>
+<html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="index,follow"><meta name="description" content="Le verifiche di Per Me: date, pagine controllate, fonti raggiungibili, collegamenti da verificare e limiti delle revisioni."><title>Monitoraggio delle fonti | Per Me</title><link rel="stylesheet" href="style.css?v=audit-20261015"><link rel="icon" type="image/x-icon" href="favicon.ico"><link rel="canonical" href="https://cpcpcp106-coder.github.io/Per-Me/monitoraggio.html"><script defer src="analytics.js?v=2"></script>
+<style>.monitor-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:24px 0}.monitor-card{border:1px solid #b9cbbf;border-radius:12px;background:#f1f6f0;padding:20px;color:#203a2e}.monitor-card strong{display:block;font-size:2rem;line-height:1.25;margin-bottom:8px}.monitor-card span{font-size:1.15rem;line-height:1.5}.monitor-section{margin:32px 0}.monitor-section h2{margin-top:0}.monitor-date{font-weight:700}.monitor-archive summary{cursor:pointer;font-size:1.2rem;font-weight:750;min-height:48px;padding:12px 0}.monitor-archive a{overflow-wrap:anywhere}@media(max-width:600px){.monitor-grid{grid-template-columns:1fr}.monitor-card{padding:18px}}</style></head>
 <body class="pagina-interna"><a class="skip" href="#contenuto">Vai al contenuto</a><header data-shared="per-me"><div class="wrap top"><a class="brand" href="index.html"><img class="brand-logo" src="assets/logo-per-me.png" width="86" height="86" alt="" decoding="async">Per Me</a><nav aria-label="Navigazione principale"><a href="index.html">Home</a><a href="index.html#rubriche">Rubriche</a><a href="metodo.html">Il metodo</a><a href="chi-siamo.html">Il progetto</a></nav></div></header>
-<main class="wrap" id="contenuto"><article class="article"><p class="eyebrow">Trasparenza editoriale</p><h1>Controllo delle fonti</h1><p class="lead">Il blog verifica periodicamente che le proprie fonti siano raggiungibili e segnala se i documenti monitorati sono cambiati.</p><p><strong>Attenzione:</strong> la variazione tecnica di una pagina non dimostra una modifica della legge. Una fonte irraggiungibile può dipendere da un problema temporaneo del sito.</p>
-<div id="monitor-stato" class="note" role="status">Rapporto non ancora disponibile. Il controllo iniziale deve essere eseguito da GitHub Actions.</div>
-<div id="monitor-risultati"></div>
-<section class="note" aria-labelledby="audit-qualita-titolo">
-<h2 id="audit-qualita-titolo">Verifiche: dati tecnici e limiti · 22 ottobre 2026</h2>
-<p><strong>Indicizzazione Google non ancora accertata pagina per pagina.</strong> La presenza di una pagina nella sitemap, la risposta HTTP 200 e gli esiti verdi di GitHub non provano che Google l'abbia indicizzata. Per i motivi di eventuale esclusione occorre il rapporto <em>Indicizzazione delle pagine</em> e il <em>Controllo URL</em> di Google Search Console.</p>
-<p><strong>Controllo online del 22 ottobre:</strong> verificati 88 URL con 82 pagine collegate dalla home e nessun errore tecnico rilevato in quel collaudo. Dopo l'intervento sulla pagina iniziale e sui metadati, i controlli statici e l'audit editoriale GitHub sono stati nuovamente eseguiti con esito positivo; i collaudi online successivi vanno letti separatamente, senza confonderli con l'indicizzazione Google.</p>
-<p><a href="https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/verifica-indicizzabilita-live.yml" target="_blank" rel="noopener noreferrer">Apri i controlli online aggiornati di HTTP, canonical e sitemap su GitHub ↗</a>.</p>
-<p><a href="https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/audit-editoriale-integrale.yml" target="_blank" rel="noopener noreferrer">Apri i controlli automatici editoriali ↗</a>. Questi controlli <strong>non equivalgono a una validazione sanitaria o giuridica indipendente</strong>.</p>
-<p><strong>Rapporto storico del 15 ottobre 2026:</strong> la valutazione provvisoria 67/100 riguardava soltanto 36 documenti HTML e 23 guide esaminati in quella fase. Non è un voto attuale del progetto e non costituisce un controllo completo delle guide pubblicate successivamente.</p>
-<p><a href="https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md" target="_blank" rel="noopener noreferrer">Consulta il rapporto storico e i suoi limiti ↗</a> · <a href="metodo.html">Come distinguiamo fonti, revisioni e verifiche</a>.</p>
-</section>
+<main class="wrap" id="contenuto"><article class="article"><p class="eyebrow">Trasparenza editoriale</p><h1>Controllo delle fonti</h1>
+<p class="lead">Qui indichiamo che cosa abbiamo controllato, quando lo abbiamo fatto e quali dubbi restano aperti.</p>
+<p>Riuscire ad aprire una fonte non dimostra che tutte le affermazioni di una guida siano corrette. Una pagina cambiata non prova che sia cambiata una legge. Le verifiche cliniche o giuridiche indipendenti, quando disponibili, devono essere dichiarate esplicitamente.</p>
+<section class="monitor-section" aria-labelledby="verifica-tecnica-titolo"><h2 id="verifica-tecnica-titolo">Verifica tecnica del sito</h2><p class="monitor-date">22 ottobre 2026</p>
+<div class="monitor-grid"><div class="monitor-card"><strong>82</strong><span>Pagine pubbliche raggiungibili dalla home</span></div><div class="monitor-card"><strong>0</strong><span>Anomalie nei controlli tecnici eseguiti</span></div></div>
+<p>Sono stati controllati accesso alle pagine, collegamenti interni, indirizzi canonici, direttive di indicizzazione e sitemap. Le 82 pagine pubbliche sono collegate dalla home e il controllo sul sito pubblicato ha restituito risposte positive.</p>
+<p><strong>Limiti:</strong> questi controlli non certificano l'indicizzazione su Google, l'assenza di ogni problema di accessibilità o la correttezza scientifica e normativa di ogni frase. Non assegniamo un voto complessivo al sito.</p>
+<p><a href="https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/verifica-indicizzabilita-live.yml" target="_blank" rel="noopener noreferrer">Controlli online aggiornati su GitHub ↗</a> · <a href="https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/audit-editoriale-integrale.yml" target="_blank" rel="noopener noreferrer">Controlli automatici editoriali ↗</a>. Ogni esecuzione va letta con la propria data e il proprio perimetro.</p><p><a href="monitoraggio/verifica-tecnica-2026-10-22.json">Dati e perimetro della verifica tecnica del 22 ottobre</a></p></section>
+<section class="monitor-section" aria-labelledby="riesame-fonti-titolo"><h2 id="riesame-fonti-titolo">Collegamenti esterni: il riesame del 22 ottobre</h2>
+<p>Abbiamo ricontrollato i <strong>118 indirizzi</strong> che il rapporto automatico del 19 ottobre segnalava come da verificare. Il riesame riguarda quel gruppo: non sostituisce un nuovo controllo di tutte le fonti del sito.</p>
+<p>È stato sostituito un collegamento errato al PDF delle linee guida CREA nella rubrica <a href="dieta-mediterranea-scientifica.html">Dieta mediterranea scientifica</a>: l'indirizzo precedente restituiva 404; ora il collegamento porta alla pagina ufficiale CREA che presenta le linee guida e permette di scaricare il documento.</p>
+<div id="riesame-risultati" aria-live="polite"><p>Gli esiti dettagliati, con le risposte ricevute, sono disponibili nel rapporto del riesame.</p></div>
+<p><strong>Come leggere gli esiti:</strong> 401, 403 e 429 indicano che il controllo non ha potuto verificare l'accesso. Non dimostrano che il documento sia assente per chi legge. Errori di connessione, certificati o reindirizzamenti restano da valutare separatamente. Un 404 o 410 segnala che l'indirizzo non è stato trovato nel controllo.</p>
+<p><a href="monitoraggio/riesame-collegamenti-2026-10-22.json">Esiti del riesame e correzione documentata</a></p><p><strong>Approfondimento del 23 ottobre:</strong> aggiornati due riferimenti ministeriali nella <a href="agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html#fonti">guida su affitto e sfratto</a>, usando i percorsi descrittivi delle pagine ufficiali. Il recupero diretto del Ministero restituisce ancora un errore dal controllo: non lo presentiamo come accesso risolto. Il contenuto della pagina SID Alimentazione risulta recuperabile tramite la ricerca web e non è stato considerato assente.</p><p><a href="monitoraggio/approfondimento-fonti-2026-10-23.json">Fonti, modifiche e limiti dell’approfondimento del 23 ottobre</a></p></section>
+<section class="monitor-section" aria-labelledby="fonti-monitorate-titolo"><h2 id="fonti-monitorate-titolo">Monitoraggio automatico delle fonti</h2>
+<p>Il monitor segue un gruppo di fonti e controlla i collegamenti presenti nei documenti esaminati. La data e il perimetro del suo rapporto sono distinti dalla verifica tecnica delle 82 pagine pubbliche.</p>
+<p id="monitor-stato" class="note" role="status">Il rapporto automatico è disponibile dal collegamento qui sotto. Quando i dettagli vengono caricati, qui compaiono la data e il riepilogo.</p><div id="monitor-risultati"></div>
+<p><a href="monitoraggio/ultimo-controllo.json">Apri l'ultimo rapporto automatico</a></p></section>
+<section class="monitor-section" aria-labelledby="archivio-verifiche-titolo"><h2 id="archivio-verifiche-titolo">Le verifiche precedenti</h2>
+<p>Le verifiche del 15 ottobre riguardavano un sito più piccolo e controlli parziali. Sono conservate con la loro data e non rappresentano una valutazione aggiornata di tutte le pagine attuali.</p>
+<details class="monitor-archive"><summary>Consulta i rapporti del 15 ottobre</summary>
+<p>Il controllo statico di allora comprendeva 36 documenti HTML e 23 guide; il controllo documentale riguardava 62 affermazioni selezionate. Le prove automatiche di accessibilità e funzionamento dell'app avevano un perimetro distinto. Non costituiscono una revisione professionale indipendente dell'intero sito.</p>
+<p><a href="https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md">Rapporto di completamento del 15 ottobre</a></p>
+<p><a href="monitoraggio/ultimo-collaudo-browser.json">Rapporto delle prove nel browser, con la relativa data</a></p>
+<p><a href="monitoraggio/ultimo-controllo-url-esterni.json">Rapporto esteso dei collegamenti esterni, con la relativa data</a></p>
+<p><a href="monitoraggio/audit-2026-10-15-fatti.json">Affermazioni selezionate e fonti del controllo del 15 ottobre</a></p>
+<p><a href="monitoraggio/audit-storico.json">Storico delle verifiche</a></p></details></section>
 <p><a href="metodo.html">Come verifichiamo le informazioni</a> · <a href="index.html">Torna alla homepage</a></p></article></main><footer data-shared="per-me"><div class="wrap">Per Me · Guide gratuite per tutta Italia · <a href="metodo.html">Fonti e limiti</a> · <a href="chi-siamo.html">Il progetto</a></div></footer>
 <script>
-(async()=>{
-const status=document.getElementById('monitor-stato'),target=document.getElementById('monitor-risultati');
-try{
-const response=await fetch('monitoraggio/ultimo-controllo.json?no-cache='+Date.now(),{cache:'no-store'});
-if(!response.ok)throw Error('Rapporto non ancora pubblicato');
-const report=await response.json();
-const ts=new Date(report.checked_at_utc);
-status.textContent='Ultima esecuzione: '+(Number.isNaN(ts.getTime())?report.checked_at_utc:ts.toLocaleString('it-IT'))+'. Collego i risultati alle fonti ma non approvo automaticamente modifiche normative.';
-const h=document.createElement('h2');h.textContent='Fonti monitorate';target.append(h);
-const list=document.createElement('ul');
-for(const entry of report.fonti||[]){const li=document.createElement('li');li.textContent=entry.rubrica+' — '+entry.id+': '+entry.status.replaceAll('_',' ');list.append(li)}target.append(list);
-const p=document.createElement('p');p.textContent='Collegamenti interni problematici: '+(report.collegamenti_locali_problematici||[]).length+'. Link esterni da verificare: '+(report.collegamenti_esterni||[]).filter(x=>x.status!=='raggiungibile').length+'.';target.append(p);
-}catch(e){status.textContent='Il primo rapporto automatico non è ancora disponibile. Verifica la scheda Actions del repository.'}
+(() => {
+  'use strict';
+  const dateText = value => {
+    const date = new Date(value);
+    return Number.isNaN(date.getTime()) ? 'data non disponibile' : date.toLocaleString('it-IT', {timeZone: 'Europe/Rome'});
+  };
+  const paragraph = (target, text) => {
+    const element = document.createElement('p');
+    element.textContent = text;
+    target.append(element);
+  };
+  const loadAutomatic = async () => {
+    const status = document.getElementById('monitor-stato');
+    const target = document.getElementById('monitor-risultati');
+    try {
+      const response = await fetch('monitoraggio/ultimo-controllo.json', {cache: 'no-store'});
+      if (!response.ok) throw new Error('Rapporto non caricato');
+      const report = await response.json();
+      const sources = Array.isArray(report.fonti) ? report.fonti : [];
+      const external = Array.isArray(report.collegamenti_esterni) ? report.collegamenti_esterni : [];
+      status.textContent = 'Ultimo controllo automatico: ' + dateText(report.checked_at_utc) + ', ora italiana.';
+      const pages = Number.isInteger(report.pagine_controllate) ? report.pagine_controllate : 'non indicato';
+      paragraph(target, 'Perimetro del monitor: ' + pages + ' documenti esaminati, comprese eventuali pagine di servizio; ' + sources.length + ' fonti monitorate e ' + external.length + ' indirizzi esterni controllati.');
+      const issues = Array.isArray(report.collegamenti_locali_problematici) ? report.collegamenti_locali_problematici.length : 'non indicati';
+      const pending = external.filter(entry => entry.status !== 'raggiungibile').length;
+      paragraph(target, 'Collegamenti interni segnalati: ' + issues + '. Indirizzi esterni da verificare in questo rapporto: ' + pending + '. Per il riesame del 22 ottobre consulta la sezione precedente.');
+      if (sources.length) {
+        const labels = {variata: 'pagina cambiata, contenuto da confrontare', invariata: 'nessuna variazione tecnica rilevata', prima_verifica: 'prima rilevazione', non_raggiungibile: 'accesso non verificato'};
+        const list = document.createElement('ul');
+        for (const entry of sources) {
+          const item = document.createElement('li');
+          item.textContent = (entry.rubrica || 'Fonte monitorata') + ' — ' + (entry.id || '').replaceAll('-', ' ') + ': ' + (labels[entry.status] || 'esito da verificare');
+          list.append(item);
+        }
+        target.append(list);
+      }
+    } catch (error) {
+      status.textContent = 'I dettagli automatici non si sono caricati in questa apertura. Il rapporto resta consultabile dal collegamento qui sotto; questo esito non significa che non sia mai stato eseguito.';
+    }
+  };
+  const loadReview = async () => {
+    const target = document.getElementById('riesame-risultati');
+    try {
+      const response = await fetch('monitoraggio/riesame-collegamenti-2026-10-22.json', {cache: 'no-store'});
+      if (!response.ok) throw new Error('Riesame non caricato');
+      const report = await response.json();
+      if (!Array.isArray(report.results)) throw new Error('Riesame incompleto');
+      target.replaceChildren();
+      paragraph(target, 'Riesame completato: ' + dateText(report.completed_at_utc) + ', ora italiana. Indirizzi ricontrollati: ' + report.results.length + '.');
+      const labels = {raggiungibile: 'Raggiungibili', accesso_non_verificabile: 'Accesso non verificabile dal controllo', non_trovato: 'Indirizzi non trovati nel controllo', connessione_non_verificabile: 'Connessione non verificabile', reindirizzamento_da_verificare: 'Reindirizzamenti da verificare', errore_http_da_verificare: 'Altre risposte da verificare'};
+      const list = document.createElement('ul');
+      for (const [key, label] of Object.entries(labels)) {
+        const count = report.results.filter(entry => entry.status === key).length;
+        if (!count) continue;
+        const item = document.createElement('li');
+        item.textContent = label + ': ' + count + '.';
+        list.append(item);
+      }
+      target.append(list);
+      const fixes = Array.isArray(report.correzioni) ? report.correzioni.length : 0;
+      if (fixes) paragraph(target, 'Correzioni documentate e applicate al sito: ' + fixes + '. I vecchi indirizzi restano nel rapporto per rendere verificabile l’errore riscontrato.');
+    } catch (error) {
+      paragraph(target, 'Il riepilogo dettagliato non si è caricato in questa apertura. Puoi consultare il rapporto del riesame dal collegamento qui sotto.');
+    }
+  };
+  loadAutomatic();
+  loadReview();
 })();
-</script>
-</body></html>
+</script></body></html>
