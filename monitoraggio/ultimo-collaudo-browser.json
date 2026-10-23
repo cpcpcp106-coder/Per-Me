@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T20:57:30.036Z",
+  "checked_at_utc": "2026-10-23T21:06:16.777Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 94,
+        "count": 95,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 94,
+        "checked": 95,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 94,
+        "checked": 95,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "88 pagine salvate per la lettura offline · controllo online 23 ott, 20:58.",
+        "status": "88 pagine salvate per la lettura offline · controllo online 23 ott, 21:07.",
         "stored": {
           "guides": 88,
-          "updated": "2026-10-23T20:58:21.434Z",
+          "updated": "2026-10-23T21:07:10.283Z",
           "bytes": 2159934,
           "includesNew09": true
         }
@@ -648,6 +648,12 @@
       "violations": [],
       "passes": 26,
       "incomplete": 3
+    },
+    {
+      "page": "ricetta-zuppa-lenticchie-patate-carote.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
     },
     {
       "page": "riesame-ricorso-inps-termini.html",

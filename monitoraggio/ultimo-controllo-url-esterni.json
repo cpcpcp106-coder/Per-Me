@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-23T20:58:59.665026+00:00",
+  "date_utc": "2026-10-23T21:08:13.561015+00:00",
   "scope": {
-    "pages": 96,
-    "unique_external_urls": 710,
-    "occurrences": 1634
+    "pages": 97,
+    "unique_external_urls": 712,
+    "occurrences": 1639
   },
   "counts": {
-    "raggiungibile": 584,
+    "raggiungibile": 586,
     "bloccato_o_riservato": 120,
     "non_verificato_trasporto": 5,
     "errore_http": 1
@@ -3016,7 +3016,26 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
-        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "ricetta-zuppa-lenticchie-patate-carote.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155",
+      "pages": [
+        "ricetta-zuppa-lenticchie-patate-carote.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006515",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006515",
+      "pages": [
+        "ricetta-zuppa-lenticchie-patate-carote.html"
       ]
     },
     {
@@ -3036,7 +3055,8 @@
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
-        "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+        "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+        "ricetta-zuppa-lenticchie-patate-carote.html"
       ]
     },
     {
@@ -3845,6 +3865,7 @@
         "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+        "ricetta-zuppa-lenticchie-patate-carote.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",
         "tutor-ai-privacy-truffe.html",
