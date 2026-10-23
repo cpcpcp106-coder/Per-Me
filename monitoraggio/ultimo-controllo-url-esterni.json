@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T16:58:12.182658+00:00",
+  "date_utc": "2026-10-23T17:01:22.482974+00:00",
   "scope": {
-    "pages": 90,
-    "unique_external_urls": 690,
-    "occurrences": 1579
+    "pages": 91,
+    "unique_external_urls": 691,
+    "occurrences": 1585
   },
   "counts": {
-    "raggiungibile": 568,
-    "non_verificato_trasporto": 6,
+    "raggiungibile": 570,
     "bloccato_o_riservato": 115,
+    "non_verificato_trasporto": 5,
     "errore_http": 1
   },
   "results": [
@@ -618,6 +618,8 @@
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-tipo-2.html",
+        "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+        "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -3305,6 +3307,8 @@
       "pages": [
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+        "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+        "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-mediterranea-ricette.html",
         "dieta-mediterranea-scientifica.html",
         "dieta-mediterranea-scientifica.html",
@@ -3691,6 +3695,7 @@
       "http": 200,
       "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
+        "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",
         "tutor-ai-privacy-truffe.html",
@@ -5370,8 +5375,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -6519,6 +6525,15 @@
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/",
+      "pages": [
+        "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html"
       ]
     },
     {
