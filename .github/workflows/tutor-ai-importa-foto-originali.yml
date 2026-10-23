@@ -1,0 +1,48 @@
+name: Per Me - Importa immagini originali Tutor AI
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/tutor-ai-importa-foto-originali.yml'
+permissions:
+  contents: write
+jobs:
+  import-original-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scarica immagini originali e crea file WebP ottimizzati
+        env:
+          SOURCE_WOMAN: 'https://sdmntprukwest.oaiusercontent.com/files/00000000-caf0-8243-b34c-d305ee193e89/raw?se=2026-10-23T16%3A17%3A46Z&sp=r&sv=2026-02-06&sr=b&scid=b53b1800-b6c4-5084-a49e-a03f5de50bd5&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T05%3A12%3A41Z&ske=2026-10-24T05%3A12%3A41Z&sks=b&skv=2026-02-06&sig=p6SpnRDVvtUClUNPzA9SzXNCj6DWHePsHOvYjzERyLQ%3D'
+          SOURCE_MAN: 'https://sdmntprindiasocentral.oaiusercontent.com/files/00000000-2bfc-8211-b969-7f8f9c77d514/raw?se=2026-10-23T16%3A17%3A54Z&sp=r&sv=2026-02-06&sr=b&scid=32a20437-5c08-56d1-84cc-f4102baf1613&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T04%3A50%3A53Z&ske=2026-10-24T04%3A50%3A53Z&sks=b&skv=2026-02-06&sig=XIMbXrDQbJVa0tpZZlhvydhpDbb5glNLvfL3HptAooE%3D'
+        run: |
+          set -euo pipefail
+          python -m pip -q install pillow
+          curl --fail --location --retry 2 --max-time 100 "$SOURCE_WOMAN" --output /tmp/tutor-donna.png
+          curl --fail --location --retry 2 --max-time 100 "$SOURCE_MAN" --output /tmp/tutor-uomo.png
+          python - <<'PY'
+          from PIL import Image
+          for source, output in [
+              ('/tmp/tutor-donna.png','assets/tutor-ai-android-foto-donna.webp'),
+              ('/tmp/tutor-uomo.png','assets/tutor-ai-android-foto-uomo.webp')
+          ]:
+              im=Image.open(source).convert('RGB')
+              assert min(im.size)>=1000, im.size
+              im.thumbnail((1250,1250),Image.Resampling.LANCZOS)
+              im.save(output,'WEBP',quality=81,method=6)
+              import os
+              print('IMMAGINE_IMPORTATA',output,im.size,os.stat(output).st_size)
+          PY
+      - name: Archivia foto in repo e rimuovi workflow temporaneo
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/tutor-ai-android-foto-donna.webp assets/tutor-ai-android-foto-uomo.webp
+          git rm .github/workflows/tutor-ai-importa-foto-originali.yml
+          git commit -m "Tutor AI: salva due fotografie originali iperrealistiche nel sito"
+          git push
