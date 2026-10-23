@@ -73,6 +73,36 @@ const expectedText=async(page,id)=>{
    return {width,scrollWidth:d.scroll,copyButtonHeight:bounds.height};
   });
   await page.setViewportSize({width:390,height:844});
+  await step('Tutor AI Android: pagina raggiungibile dalla rubrica',async()=>{
+   await page.goto(BASE+'tutor-ai.html',{waitUntil:'domcontentloaded'});
+   await page.locator('a[href="tutor-ai-android-primi-passi.html"]').first().click();
+   await page.waitForURL('**/tutor-ai-android-primi-passi.html');
+   assert.match(await page.locator('article h1').innerText(),/Android/);
+   assert.equal(await page.locator('blockquote#prompt-avviso').count(),1);
+   return {url:page.url()};
+  });
+  await step('Tutor AI Android: copia reale del nuovo esempio',async()=>{
+   const expected=await expectedText(page,'prompt-avviso');
+   await page.locator('button#copia-android').click();
+   await page.waitForTimeout(100);
+   assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
+   assert.match(await page.locator('#copia-stato').innerText(),/copiato/i);
+   return {characters:expected.length};
+  });
+  await step('Tutor AI Android: soluzione toccabile e due larghezze',async()=>{
+   const details=page.locator('details').first();
+   await details.locator('summary').click();
+   assert.equal(await details.evaluate(el=>el.open),true);
+   await details.locator('summary').click();
+   for(const width of [390,320]){
+    await page.setViewportSize({width,height:720});
+    const d=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth}));
+    assert.ok(d.scroll<=d.width+3,JSON.stringify(d));
+    const button=await page.locator('#copia-android').boundingBox();
+    assert.ok(button&&button.height>=48);
+   }
+   await page.setViewportSize({width:390,height:844});
+  });
   await step('Sincronizzazione PWA comprende la pagina Tutor AI',async()=>{
    await page.goto(BASE+'app/',{waitUntil:'domcontentloaded'});
    await page.waitForFunction(()=>{
@@ -99,6 +129,16 @@ const expectedText=async(page,id)=>{
    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
    return {buttons:6,pastedCharacters:expected.length};
   });
+  await step('PWA online: nuova guida Android ha copia funzionante',async()=>{
+   await page.locator('#back').click();
+   await page.locator('#guide-list .guide-card').filter({hasText:'Usare una chat AI sul telefono Android'}).first().click();
+   assert.equal(await page.locator('#reader-content .prompt-copy').count(),1);
+   const expected=(await page.locator('#reader-content blockquote#prompt-avviso p').allTextContents()).map(x=>x.trim()).join('\n\n');
+   await page.locator('#reader-content .prompt-copy').click();
+   await page.waitForTimeout(100);
+   assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
+   return {characters:expected.length};
+  });
   await step('PWA offline: riapertura, lettura e copia',async()=>{
    await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
    await page.goto(BASE+'app/',{waitUntil:'domcontentloaded'}); 
@@ -114,6 +154,17 @@ const expectedText=async(page,id)=>{
    await page.waitForTimeout(100);
    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
    return {copyOffline:true,characters:expected.length};
+  });
+  await step('PWA offline: nuova guida Android leggibile e copiabile',async()=>{
+   await page.locator('#back').click();
+   await page.locator('#guide-list .guide-card').filter({hasText:'Usare una chat AI sul telefono Android'}).first().click();
+   assert.equal(await page.locator('#reader-content .prompt-copy').count(),1);
+   assert.match(await page.locator('#reader-title').innerText(),/Android/);
+   const expected=(await page.locator('#reader-content blockquote#prompt-avviso p').allTextContents()).map(x=>x.trim()).join('\n\n');
+   await page.locator('#reader-content .prompt-copy').click();
+   await page.waitForTimeout(100);
+   assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
+   return {characters:expected.length};
   });
   await context.setOffline(false);
   await context.close();
