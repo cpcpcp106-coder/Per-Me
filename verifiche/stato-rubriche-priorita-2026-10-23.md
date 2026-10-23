@@ -5,7 +5,7 @@
 - **Rubrica 06, Tutor AI:** percorso base e sei approfondimenti pubblicati. Collaudo automatico browser mobile con 26 controlli superati; restano da svolgere test su un Android fisico e con lettori reali 50–70 anni. Non dichiarare esperienza utente validata.
 - **Rubrica 07, Diabete tipo 2:** trenta pagine numerate presenti e collegate dalla rubrica. Non equivalgono a una revisione clinica indipendente di ogni affermazione; controlli e aggiornamenti clinici restano necessari.
 - **Rubrica 05, Salute e autonomia:** quattro guide nazionali pubblicate, ulteriori guide generali ancora da definire e sviluppare. Lo stato di completamento editoriale rimane **aperto**.
-- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide 01 e 02 sulle evidenze cliniche e sulla prevenzione cardiovascolare; **sei guide ancora programmate (03–08)**. Pubblicata inoltre una ricetta originale di esempio con carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
+- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide **01, 02 e 03** su diabete, prevenzione cardiovascolare, carboidrati, fibre, indice e carico glicemico; **cinque guide ancora programmate (04–08)**. Pubblicata inoltre una ricetta originale di esempio con fotografia HD del piatto, carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
 - **Rubriche 01–04:** diverse guide presenti in ciascuna; questo rapporto non certifica la completezza sostanziale e normativa di ciascuna, che richiede specifico audit.
 
 ## Lavoro svolto: avvio della rubrica 08
@@ -50,3 +50,11 @@ Il successo va misurato su affidabilità, facilità d'uso e persone effettivamen
 - Sono stati aggiornati pagina madre, pagina introduttiva delle ricette, homepage, collegamenti da Salute e autonomia e sitemap, distinguendo due guide realmente pubblicate da sei programmate.
 
 Restano da verificare su utenti reali la facilità di comprendere i valori e l'uso pratico su Android fisico. L'accessibilità tecnica e la pubblicazione della pagina non implicano indicizzazione Google né visite reali.
+
+
+## Aggiornamento successivo del 23 ottobre — Guida 03 e fotografia HD della ricetta
+
+- **Guida 03** creata in `dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html`, collegata dalla rubrica 08 e aggiunta alla sitemap. Contiene definizioni e differenze fra carboidrati disponibili (g), fibre (g), indice glicemico (IG), carico glicemico (CG) ed energia (kcal), formule ed esercizi. Fonte primaria: ADA Standards of Care 2026 sezione 5 (https://doi.org/10.2337/dc26-S005). Riscontro divulgativo: Diabetes UK, Glycaemic index and diabetes, revisione 22 settembre 2025 (https://www.diabetes.org.uk/living-with-diabetes/eating/carbohydrates-and-diabetes/glycaemic-index-and-diabetes).
+- La **fotografia del piatto della ricetta borlotti-riso-pomodori** è stata rigenerata come immagine originale iperrealistica e archiviata in formato WebP ad alta definizione: `assets/ricetta-borlotti-riso-piatto-originale-hd.webp`, circa 221 KB. Sostituita la miniatura precedente nel codice e aggiornata l'immagine di anteprima social. Una fotografia generata non certifica ingredienti effettivamente impiegati né apporti nutrizionali: la didascalia dichiara il carattere illustrativo.
+- **Controllo CI corretto:** `scripts/verifica-ricetta-carbo-calorie.cjs` ora verifica la nuova guida 03, i suoi collegamenti, formule e fonti, il conteggio 3/8 in homepage e l'uso di una fotografia del piatto realmente salvata con dimensione file superiore a 150 KB; il controllo delle quantità e calorie per porzione resta attivo.
+- **Priorità editoriale successiva:** Guida 04 su porzioni, pesi crudi e cotti, lettura CREA ed errori comuni nei calcoli dei nutrienti. Mantenere separati i controlli tecnici dalla comprensione dei lettori reali e dall'indicizzazione Google.
