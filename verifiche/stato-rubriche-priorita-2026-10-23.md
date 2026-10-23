@@ -4,8 +4,8 @@
 
 - **Rubrica 06, Tutor AI:** percorso base e sei approfondimenti pubblicati. Collaudo automatico browser mobile con 26 controlli superati; restano da svolgere test su un Android fisico e con lettori reali 50–70 anni. Non dichiarare esperienza utente validata.
 - **Rubrica 07, Diabete tipo 2:** trenta pagine numerate presenti e collegate dalla rubrica. Non equivalgono a una revisione clinica indipendente di ogni affermazione; controlli e aggiornamenti clinici restano necessari.
-- **Rubrica 05, Salute e autonomia:** quattro guide nazionali pubblicate, ulteriori guide generali ancora da definire e sviluppare. Lo stato di completamento editoriale rimane **aperto**.
-- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide **01–05**, compresa la Guida 05 sui grassi, l'olio EVO, le etichette di origine e i costi; **tre guide ancora programmate (06–08)**. Pubblicata inoltre una ricetta originale con fotografia HD del piatto, carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
+- **Rubrica 05, Salute e autonomia:** cinque guide nazionali pubblicate, compresa la Guida 05 sul Fascicolo sanitario elettronico (FSE); gli approfondimenti futuri vanno definiti senza duplicare diabete e dieta. Lo stato di completamento editoriale rimane **aperto**.
+- **Rubrica 08, Dieta mediterranea scientifica:** tutte le Guide **01–08** del percorso base sono pubblicate; completate 06 su diabete e cuore, 07 su etichette e allergeni, 08 su ricette e costi verificabili. Pubblicate inoltre **due ricette originali fotografate** con carboidrati disponibili e kcal per porzione, non conteggiate fra le otto guide. Revisione e valutazione con lettori reali ancora necessarie.
 - **Rubriche 01–04:** diverse guide presenti in ciascuna; questo rapporto non certifica la completezza sostanziale e normativa di ciascuna, che richiede specifico audit.
 
 ## Lavoro svolto: avvio della rubrica 08
@@ -85,3 +85,12 @@ Restano da verificare su utenti reali la facilità di comprendere i valori e l'u
 La pubblicazione e l'audit tecnico **non equivalgono** a validazione da lettori reali, controllo clinico/giuridico indipendente o indicizzazione effettiva in Search Console.
 
 **Prossima guida programmata:** 06, diabete tipo 2 e cardiopatie: principi alimentari comuni e necessità di personalizzazione, senza ripetere inutilmente le trenta guide già esistenti sul diabete.
+
+
+## Stato operativo conclusivo — 23 ottobre 2026, pubblicazione percorso Dieta e verifica dati Google
+
+- **Dieta mediterranea, 8/8 pubblicate**. Sono state completate le Guide 06–08 e la ricetta originale «zuppa di lenticchie, patate e carote» con foto del piatto. Seconda ricetta: 240 g lenticchie cotte, 180 g patate bollite, 120 g carote bollite e 16 g olio EVO per due porzioni. Valori CREA: **40,0 g carboidrati disponibili e circa 298 kcal/porzione**. Prima ricetta: **36,1 g e circa 287 kcal/porzione**. Controllo automatico aggiornato e superato.
+- **Salute e autonomia:** Guida 05 nazionale sul Fascicolo sanitario elettronico (accesso CIE/SPID, referti, consensi, oscuramento, privacy, servizi FVG) pubblicata, con fonti Ministero della Salute, Garante Privacy e FVG. Totale 5 guide. Non dichiarata conclusa l'intera rubrica.
+- **Search Console:** fonte reale Windsor.ai collegata alla proprietà Per Me, periodo disponibile 14–21 ottobre 2026: **22 impressioni e 0 clic Google**. Risultati page-level: `/Per-Me/app/` 19 impressioni e `/Per-Me/tutor-ai.html` 17; i dati page-level non vanno sommati per ricostruire il totale proprietà. Rapporto dedicato `verifiche/google-search-console-dati-reali-e-audit-2026-10-23.md`.
+- **Sitemap GitHub:** 99 URL senza duplicati né URL che puntano a file assenti; verificato confronto con il repository. Questo non prova l'indicizzazione. **GSC Wizard ha interrotto l'accesso per abbonamento scaduto**, ma Windsor.ai già connesso ha restituito le metriche senza attivare costi aggiuntivi. Il numero di pagine escluse e le cause non sono stati restituiti.
+- **Cloudflare e Facebook:** Beacon Cloudflare nel codice delle pagine, ma non sono disponibili dati autenticati dell'account in questa sessione. Contatori personalizzati e visite di test non dimostrano lettori unici. Materiali divulgativi e piano di test utenti saranno documentati separatamente; nessuna pubblicazione esterna o valutazione fisica Android viene dichiarata senza prova.
