@@ -1,0 +1,43 @@
+name: Per Me - Importa foto originale Guida 04
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/import-dieta-guida04-foto.yml'
+permissions:
+  contents: write
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Trasferisci e ottimizza fotografia originale
+        env:
+          SOURCE: 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-760c-81f4-9dfd-881d6c82a2c2/raw?se=2026-10-23T20%3A07%3A16Z&sp=r&sv=2026-02-06&sr=b&scid=7d4279c0-5684-5ccf-b125-ba9bdc813850&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T03%3A57%3A45Z&ske=2026-10-24T03%3A57%3A45Z&sks=b&skv=2026-02-06&sig=NpvGy8NcmBqDHTz3HN331jDfxsuqzt8X8cdvYdvwRHQ%3D'
+        run: |
+          set -euo pipefail
+          python -m pip -q install pillow
+          curl --fail -L --retry 2 --max-time 120 "$SOURCE" -o /tmp/guida04.png
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          p=Image.open('/tmp/guida04.png').convert('RGB')
+          assert p.width>=1200 and p.height>=700,p.size
+          p.thumbnail((1300,900),Image.Resampling.LANCZOS)
+          dest=Path('assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp')
+          p.save(dest,'WEBP',quality=82,method=6)
+          assert dest.stat().st_size>50000
+          print('FOTO_04_OK',p.size,dest.stat().st_size)
+          PY
+      - name: Archivia asset e rimuovi procedura temporanea
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp
+          git rm .github/workflows/import-dieta-guida04-foto.yml
+          git commit -m "Dieta Guida 04: fotografia originale crudo e cotto"
+          git push
