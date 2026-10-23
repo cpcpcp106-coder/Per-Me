@@ -5,7 +5,7 @@
 - **Rubrica 06, Tutor AI:** percorso base e sei approfondimenti pubblicati. Collaudo automatico browser mobile con 26 controlli superati; restano da svolgere test su un Android fisico e con lettori reali 50–70 anni. Non dichiarare esperienza utente validata.
 - **Rubrica 07, Diabete tipo 2:** trenta pagine numerate presenti e collegate dalla rubrica. Non equivalgono a una revisione clinica indipendente di ogni affermazione; controlli e aggiornamenti clinici restano necessari.
 - **Rubrica 05, Salute e autonomia:** quattro guide nazionali pubblicate, ulteriori guide generali ancora da definire e sviluppare. Lo stato di completamento editoriale rimane **aperto**.
-- **Rubrica 08, Dieta mediterranea scientifica:** il 23 ottobre è stata pubblicata la prima delle otto guide programmate, `dieta-guida-01-modello-mediterraneo-diabete-evidenze.html`. Le Guide 02–08 (sette guide) **non sono ancora pubblicate**. La pagina introduttiva `dieta-mediterranea-ricette.html` non è una delle otto guide.
+- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide 01 e 02 sulle evidenze cliniche e sulla prevenzione cardiovascolare; **sei guide ancora programmate (03–08)**. Pubblicata inoltre una ricetta originale di esempio con carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
 - **Rubriche 01–04:** diverse guide presenti in ciascuna; questo rapporto non certifica la completezza sostanziale e normativa di ciascuna, che richiede specifico audit.
 
 ## Lavoro svolto: avvio della rubrica 08
@@ -38,3 +38,15 @@ Le fonti sono primarie e identificabili, ma il controllo documentale non costitu
 - Nessuna verifica qui documentata certifica la correttezza clinica indipendente di ogni contenuto.
 
 Il successo va misurato su affidabilità, facilità d'uso e persone effettivamente raggiunte, non soltanto sul numero di pagine.
+
+
+## Aggiornamento 23 ottobre — Guide 02 e ricetta quantitativa
+
+- **Guida 02 pubblicata:** `dieta-guida-02-prevenzione-cardiovascolare-studi.html`, con fotografia originale `assets/dieta-mediterranea-guida02-originale.webp`, fonti American Heart Association 2026, ADA 2026, OMS e rianalisi PREDIMED 2018. Distinzione fra prevenzione primaria e secondaria, benefici medi e promesse individuali.
+- **Ricetta 01 pubblicata:** `ricetta-insalata-borlotti-riso-integrale-pomodori.html`, ricetta originale per due porzioni con pesi cotti e scolati. **Per porzione: 36,1 g di carboidrati disponibili e circa 287 kcal**. Per l'intera ricetta: 72,22 g di carboidrati disponibili e 574,8 kcal. Nessuna prescrizione clinica o insulina ricavabile automaticamente.
+- **Fonti quantitative CREA:** borlotti cotti da secchi `004125` (180 g, 106 kcal/100 g, carboidrati 16,4 g/100 g), riso integrale cotto `000115` (140 g, 113 kcal e 25,5 g/100 g), pomodori freschi `006610` (200 g, 23 kcal e 3,5 g/100 g), olio EVO `009210` (20 g, 899 kcal e 0 g/100 g). **Calcolo:** per ogni ingrediente, (grammi impiegati × valore per 100 g ÷ 100); somma ÷ 2 porzioni. Valori stimati, non analisi di laboratorio.
+- **Standard editoriale obbligatorio:** ogni futura ricetta deve riportare carboidrati disponibili `g/porzione` e energia `kcal/porzione`, quantità e stato del peso crudo/cotto, numero porzioni, fonti CREA o etichetta e metodo di arrotondamento. Mai inventare dati mancanti.
+- **Controllo CI:** `scripts/verifica-ricetta-carbo-calorie.cjs` e `.github/workflows/verifica-ricette-nutrienti.yml`; verifica quantità e risultati della prima ricetta e presenza di marcatori obbligatori per ciascuna futura pagina `ricetta-*.html`. Non è una validazione dietistica indipendente.
+- Sono stati aggiornati pagina madre, pagina introduttiva delle ricette, homepage, collegamenti da Salute e autonomia e sitemap, distinguendo due guide realmente pubblicate da sei programmate.
+
+Restano da verificare su utenti reali la facilità di comprendere i valori e l'uso pratico su Android fisico. L'accessibilità tecnica e la pubblicazione della pagina non implicano indicizzazione Google né visite reali.
