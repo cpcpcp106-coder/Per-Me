@@ -16,6 +16,11 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   async function contextWithMock(){
    const ctx=await browser.newContext({serviceWorkers:'block'});
    const hits=[];
+   // Il collaudo NON deve inviare neppure eventi Cloudflare.
+   await ctx.route('**/beacon.min.js*',route=>route.fulfill({
+     status:200,contentType:'application/javascript',body:''
+   }));
+   await ctx.route('**/cdn-cgi/rum*',route=>route.abort());
    // Testa il codice del commit corrente, senza aspettare l'aggiornamento CDN.
    await ctx.route('**/analytics.js?*',route=>route.fulfill({
      status:200,contentType:'application/javascript',body:analytics
@@ -40,6 +45,8 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   const resp=await home.goto(site+'index.html?test-contatori-browser=1',{waitUntil:'domcontentloaded',timeout:35000});
   await awaitHits(t.hits,2);
   row('home_page_http',resp?.status()===200,{http:resp?.status()});
+  const beaconPresent=await home.locator('script[data-cf-beacon]').count();
+  row('cloudflare_beacon_present',beaconPresent===1,{beaconPresent});
   row('first_visit_attempt_mocked',t.hits.length===2&&t.hits.some(u=>u.includes('perme-visite-dal-20261018-43bcc26da793'))&&t.hits.some(u=>u.includes('perme-origine-sconosciuta-dal-20261023')),{hits:t.hits,errors});
   await home.reload({waitUntil:'domcontentloaded'});
   await new Promise(r=>setTimeout(r,800));
@@ -51,6 +58,8 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   const owner=await t.ctx.newPage();
   await owner.goto(site+'index.html?test-contatori-browser=2',{waitUntil:'domcontentloaded',timeout:35000});
   await new Promise(r=>setTimeout(r,1500));
+  const ownerBeacon=await owner.locator('script[data-cf-beacon]').count();
+  row('owner_cloudflare_excluded',ownerBeacon===0,{ownerBeacon});
   row('owner_excluded',t.hits.length===0,{hits:t.hits.length});
   await t.ctx.close();
 
