@@ -1,0 +1,45 @@
+name: Per Me - Ottimizza foto originale Tutor AI Android
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ottimizza-tutor-ai-foto-originale.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  webp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Converte foto generata in WebP senza aggiungere testi
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          from PIL import Image
+          import os
+          original='assets/tutor-ai-android-originale.png'
+          dest='assets/tutor-ai-android-originale.webp'
+          im=Image.open(original).convert('RGB')
+          assert im.width>=1000 and im.height>=1000,(im.width,im.height)
+          im.thumbnail((820,1230),Image.Resampling.LANCZOS)
+          im.save(dest,format='WEBP',quality=76,method=6)
+          with Image.open(dest) as converted:
+              assert converted.width>=750 and converted.height>=1100
+          print('WEBP_OK:',im.size,os.path.getsize(dest))
+          PY
+      - name: Conserva versione WebP e rimuove sorgente pesante
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/tutor-ai-android-originale.webp
+          git rm assets/tutor-ai-android-originale.png
+          git rm .github/workflows/ottimizza-tutor-ai-foto-originale.yml
+          git commit -m "Tutor AI: sostituisci sorgente PNG con foto originale WebP ottimizzata"
+          git push
