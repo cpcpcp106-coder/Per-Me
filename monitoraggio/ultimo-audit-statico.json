@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T16:45:32+00:00",
+  "date_utc": "2026-10-23T16:59:10+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 90,
-    "editorial_pages": 88,
+    "html_total": 91,
+    "editorial_pages": 89,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3310,
-    "external_occurrences": 1579,
-    "external_unique": 690,
+    "local_occurrences": 3331,
+    "external_occurrences": 1585,
+    "external_unique": 691,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -78,6 +78,7 @@
       "diabete-guida-29-gravidanza-fertilita-ormoni.html",
       "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
       "diabete-tipo-2.html",
+      "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -195,7 +196,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1172,6 +1175,21 @@
       "images_without_alt": 0,
       "links_local": 58,
       "links_external": 25,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+      "title": "Dieta mediterranea e diabete tipo 2: prove, benefici e limiti | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 21,
+      "links_external": 6,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
