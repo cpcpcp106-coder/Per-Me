@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T16:59:10+00:00",
+  "date_utc": "2026-10-23T17:01:32+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 91,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3331,
+    "local_occurrences": 3333,
     "external_occurrences": 1585,
-    "external_unique": 691,
+    "external_unique": 692,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -169,6 +169,7 @@
       "diabete-guida-29-gravidanza-fertilita-ormoni.html",
       "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
       "diabete-tipo-2.html",
+      "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -196,9 +197,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1218,7 +1217,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 24,
+      "links_local": 26,
       "links_external": 26,
       "missing_local": 0,
       "noindex": false,
