@@ -161,6 +161,33 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   row('cloudflare_real_js_downloaded',loaded,
     {loaded,attemptedPosts:cfPosts,sendBeaconAttempts:cfBeaconAttempts,context:cfState,network:cfNetwork,errors:cfErrors,
      note:'I POST non sono criterio di successo nei browser automatizzati: nessun evento reale inviato.'});
+  // Controllo comparativo con la configurazione HTML statica ufficiale:
+  // stessa origine di Per Me, stesso browser, script caricato come nella dashboard.
+  // La risposta HTML è simulata e non esiste alcuna pagina nuova sul sito.
+  await cfCtx.route('**/Per-Me/cf-diagnostica-virtuale.html',route=>route.fulfill({
+    status:200,contentType:'text/html',
+    body:`<!doctype html><html><head><meta charset="utf-8"><title>Prova virtuale Cloudflare</title>
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js"
+    data-cf-beacon='{"token":"f16507f2d95944b0be1e747974750ad1"}'></script>
+    </head><body><h1>Diagnostica senza incrementi reali</h1></body></html>`
+  }));
+  const staticPage=await cfCtx.newPage();
+  const staticErrors=[];
+  staticPage.on('pageerror',e=>staticErrors.push(String(e).slice(0,200)));
+  staticPage.on('console',m=>{if(m.type()==='error')staticErrors.push(m.text().slice(0,180));});
+  const beforePosts=cfPosts;
+  const beforeRequests=cfNetwork.length;
+  await staticPage.goto(site+'cf-diagnostica-virtuale.html',{waitUntil:'load',timeout:35000});
+  await staticPage.waitForTimeout(2400);
+  const staticBeaconCalls=await staticPage.evaluate(()=>window.__perme_cf_attempts||[]);
+  await staticPage.goto('about:blank',{waitUntil:'load',timeout:20000});
+  await staticPage.waitForTimeout(850);
+  row('cloudflare_static_snippet_comparison',true,{
+    posts:cfPosts-beforePosts,
+    sendBeaconCalls:staticBeaconCalls,
+    network:cfNetwork.slice(beforeRequests),errors:staticErrors,
+    note:'Pagina temporanea simulata nel browser, nessuna modifica al sito e nessuna metrica reale inviata'
+  });
   await cfCtx.close();
  }finally{await browser.close()}
  console.log('Diagnostica con intercettazione HTTP, nessun incremento delle chiavi reali.');
