@@ -2,7 +2,7 @@
 
 **Data:** 23 ottobre 2026  
 **Ambito:** rubrica 06 «Tutor AI essenziale», pubblico principale 50–70 anni e familiari che aiutano, in tutta Italia.  
-**Stato complessivo (aggiornato al 23 ottobre):** percorso base pubblicato e sei approfondimenti realizzati e collegati (Android più cinque lezioni); audit statico dei cinque approfondimenti superato; collaudo browser completo ancora da chiudere; collaudi con lettori reali 50–70 anni e su dispositivi Android fisici non eseguiti.
+**Stato complessivo (aggiornato al 23 ottobre):** percorso base pubblicato e sei approfondimenti realizzati e collegati (Android più cinque lezioni); audit statico superato e collaudo browser mobile emulato completato con **26 controlli riusciti su 26**; prove con lettori reali tra 50 e 70 anni e su dispositivi Android fisici non eseguite.
 
 ## 1. Stato verificato: distinguere quanto esiste da quanto resta da fare
 
@@ -145,3 +145,14 @@ Nel workflow GitHub Actions [Verifica approfondimenti Tutor AI — esecuzione 39
 Le pagine pubbliche sono state verificate tramite lettura delle URL, dei titoli, del canonical, del robots `index,follow` e dei cinque collegamenti alle rispettive immagini originali. La pubblicazione GitHub Pages della versione contenutistica è risultata **success** nell'esecuzione [39987690124](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/39987690124).
 
 **Limite:** il controllo statico non dimostra che un lettore capisca le spiegazioni. Non prova il funzionamento su un dispositivo Android reale e non sostituisce test completi nel browser emulato. Non dichiarare questi collaudi superati se il loro workflow non è concluso con successo.
+
+
+## 11. Collaudo browser mobile e PWA completato (23 ottobre 2026)
+
+GitHub Actions — [Tutor AI collaudo smartphone emulato, esecuzione #39988988930](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/39988988930): **successo, 26 controlli PASS su 26, senza errori JavaScript segnalati**. Artefatto: `tutor-ai-collaudo-mobile` con rapporto JSON.
+
+Ambiente: Playwright/Chromium su Linux, viewport 320 e 390 pixel, emulazione touch, autorizzazione locale alla clipboard. Sono stati controllati i sei prompt base, il primo approfondimento Android, i cinque approfondimenti successivi, apertura delle soluzioni, larghezza delle pagine, dimensioni dei pulsanti, caricamento delle cinque immagini, sincronizzazione della PWA e copia dei prompt nella PWA sia online sia offline.
+
+È stato risolto il blocco nell'installazione delle dipendenze del collaudo sostituendo l'installazione browser con una procedura delimitata da timeout nel workflow `.github/workflows/collaudo-tutor-mobile.yml`. Dopo questa correzione il test è stato rieseguito con risultato positivo.
+
+**Limiti verificabili:** la prova è eseguita in un browser emulato e non sul modello fisico di smartphone di un lettore. Non verifica lettori di schermo reali, capacità cognitive, comprensione delle spiegazioni, qualità pedagogica percepita o utenti volontari. Non attribuire a questi controlli una validazione esterna. La rubrica è completa **rispetto ai sei approfondimenti editoriali pianificati**, non rispetto alle prove con persone reali.
