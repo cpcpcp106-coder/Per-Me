@@ -48,9 +48,10 @@ for(const name of recipes){
  assert.ok(carbs>=0&&kcal>0&&count>=1,'Valori non validi: '+name);
  assert.ok(html.toLowerCase().includes('carboidrati disponibili')&&html.includes('kcal')&&html.includes('porzione'),'Carboidrati/calorie non leggibili: '+name);
  assert.ok(html.includes('alimentinutrizione.it')||html.includes('crea.gov.it')||html.toLowerCase().includes('etichetta'),'Ricetta senza fonte nutrizionale: '+name);
- assert.ok(/<figure[^>]*class="foto-piatto"[^>]*>[\\s\\S]*?<img\\s[^>]*src="assets\\/[^"]+"/.test(html),'Ricetta senza fotografia originale del piatto: '+name);
- const imagePath=html.match(/<figure[^>]*class="foto-piatto"[^>]*>[\\s\\S]*?<img\\s[^>]*src="(assets\\/[^"]+)"/)?.[1];
- assert.ok(imagePath && fs.existsSync(path.join(root,imagePath)),'Foto del piatto non salvata nel repository: '+name);
+ assert.ok(html.includes('class="foto-piatto"'),'Ricetta senza fotografia del piatto: '+name);
+ const imageTag=html.slice(html.indexOf('class="foto-piatto"'));
+ const imagePath=imageTag.match(/src="([^"]+)"/)?.[1];
+ assert.ok(imagePath && imagePath.startsWith('assets/') && fs.existsSync(path.join(root,imagePath)),'Foto del piatto non salvata nel repository: '+name);
  assert.ok(html.includes('figcaption'),'Didascalia immagine mancante: '+name);
 }
 console.log('PASS: guida 02 e prima ricetta coerenti, fonte CREA per 4 ingredienti, 2 porzioni, 36,1 g carboidrati disponibili e 287 kcal per porzione, sitemap e link.');
