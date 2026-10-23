@@ -1,0 +1,44 @@
+name: Per Me - Foto ricetta borlotti alta definizione
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/importa-foto-ricetta-borlotti-alta-definizione.yml'
+permissions:
+  contents: write
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Importa foto originale ad alta definizione e comprimi in WebP
+        env:
+          IMAGE_SOURCE: 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-dbb8-81f4-a43e-55120586ac9f/raw?se=2026-10-23T19%3A55%3A07Z&sp=r&sv=2026-02-06&sr=b&scid=f7323196-e607-514d-bbb6-0e0a1ad55e6c&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T04%3A49%3A37Z&ske=2026-10-24T04%3A49%3A37Z&sks=b&skv=2026-02-06&sig=IE8uJo6eofsz5YOr6Iq7tDytgEGiEP4ec2ySlWx5Wgg%3D'
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pillow
+          curl -fL --retry 2 --max-time 120 "$IMAGE_SOURCE" -o /tmp/ricetta.png
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          original=Image.open('/tmp/ricetta.png').convert('RGB')
+          assert original.width>=1000 and original.height>=650, f'File troppo piccolo: {original.size}'
+          original.thumbnail((1300,1000),Image.Resampling.LANCZOS)
+          dest=Path('assets/ricetta-borlotti-riso-piatto-originale-hd.webp')
+          original.save(dest,'WEBP',quality=84,method=6)
+          assert dest.stat().st_size>50000
+          print('FOTO_HD_VERIFICATA:',original.size,dest.stat().st_size)
+          PY
+      - name: Archivia foto ad alta definizione e rimuovi procedura temporanea
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/ricetta-borlotti-riso-piatto-originale-hd.webp
+          git rm .github/workflows/importa-foto-ricetta-borlotti-alta-definizione.yml
+          git commit -m "Ricetta borlotti: nuova fotografia originale in alta definizione"
+          git push
