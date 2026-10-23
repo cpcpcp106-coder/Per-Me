@@ -77,7 +77,7 @@ assert.ok(guide02.includes('beneficio osservato nell\'esito')&&guide02.includes(
 assert.ok(guide02.includes('www.bmj.com/content/364/bmj.l341.full'),'Manca fonte critica BMJ Guida 02');
 assert.ok(guide03.includes('50 g di carboidrati disponibili')&&guide03.includes('non porzioni qualsiasi'),'Manca la distinzione prova IG/carboidrati Guida 03');
 assert.ok(guide04.includes('349 kcal')&&guide04.includes('arrotondati'),'Manca spiegazione differenza arrotondamenti CREA Guida 04');
-assert.ok(guide05.includes('10 grammi')&&guide05.includes('10 millilitri'),'Manca avvertenza g/ml dell\'olio Guida 05');
+assert.ok(guide05.includes('grammi')&&guide05.includes('millilitri')&&guide05.includes('non equivalgono esattamente'),'Manca avvertenza g/ml dell\'olio Guida 05');
 assert.ok(guide05.includes('2022/2104'),'Riferimento normativo origine EVO mancante');
 
 
