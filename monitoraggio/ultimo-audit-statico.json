@@ -1,24 +1,17 @@
 {
-  "date_utc": "2026-10-23T21:05:32+00:00",
+  "date_utc": "2026-10-23T21:10:31+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 97,
-    "editorial_pages": 95,
+    "html_total": 100,
+    "editorial_pages": 98,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3464,
-    "external_occurrences": 1639,
-    "external_unique": 712,
+    "local_occurrences": 3534,
+    "external_occurrences": 1657,
+    "external_unique": 715,
     "actions": 7,
-    "broken_local": [
-      {
-        "page": "ricetta-zuppa-lenticchie-patate-carote.html",
-        "ref": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
-        "target": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
-        "issue": "file_mancante"
-      }
-    ],
+    "broken_local": [],
     "broken_anchors": []
   },
   "seo": {
@@ -90,6 +83,9 @@
       "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
       "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
       "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -187,6 +183,9 @@
       "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
       "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
       "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -198,6 +197,7 @@
       "pensione-invalidita.html",
       "redditi-red-comunicazioni-obbligatorie-inps.html",
       "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "ricetta-zuppa-lenticchie-patate-carote.html",
       "riesame-ricorso-inps-termini.html",
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
@@ -215,9 +215,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "ricetta-zuppa-lenticchie-patate-carote.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1277,12 +1275,57 @@
       "candidate_numeric_legal_mentions": 1
     },
     {
+      "file": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "title": "Diabete tipo 2 e cuore: una dieta adatta a entrambi, senza ricette miracolose | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 24,
+      "links_external": 8,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "title": "Leggere le etichette: carboidrati, zuccheri, sale e allergeni | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 19,
+      "links_external": 5,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "title": "Ricette mediterranee economiche: foto, carboidrati e calorie per porzione | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 23,
+      "links_external": 5,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
       "file": "dieta-mediterranea-ricette.html",
       "title": "Alimentazione e ricette: introduzione | Per Me",
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 19,
+      "links_local": 21,
       "links_external": 2,
       "missing_local": 0,
       "noindex": false,
@@ -1297,7 +1340,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 34,
+      "links_local": 36,
       "links_external": 26,
       "missing_local": 0,
       "noindex": false,
@@ -1464,7 +1507,7 @@
       "images_without_alt": 0,
       "links_local": 20,
       "links_external": 5,
-      "missing_local": 1,
+      "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
