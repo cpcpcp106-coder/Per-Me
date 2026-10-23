@@ -10,6 +10,8 @@ on:
       - "assets/**"
       - "style.css"
       - "gradimento.js"
+      - "analytics.js"
+      - "scripts/verifica-cloudflare.cjs"
       - "gradimento-articoli.json"
       - "scripts/controlla-facebook-guide.cjs"
       - "sitemap.xml"
@@ -39,6 +41,11 @@ jobs:
         run: |
           node --check gradimento.js
           node scripts/controlla-facebook-guide.cjs
+      - name: Verifica che Cloudflare sia caricato in tutte le guide e rubriche
+        run: |
+          node --check analytics.js
+          node --check scripts/verifica-cloudflare.cjs
+          node scripts/verifica-cloudflare.cjs
       - name: Inventario, collegamenti, PWA e sitemap
         run: python monitoraggio/audit_statico.py
       - name: Salva lo storico statico senza sovrascrivere gli audit editoriali
