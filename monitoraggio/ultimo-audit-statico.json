@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T20:30:12+00:00",
+  "date_utc": "2026-10-23T20:46:07+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 96,
@@ -8,8 +8,8 @@
   },
   "links": {
     "local_occurrences": 3444,
-    "external_occurrences": 1628,
-    "external_unique": 706,
+    "external_occurrences": 1631,
+    "external_unique": 707,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -403,13 +403,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 28,
-      "links_external": 16,
+      "links_external": 17,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 9
+      "candidate_numeric_legal_mentions": 10
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
@@ -1453,7 +1453,7 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 56,
-      "links_external": 25,
+      "links_external": 26,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -1513,13 +1513,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 41,
-      "links_external": 12,
+      "links_external": 13,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
