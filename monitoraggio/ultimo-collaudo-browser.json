@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T19:56:32.139Z",
+  "checked_at_utc": "2026-10-23T20:05:47.506Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 92,
+        "count": 93,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 92,
+        "checked": 93,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 92,
+        "checked": 93,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "86 pagine salvate per la lettura offline · controllo online 23 ott, 19:57.",
+        "status": "86 pagine salvate per la lettura offline · controllo online 23 ott, 20:06.",
         "stored": {
           "guides": 86,
-          "updated": "2026-10-23T19:57:21.143Z",
+          "updated": "2026-10-23T20:06:27.420Z",
           "bytes": 2124495,
           "includesNew09": true
         }
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -569,6 +569,12 @@
       "page": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
       "violations": [],
       "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "violations": [],
+      "passes": 26,
       "incomplete": 2
     },
     {
