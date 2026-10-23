@@ -2,7 +2,7 @@
 
 **Data:** 23 ottobre 2026  
 **Ambito:** rubrica 06 «Tutor AI essenziale», pubblico principale 50–70 anni e familiari che aiutano, in tutta Italia.  
-**Stato complessivo (aggiornato al 23 ottobre):** percorso introduttivo disponibile; primo approfondimento Android creato e collegato, in collaudo; verifica con persone reali non svolta; altri approfondimenti ancora da pubblicare.
+**Stato complessivo (aggiornato al 23 ottobre):** percorso introduttivo disponibile; primo approfondimento Android creato, collegato e collaudato su Chromium mobile emulato (19/19 controlli superati); verifica con persone reali e su Android fisico non svolta; altri cinque approfondimenti da pubblicare.
 
 ## 1. Stato verificato: distinguere quanto esiste da quanto resta da fare
 
@@ -95,3 +95,17 @@ Per ogni futura guida: una situazione reale e comune; risultato di apprendimento
 - La prova qualitativa con lettori 50–70 anni e un collaudo su Android fisico restano **non eseguiti**. Nessun risultato di tali prove va dichiarato per implicazione.
 
 **Nota metodologica:** la pubblicazione della prima guida non dimostra che il programma delle sei lezioni sia terminato.
+
+
+## 8. Esito automatico del primo approfondimento Android
+
+Il workflow [«Tutor AI collaudo smartphone emulato» — esecuzione #39972463061](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/39972463061) è terminato con **successo**, con **19 verifiche PASS su 19** e **nessun errore** riportato dallo script.
+
+Oltre ai 14 controlli della guida base sono stati verificati:
+- navigazione dalla pagina Tutor AI al primo approfondimento Android;
+- copia effettiva del nuovo esercizio, con confronto del contenuto della clipboard;
+- apertura delle soluzioni e nessuno scorrimento orizzontale alle larghezze 390/320 pixel;
+- copia del nuovo esercizio nel lettore PWA online;
+- lettura e copia dello stesso esercizio nella PWA offline.
+
+La simulazione usa Chromium/Playwright su Linux. Questo esito **non sostituisce** una prova su Samsung Android fisico, con eventuali strumenti di accessibilità, o una prova di comprensione con persone reali. Non sono disponibili tali dati. Restano aperti cinque approfondimenti editoriali successivi.
