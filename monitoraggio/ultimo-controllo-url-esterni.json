@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T16:07:11.664761+00:00",
+  "date_utc": "2026-10-23T16:17:18.510443+00:00",
   "scope": {
     "pages": 85,
     "unique_external_urls": 689,
     "occurrences": 1562
   },
   "counts": {
-    "raggiungibile": 568,
+    "raggiungibile": 569,
     "bloccato_o_riservato": 115,
     "non_verificato_trasporto": 4,
-    "errore_http": 2
+    "errore_http": 1
   },
   "results": [
     {
@@ -1506,8 +1506,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/dupuytrens-disease/",
-      "status": "errore_http",
-      "http": 520,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
