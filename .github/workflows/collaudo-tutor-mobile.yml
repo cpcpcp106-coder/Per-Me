@@ -1,0 +1,35 @@
+name: Per Me - Tutor AI collaudo smartphone emulato
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tutor-ai.html'
+      - 'app/**'
+      - 'index.html'
+      - 'monitoraggio/collaudo_tutor_mobile.cjs'
+      - '.github/workflows/collaudo-tutor-mobile.yml'
+permissions:
+  contents: read
+jobs:
+  tutor-mobile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Installa Chromium e Playwright
+        run: |
+          npm install --no-save playwright
+          npx playwright install --with-deps chromium
+      - name: Prova copia prompt, soluzioni, layout mobile e PWA offline
+        run: node monitoraggio/collaudo_tutor_mobile.cjs
+      - name: Conserva rapporto tecnico del test
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tutor-ai-collaudo-mobile
+          path: monitoraggio/ultimo-collaudo-tutor-mobile.json
+          if-no-files-found: warn
