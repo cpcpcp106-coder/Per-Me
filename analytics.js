@@ -37,7 +37,7 @@
       if (host === 'facebook.com' || host.endsWith('.facebook.com') ||
           host === 'fb.com' || host.endsWith('.fb.com')) return 'facebook';
       // Google Search in Italia e altri domini di ricerca Google più comuni.
-      if (/(^|\\.)google\\.(com|it|de|fr|es|ch|at|co\\.uk|com\\.au|ca|nl|be|pt|pl)$/.test(host))
+      if (/(^|\.)google\.(com|it|de|fr|es|ch|at|co\.uk|com\.au|ca|nl|be|pt|pl)$/.test(host))
         return 'google';
       return 'altri';
     } catch (_) {
