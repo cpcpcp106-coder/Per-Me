@@ -33,7 +33,7 @@ assert.ok(rubric.includes('href="'+recipePath+'"'),'Ricetta non collegata dalla 
 assert.ok(rubric.includes('Carboidrati')||rubric.includes('carboidrati'));
 assert.ok(rubric.includes('calorie (kcal) per porzione'),'Rubrica non specifica calorie a porzione');
 assert.ok(index.includes('calorie in kcal PER UNA PORZIONE'),'Standard obbligatorio non chiaro');
-assert.ok(home.includes('5 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
+assert.ok(home.includes('8 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
 assert.ok(sitemap.includes(recipePath));
 assert.ok(sitemap.includes('dieta-guida-02-prevenzione-cardiovascolare-studi.html'));
 const guide03Path='dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html';
@@ -82,6 +82,43 @@ assert.ok(guide05.includes('2022/2104'),'Riferimento normativo origine EVO manca
 
 
 
+const guide06Path='dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html';
+const guide07Path='dieta-guida-07-etichette-sale-zuccheri-allergeni.html';
+const guide08Path='dieta-guida-08-ricette-mediterranee-economiche-valori.html';
+for(const p of [guide06Path,guide07Path,guide08Path]){
+ const html=read(p);
+ assert.ok(rubric.includes('href="'+p+'"'),'Nuova guida non collegata dalla rubrica: '+p);
+ assert.ok(sitemap.includes(p),'Nuova guida assente dalla sitemap: '+p);
+ assert.ok(html.includes('www.facebook.com/PerMeGuide'),'Link Facebook mancante: '+p);
+ assert.ok(html.includes('Fotografia')||html.includes('fotografia'),'Didascalia foto non trasparente: '+p);
+ assert.ok(html.includes('Revisione documentale')||html.includes('Controllo documentale'),'Limiti fonte non dichiarati: '+p);
+}
+const guide06=read(guide06Path),guide07=read(guide07Path),guide08=read(guide08Path);
+assert.ok(guide06.includes('dc26-S005')&&guide06.includes('dc26-S010')&&guide06.includes('dc26-S011'),'Guida 06 senza fonti ADA essenziali');
+assert.ok(guide06.includes('SGLT2')&&guide06.includes('chetoacidosi'),'Guida 06 senza cautela su SGLT2');
+assert.ok(guide07.includes('1169/2011')&&guide07.includes('allergeni')&&guide07.includes('100 g'),'Guida 07 senza norma o lettura delle porzioni');
+assert.ok(guide07.includes('già compresi')||guide07.includes('già compresi'),'Zuccheri non distinti dai carboidrati');
+assert.ok(guide08.includes('36,1 g')&&guide08.includes('40,0 g'),'Guida 08 senza carboidrati delle due ricette');
+assert.ok(guide08.includes('287 kcal')&&guide08.includes('298 kcal'),'Guida 08 senza calorie delle due ricette');
+const soupPath='ricetta-zuppa-lenticchie-patate-carote.html',soup=read(soupPath);
+assert.ok(index.includes('href="'+soupPath+'"'),'Nuova zuppa assente dalla raccolta');
+assert.ok(rubric.includes('href="'+soupPath+'"'),'Nuova zuppa assente dalla rubrica');
+assert.ok(sitemap.includes(soupPath),'Nuova zuppa assente dalla sitemap');
+const soupData=[
+ {code:'004505',mass:240,kcal100:109,carb100:16.3},
+ {code:'006515',mass:180,kcal100:74,carb100:16.9},
+ {code:'005155',mass:120,kcal100:47,carb100:8.7},
+ {code:'009210',mass:16,kcal100:899,carb100:0}
+];
+const soupK=soupData.reduce((a,b)=>a+b.mass*b.kcal100/100,0);
+const soupC=soupData.reduce((a,b)=>a+b.mass*b.carb100/100,0);
+assert.equal(Number(soupK.toFixed(2)),595.04,'Kcal totali zuppa errate');
+assert.equal(Number(soupC.toFixed(2)),79.98,'Carboidrati totali zuppa errati');
+assert.equal(Math.round(soupK/2),298,'Kcal per porzione zuppa errate');
+assert.equal((soupC/2).toFixed(1),'40.0','Carboidrati per porzione zuppa errati');
+for(const z of soupData)assert.ok(soup.includes('/'+z.code+'"')&&soup.includes(z.mass+' g'),'Fonte CREA o peso assente nella zuppa '+z.code);
+assert.ok(soup.includes('40,0 g di carboidrati disponibili')&&soup.includes('298 kcal'),'Numeri zuppa non leggibili');
+assert.ok(fs.statSync(path.join(root,'assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp')).size>50000,'Foto della zuppa assente o troppo piccola');
 const recipeImage='assets/ricetta-borlotti-riso-piatto-originale-hd.webp';
 assert.ok(recipe.includes('src="'+recipeImage+'"'),'La ricetta non usa la foto HD');
 assert.ok(fs.existsSync(path.join(root,recipeImage)),'Asset della fotografia HD assente');
@@ -104,5 +141,5 @@ for(const name of recipes){
  assert.ok(imagePath && imagePath.startsWith('assets/') && fs.existsSync(path.join(root,imagePath)),'Foto del piatto non salvata nel repository: '+name);
  assert.ok(html.includes('figcaption'),'Didascalia immagine mancante: '+name);
 }
-console.log('PASS: Guide 01-05, 10g olio EVO = 90 kcal, origine ed etichette, costo per 10ml, ricette con carboidrati e kcal a porzione, immagini originali, sitemap e link coerenti.');
+console.log('PASS: 8 guide, 2 ricette, 4 schede CREA per la nuova zuppa, 40.0 g CHO e 298 kcal per porzione, immagini originali, sitemap e link.');
 console.log('LIMITI: valori stimati; il test non equivale a valutazione dietistica indipendente.');
