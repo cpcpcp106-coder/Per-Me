@@ -54,7 +54,9 @@ for(const cue of ['id="regola-15"','15 grammi','15 minuti','inferiore a 70 mg/dL
 for(const cue of ['Regola del 15 (15–15)','15 g di glucosio','ADA 2026','CDC, *Treatment','Non universale','ipoglicemia grave']){
  assert.ok(inventory.includes(cue),'Regola del 15 non documentata nel censimento: '+cue);
 }
-assert.equal((med.match(/<li><strong>Guida \d\d:<\/strong>/g)||[]).length,8,'Otto guide dieta pianificate');
+const publishedDietGuides=[...med.matchAll(/<li><strong>Guida (\d\d) — pubblicata:<\/strong>/g)].map(match=>Number(match[1]));
+assert.deepEqual(publishedDietGuides,Array.from({length:8},(_,i)=>i+1),'Otto guide Dieta mediterranea pubblicate in ordine, senza numeri mancanti o duplicati');
+for(let i=1;i<=8;i++)assert.ok(med.includes('dieta-guida-'+String(i).padStart(2,'0')+'-'),'La rubrica non collega la Guida Dieta '+i);
 
 for(const x of ['id="anziani-reddito"','pensionistico','cardiopatia','malnutrizione','agevolazioni-diritti.html#anziani-salute-reddito'])
  assert.ok(diab.toLowerCase().includes(x.toLowerCase()),'Anziani e accessibilita economica mancanti dalla rubrica diabete: '+x);
@@ -90,10 +92,11 @@ for(const [key,value] of Object.entries(expected)){
  const item=ledger.dati.find(d=>d.chiave===key);
  assert.ok(item&&item.valore===value&&item.fonte.startsWith('https://')&&item.riesame,'Fonte, importo o revisione mancante: '+key);
 }
-assert.ok(ledger.dati.find(x=>x.chiave.startsWith('istat_')).stato.includes('PROVVISORIO'),'Dati provvisori ISTAT non dichiarati');
+const istat=ledger.dati.find(x=>x.chiave==='istat_alimenti_non_lavorati_settembre_2026');
+assert.ok(istat&&istat.stato.includes('DEFINITIVO')&&istat.fonte.includes('/prezzi-al-consumo-settembre-2026/')&&istat.pubblicato==='2026-10-16','Dato ISTAT settembre definitivo non aggiornato o non documentato');
 for(const str of ['id="dati-aggiornati"','611,85','546,24','5,5%','16 ottobre 2026','ogni mese'])
  assert.ok(rights.includes(str),'Dato variabile o data revisione assente in Agevolazioni: '+str);
-for(const str of ['id="costo-alimentare"','611,85','5,5%','provvisori','16 ottobre 2026','prezzo al kg','costo per porzione'])
+for(const str of ['id="costo-alimentare"','611,85','5,5%','definitivi','16 ottobre 2026','prezzo al kg','costo per porzione'])
  assert.ok(med.toLowerCase().includes(str.toLowerCase()),'Costo alimentare o fonte non controllata: '+str);
 assert.ok(!med.includes('id="dieta-costo-reale"'),'Due capitoli duplicati sul costo del cibo');
 assert.ok(med.includes('agevolazioni-diritti.html#anziani-salute-reddito'),'Manca il rinvio alle tutele');
@@ -112,7 +115,8 @@ for(const [file,label] of [[diabetes,'Diabete tipo 2'],[diet,'Dieta mediterranea
 }
 assert.ok(pwa.includes('!pages.has(found)'),'Conflitto categorico in sincronizzazione PWA');
 assert.ok(appPage.includes('delle otto rubriche'),'App dichiara ancora il vecchio numero di rubriche');
-assert.ok(appPage.includes('main.js?v=11')&&sw.includes('main.js?v=11'),'Cache PWA non aggiornata');
+const versionInApp=appPage.match(/main\.js\?v=(\d+)/)?.[1],versionInWorker=sw.match(/main\.js\?v=(\d+)/)?.[1];
+assert.ok(versionInApp&&versionInWorker&&versionInApp===versionInWorker,'Versioni script PWA e service worker discordanti');
 new vm.Script(pwa,{filename:'app/main.js'});
 console.log('PASS Guida 02 e rubriche Diabete e Dieta: otto rubriche, fonti, foto, SEO, Lancet, sicurezza, PWA.');
 console.log('LIMITI: controllo statico, non un collaudo clinico o Android fisico.');

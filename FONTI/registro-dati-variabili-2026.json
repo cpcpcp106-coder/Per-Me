@@ -4,8 +4,8 @@
   "ultimo_controllo": "2026-10-15",
   "metodo": "I dati cambiano: confrontare sempre l'ultima fonte ufficiale; gli indici ISTAT non sono prezzi al dettaglio dei singoli prodotti. Non sostituire automaticamente gli importi delle pagine senza verifica dei requisiti.",
   "prossimo_controllo": {
-    "istat_settembre_dato_definitivo": "2026-10-16",
-    "ricognizione_mensile": "2026-10-18",
+    "istat_settembre_dato_definitivo": "Completato 2026-10-16; verificato nuovamente 2026-10-23",
+    "ricognizione_mensile": "2026-11 (da ripetere sulle altre fonti)",
     "pensioni_rivalutazione_annuale": "alle circolari ufficiali INPS di fine 2026/inizio 2027"
   },
   "dati": [
@@ -80,11 +80,13 @@
       "valore": "+5,5",
       "unita": "% tendenziale anno su anno",
       "periodo": "2026-09",
-      "stato": "PROVVISORIO; indice aggregato, NON prezzo di singoli alimenti",
-      "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
-      "pubblicato": "2026-09-30",
-      "riesame": "2026-10-16 (diffusione dati definitivi)"
+      "stato": "DEFINITIVO; indice aggregato, NON prezzo di singoli alimenti",
+      "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
+      "pubblicato": "2026-10-16",
+      "riesame": "2026-10-30 (data prevista per la prossima diffusione ISTAT)",
+      "verifica_parziale": "2026-10-23: confronto diretto con il comunicato definitivo del 16 ottobre; gli altri importi non sono stati ricontrollati in questa sessione"
     }
   ],
-  "politica_ricette": "Nessun costo per porzione senza prezzo osservato, luogo/contesto, data e quantità edibile; non trattare il reddito nominale come spesa effettivamente disponibile; evidenziare alternative e rischi di malnutrizione."
+  "politica_ricette": "Nessun costo per porzione senza prezzo osservato, luogo/contesto, data e quantità edibile; non trattare il reddito nominale come spesa effettivamente disponibile; evidenziare alternative e rischi di malnutrizione.",
+  "ultimo_aggiornamento_parziale": "2026-10-23 (solo dato ISTAT di settembre; ultimo controllo globale invariato)"
 }
