@@ -1,0 +1,27 @@
+name: Per Me - Verifica approfondimenti Tutor AI
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tutor-ai*.html'
+      - 'assets/tutor-ai-*-originale.webp'
+      - 'scripts/audit-tutor-approfondimenti.cjs'
+      - 'app/main.js'
+      - 'app/index.html'
+      - 'app/sw.js'
+      - 'sitemap.xml'
+      - '.github/workflows/audit-tutor-approfondimenti.yml'
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica cinque guide, immagini e copia offline
+        run: node scripts/audit-tutor-approfondimenti.cjs
