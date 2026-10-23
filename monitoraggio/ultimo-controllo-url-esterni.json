@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T14:47:15.242559+00:00",
+  "date_utc": "2026-10-23T14:59:19.446667+00:00",
   "scope": {
     "pages": 85,
     "unique_external_urls": 688,
@@ -7,9 +7,9 @@
   },
   "counts": {
     "raggiungibile": 517,
-    "bloccato_o_riservato": 116,
     "non_verificato_trasporto": 54,
-    "errore_http": 1
+    "bloccato_o_riservato": 115,
+    "errore_http": 2
   },
   "results": [
     {
@@ -954,8 +954,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -2194,8 +2195,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies-enti-territoriali/prospetto-informativo/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies-enti-territoriali/prospetto-informativo/",
       "pages": [
         "debiti-guida-05-rottamazione.html"
       ]
@@ -2235,17 +2237,17 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-cartelle.html"
       ]
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -2266,8 +2268,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html",
@@ -2522,9 +2525,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2547,8 +2549,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -2567,8 +2570,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Fermo-amministrativo/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/modulistica/Fermo-amministrativo/",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -2644,9 +2648,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
@@ -5152,9 +5155,8 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -5284,9 +5286,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -6552,9 +6553,8 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
