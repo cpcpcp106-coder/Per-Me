@@ -70,6 +70,16 @@ assert.ok(guide05.includes('src="'+image05+'"'),'Fotografia originale Guida 05 n
 assert.ok(fs.existsSync(path.join(root,image05)) && fs.statSync(path.join(root,image05)).size>50000,'Fotografia originale Guida 05 mancante');
 assert.ok(guide05.includes('www.facebook.com/PerMeGuide'),'Collegamento pubblico di feedback assente');
 assert.ok(guide05.includes('Foto')||guide05.includes('Fotografia'),'Didascalia immagine assente');
+const guide01=read('dieta-guida-01-modello-mediterraneo-diabete-evidenze.html');
+assert.ok(guide01.includes('dc26-S005')&&guide01.includes('5.30'),'Mancano ADA 2026 e grado delle prove Guida 01');
+assert.ok(guide01.includes('Non cambiare autonomamente dosi'),'Manca avvertenza sulla sicurezza insulinica Guida 01');
+assert.ok(guide02.includes('beneficio osservato nell\'esito')&&guide02.includes('ictus'),'Revisione PREDIMED non presente Guida 02');
+assert.ok(guide02.includes('www.bmj.com/content/364/bmj.l341.full'),'Manca fonte critica BMJ Guida 02');
+assert.ok(guide03.includes('50 g di carboidrati disponibili')&&guide03.includes('non porzioni qualsiasi'),'Manca la distinzione prova IG/carboidrati Guida 03');
+assert.ok(guide04.includes('349 kcal')&&guide04.includes('arrotondati'),'Manca spiegazione differenza arrotondamenti CREA Guida 04');
+assert.ok(guide05.includes('10 grammi')&&guide05.includes('10 millilitri'),'Manca avvertenza g/ml dell\'olio Guida 05');
+assert.ok(guide05.includes('2022/2104'),'Riferimento normativo origine EVO mancante');
+
 
 
 const recipeImage='assets/ricetta-borlotti-riso-piatto-originale-hd.webp';
