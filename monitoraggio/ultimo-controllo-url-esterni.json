@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T16:17:18.510443+00:00",
+  "date_utc": "2026-10-23T16:41:20.413250+00:00",
   "scope": {
-    "pages": 85,
+    "pages": 86,
     "unique_external_urls": 689,
-    "occurrences": 1562
+    "occurrences": 1565
   },
   "counts": {
-    "raggiungibile": 569,
-    "bloccato_o_riservato": 115,
-    "non_verificato_trasporto": 4,
+    "raggiungibile": 567,
+    "bloccato_o_riservato": 116,
+    "non_verificato_trasporto": 5,
     "errore_http": 1
   },
   "results": [
@@ -954,9 +954,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -991,6 +990,7 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "tutor-ai-conversazione-correzioni.html",
         "tutor-ai.html"
       ]
     },
@@ -1463,6 +1463,7 @@
       "http": 200,
       "final_url": "https://joint-research-centre.ec.europa.eu/scientific-activities/key-competences-lifelong-learning/digital-competence-framework-digcomp/digcomp-30_en",
       "pages": [
+        "tutor-ai-conversazione-correzioni.html",
         "tutor-ai.html"
       ]
     },
@@ -3683,6 +3684,7 @@
       "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "tutor-ai-android-primi-passi.html",
+        "tutor-ai-conversazione-correzioni.html",
         "tutor-ai.html"
       ]
     },
@@ -6911,9 +6913,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"

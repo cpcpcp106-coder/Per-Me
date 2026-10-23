@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T16:15:42.426Z",
+  "checked_at_utc": "2026-10-23T16:39:29.756Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 83,
+        "count": 84,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 83,
+        "checked": 84,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 83,
+        "checked": 84,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "77 pagine salvate per la lettura offline · controllo online 23 ott, 16:16.",
+        "status": "77 pagine salvate per la lettura offline · controllo online 23 ott, 16:40.",
         "stored": {
           "guides": 77,
-          "updated": "2026-10-23T16:16:20.873Z",
+          "updated": "2026-10-23T16:40:15.382Z",
           "bytes": 2052926,
           "includesNew09": true
         }
@@ -665,6 +665,12 @@
       "page": "tutor-ai-android-primi-passi.html",
       "violations": [],
       "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-conversazione-correzioni.html",
+      "violations": [],
+      "passes": 24,
       "incomplete": 2
     },
     {
