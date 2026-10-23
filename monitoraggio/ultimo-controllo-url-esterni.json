@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T16:43:34.564032+00:00",
+  "date_utc": "2026-10-23T16:58:12.182658+00:00",
   "scope": {
     "pages": 90,
     "unique_external_urls": 690,
     "occurrences": 1579
   },
   "counts": {
-    "raggiungibile": 566,
-    "bloccato_o_riservato": 118,
-    "non_verificato_trasporto": 5,
+    "raggiungibile": 568,
+    "non_verificato_trasporto": 6,
+    "bloccato_o_riservato": 115,
     "errore_http": 1
   },
   "results": [
@@ -886,15 +886,6 @@
       ]
     },
     {
-      "url": "https://garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949",
-      "pages": [
-        "tutor-ai-privacy-truffe.html"
-      ]
-    },
-    {
       "url": "https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/",
       "status": "raggiungibile",
       "http": 200,
@@ -963,8 +954,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -3739,6 +3731,15 @@
       ]
     },
     {
+      "url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949",
+      "pages": [
+        "tutor-ai-privacy-truffe.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
       "status": "raggiungibile",
       "http": 200,
@@ -5369,9 +5370,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -6903,8 +6903,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -6912,8 +6913,9 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
