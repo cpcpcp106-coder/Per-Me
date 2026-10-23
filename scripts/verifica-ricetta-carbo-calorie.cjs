@@ -60,7 +60,7 @@ const guide05Path='dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html';
 const guide05=read(guide05Path);
 assert.ok(rubric.includes('href="'+guide05Path+'"'),'Guida 05 assente dalla rubrica');
 assert.ok(sitemap.includes(guide05Path),'Guida 05 assente dalla sitemap');
-for(const val of ['009210','2022/2104','90 kcal','0 g','10 ml','Grammi','grammi','millilitri']){
+for(const val of ['009210','2022/2104','90 kcal','0 g','10 ml','grammi','millilitri']){
  assert.ok(guide05.includes(val),'Guida 05 priva di un dato nutrizionale, unità o riferimento: '+val);
 }
 assert.equal(Math.round(10*899/100),90,'Calcolo CREA 10 g di EVO errato');
