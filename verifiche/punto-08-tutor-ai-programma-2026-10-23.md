@@ -2,7 +2,7 @@
 
 **Data:** 23 ottobre 2026  
 **Ambito:** rubrica 06 «Tutor AI essenziale», pubblico principale 50–70 anni e familiari che aiutano, in tutta Italia.  
-**Stato complessivo (aggiornato al 23 ottobre):** percorso introduttivo disponibile; primo approfondimento Android creato, collegato e collaudato su Chromium mobile emulato (19/19 controlli superati); verifica con persone reali e su Android fisico non svolta; altri cinque approfondimenti da pubblicare.
+**Stato complessivo (aggiornato al 23 ottobre):** percorso base pubblicato e sei approfondimenti realizzati e collegati (Android più cinque lezioni); verifiche automatiche in corso dopo l'ampliamento; collaudi con lettori reali 50–70 anni e su dispositivi Android fisici non eseguiti.
 
 ## 1. Stato verificato: distinguere quanto esiste da quanto resta da fare
 
@@ -117,3 +117,22 @@ Sono state generate due fotografie illustrative iperrealistiche originali e pubb
 - `assets/tutor-ai-android-originale.webp`: immagine dell'approfondimento Android, usata anche come anteprima sociale della guida.
 
 **Criterio editoriale per le prossime lezioni Tutor AI:** immagini originali create per la specifica guida, rappresentazione fotografica naturale e credibile di attività quotidiane per adulti 50–70 anni; non riutilizzare sempre la stessa scena. Non raffigurare interfacce fittizie come se fossero schermate ufficiali, né persone generate come testimonianze reali. Inserire un testo alternativo pertinente e una didascalia che dichiari esplicitamente la generazione AI. Preferire WebP leggeri, dimensioni responsive e lettura dei soli testi nell'app offline.
+
+
+## 9. Completamento degli approfondimenti 2–6 (23 ottobre 2026)
+
+Le cinque guide seguenti sono state create, collegate al percorso introduttivo e aggiunte alla sitemap. **Sono pagine editoriali pubblicabili, non un corso empiricamente validato:**
+
+| Approfondimento | File | Esercizio centrale |
+| --- | --- | --- |
+| 2. Conversazione e correzione | [tutor-ai-conversazione-correzioni.html](../tutor-ai-conversazione-correzioni.html) | Due messaggi in sequenza, controllo delle aggiunte |
+| 3. Fonti e date | [tutor-ai-verifica-fonti-date.html](../tutor-ai-verifica-fonti-date.html) | Separare confermato, smentito e non indicato |
+| 4. Riassunti e confronti | [tutor-ai-riassumere-confrontare.html](../tutor-ai-riassumere-confrontare.html) | Confronto fedele di due avvisi inventati |
+| 5. Privacy e truffe | [tutor-ai-privacy-truffe.html](../tutor-ai-privacy-truffe.html) | Segnali di rischio senza condividere codici |
+| 6. Quando chiedere aiuto | [tutor-ai-quando-chiedere-aiuto.html](../tutor-ai-quando-chiedere-aiuto.html) | Domande da preparare per enti e professionisti |
+
+**Fotografie:** cinque scene originali generate con AI, tagliate da una composizione creata appositamente per Per Me, archiviate come `assets/tutor-ai-{dialogo,fonti,confronto,sicurezza,professionisti}-originale.webp`. Le immagini sono illustrative e nessun soggetto è una persona reale. Ogni guida indica esplicitamente l'origine sintetica.
+
+**Accessibilità e PWA:** testi leggibili anche con immagine non caricata, pulsanti grandi, due prompt copiabili in ogni approfondimento e soluzioni espandibili. I testi possono essere letti e copiati offline dopo una sincronizzazione online. Le immagini non sono incluse nel lettore offline di solo testo, coerentemente con l'impostazione PWA del progetto. Sono stati aggiornati `tutor-ai.html`, `app/main.js`, `app/index.html`, `app/sw.js`, `sitemap.xml` e il collaudo `monitoraggio/collaudo_tutor_mobile.cjs`.
+
+**Prove ancora necessarie:** effettiva facilità di lettura, comprensione e capacità di svolgere gli esercizi da parte di volontari 50–70 anni; eventuali impedimenti su un Android fisico; aggiornamento futuro dei riferimenti alle piattaforme. Non dichiarare risultati non osservati.
