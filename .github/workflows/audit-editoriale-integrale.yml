@@ -5,12 +5,18 @@ on:
     paths:
       - '*.html'
       - 'scripts/audit-editoriale-integrale.cjs'
+      - 'scripts/controlla-facebook-guide.cjs'
+      - 'gradimento.js'
+      - 'gradimento-articoli.json'
       - '.github/workflows/audit-editoriale-integrale.yml'
   push:
     branches: [main]
     paths:
       - '*.html'
       - 'scripts/audit-editoriale-integrale.cjs'
+      - 'scripts/controlla-facebook-guide.cjs'
+      - 'gradimento.js'
+      - 'gradimento-articoli.json'
       - '.github/workflows/audit-editoriale-integrale.yml'
 permissions:
   contents: read
@@ -25,3 +31,5 @@ jobs:
           node-version: '22'
       - name: Verifica tutte le pagine editoriali, navigazione, fonti e foto
         run: node scripts/audit-editoriale-integrale.cjs
+      - name: Verifica pulsante Facebook condiviso in tutte le guide
+        run: node scripts/controlla-facebook-guide.cjs
