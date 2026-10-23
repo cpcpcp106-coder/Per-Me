@@ -1,0 +1,43 @@
+name: Per Me - Importa foto originale zuppa lenticchie
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/importa-zuppa-lenticchie-foto.yml'
+permissions:
+  contents: write
+jobs:
+  photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Converte la foto originale del piatto in WebP ottimizzato
+        env:
+          SOURCE_PHOTO: 'https://sdmntprnortheu.oaiusercontent.com/files/00000000-971c-81f4-8aed-dc367150dbef/raw?se=2026-10-23T21%3A09%3A08Z&sp=r&sv=2026-02-06&sr=b&scid=95d2d61b-91f1-531a-a505-3127eafae1a3&skoid=9b41a688-1b44-4731-856e-b0efcf3660ed&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-10-23T04%3A40%3A45Z&ske=2026-10-24T04%3A40%3A45Z&sks=b&skv=2026-02-06&sig=NJRKZYC4OUYv2LYERWmJ165Kgp/taqap9uBZXRXRTAg%3D'
+        run: |
+          set -euo pipefail
+          python -m pip install -q pillow
+          curl -fL --retry 2 --max-time 90 "$SOURCE_PHOTO" -o /tmp/zuppa-lenticchie.png
+          python - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          im=Image.open('/tmp/zuppa-lenticchie.png').convert('RGB')
+          assert im.width>=1200 and im.height>=700, im.size
+          im.thumbnail((1280,850),Image.Resampling.LANCZOS)
+          target=Path('assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp')
+          im.save(target,'WEBP',quality=83,method=6)
+          assert target.stat().st_size>50000
+          print('IMMAGINE_PIATTO',im.size,target.stat().st_size)
+          PY
+      - name: Archivia foto e rimuovi procedura temporanea
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp
+          git rm .github/workflows/importa-zuppa-lenticchie-foto.yml
+          git commit -m "Ricette Dieta: fotografia originale della zuppa di lenticchie"
+          git push
