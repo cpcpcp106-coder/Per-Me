@@ -1,5 +1,5 @@
 const CACHE='perme-reader-v17-20261023-tutor-completo';
-const SHELL=['./','./index.html','./app.css?v=13','./main.js?v=12','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
+const SHELL=['./','./index.html','./app.css?v=13','./main.js?v=13','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting()));
 });
