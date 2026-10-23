@@ -10,6 +10,8 @@ const read = file => fs.readFileSync(path.join(root, file), 'utf8');
 const catalog = JSON.parse(read('gradimento-articoli.json'));
 const known = new Set(catalog.map(entry => entry.path));
 const files = fs.readdirSync(root).filter(name => name.endsWith('.html'));
+// Le pagine istituzionali e tecniche non sono guide e non richiedono il pulsante.
+const notGuides = new Set(['index.html', 'chi-siamo.html', 'metodo.html', 'monitoraggio.html', 'gradimento.html']);
 const hasArticle = html => /<article\b[^>]*\bclass\s*=\s*["'][^"']*\barticle\b[^"']*["']/i.test(html);
 const hasSharedScript = html => /<script\b[^>]*\bsrc\s*=\s*["'](?:\.\/)?gradimento\.js(?:[?#][^"']*)?["']/i.test(html);
 const issues = [];
@@ -27,7 +29,7 @@ for (const item of catalog) {
 let guides = 0;
 for (const file of files) {
   const html = read(file);
-  const guide = known.has(file) || hasArticle(html) || /(?:^|-)guida(?:-|\.)/.test(file);
+  const guide = !notGuides.has(file) && (known.has(file) || hasArticle(html) || /(?:^|-)guida(?:-|\.)/.test(file));
   if (!guide) continue;
   guides++;
   if (!hasSharedScript(html)) {
