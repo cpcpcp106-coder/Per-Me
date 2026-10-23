@@ -9,6 +9,9 @@ on:
       - "app/**"
       - "assets/**"
       - "style.css"
+      - "gradimento.js"
+      - "gradimento-articoli.json"
+      - "scripts/controlla-facebook-guide.cjs"
       - "sitemap.xml"
       - "monitoraggio/audit_statico.py"
       - "monitoraggio/pubblica_report.sh"
@@ -32,6 +35,10 @@ jobs:
         run: |
           node --check app/main.js
           node --check app/sw.js
+      - name: Pulsante Facebook obbligatorio nelle guide presenti e future
+        run: |
+          node --check gradimento.js
+          node scripts/controlla-facebook-guide.cjs
       - name: Inventario, collegamenti, PWA e sitemap
         run: python monitoraggio/audit_statico.py
       - name: Salva lo storico statico senza sovrascrivere gli audit editoriali
