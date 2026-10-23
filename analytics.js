@@ -89,8 +89,9 @@
   // Cloudflare Web Analytics: manual snippet from the site's owner.
   // Not loaded on owner/excluded browser sessions.
   const beacon = document.createElement('script');
-  beacon.type = 'module';
-  // Cloudflare: per script inseriti dinamicamente usare il token nell'URL.
+  // Script classico per caricamento dinamico: collaudato con invio RUM
+  // intercettato. Non utilizzare type="module" qui (nessun POST nel test).
+  // Il token nel parametro URL è supportato da Cloudflare.
   beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js?token=f16507f2d95944b0be1e747974750ad1';
   document.head.appendChild(beacon);
 
