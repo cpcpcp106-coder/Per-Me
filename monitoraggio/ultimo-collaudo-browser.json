@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T16:39:29.756Z",
+  "checked_at_utc": "2026-10-23T16:41:58.889Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 84,
+        "count": 88,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 84,
+        "checked": 88,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 84,
+        "checked": 88,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "77 pagine salvate per la lettura offline · controllo online 23 ott, 16:40.",
+        "status": "82 pagine salvate per la lettura offline · controllo online 23 ott, 16:42.",
         "stored": {
-          "guides": 77,
-          "updated": "2026-10-23T16:40:15.382Z",
-          "bytes": 2052926,
+          "guides": 82,
+          "updated": "2026-10-23T16:42:45.970Z",
+          "bytes": 2081888,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 77
+        "count": 82
       }
     },
     {
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -669,6 +669,30 @@
     },
     {
       "page": "tutor-ai-conversazione-correzioni.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-privacy-truffe.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-quando-chiedere-aiuto.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-riassumere-confrontare.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-verifica-fonti-date.html",
       "violations": [],
       "passes": 24,
       "incomplete": 2
