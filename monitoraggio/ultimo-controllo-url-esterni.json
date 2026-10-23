@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T20:18:51.092597+00:00",
+  "date_utc": "2026-10-23T20:30:01.436371+00:00",
   "scope": {
     "pages": 96,
-    "unique_external_urls": 705,
-    "occurrences": 1625
+    "unique_external_urls": 706,
+    "occurrences": 1627
   },
   "counts": {
-    "raggiungibile": 580,
-    "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 5,
-    "errore_http": 1
+    "raggiungibile": 578,
+    "errore_http": 1,
+    "bloccato_o_riservato": 121,
+    "non_verificato_trasporto": 6
   },
   "results": [
     {
@@ -988,9 +988,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1976,8 +1975,8 @@
     },
     {
       "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
-      "status": "errore_http",
-      "http": 307,
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
@@ -3241,6 +3240,15 @@
       "http": 403,
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://www.bmj.com/content/364/bmj.l341.full",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html"
       ]
     },
     {
@@ -5455,9 +5463,8 @@
     },
     {
       "url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
