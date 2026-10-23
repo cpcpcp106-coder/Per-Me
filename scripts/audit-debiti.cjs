@@ -58,7 +58,7 @@ assert.match(guide03,/I 220 giorni non sono un termine generale/i);
 const guida06=fs.readFileSync(path.join(root,filenames[5]),'utf8');
 assert.match(guida06,/concorso simultaneo di cause diverse/i,'Guida 06 senza distinzione fra crediti');
 assert.match(guida06,/Non significa che sia sempre legittimo trattenere il 50%/i,'Guida 06 senza limite sulla regola del 50%');
-assert.match(guida06,/articolo 546 c\\.p\\.c\\./i,'Guida 06 senza rimedio per pignoramenti presso più terzi');
+assert.ok(guida06.includes('articolo 546 c.p.c.'),'Guida 06 senza rimedio per pignoramenti presso più terzi');
 assert.match(guida06,/La cessione del quinto già in corso non è un pignoramento/i,'Guida 06 senza distinzione fra cessione e pignoramento');
 const guida08=fs.readFileSync(path.join(root,filenames[7]),'utf8');
 assert.match(guida08,/articolo 70, comma 4/i,'Guida 08 senza norma sulle misure protettive');
