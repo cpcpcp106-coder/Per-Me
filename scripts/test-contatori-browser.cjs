@@ -92,6 +92,19 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   // Il test non deve mai inviare POST reali al servizio Cloudflare.
   // Carica il vero script Cloudflare e intercetta la raccolta dei dati prima della rete.
   const cfCtx=await browser.newContext({serviceWorkers:'block'});
+  // Osserva sendBeacon sul browser stesso; blocca sempre l'invio reale a Cloudflare.
+  await cfCtx.addInitScript(()=>{
+    window.__perme_cf_attempts=[];
+    const oldBeacon=navigator.sendBeacon?.bind(navigator);
+    navigator.sendBeacon=function(url,data){
+      const target=String(url);
+      if(target.includes('/cdn-cgi/rum')){
+        window.__perme_cf_attempts.push({type:'sendBeacon',url:target});
+        return true;
+      }
+      return oldBeacon?oldBeacon(url,data):false;
+    };
+  });
   let cfPosts=0;
   const cfErrors=[],cfNetwork=[];
 
@@ -133,6 +146,11 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     waitUntil:'load',timeout:35000
   });
   await cfPage.waitForTimeout(2400);
+  const cfBeaconAttempts=await cfPage.evaluate(()=>window.__perme_cf_attempts||[]);
+  const cfState=await cfPage.evaluate(()=>({
+    webdriver:navigator.webdriver,readyState:document.readyState,
+    scriptCount:document.querySelectorAll('script[src*="cloudflareinsights.com/beacon.min.js"]').length
+  }));
   await cfPage.goto('about:blank',{waitUntil:'load',timeout:20000});
   await cfPage.waitForTimeout(1000);
   // Browser automatici possono essere esclusi dai sistemi anti-bot.
@@ -141,7 +159,7 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   const loaded=cfNetwork.some(x=>x.type==='response' &&
     x.path==='/beacon.min.js' && x.status===200);
   row('cloudflare_real_js_downloaded',loaded,
-    {loaded,attemptedPosts:cfPosts,network:cfNetwork,errors:cfErrors,
+    {loaded,attemptedPosts:cfPosts,sendBeaconAttempts:cfBeaconAttempts,context:cfState,network:cfNetwork,errors:cfErrors,
      note:'I POST non sono criterio di successo nei browser automatizzati: nessun evento reale inviato.'});
   await cfCtx.close();
  }finally{await browser.close()}
