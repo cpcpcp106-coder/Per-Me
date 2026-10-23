@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T21:08:49.576Z",
+  "checked_at_utc": "2026-10-23T21:15:03.325Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 98,
+        "count": 99,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 98,
+        "checked": 99,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 98,
+        "checked": 99,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "92 pagine salvate per la lettura offline · controllo online 23 ott, 21:09.",
+        "status": "92 pagine salvate per la lettura offline · controllo online 23 ott, 21:15.",
         "stored": {
           "guides": 92,
-          "updated": "2026-10-23T21:09:24.274Z",
-          "bytes": 2194374,
+          "updated": "2026-10-23T21:15:55.073Z",
+          "bytes": 2195341,
           "includesNew09": true
         }
       }
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -707,6 +707,12 @@
       "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
       "violations": [],
       "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "violations": [],
+      "passes": 24,
       "incomplete": 2
     },
     {

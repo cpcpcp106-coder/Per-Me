@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T21:10:20.516823+00:00",
+  "date_utc": "2026-10-23T21:16:53.508811+00:00",
   "scope": {
-    "pages": 100,
-    "unique_external_urls": 715,
-    "occurrences": 1657
+    "pages": 101,
+    "unique_external_urls": 721,
+    "occurrences": 1667
   },
   "counts": {
-    "raggiungibile": 589,
+    "raggiungibile": 591,
     "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 5,
+    "non_verificato_trasporto": 9,
     "errore_http": 1
   },
   "results": [
@@ -1519,6 +1519,15 @@
       ]
     },
     {
+      "url": "https://innovazione.gov.it/notizie/articoli/sanita-digitale-informazione-e-supporto-per-lutilizzo-del-fascicolo-sanitario-elettronico/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://innovazione.gov.it/notizie/articoli/sanita-digitale-informazione-e-supporto-per-lutilizzo-del-fascicolo-sanitario-elettronico/",
+      "pages": [
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
+      ]
+    },
+    {
       "url": "https://iwgdfguidelines.org/guidelines-2023/",
       "status": "raggiungibile",
       "http": 200,
@@ -1937,12 +1946,31 @@
       ]
     },
     {
+      "url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta",
+      "pages": [
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
+      ]
+    },
+    {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ]
+    },
+    {
+      "url": "https://servizi.regione.fvg.it/portale/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.regione.fvg.it/portale/",
+      "pages": [
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
       ]
     },
     {
@@ -3898,6 +3926,7 @@
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html",
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",
         "tutor-ai-privacy-truffe.html",
@@ -3908,12 +3937,31 @@
       ]
     },
     {
+      "url": "https://www.fascicolosanitario.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.fascicolosanitario.gov.it/portale/home",
+      "pages": [
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
+      ]
+    },
+    {
       "url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.garanteprivacy.it/faq/fascicolo-sanitario",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/faq/fascicolo-sanitario",
+      "pages": [
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
       ]
     },
     {
@@ -5765,9 +5813,8 @@
     },
     {
       "url": "https://www.nice.org.uk/guidance/NG123/chapter/recommendations",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nice.org.uk/guidance/NG123/chapter/recommendations",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
@@ -5814,9 +5861,8 @@
     },
     {
       "url": "https://www.nice.org.uk/guidance/ng19/chapter/Recommendations",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nice.org.uk/guidance/ng19/chapter/Recommendations",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
@@ -5835,9 +5881,8 @@
     },
     {
       "url": "https://www.nice.org.uk/guidance/ng242/chapter/Recommendations",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nice.org.uk/guidance/ng242/chapter/Recommendations",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
@@ -5869,9 +5914,8 @@
     },
     {
       "url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nice.org.uk/guidance/ng85/chapter/Recommendations",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -6820,6 +6864,16 @@
       "pages": [
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/social-network/fascicolo-sanitario-elettronico-con-te-la-tua-salute/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/social-network/fascicolo-sanitario-elettronico-con-te-la-tua-salute/",
+      "pages": [
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+        "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
       ]
     },
     {
