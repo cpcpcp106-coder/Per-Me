@@ -5,7 +5,7 @@
 - **Rubrica 06, Tutor AI:** percorso base e sei approfondimenti pubblicati. Collaudo automatico browser mobile con 26 controlli superati; restano da svolgere test su un Android fisico e con lettori reali 50–70 anni. Non dichiarare esperienza utente validata.
 - **Rubrica 07, Diabete tipo 2:** trenta pagine numerate presenti e collegate dalla rubrica. Non equivalgono a una revisione clinica indipendente di ogni affermazione; controlli e aggiornamenti clinici restano necessari.
 - **Rubrica 05, Salute e autonomia:** quattro guide nazionali pubblicate, ulteriori guide generali ancora da definire e sviluppare. Lo stato di completamento editoriale rimane **aperto**.
-- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide **01–04** su diabete, prevenzione cardiovascolare, carboidrati, fibre, indice e carico glicemico, porzioni e pesi crudi/cotti; **quattro guide ancora programmate (05–08)**. Pubblicata inoltre una ricetta originale con fotografia HD del piatto, carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
+- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide **01–05**, compresa la Guida 05 sui grassi, l'olio EVO, le etichette di origine e i costi; **tre guide ancora programmate (06–08)**. Pubblicata inoltre una ricetta originale con fotografia HD del piatto, carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
 - **Rubriche 01–04:** diverse guide presenti in ciascuna; questo rapporto non certifica la completezza sostanziale e normativa di ciascuna, che richiede specifico audit.
 
 ## Lavoro svolto: avvio della rubrica 08
@@ -71,3 +71,17 @@ Restano da verificare su utenti reali la facilità di comprendere i valori e l'u
 - Restano aperti test di lettura reale su Android fisico e validazione con lettori 50–70 anni; una pagina tecnicamente indicizzabile non equivale a pagina indicizzata né a una visita.
 
 **Priorità editoriale successiva:** Guida 05 su grassi alimentari, olio extravergine, etichetta, provenienza, porzioni e costo per ricetta, senza prezzi inventati. Non confondere la pubblicazione progressiva con revisione professionale indipendente.
+
+
+## Aggiornamento — Guida 05 su olio EVO, grassi e prezzo (23 ottobre 2026)
+
+- Pubblicata `dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html`, collegata dalla rubrica, indicata in homepage e aggiunta alla sitemap, con `index,follow` e canonical. Stato rubrica: **5 guide su 8**; restano 06–08.
+- Fotografia iperrealistica originale generata appositamente per il progetto, archiviata come `assets/dieta-mediterranea-guida05-olio-grassi-originale.webp`, compressa in WebP e dichiarata illustrativa. La foto non certifica origine, prezzo o composizione di una bottiglia reale.
+- Fonti primarie: AHA *Dietary Guidance to Improve Cardiovascular Health 2026* (31 marzo 2026); CREA *Olio d'oliva extravergine*, codice 009210 (899 kcal per 100 g, carboidrati disponibili 0 g, 10 g circa 90 kcal); Commissione UE, Regolamento delegato 2022/2104, articolo 8 (origine di vergine/extravergine, olive raccolte e frantoio); Commissione europea, quadro di controlli e etichette.
+- La guida distingue **grammi per il calcolo nutrizionale** da **millilitri per il confronto commerciale**. Il prezzo per 10 ml è ottenuto da prezzo effettivamente pagato ÷ volume della bottiglia in ml × 10. Nessun prezzo ipotetico è presentato come rilevazione di mercato.
+- È precisato che **origine italiana e qualità nutrizionale non coincidono** e che la presenza di un'indicazione regolamentata non equivale a una verifica indipendente dell'autenticità dello specifico prodotto. Presenti tre esercizi con soluzione, indicazioni di prudenza clinica, link alla pagina Facebook e metodo di Per Me.
+- Esteso `scripts/verifica-ricetta-carbo-calorie.cjs` a fotografia della Guida 05, fonti CREA e UE, calcolo 10 g ≈ 90 kcal, navigazione e avanzamento 5/8; mantenuto il controllo delle ricette con carboidrati e calorie per porzione.
+
+La pubblicazione e l'audit tecnico **non equivalgono** a validazione da lettori reali, controllo clinico/giuridico indipendente o indicizzazione effettiva in Search Console.
+
+**Prossima guida programmata:** 06, diabete tipo 2 e cardiopatie: principi alimentari comuni e necessità di personalizzazione, senza ripetere inutilmente le trenta guide già esistenti sul diabete.
