@@ -2,7 +2,7 @@
 
 **Data:** 23 ottobre 2026  
 **Ambito:** rubrica 06 «Tutor AI essenziale», pubblico principale 50–70 anni e familiari che aiutano, in tutta Italia.  
-**Stato complessivo:** percorso introduttivo disponibile; collaudi empirici non conclusi; programma editoriale definito, approfondimenti non ancora pubblicati.
+**Stato complessivo (aggiornato al 23 ottobre):** percorso introduttivo disponibile; primo approfondimento Android creato e collegato, in collaudo; verifica con persone reali non svolta; altri approfondimenti ancora da pubblicare.
 
 ## 1. Stato verificato: distinguere quanto esiste da quanto resta da fare
 
@@ -48,11 +48,11 @@ Scheda anonima per ogni partecipante: compito riuscito senza aiuto (sì/no), mot
 
 ## 4. Programma editoriale per proseguire Tutor AI
 
-L'ampliamento non è ancora eseguito. Pubblicare **una guida approfondita alla volta**, solo dopo controllo editoriale, prove di navigazione e verifica delle affermazioni sensibili. I titoli sono di lavoro e possono essere modificati in base agli ostacoli emersi dai test.
+Il **primo approfondimento** è stato creato nel file [tutor-ai-android-primi-passi.html](../tutor-ai-android-primi-passi.html), collegato dalla rubrica, e inserito nella sitemap. È una guida su un servizio AI esterno, con tre passaggi, esercizio copiabile, controllo degli errori, privacy, accessibilità e fonti ufficiali. Gli altri cinque approfondimenti restano in programma. Pubblicare **una guida alla volta**, dopo controllo editoriale e verifica delle affermazioni sensibili. I titoli sono di lavoro e possono essere modificati in base agli ostacoli emersi dai test.
 
 | Priorità | Approfondimento | Risultato concreto per il lettore | Come si distingue dal percorso base |
 | --- | --- | --- | --- |
-| 1 | **Usare una chat AI su Android, passo dopo passo** | Aprire il servizio scelto, distinguere sito/app, copiare e incollare, gestire le autorizzazioni | Istruzioni operative e controlli su un telefono reale, non solo sei prompt |
+| 1 | **Usare una chat AI su Android, passo dopo passo — GUIDA CREATA** | Aprire il servizio scelto, distinguere sito/app, copiare e incollare, controllare le impostazioni privacy | Istruzioni operative e un esercizio originale; non è ancora una prova su un telefono reale |
 | 2 | **Fare domande successive e correggere una risposta** | Modificare una richiesta dopo una risposta incompleta, confrontare versione originale e corretta | Laboratorio in più turni con errori deliberati |
 | 3 | **Verificare informazioni, date e fonti ufficiali** | Trovare un documento pubblico, leggere l'ente e la data, distinguere fatto, ipotesi e dato mancante | Esercitazione completa di verifica senza fidarsi delle citazioni prodotte dall'AI |
 | 4 | **Riassumere e confrontare testi pubblici** | Costruire una tabella di differenze senza inventare fatti e citando i brani utilizzati | Compito su due brevi testi inventati o pubblici, non su documenti personali |
@@ -83,3 +83,15 @@ Per ogni futura guida: una situazione reale e comune; risultato di apprendimento
 **Condizioni e limiti:** è stato utilizzato **Playwright Chromium su Linux con emulazione mobile e touch**, servendo il codice del repository con HTTP locale. È quindi una prova funzionale riproducibile del browser mobile simulato, **non** una verifica su un dispositivo Samsung/Android fisico, né una misura di accessibilità assistiva o un test di comprensione con lettori 50–70 anni. L'esito dell'azione GitHub Pages di pubblicazione precedente è stato confermato separatamente; il test mobile qui descritto esegue i file del repository in locale.
 
 **Stato aggiornato del punto 8:** percorso base disponibile; **collaudo browser mobile emulato superato**; prova su Android fisico e comprensione con persone reali ancora aperte; ampliamento della rubrica pianificato ma non ancora pubblicato. Non dichiarare la rubrica interamente conclusa.
+
+
+## 7. Avanzamento editoriale e tecnico del 23 ottobre 2026
+
+- Creata la guida nazionale `tutor-ai-android-primi-passi.html` con canonical, `index,follow`, fonti primarie, esercizio inventato e pulsante copia.
+- Aggiornata la rubrica `tutor-ai.html` con collegamento interno e descrizione dello stato reale.
+- Aggiornata `sitemap.xml` per segnalare la nuova URL e la revisione della rubrica.
+- Estesa la PWA `app/main.js` per offrire il pulsante di copia del prompt della guida Android nel lettore, anche offline; aggiornate versione di `app/index.html` e cache di `app/sw.js`.
+- Ampliato il test `monitoraggio/collaudo_tutor_mobile.cjs` con navigazione, copia del prompt, tocchi, dimensioni mobile e lettura/copia della nuova guida nella PWA online/offline.
+- La prova qualitativa con lettori 50–70 anni e un collaudo su Android fisico restano **non eseguiti**. Nessun risultato di tali prove va dichiarato per implicazione.
+
+**Nota metodologica:** la pubblicazione della prima guida non dimostra che il programma delle sei lezioni sia terminato.
