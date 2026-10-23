@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T16:59:45.361Z",
+  "checked_at_utc": "2026-10-23T17:48:16.161Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 89,
+        "count": 90,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 89,
+        "checked": 90,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 89,
+        "checked": 90,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "82 pagine salvate per la lettura offline · controllo online 23 ott, 17:00.",
+        "status": "83 pagine salvate per la lettura offline · controllo online 23 ott, 17:48.",
         "stored": {
-          "guides": 82,
-          "updated": "2026-10-23T17:00:34.519Z",
-          "bytes": 2081892,
+          "guides": 83,
+          "updated": "2026-10-23T17:48:52.505Z",
+          "bytes": 2092836,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 82
+        "count": 83
       }
     },
     {
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -557,6 +557,12 @@
       "page": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "violations": [],
       "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "violations": [],
+      "passes": 26,
       "incomplete": 2
     },
     {

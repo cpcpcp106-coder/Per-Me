@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-23T17:01:22.482974+00:00",
+  "date_utc": "2026-10-23T17:49:50.959162+00:00",
   "scope": {
-    "pages": 91,
-    "unique_external_urls": 691,
-    "occurrences": 1585
+    "pages": 92,
+    "unique_external_urls": 695,
+    "occurrences": 1594
   },
   "counts": {
     "raggiungibile": 570,
-    "bloccato_o_riservato": 115,
+    "bloccato_o_riservato": 119,
     "non_verificato_trasporto": 5,
     "errore_http": 1
   },
@@ -363,6 +363,15 @@
         "diabete-tipo-2.html",
         "dieta-mediterranea-scientifica.html",
         "salute-autonomia.html"
+      ]
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html"
       ]
     },
     {
@@ -956,9 +965,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1715,6 +1723,15 @@
         "diabete-guida-08-arteriopatia-periferica-gambe.html",
         "diabete-guida-08-arteriopatia-periferica-gambe.html",
         "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://professional.heart.org/en/science-news/2026-dietary-guidance-to-improve-cardiovascular-health/top-things-to-know",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html"
       ]
     },
     {
@@ -3696,6 +3713,7 @@
       "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",
         "tutor-ai-privacy-truffe.html",
@@ -5211,7 +5229,15 @@
       "http": 200,
       "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
       "pages": [
-        "agevolazioni-diritti.html",
+        "agevolazioni-diritti.html"
+      ]
+    },
+    {
+      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
+      "pages": [
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -5493,6 +5519,15 @@
       "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html"
       ]
     },
     {
@@ -6992,6 +7027,8 @@
       "http": 200,
       "final_url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
       "pages": [
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
