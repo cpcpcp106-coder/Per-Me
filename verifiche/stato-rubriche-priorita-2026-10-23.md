@@ -5,7 +5,7 @@
 - **Rubrica 06, Tutor AI:** percorso base e sei approfondimenti pubblicati. Collaudo automatico browser mobile con 26 controlli superati; restano da svolgere test su un Android fisico e con lettori reali 50–70 anni. Non dichiarare esperienza utente validata.
 - **Rubrica 07, Diabete tipo 2:** trenta pagine numerate presenti e collegate dalla rubrica. Non equivalgono a una revisione clinica indipendente di ogni affermazione; controlli e aggiornamenti clinici restano necessari.
 - **Rubrica 05, Salute e autonomia:** quattro guide nazionali pubblicate, ulteriori guide generali ancora da definire e sviluppare. Lo stato di completamento editoriale rimane **aperto**.
-- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide **01, 02 e 03** su diabete, prevenzione cardiovascolare, carboidrati, fibre, indice e carico glicemico; **cinque guide ancora programmate (04–08)**. Pubblicata inoltre una ricetta originale di esempio con fotografia HD del piatto, carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
+- **Rubrica 08, Dieta mediterranea scientifica:** pubblicate le Guide **01–04** su diabete, prevenzione cardiovascolare, carboidrati, fibre, indice e carico glicemico, porzioni e pesi crudi/cotti; **quattro guide ancora programmate (05–08)**. Pubblicata inoltre una ricetta originale con fotografia HD del piatto, carboidrati disponibili e calorie per porzione, che non conta fra le otto guide.
 - **Rubriche 01–04:** diverse guide presenti in ciascuna; questo rapporto non certifica la completezza sostanziale e normativa di ciascuna, che richiede specifico audit.
 
 ## Lavoro svolto: avvio della rubrica 08
@@ -58,3 +58,16 @@ Restano da verificare su utenti reali la facilità di comprendere i valori e l'u
 - La **fotografia del piatto della ricetta borlotti-riso-pomodori** è stata rigenerata come immagine originale iperrealistica e archiviata in formato WebP ad alta definizione: `assets/ricetta-borlotti-riso-piatto-originale-hd.webp`, circa 221 KB. Sostituita la miniatura precedente nel codice e aggiornata l'immagine di anteprima social. Una fotografia generata non certifica ingredienti effettivamente impiegati né apporti nutrizionali: la didascalia dichiara il carattere illustrativo.
 - **Controllo CI corretto:** `scripts/verifica-ricetta-carbo-calorie.cjs` ora verifica la nuova guida 03, i suoi collegamenti, formule e fonti, il conteggio 3/8 in homepage e l'uso di una fotografia del piatto realmente salvata con dimensione file superiore a 150 KB; il controllo delle quantità e calorie per porzione resta attivo.
 - **Priorità editoriale successiva:** Guida 04 su porzioni, pesi crudi e cotti, lettura CREA ed errori comuni nei calcoli dei nutrienti. Mantenere separati i controlli tecnici dalla comprensione dei lettori reali e dall'indicizzazione Google.
+
+
+## Aggiornamento — Guida 04, pesi crudi e cotti (23 ottobre 2026)
+
+- Pubblicata `dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html`, collegata dalla rubrica 08, homepage e sitemap. Pagine scientifiche pubblicate: **4/8**; restano 05–08.
+- Fotografia iperrealistica originale generata per il progetto e archiviata in `assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp`; mostra ciotole di pasta cruda e cotta e bilancia, senza numeri di peso attribuiti alla foto. Il file è dichiarato illustrativo, non prova di laboratorio.
+- Fonti primarie di calcolo: schede CREA `000800` (pasta di semola cruda, per 100 g: 72,7 g carboidrati disponibili; 341 kcal), `000805` (pasta bollita, per 100 g: 37,3 g carboidrati disponibili; 175 kcal), tabella C di `alimentinutrizione.it/presentazione-dati` (resa indicativa per pasta corta 1,88, lunga 2,10 e fagioli secchi 2,3). Documentate le differenze fra dati medi e misure individuali, senza dichiarare perfetta equivalenza nutrizionale fra schede crude e cotte.
+- Esempi: 80 g pasta secca (58,2 g carboidrati disponibili e 273 kcal circa, senza condimento), resa media di 80 × 1,88 = 150,4 g cotti. Un esempio parallelo su 150 g di pasta cotta usa esclusivamente dati della scheda cotta; gli esiti non coincidono necessariamente per dispersione, acqua, variabilità e arrotondamenti.
+- Esempio di prezzo della parte edibile illustrativo, **non un prezzo di mercato realmente rilevato**: 2,40 €/kg ÷ 0,75 di parte edibile = 3,20 €/kg edibile, 250 g = 0,80 €.
+- Verificati con il test `scripts/verifica-ricetta-carbo-calorie.cjs`: nuove fonti, numeri, formule, immagine originale, link rubrica, sitemap e testo stato 4/8. Workflow automatico `Per Me - Controllo carboidrati e calorie ricette`, esecuzione [40016726262](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/40016726262), **successo**.
+- Restano aperti test di lettura reale su Android fisico e validazione con lettori 50–70 anni; una pagina tecnicamente indicizzabile non equivale a pagina indicizzata né a una visita.
+
+**Priorità editoriale successiva:** Guida 05 su grassi alimentari, olio extravergine, etichetta, provenienza, porzioni e costo per ricetta, senza prezzi inventati. Non confondere la pubblicazione progressiva con revisione professionale indipendente.
