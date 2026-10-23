@@ -22,8 +22,8 @@ jobs:
           node-version: '22'
       - name: Installa Chromium e Playwright
         run: |
-          npm install --no-save playwright
-          npx playwright install --with-deps chromium
+          timeout 180s npm install --no-save playwright@1.56.1
+          timeout 180s npx playwright install chromium
       - name: Prova copia prompt, soluzioni, layout mobile e PWA offline
         run: node monitoraggio/collaudo_tutor_mobile.cjs
       - name: Conserva rapporto tecnico del test
