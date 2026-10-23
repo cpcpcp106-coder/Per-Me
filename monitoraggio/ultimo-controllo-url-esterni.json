@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T06:28:26.204546+00:00",
+  "date_utc": "2026-10-23T07:50:34.680555+00:00",
   "scope": {
     "pages": 84,
     "unique_external_urls": 683,
     "occurrences": 1555
   },
   "counts": {
-    "raggiungibile": 564,
+    "raggiungibile": 565,
     "bloccato_o_riservato": 113,
-    "non_verificato_trasporto": 4,
+    "non_verificato_trasporto": 3,
     "errore_http": 2
   },
   "results": [
@@ -6858,8 +6858,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
