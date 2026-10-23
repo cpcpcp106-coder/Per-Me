@@ -30,6 +30,11 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
 #status{font-size:1.05rem;line-height:1.5;margin:13px 0 0;font-weight:600;min-height:2.8em}
 .info{font-size:1rem;line-height:1.55;border-top:1px solid #d1c2b1;padding-top:15px;margin-top:23px;color:#574538}
 .info p{margin:0 0 11px}
+.origins{background:#fff;border:2px solid #cbbdab;border-radius:18px;padding:20px 16px 13px;margin:0 0 23px}
+.origins h2{font-size:clamp(1.45rem,5vw,1.85rem);margin:0 0 8px;line-height:1.25}
+.origins .period{font-size:1.07rem;margin:0 0 14px;color:#574538;line-height:1.45}
+.origin-row{display:flex;gap:16px;align-items:center;justify-content:space-between;padding:13px 0;border-top:1px solid #dfd3c6;font-size:clamp(1.1rem,4vw,1.25rem);line-height:1.3;font-weight:650}
+.origin-row output{color:#254236;font-weight:850;font-size:clamp(2rem,10vw,2.75rem);line-height:1.1;text-align:right;font-variant-numeric:tabular-nums}
 @media(min-width:480px){.stats{grid-template-columns:1fr 1fr}.metric{padding:28px 12px}.metric output{font-size:clamp(3.1rem,9vw,5.1rem)}}
 </style>
 </head>
@@ -42,11 +47,21 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
  <div class="metric"><h2>Visite al sito</h2><output id="visite" aria-live="polite">—</output></div>
  <div class="metric"><h2>Installazioni dell’app</h2><output id="installazioni" aria-live="polite">—</output></div>
 </section>
+<section class="origins" aria-labelledby="origini-title">
+ <h2 id="origini-title">Da dove arrivano le visite</h2>
+ <p class="period">Conteggi per provenienza dal 23 ottobre 2026. Non includono le visite precedenti.</p>
+ <div class="origin-row"><span>Facebook</span><output id="facebook" aria-live="polite">—</output></div>
+ <div class="origin-row"><span>Google</span><output id="google" aria-live="polite">—</output></div>
+ <div class="origin-row"><span>Altri siti e collegamenti</span><output id="altri" aria-live="polite">—</output></div>
+ <div class="origin-row"><span>Diretto o origine sconosciuta</span><output id="sconosciuta" aria-live="polite">—</output></div>
+</section>
 <button type="button" id="refresh">Aggiorna i numeri</button>
 <button type="button" id="install" hidden>Installa Contatori Per Me</button>
 <p id="status" role="status" aria-live="polite">Caricamento in corso…</p>
 <div class="info">
  <p>Leggere questi dati non aumenta i contatori. Sono eventi registrati, non persone uniche: lo storico può includere controlli tecnici e aperture del proprietario non escluse.</p>
+ <p><strong>Provenienze indicative:</strong> Facebook e Google vengono riconosciuti dal sito di partenza o dai parametri del collegamento. Se l'app Facebook o un browser non comunica la provenienza, la visita finisce nella voce «Diretto o origine sconosciuta». «Google» non indica necessariamente un clic da ricerca organica.</p>
+ <p>Le quattro provenienze iniziano il 23 ottobre 2026. Le visite precedenti restano nel totale ma non sono attribuibili. Poiché il totale e le provenienze richiedono due registrazioni separate, i numeri possono anche non coincidere in caso di problemi di rete.</p>
  <p>Per vedere gli aggiornamenti serve Internet. Se la connessione manca, vengono mostrati soltanto gli ultimi valori salvati sul dispositivo, quando disponibili.</p>
  <p><strong>Nuova serie dal 18 ottobre 2026:</strong> i contatori del precedente fornitore sono attualmente irraggiungibili e non vengono sommati o stimati. Il servizio alternativo è quello utilizzato anche per le stelle; come ogni servizio web esterno può trattare dati tecnici di rete.</p>
  <p>Questa pagina non compare nella navigazione pubblica di Per Me. I conteggi restano però tecnicamente accessibili tramite il servizio esterno senza password.</p>
@@ -59,7 +74,11 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
  const ROOT='https://countapi.mileshilliard.com/api/v1/get/';
  const items=[
   ['visita','perme-visite-dal-20261018-43bcc26da793','visite'],
-  ['installazione','perme-installazioni-dal-20261018-43bcc26da793','installazioni']
+  ['installazione','perme-installazioni-dal-20261018-43bcc26da793','installazioni'],
+  ['origine-facebook','perme-origine-facebook-dal-20261023-43bcc26da793','facebook'],
+  ['origine-google','perme-origine-google-dal-20261023-43bcc26da793','google'],
+  ['origine-altri','perme-origine-altri-dal-20261023-43bcc26da793','altri'],
+  ['origine-sconosciuta','perme-origine-sconosciuta-dal-20261023-43bcc26da793','sconosciuta']
  ];
  const opt=new URL(location.href);
  if(opt.searchParams.get('perme_escludimi')==='1'){
@@ -70,7 +89,7 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
  }
  const format=n=>n.toLocaleString('it-IT');
  const show=(id,n)=>{$(id).textContent=format(n);};
- const storedKey='perme-contatori-salvati-v3-dal-20261018';
+ const storedKey='perme-contatori-salvati-v4-origini-20261023';
  try{
   const last=JSON.parse(localStorage.getItem(storedKey)||'null');
   if(last){
@@ -85,7 +104,7 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
   if(working)return;
   working=true;
   $('refresh').disabled=true;
-  $('status').textContent='Aggiornamento dei due numeri in corso…';
+  $('status').textContent='Aggiornamento dei contatori in corso…';
   const numbers={},results=await Promise.allSettled(items.map(async ([action,key,id])=>{
    const endpoint=ROOT+encodeURIComponent(key)+'?refresh='+Date.now()+'-'+Math.random().toString(36).slice(2);
    const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),14000);
@@ -104,7 +123,7 @@ button:focus-visible{outline:4px solid #a66e36;outline-offset:3px}
    $('status').textContent='Aggiornato alle '+new Date(at).toLocaleString('it-IT')+'.';
    try{localStorage.setItem(storedKey,JSON.stringify({...numbers,at}));}catch(_){}
   }else{
-   $('status').textContent='Impossibile aggiornare '+(errors===2?'entrambi i numeri.':'uno dei numeri.')
+   $('status').textContent='Impossibile aggiornare '+(errors===items.length?'tutti i contatori.':errors+' contatori.')
      +' Controlla la connessione e premi «Aggiorna i numeri». I valori mostrati, se presenti, potrebbero non essere aggiornati.';
   }
   working=false;$('refresh').disabled=false;
