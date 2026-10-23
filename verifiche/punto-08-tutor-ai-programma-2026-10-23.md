@@ -1,0 +1,74 @@
+# Per Me — Punto 8: Tutor AI, collaudo del percorso base e programma di approfondimenti
+
+**Data:** 23 ottobre 2026  
+**Ambito:** rubrica 06 «Tutor AI essenziale», pubblico principale 50–70 anni e familiari che aiutano, in tutta Italia.  
+**Stato complessivo:** percorso introduttivo disponibile; collaudi empirici non conclusi; programma editoriale definito, approfondimenti non ancora pubblicati.
+
+## 1. Stato verificato: distinguere quanto esiste da quanto resta da fare
+
+La homepage `index.html` collega la rubrica 06 alla pagina `tutor-ai.html`. La pagina pubblicata nel repository include:
+- sei prompt distinti (avviso, messaggio, lista, domande per un ufficio, verifica di una fonte, riscrittura semplice), con sei pulsanti `data-copy` corrispondenti agli identificativi dei riquadri;
+- esempi inventati, indicazioni sulla privacy, esercizio sugli errori e quattro domande di autoverifica con soluzioni;
+- metodo in cinque elementi: **compito, testo, forma, limiti, controllo**;
+- avvertenza che Per Me non ospita una chat AI e che le risposte esterne vanno verificate.
+
+Il codice della PWA in `app/main.js` include la rubrica tra le sezioni da sincronizzare, estrae i testi per la lettura offline e prevede di ricreare i comandi per copiare i prompt. Il service worker in `app/sw.js` conserva la struttura di lettura dell'app. La revisione pregressa è documentata in `FONTI/REVISIONE-DIDATTICA-TUTOR-AI-2026-10-15.md`.
+
+**Limiti della verifica del 23 ottobre:** lettura del codice e confronto statico dei sei riquadri con i sei pulsanti; **non** sono stati eseguiti in questa verifica clic su un dispositivo Android reale, installazioni o sessioni offline reali, né interviste o osservazioni di lettori. La disponibilità del codice non dimostra da sola l'esperienza reale su Android. Non dichiarare quindi «collaudato su Android», «validato dagli utenti» o «rubrica completa».
+
+## 2. Collaudo Android da eseguire
+
+Usare almeno un telefono Android reale, con Chrome aggiornato, tastiera e impostazioni comuni; registrare modello/versione solo come dato tecnico del test, non del lettore. Una seconda dimensione di schermo o un altro browser è auspicabile.
+
+**A. Nel sito mobile, con Internet**
+1. Aprire la homepage, raggiungere «Tutor AI essenziale» senza ricorrere alla ricerca e individuare l'inizio del percorso.
+2. Provare il pulsante «Copia» di ciascuno dei sei prompt; verificare che il testo copiato sia completo e senza aggiunte.
+3. Incollare almeno il primo prompt in un campo di testo vuoto; non inviare dati personali e non richiedere la creazione di un account.
+4. Aprire una soluzione di autoverifica con un tocco e richiuderla; verificare pulsanti, contrasto, zoom del testo, scorrimento e assenza di tagli orizzontali.
+
+**B. Nella PWA, dopo sincronizzazione online**
+1. Aprire `app/`, aggiornare le guide e accertare che «Tutor AI essenziale» compaia nel catalogo.
+2. Aprire il testo salvato e verificarne intestazioni, esercizi e sei comandi di copia.
+3. Disattivare la connessione **solo dopo** la sincronizzazione, riaprire la PWA e verificare lettura e copia del testo offline.
+4. Confermare che viene spiegato chiaramente che le risposte del servizio AI esterno richiedono normalmente Internet.
+
+Per ogni prova annotare **riuscita / non riuscita / non verificata**, versione e problema riproducibile. In caso di errore correggere il codice e ripetere la prova. I risultati non sono ancora disponibili.
+
+## 3. Prova di comprensione con lettori reali
+
+Reclutare, **solo dopo consenso e senza inviare inviti a nome del progetto in assenza di autorizzazione**, un piccolo gruppo esplorativo di circa cinque volontari fra 50 e 70 anni oppure familiari facilitatori. Non attribuire al campione valore statistico. Osservare senza suggerire cosa premere, poi chiedere una valutazione facoltativa.
+
+Compiti osservabili:
+1. Trovare Tutor AI dalla homepage e capire che Per Me fornisce istruzioni ma non risponde come una chat.
+2. Copiare il prompt dell'avviso e spiegare come usarlo senza inserire dati personali.
+3. Identificare **due errori** nell'esempio dell'avviso: giorno sbagliato e documento inventato.
+4. Spiegare se una legge citata da una chat è attendibile quando la fonte non si trova; identificare il passo successivo corretto.
+
+Scheda anonima per ogni partecipante: compito riuscito senza aiuto (sì/no), motivo dell'eventuale blocco, parola o pulsante poco chiari, difficoltà di lettura e miglioramento proposto. Non raccogliere nomi, recapiti, età esatta, dati sanitari, credenziali, screenshot di conversazioni personali né informazioni riservate. In presenza di un blocco sulla privacy o sulla verifica delle fonti, correggere la guida prima di divulgarla come percorso testato.
+
+## 4. Programma editoriale per proseguire Tutor AI
+
+L'ampliamento non è ancora eseguito. Pubblicare **una guida approfondita alla volta**, solo dopo controllo editoriale, prove di navigazione e verifica delle affermazioni sensibili. I titoli sono di lavoro e possono essere modificati in base agli ostacoli emersi dai test.
+
+| Priorità | Approfondimento | Risultato concreto per il lettore | Come si distingue dal percorso base |
+| --- | --- | --- | --- |
+| 1 | **Usare una chat AI su Android, passo dopo passo** | Aprire il servizio scelto, distinguere sito/app, copiare e incollare, gestire le autorizzazioni | Istruzioni operative e controlli su un telefono reale, non solo sei prompt |
+| 2 | **Fare domande successive e correggere una risposta** | Modificare una richiesta dopo una risposta incompleta, confrontare versione originale e corretta | Laboratorio in più turni con errori deliberati |
+| 3 | **Verificare informazioni, date e fonti ufficiali** | Trovare un documento pubblico, leggere l'ente e la data, distinguere fatto, ipotesi e dato mancante | Esercitazione completa di verifica senza fidarsi delle citazioni prodotte dall'AI |
+| 4 | **Riassumere e confrontare testi pubblici** | Costruire una tabella di differenze senza inventare fatti e citando i brani utilizzati | Compito su due brevi testi inventati o pubblici, non su documenti personali |
+| 5 | **Privacy, truffe digitali e contenuti ingannevoli** | Riconoscere richieste anomale, immagini o testi sospetti e decidere quando non condividere dati | Casi guidati di prevenzione delle frodi senza promesse di rilevamento infallibile |
+| 6 | **Quando serve una persona: salute, denaro, diritti e scadenze** | Preparare domande da porre a enti e professionisti, senza delegare decisioni alla chat | Casi simulati con punti di arresto e controlli esterni |
+
+Per ogni futura guida: una situazione reale e comune; risultato di apprendimento osservabile; tre passaggi sul telefono; esercizio con testo inventato; soluzione verificabile; controllo errori e privacy; fonti primarie quando sono necessarie; rinvio al percorso base e alla rubrica. Nessuna guida deve richiedere l'acquisto di servizi, presentare prodotti come obbligatori o dichiarare certificazioni non ottenute.
+
+## 5. Sequenza e criteri di avanzamento
+
+1. **Adesso:** percorso base presente nel sito e collegato dalla homepage; piano formalizzato. Il completamento editoriale della pagina non vale come conferma del suo uso reale.
+2. **Prima espansione:** svolgere il collaudo Android e la prova esplorativa con lettori; registrare gli ostacoli concreti.
+3. **Correzioni:** risolvere gli ostacoli riscontrati e ripetere le prove non riuscite.
+4. **Pubblicazione progressiva:** iniziare dall'approfondimento più necessario in base alle prove; rivalutare l'ordine prima degli altri.
+5. **Chiusura della rubrica:** possibile solo quando sono definiti il perimetro editoriale e gli esiti di controllo di tutti gli approfondimenti che si decide effettivamente di pubblicare.
+
+**Misure da riportare, senza dati inventati:** numero di persone che hanno effettivamente partecipato; compiti riusciti senza aiuto; problemi di lettura/navigazione/copia; correzioni applicate; guide aggiuntive realmente pubblicate. Non confondere queste misure con impressioni, clic o visite del sito.
+
+**Decisione sul punto 8:** percorso introduttivo verificato documentalmente e incluso; ampliamento pianificato ma **aperto**; collaudo Android e comprensione sul campo **da eseguire**.
