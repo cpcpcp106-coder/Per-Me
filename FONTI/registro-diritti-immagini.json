@@ -1022,6 +1022,26 @@
       "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/1a13d844f311e133ebbcff30e739df226091ba74",
       "license_or_ownership": "Codice SVG interno al progetto Per Me; nessuna fotografia stock incorporata e nessuna licenza esterna dichiarata. Eventuali diritti di terzi restano soggetti a verifica.",
       "source_history_verified": true
+    },
+    {
+      "file": "assets/tutor-ai-android-originale.webp",
+      "git_blob_sha": "8bad8f150e340b6f0f50efdddd0bd524d89f7b90",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Foto illustrativa iperrealistica originale generata per la guida Tutor AI Android; rappresenta una persona fittizia. Conversions e modifiche successive documentate in GitHub.",
+      "origin": "Immagine generata con intelligenza artificiale su richiesta del progetto Per Me; versione WebP ottimizzata registrata nel repository.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/042fb37d9d19573c9b9cb157935d5ab3e5ae8652 ; fotografia originale generata nella conversazione ChatGPT del 23 ottobre 2026",
+      "license_or_ownership": "Output illustrativo prodotto per Per Me tramite generazione AI; origine registrata, nessuna attribuzione a fotografia stock. Eventuali diritti di terzi non sono verificati indipendentemente.",
+      "source_history_verified": false
+    },
+    {
+      "file": "assets/tutor-ai-base-foto-originale.webp",
+      "git_blob_sha": "fa71950cba1d1c46d29e70bb10233d5e1e3c78a4",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Immagine illustrativa generata per la pagina introduttiva Tutor AI e la card della homepage; la provenienza è supportata dal commit di creazione e da dichiarazioni editoriali, senza certificazione esterna.",
+      "origin": "Immagine generata con intelligenza artificiale, preparata per la rubrica Tutor AI del progetto Per Me.",
+      "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/dd6aff00f3e7a9718192233fe99538cfecc1d1f2",
+      "license_or_ownership": "Immagine preparata per Per Me e archiviata nel repository, senza indicazione di fonte stock. Diritti e storia della generazione non revisionati indipendentemente.",
+      "source_history_verified": false
     }
   ],
   "notes": [
