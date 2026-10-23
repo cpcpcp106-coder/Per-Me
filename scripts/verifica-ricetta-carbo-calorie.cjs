@@ -33,7 +33,7 @@ assert.ok(rubric.includes('href="'+recipePath+'"'),'Ricetta non collegata dalla 
 assert.ok(rubric.includes('Carboidrati')||rubric.includes('carboidrati'));
 assert.ok(rubric.includes('calorie (kcal) per porzione'),'Rubrica non specifica calorie a porzione');
 assert.ok(index.includes('calorie in kcal PER UNA PORZIONE'),'Standard obbligatorio non chiaro');
-assert.ok(home.includes('4 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
+assert.ok(home.includes('5 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
 assert.ok(sitemap.includes(recipePath));
 assert.ok(sitemap.includes('dieta-guida-02-prevenzione-cardiovascolare-studi.html'));
 const guide03Path='dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html';
@@ -56,6 +56,21 @@ assert.equal(Math.round(150*175/100),263);
 const image04='assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp';
 assert.ok(guide04.includes('src="'+image04+'"'),'Guida 04 senza foto originale');
 assert.ok(fs.existsSync(path.join(root,image04)) && fs.statSync(path.join(root,image04)).size>50000,'Foto guida 04 mancante o troppo piccola');
+const guide05Path='dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html';
+const guide05=read(guide05Path);
+assert.ok(rubric.includes('href="'+guide05Path+'"'),'Guida 05 assente dalla rubrica');
+assert.ok(sitemap.includes(guide05Path),'Guida 05 assente dalla sitemap');
+for(const val of ['009210','2022/2104','90 kcal','0 g','10 ml','Grammi','grammi','millilitri']){
+ assert.ok(guide05.includes(val),'Guida 05 priva di un dato nutrizionale, unità o riferimento: '+val);
+}
+assert.equal(Math.round(10*899/100),90,'Calcolo CREA 10 g di EVO errato');
+assert.equal(Math.round(20*899/100),180,'Calcolo CREA 20 g di EVO errato');
+const image05='assets/dieta-mediterranea-guida05-olio-grassi-originale.webp';
+assert.ok(guide05.includes('src="'+image05+'"'),'Fotografia originale Guida 05 non collegata');
+assert.ok(fs.existsSync(path.join(root,image05)) && fs.statSync(path.join(root,image05)).size>50000,'Fotografia originale Guida 05 mancante');
+assert.ok(guide05.includes('www.facebook.com/PerMeGuide'),'Collegamento pubblico di feedback assente');
+assert.ok(guide05.includes('Foto')||guide05.includes('Fotografia'),'Didascalia immagine assente');
+
 
 const recipeImage='assets/ricetta-borlotti-riso-piatto-originale-hd.webp';
 assert.ok(recipe.includes('src="'+recipeImage+'"'),'La ricetta non usa la foto HD');
@@ -79,5 +94,5 @@ for(const name of recipes){
  assert.ok(imagePath && imagePath.startsWith('assets/') && fs.existsSync(path.join(root,imagePath)),'Foto del piatto non salvata nel repository: '+name);
  assert.ok(html.includes('figcaption'),'Didascalia immagine mancante: '+name);
 }
-console.log('PASS: Guide 01-04, calcoli CREA di peso crudo/cotto, fotografia originale, ricette con carboidrati e kcal a porzione, sitemap e collegamenti coerenti.');
+console.log('PASS: Guide 01-05, 10g olio EVO = 90 kcal, origine ed etichette, costo per 10ml, ricette con carboidrati e kcal a porzione, immagini originali, sitemap e link coerenti.');
 console.log('LIMITI: valori stimati; il test non equivale a valutazione dietistica indipendente.');
