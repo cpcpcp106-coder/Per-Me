@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T15:16:11.425Z",
+  "checked_at_utc": "2026-10-23T16:05:33.623Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "77 pagine salvate per la lettura offline · controllo online 23 ott, 15:17.",
+        "status": "77 pagine salvate per la lettura offline · controllo online 23 ott, 16:06.",
         "stored": {
           "guides": 77,
-          "updated": "2026-10-23T15:17:00.602Z",
+          "updated": "2026-10-23T16:06:08.909Z",
           "bytes": 2052826,
           "includesNew09": true
         }
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
