@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T20:30:01.436371+00:00",
+  "date_utc": "2026-10-23T20:43:11.437291+00:00",
   "scope": {
     "pages": 96,
     "unique_external_urls": 706,
-    "occurrences": 1627
+    "occurrences": 1628
   },
   "counts": {
-    "raggiungibile": 578,
-    "errore_http": 1,
+    "raggiungibile": 574,
     "bloccato_o_riservato": 121,
-    "non_verificato_trasporto": 6
+    "non_verificato_trasporto": 10,
+    "errore_http": 1
   },
   "results": [
     {
@@ -1975,8 +1975,8 @@
     },
     {
       "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "errore_http",
+      "http": 307,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
@@ -2286,9 +2286,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/documenti-della-riscossione/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/documenti-della-riscossione/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2304,9 +2303,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -2314,9 +2312,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html",
@@ -2620,9 +2617,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/come-leggere-la-cartella/index.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/come-leggere-la-cartella/index.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2638,9 +2634,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -3455,6 +3450,7 @@
       "http": 200,
       "final_url": "https://www.diabetes.org.uk/living-with-diabetes/eating/carbohydrates-and-diabetes/glycaemic-index-and-diabetes",
       "pages": [
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html"
       ]
     },
@@ -5463,8 +5459,9 @@
     },
     {
       "url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
