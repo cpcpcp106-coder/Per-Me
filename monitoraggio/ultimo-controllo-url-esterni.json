@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-23T17:52:08.058371+00:00",
+  "date_utc": "2026-10-23T17:53:53.409639+00:00",
   "scope": {
     "pages": 93,
     "unique_external_urls": 700,
     "occurrences": 1600
   },
   "counts": {
-    "raggiungibile": 575,
-    "bloccato_o_riservato": 119,
+    "raggiungibile": 576,
+    "bloccato_o_riservato": 118,
     "non_verificato_trasporto": 5,
     "errore_http": 1
   },
@@ -965,8 +965,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
