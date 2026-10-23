@@ -150,7 +150,7 @@ const expectedText=async(page,id)=>{
    return {totalSaved:saved.total,tutorContentLength:saved.tutor.content.length};
   });
   await step('PWA online: sei tasti di copia generati e funzionanti',async()=>{
-   await page.locator('#guide-list .guide-card').filter({hasText:'Tutor AI essenziale'}).first().click();
+   await page.locator('#guide-list .guide-card').filter({has:page.locator('strong').filter({hasText:/^Tutor AI essenziale$/})}).first().click();
    assert.match(await page.locator('#reader-title').innerText(),/Tutor AI/);
    assert.equal(await page.locator('#reader-content .prompt-copy').count(),6);
    const p=page.locator('#reader-content blockquote#prompt-avviso');
@@ -189,7 +189,7 @@ const expectedText=async(page,id)=>{
    await page.goto(BASE+'app/',{waitUntil:'domcontentloaded'}); 
    await context.setOffline(true);
    await page.reload({waitUntil:'domcontentloaded',timeout:30000});
-   await page.locator('#guide-list .guide-card').filter({hasText:'Tutor AI essenziale'}).first().click();
+   await page.locator('#guide-list .guide-card').filter({has:page.locator('strong').filter({hasText:/^Tutor AI essenziale$/})}).first().click();
    assert.match(await page.locator('#reader-title').innerText(),/Tutor AI/);
    assert.equal(await page.locator('#reader-content .prompt-copy').count(),6);
    const id='prompt-correzione';
