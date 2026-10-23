@@ -88,6 +88,40 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   row('app_page_http',appResp?.status()===200,{http:appResp?.status()});
   row('app_installed_event_mocked',installHits.length===1,{hits:t.hits});
   await t.ctx.close();
+
+  // Il test non deve mai inviare POST reali al servizio Cloudflare.
+  // Carica il vero script Cloudflare e intercetta la raccolta dei dati prima della rete.
+  const cfCtx=await browser.newContext({serviceWorkers:'block'});
+  let cfPosts=0;
+  const cfErrors=[];
+  await cfCtx.route('**/analytics.js?*',route=>route.fulfill({
+    status:200,contentType:'application/javascript',body:analytics
+  }));
+  await cfCtx.route(external,route=>route.fulfill({
+    status:200,contentType:'application/json',
+    headers:{'Access-Control-Allow-Origin':'*'},
+    body:'{"value":1}'
+  }));
+  await cfCtx.route('**/cdn-cgi/rum*',async route=>{
+    if(route.request().method()==='POST') cfPosts++;
+    await route.fulfill({status:200,contentType:'application/json',
+      headers:{'Access-Control-Allow-Origin':'*'},body:'{}'});
+  });
+  const cfPage=await cfCtx.newPage();
+  cfPage.on('pageerror',error=>cfErrors.push(String(error).slice(0,200)));
+  cfPage.on('requestfailed',request=>{
+    if(request.url().includes('cloudflareinsights.com'))
+      cfErrors.push(request.url().split('?')[0]+': '+request.failure());
+  });
+  await cfPage.goto(site+'index.html?prova-analytics-intercettata=1',{
+    waitUntil:'load',timeout:35000
+  });
+  await cfPage.waitForTimeout(2400);
+  await cfPage.goto('about:blank',{waitUntil:'load',timeout:20000});
+  await cfPage.waitForTimeout(1000);
+  row('cloudflare_real_js_tries_post_without_transmitting',cfPosts>0,
+    {attemptedPosts:cfPosts,errors:cfErrors});
+  await cfCtx.close();
  }finally{await browser.close()}
  console.log('Diagnostica con intercettazione HTTP, nessun incremento delle chiavi reali.');
  if(results.some(x=>!x.pass))process.exitCode=1;
