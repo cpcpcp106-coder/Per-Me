@@ -33,7 +33,7 @@ assert.ok(rubric.includes('href="'+recipePath+'"'),'Ricetta non collegata dalla 
 assert.ok(rubric.includes('Carboidrati')||rubric.includes('carboidrati'));
 assert.ok(rubric.includes('calorie (kcal) per porzione'),'Rubrica non specifica calorie a porzione');
 assert.ok(index.includes('calorie in kcal PER UNA PORZIONE'),'Standard obbligatorio non chiaro');
-assert.ok(home.includes('3 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
+assert.ok(home.includes('4 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
 assert.ok(sitemap.includes(recipePath));
 assert.ok(sitemap.includes('dieta-guida-02-prevenzione-cardiovascolare-studi.html'));
 const guide03Path='dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html';
@@ -42,6 +42,21 @@ assert.ok(rubric.includes('href="'+guide03Path+'"'),'Guida 03 assente dalla rubr
 assert.ok(sitemap.includes(guide03Path),'Guida 03 assente dalla sitemap');
 assert.ok(guide03.includes('Carboidrati della porzione')&&guide03.includes('CG ='),'Guida 03 senza formule');
 assert.ok(guide03.includes('diabetes.org.uk')&&guide03.includes('dc26-S005'),'Mancano le fonti primarie scientifiche della Guida 03');
+const guide04Path='dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html';
+const guide04=read(guide04Path);
+assert.ok(rubric.includes('href="'+guide04Path+'"'),'Guida 04 assente dalla rubrica');
+assert.ok(sitemap.includes(guide04Path),'Guida 04 assente dalla sitemap');
+for(const source of ['000800','000805','presentazione-dati'])assert.ok(guide04.includes(source),'Fonte CREA assente: '+source);
+for(const value of ['80 g crudi','1,88','58,2 g','273 kcal','56,0 g','36,1 g','287 kcal'])assert.ok(guide04.includes(value),'Numero o esempio assente: '+value);
+assert.equal(Number((80*72.7/100).toFixed(1)),58.2);
+assert.equal(Math.round(80*341/100),273);
+assert.equal(Number((80*1.88).toFixed(1)),150.4);
+assert.equal(Number((150*37.3/100).toFixed(1)),56);
+assert.equal(Math.round(150*175/100),263);
+const image04='assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp';
+assert.ok(guide04.includes('src="'+image04+'"'),'Guida 04 senza foto originale');
+assert.ok(fs.existsSync(path.join(root,image04)) && fs.statSync(path.join(root,image04)).size>50000,'Foto guida 04 mancante o troppo piccola');
+
 const recipeImage='assets/ricetta-borlotti-riso-piatto-originale-hd.webp';
 assert.ok(recipe.includes('src="'+recipeImage+'"'),'La ricetta non usa la foto HD');
 assert.ok(fs.existsSync(path.join(root,recipeImage)),'Asset della fotografia HD assente');
@@ -64,5 +79,5 @@ for(const name of recipes){
  assert.ok(imagePath && imagePath.startsWith('assets/') && fs.existsSync(path.join(root,imagePath)),'Foto del piatto non salvata nel repository: '+name);
  assert.ok(html.includes('figcaption'),'Didascalia immagine mancante: '+name);
 }
-console.log('PASS: guida 02 e prima ricetta coerenti, fonte CREA per 4 ingredienti, 2 porzioni, 36,1 g carboidrati disponibili e 287 kcal per porzione, sitemap e link.');
+console.log('PASS: Guide 01-04, calcoli CREA di peso crudo/cotto, fotografia originale, ricette con carboidrati e kcal a porzione, sitemap e collegamenti coerenti.');
 console.log('LIMITI: valori stimati; il test non equivale a valutazione dietistica indipendente.');
