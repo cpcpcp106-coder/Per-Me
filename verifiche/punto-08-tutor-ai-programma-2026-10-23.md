@@ -72,3 +72,14 @@ Per ogni futura guida: una situazione reale e comune; risultato di apprendimento
 **Misure da riportare, senza dati inventati:** numero di persone che hanno effettivamente partecipato; compiti riusciti senza aiuto; problemi di lettura/navigazione/copia; correzioni applicate; guide aggiuntive realmente pubblicate. Non confondere queste misure con impressioni, clic o visite del sito.
 
 **Decisione sul punto 8:** percorso introduttivo verificato documentalmente e incluso; ampliamento pianificato ma **aperto**; collaudo Android e comprensione sul campo **da eseguire**.
+
+
+## 6. Aggiornamento del 23 ottobre 2026 — collaudo automatico realmente eseguito
+
+È stato creato il test eseguibile `monitoraggio/collaudo_tutor_mobile.cjs` e il relativo workflow `.github/workflows/collaudo-tutor-mobile.yml`, con esecuzione GitHub Actions [#39971129027](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/39971129027), conclusa con **successo**. Il rapporto JSON è conservato come artifact nel workflow.
+
+**Risultato: 14 controlli superati su 14, nessun errore JavaScript segnalato dal test.** Controlli: percorso homepage → Tutor AI; corrispondenza sei riquadri/sei pulsanti; copia effettiva e lettura dalla clipboard di ciascuno dei sei prompt; apertura/chiusura di soluzioni; assenza di scorrimento orizzontale a 390 e 320 px e dimensioni del pulsante; sincronizzazione e presenza della pagina nella PWA; creazione dei sei pulsanti nell'app; riapertura, lettura e copia di prompt in modalità offline.
+
+**Condizioni e limiti:** è stato utilizzato **Playwright Chromium su Linux con emulazione mobile e touch**, servendo il codice del repository con HTTP locale. È quindi una prova funzionale riproducibile del browser mobile simulato, **non** una verifica su un dispositivo Samsung/Android fisico, né una misura di accessibilità assistiva o un test di comprensione con lettori 50–70 anni. L'esito dell'azione GitHub Pages di pubblicazione precedente è stato confermato separatamente; il test mobile qui descritto esegue i file del repository in locale.
+
+**Stato aggiornato del punto 8:** percorso base disponibile; **collaudo browser mobile emulato superato**; prova su Android fisico e comprensione con persone reali ancora aperte; ampliamento della rubrica pianificato ma non ancora pubblicato. Non dichiarare la rubrica interamente conclusa.
