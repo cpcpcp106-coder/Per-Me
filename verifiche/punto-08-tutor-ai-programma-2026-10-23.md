@@ -109,3 +109,11 @@ Oltre ai 14 controlli della guida base sono stati verificati:
 - lettura e copia dello stesso esercizio nella PWA offline.
 
 La simulazione usa Chromium/Playwright su Linux. Questo esito **non sostituisce** una prova su Samsung Android fisico, con eventuali strumenti di accessibilità, o una prova di comprensione con persone reali. Non sono disponibili tali dati. Restano aperti cinque approfondimenti editoriali successivi.
+
+## 9. Immagini editoriali originali — richiesta del 23 ottobre 2026
+
+Sono state generate due fotografie illustrative iperrealistiche originali e pubblicate in formato WebP ottimizzato, senza dipendenze da immagini esterne:
+- `assets/tutor-ai-base-foto-originale.webp`: immagine del percorso introduttivo, presente anche nella scheda della rubrica in homepage;
+- `assets/tutor-ai-android-originale.webp`: immagine dell'approfondimento Android, usata anche come anteprima sociale della guida.
+
+**Criterio editoriale per le prossime lezioni Tutor AI:** immagini originali create per la specifica guida, rappresentazione fotografica naturale e credibile di attività quotidiane per adulti 50–70 anni; non riutilizzare sempre la stessa scena. Non raffigurare interfacce fittizie come se fossero schermate ufficiali, né persone generate come testimonianze reali. Inserire un testo alternativo pertinente e una didascalia che dichiari esplicitamente la generazione AI. Preferire WebP leggeri, dimensioni responsive e lettura dei soli testi nell'app offline.
