@@ -86,6 +86,14 @@
   }
   if (isOwner) return;
 
+  // Cloudflare Web Analytics: manual snippet from the site's owner.
+  // Not loaded on owner/excluded browser sessions.
+  const beacon = document.createElement('script');
+  beacon.type = 'module';
+  beacon.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+  beacon.setAttribute('data-cf-beacon', '{"token":"f16507f2d95944b0be1e747974750ad1"}');
+  document.head.appendChild(beacon);
+
   // Il solo evento viene registrato presso il fornitore esterno.
   // La richiesta HTTP può esporre al fornitore dati tecnici di rete.
   function track(action, key) {
