@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T19:53:31+00:00",
+  "date_utc": "2026-10-23T20:07:37+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 94,
-    "editorial_pages": 92,
+    "html_total": 95,
+    "editorial_pages": 93,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3397,
-    "external_occurrences": 1607,
-    "external_unique": 701,
+    "local_occurrences": 3422,
+    "external_occurrences": 1615,
+    "external_unique": 703,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -81,6 +81,7 @@
       "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
       "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -174,6 +175,8 @@
       "diabete-tipo-2.html",
       "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
       "dieta-mediterranea-ricette.html",
       "dieta-mediterranea-scientifica.html",
       "gradimento.html",
@@ -202,9 +205,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1234,6 +1235,21 @@
       "candidate_numeric_legal_mentions": 0
     },
     {
+      "file": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "title": "Porzioni, pesi crudi e cotti e tabelle CREA: guida pratica | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 21,
+      "links_external": 8,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
       "file": "dieta-mediterranea-ricette.html",
       "title": "Alimentazione e ricette: introduzione | Per Me",
       "h1": 1,
@@ -1254,7 +1270,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 29,
+      "links_local": 33,
       "links_external": 26,
       "missing_local": 0,
       "noindex": false,
