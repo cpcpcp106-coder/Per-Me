@@ -1,17 +1,24 @@
 {
-  "date_utc": "2026-10-23T20:54:06+00:00",
+  "date_utc": "2026-10-23T21:05:32+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 96,
-    "editorial_pages": 94,
+    "html_total": 97,
+    "editorial_pages": 95,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3444,
-    "external_occurrences": 1633,
-    "external_unique": 709,
+    "local_occurrences": 3464,
+    "external_occurrences": 1639,
+    "external_unique": 712,
     "actions": 7,
-    "broken_local": [],
+    "broken_local": [
+      {
+        "page": "ricetta-zuppa-lenticchie-patate-carote.html",
+        "ref": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+        "target": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+        "issue": "file_mancante"
+      }
+    ],
     "broken_anchors": []
   },
   "seo": {
@@ -94,6 +101,7 @@
       "pensione-invalidita.html",
       "redditi-red-comunicazioni-obbligatorie-inps.html",
       "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "ricetta-zuppa-lenticchie-patate-carote.html",
       "riesame-ricorso-inps-termini.html",
       "salute-autonomia.html",
       "salute-guida-01-preparare-visita.html",
@@ -207,7 +215,9 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [],
+    "missing_from_sitemap": [
+      "ricetta-zuppa-lenticchie-patate-carote.html"
+    ],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -703,13 +713,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 33,
-      "links_external": 20,
+      "links_external": 21,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 30
+      "candidate_numeric_legal_mentions": 31
     },
     {
       "file": "debiti-guida-09-a-chi-rivolgersi.html",
@@ -1440,6 +1450,21 @@
       "links_local": 19,
       "links_external": 6,
       "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "ricetta-zuppa-lenticchie-patate-carote.html",
+      "title": "Zuppa di lenticchie, patate e carote: 40 g di carboidrati e 298 kcal | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 20,
+      "links_external": 5,
+      "missing_local": 1,
       "noindex": false,
       "canonical": true,
       "description": true,
