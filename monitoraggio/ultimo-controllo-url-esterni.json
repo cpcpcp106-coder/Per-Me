@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-23T20:43:11.437291+00:00",
+  "date_utc": "2026-10-23T20:45:54.248441+00:00",
   "scope": {
     "pages": 96,
-    "unique_external_urls": 706,
-    "occurrences": 1628
+    "unique_external_urls": 707,
+    "occurrences": 1630
   },
   "counts": {
-    "raggiungibile": 574,
-    "bloccato_o_riservato": 121,
-    "non_verificato_trasporto": 10,
+    "raggiungibile": 578,
+    "bloccato_o_riservato": 123,
+    "non_verificato_trasporto": 5,
     "errore_http": 1
   },
   "results": [
@@ -1799,6 +1799,7 @@
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
         "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
       ]
     },
@@ -2286,8 +2287,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/documenti-della-riscossione/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/documenti-della-riscossione/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2303,8 +2305,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -2312,8 +2315,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html",
@@ -2617,8 +2621,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/come-leggere-la-cartella/index.html",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/come-leggere-la-cartella/index.html",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2634,8 +2639,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -5998,6 +6004,15 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=21G00252&atto.dataPubblicazioneGazzetta=2021-12-30&tipoDettaglio=vigente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=21G00252&atto.dataPubblicazioneGazzetta=2021-12-30&tipoDettaglio=vigente",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
       "status": "raggiungibile",
       "http": 200,
@@ -7068,9 +7083,8 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/assistenza-alle-personecondisabilitaomobilitaridotta.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-italia.html",
         "agevolazioni-guida-03-trasporti-italia.html"
@@ -7078,9 +7092,8 @@
     },
     {
       "url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.trenitalia.com/it/informazioni/la-guida-del-viaggiatore/altre-riduzioni-e-carte-sconto-a-tua-disposizione.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
