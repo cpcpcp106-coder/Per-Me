@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-23T20:53:02.860157+00:00",
+  "date_utc": "2026-10-23T20:56:26.714306+00:00",
   "scope": {
     "pages": 96,
-    "unique_external_urls": 707,
-    "occurrences": 1631
+    "unique_external_urls": 709,
+    "occurrences": 1633
   },
   "counts": {
-    "raggiungibile": 581,
+    "raggiungibile": 583,
     "bloccato_o_riservato": 120,
     "non_verificato_trasporto": 5,
     "errore_http": 1
@@ -306,6 +306,15 @@
       "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
@@ -6101,6 +6110,15 @@
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443~art546",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443~art546",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
