@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-23T19:53:19.720148+00:00",
+  "date_utc": "2026-10-23T19:56:01.284923+00:00",
   "scope": {
-    "pages": 93,
-    "unique_external_urls": 700,
-    "occurrences": 1600
+    "pages": 94,
+    "unique_external_urls": 701,
+    "occurrences": 1607
   },
   "counts": {
-    "raggiungibile": 576,
+    "raggiungibile": 577,
     "bloccato_o_riservato": 118,
     "non_verificato_trasporto": 5,
     "errore_http": 1
@@ -629,6 +629,9 @@
         "diabete-tipo-2.html",
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -2898,6 +2901,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
       "pages": [
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
       ]
     },
@@ -2937,6 +2941,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004125",
       "pages": [
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
       ]
     },
@@ -3399,6 +3404,15 @@
       ]
     },
     {
+      "url": "https://www.diabetes.org.uk/living-with-diabetes/eating/carbohydrates-and-diabetes/glycaemic-index-and-diabetes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.diabetes.org.uk/living-with-diabetes/eating/carbohydrates-and-diabetes/glycaemic-index-and-diabetes",
+      "pages": [
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -3760,6 +3774,7 @@
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+        "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "tutor-ai-android-primi-passi.html",
         "tutor-ai-conversazione-correzioni.html",

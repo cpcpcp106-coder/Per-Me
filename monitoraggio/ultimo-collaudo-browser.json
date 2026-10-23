@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-23T19:51:41.410Z",
+  "checked_at_utc": "2026-10-23T19:54:20.854Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 91,
+        "count": 92,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 91,
+        "checked": 92,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 91,
+        "checked": 92,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "85 pagine salvate per la lettura offline · controllo online 23 ott, 19:52.",
+        "status": "86 pagine salvate per la lettura offline · controllo online 23 ott, 19:55.",
         "stored": {
-          "guides": 85,
-          "updated": "2026-10-23T19:52:30.870Z",
-          "bytes": 2112676,
+          "guides": 86,
+          "updated": "2026-10-23T19:55:10.995Z",
+          "bytes": 2124495,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 85
+        "count": 86
       }
     },
     {
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -563,6 +563,12 @@
       "page": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
       "violations": [],
       "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "violations": [],
+      "passes": 27,
       "incomplete": 2
     },
     {
