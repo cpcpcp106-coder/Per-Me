@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-10-23T14:59:19.446667+00:00",
+  "date_utc": "2026-10-23T15:11:34.049189+00:00",
   "scope": {
     "pages": 85,
-    "unique_external_urls": 688,
-    "occurrences": 1560
+    "unique_external_urls": 689,
+    "occurrences": 1562
   },
   "counts": {
-    "raggiungibile": 517,
-    "non_verificato_trasporto": 54,
+    "raggiungibile": 520,
     "bloccato_o_riservato": 115,
-    "errore_http": 2
+    "non_verificato_trasporto": 53,
+    "errore_http": 1
   },
   "results": [
     {
@@ -2245,9 +2245,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/notifica/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -2255,9 +2254,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html",
@@ -2434,8 +2432,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/notifica-a-mezzo-pec/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/cittadini/notifica-a-mezzo-pec/",
       "pages": [
         "debiti-guida-01-leggere-cartella.html"
       ]
@@ -2549,9 +2548,8 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/la-guida-alla-cartella-di-pagamento/la-cartella-di-pagamento/le-informazioni-di-ader-prima-pagina/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-01-leggere-cartella.html"
@@ -2648,8 +2646,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/servizi/prenota-un-appuntamento/prenota-un-appuntamento-allo-sportello-territoriale/?idServizio=S1",
       "pages": [
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
@@ -3626,6 +3625,16 @@
       "pages": [
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/PerMeGuide",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.facebook.com/PerMeGuide",
+      "pages": [
+        "tutor-ai-android-primi-passi.html",
+        "tutor-ai.html"
       ]
     },
     {
@@ -5155,8 +5164,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -5286,8 +5296,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -6553,8 +6564,9 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
-      "status": "errore_http",
-      "http": 502,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
