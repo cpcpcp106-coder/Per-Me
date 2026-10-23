@@ -188,6 +188,7 @@ function openGuide(path,scroll){
  element('reader-content').innerHTML=g.content;
  if(window.PerMeGradimento?.mount)window.PerMeGradimento.mount(element('reader-rating'),path);
  if(path==='tutor-ai.html')addTutorCopyControls();
+ if(path==='tutor-ai-android-primi-passi.html')addTutorCopyControls();
  const fav=model.favorites.includes(path);
  element('favorite').setAttribute('aria-pressed',String(fav));element('favorite').textContent=fav?'Rimuovi dai preferiti':'Salva nei preferiti';
  if(scroll){history.replaceState(null,'','#guida='+encodeURIComponent(path));window.scrollTo({top:0})}
