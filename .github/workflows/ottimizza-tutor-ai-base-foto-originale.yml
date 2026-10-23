@@ -1,0 +1,44 @@
+name: Per Me - Ottimizza foto originale Tutor AI percorso base
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/ottimizza-tutor-ai-base-foto-originale.yml'
+permissions:
+  contents: write
+jobs:
+  webp:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Riduce foto originale a WebP
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          from PIL import Image
+          import os
+          src='assets/tutor-ai-base-foto-originale.png'
+          out='assets/tutor-ai-base-foto-originale.webp'
+          im=Image.open(src).convert('RGB')
+          assert im.width>=1000 and im.height>=1000
+          im.thumbnail((820,1230),Image.Resampling.LANCZOS)
+          im.save(out,'WEBP',quality=76,method=6)
+          with Image.open(out) as check:
+              assert check.width>=750 and check.height>=1100
+          print('FOTO_BASE_WEBP_OK',im.size,os.stat(out).st_size)
+          PY
+      - name: Memorizza WebP e cancella sorgente pesante e workflow provvisorio
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/tutor-ai-base-foto-originale.webp
+          git rm assets/tutor-ai-base-foto-originale.png
+          git rm .github/workflows/ottimizza-tutor-ai-base-foto-originale.yml
+          git commit -m "Tutor AI: ottimizza seconda foto originale"
+          git push
