@@ -129,9 +129,9 @@ function facebookContact(article){
   document.head.append(style);
  }
  const box=document.createElement('section');box.className='perme-facebook-contact';box.setAttribute('aria-label','Commenti sulla pagina Facebook di Per Me');
- const title=document.createElement('h2');title.textContent='Vuoi commentare questa guida?';
- const intro=document.createElement('p');intro.textContent='Apri la pagina Facebook di Per Me. Puoi commentare un post oppure usare «Messaggio», se disponibile. Non pubblicare dati personali, documenti o informazioni sanitarie.';
- const link=document.createElement('a');link.className='perme-facebook-button';link.href='https://www.facebook.com/PerMeGuide';link.target='_blank';link.rel='noopener noreferrer';link.textContent='Apri Per Me su Facebook e scrivi →';
+ const title=document.createElement('h2');title.textContent='Vuoi fare una domanda su questa guida?';
+ const intro=document.createElement('p');intro.textContent='Apri la pagina Facebook di Per Me e scrivi un commento sotto uno dei post. Indica il titolo della guida a cui ti riferisci. Non pubblicare documenti o dati personali e sanitari.';
+ const link=document.createElement('a');link.className='perme-facebook-button';link.href='https://www.facebook.com/PerMeGuide';link.target='_blank';link.rel='noopener noreferrer';link.textContent='Vai su Facebook e commenta →';
  box.append(title,intro,link);
  article.append(box);
 }
