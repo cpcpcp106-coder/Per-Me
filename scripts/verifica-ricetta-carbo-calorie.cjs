@@ -38,5 +38,16 @@ assert.ok(sitemap.includes(recipePath));
 assert.ok(sitemap.includes('dieta-guida-02-prevenzione-cardiovascolare-studi.html'));
 assert.ok(guide02.includes('assets/dieta-mediterranea-guida02-originale.webp'));
 assert.ok(fs.existsSync(path.join(root,'assets/dieta-mediterranea-guida02-originale.webp')));
+const recipes=fs.readdirSync(root).filter(x=>x.startsWith('ricetta-')&&x.endsWith('.html'));
+assert.ok(recipes.length>=1,'Nessuna ricetta pubblicata');
+for(const name of recipes){
+ const html=read(name);
+ const data=html.match(/data-portion-carbs-g="([0-9.]+)" data-portion-kcal="([0-9.]+)" data-portion-count="([0-9]+)"/);
+ assert.ok(data,'Ricetta senza indicatori nutrizionali per porzione: '+name);
+ const carbs=Number(data[1]),kcal=Number(data[2]),count=Number(data[3]);
+ assert.ok(carbs>=0&&kcal>0&&count>=1,'Valori non validi: '+name);
+ assert.ok(html.toLowerCase().includes('carboidrati disponibili')&&html.includes('kcal')&&html.includes('porzione'),'Carboidrati/calorie non leggibili: '+name);
+ assert.ok(html.includes('alimentinutrizione.it')||html.includes('crea.gov.it')||html.toLowerCase().includes('etichetta'),'Ricetta senza fonte nutrizionale: '+name);
+}
 console.log('PASS: guida 02 e prima ricetta coerenti, fonte CREA per 4 ingredienti, 2 porzioni, 36,1 g carboidrati disponibili e 287 kcal per porzione, sitemap e link.');
 console.log('LIMITI: valori stimati; il test non equivale a valutazione dietistica indipendente.');
