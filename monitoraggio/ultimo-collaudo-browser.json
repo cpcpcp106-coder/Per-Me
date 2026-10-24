@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-24T13:44:01.466Z",
+  "checked_at_utc": "2026-10-24T13:53:47.320Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 99,
+        "count": 100,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 99,
+        "checked": 100,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 99,
+        "checked": 100,
         "failed": [],
         "errors": []
       }
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "93 pagine salvate per la lettura offline · controllo online 24 ott, 13:44.",
+        "status": "93 pagine salvate per la lettura offline · controllo online 24 ott, 13:54.",
         "stored": {
           "guides": 93,
-          "updated": "2026-10-24T13:44:41.811Z",
+          "updated": "2026-10-24T13:54:42.637Z",
           "bytes": 2205579,
           "includesNew09": true
         }
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -654,6 +654,12 @@
       "violations": [],
       "passes": 24,
       "incomplete": 2
+    },
+    {
+      "page": "prova-lettori.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 1
     },
     {
       "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
