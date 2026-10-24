@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-10-23T21:33:25+00:00",
+  "date_utc": "2026-10-24T13:36:46+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 101,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3556,
-    "external_occurrences": 1667,
-    "external_unique": 721,
+    "local_occurrences": 3558,
+    "external_occurrences": 1668,
+    "external_unique": 722,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1387,14 +1387,14 @@
       "h1": 1,
       "images": 11,
       "images_without_alt": 0,
-      "links_local": 54,
-      "links_external": 3,
+      "links_local": 56,
+      "links_external": 4,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 5
+      "candidate_numeric_legal_mentions": 6
     },
     {
       "file": "inps-prestazione-sospesa-respinta-cosa-fare.html",
