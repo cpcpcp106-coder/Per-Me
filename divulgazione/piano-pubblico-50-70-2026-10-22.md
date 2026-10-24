@@ -1,4 +1,13 @@
 # Per Me — Piano di divulgazione per lettori tra 50 e 70 anni
+
+## Aggiornamento 24 ottobre 2026 — prima rendere possibile la prova
+
+Il gruppo pilota operativo è fissato a **tre persone tra 50 e 70 anni**, non cinque. Gli inviti presenti in alcuni post Facebook non dimostrano reclutamento, partecipazione o risultati di test. Nessun volontario confermato è documentato in questo piano.
+
+Rilevata una lacuna: nella homepage mancava un percorso visibile per la prova menzionata negli inviti. Correzione apportata all'homepage il 24 ottobre 2026: pulsante «Aiutaci a provare il sito: 15 minuti», sezione `#prova-15-minuti`, tre compiti concreti e rimando alla Pagina Facebook Per Me per feedback privato. Nessun modulo, account Per Me o invio di dati sensibili richiesto. Link condivisibile: https://cpcpcp106-coder.github.io/Per-Me/#prova-15-minuti . GitHub Pages, workflow `pages build and deployment`, commit `6ad951519487366d6afe7817f86d193e7e3df0b2`, esito success. Il controllo indipendente della pagina live sul dispositivo reale dei lettori è ancora da eseguire.
+
+Priorità successiva: condividere **questo link diretto** in un annuncio specifico dalla Pagina Facebook, verificando l'effettiva pubblicazione ed evitando duplicati nei gruppi. Poi ottenere tre adesioni volontarie, eseguire tre prove e registrare solo gli ostacoli riscontrati; non confondere esposizione social, contatti e test svolti.
+
 **Avvio: 22 ottobre 2026. Stato: materiali predisposti, nessun contatto ancora inviato.**
 
 ## Primo esperimento operativo approvato il 22 ottobre 2026
