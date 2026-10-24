@@ -2,11 +2,13 @@
 
 ## Stato verificato della sessione operativa del 24 ottobre 2026
 
-**Aggiornamento intermedio: attività ancora in corso.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
+**Aggiornamento operativo: attività ancora in corso.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
 
 Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https://www.facebook.com/PerMeGuide/ . Sito: https://cpcpcp106-coder.github.io/Per-Me/ . Nessun acquisto, ricarica, inserzione o abbonamento. Il profilo personale è stato utilizzato soltanto per verificare e correggere le due adesioni accidentali già segnalate, senza nuove adesioni o post personali.
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
+
+Controllati direttamente **28 gruppi**. Nuovi invii delle guide finora: **2 pubblicati (Latisana e Codroipo), 2 in moderazione (Grado e Maniago), 1 rimosso (Tolmezzo)**. Pubblicazioni precedenti delle guide verificate: Udine e provincia, Pordenone e Gorizia. I messaggi «Grazie» sono elencati a parte e non conteggiati come divulgazione. Quattro nuove adesioni Pagina approvate, una nuova richiesta pendente a San Daniele; Cormòns era già pendente. Non è dichiarata copertura di tutti i gruppi esistenti nel FVG.
 
 ### Quadro degli esiti controllati direttamente
 
@@ -14,7 +16,7 @@ Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su I
 | --- | --- | --- |
 | Sei di Trieste se | 2 post in sospeso: «Grazie» e invito ai lettori; sezione Pubblicati: «Nessun post da mostrare» | https://www.facebook.com/groups/668810678691450/my_pending_content/ |
 | Sei di Cervignano se........ | 1 post in sospeso, attribuito a Per Me, testo corrispondente al registro | https://www.facebook.com/groups/1445749615656166/my_pending_content |
-| Sei del Friuli Collinare se.... | RETTIFICA: 2 post in sospeso (invito + «Grazie.»), sezione Pubblicati vuota | https://www.facebook.com/groups/439729042875550/my_pending_content |
+| Sei del Friuli Collinare se.... | RETTIFICA: 2 post RIFIUTATI (invito + «Grazie.»); nell’ultimo controllo In sospeso è vuoto | https://www.facebook.com/groups/439729042875550/my_declined_content |
 | SEI DI GORIZIA SE...UFFICIALE | PUBBLICATO: ritrovato post di presentazione con permalink; visibile anche un post «Grazie» distinto | https://www.facebook.com/groups/337594613319564/posts/2535305080215162 |
 | sei di Cividale se:.. | RETTIFICA: 1 post in sospeso; sezione Pubblicati: Nessun post da mostrare | https://www.facebook.com/groups/272184852937151/my_pending_content |
 | Sei di PORDENONE se ... | PUBBLICATO: ritrovato nella scheda Post dei gruppi e aperto singolarmente | https://www.facebook.com/groups/1264254296986255/posts/28844517888533191 |
@@ -23,13 +25,24 @@ Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su I
 | Sei di Cormons Se... | ADESIONE PENDENTE; nessun post | https://www.facebook.com/groups/260658674110260/ |
 | Sei di Udine se........... | NON ISCRITTA secondo header; stato finale della precedente richiesta non determinabile | https://www.facebook.com/groups/seidiudine.se/ |
 | sei di Tarcento se... | CORRETTA: uscita dal gruppo eseguita; header passato a Iscriviti al gruppo; conteggio membri diminuito di 1 | https://www.facebook.com/groups/599117763490961/ |
-| sei di Codroipo..se.. | CORRETTA: uscita dal gruppo eseguita; header passato a Iscriviti al gruppo; conteggio membri diminuito di 1 | https://www.facebook.com/groups/351950071141097/ |
+| sei di Codroipo..se.. | Adesione personale accidentale corretta; NUOVA adesione Pagina approvata e POST PUBBLICATO | https://www.facebook.com/groups/351950071141097/posts/1088467264156037 |
 | Sei di Sacile se.... | NON PUBBLICATO per regolamento | https://www.facebook.com/groups/seidisacilese/about |
 | Sei di Latisana se… | NUOVO POST PUBBLICATO e aperto singolarmente | https://www.facebook.com/groups/194235353242861/posts/969263779073344 |
 | Sei di Grado se | NUOVO POST IN SOSPESO: avviso esplicito di attesa amministratori anche al permalink; non pubblico | https://www.facebook.com/groups/660928979482146/posts/1434861738755529 |
 | Sei di Monfalcone se.... | NON PUBBLICATO per assenza di autorizzazione prevista | https://www.facebook.com/groups/296221887637633/about |
 | Sei di San Daniele se.... | NON PUBBLICATO per divieto di autopromozione | https://www.facebook.com/groups/204145739779250/ |
 | sei di San Daniele se.. | ADESIONE PENDENTE; nessun post inviato | https://www.facebook.com/groups/2357475297878619/ |
+
+| Sei di Tolmezzo, se... | NUOVO POST RIMOSSO, non pubblicato; controllo successivo mostra Rimossi 2 (guida e distinto «Grazie»). Il presunto vecchio invito non è stato ritrovato. | https://www.facebook.com/groups/978374152248612/my_removed_content |
+| Sei di Attimis se | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/774037479290384/about |
+| Sei di Nimis se | NON PUBBLICATO; manca autorizzazione. | https://www.facebook.com/groups/797449756937536/about |
+| Chei di Nimis | NON PUBBLICATO per pertinenza e regolamento. | https://www.facebook.com/groups/cheidinimis/ |
+| Sei di Muggia se... | NON PUBBLICATO; manca autorizzazione. | https://www.facebook.com/groups/1977550575828965/about |
+| Sei di Maniago se... | RICHIESTA RITIRATA; nessun post. | https://www.facebook.com/groups/609535439119465/ |
+| Sei di Maniago se..... vuoi far pubblicità alla tua attività | NUOVO POST IN SOSPESO; controllo successivo mostra 2 contenuti in attesa: guida e distinto «Grazie». | https://www.facebook.com/groups/1772330809651855/pending_posts/4517661185118790 |
+| Sei di Spilimbergo se... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/687224541330165/ |
+| Sei di Codroipo se... | NON PUBBLICATO per regolamento e per evitare duplicazioni territoriali. | https://www.facebook.com/groups/287506514730759/ |
+| AIUTIAMOCI AD AIUTARE TRIESTE | BLOCCO EFFETTIVO: PAGINE NON AMMESSE. | https://www.facebook.com/groups/aiutiamociadaiutaretrieste/ |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -48,6 +61,8 @@ Testo recuperato o effettivamente inviato:
 
 > Per Me è un progetto gratuito e senza scopo di lucro con guide pratiche in italiano su pensioni, INPS, lavoro, diritti, salute e uso dello smartphone. Cerchiamo tre persone tra 50 e 70 anni, anche a Trieste, disponibili a provare il sito per 15 minuti sul telefono e a dirci cosa semplificare. Non servono competenze digitali, non chiediamo documenti né dati sanitari. Per partecipare basta un messaggio privato alla pagina Facebook Per Me. https://cpcpcp106-coder.github.io/Per-Me/
 
+- URL diretto verificato in moderazione: https://www.facebook.com/groups/668810678691450/posts/1446324220940088 — accessibile all’autore; NON prova di pubblicazione.
+
 #### 2. Sei di Cervignano se........
 
 - Gruppo: https://www.facebook.com/groups/1445749615656166/
@@ -59,7 +74,11 @@ Testo recuperato o effettivamente inviato:
 - Azione: sola lettura, nessun duplicato.
 - Pagina di verifica: https://www.facebook.com/groups/1445749615656166/my_pending_content — non è un permalink pubblico al singolo post.
 
-Testo integrale non recuperato in questo controllo, oppure nessun nuovo post previsto; non ricostruito per supposizione.
+- URL diretto verificato: https://www.facebook.com/groups/1445749615656166/posts/4704396766458085 — visibile all’autore come IN SOSPESO, non pubblico.
+
+Testo recuperato integralmente:
+
+> Per chi vive a Cervignano e nella Bassa Friulana: Per Me raccoglie guide pratiche gratuite in italiano su INPS, pensioni, lavoro, salute e servizi digitali, con fonti verificabili. Vorremmo capire quanto sono leggibili da smartphone: cerchiamo tre volontari tra 50 e 70 anni per provarle per 15 minuti e dare suggerimenti, senza fornire documenti o informazioni sanitarie. https://cpcpcp106-coder.github.io/Per-Me/ — https://www.facebook.com/PerMeGuide/
 
 #### 3. Sei del Friuli Collinare se....
 
@@ -68,14 +87,16 @@ Testo integrale non recuperato in questo controllo, oppure nessun nuovo post pre
 - Regole: non riesaminate per il controllo storico in sola lettura; nessun nuovo post inviato.
 - Adesione: iscritta; controllo nuovi partecipanti in sospeso.
 - Duplicati: nessun reinvio nel gruppo; controllo limitato allo stato o al post già noto.
-- Esito verificato: **RETTIFICA: 2 post in sospeso (invito + «Grazie.»), sezione Pubblicati vuota**.
-- Azione: sola lettura, nessun duplicato.
-- Pagina di verifica: https://www.facebook.com/groups/439729042875550/my_pending_content — non è un permalink pubblico al singolo post.
+- Esito verificato: **RETTIFICA: 2 post RIFIUTATI (invito + «Grazie.»); nell’ultimo controllo In sospeso è vuoto**.
+- Azione: sola lettura; al controllo successivo i due contenuti sono passati da pendenti a RIFIUTATI. Nessun reinvio.
+- Pagina di verifica: https://www.facebook.com/groups/439729042875550/my_declined_content — non è un permalink pubblico al singolo post.
 - Sezione pubblicati controllata: https://www.facebook.com/groups/439729042875550/my_posted_content.
 
 Testo recuperato o effettivamente inviato:
 
 > Per Me è un sito gratuito, senza scopo di lucro, con guide pratiche su pensioni, INPS, lavoro, salute, diritti e uso delle tecnologie. Cerchiamo 3 persone tra 50 e 70 anni, anche qui in Friuli-Venezia Giulia, disponibili a provare il sito 15 minuti sul proprio smartphone e dirci cosa migliorare. Non servono competenze informatiche né dati personali o sanitari. Chi è interessato può scrivere in privato alla pagina Per Me.
+
+- Collegamento individuale recuperato in precedenza, ora non disponibile: https://www.facebook.com/groups/439729042875550/posts/3463794340468990 . Non è prova di pubblicazione.
 
 #### 4. SEI DI GORIZIA SE...UFFICIALE
 
@@ -92,6 +113,8 @@ Testo recuperato o effettivamente inviato:
 
 > PER ME — GUIDE GRATUITE PER TUTTI, ANCHE A GORIZIA. Per Me è un progetto gratuito e senza scopo di lucro, con guide pratiche su INPS, pensioni, lavoro, salute, diritti e uso semplice dello smartphone e dell'intelligenza artificiale. Cerchiamo tre persone fra 50 e 70 anni, anche in provincia di Gorizia, che vogliano provare il sito gratuitamente per circa 15 minuti e segnalarci cosa rendere più chiaro. Non occorre essere esperti né comunicare documenti o dati sanitari. Per partecipare scrivete in privato alla pagina Per Me.
 
+- Ulteriore contenuto storico pubblicato, testo «Grazie», distinto dalla presentazione e non conteggiato come guida: https://www.facebook.com/groups/337594613319564/posts/2535414890204181 .
+
 #### 5. sei di Cividale se:..
 
 - Gruppo: https://www.facebook.com/groups/272184852937151/
@@ -107,6 +130,8 @@ Testo recuperato o effettivamente inviato:
 Testo recuperato o effettivamente inviato:
 
 > Per Me è un sito gratuito e senza scopo di lucro con guide pratiche su pensioni, INPS, lavoro, salute, diritti e strumenti digitali. Cerchiamo tre persone tra 50 e 70 anni di Cividale, per provare il sito dal proprio smartphone per circa 15 minuti e dirci cosa migliorare. Non servono competenze informatiche e non chiediamo documenti o dati sanitari. Per partecipare scrivete alla pagina Facebook Per Me.
+
+- Collegamento individuale assegnato ma non disponibile al controllo: https://www.facebook.com/groups/272184852937151/pending_posts/3651021471720122 . Lo stato pendente è provato dall’elenco dei propri contenuti; questo URL non prova visibilità pubblica.
 
 #### 6. Sei di PORDENONE se ...
 
@@ -187,17 +212,24 @@ Testo integrale non recuperato in questo controllo, oppure nessun nuovo post pre
 
 Testo integrale non recuperato in questo controllo, oppure nessun nuovo post previsto; non ricostruito per supposizione.
 
+- Ulteriore controllo come Pagina: nessuna regola testuale specifica in Informazioni, nessun post oggi né nell’ultimo mese; nessuna nuova adesione a questo gruppo inattivo.
+
 #### 12. sei di Codroipo..se..
 
 - Gruppo: https://www.facebook.com/groups/351950071141097/
-- Identità: profilo personale, esclusivamente per correggere l’errore già documentato.
-- Regole: non riesaminate per il controllo storico in sola lettura; nessun nuovo post inviato.
-- Adesione: scheda gruppo mostrava data di iscrizione 24 ottobre 2026, coerente con l’errore registrato.
-- Duplicati: nessun reinvio nel gruppo; controllo limitato allo stato o al post già noto.
-- Esito verificato: **CORRETTA: uscita dal gruppo eseguita; header passato a Iscriviti al gruppo; conteggio membri diminuito di 1**.
-- Azione: annullata sola adesione personale accidentale; contenuti personali preesistenti non modificati; ripristinata Pagina Per Me.
+- Identità: Pagina Per Me per adesione e post. Il profilo personale è stato utilizzato soltanto per la correzione documentata sotto.
+- Correzione precedente: la scheda del profilo personale mostrava iscrizione il 24 ottobre 2026, coerente con l’errore già registrato; uscita eseguita, header «Iscriviti al gruppo» e membri diminuiti di 1. Nessuna adesione personale preesistente eliminata; contenuti personali non modificati.
+- Regole: Informazioni lette integralmente, nessun regolamento testuale specifico; In evidenza contiene due eventi, nessun ulteriore divieto visibile. Non equivale a patrocinio.
+- Duplicati: ricerca interna del dominio senza risultati; scheda Pagina nel gruppo senza post prima dell’invio.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA; identità ripristinata a Per Me prima di agire.
+- Esito: **NUOVO POST PUBBLICATO**, aperto singolarmente e ricontrollato ancora visibile circa cinque ore dopo.
+- URL diretto: https://www.facebook.com/groups/351950071141097/posts/1088467264156037
+- Azione: una adesione Pagina e un post originale; nessun duplicato.
 
-Testo integrale non recuperato in questo controllo, oppure nessun nuovo post previsto; non ricostruito per supposizione.
+Testo effettivo recuperato dal post:
+
+> Per le famiglie di Codroipo e del Medio Friuli: capire una comunicazione INPS o aiutare un genitore con una pratica digitale può richiedere parole più semplici e un punto da cui iniziare. Per Me offre guide gratuite su pensioni e contributi, ISEE e agevolazioni, lavoro e busta paga, debiti, diritti e salute. C’è anche un percorso introduttivo all’intelligenza artificiale per imparare a usarla con attenzione e verificare le risposte. Il progetto è personale e non commerciale, pensato in particolare per persone tra 50 e 70 anni e per chi le aiuta. Le fonti sono consultabili: le guide danno orientamento generale e non sostituiscono CAF, patronati, medici o altri professionisti. Le guide sono qui, organizzate per problema:
+> https://cpcpcp106-coder.github.io/Per-Me/
 
 #### 13. Sei di Sacile se....
 
@@ -292,6 +324,138 @@ Testo integrale non recuperato in questo controllo, oppure nessun nuovo post pre
 - Azione: 1 richiesta Pagina, nessun contenuto prima dell’approvazione.
 
 Testo integrale non recuperato in questo controllo, oppure nessun nuovo post previsto; non ricostruito per supposizione.
+
+#### 19. Sei di Tolmezzo, se...
+
+- Gruppo: https://www.facebook.com/groups/978374152248612/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni: idee, attività e notizie locali; nessun divieto testuale visibile fino al fondo. Due contenuti fissati culturali/sociali, senza ulteriori regole.
+- Adesione: Pagina già iscritta; nessuna nuova adesione.
+- Duplicati: Prima del nuovo invio: ricerca del dominio, scheda dei post della Pagina ed elenco in sospeso senza contenuti; il presunto precedente post resta NON RINTRACCIABILE.
+- Esito verificato: **NUOVO POST RIMOSSO, non pubblicato; controllo successivo mostra Rimossi 2 (guida e distinto «Grazie»). Il presunto vecchio invito non è stato ritrovato.**
+- Azione: Un nuovo invio della guida è apparso inizialmente nel feed, ma il controllo diretto ha dato contenuto non disponibile e la sezione Rimossi ne ha confermato la rimozione. Nessun reinvio, nessuna modifica per aggirare la moderazione. Causa della rimozione non accertata. Il «Grazie» successivamente osservato non viene conteggiato come divulgazione.
+- Pagina di verifica: https://www.facebook.com/groups/978374152248612/my_removed_content
+- Collegamento: https://www.facebook.com/groups/978374152248612/posts/28870637272595592/ — URL assegnato ma non disponibile; NON è una prova di pubblicazione.
+
+Testo effettivamente inviato:
+
+> Per Tolmezzo e la Carnia: una risorsa gratuita per affrontare con più chiarezza pensione, lavoro e pratiche quotidiane. Per Me nasce soprattutto per le persone tra 50 e 70 anni e per i familiari che le aiutano. Sul sito trovi, per esempio, come iniziare il controllo dell’estratto contributivo INPS, quali aspetti verificare quando un pagamento viene sospeso, come leggere una busta paga diminuita e come orientarti sull’ISEE corrente. Ci sono inoltre guide su debiti e diritti, preparazione delle visite, salute, strumenti digitali e uso dell’AI. Ogni percorso invita a controllare le fonti e i limiti delle informazioni. È un progetto personale, gratuito e non commerciale: aiuta a prepararsi prima di parlare con CAF, patronato o professionista, senza sostituirli. Puoi partire dal problema che ti riguarda:
+> https://cpcpcp106-coder.github.io/Per-Me/
+
+#### 20. Sei di Attimis se
+
+- Gruppo: https://www.facebook.com/groups/774037479290384/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regole lette integralmente: vietate autopromozione e pubblicità/link, salvo specifici eventi.
+- Adesione: Pagina già iscritta.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessun nuovo invio.
+- Pagina di verifica: https://www.facebook.com/groups/774037479290384/about
+
+Nessun testo inviato.
+
+#### 21. Sei di Nimis se
+
+- Gruppo: https://www.facebook.com/groups/797449756937536/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regola 2: post promozionali soggetti a preventiva autorizzazione, altrimenti rimossi.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO; manca autorizzazione.**
+- Azione: Nessuna adesione o messaggio.
+- Pagina di verifica: https://www.facebook.com/groups/797449756937536/about
+
+Nessun testo inviato.
+
+#### 22. Chei di Nimis
+
+- Gruppo: https://www.facebook.com/groups/cheidinimis/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regole 5 e 6: comunicazioni di associazioni, eventi e servizi locali specifici; altra pubblicità non ammessa. Il progetto non è documentato come associazione di Nimis.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per pertinenza e regolamento.**
+- Azione: Nessuna adesione o messaggio.
+
+Nessun testo inviato.
+
+#### 23. Sei di Muggia se...
+
+- Gruppo: https://www.facebook.com/groups/1977550575828965/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regola 1: pubblicità non autorizzata vietata.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO; manca autorizzazione.**
+- Azione: Nessuna adesione o messaggio.
+- Pagina di verifica: https://www.facebook.com/groups/1977550575828965/about
+
+Nessun testo inviato.
+
+#### 24. Sei di Maniago se...
+
+- Gruppo: https://www.facebook.com/groups/609535439119465/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Gruppo privato; regolamento esterno non interamente consultabile. La domanda di ingresso 2 esclude espressamente qualsiasi pubblicità.
+- Adesione: Richiesta creata come Pagina, poi RITIRATA dopo aver letto il divieto; header nuovamente Iscriviti al gruppo, avviso di attesa scomparso.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **RICHIESTA RITIRATA; nessun post.**
+- Azione: Non compilate dichiarazioni non veritiere. Annullata esclusivamente la richiesta appena creata dalla Pagina.
+
+Nessun testo inviato.
+
+#### 25. Sei di Maniago se..... vuoi far pubblicità alla tua attività
+
+- Gruppo: https://www.facebook.com/groups/1772330809651855/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Gruppo espressamente dedicato alla promozione delle attività; Informazioni e feed controllati, nessuna ulteriore regola scritta o fissata visibile.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA.
+- Duplicati: Ricerca interna del dominio senza risultati; scheda Pagina senza post prima dell’invio.
+- Esito verificato: **NUOVO POST IN SOSPESO; controllo successivo mostra 2 contenuti in attesa: guida e distinto «Grazie».**
+- Azione: Una nuova adesione Pagina e un invio originale della guida. Avviso esplicito di invio agli amministratori; nessun reinvio. Il «Grazie» successivamente osservato resta separato e non è conteggiato come guida.
+- Collegamento: https://www.facebook.com/groups/1772330809651855/pending_posts/4517661185118790 — Pagina di moderazione verificata, accessibile all’autore; NON prova di visibilità pubblica.
+
+Testo effettivamente inviato:
+
+> Una guida gratuita per chi vive a Maniago e nella Pedemontana pordenonese: quando lo stipendio diminuisce, da dove cominciare a capire il motivo? Su Per Me trovi un percorso per confrontare i cedolini, distinguere le voci cambiate e preparare una richiesta di chiarimento. Comprende anche cassa integrazione e contratto di solidarietà, con fonti ufficiali consultabili. Per Me è un progetto personale, gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e per i familiari. Nel sito ci sono anche guide su INPS, pensioni, ISEE, debiti e diritti, salute, servizi digitali e AI. Le informazioni orientano e non sostituiscono il professionista che valuta il singolo caso. Puoi leggere la guida qui:
+> https://cpcpcp106-coder.github.io/Per-Me/stipendio-diminuito-cosa-controllare.html
+
+#### 26. Sei di Spilimbergo se...
+
+- Gruppo: https://www.facebook.com/groups/687224541330165/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regole integralmente espanse: n. 15 esclude pubblicità di attività esterne a Spilimbergo; n. 8 esclude spam e messaggi ripetuti. Progetto non documentato come attività locale.
+- Adesione: Pagina non iscritta; Pagine presenti nel gruppo.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessuna adesione o post.
+
+Nessun testo inviato.
+
+#### 27. Sei di Codroipo se...
+
+- Gruppo: https://www.facebook.com/groups/287506514730759/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regola 1 vieta autopromozione; descrizione punto 5 vieta pubblicità diretta e sottopone quella indiretta al giudizio degli amministratori.
+- Adesione: Pagina non iscritta; gruppo privato, Pagine presenti.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento e per evitare duplicazioni territoriali.**
+- Azione: Nessuna adesione o post.
+
+Nessun testo inviato.
+
+#### 28. AIUTIAMOCI AD AIUTARE TRIESTE
+
+- Gruppo: https://www.facebook.com/groups/aiutiamociadaiutaretrieste/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Gruppo privato di aiuto; banner esplicito: il gruppo non consente alle Pagine di iscriversi.
+- Adesione: Adesione Pagina non disponibile; non usato il profilo personale.
+- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **BLOCCO EFFETTIVO: PAGINE NON AMMESSE.**
+- Azione: Nessuna adesione o post.
+
+Nessun testo inviato.
 
 ## Registro storico conservato
 
