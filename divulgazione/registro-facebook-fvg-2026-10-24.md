@@ -123,6 +123,17 @@ Per Trieste, la pagina specifica per ulteriore controllo è https://www.facebook
 - Nessun URL diretto al post disponibile; **non attribuire una pubblicazione verificata**.
 - Anche i cinque gruppi citati all'inizio del registro come «post pubblicati» hanno solo esiti riferiti da sessioni precedenti **senza URL dei singoli post**. Restano **da ricontrollare uno per uno** e non si può usarli come conteggio di post oggi pubblicamente visibili. La dichiarazione precedente non equivale a prova di permanenza o visibilità effettiva.
 
+## Verifica mirata dei collegamenti ai post — 24 ottobre 2026
+
+La richiesta del curatore di vedere i post ha evidenziato che **«inviato», «pubblicato nel feed» (dichiarato dall'agente) e «verificato con permalink diretto» sono stati confusi**. Da ora in poi conteggiare post pubblici confermati solo con post effettivamente ritrovato e collegamento diretto acquisito dalla UI Facebook. Non generalizzare il risultato a gruppi non ricontrollati.
+
+- **Udine e provincia — post ritrovato, PUBBLICATO e verificato come Pagina Per Me**: https://www.facebook.com/groups/404415481931156/posts/1145351617837535/ . L'agente ha recuperato il link dalla funzione «Condividi → Copia link» e identificato il testo «PER ME — GUIDE GRATUITE E UNA PICCOLA RICHIESTA AI LETTORI DI UDINE E PROVINCIA...»; sessione: https://agent.tinyfish.ai/runs/8fc8924b-21bb-4235-bc47-126a870c9177 . Nessuna nuova pubblicazione durante il controllo.
+- **Tolmezzo — post NON ritrovato**: non conteggiare il precedente presunto invio come pubblicato (vedi rettifica sopra).
+- **Pordenone, Friuli Collinare, Gorizia, Cividale**: segnalazioni storiche ma **nessun permalink del singolo post ancora recuperato in questa verifica**; visibilità attuale indeterminata, non contare come post visibili verificati.
+- **Cervignano**: inviato ma riferito **in moderazione**, non visibile pubblicamente; **Gemona** rifiutato; **Trieste** stato dei singoli post non accertato.
+
+Costo: nessun acquisto pubblicitario e nessuna ricarica del servizio browser autorizzata o effettuata. Le verifiche hanno consumato crediti browser esistenti; per i gruppi restanti evitare spese aggiuntive e non dichiarare conclusa la diffusione finché non vi sono evidenze.
+
 ## Misurazione e passo operativo successivo
 
 1. Ripristinare un accesso Facebook **effettivamente autenticato** nel browser con permessi reali sulla Pagina; non considerare la sola presenza di cookie come prova di login.
