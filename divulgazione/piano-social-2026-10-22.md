@@ -1,5 +1,7 @@
 # Per Me — Avvio promozione social gratuita
-**Preparato il 22 ottobre 2026. Stato: bozze pronte; nessun post pubblicato e nessun messaggio inviato.**
+**Preparato il 22 ottobre 2026.** Questa è una fotografia del piano iniziale, non lo stato corrente delle pubblicazioni.
+
+**Aggiornamento documentato al 24 ottobre 2026:** la diffusione Facebook è stata parzialmente eseguita, con post pubblicati e contenuti in moderazione; persistono problemi d'accesso alla sessione remota e due iscrizioni da verificare/correggere. Dettagli, link ai gruppi e distinzione fra stati accertati e non verificati sono in [Registro Facebook FVG del 24 ottobre 2026](registro-facebook-fvg-2026-10-24.md). Non attribuire al progetto il sostegno di gruppi o associazioni solo per aver pubblicato un messaggio.
 Piano collegato a [piano di divulgazione 50–70 anni](piano-pubblico-50-70-2026-10-22.md).
 
 ## Obiettivo
@@ -74,7 +76,7 @@ Ti segnalo **Per Me**, un sito gratuito con guide pratiche su INPS, pensioni, la
 - **Settimana 3:** Post 5 (visita), Post 6 (AOI). Raccogliere domande generali ricevute, senza sollecitare dati personali.
 - **Settimana 4:** nessuna replica meccanica. Verificare quali argomenti hanno prodotto aperture del sito, domande utili o condivisioni spontanee; rivedere la strategia.
 
-La pubblicazione effettiva **non è stata eseguita**. Richiede il consenso del curatore e l'accesso al profilo o pagina pertinente. Non affermare collaborazioni o verifiche professionali non documentate.
+**Nota storica riferita alla preparazione del 22 ottobre:** in quel momento i testi erano bozze non pubblicate. Per le pubblicazioni e i limiti emersi successivamente fare riferimento al [registro aggiornato del 24 ottobre](registro-facebook-fvg-2026-10-24.md). Non affermare collaborazioni o verifiche professionali non documentate.
 
 ## Verifica dei risultati
 Rilevare per ogni post: data, canale, argomento, collegamento, copertura o visualizzazioni quando disponibili, clic sul collegamento quando misurabili, domande ricevute e riscontri concreti. Separare questi dati da impressioni/clic Google Search Console e da visite del sito. Non dichiarare conversioni o referral verificati prima di una misurazione reale. Non conservare messaggi privati o dati sensibili dei lettori.
