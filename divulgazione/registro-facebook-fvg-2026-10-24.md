@@ -8,7 +8,7 @@ Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https:
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
 
-Controllati direttamente **28 gruppi**. Nuovi invii delle guide finora: **2 pubblicati (Latisana e Codroipo), 2 in moderazione (Grado e Maniago), 1 rimosso (Tolmezzo)**. Pubblicazioni precedenti delle guide verificate: Udine e provincia, Pordenone e Gorizia. I messaggi «Grazie» sono elencati a parte e non conteggiati come divulgazione. Quattro nuove adesioni Pagina approvate, una nuova richiesta pendente a San Daniele; Cormòns era già pendente. Non è dichiarata copertura di tutti i gruppi esistenti nel FVG.
+Controllati direttamente **34 gruppi**. Nuovi invii delle guide finora: **5 pubblicati (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), 2 in moderazione (Grado e Maniago), 1 rimosso (Tolmezzo)**. Pubblicazioni precedenti verificate: Udine e provincia, Pordenone e Gorizia. «Grazie» resta separato e non conteggiato come guida. Otto nuove adesioni Pagina approvate, una nuova richiesta di adesione pendente a San Daniele, una distinta richiesta di partecipazione pendente ad Aviano; Cormòns era già pendente. Non è dichiarata copertura di tutti i gruppi esistenti nel FVG.
 
 ### Quadro degli esiti controllati direttamente
 
@@ -32,7 +32,6 @@ Controllati direttamente **28 gruppi**. Nuovi invii delle guide finora: **2 pubb
 | Sei di Monfalcone se.... | NON PUBBLICATO per assenza di autorizzazione prevista | https://www.facebook.com/groups/296221887637633/about |
 | Sei di San Daniele se.... | NON PUBBLICATO per divieto di autopromozione | https://www.facebook.com/groups/204145739779250/ |
 | sei di San Daniele se.. | ADESIONE PENDENTE; nessun post inviato | https://www.facebook.com/groups/2357475297878619/ |
-
 | Sei di Tolmezzo, se... | NUOVO POST RIMOSSO, non pubblicato; controllo successivo mostra Rimossi 2 (guida e distinto «Grazie»). Il presunto vecchio invito non è stato ritrovato. | https://www.facebook.com/groups/978374152248612/my_removed_content |
 | Sei di Attimis se | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/774037479290384/about |
 | Sei di Nimis se | NON PUBBLICATO; manca autorizzazione. | https://www.facebook.com/groups/797449756937536/about |
@@ -43,6 +42,12 @@ Controllati direttamente **28 gruppi**. Nuovi invii delle guide finora: **2 pubb
 | Sei di Spilimbergo se... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/687224541330165/ |
 | Sei di Codroipo se... | NON PUBBLICATO per regolamento e per evitare duplicazioni territoriali. | https://www.facebook.com/groups/287506514730759/ |
 | AIUTIAMOCI AD AIUTARE TRIESTE | BLOCCO EFFETTIVO: PAGINE NON AMMESSE. | https://www.facebook.com/groups/aiutiamociadaiutaretrieste/ |
+| Sei di Palmanova se. | NUOVO POST PUBBLICATO; aperto singolarmente e verificato. | https://www.facebook.com/groups/973757904438832/posts/1412467513901200 |
+| Sei di San Vito al Tagliamento se | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/7124456447577342/posts/29399584992971169 |
+| Sei di Duino se ... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/629382917117526/ |
+| Sei di Lignano Sabbiadoro Se | NON PUBBLICATO; preventiva autorizzazione mancante. | https://www.facebook.com/groups/335682156913237/about |
+| Sei di Aviano se | PARTECIPAZIONE PENDENTE; nessun post inviato. | https://www.facebook.com/groups/281797948641095/ |
+| SEI DI GRADISCA D'ISONZO SE... | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/661901623889373/posts/28805967095722782 |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -348,7 +353,7 @@ Testo effettivamente inviato:
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Regole lette integralmente: vietate autopromozione e pubblicità/link, salvo specifici eventi.
 - Adesione: Pagina già iscritta.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **NON PUBBLICATO per regolamento.**
 - Azione: Nessun nuovo invio.
 - Pagina di verifica: https://www.facebook.com/groups/774037479290384/about
@@ -361,7 +366,7 @@ Nessun testo inviato.
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Regola 2: post promozionali soggetti a preventiva autorizzazione, altrimenti rimossi.
 - Adesione: Pagina non iscritta.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **NON PUBBLICATO; manca autorizzazione.**
 - Azione: Nessuna adesione o messaggio.
 - Pagina di verifica: https://www.facebook.com/groups/797449756937536/about
@@ -374,7 +379,7 @@ Nessun testo inviato.
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Regole 5 e 6: comunicazioni di associazioni, eventi e servizi locali specifici; altra pubblicità non ammessa. Il progetto non è documentato come associazione di Nimis.
 - Adesione: Pagina non iscritta.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **NON PUBBLICATO per pertinenza e regolamento.**
 - Azione: Nessuna adesione o messaggio.
 
@@ -386,7 +391,7 @@ Nessun testo inviato.
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Regola 1: pubblicità non autorizzata vietata.
 - Adesione: Pagina non iscritta.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **NON PUBBLICATO; manca autorizzazione.**
 - Azione: Nessuna adesione o messaggio.
 - Pagina di verifica: https://www.facebook.com/groups/1977550575828965/about
@@ -399,7 +404,7 @@ Nessun testo inviato.
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Gruppo privato; regolamento esterno non interamente consultabile. La domanda di ingresso 2 esclude espressamente qualsiasi pubblicità.
 - Adesione: Richiesta creata come Pagina, poi RITIRATA dopo aver letto il divieto; header nuovamente Iscriviti al gruppo, avviso di attesa scomparso.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **RICHIESTA RITIRATA; nessun post.**
 - Azione: Non compilate dichiarazioni non veritiere. Annullata esclusivamente la richiesta appena creata dalla Pagina.
 
@@ -427,7 +432,7 @@ Testo effettivamente inviato:
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Regole integralmente espanse: n. 15 esclude pubblicità di attività esterne a Spilimbergo; n. 8 esclude spam e messaggi ripetuti. Progetto non documentato come attività locale.
 - Adesione: Pagina non iscritta; Pagine presenti nel gruppo.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **NON PUBBLICATO per regolamento.**
 - Azione: Nessuna adesione o post.
 
@@ -439,7 +444,7 @@ Nessun testo inviato.
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Regola 1 vieta autopromozione; descrizione punto 5 vieta pubblicità diretta e sottopone quella indiretta al giudizio degli amministratori.
 - Adesione: Pagina non iscritta; gruppo privato, Pagine presenti.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **NON PUBBLICATO per regolamento e per evitare duplicazioni territoriali.**
 - Azione: Nessuna adesione o post.
 
@@ -451,11 +456,115 @@ Nessun testo inviato.
 - Identità: esclusivamente Pagina Per Me.
 - Regole: Gruppo privato di aiuto; banner esplicito: il gruppo non consente alle Pagine di iscriversi.
 - Adesione: Adesione Pagina non disponibile; non usato il profilo personale.
-- Duplicati: nessun nuovo contenuto inviato; nessun tentativo di aggirare i divieti.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
 - Esito verificato: **BLOCCO EFFETTIVO: PAGINE NON AMMESSE.**
 - Azione: Nessuna adesione o post.
 
 Nessun testo inviato.
+
+#### 29. Sei di Palmanova se.
+
+- Gruppo: https://www.facebook.com/groups/973757904438832/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni lette fino al fondo e descrizione espansa (storia delle mura): nessun regolamento scritto aggiuntivo visibile. In evidenza: tre eventi e avviso Non hai altro da vedere; nessun divieto rilevato. Nessun patrocinio attribuito.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA; avviso esplicito Hai effettuato l’iscrizione, scheda Pagina con data 24 ottobre 2026.
+- Duplicati: Ricerca interna del dominio senza risultati; scheda Post dei gruppi: Per Me non ha ancora pubblicato niente.
+- Esito verificato: **NUOVO POST PUBBLICATO; aperto singolarmente e verificato.**
+- Azione: Una nuova adesione Pagina e un post originale, nessun invio ripetuto.
+- Collegamento: https://www.facebook.com/groups/973757904438832/posts/1412467513901200 — Post verificato con autore Per Me, testo completo e strumenti di commento; nessun avviso di attesa.
+
+Testo effettivamente inviato:
+
+> Per chi a Palmanova aiuta un genitore con una pratica o vuole capire meglio i propri documenti: su Per Me si parte da un problema concreto, con guide gratuite in italiano.
+> 
+> Un pagamento INPS sospeso, i contributi da controllare prima della pensione, il reddito cambiato e l’ISEE corrente, una busta paga più bassa: le guide aiutano a mettere in ordine le informazioni e le domande da portare al servizio competente. Ci sono anche percorsi su diritti, debiti, preparazione di una visita medica e uso consapevole di strumenti digitali e intelligenza artificiale.
+> 
+> È un progetto personale e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e familiari. Le fonti sono consultabili; per il singolo caso resta necessario il confronto con CAF, patronato o professionista.
+> 
+> Puoi scegliere la guida che ti serve qui:
+> https://cpcpcp106-coder.github.io/Per-Me/
+
+#### 30. Sei di San Vito al Tagliamento se
+
+- Gruppo: https://www.facebook.com/groups/7124456447577342/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni fino al fondo: due regole su gentilezza, rispetto ed educazione. Controllati tutti i cinque elementi in evidenza: quattro post (immobili/architettura e avviso di calma, rispetto e rappresentazione del territorio) più eventi; nessun divieto di condivisione di una risorsa gratuita visibile. Pagine presenti.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA; Iscrizione effettuata e scheda con data 24 ottobre 2026.
+- Duplicati: Ricerca del dominio senza risultati; scheda Pagina Nessun nuovo post prima dell’invio.
+- Esito verificato: **NUOVO POST PUBBLICATO; aperto e verificato al permalink.**
+- Azione: Una nuova adesione Pagina e un solo post originale.
+- Collegamento: https://www.facebook.com/groups/7124456447577342/posts/29399584992971169 — Autore Per Me e testo completo verificati; disponibili commenti, nessun avviso di moderazione.
+
+Testo effettivamente inviato:
+
+> Un punto di partenza per i lettori di San Vito al Tagliamento che si avvicinano alla pensione, o aiutano un familiare con le pratiche: Per Me raccoglie guide gratuite per orientarsi tra contributi INPS, comunicazioni e documenti.
+> 
+> Il sito permette di scegliere una domanda concreta: controllare l’estratto contributivo, capire da dove iniziare se una prestazione viene sospesa, orientarsi sull’ISEE corrente o su una busta paga diminuita. Sono presenti anche guide su diritti, debiti, salute e servizi digitali, oltre a un percorso introduttivo all’AI.
+> 
+> È un progetto personale, senza finalità commerciali, pensato soprattutto per la fascia 50–70 anni e per chi dà una mano in famiglia. Le fonti sono consultabili; le guide aiutano a preparare le domande per CAF, patronati e professionisti, che restano il riferimento per il proprio caso.
+> 
+> Le guide si possono leggere liberamente qui:
+> https://cpcpcp106-coder.github.io/Per-Me/
+
+#### 31. Sei di Duino se ...
+
+- Gruppo: https://www.facebook.com/groups/629382917117526/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: punto 7 vieta post commerciali e pubblicitari; soltanto eventi concordati con l’amministratore. Punto 8 richiede pertinenza al gruppo.
+- Adesione: Non iscritta; gruppo privato, Pagine ammesse.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessuna nuova adesione o post; nessuna richiesta privata agli amministratori.
+- Pagina di verifica: https://www.facebook.com/groups/629382917117526/
+
+Nessun testo inviato.
+
+#### 32. Sei di Lignano Sabbiadoro Se
+
+- Gruppo: https://www.facebook.com/groups/335682156913237/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione e regole integralmente espanse: post commerciali e pubblicitari soltanto autorizzati; regola 1 li vieta con cancellazione dal gruppo. Nessuna autorizzazione disponibile.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO; preventiva autorizzazione mancante.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/335682156913237/about
+
+Nessun testo inviato.
+
+#### 33. Sei di Aviano se
+
+- Gruppo: https://www.facebook.com/groups/281797948641095/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Tre regole lette integralmente: responsabilità di chi pubblica, possibilità di aggiungere amici, discrezione amministratori sulla rimozione. In evidenza verificati due post (traguardo membri e contatti per segnalazioni) e richiamo alle stesse tre regole; nessun divieto specifico delle guide visibile.
+- Adesione: NUOVA ADESIONE Pagina APPROVATA; richiesta distinta di PARTECIPAZIONE inviata, ancora IN ATTESA di controllo degli amministratori.
+- Duplicati: Ricerca interna del dominio senza risultati.
+- Esito verificato: **PARTECIPAZIONE PENDENTE; nessun post inviato.**
+- Azione: Adesione della Pagina e invio dell’accettazione delle regole ordinarie del gruppo, senza dati personali. Avviso esplicito La tua richiesta di partecipazione è in attesa di approvazione. Nessun tentativo di pubblicare durante il blocco.
+
+Nessun testo inviato.
+
+#### 34. SEI DI GRADISCA D'ISONZO SE...
+
+- Gruppo: https://www.facebook.com/groups/661901623889373/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni lette fino al fondo: nessuna descrizione o regola scritta specifica visibile. Feed e navigazione senza sezione di avvisi fissati; nessuna ulteriore restrizione rilevata. Pagine presenti; nessun patrocinio attribuito.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA, Iscrizione effettuata e scheda con data 24 ottobre 2026.
+- Duplicati: Ricerca interna del dominio senza risultati; scheda della Pagina Nessun nuovo post prima dell’invio.
+- Esito verificato: **NUOVO POST PUBBLICATO; aperto e verificato al permalink.**
+- Azione: Una nuova adesione Pagina e un solo post originale, incentrato sulla guida di preparazione alla visita.
+- Collegamento: https://www.facebook.com/groups/661901623889373/posts/28805967095722782 — Autore Per Me, testo completo e commenti verificati, nessun avviso di attesa.
+
+Testo effettivamente inviato:
+
+> Per i lettori di Gradisca d’Isonzo che cercano informazioni pratiche da leggere con calma: Per Me mette a disposizione guide gratuite, pensate soprattutto per persone tra 50 e 70 anni e per i familiari.
+> 
+> Un esempio è la guida per preparare un controllo medico: una scheda aiuta a organizzare i documenti e le domande da portare alla visita. Serve a preparare il colloquio con i professionisti, senza proporre diagnosi o modifiche delle terapie. Le annotazioni restano private: non occorre pubblicare o inviare dati sanitari.
+> 
+> Nel sito ci sono anche percorsi su INPS e pensioni, ISEE e diritti, lavoro, debiti, servizi digitali e uso prudente dell’intelligenza artificiale. È un progetto personale e non commerciale, con fonti consultabili.
+> 
+> La guida sulla preparazione della visita:
+> https://cpcpcp106-coder.github.io/Per-Me/salute-guida-01-preparare-visita.html
 
 ## Registro storico conservato
 
