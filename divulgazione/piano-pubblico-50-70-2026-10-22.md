@@ -1,5 +1,22 @@
 # Per Me — Piano di divulgazione per lettori tra 50 e 70 anni
 
+## Decisione metodologica del 24 ottobre 2026 — superato il limite di 3 volontari
+
+Il limite iniziale di 3 persone era utile soltanto come verifica preliminare e **non rappresenta una valutazione del pubblico nazionale**. A seguito dell'obiezione del curatore, il progetto adotta un obiettivo operativo di **almeno 20 partecipanti in 4 cicli successivi di circa 5 persone**, senza indicare che il campione sia rappresentativo della popolazione italiana. È un target organizzativo e non un numero di partecipazioni già ottenute.
+
+- Prima sessione: circa 5 lettori per individuare problemi evidenti e raccogliere i riscontri.
+- Dopo ogni gruppo: correggere soltanto i problemi riscontrati, registrando data, modifica e successiva verifica.
+- Nei gruppi successivi: includere fasce 50–59 e 60–70 anni, diversi livelli di abilità digitale, persone con necessità di accessibilità e familiari che assistono altri; evitare di trattare soltanto utenti competenti di Facebook come rappresentativi di tutti.
+- Per ciascuna prova raccogliere solo risposte volontarie sulle tre attività, difficoltà, facilità di lettura e possibilità di trovare fonti. Nessuna password, dato medico, previdenziale o identificativo.
+- Distingue **esito qualitativo** dei test da percentuali statisticamente rappresentative: 20 partecipanti selezionati volontariamente non danno stime affidabili della percentuale di popolazione soddisfatta.
+
+Fonti metodologiche consultate:
+- GOV.UK Service Manual: 4–8 persone per ciclo, correggere tra i cicli. https://www.gov.uk/service-manual/user-research/plan-user-research-for-your-service
+- Nielsen Norman Group: per lo studio qualitativo circa 5 per ciclo, più se le categorie sono diverse. https://www.nngroup.com/articles/how-many-test-users/
+- Nielsen Norman Group: campioni qualitativi piccoli non permettono generalizzazioni statistiche. https://www.nngroup.com/articles/5-test-users-qual-quant/
+
+**Aggiornamento sito:** rimosso il limite numerico di tre persone dalla homepage e dalla pagina `prova-lettori.html`. I precedenti post Facebook che citano «3 persone» restano documenti storici dell'invito iniziale: non attestano la conclusione della ricerca. Per divulgazioni nuove usare il link diretto https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html e parlare di «lettori volontari», non di soli tre posti.
+
 ## Stato attuale — conferma di collaudo dell'autore (24 ottobre 2026)
 
 L'autore ha comunicato in chat **«Collaudato»** dopo aver ricevuto la nuova pagina dedicata: https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html . Si registra quindi un **collaudo dichiarato dall'autore**, non un test indipendente di usabilità effettuato con persone esterne. Non sono stati forniti dettagli su dispositivo, tempi, singole operazioni o problemi. Non confondere questa conferma con una delle **3 prove previste per i lettori volontari**.
