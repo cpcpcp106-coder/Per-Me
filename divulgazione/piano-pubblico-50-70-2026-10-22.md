@@ -1,10 +1,18 @@
 # Per Me — Piano di divulgazione per lettori tra 50 e 70 anni
 
+## Stato attuale — conferma di collaudo dell'autore (24 ottobre 2026)
+
+L'autore ha comunicato in chat **«Collaudato»** dopo aver ricevuto la nuova pagina dedicata: https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html . Si registra quindi un **collaudo dichiarato dall'autore**, non un test indipendente di usabilità effettuato con persone esterne. Non sono stati forniti dettagli su dispositivo, tempi, singole operazioni o problemi. Non confondere questa conferma con una delle **3 prove previste per i lettori volontari**.
+
+La homepage mostra un invito discreto con collegamento alla pagina dedicata. La pagina offre tre compiti, risposte a scelta e preparazione di un testo da copiare; non invia risposte automaticamente e non registra le risposte sul server. Evitare di promuovere il vecchio frammento `#prova-15-minuti` come pagina del test: è soltanto un invito nella home.
+
+**Priorità:** pubblicare un annuncio mirato dalla Pagina Per Me con il collegamento diretto alla nuova pagina; verificare il post, seguire eventuali risposte e documentare tre prove effettive.
+
 ## Aggiornamento 24 ottobre 2026 — prima rendere possibile la prova
 
 Il gruppo pilota operativo è fissato a **tre persone tra 50 e 70 anni**, non cinque. Gli inviti presenti in alcuni post Facebook non dimostrano reclutamento, partecipazione o risultati di test. Nessun volontario confermato è documentato in questo piano.
 
-Rilevata una lacuna: nella homepage mancava un percorso visibile per la prova menzionata negli inviti. Correzione apportata all'homepage il 24 ottobre 2026: pulsante «Aiutaci a provare il sito: 15 minuti», sezione `#prova-15-minuti`, tre compiti concreti e rimando alla Pagina Facebook Per Me per feedback privato. Nessun modulo, account Per Me o invio di dati sensibili richiesto. Link condivisibile: https://cpcpcp106-coder.github.io/Per-Me/#prova-15-minuti . GitHub Pages, workflow `pages build and deployment`, commit `6ad951519487366d6afe7817f86d193e7e3df0b2`, esito success. Il controllo indipendente della pagina live sul dispositivo reale dei lettori è ancora da eseguire.
+Rilevata una lacuna: nella homepage mancava un percorso visibile per la prova menzionata negli inviti. Correzione apportata all'homepage il 24 ottobre 2026: pulsante «Aiutaci a provare il sito: 15 minuti», sezione `#prova-15-minuti`, tre compiti concreti e rimando alla Pagina Facebook Per Me per feedback privato. Nessun modulo, account Per Me o invio di dati sensibili richiesto. Link condivisibile: https://cpcpcp106-coder.github.io/Per-Me/#prova-15-minuti . GitHub Pages, workflow `pages build and deployment`, commit `6ad951519487366d6afe7817f86d193e7e3df0b2`, esito success. Nota storica: successivamente la pagina è stata sostituita da una prova dedicata, per cui si veda l'aggiornamento più recente qui sopra.
 
 Priorità successiva: condividere **questo link diretto** in un annuncio specifico dalla Pagina Facebook, verificando l'effettiva pubblicazione ed evitando duplicati nei gruppi. Poi ottenere tre adesioni volontarie, eseguire tre prove e registrare solo gli ostacoli riscontrati; non confondere esposizione social, contatti e test svolti.
 
@@ -13,7 +21,7 @@ Priorità successiva: condividere **questo link diretto** in un annuncio specifi
 ## Primo esperimento operativo approvato il 22 ottobre 2026
 **Materiale pronto:** scheda A4 divulgativa di Per Me, con QR della homepage e collegamenti cliccabili a sei guide; file PDF consegnato nella conversazione, non pubblicato sul sito. Nessuna associazione ha ancora ricevuto comunicazioni a nome del curatore.
 
-**Pubblico iniziale:** un piccolo gruppo volontario di circa 5 persone di 50–70 anni (o familiari che le aiutano). Nessuna richiesta di documenti sanitari, fiscali o personali.
+**Pubblico iniziale:** un piccolo gruppo volontario di 3 persone di 50–70 anni (o familiari che le aiutano). Nessuna richiesta di documenti sanitari, fiscali o personali.
 
 **Prova sul telefono in tre compiti, con tempo indicativo non imposto:**
 1. Da una pagina iniziale aperta sul telefono, trova la guida che spiega che cosa controllare se l'INPS non paga.
