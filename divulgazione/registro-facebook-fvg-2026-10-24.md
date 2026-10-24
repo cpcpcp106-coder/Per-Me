@@ -2,20 +2,30 @@
 
 ## Stato verificato della sessione operativa del 24 ottobre 2026
 
-**Aggiornamento operativo: attività ancora in corso.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
+**Stato alla chiusura di questa verifica operativa del 24 ottobre 2026.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
 
 Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https://www.facebook.com/PerMeGuide/ . Sito: https://cpcpcp106-coder.github.io/Per-Me/ . Nessun acquisto, ricarica, inserzione o abbonamento. Il profilo personale è stato utilizzato soltanto per verificare e correggere le due adesioni accidentali già segnalate, senza nuove adesioni o post personali.
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
 
-Controllati direttamente **34 gruppi**. Nuovi invii delle guide finora: **5 pubblicati (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), 2 in moderazione (Grado e Maniago), 1 rimosso (Tolmezzo)**. Pubblicazioni precedenti verificate: Udine e provincia, Pordenone e Gorizia. «Grazie» resta separato e non conteggiato come guida. Otto nuove adesioni Pagina approvate, una nuova richiesta di adesione pendente a San Daniele, una distinta richiesta di partecipazione pendente ad Aviano; Cormòns era già pendente. Non è dichiarata copertura di tutti i gruppi esistenti nel FVG.
+Copertura documentata: **41 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
+
+**Nuovi invii delle guide documentati: 9** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **3 in moderazione** (Grado, Maniago e Tricesimo), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
+
+**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **6 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
+
+**Adesioni della Pagina:** nove nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
+
+**Correzioni personali:** uscite soltanto le due adesioni accidentali Tarcento e Codroipo, dopo riscontro della data 24 ottobre 2026 con l’errore già registrato. Adesioni personali preesistenti e contenuti personali non modificati.
+
+Gli URL dei post in moderazione possono essere accessibili soltanto all’autore; non provano visibilità nel gruppo. Gli URL assegnati a contenuti non disponibili sono qualificati espressamente. Nessun lettore, clic o approvazione futura viene desunto dai soli invii. Restano effettivi i divieti dei regolamenti, la mancata ammissione delle Pagine, le moderazioni e il blocco di verifica specificati nelle schede.
 
 ### Quadro degli esiti controllati direttamente
 
 | Gruppo | Stato effettivo | Prova / collegamento |
 | --- | --- | --- |
-| Sei di Trieste se | 2 post in sospeso: «Grazie» e invito ai lettori; sezione Pubblicati: «Nessun post da mostrare» | https://www.facebook.com/groups/668810678691450/my_pending_content/ |
-| Sei di Cervignano se........ | 1 post in sospeso, attribuito a Per Me, testo corrispondente al registro | https://www.facebook.com/groups/1445749615656166/my_pending_content |
+| Sei di Trieste se | 2 post in sospeso: «Grazie» e invito ai lettori; guida non pubblica | https://www.facebook.com/groups/668810678691450/posts/1446324220940088 |
+| Sei di Cervignano se........ | 2 post in sospeso: guida e distinto «Grazie»; guida non pubblica | https://www.facebook.com/groups/1445749615656166/posts/4704396766458085 |
 | Sei del Friuli Collinare se.... | RETTIFICA: 2 post RIFIUTATI (invito + «Grazie.»); nell’ultimo controllo In sospeso è vuoto | https://www.facebook.com/groups/439729042875550/my_declined_content |
 | SEI DI GORIZIA SE...UFFICIALE | PUBBLICATO: ritrovato post di presentazione con permalink; visibile anche un post «Grazie» distinto | https://www.facebook.com/groups/337594613319564/posts/2535305080215162 |
 | sei di Cividale se:.. | RETTIFICA: 1 post in sospeso; sezione Pubblicati: Nessun post da mostrare | https://www.facebook.com/groups/272184852937151/my_pending_content |
@@ -31,7 +41,7 @@ Controllati direttamente **34 gruppi**. Nuovi invii delle guide finora: **5 pubb
 | Sei di Grado se | NUOVO POST IN SOSPESO: avviso esplicito di attesa amministratori anche al permalink; non pubblico | https://www.facebook.com/groups/660928979482146/posts/1434861738755529 |
 | Sei di Monfalcone se.... | NON PUBBLICATO per assenza di autorizzazione prevista | https://www.facebook.com/groups/296221887637633/about |
 | Sei di San Daniele se.... | NON PUBBLICATO per divieto di autopromozione | https://www.facebook.com/groups/204145739779250/ |
-| sei di San Daniele se.. | ADESIONE PENDENTE; nessun post inviato | https://www.facebook.com/groups/2357475297878619/ |
+| sei di San Daniele se.. | Richiesta inizialmente pendente, al controllo finale non più rilevata; motivo non accertato | https://www.facebook.com/groups/2357475297878619/ |
 | Sei di Tolmezzo, se... | NUOVO POST RIMOSSO, non pubblicato; controllo successivo mostra Rimossi 2 (guida e distinto «Grazie»). Il presunto vecchio invito non è stato ritrovato. | https://www.facebook.com/groups/978374152248612/my_removed_content |
 | Sei di Attimis se | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/774037479290384/about |
 | Sei di Nimis se | NON PUBBLICATO; manca autorizzazione. | https://www.facebook.com/groups/797449756937536/about |
@@ -48,6 +58,13 @@ Controllati direttamente **34 gruppi**. Nuovi invii delle guide finora: **5 pubb
 | Sei di Lignano Sabbiadoro Se | NON PUBBLICATO; preventiva autorizzazione mancante. | https://www.facebook.com/groups/335682156913237/about |
 | Sei di Aviano se | PARTECIPAZIONE PENDENTE; nessun post inviato. | https://www.facebook.com/groups/281797948641095/ |
 | SEI DI GRADISCA D'ISONZO SE... | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/661901623889373/posts/28805967095722782 |
+| Sei di Ronchi dei Legionari se... | NON PUBBLICATO; ammissibilità dell’eccezione non verificata. | https://www.facebook.com/groups/246859378825026/about |
+| SEI DI STARANZANO SE .... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/seidistaranzano/about |
+| Sei di San Giorgio di Nogaro | VALUTATO, NON RAGGIUNTO: selezionato per ulteriore controllo il gruppo territoriale alternativo, evitando due invii nella stessa comunità. | https://www.facebook.com/groups/1698778071052111/ |
+| SEI DI SAN GIORGIO DI NOGARO SE... | BLOCCO EFFETTIVO: DUPLICATI NON VERIFICABILI; nessuna adesione o pubblicazione. | https://www.facebook.com/groups/sei.di.sgdn.se/ |
+| Sei di FAGAGNA se... | NON PUBBLICATO per regolamento e pertinenza. | https://www.facebook.com/groups/419880811480048/ |
+| Sei di tricesimo | NUOVO POST IN SOSPESO; avviso esplicito anche nel singolo post. | https://www.facebook.com/groups/707566159297415/posts/28833938429566811 |
+| Sei di Pozzuolo del Friuli Se | NON PUBBLICATO per assenza di autorizzazione prevista. | https://www.facebook.com/groups/332394097237509/about |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -75,7 +92,7 @@ Testo recuperato o effettivamente inviato:
 - Regole: non riesaminate per il controllo storico in sola lettura; nessun nuovo post inviato.
 - Adesione: iscritta; controllo partecipante in sospeso.
 - Duplicati: nessun reinvio nel gruppo; controllo limitato allo stato o al post già noto.
-- Esito verificato: **1 post in sospeso, attribuito a Per Me, testo corrispondente al registro**.
+- Esito verificato: **2 post in sospeso: guida già nota e distinto «Grazie», entrambi della Pagina Per Me**.
 - Azione: sola lettura, nessun duplicato.
 - Pagina di verifica: https://www.facebook.com/groups/1445749615656166/my_pending_content — non è un permalink pubblico al singolo post.
 
@@ -179,7 +196,9 @@ Testo recuperato o effettivamente inviato:
 - Azione: nessun reinvio; rifiuto rispettato.
 - Pagina di verifica: https://www.facebook.com/groups/1458750414345800/my_declined_content/ — non è un permalink pubblico al singolo post.
 
-Testo integrale non recuperato in questo controllo, oppure nessun nuovo post previsto; non ricostruito per supposizione.
+Testo del post rifiutato, recuperato integralmente:
+
+> Per Me è un sito gratuito e senza scopo di lucro con guide pratiche su pensioni, INPS, lavoro, salute, diritti e strumenti digitali. Cerchiamo tre persone tra 50 e 70 anni di Gemona, per provare il sito dal proprio smartphone per circa 15 minuti e dirci cosa migliorare. Non servono competenze informatiche e non chiediamo documenti o dati sanitari. Per partecipare scrivete alla pagina Facebook Per Me.
 
 #### 9. Sei di Cormons Se...
 
@@ -323,10 +342,10 @@ Testo integrale non recuperato in questo controllo, oppure nessun nuovo post pre
 - Gruppo: https://www.facebook.com/groups/2357475297878619/
 - Identità: Pagina Per Me.
 - Regole: gruppo privato, Pagine presenti; Informazioni esterne senza regole testuali; contenuti interni non accessibili prima approvazione.
-- Adesione: NUOVA RICHIESTA IN SOSPESO: Annulla richiesta e avviso esplicito.
+- Adesione: richiesta della Pagina effettivamente inviata e inizialmente IN SOSPESO, con pulsante Annulla richiesta. Al controllo finale compare «Iscriviti al gruppo», senza avviso di attesa: la richiesta non risulta più pendente; motivo non verificato.
 - Duplicati: nessun reinvio nel gruppo; controllo limitato allo stato o al post già noto.
-- Esito verificato: **ADESIONE PENDENTE; nessun post inviato**.
-- Azione: 1 richiesta Pagina, nessun contenuto prima dell’approvazione.
+- Esito verificato: **RICHIESTA NON PIÙ RILEVATA COME PENDENTE; motivo non accertato, nessun post inviato**.
+- Azione: una richiesta Pagina iniziale; nessun reinvio dopo il cambiamento di stato, nessun contenuto pubblicato.
 
 Testo integrale non recuperato in questo controllo, oppure nessun nuovo post previsto; non ricostruito per supposizione.
 
@@ -565,6 +584,103 @@ Testo effettivamente inviato:
 > 
 > La guida sulla preparazione della visita:
 > https://cpcpcp106-coder.github.io/Per-Me/salute-guida-01-preparare-visita.html
+
+#### 35. Sei di Ronchi dei Legionari se...
+
+- Gruppo: https://www.facebook.com/groups/246859378825026/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione espansa e dieci regole lette: contenuti direttamente riguardanti Ronchi (regola 2); regola 3 vieta pubblicità non autorizzata di prodotti, servizi e altri gruppi, con eccezione per quelli ritenuti utili all’intera comunità. Non è verificata l’ammissione del progetto a tale eccezione; regola 5 vieta spam.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO; ammissibilità dell’eccezione non verificata.**
+- Azione: Nessuna adesione o post, rispettati vincolo locale e moderazione.
+- Pagina di verifica: https://www.facebook.com/groups/246859378825026/about
+
+Nessun testo inviato.
+
+#### 36. SEI DI STARANZANO SE ....
+
+- Gruppo: https://www.facebook.com/groups/seidistaranzano/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Sette regole lette: regola 1 vieta promozione di sé e spam; regola 4 limita i post al territorio di Staranzano/Bisiacaria. Le altre regole riguardano rispetto, animali, moderazione, compravendita e polemiche.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/seidistaranzano/about
+
+Nessun testo inviato.
+
+#### 37. Sei di San Giorgio di Nogaro
+
+- Gruppo: https://www.facebook.com/groups/1698778071052111/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni lette fino al fondo: nessun regolamento testuale specifico visibile; nessuna sezione di avvisi fissati. Feed controllato: prevalgono condivisioni generiche, non locali.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **VALUTATO, NON RAGGIUNTO: selezionato per ulteriore controllo il gruppo territoriale alternativo, evitando due invii nella stessa comunità.**
+- Azione: Nessuna adesione o post.
+
+Nessun testo inviato.
+
+#### 38. SEI DI SAN GIORGIO DI NOGARO SE...
+
+- Gruppo: https://www.facebook.com/groups/sei.di.sgdn.se/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione espansa e dieci regole lette: pertinenza a San Giorgio, niente annunci di lavoro o immobili, pubblicità al massimo una al giorno eliminando i vecchi post, rispetto della privacy e della moderazione. Pagine presenti.
+- Adesione: NON INVIATA: il controllo automatico ha respinto l’avvio della richiesta perché non risultava ancora completato il controllo dei duplicati. La successiva lettura della scheda Pagina nel gruppo ha restituito contenuto non disponibile.
+- Duplicati: Controllo bloccato dalla riservatezza del gruppo; assenza di duplicati NON accertata.
+- Esito verificato: **BLOCCO EFFETTIVO: DUPLICATI NON VERIFICABILI; nessuna adesione o pubblicazione.**
+- Azione: Non aggirato il blocco, nessuna richiesta ripetuta. Conservata soltanto la valutazione in sola lettura.
+
+Nessun testo inviato.
+
+#### 39. Sei di FAGAGNA se...
+
+- Gruppo: https://www.facebook.com/groups/419880811480048/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Regolamento integralmente espanso: legame residenziale, storico o emotivo con Fagagna; vietati post che pubblicizzano attività commerciali o promozionali e iniziative fuori comune/contenuti generali non pertinenti. Eccezioni per eventi locali di associazioni e specifiche occasioni di socializzazione, non documentate per il sito.
+- Adesione: Pagina non iscritta; Pagine presenti, gruppo privato.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento e pertinenza.**
+- Azione: Nessuna adesione o post.
+
+Nessun testo inviato.
+
+#### 40. Sei di tricesimo
+
+- Gruppo: https://www.facebook.com/groups/707566159297415/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni fino al fondo: nessuna descrizione o regola scritta specifica visibile. Discussione senza sezione In evidenza/avvisi fissati. Nessun divieto rilevato; Pagine presenti nei post, nessun patrocinio attribuito.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA; avviso esplicito Hai effettuato l’iscrizione, scheda con data 24 ottobre 2026.
+- Duplicati: Ricerca interna del dominio senza risultati; scheda della Pagina Nessun nuovo post prima dell’invio.
+- Esito verificato: **NUOVO POST IN SOSPESO; avviso esplicito anche nel singolo post.**
+- Azione: Una nuova adesione Pagina e un solo invio originale del percorso AI. Nessun reinvio.
+- Collegamento: https://www.facebook.com/groups/707566159297415/posts/28833938429566811 — Accessibile all’autore come IN SOSPESO; NON prova di pubblicazione.
+
+Testo effettivamente inviato:
+
+> Per chi a Tricesimo vuole avvicinarsi all’intelligenza artificiale con esempi semplici: Per Me propone un percorso gratuito per capire un avviso, preparare la bozza di un messaggio e mettere in ordine una lista.
+> 
+> Gli esercizi usano testi inventati e mostrano come accorgersi di errori, controllare fonti e date e proteggere i dati personali. Si possono leggere esempi e soluzioni anche senza aprire una chat AI; non occorre registrarsi su Per Me.
+> 
+> È un progetto personale e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e familiari. Oltre al percorso digitale ci sono guide pratiche su INPS, pensioni, ISEE, lavoro, diritti, debiti e salute, per orientarsi e preparare domande ai servizi competenti.
+> 
+> Il percorso introduttivo è qui:
+> https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html
+
+#### 41. Sei di Pozzuolo del Friuli Se
+
+- Gruppo: https://www.facebook.com/groups/332394097237509/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni e descrizione integralmente espanse: regola 1 vieta post commerciali e pubblicitari non autorizzati; altre regole su privacy/copyright, rispetto, politica locale e amici. Nessuna autorizzazione al sito disponibile.
+- Adesione: Pagina non iscritta.
+- Duplicati: nessun contenuto inviato; nessun tentativo di aggirare i divieti.
+- Esito verificato: **NON PUBBLICATO per assenza di autorizzazione prevista.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/332394097237509/about
+
+Nessun testo inviato.
 
 ## Registro storico conservato
 
