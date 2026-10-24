@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-24T13:53:47.320Z",
+  "checked_at_utc": "2026-10-24T13:56:25.776Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -67,10 +67,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "93 pagine salvate per la lettura offline · controllo online 24 ott, 13:54.",
+        "status": "93 pagine salvate per la lettura offline · controllo online 24 ott, 13:57.",
         "stored": {
           "guides": 93,
-          "updated": "2026-10-24T13:54:42.637Z",
+          "updated": "2026-10-24T13:57:07.720Z",
           "bytes": 2205579,
           "includesNew09": true
         }
@@ -178,8 +178,8 @@
     {
       "page": "home",
       "violations": [],
-      "passes": 24,
-      "incomplete": 0
+      "passes": 22,
+      "incomplete": 1
     },
     {
       "page": "agevolazioni-diritti.html",
@@ -622,8 +622,8 @@
     {
       "page": "index.html",
       "violations": [],
-      "passes": 24,
-      "incomplete": 0
+      "passes": 22,
+      "incomplete": 1
     },
     {
       "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",

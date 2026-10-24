@@ -1,9 +1,9 @@
 {
-  "date_utc": "2026-10-24T13:55:37.569934+00:00",
+  "date_utc": "2026-10-24T13:57:56.777182+00:00",
   "scope": {
     "pages": 102,
     "unique_external_urls": 722,
-    "occurrences": 1669
+    "occurrences": 1668
   },
   "counts": {
     "raggiungibile": 596,
@@ -3942,7 +3942,6 @@
       "http": 200,
       "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
-        "index.html",
         "prova-lettori.html"
       ]
     },
