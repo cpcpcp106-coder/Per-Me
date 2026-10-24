@@ -67,6 +67,17 @@ Non distribuire un messaggio identico contemporaneamente a tutti; prima selezion
 
 Il profilo persistente del browser remoto «Per Me — Facebook» ha salvato cookie di Facebook, ma nelle ultime riaperture la piattaforma richiede nuovamente credenziali di autenticazione. Un tentativo aggiuntivo con profilo salvato e recupero automatico non ha ripristinato il login. **Non è quindi possibile asserire di aver completato ulteriori iscrizioni, pubblicazioni, controlli di moderazione o le due correzioni.** Non inserire password o codici nel repository o in chat, non acquistare piani a pagamento per aggirare il limite.
 
+## Verifica aggiuntiva del 24 ottobre 2026 — accessi e risultati realmente accertati
+
+- Ho riletto il registro direttamente dal repository collegato e verificato che i cinque gruppi con pubblicazioni precedentemente segnalate, i due post in moderazione e le adesioni incerte siano già identificati. **Nessuna ripubblicazione eseguita**.
+- La prova di lettura diretta senza accesso autenticato dei gruppi **Tarcento**, **Trieste**, **Gemona** e **Cormòns** ha restituito `login_required` in tutti e quattro i casi. Questa verifica **non** consente di conoscere l'identità iscritta, gli stati di moderazione o le regole aggiornate.
+- Il browser remoto ha due profili salvati, incluso «Per Me — Facebook», ma **nessun profilo è contrassegnato come autenticato su facebook.com**. La presenza di un profilo salvato non equivale a una sessione Facebook funzionante. Il nuovo accesso va confermato in modo sicuro prima di qualsiasi azione sul social; non usare o richiedere credenziali in chat.
+- La connessione Windsor.ai attualmente espone **solo Search Console per il sito Per Me**: non risulta alcun account Facebook collegato e quindi non è un canale operativo per iscrizioni o pubblicazioni nei gruppi.
+- La documentazione ufficiale Facebook chiarisce che gli amministratori dei gruppi possono impedire alle **Pagine** di aderire; non è corretto compensare con un'adesione personale non autorizzata. Fonte: https://www.facebook.com/help/ipad-app/401492893195007
+- **Risultato di questa verifica aggiuntiva: zero nuove iscrizioni, zero nuove pubblicazioni, zero adesioni personali annullate, zero stati di moderazione aggiornati.** Le precedenti informazioni rimangono storiche e non confermate in tempo reale.
+
+**Priorità al ripristino della sessione (senza duplicati):** verificare l'iscrizione personale solo se creata accidentalmente nei gruppi Tarcento e Codroipo, poi controllare lo stato dei post già inviati a Trieste e Gemona; verificare «Sei di Udine se...» in attesa. Solo successivamente esaminare Tolmezzo, Monfalcone, Cormòns, Cervignano, Sacile, Latisana, Grado e gli altri gruppi già elencati, verificando uno per uno regole e ammissibilità della Pagina Per Me. Per nuovi post acquisire l'URL diretto del singolo post o una prova Facebook esplicita dell'invio/approvazione.
+
 ## Misurazione e passo operativo successivo
 
 1. Ripristinare un accesso Facebook **effettivamente autenticato** nel browser con permessi reali sulla Pagina; non considerare la sola presenza di cookie come prova di login.
