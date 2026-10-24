@@ -78,6 +78,41 @@ Il profilo persistente del browser remoto «Per Me — Facebook» ha salvato coo
 
 **Priorità al ripristino della sessione (senza duplicati):** verificare l'iscrizione personale solo se creata accidentalmente nei gruppi Tarcento e Codroipo, poi controllare lo stato dei post già inviati a Trieste e Gemona; verificare «Sei di Udine se...» in attesa. Solo successivamente esaminare Tolmezzo, Monfalcone, Cormòns, Cervignano, Sacile, Latisana, Grado e gli altri gruppi già elencati, verificando uno per uno regole e ammissibilità della Pagina Per Me. Per nuovi post acquisire l'URL diretto del singolo post o una prova Facebook esplicita dell'invio/approvazione.
 
+## Nuovi controlli autenticati — sessioni del 24 ottobre 2026
+
+Il curatore ha salvato il profilo browser «Per Me — Facebook» e il browser ha effettivamente aperto Facebook con sessione autenticata, passando tra Pagina e profilo personale per controlli di identità. Le azioni seguenti derivano dagli esiti restituiti dal browser, **non da una nuova verifica permanente in tempo reale**.
+
+| Gruppo | Link diretto al gruppo | Verifica effettuata e risultato | Sessione remota |
+|---|---|---|---|
+| Tarcento | https://www.facebook.com/groups/599117763490961/ | Profilo personale iscritto; Pagina Per Me non iscritta. **Nessuna modifica**, perché non è accertabile se l'iscrizione personale fosse preesistente oppure accidentale | https://agent.tinyfish.ai/runs/1445ae48-b636-4a3c-bd8c-040bfd7cb487 |
+| Codroipo | https://www.facebook.com/groups/351950071141097/ | Come Tarcento: profilo personale iscritto, Pagina non iscritta; **nessuna modifica**, per non perdere adesioni personali preesistenti | https://agent.tinyfish.ai/runs/1445ae48-b636-4a3c-bd8c-040bfd7cb487 |
+| Trieste | https://www.facebook.com/groups/668810678691450/ | Pagina iscritta. Nel gruppo compaiono **2 contenuti segnalati in moderazione**; stato individuale non pienamente verificabile, poiché pagina «I tuoi contenuti» non aperta con successo. Nessuna ripubblicazione | https://agent.tinyfish.ai/runs/fcb447e4-85b0-476e-9766-88cb83d713ee |
+| Gemona | https://www.facebook.com/groups/1458750414345800/ | Pagina iscritta; tab «Rifiutati» mostra **1 messaggio Per Me rifiutato**, 0 in sospeso e 0 pubblicati nella sezione dei contenuti della Pagina controllata. **Non ripubblicare** | https://agent.tinyfish.ai/runs/d49ec620-741f-4a54-a948-63fc225e504c |
+| Sei di Udine se... | https://www.facebook.com/groups/seidiudine.se/ | Richiesta di adesione Pagina **ancora in attesa**, pulsante «Annulla richiesta»; nessun nuovo invio | https://agent.tinyfish.ai/runs/d49ec620-741f-4a54-a948-63fc225e504c |
+| Tolmezzo | https://www.facebook.com/groups/978374152248612/ | Pagina iscritta e **messaggio di presentazione pubblicato e visto nel feed**; nessun divieto esplicito rilevato su link e informazioni gratuite. Nessun link diretto del singolo post recuperato | https://agent.tinyfish.ai/runs/66b3596d-cdab-4e8b-b8cb-aa75dd8bb6c5 |
+| Cormòns | https://www.facebook.com/groups/260658674110260/ | Richiesta iscrizione **esclusivamente come Pagina** inviata, con risposte alle domande degli amministratori; **in attesa di approvazione**, nessun post | https://agent.tinyfish.ai/runs/90055523-18d7-4db9-88c6-5c386baf80bc |
+| Cervignano | https://www.facebook.com/groups/1445749615656166/ | Pagina iscritta; **1 post inviato, in attesa di approvazione dei moderatori**. Non è pubblicato nel feed pubblico; nessun link diretto recuperato | https://agent.tinyfish.ai/runs/4a3833f4-2c0b-4d20-99d6-edd9ceb2cb5a |
+
+Per Trieste, la pagina specifica per ulteriore controllo è https://www.facebook.com/groups/668810678691450/my_pending_content/ . I riferimenti di gruppo **non sono permalink ai post**.
+
+### Testi inviati nelle nuove comunità
+
+**Tolmezzo, post visibile nel feed:**
+
+> Un invito per chi vive in Carnia: Per Me è un progetto personale gratuito, senza pubblicità e senza scopo di lucro, con guide in italiano su INPS, pensioni, lavoro, salute e servizi digitali, con fonti consultabili. Cerchiamo tre persone tra 50 e 70 anni disponibili a provare le guide sul cellulare per 15 minuti e a segnalarci cosa rendere più chiaro. Non chiediamo documenti né dati sanitari. Sito: https://cpcpcp106-coder.github.io/Per-Me/ — Pagina: https://www.facebook.com/PerMeGuide/
+
+**Cervignano, post in approvazione (non ancora pubblico):**
+
+> Per chi vive a Cervignano e nella Bassa Friulana: Per Me raccoglie guide pratiche gratuite in italiano su INPS, pensioni, lavoro, salute e servizi digitali, con fonti verificabili. Vorremmo capire quanto sono leggibili da smartphone: cerchiamo tre volontari tra 50 e 70 anni per provarle per 15 minuti e dare suggerimenti, senza fornire documenti o informazioni sanitarie. https://cpcpcp106-coder.github.io/Per-Me/ — https://www.facebook.com/PerMeGuide/
+
+### Conseguenze operative
+
+1. **Non replicare** i messaggi già pubblicati o in approvazione. In particolare non ripubblicare a Gemona dopo il rifiuto.
+2. Attendere gli amministratori per Cormòns e «Sei di Udine se...», e verificare approvazione a Cervignano prima di considerarlo pubblico.
+3. Il prossimo intervento in gruppi ancora da verificare deve privilegiare, ove ammesso, un contenuto **concreto e utile da una guida** anziché ripetere in massa la richiesta di persone per test.
+4. Le iscrizioni personali a Tarcento e Codroipo sono **accertate**, ma non si può provare siano state create in questa campagna, quindi nessun abbandono.
+5. Zero acquisti di pubblicità e zero top-up autorizzati; eventuali costi dei servizi di browser remoto sono distinti da spesa pubblicitaria. Non avviare acquisti senza consenso.
+
 ## Misurazione e passo operativo successivo
 
 1. Ripristinare un accesso Facebook **effettivamente autenticato** nel browser con permessi reali sulla Pagina; non considerare la sola presenza di cookie come prova di login.
