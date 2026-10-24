@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-10-24T13:47:02+00:00",
+  "date_utc": "2026-10-24T17:52:09+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 101,
-    "editorial_pages": 99,
+    "html_total": 102,
+    "editorial_pages": 100,
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3560,
+    "local_occurrences": 3575,
     "external_occurrences": 1668,
     "external_unique": 722,
     "actions": 7,
@@ -95,6 +95,7 @@
       "monitoraggio.html",
       "ore-ferie-permessi-malattia-straordinari.html",
       "pensione-invalidita.html",
+      "prova-lettori.html",
       "redditi-red-comunicazioni-obbligatorie-inps.html",
       "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
       "ricetta-zuppa-lenticchie-patate-carote.html",
@@ -196,6 +197,7 @@
       "monitoraggio.html",
       "ore-ferie-permessi-malattia-straordinari.html",
       "pensione-invalidita.html",
+      "prova-lettori.html",
       "redditi-red-comunicazioni-obbligatorie-inps.html",
       "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
       "ricetta-zuppa-lenticchie-patate-carote.html",
@@ -1387,14 +1389,14 @@
       "h1": 1,
       "images": 11,
       "images_without_alt": 0,
-      "links_local": 58,
-      "links_external": 4,
+      "links_local": 55,
+      "links_external": 3,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 7
+      "candidate_numeric_legal_mentions": 6
     },
     {
       "file": "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -1464,6 +1466,21 @@
       "images_without_alt": 0,
       "links_local": 35,
       "links_external": 6,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 3
+    },
+    {
+      "file": "prova-lettori.html",
+      "title": "Prova Per Me in 15 minuti | Aiutaci a migliorare le guide",
+      "h1": 1,
+      "images": 1,
+      "images_without_alt": 0,
+      "links_local": 18,
+      "links_external": 1,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
