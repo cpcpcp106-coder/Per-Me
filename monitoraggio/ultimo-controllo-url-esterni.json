@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-10-23T21:42:39.782548+00:00",
+  "date_utc": "2026-10-24T13:36:36.239811+00:00",
   "scope": {
     "pages": 101,
-    "unique_external_urls": 721,
-    "occurrences": 1667
+    "unique_external_urls": 722,
+    "occurrences": 1668
   },
   "counts": {
-    "raggiungibile": 594,
+    "raggiungibile": 595,
     "bloccato_o_riservato": 121,
     "non_verificato_trasporto": 5,
     "errore_http": 1
@@ -3933,6 +3933,15 @@
         "tutor-ai-riassumere-confrontare.html",
         "tutor-ai-verifica-fonti-date.html",
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.facebook.com/PerMeGuide/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "pages": [
+        "index.html"
       ]
     },
     {
