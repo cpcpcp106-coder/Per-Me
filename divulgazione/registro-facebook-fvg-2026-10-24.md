@@ -89,7 +89,7 @@ Il curatore ha salvato il profilo browser «Per Me — Facebook» e il browser h
 | Trieste | https://www.facebook.com/groups/668810678691450/ | Pagina iscritta. Nel gruppo compaiono **2 contenuti segnalati in moderazione**; stato individuale non pienamente verificabile, poiché pagina «I tuoi contenuti» non aperta con successo. Nessuna ripubblicazione | https://agent.tinyfish.ai/runs/fcb447e4-85b0-476e-9766-88cb83d713ee |
 | Gemona | https://www.facebook.com/groups/1458750414345800/ | Pagina iscritta; tab «Rifiutati» mostra **1 messaggio Per Me rifiutato**, 0 in sospeso e 0 pubblicati nella sezione dei contenuti della Pagina controllata. **Non ripubblicare** | https://agent.tinyfish.ai/runs/d49ec620-741f-4a54-a948-63fc225e504c |
 | Sei di Udine se... | https://www.facebook.com/groups/seidiudine.se/ | Richiesta di adesione Pagina **ancora in attesa**, pulsante «Annulla richiesta»; nessun nuovo invio | https://agent.tinyfish.ai/runs/d49ec620-741f-4a54-a948-63fc225e504c |
-| Tolmezzo | https://www.facebook.com/groups/978374152248612/ | Pagina iscritta e **messaggio di presentazione pubblicato e visto nel feed**; nessun divieto esplicito rilevato su link e informazioni gratuite. Nessun link diretto del singolo post recuperato | https://agent.tinyfish.ai/runs/66b3596d-cdab-4e8b-b8cb-aa75dd8bb6c5 |
+| Tolmezzo | https://www.facebook.com/groups/978374152248612/ | **RETTIFICA:** una sessione precedente ha riferito un post pubblicato; il controllo successivo nella sezione «Post dei gruppi» della Pagina Per Me e nella ricerca interna non trova alcun post, né pubblicato né pendente. **Pubblicazione non verificata e precedente affermazione smentita**, nessun permalink | https://agent.tinyfish.ai/runs/66b3596d-cdab-4e8b-b8cb-aa75dd8bb6c5 |
 | Cormòns | https://www.facebook.com/groups/260658674110260/ | Richiesta iscrizione **esclusivamente come Pagina** inviata, con risposte alle domande degli amministratori; **in attesa di approvazione**, nessun post | https://agent.tinyfish.ai/runs/90055523-18d7-4db9-88c6-5c386baf80bc |
 | Cervignano | https://www.facebook.com/groups/1445749615656166/ | Pagina iscritta; **1 post inviato, in attesa di approvazione dei moderatori**. Non è pubblicato nel feed pubblico; nessun link diretto recuperato | https://agent.tinyfish.ai/runs/4a3833f4-2c0b-4d20-99d6-edd9ceb2cb5a |
 
@@ -97,7 +97,7 @@ Per Trieste, la pagina specifica per ulteriore controllo è https://www.facebook
 
 ### Testi inviati nelle nuove comunità
 
-**Tolmezzo, post visibile nel feed:**
+**Tolmezzo, testo che era stato dichiarato inviato ma NON risulta pubblicato alla nuova verifica:**
 
 > Un invito per chi vive in Carnia: Per Me è un progetto personale gratuito, senza pubblicità e senza scopo di lucro, con guide in italiano su INPS, pensioni, lavoro, salute e servizi digitali, con fonti consultabili. Cerchiamo tre persone tra 50 e 70 anni disponibili a provare le guide sul cellulare per 15 minuti e a segnalarci cosa rendere più chiaro. Non chiediamo documenti né dati sanitari. Sito: https://cpcpcp106-coder.github.io/Per-Me/ — Pagina: https://www.facebook.com/PerMeGuide/
 
@@ -107,11 +107,21 @@ Per Trieste, la pagina specifica per ulteriore controllo è https://www.facebook
 
 ### Conseguenze operative
 
-1. **Non replicare** i messaggi già pubblicati o in approvazione. In particolare non ripubblicare a Gemona dopo il rifiuto.
+1. **Non replicare** i messaggi realmente verificati in approvazione. In particolare non ripubblicare a Gemona dopo il rifiuto. Per Tolmezzo, trattare l'invio precedente come **non confermato** e verificare puntualmente prima di eventuali nuovi tentativi.
 2. Attendere gli amministratori per Cormòns e «Sei di Udine se...», e verificare approvazione a Cervignano prima di considerarlo pubblico.
 3. Il prossimo intervento in gruppi ancora da verificare deve privilegiare, ove ammesso, un contenuto **concreto e utile da una guida** anziché ripetere in massa la richiesta di persone per test.
 4. Le iscrizioni personali a Tarcento e Codroipo sono **accertate**, ma non si può provare siano state create in questa campagna, quindi nessun abbandono.
 5. Zero acquisti di pubblicità e zero top-up autorizzati; eventuali costi dei servizi di browser remoto sono distinti da spesa pubblicitaria. Non avviare acquisti senza consenso.
+
+## Rettifica sostanziale: controllo successivo di Tolmezzo, 24 ottobre 2026
+
+**La pubblicazione inizialmente dichiarata nel gruppo Tolmezzo NON è confermata dalla verifica successiva.** Il browser autenticato come Pagina Per Me ha controllato la ricerca interna del gruppo, il feed e la sezione «Post dei gruppi» della Pagina e non ha trovato il messaggio `Un invito per chi vive in Carnia...` né tra i pubblicati, né tra i post in sospeso/rifiutati/rimossi. La sezione della Pagina riporta che non ha ancora pubblicato nel gruppo Tolmezzo. Quindi **non conteggiare Tolmezzo come post pubblicato**. Gli output dei due agenti sono contraddittori; il controllo successivo più specifico smentisce quello precedente. Nessun invio/cancellazione eseguito nel controllo di rettifica.
+
+- Gruppo: https://www.facebook.com/groups/978374152248612/
+- Sessione che inizialmente dichiarava pubblicazione: https://agent.tinyfish.ai/runs/66b3596d-cdab-4e8b-b8cb-aa75dd8bb6c5
+- Sessione di verifica negativa, con controllo di post e autore: https://agent.tinyfish.ai/runs/3118bbcf-cb0c-4da9-91c5-25501a350729
+- Nessun URL diretto al post disponibile; **non attribuire una pubblicazione verificata**.
+- Anche i cinque gruppi citati all'inizio del registro come «post pubblicati» hanno solo esiti riferiti da sessioni precedenti **senza URL dei singoli post**. Restano **da ricontrollare uno per uno** e non si può usarli come conteggio di post oggi pubblicamente visibili. La dichiarazione precedente non equivale a prova di permanenza o visibilità effettiva.
 
 ## Misurazione e passo operativo successivo
 
