@@ -134,6 +134,12 @@ La richiesta del curatore di vedere i post ha evidenziato che **«inviato», «p
 
 Costo: nessun acquisto pubblicitario e nessuna ricarica del servizio browser autorizzata o effettuata. Le verifiche hanno consumato crediti browser esistenti; per i gruppi restanti evitare spese aggiuntive e non dichiarare conclusa la diffusione finché non vi sono evidenze.
 
+## Controllo aggiuntivo Pordenone — 24 ottobre 2026
+
+Verifica del gruppo [Sei di PORDENONE se...](https://www.facebook.com/groups/1264254296986255/), effettuata con il profilo remoto Facebook della Pagina Per Me, **in sola lettura**. Il browser ha esaminato feed, profilo Per Me nel gruppo e ricerca interna, senza individuare un post attribuibile alla Pagina né recuperare un permalink. **Esito: pubblicazione NON ACCERTABILE**. Questo NON dimostra che non esista o che sia stata rimossa, ma la precedente segnalazione di pubblicazione **non può essere considerata conferma attuale**. Nessun duplicato inviato.
+
+Sessione verificabile: https://agent.tinyfish.ai/runs/4d253224-e9e7-4e6f-b780-dab86e60c0e6
+
 ## Misurazione e passo operativo successivo
 
 1. Ripristinare un accesso Facebook **effettivamente autenticato** nel browser con permessi reali sulla Pagina; non considerare la sola presenza di cookie come prova di login.
