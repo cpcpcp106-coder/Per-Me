@@ -2,19 +2,19 @@
 
 ## Stato verificato della sessione operativa del 24 ottobre 2026
 
-**Stato alla chiusura di questa verifica operativa del 24 ottobre 2026.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
+**Stato verificato aggiornato nella prosecuzione del 24 ottobre 2026.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
 
 Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https://www.facebook.com/PerMeGuide/ . Sito: https://cpcpcp106-coder.github.io/Per-Me/ . Nessun acquisto, ricarica, inserzione o abbonamento. Il profilo personale è stato utilizzato soltanto per verificare e correggere le due adesioni accidentali già segnalate, senza nuove adesioni o post personali.
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
 
-Copertura documentata: **41 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
+Copertura documentata: **44 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
 
-**Nuovi invii delle guide documentati: 9** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **3 in moderazione** (Grado, Maniago e Tricesimo), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
+**Nuovi invii delle guide documentati: 10** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **4 in moderazione** (Grado, Maniago, Tricesimo e Porcia), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
 
-**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **6 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
+**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **7 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
 
-**Adesioni della Pagina:** nove nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
+**Adesioni della Pagina:** dieci nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
 
 **Correzioni personali:** uscite soltanto le due adesioni accidentali Tarcento e Codroipo, dopo riscontro della data 24 ottobre 2026 con l’errore già registrato. Adesioni personali preesistenti e contenuti personali non modificati.
 
@@ -65,6 +65,9 @@ Gli URL dei post in moderazione possono essere accessibili soltanto all’autore
 | Sei di FAGAGNA se... | NON PUBBLICATO per regolamento e pertinenza. | https://www.facebook.com/groups/419880811480048/ |
 | Sei di tricesimo | NUOVO POST IN SOSPESO; avviso esplicito anche nel singolo post. | https://www.facebook.com/groups/707566159297415/posts/28833938429566811 |
 | Sei di Pozzuolo del Friuli Se | NON PUBBLICATO per assenza di autorizzazione prevista. | https://www.facebook.com/groups/332394097237509/about |
+| Sei di Porcia se ..... | NUOVO POST IN SOSPESO; avviso esplicito nel singolo post. | https://www.facebook.com/groups/532546586843604/posts/28642721418732744 |
+| Sei di Azzano Decimo se... aperto a tutti | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/803808363453759/about |
+| Sei Di Tavagnacco Se .... | NON PUBBLICATO per regolamento e assenza di autorizzazione. | https://www.facebook.com/groups/1456754581214291/about |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -679,6 +682,54 @@ Testo effettivamente inviato:
 - Esito verificato: **NON PUBBLICATO per assenza di autorizzazione prevista.**
 - Azione: Nessuna adesione o post.
 - Pagina di verifica: https://www.facebook.com/groups/332394097237509/about
+
+Nessun testo inviato.
+
+#### 42. Sei di Porcia se .....
+
+- Gruppo: https://www.facebook.com/groups/532546586843604/
+- Identità: Pagina Per Me.
+- Regole: Descrizione integralmente espansa e cinque regole lette: rispetto, responsabilità di chi pubblica, privacy/copyright, niente politica, possibilità di aggiungere amici. Nessun divieto specifico di risorse gratuite rilevato. In evidenza: eventi, saluto amministratore e notizia storica del marzo 2020 sulle restrizioni; immagine del post fissato aperta e letta, nessuna ulteriore condizione di pubblicazione.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA: Iscrizione effettuata, nessun controllo di partecipazione pendente visibile.
+- Duplicati: Prima dell’adesione: ricerca interna del dominio senza risultati; scheda Pagina Per Me non fa parte del gruppo e Nessun nuovo post.
+- Esito verificato: **NUOVO POST IN SOSPESO; avviso esplicito nel singolo post.**
+- Azione: Una nuova adesione della Pagina e un solo invio della guida sull’ISEE; nessun reinvio.
+- URL diretto: https://www.facebook.com/groups/532546586843604/posts/28642721418732744 — URL verificato, accessibile all’autore come IN SOSPESO; non prova di pubblicazione.
+
+Testo effettivamente inviato:
+
+> Una guida gratuita per chi vive a Porcia e ha visto cambiare il reddito della famiglia: «Il reddito è diminuito: devo rifare l’ISEE?».
+> 
+> Su Per Me trovi spiegata la differenza tra ISEE ordinario e corrente, con un percorso sui documenti da raccogliere e sulle domande da chiarire con il CAF o tramite i servizi INPS. La guida aiuta a orientarsi senza promettere automaticamente bonus o un valore ISEE più basso.
+> 
+> Per Me è un progetto personale, gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e per chi le aiuta. Nel sito sono disponibili anche guide su pensioni, lavoro, diritti, debiti, salute, servizi digitali e uso prudente dell’AI, con fonti consultabili.
+> 
+> La guida si legge qui:
+> https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html
+
+#### 43. Sei di Azzano Decimo se... aperto a tutti
+
+- Gruppo: https://www.facebook.com/groups/803808363453759/
+- Identità: Pagina Per Me.
+- Regole: Sei regole lette: focus locale e informazioni utili; regola 3 vieta la promozione diretta della propria attività, con eccezione per eventi locali d’interesse pubblico; regola 4 esclude contenuti promozionali fuori dalle eccezioni e informazioni sanitarie senza fonte ufficiale/autorevolezza comprovata.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessuna adesione o pubblicazione prevista dopo il riscontro del divieto; nessun invio duplicato.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/803808363453759/about
+
+Nessun testo inviato.
+
+#### 44. Sei Di Tavagnacco Se ....
+
+- Gruppo: https://www.facebook.com/groups/1456754581214291/
+- Identità: Pagina Per Me.
+- Regole: Descrizione integralmente espansa e quattro regole lette: vietata autopromozione; pubblicità ammessa solo nelle specifiche eccezioni per eventi. Vietati post/link pubblicitari non concordati e segnalazioni di prestatori di servizi. Il progetto non è un evento locale già autorizzato.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessuna adesione o pubblicazione prevista dopo il divieto; nessun invio duplicato.
+- Esito verificato: **NON PUBBLICATO per regolamento e assenza di autorizzazione.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/1456754581214291/about
 
 Nessun testo inviato.
 
