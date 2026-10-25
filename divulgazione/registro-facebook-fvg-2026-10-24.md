@@ -1,5 +1,12 @@
 # Per Me — Registro della divulgazione Facebook nel Friuli-Venezia Giulia
 
+### Aggiornamento da notifica Facebook del 25 ottobre 2026, ore 08:54
+
+**Prova fornita dal curatore:** schermata notifiche Facebook, acquisita il 25 ottobre 2026. Il gruppo «Sei di Aviano se» notifica testualmente: **«Un amministratore ha approvato il tuo post»** (notifica «1 m»). Il precedente post in moderazione ad Aviano è quindi **approvato**, ma la schermata non permette ancora di confermare l'apertura del singolo post nel feed né di recuperarne il permalink pubblico. **Non reinviare.**
+
+Altre quattro notifiche «Ti diamo il benvenuto ... Ora puoi pubblicare post» confermano l'accoglienza nei gruppi **Sei di Cordenons se**, **Sei di Aviano se**, **Sei di Fiume Veneto se** e **Sei di Porcia se** (nomi visibili talvolta troncati nella notifica, da associare ai gruppi già registrati). Sono **notifiche di iscrizione, non di approvazione dei post**: Cordenons, Fiume Veneto e Porcia rimangono classificati come *post in moderazione secondo l'ultimo controllo* fino a diversa prova. Non dedurre clic, lettori o visite al sito. Non sommare queste notifiche a nuove adesioni già conteggiate senza verificare i duplicati.
+
+
 ## Stato verificato delle sessioni operative del 24–25 ottobre 2026
 
 **Ripresa operativa del 25 ottobre 2026; esiti documentati delle sessioni del 24–25 ottobre.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
@@ -10,9 +17,9 @@ Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su I
 
 Copertura documentata: **58 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
 
-**Nuovi invii delle guide documentati: 13** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **7 in moderazione** (Grado, Maniago, Tricesimo, Porcia, Fiume Veneto, Cordenons e Aviano), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
+**Nuovi invii delle guide documentati: 13** — **5 pubblicati e verificati con permalink** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **1 approvato da un amministratore secondo notifica Facebook, ma non ancora ricontrollato nel feed** (Aviano), **6 ancora classificati in moderazione nell’ultimo controllo** (Grado, Maniago, Tricesimo, Porcia, Fiume Veneto, Cordenons), **1 rimosso** (Tolmezzo). Tutti i 13 invii precedenti risultavano attribuiti alla Pagina Per Me e avevano testi distinti.
 
-**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **10 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
+**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati e verificati con permalink**, **1 approvato da amministratore con notifica, visibilità pubblica non ancora ricontrollata** (Aviano), **9 pendenti secondo l’ultimo controllo disponibile** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
 
 **Adesioni della Pagina:** dodici nuove adesioni approvate; ad Aviano, dopo la precedente attesa di partecipazione, il 25 ottobre è stato consentito un primo invio ora in moderazione; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
 
@@ -58,7 +65,7 @@ Gli URL dei post in moderazione possono essere accessibili soltanto all’autore
 | Sei di San Vito al Tagliamento se | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/7124456447577342/posts/29399584992971169 |
 | Sei di Duino se ... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/629382917117526/ |
 | Sei di Lignano Sabbiadoro Se | NON PUBBLICATO; preventiva autorizzazione mancante. | https://www.facebook.com/groups/335682156913237/about |
-| Sei di Aviano se | NUOVO POST IN SOSPESO, inviato il 25 ottobre dopo il controllo della partecipazione | https://www.facebook.com/groups/281797948641095/pending_posts/3712230615597794 |
+| Sei di Aviano se | AGGIORNAMENTO 25/10 ore 08:54: notifica «Un amministratore ha approvato il tuo post»; precedente stato in sospeso superato. Visibilità nel feed e permalink pubblico ancora da ricontrollare. | https://www.facebook.com/groups/281797948641095/pending_posts/3712230615597794 (precedente collegamento in moderazione; NON prova di pubblicazione pubblica) |
 | SEI DI GRADISCA D'ISONZO SE... | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/661901623889373/posts/28805967095722782 |
 | Sei di Ronchi dei Legionari se... | NON PUBBLICATO; ammissibilità dell’eccezione non verificata. | https://www.facebook.com/groups/246859378825026/about |
 | SEI DI STARANZANO SE .... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/seidistaranzano/about |
@@ -571,6 +578,8 @@ Nessun testo inviato.
 Nessun testo inviato.
 
 #### 33. Sei di Aviano se
+
+- **Aggiornamento 25 ottobre, ore 08:54 (schermata fornita dal curatore):** notifica di **post approvato da amministratore**. Lo stato «in moderazione» descritto di seguito documenta il controllo *precedente* alla notifica; pubblicazione visibile e permalink pubblico restano da verificare.
 
 - Gruppo: https://www.facebook.com/groups/281797948641095/
 - Identità: esclusivamente Pagina Per Me.
