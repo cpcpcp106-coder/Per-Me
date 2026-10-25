@@ -6,7 +6,7 @@ Estensione al Veneto autorizzata direttamente dall’utente. Per nuove adesioni 
 
 Il registro FVG è stato ricontrollato all’avvio (SHA cbf4bc96d632ff1a3f6e496c2c1d3bdac858111d); nessun precedente invio in Veneto è emerso. Prima di ogni azione: regole, ammissibilità della Pagina e duplicati. Gli invii non equivalgono a pubblicazioni. Le sezioni della moderazione possono essere visibili soltanto all’autore. Nessun lettore, clic o visita viene desunto dagli invii.
 
-**Copertura finora verificata: 14 gruppi nelle sette province. Esiti: 1 rimosso; 4 in moderazione; 2 pubblicato; 5 non pubblicato — regolamento; 1 non pubblicato — verifica duplicati bloccata; 1 non pubblicato — pagine non ammesse.** Sessione in corso, non un censimento completo dei gruppi del Veneto.
+**Copertura finora verificata: 18 gruppi nelle sette province. Esiti: 1 rimosso; 5 in moderazione; 3 pubblicato; 6 non pubblicato — regolamento; 1 non pubblicato — verifica duplicati bloccata; 1 non pubblicato — pagine non ammesse; 1 non pubblicato — gruppo in pausa.** Invii consentiti effettuati in tutte e sette le province. Sessione in corso, non un censimento completo dei gruppi del Veneto.
 
 ## Quadro degli esiti verificati
 
@@ -26,6 +26,10 @@ Il registro FVG è stato ricontrollato all’avvio (SHA cbf4bc96d632ff1a3f6e496c
 | Sei Di Conegliano Se... | Treviso | NON PUBBLICATO — REGOLAMENTO | https://www.facebook.com/groups/seidiconeglianose/about |
 | sei di Bassano se ... | Vicenza | NON PUBBLICATO — PAGINE NON AMMESSE | https://www.facebook.com/groups/629456390423212/about |
 | SEI DI FELTRE SE. | Belluno | PUBBLICATO | https://www.facebook.com/groups/2789181347872705/posts/26636914926006013 |
+| Sei di ADRIA se... | Rovigo | NON PUBBLICATO — REGOLAMENTO | https://www.facebook.com/groups/1378598885737406/announcements |
+| Se sei di Cittadella..... | Padova | NON PUBBLICATO — GRUPPO IN PAUSA | https://www.facebook.com/groups/1419461644989013/about |
+| 🔴 Sei di Legnago VR se ... Pubblicità. Eventi. | Verona | PUBBLICATO | https://www.facebook.com/groups/legnagoeventi/posts/4539989876287017 |
+| SEI DI LENDINARA SE... FREE! | Rovigo | IN MODERAZIONE | https://www.facebook.com/groups/334205651670565/posts/1661921942232256 |
 
 ## Schede dettagliate
 
@@ -275,3 +279,73 @@ Testo inviato:
 > 
 > La guida:
 > https://cpcpcp106-coder.github.io/Per-Me/inps-prestazione-sospesa-respinta-cosa-fare.html
+
+### 15. Sei di ADRIA se... — Rovigo
+
+- Gruppo: https://www.facebook.com/groups/1378598885737406/
+- Identità: Pagina Per Me (solo lettura).
+- Regole: Informazioni lette fino al fondo, senza regole formali. Avvisi fissati aperti ed espansi: pertinenza esclusiva ad Adria e agli adrioti, no pubblicità/promozioni commerciali, no bacheca vendo/compro/cerco/offro, rispetto e no politica. La natura gratuita del sito non documenta una specifica attività ad Adria.
+- Duplicati: Non eseguita: nessuna azione perché il perimetro territoriale e gli avvisi sono ostativi alla presentazione generale del progetto.
+- Adesione: Nessuna richiesta inviata.
+- Stato effettivo: **NON PUBBLICATO — REGOLAMENTO**.
+- Prova: https://www.facebook.com/groups/1378598885737406/announcements
+- Verifica: Nessun invio; non è stata inventata una sede, un servizio locale o una collaborazione.
+
+Testo: nessun invio.
+
+### 16. Se sei di Cittadella..... — Padova
+
+- Gruppo: https://www.facebook.com/groups/1419461644989013/
+- Identità: Pagina Per Me (solo lettura).
+- Regole: Informazioni lette: nessuna descrizione o regola formale esposta. Banner: gruppo in pausa dal 12 luglio 2026, adesione disabilitata.
+- Duplicati: Non eseguita: nessuna azione possibile per pausa del gruppo.
+- Adesione: Nessuna richiesta inviata; pulsante disabilitato.
+- Stato effettivo: **NON PUBBLICATO — GRUPPO IN PAUSA**.
+- Prova: https://www.facebook.com/groups/1419461644989013/about
+- Verifica: Nessuna nuova adesione o pubblicazione possibile.
+
+Testo: nessun invio.
+
+### 17. 🔴 Sei di Legnago VR se ... Pubblicità. Eventi. — Verona
+
+- Gruppo: https://www.facebook.com/groups/legnagoeventi/
+- Identità: Pagina Per Me.
+- Regole: Descrizione espansa: pubblicizzazione attività, servizi o eventi a Legnago e dintorni; non pubblicare lo stesso post due volte. Nessun regolamento formale ulteriore esposto al fondo. In evidenza espanso: solo eventi e nessun altro avviso.
+- Duplicati: Ricerca dominio senza risultati; profilo Per Me nel gruppo prima dell’adesione: non membro e nessun post.
+- Adesione: Adesione della Pagina approvata: Iscrizione effettuata.
+- Stato effettivo: **PUBBLICATO**.
+- Prova: https://www.facebook.com/groups/legnagoeventi/posts/4539989876287017
+- Verifica: Permalink aperto con autore Per Me, testo corrispondente e normali comandi di commento; nessun avviso di sospeso.
+
+Testo inviato:
+
+> Legnago e dintorni: quando il reddito di casa cambia, capire da dove cominciare con l’ISEE può evitare appuntamenti affrontati senza i documenti utili.
+> 
+> Per Me propone una guida gratuita che accompagna nella lettura dell’attestazione, distingue ISEE ordinario e corrente e raccoglie i controlli e le domande da preparare per il CAF. Non promette un valore più basso o l’assegnazione di un bonus: aiuta a capire quali condizioni verificare nel proprio caso.
+> 
+> È un progetto editoriale personale, non commerciale, rivolto soprattutto a persone tra 50 e 70 anni e familiari. Le rubriche comprendono anche pensioni, contributi INPS, lavoro, diritti, debiti, salute e servizi digitali, con esercizi introduttivi sull’AI. Si legge online dal telefono, senza registrarsi su Per Me e senza inviare documenti alla Pagina.
+> 
+> La guida da consultare:
+> https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html
+
+### 18. SEI DI LENDINARA SE... FREE! — Rovigo
+
+- Gruppo: https://www.facebook.com/groups/334205651670565/
+- Identità: Pagina Per Me.
+- Regole: Descrizione interamente espansa: pubblicità imprese locali, manifestazioni, problemi economici/sociali/comunali, liberi punti di vista espressi civilmente. Informazioni lette fino al fondo: nessuna regola formale ulteriore. Nessuna sezione In evidenza o avviso fissato esposto nella discussione.
+- Duplicati: Ricerca del dominio senza risultati; profilo Per Me prima dell’adesione: non membro e nessun post.
+- Adesione: Adesione della Pagina approvata: Iscrizione effettuata.
+- Stato effettivo: **IN MODERAZIONE**.
+- Prova: https://www.facebook.com/groups/334205651670565/posts/1661921942232256
+- Verifica: Permalink aperto con autore Per Me e avviso esplicito Il tuo post è in sospeso. Nessun reinvio.
+
+Testo inviato:
+
+> Lendinara: tra bollette, lavoro, pensione e pratiche online, a volte la prima difficoltà è capire quale documento guardare e a chi fare la domanda giusta. Per Me raccoglie guide gratuite per cominciare a orientarsi.
+> 
+> Si può partire da un’esigenza concreta: controllare le voci della busta paga, prepararsi a verificare i contributi INPS, capire la differenza tra ISEE ordinario e corrente, leggere una cartella di pagamento o mettere in ordine le domande prima di una visita medica. Ogni percorso indica limiti e fonti da controllare con i servizi o i professionisti competenti.
+> 
+> È un progetto editoriale personale, senza finalità commerciali, pensato soprattutto per persone tra 50 e 70 anni e familiari. Ci sono anche esercizi per usare con prudenza l’AI. Il sito si legge dal telefono senza registrazione e non chiede di inviare cedolini, referti o documenti privati.
+> 
+> Le rubriche e le scelte rapide sono qui:
+> https://cpcpcp106-coder.github.io/Per-Me/
