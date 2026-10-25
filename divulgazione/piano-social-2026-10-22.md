@@ -78,6 +78,16 @@ Ti segnalo **Per Me**, un sito gratuito con guide pratiche su INPS, pensioni, la
 
 **Nota storica riferita alla preparazione del 22 ottobre:** in quel momento i testi erano bozze non pubblicate. Per le pubblicazioni e i limiti emersi successivamente fare riferimento al [registro aggiornato del 24 ottobre](registro-facebook-fvg-2026-10-24.md). Non affermare collaborazioni o verifiche professionali non documentate.
 
+## Riscontri da gruppi Facebook tematici — notifiche del 25 ottobre 2026
+
+**Provenienza:** schermate delle notifiche del curatore, ore 08:56. Queste informazioni non equivalgono a verifiche del contenuto dei post o della conformità alle regole del gruppo.
+
+**Post:** Facebook notifica che **un amministratore ha approvato un tuo post in «Blogger Italiani»** (notifica risalente a «1 g»). **Il testo del post, l'autore/identità selezionata, il permalink, la presenza del collegamento a Per Me e la visibilità pubblica non sono verificati**; pertanto non contarlo come guida Per Me pubblicata. Nella stessa raccolta di screenshot compare **un «Mi piace» a «Grazie» nel gruppo Latisana**, riportato nel registro FVG, non una visita al sito.
+
+**Benvenuti/iscrizioni riportati dalle notifiche:** «Blogger Italiani», «Glucasia», «PUBBLICIZZA E FAI...» (nome troncato), «Busta paga –...» (nome troncato), «SOS CARTELLE...» (nome troncato), «Blogger Community...» (nome troncato), «RDC, ISEE, BONUS,...» (nome troncato), «Intelligenze...» (nome troncato), «Inps Pensioni e Diritti!», «Le ricette dei...» (nome troncato). Ci sono inoltre molte notifiche per gruppi territoriali FVG, documentate nel [registro](registro-facebook-fvg-2026-10-24.md).
+
+**Verifiche indispensabili prima di qualsiasi intervento:** leggere nome completo e regolamento del gruppo; verificare se l'iscrizione è della Pagina Per Me o del profilo personale; cercare post già inviati; usare un contenuto davvero pertinente e senza spam soltanto dove consentito. **Le notifiche di adesione non autorizzano automaticamente la promozione di Per Me.** «Glucasia» appare anche in altre notifiche non pertinenti alla promozione; non usarle come prova di risultati. Non dedurre contatti, visite, iscrizioni al sito o efficacia dalle sole notifiche.
+
 ## Verifica dei risultati
 Rilevare per ogni post: data, canale, argomento, collegamento, copertura o visualizzazioni quando disponibili, clic sul collegamento quando misurabili, domande ricevute e riscontri concreti. Separare questi dati da impressioni/clic Google Search Console e da visite del sito. Non dichiarare conversioni o referral verificati prima di una misurazione reale. Non conservare messaggi privati o dati sensibili dei lettori.
 
