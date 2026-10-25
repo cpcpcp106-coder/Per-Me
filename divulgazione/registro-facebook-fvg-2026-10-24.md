@@ -1,20 +1,20 @@
 # Per Me — Registro della divulgazione Facebook nel Friuli-Venezia Giulia
 
-## Stato verificato della sessione operativa del 24 ottobre 2026
+## Stato verificato delle sessioni operative del 24–25 ottobre 2026
 
-**Stato verificato aggiornato nella prosecuzione del 24 ottobre 2026.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
+**Ripresa operativa del 25 ottobre 2026; esiti documentati delle sessioni del 24–25 ottobre.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
 
 Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https://www.facebook.com/PerMeGuide/ . Sito: https://cpcpcp106-coder.github.io/Per-Me/ . Nessun acquisto, ricarica, inserzione o abbonamento. Il profilo personale è stato utilizzato soltanto per verificare e correggere le due adesioni accidentali già segnalate, senza nuove adesioni o post personali.
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
 
-Copertura documentata: **44 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
+Copertura documentata: **53 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
 
-**Nuovi invii delle guide documentati: 10** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **4 in moderazione** (Grado, Maniago, Tricesimo e Porcia), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
+**Nuovi invii delle guide documentati: 11** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **5 in moderazione** (Grado, Maniago, Tricesimo, Porcia e Fiume Veneto), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
 
-**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **7 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
+**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **8 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
 
-**Adesioni della Pagina:** dieci nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
+**Adesioni della Pagina:** undici nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
 
 **Correzioni personali:** uscite soltanto le due adesioni accidentali Tarcento e Codroipo, dopo riscontro della data 24 ottobre 2026 con l’errore già registrato. Adesioni personali preesistenti e contenuti personali non modificati.
 
@@ -68,6 +68,15 @@ Gli URL dei post in moderazione possono essere accessibili soltanto all’autore
 | Sei di Porcia se ..... | NUOVO POST IN SOSPESO; avviso esplicito nel singolo post. | https://www.facebook.com/groups/532546586843604/posts/28642721418732744 |
 | Sei di Azzano Decimo se... aperto a tutti | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/803808363453759/about |
 | Sei Di Tavagnacco Se .... | NON PUBBLICATO per regolamento e assenza di autorizzazione. | https://www.facebook.com/groups/1456754581214291/about |
+| Sei di Mortegliano se.... | BLOCCO EFFETTIVO: PAGINE NON AMMESSE. | https://www.facebook.com/groups/1380376562203006/ |
+| Sei di Buja se ... | NON PUBBLICATO per pertinenza e regolamento. | https://www.facebook.com/groups/265255233650912/about |
+| Sei di San Quirino se ..... | NON PUBBLICATO per pertinenza e regolamento. | https://www.facebook.com/groups/1462443913977838/ |
+| Sei di Campoformido se | BLOCCO EFFETTIVO: DUPLICATI E REGOLE INTERNE NON VERIFICABILI. | https://www.facebook.com/groups/226359690880767/ |
+| Sei di Pasian di Prato se.... | NON PUBBLICATO; eccezione promozionale non verificata. | https://www.facebook.com/groups/1378483232418229/about |
+| Sei di Fiume Veneto Se... | BLOCCO EFFETTIVO: PAGINE NON AMMESSE. | https://www.facebook.com/groups/291976994284073/ |
+| Sei di fiume veneto se..... | NUOVO POST IN SOSPESO; avviso esplicito nel singolo post. | https://www.facebook.com/groups/205541382986933/posts/3112360582304984 |
+| Sei del Friuli Venezia Giulia se... | NON PUBBLICATO per regolamento e pertinenza. | https://www.facebook.com/groups/857557258255672/about |
+| Sei di Cordenons se....... | BLOCCO EFFETTIVO: DUPLICATI NON VERIFICABILI. | https://www.facebook.com/groups/seidicordenonsse/ |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -730,6 +739,136 @@ Nessun testo inviato.
 - Esito verificato: **NON PUBBLICATO per regolamento e assenza di autorizzazione.**
 - Azione: Nessuna adesione o post.
 - Pagina di verifica: https://www.facebook.com/groups/1456754581214291/about
+
+Nessun testo inviato.
+
+#### 45. Sei di Mortegliano se....
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/1380376562203006/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione espansa: storia, ricordi e aneddoti di Mortegliano. Regola visibile richiede nome/cognome ai profili. Banner attuale esplicito: il gruppo non consente alle Pagine di iscriversi; pulsante Iscriviti disabilitato, anche se risultano presenti Pagine storiche.
+- Adesione: Pagina non iscritta; nuove Pagine NON AMMESSE.
+- Duplicati: Nessun invio previsto a causa del blocco d’identità.
+- Esito verificato: **BLOCCO EFFETTIVO: PAGINE NON AMMESSE.**
+- Azione: Nessuna adesione o post; non usato il profilo personale.
+
+Nessun testo inviato.
+
+#### 46. Sei di Buja se ...
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/265255233650912/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa e cinque regole lette: solo contenuti e attività di Buja; pubblicità ammessa per attività del paese, massimo una a settimana. Vietati duplicati, UP e clickbait. Nessuna attività Per Me documentata a Buja.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessun invio previsto dopo il riscontro del vincolo territoriale.
+- Esito verificato: **NON PUBBLICATO per pertinenza e regolamento.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/265255233650912/about
+
+Nessun testo inviato.
+
+#### 47. Sei di San Quirino se .....
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/1462443913977838/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: un annuncio al mese relativo alla propria attività, ma tutto deve essere a chilometri zero per il paese; no mercatino personale o propaganda politica. Progetto non documentato come attività locale di San Quirino.
+- Adesione: Pagina non iscritta; gruppo privato, Pagine presenti.
+- Duplicati: Nessun invio previsto dopo il riscontro del requisito territoriale.
+- Esito verificato: **NON PUBBLICATO per pertinenza e regolamento.**
+- Azione: Nessuna adesione o post.
+
+Nessun testo inviato.
+
+#### 48. Sei di Campoformido se
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/226359690880767/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Informazioni esterne lette fino al fondo: gruppo privato, Pagine presenti, nessuna descrizione o regola scritta specifica visibile. Contenuti interni e avvisi non accessibili.
+- Adesione: Pagina non iscritta; richiesta NON inviata.
+- Duplicati: Scheda della Pagina nel gruppo aperta preventivamente: Questo contenuto non è al momento disponibile. Assenza di precedenti NON accertata.
+- Esito verificato: **BLOCCO EFFETTIVO: DUPLICATI E REGOLE INTERNE NON VERIFICABILI.**
+- Azione: Nessuna adesione o post; rispettato il controllo preventivo richiesto dall’utente.
+
+Nessun testo inviato.
+
+#### 49. Sei di Pasian di Prato se....
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/1378483232418229/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: pubblicità non gradita, salvo comunicazioni occasionali o manifestazioni particolari; tutte le pubblicità sottoposte al giudizio degli amministratori. Nessuna manifestazione Per Me locale o autorizzazione specifica documentata.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessun invio previsto dopo il riscontro delle condizioni promozionali.
+- Esito verificato: **NON PUBBLICATO; eccezione promozionale non verificata.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/1378483232418229/about
+
+Nessun testo inviato.
+
+#### 50. Sei di Fiume Veneto Se...
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/291976994284073/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione espansa e dieci regole lette: focus su Fiume Veneto e frazioni; promozione solo per attività/eventi locali; ingresso legato alla comunità. Banner attuale esplicito vieta nuove adesioni delle Pagine; pulsante disabilitato.
+- Adesione: Pagina non iscritta; nuove Pagine NON AMMESSE.
+- Duplicati: Nessun invio previsto a causa del blocco d’identità.
+- Esito verificato: **BLOCCO EFFETTIVO: PAGINE NON AMMESSE.**
+- Azione: Nessuna adesione o post; non usato il profilo personale.
+
+Nessun testo inviato.
+
+#### 51. Sei di fiume veneto se.....
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/205541382986933/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Gruppo pubblico distinto da quello privato che esclude le Pagine. Informazioni lette fino al fondo: nessuna descrizione o regola specifica scritta; Discussione senza avvisi fissati. Nessuna restrizione rilevata.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA: Iscrizione effettuata e avviso esplicito.
+- Duplicati: Prima dell’adesione: ricerca del dominio senza risultati; scheda Per Me non fa parte del gruppo / Nessun nuovo post.
+- Esito verificato: **NUOVO POST IN SOSPESO; avviso esplicito nel singolo post.**
+- Azione: Una adesione Pagina e un solo invio originale della guida sulla busta paga; nessun reinvio.
+- URL diretto: https://www.facebook.com/groups/205541382986933/posts/3112360582304984 — URL verificato, accessibile all’autore come IN SOSPESO; non prova di pubblicazione.
+
+Testo effettivamente inviato:
+
+> Per chi vive a Fiume Veneto e si trova una busta paga più bassa del mese precedente: Per Me offre una guida gratuita per capire da dove nasce la differenza.
+> 
+> La pagina mostra un confronto tra due cedolini inventati e spiega come distinguere ore, competenze, trattenute e pagamenti. Include un esempio di richiesta di chiarimento da adattare, oltre a un percorso su cassa integrazione e solidarietà. L’obiettivo è preparare domande precise, senza presumere che ogni differenza sia un errore.
+> 
+> Il progetto è personale e non commerciale, rivolto soprattutto a persone tra 50 e 70 anni e ai familiari. Sono disponibili anche guide su INPS e pensioni, ISEE, diritti e debiti, salute, servizi digitali e AI, con fonti consultabili. Per verificare il proprio caso servono documenti e confronto con i professionisti competenti.
+> 
+> La guida è qui:
+> https://cpcpcp106-coder.github.io/Per-Me/stipendio-diminuito-cosa-controllare.html
+
+#### 52. Sei del Friuli Venezia Giulia se...
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/857557258255672/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: luoghi, eventi, tradizioni, curiosità della regione, attività enogastronomiche e turistiche. Regole 2, 3 e 4 vietano autopromozione e spam. Nessuna deroga documentata per un sito generale di guide.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessun invio previsto dopo il riscontro delle regole.
+- Esito verificato: **NON PUBBLICATO per regolamento e pertinenza.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/857557258255672/about
+
+Nessun testo inviato.
+
+#### 53. Sei di Cordenons se.......
+
+- Data del controllo/azione documentata: 24 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/seidicordenonsse/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: storia e ricordi, eventi culturali, sport e associazioni sociali attive sul territorio; rispetto reciproco e moderazione. Gruppo privato, Pagine presenti. Avvisi interni non consultabili.
+- Adesione: Pagina non iscritta; richiesta NON inviata.
+- Duplicati: Lettura preventiva della scheda della Pagina: Questo contenuto non è al momento disponibile. Assenza di precedenti NON accertata.
+- Esito verificato: **BLOCCO EFFETTIVO: DUPLICATI NON VERIFICABILI.**
+- Azione: Nessuna adesione o post.
 
 Nessun testo inviato.
 
