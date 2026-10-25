@@ -6,7 +6,7 @@ Estensione al Veneto autorizzata direttamente dall’utente. Per nuove adesioni 
 
 Il registro FVG è stato ricontrollato all’avvio (SHA cbf4bc96d632ff1a3f6e496c2c1d3bdac858111d); nessun precedente invio in Veneto è emerso. Prima di ogni azione: regole, ammissibilità della Pagina e duplicati. Gli invii non equivalgono a pubblicazioni. Le sezioni della moderazione possono essere visibili soltanto all’autore. Nessun lettore, clic o visita viene desunto dagli invii.
 
-**Copertura finora verificata: 10 gruppi nelle sette province. Esiti: 1 rimosso; 3 in moderazione; 1 pubblicato; 4 non pubblicato — regolamento; 1 non pubblicato — verifica duplicati bloccata.** Sessione in corso, non un censimento completo dei gruppi del Veneto.
+**Copertura finora verificata: 14 gruppi nelle sette province. Esiti: 1 rimosso; 4 in moderazione; 2 pubblicato; 5 non pubblicato — regolamento; 1 non pubblicato — verifica duplicati bloccata; 1 non pubblicato — pagine non ammesse.** Sessione in corso, non un censimento completo dei gruppi del Veneto.
 
 ## Quadro degli esiti verificati
 
@@ -22,6 +22,10 @@ Il registro FVG è stato ricontrollato all’avvio (SHA cbf4bc96d632ff1a3f6e496c
 | Sei di Belluno se... (Foto & Notizie) | Belluno | NON PUBBLICATO — REGOLAMENTO | https://www.facebook.com/groups/3104528363105868/about |
 | Sei di Rovigo se... 2 | Rovigo | NON PUBBLICATO — VERIFICA DUPLICATI BLOCCATA | https://www.facebook.com/groups/646174780386049/user/61566289361135/ |
 | Sei di Mestre se... (originale) | Venezia | NON PUBBLICATO — REGOLAMENTO | https://www.facebook.com/groups/921363821269977/about |
+| 🔴 Sei di San Donà di Piave... Pubblicità. Eventi. | Venezia | IN MODERAZIONE | https://www.facebook.com/groups/sandonadipiave/posts/1107330038968479 |
+| Sei Di Conegliano Se... | Treviso | NON PUBBLICATO — REGOLAMENTO | https://www.facebook.com/groups/seidiconeglianose/about |
+| sei di Bassano se ... | Vicenza | NON PUBBLICATO — PAGINE NON AMMESSE | https://www.facebook.com/groups/629456390423212/about |
+| SEI DI FELTRE SE. | Belluno | PUBBLICATO | https://www.facebook.com/groups/2789181347872705/posts/26636914926006013 |
 
 ## Schede dettagliate
 
@@ -200,3 +204,74 @@ Testo: nessun invio.
 - Verifica: Nessun invio, nessun cambio al profilo personale.
 
 Testo: nessun invio.
+
+### 11. 🔴 Sei di San Donà di Piave... Pubblicità. Eventi. — Venezia
+
+- Gruppo: https://www.facebook.com/groups/sandonadipiave/
+- Identità: Pagina Per Me.
+- Regole: Descrizione espansa e sei regole lette: promozione di Pagine consentita, massimo un post/settimana. Avviso fissato: indicare sempre luogo pertinente. Nessuna residenza locale o sede viene falsamente attribuita al progetto.
+- Duplicati: Ricerca del dominio senza risultati; profilo della Pagina prima dell’adesione: non membro e nessun post.
+- Adesione: Pagina iscritta. Domande di partecipazione compilate dichiarando che Per Me è un progetto online nazionale, non una persona residente né una sede locale; motivazione gratuita e non commerciale, regole lette. Poi il compositore ha consentito l’invio. Nessun dato personale comunicato.
+- Stato effettivo: **IN MODERAZIONE**.
+- Prova: https://www.facebook.com/groups/sandonadipiave/posts/1107330038968479
+- Verifica: Nel post singolo, autore Per Me e avviso esplicito Il tuo post è in sospeso. Nessun ulteriore invio.
+- Risposte alle domande (senza dati personali): residenza: «Richiesta della Pagina Per Me, progetto editoriale online a diffusione nazionale. Non siamo una persona residente a San Donà di Piave e non dichiariamo una sede locale.» motivo: «Presentare ai lettori di San Donà di Piave una risorsa personale gratuita e non commerciale su INPS, pensioni, ISEE, lavoro, diritti, salute e autonomia digitale. Un solo messaggio pertinente, con località indicata, nel rispetto della moderazione e del limite settimanale; nessuna raccolta di documenti personali.»
+
+Testo inviato:
+
+> San Donà di Piave e dintorni: una risorsa online gratuita per chi vuole capire meglio la propria busta paga, anche facendosi aiutare da un familiare.
+> 
+> La guida di Per Me propone un percorso in cinque passaggi: riconoscere il periodo pagato, le competenze, le ore e assenze, le trattenute e il netto. Un facsimile con dati inventati aiuta a orientarsi fra le voci; i controlli finali servono a preparare richieste precise all’ufficio paghe o a chi può verificare il caso concreto.
+> 
+> Per Me è un progetto editoriale personale a diffusione nazionale, gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni. Comprende anche INPS, pensioni, ISEE, diritti, salute, servizi digitali e AI. Nessuna registrazione sul sito. Non occorre mandare cedolini, IBAN o altri documenti alla Pagina o pubblicarli nei commenti.
+> 
+> La guida si può leggere qui:
+> https://cpcpcp106-coder.github.io/Per-Me/come-leggere-busta-paga.html
+
+### 12. Sei Di Conegliano Se... — Treviso
+
+- Gruppo: https://www.facebook.com/groups/seidiconeglianose/
+- Identità: Pagina Per Me (solo lettura).
+- Regole: Descrizione espansa e dieci regole formali lette. Regola 2 vieta pubblicità, spam e promozione delle proprie attività. Regola 7: argomenti di carattere generale in altri gruppi/profilo, non in questo gruppo locale.
+- Duplicati: Non eseguita: nessuna azione per regolamento ostativo.
+- Adesione: Nessuna richiesta inviata.
+- Stato effettivo: **NON PUBBLICATO — REGOLAMENTO**.
+- Prova: https://www.facebook.com/groups/seidiconeglianose/about
+- Verifica: Divieto rispettato, nessun invio.
+
+Testo: nessun invio.
+
+### 13. sei di Bassano se ... — Vicenza
+
+- Gruppo: https://www.facebook.com/groups/629456390423212/
+- Identità: Pagina Per Me (solo lettura).
+- Regole: Quattro regole formali lette: regola 3 vieta promozione di se stessi/spam. Banner esplicito: Questo gruppo non consente alle Pagine di iscriversi; pulsante Iscriviti disabilitato.
+- Duplicati: Non eseguita: ammissibilità delle Pagine già esclusa.
+- Adesione: Nessuna richiesta possibile o inviata; nessun passaggio al profilo personale.
+- Stato effettivo: **NON PUBBLICATO — PAGINE NON AMMESSE**.
+- Prova: https://www.facebook.com/groups/629456390423212/about
+- Verifica: Rispettati il blocco dell’identità e il divieto di promozione.
+
+Testo: nessun invio.
+
+### 14. SEI DI FELTRE SE. — Belluno
+
+- Gruppo: https://www.facebook.com/groups/2789181347872705/
+- Identità: Pagina Per Me.
+- Regole: Informazioni e fondo letti: nessuna descrizione restrittiva, unica regola formale Gentilezza e cortesia. In evidenza espanso: aggiornamento immagine di copertina e nessun altro contenuto fissato. Nessun divieto di promozione osservato.
+- Duplicati: Ricerca del dominio senza risultati; profilo Per Me prima dell’adesione: non membro e nessun post.
+- Adesione: Adesione della Pagina approvata: Iscrizione effettuata.
+- Stato effettivo: **PUBBLICATO**.
+- Prova: https://www.facebook.com/groups/2789181347872705/posts/26636914926006013
+- Verifica: Permalink aperto: autore Per Me, testo corrispondente e normali comandi Mi piace, Lascia un commento e Commenta come Per Me; nessun avviso di sospeso.
+
+Testo inviato:
+
+> Per chi a Feltre sta cercando di capire una comunicazione INPS o un pagamento che non è arrivato, segnaliamo un punto di partenza gratuito: la guida di Per Me su pagamenti sospesi e domande respinte.
+> 
+> Aiuta a distinguere le situazioni, trovare il nome esatto della prestazione, recuperare la lettera completa e conservare protocolli, ricevute e date da verificare con INPS o patronato. L’obiettivo è arrivare alla richiesta di assistenza con informazioni ordinate, senza promettere un esito o sostituire la verifica del singolo caso.
+> 
+> Per Me è un progetto personale non commerciale, pensato soprattutto per persone tra 50 e 70 anni e familiari. Si legge dal telefono senza registrazione; comprende anche pensioni, ISEE, lavoro, diritti, salute e autonomia digitale, incluso un percorso pratico sull’AI. Non chiediamo documenti o dati privati nei commenti.
+> 
+> La guida:
+> https://cpcpcp106-coder.github.io/Per-Me/inps-prestazione-sospesa-respinta-cosa-fare.html
