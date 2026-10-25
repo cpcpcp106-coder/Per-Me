@@ -8,7 +8,7 @@ Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https:
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
 
-Copertura documentata: **54 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
+Copertura documentata: **58 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
 
 **Nuovi invii delle guide documentati: 12** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **6 in moderazione** (Grado, Maniago, Tricesimo, Porcia, Fiume Veneto e Cordenons), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
 
@@ -78,6 +78,10 @@ Gli URL dei post in moderazione possono essere accessibili soltanto all’autore
 | Sei del Friuli Venezia Giulia se... | NON PUBBLICATO per regolamento e pertinenza. | https://www.facebook.com/groups/857557258255672/about |
 | Sei di Cordenons se....... | BLOCCO EFFETTIVO: DUPLICATI NON VERIFICABILI. | https://www.facebook.com/groups/seidicordenonsse/ |
 | sei di cordenons se.... | NUOVO POST IN SOSPESO; avviso esplicito nel singolo post. | https://www.facebook.com/groups/1102649866830980/posts/2732625263833424 |
+| Se... Sei di Monfalcone e dintorni | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/1390428364551896/about |
+| Sei di Sacile se ... Vuoi discutere di Sacile | BLOCCO EFFETTIVO: GRUPPO IN PAUSA; inoltre divieto promozionale. | https://www.facebook.com/groups/1562525604008356/about |
+| Villanova di San Daniele (FRIULI VENEZIA GIULIA) | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/38351614779/about |
+| Pubblicità commerciale ed eventi di Pordenone e dintorni | BLOCCO EFFETTIVO: GRUPPO IN PAUSA. | https://www.facebook.com/groups/613823279136082/about |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -895,6 +899,62 @@ Testo effettivamente inviato:
 > 
 > La guida sui contributi è qui:
 > https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html
+
+#### 55. Se... Sei di Monfalcone e dintorni
+
+- Data: 25 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/1390428364551896/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa e quattro regole lette. Regola 2 vieta autopromozione e spam; punto 5 della descrizione vieta post commerciali e pubblicitari, con sole feste/eventi concordati preventivamente. Nessuna eccezione documentata per il progetto.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessun invio previsto dopo il riscontro dei divieti.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/1390428364551896/about
+
+Nessun testo inviato.
+
+#### 56. Sei di Sacile se ... Vuoi discutere di Sacile
+
+- Data: 25 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/1562525604008356/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa e quattro regole lette: vietati autopromozione, pubblicità commerciale e contenuti non territoriali. Avviso esplicito: gruppo in pausa amministrativa dal 28 settembre, ripresa indicata il 25 novembre 2026.
+- Adesione: Pagina non iscritta; pulsante di adesione DISABILITATO dalla pausa.
+- Duplicati: Nessun invio previsto durante la pausa e dopo il riscontro dei divieti.
+- Esito verificato: **BLOCCO EFFETTIVO: GRUPPO IN PAUSA; inoltre divieto promozionale.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/1562525604008356/about
+
+Nessun testo inviato.
+
+#### 57. Villanova di San Daniele (FRIULI VENEZIA GIULIA)
+
+- Data: 25 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/38351614779/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: gruppo nato per ricordi e manifestazioni del territorio; non accetta pubblicità di alcun tipo a scopo personale. Regola esplicita In questo gruppo non si può pubblicare pubblicità.
+- Adesione: Pagina non iscritta.
+- Duplicati: Nessun invio previsto dopo il riscontro del divieto.
+- Esito verificato: **NON PUBBLICATO per regolamento.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/38351614779/about
+
+Nessun testo inviato.
+
+#### 58. Pubblicità commerciale ed eventi di Pordenone e dintorni
+
+- Data: 25 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/613823279136082/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Descrizione integralmente espansa: gruppo gratuito riservato a professionisti, commercianti e imprenditori per pubblicità/eventi. Avviso esplicito: in pausa amministrativa dal 9 giugno 2022.
+- Adesione: Pagina non iscritta; adesione DISABILITATA dalla pausa.
+- Duplicati: Nessun invio previsto durante la pausa.
+- Esito verificato: **BLOCCO EFFETTIVO: GRUPPO IN PAUSA.**
+- Azione: Nessuna adesione o post.
+- Pagina di verifica: https://www.facebook.com/groups/613823279136082/about
+
+Nessun testo inviato.
 
 ## Registro storico conservato
 
