@@ -6,6 +6,19 @@ Estensione al Veneto autorizzata direttamente dall’utente. Per nuove adesioni 
 
 Il registro FVG è stato ricontrollato all’avvio (SHA cbf4bc96d632ff1a3f6e496c2c1d3bdac858111d); nessun precedente invio in Veneto è emerso. Prima di ogni azione: regole, ammissibilità della Pagina e duplicati. Gli invii non equivalgono a pubblicazioni. Le sezioni della moderazione possono essere visibili soltanto all’autore. Nessun lettore, clic o visita viene desunto dagli invii.
 
+**Copertura finora verificata: 4 gruppi. Esiti: 1 rimosso; 3 in moderazione.** Questa è una sessione in corso, non un censimento completo dei gruppi del Veneto.
+
+## Quadro degli esiti verificati
+
+| Gruppo | Provincia | Stato effettivo | Prova |
+| --- | --- | --- | --- |
+| Sei di venezia | Venezia | RIMOSSO | https://www.facebook.com/groups/329504684228070/my_removed_content |
+| Sei di Padova | Padova | IN MODERAZIONE | https://www.facebook.com/groups/1982513635346652/posts/4470710083193649 |
+| Sei di Treviso Se... | Treviso | IN MODERAZIONE | https://www.facebook.com/groups/1438561906377214/posts/4708933449340027 |
+| SEI DI VERONA SE........... | Verona | IN MODERAZIONE | https://www.facebook.com/groups/703969749623851/pending_posts/29213945611532884 |
+
+## Schede dettagliate
+
 ### 1. Sei di venezia — Venezia
 
 - Gruppo: https://www.facebook.com/groups/329504684228070/
@@ -28,3 +41,69 @@ Testo inviato:
 > 
 > Le rubriche sono qui:
 > https://cpcpcp106-coder.github.io/Per-Me/
+
+### 2. Sei di Padova — Padova
+
+- Gruppo: https://www.facebook.com/groups/1982513635346652/
+- Identità: Pagina Per Me.
+- Regole: Descrizione espansa: 15 punti; punto 5 permette promozione di attività proprie al massimo due volte a settimana. Informazioni lette fino ad Attività; nessun ulteriore regolamento formale mostrato. In evidenza solo eventi.
+- Duplicati: Ricerca del dominio senza risultati; profilo della Pagina nel gruppo: non membro e nessun post prima dell’adesione.
+- Adesione: Adesione della Pagina approvata: Iscrizione effettuata.
+- Stato effettivo: **IN MODERAZIONE**.
+- Prova: https://www.facebook.com/groups/1982513635346652/posts/4470710083193649
+- Verifica: Post singolo aperto: autore Per Me e avviso esplicito Il tuo post è in sospeso. Non pubblicamente visibile; nessun reinvio.
+
+Testo inviato:
+
+> A chi a Padova ha visto diminuire il reddito e si domanda se l’ISEE descriva ancora la situazione di casa, segnaliamo una guida gratuita di Per Me.
+> 
+> Spiega la differenza tra ISEE ordinario e corrente, quali condizioni e documenti verificare e come preparare le domande per il CAF. Aiuta anche a distinguere l’attestazione ISEE dalla domanda per una singola agevolazione: ottenere la prima non assegna automaticamente tutti i benefici.
+> 
+> Per Me è un progetto personale non commerciale, pensato soprattutto per lettori tra 50 e 70 anni e familiari. Sul sito ci sono anche guide su pensioni, INPS, lavoro, diritti, salute e uso consapevole del digitale e dell’AI. Si leggono dal telefono senza registrazione.
+> 
+> Non serve pubblicare redditi, documenti o dati familiari nei commenti. Il punto di partenza è qui:
+> https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html
+
+### 3. Sei di Treviso Se... — Treviso
+
+- Gruppo: https://www.facebook.com/groups/1438561906377214/
+- Identità: Pagina Per Me.
+- Regole: Informazioni lette fino in fondo: nessuna descrizione o regola formale esposta. In evidenza espanso: eventi e nessun altro contenuto fissato. Nessun divieto di presentazione di una risorsa gratuita osservato.
+- Duplicati: Ricerca del dominio senza risultati; profilo Per Me nel gruppo: non membro e nessun post prima dell’adesione.
+- Adesione: Adesione della Pagina approvata: Iscrizione effettuata.
+- Stato effettivo: **IN MODERAZIONE**.
+- Prova: https://www.facebook.com/groups/1438561906377214/posts/4708933449340027
+- Verifica: Post singolo aperto con autore Per Me e avviso esplicito Il tuo post è in sospeso. Nessun reinvio.
+
+Testo inviato:
+
+> Treviso: prima di programmare il passaggio alla pensione, può essere utile mettere in ordine la propria storia contributiva. Per Me propone una guida gratuita per iniziare questo controllo dal telefono.
+> 
+> Il percorso mostra che cosa cercare nell’estratto conto INPS, come annotare periodi che sembrano mancanti e quali documenti raccogliere prima di chiedere una verifica. Spiega anche le differenze tra estratto conto, ECOCERT e simulazioni: un calcolo fatto da soli non certifica la data o l’importo della pensione.
+> 
+> Per Me è un progetto personale senza finalità commerciali, rivolto soprattutto a persone tra 50 e 70 anni e familiari. Le altre rubriche riguardano lavoro, ISEE, diritti, debiti, salute e autonomia digitale, compreso l’uso prudente dell’AI. Nessuna registrazione sul sito e nessun documento personale da inviare alla Pagina.
+> 
+> La guida è qui:
+> https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html
+
+### 4. SEI DI VERONA SE........... — Verona
+
+- Gruppo: https://www.facebook.com/groups/703969749623851/
+- Identità: Pagina Per Me.
+- Regole: Informazioni e fondo letti: una regola formale di gentilezza e cortesia; nessuna descrizione restrittiva. Sezione In evidenza aperta: intervista su nutrizione animale, nessun ulteriore divieto.
+- Duplicati: Ricerca del dominio senza risultati; profilo Per Me: non membro e nessun post prima dell’adesione.
+- Adesione: Adesione della Pagina approvata: Iscrizione effettuata.
+- Stato effettivo: **IN MODERAZIONE**.
+- Prova: https://www.facebook.com/groups/703969749623851/pending_posts/29213945611532884
+- Verifica: Avviso esplicito di post in sospeso nel feed; permalink apre Post in sospeso 1 con autore Per Me e testo corrispondente. Nessun reinvio.
+
+Testo inviato:
+
+> Per i lettori di Verona che vorrebbero usare meglio lo smartphone e capire a cosa può servire l’intelligenza artificiale nella vita quotidiana, Per Me mette a disposizione un percorso introduttivo gratuito.
+> 
+> Tutor AI parte da attività semplici: capire un avviso, preparare una bozza di messaggio, organizzare una lista. Gli esercizi usano esempi inventati e invitano a controllare l’originale, le fonti, le date e gli eventuali dettagli aggiunti per errore. Anche senza aprire una chat si possono leggere gli esempi; non serve registrarsi su Per Me.
+> 
+> Il progetto è personale, non commerciale, pensato soprattutto per persone tra 50 e 70 anni e familiari. Oltre al digitale ci sono guide pratiche su INPS, pensioni, ISEE, lavoro, diritti e salute. Non chiediamo di inviare dati o documenti privati.
+> 
+> Il percorso da cui iniziare:
+> https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html
