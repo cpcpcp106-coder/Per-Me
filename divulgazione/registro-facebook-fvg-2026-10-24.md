@@ -10,15 +10,17 @@ Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su I
 
 Copertura documentata: **58 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
 
-**Nuovi invii delle guide documentati: 12** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **6 in moderazione** (Grado, Maniago, Tricesimo, Porcia, Fiume Veneto e Cordenons), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
+**Nuovi invii delle guide documentati: 13** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **7 in moderazione** (Grado, Maniago, Tricesimo, Porcia, Fiume Veneto, Cordenons e Aviano), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
 
-**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **9 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
+**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **10 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
 
-**Adesioni della Pagina:** dodici nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
+**Adesioni della Pagina:** dodici nuove adesioni approvate; ad Aviano, dopo la precedente attesa di partecipazione, il 25 ottobre è stato consentito un primo invio ora in moderazione; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
 
 **Correzioni personali:** uscite soltanto le due adesioni accidentali Tarcento e Codroipo, dopo riscontro della data 24 ottobre 2026 con l’errore già registrato. Adesioni personali preesistenti e contenuti personali non modificati.
 
 Gli URL dei post in moderazione possono essere accessibili soltanto all’autore; non provano visibilità nel gruppo. Gli URL assegnati a contenuti non disponibili sono qualificati espressamente. Nessun lettore, clic o approvazione futura viene desunto dai soli invii. Restano effettivi i divieti dei regolamenti, la mancata ammissione delle Pagine, le moderazioni e il blocco di verifica specificati nelle schede.
+
+Ricontrollo dei contenuti pendenti del 25 ottobre: Grado, Maniago, Tricesimo, Porcia, Fiume Veneto, Cordenons, Trieste, Cervignano e Cividale ancora in attesa; nessun reinvio. Il nuovo invio Aviano è anch’esso in attesa. Le pubblicazioni già verificate non sono conteggiate come nuove azioni del 25 ottobre.
 
 ### Quadro degli esiti controllati direttamente
 
@@ -56,7 +58,7 @@ Gli URL dei post in moderazione possono essere accessibili soltanto all’autore
 | Sei di San Vito al Tagliamento se | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/7124456447577342/posts/29399584992971169 |
 | Sei di Duino se ... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/629382917117526/ |
 | Sei di Lignano Sabbiadoro Se | NON PUBBLICATO; preventiva autorizzazione mancante. | https://www.facebook.com/groups/335682156913237/about |
-| Sei di Aviano se | PARTECIPAZIONE PENDENTE; nessun post inviato. | https://www.facebook.com/groups/281797948641095/ |
+| Sei di Aviano se | NUOVO POST IN SOSPESO, inviato il 25 ottobre dopo il controllo della partecipazione | https://www.facebook.com/groups/281797948641095/pending_posts/3712230615597794 |
 | SEI DI GRADISCA D'ISONZO SE... | NUOVO POST PUBBLICATO; aperto e verificato al permalink. | https://www.facebook.com/groups/661901623889373/posts/28805967095722782 |
 | Sei di Ronchi dei Legionari se... | NON PUBBLICATO; ammissibilità dell’eccezione non verificata. | https://www.facebook.com/groups/246859378825026/about |
 | SEI DI STARANZANO SE .... | NON PUBBLICATO per regolamento. | https://www.facebook.com/groups/seidistaranzano/about |
@@ -572,13 +574,23 @@ Nessun testo inviato.
 
 - Gruppo: https://www.facebook.com/groups/281797948641095/
 - Identità: esclusivamente Pagina Per Me.
-- Regole: Tre regole lette integralmente: responsabilità di chi pubblica, possibilità di aggiungere amici, discrezione amministratori sulla rimozione. In evidenza verificati due post (traguardo membri e contatti per segnalazioni) e richiamo alle stesse tre regole; nessun divieto specifico delle guide visibile.
-- Adesione: NUOVA ADESIONE Pagina APPROVATA; richiesta distinta di PARTECIPAZIONE inviata, ancora IN ATTESA di controllo degli amministratori.
-- Duplicati: Ricerca interna del dominio senza risultati.
-- Esito verificato: **PARTECIPAZIONE PENDENTE; nessun post inviato.**
-- Azione: Adesione della Pagina e invio dell’accettazione delle regole ordinarie del gruppo, senza dati personali. Avviso esplicito La tua richiesta di partecipazione è in attesa di approvazione. Nessun tentativo di pubblicare durante il blocco.
+- Regole: tre regole ricontrollate il 25 ottobre (responsabilità di chi pubblica, possibilità di aggiungere amici, discrezione amministratori sulla rimozione). Ricontrollati gli avvisi fissati: traguardo membri e contatti per segnalazioni, nessun nuovo divieto visibile.
+- Adesione: Pagina già ammessa il 24 ottobre. La distinta richiesta di partecipazione era pendente; il 25 ottobre il precedente avviso non compare più e il compositore ha consentito il primo invio. Non è stata attribuita un’approvazione per semplice supposizione: l’esito finale verificato è il post in moderazione.
+- Duplicati: nuova ricerca del dominio senza risultati; scheda Pagina «Nessun nuovo post» prima dell’invio del 25 ottobre.
+- Esito verificato: **NUOVO POST IN SOSPESO: Post in sospeso 1, autore Per Me.**
+- Azione: un solo invio originale, nessuna nuova adesione e nessun reinvio.
+- URL diretto: https://www.facebook.com/groups/281797948641095/pending_posts/3712230615597794 — accessibile all’autore, NON prova di pubblicazione.
 
-Nessun testo inviato.
+Testo effettivamente inviato il 25 ottobre 2026:
+
+> Una risorsa gratuita per chi ad Aviano usa il telefono ogni giorno ma vorrebbe capire meglio l’intelligenza artificiale, anche per dare una mano a un familiare.
+> 
+> Il percorso Tutor AI di Per Me propone esercizi con testi inventati: capire un avviso, preparare una bozza di messaggio e organizzare una lista. Ogni esempio invita a confrontare la risposta con l’originale, controllare fonti e date e riconoscere i dati aggiunti per errore. Si possono leggere gli esempi anche senza aprire una chat; non serve registrarsi su Per Me.
+> 
+> È un progetto personale, gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e familiari. Nel sito ci sono anche guide su INPS, pensioni, ISEE, lavoro, diritti, debiti e salute, per preparare domande ai servizi competenti senza condividere documenti personali.
+> 
+> Il percorso digitale è qui:
+> https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html
 
 #### 34. SEI DI GRADISCA D'ISONZO SE...
 
