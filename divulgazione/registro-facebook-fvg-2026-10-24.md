@@ -8,13 +8,13 @@ Identità per nuove adesioni e post: **esclusivamente Pagina Per Me** — https:
 
 Obiettivo attuale: far conoscere l’utilità concreta delle guide gratuite su INPS, pensioni, ISEE, lavoro, diritti, salute, servizi digitali e AI, con messaggi originali e pertinenti al territorio. Il precedente invito a tester resta un contenuto storico, non l’unico obiettivo della divulgazione. Nessuna collaborazione o approvazione professionale attribuita ai gruppi.
 
-Copertura documentata: **53 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
+Copertura documentata: **54 gruppi esaminati** nei territori di Udine, Pordenone, Gorizia e Trieste. L’elenco non è un censimento completo di tutti i gruppi Facebook esistenti nel FVG.
 
-**Nuovi invii delle guide documentati: 11** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **5 in moderazione** (Grado, Maniago, Tricesimo, Porcia e Fiume Veneto), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
+**Nuovi invii delle guide documentati: 12** — **5 pubblicati** (Latisana, Codroipo, Palmanova, San Vito al Tagliamento e Gradisca), **6 in moderazione** (Grado, Maniago, Tricesimo, Porcia, Fiume Veneto e Cordenons), **1 rimosso** (Tolmezzo). Tutti con autore Pagina Per Me e testi distinti.
 
-**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **8 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
+**Pubblicazioni precedenti delle guide verificate:** Udine e provincia, Pordenone e Gorizia. Complessivamente, nei contenuti delle guide documentati: **8 pubblicati**, **9 pendenti** (includendo Trieste, Cervignano e Cividale), **2 rifiutati** (Gemona e Friuli Collinare), **1 rimosso** (nuovo invio Tolmezzo). Il vecchio presunto invito Tolmezzo resta separato e **non rintracciabile**. I messaggi «Grazie» osservati sono descritti separatamente e non sono conteggiati come divulgazione delle guide.
 
-**Adesioni della Pagina:** undici nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
+**Adesioni della Pagina:** dodici nuove adesioni approvate, di cui Aviano con distinta partecipazione ancora in attesa; Cormòns resta pendente da prima di questo passaggio. La nuova richiesta San Daniele, inizialmente pendente, non risulta più tale al controllo finale: motivo non accertato e nessun reinvio. Stesso esito non determinabile per la precedente richiesta «Sei di Udine se...». La richiesta appena creata al gruppo principale Maniago è stata ritirata dopo aver letto il divieto di pubblicità nelle domande. Nessuna richiesta inviata al gruppo privato San Giorgio dopo il blocco del controllo automatico e l’impossibilità di verificare i duplicati.
 
 **Correzioni personali:** uscite soltanto le due adesioni accidentali Tarcento e Codroipo, dopo riscontro della data 24 ottobre 2026 con l’errore già registrato. Adesioni personali preesistenti e contenuti personali non modificati.
 
@@ -77,6 +77,7 @@ Gli URL dei post in moderazione possono essere accessibili soltanto all’autore
 | Sei di fiume veneto se..... | NUOVO POST IN SOSPESO; avviso esplicito nel singolo post. | https://www.facebook.com/groups/205541382986933/posts/3112360582304984 |
 | Sei del Friuli Venezia Giulia se... | NON PUBBLICATO per regolamento e pertinenza. | https://www.facebook.com/groups/857557258255672/about |
 | Sei di Cordenons se....... | BLOCCO EFFETTIVO: DUPLICATI NON VERIFICABILI. | https://www.facebook.com/groups/seidicordenonsse/ |
+| sei di cordenons se.... | NUOVO POST IN SOSPESO; avviso esplicito nel singolo post. | https://www.facebook.com/groups/1102649866830980/posts/2732625263833424 |
 
 ### Dettaglio dei controlli e delle azioni
 
@@ -871,6 +872,29 @@ Nessun testo inviato.
 - Azione: Nessuna adesione o post.
 
 Nessun testo inviato.
+
+#### 54. sei di cordenons se....
+
+- Data: 25 ottobre 2026.
+- Gruppo: https://www.facebook.com/groups/1102649866830980/
+- Identità: esclusivamente Pagina Per Me.
+- Regole: Gruppo pubblico distinto dal gruppo privato già esaminato. Informazioni lette fino al fondo: nessuna descrizione o regola specifica; Discussione senza avvisi fissati. Attività bassa (nessun post nell’ultimo mese); previsto un solo contenuto utile, senza ripetizioni.
+- Adesione: NUOVA ADESIONE della Pagina APPROVATA: Iscrizione effettuata e avviso esplicito.
+- Duplicati: Prima dell’adesione: ricerca interna del dominio senza risultati; scheda Per Me non fa parte del gruppo / Nessun nuovo post.
+- Esito verificato: **NUOVO POST IN SOSPESO; avviso esplicito nel singolo post.**
+- Azione: Una nuova adesione della Pagina e un solo invio originale della guida sui contributi INPS; nessun reinvio.
+- URL diretto: https://www.facebook.com/groups/1102649866830980/posts/2732625263833424 — URL verificato e accessibile all’autore come IN SOSPESO; non prova di pubblicazione.
+
+Testo effettivamente inviato:
+
+> Per i lettori di Cordenons che stanno preparando il passaggio alla pensione, o aiutano un familiare: su Per Me c’è una guida gratuita ai controlli di base dei contributi INPS.
+> 
+> Spiega che cosa si trova nell’estratto conto, come individuare periodi da chiarire e la differenza tra un riepilogo, una simulazione e una certificazione. Aiuta a mettere in ordine documenti e domande per INPS o patronato; non certifica da sola una data o un importo di pensione.
+> 
+> Per Me è un progetto personale e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e familiari. Offre anche guide su ISEE e diritti, lavoro, debiti, salute, servizi digitali e intelligenza artificiale, con fonti consultabili. Non occorre condividere documenti personali per leggere le guide.
+> 
+> La guida sui contributi è qui:
+> https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html
 
 ## Registro storico conservato
 
