@@ -7,6 +7,19 @@
 Altre quattro notifiche «Ti diamo il benvenuto ... Ora puoi pubblicare post» confermano l'accoglienza nei gruppi **Sei di Cordenons se**, **Sei di Aviano se**, **Sei di Fiume Veneto se** e **Sei di Porcia se** (nomi visibili talvolta troncati nella notifica, da associare ai gruppi già registrati). Sono **notifiche di iscrizione, non di approvazione dei post**: Cordenons, Fiume Veneto e Porcia rimangono classificati come *post in moderazione secondo l'ultimo controllo* fino a diversa prova. Non dedurre clic, lettori o visite al sito. Non sommare queste notifiche a nuove adesioni già conteggiate senza verificare i duplicati.
 
 
+### Evidenze ulteriori dalle notifiche del 25 ottobre 2026, ore 08:56
+
+**Fonte:** sei schermate della cronologia notifiche Facebook fornite dal curatore; sono evidenze di notifica, non verifiche autonome del feed o dei permalink. Questa ricognizione **non aggiunge nuovi invii** ai conteggi delle guide.
+
+- **Notifiche di benvenuto/accesso a post e commenti:** Sei di Tricesimo, Sei di San Vito al Tagliamento, Sei di Gradisca d'Isonzo, Sei di Palmanova, Sei di Aviano (anche notifica separata «Ora puoi pubblicare»), Sei di Grado, Sei di Codroipo, Sei di Maniago, Sei di Latisana, Sei di Cervignano, Sei di Tolmezzo, Sei di Trieste, Sei di Gorizia, Sei di Attimis; inoltre un gruppo con nome troncato «Sei del Friuli...» **non identificabile con sicurezza**. Per alcuni nomi le notifiche sono troncate e l'associazione ai gruppi già censiti va considerata indicativa. Queste notifiche **non** attestano approvazione o presenza attuale di alcun post.
+- **Latisana:** visibile una notifica di **un «Mi piace» al post «Grazie»**. È un'interazione confermata con quel distinto contenuto, **non** con la guida promossa; non prova un clic al sito né una lettura.
+- **Tolmezzo:** la notifica di benvenuto **non revoca** la precedente prova di rimozione dei contenuti. **Attimis:** l'ammissione **non revoca** il divieto regolamentare di pubblicazione già documentato.
+- **Trieste, Cervignano, Grado, Maniago, Tricesimo:** i benvenuti non modificano gli stati dei rispettivi post in moderazione finché un'approvazione non è verificata.
+- **San Vito, Gradisca, Palmanova, Codroipo, Latisana e Gorizia:** le notifiche di benvenuto non costituiscono nuove pubblicazioni; i post delle guide già verificati restano conteggiati una sola volta.
+- **Aviano:** resta valida la separata notifica delle 08:54 «Un amministratore ha approvato il tuo post», riportata sopra; il solo benvenuto non è la prova di quell'approvazione.
+
+Le notifiche di gruppi tematici non territoriali (Blogger Italiani, INPS, ISEE, ricette, AI, ecc.) sono trattate separatamente nel [piano social](piano-social-2026-10-22.md); non mescolarle ai conteggi FVG.
+
 ## Stato verificato delle sessioni operative del 24–25 ottobre 2026
 
 **Ripresa operativa del 25 ottobre 2026; esiti documentati delle sessioni del 24–25 ottobre.** Le osservazioni dirette di questa sezione prevalgono sui resoconti storici riportati in fondo. Non sono una garanzia di permanenza futura dei post e non attestano lettori, clic o visite al sito.
