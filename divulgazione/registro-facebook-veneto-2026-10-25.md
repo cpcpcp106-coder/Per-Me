@@ -349,3 +349,33 @@ Testo inviato:
 > 
 > Le rubriche e le scelte rapide sono qui:
 > https://cpcpcp106-coder.github.io/Per-Me/
+
+
+## Prosecuzione del 25 ottobre 2026 — ricognizione gratuita e controllo pubblico
+
+**Nessun nuovo post o adesione effettuato in questa prosecuzione.** Resta invariato il quadro dei 18 gruppi della sessione autenticata precedente: 3 pubblicati, 5 in moderazione, 1 rimosso, 9 non pubblicati per divieti o impedimenti. Non conteggiare le segnalazioni individuate tramite ricerca come pubblicazioni, iscrizioni o verifiche delle regole.
+
+**Riapertura pubblica in sola lettura degli otto permalink già in elenco:**
+- Vicenza: il testo completo di Per Me è stato recuperato pubblicamente da https://www.facebook.com/groups/249171865261162/posts/3559333417578307 .
+- Feltre: il testo completo di Per Me è stato recuperato pubblicamente da https://www.facebook.com/groups/2789181347872705/posts/26636914926006013 .
+- Legnago: la pagina pubblica restituisce un titolo/anteprima specifico del post di Per Me, ma richiede login per il corpo; resta valido l'esito PUBBLICATO della verifica autenticata precedente: https://www.facebook.com/groups/legnagoeventi/posts/4539989876287017 .
+- Padova, Treviso, San Donà di Piave, Lendinara: collegamento senza accesso restituisce "contenuto non disponibile"; Verona: URL di moderazione richiede login. **Questo NON dimostra che i post siano rimossi o rifiutati**: rimangono classificati secondo l'ultimo controllo autenticato (in moderazione) fino a nuova prova.
+
+**Altri dieci gruppi individuati tramite risultati pubblici del motore di ricerca, NON ancora verificati all'interno:** nomi e URL sono segnalazioni di ricerca, non autorizzazioni a pubblicare. L'indicazione «Pubblicità. Eventi.» nel titolo non sostituisce il regolamento interno. Prima di aderire con la Pagina Per Me occorre controllare regolamento, pertinenza geografica, ammissibilità delle Pagine e storico per evitare duplicati.
+
+| Provincia | Gruppo candidato | URL gruppo | Esito di questa sessione |
+| --- | --- | --- | --- |
+| Venezia | Sei di PORTOGRUARO se... Pubblicità. Eventi. | https://www.facebook.com/groups/portogruaroeventi/ | Individuato, nessuna adesione o post |
+| Venezia | Sei di CHIOGGIA se... Pubblicità. Eventi. | https://www.facebook.com/groups/chioggiaeventi/ | Individuato, nessuna adesione o post |
+| Treviso | Sei Di Castelfranco Veneto Se... NUOVO | https://www.facebook.com/groups/750558145044466/ | Individuato, nessuna adesione o post |
+| Treviso | Sei di Montebelluna se ... Pubblicità. Eventi. | https://www.facebook.com/groups/montebellunatv/ | Individuato, nessuna adesione o post |
+| Vicenza | Sei di SCHIO se... Pubblicità. Eventi. | https://www.facebook.com/groups/schio/ | Individuato, nessuna adesione o post |
+| Vicenza | Sei di Bassano del Grappa se... Pubblicità. Eventi. | https://www.facebook.com/groups/bassanodelgrappa/ | Individuato, nessuna adesione o post |
+| Padova | Sei di Este se... Pubblicità. Eventi. | https://www.facebook.com/groups/estepd/ | Individuato, nessuna adesione o post |
+| Belluno | Sei di BELLUNO se... Pubblicità. Eventi. | https://www.facebook.com/groups/bellunoeventi/ | Individuato, nessuna adesione o post |
+| Rovigo | Sei di ROVIGO se... Pubblicità. Eventi. | https://www.facebook.com/groups/rovigoeventi/ | Individuato, nessuna adesione o post |
+| Rovigo | SEI DI BADIA POLESINE SE ... | https://www.facebook.com/groups/493598154077578/ | Individuato, nessuna adesione o post |
+
+Tentativo di leggere le dieci pagine /about in modo pubblico: tutte hanno risposto `login_required`. **Regole, adesione e storico della Pagina non verificati**: non è possibile fare invii responsabili sulla sola base del risultato del motore.
+
+**Limite strumentale reale:** il browser di automazione Facebook collegato a TinyFish ha credito esaurito (saldo disponibile -0,136 USD all'interrogazione); inoltre l'elenco dei profili di sessione non certifica una connessione Facebook attiva. Non sono stati richiesti acquisti o ricariche, né avviate operazioni a pagamento. Windsor.ai risulta collegato soltanto alla proprietà Search Console e non dà accesso alla pubblicazione sui gruppi Facebook. Da questo punto non risultano autorizzate o tecnicamente eseguibili ulteriori pubblicazioni Facebook gratuite tramite gli strumenti disponibili. Gli invii precedenti restano nel registro senza reinvii.
