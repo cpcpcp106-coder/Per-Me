@@ -78,6 +78,8 @@ Ti segnalo **Per Me**, un sito gratuito con guide pratiche su INPS, pensioni, la
 
 **Nota storica riferita alla preparazione del 22 ottobre:** in quel momento i testi erano bozze non pubblicate. Per le pubblicazioni e i limiti emersi successivamente fare riferimento al [registro aggiornato del 24 ottobre](registro-facebook-fvg-2026-10-24.md). Non affermare collaborazioni o verifiche professionali non documentate.
 
+**Coda operativa del 25 ottobre 2026:** il confronto con i gruppi presenti nelle notifiche e con i registri FVG/Veneto è disponibile in [Coda di pubblicazione dei gruppi tematici](coda-pubblicazioni-gruppi-tematici-2026-10-25.md). I testi specifici per INPS, cartelle, busta paga, ISEE, Tutor AI e blogging sono stati preparati, ma **nessun post di questa coda è stato inviato**. Prima dell'invio: controllo con Facebook autenticato, regolamento, identità Pagina e assenza di duplicati. Non spendere crediti browser o pubblicità senza autorizzazione.
+
 ## Riscontri da gruppi Facebook tematici — notifiche del 25 ottobre 2026
 
 **Provenienza:** schermate delle notifiche del curatore, ore 08:56. Queste informazioni non equivalgono a verifiche del contenuto dei post o della conformità alle regole del gruppo.
