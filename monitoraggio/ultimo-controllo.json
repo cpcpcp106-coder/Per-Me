@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-19T14:40:01+00:00",
+  "checked_at_utc": "2026-10-26T14:15:05+00:00",
   "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
   "fonti": [
     {
@@ -45,7 +45,7 @@
     {
       "id": "cartelle",
       "rubrica": "Debiti e cartelle",
-      "status": "variata",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.agenziaentrateriscossione.gov.it/",
       "final_url": "https://www.agenziaentrateriscossione.gov.it/"
@@ -72,10 +72,10 @@
       "status": "variata",
       "http": 200,
       "url": "https://www.agid.gov.it/",
-      "final_url": "https://www.agid.gov.it/it"
+      "final_url": "https://manutenzione.agid.gov.it/"
     }
   ],
-  "pagine_controllate": 83,
+  "pagine_controllate": 101,
   "collegamenti_locali_problematici": [],
   "collegamenti_esterni": [
     {
@@ -173,10 +173,21 @@
       "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/"
     },
     {
+      "url": "https://bda.ieo.it/?page_id=102",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://bda.ieo.it/?page_id=102"
+    },
+    {
       "url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page"
+    },
+    {
+      "url": "https://chatgpt.com/",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
@@ -245,6 +256,18 @@
       "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D"
     },
     {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D"
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D"
+    },
+    {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
       "status": "raggiungibile",
       "http": 200,
@@ -278,6 +301,11 @@
     },
     {
       "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S277/163928/13-Older-Adults-Standards-of-Care-in-Diabetes-2026",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S89/163932",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -491,10 +519,28 @@
       "final_url": "https://economiapertutti.bancaditalia.it/aree-tematiche/prestiti/sovraindebitamento/index.html"
     },
     {
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita"
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610"
+    },
+    {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
       "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104"
+    },
+    {
+      "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en"
     },
     {
       "url": "https://gastro.org/clinical-guidance/clinical-guidance-on-the-management-of-gastroparesis/",
@@ -509,6 +555,18 @@
       "final_url": "https://gastro.org/clinical-guidance/epidemiology-evaluation-management-exocrine-pancreatic-insufficiency/"
     },
     {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/audit-editoriale-integrale.yml",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/audit-editoriale-integrale.yml"
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/verifica-indicizzabilita-live.yml",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/workflows/verifica-indicizzabilita-live.yml"
+    },
+    {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
       "status": "raggiungibile",
       "http": 200,
@@ -521,34 +579,10 @@
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md"
     },
     {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-2026-10-15-fatti.json"
-    },
-    {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md"
-    },
-    {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-storico.json"
-    },
-    {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-collaudo-browser.json"
-    },
-    {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/ultimo-controllo-url-esterni.json"
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
@@ -561,6 +595,16 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fcpcpcp106-coder%2FPer-Me%2Fissues%2Fnew"
+    },
+    {
+      "url": "https://help.openai.com/it-it/articles/7730893-data-controls-in-chatgpt",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://help.openai.com/it-it/articles/8142208-faq-app-chatgpt-per-android",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
@@ -862,6 +906,12 @@
       "final_url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-lavoro-dipendente-e-pensioni"
     },
     {
+      "url": "https://innovazione.gov.it/notizie/articoli/sanita-digitale-informazione-e-supporto-per-lutilizzo-del-fascicolo-sanitario-elettronico/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://innovazione.gov.it/notizie/articoli/sanita-digitale-informazione-e-supporto-per-lutilizzo-del-fascicolo-sanitario-elettronico/"
+    },
+    {
       "url": "https://iwgdfguidelines.org/guidelines-2023/",
       "status": "raggiungibile",
       "http": 200,
@@ -1022,6 +1072,11 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://professional.heart.org/en/science-news/2026-dietary-guidance-to-improve-cardiovascular-health/top-things-to-know",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://professional.heart.org/en/science-news/2026-guideline-for-the-early-management-of-patients-with-acute-ischemic-stroke/top-things-to-know",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
@@ -1101,10 +1156,22 @@
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/42566081/"
     },
     {
+      "url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta"
+    },
+    {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq"
+    },
+    {
+      "url": "https://servizi.regione.fvg.it/portale/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.regione.fvg.it/portale/"
     },
     {
       "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&iIDDalPortale=&iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+95+del+31-07-2014.htm",
@@ -1157,7 +1224,7 @@
     {
       "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "da_verificare",
-      "error": "HTTP Error 307: Temporary Redirect"
+      "error": "<urlopen error timed out>"
     },
     {
       "url": "https://sistemats1.sanita.finanze.it/portale/esenzione-da-reddito",
@@ -1176,6 +1243,18 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://sps.nhs.uk/articles/managing-interactions-between-macrolides-and-statins/"
+    },
+    {
+      "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accessibility/android/answer/11183305?hl=it"
+    },
+    {
+      "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid"
     },
     {
       "url": "https://temi.camera.it/leg19/temi/19_tl18_irpef",
@@ -1235,6 +1314,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction"
+    },
+    {
+      "url": "https://wa.me/?text=Per%20Me%3A%20guide%20gratuite%20su%20pensioni%2C%20INPS%2C%20lavoro%2C%20salute%20e%20diritti%2C%20con%20fonti%20da%20verificare.%20https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://api.whatsapp.com/send/?text=Per+Me%3A+guide+gratuite+su+pensioni%2C+INPS%2C+lavoro%2C+salute+e+diritti%2C+con+fonti+da+verificare.+https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&type=custom_url&app_absent=0"
     },
     {
       "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-treatment",
@@ -1698,6 +1783,18 @@
       "final_url": "https://www.aifa.gov.it/nota-98"
     },
     {
+      "url": "https://www.alimentinutrizione.it/presentazione-dati",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/presentazione-dati"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115"
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000800",
       "status": "raggiungibile",
       "http": 200,
@@ -1716,10 +1813,46 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004005"
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004125",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004125"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004130",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004130"
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006515",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006515"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006610",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006610"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210"
     },
     {
       "url": "https://www.arbitrobancariofinanziario.it/",
@@ -1852,6 +1985,11 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://www.bmj.com/content/364/bmj.l341.full",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
       "status": "raggiungibile",
       "http": 200,
@@ -1942,11 +2080,6 @@
       "final_url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/procedura-e-modulistica/"
     },
     {
-      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDE%2BDEFINITIVO.pdf",
-      "status": "da_verificare",
-      "error": "HTTP Error 404: "
-    },
-    {
       "url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
       "status": "raggiungibile",
       "http": 200,
@@ -1969,6 +2102,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.demenze.it/it-mappa"
+    },
+    {
+      "url": "https://www.diabetes.org.uk/living-with-diabetes/eating/carbohydrates-and-diabetes/glycaemic-index-and-diabetes",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.diabetes.org.uk/living-with-diabetes/eating/carbohydrates-and-diabetes/glycaemic-index-and-diabetes"
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
@@ -2175,10 +2314,34 @@
       "final_url": "https://www.esur.org/esur-guidelines-2025/"
     },
     {
+      "url": "https://www.facebook.com/PerMeGuide",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.facebook.com/PerMeGuide"
+    },
+    {
+      "url": "https://www.facebook.com/PerMeGuide/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.facebook.com/PerMeGuide/"
+    },
+    {
+      "url": "https://www.fascicolosanitario.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.fascicolosanitario.gov.it/portale/home"
+    },
+    {
       "url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2"
+    },
+    {
+      "url": "https://www.garanteprivacy.it/faq/fascicolo-sanitario",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/faq/fascicolo-sanitario"
     },
     {
       "url": "https://www.garanteprivacy.it/it/temi/recupero-crediti",
@@ -2191,6 +2354,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.garanteprivacy.it/temi/assistenti-digitali"
+    },
+    {
+      "url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949"
     },
     {
       "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
@@ -2294,6 +2463,11 @@
     },
     {
       "url": "https://www.heart.org/en/health-topics/infective-endocarditis",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/fats-in-foods",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
     },
@@ -3049,15 +3223,20 @@
     },
     {
       "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/"
+    },
+    {
+      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/"
     },
     {
       "url": "https://www.jacc.org/doi/10.1016/j.jacc.2023.04.003",
@@ -3161,8 +3340,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "da_verificare",
-      "error": "The read operation timed out"
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1"
     },
     {
       "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
@@ -3170,12 +3350,12 @@
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
-      "url": "https://www.mit.gov.it/node/13118",
+      "url": "https://www.mit.gov.it/temi/casa",
       "status": "da_verificare",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
-      "url": "https://www.mit.gov.it/node/18419",
+      "url": "https://www.mit.gov.it/urp-domande-frequenti",
       "status": "da_verificare",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
@@ -3232,6 +3412,11 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma"
+    },
+    {
+      "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.nhs.uk/conditions/cellulitis/",
@@ -3442,6 +3627,18 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16"
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=19G00007&atto.dataPubblicazioneGazzetta=2019-02-14&tipoDettaglio=vigente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=19G00007&atto.dataPubblicazioneGazzetta=2019-02-14&tipoDettaglio=vigente"
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=21G00252&atto.dataPubblicazioneGazzetta=2021-12-30&tipoDettaglio=vigente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=21G00252&atto.dataPubblicazioneGazzetta=2021-12-30&tipoDettaglio=vigente"
     },
     {
       "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
@@ -3820,6 +4017,12 @@
       "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/libera-al-nuovo-piano-nazionale-della-prevenzione-2026-2031-0/"
     },
     {
+      "url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/"
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/pubblicazione/raccomandazione-n-17-riconciliazione-della-terapia-farmacologica/",
       "status": "raggiungibile",
       "http": 200,
@@ -3844,10 +4047,22 @@
       "final_url": "https://www.salute.gov.it/new/it/scheda-malattia/tetano/?paragraph=5"
     },
     {
+      "url": "https://www.salute.gov.it/new/it/social-network/fascicolo-sanitario-elettronico-con-te-la-tua-salute/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/social-network/fascicolo-sanitario-elettronico-con-te-la-tua-salute/"
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/112-118-e-pronto-soccorso/il-numero-118-e-il-numero-di-emergenza-unico-europeo-112/"
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/alimenti-fini-medici-speciali-ed-integratori/etichettatura/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/alimenti-fini-medici-speciali-ed-integratori/etichettatura/"
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/diabete/assistenza-alle-persone-con-diabete/",
