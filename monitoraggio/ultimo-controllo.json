@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-26T14:15:05+00:00",
+  "checked_at_utc": "2026-11-02T17:03:42+00:00",
   "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
   "fonti": [
     {
@@ -72,7 +72,7 @@
       "status": "variata",
       "http": 200,
       "url": "https://www.agid.gov.it/",
-      "final_url": "https://manutenzione.agid.gov.it/"
+      "final_url": "https://www.agid.gov.it/it"
     }
   ],
   "pagine_controllate": 101,
@@ -197,81 +197,68 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D"
+      "status": "da_verificare",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
     },
     {
       "url": "https://diabetes.org/about-diabetes/complications/skin-complications",
@@ -943,9 +930,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art"
+      "status": "da_verificare",
+      "error": "The read operation timed out"
     },
     {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
@@ -1104,55 +1090,55 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/16843159/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/16843159/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/34238654/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/34238654/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/34965987/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/34965987/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/37737818/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/37737818/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38585386/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/38585386/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38857482/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/38857482/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/40976635/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/40976635/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/42398590/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/42398590/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/42566081/",
       "status": "raggiungibile",
-      "http": 203,
+      "http": 200,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/42566081/"
     },
     {
@@ -1224,7 +1210,7 @@
     {
       "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "da_verificare",
-      "error": "<urlopen error timed out>"
+      "error": "HTTP Error 307: Temporary Redirect"
     },
     {
       "url": "https://sistemats1.sanita.finanze.it/portale/esenzione-da-reddito",
