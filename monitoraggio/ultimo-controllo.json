@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-02T17:03:42+00:00",
+  "checked_at_utc": "2026-11-09T17:27:57+00:00",
   "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
   "fonti": [
     {
@@ -45,7 +45,7 @@
     {
       "id": "cartelle",
       "rubrica": "Debiti e cartelle",
-      "status": "invariata",
+      "status": "variata",
       "http": 200,
       "url": "https://www.agenziaentrateriscossione.gov.it/",
       "final_url": "https://www.agenziaentrateriscossione.gov.it/"
@@ -132,9 +132,8 @@
     },
     {
       "url": "https://agriculture.ec.europa.eu/farming/crops/olive-oil_it",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://agriculture.ec.europa.eu/farming/crops/olive-oil_it"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
@@ -186,8 +185,9 @@
     },
     {
       "url": "https://chatgpt.com/",
-      "status": "da_verificare",
-      "error": "HTTP Error 403: Forbidden"
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://chatgpt.com/"
     },
     {
       "url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
@@ -198,67 +198,67 @@
     {
       "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://diabetes.org/about-diabetes/complications/skin-complications",
@@ -930,8 +930,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "da_verificare",
-      "error": "The read operation timed out"
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art"
     },
     {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
@@ -942,25 +943,25 @@
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/dupuytrens-disease/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease/"
+      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/dupuytrens-disease/"
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/frozen-shoulder/"
+      "final_url": "https://www.orthoinfo.org/bodypart/shoulder/frozen-shoulder/"
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/trigger-finger/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/trigger-finger/"
+      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/trigger-finger/"
     },
     {
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/treatment/cortisone-shot-steroid-injection/"
+      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/"
     },
     {
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10505534/",
@@ -1090,55 +1091,55 @@
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/16843159/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/16843159/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/34238654/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/34238654/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/34965987/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/34965987/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/37737818/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/37737818/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38585386/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/38585386/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/38857482/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/38857482/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/40976635/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/40976635/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/42398590/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/42398590/"
     },
     {
       "url": "https://pubmed.ncbi.nlm.nih.gov/42566081/",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 203,
       "final_url": "https://pubmed.ncbi.nlm.nih.gov/42566081/"
     },
     {
@@ -2103,9 +2104,8 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/product-information/mounjaro-epar-product-information_en.pdf",
@@ -2115,21 +2115,18 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/referral/metformin-article-31-referral-changes-product-information_en.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/documents/referral/metformin-article-31-referral-changes-product-information_en.pdf"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/baqsimi",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/baqsimi"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/betmiga",
@@ -2181,9 +2178,8 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
@@ -2193,9 +2189,8 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xiapex",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xiapex"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/domperidone-containing-medicines",
@@ -2217,15 +2212,13 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-new-contra-indications-warnings-pioglitazone-reduce-small-increased-risk-bladder-cancer",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-new-contra-indications-warnings-pioglitazone-reduce-small-increased-risk-bladder-cancer"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-july-2024",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/news/meeting-highlights-pharmacovigilance-risk-assessment-committee-prac-8-11-july-2024"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/news/prac-concludes-eye-condition-naion-very-rare-side-effect-semaglutide-medicines-ozempic-rybelsus-wegovy",
@@ -3210,7 +3203,7 @@
     {
       "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
@@ -3333,17 +3326,17 @@
     {
       "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://www.mit.gov.it/temi/casa",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://www.mit.gov.it/urp-domande-frequenti",
       "status": "da_verificare",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK481900/",
