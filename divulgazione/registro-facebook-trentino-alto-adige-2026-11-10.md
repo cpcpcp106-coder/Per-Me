@@ -2,7 +2,17 @@
 
 Data di apertura: 10 novembre 2026. Attività effettuata dalla Pagina Facebook Per Me, non dal profilo personale. Non equiparare iscrizioni, post in moderazione, post pubblicati e visite.
 
-## Risultati verificati
+## Stato attuale — ripresa gratuita del 10 novembre 2026
+
+Questo riepilogo prevale sui conteggi storici riportati più sotto.
+
+- Sessione Facebook operativa verificata come **Pagina Per Me** (ID pubblico 61566289361135), con «Commenta come Per Me». Nessun accesso o operazione tramite TinyFish in questa ripresa.
+- **PUBBLICITA' TRENTINO: il post già inviato è ora visibile**, aperto nella pagina individuale con autore Per Me e visibilità «Gruppo pubblico». Collegamento diretto copiato dalla pagina aperta: **https://www.facebook.com/groups/PUBBLICITA.TRENTINO/posts/29130948113191124**. Nessun reinvio.
+- **Bilancio regionale documentato: 1 post inviato in precedenza, ora verificato visibile; 0 post ancora documentati in moderazione.**
+- In questa ripresa: **5 nuovi gruppi cittadini esaminati nelle informazioni/regole; 0 nuove iscrizioni eseguite; 0 nuovi post inviati; 0 spese**.
+- La divulgazione regionale resta **incompleta**. Le nuove iscrizioni sono sospese dal controllo automatico in attesa di conferma esplicita dell'utente; non è un rifiuto di Facebook.
+
+## Cronologia — prime verifiche
 
 1. **TRENTINO ❤️ ALTO ADIGE**, https://www.facebook.com/groups/531254104322446/ — Pagina Per Me iscritta. Regola n. 7 limita la pubblicità a strutture turistiche affiliate a Corriere Turismo. Gruppo turistico non pertinente alla divulgazione autonoma di Per Me. **Nessun post inviato**.
 2. **I Love Trentino Alto Adige**, https://www.facebook.com/groups/iloveTrentinoAltoAdige/ — Pagina Per Me iscritta. Regole sull'informazione gratuita non verificate; gruppo principalmente turistico/fotografico. **Nessun post inviato**.
@@ -93,3 +103,27 @@ Candidati da ricerca pubblica, NON verificati all'interno di Facebook, nessuna i
 Tentativo di aprire **Bolzano Città** con browser Facebook autenticato: **NON AVVIATO** per saldo TinyFish insufficiente (saldo indicato **−$0,216**). Nessuna azione Facebook eseguita in questo tentativo, nessuna ricarica autorizzata. Ulteriori pubblicazioni richiedono accesso operativo, non si possono dichiarare effettuate.
 
 **Stato confermato**: 1 post in moderazione (PUBBLICITA' TRENTINO), 0 nuovi post pubblici verificati. La divulgazione del Trentino-Alto Adige NON è completata.
+
+## Verifica diretta dei candidati di Bolzano e Merano — ripresa gratuita
+
+Le seguenti informazioni sono state lette direttamente in Facebook con identità Pagina Per Me. I conteggi dei membri sono soltanto il dato mostrato al controllo, non persone raggiunte.
+
+| Gruppo | Membri mostrati | Informazioni/regole effettivamente lette | Esito operativo |
+|---|---:|---|---|
+| Bolzano Città — https://www.facebook.com/groups/1030417283822699/ | 5.659 | La descrizione consente notizie, novità e interessi riguardanti Bolzano e il confronto aperto; nessuna ulteriore regola esplicita visibile nella sezione Informazioni. | Candidato per una risorsa di utilità generale ai lettori locali. «Iscriviti al gruppo» ancora presente. Tentativo bloccato PRIMA dell'esecuzione dal controllo automatico; nessuna iscrizione o pubblicazione effettuata. Ammissione della Pagina da verificare nel flusso di iscrizione. |
+| Bolzano Quotidiano — https://www.facebook.com/groups/1750376068575885/ | 17.221 | Descrizione completa letta: problemi e attualità di Bolzano/Alto Adige, domande, riflessioni, dibattito rispettoso. | Candidato da valutare con messaggio di utilità concreta; non è documentata un'autorizzazione esplicita degli amministratori alla presentazione del progetto. Nessuna iscrizione o pubblicazione; ammissione della Pagina da verificare. |
+| MeranO Community — https://www.facebook.com/groups/meranocommunity/ | 10.646 | Lette le 9 regole: partecipazione rivolta a cittadini e associazioni culturali/di volontariato di Merano; contenuti coerenti con dibattito cittadino e verifica degli amministratori. | **Escluso dalla divulgazione diretta**: Per Me non è documentata come associazione o realtà cittadina ammessa. Nessuna iscrizione o pubblicazione. |
+| Se sei di Merano,cosa non ti piace,ma anche cosa ti piace.. — https://www.facebook.com/groups/1528915324007853/ | 13.608 | Descrizione completa letta: cittadini attivi, idee, proposte e aiuto reciproco. Nessun ulteriore regolamento esplicito visibile in Informazioni. | Candidato; pertinenza locale e ammissione della Pagina da confermare. Nessuna iscrizione o pubblicazione. |
+| Se sei di Merano e dalla parte dei cittadini — https://www.facebook.com/groups/528338790632853/ | 4.179 | Descrizione completa letta: problemi cittadini, proposte, eventi sociali, aiuto, supporto e condivisione. | Candidato; ammissione della Pagina da verificare. Nessuna iscrizione o pubblicazione. |
+
+### Testo predisposto, non inviato
+
+«Per chi deve orientarsi tra una pratica INPS, una pensione, una busta paga o un problema di debiti, segnaliamo Per Me: un progetto personale gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e per i familiari che le aiutano. Il sito raccoglie guide pratiche in italiano, con fonti consultabili, anche su salute e strumenti digitali. Le informazioni sono generali e non sostituiscono la valutazione del proprio caso da parte dei servizi competenti. https://cpcpcp106-coder.github.io/Per-Me/»
+
+Usare soltanto dove il regolamento ammette contenuti pertinenti di questo tipo; verificare prima eventuali post Per Me preesistenti e l'identità Pagina. Non dichiarare legami, collaborazioni o servizi locali non documentati.
+
+### Blocco specifico da risolvere
+
+Il controllo automatico ha rifiutato l'azione «Iscriviti al gruppo» per Bolzano Città perché la considera una nuova modifica esterna di iscrizione e non accetta come autorizzazione sufficiente il richiamo alle conversazioni precedenti. L'azione non è stata eseguita. Non è stato aggirato il blocco con altri strumenti o con il profilo personale.
+
+Occorre una conferma esplicita dell'utente alle nuove iscrizioni della **Pagina Per Me** nei gruppi pertinenti del Trentino-Alto Adige e alla pubblicazione gratuita, nel rispetto dei regolamenti. Restano da trattare le altre località già indicate nella cronologia; non dichiarare conclusa l'attività.
