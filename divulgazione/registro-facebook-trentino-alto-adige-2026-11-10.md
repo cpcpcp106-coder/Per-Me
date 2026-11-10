@@ -43,3 +43,11 @@ Ricerca gratuita preliminare ha individuato testimonianze indipendenti su gruppi
 La schermata delle notifiche Facebook mostra, con identità Pagina Per Me nell'angolo superiore, «Ti diamo il benvenuto in TRENTINO ❤️ ALTO ADIGE! Ora puoi pubblicare post e connetterti con gli altri…» (24 minuti prima). Questo conferma la **notifica di benvenuto/iscrizione** e l'abilitazione tecnica, **non** l'autorizzazione a pubblicare materiale promozionale contro l'articolo 7 del regolamento, né l'esistenza di post pubblicati. Il gruppo resta escluso dalla divulgazione salvo consenso amministratori.
 
 Nelle stesse schermate risultano notifiche di benvenuto nei gruppi Castelfranco, Este, Schio e Chioggia (Veneto) e una notifica di approvazione post a Maniago (FVG). Sono dati di altre regioni e non si conteggiano come pubblicazioni Trentino-Alto Adige.
+
+## Primo invio effettivo — 10 novembre 2026
+
+**PUBBLICITA' TRENTINO** — https://www.facebook.com/groups/PUBBLICITA.TRENTINO — identità **Pagina Per Me** verificata, iscrizione confermata, nessun vecchio post Per Me rilevato, nessun divieto esplicito di link. **UN post inviato, IN MODERAZIONE**. Conferma Facebook: «Grazie per il tuo post. È stato inviato agli amministratori del gruppo per l'approvazione»; successivamente «Il tuo post è in sospeso». NON visibile pubblicamente; nessun permalink individuale recuperato; non reinviare.
+
+Testo inviato: «Per Me è un progetto gratuito e non commerciale: guide pratiche in italiano su pensioni e INPS, lavoro, salute, dieta mediterranea e strumenti digitali, pensate soprattutto per chi ha tra 50 e 70 anni e per i familiari. https://cpcpcp106-coder.github.io/Per-Me/».
+
+**Totale aggiornato Trentino-Alto Adige:** 1 post inviato e in moderazione; 0 post pubblicamente visibili. Nessuna spesa pubblicitaria, nessuna ricarica automatica. La ricerca e la divulgazione nelle altre località regionali restano da completare.
