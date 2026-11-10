@@ -22,3 +22,12 @@ Da rivedere tra i nove gruppi con pubblicazioni originarie verificate: Latisana,
 | Palmanova | SOLO VERIFICA, NESSUN nuovo invio | https://www.facebook.com/groups/973757904438832/ | Regole complete non accessibili; automazione segnala un contenuto Per Me rimosso di identificazione incerta: chiarire prima di ripubblicare |
 
 Totale aggiornato: **6 nuovi post inviati** (Udine, Pordenone, Gorizia, Latisana, Codroipo, San Vito), tutti dichiarati pubblicati nel feed; Palmanova solo controllo. Restano Gradisca d'Isonzo e Aviano da ricontrollare, oltre alla verifica del caso Palmanova. Non considerare la pubblicazione come prova di clic o visite.
+
+## Ultimi due gruppi storicamente pubblicati
+
+| Gruppo | Esito 10/11 | Collegamento | Note |
+|---|---|---|---|
+| Gradisca d'Isonzo | Nuovo post pubblicato e visibile | https://www.facebook.com/groups/661901623889373/ | Vecchio post del 24/10 ancora visibile; permalink nuovo non recuperato |
+| Aviano | Nuovo post IN MODERAZIONE, NON pubblico | https://www.facebook.com/groups/281797948641095/ | Vecchio post Tutor AI del 25/10 approvato; non reinviare nuovo messaggio mentre pendente |
+
+**Bilancio del riesame dei nove gruppi con vecchi post verificati:** 7 nuovi post segnalati visibili (Udine, Pordenone, Gorizia, Latisana, Codroipo, San Vito, Gradisca); 1 nuovo post in moderazione (Aviano); 1 gruppo senza nuovo invio (Palmanova, da chiarire segnalazione di contenuto rimosso). Non includere i nove post originari nel conteggio dei nuovi. I nuovi post non hanno ancora permalink stabili verificati. Nessuna ricarica automatica attivata. Il saldo residuo del browser operativo è stato segnalato basso, circa 3,94 USD.
