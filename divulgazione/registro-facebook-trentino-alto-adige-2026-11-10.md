@@ -79,3 +79,17 @@ Nessun nuovo post, richiesta di iscrizione o approvazione verificato con questa 
 - **Cerco Offro Lavoro Trento** https://www.facebook.com/groups/CercooffroLavoroaTrento/ — browser autenticato con identità **Pagina Per Me**, iscrizione già effettuata. Gruppo pubblico ~27.891 membri, focalizzato su annunci e offerte di lavoro. Regole automatiche contro lavoro da casa, network marketing, lavori solo online e post di profili recenti. Non verificato permesso specifico per guide non commerciali o post dalle Pagine; pertinenza dubbia. **NESSUN POST INVIATO**. Non ripetere controlli costosi senza nuova ragione concreta.
 
 Totale invariato: **1 post in moderazione** (PUBBLICITA' TRENTINO); **0 post pubblicamente verificati**. Nessuna ricarica o promozione acquistata.
+
+## Ricerca aggiuntiva e blocco operativo — 10 novembre 2026
+
+Candidati da ricerca pubblica, NON verificati all'interno di Facebook, nessuna iscrizione o pubblicazione:
+- **Bolzano Città** https://www.facebook.com/groups/1030417283822699/ — gruppo su notizie e interessi cittadini; primo candidato alla verifica.
+- **Bolzano Quotidiano** https://www.facebook.com/groups/1750376068575885/ — problemi e attualità locale.
+- **MeranO Community** https://www.facebook.com/groups/meranocommunity/ — discussione civica.
+- **Se sei di Merano, cosa non ti piace, ma anche cosa ti piace** https://www.facebook.com/groups/1528915324007853/ — da valutare.
+- **Se sei di Merano e dalla parte dei cittadini** https://www.facebook.com/groups/528338790632853/ — da valutare.
+- **Alto Adige nel cuore** https://www.facebook.com/groups/820362164718535/ — gruppo turistico/esperienze; pertinenza incerta.
+
+Tentativo di aprire **Bolzano Città** con browser Facebook autenticato: **NON AVVIATO** per saldo TinyFish insufficiente (saldo indicato **−$0,216**). Nessuna azione Facebook eseguita in questo tentativo, nessuna ricarica autorizzata. Ulteriori pubblicazioni richiedono accesso operativo, non si possono dichiarare effettuate.
+
+**Stato confermato**: 1 post in moderazione (PUBBLICITA' TRENTINO), 0 nuovi post pubblici verificati. La divulgazione del Trentino-Alto Adige NON è completata.
