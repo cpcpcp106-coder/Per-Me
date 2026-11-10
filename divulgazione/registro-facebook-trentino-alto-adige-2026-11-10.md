@@ -73,3 +73,9 @@ Fonti giornalistiche che documentano gruppi Facebook territoriali, **non** equiv
 - SALTO, «Mediterranei-dolomitici in festa»: https://salto.bz/it/article/11062022/mediterranei-dolomitici — 'Sudtirolesi del sud', comunità di aiuto reciproco; da verificare attualità e regole.
 
 Nessun nuovo post, richiesta di iscrizione o approvazione verificato con questa ricerca. **Stato invariato: 1 post inviato in moderazione a PUBBLICITA' TRENTINO, 0 post pubblicamente verificati.** Non pubblicare in gruppi esclusivamente nostalgici, turistici o non pertinenti senza verificare i regolamenti. Nessuna ricarica o promozione acquistata.
+
+## Verifica Facebook autenticata — 10 novembre 2026
+
+- **Cerco Offro Lavoro Trento** https://www.facebook.com/groups/CercooffroLavoroaTrento/ — browser autenticato con identità **Pagina Per Me**, iscrizione già effettuata. Gruppo pubblico ~27.891 membri, focalizzato su annunci e offerte di lavoro. Regole automatiche contro lavoro da casa, network marketing, lavori solo online e post di profili recenti. Non verificato permesso specifico per guide non commerciali o post dalle Pagine; pertinenza dubbia. **NESSUN POST INVIATO**. Non ripetere controlli costosi senza nuova ragione concreta.
+
+Totale invariato: **1 post in moderazione** (PUBBLICITA' TRENTINO); **0 post pubblicamente verificati**. Nessuna ricarica o promozione acquistata.
