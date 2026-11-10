@@ -51,3 +51,14 @@ Nelle stesse schermate risultano notifiche di benvenuto nei gruppi Castelfranco,
 Testo inviato: «Per Me è un progetto gratuito e non commerciale: guide pratiche in italiano su pensioni e INPS, lavoro, salute, dieta mediterranea e strumenti digitali, pensate soprattutto per chi ha tra 50 e 70 anni e per i familiari. https://cpcpcp106-coder.github.io/Per-Me/».
 
 **Totale aggiornato Trentino-Alto Adige:** 1 post inviato e in moderazione; 0 post pubblicamente visibili. Nessuna spesa pubblicitaria, nessuna ricarica automatica. La ricerca e la divulgazione nelle altre località regionali restano da completare.
+
+## Ricerca pubblica senza browser a pagamento — 10 novembre 2026
+
+Candidati reperiti da fonte esterna AlpeNews (https://medienfriz.wordpress.com/tag/lavoro/), NON verificati direttamente in Facebook e NON iscritti/pubblicati:
+
+- Gruppo lavoro Trentino https://www.facebook.com/groups/209067312604444 — nome e regole da verificare, possibile pertinenza con guide su lavoro.
+- Cerco Offro Lavoro a Trento https://www.facebook.com/groups/CercooffroLavoroaTrento/ — gruppo di offerte di lavoro; verificare regole e pertinenza prima di proporre guide.
+
+Gruppi di compravendita Bolzano segnalati da fonte SEAB Bolzano (https://www.seab.bz.it/it/privati/ancora-in-buono-stato): non pertinenti e non da contattare per Per Me.
+
+**Nessun nuovo invio in questa ricerca.** Il post PUBBLICITA' TRENTINO resta in moderazione fino a prova contraria. Non dedurre approvazione da assenza di nuove verifiche. Evitare ulteriori consumi di credito per ricerca non mirata.
