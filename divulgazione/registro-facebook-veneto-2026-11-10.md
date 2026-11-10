@@ -25,3 +25,7 @@ Nota di qualità: alcuni testi generati dall'automazione non erano pienamente al
 | Rovigo Pubblicità Eventi | NON inviato | https://www.facebook.com/groups/rovigoeventi/ | Campo testo del composer non compilato; regolamento completo non verificato |
 
 Totale sessione finora: 6 post segnalati visibili, 1 in moderazione, 2 non inviati. Rimane Badia Polesine tra i 10 candidati identificati; ricontrollare vecchi post in moderazione e link diretti mancanti. Non è stata attivata ricarica automatica.
+
+| Badia Polesine | Post visibile | https://www.facebook.com/groups/493598154077578/ | Pagina Per Me; permalink non recuperato |
+
+Totale aggiornato per la sessione 10/11/2026: **7 post visibili, 1 in moderazione, 2 non inviati** su 10 gruppi candidati esaminati. Resta la verifica degli esiti delle moderazioni precedenti e la ricerca di permalink stabili. Nessuna ricarica automatica attivata.
