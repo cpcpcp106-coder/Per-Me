@@ -2,15 +2,18 @@
 
 Data di apertura: 10 novembre 2026. Attività effettuata dalla Pagina Facebook Per Me, non dal profilo personale. Non equiparare iscrizioni, post in moderazione, post pubblicati e visite.
 
-## Stato attuale — ripresa gratuita del 10 novembre 2026
+## Stato attuale — ripresa gratuita autorizzata del 10 novembre 2026
 
-Questo riepilogo prevale sui conteggi storici riportati più sotto.
+Questo riepilogo e l'ultima tabella degli esiti prevalgono sui conteggi e sui blocchi storici riportati nella cronologia.
 
-- Sessione Facebook operativa verificata come **Pagina Per Me** (ID pubblico 61566289361135), con «Commenta come Per Me». Nessun accesso o operazione tramite TinyFish in questa ripresa.
-- **PUBBLICITA' TRENTINO: il post già inviato è ora visibile**, aperto nella pagina individuale con autore Per Me e visibilità «Gruppo pubblico». Collegamento diretto copiato dalla pagina aperta: **https://www.facebook.com/groups/PUBBLICITA.TRENTINO/posts/29130948113191124**. Nessun reinvio.
-- **Bilancio regionale documentato: 1 post inviato in precedenza, ora verificato visibile; 0 post ancora documentati in moderazione.**
-- In questa ripresa: **5 nuovi gruppi cittadini esaminati nelle informazioni/regole; 0 nuove iscrizioni eseguite; 0 nuovi post inviati; 0 spese**.
-- La divulgazione regionale resta **incompleta**. Le nuove iscrizioni sono sospese dal controllo automatico in attesa di conferma esplicita dell'utente; non è un rifiuto di Facebook.
+- L'utente ha confermato esplicitamente le nuove iscrizioni e pubblicazioni gratuite nel Trentino-Alto Adige, esclusivamente come **Pagina Per Me**. Il precedente blocco del controllo automatico è risolto.
+- Identità **Pagina Per Me** (ID pubblico 61566289361135) verificata nei profili di gruppo e nei moduli prima degli invii. **8 nuove iscrizioni della Pagina confermate** in questa ripresa.
+- **7 nuovi post effettivamente inviati:** **1 pubblicato e visibile** (Pergine, gruppo 218467015023301), **5 in moderazione** (Bolzano Città, primo gruppo Merano, Rovereto, Bressanone, Brunico), **1 rifiutato** (secondo gruppo Merano). Nessun reinvio.
+- **Bolzano Quotidiano:** iscrizione della Pagina confermata, ma modulo di creazione post assente anche al controllo finale a caricamento terminato. **Nessun post inviato**; causa della limitazione non determinata.
+- Il post di **PUBBLICITA' TRENTINO** inviato prima di questa ripresa resta il risultato storico già verificato visibile: https://www.facebook.com/groups/PUBBLICITA.TRENTINO/posts/29130948113191124 . Non è un nuovo invio.
+- **Bilancio documentato complessivo del registro: 8 post inviati, dei quali 2 verificati visibili, 5 in moderazione e 1 rifiutato.** Non sono conteggi di lettori, impressioni, clic o visite.
+- **Spese in questa ripresa: 0.** Nessun utilizzo di TinyFish, ricarica, promozione acquistata o pagamento.
+- La verifica riguarda i candidati trattati e non è un censimento completo dei gruppi della regione. **Non dichiarare conclusa la divulgazione regionale.** Le approvazioni dei cinque post pendenti dipendono dagli amministratori.
 
 ## Cronologia — prime verifiche
 
@@ -122,8 +125,75 @@ Le seguenti informazioni sono state lette direttamente in Facebook con identità
 
 Usare soltanto dove il regolamento ammette contenuti pertinenti di questo tipo; verificare prima eventuali post Per Me preesistenti e l'identità Pagina. Non dichiarare legami, collaborazioni o servizi locali non documentati.
 
-### Blocco specifico da risolvere
+### Blocco precedente — risolto dal consenso successivo
 
 Il controllo automatico ha rifiutato l'azione «Iscriviti al gruppo» per Bolzano Città perché la considera una nuova modifica esterna di iscrizione e non accetta come autorizzazione sufficiente il richiamo alle conversazioni precedenti. L'azione non è stata eseguita. Non è stato aggirato il blocco con altri strumenti o con il profilo personale.
 
-Occorre una conferma esplicita dell'utente alle nuove iscrizioni della **Pagina Per Me** nei gruppi pertinenti del Trentino-Alto Adige e alla pubblicazione gratuita, nel rispetto dei regolamenti. Restano da trattare le altre località già indicate nella cronologia; non dichiarare conclusa l'attività.
+La necessità di conferma descrive lo stato precedente. L'utente ha successivamente risposto «Sì» alla richiesta esplicita di autorizzare nuove iscrizioni e pubblicazioni gratuite nei gruppi pertinenti del Trentino-Alto Adige, esclusivamente come Pagina Per Me. Il blocco è risolto; gli esiti effettivi sono registrati di seguito.
+
+## Operazioni successive al consenso — 10 novembre 2026
+
+### Esiti effettivi degli otto gruppi con nuova iscrizione della Pagina
+
+Prima di ogni invio sono stati verificati il profilo di gruppo **Per Me — Pagina, Blogger**, la data di iscrizione e l'assenza di precedenti post della Pagina nel gruppo. I moduli di composizione mostravano autore Per Me. Un solo invio per gruppo.
+
+| Gruppo | Nuova iscrizione Pagina | Esito del post | Collegamento verificato e limiti |
+|---|---|---|---|
+| Bolzano Città | Confermata | **IN MODERAZIONE** | https://www.facebook.com/groups/1030417283822699/posts/3274223969442008 — pagina individuale aperta e ricontrollata; autore Per Me e avviso di attesa amministratori. NON pubblico. |
+| Bolzano Quotidiano | Confermata | **NESSUN INVIO** | https://www.facebook.com/groups/1750376068575885/ — controllato anche il profilo di gruppo della Pagina e la sezione dei propri contenuti, senza post precedenti. Nessun pulsante «Scrivi qualcosa...» nel feed a caricamento terminato; controllo ripetuto al termine con lo stesso esito. Non attribuire una causa non documentata. |
+| Se sei di Merano,cosa non ti piace,ma anche cosa ti piace.. | Confermata | **IN MODERAZIONE** | https://www.facebook.com/groups/1528915324007853/posts/4694585494107471 — pagina individuale aperta e ricontrollata; avviso di attesa amministratori. NON pubblico. |
+| Se sei di Merano e dalla parte dei cittadini | Confermata | **RIFIUTATO** | https://www.facebook.com/groups/528338790632853/my_declined_content — contenuto riconosciuto dal testo nella sezione Rifiutati, che mostra 1 post. Nessuna motivazione specifica visibile. L'ID 4212109995589029 era stato recuperato dopo l'invio, ma la pagina individuale non è più disponibile: NON presentarla come post pubblico. Nessun reinvio. |
+| SE TE SEI DE ROVERETO | Confermata | **IN MODERAZIONE** | https://www.facebook.com/groups/1005490746141009/posts/29273149082281797 — pagina individuale aperta e ricontrollata; avviso di attesa amministratori. NON pubblico. |
+| Sei di Pergine se...... | Confermata | **PUBBLICATO E VISIBILE** | https://www.facebook.com/groups/218467015023301/posts/3233836773486295/ — feed e pagina individuale aperti; autore Per Me, visibilità Gruppo pubblico e controlli di commento/condivisione disponibili. Nessun avviso di moderazione. |
+| Bressanone - Brixen News | Confermata | **IN MODERAZIONE** | https://www.facebook.com/groups/1525044207912984/posts/2770116966739029/ — pagina individuale aperta e ricontrollata; avviso di attesa amministratori. NON pubblico. |
+| Questa è Brunico; compravendite, eventi, discussioni, info | Confermata | **IN MODERAZIONE** | https://www.facebook.com/groups/2100872140197478/posts/4745901949027804/ — pagina individuale aperta; avviso di attesa amministratori. NON pubblico. |
+
+**Totale nuovi invii dopo il consenso: 7 = 1 visibile + 5 in moderazione + 1 rifiutato.** Le otto iscrizioni non sono otto pubblicazioni. I collegamenti dei post pendenti possono essere accessibili soltanto al relativo autore e agli amministratori; non sono prove di visibilità pubblica.
+
+### Ricerca territoriale e gruppi esclusi dopo lettura diretta
+
+La ricerca è stata svolta nella sezione Gruppi di Facebook per Rovereto, Pergine Valsugana, Riva del Garda, Bressanone e Brunico. I gruppi di compravendita, affitti, turismo o lavoro non sono stati automaticamente considerati pertinenti. La mera comparsa nei risultati non è un'iscrizione né una pubblicazione.
+
+| Gruppo verificato | Collegamento | Motivo per non inviare |
+|---|---|---|
+| Sei di Pergine se...⚪️🔴 | https://www.facebook.com/groups/seidiperginese/ | Descrizione completa letta: esclude pubblicità e contenuti estranei alla città. Nessuna iscrizione o pubblicazione. |
+| Sei di Riva del Garda se...... | https://www.facebook.com/groups/491987490912573/ | Lette le quattro regole; la prima richiede contenuti riguardanti Riva/Trentino. La presentazione generale del progetto non contiene informazioni locali specifiche. Nessuna iscrizione o pubblicazione. |
+| Sei di Riva se ... | https://www.facebook.com/groups/1459643467596856/ | Regole 1 e 3 vietano la promozione; regola 5 limita i contenuti all'argomento cittadino. Nessuna iscrizione o pubblicazione. |
+| Bressanone, di tutto di più... | https://www.facebook.com/groups/823314047705450/ | La descrizione rivela che si tratta di compravendita, scambio e regalo di oggetti. Nessuna iscrizione o pubblicazione. |
+| Bacheca di Brunico | https://www.facebook.com/groups/423901737795664/ | Descrizione dedicata ad annunci locali e regola 2 contraria alla promozione. Nessuna iscrizione o pubblicazione. |
+
+Restano valide le esclusioni precedenti, incluso MeranO Community. Nessun messaggio diretto a membri o amministratori è stato inviato.
+
+Ulteriori elementi dei gruppi dove è stato effettuato l'invio:
+- **Rovereto:** descrizione completa e sei regole lette; discussione generale ammessa, con limiti su privacy, foto, politica e anonimato. Il post originale del progetto non ricade nei divieti letti.
+- **Pergine, gruppo 218467015023301:** nessuna descrizione o regola aggiuntiva visibile nella sezione Informazioni; verificato feed con contenuti generali pubblicati anche da Pagine. Nessun divieto esplicito rilevato, senza attribuire un'approvazione preventiva agli amministratori.
+- **Bressanone - Brixen News:** nessuna descrizione o regola aggiuntiva visibile nella sezione Informazioni; l'invio è sottoposto alla moderazione del gruppo.
+- **Questa è Brunico:** descrizione completa e quattro regole lette; sono ammesse informazioni e discussioni utili ai cittadini. Nessun divieto di presentare una risorsa gratuita rilevato.
+
+### Testi effettivamente inviati
+
+Nei sei gruppi Bolzano Città, primo Merano, Rovereto, Pergine, Bressanone e Brunico è stato inviato il seguente testo, con la rispettiva località nel primo periodo:
+
+> Per chi a [località] deve orientarsi tra pensione, pratiche INPS, busta paga e debiti, segnaliamo Per Me: un progetto personale gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e per i familiari che le aiutano.
+>
+> Il sito raccoglie guide pratiche in italiano, con fonti consultabili, anche su salute e strumenti digitali. Le guide offrono informazioni generali; per valutare il proprio caso occorre rivolgersi ai servizi competenti.
+>
+> https://cpcpcp106-coder.github.io/Per-Me/
+
+Nel secondo gruppo di Merano, dove il post è poi stato rifiutato:
+
+> Una risorsa gratuita per chi a Merano aiuta un familiare con pensioni, pratiche INPS, lavoro e servizi digitali.
+>
+> Per Me è un progetto personale gratuito e non commerciale, pensato soprattutto per persone tra 50 e 70 anni e per chi le aiuta. Le guide pratiche in italiano rimandano a fonti consultabili e offrono informazioni generali; per la valutazione del singolo caso occorre rivolgersi ai servizi competenti.
+>
+> Il sito è qui: https://cpcpcp106-coder.github.io/Per-Me/
+
+Nessun dato personale o sensibile ulteriore del curatore è stato inserito. Non sono stati dichiarati legami con enti o comunità locali, collaborazioni professionali o revisioni indipendenti.
+
+### Correzione operativa e controllo finale
+
+Durante il caricamento, i riquadri dei gruppi suggeriti hanno spostato alcuni comandi. Una bozza per Pergine si è aperta nella destinazione errata ed è stata chiusa senza pubblicarla; non si conteggia come invio. La destinazione corretta è stata riaperta, il pannello dei suggerimenti chiuso e autore e gruppo controllati prima dell'invio effettivo. Nessun post è stato pubblicato nei gruppi visitati accidentalmente.
+
+Al controllo conclusivo sono stati riaperti i post di Bolzano Città e del primo gruppo Merano, poi le pagine dei post di Rovereto e Bressanone: tutti ancora in moderazione. Confermata l'assenza del modulo a Bolzano Quotidiano dopo caricamento del feed. Brunico è stato verificato in moderazione nella pagina individuale. Il rifiuto del secondo gruppo Merano e il post pubblico di Pergine restano esiti distinti.
+
+Nessun duplicato, reinvio dopo rifiuto o operazione dal profilo personale. Nessuna spesa o ricarica. Non dedurre visite o lettori da questi esiti.
