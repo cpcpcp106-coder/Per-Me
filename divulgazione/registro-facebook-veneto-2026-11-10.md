@@ -16,3 +16,12 @@ Conteggio di questa sessione: 4 post segnalati visibili (Portogruaro, Montebellu
 Gruppi candidati ancora da verificare: Este, Belluno, Rovigo, Badia Polesine. Occorre inoltre ricontrollare i cinque post precedentemente in moderazione nel registro 25 ottobre e riprovare Chioggia solo dopo diagnosi tecnica. Evitare ripetizioni e non pubblicare usando il profilo personale.
 
 Nota di qualità: alcuni testi generati dall'automazione non erano pienamente allineati alla descrizione editoriale di Per Me (es. riferimento a uno 'spazio di confronto tra pari' a Schio). Nelle prossime pubblicazioni utilizzare descrizioni aderenti alle guide effettivamente disponibili.
+## Integrazione successiva — stessa sessione
+
+| Gruppo | Stato | Collegamento | Note |
+|---|---|---|---|
+| Este Pubblicità Eventi | Post visibile | https://www.facebook.com/groups/estepd/ | Pagina Per Me; permalink stabile non recuperato |
+| Belluno Pubblicità Eventi | Post visibile | https://www.facebook.com/groups/bellunoeventi/ | Pagina Per Me; permalink non recuperato |
+| Rovigo Pubblicità Eventi | NON inviato | https://www.facebook.com/groups/rovigoeventi/ | Campo testo del composer non compilato; regolamento completo non verificato |
+
+Totale sessione finora: 6 post segnalati visibili, 1 in moderazione, 2 non inviati. Rimane Badia Polesine tra i 10 candidati identificati; ricontrollare vecchi post in moderazione e link diretti mancanti. Non è stata attivata ricarica automatica.
