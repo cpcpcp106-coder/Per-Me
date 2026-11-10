@@ -21,3 +21,12 @@ Altri gruppi di marketplace, turismo e lavoro sono stati considerati superficial
 ## Criteri di prosecuzione
 
 Verificare gruppi cittadini e tematici con regole compatibili; pubblicare solo dalla Pagina Per Me, un messaggio per gruppo, nessun duplicato, nessun dato personale del curatore, nessuna spesa. Registrare link individuali dei post soltanto se effettivamente recuperati.
+
+## Ricerca mirata successiva — 10 novembre 2026
+
+Ricerca gratuita preliminare ha individuato testimonianze indipendenti su gruppi cittadini: «Sei di Trento se...» (articolo recente di ondaverba.com) e «Sei di Rovereto se...» (giornaletrentino.it, 2014). Non sono prove delle regole attuali.
+
+- **Sei di Trento se...**: https://www.facebook.com/groups/sei.di.trento.se/ — gruppo pubblico, circa 38.486 membri rilevati dal browser. Regole esaminate: i contenuti pubblicitari non autorizzati sono rimossi e i nuovi membri sono sottoposti a controllo amministratori. **Nessun post Per Me inviato.** ATTENZIONE: nonostante istruzioni esplicite, il browser ha confermato un'**iscrizione accidentale dal profilo personale**, non dalla Pagina Per Me. Questo NON è un'iscrizione della Pagina e richiede annullamento dal profilo personale; non dichiarare risolto finché non verificato. Il browser ha affermato genericamente che le Pagine sono ammesse ma non ha verificato l'iscrizione effettiva della Pagina.
+- **Sei di Rovereto se...**: trovato nei risultati ma URL https://www.facebook.com/groups/sei.di.rovereto.se/ **non verificato**; nessuna iscrizione o pubblicazione.
+
+**Bilancio aggiornato:** tre gruppi aperti e analizzati in dettaglio, zero post pubblicati, zero post in moderazione. Due iscrizioni della Pagina a gruppi turistici, una iscrizione accidentale personale a Trento da correggere. Nessun risultato di divulgazione effettiva. Credito navigazione prepagato residuo riportato dallo strumento circa US$0,87; NON ricaricare automaticamente né eseguire ricerche a pagamento senza una verifica preventiva dell'utilità.
