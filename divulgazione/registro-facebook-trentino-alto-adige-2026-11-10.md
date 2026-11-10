@@ -37,3 +37,9 @@ Ricerca gratuita preliminare ha individuato testimonianze indipendenti su gruppi
 - Identità Facebook corrente ripristinata a **Pagina Per Me**, verificata tramite selettore account e «Commenta come Per Me».
 - **PUBBLICITA' TRENTINO**, https://www.facebook.com/groups/PUBBLICITA.TRENTINO — gruppo pubblico con circa 2.883 membri, dedicato agli annunci; non emergono regole restrittive esplicite. Non è però verificata l'ammissione delle Pagine per pubblicazioni gratuite. **Nessun post inviato**; è solo candidato, non pubblicazione.
 - **Totale pubblicazioni Trentino-Alto Adige: zero**. Nessuna ricarica automatica. Saldo prepagato riportato dal browser circa USD 0,42.
+
+## Riscontro da schermata Facebook fornita dall'utente — 10 novembre, ore 13:38
+
+La schermata delle notifiche Facebook mostra, con identità Pagina Per Me nell'angolo superiore, «Ti diamo il benvenuto in TRENTINO ❤️ ALTO ADIGE! Ora puoi pubblicare post e connetterti con gli altri…» (24 minuti prima). Questo conferma la **notifica di benvenuto/iscrizione** e l'abilitazione tecnica, **non** l'autorizzazione a pubblicare materiale promozionale contro l'articolo 7 del regolamento, né l'esistenza di post pubblicati. Il gruppo resta escluso dalla divulgazione salvo consenso amministratori.
+
+Nelle stesse schermate risultano notifiche di benvenuto nei gruppi Castelfranco, Este, Schio e Chioggia (Veneto) e una notifica di approvazione post a Maniago (FVG). Sono dati di altre regioni e non si conteggiano come pubblicazioni Trentino-Alto Adige.
