@@ -62,3 +62,14 @@ Candidati reperiti da fonte esterna AlpeNews (https://medienfriz.wordpress.com/t
 Gruppi di compravendita Bolzano segnalati da fonte SEAB Bolzano (https://www.seab.bz.it/it/privati/ancora-in-buono-stato): non pertinenti e non da contattare per Per Me.
 
 **Nessun nuovo invio in questa ricerca.** Il post PUBBLICITA' TRENTINO resta in moderazione fino a prova contraria. Non dedurre approvazione da assenza di nuove verifiche. Evitare ulteriori consumi di credito per ricerca non mirata.
+
+## Ricerca territoriale aggiuntiva — 10 novembre 2026 (senza browser a pagamento)
+
+Fonti giornalistiche che documentano gruppi Facebook territoriali, **non** equivalenti a verifica di gruppi attivi nel 2026, regole o permesso di pubblicazione:
+
+- Vita Trentina, «Facebook, così globale, ma anche tanto locale»: https://www.vitatrentina.it/rubriche/facebook-cosi-globale-ma-anche-tanto-locale/ — gruppi 'Se te sei de Rovereto', Riva, Arco, Pergine, valli e sobborghi di Trento; nessun URL Facebook individuale verificato.
+- Alto Adige, «La pagina di Facebook per l'amarcord meranese»: https://www.altoadige.it/cronaca/bolzano/la-pagina-di-facebook-per-lamarcord-meranese-s83zqa0a — 'Sei di Merano se...', tema ricordi, da valutare come potenzialmente non pertinente.
+- La Voce di Bolzano, «#BolzanoinComune»: https://www.lavocedibolzano.it/distantimauniticonbic-tutti-a-casa-in-compagnia-delle-dirette-facebook-di-bolzano-in-comune/ — comunità civica, regole e link Facebook da verificare.
+- SALTO, «Mediterranei-dolomitici in festa»: https://salto.bz/it/article/11062022/mediterranei-dolomitici — 'Sudtirolesi del sud', comunità di aiuto reciproco; da verificare attualità e regole.
+
+Nessun nuovo post, richiesta di iscrizione o approvazione verificato con questa ricerca. **Stato invariato: 1 post inviato in moderazione a PUBBLICITA' TRENTINO, 0 post pubblicamente verificati.** Non pubblicare in gruppi esclusivamente nostalgici, turistici o non pertinenti senza verificare i regolamenti. Nessuna ricarica o promozione acquistata.
