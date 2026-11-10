@@ -30,3 +30,10 @@ Ricerca gratuita preliminare ha individuato testimonianze indipendenti su gruppi
 - **Sei di Rovereto se...**: trovato nei risultati ma URL https://www.facebook.com/groups/sei.di.rovereto.se/ **non verificato**; nessuna iscrizione o pubblicazione.
 
 **Bilancio aggiornato:** tre gruppi aperti e analizzati in dettaglio, zero post pubblicati, zero post in moderazione. Due iscrizioni della Pagina a gruppi turistici, una iscrizione accidentale personale a Trento da correggere. Nessun risultato di divulgazione effettiva. Credito navigazione prepagato residuo riportato dallo strumento circa US$0,87; NON ricaricare automaticamente né eseguire ricerche a pagamento senza una verifica preventiva dell'utilità.
+
+## Correzione verificata e gruppo candidato — 10 novembre
+
+- **Sei di Trento se...:** iscrizione personale accidentale **ANNULLATA** tramite «Abbandona gruppo», con conferma di uscita dal browser autenticato. Questo aggiornamento prevale sulla precedente voce «da correggere».
+- Identità Facebook corrente ripristinata a **Pagina Per Me**, verificata tramite selettore account e «Commenta come Per Me».
+- **PUBBLICITA' TRENTINO**, https://www.facebook.com/groups/PUBBLICITA.TRENTINO — gruppo pubblico con circa 2.883 membri, dedicato agli annunci; non emergono regole restrittive esplicite. Non è però verificata l'ammissione delle Pagine per pubblicazioni gratuite. **Nessun post inviato**; è solo candidato, non pubblicazione.
+- **Totale pubblicazioni Trentino-Alto Adige: zero**. Nessuna ricarica automatica. Saldo prepagato riportato dal browser circa USD 0,42.
