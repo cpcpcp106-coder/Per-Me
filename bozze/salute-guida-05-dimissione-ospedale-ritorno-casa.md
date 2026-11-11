@@ -1,3 +1,5 @@
+> **Aggiornamento 11 novembre 2026:** questa bozza è stata sviluppata e pubblicata come [Guida 06 — Tornare a casa dopo un ricovero](../salute-guida-06-dimissione-ospedale-ritorno-casa.html). Il numero 05 era provvisorio; la Guida 05 pubblicata riguarda il Fascicolo sanitario elettronico. Il testo seguente è archivio della bozza.
+
 # BOZZA NON PUBBLICATA — Salute e autonomia, possibile Guida 05
 ## Tornare a casa dopo un ricovero: documenti, farmaci, controlli e aiuto pratico
 **Data di preparazione:** 22 ottobre 2026  

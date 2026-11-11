@@ -315,6 +315,41 @@
     "category": "Pensione e invalidità"
   },
   {
+    "path": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+    "title": "CIGO, CIGS, FIS e solidarietà: capire quale trattamento ti riguarda",
+    "category": "Soldi e lavoro"
+  },
+  {
+    "path": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+    "title": "Cassa integrazione non pagata: chi paga e quali controlli fare",
+    "category": "Soldi e lavoro"
+  },
+  {
+    "path": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+    "title": "Ferie, tredicesima e TFR durante CIG o solidarietà",
+    "category": "Soldi e lavoro"
+  },
+  {
+    "path": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+    "title": "Fine del rapporto di lavoro: documenti, pagamenti e tutele",
+    "category": "Soldi e lavoro"
+  },
+  {
+    "path": "lavoro-guida-11-naspi-domanda-scadenze.html",
+    "title": "NASpI: requisiti, domanda, scadenze e primi adempimenti",
+    "category": "Soldi e lavoro"
+  },
+  {
+    "path": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+    "title": "TFR non pagato: prospetto, tempi e Fondo di garanzia",
+    "category": "Soldi e lavoro"
+  },
+  {
+    "path": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+    "title": "Cercare lavoro dopo i 50 anni: competenze, curriculum e servizi",
+    "category": "Soldi e lavoro"
+  },
+  {
     "path": "ore-ferie-permessi-malattia-straordinari.html",
     "title": "Ore, ferie, permessi, malattia e straordinari: come controllare il cedolino",
     "category": "Soldi e lavoro"
@@ -357,6 +392,21 @@
   {
     "path": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
     "title": "Esami cardiologici: ECG, ecocardiogramma, Holter, test da sforzo e coronarografia",
+    "category": "Salute e autonomia"
+  },
+  {
+    "path": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+    "title": "Tornare a casa dopo un ricovero: documenti, terapie e assistenza",
+    "category": "Salute e autonomia"
+  },
+  {
+    "path": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+    "title": "Prenotare visite ed esami: CUP, priorità e liste di attesa",
+    "category": "Salute e autonomia"
+  },
+  {
+    "path": "salute-guida-08-patente-malattie-croniche-certificati.html",
+    "title": "Rinnovare la patente con malattie croniche: visita e documenti",
     "category": "Salute e autonomia"
   },
   {

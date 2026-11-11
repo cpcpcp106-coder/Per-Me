@@ -1,6 +1,27 @@
 # Per Me — Piano editoriale e priorità
 
-**Stato aggiornato al 22 ottobre 2026.** La sezione del 15 ottobre in fondo è conservata come documento storico: contiene previsioni superate e non va utilizzata per dedurre quali guide siano ancora da pubblicare.
+**Stato corrente: 11 novembre 2026.** Le sezioni successive sul lavoro del 22/15 ottobre sono archivio storico e contengono previsioni superate.
+
+## Percorsi di base pubblicati
+
+| Rubrica | Guide disponibili |
+|---|---|
+| Soldi & Lavoro | 13 |
+| Pensione e invalidità | 8 |
+| Debiti e cartelle | 9 |
+| Agevolazioni e diritti | 8 nazionali + 2 schede FVG |
+| Salute e autonomia | 8 |
+| Tutor AI | percorso base con 6 prompt + 6 approfondimenti |
+| Diabete tipo 2 | 30 |
+| Dieta mediterranea | 8 + 2 ricette complete |
+
+Completati i temi rimasti aperti nel piano: sette guide Lavoro (07–13), tre Salute (06–08). La bozza sulla dimissione, inizialmente numerata 05, è confluita nella **Guida 06**; la Guida 05 FSE resta al suo indirizzo. Ogni guida ha una foto nel corpo della pagina. Nessun numero di visite o URL indicizzati è dedotto dalla pubblicazione.
+
+La manutenzione prosegue su fonti, scadenze, utilità e comprensione con lettori reali. Il completamento di questo programma non equivale a esaurire ogni argomento né a una revisione professionale indipendente. Per verifiche e limiti vedi `verifiche/completamento-guide-foto-2026-11-11.md`.
+
+---
+
+## Archivio — stato del 22 ottobre 2026
 
 ## Intervento operativo avviato il 22 ottobre 2026
 - **Google:** verifica delle fonti ufficiali e dati Search Console disponibili: 22 impressioni e 0 clic dal 15 al 20 ottobre; il rapporto nativo di «Indicizzazione delle pagine» e le eventuali azioni manuali restano inaccessibili dagli strumenti attualmente collegati. Il connettore GSC Wizard è bloccato da fine prova; non riprovare né suggerire acquisti come soluzione tecnica. Nessun numero di URL indicizzati è stato inventato.

@@ -1,0 +1,76 @@
+{
+  "data": "2026-11-10",
+  "origine": "Generazione originale in ChatGPT, formato orizzontale 3:2, stile fotografico documentario, persone immaginarie, luce naturale, senza loghi o testo, con documenti privi di dati leggibili. Una generazione per ciascuna guida.",
+  "immagini": [
+    {
+      "file": "assets/lavoro-guida-07-cigo-cigs-fis-solidarieta-originale.webp",
+      "guida": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "scena_richiesta": "Due colleghi adulti esaminano un calendario senza dati leggibili in un’officina.",
+      "output_origine": "exec-a8e7df36-30d2-4ad9-9794-a107074f6482.png",
+      "sha256_webp": "219b1b5d60b285ec15062a677a4643fc6667cad057c45394de81ef7dc64b042c"
+    },
+    {
+      "file": "assets/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi-originale.webp",
+      "guida": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "scena_richiesta": "Un uomo adulto verifica al computer un accredito, con busta chiusa e quaderno.",
+      "output_origine": "exec-db1c7976-e9b4-405f-850a-75f25de22370.png",
+      "sha256_webp": "fdb378a267c0874f5f8786133a09b462bbe1dc2d4731e6a3b79344d5f7fa9c81"
+    },
+    {
+      "file": "assets/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione-originale.webp",
+      "guida": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "scena_richiesta": "Una donna adulta confronta calendario, calcolatrice e documenti in casa.",
+      "output_origine": "exec-8f39eb3f-6b19-445d-83e7-682ca65c8dec.png",
+      "sha256_webp": "759f01f19342fdd27316433a268e31e8fe12763265381f9f40d916f0c275b94c"
+    },
+    {
+      "file": "assets/lavoro-guida-10-fine-rapporto-documenti-tutele-originale.webp",
+      "guida": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "scena_richiesta": "Una lavoratrice raccoglie in una cartella i documenti con una consulente.",
+      "output_origine": "exec-cee79c73-be5c-4ee7-a021-64374cd9ef05.png",
+      "sha256_webp": "2a9103ac8efe0a1dea016c5115a7ad767a1b1e0fb2ae0e89ae5caa21781a92b8"
+    },
+    {
+      "file": "assets/lavoro-guida-11-naspi-domanda-scadenze-originale.webp",
+      "guida": "lavoro-guida-11-naspi-domanda-scadenze.html",
+      "scena_richiesta": "Una donna prepara una domanda di disoccupazione al portatile, con lista e cartella.",
+      "output_origine": "exec-35598e05-3e8a-4e6d-a06c-3ce267d8e8ba.png",
+      "sha256_webp": "f0daa72c34181a0366b0ebd8a93284fb8a35161d1ae2e9e15fbd7d280af4e773"
+    },
+    {
+      "file": "assets/lavoro-guida-12-tfr-pagamento-fondo-garanzia-originale.webp",
+      "guida": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "scena_richiesta": "Un lavoratore adulto e una consulente confrontano i conti finali, con cartella e calcolatrice.",
+      "output_origine": "exec-08c7b8dc-dcb7-4638-8bcb-cd1b7b2023ef.png",
+      "sha256_webp": "b7583fbabee02224550e6ed6f6b0ff753841c0a333a8d1d061c9c5ed5a811bd2"
+    },
+    {
+      "file": "assets/lavoro-guida-13-cercare-lavoro-dopo-50-anni-originale.webp",
+      "guida": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "scena_richiesta": "Una donna adulta parla delle sue competenze con un consulente per l’impiego.",
+      "output_origine": "exec-593d356e-4da0-4cc1-87a9-6a7d834d4295.png",
+      "sha256_webp": "d675ce2e9c6f95ef5fd76d49da8f43c63307f61113b8a0840ad53af6b22d7a49"
+    },
+    {
+      "file": "assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+      "guida": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "scena_richiesta": "Una donna anziana e sua figlia organizzano la cartella del rientro a casa dopo un ricovero.",
+      "output_origine": "exec-f47732da-9da1-4218-99dd-f9c707b6bf91.png",
+      "sha256_webp": "506a87803ecdfb8f034d8c71b52ad86f9f06a660513f0a1a027db29afe8de7fe"
+    },
+    {
+      "file": "assets/salute-guida-07-cup-prenotazioni-liste-attesa-originale.webp",
+      "guida": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "scena_richiesta": "Un uomo adulto prenota un appuntamento sanitario al telefono.",
+      "output_origine": "exec-93f451cc-a806-420c-9b3e-b13b8b8966ef.png",
+      "sha256_webp": "3de9775d3a8b242e57eae3980884b2ebb32ff318308b2c9627c01aab451a64a8"
+    },
+    {
+      "file": "assets/salute-guida-08-patente-malattie-croniche-certificati-originale.webp",
+      "guida": "salute-guida-08-patente-malattie-croniche-certificati.html",
+      "scena_richiesta": "Una donna adulta discute del rinnovo della patente con un medico, con cartella e chiavi sul tavolo.",
+      "output_origine": "exec-8e1a78c7-6be3-4fe0-9903-e08423f81da6.png",
+      "sha256_webp": "0b78e76be899c1996b3d102a7af7521ac0791f866345829064825d8d9210490b"
+    }
+  ]
+}

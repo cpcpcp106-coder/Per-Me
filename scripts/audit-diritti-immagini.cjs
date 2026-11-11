@@ -10,6 +10,8 @@ const crypto=require('node:crypto');
 const assert=require('node:assert/strict');
 const ROOT=path.resolve(__dirname,'..');
 const reg=JSON.parse(fs.readFileSync(path.join(ROOT,'FONTI/registro-diritti-immagini.json'),'utf8'));
+const guidePaths=new Set(JSON.parse(fs.readFileSync(path.join(ROOT,'gradimento-articoli.json'),'utf8')).map(item=>item.path));
+const excludedEditorialPages=new Set(['index.html','metodo.html','chi-siamo.html','monitoraggio.html','gradimento.html']);
 const local=new Map(reg.local.map(item=>[item.file,item]));
 const remote=new Map(reg.stock.map(item=>[item.src_path,item]));
 const LEGACY_AI_CONFIRMED_BY_OWNER=new Set([
@@ -102,9 +104,24 @@ function verifyImage(value,baseFile){
  if(relative.startsWith('../')||!local.has(relative)){errors.push('Immagine locale non registrata: '+baseFile+' => '+relative);return}
  usedLocal.add(relative);
 }
+let pagesWithPhotos=0;
 for(const f of files){
  if(/\.html$/i.test(f.rel)){
   const txt=fs.readFileSync(f.full,'utf8');
+  const main=txt.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)?.[0]||'';
+  const editorialPage=!f.rel.includes('/')&&!excludedEditorialPages.has(f.rel)&&(guidePaths.has(f.rel)||/<article\b/i.test(main));
+  if(editorialPage){
+   const photos=[...main.matchAll(/<img\b[^>]*>/gi)].map(match=>match[0]).filter(tag=>{
+    const src=tag.match(/\bsrc=["']([^"']+)/i)?.[1]||'';
+    const raster=/\.(?:jpe?g|png|webp|avif)(?:[?#]|$)/i.test(src)||remote.has(src.split(/[?#]/)[0]);
+    return !/\bbrand-logo\b/i.test(tag)&&raster;
+   });
+   if(!photos.length)errors.push('Foto editoriale assente: '+f.rel);
+   else pagesWithPhotos++;
+   for(const photo of photos){
+    if(!photo.match(/\balt=["']([^"']*)/i)?.[1].trim())errors.push('Foto editoriale senza testo alternativo: '+f.rel);
+   }
+  }
   for(const match of txt.matchAll(/<img\b[^>]*>/gi)){
    const src=match[0].match(/\bsrc=["']([^"']+)["']/i);
    if(!src)errors.push('Immagine priva di src in '+f.rel);
@@ -122,6 +139,7 @@ for(const f of files){
 const aiLocal=[...usedLocal].filter(f=>local.get(f).licensing==='AI_CHATGPT_DICHIARATA_AUTORE');
 for(const msg of errors)console.error('ERROR: '+msg);
 console.log('Controllo immagini: '+assets.length+' file locali registrati; '+usedLocal.size+' locali richiamati; '+usedRemote.size+' fotografie stock con licenze piattaforma verificate.');
+console.log('Foto nel contenuto e testo alternativo controllati in '+pagesWithPhotos+' pagine di guide e indici.');
 console.log('Immagini locali ChatGPT dichiarate dal proprietario e usate nel sito: '+aiLocal.length+'; in inventario storico: '+reg.local.filter(x=>x.licensing==='AI_CHATGPT_DICHIARATA_AUTORE').length+'.');
 console.log('La conferma dell’autore non sostituisce una prova individuale dei diritti di eventuali materiali di terzi.');
 assert.equal(errors.length,0,'Immagini assenti, non registrate o modificate senza aggiornare il registro.');
