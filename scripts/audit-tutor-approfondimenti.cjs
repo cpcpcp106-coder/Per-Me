@@ -41,7 +41,8 @@ for(const [file,photo] of guides){
 }
 assert.ok(appHtml.includes('src="main.js?v=13"'));
 assert.ok(sw.includes("'./main.js?v=13'"));
-assert.ok(sw.includes("perme-reader-v17-20261023-tutor-completo"));
+const cacheVersion=Number(sw.match(/\bconst CACHE='perme-reader-v(\d+)-[^']+';/)?.[1]);
+assert.ok(cacheVersion>=17,'La cache deve includere la revisione Tutor AI o una versione successiva');
 new vm.Script(app,{filename:'app/main.js'});
 console.log('PASS Tutor AI approfondimenti: '+checked+' guide originali, 10 prompt e controlli di accessibilita, privacy, PWA, sitemap e sintassi.');
 console.log('LIMITI: non certifica Android fisico, caricamento visivo o comprensione con lettori.');
