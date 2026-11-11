@@ -1,8 +1,8 @@
 # Divulgazione Facebook Per Me — Trentino-Alto Adige
 
-Data di apertura: 10 novembre 2026. Attività effettuata dalla Pagina Facebook Per Me, non dal profilo personale. Non equiparare iscrizioni, post in moderazione, post pubblicati e visite.
+Registro del 10 novembre 2026. Gli invii documentati sono della Pagina Facebook Per Me. La cronologia include la correzione di un’iscrizione accidentale del profilo personale.
 
-## Stato attuale — ripresa gratuita autorizzata del 10 novembre 2026
+## Bilancio finale della sessione gratuita del 10 novembre 2026
 
 Questo riepilogo e l'ultima tabella degli esiti prevalgono sui conteggi e sui blocchi storici riportati nella cronologia.
 
@@ -20,7 +20,7 @@ Questo riepilogo e l'ultima tabella degli esiti prevalgono sui conteggi e sui bl
 1. **TRENTINO ❤️ ALTO ADIGE**, https://www.facebook.com/groups/531254104322446/ — Pagina Per Me iscritta. Regola n. 7 limita la pubblicità a strutture turistiche affiliate a Corriere Turismo. Gruppo turistico non pertinente alla divulgazione autonoma di Per Me. **Nessun post inviato**.
 2. **I Love Trentino Alto Adige**, https://www.facebook.com/groups/iloveTrentinoAltoAdige/ — Pagina Per Me iscritta. Regole sull'informazione gratuita non verificate; gruppo principalmente turistico/fotografico. **Nessun post inviato**.
 
-## Bilancio al 10 novembre
+## Bilancio intermedio prima degli invii
 
 - Gruppi verificati in dettaglio: 2.
 - Iscrizioni della Pagina: 2.
@@ -63,7 +63,7 @@ Nelle stesse schermate risultano notifiche di benvenuto nei gruppi Castelfranco,
 
 Testo inviato: «Per Me è un progetto gratuito e non commerciale: guide pratiche in italiano su pensioni e INPS, lavoro, salute, dieta mediterranea e strumenti digitali, pensate soprattutto per chi ha tra 50 e 70 anni e per i familiari. https://cpcpcp106-coder.github.io/Per-Me/».
 
-**Totale aggiornato Trentino-Alto Adige:** 1 post inviato e in moderazione; 0 post pubblicamente visibili. Nessuna spesa pubblicitaria, nessuna ricarica automatica. La ricerca e la divulgazione nelle altre località regionali restano da completare.
+**Bilancio intermedio dopo il primo invio.** Un post in moderazione, poi verificato visibile nel controllo successivo. Nessuna spesa pubblicitaria e nessuna ricarica automatica in questa fase.
 
 ## Ricerca pubblica senza browser a pagamento — 10 novembre 2026
 

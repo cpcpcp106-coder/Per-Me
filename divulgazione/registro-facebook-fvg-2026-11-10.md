@@ -2,6 +2,8 @@
 
 Registro integrativo al file `registro-facebook-fvg-2026-10-24.md`. Le seguenti operazioni sono state effettuate tramite browser autenticato con Pagina Facebook Per Me. Nessun post del 24 ottobre è stato eliminato o sostituito. I nuovi post sono aggiornamenti distinti, senza ricerca dei tre tester. Nessuna spesa pubblicitaria o ricarica automatica.
 
+**Bilancio documentato a fine sessione.** Otto nuovi post segnalati visibili nel feed e uno in moderazione, Aviano. Le approvazioni a Cividale e Maniago riguardano invii precedenti. Per i nuovi post il registro contiene gli indirizzi dei gruppi. Gli stati riportati nelle prime tabelle descrivono passaggi intermedi, aggiornati nel [riesame conclusivo](#riesame-conclusivo-del-10-novembre--correzioni-agli-stati-precedenti).
+
 | Gruppo | Esito nuovo post | Collegamento gruppo | Vecchio permalink verificato |
 |---|---|---|---|
 | Udine e provincia | Pubblicato e visibile 10/11 | https://www.facebook.com/groups/404415481931156/ | https://www.facebook.com/groups/404415481931156/posts/1145351617837535/ |
@@ -21,7 +23,7 @@ Da rivedere tra i nove gruppi con pubblicazioni originarie verificate: Latisana,
 | San Vito al Tagliamento | Pubblicato e visibile 10/11 | https://www.facebook.com/groups/7124456447577342/ | Nessuna moderazione preventiva; nuovo permalink non recuperato |
 | Palmanova | SOLO VERIFICA, NESSUN nuovo invio | https://www.facebook.com/groups/973757904438832/ | Regole complete non accessibili; automazione segnala un contenuto Per Me rimosso di identificazione incerta: chiarire prima di ripubblicare |
 
-Totale aggiornato: **6 nuovi post inviati** (Udine, Pordenone, Gorizia, Latisana, Codroipo, San Vito), tutti dichiarati pubblicati nel feed; Palmanova solo controllo. Restano Gradisca d'Isonzo e Aviano da ricontrollare, oltre alla verifica del caso Palmanova. Non considerare la pubblicazione come prova di clic o visite.
+Bilancio intermedio dopo i primi controlli: **6 nuovi post inviati** (Udine, Pordenone, Gorizia, Latisana, Codroipo, San Vito), tutti segnalati visibili nel feed. Gli esiti successivi per Gradisca d'Isonzo, Aviano e Palmanova sono riportati di seguito.
 
 ## Ultimi due gruppi storicamente pubblicati
 

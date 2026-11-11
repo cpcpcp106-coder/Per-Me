@@ -17,7 +17,7 @@
 
 Completati i temi rimasti aperti nel piano: sette guide Lavoro (07–13), tre Salute (06–08). La bozza sulla dimissione, inizialmente numerata 05, è confluita nella **Guida 06**; la Guida 05 FSE resta al suo indirizzo. Ogni guida ha una foto nel corpo della pagina. Nessun numero di visite o URL indicizzati è dedotto dalla pubblicazione.
 
-La manutenzione prosegue su fonti, scadenze, utilità e comprensione con lettori reali. Il completamento di questo programma non equivale a esaurire ogni argomento né a una revisione professionale indipendente. Per verifiche e limiti vedi `verifiche/completamento-guide-foto-2026-11-11.md`.
+L’11 novembre sono state rilette e approfondite le dieci guide nuove. Il [registro di revisione](../verifiche/revisione-guide-2026-11-11.md) documenta le correzioni, le fonti e il riesame dei registri di divulgazione. Il [registro di pubblicazione](../verifiche/completamento-guide-foto-2026-11-11.md) conserva le evidenze della prima uscita.
 
 ---
 

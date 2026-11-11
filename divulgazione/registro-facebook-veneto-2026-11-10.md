@@ -2,6 +2,8 @@
 
 Registro operativo integrativo al registro del 25 ottobre 2026. Esiti dichiarati da sessioni browser autenticate TinyFish con profilo "Per Me — Facebook". Nessuna promozione a pagamento né ricarica automatica attivata. I post in moderazione NON sono conteggiati come visibili. I collegamenti alla sola pagina del gruppo NON sono permalink dei post.
 
+**Bilancio documentato a fine sessione.** Sette post segnalati visibili, uno in moderazione e due senza invio, su dieci gruppi candidati esaminati. Il registro contiene il permalink di Bassano. Per gli altri sei post segnalati visibili è disponibile l’indirizzo del gruppo. Gli esiti si riferiscono al 10 novembre.
+
 | Gruppo | Stato 10/11/2026 | Collegamento | Note |
 |---|---|---|---|
 | Portogruaro Eventi | Post visibile nel feed | https://www.facebook.com/groups/portogruaroeventi/ | Pagina Per Me già iscritta; permalink non recuperato |
@@ -10,22 +12,11 @@ Registro operativo integrativo al registro del 25 ottobre 2026. Esiti dichiarati
 | Montebelluna Pubblicità Eventi | Post visibile nel feed | https://www.facebook.com/groups/montebellunatv/ | Iscrizione effettuata; permalink non recuperato; il testo includeva nome curatore (non ripetere) |
 | Schio Pubblicità Eventi | Post visibile nel feed | https://www.facebook.com/groups/schio/ | Iscrizione effettuata; permalink stabile non recuperato |
 | Bassano del Grappa Pubblicità Eventi | Post visibile nel feed | https://www.facebook.com/groups/622239501625761/posts/672818479901206/ | Permalink recuperato |
-
-Conteggio di questa sessione: 4 post segnalati visibili (Portogruaro, Montebelluna, Schio, Bassano); 1 in attesa (Castelfranco); 1 non pubblicato (Chioggia). Non si sommano automaticamente alle precedenti statistiche senza verifica di eventuali duplicazioni.
-
-Gruppi candidati ancora da verificare: Este, Belluno, Rovigo, Badia Polesine. Occorre inoltre ricontrollare i cinque post precedentemente in moderazione nel registro 25 ottobre e riprovare Chioggia solo dopo diagnosi tecnica. Evitare ripetizioni e non pubblicare usando il profilo personale.
-
-Nota di qualità: alcuni testi generati dall'automazione non erano pienamente allineati alla descrizione editoriale di Per Me (es. riferimento a uno 'spazio di confronto tra pari' a Schio). Nelle prossime pubblicazioni utilizzare descrizioni aderenti alle guide effettivamente disponibili.
-## Integrazione successiva — stessa sessione
-
-| Gruppo | Stato | Collegamento | Note |
-|---|---|---|---|
 | Este Pubblicità Eventi | Post visibile | https://www.facebook.com/groups/estepd/ | Pagina Per Me; permalink stabile non recuperato |
 | Belluno Pubblicità Eventi | Post visibile | https://www.facebook.com/groups/bellunoeventi/ | Pagina Per Me; permalink non recuperato |
 | Rovigo Pubblicità Eventi | NON inviato | https://www.facebook.com/groups/rovigoeventi/ | Campo testo del composer non compilato; regolamento completo non verificato |
-
-Totale sessione finora: 6 post segnalati visibili, 1 in moderazione, 2 non inviati. Rimane Badia Polesine tra i 10 candidati identificati; ricontrollare vecchi post in moderazione e link diretti mancanti. Non è stata attivata ricarica automatica.
-
 | Badia Polesine | Post visibile | https://www.facebook.com/groups/493598154077578/ | Pagina Per Me; permalink non recuperato |
 
-Totale aggiornato per la sessione 10/11/2026: **7 post visibili, 1 in moderazione, 2 non inviati** su 10 gruppi candidati esaminati. Resta la verifica degli esiti delle moderazioni precedenti e la ricerca di permalink stabili. Nessuna ricarica automatica attivata.
+Restano da verificare le cinque moderazioni precedenti registrate il 25 ottobre e da recuperare i permalink mancanti. Prima di riprovare a Chioggia, verifica il problema tecnico e lo stato dell’invio.
+
+**Nota sui testi.** A Schio il testo citava uno «spazio di confronto tra pari». La descrizione documentata del progetto è «guide gratuite di orientamento pratico». A Montebelluna il testo riportava il nome del curatore. Per futuri post usa le informazioni pubbliche sul progetto e i collegamenti alle guide disponibili.

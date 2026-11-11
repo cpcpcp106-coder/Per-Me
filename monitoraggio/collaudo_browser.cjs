@@ -27,6 +27,8 @@ record('home_load',await page.locator('h1').count()===1,await page.title());
 record('home_overflow_mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+3),await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth})));
 await axeTest(page,'home');
 let htmls=fs.readdirSync('.').filter(x=>x.endsWith('.html')&&!x.startsWith('google'));
+const practicalGuides=htmls.filter(name=>/^(lavoro-guida-(0[7-9]|1[0-3])|salute-guida-0[6-8])-/.test(name));
+const practicalGuideIssues=[];
 let failures=[];
 for(let name of htmls){let resp=await context.request.get(URL+name,{timeout:15000});if(!resp.ok())failures.push({page:name,status:resp.status()});}
 record('published_html_http_local',failures.length===0,{count:htmls.length,failures});
@@ -41,10 +43,30 @@ try{
   allPageOverflow.push({name,width390,width320});
  await page.setViewportSize({width:390,height:844});
  await axeTest(page,name);
+ if(practicalGuides.includes(name)){
+  const contents=page.locator('details.indice-guida');
+  await contents.locator('summary').click();
+  const problems=await page.evaluate(async()=>{
+   const issues=[];
+   const image=document.querySelector('article .foto-guida img');
+   const loaded=image && await image.decode().then(()=>image.naturalWidth>0,()=>false);
+   if(!loaded || !image.alt.trim())issues.push('Foto o testo alternativo mancante');
+   const facebook=[...document.querySelectorAll('article a[href="https://www.facebook.com/PerMeGuide/"]')];
+   if(facebook.length!==1 || facebook[0].getBoundingClientRect().height<56)issues.push('Pulsante Facebook mancante, duplicato o troppo piccolo');
+   const links=[...document.querySelectorAll('.indice-guida[open] a[href^="#"]')];
+   if(!links.length || links.some(link=>!document.getElementById(link.hash.slice(1))))issues.push('Indice o destinazione mancante');
+   return issues;
+  });
+  await page.setViewportSize({width:320,height:820});
+  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+3))problems.push('Scorrimento orizzontale con indice aperto');
+  await page.setViewportSize({width:390,height:844});
+  if(problems.length)practicalGuideIssues.push({name,problems});
+ }
 }catch(e){allPageBrowserErrors.push({name,error:String(e).slice(0,260)})}
 }
 record('all_root_html_mobile_reflow',allPageOverflow.length===0,{checked:htmls.length,violations:allPageOverflow});
 record('all_root_html_axe_wcag_auto',!report.axe.some(x=>x.error||(x.violations||[]).length) && !allPageBrowserErrors.length,{checked:htmls.length,failed:report.axe.filter(x=>x.error||(x.violations||[]).length).map(x=>({page:x.page,violations:x.violations?.map(y=>({id:y.id,nodes:y.total})),error:x.error})),errors:allPageBrowserErrors});
+record('practical_guides_photo_contents_and_facebook',practicalGuides.length===10 && !practicalGuideIssues.length,{checked:practicalGuides.length,issues:practicalGuideIssues});
 
 await page.goto(URL+'debiti-guida-09-a-chi-rivolgersi.html',{waitUntil:'domcontentloaded'});
 record('guide_09_load',await page.locator('article h1').count()===1,await page.locator('article h1').textContent());
@@ -66,6 +88,31 @@ await page.waitForTimeout(500);
 const offlinePage=await page.locator('#guide-list .guide-card').count();
 record('offline_shell_and_catalogue',offlinePage>=23,{count:offlinePage});
 if(offlinePage){await page.locator('#guide-list .guide-card').first().click();record('offline_guide_readable',(await page.locator('#reader-content').innerText()).trim().length>250,{title:await page.locator('#reader-title').innerText(),chars:(await page.locator('#reader-content').innerText()).length})}
+const offlineGuideIssues=[];
+for(const name of practicalGuides){
+ try{
+  await page.evaluate(path=>{location.hash='guida='+encodeURIComponent(path)},name);
+  await page.waitForFunction(path=>{
+   const link=document.querySelector('#reader-content details a[href]');
+   return link && new URL(link.href).pathname.endsWith('/'+path);
+  },name,{timeout:3000});
+  const contents=page.locator('#reader-content details');
+  await contents.locator('summary').click();
+  const link=contents.locator('a').first();
+  const id=await link.evaluate(a=>a.hash.slice(1));
+  await link.click();
+  const heading=page.locator('#reader-content').locator('#'+id);
+  await heading.waitFor({state:'visible',timeout:3000});
+  await page.waitForFunction(id=>{
+   const top=document.getElementById(id).getBoundingClientRect().top;
+   return top>=-5 && top<innerHeight;
+  },id,{timeout:3000});
+  if(!(await page.locator('#reader-content').innerText()).includes('Revisione documentale del')){
+   offlineGuideIssues.push({name,error:'Testo revisionato assente'});
+  }
+ }catch(e){offlineGuideIssues.push({name,error:String(e).slice(0,260)})}
+}
+record('practical_guides_updated_and_readable_offline',practicalGuides.length===10 && !offlineGuideIssues.length,{checked:practicalGuides.length,issues:offlineGuideIssues});
 await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);
