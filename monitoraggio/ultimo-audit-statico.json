@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-11T04:49:49+00:00",
+  "date_utc": "2026-11-11T06:26:19+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 112,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 3886,
-    "external_occurrences": 1709,
-    "external_unique": 739,
+    "local_occurrences": 3980,
+    "external_occurrences": 1720,
+    "external_unique": 745,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1439,53 +1439,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 27,
-      "links_external": 4,
-      "missing_local": 0,
-      "noindex": false,
-      "canonical": true,
-      "description": true,
-      "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
-    },
-    {
-      "file": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
-      "title": "Cassa integrazione non pagata: chi paga e quali controlli fare | Per Me",
-      "h1": 1,
-      "images": 2,
-      "images_without_alt": 0,
-      "links_local": 24,
+      "links_local": 38,
       "links_external": 6,
-      "missing_local": 0,
-      "noindex": false,
-      "canonical": true,
-      "description": true,
-      "skip_link": true,
-      "candidate_numeric_legal_mentions": 1
-    },
-    {
-      "file": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
-      "title": "Ferie, tredicesima e TFR durante CIG o solidarietà | Per Me",
-      "h1": 1,
-      "images": 2,
-      "images_without_alt": 0,
-      "links_local": 27,
-      "links_external": 6,
-      "missing_local": 0,
-      "noindex": false,
-      "canonical": true,
-      "description": true,
-      "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
-    },
-    {
-      "file": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
-      "title": "Fine del rapporto di lavoro: documenti, pagamenti e tutele | Per Me",
-      "h1": 1,
-      "images": 2,
-      "images_without_alt": 0,
-      "links_local": 25,
-      "links_external": 4,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -1494,19 +1449,64 @@
       "candidate_numeric_legal_mentions": 2
     },
     {
-      "file": "lavoro-guida-11-naspi-domanda-scadenze.html",
-      "title": "NASpI: requisiti, domanda, scadenze e primi adempimenti | Per Me",
+      "file": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "title": "Cassa integrazione non pagata: chi paga e quali controlli fare | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 26,
-      "links_external": 4,
+      "links_local": 34,
+      "links_external": 6,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 1
+      "candidate_numeric_legal_mentions": 4
+    },
+    {
+      "file": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "title": "Ferie, tredicesima e TFR durante CIG o solidarietà | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 36,
+      "links_external": 7,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 6
+    },
+    {
+      "file": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "title": "Fine del rapporto di lavoro: documenti, pagamenti e tutele | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 34,
+      "links_external": 6,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 9
+    },
+    {
+      "file": "lavoro-guida-11-naspi-domanda-scadenze.html",
+      "title": "NASpI: requisiti, domanda, scadenze e primi adempimenti | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 39,
+      "links_external": 6,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
@@ -1514,14 +1514,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 25,
+      "links_local": 34,
       "links_external": 5,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
@@ -1529,14 +1529,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 24,
-      "links_external": 3,
+      "links_local": 33,
+      "links_external": 5,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
+      "candidate_numeric_legal_mentions": 3
     },
     {
       "file": "metodo.html",
@@ -1769,14 +1769,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 25,
+      "links_local": 33,
       "links_external": 4,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 2
     },
     {
       "file": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
@@ -1784,14 +1784,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 25,
-      "links_external": 2,
+      "links_local": 34,
+      "links_external": 4,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 3
+      "candidate_numeric_legal_mentions": 9
     },
     {
       "file": "salute-guida-08-patente-malattie-croniche-certificati.html",
@@ -1799,14 +1799,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 25,
+      "links_local": 32,
       "links_external": 3,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 1
+      "candidate_numeric_legal_mentions": 9
     },
     {
       "file": "soldi-lavoro.html",
