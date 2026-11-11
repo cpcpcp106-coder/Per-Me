@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-11T04:49:37.444621+00:00",
+  "date_utc": "2026-11-11T06:28:59.197907+00:00",
   "scope": {
     "pages": 112,
-    "unique_external_urls": 739,
-    "occurrences": 1709
+    "unique_external_urls": 745,
+    "occurrences": 1720
   },
   "counts": {
-    "raggiungibile": 597,
-    "non_verificato_trasporto": 22,
-    "bloccato_o_riservato": 119,
-    "errore_http": 1
+    "raggiungibile": 605,
+    "bloccato_o_riservato": 120,
+    "non_verificato_trasporto": 18,
+    "errore_http": 2
   },
   "results": [
     {
@@ -406,6 +406,16 @@
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/it/policies/112",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://digital-strategy.ec.europa.eu/it/policies/112",
+      "pages": [
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
     },
     {
@@ -915,7 +925,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
@@ -924,7 +934,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -934,7 +944,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1019,9 +1029,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1579,14 +1588,6 @@
       ]
     },
     {
-      "url": "https://mit.gov.it/rinnovo-patente",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-      "pages": [
-        "salute-guida-08-patente-malattie-croniche-certificati.html"
-      ]
-    },
-    {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -1627,9 +1628,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/",
+      "status": "errore_http",
+      "http": 520,
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1960,6 +1960,15 @@
       ]
     },
     {
+      "url": "https://servizi.lavoro.gov.it/cerca-sportello",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.lavoro.gov.it/cerca-sportello",
+      "pages": [
+        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
+      ]
+    },
+    {
       "url": "https://servizi.regione.fvg.it/portale/",
       "status": "raggiungibile",
       "http": 200,
@@ -1985,15 +1994,6 @@
       "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm",
       "pages": [
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
-      ]
-    },
-    {
-      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+130+del+15-09-2017.htm",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+130+del+15-09-2017.htm",
-      "pages": [
-        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html"
       ]
     },
     {
@@ -2058,6 +2058,16 @@
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ]
+    },
+    {
+      "url": "https://siisl.lavoro.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://siisl.lavoro.gov.it/",
+      "pages": [
+        "lavoro-guida-11-naspi-domanda-scadenze.html",
+        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
       ]
     },
     {
@@ -3473,8 +3483,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4022,6 +4033,15 @@
       ]
     },
     {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=4&art.flagTipoArticolo=0&art.codiceRedazionale=17A02015&art.idArticolo=22&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2017-03-18&art.progressivo=0",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=4&art.flagTipoArticolo=0&art.codiceRedazionale=17A02015&art.idArticolo=22&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2017-03-18&art.progressivo=0",
+      "pages": [
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
       "status": "raggiungibile",
       "http": 200,
@@ -4258,7 +4278,6 @@
         "debiti-guida-09-a-chi-rivolgersi.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
-        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "pensione-invalidita.html",
         "redditi-red-comunicazioni-obbligatorie-inps.html",
         "riesame-ricorso-inps-termini.html",
@@ -4331,7 +4350,9 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/01/Circolare_15147/Allegati/16539_Circolare-numero-4-del-28-01-2026.pdf",
       "pages": [
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
-        "controllare-cedolino-cassa-integrazione-solidarieta.html"
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+        "lavoro-guida-11-naspi-domanda-scadenze.html"
       ]
     },
     {
@@ -4559,6 +4580,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html",
       "pages": [
+        "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
         "lavoro-guida-11-naspi-domanda-scadenze.html"
       ]
     },
@@ -4584,6 +4606,7 @@
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
         "soldi-lavoro.html",
         "stipendio-diminuito-cosa-controllare.html"
       ]
@@ -5666,15 +5689,6 @@
       ]
     },
     {
-      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/ricerca-di-occupazione-e-assistenza-centri-limpiego",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/ricerca-di-occupazione-e-assistenza-centri-limpiego",
-      "pages": [
-        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
-      ]
-    },
-    {
       "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/condizioni-e-diritti-caso-di-licenziamento",
       "status": "raggiungibile",
       "http": 200,
@@ -5710,6 +5724,15 @@
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/albo-nazionale-delle-agenzie-il-lavoro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/albo-nazionale-delle-agenzie-il-lavoro",
+      "pages": [
+        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
       ]
     },
     {
@@ -5760,8 +5783,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -5772,14 +5796,6 @@
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
-      ]
-    },
-    {
-      "url": "https://www.mit.gov.it/index.php/node/2795",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-      "pages": [
-        "salute-guida-08-patente-malattie-croniche-certificati.html"
       ]
     },
     {
@@ -6345,6 +6361,60 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-06-07;73~art3",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-06-07;73~art3",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art119",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art119",
+      "pages": [
+        "salute-guida-08-patente-malattie-croniche-certificati.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126",
+      "pages": [
+        "salute-guida-08-patente-malattie-croniche-certificati.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66~art10",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66~art10",
+      "pages": [
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148",
+      "pages": [
+        "lavoro-guida-07-cigo-cigs-fis-solidarieta.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148~art7",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148~art7",
+      "pages": [
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
       "status": "raggiungibile",
       "http": 200,
@@ -6353,6 +6423,15 @@
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6",
+      "pages": [
+        "lavoro-guida-10-fine-rapporto-documenti-tutele.html"
       ]
     },
     {
@@ -6957,15 +7036,6 @@
       ]
     },
     {
-      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
-      "pages": [
-        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
-      ]
-    },
-    {
       "url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/",
       "status": "raggiungibile",
       "http": 200,
@@ -7262,15 +7332,6 @@
       ]
     },
     {
-      "url": "https://www.salute.gov.it/new/it/tema/nuovo-sistema-informativo-sanitario/assistenza-domiciliare/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/tema/nuovo-sistema-informativo-sanitario/assistenza-domiciliare/",
-      "pages": [
-        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
-      ]
-    },
-    {
       "url": "https://www.salute.gov.it/new/it/tema/prevenzione-ipovisione-e-cecita/prevenzione-e-riabilitazione-delle-malattie-dellocchio/",
       "status": "raggiungibile",
       "http": 200,
@@ -7365,30 +7426,21 @@
       ]
     },
     {
-      "url": "https://www.salute.gov.it/new/sites/default/files/2025-01/C_17_pubblicazioni_2584_allegato.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/sites/default/files/2025-01/C_17_pubblicazioni_2584_allegato.pdf",
-      "pages": [
-        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
-      ]
-    },
-    {
-      "url": "https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2839_allegato.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2839_allegato.pdf",
-      "pages": [
-        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
-      ]
-    },
-    {
       "url": "https://www.sidp.it/la-societa/linee-guida-sidp/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.sidp.it/la-societa/linee-guida-sidp/",
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
     },
     {
@@ -7489,6 +7541,15 @@
       "final_url": "https://www.who.int/news-room/questions-and-answers/item/diabetes",
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ]
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/WHO-UHC-SDS-2019.9",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.who.int/publications/i/item/WHO-UHC-SDS-2019.9",
+      "pages": [
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
       ]
     }
   ],

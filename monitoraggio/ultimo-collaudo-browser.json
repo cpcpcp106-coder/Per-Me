@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-11T04:47:18.461Z",
+  "checked_at_utc": "2026-11-11T06:27:05.666Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -42,6 +42,14 @@
       }
     },
     {
+      "name": "practical_guides_photo_contents_and_facebook",
+      "result": "PASS",
+      "details": {
+        "checked": 10,
+        "issues": []
+      }
+    },
+    {
       "name": "guide_09_load",
       "result": "PASS",
       "details": "A chi rivolgersi per debiti e cartelle"
@@ -67,11 +75,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "103 pagine salvate per la lettura offline · controllo online 11 nov, 04:48.",
+        "status": "103 pagine salvate per la lettura offline · controllo online 11 nov, 06:27.",
         "stored": {
           "guides": 103,
-          "updated": "2026-11-11T04:48:18.035Z",
-          "bytes": 2279768,
+          "updated": "2026-11-11T06:27:49.947Z",
+          "bytes": 2307985,
           "includesNew09": true
         }
       }
@@ -94,6 +102,14 @@
       "details": {
         "title": "Agevolazioni e diritti",
         "chars": 11834
+      }
+    },
+    {
+      "name": "practical_guides_updated_and_readable_offline",
+      "result": "PASS",
+      "details": {
+        "checked": 10,
+        "issues": []
       }
     },
     {
@@ -634,43 +650,43 @@
     {
       "page": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
       "violations": [],
-      "passes": 26,
+      "passes": 27,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-11-naspi-domanda-scadenze.html",
       "violations": [],
-      "passes": 24,
+      "passes": 27,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
       "violations": [],
-      "passes": 24,
+      "passes": 27,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
@@ -766,19 +782,19 @@
     {
       "page": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
       "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
       "page": "salute-guida-08-patente-malattie-croniche-certificati.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
