@@ -31,6 +31,8 @@ I bilanci riportano le evidenze già registrate nella sessione. Le moderazioni p
 
 ## Verifiche
 
-Le 29 destinazioni documentali distinte nelle dieci guide sono state aperte e verificate. I controlli statici verificano le 110 pagine pubbliche e la sitemap. Il registro delle immagini verifica presenza e testo alternativo in 103 pagine di guide e indici e l’integrità dei file locali. Il collaudo Chromium include controlli a 320 e 390 pixel, foto e pulsanti nelle dieci guide e apertura dei testi rivisti in assenza di connessione.
+Le 29 destinazioni documentali distinte nelle dieci guide sono state aperte e verificate. I controlli statici verificano le 110 pagine pubbliche e la sitemap. Il registro delle immagini verifica presenza e testo alternativo in 103 pagine di guide e indici e l’integrità dei file locali. Il collaudo Chromium ha superato 23 controlli su 23, inclusi 320 e 390 pixel, foto, indice e pulsante Facebook delle dieci guide e apertura dei testi rivisti senza connessione. [Collaudo browser](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/42972407632)
+
+Sul sito pubblico, le dieci guide e i due indici revisionati corrispondono ai file pubblicati. Il controllo ha aperto 103 pagine con foto e decodificato tutte le 95 immagini distinte. La Pagina Facebook espone ancora l’annuncio, con la foto nell’anteprima. [Pubblicazione sul sito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/42972427398)
 
 Il controllo delle fonti è documentale. I requisiti individuali e le procedure locali vanno verificati con il servizio competente. La revisione non attesta la valutazione di un professionista indipendente o una prova con lettori su telefoni fisici.
