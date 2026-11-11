@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-24T13:56:25.776Z",
+  "checked_at_utc": "2026-11-11T04:47:18.461Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 100,
+        "count": 110,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 100,
+        "checked": 110,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 100,
+        "checked": 110,
         "failed": [],
         "errors": []
       }
@@ -67,11 +67,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "93 pagine salvate per la lettura offline · controllo online 24 ott, 13:57.",
+        "status": "103 pagine salvate per la lettura offline · controllo online 11 nov, 04:48.",
         "stored": {
-          "guides": 93,
-          "updated": "2026-10-24T13:57:07.720Z",
-          "bytes": 2205579,
+          "guides": 103,
+          "updated": "2026-11-11T04:48:18.035Z",
+          "bytes": 2279768,
           "includesNew09": true
         }
       }
@@ -85,7 +85,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 93
+        "count": 103
       }
     },
     {
@@ -93,7 +93,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 11760
+        "chars": 11834
       }
     },
     {
@@ -286,7 +286,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -632,6 +632,48 @@
       "incomplete": 2
     },
     {
+      "page": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-11-naspi-domanda-scadenze.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
       "page": "metodo.html",
       "violations": [],
       "passes": 16,
@@ -717,6 +759,24 @@
     },
     {
       "page": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-08-patente-malattie-croniche-certificati.html",
       "violations": [],
       "passes": 24,
       "incomplete": 2

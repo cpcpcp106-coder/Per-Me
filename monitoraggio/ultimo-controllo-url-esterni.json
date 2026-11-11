@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-10-24T13:57:56.777182+00:00",
+  "date_utc": "2026-11-11T04:49:37.444621+00:00",
   "scope": {
-    "pages": 102,
-    "unique_external_urls": 722,
-    "occurrences": 1668
+    "pages": 112,
+    "unique_external_urls": 739,
+    "occurrences": 1709
   },
   "counts": {
-    "raggiungibile": 596,
-    "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 5,
+    "raggiungibile": 597,
+    "non_verificato_trasporto": 22,
+    "bloccato_o_riservato": 119,
     "errore_http": 1
   },
   "results": [
@@ -197,8 +197,9 @@
     },
     {
       "url": "https://chatgpt.com/",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://chatgpt.com/",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
@@ -214,9 +215,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -224,18 +224,16 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html",
@@ -244,9 +242,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -254,9 +251,8 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
@@ -264,18 +260,16 @@
     },
     {
       "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getSommario&id={656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7}",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html"
@@ -283,27 +277,24 @@
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html"
@@ -311,27 +302,24 @@
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
       "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
       ]
@@ -927,7 +915,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
@@ -936,7 +924,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -946,7 +934,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1591,6 +1579,14 @@
       ]
     },
     {
+      "url": "https://mit.gov.it/rinnovo-patente",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "pages": [
+        "salute-guida-08-patente-malattie-croniche-certificati.html"
+      ]
+    },
+    {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -1603,7 +1599,7 @@
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/dupuytrens-disease/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/dupuytrens-disease/",
+      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/dupuytrens-disease/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1613,7 +1609,7 @@
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/frozen-shoulder/",
+      "final_url": "https://www.orthoinfo.org/bodypart/shoulder/frozen-shoulder/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1623,7 +1619,7 @@
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/trigger-finger/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/diseases--conditions/trigger-finger/",
+      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/trigger-finger/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1633,7 +1629,7 @@
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.orthoinfo.org/treatment/cortisone-shot-steroid-injection/",
+      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1989,6 +1985,15 @@
       "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+10+del+23-01-2015.htm",
       "pages": [
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+130+del+15-09-2017.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?iIDLink=-1&sVirtualURL=%2FCircolari%2FCircolare+numero+130+del+15-09-2017.htm",
+      "pages": [
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html"
       ]
     },
     {
@@ -3440,7 +3445,11 @@
       "final_url": "https://www.cnel.it/archivio-contratti",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html",
-        "ccnl-inquadramento-livello-superminimo.html"
+        "ccnl-inquadramento-livello-superminimo.html",
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+        "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+        "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html"
       ]
     },
     {
@@ -3464,9 +3473,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -3942,7 +3950,17 @@
       "http": 200,
       "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
-        "prova-lettori.html"
+        "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+        "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+        "lavoro-guida-11-naspi-domanda-scadenze.html",
+        "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+        "prova-lettori.html",
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+        "salute-guida-08-patente-malattie-croniche-certificati.html"
       ]
     },
     {
@@ -4240,6 +4258,7 @@
         "debiti-guida-09-a-chi-rivolgersi.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "pensione-invalidita.html",
         "redditi-red-comunicazioni-obbligatorie-inps.html",
         "riesame-ricorso-inps-termini.html",
@@ -4495,12 +4514,30 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50018.tfr-a-carico-del-fondo-di-tesoreria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50018.tfr-a-carico-del-fondo-di-tesoreria.html",
+      "pages": [
+        "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
       "pages": [
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50186.fondo-di-garanzia-del-tfr-e-dei-crediti-di-lavoro.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50186.fondo-di-garanzia-del-tfr-e-dei-crediti-di-lavoro.html",
+      "pages": [
+        "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html"
       ]
     },
     {
@@ -4511,7 +4548,18 @@
       "pages": [
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "soldi-lavoro.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html",
+      "pages": [
+        "lavoro-guida-11-naspi-domanda-scadenze.html"
       ]
     },
     {
@@ -4521,7 +4569,10 @@
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
       "pages": [
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
-        "controllare-cedolino-cassa-integrazione-solidarieta.html"
+        "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html"
       ]
     },
     {
@@ -4531,6 +4582,8 @@
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
       "pages": [
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
+        "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "soldi-lavoro.html",
         "stipendio-diminuito-cosa-controllare.html"
       ]
@@ -4805,6 +4858,7 @@
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "pensione-invalidita.html",
         "riesame-ricorso-inps-termini.html",
         "riesame-ricorso-inps-termini.html"
@@ -5048,6 +5102,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.11.piattaforma-siisl-iscrizione-dei-percettori-naspi-e-dis-coll.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.11.piattaforma-siisl-iscrizione-dei-percettori-naspi-e-dis-coll.html",
+      "pages": [
+        "lavoro-guida-11-naspi-domanda-scadenze.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.12.invalidit-civile-verifiche-reddituali-anno-2020.html",
       "status": "raggiungibile",
       "http": 200,
@@ -5063,6 +5126,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.03.prestazione-universale-nuove-indicazioni-operative.html",
       "pages": [
         "agevolazioni-diritti.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.06.naspi-nuovo-requisito-contributivo.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.06.naspi-nuovo-requisito-contributivo.html",
+      "pages": [
+        "lavoro-guida-11-naspi-domanda-scadenze.html"
       ]
     },
     {
@@ -5469,7 +5541,7 @@
     {
       "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
       "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html"
       ]
@@ -5585,6 +5657,42 @@
       ]
     },
     {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/modalita-di-candidatura-un-posto-di-lavoro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/modalita-di-candidatura-un-posto-di-lavoro",
+      "pages": [
+        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/ricerca-di-occupazione-e-assistenza-centri-limpiego",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/ricerca-di-occupazione-e-assistenza-centri-limpiego",
+      "pages": [
+        "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/condizioni-e-diritti-caso-di-licenziamento",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/condizioni-e-diritti-caso-di-licenziamento",
+      "pages": [
+        "lavoro-guida-10-fine-rapporto-documenti-tutele.html"
+      ]
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/dimissioni",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/dimissioni",
+      "pages": [
+        "lavoro-guida-10-fine-rapporto-documenti-tutele.html"
+      ]
+    },
+    {
       "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
       "status": "raggiungibile",
       "http": 200,
@@ -5652,9 +5760,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -5662,15 +5769,23 @@
     {
       "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
       "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
     },
     {
+      "url": "https://www.mit.gov.it/index.php/node/2795",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "pages": [
+        "salute-guida-08-patente-malattie-croniche-certificati.html"
+      ]
+    },
+    {
       "url": "https://www.mit.gov.it/temi/casa",
       "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -5678,7 +5793,7 @@
     {
       "url": "https://www.mit.gov.it/urp-domande-frequenti",
       "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
@@ -6171,6 +6286,16 @@
       "pages": [
         "come-leggere-busta-paga.html",
         "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1982/05/31/082U0297/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1982/05/31/082U0297/CONSOLIDATED",
+      "pages": [
+        "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+        "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html"
       ]
     },
     {
@@ -6832,6 +6957,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/",
       "status": "raggiungibile",
       "http": 200,
@@ -7128,6 +7262,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/nuovo-sistema-informativo-sanitario/assistenza-domiciliare/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/nuovo-sistema-informativo-sanitario/assistenza-domiciliare/",
+      "pages": [
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/prevenzione-ipovisione-e-cecita/prevenzione-e-riabilitazione-delle-malattie-dellocchio/",
       "status": "raggiungibile",
       "http": 200,
@@ -7219,6 +7362,24 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/sites/default/files/2025-01/C_17_pubblicazioni_2584_allegato.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/sites/default/files/2025-01/C_17_pubblicazioni_2584_allegato.pdf",
+      "pages": [
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2839_allegato.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2839_allegato.pdf",
+      "pages": [
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
       ]
     },
     {
