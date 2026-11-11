@@ -20,3 +20,12 @@ Registro operativo integrativo al registro del 25 ottobre 2026. Esiti dichiarati
 Restano da verificare le cinque moderazioni precedenti registrate il 25 ottobre e da recuperare i permalink mancanti. Prima di riprovare a Chioggia, verifica il problema tecnico e lo stato dell’invio.
 
 **Nota sui testi.** A Schio il testo citava uno «spazio di confronto tra pari». La descrizione documentata del progetto è «guide gratuite di orientamento pratico». A Montebelluna il testo riportava il nome del curatore. Per futuri post usa le informazioni pubbliche sul progetto e i collegamenti alle guide disponibili.
+
+## Verifica e pubblicazione dell’11 novembre 2026
+
+Pubblicazione ordinaria gratuita dalla Pagina Per Me, con una foto illustrativa generata per ciascun post. Esiti verificati nel feed e nella scheda «Pubblicati».
+
+| Gruppo | Invio (ora italiana) | Esito | Foto | Collegamento diretto |
+|---|---|---|---|---|
+| Chioggia Eventi | 22:22 | Visibile nel gruppo | Controllo dei contributi | [Apri il post](https://www.facebook.com/groups/4203626199857380/?multi_permalinks=4639173786302617) |
+| Rovigo Pubblicità Eventi | 22:23 | Visibile nel gruppo | Confronto di due cedolini | [Apri il post](https://www.facebook.com/groups/8632714833512187/?multi_permalinks=29458404687183231) |
