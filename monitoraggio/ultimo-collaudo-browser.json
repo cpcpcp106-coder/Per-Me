@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-11T06:27:05.666Z",
+  "checked_at_utc": "2026-11-13T06:54:54.496Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -20,7 +20,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 110,
+        "count": 115,
         "failures": []
       }
     },
@@ -28,7 +28,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 110,
+        "checked": 115,
         "violations": []
       }
     },
@@ -36,7 +36,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 110,
+        "checked": 115,
         "failed": [],
         "errors": []
       }
@@ -75,11 +75,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "103 pagine salvate per la lettura offline · controllo online 11 nov, 06:27.",
+        "status": "108 pagine salvate per la lettura offline · controllo online 13 nov, 06:55.",
         "stored": {
-          "guides": 103,
-          "updated": "2026-11-11T06:27:49.947Z",
-          "bytes": 2307985,
+          "guides": 108,
+          "updated": "2026-11-13T06:55:55.424Z",
+          "bytes": 2335290,
           "includesNew09": true
         }
       }
@@ -93,7 +93,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 103
+        "count": 108
       }
     },
     {
@@ -302,7 +302,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -620,13 +620,13 @@
     {
       "page": "dieta-mediterranea-ricette.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-scientifica.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
@@ -726,15 +726,45 @@
       "incomplete": 2
     },
     {
+      "page": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
       "page": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
       "violations": [],
       "passes": 26,
       "incomplete": 3
     },
     {
+      "page": "ricetta-merluzzo-patate-finocchio-limone.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
       "page": "ricetta-zuppa-lenticchie-patate-carote.html",
       "violations": [],
       "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "violations": [],
+      "passes": 27,
       "incomplete": 2
     },
     {

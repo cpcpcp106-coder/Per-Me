@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-11T06:28:59.197907+00:00",
+  "date_utc": "2026-11-13T06:57:05.787576+00:00",
   "scope": {
-    "pages": 112,
-    "unique_external_urls": 745,
-    "occurrences": 1720
+    "pages": 117,
+    "unique_external_urls": 764,
+    "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 605,
-    "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 18,
-    "errore_http": 2
+    "raggiungibile": 624,
+    "bloccato_o_riservato": 119,
+    "non_verificato_trasporto": 20,
+    "errore_http": 1
   },
   "results": [
     {
@@ -1029,8 +1029,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -1628,8 +1629,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
-      "status": "errore_http",
-      "http": 520,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3015,6 +3017,24 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000090",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000090",
+      "pages": [
+        "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000110",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000110",
+      "pages": [
+        "ricetta-riso-integrale-pollo-radicchio-noci.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
       "status": "raggiungibile",
       "http": 200,
@@ -3022,6 +3042,15 @@
       "pages": [
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000550",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000550",
+      "pages": [
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
     {
@@ -3049,13 +3078,23 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000850",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000850",
+      "pages": [
+        "ricetta-pasta-integrale-ceci-cavolfiore.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004005",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004005",
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
-        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "ricetta-pasta-integrale-ceci-cavolfiore.html"
       ]
     },
     {
@@ -3086,7 +3125,17 @@
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
-        "ricetta-zuppa-lenticchie-patate-carote.html"
+        "ricetta-zuppa-lenticchie-patate-carote.html",
+        "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005150",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005150",
+      "pages": [
+        "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
       ]
     },
     {
@@ -3097,6 +3146,69 @@
       "pages": [
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
         "ricetta-zuppa-lenticchie-patate-carote.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005160",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005160",
+      "pages": [
+        "ricetta-pasta-integrale-ceci-cavolfiore.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320",
+      "pages": [
+        "ricetta-merluzzo-patate-finocchio-limone.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005440",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005440",
+      "pages": [
+        "ricetta-riso-integrale-pollo-radicchio-noci.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005650",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005650",
+      "pages": [
+        "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005700",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005700",
+      "pages": [
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005720",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005720",
+      "pages": [
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006500",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006500",
+      "pages": [
+        "ricetta-merluzzo-patate-finocchio-limone.html"
       ]
     },
     {
@@ -3119,6 +3231,33 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006850",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006850",
+      "pages": [
+        "ricetta-pasta-integrale-ceci-cavolfiore.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008040",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008040",
+      "pages": [
+        "ricetta-merluzzo-patate-finocchio-limone.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008570",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008570",
+      "pages": [
+        "ricetta-riso-integrale-pollo-radicchio-noci.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210",
       "status": "raggiungibile",
       "http": 200,
@@ -3127,8 +3266,40 @@
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
-        "ricetta-zuppa-lenticchie-patate-carote.html"
+        "ricetta-merluzzo-patate-finocchio-limone.html",
+        "ricetta-pasta-integrale-ceci-cavolfiore.html",
+        "ricetta-riso-integrale-pollo-radicchio-noci.html",
+        "ricetta-zuppa-lenticchie-patate-carote.html",
+        "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106500",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106500",
+      "pages": [
+        "ricetta-riso-integrale-pollo-radicchio-noci.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121410",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121410",
+      "pages": [
+        "ricetta-merluzzo-patate-finocchio-limone.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/181100",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/181100",
+      "pages": [
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
     {
@@ -3483,9 +3654,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -3969,6 +4139,11 @@
         "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
         "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
         "prova-lettori.html",
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+        "ricetta-merluzzo-patate-finocchio-limone.html",
+        "ricetta-pasta-integrale-ceci-cavolfiore.html",
+        "ricetta-riso-integrale-pollo-radicchio-noci.html",
+        "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html",
         "salute-guida-08-patente-malattie-croniche-certificati.html"
@@ -3990,6 +4165,17 @@
       "final_url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "pages": [
+        "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+        "ricetta-merluzzo-patate-finocchio-limone.html",
+        "ricetta-riso-integrale-pollo-radicchio-noci.html"
       ]
     },
     {
@@ -7436,9 +7622,8 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
