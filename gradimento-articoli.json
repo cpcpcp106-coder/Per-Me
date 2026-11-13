@@ -301,12 +301,37 @@
   },
   {
     "path": "dieta-mediterranea-ricette.html",
-    "title": "Alimentazione e ricette: primi orientamenti",
+    "title": "Ricette mediterranee con calorie e carboidrati per porzione",
     "category": "Dieta mediterranea scientifica"
   },
   {
     "path": "dieta-mediterranea-scientifica.html",
     "title": "Dieta mediterranea scientifica: terapia nutrizionale, evidenze e ricette",
+    "category": "Dieta mediterranea scientifica"
+  },
+  {
+    "path": "ricetta-pasta-integrale-ceci-cavolfiore.html",
+    "title": "Pasta integrale con crema di ceci, cavolfiore e rosmarino",
+    "category": "Dieta mediterranea scientifica"
+  },
+  {
+    "path": "ricetta-riso-integrale-pollo-radicchio-noci.html",
+    "title": "Riso integrale saltato con pollo, radicchio e noci",
+    "category": "Dieta mediterranea scientifica"
+  },
+  {
+    "path": "ricetta-merluzzo-patate-finocchio-limone.html",
+    "title": "Merluzzo al forno con patate, finocchio e limone",
+    "category": "Dieta mediterranea scientifica"
+  },
+  {
+    "path": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+    "title": "Zuppa di orzo, lenticchie, porro e carota",
+    "category": "Dieta mediterranea scientifica"
+  },
+  {
+    "path": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+    "title": "Frittata di zucca e spinaci con pane integrale tostato",
     "category": "Dieta mediterranea scientifica"
   },
   {

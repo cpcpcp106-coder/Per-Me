@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-10",
+  "as_of": "2026-11-13",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1004,6 +1004,46 @@
       "source_history_verified": false
     },
     {
+      "file": "assets/ricetta-frittata-zucca-spinaci-pane-integrale-originale.webp",
+      "git_blob_sha": "10e7ba63129317292e350becf669a82c131cef4c",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Frittata di zucca e spinaci con pane integrale tostato. Copia web ottimizzata a 1200 × 800 pixel.",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 13 novembre 2026.",
+      "provenance_evidence": "Generazione eseguita nella sessione editoriale del 13 novembre 2026, con controllo visivo. SHA-256 dell’originale: a20df18c446f71bc4f1abc504cbc83f64382462522d2f8bb9d1cc187fba647bf",
+      "license_or_ownership": "Output ChatGPT creato per il progetto, senza fotografie stock di partenza. Si applicano i termini OpenAI sull’output e il diritto applicabile.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/ricetta-merluzzo-patate-finocchio-limone-originale.webp",
+      "git_blob_sha": "99d1b4f10c1398f76a69212cb7ed7548b1e29f50",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Merluzzo al forno con patate, finocchio e limone. Copia web ottimizzata a 1200 × 800 pixel.",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 13 novembre 2026.",
+      "provenance_evidence": "Generazione eseguita nella sessione editoriale del 13 novembre 2026, con controllo visivo. SHA-256 dell’originale: 3acc17d352eaaf5d18e1f3dc9cf00656bedde268fe4c84fe76e1868ad9510775",
+      "license_or_ownership": "Output ChatGPT creato per il progetto, senza fotografie stock di partenza. Si applicano i termini OpenAI sull’output e il diritto applicabile.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/ricetta-pasta-integrale-ceci-cavolfiore-originale.webp",
+      "git_blob_sha": "4b8736617466974d88c466a3777dc9e7ddbe73dc",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Pasta integrale con crema di ceci, cavolfiore e rosmarino. Copia web ottimizzata a 1200 × 800 pixel.",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 13 novembre 2026.",
+      "provenance_evidence": "Generazione eseguita nella sessione editoriale del 13 novembre 2026, con controllo visivo. SHA-256 dell’originale: 23ce495ee0481dd390d9bd749f80374657953bbcd184de3a766c8e3adfc5b8bf",
+      "license_or_ownership": "Output ChatGPT creato per il progetto, senza fotografie stock di partenza. Si applicano i termini OpenAI sull’output e il diritto applicabile.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/ricetta-riso-integrale-pollo-radicchio-noci-originale.webp",
+      "git_blob_sha": "2ead7fe248f0c14bbc43f6099dd973e6a492a012",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Riso integrale saltato con pollo, radicchio e noci. Copia web ottimizzata a 1200 × 800 pixel.",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 13 novembre 2026.",
+      "provenance_evidence": "Generazione eseguita nella sessione editoriale del 13 novembre 2026, con controllo visivo. SHA-256 dell’originale: 23ca35b9f8c65a454bbe07a83cae7d1c2c7bc8e7b8c22789cf2bd739a6816ae0",
+      "license_or_ownership": "Output ChatGPT creato per il progetto, senza fotografie stock di partenza. Si applicano i termini OpenAI sull’output e il diritto applicabile.",
+      "source_history_verified": true
+    },
+    {
       "file": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
       "git_blob_sha": "2ec3a2bb37c01fab7de887a67eb8b76b4c7fcca0",
       "licensing": "PROVENIENZA_DOCUMENTATA",
@@ -1012,6 +1052,26 @@
       "provenance_evidence": "https://github.com/cpcpcp106-coder/Per-Me/commit/9cb07285fc904b9f089e268d64b8cbc7bde1b856 ; messaggio commit: Ricette Dieta: fotografia originale della zuppa di lenticchie. Il commit prova la pubblicazione del file, non da solo la generazione o i diritti.",
       "license_or_ownership": "Output illustrativo registrato nel repository Per Me, senza fonte stock esterna dichiarata. Il possesso del file e la cronologia Git non certificano da soli licenze, originalita' giuridica o assenza di diritti di terzi.",
       "source_history_verified": false
+    },
+    {
+      "file": "assets/ricetta-zuppa-orzo-lenticchie-porro-carota-originale.webp",
+      "git_blob_sha": "e40340c5e395acd09eca0b40444c3d321fd4c842",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Zuppa di orzo, lenticchie, porro e carota. Copia web ottimizzata a 1200 × 800 pixel.",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 13 novembre 2026.",
+      "provenance_evidence": "Generazione eseguita nella sessione editoriale del 13 novembre 2026, con controllo visivo. SHA-256 dell’originale: 44b48822e5e0778093e081e8ded1c372aeee11269819f4f3639a415c3c61947d",
+      "license_or_ownership": "Output ChatGPT creato per il progetto, senza fotografie stock di partenza. Si applicano i termini OpenAI sull’output e il diritto applicabile.",
+      "source_history_verified": true
+    },
+    {
+      "file": "assets/ricette-mediterranee-13-novembre-2026.jpg",
+      "git_blob_sha": "0de897abac4161ff6fd2cc47436200955a7409b4",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Foto dei cinque piatti per l’anteprima della raccolta e il post Facebook. Copia web ottimizzata a 1200 × 800 pixel.",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 13 novembre 2026.",
+      "provenance_evidence": "Generazione eseguita nella sessione editoriale del 13 novembre 2026, con controllo visivo. SHA-256 dell’originale: 076f4ee0cd8d3f9eee87654254df2da04510a025e4a44d1ac481bd64c174b1f5",
+      "license_or_ownership": "Output ChatGPT creato per il progetto, senza fotografie stock di partenza. Si applicano i termini OpenAI sull’output e il diritto applicabile.",
+      "source_history_verified": true
     },
     {
       "file": "assets/salute-guida-01-visita-medica.jpg",

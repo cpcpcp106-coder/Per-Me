@@ -1,0 +1,105 @@
+.guida-completamento .schede-ricette {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 1rem;
+  margin: 1.25rem 0;
+}
+
+.scheda-ricetta {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #d9c9b8;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.scheda-ricetta img,
+.foto-piatto img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.scheda-ricetta-testo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: .9rem;
+}
+
+.scheda-ricetta-testo h3 {
+  margin: 0;
+  font-size: 1.18rem;
+  line-height: 1.35;
+}
+
+.scheda-ricetta-testo p {
+  margin: .6rem 0 .85rem;
+}
+
+.scheda-ricetta-testo .guida-button {
+  margin-top: auto;
+}
+
+.valori-ricetta {
+  background: #edf4ef;
+  color: #193a2e;
+  padding: .8rem 1rem;
+  border: 2px solid #8ba998;
+  border-radius: 10px;
+  margin: 1.25rem 0;
+}
+
+.valori-ricetta p {
+  margin: .15rem 0;
+}
+
+.valori-ricetta p:last-child {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.pagina-ricetta .foto-piatto {
+  margin: 1.25rem 0;
+}
+
+.pagina-ricetta .foto-piatto img {
+  border-radius: 10px;
+}
+
+.calcolo-ricetta {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+  border: 1px solid #d9c9b8;
+  border-radius: 8px;
+}
+
+.calcolo-ricetta table {
+  border-collapse: collapse;
+  min-width: 570px;
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.calcolo-ricetta caption {
+  padding: .6rem;
+  text-align: start;
+  font-weight: 700;
+}
+
+.calcolo-ricetta th,
+.calcolo-ricetta td {
+  padding: .55rem .6rem;
+  border-top: 1px solid #ded6cb;
+  text-align: start;
+  vertical-align: top;
+}
+
+.calcolo-ricetta thead,
+.calcolo-ricetta tfoot {
+  background: #edf4ef;
+}
