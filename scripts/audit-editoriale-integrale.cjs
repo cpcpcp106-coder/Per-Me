@@ -54,6 +54,17 @@ for(const file of names){
 }
 for(const f of ['agevolazioni-guida-03-trasporti-italia.html','agevolazioni-guida-04-esenzioni-ticket-italia.html','agevolazioni-guida-05-comune-servizi-sociali-italia.html']){assert.ok(names.includes(f),'Manca guida nazionale: '+f);}
 const photos=['23720159','4266930','9870140'];for(let i=0;i<photos.length;i++)assert.ok(codeFor(['agevolazioni-guida-03-trasporti-italia.html','agevolazioni-guida-04-esenzioni-ticket-italia.html','agevolazioni-guida-05-comune-servizi-sociali-italia.html'][i]).includes('photos/'+photos[i]),'Foto distinta assente');
+// CONTROLLO CHIAREZZA INDICI: avvisa quando un link viene tagliato a meta' parola.
+// Il controllo e' solo formale: non dimostra che una guida sia comprensibile a un lettore.
+for(const file of names){
+ const html=codeFor(file),main=html.match(/<main\b[^>]*>[\s\S]*?<\/main>/i)?.[0]||'';
+ const heads=new Map([...main.matchAll(/<section\b[^>]*id=["']([^"']+)["'][^>]*>\s*<h2[^>]*>([\s\S]*?)<\/h2>/gi)].map(m=>[m[1],m[2].replace(/<[^>]+>/g,'').replace(/^\s*\d+\.\s*/,'').replace(/\s+/g,' ').trim()]));
+ for(const m of main.matchAll(/<a\b[^>]*href=["']#([^"']+)["'][^>]*>([^<]*?)\s*↓<\/a>/gi)){
+  const label=m[2].trim(),heading=heads.get(m[1]);
+  if(heading&&label.length>=22&&heading.toLowerCase().startsWith(label.toLowerCase())&&/[\p{L}]$/u.test(label)&&/[\p{L}]/u.test(heading.charAt(label.length))) warnings.push(file+': possibile indice troncato nel mezzo di una parola: '+label);
+ }
+ if(/Regola editoriale obbligatoria|Fotografia illustrativa diversa dalle altre guide/i.test(main)) warnings.push(file+': testo interno alla redazione visibile al lettore');
+}
 const out={date:'2026-10-19',pages:rows.length,issues:faults,warnings:unique(warnings),inventory:rows,scope:'statico completo di tutte le pagine; giuridico campionario, non certificazione articolo per articolo',limitation:'WCAG automatica non prova accessibilita reale; fonti esterne e fotografie vanno controllate; Android reale escluso'};
 console.log(JSON.stringify(out,null,2));
 assert.equal(faults.length,0,'Audit editoriale automatico: problemi bloccanti '+faults.length);
