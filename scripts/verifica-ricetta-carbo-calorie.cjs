@@ -32,8 +32,9 @@ assert.ok(index.includes('href="'+recipePath+'"'),'Ricetta non collegata dalla r
 assert.ok(rubric.includes('href="'+recipePath+'"'),'Ricetta non collegata dalla rubrica');
 assert.ok(rubric.includes('Carboidrati')||rubric.includes('carboidrati'));
 assert.ok(rubric.includes('calorie (kcal) per porzione'),'Rubrica non specifica calorie a porzione');
-assert.ok(index.includes('calorie in kcal PER UNA PORZIONE'),'Standard obbligatorio non chiaro');
-assert.ok(home.includes('8 guide scientifiche pubblicate su 8'),'Stato editoriale homepage non aggiornato');
+assert.ok(index.includes('carboidrati disponibili in grammi e le calorie per porzione'),'Valori nutrizionali per porzione non spiegati al lettore');
+assert.ok(!index.includes('Regola editoriale obbligatoria'),'Istruzione redazionale esposta nella raccolta ricette');
+assert.ok(home.includes('8 guide di approfondimento'),'Stato editoriale homepage non aggiornato');
 assert.ok(sitemap.includes(recipePath));
 assert.ok(sitemap.includes('dieta-guida-02-prevenzione-cardiovascolare-studi.html'));
 const guide03Path='dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html';
