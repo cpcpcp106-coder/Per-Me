@@ -23,3 +23,17 @@ Repository: https://github.com/cpcpcp106-coder/Per-Me
 - Inserito nell'audit editoriale un controllo formale per voci di indice tagliate a metà parola e indicazioni interne alla redazione. Il controllo produce avvisi, non sostituisce una revisione linguistica.
 
 **Limite:** non tutte le frasi dell'intero sito sono state rilette individualmente né sono stati eseguiti test con un campione reale 50–70 anni. Non attribuire a questo intervento una validazione scientifica o legale indipendente. Le dichiarazioni di utilizzo di AI rimangono pubbliche per trasparenza.
+
+## Bilancio conclusivo delle modifiche HTML
+
+Al termine degli interventi su questo ramo risultano **87 pagine HTML modificate** rispetto al commit di partenza `5d299f7d802723121dc3ad49149c32cd603726b1`. Il totale comprende guide, pagine di rubrica, pagina iniziale e raccolta ricette: **non** significa 87 guide riscritte per intero.
+
+- I quattro indici del diabete 26–29 non contengono più le 74 etichette abbreviate e ora permettono l'andata a capo sui dispositivi mobili.
+- Migliorata la comprensione delle sigle nelle guide su debiti, lavoro, pensioni, agevolazioni, diabete, salute e dieta; non sono stati accorciati gli approfondimenti.
+- Rimosse formule interne e troppo meccaniche dalla pagina delle ricette e dalle didascalie e rubriche individuate; sostituiti i conteggi «30 su 30» e «8 su 8» con formulazioni orientate al lettore.
+- Nelle sei lezioni Tutor AI aggiunto il significato della sigla e rimosse cinque ripetizioni non necessarie su esami e certificazioni.
+- Aggiornato il test automatico delle ricette per verificare le informazioni nutrizionali per porzione senza imporre vecchie frasi editoriali.
+
+**Riscontri di GitHub Actions sul commit `c9a154b4e617f9f662962135eec037c6acab802c`:** [Audit editoriale intero sito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/43476682720) **superato**; [Controllo carboidrati e calorie ricette](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/43476683076) **superato**. Questi sono controlli tecnici e documentali automatici, non certificazioni cliniche, giuridiche o della comprensione da parte di persone reali.
+
+**Rimane da verificare con lettori reali:** comprensione autonoma dei concetti, naturalezza stilistica dell'intero testo pagina per pagina, facilità di decidere il prossimo passo senza aiuto. La versione pubblicata è da distinguere dal repository se la distribuzione GitHub Pages è ancora in corso. Nessun pagamento è stato aperto o attivato.
