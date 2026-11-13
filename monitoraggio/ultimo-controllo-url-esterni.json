@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-13T17:36:47.820236+00:00",
+  "date_utc": "2026-11-13T17:40:26.442702+00:00",
   "scope": {
     "pages": 117,
     "unique_external_urls": 764,
@@ -4126,7 +4126,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
