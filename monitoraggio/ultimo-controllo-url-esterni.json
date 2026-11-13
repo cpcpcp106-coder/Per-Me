@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-13T06:57:05.787576+00:00",
+  "date_utc": "2026-11-13T17:16:08.421667+00:00",
   "scope": {
     "pages": 117,
     "unique_external_urls": 764,
     "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 624,
-    "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 20,
+    "raggiungibile": 622,
+    "bloccato_o_riservato": 120,
+    "non_verificato_trasporto": 21,
     "errore_http": 1
   },
   "results": [
@@ -925,7 +925,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
@@ -934,7 +934,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -944,7 +944,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1029,9 +1029,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -5725,9 +5724,8 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
@@ -5735,9 +5733,8 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -7671,8 +7668,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
