@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-13T17:25:35.413615+00:00",
+  "date_utc": "2026-11-13T17:28:24.688431+00:00",
   "scope": {
     "pages": 117,
     "unique_external_urls": 764,
     "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 622,
+    "raggiungibile": 620,
     "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 21,
+    "non_verificato_trasporto": 23,
     "errore_http": 1
   },
   "results": [
@@ -924,18 +924,16 @@
     },
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eur-lex.europa.eu'. (_ssl.c:1011)>",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
       ]
     },
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eur-lex.europa.eu'. (_ssl.c:1011)>",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
@@ -943,9 +941,8 @@
     },
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eur-lex.europa.eu'. (_ssl.c:1011)>",
       "pages": [
         "dieta-mediterranea-scientifica.html"
       ]
@@ -1580,9 +1577,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -3653,8 +3649,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4102,7 +4099,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4128,7 +4125,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -7619,8 +7616,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
