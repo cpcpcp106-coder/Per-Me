@@ -15,10 +15,10 @@
 <body>
 <a class="skip" href="#main">Salta al contenuto</a>
 <header class="top">
- <div class="shell"><div class="app-brand"><img class="app-brand-logo" src="icon-192.png" width="88" height="88" alt=""><div><p class="eyebrow">PER ME · GUIDA PRATICA</p><h1>Per Me</h1></div></div><p>I testi del sito salvati sul telefono sono consultabili anche senza Internet. Per ricevere nuove versioni serve una connessione.</p>
- <div id="connection" class="connection" role="status" aria-live="polite">Verifico i contenuti disponibili…</div>
+ <div class="shell"><div class="app-brand"><img class="app-brand-logo" src="icon-192.png" width="88" height="88" alt=""><div><h1>Per Me</h1></div></div><p>Qui puoi leggere le guide di Per Me anche senza Internet, dopo aver salvato i testi.</p>
+ <div id="connection" class="connection" role="status" aria-live="polite">Controllo quali guide hai già sul telefono…</div>
  <div class="install-help" id="install-help"><button type="button" id="install-app" class="refresh">Installa Per Me sul telefono</button>
- <p class="smallstatus" id="install-tip">L'installazione aggiunge un'icona alla schermata iniziale. Se il pulsante non apre la conferma, in Chrome usa il menu ⋮ e scegli «Aggiungi a schermata Home» oppure «Installa app», se disponibile. La prima sincronizzazione delle guide richiede Internet.</p></div></div>
+ <p class="smallstatus" id="install-tip">Tocca «Installa Per Me sul telefono» per aggiungere l’icona alla schermata iniziale. Se Chrome non apre la conferma, usa il menu ⋮ e scegli «Aggiungi a schermata Home» o «Installa app», se disponibile.</p></div></div>
 </header>
 <main class="shell" id="main">
  <section id="catalogue" aria-labelledby="catalogue-title">
@@ -26,13 +26,13 @@
    <h2 id="catalogue-title">Pagine e guide</h2>
    <button class="refresh" id="refresh" type="button">Aggiorna le guide</button>
   </div>
-  <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Il primo salvataggio richiede Internet. Le copie già salvate si possono leggere offline; i collegamenti esterni richiedono una connessione.</p>
+  <p class="smallstatus" id="sync-status" role="status" aria-live="polite">Per salvare o aggiornare le guide, collegati a Internet e tocca «Aggiorna le guide».</p>
   <section id="sync-summary" class="sync-summary" hidden aria-labelledby="sync-summary-title">
-   <h3 id="sync-summary-title">Esito dell'ultimo controllo</h3>
+   <h3 id="sync-summary-title">Ultimo aggiornamento</h3>
    <p class="sync-summary-counts"><span><strong id="sync-added">0</strong> nuove</span><span><strong id="sync-modified">0</strong> aggiornate</span><span><strong id="sync-unchanged">0</strong> invariate</span></p>
    <p id="sync-summary-note" class="sync-summary-note"></p>
   </section>
-  <p class="smallstatus">L’app prova a salvare <strong>soltanto i testi</strong> delle otto rubriche e delle guide. Le foto, le pagine esterne e le fonti richiedono Internet. Le copie offline possono essere rimosse dal telefono per esaurimento di spazio o pulizia dei dati: non sostituiscono la documentazione originale e vanno aggiornate quando possibile.</p>
+  <p class="smallstatus">L’app salva i testi delle otto rubriche e delle guide. Per aprire le foto e i collegamenti alle fonti serve Internet. Se il telefono libera spazio o cancelli i dati dell’app, potresti dover scaricare di nuovo i testi.</p>
   <label for="search">Cerca una guida</label>
   <input id="search" type="search" placeholder="Es. cedolino, INPS, ISEE" autocomplete="off">
   <div class="filters" role="group" aria-label="Filtra le guide">
@@ -42,7 +42,7 @@
   <p><a href="../gradimento.html" style="display:inline-flex;align-items:center;min-height:54px;font-size:1.08rem;font-weight:750">Articoli più votati (richiede Internet) →</a></p>
   <details class="online-rubrics">
    <summary>Rubriche del sito (online)</summary>
-   <p>Questi collegamenti aprono il sito e richiedono Internet. Per leggere i testi già salvati, usa il catalogo dell’app.</p>
+   <p>I collegamenti aprono il sito. Trovi i testi salvati nell’elenco delle guide dell’app.</p>
    <nav aria-label="Rubriche del sito Per Me">
     <ul>
      <li><a href="../soldi-lavoro.html">Soldi e lavoro</a></li>
@@ -62,7 +62,7 @@
   <div class="reader-actions"><button type="button" id="back" class="back">← Torna alle guide</button><button type="button" id="favorite" class="favorite" aria-pressed="false">Salva nei preferiti</button></div>
   <p class="eyebrow" id="reader-category"></p>
   <h2 id="reader-title"></h2>
-  <p id="reader-warning" class="smallstatus" role="status" hidden>Attenzione: questa pagina non è stata aggiornata. Prima di prendere decisioni, ricontrolla la versione online e le fonti ufficiali.</p>
+  <p id="reader-warning" class="smallstatus" role="status" hidden>Questa è una copia precedente. Per scadenze e requisiti, controlla la guida sul sito e apri le fonti ufficiali.</p>
   <article id="reader-content" class="reader-content"></article>
   <div id="reader-rating"></div>
   <button type="button" id="bottom-back" class="back">← Torna alle guide</button>
