@@ -109,11 +109,17 @@ def audit_source(root):
     graph = {}
     for url, (name, links) in navigation.items():
         targets = set()
+        noncanonical = set()
         for href in links:
-            target = urlsplit(urljoin(BASE + quote(name, safe="/"), href))
-            canonical = aliases.get(target._replace(query="", fragment="").geturl())
+            target = urlsplit(urljoin(url, href))
+            linked_url = target._replace(query="", fragment="").geturl()
+            canonical = aliases.get(linked_url)
             if canonical:
                 targets.add(canonical)
+                if linked_url != canonical:
+                    noncanonical.add((linked_url, canonical))
+        for linked_url, canonical in sorted(noncanonical):
+            result["issues"].append(f"{name}: link interno {linked_url}, usare {canonical}")
         graph[url] = targets
     depth = {BASE: 0} if BASE in graph else {}
     pending = deque(depth)

@@ -97,7 +97,7 @@ function renderCollection(collection) {
 <a class="skip" href="#contenuto">Vai al contenuto</a>
 ${header}
 <main id="contenuto" class="wrap">
-<div class="crumb"><a href="index.html">Inizio</a> / <a href="${archive}">Ricette mediterranee</a></div>
+<div class="crumb"><a href="./">Inizio</a> / <a href="${archive}">Ricette mediterranee</a></div>
 <article class="article">
 <h1>${escapeHtml(collection.titolo)}</h1>
 <p class="lead">${escapeHtml(collection.lead)}</p>
@@ -151,7 +151,7 @@ function renderArchive() {
 <a class="skip" href="#contenuto">Vai al contenuto</a>
 ${header}
 <main id="contenuto" class="wrap">
-<div class="crumb"><a href="index.html">Inizio</a> / <a href="dieta-mediterranea-scientifica.html">Dieta mediterranea scientifica</a> / Ricette</div>
+<div class="crumb"><a href="./">Inizio</a> / <a href="dieta-mediterranea-scientifica.html">Dieta mediterranea scientifica</a> / Ricette</div>
 <article class="article">
 <h1>Ricette mediterranee</h1>
 <p class="lead"><strong>${ricette.length} ricette</strong> da mettere in rotazione. Scegli tra ${ricette.length - breakfasts} pranzi e cene con verdure, cereali o patate e una fonte di proteine. Completa la settimana con ${breakfasts} idee per colazione.</p>

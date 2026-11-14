@@ -6,6 +6,8 @@ const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const pages=fs.readdirSync(root).filter(p=>p.endsWith('.html')&&!p.startsWith('google')&&!p.startsWith('contatori-per-me-'));
 // Le pagine tecniche dei contatori restano senza sitemap, con noindex e layout indipendente.
 const map=read('sitemap.xml'),head=read('site/header.inc').trim(),foot=read('site/footer.inc').trim();
+const menuPath='app/menu-mediterraneo.html';
+const recipeIds=new Set(JSON.parse(read('dati/ricette-mediterranee.json')).ricette.map(recipe=>recipe.id));
 const issues=[];let links=0;
 for(const page of pages){
  const html=read(page);
@@ -17,15 +19,17 @@ for(const page of pages){
  for(const match of html.matchAll(/\b(?:href|src)=["']([^"']+)["']/g)){
    const ref=match[1];
    if(!ref||ref.startsWith('#')||/^(?:https?:|tel:|mailto:|data:|javascript:|\/\/)/i.test(ref))continue;
-   const target=decodeURIComponent(ref.split(/[?#]/)[0]).replace(/^\/Per-Me\//,'');
-   if(!target)continue;
-   const candidate=target.endsWith('/')?target+'index.html':target;
+   const target=new URL(ref,base+page);
+   if(!target.href.startsWith(base)){issues.push(page+': link fuori dal sito '+ref);continue;}
+   const destinationPath=decodeURIComponent(target.pathname.slice(new URL(base).pathname.length));
+   const candidate=!destinationPath||destinationPath.endsWith('/')?destinationPath+'index.html':destinationPath;
    const destination=path.join(root,candidate);
    if(!fs.existsSync(destination))issues.push(page+': link locale mancante '+ref);
-   else if(ref.includes('#')&&candidate.endsWith('.html')){
-     const anchor=decodeURIComponent(ref.slice(ref.indexOf('#')+1).split('?')[0]);
+   else if(target.hash&&candidate.endsWith('.html')){
+     const anchor=decodeURIComponent(target.hash.slice(1));
      const ids=[...fs.readFileSync(destination,'utf8').matchAll(/\bid=["']([^"']+)["']/g)].map(m=>m[1]);
-     if(anchor&&!ids.includes(anchor))issues.push(page+': ancora locale mancante '+ref);
+     const recipeLink=candidate===menuPath&&anchor.startsWith('ricetta=')&&recipeIds.has(anchor.slice('ricetta='.length));
+     if(!ids.includes(anchor)&&!recipeLink)issues.push(page+': ancora locale mancante '+ref);
    }
    links++;
  }
