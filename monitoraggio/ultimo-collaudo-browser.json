@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-14T10:17:27.021Z",
+  "checked_at_utc": "2026-11-14T11:09:47.583Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -46,7 +46,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 115,
+        "count": 121,
         "failures": []
       }
     },
@@ -54,7 +54,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 115,
+        "checked": 121,
         "violations": []
       }
     },
@@ -62,7 +62,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 115,
+        "checked": 121,
         "failed": [],
         "errors": []
       }
@@ -101,11 +101,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "108 pagine salvate per la lettura offline · controllo online 14 nov, 10:18.",
+        "status": "114 pagine salvate per la lettura offline · controllo online 14 nov, 11:10.",
         "stored": {
-          "guides": 108,
-          "updated": "2026-11-14T10:18:12.781Z",
-          "bytes": 2336211,
+          "guides": 114,
+          "updated": "2026-11-14T11:10:49.553Z",
+          "bytes": 2409906,
           "includesNew09": true
         }
       }
@@ -119,7 +119,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 108
+        "count": 114
       }
     },
     {
@@ -142,6 +142,21 @@
       "name": "app_back_online_after_offline",
       "result": "PASS",
       "details": "App reopened after offline test"
+    },
+    {
+      "name": "mediterranean_menu_and_shopping_list",
+      "result": "PASS",
+      "details": {
+        "pasti": 21,
+        "manualStock": true,
+        "copied": true,
+        "print": true,
+        "offlineRecipes": true,
+        "widths": [
+          320,
+          390
+        ]
+      }
     },
     {
       "name": "published_home",
@@ -646,13 +661,49 @@
     {
       "page": "dieta-mediterranea-ricette.html",
       "violations": [],
-      "passes": 25,
+      "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-scientifica.html",
       "violations": [],
       "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-ricette-colazioni.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-ricette-minestre-legumi.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-ricette-pesce.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-ricette-piatti-legumi.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-ricette-ricotta.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-ricette-uova-carne-bianca.html",
+      "violations": [],
+      "passes": 24,
       "incomplete": 2
     },
     {
@@ -923,6 +974,12 @@
       "page": "app-catalogue",
       "violations": [],
       "passes": 27,
+      "incomplete": 0
+    },
+    {
+      "page": "menu mediterraneo",
+      "violations": [],
+      "passes": 29,
       "incomplete": 0
     }
   ],

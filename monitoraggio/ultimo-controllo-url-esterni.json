@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-14T10:19:12.919029+00:00",
+  "date_utc": "2026-11-14T11:12:04.821144+00:00",
   "scope": {
-    "pages": 117,
-    "unique_external_urls": 764,
-    "occurrences": 1755
+    "pages": 124,
+    "unique_external_urls": 789,
+    "occurrences": 1859
   },
   "counts": {
-    "raggiungibile": 618,
-    "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 25,
+    "raggiungibile": 649,
+    "bloccato_o_riservato": 119,
+    "non_verificato_trasporto": 20,
     "errore_http": 1
   },
   "results": [
@@ -1038,8 +1038,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -3016,11 +3017,42 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/presentazione-dati#TabC",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/presentazione-dati#TabC",
+      "pages": [
+        "app/menu-mediterraneo.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000020",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000020",
+      "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-pesce.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000075",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000075",
+      "pages": [
+        "dieta-ricette-piatti-legumi.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000090",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000090",
       "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
       ]
     },
@@ -3030,6 +3062,9 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000110",
       "pages": [
+        "app/menu-mediterraneo.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
       ]
     },
@@ -3039,6 +3074,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
       "pages": [
+        "app/menu-mediterraneo.html",
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
       ]
@@ -3049,6 +3085,11 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000550",
       "pages": [
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -3082,7 +3123,21 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000850",
       "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-ricotta.html",
         "ricetta-pasta-integrale-ceci-cavolfiore.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/003030",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/003030",
+      "pages": [
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-colazioni.html"
       ]
     },
     {
@@ -3093,6 +3148,8 @@
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-piatti-legumi.html",
         "ricetta-pasta-integrale-ceci-cavolfiore.html"
       ]
     },
@@ -3103,6 +3160,7 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004125",
       "pages": [
         "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+        "dieta-ricette-piatti-legumi.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html"
       ]
     },
@@ -3116,6 +3174,16 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004205",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004205",
+      "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-piatti-legumi.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
       "status": "raggiungibile",
       "http": 200,
@@ -3124,8 +3192,29 @@
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+        "dieta-ricette-minestre-legumi.html",
         "ricetta-zuppa-lenticchie-patate-carote.html",
         "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004730",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004730",
+      "pages": [
+        "dieta-ricette-piatti-legumi.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005110",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005110",
+      "pages": [
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-uova-carne-bianca.html"
       ]
     },
     {
@@ -3134,6 +3223,11 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005150",
       "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
       ]
     },
@@ -3157,11 +3251,33 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005200",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005200",
+      "pages": [
+        "dieta-ricette-pesce.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005210",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005210",
+      "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-piatti-legumi.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320",
       "pages": [
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
       ]
     },
@@ -3180,6 +3296,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005650",
       "pages": [
+        "dieta-ricette-minestre-legumi.html",
         "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
       ]
     },
@@ -3189,6 +3306,9 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005700",
       "pages": [
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-ricotta.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -3198,7 +3318,19 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005720",
       "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005730",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005730",
+      "pages": [
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-uova-carne-bianca.html"
       ]
     },
     {
@@ -3207,6 +3339,8 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006500",
       "pages": [
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
       ]
     },
@@ -3230,6 +3364,16 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006670",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006670",
+      "pages": [
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-pesce.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006850",
       "status": "raggiungibile",
       "http": 200,
@@ -3239,12 +3383,60 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007120",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007120",
+      "pages": [
+        "dieta-ricette-colazioni.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007260",
+      "pages": [
+        "dieta-ricette-colazioni.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007510",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007510",
+      "pages": [
+        "dieta-ricette-colazioni.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008000",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008000",
+      "pages": [
+        "dieta-ricette-colazioni.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008040",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008040",
       "pages": [
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-pesce.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008540",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008540",
+      "pages": [
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-colazioni.html"
       ]
     },
     {
@@ -3253,6 +3445,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008570",
       "pages": [
+        "dieta-ricette-colazioni.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
       ]
     },
@@ -3265,6 +3458,23 @@
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-uova-carne-bianca.html",
+        "dieta-ricette-uova-carne-bianca.html",
+        "dieta-ricette-uova-carne-bianca.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "ricetta-merluzzo-patate-finocchio-limone.html",
@@ -3280,7 +3490,17 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106500",
       "pages": [
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106850",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106850",
+      "pages": [
+        "dieta-ricette-uova-carne-bianca.html"
       ]
     },
     {
@@ -3289,7 +3509,65 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121410",
       "pages": [
+        "dieta-ricette-pesce.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/122700",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/122700",
+      "pages": [
+        "dieta-ricette-pesce.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/123000",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/123000",
+      "pages": [
+        "dieta-ricette-pesce.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/124050",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/124050",
+      "pages": [
+        "dieta-ricette-pesce.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/135020",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/135020",
+      "pages": [
+        "dieta-ricette-colazioni.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/150010",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/150010",
+      "pages": [
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-colazioni.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/166820",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/166820",
+      "pages": [
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-ricotta.html"
       ]
     },
     {
@@ -3298,6 +3576,8 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/181100",
       "pages": [
+        "dieta-ricette-uova-carne-bianca.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -3653,8 +3933,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -3688,6 +3969,20 @@
       ]
     },
     {
+      "url": "https://www.crea.gov.it/-/tabella-di-composizione-degli-alimenti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/-/tabella-di-composizione-degli-alimenti",
+      "pages": [
+        "dieta-ricette-colazioni.html",
+        "dieta-ricette-minestre-legumi.html",
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-piatti-legumi.html",
+        "dieta-ricette-ricotta.html",
+        "dieta-ricette-uova-carne-bianca.html"
+      ]
+    },
+    {
       "url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
       "status": "raggiungibile",
       "http": 200,
@@ -3704,6 +3999,7 @@
       "http": 200,
       "final_url": "https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018",
       "pages": [
+        "app/menu-mediterraneo.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
@@ -4102,7 +4398,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4128,7 +4424,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -4173,6 +4469,8 @@
       "http": 200,
       "final_url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
       "pages": [
+        "dieta-ricette-pesce.html",
+        "dieta-ricette-uova-carne-bianca.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html",
         "ricetta-merluzzo-patate-finocchio-limone.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
@@ -6323,8 +6621,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies/autonomic-neuropathy",
       "pages": [
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
@@ -6344,8 +6643,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -6373,8 +6673,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/treatment",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
       ]
@@ -7315,7 +7616,6 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/dieta-mediterranea/",
       "pages": [
-        "dieta-mediterranea-ricette.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -7599,6 +7899,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2341_allegato.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2341_allegato.pdf",
+      "pages": [
+        "app/menu-mediterraneo.html"
+      ]
+    },
+    {
       "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "errore_http",
       "http": 307,
@@ -7618,8 +7927,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
