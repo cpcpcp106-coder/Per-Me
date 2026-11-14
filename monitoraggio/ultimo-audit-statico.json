@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-14T08:54:06+00:00",
+  "date_utc": "2026-11-14T09:08:15+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 117,
@@ -9,7 +9,7 @@
   "links": {
     "local_occurrences": 4106,
     "external_occurrences": 1753,
-    "external_unique": 764,
+    "external_unique": 763,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1355,7 +1355,7 @@
     },
     {
       "file": "dieta-mediterranea-ricette.html",
-      "title": "Ricette mediterranee: foto del piatto, carboidrati e calorie per porzione | Per Me",
+      "title": "Ricette mediterranee | Per Me",
       "h1": 1,
       "images": 6,
       "images_without_alt": 0,
@@ -1550,7 +1550,7 @@
     },
     {
       "file": "metodo.html",
-      "title": "Il nostro metodo | Per Me",
+      "title": "Il metodo | Per Me",
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
