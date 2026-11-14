@@ -2,7 +2,7 @@
 
 Riesame in Facebook con identità Pagina Per Me. Argomento dei nuovi invii: 28 ricette mediterranee, menu settimanale e lista della spesa. [Menu Per Me](https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html).
 
-## Nuovi invii
+## Stato subito dopo i nuovi invii
 
 Facebook ha mostrato l’autore Per Me, la foto allegata e l’avviso di attesa dell’approvazione degli amministratori. I tre contenuti sono stati ritrovati nella sezione «In sospeso» dei rispettivi gruppi.
 
@@ -14,7 +14,45 @@ Facebook ha mostrato l’autore Per Me, la foto allegata e l’avviso di attesa 
 
 **Tre nuovi invii in moderazione, zero nuovi post pubblici verificati, zero spese.** Le tre sezioni sono riservate alla Pagina e agli amministratori. Gli indirizzi rimandano alle code del gruppo. Tutte le immagini sono originali del progetto e i post dichiarano che sono illustrative e generate con IA.
 
-## Esiti dei contenuti precedenti
+## Stato dopo il riesame del 14 novembre
+
+Il controllo successivo ha ripreso i gruppi dei registri territoriali con un invio o una richiesta di adesione della Pagina. Le fonti sono i singoli post, «I tuoi contenuti» e le notifiche della Pagina Per Me. Le notifiche di benvenuto confermano l’iscrizione e le singole pubblicazioni hanno una verifica propria.
+
+| Gruppo | Stato del nuovo post sul menu e la spesa |
+|---|---|
+| Porcia | **Rifiutato.** Il nuovo post compare in [Rifiutati](https://www.facebook.com/groups/532546586843604/my_declined_content). Il vecchio post sull’ISEE resta indisponibile al suo indirizzo. |
+| Lendinara | **In moderazione.** Il nuovo post compare in [In sospeso](https://www.facebook.com/groups/334205651670565/my_pending_content). Il post precedente è visibile. |
+| Bressanone | **In moderazione.** Il nuovo post compare in [In sospeso](https://www.facebook.com/groups/1525044207912984/my_pending_content). Una notifica di approvazione e il [permalink](https://www.facebook.com/groups/1525044207912984/posts/2770116966739029/) confermano il post precedente. |
+
+### Iscrizioni e ringraziamenti
+
+- **Trentino-Alto Adige.** Sei notifiche di benvenuto della Pagina confermano le ammissioni a Bolzano Città, Bolzano Quotidiano, Merano «Cosa non ti piace, ma anche cosa ti piace», Merano «Dalla parte dei cittadini», Rovereto e Brunico. Nelle sezioni consultate per questi sei gruppi non compare un post di ringraziamento della Pagina. Anche le iscrizioni a TRENTINO ❤️ ALTO ADIGE, I Love Trentino Alto Adige e Cerco Offro Lavoro Trento risultano attive.
+- **Veneto.** Le notifiche già documentate confermano il benvenuto a Chioggia, Este, Schio e Castelfranco Veneto. Nei contenuti della Pagina consultati per questi quattro gruppi non compare un post di ringraziamento. [Registro con le notifiche precedenti](registro-facebook-trentino-alto-adige-2026-11-10.md#riscontro-da-schermata-facebook-fornita-dallutente--10-novembre-ore-1338)
+- **Friuli Venezia Giulia.** Le notifiche precedenti documentano vari benvenuti, tra cui Aviano, Cordenons, Fiume Veneto e Porcia. Nei contenuti consultati di questi quattro gruppi non è emerso un ringraziamento. [Registro con le notifiche precedenti](registro-facebook-fvg-2026-10-24.md)
+- **Ringraziamenti ritrovati direttamente.** Il [«Grazie» di Gorizia](https://www.facebook.com/groups/337594613319564/posts/2535414890204181) è pubblico. I «Grazie» a [Trieste](https://www.facebook.com/groups/668810678691450/my_pending_content/), [Cervignano](https://www.facebook.com/groups/1445749615656166/my_pending_content/) e [Grado](https://www.facebook.com/groups/660928979482146/my_pending_content/) sono in moderazione. Il «Grazie» a [Maniago Pubblicità](https://www.facebook.com/groups/1772330809651855/my_declined_content/) è rifiutato.
+- **Ringraziamenti documentati in precedenza.** A Latisana il registro riporta un «Mi piace» al «Grazie» distinto. Il post esatto non è stato ritrovato nel nuovo controllo. In Friuli Collinare e a Tolmezzo i ringraziamenti risultavano rispettivamente rifiutato e rimosso; le relative sezioni oggi appaiono vuote. [Registro del 25 ottobre](registro-facebook-fvg-2026-10-24.md)
+
+Il controllo dei ringraziamenti riguarda i post individuati nelle sezioni consultate. Una risposta sotto un post o un messaggio privato può sfuggire a questo riscontro. Questa sessione su Facebook è stata di verifica in sola lettura.
+
+### Riscontri sui contatti precedenti
+
+| Area | Stato osservato | Gruppi |
+|---|---|---|
+| Friuli Venezia Giulia | Almeno un precedente post visibile | Udine e provincia, Pordenone, Gorizia, Codroipo, Latisana, Palmanova, San Vito al Tagliamento, Gradisca d’Isonzo, Cividale, Maniago Pubblicità e Aviano. Ad Aviano il post del 10 novembre è rifiutato. |
+| Friuli Venezia Giulia | Post precedenti in moderazione | Trieste, Cervignano, Grado, Tricesimo, Fiume Veneto e Cordenons. |
+| Friuli Venezia Giulia | Iscrizione mostrata, invio assente | Attimis. |
+| Friuli Venezia Giulia | Il gruppo mostra «Iscriviti al gruppo» | Cormòns, «Sei di Udine se», il gruppo alternativo di San Daniele, il gruppo di Maniago con richiesta ritirata e Monfalcone. Il motivo dell’esito delle richieste precedenti resta da accertare, dove applicabile. |
+| Friuli Venezia Giulia | Esito del registro storico | Gemona e Friuli Collinare risultavano rifiutati, Tolmezzo rimosso. Le relative sezioni oggi sono vuote. |
+| Veneto | Almeno un precedente post visibile | Vicenza, Feltre, Legnago, San Donà di Piave, Lendinara, Chioggia Eventi, Rovigo Pubblicità Eventi, Montebelluna, Schio, Este, Belluno Pubblicità Eventi, Portogruaro, Badia Polesine e Bassano del Grappa Pubblicità Eventi. |
+| Veneto | Post precedenti in moderazione | Padova, Treviso e Verona. A Portogruaro il post del 10 novembre è in «Pubblicati» e il post del 25 ottobre in «In sospeso». |
+| Veneto | Post precedente rifiutato | Castelfranco Veneto. A Venezia la rimozione è nel registro storico e la sezione «Rimossi» ora è vuota. |
+| Trentino-Alto Adige | Almeno un precedente post visibile | Pergine, Bressanone e PUBBLICITÀ TRENTINO. |
+| Trentino-Alto Adige | Post precedenti in moderazione | Bolzano Città, Merano «Cosa non ti piace, ma anche cosa ti piace», Rovereto e Brunico. |
+| Trentino-Alto Adige | Post precedente rifiutato | Merano «Dalla parte dei cittadini». |
+
+A Badia Polesine il post del 10 novembre compare in «Pubblicati» e l’intestazione del gruppo mostrava «Iscriviti al gruppo». A Bassano il vecchio permalink è indisponibile. Il [profilo di Per Me nel gruppo Pubblicità Eventi](https://www.facebook.com/groups/725133626235957/user/61566289361135/) mostra un post visibile del 10 novembre. A Bolzano Quotidiano l’iscrizione è confermata e il pulsante per pubblicare non compare.
+
+## Esiti nel primo controllo dei contenuti precedenti
 
 | Regione | Gruppo | Evidenza al controllo |
 |---|---|---|
@@ -34,4 +72,4 @@ Facebook ha mostrato l’autore Per Me, la foto allegata e l’avviso di attesa 
 | Trentino-Alto Adige | Bressanone | Il post del 10 novembre è ora visibile. [Post precedente](https://www.facebook.com/groups/1525044207912984/posts/2770116966739029/) |
 | Trentino-Alto Adige | Bolzano Quotidiano | Iscrizione della Pagina visibile. Pulsante per scrivere ancora assente. |
 
-Registri precedenti: [Friuli Venezia Giulia](registro-facebook-fvg-2026-11-10.md), [Veneto 25 ottobre](registro-facebook-veneto-2026-10-25.md), [Veneto 10–11 novembre](registro-facebook-veneto-2026-11-10.md), [Trentino-Alto Adige](registro-facebook-trentino-alto-adige-2026-11-10.md).
+Registri precedenti: [Friuli Venezia Giulia 25 ottobre](registro-facebook-fvg-2026-10-24.md), [Friuli Venezia Giulia 10 novembre](registro-facebook-fvg-2026-11-10.md), [Veneto 25 ottobre](registro-facebook-veneto-2026-10-25.md), [Veneto 10–11 novembre](registro-facebook-veneto-2026-11-10.md), [Trentino-Alto Adige](registro-facebook-trentino-alto-adige-2026-11-10.md).
