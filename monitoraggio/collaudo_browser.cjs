@@ -14,7 +14,7 @@ report.axe.push({page:label,violations:r.violations.map(x=>({id:x.id,impact:x.im
 catch(e){report.axe.push({page:label,error:String(e).slice(0,300)})}}
 async function readersTest(page){
  await page.getByRole('link',{name:'Prova le guide',exact:true}).click();
- const inviteWorks=new URL(page.url()).pathname==='/prova-lettori.html';
+ const inviteWorks=page.url()===URL+'prova-lettori.html';
  let clipboardDenied=false;
  await page.exposeFunction('writeTestReaderClipboard',()=>{
   if(clipboardDenied) throw new Error('Appunti non disponibili');
@@ -32,7 +32,7 @@ async function readersTest(page){
   await page.setViewportSize({width:denied?320:390,height:844});
   await page.goto(URL+'prova-lettori.html',{waitUntil:'domcontentloaded'});
   await page.getByRole('link',{name:'Inizia la prova'}).click();
-  const startWorks=new URL(page.url()).hash==='#inizia';
+  const startWorks=page.url().endsWith('#inizia');
   const feedback=page.locator('#risultato');
   const copy=feedback.getByRole('button',{name:'Copia il messaggio'});
   const status=feedback.getByRole('status');
