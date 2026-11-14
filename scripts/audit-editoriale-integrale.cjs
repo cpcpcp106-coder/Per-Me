@@ -4,6 +4,8 @@ const root=path.resolve(__dirname,'..');
 const names=fs.readdirSync(root).filter(x=>x.endsWith('.html')&&!x.startsWith('google')&&!x.startsWith('contatori-per-me-')).sort();
 // Il pannello contatori e' una pagina tecnica con noindex: non e' una guida editoriale.
 const codeFor=file=>fs.readFileSync(path.join(root,file),'utf8');
+const menuPath='app/menu-mediterraneo.html';
+const recipeIds=new Set(JSON.parse(codeFor('dati/ricette-mediterranee.json')).ricette.map(recipe=>recipe.id));
 const unique=x=>[...new Set(x)];
 const getIds=html=>new Set([...html.matchAll(/\bid=["']([^"']+)["']/g)].map(m=>m[1]));
 const faults=[],warnings=[],rows=[],idsCache=new Map();
@@ -30,10 +32,14 @@ for(const file of names){
  for(const link of a){
    if(!link||/^(https?:|mailto:|tel:|javascript:|data:)/i.test(link))continue;
    const [target,anchor]=link.split('#'),base=target.split('?')[0];
-   const f=base||file;
+   const f=base==='./'?'index.html':base||file;
    if(!f.endsWith('.html')){if(!base || base==='app/' || base==='/')continue;if(!fs.existsSync(path.join(root,base)))faults.push(file+': file assente '+link);continue;}
    if(!fs.existsSync(path.join(root,f))){faults.push(file+': file HTML non esistente '+link);continue;}
-   if(anchor&&!idsCache.get(f)?.has(anchor))faults.push(file+': ancora assente '+link);
+   if(anchor){
+    if(!idsCache.has(f))idsCache.set(f,getIds(codeFor(f)));
+    const recipeLink=f===menuPath&&anchor.startsWith('ricetta=')&&recipeIds.has(anchor.slice('ricetta='.length));
+    if(!idsCache.get(f).has(anchor)&&!recipeLink)faults.push(file+': ancora assente '+link);
+   }
  }
  for(const image of imgs){const m=image.match(/\bsrc=["']([^"']+)/i);if(!m)continue;const src=m[1].split('?')[0];let decoded=src;try{decoded=decodeURIComponent(src)}catch(e){faults.push(file+': percorso immagine non decodificabile '+src);continue;}if(!/^https?:/.test(decoded)&&!fs.existsSync(path.join(root,decoded)))faults.push(file+': immagine locale mancante '+decoded);}
  // Nelle guide il lettore deve trovare l'attribuzione reale e i limiti delle revisioni.
