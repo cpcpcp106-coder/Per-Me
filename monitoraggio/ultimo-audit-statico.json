@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-14T09:48:48+00:00",
+  "date_utc": "2026-11-14T10:16:35+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 117,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 4106,
-    "external_occurrences": 1754,
-    "external_unique": 763,
+    "local_occurrences": 4105,
+    "external_occurrences": 1755,
+    "external_unique": 764,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -274,8 +274,8 @@
     "service_worker_shell_files": [
       "./",
       "./index.html",
-      "./app.css?v=13",
-      "./main.js?v=13",
+      "./app.css?v=14",
+      "./main.js?v=14",
       "./manifest.webmanifest",
       "./icon-192.png",
       "./icon-512.png",
@@ -2015,18 +2015,18 @@
     },
     {
       "file": "tutor-ai.html",
-      "title": "Tutor AI essenziale: primi passi ed esempi pratici | Per Me",
+      "title": "Tutor AI essenziale · 30 richieste da copiare | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 37,
-      "links_external": 5,
+      "links_local": 36,
+      "links_external": 6,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 1
+      "candidate_numeric_legal_mentions": 26
     },
     {
       "file": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
