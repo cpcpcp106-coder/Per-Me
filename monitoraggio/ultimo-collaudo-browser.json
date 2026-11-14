@@ -1,7 +1,7 @@
 {
-  "checked_at_utc": "2026-11-14T09:48:20.706Z",
+  "checked_at_utc": "2026-11-14T09:50:22.976Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
-  "status": "ERROR",
+  "status": "COMPLETED",
   "tests": [
     {
       "name": "home_load",
@@ -15,6 +15,205 @@
         "width": 390,
         "scrollWidth": 390
       }
+    },
+    {
+      "name": "reader_test_copy_and_preview",
+      "result": "PASS",
+      "details": {
+        "inviteWorks": true,
+        "startWorks": true,
+        "emptyBlocked": true,
+        "feedbackWorks": true,
+        "staleHidden": true,
+        "overflow": false,
+        "facebookLink": "https://www.facebook.com/PerMeGuide/"
+      }
+    },
+    {
+      "name": "reader_test_manual_copy",
+      "result": "PASS",
+      "details": {
+        "inviteWorks": true,
+        "startWorks": true,
+        "emptyBlocked": true,
+        "feedbackWorks": true,
+        "staleHidden": true,
+        "overflow": false,
+        "facebookLink": "https://www.facebook.com/PerMeGuide/"
+      }
+    },
+    {
+      "name": "published_html_http_local",
+      "result": "PASS",
+      "details": {
+        "count": 115,
+        "failures": []
+      }
+    },
+    {
+      "name": "all_root_html_mobile_reflow",
+      "result": "PASS",
+      "details": {
+        "checked": 115,
+        "violations": []
+      }
+    },
+    {
+      "name": "all_root_html_axe_wcag_auto",
+      "result": "PASS",
+      "details": {
+        "checked": 115,
+        "failed": [],
+        "errors": []
+      }
+    },
+    {
+      "name": "practical_guides_photo_contents_and_facebook",
+      "result": "PASS",
+      "details": {
+        "checked": 10,
+        "issues": []
+      }
+    },
+    {
+      "name": "guide_09_load",
+      "result": "PASS",
+      "details": "A chi rivolgersi per debiti e cartelle"
+    },
+    {
+      "name": "guide09_overflow_mobile",
+      "result": "PASS",
+      "details": {
+        "width": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "name": "manifest_and_app_id",
+      "result": "PASS",
+      "details": {
+        "id": "./",
+        "start": "./",
+        "icons": 3
+      }
+    },
+    {
+      "name": "sync_and_persist_localStorage",
+      "result": "PASS",
+      "details": {
+        "status": "108 pagine salvate per la lettura offline · controllo online 14 nov, 09:51.",
+        "stored": {
+          "guides": 108,
+          "updated": "2026-11-14T09:51:08.513Z",
+          "bytes": 2322214,
+          "includesNew09": true
+        }
+      }
+    },
+    {
+      "name": "service_worker_registration",
+      "result": "PASS",
+      "details": true
+    },
+    {
+      "name": "offline_shell_and_catalogue",
+      "result": "PASS",
+      "details": {
+        "count": 108
+      }
+    },
+    {
+      "name": "offline_guide_readable",
+      "result": "PASS",
+      "details": {
+        "title": "Agevolazioni e diritti",
+        "chars": 10962
+      }
+    },
+    {
+      "name": "practical_guides_updated_and_readable_offline",
+      "result": "PASS",
+      "details": {
+        "checked": 10,
+        "issues": []
+      }
+    },
+    {
+      "name": "app_back_online_after_offline",
+      "result": "PASS",
+      "details": "App reopened after offline test"
+    },
+    {
+      "name": "published_home",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/"
+      }
+    },
+    {
+      "name": "published_debt_guide09",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "A chi rivolgersi per debiti e cartelle | Guida 09 Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html"
+      }
+    },
+    {
+      "name": "published_guide_01",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "ISEE ordinario e corrente 2026: requisiti, documenti e domanda | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html"
+      }
+    },
+    {
+      "name": "published_guide_02",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Bonus sociali 2026: luce, gas, acqua e TARI | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html"
+      }
+    },
+    {
+      "name": "published_guide_03",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Trasporti agevolati FVG 2026: invalidità e over 65 | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html"
+      }
+    },
+    {
+      "name": "published_guide_04",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Esenzioni ticket sanitari FVG 2026: reddito, diabete, invalidità | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      }
+    },
+    {
+      "name": "published_guide_05",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Comune e servizi sociali: come chiedere aiuto in Italia | Per Me",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      }
+    },
+    {
+      "name": "published_app",
+      "result": "PASS",
+      "details": {
+        "http": 200,
+        "title": "Per Me · Guide offline",
+        "url": "https://cpcpcp106-coder.github.io/Per-Me/app/"
+      }
     }
   ],
   "axe": [
@@ -23,6 +222,708 @@
       "violations": [],
       "passes": 23,
       "incomplete": 1
+    },
+    {
+      "page": "agevolazioni-diritti.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-01-isee-corrente.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-02-bonus-sociali.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-03-trasporti-fvg.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-03-trasporti-italia.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "aoi-invalidita-civile-differenze.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 3
+    },
+    {
+      "page": "ccnl-inquadramento-livello-superminimo.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "chi-siamo.html",
+      "violations": [],
+      "passes": 16,
+      "incomplete": 0
+    },
+    {
+      "page": "come-leggere-busta-paga.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 3
+    },
+    {
+      "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
+      "violations": [],
+      "passes": 17,
+      "incomplete": 0
+    },
+    {
+      "page": "contributi-inps-estratto-conto-pensione-vicina.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "dal-lordo-al-netto.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-cartelle.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-01-leggere-cartella.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-02-controllare-debiti.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-03-cartella-errata.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-04-rateizzazione.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-05-rottamazione.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-06-fermo-pignoramento.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-07-banche-bollette.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-08-sovraindebitamento.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "debiti-guida-09-a-chi-rivolgersi.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-07-ictus-tia-prevenzione.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 3
+    },
+    {
+      "page": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "diabete-tipo-2.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 3
+    },
+    {
+      "page": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-mediterranea-ricette.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "dieta-mediterranea-scientifica.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "gradimento.html",
+      "violations": [],
+      "passes": 21,
+      "incomplete": 0
+    },
+    {
+      "page": "index.html",
+      "violations": [],
+      "passes": 23,
+      "incomplete": 1
+    },
+    {
+      "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-11-naspi-domanda-scadenze.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "metodo.html",
+      "violations": [],
+      "passes": 16,
+      "incomplete": 0
+    },
+    {
+      "page": "monitoraggio.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 1
+    },
+    {
+      "page": "ore-ferie-permessi-malattia-straordinari.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "pensione-invalidita.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "prova-lettori.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 1
+    },
+    {
+      "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 3
+    },
+    {
+      "page": "ricetta-merluzzo-patate-finocchio-limone.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-zuppa-lenticchie-patate-carote.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "riesame-ricorso-inps-termini.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-autonomia.html",
+      "violations": [],
+      "passes": 22,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-01-preparare-visita.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "salute-guida-08-patente-malattie-croniche-certificati.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "soldi-lavoro.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "stipendio-diminuito-cosa-controllare.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-android-primi-passi.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-conversazione-correzioni.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-privacy-truffe.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-quando-chiedere-aiuto.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-riassumere-confrontare.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai-verifica-fonti-date.html",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "tutor-ai.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 3
+    },
+    {
+      "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "guida09",
+      "violations": [],
+      "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "app-catalogue",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 0
     }
   ],
   "page_errors": [],
@@ -30,6 +931,5 @@
     "Non certifica installazione di icona PWA su telefono Samsung",
     "Non certifica WCAG 2.2 AA con lettore schermo e tastiera fisica",
     "Non verifica semanticamente ogni fonte normativa"
-  ],
-  "error": "TypeError: URL is not a constructor\n    at readersTest (/home/runner/work/Per-Me/Per-Me/monitoraggio/collaudo_browser.cjs:17:20)\n    at async start (/home/runner/work/Per-Me/Per-Me/monitoraggio/collaudo_browser.cjs:91:2)\n    at async /home/runner/work/Per-Me/Per-Me/monitoraggio/collaudo_browser.cjs:208:16"
+  ]
 }
