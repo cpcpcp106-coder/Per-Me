@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-14T09:08:15+00:00",
+  "date_utc": "2026-11-14T09:19:37+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 117,
@@ -376,7 +376,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 8
+      "candidate_numeric_legal_mentions": 7
     },
     {
       "file": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
@@ -1216,7 +1216,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 40
+      "candidate_numeric_legal_mentions": 36
     },
     {
       "file": "diabete-tipo-2.html",
@@ -2041,7 +2041,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 42
+      "candidate_numeric_legal_mentions": 41
     }
   ],
   "limits": [
