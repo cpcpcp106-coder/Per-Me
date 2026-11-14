@@ -12,6 +12,64 @@ async function axeTest(page,label){
 try{await page.addScriptTag({content:axe.source});let r=await page.evaluate(async()=>window.axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}}));
 report.axe.push({page:label,violations:r.violations.map(x=>({id:x.id,impact:x.impact,description:x.description,help:x.help,affected:x.nodes.map(n=>n.target).slice(0,10),total:x.nodes.length})),passes:r.passes.length,incomplete:r.incomplete.length});}
 catch(e){report.axe.push({page:label,error:String(e).slice(0,300)})}}
+async function readersTest(page){
+ await page.getByRole('link',{name:'Prova le guide',exact:true}).click();
+ const inviteWorks=new URL(page.url()).pathname==='/prova-lettori.html';
+ let clipboardDenied=false;
+ await page.exposeFunction('writeTestReaderClipboard',()=>{
+  if(clipboardDenied) throw new Error('Appunti non disponibili');
+ });
+ await page.addInitScript(()=>{
+  Object.defineProperty(navigator,'clipboard',{configurable:true,value:{
+   async writeText(message){
+    await window.writeTestReaderClipboard();
+    window.testReaderClipboard=message;
+   }
+  }});
+ });
+ for(const denied of [false,true]){
+  clipboardDenied=denied;
+  await page.setViewportSize({width:denied?320:390,height:844});
+  await page.goto(URL+'prova-lettori.html',{waitUntil:'domcontentloaded'});
+  await page.getByRole('link',{name:'Inizia la prova'}).click();
+  const startWorks=new URL(page.url()).hash==='#inizia';
+  const feedback=page.locator('#risultato');
+  const copy=feedback.getByRole('button',{name:'Copia il messaggio'});
+  const status=feedback.getByRole('status');
+  const preview=feedback.locator('#tester-preview');
+  const message=feedback.getByRole('textbox',{name:'Il tuo messaggio'});
+  const send=feedback.getByRole('link',{name:'Apri la pagina Facebook Per Me'});
+  const notes=feedback.locator('#tester-notes');
+  await copy.click();
+  const emptyBlocked=(await status.textContent()).includes('Scegli almeno una risposta')&&!(await preview.isVisible());
+  if(denied){
+   await notes.fill('Ho trovato il link dopo aver scorso la pagina.');
+  }else{
+   await page.getByRole('radio',{name:'Ho dovuto rileggere'}).check();
+   await notes.fill('Cercherei le ore indicate in busta paga.');
+  }
+  await copy.click();
+  await page.waitForFunction(()=>Boolean(document.getElementById('tester-out').value)&&!document.getElementById('tester-copy').hasAttribute('aria-disabled'));
+  const value=await message.inputValue();
+  const facebookLink=await send.getAttribute('href');
+  const state=await message.evaluate(input=>({
+   overflow:document.documentElement.scrollWidth>innerWidth+3,
+   selected:document.activeElement===input&&input.selectionStart===0&&input.selectionEnd===input.value.length,
+   clipboard:window.testReaderClipboard
+  }));
+  let feedbackWorks;
+  if(denied){
+   feedbackWorks=state.selected&&(await status.textContent()).includes('Copia il testo dal riquadro')&&value.endsWith('Osservazioni: Ho trovato il link dopo aver scorso la pagina.');
+  }else{
+   feedbackWorks=state.clipboard===value&&value.includes('2. Busta paga: Ho dovuto rileggere')&&value.endsWith('Osservazioni: Cercherei le ore indicate in busta paga.');
+  }
+  await notes.fill('Testo modificato.');
+  const staleHidden=!(await preview.isVisible());
+  record(denied?'reader_test_manual_copy':'reader_test_copy_and_preview',
+   inviteWorks&&startWorks&&emptyBlocked&&feedbackWorks&&staleHidden&&!state.overflow&&facebookLink==='https://www.facebook.com/PerMeGuide/'&&!value.includes('Non indicato'),
+   {inviteWorks,startWorks,emptyBlocked,feedbackWorks,staleHidden,overflow:state.overflow,facebookLink});
+ }
+}
 async function start(){
 server=spawn('python3',['-m','http.server','8765','--bind','127.0.0.1'],{stdio:'ignore'});
 await new Promise(r=>setTimeout(r,1500));
@@ -26,6 +84,14 @@ await page.goto(URL+'index.html',{waitUntil:'domcontentloaded'});
 record('home_load',await page.locator('h1').count()===1,await page.title());
 record('home_overflow_mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+3),await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth})));
 await axeTest(page,'home');
+const readersPage=await context.newPage();
+readersPage.on('pageerror',err=>report.page_errors.push(String(err).slice(0,280)));
+await readersPage.goto(URL+'index.html',{waitUntil:'domcontentloaded'});
+try{
+ await readersTest(readersPage);
+}finally{
+ await readersPage.close();
+}
 let htmls=fs.readdirSync('.').filter(x=>x.endsWith('.html')&&!x.startsWith('google'));
 const practicalGuides=htmls.filter(name=>/^(lavoro-guida-(0[7-9]|1[0-3])|salute-guida-0[6-8])-/.test(name));
 const practicalGuideIssues=[];
