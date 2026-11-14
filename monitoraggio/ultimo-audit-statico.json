@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-14T09:27:09+00:00",
+  "date_utc": "2026-11-14T09:48:48+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 117,
@@ -8,7 +8,7 @@
   },
   "links": {
     "local_occurrences": 4106,
-    "external_occurrences": 1753,
+    "external_occurrences": 1754,
     "external_unique": 763,
     "actions": 7,
     "broken_local": [],
@@ -1610,18 +1610,18 @@
     },
     {
       "file": "prova-lettori.html",
-      "title": "Prova Per Me in 15 minuti | Aiutaci a migliorare le guide",
+      "title": "Aiutaci a migliorare Per Me | Prova le guide",
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
       "links_local": 18,
-      "links_external": 1,
+      "links_external": 2,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 3
+      "candidate_numeric_legal_mentions": 2
     },
     {
       "file": "redditi-red-comunicazioni-obbligatorie-inps.html",
