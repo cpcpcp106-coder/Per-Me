@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-14T11:16:34.706994+00:00",
+  "date_utc": "2026-11-14T15:15:26.208819+00:00",
   "scope": {
     "pages": 124,
     "unique_external_urls": 789,
@@ -934,8 +934,8 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://eur-lex.europa.eu/",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
       ]
@@ -943,8 +943,8 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://eur-lex.europa.eu/?uri=CELEX%3A02022R2104-20240610",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
@@ -953,8 +953,8 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://eur-lex.europa.eu/?uri=CELEX%3A32022R2104",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
       ]
@@ -3933,8 +3933,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -6662,9 +6663,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -6691,9 +6691,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -7917,8 +7916,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
