@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-14T08:53:55.681601+00:00",
+  "date_utc": "2026-11-14T09:10:50.334466+00:00",
   "scope": {
     "pages": 117,
-    "unique_external_urls": 764,
+    "unique_external_urls": 763,
     "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 623,
+    "raggiungibile": 621,
     "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 21,
+    "non_verificato_trasporto": 22,
     "errore_http": 1
   },
   "results": [
@@ -1581,8 +1581,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -3653,9 +3654,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -5754,20 +5754,12 @@
       ]
     },
     {
-      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
-      "pages": [
-        "agevolazioni-diritti.html"
-      ]
-    },
-    {
       "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
       "pages": [
+        "agevolazioni-diritti.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -7620,9 +7612,8 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
