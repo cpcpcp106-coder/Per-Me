@@ -17,7 +17,7 @@ Dopo il riesame, Per Me ha inviato un ringraziamento individuale, senza collegam
 | Veneto | Schio Pubblicità Eventi | [Pubblicato](https://www.facebook.com/groups/733005115427350/?multi_permalinks=1465194882208366) |
 | Veneto | Castelfranco Veneto | In moderazione |
 | Trentino-Alto Adige | Bolzano Città | In moderazione |
-| Trentino-Alto Adige | Bolzano Quotidiano | Da inviare. Iscrizione confermata, modulo per scrivere assente e commenti disattivati nei post di benvenuto consultati. |
+| Trentino-Alto Adige | Bolzano Quotidiano | Da inviare. Iscrizione confermata. Il gruppo non mostra il modulo di pubblicazione e i post di benvenuto consultati hanno i commenti chiusi. Nella posta Messenger di Per Me non è emersa una conversazione con gli amministratori né un comando per avviarne una. La [pagina amministratrice BolzanoQuotidiano.it](https://www.facebook.com/rassegnastampabolzano/) espone un recapito e-mail. |
 | Trentino-Alto Adige | Merano «Cosa non ti piace, ma anche cosa ti piace» | In moderazione |
 | Trentino-Alto Adige | Merano «Dalla parte dei cittadini» | In moderazione |
 | Trentino-Alto Adige | Rovereto | In moderazione |
