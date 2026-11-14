@@ -2,6 +2,29 @@
 
 Riesame in Facebook con identità Pagina Per Me. Argomento dei nuovi invii: 28 ricette mediterranee, menu settimanale e lista della spesa. [Menu Per Me](https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html).
 
+## Ringraziamenti per le iscrizioni del 14 novembre
+
+Dopo il riesame, Per Me ha inviato un ringraziamento individuale, senza collegamenti promozionali, in **13 dei 14 gruppi** che avevano accolto la Pagina e in cui il controllo precedente non aveva trovato un ringraziamento. **Tre post sono pubblicati e dieci sono in moderazione.**
+
+| Area | Gruppo | Esito del ringraziamento |
+|---|---|---|
+| Friuli Venezia Giulia | Aviano | [In moderazione](https://www.facebook.com/groups/281797948641095/my_pending_content) |
+| Friuli Venezia Giulia | Cordenons | In moderazione |
+| Friuli Venezia Giulia | Fiume Veneto | In moderazione |
+| Friuli Venezia Giulia | Porcia | [In moderazione](https://www.facebook.com/groups/532546586843604/my_pending_content) |
+| Veneto | Chioggia Eventi | [Pubblicato](https://www.facebook.com/groups/4203626199857380/?multi_permalinks=4642628485957147) |
+| Veneto | Este Pubblicità Eventi | [Pubblicato](https://www.facebook.com/groups/1073107614453386/?multi_permalinks=1662846702146138) |
+| Veneto | Schio Pubblicità Eventi | [Pubblicato](https://www.facebook.com/groups/733005115427350/?multi_permalinks=1465194882208366) |
+| Veneto | Castelfranco Veneto | In moderazione |
+| Trentino-Alto Adige | Bolzano Città | In moderazione |
+| Trentino-Alto Adige | Bolzano Quotidiano | Da inviare. Iscrizione confermata, modulo per scrivere assente e commenti disattivati nei post di benvenuto consultati. |
+| Trentino-Alto Adige | Merano «Cosa non ti piace, ma anche cosa ti piace» | In moderazione |
+| Trentino-Alto Adige | Merano «Dalla parte dei cittadini» | In moderazione |
+| Trentino-Alto Adige | Rovereto | In moderazione |
+| Trentino-Alto Adige | Brunico | In moderazione |
+
+Per i prossimi benvenuti, verificare l’accettazione dell’iscrizione e ringraziare una volta gli amministratori del singolo gruppo come Pagina Per Me. Usare un eventuale post di benvenuto con commenti aperti, oppure il canale disponibile nel gruppo. Registrare l’esito del ringraziamento per evitare un secondo invio.
+
 ## Stato subito dopo i nuovi invii
 
 Facebook ha mostrato l’autore Per Me, la foto allegata e l’avviso di attesa dell’approvazione degli amministratori. I tre contenuti sono stati ritrovati nella sezione «In sospeso» dei rispettivi gruppi.
