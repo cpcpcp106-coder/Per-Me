@@ -54,7 +54,7 @@ for(const cue of ['id="regola-15"','15 grammi','15 minuti','inferiore a 70 mg/dL
 for(const cue of ['Regola del 15 (15–15)','15 g di glucosio','ADA 2026','CDC, *Treatment','Non universale','ipoglicemia grave']){
  assert.ok(inventory.includes(cue),'Regola del 15 non documentata nel censimento: '+cue);
 }
-const publishedDietGuides=[...med.matchAll(/<li><strong>Guida (\d\d) — pubblicata:<\/strong>/g)].map(match=>Number(match[1]));
+const publishedDietGuides=[...med.matchAll(/<li><strong>Guida (\d\d)<\/strong>\s*<a href="dieta-guida-\1-[^"]+\.html"/g)].map(match=>Number(match[1]));
 assert.deepEqual(publishedDietGuides,Array.from({length:8},(_,i)=>i+1),'Otto guide Dieta mediterranea pubblicate in ordine, senza numeri mancanti o duplicati');
 for(let i=1;i<=8;i++)assert.ok(med.includes('dieta-guida-'+String(i).padStart(2,'0')+'-'),'La rubrica non collega la Guida Dieta '+i);
 
