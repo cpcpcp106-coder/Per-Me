@@ -4,7 +4,7 @@ Riesame in Facebook con identità Pagina Per Me. Argomento dei nuovi invii: 28 r
 
 ## Ringraziamenti per le iscrizioni del 14 novembre
 
-Dopo il riesame, Per Me ha inviato un ringraziamento individuale, senza collegamenti promozionali, in **13 dei 14 gruppi** che avevano accolto la Pagina e in cui il controllo precedente non aveva trovato un ringraziamento. **Tre post sono pubblicati e dieci sono in moderazione.**
+Dopo il riesame, Per Me ha inviato un ringraziamento individuale ai **14 gruppi** che avevano accolto la Pagina e in cui il controllo precedente non aveva trovato un ringraziamento. **Tre post sono pubblicati, dieci sono in moderazione e un ringraziamento è stato inviato per e-mail.**
 
 | Area | Gruppo | Esito del ringraziamento |
 |---|---|---|
@@ -17,7 +17,7 @@ Dopo il riesame, Per Me ha inviato un ringraziamento individuale, senza collegam
 | Veneto | Schio Pubblicità Eventi | [Pubblicato](https://www.facebook.com/groups/733005115427350/?multi_permalinks=1465194882208366) |
 | Veneto | Castelfranco Veneto | In moderazione |
 | Trentino-Alto Adige | Bolzano Città | In moderazione |
-| Trentino-Alto Adige | Bolzano Quotidiano | Da inviare. Iscrizione confermata. Il gruppo non mostra il modulo di pubblicazione e i post di benvenuto consultati hanno i commenti chiusi. Nella posta Messenger di Per Me non è emersa una conversazione con gli amministratori né un comando per avviarne una. La [pagina amministratrice BolzanoQuotidiano.it](https://www.facebook.com/rassegnastampabolzano/) espone un recapito e-mail. |
+| Trentino-Alto Adige | Bolzano Quotidiano | **Ringraziamento inviato per e-mail il 14 novembre e verificato nella posta inviata.** Recapito pubblicato dalla [pagina amministratrice BolzanoQuotidiano.it](https://www.facebook.com/rassegnastampabolzano/). Il gruppo non mostrava il modulo di pubblicazione, i commenti ai post di benvenuto consultati erano chiusi e Messenger non offriva un’opzione per avviare la conversazione. |
 | Trentino-Alto Adige | Merano «Cosa non ti piace, ma anche cosa ti piace» | In moderazione |
 | Trentino-Alto Adige | Merano «Dalla parte dei cittadini» | In moderazione |
 | Trentino-Alto Adige | Rovereto | In moderazione |
