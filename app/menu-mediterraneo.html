@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Componi il menu mediterraneo della settimana con 28 ricette. Scegli le porzioni, indica cosa hai in casa e ottieni la lista della spesa.">
+  <meta name="theme-color" content="#492d1e">
+  <link rel="canonical" href="https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html">
+  <link rel="icon" href="icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="menu-mediterraneo.css?v=1">
+  <title>Menu mediterraneo e lista della spesa | Per Me</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Menu mediterraneo e lista della spesa | Per Me">
+  <meta property="og:description" content="Organizza sette giorni, scegli quante porzioni preparare e controlla la spesa per reparto.">
+  <meta property="og:url" content="https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html">
+  <meta property="og:image" content="https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-menu-spesa-originale.webp">
+  <meta property="og:image:alt" content="Ortaggi, lenticchie, pane integrale e un taccuino sul tavolo della cucina.">
+  <script defer src="../analytics.js?v=2"></script>
+  <script defer src="./ricette-mediterranee.js?v=1"></script>
+  <script defer src="./menu-mediterraneo.js?v=1"></script>
+</head>
+<body>
+  <a class="skip salta" href="#contenuto">Salta al contenuto</a>
+  <header class="testata">
+    <div class="contenitore testata-riga">
+      <a class="marchio" href="../index.html"><img src="../assets/logo-per-me.png" width="86" height="86" alt="">Per Me</a>
+      <nav aria-label="Navigazione del menu">
+        <a id="catalogo-app" href="./">App Per Me</a>
+        <a href="../dieta-mediterranea-ricette.html" data-guida>Archivio ricette</a>
+      </nav>
+    </div>
+  </header>
+  <main id="contenuto" class="contenitore">
+    <section class="apertura">
+      <div>
+        <h1>Menu mediterraneo e lista della spesa</h1>
+        <p>Organizza sette giorni partendo da 28 ricette. Scegli le porzioni, indica ciò che hai in casa e guarda quanto acquistare.</p>
+      </div>
+      <figure>
+        <img src="../assets/dieta-menu-spesa-originale.webp" width="1080" height="720" alt="Una borsa di tela accanto a broccoli, carote, lenticchie, pane e un taccuino." decoding="async">
+        <figcaption>Illustrazione generata con intelligenza artificiale.</figcaption>
+      </figure>
+    </section>
+
+    <noscript><p>Per compilare il menu serve JavaScript. Puoi comunque leggere <a href="../dieta-mediterranea-ricette.html">l’archivio delle ricette</a>.</p></noscript>
+    <p id="avvio-menu">Caricamento del menu. Se i comandi tardano a comparire, apri l’<a href="../dieta-mediterranea-ricette.html" data-guida>archivio delle ricette</a>.</p>
+    <div id="strumento" hidden>
+      <section class="pannello" aria-labelledby="menu-titolo">
+        <h2 id="menu-titolo">Componi il menu</h2>
+        <div class="partenza">
+          <div class="campo">
+            <label for="persone">Persone a tavola</label>
+            <select id="persone"></select>
+          </div>
+          <div class="campo">
+            <label for="esempio">Parti da un esempio</label>
+            <select id="esempio"><option value="">Scegli una settimana</option></select>
+            <button type="button" id="carica" class="pulsante-secondario" disabled>Carica l’esempio</button>
+          </div>
+        </div>
+        <p>Scegli una ricetta per ogni pasto e cambia le porzioni dove serve. Per un pasto fuori casa lascia il campo vuoto. Completa il menu con la frutta, i contorni e gli altri alimenti che mangi abitualmente. <a href="#aggiunte-titolo">Fai le tue aggiunte</a>.</p>
+        <section id="scelta-ricetta" class="scheda-scelta" aria-labelledby="scelta-titolo" hidden>
+          <h3 id="scelta-titolo"></h3>
+          <div class="campo">
+            <label for="scelta-posto">In quale pasto vuoi usarla?</label>
+            <select id="scelta-posto"></select>
+          </div>
+          <button type="button" id="salva-ricetta" class="pulsante">Metti nel menu</button>
+        </section>
+        <div class="giorni" id="giorni"></div>
+        <div class="riepilogo">
+          <h3>Varietà a pranzo e a cena</h3>
+          <p id="copertura"></p>
+          <ul id="rotazione" class="rotazione"></ul>
+          <details>
+            <summary>Come leggere gli esempi della settimana</summary>
+            <p>Gli esempi alternano legumi, pesce, uova, carne bianca e ricotta. Il conteggio indica quante volte compare il gruppo principale del piatto. Le porzioni e gli altri alimenti della giornata dipendono dalle tue esigenze.</p>
+            <p>Completa gli esempi con le porzioni di frutta, verdura e altri alimenti che usi nella giornata. Se segui un piano per diabete o altre condizioni, usa le quantità concordate con chi ti segue. <a href="../dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html" data-guida>Dieta, diabete e cuore</a></p>
+          </details>
+        </div>
+        <p><a class="pulsante" href="#spesa">Vai alla lista della spesa</a></p>
+        <button type="button" id="azzera" class="pulsante-secondario">Svuota il menu</button>
+      </section>
+
+      <section class="pannello" aria-labelledby="aggiunte-titolo">
+        <h2 id="aggiunte-titolo">Aggiungi frutta, contorni e altri alimenti</h2>
+        <p>Scegli un alimento e indica i grammi totali per la settimana. Per esempio, 150 g da mangiare tre volte fanno 450 g da aggiungere.</p>
+        <form id="aggiungi-form" class="aggiunte-form">
+          <div class="campo">
+            <label for="ingrediente-extra">Alimento</label>
+            <select id="ingrediente-extra" required>
+              <option value="">Scegli un alimento</option>
+            </select>
+          </div>
+          <div class="campo">
+            <label for="quantita-extra">Grammi totali</label>
+            <input type="number" id="quantita-extra" min="1" max="100000" step="1" inputmode="numeric" required>
+          </div>
+          <button type="submit" class="pulsante-secondario">Aggiungi alla settimana</button>
+        </form>
+        <ul id="aggiunte" class="elenco-aggiunte"></ul>
+      </section>
+
+      <section class="pannello" id="spesa" aria-labelledby="spesa-titolo">
+        <h2 id="spesa-titolo">Lista della spesa</h2>
+        <p>La lista si aggiorna quando cambi il menu. Segna quello che hai già o riduci la quantità da comprare.</p>
+        <div class="campo formato">
+          <label for="legumi">Come preferisci acquistare i legumi?</label>
+          <select id="legumi">
+            <option value="cotti">Già cotti · peso sgocciolato</option>
+            <option value="secchi">Secchi · peso prima dell’ammollo</option>
+          </select>
+        </div>
+        <p class="stato-lista" id="stato-lista"></p>
+        <div id="lista"></div>
+        <p id="pesi-spesa">I grammi si riferiscono alla parte da usare. Considera bucce, scarti e peso sgocciolato quando scegli la confezione.</p>
+        <details class="spiega-pesi">
+          <summary>Pesi crudi, cotti e arrotondamenti</summary>
+          <p>La lista converte dove serve il peso cotto in un peso d’acquisto stimato, poi unisce le righe dello stesso ingrediente. Pesa gli ingredienti come indicato nelle ricette. Le stime possono cambiare con l’ammollo, la cottura e la marca. Le uova sono arrotondate al pezzo usando 50 g senza guscio per uovo medio.</p>
+          <p>Per ceci, fagioli, lenticchie, carote e patate usiamo le rese della tabella C del CREA. Per il riso integrale, 1 g secco corrisponde indicativamente a 3 g cotti, stima ricavata dal rapporto tra i carboidrati nelle due tabelle.</p>
+          <p><a href="https://www.alimentinutrizione.it/presentazione-dati#TabC">CREA · Rese di cottura</a> · <a href="https://www.alimentinutrizione.it/tabelle-nutrizionali/000110">Riso integrale secco</a> · <a href="https://www.alimentinutrizione.it/tabelle-nutrizionali/000115">Riso integrale cotto</a></p>
+        </details>
+        <div class="azioni">
+          <button type="button" class="pulsante" id="copia" disabled>Copia la lista</button>
+          <button type="button" class="pulsante-secondario" id="stampa" disabled>Stampa la lista</button>
+        </div>
+        <p id="esito-copia" role="status" aria-atomic="true" class="avviso"></p>
+        <div class="campo" id="copia-manuale" hidden>
+          <label for="testo-lista">Testo della lista da copiare</label>
+          <textarea id="testo-lista" readonly rows="9"></textarea>
+        </div>
+      </section>
+      <p id="salvataggio" class="avviso" role="status" hidden></p>
+      <p>Il menu e la dispensa si salvano sul dispositivo. Apri l’app Per Me online una prima volta per poter tornare al menu e alle ricette salvate anche senza rete.</p>
+    </div>
+
+    <section class="pannello testo" aria-labelledby="spesa-smart-titolo">
+      <h2 id="spesa-smart-titolo">Organizza la spesa della settimana</h2>
+      <p>Scegli due piatti che usano lo stesso ortaggio. Compra la quantità necessaria per entrambi e cucina secondo i tuoi tempi. Per i legumi in scatola, confronta il prezzo sul peso sgocciolato. Per frutta e verdura confronta prezzo e quantità che riuscirai a usare.</p>
+      <p>Raffredda in fretta le porzioni cotte che vuoi conservare e mettile in frigorifero o congelale in contenitori puliti. Tieni separati alimenti crudi e cotti. <a href="https://www.salute.gov.it/new/sites/default/files/imported/C_17_pubblicazioni_2341_allegato.pdf">Ministero della Salute · Cinque punti per alimenti sicuri</a></p>
+      <p>Le scelte di base seguono il modello mediterraneo del CREA, con varietà di ortaggi e cereali e più spazio ai legumi. Le stime per piatto riportano i carboidrati disponibili. <a href="https://www.crea.gov.it/web/alimenti-e-nutrizione/-/linee-guida-per-una-sana-alimentazione-2018">CREA · Linee guida per una sana alimentazione</a></p>
+    </section>
+  </main>
+  <footer class="piè"><div class="contenitore">Per Me · <a href="../metodo.html">Fonti e limiti</a> · <a href="../chi-siamo.html">Il progetto</a></div></footer>
+</body>
+</html>

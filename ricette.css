@@ -103,3 +103,41 @@
 .calcolo-ricetta tfoot {
   background: #edf4ef;
 }
+
+.ricetta-archivio {
+  margin: 1.6rem 0;
+  scroll-margin-top: 18px;
+}
+
+.ricetta-archivio summary,
+.indice-ricette a,
+.scheda-ricetta-testo li a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 46px;
+}
+
+.ricetta-archivio summary {
+  display: list-item;
+  min-height: 56px;
+  padding: .7rem .35rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.raccolta-ricette .foto-piatto {
+  margin: 1.25rem 0;
+}
+
+.raccolta-ricette .foto-piatto img {
+  border-radius: 10px;
+}
+
+.scheda-ricetta-testo ul {
+  margin: .55rem 0;
+  padding-left: 1.3rem;
+}
+
+@media (max-width: 650px) {
+  .raccolta-ricette .article .guida-button { width: 100%; }
+}

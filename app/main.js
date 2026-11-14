@@ -1,6 +1,7 @@
 'use strict';
 const ROOT=new URL('../',location.href);
 const KEY='perme-app-offline-20261014';
+const RICETTE='dieta-mediterranea-ricette.html';
 const SECTIONS=[
  ['soldi-lavoro.html','Soldi & Lavoro'],
  ['pensione-invalidita.html','Pensione e invalidità'],
@@ -50,6 +51,12 @@ async function downloadPage(path){
  let response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);
  return {doc:new DOMParser().parseFromString(await response.text(),'text/html'),src:url.href};
 }
+function collectLinkedPages(doc,source,category,pages){
+ for(const link of doc.querySelectorAll('main a[href]')){
+  const found=pathFor(link.getAttribute('href'),source);
+  if(found&&!CATEGORIES.has(found)&&!pages.has(found))pages.set(found,category);
+ }
+}
 const SAFE_TAGS=new Set('H1 H2 H3 H4 H5 H6 P UL OL LI STRONG B EM I U BR SPAN DIV SECTION ASIDE BLOCKQUOTE TABLE CAPTION THEAD TBODY TR TH TD DL DT DD CODE PRE HR A SMALL SUP SUB DETAILS SUMMARY'.split(' '));
 const SKIP_TAGS=new Set('SCRIPT STYLE NAV FOOTER HEADER IMG PICTURE SVG VIDEO AUDIO IFRAME OBJECT FORM BUTTON INPUT TEXTAREA SELECT CANVAS NOSCRIPT'.split(' '));
 function filtered(node,src){
@@ -93,11 +100,13 @@ async function sync(){
  let pages=new Map(),failed=[];
  for(let [path,cat] of SECTIONS){
   try{let {doc}=await downloadPage(path);pages.set(path,cat);
-   for(let a of doc.querySelectorAll('main a[href]')){
-    let found=pathFor(a.getAttribute('href'),new URL(path,ROOT));
-    if(found&&!CATEGORIES.has(found)&&!pages.has(found))pages.set(found,cat);
-   }
+   collectLinkedPages(doc,new URL(path,ROOT),cat,pages);
   }catch(e){failed.push(path)}
+ }
+ const categoriaRicette=pages.get(RICETTE);
+ if(categoriaRicette){
+  try{const {doc,src}=await downloadPage(RICETTE);collectLinkedPages(doc,src,categoriaRicette,pages)}
+  catch(e){failed.push(RICETTE)}
  }
  let all=[...pages.entries()],newGuides=[];
  for(let i=0;i<all.length;i+=4){
@@ -114,7 +123,7 @@ async function sync(){
   const failedCategories=new Set(failed.filter(p=>CATEGORIES.has(p)).map(p=>CATEGORIES.get(p)));
   // Se non si raggiunge una rubrica, conserva le relative pagine già salvate, segnalandole.
   const oldCopies=[...previous.values()].filter(g=>
-    (failedPaths.has(g.path)||failedCategories.has(g.category))&&!fresh.some(x=>x.path===g.path)
+    (failedPaths.has(g.path)||failedCategories.has(g.category)||(failedPaths.has(RICETTE)&&g.category===categoriaRicette))&&!fresh.some(x=>x.path===g.path)
   ).map(g=>({...g,stale:true}));
   const next=[...fresh,...oldCopies].sort((a,b)=>a.category.localeCompare(b.category,'it')||a.title.localeCompare(b.title,'it'));
   const counts=compareGuides([...previous.values()],fresh);
@@ -211,6 +220,21 @@ function openGuide(path,scroll){
  if(scroll){history.replaceState(null,'','#guida='+encodeURIComponent(path));window.scrollTo({top:0})}
 }
 function back(){model.current=null;element('catalogue').hidden=false;element('reader').hidden=true;history.replaceState(null,'',location.pathname);window.scrollTo({top:0})}
+function scrollToGuideSection(id){
+ const target=[...element('reader-content').querySelectorAll('[id]')].find(node=>node.id===id);
+ if(!target)return false;
+ target.scrollIntoView({block:'start'});
+ return true;
+}
+function openGuideFromHash(){
+ const parameters=new URLSearchParams(location.hash.slice(1));
+ const guide=parameters.get('guida');
+ if(guide&&model.guides.some(g=>g.path===guide)){
+  openGuide(guide,false);
+  const section=parameters.get('sezione');
+  if(section)scrollToGuideSection(section);
+ }else if(model.current)back();
+}
 let installEvent=null;
 function setupInstall(){
  const button=element('install-app'),tip=element('install-tip'),help=element('install-help');
@@ -243,9 +267,7 @@ function init(){
     if(!same)openGuide(p,true);
     if(u.hash){
      const id=decodeURIComponent(u.hash.substring(1));
-     const target=[...element('reader-content').querySelectorAll('[id]')].find(n=>n.id===id);
-     if(target)target.scrollIntoView({block:'start'});
-     else if(same)window.scrollTo({top:0});
+     if(!scrollToGuideSection(id)&&same)window.scrollTo({top:0});
     }else if(same)window.scrollTo({top:0});
     return;
    }
@@ -255,10 +277,9 @@ function init(){
  });
  window.addEventListener('online',()=>{statusConnection();sync()});
  window.addEventListener('offline',statusConnection);
- window.addEventListener('hashchange',()=>{let p=location.hash.startsWith('#guida=')?decodeURIComponent(location.hash.substring(7)):null;if(p&&model.guides.some(g=>g.path===p))openGuide(p,false);else if(model.current)back()});
+ window.addEventListener('hashchange',openGuideFromHash);
  if('serviceWorker' in navigator)navigator.serviceWorker.register('./sw.js',{scope:'./'}).catch(()=>{});
- const initial=location.hash.startsWith('#guida=')?decodeURIComponent(location.hash.substring(7)):null;
- if(initial)openGuide(initial,false);
+ openGuideFromHash();
  if(isOnline())sync();
 }
 document.addEventListener('DOMContentLoaded',init);

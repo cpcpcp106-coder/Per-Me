@@ -61,10 +61,11 @@ def resolve(source,ref):
 
 def main():
     now=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    pages=sorted(list(ROOT.glob("*.html"))+[ROOT/"app"/"index.html"])
+    pages=sorted(list(ROOT.glob("*.html"))+list((ROOT/"app").glob("*.html")))
     parsers={}
     for path in pages:
         p=Page();p.feed(path.read_text(encoding="utf-8"));parsers[path.relative_to(ROOT).as_posix()]=p
+    ricette={r["id"] for r in json.loads((ROOT/"dati"/"ricette-mediterranee.json").read_text(encoding="utf-8"))["ricette"]}
     missing=[]; anchors=[]; ext=[]; local=[]; actions=0
     inventory=[]
     for name,p in parsers.items():
@@ -82,7 +83,9 @@ def main():
             if not check.is_file():
                 entry={"page":name,"ref":ref,"target":target,"issue":"file_mancante"}
                 missing.append(entry);per_missing.append(entry)
-            elif fragment and target in parsers and fragment not in parsers[target].ids:
+            elif fragment and target in parsers and fragment not in parsers[target].ids and not (
+                target=="app/menu-mediterraneo.html" and fragment.startswith("ricetta=") and fragment[8:] in ricette
+            ):
                 anchors.append({"page":name,"ref":ref,"target":target,"anchor":fragment})
         text=(ROOT/name).read_text(encoding="utf-8")
         numeric=len(re.findall(r"\b\d{1,3}(?:[.,]\d+)?\s*(?:€|euro|giorni|mesi|anni|rate|%)\b|\barticolo\s+\d+|\blegge\s+n?\.?\s*\d+",text,re.I))
@@ -96,11 +99,16 @@ def main():
     sw=(ROOT/"app/sw.js").read_text(encoding="utf-8")
     shell=re.search(r"\bSHELL\s*=\s*\[([^\]]+)\]",sw,re.S)
     shell_files=re.findall(r"['\"]([^'\"]+)['\"]",shell.group(1)) if shell else []
+    menu=re.search(r"""\bMENU\s*=\s*['"]([^'"]+)['"]""",sw)
+    if menu:shell_files.append(menu.group(1))
+    menu_assets=re.search(r"\bMENU_ASSETS\s*=\s*\[([^\]]+)\]",sw,re.S)
+    if menu_assets:shell_files.extend(re.findall(r"['\"]([^'\"]+)['\"]",menu_assets.group(1)))
     shell_missing=[]
     for src in shell_files:
-        name=src.split("?")[0].replace("./","")
-        if not name:name="index.html"
-        if not (ROOT/"app"/name).is_file():shell_missing.append(src)
+        name=src.split("?")[0]
+        target=ROOT/"app"/name
+        if target.is_dir():target=target/"index.html"
+        if not target.is_file():shell_missing.append(src)
     sitemap=(ROOT/"sitemap.xml").read_text(encoding="utf-8")
     sitemap_paths=set()
     for url in re.findall(r"<loc>([^<]+)</loc>",sitemap):

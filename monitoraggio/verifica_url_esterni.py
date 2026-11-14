@@ -11,7 +11,7 @@ class P(html.parser.HTMLParser):
   a=dict(attrs)
   if tag in ("a","link","img","script") and a.get("href" if tag in ("a","link") else "src"):
    self.links.append(a.get("href" if tag in ("a","link") else "src"))
-pages=sorted(list(ROOT.glob("*.html"))+[ROOT/"app"/"index.html"])
+pages=sorted(list(ROOT.glob("*.html"))+list((ROOT/"app").glob("*.html")))
 found={}
 for p in pages:
  q=P();q.feed(p.read_text("utf-8"))

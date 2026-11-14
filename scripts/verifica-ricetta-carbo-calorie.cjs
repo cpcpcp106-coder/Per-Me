@@ -1,4 +1,5 @@
 'use strict';
+if (require.main === module) require('./genera-ricette-mediterranee.cjs');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');

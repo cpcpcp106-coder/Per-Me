@@ -1,5 +1,6 @@
 /* Browser integration test: Chromium emulated Android 390px; not a physical-device certification. */
 const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:child_process');
+const assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const axe=require('axe-core');
 const URL='http://127.0.0.1:8765/';
@@ -69,6 +70,82 @@ async function readersTest(page){
    inviteWorks&&startWorks&&emptyBlocked&&feedbackWorks&&staleHidden&&!state.overflow&&facebookLink==='https://www.facebook.com/PerMeGuide/'&&!value.includes('Non indicato'),
    {inviteWorks,startWorks,emptyBlocked,feedbackWorks,staleHidden,overflow:state.overflow,facebookLink});
  }
+}
+async function mediterraneanMenuTest(browser){
+ const context=await browser.newContext({
+  viewport:{width:390,height:844},isMobile:true,hasTouch:true,serviceWorkers:'allow',
+  permissions:['clipboard-read','clipboard-write']
+ });
+ const page=await context.newPage();
+ page.on('pageerror',err=>report.page_errors.push(String(err).slice(0,280)));
+ const menu=URL+'app/menu-mediterraneo.html';
+ const row=id=>page.locator('[data-ingrediente="'+id+'"]');
+ const verify=async(id,expected)=>{
+  assert.ok((await row(id).locator('.acquisto').innerText()).includes(expected),id+' '+expected);
+ };
+ try{
+  await page.goto(URL+'app/',{waitUntil:'domcontentloaded'});
+  await page.waitForFunction(()=>JSON.parse(localStorage.getItem('perme-app-offline-20261014')||'{}').guides?.some(g=>g.path==='dieta-ricette-pesce.html'));
+  await page.waitForFunction(()=>Boolean(navigator.serviceWorker.controller));
+  await page.getByRole('link',{name:'Menu mediterraneo e lista della spesa',exact:true}).click();
+  await page.waitForURL(menu);
+  await page.locator('#persone').selectOption('2');
+  await page.locator('#esempio').selectOption('autunno');
+  await page.getByRole('button',{name:'Carica l’esempio'}).click();
+  assert.match(await page.locator('#copertura').innerText(),/14 pranzi e cene scelti su 14 · 7 colazioni scelte su 7/);
+  await verify('olio','280 g');
+  await verify('ceci:cotti','520 g');
+  await page.locator('#porzioni-1').selectOption('1');
+  await verify('olio','270 g');
+  await verify('ceci:cotti','390 g');
+  await page.locator('#legumi').selectOption('secchi');
+  await verify('ceci:secchi','135 g');
+  await page.locator('#scorta-ceci-secchi').fill('40');
+  await verify('ceci:secchi','95 g');
+  await row('olio').getByRole('checkbox').check();
+  await verify('olio','Già disponibile');
+  await page.locator('#ingrediente-extra').selectOption('mele');
+  await page.locator('#quantita-extra').fill('150');
+  await page.getByRole('button',{name:'Aggiungi alla settimana'}).click();
+  await verify('mele','750 g');
+  await page.getByRole('button',{name:'Copia la lista'}).click();
+  await page.waitForFunction(()=>document.getElementById('esito-copia').textContent.startsWith('Lista copiata'));
+  const copied=await page.evaluate(()=>navigator.clipboard.readText());
+  assert.match(copied,/Ceci — circa 95 g/);
+  assert.match(copied,/Mele — 750 g/);
+  assert.doesNotMatch(copied,/Olio extravergine/);
+  await page.emulateMedia({media:'print'});
+  assert.equal(await page.locator('#menu-titolo').isVisible(),false);
+  assert.equal(await row('olio').isVisible(),false);
+  assert.equal(await row('mele').isVisible(),true);
+  await page.emulateMedia({media:'screen'});
+  for(const width of [320,390]){
+   await page.setViewportSize({width,height:844});
+   const geometry=await page.evaluate(()=>({
+    width:innerWidth,scrollWidth:document.documentElement.scrollWidth,copy:document.getElementById('copia').getBoundingClientRect().height
+   }));
+   assert.ok(geometry.scrollWidth<=geometry.width+3,JSON.stringify(geometry));
+   assert.ok(geometry.copy>=56,JSON.stringify(geometry));
+  }
+  await axeTest(page,'menu mediterraneo');
+  await context.setOffline(true);
+  await page.reload({waitUntil:'domcontentloaded'});
+  assert.equal(await page.locator('#persone').inputValue(),'2');
+  await verify('ceci:secchi','95 g');
+  await verify('mele','750 g');
+  assert.equal(await page.locator('#lista [data-ingrediente="riso"]').count(),1);
+  await page.getByRole('link',{name:/Leggi la ricetta Merluzzo al forno/}).click();
+  await page.waitForFunction(()=>document.getElementById('reader-title')?.textContent.includes('Merluzzo'));
+  await page.goto(menu+'#ricetta=sgombro-patate-broccoli',{waitUntil:'domcontentloaded'});
+  await page.locator('#scelta-posto').selectOption('2');
+  await page.getByRole('button',{name:'Metti nel menu'}).click();
+  assert.equal(await page.locator('#pasto-2').inputValue(),'sgombro-patate-broccoli');
+  await page.getByRole('link',{name:/Leggi la ricetta Sgombro al forno/}).first().click();
+  await page.waitForFunction(()=>Boolean(document.querySelector('#reader-content #sgombro-patate-broccoli')));
+  record('mediterranean_menu_and_shopping_list',true,{pasti:21,manualStock:true,copied:true,print:true,offlineRecipes:true,widths:[320,390]});
+ }catch(err){
+  record('mediterranean_menu_and_shopping_list',false,{error:String(err.stack||err).slice(0,950)});
+ }finally{await context.close();}
 }
 async function start(){
 server=spawn('python3',['-m','http.server','8765','--bind','127.0.0.1'],{stdio:'ignore'});
@@ -183,6 +260,7 @@ await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);
 record('app_back_online_after_offline',(await page.locator('h1').count())>=1,'App reopened after offline test');
+await mediterraneanMenuTest(browserInstance);
 
 const deployed=await context.newPage();
 for (const [label,remote,locator] of [

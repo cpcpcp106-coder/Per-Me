@@ -14,7 +14,7 @@ const skip = new Set(['contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html'])
 const pages = fs.readdirSync(root).filter(name =>
   name.endsWith('.html') && !name.startsWith('google') && !skip.has(name)
 );
-pages.push('app/index.html');
+pages.push(...fs.readdirSync(path.join(root, 'app')).filter(name => name.endsWith('.html')).map(name => 'app/' + name));
 let covered = 0;
 for (const name of pages) {
   const file = fs.readFileSync(path.join(root, name), 'utf8');

@@ -1,0 +1,1613 @@
+{
+  "ingredienti": {
+    "pasta": {
+      "nome": "Pasta integrale",
+      "reparto": "Dispensa",
+      "codice": "000850",
+      "peso": "secca",
+      "kcal": 330,
+      "carboidrati": 64.8,
+      "proteine": 13.3,
+      "allergene": "Glutine"
+    },
+    "riso": {
+      "nome": "Riso integrale",
+      "reparto": "Dispensa",
+      "codice": "000110",
+      "peso": "secco",
+      "kcal": 341,
+      "carboidrati": 77.4,
+      "proteine": 7.5
+    },
+    "riso-cotto": {
+      "nome": "Riso integrale",
+      "reparto": "Dispensa",
+      "codice": "000115",
+      "peso": "già bollito e scolato",
+      "kcal": 113,
+      "carboidrati": 25.5,
+      "proteine": 2.5,
+      "acquisto": {
+        "ingrediente": "riso",
+        "resa": 3,
+        "fonte": "Stima dal rapporto tra i carboidrati del riso integrale crudo e cotto in tabella CREA (77,4 e 25,5 g per 100 g), con resa arrotondata. Dopo la cottura pesa la quantità richiesta."
+      }
+    },
+    "orzo": {
+      "nome": "Orzo perlato",
+      "reparto": "Dispensa",
+      "codice": "000090",
+      "peso": "secco",
+      "kcal": 346,
+      "carboidrati": 73.7,
+      "proteine": 9.4,
+      "allergene": "Glutine"
+    },
+    "farro": {
+      "nome": "Farro perlato",
+      "reparto": "Dispensa",
+      "codice": "000020",
+      "peso": "secco",
+      "kcal": 353,
+      "carboidrati": 69.3,
+      "proteine": 14.6,
+      "allergene": "Glutine"
+    },
+    "polenta": {
+      "nome": "Farina di mais per polenta",
+      "reparto": "Dispensa",
+      "codice": "000075",
+      "peso": "secca",
+      "kcal": 323,
+      "carboidrati": 72.7,
+      "proteine": 8.0
+    },
+    "pane": {
+      "nome": "Pane integrale",
+      "reparto": "Pane",
+      "codice": "000550",
+      "peso": "prima di tostarlo",
+      "kcal": 224,
+      "carboidrati": 44.1,
+      "proteine": 8.5,
+      "allergene": "Glutine"
+    },
+    "avena": {
+      "nome": "Fiocchi d’avena",
+      "reparto": "Dispensa",
+      "codice": "003030",
+      "peso": "secchi",
+      "kcal": 367,
+      "carboidrati": 66.8,
+      "proteine": 8.0,
+      "allergene": "Glutine"
+    },
+    "ceci": {
+      "nome": "Ceci",
+      "reparto": "Legumi",
+      "codice": "004005",
+      "peso": "già lessati e scolati",
+      "kcal": 132,
+      "carboidrati": 18.9,
+      "proteine": 7.0,
+      "resaSecco": 2.9
+    },
+    "lenticchie": {
+      "nome": "Lenticchie",
+      "reparto": "Legumi",
+      "codice": "004505",
+      "peso": "già lessate e scolate",
+      "kcal": 109,
+      "carboidrati": 16.3,
+      "proteine": 6.9,
+      "resaSecco": 2.47
+    },
+    "borlotti": {
+      "nome": "Fagioli borlotti",
+      "reparto": "Legumi",
+      "codice": "004125",
+      "peso": "già lessati e scolati",
+      "kcal": 106,
+      "carboidrati": 16.4,
+      "proteine": 6.9,
+      "resaSecco": 2.3
+    },
+    "cannellini": {
+      "nome": "Fagioli cannellini",
+      "reparto": "Legumi",
+      "codice": "004205",
+      "peso": "già lessati e scolati",
+      "kcal": 107,
+      "carboidrati": 14.9,
+      "proteine": 8.0,
+      "resaSecco": 2.3
+    },
+    "piselli": {
+      "nome": "Piselli surgelati",
+      "reparto": "Surgelati",
+      "codice": "004730",
+      "peso": "pesati prima di cuocerli",
+      "kcal": 61,
+      "carboidrati": 6.5,
+      "proteine": 5.4
+    },
+    "passata": {
+      "nome": "Passata di pomodoro",
+      "reparto": "Dispensa",
+      "codice": "006670",
+      "peso": "",
+      "kcal": 21,
+      "carboidrati": 3.0,
+      "proteine": 1.3
+    },
+    "noci": {
+      "nome": "Noci",
+      "reparto": "Dispensa",
+      "codice": "008570",
+      "peso": "sgusciate",
+      "kcal": 702,
+      "carboidrati": 5.1,
+      "proteine": 14.3,
+      "allergene": "Frutta a guscio"
+    },
+    "mandorle": {
+      "nome": "Mandorle",
+      "reparto": "Dispensa",
+      "codice": "008540",
+      "peso": "sgusciate",
+      "kcal": 628,
+      "carboidrati": 4.6,
+      "proteine": 22.0,
+      "allergene": "Frutta a guscio"
+    },
+    "olio": {
+      "nome": "Olio extravergine di oliva",
+      "reparto": "Dispensa",
+      "codice": "009210",
+      "peso": "",
+      "kcal": 899,
+      "carboidrati": 0.0,
+      "proteine": 0.0
+    },
+    "broccoli": {
+      "nome": "Broccoli",
+      "reparto": "Frutta e verdura",
+      "codice": "005110",
+      "peso": "crudi, puliti",
+      "kcal": 33,
+      "carboidrati": 3.1,
+      "proteine": 3.0
+    },
+    "carote": {
+      "nome": "Carote",
+      "reparto": "Frutta e verdura",
+      "codice": "005150",
+      "peso": "crude, pulite",
+      "kcal": 41,
+      "carboidrati": 7.6,
+      "proteine": 1.1
+    },
+    "carote-cotte": {
+      "nome": "Carote",
+      "reparto": "Frutta e verdura",
+      "codice": "005155",
+      "peso": "già bollite e scolate",
+      "kcal": 47,
+      "carboidrati": 8.7,
+      "proteine": 1.3,
+      "acquisto": {
+        "ingrediente": "carote",
+        "resa": 0.87,
+        "fonte": "CREA, tabella C, carote bollite: 87 g cotti da 100 g crudi."
+      }
+    },
+    "patate": {
+      "nome": "Patate",
+      "reparto": "Frutta e verdura",
+      "codice": "006500",
+      "peso": "crude, senza buccia",
+      "kcal": 72,
+      "carboidrati": 16.0,
+      "proteine": 2.0
+    },
+    "patate-cotte": {
+      "nome": "Patate",
+      "reparto": "Frutta e verdura",
+      "codice": "006515",
+      "peso": "già bollite e senza buccia",
+      "kcal": 74,
+      "carboidrati": 16.9,
+      "proteine": 1.8,
+      "acquisto": {
+        "ingrediente": "patate",
+        "resa": 0.87,
+        "fonte": "CREA, tabella C, patate pelate bollite: 87 g cotti da 100 g crudi."
+      }
+    },
+    "cavolfiore": {
+      "nome": "Cavolfiore",
+      "reparto": "Frutta e verdura",
+      "codice": "005160",
+      "peso": "crudo, in cimette pulite",
+      "kcal": 30,
+      "carboidrati": 2.7,
+      "proteine": 3.2
+    },
+    "verza": {
+      "nome": "Verza",
+      "reparto": "Frutta e verdura",
+      "codice": "005210",
+      "peso": "cruda, pulita",
+      "kcal": 29,
+      "carboidrati": 3.8,
+      "proteine": 2.0
+    },
+    "cappuccio": {
+      "nome": "Cavolo cappuccio",
+      "reparto": "Frutta e verdura",
+      "codice": "005200",
+      "peso": "crudo, pulito",
+      "kcal": 24,
+      "carboidrati": 2.5,
+      "proteine": 2.1
+    },
+    "finocchi": {
+      "nome": "Finocchi",
+      "reparto": "Frutta e verdura",
+      "codice": "005320",
+      "peso": "crudi, puliti",
+      "kcal": 15,
+      "carboidrati": 1.5,
+      "proteine": 1.2
+    },
+    "radicchio": {
+      "nome": "Radicchio rosso",
+      "reparto": "Frutta e verdura",
+      "codice": "005440",
+      "peso": "crudo, pulito",
+      "kcal": 19,
+      "carboidrati": 1.6,
+      "proteine": 1.4
+    },
+    "porri": {
+      "nome": "Porri",
+      "reparto": "Frutta e verdura",
+      "codice": "005650",
+      "peso": "crudi, puliti",
+      "kcal": 35,
+      "carboidrati": 5.2,
+      "proteine": 2.1
+    },
+    "spinaci": {
+      "nome": "Spinaci",
+      "reparto": "Frutta e verdura",
+      "codice": "005700",
+      "peso": "crudi, puliti",
+      "kcal": 35,
+      "carboidrati": 2.9,
+      "proteine": 3.4
+    },
+    "zucca": {
+      "nome": "Zucca",
+      "reparto": "Frutta e verdura",
+      "codice": "005720",
+      "peso": "cruda, senza buccia e semi",
+      "kcal": 29,
+      "carboidrati": 3.5,
+      "proteine": 1.1
+    },
+    "zucchine": {
+      "nome": "Zucchine",
+      "reparto": "Frutta e verdura",
+      "codice": "005730",
+      "peso": "crude, pulite",
+      "kcal": 16,
+      "carboidrati": 1.7,
+      "proteine": 1.5
+    },
+    "pomodori": {
+      "nome": "Pomodori",
+      "reparto": "Frutta e verdura",
+      "codice": "006610",
+      "peso": "crudi, puliti",
+      "kcal": 23,
+      "carboidrati": 3.5,
+      "proteine": 1.0
+    },
+    "rosmarino": {
+      "nome": "Rosmarino fresco",
+      "reparto": "Frutta e verdura",
+      "codice": "006850",
+      "peso": "solo foglie",
+      "kcal": 110,
+      "carboidrati": 13.5,
+      "proteine": 1.4
+    },
+    "limoni": {
+      "nome": "Limoni",
+      "reparto": "Frutta e verdura",
+      "codice": "008040",
+      "peso": "peso del succo",
+      "kcal": 10,
+      "carboidrati": 2.5,
+      "proteine": 0.2
+    },
+    "pere": {
+      "nome": "Pere",
+      "reparto": "Frutta e verdura",
+      "codice": "007260",
+      "peso": "peso senza buccia e torsolo",
+      "kcal": 43,
+      "carboidrati": 8.8,
+      "proteine": 0.3
+    },
+    "mele": {
+      "nome": "Mele",
+      "reparto": "Frutta e verdura",
+      "codice": "007120",
+      "peso": "peso con buccia e senza torsolo",
+      "kcal": 44,
+      "carboidrati": 10.0,
+      "proteine": 0.2
+    },
+    "arance": {
+      "nome": "Arance",
+      "reparto": "Frutta e verdura",
+      "codice": "008000",
+      "peso": "peso senza buccia",
+      "kcal": 37,
+      "carboidrati": 7.8,
+      "proteine": 0.7
+    },
+    "banane": {
+      "nome": "Banane",
+      "reparto": "Frutta e verdura",
+      "codice": "007510",
+      "peso": "peso senza buccia",
+      "kcal": 76,
+      "carboidrati": 17.4,
+      "proteine": 1.2
+    },
+    "pollo": {
+      "nome": "Petto di pollo",
+      "reparto": "Carne bianca",
+      "codice": "106500",
+      "peso": "crudo, senza pelle e ossa",
+      "kcal": 100,
+      "carboidrati": 0.0,
+      "proteine": 23.3
+    },
+    "tacchino": {
+      "nome": "Fesa di tacchino",
+      "reparto": "Carne bianca",
+      "codice": "106850",
+      "peso": "cruda, taglio fresco",
+      "kcal": 107,
+      "carboidrati": 0.0,
+      "proteine": 24.0
+    },
+    "merluzzo": {
+      "nome": "Filetto di merluzzo",
+      "reparto": "Pesce",
+      "codice": "121410",
+      "peso": "crudo, già pulito",
+      "kcal": 71,
+      "carboidrati": 0.0,
+      "proteine": 17.0,
+      "allergene": "Pesce"
+    },
+    "sarde": {
+      "nome": "Sarde",
+      "reparto": "Pesce",
+      "codice": "122700",
+      "peso": "crude, peso pulito senza testa e lisca",
+      "kcal": 129,
+      "carboidrati": 1.5,
+      "proteine": 20.8,
+      "allergene": "Pesce"
+    },
+    "sgombro": {
+      "nome": "Filetto di sgombro",
+      "reparto": "Pesce",
+      "codice": "123000",
+      "peso": "crudo, già pulito",
+      "kcal": 170,
+      "carboidrati": 0.5,
+      "proteine": 17.0,
+      "allergene": "Pesce"
+    },
+    "trota": {
+      "nome": "Filetto di trota",
+      "reparto": "Pesce",
+      "codice": "124050",
+      "peso": "crudo, già pulito",
+      "kcal": 118,
+      "carboidrati": 0.0,
+      "proteine": 20.3,
+      "allergene": "Pesce"
+    },
+    "uova": {
+      "nome": "Uova",
+      "reparto": "Uova e latticini",
+      "codice": "181100",
+      "peso": "peso senza guscio, circa 2 medie per 100 g",
+      "kcal": 128,
+      "carboidrati": 0,
+      "proteine": 12.4,
+      "tracce": true,
+      "allergene": "Uova",
+      "grammiPerPezzo": 50
+    },
+    "latte": {
+      "nome": "Latte parzialmente scremato",
+      "reparto": "Uova e latticini",
+      "codice": "135020",
+      "peso": "pesato in grammi",
+      "kcal": 46,
+      "carboidrati": 5.0,
+      "proteine": 3.5,
+      "allergene": "Latte"
+    },
+    "yogurt": {
+      "nome": "Yogurt bianco intero naturale",
+      "reparto": "Uova e latticini",
+      "codice": "150010",
+      "peso": "senza zuccheri aggiunti",
+      "kcal": 66,
+      "carboidrati": 4.3,
+      "proteine": 3.8,
+      "allergene": "Latte"
+    },
+    "ricotta": {
+      "nome": "Ricotta vaccina",
+      "reparto": "Uova e latticini",
+      "codice": "166820",
+      "peso": "fresca",
+      "kcal": 146,
+      "carboidrati": 3.5,
+      "proteine": 8.8,
+      "allergene": "Latte"
+    }
+  },
+  "raccolte": [
+    {
+      "id": "minestre",
+      "file": "dieta-ricette-minestre-legumi.html",
+      "titolo": "Minestre di legumi e cereali",
+      "lead": "Tre piatti caldi con legumi, cereali e ortaggi. Con i legumi già lessati basta una pentola per gran parte della preparazione.",
+      "image": "minestre-legumi",
+      "alt": "Pasta integrale corta con lenticchie, carote e pomodoro in una ciotola di terracotta.",
+      "rappresenta": "Pasta e lenticchie al pomodoro"
+    },
+    {
+      "id": "piatti-legumi",
+      "file": "dieta-ricette-piatti-legumi.html",
+      "titolo": "Piatti unici con legumi",
+      "lead": "Quattro modi per portare in tavola ceci, fagioli o piselli. Puoi usare legumi già pronti e dosare soltanto ciò che serve.",
+      "image": "piatti-legumi",
+      "alt": "Riso integrale, ceci e cimette di broccoli in una ciotola color avorio.",
+      "rappresenta": "Riso integrale con ceci e broccoli"
+    },
+    {
+      "id": "pesce",
+      "file": "dieta-ricette-pesce.html",
+      "titolo": "Pesce con verdure, cereali o patate",
+      "lead": "Quattro piatti con pesce, ortaggi e un accompagnamento. Per contenere la spesa confronta il prezzo al chilo della parte che mangerai.",
+      "image": "pesce",
+      "alt": "Filetto di sgombro cotto con patate a spicchi e broccoli su un piatto chiaro.",
+      "rappresenta": "Sgombro al forno con patate e broccoli"
+    },
+    {
+      "id": "uova-carne-bianca",
+      "file": "dieta-ricette-uova-carne-bianca.html",
+      "titolo": "Piatti unici con uova o carne bianca",
+      "lead": "Quattro idee con uova, pollo o tacchino. Ogni piatto comprende anche una verdura e una fonte di carboidrati.",
+      "image": "uova-carne-bianca",
+      "alt": "Uova strapazzate ben rapprese con broccoli e due fette di pane integrale tostato.",
+      "rappresenta": "Uova strapazzate con broccoli e pane"
+    },
+    {
+      "id": "ricotta",
+      "file": "dieta-ricette-ricotta.html",
+      "titolo": "Piatti unici con ricotta",
+      "lead": "Due ricette con ricotta vaccina, pasta o pane integrale e verdure. Puoi scegliere una pasta calda oppure un piatto di pane tostato con contorno.",
+      "image": "ricotta",
+      "alt": "Pasta integrale corta con foglie di spinaci e fiocchi di ricotta.",
+      "rappresenta": "Pasta integrale con ricotta e spinaci"
+    },
+    {
+      "id": "colazioni",
+      "file": "dieta-ricette-colazioni.html",
+      "titolo": "Colazioni mediterranee",
+      "lead": "Quattro colazioni con frutta intera, cereali integrali e latticini. Per le quantità usa quelle adatte al tuo piano alimentare.",
+      "image": "colazioni",
+      "alt": "Ciotola di yogurt bianco con fiocchi di avena, fettine di pera e noci.",
+      "rappresenta": "Yogurt con avena, pera e noci"
+    }
+  ],
+  "ricette": [
+    {
+      "id": "pasta-integrale-ceci-cavolfiore",
+      "titolo": "Pasta integrale con crema di ceci, cavolfiore e rosmarino",
+      "gruppo": "legumi",
+      "path": "ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "porzioni": 1,
+      "ingredienti": [
+        [
+          "pasta",
+          55
+        ],
+        [
+          "ceci",
+          90
+        ],
+        [
+          "cavolfiore",
+          150
+        ],
+        [
+          "rosmarino",
+          1
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 436,
+        "carboidrati": 57
+      },
+      "immagine": "ricetta-pasta-integrale-ceci-cavolfiore-originale.webp"
+    },
+    {
+      "id": "riso-integrale-pollo-radicchio-noci",
+      "titolo": "Riso integrale con pollo, radicchio e noci",
+      "gruppo": "carne-bianca",
+      "path": "ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "porzioni": 1,
+      "ingredienti": [
+        [
+          "riso",
+          70
+        ],
+        [
+          "pollo",
+          120
+        ],
+        [
+          "radicchio",
+          150
+        ],
+        [
+          "noci",
+          10
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 547,
+        "carboidrati": 57
+      },
+      "immagine": "ricetta-riso-integrale-pollo-radicchio-noci-originale.webp"
+    },
+    {
+      "id": "merluzzo-patate-finocchio-limone",
+      "titolo": "Merluzzo al forno con patate, finocchio e limone",
+      "gruppo": "pesce",
+      "path": "ricetta-merluzzo-patate-finocchio-limone.html",
+      "porzioni": 1,
+      "ingredienti": [
+        [
+          "merluzzo",
+          150
+        ],
+        [
+          "patate",
+          280
+        ],
+        [
+          "finocchi",
+          150
+        ],
+        [
+          "limoni",
+          15
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 422,
+        "carboidrati": 47
+      },
+      "immagine": "ricetta-merluzzo-patate-finocchio-limone-originale.webp"
+    },
+    {
+      "id": "zuppa-orzo-lenticchie-porro-carota",
+      "titolo": "Zuppa di orzo, lenticchie, porro e carota",
+      "gruppo": "legumi",
+      "path": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "porzioni": 1,
+      "ingredienti": [
+        [
+          "orzo",
+          35
+        ],
+        [
+          "lenticchie",
+          100
+        ],
+        [
+          "carote",
+          60
+        ],
+        [
+          "porri",
+          50
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 362,
+        "carboidrati": 49
+      },
+      "immagine": "ricetta-zuppa-orzo-lenticchie-porro-carota-originale.webp"
+    },
+    {
+      "id": "frittata-zucca-spinaci-pane-integrale",
+      "titolo": "Frittata di zucca e spinaci con pane integrale",
+      "gruppo": "uova",
+      "path": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "porzioni": 1,
+      "ingredienti": [
+        [
+          "uova",
+          100
+        ],
+        [
+          "zucca",
+          200
+        ],
+        [
+          "spinaci",
+          100
+        ],
+        [
+          "pane",
+          80
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 490,
+        "carboidrati": 45
+      },
+      "immagine": "ricetta-frittata-zucca-spinaci-pane-integrale-originale.webp"
+    },
+    {
+      "id": "insalata-borlotti-riso-integrale-pomodori",
+      "titolo": "Borlotti e riso integrale con pomodori",
+      "gruppo": "legumi",
+      "path": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "porzioni": 2,
+      "ingredienti": [
+        [
+          "borlotti",
+          180
+        ],
+        [
+          "riso-cotto",
+          140
+        ],
+        [
+          "pomodori",
+          200
+        ],
+        [
+          "olio",
+          20
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 287,
+        "carboidrati": 36.1
+      },
+      "immagine": "ricetta-borlotti-riso-piatto-originale-hd.webp"
+    },
+    {
+      "id": "zuppa-lenticchie-patate-carote",
+      "titolo": "Zuppa di lenticchie, patate e carote",
+      "gruppo": "legumi",
+      "path": "ricetta-zuppa-lenticchie-patate-carote.html",
+      "porzioni": 2,
+      "ingredienti": [
+        [
+          "lenticchie",
+          240
+        ],
+        [
+          "patate-cotte",
+          180
+        ],
+        [
+          "carote-cotte",
+          120
+        ],
+        [
+          "olio",
+          16
+        ]
+      ],
+      "valoriPubblicati": {
+        "kcal": 298,
+        "carboidrati": 40
+      },
+      "immagine": "ricetta-zuppa-lenticchie-patate-carote-originale.webp"
+    },
+    {
+      "id": "pasta-lenticchie-carote",
+      "titolo": "Pasta e lenticchie al pomodoro",
+      "gruppo": "legumi",
+      "raccolta": "minestre",
+      "path": "dieta-ricette-minestre-legumi.html#pasta-lenticchie-carote",
+      "porzioni": 1,
+      "minuti": 25,
+      "ingredienti": [
+        [
+          "pasta",
+          42
+        ],
+        [
+          "lenticchie",
+          150
+        ],
+        [
+          "carote",
+          100
+        ],
+        [
+          "passata",
+          100
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Taglia la carota a dadini. Falla ammorbidire in pentola con metà dell’olio e un po’ d’acqua per 5 minuti.",
+        "Unisci passata e lenticchie. Aggiungi acqua calda per coprire di due dita, porta a bollore e versa la pasta.",
+        "Cuoci la pasta per il tempo della confezione, mescolando e aggiungendo acqua calda se serve. A fuoco spento aggiungi l’olio rimasto."
+      ],
+      "spesa": "Usa il resto della passata per le sarde o per un sugo. Segui le indicazioni di conservazione del barattolo."
+    },
+    {
+      "id": "orzo-cannellini-verza",
+      "titolo": "Orzo con cannellini e verza",
+      "gruppo": "legumi",
+      "raccolta": "minestre",
+      "path": "dieta-ricette-minestre-legumi.html#orzo-cannellini-verza",
+      "porzioni": 1,
+      "minuti": 40,
+      "ingredienti": [
+        [
+          "orzo",
+          40
+        ],
+        [
+          "cannellini",
+          150
+        ],
+        [
+          "verza",
+          170
+        ],
+        [
+          "carote",
+          50
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Sciacqua l’orzo se lo richiede la confezione. Affetta la verza a striscioline e la carota a dadini.",
+        "Cuoci orzo e carota in acqua seguendo i tempi dell’orzo. Negli ultimi 12 minuti aggiungi la verza.",
+        "Unisci i cannellini negli ultimi 5 minuti. Versa nel piatto e condisci con l’olio pesato."
+      ],
+      "spesa": "Tieni una parte della verza fresca per la polenta con borlotti."
+    },
+    {
+      "id": "farro-ceci-zucca",
+      "titolo": "Minestra di farro, ceci e zucca",
+      "gruppo": "legumi",
+      "raccolta": "minestre",
+      "path": "dieta-ricette-minestre-legumi.html#farro-ceci-zucca",
+      "porzioni": 1,
+      "minuti": 35,
+      "ingredienti": [
+        [
+          "farro",
+          40
+        ],
+        [
+          "ceci",
+          130
+        ],
+        [
+          "zucca",
+          200
+        ],
+        [
+          "porri",
+          50
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Taglia zucca e porro. Falli appassire per 5 minuti con metà dell’olio e un po’ d’acqua.",
+        "Aggiungi il farro e copri con acqua calda. Cuocilo secondo la confezione, aggiungendo acqua se serve.",
+        "Unisci i ceci negli ultimi 5 minuti. Schiaccia qualche cubetto di zucca per addensare e completa con l’olio rimasto."
+      ],
+      "spesa": "La zucca fresca avanzata si può usare nella frittata o nel pollo con orzo."
+    },
+    {
+      "id": "riso-ceci-broccoli",
+      "titolo": "Riso integrale con ceci e broccoli",
+      "gruppo": "legumi",
+      "raccolta": "piatti-legumi",
+      "path": "dieta-ricette-piatti-legumi.html#riso-ceci-broccoli",
+      "porzioni": 1,
+      "minuti": 40,
+      "ingredienti": [
+        [
+          "riso",
+          42
+        ],
+        [
+          "ceci",
+          130
+        ],
+        [
+          "broccoli",
+          180
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Cuoci il riso secondo la confezione. Dividi il broccolo in cimette e taglia a fettine la parte tenera del gambo.",
+        "Lessa o cuoci a vapore i broccoli fino a quando sono teneri. Scalda i ceci con un po’ d’acqua, poi scolali.",
+        "Mescola riso, ceci e broccoli ancora caldi e aggiungi l’olio pesato."
+      ],
+      "spesa": "Usa il gambo tenero insieme alle cimette per ridurre gli scarti."
+    },
+    {
+      "id": "cannellini-pane-spinaci",
+      "titolo": "Cannellini e spinaci con pane tostato",
+      "gruppo": "legumi",
+      "raccolta": "piatti-legumi",
+      "path": "dieta-ricette-piatti-legumi.html#cannellini-pane-spinaci",
+      "porzioni": 1,
+      "minuti": 25,
+      "ingredienti": [
+        [
+          "cannellini",
+          160
+        ],
+        [
+          "pane",
+          60
+        ],
+        [
+          "spinaci",
+          170
+        ],
+        [
+          "carote",
+          70
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Affetta la carota e falla ammorbidire in padella con poca acqua e metà dell’olio. Lava gli spinaci, aggiungili e copri finché appassiscono.",
+        "Unisci i cannellini e scalda per 5 minuti. Schiacciane qualcuno con il dorso della forchetta.",
+        "Tosta il pane pesato, servi accanto ai fagioli e condisci con l’olio rimasto."
+      ],
+      "spesa": "Il pane già affettato si può congelare e tostare al bisogno."
+    },
+    {
+      "id": "polenta-borlotti-verza",
+      "titolo": "Polenta morbida con borlotti e verza",
+      "gruppo": "legumi",
+      "raccolta": "piatti-legumi",
+      "path": "dieta-ricette-piatti-legumi.html#polenta-borlotti-verza",
+      "porzioni": 1,
+      "minuti": 30,
+      "ingredienti": [
+        [
+          "polenta",
+          40
+        ],
+        [
+          "borlotti",
+          160
+        ],
+        [
+          "verza",
+          180
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Affetta la verza e falla stufare coperta con poca acqua e metà dell’olio. Unisci i borlotti quando la verza è tenera.",
+        "Cuoci la polenta con la quantità d’acqua e i tempi della confezione. Il tempo indicato è per la farina precotta.",
+        "Versa la polenta nel piatto, aggiungi i borlotti e la verza e completa con l’olio rimasto."
+      ],
+      "spesa": "Una confezione di farina di mais si conserva in dispensa seguendo l’etichetta e si usa in più settimane."
+    },
+    {
+      "id": "pasta-piselli-zucchine",
+      "titolo": "Pasta integrale con piselli e zucchine",
+      "gruppo": "legumi",
+      "raccolta": "piatti-legumi",
+      "path": "dieta-ricette-piatti-legumi.html#pasta-piselli-zucchine",
+      "porzioni": 1,
+      "minuti": 25,
+      "ingredienti": [
+        [
+          "pasta",
+          65
+        ],
+        [
+          "piselli",
+          180
+        ],
+        [
+          "zucchine",
+          160
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Metti a bollire l’acqua della pasta e taglia la zucchina a dadini.",
+        "Cuoci a fondo i piselli surgelati seguendo la confezione. Fai ammorbidire la zucchina in padella con l’olio e poca acqua.",
+        "Scola la pasta, uniscila ai piselli e alla zucchina e mescola con poca acqua di cottura per legare il tutto."
+      ],
+      "spesa": "I piselli surgelati permettono di prelevare solo il peso che serve."
+    },
+    {
+      "id": "sgombro-patate-broccoli",
+      "titolo": "Sgombro al forno con patate e broccoli",
+      "gruppo": "pesce",
+      "raccolta": "pesce",
+      "path": "dieta-ricette-pesce.html#sgombro-patate-broccoli",
+      "porzioni": 1,
+      "minuti": 40,
+      "ingredienti": [
+        [
+          "sgombro",
+          150
+        ],
+        [
+          "patate",
+          240
+        ],
+        [
+          "broccoli",
+          180
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Scalda il forno a 200 °C. Taglia le patate a spicchi, mescolale con metà dell’olio e infornale per circa 20 minuti.",
+        "Aggiungi lo sgombro nella teglia e cuocilo fino a 63 °C nel punto più spesso. Separa i broccoli in cimette e cuocili al vapore finché sono teneri.",
+        "Servi tutta la porzione con patate, broccoli e l’olio rimasto."
+      ],
+      "spesa": "Confronta lo sgombro fresco già pulito con quello surgelato al naturale, verificando il peso utilizzabile."
+    },
+    {
+      "id": "trota-orzo-finocchi",
+      "titolo": "Trota in padella con orzo e finocchi",
+      "gruppo": "pesce",
+      "raccolta": "pesce",
+      "path": "dieta-ricette-pesce.html#trota-orzo-finocchi",
+      "porzioni": 1,
+      "minuti": 40,
+      "ingredienti": [
+        [
+          "trota",
+          150
+        ],
+        [
+          "orzo",
+          55
+        ],
+        [
+          "finocchi",
+          200
+        ],
+        [
+          "limoni",
+          15
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Metti a cuocere l’orzo secondo la confezione. Taglia il finocchio a fettine sottili e stufalo con poca acqua e metà dell’olio.",
+        "Scalda l’altra metà dell’olio e cuoci il filetto fino a 63 °C al centro. Aggiungi il succo di limone a fine cottura.",
+        "Scola l’orzo e servilo accanto alla trota e al finocchio."
+      ],
+      "spesa": "Programma il finocchio anche per un contorno o per il tacchino della stessa settimana."
+    },
+    {
+      "id": "sarde-cappuccio-pane",
+      "titolo": "Sarde al pomodoro, cavolo cappuccio e pane",
+      "gruppo": "pesce",
+      "raccolta": "pesce",
+      "path": "dieta-ricette-pesce.html#sarde-cappuccio-pane",
+      "porzioni": 1,
+      "minuti": 30,
+      "ingredienti": [
+        [
+          "sarde",
+          130
+        ],
+        [
+          "cappuccio",
+          180
+        ],
+        [
+          "passata",
+          100
+        ],
+        [
+          "pane",
+          75
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Stufa il cavolo affettato in padella con poca acqua e metà dell’olio fino a quando è tenero.",
+        "Scalda la passata con l’olio rimasto. Controlla le lische, aggiungi le sarde pulite e cuocile fino a 63 °C al centro del filetto.",
+        "Tosta il pane e servi il cavolo accanto alle sarde con la loro salsa."
+      ],
+      "spesa": "Se parti dalle sarde intere, considera il prezzo dopo aver tolto testa e lisca."
+    },
+    {
+      "id": "merluzzo-farro-spinaci",
+      "titolo": "Merluzzo al limone con farro e spinaci",
+      "gruppo": "pesce",
+      "raccolta": "pesce",
+      "path": "dieta-ricette-pesce.html#merluzzo-farro-spinaci",
+      "porzioni": 1,
+      "minuti": 35,
+      "ingredienti": [
+        [
+          "merluzzo",
+          150
+        ],
+        [
+          "farro",
+          60
+        ],
+        [
+          "spinaci",
+          160
+        ],
+        [
+          "limoni",
+          15
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Cuoci il farro secondo la confezione. Lava e fai appassire gli spinaci in padella con poca acqua.",
+        "Cuoci il merluzzo con metà dell’olio fino a 63 °C nel punto più spesso. Condiscilo a fine cottura con il succo di limone.",
+        "Scola il farro, uniscilo agli spinaci e condisci con il resto dell’olio. Servi accanto al pesce."
+      ],
+      "spesa": "I filetti surgelati al naturale permettono di cuocere la quantità prevista e conservare gli altri in freezer."
+    },
+    {
+      "id": "uova-broccoli-pane",
+      "titolo": "Uova strapazzate con broccoli e pane",
+      "gruppo": "uova",
+      "raccolta": "uova-carne-bianca",
+      "path": "dieta-ricette-uova-carne-bianca.html#uova-broccoli-pane",
+      "porzioni": 1,
+      "minuti": 20,
+      "ingredienti": [
+        [
+          "uova",
+          100
+        ],
+        [
+          "broccoli",
+          200
+        ],
+        [
+          "pane",
+          75
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Dividi i broccoli in cimette e cuocili a vapore fino a quando sono teneri.",
+        "Scalda metà dell’olio in padella. Sbatti le uova e cuocile a fuoco basso, mescolando finché sono rapprese anche al centro.",
+        "Tosta il pane e servi le uova con i broccoli conditi con l’olio rimanente."
+      ],
+      "spesa": "Per una porzione usa circa due uova medie. Per il conteggio preciso pesale senza guscio."
+    },
+    {
+      "id": "frittata-patate-zucchine",
+      "titolo": "Frittata di patate e zucchine",
+      "gruppo": "uova",
+      "raccolta": "uova-carne-bianca",
+      "path": "dieta-ricette-uova-carne-bianca.html#frittata-patate-zucchine",
+      "porzioni": 1,
+      "minuti": 30,
+      "ingredienti": [
+        [
+          "uova",
+          100
+        ],
+        [
+          "patate",
+          230
+        ],
+        [
+          "zucchine",
+          180
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Taglia le patate pelate a cubetti piccoli e lessale finché sono tenere. Affetta la zucchina.",
+        "Cuoci la zucchina con l’olio in una padella antiaderente. Unisci le patate scolate.",
+        "Versa le uova sbattute, copri e cuoci a fuoco basso fino a quando il centro è rappreso. Se usi un termometro, punta a 71 °C al centro."
+      ],
+      "spesa": "Cuoci solo le patate che ti servono e tieni le altre intere per un secondo pasto."
+    },
+    {
+      "id": "pollo-orzo-zucca",
+      "titolo": "Bocconcini di pollo con orzo e zucca",
+      "gruppo": "carne-bianca",
+      "raccolta": "uova-carne-bianca",
+      "path": "dieta-ricette-uova-carne-bianca.html#pollo-orzo-zucca",
+      "porzioni": 1,
+      "minuti": 40,
+      "ingredienti": [
+        [
+          "pollo",
+          120
+        ],
+        [
+          "orzo",
+          60
+        ],
+        [
+          "zucca",
+          210
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Cuoci l’orzo secondo la confezione. Taglia la zucca a cubetti e falla stufare con metà dell’olio e poca acqua.",
+        "Usa un tagliere separato per il pollo crudo. Rosola i bocconcini con l’olio rimasto finché il centro del pezzo più spesso raggiunge 74 °C.",
+        "Unisci orzo e zucca al pollo cotto. Mescola sul fuoco per un minuto e servi."
+      ],
+      "spesa": "Usa la zucca anche per la minestra di farro e ceci o per la frittata."
+    },
+    {
+      "id": "tacchino-riso-carote-finocchi",
+      "titolo": "Tacchino con riso integrale, carote e finocchi",
+      "gruppo": "carne-bianca",
+      "raccolta": "uova-carne-bianca",
+      "path": "dieta-ricette-uova-carne-bianca.html#tacchino-riso-carote-finocchi",
+      "porzioni": 1,
+      "minuti": 40,
+      "ingredienti": [
+        [
+          "tacchino",
+          120
+        ],
+        [
+          "riso",
+          65
+        ],
+        [
+          "carote",
+          100
+        ],
+        [
+          "finocchi",
+          120
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Metti a cuocere il riso. Taglia carota e finocchio sottili e falli stufare con metà dell’olio e poca acqua.",
+        "Cuoci le strisce di tacchino fresco in una padella separata con l’olio rimasto fino a 74 °C al centro.",
+        "Scola il riso, mescolalo alle verdure e servi con il tacchino."
+      ],
+      "spesa": "Acquista fesa fresca come taglio di carne. La versione affettata da salumeria ha ingredienti e valori diversi."
+    },
+    {
+      "id": "pasta-ricotta-spinaci",
+      "titolo": "Pasta integrale con ricotta e spinaci",
+      "gruppo": "latticini",
+      "raccolta": "ricotta",
+      "path": "dieta-ricette-ricotta.html#pasta-ricotta-spinaci",
+      "porzioni": 1,
+      "minuti": 25,
+      "ingredienti": [
+        [
+          "pasta",
+          70
+        ],
+        [
+          "ricotta",
+          100
+        ],
+        [
+          "spinaci",
+          180
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Metti a cuocere la pasta integrale. Lava gli spinaci e falli appassire in padella con poca acqua.",
+        "Lavora la ricotta in una ciotola con due cucchiai d’acqua di cottura e l’olio pesato.",
+        "Scola la pasta, uniscila agli spinaci e aggiungi la crema di ricotta a fuoco spento."
+      ],
+      "spesa": "Per consumare la stessa confezione puoi usare la ricotta rimasta per il pane tostato o la colazione, entro i tempi in etichetta."
+    },
+    {
+      "id": "pane-ricotta-finocchi-carote",
+      "titolo": "Pane tostato con ricotta, finocchi e carote",
+      "gruppo": "latticini",
+      "raccolta": "ricotta",
+      "path": "dieta-ricette-ricotta.html#pane-ricotta-finocchi-carote",
+      "porzioni": 1,
+      "minuti": 20,
+      "ingredienti": [
+        [
+          "pane",
+          95
+        ],
+        [
+          "ricotta",
+          110
+        ],
+        [
+          "finocchi",
+          150
+        ],
+        [
+          "carote",
+          100
+        ],
+        [
+          "olio",
+          10
+        ]
+      ],
+      "preparazione": [
+        "Taglia finocchio e carota a fettine. Cuocili al vapore per circa 10 minuti o fino alla consistenza che preferisci.",
+        "Tosta il pane e spalma la ricotta su tutte le fette.",
+        "Servi il pane con le verdure e usa l’olio pesato per condire il contorno."
+      ],
+      "spesa": "Pesa il pane prima di tostarlo. Se è ancora in buone condizioni, il pane del giorno prima va bene."
+    },
+    {
+      "id": "yogurt-avena-pera-noci",
+      "titolo": "Yogurt con avena, pera e noci",
+      "gruppo": "colazione",
+      "raccolta": "colazioni",
+      "path": "dieta-ricette-colazioni.html#yogurt-avena-pera-noci",
+      "porzioni": 1,
+      "minuti": 5,
+      "ingredienti": [
+        [
+          "yogurt",
+          170
+        ],
+        [
+          "avena",
+          40
+        ],
+        [
+          "pere",
+          150
+        ],
+        [
+          "noci",
+          15
+        ]
+      ],
+      "preparazione": [
+        "Versa lo yogurt naturale in una ciotola.",
+        "Taglia la pera pulita a fettine e pesa la parte edibile.",
+        "Unisci avena, pera e noci spezzettate allo yogurt."
+      ],
+      "spesa": "Una confezione di fiocchi basta per più colazioni e si conserva in un contenitore ben chiuso."
+    },
+    {
+      "id": "porridge-latte-mela-mandorle",
+      "titolo": "Porridge con mela e mandorle",
+      "gruppo": "colazione",
+      "raccolta": "colazioni",
+      "path": "dieta-ricette-colazioni.html#porridge-latte-mela-mandorle",
+      "porzioni": 1,
+      "minuti": 12,
+      "ingredienti": [
+        [
+          "latte",
+          200
+        ],
+        [
+          "avena",
+          45
+        ],
+        [
+          "mele",
+          150
+        ],
+        [
+          "mandorle",
+          15
+        ]
+      ],
+      "preparazione": [
+        "Cuoci avena e latte a fuoco dolce, mescolando per circa 5–8 minuti.",
+        "Lava la mela e affettala, tenendo la buccia.",
+        "Versa il porridge nella ciotola e aggiungi mela e mandorle tritate."
+      ],
+      "spesa": "Usa la stessa mela che compri di solito. Per la lista conta il peso senza torsolo."
+    },
+    {
+      "id": "pane-ricotta-arancia",
+      "titolo": "Pane integrale e ricotta con arancia",
+      "gruppo": "colazione",
+      "raccolta": "colazioni",
+      "path": "dieta-ricette-colazioni.html#pane-ricotta-arancia",
+      "porzioni": 1,
+      "minuti": 8,
+      "ingredienti": [
+        [
+          "pane",
+          65
+        ],
+        [
+          "ricotta",
+          90
+        ],
+        [
+          "arance",
+          150
+        ]
+      ],
+      "preparazione": [
+        "Tosta le fette di pane già pesate.",
+        "Spalma la ricotta sul pane.",
+        "Sbuccia l’arancia e mangiala a spicchi accanto al pane."
+      ],
+      "spesa": "Scegli le arance quando sono di stagione. Se cambi frutto, cambia anche la stima dei valori."
+    },
+    {
+      "id": "yogurt-avena-banana-mandorle",
+      "titolo": "Yogurt con avena, banana e mandorle",
+      "gruppo": "colazione",
+      "raccolta": "colazioni",
+      "path": "dieta-ricette-colazioni.html#yogurt-avena-banana-mandorle",
+      "porzioni": 1,
+      "minuti": 5,
+      "ingredienti": [
+        [
+          "yogurt",
+          170
+        ],
+        [
+          "avena",
+          35
+        ],
+        [
+          "banane",
+          100
+        ],
+        [
+          "mandorle",
+          15
+        ]
+      ],
+      "preparazione": [
+        "Versa lo yogurt naturale in una ciotola.",
+        "Sbuccia e affetta la banana.",
+        "Unisci i fiocchi d’avena, le fettine di banana e le mandorle tritate."
+      ],
+      "spesa": "Usa una banana già matura per consumare per prime quelle che durano meno."
+    }
+  ],
+  "settimane": [
+    {
+      "id": "autunno",
+      "nome": "Settimana con ortaggi d’autunno",
+      "giorni": [
+        [
+          "yogurt-avena-pera-noci",
+          "farro-ceci-zucca",
+          "merluzzo-patate-finocchio-limone"
+        ],
+        [
+          "porridge-latte-mela-mandorle",
+          "pollo-orzo-zucca",
+          "pasta-lenticchie-carote"
+        ],
+        [
+          "pane-ricotta-arancia",
+          "uova-broccoli-pane",
+          "polenta-borlotti-verza"
+        ],
+        [
+          "yogurt-avena-pera-noci",
+          "orzo-cannellini-verza",
+          "merluzzo-farro-spinaci"
+        ],
+        [
+          "porridge-latte-mela-mandorle",
+          "pasta-ricotta-spinaci",
+          "cannellini-pane-spinaci"
+        ],
+        [
+          "pane-ricotta-arancia",
+          "riso-integrale-pollo-radicchio-noci",
+          "frittata-zucca-spinaci-pane-integrale"
+        ],
+        [
+          "yogurt-avena-pera-noci",
+          "sgombro-patate-broccoli",
+          "riso-ceci-broccoli"
+        ]
+      ]
+    },
+    {
+      "id": "dispensa",
+      "nome": "Settimana con la spesa di dispensa",
+      "giorni": [
+        [
+          "porridge-latte-mela-mandorle",
+          "pasta-integrale-ceci-cavolfiore",
+          "sarde-cappuccio-pane"
+        ],
+        [
+          "yogurt-avena-banana-mandorle",
+          "tacchino-riso-carote-finocchi",
+          "zuppa-lenticchie-patate-carote"
+        ],
+        [
+          "pane-ricotta-arancia",
+          "frittata-patate-zucchine",
+          "pasta-piselli-zucchine"
+        ],
+        [
+          "porridge-latte-mela-mandorle",
+          "insalata-borlotti-riso-integrale-pomodori",
+          "merluzzo-farro-spinaci"
+        ],
+        [
+          "yogurt-avena-banana-mandorle",
+          "pane-ricotta-finocchi-carote",
+          "riso-ceci-broccoli"
+        ],
+        [
+          "pane-ricotta-arancia",
+          "pollo-orzo-zucca",
+          "uova-broccoli-pane"
+        ],
+        [
+          "yogurt-avena-pera-noci",
+          "sgombro-patate-broccoli",
+          "pasta-lenticchie-carote"
+        ]
+      ]
+    }
+  ],
+  "aggiunte": [
+    {
+      "titolo": "Cereali e tuberi",
+      "alimenti": [
+        "pane",
+        "avena",
+        "farro",
+        "riso",
+        "patate"
+      ]
+    },
+    {
+      "titolo": "Ortaggi",
+      "alimenti": [
+        "broccoli",
+        "carote",
+        "cavolfiore",
+        "finocchi",
+        "porri",
+        "spinaci",
+        "verza",
+        "zucca",
+        "zucchine"
+      ]
+    },
+    {
+      "titolo": "Frutta e frutta a guscio",
+      "alimenti": [
+        "mele",
+        "pere",
+        "arance",
+        "banane",
+        "noci",
+        "mandorle"
+      ]
+    },
+    {
+      "titolo": "Latte e yogurt",
+      "alimenti": [
+        "yogurt",
+        "latte"
+      ]
+    }
+  ]
+}

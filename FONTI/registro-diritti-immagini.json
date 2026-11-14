@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-13",
+  "as_of": "2026-11-14",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1342,6 +1342,76 @@
       "license_or_ownership": "Output generato per il titolare del progetto tramite ChatGPT; utilizzo illustrativo secondo i termini del servizio applicabili. Nessun materiale esterno fornito come riferimento e nessuna licenza stock acquistata. Non costituisce certificazione di esclusività o di diritti di terzi.",
       "source_history_verified": true,
       "used_in": "salute-guida-08-patente-malattie-croniche-certificati.html"
+    },
+    {
+      "file": "assets/dieta-minestre-legumi-originale.webp",
+      "git_blob_sha": "d23ea19772f9f09629915f923c502a315d360930",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-545584bd-e39f-47e1-9134-73756c968601.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "dieta-ricette-minestre-legumi.html"
+    },
+    {
+      "file": "assets/dieta-piatti-legumi-originale.webp",
+      "git_blob_sha": "256aa4f15ff2195aa3c3dadf2a57a896d02391cf",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-75cd13b8-37e3-4727-8fba-99aebd2078d0.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "dieta-ricette-piatti-legumi.html"
+    },
+    {
+      "file": "assets/dieta-pesce-originale.webp",
+      "git_blob_sha": "7f5a3e18ffba6b39dc28e5b2b7e7bc7bb06a11e8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-6ee23173-7a2c-40b4-b99a-022fb82c24a8.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "dieta-ricette-pesce.html"
+    },
+    {
+      "file": "assets/dieta-uova-carne-bianca-originale.webp",
+      "git_blob_sha": "5b3be0dcf4ec40acf02b94473a38e8b3c3357f99",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-8718c105-707c-499a-85d0-9e9483122ca2.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "dieta-ricette-uova-carne-bianca.html"
+    },
+    {
+      "file": "assets/dieta-ricotta-originale.webp",
+      "git_blob_sha": "b2935792e439786e6ff45c2e766b6d731ce62507",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-a47a369c-da70-4fcd-b154-d9afdaf31b11.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "dieta-ricette-ricotta.html"
+    },
+    {
+      "file": "assets/dieta-colazioni-originale.webp",
+      "git_blob_sha": "ab92565df69821e73daf11da27fe2ac5d3037f97",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-5e54294e-cacd-4bf6-a936-fc4aef8d298e.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "dieta-ricette-colazioni.html"
+    },
+    {
+      "file": "assets/dieta-menu-spesa-originale.webp",
+      "git_blob_sha": "ded4490655ae61552f1c94eacc6ea6a8f7207071",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 14 novembre 2026. Ridimensionata e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-9cb09e7c-0d26-4141-9b01-990a2575c99f.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
+      "source_history_verified": true,
+      "used_in": "app/menu-mediterraneo.html"
     }
   ],
   "notes": [
