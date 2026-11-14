@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-13T17:53:02.538531+00:00",
+  "date_utc": "2026-11-14T08:53:55.681601+00:00",
   "scope": {
     "pages": 117,
     "unique_external_urls": 764,
     "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 619,
+    "raggiungibile": 623,
     "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 25,
+    "non_verificato_trasporto": 21,
     "errore_http": 1
   },
   "results": [
@@ -924,16 +924,18 @@
     },
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eur-lex.europa.eu'. (_ssl.c:1011)>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://eur-lex.europa.eu/",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
       ]
     },
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eur-lex.europa.eu'. (_ssl.c:1011)>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://eur-lex.europa.eu/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
@@ -941,8 +943,9 @@
     },
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'eur-lex.europa.eu'. (_ssl.c:1011)>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://eur-lex.europa.eu/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
       ]
@@ -1578,9 +1581,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2214,10 +2216,10 @@
       ]
     },
     {
-      "url": "https://wa.me/?text=Per%20Me%3A%20guide%20gratuite%20su%20pensioni%2C%20INPS%2C%20lavoro%2C%20salute%20e%20diritti%2C%20con%20fonti%20da%20verificare.%20https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F",
+      "url": "https://wa.me/?text=Per%20Me.%20Guide%20gratuite%20su%20pensioni%2C%20INPS%2C%20lavoro%2C%20salute%20e%20diritti.%20https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://api.whatsapp.com/send/?text=Per+Me%3A+guide+gratuite+su+pensioni%2C+INPS%2C+lavoro%2C+salute+e+diritti%2C+con+fonti+da+verificare.+https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&type=custom_url&app_absent=0",
+      "final_url": "https://api.whatsapp.com/send/?text=Per+Me.+Guide+gratuite+su+pensioni%2C+INPS%2C+lavoro%2C+salute+e+diritti.+https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&type=custom_url&app_absent=0",
       "pages": [
         "index.html"
       ]
@@ -3651,8 +3653,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -7617,8 +7620,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]

@@ -1,12 +1,12 @@
 {
-  "checked_at_utc": "2026-11-13T17:51:04.196Z",
+  "checked_at_utc": "2026-11-14T08:52:00.367Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
     {
       "name": "home_load",
       "result": "PASS",
-      "details": "Pensioni, INPS, lavoro e salute: guide gratuite | Per Me"
+      "details": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me"
     },
     {
       "name": "home_overflow_mobile",
@@ -75,10 +75,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "108 pagine salvate per la lettura offline · controllo online 13 nov, 17:51.",
+        "status": "108 pagine salvate per la lettura offline · controllo online 14 nov, 08:52.",
         "stored": {
           "guides": 108,
-          "updated": "2026-11-13T17:51:45.481Z",
+          "updated": "2026-11-14T08:52:56.116Z",
           "bytes": 2343489,
           "includesNew09": true
         }
@@ -122,7 +122,7 @@
       "result": "PASS",
       "details": {
         "http": 200,
-        "title": "Pensioni, INPS, lavoro e salute: guide gratuite | Per Me",
+        "title": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me",
         "url": "https://cpcpcp106-coder.github.io/Per-Me/"
       }
     },
@@ -194,7 +194,7 @@
     {
       "page": "home",
       "violations": [],
-      "passes": 22,
+      "passes": 23,
       "incomplete": 1
     },
     {
@@ -302,7 +302,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -638,7 +638,7 @@
     {
       "page": "index.html",
       "violations": [],
-      "passes": 22,
+      "passes": 23,
       "incomplete": 1
     },
     {
