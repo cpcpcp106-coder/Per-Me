@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-14T09:22:19.479099+00:00",
+  "date_utc": "2026-11-14T09:26:47.900163+00:00",
   "scope": {
     "pages": 117,
     "unique_external_urls": 763,
     "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 620,
+    "raggiungibile": 618,
     "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 22,
+    "non_verificato_trasporto": 24,
     "errore_http": 1
   },
   "results": [
@@ -4102,7 +4102,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4128,7 +4128,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -6303,9 +6303,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -6344,9 +6343,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/exocrine-pancreatic-insufficiency/treatment",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
