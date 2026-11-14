@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-11-14T09:10:50.334466+00:00",
+  "date_utc": "2026-11-14T09:22:19.479099+00:00",
   "scope": {
     "pages": 117,
     "unique_external_urls": 763,
     "occurrences": 1753
   },
   "counts": {
-    "raggiungibile": 621,
-    "bloccato_o_riservato": 119,
+    "raggiungibile": 620,
+    "bloccato_o_riservato": 120,
     "non_verificato_trasporto": 22,
     "errore_http": 1
   },
@@ -1029,9 +1029,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -4103,7 +4102,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4129,7 +4128,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
