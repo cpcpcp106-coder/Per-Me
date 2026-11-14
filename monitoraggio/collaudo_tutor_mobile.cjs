@@ -6,7 +6,7 @@ const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const BASE='http://127.0.0.1:8787/';
 const OUT='monitoraggio/ultimo-collaudo-tutor-mobile.json';
-const ids=['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione'];
+const expectedPrompts=30;
 const report={date:new Date().toISOString(),environment:'Chromium Linux + viewport 390x844 / 320x720 + touch Android emulato',physical_android_test:false,checks:[],errors:[]};
 let server,browser;
 const step=async(label,task)=>{
@@ -21,6 +21,17 @@ const expectedText=async(page,id)=>{
  const lines=await page.locator('blockquote#'+id+' p').allTextContents();
  return lines.map(x=>x.trim()).join('\n\n');
 };
+async function checkSavedPrompt(page,id){
+ const prompt=page.locator('#reader-content blockquote#'+id);
+ const label=await prompt.getAttribute('aria-label');
+ const button=prompt.locator('xpath=preceding-sibling::button[contains(@class,"prompt-copy")][1]');
+ assert.equal(await button.textContent(),'Copia · '+label);
+ await button.click();
+ await page.waitForFunction(key=>document.getElementById(key)?.previousElementSibling?.textContent?.startsWith('Copiato ✓'),id);
+ const expected=await expectedText(page,id);
+ assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
+ return expected.length;
+}
 (async()=>{
  try{
   server=spawn('python3',['-m','http.server','8787','--bind','127.0.0.1'],{stdio:'ignore'});
@@ -38,38 +49,55 @@ const expectedText=async(page,id)=>{
    await page.waitForURL('**/tutor-ai.html');
    assert.match(await page.locator('main h1').innerText(),/Tutor AI essenziale/);
   });
-  await step('Sei riquadri e sei pulsanti distinti nella pagina',async()=>{
+  let ids=[];
+  await step('Trenta riquadri e trenta pulsanti distinti nella pagina',async()=>{
    const values=await page.locator('button[data-copy]').evaluateAll(nodes=>nodes.map(x=>x.getAttribute('data-copy')));
-   assert.deepEqual(values,ids);
+   assert.equal(values.length,expectedPrompts);
+   assert.equal(new Set(values).size,expectedPrompts);
+   ids=values;
    for(const id of ids)assert.equal(await page.locator('blockquote#'+id).count(),1);
-   return {ids:values};
+   return {requests:ids.length};
+  });
+  await step('Il percorso mensile si apre al tocco dalla prima schermata',async()=>{
+   await page.locator('a[href="#mese"]').first().tap();
+   await page.waitForURL('**/tutor-ai.html#mese');
+   const week=page.locator('#settimana-1');
+   const title=week.locator('summary');
+   assert.equal(await week.evaluate(d=>d.open),false);
+   assert.ok((await title.boundingBox()).height>=56);
+   await title.tap();
+   assert.ok(await week.locator('button[data-copy]').first().isVisible());
   });
   for(const id of ids)await step('Copia e incolla reale nel clipboard: '+id,async()=>{
    const expected=await expectedText(page,id);
    assert.ok(expected.length>40);
    const btn=page.locator('button[data-copy="'+id+'"]');
+   const week=page.locator('#mese details').filter({has:btn});
+   if(await week.count() && !await week.evaluate(d=>d.open))await week.locator('summary').click();
    await btn.click();
-   await page.waitForTimeout(100);
-   assert.match(await btn.innerText(),/Copiato/);
+   await page.waitForFunction(key=>document.querySelector('button[data-copy="'+key+'"]')?.textContent?.startsWith('Copiato ✓'),id);
    const pasted=await page.evaluate(()=>navigator.clipboard.readText());
    assert.equal(pasted,expected);
    assert.match(await page.locator('#copia-stato').innerText(),/copiato/i);
    return {characters:pasted.length};
   });
   await step('Esercizi con soluzioni apribili al tocco',async()=>{
-   const first=page.locator('details').first();
-   assert.ok(await page.locator('details').count()>=4);
-   await first.locator('summary').click();
-   assert.equal(await first.evaluate(e=>e.open),true);
-   await first.locator('summary').click();
-   assert.equal(await first.evaluate(e=>e.open),false);
+   const guided=page.locator('#richieste-base details').first();
+   const solution=guided.locator('details');
+   await guided.locator(':scope > summary').tap();
+   assert.equal(await solution.evaluate(e=>e.open),false);
+   await solution.locator('summary').tap();
+   assert.match(await solution.locator('p').innerText(),/martedì/);
+   await guided.locator(':scope > summary').tap();
+   assert.equal(await guided.evaluate(e=>e.open),false);
+   assert.equal(await page.locator('#verifica-apprendimento details:not([open])').count(),4);
   });
   for(const width of [390,320])await step('Leggibilita geometrica a '+width+' px',async()=>{
    await page.setViewportSize({width,height:720});
    let d=await page.evaluate(()=>({inner:innerWidth,scroll:document.documentElement.scrollWidth}));
    assert.ok(d.scroll<=d.inner+3,JSON.stringify(d));
    let bounds=await page.locator('button[data-copy]').first().boundingBox();
-   assert.ok(bounds && bounds.height>=48,JSON.stringify(bounds));
+   assert.ok(bounds && bounds.height>=56,JSON.stringify(bounds));
    return {width,scrollWidth:d.scroll,copyButtonHeight:bounds.height};
   });
   await page.setViewportSize({width:390,height:844});
@@ -140,25 +168,25 @@ const expectedText=async(page,id)=>{
     let s=localStorage.getItem('perme-app-offline-20261014');
     if(!s)return false;
     try{return JSON.parse(s).guides?.some(g=>g.path==='tutor-ai.html')}catch(e){return false}
-   },{timeout:120000});
+   },undefined,{timeout:120000});
    const saved=await page.evaluate(()=>{
     let s=JSON.parse(localStorage.getItem('perme-app-offline-20261014'));
     return {total:s.guides.length,tutor:s.guides.find(g=>g.path==='tutor-ai.html')};
    });
    assert.ok(saved.total>=8);
-   assert.ok(saved.tutor.content.includes('prompt-avviso'));
+   assert.equal((saved.tutor.content.match(/<blockquote id="prompt-/g)||[]).length,expectedPrompts);
+   assert.ok(saved.tutor.content.includes('aria-label="Agenda della settimana"'));
    return {totalSaved:saved.total,tutorContentLength:saved.tutor.content.length};
   });
-  await step('PWA online: sei tasti di copia generati e funzionanti',async()=>{
+  await step('PWA online: trenta tasti di copia, percorso mensile navigabile',async()=>{
    await page.locator('#guide-list .guide-card').filter({has:page.locator('strong').filter({hasText:/^Tutor AI essenziale$/})}).first().click();
    assert.match(await page.locator('#reader-title').innerText(),/Tutor AI/);
-   assert.equal(await page.locator('#reader-content .prompt-copy').count(),6);
-   const p=page.locator('#reader-content blockquote#prompt-avviso');
-   const expected=(await p.locator('p').allTextContents()).map(x=>x.trim()).join('\n\n');
-   await page.locator('#reader-content .prompt-copy').first().click();
-   await page.waitForTimeout(100);
-   assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
-   return {buttons:6,pastedCharacters:expected.length};
+   assert.equal(await page.locator('#reader-content .prompt-copy').count(),expectedPrompts);
+   await page.locator('#reader-content a[href$="#mese"]').first().click();
+   await page.locator('#reader-content #settimana-1 summary').click();
+   const sample=await checkSavedPrompt(page,'prompt-agenda-settimanale');
+   const base=await checkSavedPrompt(page,'prompt-avviso');
+   return {buttons:expectedPrompts,pastedCharacters:[sample,base]};
   });
   await step('PWA online: nuova guida Android ha copia funzionante',async()=>{
    await page.locator('#back').click();
@@ -191,14 +219,11 @@ const expectedText=async(page,id)=>{
    await page.reload({waitUntil:'domcontentloaded',timeout:30000});
    await page.locator('#guide-list .guide-card').filter({has:page.locator('strong').filter({hasText:/^Tutor AI essenziale$/})}).first().click();
    assert.match(await page.locator('#reader-title').innerText(),/Tutor AI/);
-   assert.equal(await page.locator('#reader-content .prompt-copy').count(),6);
-   const id='prompt-correzione';
-   const target=page.locator('#reader-content blockquote#'+id);
-   const expected=(await target.locator('p').allTextContents()).map(x=>x.trim()).join('\n\n');
-   await target.locator('xpath=preceding-sibling::button[contains(@class,"prompt-copy")][1]').click();
-   await page.waitForTimeout(100);
-   assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
-   return {copyOffline:true,characters:expected.length};
+   assert.equal(await page.locator('#reader-content .prompt-copy').count(),expectedPrompts);
+   await page.locator('#reader-content #fine-mese summary').click();
+   const sample=await checkSavedPrompt(page,'prompt-riuso-mensile');
+   const base=await checkSavedPrompt(page,'prompt-correzione');
+   return {copyOffline:true,pastedCharacters:[sample,base]};
   });
   await step('PWA offline: nuova guida Android leggibile e copiabile',async()=>{
    await page.locator('#back').click();

@@ -54,9 +54,11 @@ test('Interfaccia con contatori, stili e cache coerenti',()=>{
  assert.ok(sw.includes('./'+cssHref),'Il service worker deve precacheare la stessa versione del CSS');
 });
 
-test('Il Tutor AI puo copiare sei prompt anche offline',()=>{
+test('Il Tutor AI offre copia offline con le etichette nuove e quelle salvate in precedenza',()=>{
  assert.ok(main.includes('function addTutorCopyControls()'));
  assert.ok(main.includes("if(path==='tutor-ai.html')addTutorCopyControls()"));
+ assert.match(main,/if\(name\)out\.setAttribute\('aria-label',name\)/);
+ assert.match(main,/prompt\.getAttribute\('aria-label'\)\|\|names\[prompt\.id\]/);
  for(const id of ['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione'])
   assert.ok(main.includes("'"+id+"'"),id);
  assert.ok(css.includes('.reader-content .prompt-copy'));

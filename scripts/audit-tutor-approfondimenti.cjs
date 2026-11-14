@@ -39,8 +39,8 @@ for(const [file,photo] of guides){
  assert.ok(html.includes('rel="canonical"')&&html.includes('content="index,follow"'),'SEO basilare assente '+file);
  checked++;
 }
-assert.ok(appHtml.includes('src="main.js?v=13"'));
-assert.ok(sw.includes("'./main.js?v=13'"));
+const versionJS=appHtml.match(/src="(main\.js\?v=\d+)"/)?.[1];
+assert.ok(versionJS&&sw.includes("'./"+versionJS+"'"),'Il lettore e la cache devono usare la stessa versione del JS');
 const cacheVersion=Number(sw.match(/\bconst CACHE='perme-reader-v(\d+)-[^']+';/)?.[1]);
 assert.ok(cacheVersion>=17,'La cache deve includere la revisione Tutor AI o una versione successiva');
 new vm.Script(app,{filename:'app/main.js'});

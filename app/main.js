@@ -59,6 +59,10 @@ function filtered(node,src){
  let out=SAFE_TAGS.has(t)?document.createElement(t.toLowerCase()):document.createDocumentFragment();
  if(out.nodeType===1){
   if(node.id&&/^[a-z\w-]{1,100}$/i.test(node.id))out.id=node.id;
+  if(t==='BLOCKQUOTE'&&out.id.startsWith('prompt-')){
+   const name=node.getAttribute('aria-label');
+   if(name)out.setAttribute('aria-label',name);
+  }
   if(node.classList.contains('experience-caf-uil'))out.className='experience-caf-uil';
   if(node.classList.contains('note'))out.className='note';
   if(node.classList.contains('uil-contact-button'))out.className='uil-contact-button';
@@ -145,18 +149,22 @@ function renderList(){
 // Ricrea i controlli di copia dei prompt del Tutor AI nella PWA, anche offline.
 // La PWA salva solo il contenuto, non gli script della pagina pubblica.
 function addTutorCopyControls(){
- const area=element('reader-content'),status=document.createElement('p');
+ const area=element('reader-content');
  const prompts=[...area.querySelectorAll('blockquote[id^="prompt-"]')];
  if(!prompts.length)return;
+ const status=area.querySelector('#copia-stato')||document.createElement('p');
  status.className='tutor-copy-status';
- status.setAttribute('role','status');status.setAttribute('aria-live','polite');
- status.textContent='I prompt sono salvati sul telefono. Puoi copiarli anche senza connessione; per usare una chat AI normalmente serve Internet.';
- prompts[0].insertAdjacentElement('beforebegin',status);
+ status.setAttribute('role','status');status.setAttribute('aria-atomic','true');
+ if(!status.isConnected){
+  status.textContent='Puoi copiare le richieste anche senza connessione. Per inviarle a una chat AI serve in genere Internet.';
+  prompts[0].insertAdjacentElement('beforebegin',status);
+ }
+ // Etichette per le lezioni e le copie salvate prima dell'aggiunta di aria-label.
  const names={'prompt-avviso':'avviso','prompt-messaggio':'messaggio','prompt-lista':'lista','prompt-domande':'domande per un ufficio','prompt-verifica':'verifica della fonte','prompt-correzione':'riscrittura semplice','prompt-dialogo':'richiesta iniziale','prompt-correzione-dialogo':'correzione nella conversazione','prompt-fonte':'verifica fonte','prompt-citazione':'controllo riferimento','prompt-confronto':'confronto due avvisi','prompt-riassunto':'riassunto','prompt-truffa':'segnali di rischio','prompt-privacy':'privacy','prompt-persona':'domande per uno sportello','prompt-domande-professionista':'domande per un professionista'};
  for(const prompt of prompts){
-  if(!Object.hasOwn(names,prompt.id))continue;
   const button=document.createElement('button');button.type='button';button.className='prompt-copy';
-  const label='Copia il prompt: '+names[prompt.id];button.textContent=label;
+  const name=prompt.getAttribute('aria-label')||names[prompt.id]||'richiesta';
+  button.textContent='Copia · '+name;
   prompt.insertAdjacentElement('beforebegin',button);
   button.addEventListener('click',async()=>{
    const txt=[...prompt.querySelectorAll('p')].map(p=>p.textContent.trim()).join('\n\n');
@@ -170,12 +178,16 @@ function addTutorCopyControls(){
      try{ok=document.execCommand('copy')}catch(_){}
      box.remove();
     }
-    if(ok){button.textContent='Copiato ✓';status.textContent='Prompt copiato. Quando hai accesso alla chat AI, tieni premuto nel campo del messaggio e scegli Incolla.';}
+    if(ok){
+     button.textContent='Copiato ✓ · '+name;
+     status.textContent=name+' · Testo copiato. Apri la chat AI e scegli Incolla.';
+    }
     else{
      const sel=window.getSelection();if(sel){const r=document.createRange();r.selectNodeContents(prompt);sel.removeAllRanges();sel.addRange(r);}
-     status.textContent='Il testo è selezionato: usa Copia nel menu del telefono, poi Incolla nella chat AI.';
+     button.textContent=sel?'Testo selezionato · Tocca Copia':'Tieni premuto sul testo per copiare';
+     status.textContent=button.textContent;
     }
-   }finally{button.disabled=false;button.setAttribute('aria-label',label)}
+   }finally{button.disabled=false}
   });
  }
 }

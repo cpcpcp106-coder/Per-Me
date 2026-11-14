@@ -10,41 +10,47 @@ assert.match(html,/rel="canonical" href="https:\/\/cpcpcp106-coder.github.io\/Pe
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(ids.length,new Set(ids).size,'ID duplicati');
 for(const m of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'Ancora non valida: '+m[1]);
-const prompts=['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione'];
+const prompts=[...html.matchAll(/<blockquote id="(prompt-[^"]+)" aria-label="([^"]+)">([\s\S]*?)<\/blockquote>/g)];
 const buttons=[...html.matchAll(/<button\b[^>]*data-copy="([^"]+)"[^>]*>/g)];
-assert.equal(buttons.length,prompts.length,'Sei pulsanti di copia richiesti');
-for(const target of prompts){
- assert.equal(buttons.filter(b=>b[1]===target).length,1,'Pulsante assente o ripetuto per '+target);
- const m=html.match(new RegExp('<blockquote\\b[^>]*id="'+target+'"[^>]*>([\\s\\S]*?)<\\/blockquote>','i'));
- assert.ok(m,'Prompt assente '+target);assert.ok(m[1].replace(/<[^>]+>/g,' ').trim().length>35,'Prompt troppo breve '+target);
+assert.equal(prompts.length,30,'Trenta richieste con etichetta');
+assert.deepEqual(buttons.map(m=>m[1]),prompts.map(m=>m[1]),'Un pulsante per richiesta, nello stesso ordine');
+for(const [,id,,content] of prompts){
+ assert.ok(content.replace(/<[^>]+>/g,' ').trim().length>35,'Prompt troppo breve '+id);
 }
+const base=html.split('<section id="richieste-base"')[1].split('<h2 id="formula">')[0];
+const baseIds=[...base.matchAll(/<blockquote id="(prompt-[^"]+)"/g)].map(m=>m[1]);
+assert.deepEqual(baseIds,['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione']);
+const monthly=html.split('<section id="mese"')[1].split('<section id="richieste-base"')[0];
+const weeks=[...monthly.matchAll(/<details id="(settimana-[1-4]|fine-mese)"[^>]*>([\s\S]*?)<\/details>/g)];
+assert.deepEqual(weeks.map(m=>m[1]),['settimana-1','settimana-2','settimana-3','settimana-4','fine-mese']);
+assert.deepEqual(weeks.map(m=>(m[2].match(/<blockquote id="prompt-/g)||[]).length),[5,6,5,6,2]);
+assert.equal((html.match(/<strong>Da controllare\.<\/strong>/g)||[]).length,30);
 for(const a of html.matchAll(/<img\b[^>]*>/gi))assert.match(a[0],/\balt="[^"]*"/i,'Alt obbligatorio');
 for(const tag of ['p','h2','blockquote','article','main','nav','div']){
  const opens=(html.match(new RegExp('<'+tag+'(?:\\s|>)','gi'))||[]).length;
  const closes=(html.match(new RegExp('</'+tag+'>','gi'))||[]).length;
  assert.equal(opens,closes,'Tag sbilanciato '+tag);
 }
-assert.match(html,/Dal telefono: tre passaggi/,'Istruzioni telefono');
-assert.match(html,/Non incollare documenti reali/,'Protezione dati personali');
-assert.match(html,/non è una chat AI incorporata nel sito/i,'Distinzione sito/servizio AI');
-assert.match(html,/Che cosa imparerai/,'Obiettivi formativi non esplicitati');
-for(const cue of ['scrivere una richiesta chiara','riconoscere almeno un errore','verificare informazioni importanti','circa 20–30 minuti','senza aprire una chat'])
- assert.ok(html.toLowerCase().includes(cue.toLowerCase()),'Obiettivo/istruzione assente: '+cue);
-for(const item of ['1. Compito','2. Testo di partenza','3. Forma','4. Limiti','5. Controllo'])
+const phone=html.match(/<ol class="tutor-start">([\s\S]*?)<\/ol>/)?.[1]||'';
+assert.equal((phone.match(/<li>/g)||[]).length,3,'Tre passaggi dal telefono');
+for(const action of ['Copia','Incolla','Invia'])assert.ok(phone.includes('<strong>'+action+'</strong>'));
+for(const cue of ['testi pubblici','codice fiscale','referti','screenshot','[UFFICIO]'])
+ assert.ok(html.includes(cue),'Istruzione sulla riservatezza assente: '+cue);
+assert.match(html,/poi la provi nella chat che già usi/,'Distinzione sito e chat AI');
+assert.match(html,/id="obiettivi-titolo"/,'Obiettivi formativi');
+for(const item of ['Il compito.','Il testo di partenza.','La forma.','Il limite.','Il controllo.'])
  assert.ok(html.includes(item),'Metodo di formulazione incompleto: '+item);
 assert.match(html,/id="verifica-apprendimento"/,'Autoverifica formativa assente');
-assert.match(html,/Individua le due affermazioni sbagliate prima di aprire la soluzione/,'La prova non deve mostrare subito la risposta');
-const details=(html.match(/<details>/g)||[]).length,summary=(html.match(/<summary>/g)||[]).length;
-assert.equal(details,5,'Una prova guidata + quattro soluzioni di autoverifica');
-assert.equal(details,summary,'Ogni soluzione deve essere attivabile da tastiera tramite summary');
+assert.match(html,/<summary>Mostra la soluzione<\/summary>/,'Soluzione chiusa nella prova guidata');
+const details=(html.match(/<details\b/g)||[]).length,summary=(html.match(/<summary>/g)||[]).length;
+assert.equal(details,summary,'Ogni pannello deve essere attivabile da tastiera tramite summary');
 for(const key of ['Mostra la soluzione 1','Mostra la soluzione 2','Mostra la soluzione 3','Mostra la soluzione 4'])
  assert.ok(html.includes(key),'Manca feedback formativo: '+key);
-for(const term of ['Salute:','Scadenze e diritti:','Denaro:','Dati personali:'])
- assert.ok(html.includes(term),'Limite di sicurezza mancante: '+term);
+for(const term of ['rivolgiti a un sanitario','verifica destinatario e coordinate','chiedi all’ente competente'])
+ assert.ok(html.includes(term),'Controllo di sicurezza mancante: '+term);
 for(const host of ['joint-research-centre.ec.europa.eu','www.unesco.org','www.garanteprivacy.it'])
  assert.ok(html.includes(host),'Fonte pedagogica/etica assente: '+host);
-assert.match(html,/Non è un corso ufficiale di tali organizzazioni/i,'Non attribuire riconoscimenti istituzionali');
-assert.match(html,/copiare i sei prompt dal lettore anche senza rete/i,'Capacita offline non spiegata');
+assert.match(html,/copiare tutte e 30 le richieste anche senza rete/i,'Capacità offline non spiegata');
 
 assert.match(html,/https:\/\/help.openai.com\/it-it\/articles\//,'Fonte errori AI in italiano');
 assert.match(html,/www.garanteprivacy.it\/temi\/assistenti-digitali/,'Fonte Garante Privacy');
@@ -75,5 +81,5 @@ assert.ok(sw.includes("'./"+versionJS+"'"),'La cache PWA non usa il JavaScript r
 assert.ok(sw.includes("'./"+versionCSS+"'"),'La cache PWA non usa il CSS richiesto');
 assert.match(sw,/const CACHE='perme-reader-v\d+-\d{8}-[^']+';/,'Nome cache PWA versionato mancante');
 
-console.log('PASS Tutor AI: 6 prompt, pulsanti, script copiabile sintatticamente valido, fallback Android, privacy, SEO e salvataggio testo PWA.');
+console.log('PASS Tutor AI: 30 richieste, percorso mensile, copia, privacy, SEO e salvataggio testo PWA.');
 console.log('LIMITI: test statico. Per il dispositivo Android reale verificare manualmente copia e incolla e salvataggio offline aggiornato.');
