@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-14T15:15:26.208819+00:00",
+  "date_utc": "2026-11-15T10:06:09.654461+00:00",
   "scope": {
     "pages": 124,
-    "unique_external_urls": 789,
-    "occurrences": 1859
+    "unique_external_urls": 790,
+    "occurrences": 1860
   },
   "counts": {
     "raggiungibile": 647,
+    "errore_http": 2,
     "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 22,
-    "errore_http": 1
+    "non_verificato_trasporto": 22
   },
   "results": [
     {
@@ -2217,10 +2217,19 @@
       ]
     },
     {
-      "url": "https://wa.me/?text=Per%20Me.%20Guide%20gratuite%20su%20pensioni%2C%20INPS%2C%20lavoro%2C%20salute%20e%20diritti.%20https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F",
+      "url": "https://wa.me/?text=Per%20Me%20%C2%B7%20Menu%20mediterraneo%20e%20lista%20della%20spesa%0Ahttps%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2Fapp%2Fmenu-mediterraneo.html%3Futm_source%3Dwhatsapp",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://api.whatsapp.com/send/?text=Per+Me.+Guide+gratuite+su+pensioni%2C+INPS%2C+lavoro%2C+salute+e+diritti.+https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&type=custom_url&app_absent=0",
+      "final_url": "https://api.whatsapp.com/send/?text=Per+Me+%C2%B7+Menu+mediterraneo+e+lista+della+spesa%0Ahttps%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2Fapp%2Fmenu-mediterraneo.html%3Futm_source%3Dwhatsapp&type=custom_url&app_absent=0",
+      "pages": [
+        "app/menu-mediterraneo.html"
+      ]
+    },
+    {
+      "url": "https://wa.me/?text=Per%20Me%20raccoglie%20guide%20gratuite%20per%20orientarsi%20tra%20pensioni%2C%20lavoro%2C%20bollette%2C%20salute%20e%20tecnologia.%20Scegli%20la%20guida%20che%20ti%20serve.%0Ahttps%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F%3Futm_source%3Dwhatsapp",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://api.whatsapp.com/send/?text=Per+Me+raccoglie+guide+gratuite+per+orientarsi+tra+pensioni%2C+lavoro%2C+bollette%2C+salute+e+tecnologia.+Scegli+la+guida+che+ti+serve.%0Ahttps%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F%3Futm_source%3Dwhatsapp&type=custom_url&app_absent=0",
       "pages": [
         "index.html"
       ]
@@ -3933,9 +3942,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -6257,9 +6265,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -6663,8 +6670,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -6691,8 +6699,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -7916,9 +7925,8 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]

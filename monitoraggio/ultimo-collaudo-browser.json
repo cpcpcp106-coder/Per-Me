@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-15T09:59:52.489Z",
+  "checked_at_utc": "2026-11-15T10:03:50.436Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -60,1037 +60,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 121,
-        "failed": [
-          {
-            "page": "agevolazioni-diritti.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-01-isee-corrente.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-02-bonus-sociali.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-03-trasporti-fvg.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-03-trasporti-italia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "aoi-invalidita-civile-differenze.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ccnl-inquadramento-livello-superminimo.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "come-leggere-busta-paga.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "contributi-inps-estratto-conto-pensione-vicina.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dal-lordo-al-netto.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-cartelle.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-01-leggere-cartella.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-02-controllare-debiti.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-03-cartella-errata.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-04-rateizzazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-05-rottamazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-06-fermo-pignoramento.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-07-banche-bollette.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-08-sovraindebitamento.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "debiti-guida-09-a-chi-rivolgersi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-07-ictus-tia-prevenzione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-15-vescica-incontinenza-sessualita.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "diabete-tipo-2.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-mediterranea-ricette.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-mediterranea-scientifica.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-ricette-colazioni.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-ricette-minestre-legumi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-ricette-pesce.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-ricette-piatti-legumi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-ricette-ricotta.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "dieta-ricette-uova-carne-bianca.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-11-naspi-domanda-scadenze.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ore-ferie-permessi-malattia-straordinari.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "pensione-invalidita.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-merluzzo-patate-finocchio-limone.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-pasta-integrale-ceci-cavolfiore.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-riso-integrale-pollo-radicchio-noci.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-zuppa-lenticchie-patate-carote.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "riesame-ricorso-inps-termini.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-autonomia.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-01-preparare-visita.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "salute-guida-08-patente-malattie-croniche-certificati.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "soldi-lavoro.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "stipendio-diminuito-cosa-controllare.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai-android-primi-passi.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai-conversazione-correzioni.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai-privacy-truffe.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai-quando-chiedere-aiuto.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai-riassumere-confrontare.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai-verifica-fonti-date.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "tutor-ai.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          },
-          {
-            "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -1128,10 +101,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "114 pagine salvate per la lettura offline · controllo online 15 nov, 10:00.",
+        "status": "114 pagine salvate per la lettura offline · controllo online 15 nov, 10:04.",
         "stored": {
           "guides": 114,
-          "updated": "2026-11-15T10:00:44.708Z",
+          "updated": "2026-11-15T10:04:42.416Z",
           "bytes": 2409826,
           "includesNew09": true
         }
@@ -1267,286 +240,91 @@
     },
     {
       "page": "agevolazioni-diritti.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-01-isee-corrente.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-02-bonus-sociali.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-03-trasporti-fvg.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-03-trasporti-italia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "aoi-invalidita-civile-differenze.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 3
     },
     {
       "page": "ccnl-inquadramento-livello-superminimo.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
@@ -1558,20 +336,7 @@
     },
     {
       "page": "come-leggere-busta-paga.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 3
     },
@@ -1583,1141 +348,361 @@
     },
     {
       "page": "contributi-inps-estratto-conto-pensione-vicina.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "dal-lordo-al-netto.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "debiti-cartelle.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-01-leggere-cartella.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-02-controllare-debiti.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-03-cartella-errata.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-04-rateizzazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-05-rottamazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-06-fermo-pignoramento.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-07-banche-bollette.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-08-sovraindebitamento.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-09-a-chi-rivolgersi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-07-ictus-tia-prevenzione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-15-vescica-incontinenza-sessualita.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 3
     },
     {
       "page": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "diabete-tipo-2.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 3
     },
     {
       "page": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-ricette.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-scientifica.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-colazioni.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-minestre-legumi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-pesce.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-piatti-legumi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-ricotta.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-uova-carne-bianca.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
@@ -2735,153 +720,49 @@
     },
     {
       "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-11-naspi-domanda-scadenze.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
@@ -2899,39 +780,13 @@
     },
     {
       "page": "ore-ferie-permessi-malattia-straordinari.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "pensione-invalidita.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
@@ -2943,552 +798,175 @@
     },
     {
       "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 3
     },
     {
       "page": "ricetta-merluzzo-patate-finocchio-limone.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "ricetta-pasta-integrale-ceci-cavolfiore.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "ricetta-riso-integrale-pollo-radicchio-noci.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "ricetta-zuppa-lenticchie-patate-carote.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 27,
       "incomplete": 2
     },
     {
       "page": "riesame-ricorso-inps-termini.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "salute-autonomia.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 22,
       "incomplete": 2
     },
     {
       "page": "salute-guida-01-preparare-visita.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "salute-guida-08-patente-malattie-croniche-certificati.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "soldi-lavoro.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-android-primi-passi.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-conversazione-correzioni.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-privacy-truffe.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-quando-chiedere-aiuto.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-riassumere-confrontare.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-verifica-fonti-date.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
     {
       "page": "tutor-ai.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 25,
       "incomplete": 2
     },
     {
       "page": "guida09",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".perme-whatsapp-share"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 24,
       "incomplete": 2
     },
