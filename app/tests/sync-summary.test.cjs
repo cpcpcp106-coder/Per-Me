@@ -66,9 +66,9 @@ test('Il Tutor AI offre copia offline con le etichette nuove e quelle salvate in
  assert.ok(sw.includes("k.startsWith('perme-reader-')"),'Il service worker deve eliminare le vecchie cache');
 });
 
-test('Otto rubriche indipendenti e nessuna sovrascrittura categoria delle guide',()=>{
- for(const pair of ["['diabete-tipo-2.html','Diabete tipo 2']","['dieta-mediterranea-scientifica.html','Dieta mediterranea scientifica']"])
+test('Rubriche indipendenti e nessuna sovrascrittura categoria delle guide',()=>{
+ for(const pair of ["['diabete-tipo-2.html','Diabete tipo 2']","['dieta-mediterranea-scientifica.html','Dieta mediterranea scientifica']","['pensionati-estero.html','Pensionati all’estero']"])
   assert.ok(main.includes(pair),pair);
  assert.ok(main.includes('!pages.has(found)'),'Una rubrica non deve riclassificare guide gia trovate');
- assert.ok(html.includes('delle otto rubriche'));
+ assert.ok(html.includes('href="../pensionati-estero.html"'));
 });

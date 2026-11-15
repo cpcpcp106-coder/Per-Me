@@ -5,6 +5,7 @@ const RICETTE='dieta-mediterranea-ricette.html';
 const SECTIONS=[
  ['soldi-lavoro.html','Soldi & Lavoro'],
  ['pensione-invalidita.html','Pensione e invalidità'],
+ ['pensionati-estero.html','Pensionati all’estero'],
  ['debiti-cartelle.html','Debiti e cartelle'],
  ['agevolazioni-diritti.html','Agevolazioni e diritti'],
  ['salute-autonomia.html','Salute e autonomia'],

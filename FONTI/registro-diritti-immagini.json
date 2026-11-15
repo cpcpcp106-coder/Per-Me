@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-15",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1412,6 +1412,46 @@
       "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
       "source_history_verified": true,
       "used_in": "app/menu-mediterraneo.html"
+    },
+    {
+      "file": "assets/pensionati-estero-rubrica.webp",
+      "git_blob_sha": "1ed2ebc79d8c82c4f2caf870a84e81b45bf32730",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa generata con ChatGPT per la rubrica Pensionati all’estero il 15 novembre 2026. Ridimensionata a 1200 × 800 pixel e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen della sessione del 15 novembre 2026, exec-9df160ba-e485-4d5c-8b29-5cd0a0d3e936.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza immagini di terzi.",
+      "source_history_verified": true,
+      "used_in": "pensionati-estero.html"
+    },
+    {
+      "file": "assets/pensionati-estero-bilancio.webp",
+      "git_blob_sha": "312d532c48ba4d9881df50441475b8f558bd2435",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa generata con ChatGPT per la rubrica Pensionati all’estero il 15 novembre 2026. Ridimensionata a 1200 × 800 pixel e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen della sessione del 15 novembre 2026, exec-80162b0e-5ccc-4845-914b-097b54de5707.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza immagini di terzi.",
+      "source_history_verified": true,
+      "used_in": "pensionati-estero-budget.html"
+    },
+    {
+      "file": "assets/pensionati-estero-pratiche.webp",
+      "git_blob_sha": "edf6f95e1ad5a8d3cbd2ccda8b3a61b1d9610f40",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa generata con ChatGPT per la rubrica Pensionati all’estero il 15 novembre 2026. Ridimensionata a 1200 × 800 pixel e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen della sessione del 15 novembre 2026, exec-c02d1d20-e86b-494a-bdf4-bc6bccb5bdc6.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza immagini di terzi.",
+      "source_history_verified": true,
+      "used_in": "pensionati-estero-trasferimento.html"
+    },
+    {
+      "file": "assets/pensionati-estero-mete.webp",
+      "git_blob_sha": "458e350aa74a79f4e4bcf37498b2e2921db1a7ec",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa generata con ChatGPT per la rubrica Pensionati all’estero il 15 novembre 2026. Ridimensionata a 1200 × 800 pixel e compressa in WebP.",
+      "provenance_evidence": "Output originale ImageGen della sessione del 15 novembre 2026, exec-24f88c96-314b-43ac-872e-88e61da6c549.png.",
+      "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza immagini di terzi.",
+      "source_history_verified": true,
+      "used_in": "pensionati-estero-mete.html"
     }
   ],
   "notes": [

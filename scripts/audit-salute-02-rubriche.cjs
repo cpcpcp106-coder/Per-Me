@@ -68,7 +68,7 @@ for(const x of ['id="anziani-cure-reddito"','diabete-tipo-2.html#anziani-reddito
  assert.ok(hub.includes(x),'Percorso integrato mancante in Salute: '+x);
 for(const x of ['INPS','ARERA','ADA','CREA','LEA','104/1992','accompagnamento','costo per porzione'])
  assert.ok(social.toLowerCase().includes(x.toLowerCase()),'Dossier interdisciplinare senza fonte/requisito: '+x);
-assert.ok(rights.includes('Esplora tutte le otto rubriche'),'Numero rubriche non aggiornato');
+assert.ok(rights.includes('href="./#rubriche">Esplora tutte le rubriche'),'Manca il collegamento alle rubriche');
 for(const [text,what] of [
  ['611,85 €','valore minimo pensionistico 2026'],
  ['546,24 €','assegno sociale 2026'],
@@ -108,15 +108,15 @@ assert.ok(med.includes('11 milioni')&&med.includes('195 Paesi'),'Studio Lancet n
 assert.ok(med.includes('non era un esperimento sulla dieta mediterranea'),'Limite studio Lancet mancante');
 assert.ok(med.includes('10.1016/S0140-6736(19)30041-8'),'DOI Lancet mancante');
 assert.ok(med.includes('10.1056/NEJMoa1800389'),'Trial PREDIMED non distinto');
-assert.ok(home.includes('Tutte e otto le rubriche')&&((home.match(/<article class="card">/g)||[]).length===8),'Home non presenta otto rubriche');
+const onlineRubrics=appPage.match(/<nav aria-label="Rubriche del sito Per Me">[\s\S]*?<\/nav>/)?.[0]||'';
+assert.equal((home.match(/<article class="card">/g)||[]).length,(onlineRubrics.match(/<li>/g)||[]).length,'Home e app devono presentare lo stesso numero di rubriche');
 for(const file of [guide,diabetes,diet])assert.ok(home.includes(file)||hub.includes(file),'Non raggiungibile dalla home/rubrica: '+file);
 for(const [file,label] of [[diabetes,'Diabete tipo 2'],[diet,'Dieta mediterranea scientifica']]){
  assert.ok(pwa.includes("['"+file+"','"+label+"']"),'Rubrica non aggiunta alla PWA: '+file);
 }
 assert.ok(pwa.includes('!pages.has(found)'),'Conflitto categorico in sincronizzazione PWA');
-assert.ok(appPage.includes('delle otto rubriche'),'App dichiara ancora il vecchio numero di rubriche');
 const versionInApp=appPage.match(/main\.js\?v=(\d+)/)?.[1],versionInWorker=sw.match(/main\.js\?v=(\d+)/)?.[1];
 assert.ok(versionInApp&&versionInWorker&&versionInApp===versionInWorker,'Versioni script PWA e service worker discordanti');
 new vm.Script(pwa,{filename:'app/main.js'});
-console.log('PASS Guida 02 e rubriche Diabete e Dieta: otto rubriche, fonti, foto, SEO, Lancet, sicurezza, PWA.');
+console.log('PASS Guida 02 e rubriche Diabete e Dieta: fonti, foto, SEO, Lancet, sicurezza, PWA.');
 console.log('LIMITI: controllo statico, non un collaudo clinico o Android fisico.');

@@ -1,5 +1,5 @@
-const CACHE='perme-reader-v24-20261115-whatsapp';
-const SHELL=['./','./index.html','./app.css?v=15','./main.js?v=16','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
+const CACHE='perme-reader-v25-20261115-pensionati-estero';
+const SHELL=['./','./index.html','./app.css?v=15','./main.js?v=17','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 const MENU='./menu-mediterraneo.html';
 const MENU_ASSETS=['./menu-mediterraneo.css?v=1','./menu-mediterraneo.js?v=1','./ricette-mediterranee.js?v=1','../assets/logo-per-me.png','../assets/dieta-menu-spesa-originale.webp'];
 const GUIDE_ASSETS=['../gradimento.js?v=4','../gradimento.css?v=4'];
