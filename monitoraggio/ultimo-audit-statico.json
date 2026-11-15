@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-15T15:28:16+00:00",
+  "date_utc": "2026-11-15T15:55:13+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 128,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 4463,
-    "external_occurrences": 1894,
-    "external_unique": 808,
+    "local_occurrences": 4473,
+    "external_occurrences": 1914,
+    "external_unique": 820,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1732,23 +1732,8 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 28,
+      "links_local": 30,
       "links_external": 4,
-      "missing_local": 0,
-      "noindex": false,
-      "canonical": true,
-      "description": true,
-      "skip_link": true,
-      "candidate_numeric_legal_mentions": 4
-    },
-    {
-      "file": "pensionati-estero-mete.html",
-      "title": "Dove trasferirsi da pensionati | Per Me",
-      "h1": 1,
-      "images": 2,
-      "images_without_alt": 0,
-      "links_local": 36,
-      "links_external": 10,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -1757,19 +1742,34 @@
       "candidate_numeric_legal_mentions": 7
     },
     {
-      "file": "pensionati-estero-trasferimento.html",
-      "title": "Come trasferirsi all’estero da pensionati | Per Me",
+      "file": "pensionati-estero-mete.html",
+      "title": "Dove trasferirsi da pensionati | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 41,
-      "links_external": 14,
+      "links_local": 40,
+      "links_external": 27,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 3
+      "candidate_numeric_legal_mentions": 9
+    },
+    {
+      "file": "pensionati-estero-trasferimento.html",
+      "title": "Come trasferirsi all’estero da pensionati | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 45,
+      "links_external": 17,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "pensionati-estero.html",
