@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-15T10:03:50.436Z",
+  "checked_at_utc": "2026-11-15T15:29:10.583Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -46,7 +46,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 121,
+        "count": 125,
         "failures": []
       }
     },
@@ -54,7 +54,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 121,
+        "checked": 125,
         "violations": []
       }
     },
@@ -62,7 +62,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 121,
+        "checked": 125,
         "failed": [],
         "errors": []
       }
@@ -101,11 +101,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "114 pagine salvate per la lettura offline · controllo online 15 nov, 10:04.",
+        "status": "118 pagine salvate per la lettura offline · controllo online 15 nov, 15:30.",
         "stored": {
-          "guides": 114,
-          "updated": "2026-11-15T10:04:42.416Z",
-          "bytes": 2409826,
+          "guides": 118,
+          "updated": "2026-11-15T15:30:00.824Z",
+          "bytes": 2446157,
           "includesNew09": true
         }
       }
@@ -119,7 +119,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 114
+        "count": 118
       }
     },
     {
@@ -127,7 +127,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 10962
+        "chars": 10957
       }
     },
     {
@@ -343,7 +343,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -782,6 +782,30 @@
       "page": "ore-ferie-permessi-malattia-straordinari.html",
       "violations": [],
       "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "pensionati-estero-budget.html",
+      "violations": [],
+      "passes": 27,
+      "incomplete": 2
+    },
+    {
+      "page": "pensionati-estero-mete.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "pensionati-estero-trasferimento.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "pensionati-estero.html",
+      "violations": [],
+      "passes": 24,
       "incomplete": 2
     },
     {

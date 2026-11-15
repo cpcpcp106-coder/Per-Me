@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-15T10:06:09.654461+00:00",
+  "date_utc": "2026-11-15T15:30:58.351381+00:00",
   "scope": {
-    "pages": 124,
-    "unique_external_urls": 790,
-    "occurrences": 1860
+    "pages": 128,
+    "unique_external_urls": 808,
+    "occurrences": 1894
   },
   "counts": {
-    "raggiungibile": 647,
-    "errore_http": 2,
-    "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 22
+    "raggiungibile": 666,
+    "bloccato_o_riservato": 120,
+    "non_verificato_trasporto": 21,
+    "errore_http": 1
   },
   "results": [
     {
@@ -93,6 +93,15 @@
       "final_url": "https://adanews.ada.org/ada-news/2026/september/first-ada-living-guideline-reaffirms-dental-exams-crucial-to-detecting-oral-cancer-early/",
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://administracion.gob.es/tu-espacio-europeo/derechos-obligaciones/ciudadanos/residencia/obtencion-residencia/inscribirte-residente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://administracion.gob.es/tu-espacio-europeo/derechos-obligaciones/ciudadanos/residencia/obtencion-residencia/inscribirte-residente",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -932,6 +941,15 @@
       ]
     },
     {
+      "url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94%3ACertificate_of_registration_for_Union_citizens_residing_in_Greece_as_financially_inactive_persons",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94%3ACertificate_of_registration_for_Union_citizens_residing_in_Greece_as_financially_inactive_persons",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
       "http": 202,
@@ -957,6 +975,26 @@
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/health/when-living-abroad/health-insurance-cover/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/health/when-living-abroad/health-insurance-cover/index_it.htm",
+      "pages": [
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html"
+      ]
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/residence/residence-rights/pensioners/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/residence/residence-rights/pensioners/index_it.htm",
+      "pages": [
+        "pensionati-estero-mete.html",
+        "pensionati-estero-trasferimento.html"
       ]
     },
     {
@@ -1038,9 +1076,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1497,6 +1534,15 @@
       ]
     },
     {
+      "url": "https://info.portaldasfinancas.gov.pt/en/tax-information/getting-started-in-portugal/non-habitual-resident/register-as-a-non-habitual-resident/Pages/default.aspx",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://info.portaldasfinancas.gov.pt/en/tax-information/getting-started-in-portugal/non-habitual-resident/register-as-a-non-habitual-resident/Pages/default.aspx",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente",
       "status": "raggiungibile",
       "http": 200,
@@ -1638,9 +1684,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -2063,6 +2108,15 @@
       ]
     },
     {
+      "url": "https://serviziconsolari.esteri.it/home",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://serviziconsolari.esteri.it/home",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://siisl.lavoro.gov.it/",
       "status": "raggiungibile",
       "http": 200,
@@ -2253,6 +2307,15 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ]
+    },
+    {
+      "url": "https://www.aade.gr/egkyklioi-kai-apofaseis/1192-22-09-2026",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aade.gr/egkyklioi-kai-apofaseis/1192-22-09-2026",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -3942,8 +4005,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4393,6 +4457,15 @@
       ]
     },
     {
+      "url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/aire_0/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/aire_0/",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.esur.org/esur-guidelines-2025/",
       "status": "raggiungibile",
       "http": 200,
@@ -4406,7 +4479,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4432,7 +4505,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -4441,6 +4514,10 @@
         "lavoro-guida-11-naspi-domanda-scadenze.html",
         "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
         "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+        "pensionati-estero-budget.html",
+        "pensionati-estero-mete.html",
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html",
         "prova-lettori.html",
         "prova-lettori.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html",
@@ -4687,6 +4764,15 @@
       ]
     },
     {
+      "url": "https://www.gov.pt/guias/residir-em-portugal",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gov.pt/guias/residir-em-portugal",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://www.heart.org/-/media/files/health-topics/answers-by-heart/how-can-i-recover-from-heart-surgery.pdf",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -4902,6 +4988,28 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49854.prestazioni-inesportabili-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49854.prestazioni-inesportabili-.html",
+      "pages": [
+        "pensionati-estero-budget.html",
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49857.pagamento-della-pensione-all-estero.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49857.pagamento-della-pensione-all-estero.html",
+      "pages": [
+        "pensionati-estero-budget.html",
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49936.tipologie-di-isee.html",
       "status": "raggiungibile",
       "http": 200,
@@ -4909,6 +5017,18 @@
       "pages": [
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-01-isee-corrente.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49937.normativa-fiscale-residenti-all-estero.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49937.normativa-fiscale-residenti-all-estero.html",
+      "pages": [
+        "pensionati-estero-budget.html",
+        "pensionati-estero-mete.html",
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html"
       ]
     },
     {
@@ -5161,6 +5281,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.accertamento-dell-esistenza-in-vita-cos-e-come-funziona--50197.accertamento-dell-esistenza-in-vita-cos-e-come-funziona-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.accertamento-dell-esistenza-in-vita-cos-e-come-funziona--50197.accertamento-dell-esistenza-in-vita-cos-e-come-funziona-.html",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
       "status": "raggiungibile",
       "http": 200,
@@ -5207,7 +5336,9 @@
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
-        "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
+        "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html"
       ]
     },
     {
@@ -6265,8 +6396,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "errore_http",
-      "http": 502,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -6717,6 +6849,15 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.codiceRedazionale=086U0917&atto.dataPubblicazioneGazzetta=1986-12-31&dataVigenza=15%2F11%2F2026",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.codiceRedazionale=086U0917&atto.dataPubblicazioneGazzetta=1986-12-31&dataVigenza=15%2F11%2F2026",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
       "status": "raggiungibile",
       "http": 200,
@@ -6821,6 +6962,15 @@
       "final_url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
       "pages": [
         "dal-lordo-al-netto.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
       ]
     },
     {
@@ -7388,6 +7538,16 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/imgs/C_17_pubblicazioni_209_allegato.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/imgs/C_17_pubblicazioni_209_allegato.pdf",
+      "pages": [
+        "pensionati-estero-mete.html",
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/banche-dati/banca-dati-delle-malattie-croniche-esenti/",
       "status": "raggiungibile",
       "http": 200,
@@ -7593,6 +7753,15 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/alimenti-fini-medici-speciali-ed-integratori/etichettatura/",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/cure-nellunione-europea/tessera-europea-assicurazione-malattia-team/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/cure-nellunione-europea/tessera-europea-assicurazione-malattia-team/",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
       ]
     },
     {
@@ -7925,8 +8094,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
@@ -7988,6 +8158,15 @@
       "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.viaggiaresicuri.it/find-country/country/TUN",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.viaggiaresicuri.it/find-country/country/TUN",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
