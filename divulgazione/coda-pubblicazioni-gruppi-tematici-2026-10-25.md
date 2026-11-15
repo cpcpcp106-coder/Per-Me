@@ -1,6 +1,8 @@
 # Per Me — Coda di pubblicazione per gruppi Facebook tematici
 
-**25 ottobre 2026. Stato: SOLO PREPARATA, NON PUBBLICATA.**
+**25 ottobre 2026. Stato della sessione: materiali preparati.**
+
+Il controllo successivo ha ritrovato invii precedenti della Pagina. [Riscontri del 15 novembre 2026](#riscontri-del-15-novembre-2026)
 
 **Chiarimento del curatore (25 ottobre 2026): l'elenco dei gruppi tematici ricavati dalle notifiche rappresenta iscrizioni SENZA pubblicazioni di contenuti Per Me.** L'unica eccezione esplicitamente precisata è «Blogger Italiani», dove il messaggio approvato era il solo «Grazie», non un post sulle guide. È una conferma del curatore, distinta da un controllo autonomo delle sezioni Facebook. I gruppi territoriali FVG con pubblicazioni già verificate nel registro restano separati e non vanno cancellati dai conteggi. Nessuno dei testi sottostanti è stato inviato a Facebook in questa sessione. Obiettivo dell'utente: confrontare le notifiche di adesione con il registro e pubblicare nei gruppi già aderiti e non ancora raggiunti, senza doppioni.
 
@@ -88,3 +90,16 @@ Per ciascuna delle sette destinazioni A–G, in ordine:
 4. Controllare successivamente i post in moderazione senza reinvii. Non attribuire agli amministratori approvazioni editoriali del progetto.
 
 Tutti i link alle guide A–E sono stati aperti e ne è stato verificato il titolo il 25 ottobre 2026. Le informazioni non sostituiscono la verifica dell'aggiornamento normativo quando il post verrà effettivamente inviato.
+
+## Riscontri del 15 novembre 2026
+
+La Pagina Facebook Per Me ha pubblicato una nuova presentazione del sito. Il testo parte da bollette e lettere INPS e rimanda anche al Tutor AI, al menu settimanale e alla condivisione delle guide su WhatsApp. Il post è visibile al suo indirizzo diretto e Facebook indica come pubblico «Tutti». Il collegamento alla home riporta `utm_source=facebook`. Spesa per la pubblicazione **0 €**. [Presentazione pubblicata](https://www.facebook.com/PerMeGuide/posts/pfbid02ywQEi55A5zxJdycQWKicwbQTkPZMQqHigUZx3tDTEdopCs4sqfKbwkNjiU6jD4e7l)
+
+La verifica nei gruppi tematici ha ritrovato quattro guide inviate a ottobre come Pagina Per Me. Tre sono visibili e una è in moderazione.
+
+| Gruppo | Riscontro su Facebook |
+|---|---|
+| Inps Pensioni e Diritti | Guida all’estratto conto contributivo visibile. [Profilo di Per Me nel gruppo](https://www.facebook.com/groups/1680421453048536/user/61566289361135) |
+| Busta paga - Informazioni Italia | Guida sul confronto dei cedolini e ringraziamento distinti, entrambi visibili. [Profilo di Per Me nel gruppo](https://www.facebook.com/groups/746097777693527/user/61566289361135) |
+| SOS CARTELLE ESATTORIALI E MULTE. | Guida alla lettura di una cartella e ringraziamento distinti, entrambi visibili. [Profilo di Per Me nel gruppo](https://www.facebook.com/groups/187719908029821/user/61566289361135) |
+| Blogger Italiani | Il post sulla guida ai pagamenti INPS e alle domande respinte è ancora in moderazione. La coda è visibile dall’account della Pagina. [In sospeso](https://www.facebook.com/groups/worldinblog/my_pending_content) |
