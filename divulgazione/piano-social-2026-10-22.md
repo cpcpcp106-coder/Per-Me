@@ -13,6 +13,8 @@ Far conoscere guide gratuite e non commerciali a persone tra 50 e 70 anni e ai f
 3. **WhatsApp:** condividere un messaggio breve con persone che hanno espresso interesse. Non inviare messaggi in massa né creare gruppi senza consenso.
 4. **Instagram:** rinviare finché Facebook e WhatsApp non abbiano dato segnali utili misurabili.
 
+**Ringraziamento dopo l’iscrizione a un gruppo Facebook — regola permanente confermata il 15 novembre 2026.** Quando gli amministratori accettano l’iscrizione della Pagina Per Me, verificare l’ammissione e ringraziare una sola volta a nome della Pagina. Usare il post di benvenuto o un altro canale consentito dal gruppo, con un messaggio breve come «Grazie per l’accoglienza!», senza link promozionali. Controllare il registro prima dell’invio e annotare l’esito verificato con il collegamento, se disponibile. [Prassi documentata il 14 novembre](registro-facebook-gruppi-2026-11-14.md#ringraziamenti-per-le-iscrizioni-del-14-novembre).
+
 **Stato tecnico verificato il 22 ottobre:** la home e la guida INPS controllate nel repository contengono tag Open Graph con titolo, descrizione, URL e immagine del logo; non sono stati verificati anteprima e raggiungibilità tramite l'app Facebook. Nel connettore Windsor.ai è attualmente disponibile solo l'account Search Console; nessun account social risulta collegato lì. Lo stato di altri account posseduti dal curatore non è noto.
 
 ## Bozze pronte per Facebook
