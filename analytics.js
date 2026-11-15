@@ -16,6 +16,7 @@
   // Serie distinte dal 23 ottobre 2026: non ricostruiscono retroattivamente le visite.
   const SOURCE_KEYS = Object.freeze({
     facebook: 'perme-origine-facebook-dal-20261023-43bcc26da793',
+    whatsapp: 'perme-origine-whatsapp-dal-20261115-43bcc26da793',
     google: 'perme-origine-google-dal-20261023-43bcc26da793',
     altri: 'perme-origine-altri-dal-20261023-43bcc26da793',
     sconosciuta: 'perme-origine-sconosciuta-dal-20261023-43bcc26da793'
@@ -25,6 +26,7 @@
     const qs = new URL(location.href).searchParams;
     const campaign = (qs.get('utm_source') || '').trim().toLowerCase();
     // Le app social a volte non forniscono un referrer: usa anche i tag del link.
+    if (campaign === 'whatsapp') return 'whatsapp';
     if (campaign === 'facebook' || campaign === 'fb' || qs.has('fbclid')) return 'facebook';
     if (campaign === 'google' || qs.has('gclid')) return 'google';
     if (campaign) return 'altri';

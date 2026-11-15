@@ -66,6 +66,7 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   // Le diverse campagne e un referrer esterno vengono ripartiti correttamente.
   for(const [source,query,referrer] of [
     ['facebook','?utm_source=facebook&utm_medium=social',undefined],
+    ['whatsapp','?utm_source=whatsapp',undefined],
     ['google','?utm_source=google',undefined],
     ['altri','?test-contatori-browser=esterno','https://example.org/articolo'],
   ]){
@@ -73,7 +74,7 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     const page=await t.ctx.newPage();
     await page.goto(site+'index.html'+query,{waitUntil:'domcontentloaded',timeout:35000,...(referrer?{referer:referrer}:{})});
     await awaitHits(t.hits,2);
-    const count=t.hits.filter(u=>u.includes('perme-origine-'+source+'-dal-20261023')).length;
+    const count=t.hits.filter(u=>u.includes('perme-origine-'+source+'-dal-')).length;
     row('source_'+source,t.hits.length===2&&count===1,{hits:t.hits});
     await t.ctx.close();
   }

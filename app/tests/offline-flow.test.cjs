@@ -91,7 +91,7 @@ test('Service worker: navigazione offline usa la pagina in cache',async()=>{
  const shell=[];
  const environment={
   URL,self:{
-   location:{origin:'https://cpcpcp106-coder.github.io'},
+   location:new URL(ROOT+'app/sw.js'),
    addEventListener:(event,handler)=>{handlers[event]=handler},
    skipWaiting:async()=>{},
    clients:{claim:async()=>{}}
@@ -111,6 +111,8 @@ test('Service worker: navigazione offline usa la pagina in cache',async()=>{
  await installed;
  assert.ok(shell.includes('./index.html'));
  assert.ok(shell.some(x=>String(x).includes('main.js')));
+ assert.ok(shell.some(x=>x.startsWith('../gradimento.js?')));
+ assert.ok(shell.some(x=>x.startsWith('../gradimento.css?')));
  let fallback;handlers.fetch({
   request:{method:'GET',mode:'navigate',url:ROOT+'app/'},
   respondWith:p=>{fallback=p}

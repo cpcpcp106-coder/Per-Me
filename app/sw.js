@@ -1,9 +1,10 @@
-const CACHE='perme-reader-v22-20261114-home-canonica';
-const SHELL=['./','./index.html','./app.css?v=15','./main.js?v=15','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
+const CACHE='perme-reader-v23-20261115-whatsapp';
+const SHELL=['./','./index.html','./app.css?v=15','./main.js?v=16','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 const MENU='./menu-mediterraneo.html';
 const MENU_ASSETS=['./menu-mediterraneo.css?v=1','./menu-mediterraneo.js?v=1','./ricette-mediterranee.js?v=1','../assets/logo-per-me.png','../assets/dieta-menu-spesa-originale.webp'];
+const GUIDE_ASSETS=['../gradimento.js?v=4','../gradimento.css?v=3'];
 self.addEventListener('install',event=>{
- event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([...SHELL,MENU,...MENU_ASSETS])).then(()=>self.skipWaiting()));
+ event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([...SHELL,MENU,...MENU_ASSETS,...GUIDE_ASSETS])).then(()=>self.skipWaiting()));
 });
 self.addEventListener('activate',event=>{
  event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('perme-reader-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim()));
@@ -12,7 +13,8 @@ self.addEventListener('fetch',event=>{
  const req=event.request,url=new URL(req.url);
  if(req.method!=='GET'||url.origin!==self.location.origin)return;
  const menuAsset=MENU_ASSETS.includes('../assets/'+url.pathname.split('/').pop())&&url.pathname.includes('/assets/');
- if(!url.pathname.includes('/app/')&&!menuAsset)return;
+ const guideAsset=GUIDE_ASSETS.some(asset=>new URL(asset,self.location.href).href===url.href);
+ if(!url.pathname.includes('/app/')&&!menuAsset&&!guideAsset)return;
  if(req.mode==='navigate'){
   const entry=url.pathname.endsWith('/menu-mediterraneo.html')?MENU:'./index.html';
   event.respondWith(fetch(req).then(res=>{
