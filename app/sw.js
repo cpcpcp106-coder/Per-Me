@@ -1,8 +1,8 @@
-const CACHE='perme-reader-v23-20261115-whatsapp';
+const CACHE='perme-reader-v24-20261115-whatsapp';
 const SHELL=['./','./index.html','./app.css?v=15','./main.js?v=16','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 const MENU='./menu-mediterraneo.html';
 const MENU_ASSETS=['./menu-mediterraneo.css?v=1','./menu-mediterraneo.js?v=1','./ricette-mediterranee.js?v=1','../assets/logo-per-me.png','../assets/dieta-menu-spesa-originale.webp'];
-const GUIDE_ASSETS=['../gradimento.js?v=4','../gradimento.css?v=3'];
+const GUIDE_ASSETS=['../gradimento.js?v=4','../gradimento.css?v=4'];
 self.addEventListener('install',event=>{
  event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll([...SHELL,MENU,...MENU_ASSETS,...GUIDE_ASSETS])).then(()=>self.skipWaiting()));
 });

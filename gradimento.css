@@ -17,7 +17,7 @@
 .perme-ranking-list p{margin:5px 0;font-size:1rem}
 .perme-ranking-list .perme-ranking-score{font-weight:750;color:#342e27}
 @media(max-width:560px){.perme-rating{padding:21px 13px}.perme-rating-stars{gap:4px;max-width:280px}.perme-rating-stars button{font-size:1.55rem;min-width:0;min-height:44px;height:44px}.perme-ranking-list{padding-left:1.4em}.perme-ranking-list article{padding:15px 12px}}
-main a.perme-whatsapp-share,main a.perme-whatsapp-share:visited{
+main a.perme-whatsapp-share:any-link{
   box-sizing:border-box;
   display:inline-flex;
   align-items:center;
@@ -29,7 +29,6 @@ main a.perme-whatsapp-share,main a.perme-whatsapp-share:visited{
   border:2px solid #234438;
   border-radius:9px;
   background:#234438;
-  color:#fff;
   font-family:system-ui,sans-serif;
   font-size:1.125rem;
   font-weight:800;
@@ -37,6 +36,10 @@ main a.perme-whatsapp-share,main a.perme-whatsapp-share:visited{
   text-align:center;
   text-decoration:none;
 }
-main a.perme-whatsapp-share:hover{background:#17372b;color:#fff;text-decoration:underline}
-main a.perme-whatsapp-share:focus-visible{color:#fff;outline:3px solid #a9652b;outline-offset:4px}
+/* Le guide hanno colori propri per i link dei testi. Il pulsante usa sempre il contrasto bianco su verde. */
+main a.perme-whatsapp-share,main .article a.perme-whatsapp-share,#contenuto a.perme-whatsapp-share{
+  color:#fff!important;
+}
+main a.perme-whatsapp-share:hover{background:#17372b;text-decoration:underline}
+main a.perme-whatsapp-share:focus-visible{outline:3px solid #a9652b;outline-offset:4px}
 @media(max-width:600px){main a.perme-whatsapp-share{display:flex;width:100%}}
