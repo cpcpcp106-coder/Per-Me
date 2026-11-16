@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Check all external HTTP URLs mentioned by the published HTML files. HTTP accessibility != semantic evidence."""
 import concurrent.futures as cf, datetime, html.parser, json, ssl, time, urllib.error, urllib.request
+from contextlib import suppress
+from http.client import HTTPException
 from pathlib import Path
 from urllib.parse import urldefrag, urlsplit
 ROOT=Path(__file__).resolve().parent.parent
@@ -27,6 +29,16 @@ def check(item):
    return {"url":u,"status":"raggiungibile","http":r.status,"final_url":r.geturl(),"pages":pages}
  except urllib.error.HTTPError as e:
   classification="bloccato_o_riservato" if e.code in (401,403,429) else "errore_http"
+  with e:
+   if (
+    e.code == 307
+    and e.headers.get("X-Sucuri-ID")
+    and "Location" not in e.headers
+    and "URI" not in e.headers
+   ):
+    with suppress(OSError, HTTPException):
+     if b"sucuri_cloudproxy_js" in e.read(2048):
+      classification = "bloccato_o_riservato"
   return {"url":u,"status":classification,"http":e.code,"pages":pages}
  except Exception as e:return {"url":u,"status":"non_verificato_trasporto","error":str(e)[:160],"pages":pages}
 with cf.ThreadPoolExecutor(max_workers=8) as pool:results=list(pool.map(check,found.items()))
