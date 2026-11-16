@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-16T05:48:56+00:00",
+  "date_utc": "2026-11-16T06:09:31+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 128,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 4495,
-    "external_occurrences": 1931,
-    "external_unique": 836,
+    "local_occurrences": 4506,
+    "external_occurrences": 1935,
+    "external_unique": 840,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1732,7 +1732,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 30,
+      "links_local": 31,
       "links_external": 4,
       "missing_local": 0,
       "noindex": false,
@@ -1747,14 +1747,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 62,
-      "links_external": 44,
+      "links_local": 72,
+      "links_external": 48,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 19
+      "candidate_numeric_legal_mentions": 22
     },
     {
       "file": "pensionati-estero-trasferimento.html",
