@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-16T10:02:03+00:00",
+  "date_utc": "2026-11-16T10:40:30+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 128,
@@ -7,9 +7,9 @@
     "guide_pages": 33
   },
   "links": {
-    "local_occurrences": 4519,
-    "external_occurrences": 1943,
-    "external_unique": 846,
+    "local_occurrences": 4530,
+    "external_occurrences": 1950,
+    "external_unique": 852,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -1732,14 +1732,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 37,
+      "links_local": 39,
       "links_external": 5,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 20
+      "candidate_numeric_legal_mentions": 25
     },
     {
       "file": "pensionati-estero-mete.html",
@@ -1747,14 +1747,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 78,
-      "links_external": 54,
+      "links_local": 80,
+      "links_external": 57,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 29
+      "candidate_numeric_legal_mentions": 28
     },
     {
       "file": "pensionati-estero-trasferimento.html",
@@ -1762,14 +1762,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 46,
-      "links_external": 18,
+      "links_local": 52,
+      "links_external": 22,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 9
+      "candidate_numeric_legal_mentions": 15
     },
     {
       "file": "pensionati-estero.html",
@@ -1777,14 +1777,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 26,
+      "links_local": 27,
       "links_external": 6,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 2
     },
     {
       "file": "pensione-invalidita.html",
