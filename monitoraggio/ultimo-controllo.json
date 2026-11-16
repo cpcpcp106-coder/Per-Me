@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-09T17:27:57+00:00",
+  "checked_at_utc": "2026-11-16T16:59:08+00:00",
   "note": "Le variazioni sono segnali da verificare manualmente; non aggiornare automaticamente gli articoli.",
   "fonti": [
     {
@@ -45,7 +45,7 @@
     {
       "id": "cartelle",
       "rubrica": "Debiti e cartelle",
-      "status": "variata",
+      "status": "invariata",
       "http": 200,
       "url": "https://www.agenziaentrateriscossione.gov.it/",
       "final_url": "https://www.agenziaentrateriscossione.gov.it/"
@@ -75,7 +75,7 @@
       "final_url": "https://www.agid.gov.it/it"
     }
   ],
-  "pagine_controllate": 101,
+  "pagine_controllate": 126,
   "collegamenti_locali_problematici": [],
   "collegamenti_esterni": [
     {
@@ -119,10 +119,22 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf"
+    },
+    {
       "url": "https://adanews.ada.org/ada-news/2026/september/first-ada-living-guideline-reaffirms-dental-exams-crucial-to-detecting-oral-cancer-early/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://adanews.ada.org/ada-news/2026/september/first-ada-living-guideline-reaffirms-dental-exams-crucial-to-detecting-oral-cancer-early/"
+    },
+    {
+      "url": "https://administracion.gob.es/tu-espacio-europeo/derechos-obligaciones/ciudadanos/residencia/obtencion-residencia/inscribirte-residente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://administracion.gob.es/tu-espacio-europeo/derechos-obligaciones/ciudadanos/residencia/obtencion-residencia/inscribirte-residente"
     },
     {
       "url": "https://agilefvg.regione.fvg.it/susfe/a/avvio?idServizio=93389",
@@ -134,6 +146,12 @@
       "url": "https://agriculture.ec.europa.eu/farming/crops/olive-oil_it",
       "status": "da_verificare",
       "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://asp.gov.al/wp-content/uploads/2025/11/Ligj-PER-TE-HUAJT-2021-06-24-79-perditesuar-2025-PDF.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asp.gov.al/wp-content/uploads/2025/11/Ligj-PER-TE-HUAJT-2021-06-24-79-perditesuar-2025-PDF.pdf"
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
@@ -178,16 +196,39 @@
       "final_url": "https://bda.ieo.it/?page_id=102"
     },
     {
+      "url": "https://biblioteca.defensoria.gob.ec/bitstream/37000/3375/1/Reglamento%20Ley%20Org%C3%A1nica%20de%20Movilidad%20Humana.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://biblioteca.defensoria.gob.ec/bitstream/37000/3375/1/Reglamento%20Ley%20Org%C3%A1nica%20de%20Movilidad%20Humana.pdf"
+    },
+    {
       "url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page"
     },
     {
+      "url": "https://cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5477_2022.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5477_2022.htm"
+    },
+    {
+      "url": "https://cert-agid.gov.it/news/falso-avviso-di-consegna-una-nuova-campagna-di-smishing-colpisce-gli-utenti-di-poste-italiane/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://cert-agid.gov.it/news/falso-avviso-di-consegna-una-nuova-campagna-di-smishing-colpisce-gli-utenti-di-poste-italiane/"
+    },
+    {
       "url": "https://chatgpt.com/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://chatgpt.com/"
+    },
+    {
+      "url": "https://cnas.ro/case-judetene/",
+      "status": "da_verificare",
+      "error": "HTTP Error 503: Service Unavailable"
     },
     {
       "url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
@@ -305,6 +346,12 @@
       "url": "https://diabetesjournals.org/care/issue/49/Supplement_1",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://digital-strategy.ec.europa.eu/it/policies/112",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://digital-strategy.ec.europa.eu/it/policies/112"
     },
     {
       "url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/trasportopubblico.html",
@@ -494,6 +541,18 @@
       "error": "HTTP Error 403: Forbidden"
     },
     {
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/2376.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/2376.pdf"
+    },
+    {
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/50524.pdf?v=7589952890783019",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/50524.pdf?v=7589952890783019"
+    },
+    {
       "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/diritti-e-tutele/arbitro-bancario-finanziario/",
       "status": "raggiungibile",
       "http": 200,
@@ -504,6 +563,18 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://economiapertutti.bancaditalia.it/aree-tematiche/prestiti/sovraindebitamento/index.html"
+    },
+    {
+      "url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94%3ACertificate_of_registration_for_Union_citizens_residing_in_Greece_as_financially_inactive_persons",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://en.mitos.gov.gr/index.php/%CE%94%CE%94%3ACertificate_of_registration_for_Union_citizens_residing_in_Greece_as_financially_inactive_persons"
+    },
+    {
+      "url": "https://enfidhahammametairport.com/en-EN/to-from-the-airport/how-to-reach-the-airport/page/to-from-enfidha-airport",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://enfidhahammametairport.com/en-EN/to-from-the-airport/how-to-reach-the-airport/page/to-from-enfidha-airport"
     },
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
@@ -522,6 +593,36 @@
       "status": "raggiungibile",
       "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104"
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/health/planned-healthcare/right-to-treatment/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/health/planned-healthcare/right-to-treatment/index_it.htm"
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/prescriptions/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/health/prescription-medicine-abroad/prescriptions/index_it.htm"
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_it.htm"
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/health/when-living-abroad/health-insurance-cover/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/health/when-living-abroad/health-insurance-cover/index_it.htm"
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/residence/residence-rights/pensioners/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/residence/residence-rights/pensioners/index_it.htm"
     },
     {
       "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en",
@@ -597,6 +698,18 @@
       "url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://igi.mai.gov.ro/en/residence-registration/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://igi.mai.gov.ro/en/residence-registration/"
+    },
+    {
+      "url": "https://igi.mai.gov.ro/fr/immigration-bureau-du-comte-brasov/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://igi.mai.gov.ro/fr/immigration-bureau-du-comte-brasov/"
     },
     {
       "url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1400",
@@ -875,6 +988,12 @@
       "final_url": "https://images.unsplash.com/photo-1758686254501-afb794642cf3?auto=format&fit=crop&w=1400&h=790&q=78"
     },
     {
+      "url": "https://info.portaldasfinancas.gov.pt/en/tax-information/getting-started-in-portugal/non-habitual-resident/register-as-a-non-habitual-resident/Pages/default.aspx",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://info.portaldasfinancas.gov.pt/en/tax-information/getting-started-in-portugal/non-habitual-resident/register-as-a-non-habitual-resident/Pages/default.aspx"
+    },
+    {
       "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/quadro-c-lavoro-dipendente",
       "status": "raggiungibile",
       "http": 200,
@@ -933,6 +1052,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art"
+    },
+    {
+      "url": "https://mvr.bg/migration/en/legislation/citizens-of-eu",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://mvr.bg/migration/en/legislation/citizens-of-eu"
     },
     {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
@@ -1149,10 +1274,22 @@
       "final_url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta"
     },
     {
+      "url": "https://rome.thaiembassy.org/en/publicservice/non-immigrant-o-o-a",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://rome.thaiembassy.org/en/publicservice/non-immigrant-o-o-a"
+    },
+    {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq"
+    },
+    {
+      "url": "https://servizi.lavoro.gov.it/cerca-sportello",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.lavoro.gov.it/cerca-sportello"
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
@@ -1209,9 +1346,16 @@
       "final_url": "https://servizi2.inps.it/servizi/ISEEPrecompilato/WfInfoModulistica.aspx/Home.aspx"
     },
     {
-      "url": "https://siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
-      "status": "da_verificare",
-      "error": "HTTP Error 307: Temporary Redirect"
+      "url": "https://serviziconsolari.esteri.it/home",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://serviziconsolari.esteri.it/home"
+    },
+    {
+      "url": "https://siisl.lavoro.gov.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://siisl.lavoro.gov.it/"
     },
     {
       "url": "https://sistemats1.sanita.finanze.it/portale/esenzione-da-reddito",
@@ -1230,6 +1374,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://sps.nhs.uk/articles/managing-interactions-between-macrolides-and-statins/"
+    },
+    {
+      "url": "https://storage.googleapis.com/proficonsult-webapp/base-legal/2025/Acuerdo%20Ministerial%20No.%20MDT-2025-195.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://storage.googleapis.com/proficonsult-webapp/base-legal/2025/Acuerdo%20Ministerial%20No.%20MDT-2025-195.pdf"
     },
     {
       "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
@@ -1303,10 +1453,10 @@
       "final_url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction"
     },
     {
-      "url": "https://wa.me/?text=Per%20Me%3A%20guide%20gratuite%20su%20pensioni%2C%20INPS%2C%20lavoro%2C%20salute%20e%20diritti%2C%20con%20fonti%20da%20verificare.%20https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F",
+      "url": "https://wa.me/?text=Per%20Me%20raccoglie%20guide%20gratuite%20per%20orientarsi%20tra%20pensioni%2C%20lavoro%2C%20bollette%2C%20salute%20e%20tecnologia.%20Scegli%20la%20guida%20che%20ti%20serve.%0Ahttps%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F%3Futm_source%3Dwhatsapp",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://api.whatsapp.com/send/?text=Per+Me%3A+guide+gratuite+su+pensioni%2C+INPS%2C+lavoro%2C+salute+e+diritti%2C+con+fonti+da+verificare.+https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&type=custom_url&app_absent=0"
+      "final_url": "https://api.whatsapp.com/send/?text=Per+Me+raccoglie+guide+gratuite+per+orientarsi+tra+pensioni%2C+lavoro%2C+bollette%2C+salute+e+tecnologia.+Scegli+la+guida+che+ti+serve.%0Ahttps%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F%3Futm_source%3Dwhatsapp&type=custom_url&app_absent=0"
     },
     {
       "url": "https://www.aad.org/public/diseases/a-z/acanthosis-nigricans-treatment",
@@ -1319,6 +1469,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.aad.org/public/diseases/a-z/diabetes-warning-signs"
+    },
+    {
+      "url": "https://www.aade.gr/egkyklioi-kai-apofaseis/1192-22-09-2026",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aade.gr/egkyklioi-kai-apofaseis/1192-22-09-2026"
     },
     {
       "url": "https://www.aaojournal.org/article/S0161-6420%2824%2900784-X/fulltext",
@@ -1360,6 +1516,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.ada.org/resources/ada-library/oral-health-topics/x-rays-radiographs"
+    },
+    {
+      "url": "https://www.aena.es/es/alicante-elche-miguel-hernandez/como-llegar/autobus.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aena.es/es/alicante-elche-miguel-hernandez/como-llegar/autobus.html"
     },
     {
       "url": "https://www.agcom.it/agcom-per-te/i-miei-diritti/contenzioso-tra-utenti-e-operatori",
@@ -1776,10 +1938,40 @@
       "final_url": "https://www.alimentinutrizione.it/presentazione-dati"
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000020",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000020"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000075",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000075"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000090",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000090"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000110",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000110"
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000115"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000550",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000550"
     },
     {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000800",
@@ -1792,6 +1984,18 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000805"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000850",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/000850"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/003030",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/003030"
     },
     {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004005",
@@ -1812,16 +2016,100 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004130"
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004205",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004205"
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004505"
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004730",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004730"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005110",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005110"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005150",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005150"
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005155"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005160",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005160"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005200",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005200"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005210",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005210"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005440",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005440"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005650",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005650"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005700",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005700"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005720",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005720"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005730",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005730"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006500",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006500"
     },
     {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006515",
@@ -1836,10 +2124,124 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006610"
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006670",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006670"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006850",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006850"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007120",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007120"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007260",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007260"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007510",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007510"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008000",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008000"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008040",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008040"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008540",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008540"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008570",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008570"
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/009210"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106500",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106500"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106850",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106850"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121410",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121410"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/122700",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/122700"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/123000",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/123000"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/124050",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/124050"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/135020",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/135020"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/150010",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/150010"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/166820",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/166820"
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/181100",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/181100"
     },
     {
       "url": "https://www.arbitrobancariofinanziario.it/",
@@ -1950,6 +2352,12 @@
       "final_url": "https://www.arera.it/consumatori/lo-sportello-per-il-consumatore-energia-e-ambiente"
     },
     {
+      "url": "https://www.asst-rhodense.it/v2/ambiti-territoriali/scelta-revoca.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.asst-rhodense.it/v2/ambiti-territoriali/scelta-revoca.html"
+    },
+    {
       "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000003985",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
@@ -1975,6 +2383,12 @@
       "url": "https://www.bmj.com/content/364/bmj.l341.full",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-27501",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1980-27501"
     },
     {
       "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
@@ -2067,6 +2481,18 @@
       "final_url": "https://www.consap.it/fondo-di-sospensione-mutui-per-l-acquisto-della-prima-casa/procedura-e-modulistica/"
     },
     {
+      "url": "https://www.cp.pt/info/pt/w/horarios-comboios-pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cp.pt/info/pt/w/horarios-comboios-pdf"
+    },
+    {
+      "url": "https://www.crea.gov.it/-/tabella-di-composizione-degli-alimenti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/-/tabella-di-composizione-degli-alimenti"
+    },
+    {
       "url": "https://www.crea.gov.it/en/-/tabella-di-composizione-degli-alimenti",
       "status": "raggiungibile",
       "http": 200,
@@ -2098,9 +2524,8 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/prac-recommendation/prac-recommendations-signals-adopted-26-29-november-2018-prac-meeting_en.pdf",
@@ -2120,8 +2545,9 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf",
-      "status": "da_verificare",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/documents/referral/zoloft-article-30-referral-annex-i-ii-iii-iv_en.pdf"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/baqsimi",
@@ -2136,21 +2562,18 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evenity",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/evenity"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/januvia",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/januvia"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kayshild",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/kayshild"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/mounjaro",
@@ -2160,9 +2583,8 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/ozempic"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/prolia",
@@ -2178,8 +2600,9 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra",
-      "status": "da_verificare",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/viagra"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/wegovy",
@@ -2189,8 +2612,9 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xiapex",
-      "status": "da_verificare",
-      "error": "HTTP Error 429: Too Many Requests"
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/EPAR/xiapex"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/domperidone-containing-medicines",
@@ -2200,15 +2624,13 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/metoclopramide-containing-medicines",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/metoclopramide-containing-medicines"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors"
+      "status": "da_verificare",
+      "error": "HTTP Error 429: Too Many Requests"
     },
     {
       "url": "https://www.ema.europa.eu/en/news/european-medicines-agency-recommends-new-contra-indications-warnings-pioglitazone-reduce-small-increased-risk-bladder-cancer",
@@ -2287,6 +2709,12 @@
       "final_url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/peripheral-arterial-and-aortic-diseases/"
     },
     {
+      "url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/aire_0/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.esteri.it/it/servizi-opportunita/italiani-all-estero/aire_0/"
+    },
+    {
       "url": "https://www.esur.org/esur-guidelines-2025/",
       "status": "raggiungibile",
       "http": 200,
@@ -2296,13 +2724,13 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide"
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide"
     },
     {
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/"
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F"
     },
     {
       "url": "https://www.fascicolosanitario.gov.it/",
@@ -2315,6 +2743,18 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.ferrovieudinecividale.it/tariffe-2020-udine-cividale-del-friuli/#toggle-id-2"
+    },
+    {
+      "url": "https://www.finances.gov.tn/fr/apercu-general-sur-la-fiscalite",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.finances.gov.tn/fr/apercu-general-sur-la-fiscalite"
+    },
+    {
+      "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures"
     },
     {
       "url": "https://www.garanteprivacy.it/faq/fascicolo-sanitario",
@@ -2341,6 +2781,24 @@
       "final_url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949"
     },
     {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=17G00092&art.dataPubblicazioneGazzetta=2017-06-09&art.flagTipoArticolo=1&art.idArticolo=18&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=17G00092&art.dataPubblicazioneGazzetta=2017-06-09&art.flagTipoArticolo=1&art.idArticolo=18&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1"
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=17G00092&art.dataPubblicazioneGazzetta=2017-06-09&art.flagTipoArticolo=1&art.idArticolo=19&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=17G00092&art.dataPubblicazioneGazzetta=2017-06-09&art.flagTipoArticolo=1&art.idArticolo=19&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1"
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=4&art.flagTipoArticolo=0&art.codiceRedazionale=17A02015&art.idArticolo=22&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2017-03-18&art.progressivo=0",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=4&art.flagTipoArticolo=0&art.codiceRedazionale=17A02015&art.idArticolo=22&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2017-03-18&art.progressivo=0"
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaDettaglioAtto/originario?atto.codiceRedazionale=26A03507&atto.dataPubblicazioneGazzetta=2026-07-16&elenco30giorni=false",
       "status": "raggiungibile",
       "http": 200,
@@ -2357,6 +2815,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.gazzettaufficiale.it/eli/gu/1978/07/29/211/sg/pdf"
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/1981/07/24/081U0388/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/1981/07/24/081U0388/sg"
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2016/01/13/16A00299/sg",
@@ -2387,6 +2851,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.gazzettaufficiale.it/eli/id/2025/12/22/25A06759/SG"
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/06/27/26G00127/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/06/27/26G00127/sg"
     },
     {
       "url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
@@ -2431,6 +2901,24 @@
       "final_url": "https://www.giustizia.it/giustizia/page/it/patrocinio_a_spese_dello_stato_nei_giudizi_civili_e_amministrativi"
     },
     {
+      "url": "https://www.gov.gr/en/services/1002241/eggraphe-se-prosopiko-iatro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gov.gr/en/services/1002241/eggraphe-se-prosopiko-iatro"
+    },
+    {
+      "url": "https://www.gov.pt/guias/residir-em-portugal",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gov.pt/guias/residir-em-portugal"
+    },
+    {
+      "url": "https://www.gov.pt/servicos/inscrever-se-no-centro-de-saude",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gov.pt/servicos/inscrever-se-no-centro-de-saude"
+    },
+    {
       "url": "https://www.heart.org/-/media/files/health-topics/answers-by-heart/how-can-i-recover-from-heart-surgery.pdf",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
@@ -2457,6 +2945,11 @@
       "final_url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/"
     },
     {
+      "url": "https://www.idealista.it/sala-stampa/report-prezzo-immobile/affitto/puglia/bari-provincia/bari/",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
       "url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/",
       "status": "raggiungibile",
       "http": 200,
@@ -2467,6 +2960,17 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.idsociety.org/practice-guideline/diabetic-foot-infections/"
+    },
+    {
+      "url": "https://www.immigration.govt.nz/visas/temporary-retirement-visitor-visa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.immigration.govt.nz/visas/temporary-retirement-visitor-visa/"
+    },
+    {
+      "url": "https://www.imotesa.bg/en/statistics/rent/apartment/plovdiv",
+      "status": "da_verificare",
+      "error": "HTTP Error 403: Forbidden"
     },
     {
       "url": "https://www.inps.it/",
@@ -2491,6 +2995,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14121/Allegati/14119_Circolare-numero-38-del-03-04-2023.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14122/Allegati/14121_Messaggio-numero-1270-del-03-04-2023.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14122/Allegati/14121_Messaggio-numero-1270-del-03-04-2023.pdf"
     },
     {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf",
@@ -2529,6 +3039,12 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf"
     },
     {
+      "url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/105KEY-446tunisia_convenzione.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/105KEY-446tunisia_convenzione.pdf"
+    },
+    {
       "url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/FAQ_Riforma_della_Disabilit%C3%A0_en.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -2553,10 +3069,28 @@
       "final_url": "https://www.inps.it/it/it/amministrazione-trasparente/attivit--e-procedimenti/tipologie-di-procedimento.html"
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49854.prestazioni-inesportabili-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49854.prestazioni-inesportabili-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49857.pagamento-della-pensione-all-estero.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49857.pagamento-della-pensione-all-estero.html"
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49936.tipologie-di-isee.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49936.tipologie-di-isee.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49937.normativa-fiscale-residenti-all-estero.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49937.normativa-fiscale-residenti-all-estero.html"
     },
     {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49947.cumulo-pensione-e-reddito-da-lavoro.html",
@@ -2581,6 +3115,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.54267.accertamento-esistenza-in-vita-dei-pensionati-che-riscuotono-all-estero.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.54267.accertamento-esistenza-in-vita-dei-pensionati-che-riscuotono-all-estero.html"
     },
     {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.assegno-di-maternit--dei-comuni.html",
@@ -2625,16 +3165,34 @@
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-aree-tematiche.portale-della-disabilit-.html"
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50018.tfr-a-carico-del-fondo-di-tesoreria.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50018.tfr-a-carico-del-fondo-di-tesoreria.html"
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html"
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50186.fondo-di-garanzia-del-tfr-e-dei-crediti-di-lavoro.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50186.fondo-di-garanzia-del-tfr-e-dei-crediti-di-lavoro.html"
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50593.naspi-indennit-mensile-di-disoccupazione.html"
     },
     {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50596.cassa-integrazione-guadagni-straordinaria.html",
@@ -2677,6 +3235,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.Portale-unico-ISEE.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.accertamento-dell-esistenza-in-vita-cos-e-come-funziona--50197.accertamento-dell-esistenza-in-vita-cos-e-come-funziona-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.accertamento-dell-esistenza-in-vita-cos-e-come-funziona--50197.accertamento-dell-esistenza-in-vita-cos-e-come-funziona-.html"
     },
     {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-di-inclusione-adi.html",
@@ -2943,6 +3507,12 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2021.12.assegno-mensile-di-invalidit-requisito-di-inattivit-lavorativa.html"
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.11.piattaforma-siisl-iscrizione-dei-percettori-naspi-e-dis-coll.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.11.piattaforma-siisl-iscrizione-dei-percettori-naspi-e-dis-coll.html"
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.12.invalidit-civile-verifiche-reddituali-anno-2020.html",
       "status": "raggiungibile",
       "http": 200,
@@ -2953,6 +3523,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.03.prestazione-universale-nuove-indicazioni-operative.html"
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.06.naspi-nuovo-requisito-contributivo.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.06.naspi-nuovo-requisito-contributivo.html"
     },
     {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.11.rendita-vitalizia-nuove-indicazioni-per-la-richiesta.html",
@@ -3206,12 +3782,6 @@
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
     },
     {
-      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-dati-provvisori-settembre-2026/"
-    },
-    {
       "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
       "status": "raggiungibile",
       "http": 200,
@@ -3276,6 +3846,24 @@
       "final_url": "https://www.lavoro.gov.it/sites/default/files/documenti-e-norme/normative/Documents/2015/Decreto_legislativo_14_settembre_2015_n.148.pdf"
     },
     {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/modalita-di-candidatura-un-posto-di-lavoro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/ricerca-di-occupazione/modalita-di-candidatura-un-posto-di-lavoro"
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/condizioni-e-diritti-caso-di-licenziamento",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/condizioni-e-diritti-caso-di-licenziamento"
+    },
+    {
+      "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/dimissioni",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/dimissioni"
+    },
+    {
       "url": "https://www.lavoro.gov.it/sportello-unico-digitale/termini-e-condizioni-di-impiego/ferie-annuali",
       "status": "raggiungibile",
       "http": 200,
@@ -3286,6 +3874,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/isee-istruzioni-2026"
+    },
+    {
+      "url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/albo-nazionale-delle-agenzie-il-lavoro",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/albo-nazionale-delle-agenzie-il-lavoro"
     },
     {
       "url": "https://www.lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
@@ -3324,6 +3918,12 @@
       "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1"
     },
     {
+      "url": "https://www.migracion.gob.pa/?jet_download=b303341991472f96a930b9c73e0e48f172bb40e9",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.migracion.gob.pa/?jet_download=b303341991472f96a930b9c73e0e48f172bb40e9"
+    },
+    {
       "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
       "status": "da_verificare",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
@@ -3337,6 +3937,12 @@
       "url": "https://www.mit.gov.it/urp-domande-frequenti",
       "status": "da_verificare",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+    },
+    {
+      "url": "https://www.motac.gov.my/en/frequently-asked-questions-faqs/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.motac.gov.my/en/frequently-asked-questions-faqs/"
     },
     {
       "url": "https://www.ncbi.nlm.nih.gov/books/NBK481900/",
@@ -3396,6 +4002,18 @@
       "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa1800389",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.nhif.bg/bg/euro/answers/49607",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhif.bg/bg/euro/answers/49607"
+    },
+    {
+      "url": "https://www.nhif.bg/bg/rzok/plovdiv",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhif.bg/bg/rzok/plovdiv"
     },
     {
       "url": "https://www.nhs.uk/conditions/cellulitis/",
@@ -3590,6 +4208,12 @@
       "final_url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes"
     },
     {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.codiceRedazionale=086U0917&atto.dataPubblicazioneGazzetta=1986-12-31&dataVigenza=15%2F11%2F2026",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.codiceRedazionale=086U0917&atto.dataPubblicazioneGazzetta=1986-12-31&dataVigenza=15%2F11%2F2026"
+    },
+    {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
       "status": "raggiungibile",
       "http": 200,
@@ -3632,10 +4256,22 @@
       "final_url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED/20260628"
     },
     {
+      "url": "https://www.normattiva.it/eli/id/1982/05/31/082U0297/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1982/05/31/082U0297/CONSOLIDATED"
+    },
+    {
       "url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.normattiva.it/eli/id/1986/12/31/086U0917/CONSOLIDATED"
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/1988/11/07/088G0533/CONSOLIDATED/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1988/11/07/088G0533/CONSOLIDATED/"
     },
     {
       "url": "https://www.normattiva.it/eli/id/2003/04/14/003G0091/CONSOLIDATED",
@@ -3650,6 +4286,12 @@
       "final_url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL"
     },
     {
+      "url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED"
+    },
+    {
       "url": "https://www.normattiva.it/eli/stato/DECRETO_LEGISLATIVO/2024/05/03/62/CONSOLIDATED",
       "status": "raggiungibile",
       "http": 200,
@@ -3662,16 +4304,76 @@
       "final_url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED"
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-06-07;73~art3",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-06-07;73~art3"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art119",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art119"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1992-04-30;285~art126"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66~art10",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66~art10"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148"
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148~art7",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2015-09-14;148~art7"
+    },
+    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14"
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6"
+    },
+    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241"
+    },
+    {
+      "url": "https://www.numbeo.com/common/motivation_and_methodology.jsp",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.numbeo.com/common/motivation_and_methodology.jsp"
+    },
+    {
+      "url": "https://www.numbeo.com/cost-of-living/rankings.jsp?title=2026-mid",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.numbeo.com/cost-of-living/rankings.jsp?title=2026-mid"
+    },
+    {
+      "url": "https://www.oferteimobiliare.ro/indici-imobiliare/brasov",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.oferteimobiliare.ro/indici-imobiliare/brasov"
     },
     {
       "url": "https://www.parlamento.it/parlam/leggi/00328l.htm",
@@ -3904,6 +4606,12 @@
       "url": "https://www.pexels.com/photo/woman-with-diabetes-wearing-a-cgm-device-on-her-arm-17947693/",
       "status": "da_verificare",
       "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.pra.gov.ph/srrvisa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pra.gov.ph/srrvisa/"
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA105/",
@@ -4200,10 +4908,33 @@
       "final_url": "https://www.salute.gov.it/new/it/tema/vaccinazioni/persone-rischio-patologia/"
     },
     {
+      "url": "https://www.san.gva.es/es/web/portal-del-paciente/buscador-recursos",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.san.gva.es/es/web/portal-del-paciente/buscador-recursos"
+    },
+    {
+      "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
+      "status": "da_verificare",
+      "error": "HTTP Error 307: Temporary Redirect"
+    },
+    {
       "url": "https://www.sidp.it/la-societa/linee-guida-sidp/",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.sidp.it/la-societa/linee-guida-sidp/"
+    },
+    {
+      "url": "https://www.skg-airport.gr/en/category-detailed/ctg_id-37/nd_id-425",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.skg-airport.gr/en/category-detailed/ctg_id-37/nd_id-425"
+    },
+    {
+      "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16"
     },
     {
       "url": "https://www.stroke.org/en/about-stroke/stroke-symptoms",
@@ -4241,6 +4972,24 @@
       "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students"
     },
     {
+      "url": "https://www.uslsudest.toscana.it/come-fare-per/assistenza-sanitaria-estero-cittadini-italiani/assistenza-sanitaria-a-italiani-residenti-all-estero-in-occasione-di-temporanei-rientri-in-italia",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.uslsudest.toscana.it/come-fare-per/assistenza-sanitaria-estero-cittadini-italiani/assistenza-sanitaria-a-italiani-residenti-all-estero-in-occasione-di-temporanei-rientri-in-italia"
+    },
+    {
+      "url": "https://www.viaggiaresicuri.it/find-country/country/MAR",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.viaggiaresicuri.it/find-country/country/MAR"
+    },
+    {
+      "url": "https://www.viaggiaresicuri.it/find-country/country/TUN",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.viaggiaresicuri.it/find-country/country/TUN"
+    },
+    {
       "url": "https://www.who.int/en/news-room/fact-sheets/detail/healthy-diet",
       "status": "raggiungibile",
       "http": 200,
@@ -4263,6 +5012,12 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.who.int/news-room/questions-and-answers/item/diabetes"
+    },
+    {
+      "url": "https://www.who.int/publications/i/item/WHO-UHC-SDS-2019.9",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.who.int/publications/i/item/WHO-UHC-SDS-2019.9"
     }
   ]
 }
