@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-15T15:57:53.934979+00:00",
+  "date_utc": "2026-11-16T05:01:42.894137+00:00",
   "scope": {
     "pages": 128,
     "unique_external_urls": 820,
@@ -7,9 +7,8 @@
   },
   "counts": {
     "raggiungibile": 678,
-    "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 22,
-    "errore_http": 1
+    "bloccato_o_riservato": 122,
+    "non_verificato_trasporto": 20
   },
   "results": [
     {
@@ -962,7 +961,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
@@ -971,7 +970,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -981,7 +980,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -2197,18 +2196,16 @@
     },
     {
       "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
     },
     {
       "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
@@ -4064,8 +4061,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -8183,7 +8181,7 @@
     },
     {
       "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
-      "status": "errore_http",
+      "status": "bloccato_o_riservato",
       "http": 307,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
@@ -8211,8 +8209,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
