@@ -187,7 +187,6 @@ try{
  if(width390.scroll>width390.inner+3 || width320.scroll>width320.inner+3)
   allPageOverflow.push({name,width390,width320});
  await page.setViewportSize({width:390,height:844});
- await axeTest(page,name);
  if(pensionerGuides.includes(name)){
   await page.locator('article details').evaluateAll(details=>{for(const detail of details)detail.open=true;});
   for(const width of [320,390]){
@@ -196,11 +195,16 @@ try{
     page:document.documentElement.scrollWidth>innerWidth+3,
     tables:[...document.querySelectorAll('article .sample-pay')]
      .filter(table=>table.scrollWidth>table.clientWidth+3)
-     .map(table=>table.querySelector('caption')?.textContent.trim())
+     .map(table=>({
+      caption:table.querySelector('caption')?.textContent.trim(),
+      available:table.clientWidth,
+      used:table.scrollWidth
+     }))
    }));
    if(overflow.page || overflow.tables.length)pensionerGuideIssues.push({name,width,...overflow});
   }
  }
+ await axeTest(page,name);
  if(practicalGuides.includes(name)){
   const contents=page.locator('details.indice-guida');
   await contents.locator('summary').click();
