@@ -172,6 +172,8 @@ try{
 let htmls=fs.readdirSync('.').filter(x=>x.endsWith('.html')&&!x.startsWith('google'));
 const practicalGuides=htmls.filter(name=>/^(lavoro-guida-(0[7-9]|1[0-3])|salute-guida-0[6-8])-/.test(name));
 const practicalGuideIssues=[];
+const pensionerGuides=htmls.filter(name=>/^pensionati-estero(?:-budget|-mete|-trasferimento)?\.html$/.test(name));
+const pensionerGuideIssues=[];
 let failures=[];
 for(let name of htmls){let resp=await context.request.get(URL+name,{timeout:15000});if(!resp.ok())failures.push({page:name,status:resp.status()});}
 record('published_html_http_local',failures.length===0,{count:htmls.length,failures});
@@ -186,6 +188,19 @@ try{
   allPageOverflow.push({name,width390,width320});
  await page.setViewportSize({width:390,height:844});
  await axeTest(page,name);
+ if(pensionerGuides.includes(name)){
+  await page.locator('article details').evaluateAll(details=>{for(const detail of details)detail.open=true;});
+  for(const width of [320,390]){
+   await page.setViewportSize({width,height:844});
+   const overflow=await page.evaluate(()=>({
+    page:document.documentElement.scrollWidth>innerWidth+3,
+    tables:[...document.querySelectorAll('article .sample-pay')]
+     .filter(table=>table.scrollWidth>table.clientWidth+3)
+     .map(table=>table.querySelector('caption')?.textContent.trim())
+   }));
+   if(overflow.page || overflow.tables.length)pensionerGuideIssues.push({name,width,...overflow});
+  }
+ }
  if(practicalGuides.includes(name)){
   const contents=page.locator('details.indice-guida');
   await contents.locator('summary').click();
@@ -208,6 +223,9 @@ try{
 }catch(e){allPageBrowserErrors.push({name,error:String(e).slice(0,260)})}
 }
 record('all_root_html_mobile_reflow',allPageOverflow.length===0,{checked:htmls.length,violations:allPageOverflow});
+record('pensioner_guides_open_details_mobile_reflow',pensionerGuides.length===4 && !pensionerGuideIssues.length &&
+ !allPageBrowserErrors.some(error=>pensionerGuides.includes(error.name)),
+ {checked:pensionerGuides.length,widths:[320,390],violations:pensionerGuideIssues});
 record('all_root_html_axe_wcag_auto',!report.axe.some(x=>x.error||(x.violations||[]).length) && !allPageBrowserErrors.length,{checked:htmls.length,failed:report.axe.filter(x=>x.error||(x.violations||[]).length).map(x=>({page:x.page,violations:x.violations?.map(y=>({id:y.id,nodes:y.total})),error:x.error})),errors:allPageBrowserErrors});
 record('practical_guides_photo_contents_and_facebook',practicalGuides.length===10 && !practicalGuideIssues.length,{checked:practicalGuides.length,issues:practicalGuideIssues});
 

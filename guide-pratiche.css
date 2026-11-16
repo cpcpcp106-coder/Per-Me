@@ -47,3 +47,22 @@
 .foto-indice{max-width:840px;margin:1.5rem auto}
 .foto-indice img{display:block;width:100%;height:auto;border-radius:12px}
 .foto-indice figcaption{font-size:1rem;line-height:1.55;margin-top:.6rem;color:#3e4b43}
+
+.pensionati-estero .sample-pay table {
+  font-size: 1rem;
+  font-variant-numeric: tabular-nums;
+}
+.pensionati-estero .sample-pay th,
+.pensionati-estero .sample-pay td {vertical-align: top}
+.pensionati-estero .sample-pay td,
+.pensionati-estero .sample-pay thead th:not(:first-child) {text-align: right}
+.pensionati-estero .sample-pay .totale > * {background: #f3e5d5; font-weight: 700}
+.pensionati-estero .indice-guida > p {margin-inline: 1rem}
+.pensionati-estero .indice-guida > .sample-pay {margin-inline: .75rem}
+.pensionati-estero .passo-primo > :last-child {margin-bottom: 0}
+@media (max-width: 420px) {
+  .pensionati-estero .sample-pay td,
+  .pensionati-estero .sample-pay th {padding: 8px 5px}
+  .pensionati-estero .sample-pay th[scope="row"] {overflow-wrap: anywhere}
+  .pensionati-estero .indice-guida > .sample-pay {margin-inline: .4rem}
+}
