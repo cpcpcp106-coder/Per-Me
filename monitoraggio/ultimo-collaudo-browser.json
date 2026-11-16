@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T10:39:20.286Z",
+  "checked_at_utc": "2026-11-16T10:44:20.788Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -73,7 +73,11 @@
             "width": 320,
             "page": false,
             "tables": [
-              "Spese annue in euro"
+              {
+                "caption": "Spese annue in euro",
+                "available": 262,
+                "used": 276
+              }
             ]
           }
         ]
@@ -122,11 +126,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "118 pagine salvate per la lettura offline · controllo online 16 nov, 10:40.",
+        "status": "118 pagine salvate per la lettura offline · controllo online 16 nov, 10:45.",
         "stored": {
           "guides": 118,
-          "updated": "2026-11-16T10:40:09.767Z",
-          "bytes": 2488197,
+          "updated": "2026-11-16T10:45:09.157Z",
+          "bytes": 2488199,
           "includesNew09": true
         }
       }
