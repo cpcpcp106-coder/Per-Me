@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T04:59:50.421Z",
+  "checked_at_utc": "2026-11-16T05:49:30.012Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -101,11 +101,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "118 pagine salvate per la lettura offline · controllo online 16 nov, 05:00.",
+        "status": "118 pagine salvate per la lettura offline · controllo online 16 nov, 05:50.",
         "stored": {
           "guides": 118,
-          "updated": "2026-11-16T05:00:41.040Z",
-          "bytes": 2455119,
+          "updated": "2026-11-16T05:50:37.542Z",
+          "bytes": 2469160,
           "includesNew09": true
         }
       }
@@ -793,7 +793,7 @@
     {
       "page": "pensionati-estero-mete.html",
       "violations": [],
-      "passes": 25,
+      "passes": 27,
       "incomplete": 2
     },
     {

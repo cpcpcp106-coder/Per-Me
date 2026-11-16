@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-16T05:01:42.894137+00:00",
+  "date_utc": "2026-11-16T05:51:58.788372+00:00",
   "scope": {
     "pages": 128,
-    "unique_external_urls": 820,
-    "occurrences": 1914
+    "unique_external_urls": 836,
+    "occurrences": 1931
   },
   "counts": {
-    "raggiungibile": 678,
-    "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 20
+    "raggiungibile": 691,
+    "bloccato_o_riservato": 121,
+    "non_verificato_trasporto": 24
   },
   "results": [
     {
@@ -86,6 +86,14 @@
       ]
     },
     {
+      "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://adanews.ada.org/ada-news/2026/september/first-ada-living-guideline-reaffirms-dental-exams-crucial-to-detecting-oral-cancer-early/",
       "status": "raggiungibile",
       "http": 200,
@@ -121,6 +129,15 @@
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://asp.gov.al/wp-content/uploads/2025/11/Ligj-PER-TE-HUAJT-2021-06-24-79-perditesuar-2025-PDF.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asp.gov.al/wp-content/uploads/2025/11/Ligj-PER-TE-HUAJT-2021-06-24-79-perditesuar-2025-PDF.pdf",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -201,6 +218,15 @@
       "final_url": "https://ca-venezia.giustizia.it/it/patrocinio_civile.page",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
+      "url": "https://cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5477_2022.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://cancilleria.gov.co/normograma/compilacion/docs/resolucion_minrelaciones_5477_2022.htm",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -1019,6 +1045,7 @@
       "http": 200,
       "final_url": "https://europa.eu/youreurope/citizens/health/when-living-abroad/health-insurance-cover/index_it.htm",
       "pages": [
+        "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html"
       ]
@@ -1031,6 +1058,15 @@
       "pages": [
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://evisa.immigration.gov.vn/en_US/web/guest/trang-chu-ttdt",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://evisa.immigration.gov.vn/web/guest/login?p_p_id=58&p_p_lifecycle=0&_58_redirect=%2Fen_US%2Fweb%2Fguest%2Ftrang-chu-ttdt",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -1112,9 +1148,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1154,6 +1189,15 @@
         "tutor-ai-riassumere-confrontare.html",
         "tutor-ai-verifica-fonti-date.html",
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://igi.mai.gov.ro/en/residence-registration/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://igi.mai.gov.ro/en/residence-registration/",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -1681,6 +1725,15 @@
       ]
     },
     {
+      "url": "https://mvr.bg/migration/en/legislation/citizens-of-eu",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://mvr.bg/migration/en/legislation/citizens-of-eu",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://onlinelibrary.wiley.com/doi/full/10.1002/dmrr.3651",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -1701,9 +1754,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/frozen-shoulder/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/bodypart/shoulder/frozen-shoulder/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -2045,6 +2097,15 @@
       ]
     },
     {
+      "url": "https://rome.thaiembassy.org/en/publicservice/non-immigrant-o-o-a",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://rome.thaiembassy.org/en/publicservice/non-immigrant-o-o-a",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "status": "raggiungibile",
       "http": 200,
@@ -2196,16 +2257,18 @@
     },
     {
       "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
     },
     {
       "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
@@ -4061,9 +4124,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4545,7 +4607,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4571,7 +4633,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -4848,6 +4910,15 @@
       ]
     },
     {
+      "url": "https://www.gob.ec/sites/default/files/sign/procedure-MREMH-008-10-29-2025030306066-18151086-signed.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gob.ec/sites/default/files/sign/procedure-MREMH-008-10-29-2025030306066-18151086-signed.pdf",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://www.gov.gr/en/services/1002241/eggraphe-se-prosopiko-iatro",
       "status": "raggiungibile",
       "http": 200,
@@ -4937,6 +5008,15 @@
       "pages": [
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
         "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ]
+    },
+    {
+      "url": "https://www.immigration.govt.nz/visas/temporary-retirement-visitor-visa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.immigration.govt.nz/visas/temporary-retirement-visitor-visa/",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -6518,6 +6598,15 @@
       ]
     },
     {
+      "url": "https://www.migracion.gob.pa/?jet_download=b303341991472f96a930b9c73e0e48f172bb40e9",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.migracion.gob.pa/?jet_download=b303341991472f96a930b9c73e0e48f172bb40e9",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
       "status": "non_verificato_trasporto",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
@@ -6540,6 +6629,15 @@
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.motac.gov.my/en/frequently-asked-questions-faqs/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.motac.gov.my/en/frequently-asked-questions-faqs/",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -7190,6 +7288,24 @@
       ]
     },
     {
+      "url": "https://www.numbeo.com/common/motivation_and_methodology.jsp",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.numbeo.com/common/motivation_and_methodology.jsp",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.numbeo.com/cost-of-living/rankings.jsp?title=2026-mid",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.numbeo.com/cost-of-living/rankings.jsp?title=2026-mid",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://www.parlamento.it/parlam/leggi/00328l.htm",
       "status": "raggiungibile",
       "http": 200,
@@ -7617,6 +7733,15 @@
       "http": 403,
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
+      ]
+    },
+    {
+      "url": "https://www.pra.gov.ph/srrvisa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pra.gov.ph/srrvisa/",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -8209,9 +8334,8 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
@@ -8223,6 +8347,15 @@
       "pages": [
         "diabete-guida-07-ictus-tia-prevenzione.html",
         "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.trabajo.gob.ec/despues-de-casi-una-decada-hay-consenso-gobierno-empleadores-y-trabajadores-acuerdan-fijar-el-salario-basico-unificado-de-2026-en-usd-482-no-hay-imposicion-hay-union/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.trabajo.gob.ec/despues-de-casi-una-decada-hay-consenso-gobierno-empleadores-y-trabajadores-acuerdan-fijar-el-salario-basico-unificado-de-2026-en-usd-482-no-hay-imposicion-hay-union/",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
@@ -8273,6 +8406,15 @@
       "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.viaggiaresicuri.it/find-country/country/MAR",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.viaggiaresicuri.it/find-country/country/MAR",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
