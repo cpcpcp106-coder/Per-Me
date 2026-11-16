@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-16T06:09:16.525836+00:00",
+  "date_utc": "2026-11-16T06:26:56.137038+00:00",
   "scope": {
     "pages": 128,
-    "unique_external_urls": 840,
-    "occurrences": 1935
+    "unique_external_urls": 845,
+    "occurrences": 1942
   },
   "counts": {
-    "raggiungibile": 698,
-    "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 22
+    "raggiungibile": 699,
+    "bloccato_o_riservato": 122,
+    "non_verificato_trasporto": 24
   },
   "results": [
     {
@@ -1073,7 +1073,7 @@
       "url": "https://evisa.immigration.gov.vn/en_US/web/guest/trang-chu-ttdt",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://evisa.immigration.gov.vn/web/guest/login?p_p_id=58&p_p_lifecycle=0&_58_redirect=%2Fen_US%2Fweb%2Fguest%2Ftrang-chu-ttdt",
+      "final_url": "https://evisa.immigration.gov.vn/en_US/web/guest/trang-chu-ttdt",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -1774,8 +1774,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/trigger-finger/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/trigger-finger/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1783,9 +1784,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -4134,9 +4134,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4618,7 +4617,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4644,7 +4643,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -4866,6 +4865,16 @@
       ]
     },
     {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2026/06/27/26G00127/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/06/27/26G00127/sg",
+      "pages": [
+        "pensionati-estero-mete.html",
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
       "status": "raggiungibile",
       "http": 200,
@@ -5020,6 +5029,14 @@
       ]
     },
     {
+      "url": "https://www.idealista.it/sala-stampa/report-prezzo-immobile/affitto/puglia/bari-provincia/bari/",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://www.idsociety.org/practice-guideline/asymptomatic-bacteriuria/",
       "status": "raggiungibile",
       "http": 200,
@@ -5044,6 +5061,14 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.immigration.govt.nz/visas/temporary-retirement-visitor-visa/",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.imotesa.bg/en/statistics/rent/apartment/plovdiv",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -5569,6 +5594,7 @@
         "debiti-guida-06-fermo-pignoramento.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+        "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html"
       ]
@@ -7344,6 +7370,15 @@
       ]
     },
     {
+      "url": "https://www.oferteimobiliare.ro/indici-imobiliare/brasov",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.oferteimobiliare.ro/indici-imobiliare/brasov",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ]
+    },
+    {
       "url": "https://www.parlamento.it/parlam/leggi/00328l.htm",
       "status": "raggiungibile",
       "http": 200,
@@ -8372,9 +8407,8 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
@@ -8445,6 +8479,15 @@
       "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
+      ]
+    },
+    {
+      "url": "https://www.uslsudest.toscana.it/come-fare-per/assistenza-sanitaria-estero-cittadini-italiani/assistenza-sanitaria-a-italiani-residenti-all-estero-in-occasione-di-temporanei-rientri-in-italia",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.uslsudest.toscana.it/come-fare-per/assistenza-sanitaria-estero-cittadini-italiani/assistenza-sanitaria-a-italiani-residenti-all-estero-in-occasione-di-temporanei-rientri-in-italia",
+      "pages": [
+        "pensionati-estero-mete.html"
       ]
     },
     {
