@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-16T10:02:56.613Z",
+  "checked_at_utc": "2026-11-16T10:39:20.286Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,6 +59,27 @@
       }
     },
     {
+      "name": "pensioner_guides_open_details_mobile_reflow",
+      "result": "FAIL",
+      "details": {
+        "checked": 4,
+        "widths": [
+          320,
+          390
+        ],
+        "violations": [
+          {
+            "name": "pensionati-estero-budget.html",
+            "width": 320,
+            "page": false,
+            "tables": [
+              "Spese annue in euro"
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
@@ -101,11 +122,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "118 pagine salvate per la lettura offline · controllo online 16 nov, 10:03.",
+        "status": "118 pagine salvate per la lettura offline · controllo online 16 nov, 10:40.",
         "stored": {
           "guides": 118,
-          "updated": "2026-11-16T10:03:45.208Z",
-          "bytes": 2482982,
+          "updated": "2026-11-16T10:40:09.767Z",
+          "bytes": 2488197,
           "includesNew09": true
         }
       }
