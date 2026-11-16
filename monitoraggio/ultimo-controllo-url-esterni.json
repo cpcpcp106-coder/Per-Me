@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-16T06:26:56.137038+00:00",
+  "date_utc": "2026-11-16T07:03:48.748854+00:00",
   "scope": {
     "pages": 128,
-    "unique_external_urls": 845,
-    "occurrences": 1942
+    "unique_external_urls": 846,
+    "occurrences": 1943
   },
   "counts": {
-    "raggiungibile": 699,
+    "raggiungibile": 701,
     "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 24
+    "non_verificato_trasporto": 23
   },
   "results": [
     {
@@ -956,6 +956,15 @@
       ]
     },
     {
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/50524.pdf?v=7589952890783019",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://ec.europa.eu/eurostat/statistics-explained/SEPDF/cache/50524.pdf?v=7589952890783019",
+      "pages": [
+        "pensionati-estero-budget.html"
+      ]
+    },
+    {
       "url": "https://economiapertutti.bancaditalia.it/aree-tematiche/diritti-e-tutele/arbitro-bancario-finanziario/",
       "status": "raggiungibile",
       "http": 200,
@@ -996,7 +1005,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
@@ -1005,7 +1014,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -1015,7 +1024,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1774,9 +1783,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/trigger-finger/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/trigger-finger/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -1784,8 +1792,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/treatment/cortisone-shot-steroid-injection/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/treatment/nonsurgical-treatments/cortisone-shot-steroid-injection/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -4134,8 +4143,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -5020,9 +5030,8 @@
     },
     {
       "url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -8407,8 +8416,9 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
