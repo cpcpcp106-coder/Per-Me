@@ -67,8 +67,12 @@
   .pensionati-estero .indice-guida > .sample-pay {margin-inline: .4rem}
 }
 @media (max-width: 360px) {
-  .pensionati-estero-bilancio .article {padding-inline: 12px}
+  .pensionati-estero-bilancio main.wrap {padding-inline: 8px}
+  .pensionati-estero-bilancio .article {padding-inline: 9px}
   .pensionati-estero-bilancio .indice-guida > .sample-pay {margin-inline: 0}
   .pensionati-estero-bilancio .indice-guida .sample-pay td,
-  .pensionati-estero-bilancio .indice-guida .sample-pay th {padding-inline: 3px}
+  .pensionati-estero-bilancio .indice-guida .sample-pay th {
+    padding-inline: 2px;
+    overflow-wrap: anywhere;
+  }
 }
