@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-16T07:00:35+00:00",
+  "date_utc": "2026-11-16T10:02:03+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 128,
@@ -1739,7 +1739,7 @@
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 13
+      "candidate_numeric_legal_mentions": 20
     },
     {
       "file": "pensionati-estero-mete.html",
