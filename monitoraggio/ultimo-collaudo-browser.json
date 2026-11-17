@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-17T08:59:00.571Z",
+  "checked_at_utc": "2026-11-17T16:30:49.662Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -46,7 +46,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 125,
+        "count": 126,
         "failures": []
       }
     },
@@ -54,7 +54,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 125,
+        "checked": 126,
         "violations": []
       }
     },
@@ -74,7 +74,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 125,
+        "checked": 126,
         "failed": [],
         "errors": []
       }
@@ -113,11 +113,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "118 pagine salvate per la lettura offline · controllo online 17 nov, 08:59.",
+        "status": "119 pagine salvate per la lettura offline · controllo online 17 nov, 16:31.",
         "stored": {
-          "guides": 118,
-          "updated": "2026-11-17T08:59:49.877Z",
-          "bytes": 2488199,
+          "guides": 119,
+          "updated": "2026-11-17T16:31:38.066Z",
+          "bytes": 2499386,
           "includesNew09": true
         }
       }
@@ -131,7 +131,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 118
+        "count": 119
       }
     },
     {
@@ -139,7 +139,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 10957
+        "chars": 11152
       }
     },
     {
@@ -314,6 +314,12 @@
       "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
       "violations": [],
       "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "agevolazioni-guida-09-locazioni-abitative.html",
+      "violations": [],
+      "passes": 27,
       "incomplete": 2
     },
     {
