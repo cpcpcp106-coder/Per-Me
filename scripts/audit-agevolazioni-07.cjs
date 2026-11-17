@@ -21,9 +21,9 @@ assert.ok(!/Tarcento|Attimis|Racchiuso|CAF UIL|Comune di Udine/i.test(html),'Per
 for(const a of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const u=a[1];if(!/^https?:/i.test(u))assert.ok(fs.existsSync(path.join(root,u)),'Link locale assente '+u);}
 assert.match(rubric,/href="agevolazioni-guida-07-patrocinio-spese-stato.html"/,'Scheda Guida 07 assente');
 const guideLinks=[...rubric.matchAll(/<a class="a04-guide-card" href="([^"]+\.html)"/g)].map(match=>match[1]);
-assert.equal(guideLinks.filter(link=>!link.endsWith('-fvg.html')).length,8,'Otto guide nazionali');
+assert.equal(guideLinks.filter(link=>!link.endsWith('-fvg.html')).length,9,'Nove guide nazionali');
 assert.equal(guideLinks.filter(link=>link.endsWith('-fvg.html')).length,2,'Due schede per il Friuli Venezia Giulia');
-assert.match(home,/10 risorse disponibili/,'Conteggio home');
+assert.match(home,/11 risorse disponibili/,'Conteggio home');
 assert.match(site,/agevolazioni-guida-07-patrocinio-spese-stato.html/,'URL sitemap');
 assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica app assente');
 assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione guide app assente');

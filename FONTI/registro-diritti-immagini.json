@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-17",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -533,6 +533,16 @@
     }
   ],
   "local": [
+    {
+      "file": "assets/agevolazioni-guida-09-locazioni.webp",
+      "git_blob_sha": "6e14a51ae02553da6515dd0158d003fd6a96e386",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT per Per Me il 17 novembre 2026 e ottimizzata in WebP a 1200 × 800 pixel.",
+      "provenance_evidence": "Generazione del 17 novembre 2026 da una descrizione testuale per la Guida 09, originale exec-aa3033cb-67d5-4a4e-80fd-188b8c1616c6.png. Chiavi, penna e cartellina in un appartamento.",
+      "license_or_ownership": "Output ChatGPT originale senza immagini di terzi. Condizioni d’uso OpenAI per l’Europa: https://openai.com/it-IT/policies/terms-of-use/",
+      "source_history_verified": true,
+      "used_in": "agevolazioni-guida-09-locazioni-abitative.html"
+    },
     {
       "file": "app/icon-192.png",
       "git_blob_sha": "61fd19cc70998f26791190854d31b17c18db197d",
