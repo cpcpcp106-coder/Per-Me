@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-16T10:50:52.764714+00:00",
+  "date_utc": "2026-11-17T09:01:12.557508+00:00",
   "scope": {
     "pages": 128,
     "unique_external_urls": 852,
     "occurrences": 1950
   },
   "counts": {
-    "raggiungibile": 707,
-    "bloccato_o_riservato": 125,
-    "non_verificato_trasporto": 19,
-    "errore_http": 1
+    "raggiungibile": 704,
+    "bloccato_o_riservato": 122,
+    "errore_http": 9,
+    "non_verificato_trasporto": 17
   },
   "results": [
     {
@@ -1176,8 +1176,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -1781,9 +1782,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/dupuytrens-disease/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/dupuytrens-disease/",
+      "status": "errore_http",
+      "http": 520,
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -2304,16 +2304,18 @@
     },
     {
       "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
     },
     {
       "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
@@ -6465,8 +6467,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
@@ -6474,8 +6477,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -7207,18 +7211,16 @@
     },
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "inps-prestazione-sospesa-respinta-cosa-fare.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=084U0222&atto.dataPubblicazioneGazzetta=1984-06-16",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "aoi-invalidita-civile-differenze.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
@@ -7236,9 +7238,8 @@
     },
     {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=21G00252&atto.dataPubblicazioneGazzetta=2021-12-30&tipoDettaglio=vigente",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=21G00252&atto.dataPubblicazioneGazzetta=2021-12-30&tipoDettaglio=vigente",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
       ]
@@ -7305,9 +7306,8 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/2025/12/30/25G00212/ORIGINAL",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "dal-lordo-al-netto.html"
       ]
@@ -7368,9 +7368,8 @@
     },
     {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66~art10",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2003-04-08;66~art10",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html"
       ]
@@ -7406,18 +7405,16 @@
     },
     {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "lavoro-guida-10-fine-rapporto-documenti-tutele.html"
       ]
     },
     {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1990;241",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
