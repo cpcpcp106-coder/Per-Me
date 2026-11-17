@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-16T10:51:14+00:00",
+  "date_utc": "2026-11-17T16:33:11+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 128,
-    "editorial_pages": 126,
-    "guide_pages": 33
+    "html_total": 129,
+    "editorial_pages": 127,
+    "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 4530,
-    "external_occurrences": 1950,
-    "external_unique": 852,
+    "local_occurrences": 4561,
+    "external_occurrences": 1958,
+    "external_unique": 859,
     "actions": 7,
     "broken_local": [],
     "broken_anchors": []
@@ -27,6 +27,7 @@
       "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
       "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "agevolazioni-guida-09-locazioni-abitative.html",
       "aoi-invalidita-civile-differenze.html",
       "app/index.html",
       "app/menu-mediterraneo.html",
@@ -155,6 +156,7 @@
       "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
       "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "agevolazioni-guida-09-locazioni-abitative.html",
       "aoi-invalidita-civile-differenze.html",
       "app/index.html",
       "app/menu-mediterraneo.html",
@@ -262,6 +264,7 @@
       "salute-guida-08-patente-malattie-croniche-certificati.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
+      "strumenti/verbale-riconsegna-locazione.html",
       "tutor-ai-android-primi-passi.html",
       "tutor-ai-conversazione-correzioni.html",
       "tutor-ai-privacy-truffe.html",
@@ -272,7 +275,9 @@
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
     "missing_from_sitemap": [],
-    "sitemap_not_indexable": []
+    "sitemap_not_indexable": [
+      "strumenti/verbale-riconsegna-locazione.html"
+    ]
   },
   "pwa_static": {
     "manifest_valid": true,
@@ -322,7 +327,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 31,
+      "links_local": 32,
       "links_external": 16,
       "missing_local": 0,
       "noindex": false,
@@ -442,7 +447,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 28,
+      "links_local": 29,
       "links_external": 16,
       "missing_local": 0,
       "noindex": false,
@@ -480,6 +485,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 10
+    },
+    {
+      "file": "agevolazioni-guida-09-locazioni-abitative.html",
+      "title": "Casa in affitto, dal contratto alla riconsegna | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 29,
+      "links_external": 8,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 9
     },
     {
       "file": "aoi-invalidita-civile-differenze.html",
