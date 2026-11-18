@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-18T09:30:47.297Z",
+  "checked_at_utc": "2026-11-18T09:33:44.811Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -46,7 +46,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 126,
+        "count": 127,
         "failures": []
       }
     },
@@ -54,7 +54,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 126,
+        "checked": 127,
         "violations": []
       }
     },
@@ -74,7 +74,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 126,
+        "checked": 127,
         "failed": [],
         "errors": []
       }
@@ -113,11 +113,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:31.",
+        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:34.",
         "stored": {
           "guides": 119,
-          "updated": "2026-11-18T09:31:35.339Z",
-          "bytes": 2511700,
+          "updated": "2026-11-18T09:34:50.869Z",
+          "bytes": 2511870,
           "includesNew09": true
         }
       }
@@ -361,7 +361,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -375,6 +375,12 @@
       "violations": [],
       "passes": 25,
       "incomplete": 2
+    },
+    {
+      "page": "da-dove-cominciare.html",
+      "violations": [],
+      "passes": 16,
+      "incomplete": 0
     },
     {
       "page": "dal-lordo-al-netto.html",

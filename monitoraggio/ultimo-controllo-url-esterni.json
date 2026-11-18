@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T09:32:56.683242+00:00",
+  "date_utc": "2026-11-18T09:36:04.006877+00:00",
   "scope": {
-    "pages": 129,
+    "pages": 130,
     "unique_external_urls": 865,
-    "occurrences": 1985
+    "occurrences": 1986
   },
   "counts": {
-    "raggiungibile": 726,
+    "raggiungibile": 725,
     "bloccato_o_riservato": 123,
-    "non_verificato_trasporto": 15,
+    "non_verificato_trasporto": 16,
     "errore_http": 1
   },
   "results": [
@@ -4191,9 +4191,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4684,7 +4683,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4710,7 +4709,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -4721,6 +4720,7 @@
         "chi-siamo.html",
         "come-leggere-busta-paga.html",
         "contributi-inps-estratto-conto-pensione-vicina.html",
+        "da-dove-cominciare.html",
         "dieta-mediterranea-scientifica.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
@@ -6610,8 +6610,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -8684,9 +8685,8 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "tutor-ai.html"
       ]
