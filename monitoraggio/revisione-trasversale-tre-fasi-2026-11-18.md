@@ -43,3 +43,8 @@ Questa revisione è un controllo editoriale e statico parziale; non è un collau
 
 ## Automazione collaudi gratuita (nuovo intervento)
 Creati `.github/workflows/collaudo-tre-fasi.yml` e `scripts/collaudo-tre-fasi.cjs`: pipeline GitHub Actions con Chromium/Playwright, test viewport 320 e 390 px, 12 percorsi, Facebook, risultati orientatore, calcolo 250 g a 4 €/kg e trasferimento automatico ingredienti dal menu. L'esecuzione è prevista al push e manualmente, ma **l'esito non è ancora stato recuperato o certificato**. Nessuna spesa aggiuntiva autorizzata. Aggiunto avviso sulle unità: l'olio del menu è in grammi, il prezzo al litro richiede millilitri o conversione documentata. Non confondere presenza dei test con test superati.
+
+## Chiusura dell'intervento operativo — 18 novembre 2026
+Tentativo di verifica pubblica: il runtime locale non risolve raw.githubusercontent.com, github.io e api.github.com (errore DNS). Anche l'apertura web del workflow non è riuscita. Non esistono pertanto evidenze in questo intervento di esecuzione e superamento della pipeline Chromium/Playwright. Il commit più recente è visibile nell'elenco commit GitHub, ma ciò non prova il deploy pubblico.
+Corretta l'attribuzione non verificata «immagine generata con intelligenza artificiale» nei quattro nuovi documenti: ora la didascalia è neutra. Restano da accertare provenienza e licenze effettive delle immagini riutilizzate.
+**Stato finale verificabile:** implementazione statica completata e file presenti nel repository; collaudo funzionale/browser pubblico, accessibilità reale, offline, verifica delle fonti e diritti immagini NON certificati. Nessuna spesa autorizzata. Non dichiarare concluse le tre fasi come progetto collaudato.
