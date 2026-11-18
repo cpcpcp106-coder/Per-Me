@@ -61,7 +61,9 @@ def resolve(source,ref):
 
 def main():
     now=dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")
-    pages=sorted(list(ROOT.glob("*.html"))+list((ROOT/"app").glob("*.html")))
+    pages=sorted(path for path in ROOT.rglob("*.html")
+                 if not any(part.startswith(".") or part in {"node_modules", "_site"}
+                            for part in path.relative_to(ROOT).parts))
     parsers={}
     for path in pages:
         p=Page();p.feed(path.read_text(encoding="utf-8"));parsers[path.relative_to(ROOT).as_posix()]=p
@@ -118,7 +120,8 @@ def main():
         sitemap_paths.add(p)
     indexable=set(n for n,p in parsers.items() if not p.noindex and n!="googled120465f7b693b08.html")
     report={"date_utc":now,"method":"HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
-        "scope":{"html_total":len(pages),"editorial_pages":len(pages)-2,
+        "scope":{"html_total":len(pages),"editorial_pages":len(indexable),
+                 "technical_pages":len(pages)-len(indexable),
                  "guide_pages":sum(x.startswith(("debiti-guida-","agevolazioni-guida-")) or x.startswith(("aoi-","assegno-ordinario","cedolino-pensione","contributi-inps-","inps-prestazione","redditi-red-","riesame-ricorso","verbale-invalidita","come-leggere-busta","dal-lordo","ccnl-","controllare-cedolino","ore-ferie","stipendio-diminuito")) for x in parsers)},
         "links":{"local_occurrences":len(local),"external_occurrences":len(ext),
                  "external_unique":len(set(u for _,u in ext)),"actions":actions,
