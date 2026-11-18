@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T08:02:35.598639+00:00",
+  "date_utc": "2026-11-18T08:21:33.745244+00:00",
   "scope": {
     "pages": 129,
-    "unique_external_urls": 865,
-    "occurrences": 1966
+    "unique_external_urls": 866,
+    "occurrences": 1968
   },
   "counts": {
-    "raggiungibile": 721,
-    "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 21,
+    "raggiungibile": 724,
+    "bloccato_o_riservato": 123,
+    "non_verificato_trasporto": 18,
     "errore_http": 1
   },
   "results": [
@@ -327,39 +327,6 @@
       "pages": [
         "debiti-guida-08-sovraindebitamento.html",
         "debiti-guida-08-sovraindebitamento.html"
-      ]
-    },
-    {
-      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-      "pages": [
-        "debiti-guida-06-fermo-pignoramento.html"
-      ]
-    },
-    {
-      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+120&codiceOrdinamento=0000000000001200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-      "pages": [
-        "debiti-guida-03-cartella-errata.html",
-        "debiti-guida-03-cartella-errata.html"
-      ]
-    },
-    {
-      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-      "pages": [
-        "debiti-guida-06-fermo-pignoramento.html"
-      ]
-    },
-    {
-      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+171&codiceOrdinamento=0000000000001710000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B656DFD1E-F9EF-4BDA-B1F3-60EDE4E903B7%7D",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
-      "pages": [
-        "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
@@ -1185,9 +1152,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1764,9 +1730,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2655,6 +2620,15 @@
       ]
     },
     {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedure-esecutive/index.html",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/le-procedure/procedurecautelari/",
       "status": "raggiungibile",
       "http": 200,
@@ -3056,7 +3030,6 @@
         "debiti-guida-01-leggere-cartella.html",
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html",
-        "debiti-guida-05-rottamazione.html",
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
       ]
@@ -3108,6 +3081,7 @@
       "http": 200,
       "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies-enti-territoriali/domanda-di-adesione/",
       "pages": [
+        "debiti-guida-05-rottamazione.html",
         "debiti-guida-05-rottamazione.html"
       ]
     },
@@ -4916,6 +4890,15 @@
       ]
     },
     {
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ]
+    },
+    {
       "url": "https://www.gazzettaufficiale.it/eli/id/1981/07/24/081U0388/sg",
       "status": "raggiungibile",
       "http": 200,
@@ -5131,9 +5114,8 @@
     },
     {
       "url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iarc.who.int/news-events/excess-adiposity-and-cancer-evaluating-a-preclinical-clinical-obesity-framework-for-risk-stratification/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -6550,8 +6532,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
@@ -6559,8 +6542,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -6615,9 +6599,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -6625,9 +6608,8 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -7300,6 +7282,16 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=4&atto.codiceRedazionale=25G00213&atto.dataPubblicazioneGazzetta=2025-12-31",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=4&atto.codiceRedazionale=25G00213&atto.dataPubblicazioneGazzetta=2025-12-31",
+      "pages": [
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.codiceRedazionale=003G0303&atto.dataPubblicazioneGazzetta=2003-10-02",
       "status": "raggiungibile",
       "http": 200,
@@ -7360,6 +7352,15 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/eli/id/1973/10/16/073U0602/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/1973/10/16/073U0602/CONSOLIDATED",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/eli/id/1982/05/31/082U0297/CONSOLIDATED",
       "status": "raggiungibile",
       "http": 200,
@@ -7404,6 +7405,16 @@
       "pages": [
         "ore-ferie-permessi-malattia-straordinari.html",
         "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2012/12/29/012G0252/CONSOLIDATED",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2012/12/29/012G0252/CONSOLIDATED",
+      "pages": [
+        "debiti-guida-03-cartella-errata.html",
+        "debiti-guida-03-cartella-errata.html"
       ]
     },
     {
@@ -8389,6 +8400,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/liste-di-attesa/piano-nazionale-governo-liste-di-attesa/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/liste-di-attesa/piano-nazionale-governo-liste-di-attesa/",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/assistenza-integrativa/",
       "status": "raggiungibile",
       "http": 200,
@@ -8597,14 +8617,6 @@
       "pages": [
         "pensionati-estero-mete.html",
         "pensionati-estero-mete.html"
-      ]
-    },
-    {
-      "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
-      "pages": [
-        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
     },
     {
