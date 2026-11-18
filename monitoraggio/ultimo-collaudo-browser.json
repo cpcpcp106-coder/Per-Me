@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-18T09:06:10.969Z",
+  "checked_at_utc": "2026-11-18T09:17:35.042Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -113,11 +113,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:07.",
+        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:18.",
         "stored": {
           "guides": 119,
-          "updated": "2026-11-18T09:07:13.632Z",
-          "bytes": 2509172,
+          "updated": "2026-11-18T09:18:24.455Z",
+          "bytes": 2509187,
           "includesNew09": true
         }
       }
@@ -139,7 +139,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 11413
+        "chars": 11428
       }
     },
     {
@@ -361,7 +361,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
