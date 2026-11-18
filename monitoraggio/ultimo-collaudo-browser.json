@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-18T08:19:13.174Z",
+  "checked_at_utc": "2026-11-18T09:06:10.969Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -113,11 +113,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 08:19.",
+        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:07.",
         "stored": {
           "guides": 119,
-          "updated": "2026-11-18T08:19:56.190Z",
-          "bytes": 2508862,
+          "updated": "2026-11-18T09:07:13.632Z",
+          "bytes": 2509172,
           "includesNew09": true
         }
       }
@@ -139,7 +139,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 11152
+        "chars": 11413
       }
     },
     {
