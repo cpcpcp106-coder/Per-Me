@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T10:44:30.820678+00:00",
+  "date_utc": "2026-11-18T11:36:12.186713+00:00",
   "scope": {
-    "pages": 130,
-    "unique_external_urls": 865,
-    "occurrences": 1986
+    "pages": 134,
+    "unique_external_urls": 873,
+    "occurrences": 2001
   },
   "counts": {
-    "raggiungibile": 723,
+    "raggiungibile": 734,
     "bloccato_o_riservato": 123,
-    "non_verificato_trasporto": 18,
+    "non_verificato_trasporto": 15,
     "errore_http": 1
   },
   "results": [
@@ -2287,6 +2287,15 @@
       ]
     },
     {
+      "url": "https://support.google.com/chrome/answer/1069693?co=GENIE.Platform%3DAndroid&hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/chrome/answer/1069693?co=GENIE.Platform%3DAndroid&hl=it",
+      "pages": [
+        "tutorial-smartphone.html"
+      ]
+    },
+    {
       "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
       "status": "raggiungibile",
       "http": 200,
@@ -2373,8 +2382,9 @@
     },
     {
       "url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://uroweb.org/guidelines/neuro-urology/chapter/the-guideline",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
@@ -2382,8 +2392,9 @@
     },
     {
       "url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://uroweb.org/guidelines/sexual-and-reproductive-health/chapter/management-of-erectile-dysfunction",
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
         "diabete-guida-15-vescica-incontinenza-sessualita.html",
@@ -2527,6 +2538,15 @@
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html"
+      ]
+    },
+    {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/Contatti/index.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Contatti/index.html",
+      "pages": [
+        "dove-chiedere-aiuto.html"
       ]
     },
     {
@@ -2979,6 +2999,15 @@
       ]
     },
     {
+      "url": "https://www.agenziaentrateriscossione.gov.it/it/prossime-scadenze/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/prossime-scadenze/",
+      "pages": [
+        "scadenze-del-mese.html"
+      ]
+    },
+    {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/rateizzazione-delle-cartelle-di-pagamento/come-chiedere-la-rateizzazione/index.html",
       "status": "raggiungibile",
       "http": 200,
@@ -3040,7 +3069,8 @@
       "pages": [
         "debiti-guida-02-controllare-debiti.html",
         "debiti-guida-02-controllare-debiti.html",
-        "debiti-guida-09-a-chi-rivolgersi.html"
+        "debiti-guida-09-a-chi-rivolgersi.html",
+        "dove-chiedere-aiuto.html"
       ]
     },
     {
@@ -3080,7 +3110,8 @@
       "final_url": "https://www.agenziaentrateriscossione.gov.it/it/Per-saperne-di-piu/definizione-agevolata-rottamazione-quinquies-enti-territoriali/domanda-di-adesione/",
       "pages": [
         "debiti-guida-05-rottamazione.html",
-        "debiti-guida-05-rottamazione.html"
+        "debiti-guida-05-rottamazione.html",
+        "scadenze-del-mese.html"
       ]
     },
     {
@@ -4721,6 +4752,7 @@
         "contributi-inps-estratto-conto-pensione-vicina.html",
         "da-dove-cominciare.html",
         "dieta-mediterranea-scientifica.html",
+        "dove-chiedere-aiuto.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -4730,6 +4762,7 @@
         "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
         "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
         "metodo.html",
+        "modelli-e-strumenti.html",
         "pensionati-estero-budget.html",
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
@@ -4747,7 +4780,9 @@
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html",
         "salute-guida-08-patente-malattie-croniche-certificati.html",
+        "scadenze-del-mese.html",
         "soldi-lavoro.html",
+        "tutorial-smartphone.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -4865,6 +4900,15 @@
       "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=4&art.flagTipoArticolo=0&art.codiceRedazionale=17A02015&art.idArticolo=22&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2017-03-18&art.progressivo=0",
       "pages": [
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=25G00212&atto.dataPubblicazioneGazzetta=2025-12-30&atto.tipoProvvedimento=LEGGE",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticoloDefault/originario?atto.codiceRedazionale=25G00212&atto.dataPubblicazioneGazzetta=2025-12-30&atto.tipoProvvedimento=LEGGE",
+      "pages": [
+        "scadenze-del-mese.html"
       ]
     },
     {
@@ -5182,6 +5226,15 @@
       "http": 403,
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.indicepa.gov.it/ipa-portale/consultazione/indirizzo-sede/ricerca-ente",
+      "pages": [
+        "dove-chiedere-aiuto.html"
       ]
     },
     {
@@ -5654,7 +5707,8 @@
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
-        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+        "scadenze-del-mese.html"
       ]
     },
     {
@@ -6530,6 +6584,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/sedi/ricerca-sede.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/sedi/ricerca-sede.html",
+      "pages": [
+        "dove-chiedere-aiuto.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/sostegni-sussidi-indennita/per-disabili-invalidi-inabili.html",
       "status": "raggiungibile",
       "http": 200,
@@ -6609,8 +6672,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -6618,8 +6682,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -8045,6 +8110,15 @@
       ]
     },
     {
+      "url": "https://www.regione.umbria.it/link",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.umbria.it/link",
+      "pages": [
+        "dove-chiedere-aiuto.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/BancheDati/anagrafi/MCR",
       "status": "raggiungibile",
       "http": 200,
@@ -8518,6 +8592,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/tema/ricetta-elettronica-e-cup/cerca-il-cup-della-tua-regione-0/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/ricetta-elettronica-e-cup/cerca-il-cup-della-tua-regione-0/",
+      "pages": [
+        "dove-chiedere-aiuto.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/tema/salute-mentale/la-rete-dei-servizi-la-salute-mentale/",
       "status": "raggiungibile",
       "http": 200,
@@ -8604,7 +8687,7 @@
     {
       "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "bloccato_o_riservato",
-      "http": 307,
+      "http": 403,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
@@ -8682,9 +8765,8 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "tutor-ai.html"
       ]

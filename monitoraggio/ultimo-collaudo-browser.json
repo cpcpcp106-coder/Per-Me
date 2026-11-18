@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-18T10:42:15.852Z",
+  "checked_at_utc": "2026-11-18T11:34:23.056Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 127,
+        "count": 131,
         "failures": []
       }
     },
@@ -67,7 +67,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 127,
+        "checked": 131,
         "violations": []
       }
     },
@@ -87,7 +87,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 127,
+        "checked": 131,
         "failed": [],
         "errors": []
       }
@@ -126,11 +126,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 10:43.",
+        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 11:35.",
         "stored": {
           "guides": 119,
-          "updated": "2026-11-18T10:43:06.521Z",
-          "bytes": 2512369,
+          "updated": "2026-11-18T11:35:13.707Z",
+          "bytes": 2512964,
           "includesNew09": true
         }
       }
@@ -374,7 +374,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -392,7 +392,7 @@
     {
       "page": "da-dove-cominciare.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -744,6 +744,12 @@
       "incomplete": 2
     },
     {
+      "page": "dove-chiedere-aiuto.html",
+      "violations": [],
+      "passes": 19,
+      "incomplete": 1
+    },
+    {
       "page": "gradimento.html",
       "violations": [],
       "passes": 21,
@@ -808,6 +814,12 @@
       "violations": [],
       "passes": 17,
       "incomplete": 0
+    },
+    {
+      "page": "modelli-e-strumenti.html",
+      "violations": [],
+      "passes": 19,
+      "incomplete": 1
     },
     {
       "page": "monitoraggio.html",
@@ -966,6 +978,12 @@
       "incomplete": 2
     },
     {
+      "page": "scadenze-del-mese.html",
+      "violations": [],
+      "passes": 17,
+      "incomplete": 1
+    },
+    {
       "page": "soldi-lavoro.html",
       "violations": [],
       "passes": 25,
@@ -1017,6 +1035,12 @@
       "page": "tutor-ai.html",
       "violations": [],
       "passes": 25,
+      "incomplete": 2
+    },
+    {
+      "page": "tutorial-smartphone.html",
+      "violations": [],
+      "passes": 24,
       "incomplete": 2
     },
     {
