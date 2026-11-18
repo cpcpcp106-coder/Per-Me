@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-18T09:23:57+00:00",
+  "date_utc": "2026-11-18T09:24:08+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 133,
@@ -8,7 +8,7 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 4601,
+    "local_occurrences": 4602,
     "external_occurrences": 1991,
     "external_unique": 866,
     "actions": 7,
@@ -268,6 +268,8 @@
       "salute-guida-08-patente-malattie-croniche-certificati.html",
       "soldi-lavoro.html",
       "stipendio-diminuito-cosa-controllare.html",
+      "strumenti/costo-pasto-mediterraneo.html",
+      "strumenti/orientamento-benefici.html",
       "strumenti/verbale-riconsegna-locazione.html",
       "tutor-ai-android-primi-passi.html",
       "tutor-ai-conversazione-correzioni.html",
@@ -278,10 +280,7 @@
       "tutor-ai.html",
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
-    "missing_from_sitemap": [
-      "strumenti/costo-pasto-mediterraneo.html",
-      "strumenti/orientamento-benefici.html"
-    ],
+    "missing_from_sitemap": [],
     "sitemap_not_indexable": []
   },
   "pwa_static": {
@@ -1457,7 +1456,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 42,
+      "links_local": 43,
       "links_external": 27,
       "missing_local": 0,
       "noindex": false,
