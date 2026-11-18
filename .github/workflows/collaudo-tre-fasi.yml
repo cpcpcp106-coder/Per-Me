@@ -1,0 +1,29 @@
+name: Collaudo strumenti Per Me
+on:
+  push:
+    paths:
+      - 'app/menu-mediterraneo.js'
+      - 'app/menu-mediterraneo.html'
+      - 'strumenti/**'
+      - 'da-dove-cominciare.html'
+      - 'index.html'
+      - 'scripts/collaudo-tre-fasi.cjs'
+      - '.github/workflows/collaudo-tre-fasi.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collaudo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Installa Playwright Chromium
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Esegui test locali su viewport 320 e 390
+        run: node scripts/collaudo-tre-fasi.cjs
