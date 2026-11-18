@@ -40,3 +40,6 @@ Questa revisione è un controllo editoriale e statico parziale; non è un collau
 - Nell'orientatore aggiunte le schede Carta acquisti e maggiorazioni sociali come verifiche da approfondire, non come diritto riconosciuto.
 - Rilettura GitHub dei quattro file modificati: stringhe di integrazione e nuove schede presenti. Non equivale a test JavaScript eseguito in browser.
 - Ancora aperti: collaudo interattivo, verifica stampa e accessibilità, documentazione prezzi reali e confezioni intere, verifica fonti primarie per tutte le prestazioni e controlli pubblici.
+
+## Automazione collaudi gratuita (nuovo intervento)
+Creati `.github/workflows/collaudo-tre-fasi.yml` e `scripts/collaudo-tre-fasi.cjs`: pipeline GitHub Actions con Chromium/Playwright, test viewport 320 e 390 px, 12 percorsi, Facebook, risultati orientatore, calcolo 250 g a 4 €/kg e trasferimento automatico ingredienti dal menu. L'esecuzione è prevista al push e manualmente, ma **l'esito non è ancora stato recuperato o certificato**. Nessuna spesa aggiuntiva autorizzata. Aggiunto avviso sulle unità: l'olio del menu è in grammi, il prezzo al litro richiede millilitri o conversione documentata. Non confondere presenza dei test con test superati.
