@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T09:36:04.006877+00:00",
+  "date_utc": "2026-11-18T09:43:23.251432+00:00",
   "scope": {
     "pages": 130,
     "unique_external_urls": 865,
     "occurrences": 1986
   },
   "counts": {
-    "raggiungibile": 725,
+    "raggiungibile": 727,
     "bloccato_o_riservato": 123,
-    "non_verificato_trasporto": 16,
+    "non_verificato_trasporto": 14,
     "errore_http": 1
   },
   "results": [
@@ -4191,8 +4191,9 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -8685,8 +8686,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
