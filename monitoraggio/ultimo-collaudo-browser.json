@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-18T09:17:35.042Z",
+  "checked_at_utc": "2026-11-18T09:30:47.297Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -113,11 +113,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:18.",
+        "status": "119 pagine salvate per la lettura offline · controllo online 18 nov, 09:31.",
         "stored": {
           "guides": 119,
-          "updated": "2026-11-18T09:18:24.455Z",
-          "bytes": 2509187,
+          "updated": "2026-11-18T09:31:35.339Z",
+          "bytes": 2511700,
           "includesNew09": true
         }
       }
@@ -139,7 +139,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 11428
+        "chars": 11526
       }
     },
     {
@@ -253,7 +253,7 @@
     {
       "page": "agevolazioni-diritti.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
@@ -265,7 +265,7 @@
     {
       "page": "agevolazioni-guida-02-bonus-sociali.html",
       "violations": [],
-      "passes": 26,
+      "passes": 27,
       "incomplete": 2
     },
     {
@@ -289,7 +289,7 @@
     {
       "page": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
       "violations": [],
-      "passes": 23,
+      "passes": 24,
       "incomplete": 2
     },
     {
@@ -325,13 +325,13 @@
     {
       "page": "aoi-invalidita-civile-differenze.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "assegno-ordinario-invalidita-requisiti-conferma.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 3
     },
     {
@@ -343,31 +343,31 @@
     {
       "page": "cedolino-pensione-obism-arretrati-verificare-importi.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "chi-siamo.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
       "page": "come-leggere-busta-paga.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 3
     },
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
       "page": "contributi-inps-estratto-conto-pensione-vicina.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -685,7 +685,7 @@
     {
       "page": "dieta-mediterranea-scientifica.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -739,7 +739,7 @@
     {
       "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -787,7 +787,7 @@
     {
       "page": "metodo.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -829,7 +829,7 @@
     {
       "page": "pensione-invalidita.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
@@ -841,7 +841,7 @@
     {
       "page": "redditi-red-comunicazioni-obbligatorie-inps.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -889,7 +889,7 @@
     {
       "page": "riesame-ricorso-inps-termini.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -949,7 +949,7 @@
     {
       "page": "soldi-lavoro.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 2
     },
     {
@@ -1003,7 +1003,7 @@
     {
       "page": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -1021,7 +1021,7 @@
     {
       "page": "menu mediterraneo",
       "violations": [],
-      "passes": 29,
+      "passes": 30,
       "incomplete": 0
     }
   ],

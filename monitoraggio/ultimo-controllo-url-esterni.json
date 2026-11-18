@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T09:19:24.362591+00:00",
+  "date_utc": "2026-11-18T09:32:56.683242+00:00",
   "scope": {
     "pages": 129,
-    "unique_external_urls": 866,
-    "occurrences": 1968
+    "unique_external_urls": 865,
+    "occurrences": 1985
   },
   "counts": {
-    "raggiungibile": 727,
-    "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 16,
+    "raggiungibile": 726,
+    "bloccato_o_riservato": 123,
+    "non_verificato_trasporto": 15,
     "errore_http": 1
   },
   "results": [
@@ -1152,9 +1152,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -4713,6 +4712,17 @@
       "http": 200,
       "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
+        "agevolazioni-diritti.html",
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+        "aoi-invalidita-civile-differenze.html",
+        "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "chi-siamo.html",
+        "come-leggere-busta-paga.html",
+        "contributi-inps-estratto-conto-pensione-vicina.html",
+        "dieta-mediterranea-scientifica.html",
+        "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
@@ -4720,20 +4730,26 @@
         "lavoro-guida-11-naspi-domanda-scadenze.html",
         "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
         "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+        "metodo.html",
         "pensionati-estero-budget.html",
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html",
+        "pensione-invalidita.html",
         "prova-lettori.html",
         "prova-lettori.html",
+        "redditi-red-comunicazioni-obbligatorie-inps.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html",
         "ricetta-merluzzo-patate-finocchio-limone.html",
         "ricetta-pasta-integrale-ceci-cavolfiore.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html",
         "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+        "riesame-ricorso-inps-termini.html",
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html",
-        "salute-guida-08-patente-malattie-croniche-certificati.html"
+        "salute-guida-08-patente-malattie-croniche-certificati.html",
+        "soldi-lavoro.html",
+        "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
     {
@@ -6572,15 +6588,7 @@
       "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
       "pages": [
         "agevolazioni-diritti.html",
-        "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
-      ]
-    },
-    {
-      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
-      "pages": [
+        "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -6602,9 +6610,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -6612,8 +6619,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -8676,8 +8684,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
