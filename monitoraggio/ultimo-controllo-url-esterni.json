@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T07:26:58.676454+00:00",
+  "date_utc": "2026-11-18T07:59:40.175748+00:00",
   "scope": {
     "pages": 129,
-    "unique_external_urls": 859,
-    "occurrences": 1958
+    "unique_external_urls": 864,
+    "occurrences": 1965
   },
   "counts": {
-    "raggiungibile": 712,
+    "raggiungibile": 720,
     "bloccato_o_riservato": 123,
-    "non_verificato_trasporto": 23,
+    "non_verificato_trasporto": 20,
     "errore_http": 1
   },
   "results": [
@@ -1762,8 +1762,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -3899,6 +3900,15 @@
       ]
     },
     {
+      "url": "https://www.arera.it/comunicati-stampa/dettaglio/teleriscaldamento-arera-approva-bonus-sociale-famiglie-disagio-economico",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/comunicati-stampa/dettaglio/teleriscaldamento-arera-approva-bonus-sociale-famiglie-disagio-economico",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/consumatori/bonus-sociale",
       "status": "raggiungibile",
       "http": 200,
@@ -4192,6 +4202,15 @@
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.colavita.it/products/olio-extra-vergine-di-oliva-non-filtrato",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.colavita.it/products/olio-extra-vergine-di-oliva-non-filtrato",
+      "pages": [
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
       ]
     },
     {
@@ -6404,6 +6423,7 @@
         "agevolazioni-diritti.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+        "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "dieta-mediterranea-scientifica.html"
       ]
     },
@@ -6423,6 +6443,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.pensionati-il-cedolino-di-pensione-di-ottobre-2026.html",
       "pages": [
         "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.avvio-campagna-red-ordinaria-2026-e-dichiarazioni-di-responsabilit.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.avvio-campagna-red-ordinaria-2026-e-dichiarazioni-di-responsabilit.html",
+      "pages": [
+        "redditi-red-comunicazioni-obbligatorie-inps.html"
       ]
     },
     {
@@ -6511,9 +6540,8 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iss.it/-/snlg-diagnosi-e-trattamento-delle-demenze",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
         "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
@@ -6539,6 +6567,15 @@
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
       "pages": [
         "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ]
+    },
+    {
+      "url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
+      "pages": [
+        "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
       ]
     },
     {
@@ -6569,8 +6606,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -6578,8 +6616,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -8263,6 +8302,7 @@
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html",
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-guida-05-coronarie-rischio-prevenzione.html",
         "diabete-guida-06-scompenso-miocardio-aritmie.html",
@@ -8367,6 +8407,15 @@
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/il-dpcm-e-gli-allegati/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/livelli-essenziali-di-assistenza/il-dpcm-e-gli-allegati/",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
       ]
     },
     {
@@ -8516,7 +8565,7 @@
     {
       "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "bloccato_o_riservato",
-      "http": 403,
+      "http": 307,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
@@ -8593,8 +8642,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
