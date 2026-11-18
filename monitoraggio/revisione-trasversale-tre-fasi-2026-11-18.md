@@ -33,3 +33,10 @@ Riletti direttamente su GitHub i file di orientamento benefici, costo pasto, cos
 
 ## Stato
 Questa revisione è un controllo editoriale e statico parziale; non è un collaudo funzionale né un'approvazione clinica, giuridica o previdenziale indipendente.
+
+## Correzioni successive alla revisione — 18 novembre 2026
+- Integrato il menu settimanale con il calcolatore tramite sessionStorage locale: vengono trasferiti gli ingredienti da acquistare, le quantità e il numero di persone; non vengono trasmessi a server. Modificati app/menu-mediterraneo.js, app/menu-mediterraneo.html, strumenti/costo-spesa-settimanale.html.
+- Supportato il prezzo per pezzo oltre al prezzo per kg o litro. I prezzi rimangono inseriti dal lettore; nessuna quotazione nazionale inventata.
+- Nell'orientatore aggiunte le schede Carta acquisti e maggiorazioni sociali come verifiche da approfondire, non come diritto riconosciuto.
+- Rilettura GitHub dei quattro file modificati: stringhe di integrazione e nuove schede presenti. Non equivale a test JavaScript eseguito in browser.
+- Ancora aperti: collaudo interattivo, verifica stampa e accessibilità, documentazione prezzi reali e confezioni intere, verifica fonti primarie per tutte le prestazioni e controlli pubblici.
