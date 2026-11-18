@@ -26,21 +26,48 @@ if (form) {
   const fields = [...form.querySelectorAll('input, textarea')];
   const printData = document.getElementById('verbale-dati');
   const printButton = document.getElementById('stampa-verbale');
+  const review = document.getElementById('riepilogo-verbale');
+  const reviewButton = document.getElementById('rivedi-verbale');
 
-  form.addEventListener('submit', event => event.preventDefault());
-  window.addEventListener('beforeprint', () => {
+  function renderFields(target, emptyValue, editable = false) {
     const content = document.createDocumentFragment();
     for (const field of fields) {
       const label = document.createElement('dt');
       label.textContent = field.labels[0].textContent;
       const value = document.createElement('dd');
-      value.textContent = field.value.trim() || '________________________________________';
+      value.textContent = field.value.trim() || emptyValue;
+      if (editable) {
+        const link = document.createElement('a');
+        link.href = `#${field.id}`;
+        link.textContent = 'Modifica';
+        link.setAttribute('aria-label', `Modifica ${label.textContent}`);
+        link.addEventListener('click', event => {
+          event.preventDefault();
+          field.focus();
+        });
+        value.append(link);
+      }
       content.append(label, value);
     }
-    printData.replaceChildren(content);
-  });
+    target.replaceChildren(content);
+  }
 
+  form.addEventListener('submit', event => event.preventDefault());
+  window.addEventListener('beforeprint', () => renderFields(printData, '________________________________________'));
   document.documentElement.classList.add('verbale-pronto');
   printButton.addEventListener('click', () => window.print());
   printButton.hidden = false;
+
+  if (review && reviewButton) {
+    const updateReview = () => renderFields(review, 'Campo vuoto', true);
+    reviewButton.addEventListener('click', () => {
+      review.hidden = !review.hidden;
+      reviewButton.setAttribute('aria-expanded', String(!review.hidden));
+      if (!review.hidden) updateReview();
+    });
+    form.addEventListener('input', () => {
+      if (!review.hidden) updateReview();
+    });
+    reviewButton.hidden = false;
+  }
 }

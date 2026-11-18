@@ -61,7 +61,7 @@
   font-size: 1rem;
 }
 
-.locazioni-tipi > div, .locazioni-esempio, .locazioni-richiesta {
+.locazioni-tipi > div, .locazioni-esempio, .locazioni-richiesta, .verbale-riepilogo {
   margin: .8rem 0;
   padding: .85rem 1.05rem;
   border: 1px solid #cbb49f;
@@ -107,6 +107,21 @@
 }
 .verbale-campi textarea { resize: vertical; }
 .verbale-campi small { color: #544234; font-size: 1rem; }
+.verbale-controllo { margin-bottom: .8rem; }
+.verbale-riepilogo dt { font-weight: 700; }
+.verbale-riepilogo dd {
+  margin: .1rem 0 .75rem;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+.verbale-riepilogo dd:last-child { margin-bottom: 0; }
+.verbale-riepilogo a {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  min-height: 44px;
+  font-weight: 700;
+}
 .verbale-stampa { display: none; }
 
 @media (max-width: 650px) {
