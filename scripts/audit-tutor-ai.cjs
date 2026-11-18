@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..'),read=name=>fs.readFileSync(path.join(root,name),'utf8');
-const html=read('tutor-ai.html'),app=read('app/main.js'),map=read('sitemap.xml'),home=read('index.html');
+const html=read('tutor-ai.html'),app=read('app/main.js'),catalogo=read('app/catalogo-guide.js'),map=read('sitemap.xml'),home=read('index.html');
 assert.equal((html.match(/<h1\b/g)||[]).length,1,'Un solo H1');
 assert.match(html,/<meta name="robots" content="index,follow"/,'Tutor indicizzabile');
 assert.match(html,/<meta name="description"/,'Descrizione');
@@ -61,7 +61,7 @@ for(const term of ["navigator.clipboard","document.execCommand('copy')","selezio
 assert.ok(!/\bfetch\s*\(|XMLHttpRequest|sendBeacon\s*\(/.test(script),'La copia non deve inviare dati');
 assert.match(map,/\/Per-Me\/tutor-ai.html/,'Tutor mancante sitemap');
 assert.match(home,/href="tutor-ai.html"/,'Collegamento homepage');
-assert.match(app,/\['tutor-ai.html','Tutor AI essenziale'\]/,'Tutor non incluso PWA');
+assert.match(catalogo,/\['tutor-ai\.html',\s*'Tutor AI essenziale'\]/,'Tutor non incluso PWA');
 assert.match(app,/function extract\(doc,src\)/,'Estrazione testi PWA assente');
 assert.match(app,/SKIP_TAGS=new Set\('SCRIPT STYLE NAV/,'Script non deve finire nei testi offline');
 assert.match(app,/SAFE_TAGS=new Set\('[^']*BLOCKQUOTE/,'Testi prompt preservati offline');
