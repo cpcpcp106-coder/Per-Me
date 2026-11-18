@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-17T16:32:59.440551+00:00",
+  "date_utc": "2026-11-18T07:26:58.676454+00:00",
   "scope": {
     "pages": 129,
     "unique_external_urls": 859,
     "occurrences": 1958
   },
   "counts": {
-    "raggiungibile": 716,
-    "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 20,
+    "raggiungibile": 712,
+    "bloccato_o_riservato": 123,
+    "non_verificato_trasporto": 23,
     "errore_http": 1
   },
   "results": [
@@ -88,9 +88,8 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -1185,9 +1184,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "metodo.html"
       ]
@@ -1764,9 +1762,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2142,14 +2139,6 @@
       "final_url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
-      ]
-    },
-    {
-      "url": "https://revisionelegale.rgs.mef.gov.it/area-pubblica/Revisione-legale/FAQ/FaqPec/",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
-      "pages": [
-        "agevolazioni-guida-09-locazioni-abitative.html"
       ]
     },
     {
@@ -3120,6 +3109,15 @@
       ]
     },
     {
+      "url": "https://www.agid.gov.it/sites/agid/files/2024-07/Guida_dei_diritti_di_cittadinanza_digitale.pdf#page=18",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agid.gov.it/sites/agid/files/2024-07/Guida_dei_diritti_di_cittadinanza_digitale.pdf#page=18",
+      "pages": [
+        "agevolazioni-guida-09-locazioni-abitative.html"
+      ]
+    },
+    {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "status": "raggiungibile",
       "http": 200,
@@ -4017,8 +4015,9 @@
     },
     {
       "url": "https://www.asst-rhodense.it/v2/ambiti-territoriali/scelta-revoca.html",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.asst-rhodense.it/v2/ambiti-territoriali/scelta-revoca.html",
       "pages": [
         "pensionati-estero-trasferimento.html"
       ]
@@ -6570,9 +6569,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -6580,9 +6578,8 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -8519,7 +8516,7 @@
     {
       "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "bloccato_o_riservato",
-      "http": 307,
+      "http": 403,
       "pages": [
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html"
@@ -8596,9 +8593,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
