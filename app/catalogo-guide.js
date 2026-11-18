@@ -30,8 +30,10 @@ window.PerMeCatalogo = (() => {
     for (const link of doc.querySelectorAll('main a[href]')) {
       const nome = percorso(link.getAttribute('href'), fonte, radice);
       if (!nome || sezioni.has(nome) || pagine.has(nome)) continue;
-      const titolo = link.textContent.trim().replace(/\s+/g, ' ');
-      pagine.set(nome, { categoria, titolo: titolo || nome.replace(/\.html$/, '').replace(/-/g, ' ') });
+      const etichetta = link.querySelector('.a04-guide-card > strong') ?? link;
+      const titolo = etichetta.textContent.trim().replace(/\s+/g, ' ');
+      const descrizione = link.querySelector('.a04-guide-card > em')?.textContent.trim();
+      pagine.set(nome, { categoria, titolo: titolo || nome.replace(/\.html$/, '').replace(/-/g, ' '), descrizione });
     }
   }
 

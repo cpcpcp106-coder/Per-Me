@@ -112,7 +112,8 @@ test('Service worker: navigazione offline usa la pagina in cache',async()=>{
  let installed;handlers.install({waitUntil:p=>{installed=p}});
  await installed;
  assert.ok(shell.includes('./index.html'));
- assert.ok(shell.includes('./catalogo-guide.js?v=1'));
+ const catalogueScript=fs.readFileSync(path.join(app,'index.html'),'utf8').match(/src="(catalogo-guide\.js\?v=\d+)"/)?.[1];
+ assert.ok(catalogueScript && shell.includes('./'+catalogueScript));
  assert.ok(shell.some(x=>String(x).includes('main.js')));
  assert.ok(shell.some(x=>x.startsWith('../gradimento.js?')));
  assert.ok(shell.some(x=>x.startsWith('../gradimento.css?')));

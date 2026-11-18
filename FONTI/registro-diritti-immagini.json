@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-17",
+  "as_of": "2026-11-18",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1462,6 +1462,42 @@
       "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza immagini di terzi.",
       "source_history_verified": true,
       "used_in": "pensionati-estero-mete.html"
+    },
+    {
+      "file": "assets/tutorial-per-me-ricerca.png",
+      "git_blob_sha": "20187cfddbcad37474de008ae5046ce6a9dabfa7",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Schermata ritagliata al controllo descritto nel tutorial. Contiene solo l’interfaccia pubblica di Per Me e dati di prova.",
+      "origin": "Cattura da Per Me in Chromium con viewport mobile da 390 px: campo di ricerca di Per Me con un termine di prova e l’elenco dei risultati.",
+      "provenance_evidence": "Cattura riprodotta il 18 novembre 2026 dal codice di Per Me per tutorial-smartphone.html; il blob registra l’immagine utilizzata.",
+      "license_or_ownership": "Riproduzione dell’interfaccia di Per Me, realizzata per la documentazione dello stesso progetto."
+    },
+    {
+      "file": "assets/tutorial-per-me-salva-guide.png",
+      "git_blob_sha": "d37b87397e9e7bf8ba6a9c3a670acd06479b21ae",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Schermata ritagliata al controllo descritto nel tutorial. Contiene solo l’interfaccia pubblica di Per Me e dati di prova.",
+      "origin": "Cattura da Per Me in Chromium con viewport mobile da 390 px: intestazione dell’elenco dell’app con il pulsante Aggiorna le guide.",
+      "provenance_evidence": "Cattura riprodotta il 18 novembre 2026 dal codice di Per Me per tutorial-smartphone.html; il blob registra l’immagine utilizzata.",
+      "license_or_ownership": "Riproduzione dell’interfaccia di Per Me, realizzata per la documentazione dello stesso progetto."
+    },
+    {
+      "file": "assets/tutorial-per-me-indirizzo.png",
+      "git_blob_sha": "132b23d353f40edefb9af32dbdebed884c1a2af8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Schermata ritagliata al controllo descritto nel tutorial. Contiene solo l’interfaccia pubblica di Per Me e dati di prova.",
+      "origin": "Cattura da Per Me in Chromium con viewport mobile da 390 px: primo campo del verbale lasciato vuoto.",
+      "provenance_evidence": "Cattura riprodotta il 18 novembre 2026 dal codice di Per Me per tutorial-smartphone.html; il blob registra l’immagine utilizzata.",
+      "license_or_ownership": "Riproduzione dell’interfaccia di Per Me, realizzata per la documentazione dello stesso progetto."
+    },
+    {
+      "file": "assets/tutorial-per-me-salva-verbale.png",
+      "git_blob_sha": "6a8d0eab6208594b827343fdf1cc4207696a8ad7",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Schermata ritagliata al controllo descritto nel tutorial. Contiene solo l’interfaccia pubblica di Per Me e dati di prova.",
+      "origin": "Cattura da Per Me in Chromium con viewport mobile da 390 px: pulsante Stampa o salva in PDF nel verbale di riconsegna.",
+      "provenance_evidence": "Cattura riprodotta il 18 novembre 2026 dal codice di Per Me per tutorial-smartphone.html; il blob registra l’immagine utilizzata.",
+      "license_or_ownership": "Riproduzione dell’interfaccia di Per Me, realizzata per la documentazione dello stesso progetto."
     }
   ],
   "notes": [

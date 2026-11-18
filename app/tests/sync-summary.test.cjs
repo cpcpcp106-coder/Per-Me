@@ -78,9 +78,15 @@ test('Rubriche indipendenti e nessuna sovrascrittura categoria delle guide',asyn
  const {pagine,errori}=await carica(radice,async nome=>({
   src:new URL(nome,radice),
   doc:{querySelectorAll:()=>['diabete-tipo-2.html','dieta-mediterranea-scientifica.html'].includes(nome)
-   ? [{getAttribute:()=>'guida-condivisa.html',textContent:'Guida condivisa'}] : []}
+   ? [{
+     getAttribute:()=>'guida-condivisa.html',
+     querySelector:selector=>({textContent:selector.endsWith('strong')?'Guida condivisa':'Descrizione'}),
+     textContent:'GUIDA 1Guida condivisaDescrizione'
+   }] : []}
  }));
  assert.equal(errori.length,0);
  assert.equal(pagine.get('guida-condivisa.html').categoria,'Diabete tipo 2');
+ assert.equal(pagine.get('guida-condivisa.html').titolo,'Guida condivisa');
+ assert.equal(pagine.get('guida-condivisa.html').descrizione,'Descrizione');
  assert.ok(html.includes('href="../pensionati-estero.html"'));
 });

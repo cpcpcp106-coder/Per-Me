@@ -25,6 +25,34 @@
       categoria: 'Casa in affitto',
       parole: 'verbale modulo riconsegna chiavi affitto casa appartamento',
       priorita: ['verbale', 'riconsegna chiavi']
+    },
+    {
+      href: 'modelli-e-strumenti.html',
+      titolo: 'Modelli e strumenti',
+      categoria: 'Risorse di Per Me',
+      parole: 'moduli modello fac simile lettere strumenti calcoli',
+      priorita: ['modelli', 'strumenti', 'fac simile']
+    },
+    {
+      href: 'dove-chiedere-aiuto.html',
+      titolo: 'Dove chiedere aiuto',
+      categoria: 'Risorse di Per Me',
+      parole: 'sede recapiti contatti sportelli ufficio inps cup comune riscossione',
+      priorita: ['aiuto', 'recapiti', 'sportelli']
+    },
+    {
+      href: 'scadenze-del-mese.html',
+      titolo: 'Scadenze del mese',
+      categoria: 'Risorse di Per Me',
+      parole: 'agenda calendario scadenze',
+      priorita: ['scadenze', 'calendario']
+    },
+    {
+      href: 'tutorial-smartphone.html',
+      titolo: 'Tutorial per smartphone',
+      categoria: 'Risorse di Per Me',
+      parole: 'schermate tutorial telefono smartphone leggere offline salvare pdf',
+      priorita: ['tutorial', 'smartphone']
     }
   ];
   const dettagliPerGuida = new Map([
@@ -128,9 +156,11 @@
     if (leggiRicerca().length && !caricamento && (!indice || (riprova && indice.parziale))) {
       caricamento = catalogo.carica(radice, scarica)
         .then(({ pagine, errori }) => {
-          const voci = [...pagine].map(([href, { titolo, categoria }]) => ({
-            href, titolo, categoria, ...dettagliPerGuida.get(href)
-          }));
+          const voci = [...pagine].map(([href, { titolo, categoria, descrizione }]) => {
+            const dettagli = dettagliPerGuida.get(href);
+            const parole = [descrizione, dettagli?.parole].filter(Boolean).join(' ');
+            return { href, titolo, categoria, ...dettagli, parole };
+          });
           indice = { voci: [...collegamentiDiretti, ...voci].map(prepara), parziale: Boolean(errori.length) };
         })
         .catch(() => {

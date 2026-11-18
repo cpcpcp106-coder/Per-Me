@@ -1,0 +1,113 @@
+.pagina-interna .risorse {
+  max-width: 900px;
+  margin-inline: auto;
+  overflow-wrap: anywhere;
+}
+
+.risorse h2[id],
+.risorse section[id] {
+  scroll-margin-top: 1rem;
+}
+
+.risorse .risorse-lista,
+.risorse .risorse-menu {
+  display: grid;
+  gap: .85rem;
+  margin: 1rem 0 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+
+.risorse .risorse-lista > li,
+.risorse .risorse-menu > li {
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.risorse :is(.risorse-lista > li, .risorse-scheda, .risorse-nota) {
+  padding: clamp(.65rem, 2.4vw, 1.15rem);
+  border: 1px solid #a1b4a7;
+  border-radius: 10px;
+  background: #f6f9f6;
+}
+
+.risorse .risorse-scheda {
+  margin-block: 1.2rem;
+}
+
+.risorse .risorse-scheda :is(h2, h3):first-child {
+  margin-top: 0;
+}
+
+.risorse :is(.risorse-scheda, .risorse-lista > li) > :last-child {
+  margin-bottom: 0;
+}
+
+.risorse a.risorse-link,
+.risorse a.risorse-facebook {
+  display: inline-flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 52px;
+  padding: .6rem .8rem;
+  border: 1px solid #355e4a;
+  border-radius: 8px;
+  background: #fff;
+  color: #193d32;
+  font-weight: 750;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+
+.risorse a.risorse-facebook {
+  background: #234438;
+  color: #fff;
+}
+
+.risorse :is(.risorse-lista, .risorse-menu) a.risorse-link {
+  width: 100%;
+}
+
+.risorse a.risorse-link:hover {
+  background: #e9f4ed;
+}
+
+.risorse a:focus-visible {
+  outline: 3px solid #966314;
+  outline-offset: 3px;
+}
+
+.risorse .risorse-data {
+  color: #344d40;
+  font-weight: 700;
+}
+
+.risorse [data-scadenza-stato] {
+  margin-inline-start: .55rem;
+  color: #5b3827;
+}
+
+.risorse .risorse-schermata {
+  margin: 1rem 0;
+}
+
+.risorse .risorse-schermata img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #a1b4a7;
+  border-radius: 8px;
+}
+
+.risorse .risorse-schermata figcaption {
+  margin-top: .45rem;
+}
+
+@media (min-width: 760px) {
+  .risorse .risorse-lista,
+  .risorse .risorse-menu {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
