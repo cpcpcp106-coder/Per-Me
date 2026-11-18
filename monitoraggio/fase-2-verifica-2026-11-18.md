@@ -17,3 +17,6 @@
 - Il calcolatore copre due ingredienti, non tutto il paniere, non ha listino prezzi verificato né valuta fabbisogni clinici. Il menu esistente non incorpora automaticamente i prezzi osservati.
 - L'origine 100% italiana dell'olio è una preferenza editoriale, non un requisito nutrizionale.
 - Fase 1 precedentemente non certificata come conclusa: il programma complessivo resta condizionato ai collaudi mancanti.
+
+## Estensione della fase 2 — 18 novembre
+Creato `strumenti/costo-spesa-settimanale.html`: fino a 60 righe ingredienti, prezzo osservato al kg o litro, quantità in g o ml, totale e costo per persona, stampa/PDF da browser. Link inseriti in `app/menu-mediterraneo.html` e `dieta-mediterranea-scientifica.html`; sitemap aggiornata. Commit creazione edf8784d8f7ed983dd5877846ac44eaa64f35f2d. È un calcolatore manuale: non importa automaticamente la lista dal menu, non registra listini verificati e non comprende spese non inserite. Il browser pubblico ha respinto l'apertura degli strumenti in questo ambiente; collaudo online non attestato. Fase 2 funzionalità implementate nel repository ma NON certificata integralmente come collaudata.
