@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-18T07:59:40.175748+00:00",
+  "date_utc": "2026-11-18T08:02:35.598639+00:00",
   "scope": {
     "pages": 129,
-    "unique_external_urls": 864,
-    "occurrences": 1965
+    "unique_external_urls": 865,
+    "occurrences": 1966
   },
   "counts": {
-    "raggiungibile": 720,
-    "bloccato_o_riservato": 123,
-    "non_verificato_trasporto": 20,
+    "raggiungibile": 721,
+    "bloccato_o_riservato": 122,
+    "non_verificato_trasporto": 21,
     "errore_http": 1
   },
   "results": [
@@ -88,8 +88,9 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -1184,8 +1185,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/commits/main/",
       "pages": [
         "metodo.html"
       ]
@@ -4215,9 +4217,8 @@
     },
     {
       "url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.conferenzastatocitta.gov.it/home/approfondimenti/tematiche-di-interesse/il-piano-casa/il-piano-casa-dl-662026-convertito-con-modificazioni-dalla-legge-1162026/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
       ]
@@ -4708,7 +4709,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4734,7 +4735,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -4757,6 +4758,15 @@
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html",
         "salute-guida-08-patente-malattie-croniche-certificati.html"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/4/Y2774E/y2774e04.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.fao.org/4/Y2774E/y2774e04.htm",
+      "pages": [
+        "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
       ]
     },
     {
@@ -6549,9 +6559,8 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -8592,9 +8601,8 @@
     },
     {
       "url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.statoregioni.it/media/1414/p-2-csr-atto-rep-n-28-21-feb2019.pdf#page=16",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
@@ -8652,8 +8660,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
