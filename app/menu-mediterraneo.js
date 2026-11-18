@@ -473,6 +473,22 @@ function avviaMenu(data) {
       el('esito-copia').textContent = 'Il testo è selezionato. Usa Copia dal menu del telefono.';
     }
   });
+  const esportaSpesa = document.getElementById('costo-spesa-automatico');
+  if (esportaSpesa) esportaSpesa.addEventListener('click', () => {
+    const elenco = ingredientiNecessari(stato, data, ricette)
+      .map(voce => ({ nome: voce.nome, quantita: daComprare(voce, stato), unita: voce.unita, id: voce.id }))
+      .filter(voce => voce.quantita > 0);
+    if (!elenco.length) {
+      window.alert('Prima scegli almeno una ricetta e prepara la lista della spesa.');
+      return;
+    }
+    try {
+      sessionStorage.setItem('perme-spesa-da-menu-v1', JSON.stringify({ versione: 1, persone: stato.persone, elenco }));
+      location.href = '../strumenti/costo-spesa-settimanale.html?origine=menu';
+    } catch (_) {
+      window.alert('Il trasferimento automatico non è disponibile su questo dispositivo. Puoi comunque usare la lista della spesa.');
+    }
+  });
   el('stampa').addEventListener('click', () => window.print());
 }
 
