@@ -3,7 +3,7 @@ const fs=require('node:fs'),path=require('node:path'),assert=require('node:asser
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const page='agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html';
-const html=read(page),rubric=read('agevolazioni-diritti.html'),home=read('index.html'),site=read('sitemap.xml'),app=read('app/main.js');
+const html=read(page),rubric=read('agevolazioni-diritti.html'),home=read('index.html'),site=read('sitemap.xml'),catalogo=read('app/catalogo-guide.js');
 assert.equal((html.match(/<h1\b/gi)||[]).length,1,'Guida 06: un solo H1');
 assert.match(html,/<meta name="robots" content="index,follow"/,'Guida indicizzabile');
 assert.match(html,/<link rel="canonical" href="https:\/\/cpcpcp106-coder.github.io\/Per-Me\/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"/,'Canonical corretto');
@@ -26,7 +26,7 @@ for(const match of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const href
 assert.match(rubric,/href="agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"/,'Card Guida 06 assente');
 assert.match(home,/11 risorse disponibili/,'Conteggio 9 guide nazionali + 2 schede');
 assert.match(site,/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html/,'Sitemap senza Guida 06');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 non indicizzata dalla PWA');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione collegamenti PWA assente');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica 04 non indicizzata dalla PWA');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione collegamenti PWA assente');
 console.log('PASS Guida 06: normativa nazionale, sezioni, fotorealismo distinto, SEO, ancore, collegamenti, sitemap e PWA');
 console.log('LIMITI: test statico. Non sostituisce verifiche dei bandi locali, analisi legale individuale, lettura Android e controllo HTTP dopo deploy.');

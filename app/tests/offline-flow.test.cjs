@@ -6,6 +6,7 @@ const path=require('node:path');
 const vm=require('node:vm');
 
 const app=path.resolve(__dirname,'..');
+const catalogue=fs.readFileSync(path.join(app,'catalogo-guide.js'),'utf8');
 const main=fs.readFileSync(path.join(app,'main.js'),'utf8');
 const sw=fs.readFileSync(path.join(app,'sw.js'),'utf8');
 const ROOT='https://cpcpcp106-coder.github.io/Per-Me/';
@@ -38,6 +39,7 @@ function makeReader(online=false,seed=null){
   },
   history:{replaceState(){}},window:{scrollTo(){}},console
  });
+ vm.runInContext(catalogue,ctx);
  vm.runInContext(main+'\nthis.__api={model,restore,persist,openGuide,sync,compareGuides};',ctx);
  return {ctx,store,nodes,element,api:ctx.__api};
 }
@@ -110,6 +112,7 @@ test('Service worker: navigazione offline usa la pagina in cache',async()=>{
  let installed;handlers.install({waitUntil:p=>{installed=p}});
  await installed;
  assert.ok(shell.includes('./index.html'));
+ assert.ok(shell.includes('./catalogo-guide.js?v=1'));
  assert.ok(shell.some(x=>String(x).includes('main.js')));
  assert.ok(shell.some(x=>x.startsWith('../gradimento.js?')));
  assert.ok(shell.some(x=>x.startsWith('../gradimento.css?')));

@@ -5,7 +5,7 @@ const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const name='agevolazioni-guida-02-bonus-sociali.html';
-const guide=read(name),index=read('agevolazioni-diritti.html'),home=read('index.html'),sitemap=read('sitemap.xml'),app=read('app/main.js');
+const guide=read(name),index=read('agevolazioni-diritti.html'),home=read('index.html'),sitemap=read('sitemap.xml'),catalogo=read('app/catalogo-guide.js');
 for(const [p,content] of [[name,guide],['agevolazioni-diritti.html',index]]){
  assert.equal((content.match(/<h1\b/gi)||[]).length,1,p+': H1 non unico');
  assert.match(content,/<main\b[^>]*id="contenuto"/,p+': manca main');
@@ -27,8 +27,8 @@ assert.ok(index.includes('Guide nazionali — per tutta Italia')&&index.includes
 assert.ok(sitemap.includes(name),'Guida 02 mancante dalla sitemap');
 assert.ok(guide.includes('agevolazioni-guida-01-isee-corrente.html'),'Manca navigazione Guida 01');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Manca ritorno alla rubrica');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 assente dall app');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App non estrae le guide dalla rubrica');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica 04 assente dall app');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'App non estrae le guide dalla rubrica');
 for(const phrase of ['9.796','20.000','4 figli a carico','25%','l\'anno successivo','2027','3–4 mesi','6–7 mesi','50 litri','146,00','186,15','204,40','21 febbraio 2026','115 euro','25.000 euro','PDR condominiale','apparecchiature elettromedicali salvavita','800 166 654','CAF']){
  assert.ok(guide.includes(phrase),'Informazione istituzionale mancante: '+phrase);
 }

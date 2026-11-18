@@ -1,19 +1,7 @@
 'use strict';
 const ROOT=new URL('../',location.href);
 const KEY='perme-app-offline-20261014';
-const RICETTE='dieta-mediterranea-ricette.html';
-const SECTIONS=[
- ['soldi-lavoro.html','Soldi & Lavoro'],
- ['pensione-invalidita.html','Pensione e invalidità'],
- ['pensionati-estero.html','Pensionati all’estero'],
- ['debiti-cartelle.html','Debiti e cartelle'],
- ['agevolazioni-diritti.html','Agevolazioni e diritti'],
- ['salute-autonomia.html','Salute e autonomia'],
- ['tutor-ai.html','Tutor AI essenziale'],
- ['diabete-tipo-2.html','Diabete tipo 2'],
- ['dieta-mediterranea-scientifica.html','Dieta mediterranea scientifica']
-];
-const CATEGORIES=new Map(SECTIONS),EXCLUDED=new Set(['index.html','metodo.html','monitoraggio.html','chi-siamo.html']);
+const {sezioni:CATEGORIES,ricette:RICETTE,percorso,carica}=window.PerMeCatalogo;
 const model={guides:[],favorites:[],updated:null,filter:'all',query:'',current:null,syncing:false,storageOk:true,lastSync:null};
 const element=id=>document.getElementById(id);
 function restore(){try{let s=JSON.parse(localStorage.getItem(KEY)||'{}');model.guides=Array.isArray(s.guides)?s.guides:[];model.favorites=Array.isArray(s.favorites)?s.favorites:[];model.updated=s.updated||null;model.lastSync=s.lastSync&&typeof s.lastSync==='object'?s.lastSync:null;}catch(e){}}
@@ -44,19 +32,10 @@ function renderSyncSummary(){
 }
 function isOnline(){return navigator.onLine}
 function statusConnection(){let offline=!isOnline();element('connection').textContent=offline?(model.guides.length?'Offline: '+model.guides.length+' pagine salvate. Verifica le scadenze quando torni online.':'Offline: nessuna guida salvata. Collegati a Internet per il primo download.'):'Online: puoi verificare gli aggiornamenti';element('refresh').disabled=offline||model.syncing}
-function pathFor(href,source){
- try{let url=new URL(href,source);if(url.origin!==ROOT.origin||!url.pathname.startsWith(ROOT.pathname))return null;let p=decodeURIComponent(url.pathname.substring(ROOT.pathname.length));return /^[a-z0-9-]+\.html$/i.test(p)&&!EXCLUDED.has(p)?p:null}catch(e){return null}
-}
 async function downloadPage(path){
  let url=new URL(path,ROOT);url.searchParams.set('perme_refresh',String(Date.now()));
  let response=await fetch(url,{cache:'no-store'});if(!response.ok)throw new Error('HTTP '+response.status);
  return {doc:new DOMParser().parseFromString(await response.text(),'text/html'),src:url.href};
-}
-function collectLinkedPages(doc,source,category,pages){
- for(const link of doc.querySelectorAll('main a[href]')){
-  const found=pathFor(link.getAttribute('href'),source);
-  if(found&&!CATEGORIES.has(found)&&!pages.has(found))pages.set(found,category);
- }
 }
 const SAFE_TAGS=new Set('H1 H2 H3 H4 H5 H6 P UL OL LI STRONG B EM I U BR SPAN DIV SECTION ASIDE BLOCKQUOTE TABLE CAPTION THEAD TBODY TR TH TD DL DT DD CODE PRE HR A SMALL SUP SUB DETAILS SUMMARY'.split(' '));
 const SKIP_TAGS=new Set('SCRIPT STYLE NAV FOOTER HEADER IMG PICTURE SVG VIDEO AUDIO IFRAME OBJECT FORM BUTTON INPUT TEXTAREA SELECT CANVAS NOSCRIPT'.split(' '));
@@ -98,18 +77,10 @@ async function sync(){
  if(!isOnline()){element('sync-status').textContent='Offline: puoi consultare le guide già salvate.';return}
  model.syncing=true;statusConnection();element('refresh').textContent='Aggiornamento…';
  element('sync-status').textContent='Verifico le guide pubblicate sul sito.';
- let pages=new Map(),failed=[];
- for(let [path,cat] of SECTIONS){
-  try{let {doc}=await downloadPage(path);pages.set(path,cat);
-   collectLinkedPages(doc,new URL(path,ROOT),cat,pages);
-  }catch(e){failed.push(path)}
- }
- const categoriaRicette=pages.get(RICETTE);
- if(categoriaRicette){
-  try{const {doc,src}=await downloadPage(RICETTE);collectLinkedPages(doc,src,categoriaRicette,pages)}
-  catch(e){failed.push(RICETTE)}
- }
- let all=[...pages.entries()],newGuides=[];
+ const {pagine,errori:failed}=await carica(ROOT,downloadPage);
+ const categoriaRicette=pagine.get(RICETTE)?.categoria;
+ const all=[...pagine].map(([path,{categoria}])=>[path,categoria]);
+ let newGuides=[];
  for(let i=0;i<all.length;i+=4){
   let slice=all.slice(i,i+4);
   let done=await Promise.allSettled(slice.map(([p,c])=>fetchGuide(p,c)));
@@ -264,7 +235,7 @@ function init(){
   try{
    const u=new URL(a.href,ROOT);
    if(u.origin!==ROOT.origin||!u.pathname.startsWith(ROOT.pathname))return;
-   const p=pathFor(u.href,ROOT);
+   const p=percorso(u.href,ROOT,ROOT);
    if(p&&model.guides.some(g=>g.path===p)){
     e.preventDefault();
     const same=p===model.current;

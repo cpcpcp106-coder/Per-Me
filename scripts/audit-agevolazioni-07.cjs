@@ -1,7 +1,7 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),get=p=>fs.readFileSync(path.join(root,p),'utf8');
-const page='agevolazioni-guida-07-patrocinio-spese-stato.html',html=get(page),rubric=get('agevolazioni-diritti.html'),home=get('index.html'),site=get('sitemap.xml'),app=get('app/main.js');
+const page='agevolazioni-guida-07-patrocinio-spese-stato.html',html=get(page),rubric=get('agevolazioni-diritti.html'),home=get('index.html'),site=get('sitemap.xml'),catalogo=get('app/catalogo-guide.js');
 const images=JSON.parse(get('FONTI/registro-diritti-immagini.json'));
 assert.equal((html.match(/<h1\b/gi)||[]).length,1,'Guida 07 deve avere un solo H1');
 assert.match(html,/<meta name="robots" content="index,follow"/,'Meta robots');
@@ -25,7 +25,7 @@ assert.equal(guideLinks.filter(link=>!link.endsWith('-fvg.html')).length,9,'Nove
 assert.equal(guideLinks.filter(link=>link.endsWith('-fvg.html')).length,2,'Due schede per il Friuli Venezia Giulia');
 assert.match(home,/11 risorse disponibili/,'Conteggio home');
 assert.match(site,/agevolazioni-guida-07-patrocinio-spese-stato.html/,'URL sitemap');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica app assente');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione guide app assente');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica app assente');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione guide app assente');
 console.log('PASS Guida 07: legge vigente, soglie 2026, gestione redditi, rischi economici, foto documentata, struttura nazionale, sitemap, PWA.');
 console.log('LIMITI: test statico, non sostituisce consulenza legale, prova Android reale o indicizzazione Google.');

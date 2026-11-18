@@ -5,7 +5,7 @@ const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
 const file='agevolazioni-guida-04-esenzioni-ticket-fvg.html';
-const guide=read(file),index=read('agevolazioni-diritti.html'),home=read('index.html'),map=read('sitemap.xml'),app=read('app/main.js');
+const guide=read(file),index=read('agevolazioni-diritti.html'),home=read('index.html'),map=read('sitemap.xml'),catalogo=read('app/catalogo-guide.js');
 for(const [name,html] of [[file,guide],['agevolazioni-diritti.html',index]]){
  assert.equal((html.match(/<h1\b/gi)||[]).length,1,name+': titolo H1 non unico');
  assert.match(html,/<main id="contenuto"/i,name+': main');
@@ -32,8 +32,8 @@ assert.ok(index.includes('Guide nazionali — per tutta Italia')&&index.includes
 assert.ok(home.includes('agevolazioni-diritti.html#guide'),'Link homepage a rubrica manca');
 assert.ok(map.includes('/Per-Me/'+file),'Guida 04 non in sitemap');
 assert.ok(guide.includes('agevolazioni-guida-03-trasporti-fvg.html'),'Manca link precedente');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'App non elenca Rubrica 04');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App non acquisisce guide Rubrica 04');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'App non elenca Rubrica 04');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'App non acquisisce guide Rubrica 04');
 for(const section of ['reddito','disoccupazione','patologie','invalidita','farmaci','percorso','sportelli','rimborso','esempi','errori','fonti']){
  assert.ok(guide.includes('id="'+section+'"'),'Sezione non trovata '+section);
 }

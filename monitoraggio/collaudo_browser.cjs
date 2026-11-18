@@ -13,6 +13,46 @@ async function axeTest(page,label){
 try{await page.addScriptTag({content:axe.source});let r=await page.evaluate(async()=>window.axe.run(document,{runOnly:{type:'tag',values:['wcag2a','wcag2aa','wcag21a','wcag21aa','wcag22aa']}}));
 report.axe.push({page:label,violations:r.violations.map(x=>({id:x.id,impact:x.impact,description:x.description,help:x.help,affected:x.nodes.map(n=>n.target).slice(0,10),total:x.nodes.length})),passes:r.passes.length,incomplete:r.incomplete.length});}
 catch(e){report.axe.push({page:label,error:String(e).slice(0,300)})}}
+async function homeSearchTest(context){
+ const page=await context.newPage();
+ page.on('pageerror',err=>report.page_errors.push(String(err).slice(0,280)));
+ const routes=[
+  ['cauzione','agevolazioni-guida-09-locazioni-abitative.html#cauzione'],
+  ['verbale','strumenti/verbale-riconsegna-locazione.html'],
+  ['busta paga','come-leggere-busta-paga.html'],
+  ['prenotare una visita','salute-guida-07-cup-prenotazioni-liste-attesa.html']
+ ];
+ try{
+  for(const width of [320,390]){
+   await page.setViewportSize({width,height:844});
+   for(const [query,destination] of routes){
+    await page.goto(URL,{waitUntil:'domcontentloaded'});
+    if(width===320)await page.evaluate(()=>{
+     const root=document.documentElement;
+     root.style.fontSize=(parseFloat(getComputedStyle(root).fontSize)*2)+'px';
+    });
+    const field=page.getByRole('searchbox',{name:'Cerca una guida'});
+    assert.ok(await field.evaluate(input=>input.getBoundingClientRect().bottom<=innerHeight),'Ricerca visibile in apertura');
+    await field.fill(query);
+    const result=page.locator('#risultati-guide a').first();
+    await result.waitFor({state:'visible'});
+    assert.equal(await result.getAttribute('href'),URL+destination,query);
+    assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+3),query);
+    if(query==='busta paga'){
+     assert.ok(await page.locator('#risultati-guide a[href$="controllare-cedolino-cassa-integrazione-solidarieta.html"]').isVisible());
+    }
+    await Promise.all([page.waitForURL(URL+destination),result.click()]);
+   }
+  }
+  for(const guide of [routes[0][1].split('#')[0],routes[3][1],'inps-prestazione-sospesa-respinta-cosa-fare.html']){
+   await page.goto(URL+guide,{waitUntil:'domcontentloaded'});
+   assert.match(await page.locator('#primo-passo').innerText(),/^Il primo passo\./);
+  }
+  record('home_search_and_first_steps',true,{routes:routes.length,widths:[320,390],textZoom320:'200%',firstSteps:3});
+ }catch(err){
+  record('home_search_and_first_steps',false,{error:String(err.stack||err).slice(0,950)});
+ }finally{await page.close();}
+}
 async function readersTest(page){
  await page.getByRole('link',{name:'Prova le guide',exact:true}).click();
  const inviteWorks=page.url()===URL+'prova-lettori.html';
@@ -161,6 +201,7 @@ await page.goto(URL+'index.html',{waitUntil:'domcontentloaded'});
 record('home_load',await page.locator('h1').count()===1,await page.title());
 record('home_overflow_mobile',await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+3),await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth})));
 await axeTest(page,'home');
+await homeSearchTest(context);
 const readersPage=await context.newPage();
 readersPage.on('pageerror',err=>report.page_errors.push(String(err).slice(0,280)));
 await readersPage.goto(URL+'index.html',{waitUntil:'domcontentloaded'});

@@ -2,7 +2,7 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),read=p=>fs.readFileSync(path.join(root,p),'utf8');
 const file='agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html';
-const html=read(file),hub=read('agevolazioni-diritti.html'),home=read('index.html'),map=read('sitemap.xml'),app=read('app/main.js');
+const html=read(file),hub=read('agevolazioni-diritti.html'),home=read('index.html'),map=read('sitemap.xml'),catalogo=read('app/catalogo-guide.js');
 const register=JSON.parse(read('FONTI/registro-diritti-immagini.json'));
 assert.equal((html.match(/<h1\b/gi)||[]).length,1,'Un solo H1 per Guida 08');
 assert.match(html,/<main id="contenuto"/,'Main presente');
@@ -29,7 +29,7 @@ assert.equal(guideLinks.filter(link=>!link.endsWith('-fvg.html')).length,9,'Nove
 assert.equal(guideLinks.filter(link=>link.endsWith('-fvg.html')).length,2,'Due schede per il Friuli Venezia Giulia');
 assert.match(home,/11 risorse disponibili/,'Conteggio home: 11');
 assert.match(map,/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html/,'Sitemap');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica PWA assente');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'PWA non sincronizza guide collegate');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica PWA assente');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'PWA non sincronizza guide collegate');
 console.log('PASS Guida 08: SEO, struttura, ancore, fonti INPS, date 2026, foto distinta, regole nazionali, hub, sitemap, PWA');
 console.log('LIMITI: controllo statico; il test non certifica pubblicazione HTTP, navigazione Android reale o diritti individuali.');

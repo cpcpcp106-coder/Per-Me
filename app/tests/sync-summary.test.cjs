@@ -6,6 +6,7 @@ const path=require('node:path');
 const vm=require('node:vm');
 const appDir=path.resolve(__dirname,'..');
 const main=fs.readFileSync(path.join(appDir,'main.js'),'utf8');
+const catalogue=fs.readFileSync(path.join(appDir,'catalogo-guide.js'),'utf8');
 const html=fs.readFileSync(path.join(appDir,'index.html'),'utf8');
 const css=fs.readFileSync(path.join(appDir,'app.css'),'utf8');
 const sw=fs.readFileSync(path.join(appDir,'sw.js'),'utf8');
@@ -66,9 +67,20 @@ test('Il Tutor AI offre copia offline con le etichette nuove e quelle salvate in
  assert.ok(sw.includes("k.startsWith('perme-reader-')"),'Il service worker deve eliminare le vecchie cache');
 });
 
-test('Rubriche indipendenti e nessuna sovrascrittura categoria delle guide',()=>{
- for(const pair of ["['diabete-tipo-2.html','Diabete tipo 2']","['dieta-mediterranea-scientifica.html','Dieta mediterranea scientifica']","['pensionati-estero.html','Pensionati all’estero']"])
-  assert.ok(main.includes(pair),pair);
- assert.ok(main.includes('!pages.has(found)'),'Una rubrica non deve riclassificare guide gia trovate');
+test('Rubriche indipendenti e nessuna sovrascrittura categoria delle guide',async()=>{
+ const window={};
+ vm.runInNewContext(catalogue,{window,URL});
+ const {carica,sezioni}=window.PerMeCatalogo;
+ assert.equal(sezioni.get('diabete-tipo-2.html'),'Diabete tipo 2');
+ assert.equal(sezioni.get('dieta-mediterranea-scientifica.html'),'Dieta mediterranea scientifica');
+ assert.equal(sezioni.get('pensionati-estero.html'),'Pensionati all’estero');
+ const radice=new URL('https://cpcpcp106-coder.github.io/Per-Me/');
+ const {pagine,errori}=await carica(radice,async nome=>({
+  src:new URL(nome,radice),
+  doc:{querySelectorAll:()=>['diabete-tipo-2.html','dieta-mediterranea-scientifica.html'].includes(nome)
+   ? [{getAttribute:()=>'guida-condivisa.html',textContent:'Guida condivisa'}] : []}
+ }));
+ assert.equal(errori.length,0);
+ assert.equal(pagine.get('guida-condivisa.html').categoria,'Diabete tipo 2');
  assert.ok(html.includes('href="../pensionati-estero.html"'));
 });

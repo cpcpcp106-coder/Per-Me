@@ -5,7 +5,7 @@ const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const file='agevolazioni-guida-03-trasporti-fvg.html';
 const read=name=>fs.readFileSync(path.join(root,name),'utf8');
-const guide=read(file),rubric=read('agevolazioni-diritti.html'),home=read('index.html'),sitemap=read('sitemap.xml'),app=read('app/main.js');
+const guide=read(file),rubric=read('agevolazioni-diritti.html'),home=read('index.html'),sitemap=read('sitemap.xml'),catalogo=read('app/catalogo-guide.js');
 for(const [name,html]of [[file,guide],['agevolazioni-diritti.html',rubric]]){
  assert.equal((html.match(/<h1\b/gi)||[]).length,1,name+': H1 unico');
  assert.match(html,/<main id="contenuto"/i,name+': main');
@@ -31,8 +31,8 @@ assert.ok(rubric.includes('Guide nazionali — per tutta Italia')&&rubric.includ
 assert.ok(sitemap.includes('/Per-Me/'+file),'Sitemap senza Guida 03');
 assert.ok(guide.includes('href="agevolazioni-diritti.html#guide"'),'Ritorno alla rubrica assente');
 assert.ok(guide.includes('agevolazioni-guida-02-bonus-sociali.html'),'Manca precedente guida');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'PWA senza Rubrica 04');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'PWA non identifica link della rubrica');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'PWA senza Rubrica 04');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'PWA non identifica link della rubrica');
 for(const section of ['differenze','invalidita','domanda-invalidita','titoli','rinnovo','over65','treni','esempi','problemi','errori','fonti']){
  assert.ok(guide.includes('id="'+section+'"'),'Sezione assente: '+section);
 }

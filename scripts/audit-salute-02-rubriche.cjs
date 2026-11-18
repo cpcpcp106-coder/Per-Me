@@ -6,7 +6,7 @@ const diabetes='diabete-tipo-2.html',diet='dieta-mediterranea-scientifica.html';
 const map=read('sitemap.xml'),home=read('index.html'),hub=read('salute-autonomia.html');
 const rights=read('agevolazioni-diritti.html');
 const social=read('FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md');
-const pwa=read('app/main.js'),appPage=read('app/index.html'),sw=read('app/sw.js');
+const pwa=read('app/main.js'),catalogo=read('app/catalogo-guide.js'),appPage=read('app/index.html'),sw=read('app/sw.js');
 const reg=JSON.parse(read('FONTI/registro-diritti-immagini.json'));
 for(const file of [guide,diabetes,diet]){
  const html=read(file);
@@ -112,9 +112,9 @@ const onlineRubrics=appPage.match(/<nav aria-label="Rubriche del sito Per Me">[\
 assert.equal((home.match(/<article class="card">/g)||[]).length,(onlineRubrics.match(/<li>/g)||[]).length,'Home e app devono presentare lo stesso numero di rubriche');
 for(const file of [guide,diabetes,diet])assert.ok(home.includes(file)||hub.includes(file),'Non raggiungibile dalla home/rubrica: '+file);
 for(const [file,label] of [[diabetes,'Diabete tipo 2'],[diet,'Dieta mediterranea scientifica']]){
- assert.ok(pwa.includes("['"+file+"','"+label+"']"),'Rubrica non aggiunta alla PWA: '+file);
+ assert.ok(catalogo.includes("['"+file+"', '"+label+"']"),'Rubrica non aggiunta alla PWA: '+file);
 }
-assert.ok(pwa.includes('!pages.has(found)'),'Conflitto categorico in sincronizzazione PWA');
+assert.ok(catalogo.includes('pagine.has(nome)'),'Conflitto categorico in sincronizzazione PWA');
 const versionInApp=appPage.match(/main\.js\?v=(\d+)/)?.[1],versionInWorker=sw.match(/main\.js\?v=(\d+)/)?.[1];
 assert.ok(versionInApp&&versionInWorker&&versionInApp===versionInWorker,'Versioni script PWA e service worker discordanti');
 new vm.Script(pwa,{filename:'app/main.js'});

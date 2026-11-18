@@ -510,3 +510,101 @@ header[data-shared="per-me"] nav a{min-height:48px}
 .article > .editorial-info a{color:#154733;text-decoration:underline;text-underline-offset:2px;font-weight:650}
 .article > .editorial-info a:focus-visible{outline:3px solid #a3683a;outline-offset:3px}
 @media(max-width:600px){.article > .editorial-info{padding:12px 13px;margin:13px 0 19px}}
+
+.ricerca-guide {
+  margin-bottom: 1.15rem;
+  padding: clamp(.65rem, 2.7vw, 1.05rem);
+  border: 1px solid #8ba998;
+  border-radius: 10px;
+  background: #f0f5f2;
+}
+.ricerca-guide label {
+  display: block;
+  margin-bottom: .35rem;
+  color: #23382f;
+  font-size: 1.15rem;
+  font-weight: 750;
+}
+.ricerca-guide-controlli {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+}
+.ricerca-guide input,
+.ricerca-guide button {
+  min-height: 52px;
+  max-width: 100%;
+  padding: .6rem .75rem;
+  border: 2px solid #466b5b;
+  border-radius: 8px;
+  font: inherit;
+}
+.ricerca-guide input {
+  flex: 1 1 12rem;
+  width: 100%;
+  min-width: 0;
+  background: #fff;
+  color: #23382f;
+}
+.ricerca-guide input::placeholder {
+  color: #495a52;
+  opacity: 1;
+}
+.ricerca-guide button {
+  background: #254638;
+  color: #fff;
+  font-weight: 750;
+  cursor: pointer;
+}
+.ricerca-guide button:hover {
+  background: #17352a;
+}
+.ricerca-guide :is(input, button, a):focus-visible {
+  outline: 3px solid #966314;
+  outline-offset: 3px;
+}
+.ricerca-guide .ricerca-guide-stato {
+  margin-block: .45rem;
+  font-size: 1rem;
+}
+.ricerca-guide .ricerca-guide-stato:empty {
+  margin-block: 0;
+}
+.ricerca-guide ul {
+  margin: .5rem 0;
+  padding: 0;
+  list-style: none;
+}
+.ricerca-guide li {
+  margin: 0 0 .4rem;
+}
+.ricerca-guide li a {
+  display: block;
+  min-height: 52px;
+  padding: .55rem .75rem;
+  border: 1px solid #8ba998;
+  border-radius: 8px;
+  background: #fff;
+  color: #193d32;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+.ricerca-guide li a strong {
+  text-decoration: underline;
+  text-underline-offset: .15em;
+}
+.ricerca-guide li a span {
+  display: block;
+  margin-top: .25rem;
+  color: #3b5046;
+}
+.article > #primo-passo.passo-primo {
+  margin-block: 1.25rem;
+  padding: .85rem 1rem;
+  border: 1px solid #8ba998;
+  border-inline-start: 5px solid #254638;
+  border-radius: 8px;
+  background: #f0f6f1;
+  color: #23382f;
+}

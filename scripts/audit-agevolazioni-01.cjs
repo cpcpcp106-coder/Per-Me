@@ -6,7 +6,7 @@ const root=path.resolve(__dirname,'..');
 const guideName='agevolazioni-guida-01-isee-corrente.html';
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
 const guide=read(guideName),rubric=read('agevolazioni-diritti.html'),home=read('index.html'),sitemap=read('sitemap.xml');
-const app=read('app/main.js');
+const catalogo=read('app/catalogo-guide.js');
 assert.equal((guide.match(/<h1\b/g)||[]).length,1,'Un solo titolo H1');
 assert.match(guide,/<meta name="robots" content="index,follow">/);
 assert.match(guide,/<link rel="canonical" href="https:\/\/cpcpcp106-coder.github.io\/Per-Me\/agevolazioni-guida-01-isee-corrente.html">/);
@@ -36,8 +36,8 @@ for(const key of must)assert.ok(guide.includes(key),'Contenuto essenziale mancan
 assert.ok((guide.match(/<section\b/g)||[]).length>=11,'Minimo 11 blocchi tematici');
 const sources=[...guide.matchAll(/href="https:\/\/(www\.inps\.it|www\.lavoro\.gov\.it|servizi2\.inps\.it)[^"]+"/g)];
 assert.ok(sources.length>=7,'Set di fonti primarie');
-assert.ok(app.includes("['agevolazioni-diritti.html','Agevolazioni e diritti']"),'Rubrica 04 registrata nella app');
-assert.ok(app.includes("doc.querySelectorAll('main a[href]')"),'App estrae i link guide dalle rubriche');
+assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica 04 registrata nella app');
+assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'App estrae i link guide dalle rubriche');
 for(const phrase of ['quattro categorie di variazione','Quadro S5','giacenza media','bonus ARERA','agevolazioni-guida-02-bonus-sociali.html']) assert.ok(guide.includes(phrase),'Revisione ISEE incompleta: '+phrase);
 let paragraphOpen=false;
 for(const tag of guide.matchAll(/<\/?p\b[^>]*>/gi)){
