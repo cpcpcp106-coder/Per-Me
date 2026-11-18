@@ -1,12 +1,13 @@
 {
   "progetto": "Per Me",
   "territorio": "Italia (nazionale)",
-  "ultimo_controllo": "2026-10-15",
+  "ultimo_controllo": "2026-11-18",
   "metodo": "I dati cambiano: confrontare sempre l'ultima fonte ufficiale; gli indici ISTAT non sono prezzi al dettaglio dei singoli prodotti. Non sostituire automaticamente gli importi delle pagine senza verifica dei requisiti.",
   "prossimo_controllo": {
-    "istat_settembre_dato_definitivo": "Completato 2026-10-16; verificato nuovamente 2026-10-23",
-    "ricognizione_mensile": "2026-11 (da ripetere sulle altre fonti)",
-    "pensioni_rivalutazione_annuale": "alle circolari ufficiali INPS di fine 2026/inizio 2027"
+    "istat_ottobre_dato_definitivo": "Completato 2026-11-18 (comunicato definitivo ISTAT del 17-11-2026)",
+    "istat_novembre_dato_provvisorio": "2026-11-30, salvo modifiche calendario ISTAT",
+    "ricognizione_mensile": "2026-12-18",
+    "pensioni_rivalutazione_annuale": "alla circolare INPS su importi 2027; non anticipare importi non ancora pubblicati"
   },
   "dati": [
     {
@@ -61,9 +62,9 @@
       "anno": 2026,
       "valore": "500",
       "unita": "EUR/anno",
-      "stato": "selezione automatica nuclei eleggibili, incompatibilita con altre prestazioni; non diritto universale dei pensionati soli",
+      "stato": "500 EUR per ciascuna annualità 2026/2027, non 1.000 EUR tutti disponibili subito; selezione d'ufficio con graduatorie e incompatibilità. Primo impiego carta 2026 entro 16-12-2026 secondo INPS; non beneficio universale pensionato solo",
       "fonte": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.carta-dedicata-a-te-modalit-operative-per-il-2026-2027.html",
-      "riesame": "alle nuove comunicazioni 2026-2027"
+      "riesame": "2026-12-16 termine primo utilizzo 2026; ricarica 2027 prevista da aprile 2027"
     },
     {
       "chiave": "inps_adi_isee",
@@ -83,10 +84,89 @@
       "stato": "DEFINITIVO; indice aggregato, NON prezzo di singoli alimenti",
       "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-settembre-2026/",
       "pubblicato": "2026-10-16",
-      "riesame": "2026-10-30 (data prevista per la prossima diffusione ISTAT)",
-      "verifica_parziale": "2026-10-23: confronto diretto con il comunicato definitivo del 16 ottobre; gli altri importi non sono stati ricontrollati in questa sessione"
+      "riesame": "sostituito nel monitoraggio dal dato definitivo di ottobre 2026 diffuso il 17-11-2026"
+    },
+    {
+      "chiave": "istat_alimenti_non_lavorati_ottobre_2026",
+      "anno": 2026,
+      "periodo": "2026-10",
+      "valore": "+7,5",
+      "unita": "% tendenziale anno su anno",
+      "stato": "DEFINITIVO (comunicato 17-11-2026); non indica incremento del prezzo dei singoli prodotti",
+      "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
+      "pubblicato": "2026-11-17",
+      "nota": "dato provvisorio di ottobre pubblicato 30-10-2026: +7,5% per alimentari non lavorati, confermato nel dato definitivo"
+    },
+    {
+      "chiave": "istat_carrello_spesa_ottobre_2026",
+      "anno": 2026,
+      "periodo": "2026-10",
+      "valore": "+2,3",
+      "unita": "% tendenziale anno su anno",
+      "stato": "DEFINITIVO; aggregato beni alimentari, per la cura della casa e della persona, non solo alimentari",
+      "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
+      "pubblicato": "2026-11-17",
+      "nota": "Stima PROVVISORIA del 30-10-2026: +2,5%; definitivo: +2,3%. Non confondere con alimentari non lavorati +7,5%."
+    },
+    {
+      "chiave": "istat_nic_generale_ottobre_2026",
+      "anno": 2026,
+      "periodo": "2026-10",
+      "valore": "+5,5",
+      "unita": "% tendenziale anno su anno",
+      "stato": "DEFINITIVO; dato NIC generale; stima provvisoria era +5,4%",
+      "fonte": "https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/",
+      "pubblicato": "2026-11-17"
+    },
+    {
+      "chiave": "arera_teleriscaldamento_bonus_sociale",
+      "anno": 2026,
+      "valore": "15% indicativo",
+      "unita": "riduzione spesa media al netto imposte",
+      "stato": "Delibera 385/2026/R/tlr del 27 ottobre, pubblicata 2 novembre 2026; spettanza ai soli nuclei con ISEE e utenze domestiche ammesse, non erogato già a novembre 2026; accredito entro ottobre 2027, compresi 2026 e 2027",
+      "soglia_isee_ordinaria": "9796 EUR",
+      "soglia_isee_quattro_figli": "20000 EUR",
+      "fonte": "https://www.arera.it/comunicati-stampa/dettaglio/teleriscaldamento-arera-approva-bonus-sociale-famiglie-disagio-economico",
+      "pubblicato": "2026-11-05"
+    },
+    {
+      "chiave": "inps_red_ordinario_2026",
+      "anno": 2026,
+      "valore": "2027-03-01",
+      "unita": "scadenza RED ordinario 2026, redditi 2025",
+      "stato": "obbligo solo per destinatari con redditi e prestazioni soggette a verifica; INPS ha comunicato ai soggetti interessati",
+      "fonte": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.avvio-campagna-red-ordinaria-2026-e-dichiarazioni-di-responsabilit.html",
+      "pubblicato": "2026-11-13"
+    },
+    {
+      "chiave": "minsalute_lea_aggiornamento_2026",
+      "anno": 2026,
+      "valore": "DM 03-08-2026; DPCM 07-08-2026",
+      "unita": "modifiche al DPCM 12-01-2017; GU 30-09-2026",
+      "stato": "l'allegato 8 patologie croniche e l'allegato 4 prestazioni specialistiche sono indicati dal Ministero come integrati o modificati; il diritto concreto richiede esenzione riconosciuta e prestazione appropriata",
+      "fonte": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/",
+      "pubblicato": "2026-10-05"
+    },
+    {
+      "chiave": "crea_linee_guida_sana_alimentazione",
+      "anno": 2018,
+      "valore": "Edizione 2018",
+      "unita": "Linee guida per una sana alimentazione",
+      "stato": "edizione di riferimento pubblicata online 20-12-2019; nessuna nuova edizione ufficiale individuata in ricognizione del 18-11-2026",
+      "fonte": "https://www.crea.gov.it/dettaglio-news/-/asset_publisher/TJ5BDAAnahHo/content/on-line-le-linee-guida-per-una-sana-alimentazione-2018"
+    },
+    {
+      "chiave": "olio_evo_100_italiano_rilevazione_online_esempio",
+      "anno": 2026,
+      "periodo": "2026-11-18",
+      "valore": "14,90",
+      "unita": "EUR/L, 1 L sito del produttore Colavita, Non Filtrato",
+      "stato": "prezzo di listino osservato in pagina web; non prova disponibilità/checkout, acquisto, prezzo fisico, spedizione o prezzo nazionale. Il produttore dichiara olive raccolte e molite in Italia e certificazione Kiwa; retroetichetta della confezione non ispezionata.",
+      "fonte": "https://www.colavita.it/products/olio-extra-vergine-di-oliva-non-filtrato",
+      "formula": "euro = 14.90 * ml_usati / 1000; 10 ml=0.149 EUR (~0.15), 15 ml=0.2235 (~0.22), 20 ml=0.298 (~0.30). Per g pesati servono peso netto o densità attendibile, non trattare g e ml uguali.",
+      "pubblicato": "prezzo osservato nella ricognizione del 2026-11-18"
     }
   ],
-  "politica_ricette": "Nessun costo per porzione senza prezzo osservato, luogo/contesto, data e quantità edibile; non trattare il reddito nominale come spesa effettivamente disponibile; evidenziare alternative e rischi di malnutrizione.",
-  "ultimo_aggiornamento_parziale": "2026-10-23 (solo dato ISTAT di settembre; ultimo controllo globale invariato)"
+  "politica_ricette": "Nessun costo totale di ricetta o spesa settimanale senza prezzi osservati per TUTTI gli ingredienti, quantità edibili, luogo, data e oneri accessori. Indicare costo dell'olio solo per ml effettivamente usati; il peso in g non coincide con il volume in ml. La dichiarazione di origine 100% italiana va verificata in etichetta fisica: la descrizione commerciale da sola non basta. Distinguere scelta editoriale da validità nutrizionale: anche extravergine non italiano può essere idoneo. Non trattare il reddito nominale come disponibilità dopo affitto, farmaci e utenze; evitare rischio di malnutrizione.",
+  "ultimo_aggiornamento_parziale": "2026-11-18 (ISTAT ottobre definitivo, ARERA teleriscaldamento, INPS RED, novità LEA 2026 già vigenti, esempio listino olio online)"
 }
