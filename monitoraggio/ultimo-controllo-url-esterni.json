@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-19T09:33:37.264710+00:00",
+  "date_utc": "2026-11-19T09:39:07.233452+00:00",
   "scope": {
     "pages": 139,
     "unique_external_urls": 884,
     "occurrences": 2019
   },
   "counts": {
-    "raggiungibile": 747,
-    "non_verificato_trasporto": 14,
+    "raggiungibile": 746,
     "bloccato_o_riservato": 122,
+    "non_verificato_trasporto": 15,
     "errore_http": 1
   },
   "results": [
@@ -6940,8 +6940,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -7517,9 +7518,8 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/1973/10/16/073U0602/CONSOLIDATED",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/1973/10/16/073U0602/CONSOLIDATED",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -7545,9 +7545,8 @@
     },
     {
       "url": "https://www.normattiva.it/eli/id/1988/11/07/088G0533/CONSOLIDATED/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/eli/id/1988/11/07/088G0533/CONSOLIDATED/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "pensionati-estero-trasferimento.html"
       ]
