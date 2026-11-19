@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T08:34:01.532Z",
+  "checked_at_utc": "2026-11-19T08:45:13.167Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -154,10 +154,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 08:34.",
+        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 08:46.",
         "stored": {
           "guides": 122,
-          "updated": "2026-11-19T08:34:46.624Z",
+          "updated": "2026-11-19T08:46:04.667Z",
           "bytes": 2532545,
           "includesNew09": true
         }
@@ -878,14 +878,14 @@
               ".button-lievito[href$=\"licoli-da-zero.html\"]"
             ],
             [
-              "a[target=\"_blank\"]"
+              ".button-lievito[target=\"_blank\"][rel=\"noopener noreferrer\"]"
             ]
           ],
           "total": 3
         }
       ],
-      "passes": 18,
-      "incomplete": 1
+      "passes": 22,
+      "incomplete": 2
     },
     {
       "page": "metodo.html",
