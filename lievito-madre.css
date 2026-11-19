@@ -9,6 +9,13 @@
 .lievito-page .foto-lievito{margin:1.25rem auto 1.75rem;max-width:850px}
 .lievito-page .foto-lievito img{width:100%;height:auto;display:block;border-radius:13px}
 .lievito-page .foto-lievito figcaption{font-size:1rem;color:#435548;line-height:1.45;margin-top:.5rem}
+.lievito-page .scheda-rapida{background:#edf6ee;border:2px solid #9fbdac;border-left:7px solid #276041;border-radius:12px;padding:17px 20px;margin:1.2rem 0 1.45rem}
+.lievito-page .scheda-rapida .titolo-scheda{display:block;font-size:1.29rem;color:#173e2c;margin-bottom:.6rem}
+.lievito-page .scheda-rapida p{margin:0 0 .6rem;font-size:1.1rem;line-height:1.53}
+.lievito-page .scheda-rapida p:last-child{margin-bottom:0}
+.lievito-page .indice-lievito{display:flex;flex-wrap:wrap;gap:9px;margin:1.2rem 0 2rem}
+.pagina-interna.lievito-page .article .indice-lievito a,.pagina-interna.lievito-page .article .indice-lievito a:visited{display:inline-flex;align-items:center;min-height:48px;border:2px solid #7eab91;background:#f5fbf6;color:#173e2c;border-radius:9px;padding:8px 13px;font-size:1rem;font-weight:750;text-decoration:underline;text-underline-offset:.2em}
+.pagina-interna.lievito-page .article .indice-lievito a:hover,.pagina-interna.lievito-page .article .indice-lievito a:focus-visible{background:#e1f2e5;color:#143422;outline:3px solid #b48c3f;outline-offset:2px}
 .lievito-page .pesature{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:1.2rem 0}
 .lievito-page .peso{background:#eef5f0;border:2px solid #b7d3c0;border-radius:11px;padding:14px 16px;line-height:1.45}
 .lievito-page .peso strong{font-size:1.6rem;color:#173a2a;display:block}
@@ -22,6 +29,10 @@
 .lievito-page .cal-row:nth-child(2n) .cal-ora{background:#466a52}
 .lievito-page .cal-cosa{padding:14px 17px;line-height:1.55;font-size:1.11rem}
 .lievito-page .cal-cosa strong{display:block;margin-bottom:5px;color:#203c2b}
+.lievito-page .nota-calendario{background:#fff9ed;border:1px solid #e3c89e;border-radius:9px;padding:15px 18px;margin:1.2rem 0;font-size:1.07rem;line-height:1.6}
+.lievito-page .problemi-lievito{margin:1.15rem 0 1.7rem}
+.lievito-page .problemi-lievito dt{font-size:1.16rem;font-weight:800;color:#1d4530;background:#eaf3ec;border:1px solid #c4d7c7;border-bottom:0;border-radius:9px 9px 0 0;padding:12px 16px;margin-top:11px}
+.lievito-page .problemi-lievito dd{margin:0;border:1px solid #c4d7c7;border-radius:0 0 9px 9px;padding:12px 16px;line-height:1.6;background:#fff}
 .lievito-page .perche{padding:16px 20px;border-left:6px solid #bf8029;background:#fff8e9;border-radius:0 10px 10px 0;margin:1.25rem 0}
 .lievito-page .perche strong{display:block;color:#6b4017;margin-bottom:4px}
 .lievito-page .verifica{background:#eaf4f0;border:2px solid #467761;border-radius:13px;padding:20px 22px;margin:1.5rem 0}
@@ -52,6 +63,9 @@
   .lievito-page .cal-ora small{font-size:.91rem}
   .lievito-page .cal-cosa{padding:12px 13px;font-size:1.08rem}
   .lievito-page .pesature{grid-template-columns:1fr}
+  .lievito-page .scheda-rapida{padding:15px}
+  .lievito-page .indice-lievito{flex-direction:column}
+  .lievito-page .indice-lievito a{width:100%}
   .lievito-page .button-lievito{width:100%;box-sizing:border-box}
   .lievito-home{padding:17px 15px}
   .lievito-home-links{flex-direction:column}

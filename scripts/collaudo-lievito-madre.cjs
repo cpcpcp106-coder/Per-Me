@@ -31,7 +31,7 @@ async function run() {
         const response=await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
         check(response.status()===200,file+' HTTP 200 a '+width+' px');
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),file+' senza scorrimento orizzontale a '+width+' px');
-        const buttons=await page.locator('.lievito-home-links a, .lievito-page a.button-lievito').evaluateAll(links=>{
+        const buttons=await page.locator('.lievito-home-links a, .lievito-page a.button-lievito, .indice-lievito a').evaluateAll(links=>{
           const luminance=color=>{
             const rgb=(color.match(/[\d.]+/g)||[]).slice(0,3).map(Number).map(v=>{
               const s=v/255;return s<=0.04045?s/12.92:((s+0.055)/1.055)**2.4;
@@ -48,6 +48,12 @@ async function run() {
           check(await page.locator('main a[href="https://www.facebook.com/PerMeGuide/"]').count()===1,file+' collegamento Facebook');
           const photos=await page.locator('main img[src*="originale.webp"]').evaluateAll(images=>images.map(img=>({loaded:img.complete&&img.naturalWidth>0,alt:!!img.alt.trim()})));
           check(photos.length>0&&photos.every(p=>p.loaded&&p.alt),file+' foto caricata e testo alternativo');
+        }
+        if(['pasta-madre-solida-da-zero.html','licoli-da-zero.html'].includes(file)){
+          check(await page.locator('.scheda-rapida').count()===1,file+' pesi iniziali e rinfreschi in evidenza');
+          check(await page.locator('.calendario .cal-row').count()>=5,file+' calendario completo');
+          check(await page.locator('.problemi-lievito dt').count()===4,file+' quattro problemi pratici spiegati');
+          check(await page.locator('.indice-lievito a').count()===5,file+' indice rapido accessibile');
         }
         if(file==='pasta-madre-solida-da-zero.html'){
           const pesi=await page.locator('.pesature').nth(1).innerText();
