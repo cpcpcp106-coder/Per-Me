@@ -35,7 +35,7 @@ async function run(){
  await page.locator('.riga').first().locator('[data-key=prezzo]').fill('4');
  await page.locator('.riga').first().locator('[data-key=quantita]').fill('250');
  await page.locator('.riga').first().locator('[data-key=nome]').fill('Ceci');
- for(const row of await page.locator('.riga').all()){if(await row.locator('[data-key=nome]').inputValue()!=='Ceci')await row.locator('button').click()}
+ while(await page.locator('.riga').count()>1) await page.locator('.riga').last().locator('button').click();
  await page.locator('#f button[type=submit]').click();
  check((await page.locator('#totale').innerText()).includes('1,00'),'costo 250g a 4€/kg = 1 euro '+width);
  check(errors.length===0,'nessun errore JavaScript '+width+': '+errors.join(' | '));
