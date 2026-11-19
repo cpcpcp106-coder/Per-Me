@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T07:12:59.402Z",
+  "checked_at_utc": "2026-11-19T08:34:01.532Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 131,
+        "count": 134,
         "failures": []
       }
     },
@@ -67,7 +67,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 131,
+        "checked": 134,
         "violations": []
       }
     },
@@ -85,10 +85,38 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
-        "checked": 131,
-        "failed": [],
+        "checked": 134,
+        "failed": [
+          {
+            "page": "licoli-da-zero.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 3
+              }
+            ]
+          },
+          {
+            "page": "lievito-madre.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 3
+              }
+            ]
+          },
+          {
+            "page": "pasta-madre-solida-da-zero.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 3
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -126,11 +154,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "119 pagine salvate per la lettura offline · controllo online 19 nov, 07:13.",
+        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 08:34.",
         "stored": {
-          "guides": 119,
-          "updated": "2026-11-19T07:13:49.515Z",
-          "bytes": 2512964,
+          "guides": 122,
+          "updated": "2026-11-19T08:34:46.624Z",
+          "bytes": 2532545,
           "includesNew09": true
         }
       }
@@ -144,7 +172,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 119
+        "count": 122
       }
     },
     {
@@ -374,7 +402,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -810,6 +838,56 @@
       "incomplete": 2
     },
     {
+      "page": "licoli-da-zero.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "p:nth-child(31) > .button-lievito"
+            ],
+            [
+              ".button-lievito[href$=\"lievito-madre.html\"]"
+            ],
+            [
+              ".button-lievito[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ]
+          ],
+          "total": 3
+        }
+      ],
+      "passes": 23,
+      "incomplete": 3
+    },
+    {
+      "page": "lievito-madre.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "section[aria-labelledby=\"solida-titolo\"] > .button-lievito"
+            ],
+            [
+              ".button-lievito[href$=\"licoli-da-zero.html\"]"
+            ],
+            [
+              "a[target=\"_blank\"]"
+            ]
+          ],
+          "total": 3
+        }
+      ],
+      "passes": 18,
+      "incomplete": 1
+    },
+    {
       "page": "metodo.html",
       "violations": [],
       "passes": 17,
@@ -832,6 +910,31 @@
       "violations": [],
       "passes": 25,
       "incomplete": 2
+    },
+    {
+      "page": "pasta-madre-solida-da-zero.html",
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              "a[href$=\"licoli-da-zero.html\"]"
+            ],
+            [
+              ".button-lievito[href$=\"lievito-madre.html\"]"
+            ],
+            [
+              ".button-lievito[target=\"_blank\"][rel=\"noopener noreferrer\"]"
+            ]
+          ],
+          "total": 3
+        }
+      ],
+      "passes": 23,
+      "incomplete": 3
     },
     {
       "page": "pensionati-estero-budget.html",
