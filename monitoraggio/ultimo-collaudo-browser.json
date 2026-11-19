@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T08:45:13.167Z",
+  "checked_at_utc": "2026-11-19T08:47:39.081Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -85,38 +85,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 134,
-        "failed": [
-          {
-            "page": "licoli-da-zero.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 3
-              }
-            ]
-          },
-          {
-            "page": "lievito-madre.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 3
-              }
-            ]
-          },
-          {
-            "page": "pasta-madre-solida-da-zero.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 3
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -154,10 +126,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 08:46.",
+        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 08:48.",
         "stored": {
           "guides": 122,
-          "updated": "2026-11-19T08:46:04.667Z",
+          "updated": "2026-11-19T08:48:45.980Z",
           "bytes": 2532545,
           "includesNew09": true
         }
@@ -402,7 +374,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -839,51 +811,13 @@
     },
     {
       "page": "licoli-da-zero.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "p:nth-child(31) > .button-lievito"
-            ],
-            [
-              ".button-lievito[href$=\"lievito-madre.html\"]"
-            ],
-            [
-              ".button-lievito[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ]
-          ],
-          "total": 3
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 3
     },
     {
       "page": "lievito-madre.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "section[aria-labelledby=\"solida-titolo\"] > .button-lievito"
-            ],
-            [
-              ".button-lievito[href$=\"licoli-da-zero.html\"]"
-            ],
-            [
-              ".button-lievito[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ]
-          ],
-          "total": 3
-        }
-      ],
+      "violations": [],
       "passes": 22,
       "incomplete": 2
     },
@@ -913,26 +847,7 @@
     },
     {
       "page": "pasta-madre-solida-da-zero.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              "a[href$=\"licoli-da-zero.html\"]"
-            ],
-            [
-              ".button-lievito[href$=\"lievito-madre.html\"]"
-            ],
-            [
-              ".button-lievito[target=\"_blank\"][rel=\"noopener noreferrer\"]"
-            ]
-          ],
-          "total": 3
-        }
-      ],
+      "violations": [],
       "passes": 23,
       "incomplete": 3
     },

@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-11-19T07:15:07.284914+00:00",
+  "date_utc": "2026-11-19T08:50:29.750446+00:00",
   "scope": {
-    "pages": 134,
-    "unique_external_urls": 873,
-    "occurrences": 2001
+    "pages": 137,
+    "unique_external_urls": 876,
+    "occurrences": 2008
   },
   "counts": {
-    "raggiungibile": 723,
+    "raggiungibile": 726,
     "bloccato_o_riservato": 122,
     "non_verificato_trasporto": 27,
     "errore_http": 1
@@ -88,8 +88,9 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -1073,6 +1074,16 @@
       ]
     },
     {
+      "url": "https://extension.colostate.edu/resource/sourdough-starter-best-practices/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://extension.colostate.edu/resource/sourdough-starter-best-practices/",
+      "pages": [
+        "licoli-da-zero.html",
+        "pasta-madre-solida-da-zero.html"
+      ]
+    },
+    {
       "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en",
       "status": "raggiungibile",
       "http": 200,
@@ -1945,6 +1956,15 @@
       "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9870667/",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://ppl.regione.fvg.it/public/News/2017/MANUALE%20PPL%20PANE_FVG.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://ppl.regione.fvg.it/public/News/2017/MANUALE%20PPL%20PANE_FVG.pdf",
+      "pages": [
+        "pasta-madre-solida-da-zero.html"
       ]
     },
     {
@@ -3197,9 +3217,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/it/note-aifa",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -4246,9 +4265,8 @@
     },
     {
       "url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-09-locazioni-abitative.html"
       ]
@@ -4702,7 +4720,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4728,7 +4746,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -4750,8 +4768,11 @@
         "lavoro-guida-11-naspi-domanda-scadenze.html",
         "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
         "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+        "licoli-da-zero.html",
+        "lievito-madre.html",
         "metodo.html",
         "modelli-e-strumenti.html",
+        "pasta-madre-solida-da-zero.html",
         "pensionati-estero-budget.html",
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
@@ -6676,6 +6697,15 @@
       "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe",
+      "pages": [
+        "licoli-da-zero.html"
       ]
     },
     {
@@ -8744,8 +8774,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
