@@ -25,3 +25,9 @@
 - Controllo con browser sul sito pubblico il 19 novembre 2026: entrambe le nuove pagine raggiungibili; fotografie, calendari, fonti, collegamenti e pulsanti Facebook presenti. La verifica del nuovo deploy successivo alla correzione di riservatezza è distinta dal controllo del primo rilascio.
 
 Non sono stati pubblicati nuovi post sulla Pagina Facebook in questo intervento.
+
+## Integrazione del 19 novembre 2026 — disciplinare originale
+
+- Nella [guida alla pizza](https://cpcpcp106-coder.github.io/Per-Me/pizza-napoletana-con-licoli.html) è stato aggiunto, immediatamente sotto la fotografia e la spiegazione AVPN/STG, un riquadro con pulsante grande per consultare il [PDF originale integrale AVPN 2024](https://www.pizzanapoletana.org/public/pdf/Disciplinare-2024-ITA.pdf), verificato come documento ufficiale di **28 pagine**. Il file resta ospitato dall'associazione e non viene copiato o alterato nel repository.
+- Il riquadro distingue il disciplinare AVPN dalla [disciplina europea STG pubblicata su EUR-Lex](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097). Aggiunto anche il collegamento nell'indice interno della guida.
+- Aggiornamento pubblicato con commit [`0f12bc1`](https://github.com/cpcpcp106-coder/Per-Me/commit/0f12bc1ccac8beea82864a662d8a72e9956ae39b). Verifiche locali: struttura di 135 pagine senza errori, 125 guide con pulsante Facebook, `git diff --check` senza errori.
