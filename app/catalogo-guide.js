@@ -10,7 +10,8 @@ window.PerMeCatalogo = (() => {
     ['salute-autonomia.html', 'Salute e autonomia'],
     ['tutor-ai.html', 'Tutor AI essenziale'],
     ['diabete-tipo-2.html', 'Diabete tipo 2'],
-    ['dieta-mediterranea-scientifica.html', 'Dieta mediterranea scientifica']
+    ['dieta-mediterranea-scientifica.html', 'Dieta mediterranea scientifica'],
+    ['lievito-madre.html', 'Pasta madre e LI.CO.LI.']
   ]);
   const ricette = 'dieta-mediterranea-ricette.html';
   const escluse = new Set(['index.html', 'metodo.html', 'monitoraggio.html', 'chi-siamo.html']);

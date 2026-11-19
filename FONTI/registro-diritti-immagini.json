@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-18",
+  "as_of": "2026-11-19",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1498,6 +1498,28 @@
       "origin": "Cattura da Per Me in Chromium con viewport mobile da 390 px: pulsante Stampa o salva in PDF nel verbale di riconsegna.",
       "provenance_evidence": "Cattura riprodotta il 18 novembre 2026 dal codice di Per Me per tutorial-smartphone.html; il blob registra l’immagine utilizzata.",
       "license_or_ownership": "Riproduzione dell’interfaccia di Per Me, realizzata per la documentazione dello stesso progetto."
+    },
+    {
+      "file": "assets/pasta-madre-solida-originale.webp",
+      "git_blob_sha": "b94feda82e8abfbf54476a1592f406a5e39849be",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Fotografia iperrealistica illustrativa, non testimonianza di una fermentazione misurata; barattolo con lievito madre solido.",
+      "origin": "Immagine originale generata con ChatGPT ImageGen per Per Me il 19 novembre 2026, poi convertita a WebP 1200 × 800.",
+      "provenance_evidence": "Output della sessione del 19 novembre 2026: generated_images/exec-1a20e4a8-efb2-4cc7-af20-44792902d2b4.png. Prompt originale descrittivo senza immagini di partenza; verifica visiva del risultato e impronta Git del WebP.",
+      "license_or_ownership": "Output generato per Per Me secondo le condizioni ChatGPT e il diritto applicabile; nessuna fotografia di terzi fornita come riferimento.",
+      "source_history_verified": true,
+      "used_in": "lievito-madre.html, pasta-madre-solida-da-zero.html"
+    },
+    {
+      "file": "assets/licoli-originale.webp",
+      "git_blob_sha": "fac474ac3008dc43a65b2a181ab801acc634cf4a",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Fotografia iperrealistica illustrativa, non testimonianza di una fermentazione misurata; barattolo con lievito in coltura liquida ricco di bolle.",
+      "origin": "Immagine originale generata con ChatGPT ImageGen per Per Me il 19 novembre 2026, poi convertita a WebP 1200 × 800.",
+      "provenance_evidence": "Output della sessione del 19 novembre 2026: generated_images/exec-2ab49416-0aca-40b4-acde-b7234ccc404c.png. Prompt originale descrittivo senza immagini di partenza; verifica visiva del risultato e impronta Git del WebP.",
+      "license_or_ownership": "Output generato per Per Me secondo le condizioni ChatGPT e il diritto applicabile; nessuna fotografia di terzi fornita come riferimento.",
+      "source_history_verified": true,
+      "used_in": "lievito-madre.html, licoli-da-zero.html"
     }
   ],
   "notes": [
