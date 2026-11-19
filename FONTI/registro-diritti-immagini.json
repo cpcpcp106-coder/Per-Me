@@ -1520,6 +1520,28 @@
       "license_or_ownership": "Output generato per Per Me secondo le condizioni ChatGPT e il diritto applicabile; nessuna fotografia di terzi fornita come riferimento.",
       "source_history_verified": true,
       "used_in": "lievito-madre.html, licoli-da-zero.html"
+    },
+    {
+      "file": "assets/pane-500g-friggitrice-8l-originale.webp",
+      "git_blob_sha": "1750e16c23d4d3006616840d3aa5f6bec6ebdefe",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Fotografia iperrealistica illustrativa di una piccola pagnotta cotta e friggitrice ad aria da cucina sullo sfondo; non mostra una prova di cottura realmente eseguita.",
+      "origin": "Immagine generata con ChatGPT ImageGen il 19 novembre 2026, senza immagini di riferimento, e convertita in WebP 1200 × 800 per Per Me.",
+      "provenance_evidence": "Output originale: generated_images/exec-08760c54-f8ac-459c-8b8e-b68f4ce69e36.png; prompt editoriale 'photorealistic-natural', pagnotta di circa 500 g, teglia 17,5 cm e friggitrice da 8 L. Conferma visiva del risultato e impronta Git del WebP.",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni di ChatGPT e il diritto applicabile; nessuna immagine di terzi in ingresso.",
+      "source_history_verified": true,
+      "used_in": "lievito-madre.html, pane-500g-friggitrice-8-litri.html"
+    },
+    {
+      "file": "assets/pizza-napoletana-licoli-originale.webp",
+      "git_blob_sha": "143ed354fae579ea960c8514fac89a8aa13e55db",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Fotografia iperrealistica illustrativa di una Margherita alla napoletana e forno sullo sfondo; non prova la conformità al disciplinare AVPN o STG.",
+      "origin": "Immagine generata con ChatGPT ImageGen il 19 novembre 2026, senza immagini di riferimento, e convertita in WebP 1200 × 800 per Per Me.",
+      "provenance_evidence": "Output originale: generated_images/exec-1535184d-0185-4581-a1a4-1912dbd4ae90.png; prompt editoriale 'photorealistic-natural', una pizza Margherita da 28–30 cm con cornicione morbido. Conferma visiva del risultato e impronta Git del WebP.",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni di ChatGPT e il diritto applicabile; nessuna immagine di terzi in ingresso.",
+      "source_history_verified": true,
+      "used_in": "lievito-madre.html, pizza-napoletana-con-licoli.html"
     }
   ],
   "notes": [

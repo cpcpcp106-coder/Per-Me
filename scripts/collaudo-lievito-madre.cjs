@@ -1,5 +1,5 @@
 'use strict';
-/* Collaudo locale della prima fase: lettura mobile, fotografie, link, app offline. */
+/* Collaudo dell'intero percorso lieviti, pane e pizza: mobile, foto, app offline. */
 const fs = require('node:fs');
 const path = require('node:path');
 const http = require('node:http');
@@ -27,7 +27,7 @@ async function run() {
     for(const width of [320,390,768]) {
       const page=await browser.newPage({viewport:{width,height:820},deviceScaleFactor:1});
       await page.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
-      for(const file of ['index.html','lievito-madre.html','pasta-madre-solida-da-zero.html','licoli-da-zero.html']) {
+      for(const file of ['index.html','lievito-madre.html','pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html']) {
         const response=await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
         check(response.status()===200,file+' HTTP 200 a '+width+' px');
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),file+' senza scorrimento orizzontale a '+width+' px');
@@ -46,10 +46,14 @@ async function run() {
         check(buttons.length>0&&buttons.every(b=>b.ratio>=7),file+' pulsanti ad alto contrasto (minimo '+Math.min(...buttons.map(b=>b.ratio)).toFixed(1)+':1) a '+width+' px');
         if(file!=='index.html') {
           check(await page.locator('main a[href="https://www.facebook.com/PerMeGuide/"]').count()===1,file+' collegamento Facebook');
+          for(const img of await page.locator('main img[src*="originale.webp"]').all()){
+            await img.scrollIntoViewIfNeeded();
+            await img.evaluate(element=>element.decode().catch(()=>{}));
+          }
           const photos=await page.locator('main img[src*="originale.webp"]').evaluateAll(images=>images.map(img=>({loaded:img.complete&&img.naturalWidth>0,alt:!!img.alt.trim()})));
           check(photos.length>0&&photos.every(p=>p.loaded&&p.alt),file+' foto caricata e testo alternativo');
         }
-        if(['pasta-madre-solida-da-zero.html','licoli-da-zero.html'].includes(file)){
+        if(['pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html'].includes(file)){
           check(await page.locator('.scheda-rapida').count()===1,file+' pesi iniziali e rinfreschi in evidenza');
           check(await page.locator('.calendario .cal-row').count()>=5,file+' calendario completo');
           check(await page.locator('.problemi-lievito dt').count()===4,file+' quattro problemi pratici spiegati');
@@ -63,6 +67,16 @@ async function run() {
           const pesi=await page.locator('.pesature').nth(1).innerText();
           check(pesi.includes('50 g')&&pesi.includes('150 g'),'LI.CO.LI. 50 + 50 + 50 g');
         }
+        if(file==='pane-500g-friggitrice-8-litri.html'){
+          const t=await page.locator('article').innerText();
+          check(t.includes('608 g')&&t.includes('17,5 cm')&&t.includes('96–98 °C')&&t.includes('180 °C')&&t.includes('160 °C'),'Pane: massa, teglia e cottura verificabili');
+          check(t.includes('315 g')&&t.includes('185 g')&&t.includes('forno tradizionale'),'Pane: LI.CO.LI. bilanciato e seconda cottura');
+        }
+        if(file==='pizza-napoletana-con-licoli.html'){
+          const t=await page.locator('article').innerText();
+          check(t.includes('503 g')&&t.includes('25 g')&&t.includes('24 ore')&&t.includes('AVPN'),'Pizza: formula, calendario e AVPN');
+          check(t.includes('STG')&&t.includes('60–90 secondi')&&t.includes('5–8 minuti'),'Pizza: disciplinari distinti e forno di casa');
+        }
       }
       await page.close();
     }
@@ -73,9 +87,9 @@ async function run() {
     await page.waitForFunction(()=>document.querySelector('#sync-status').textContent.includes('pagine salvate'),null,{timeout:60000});
     const offlineEntries=await page.evaluate(()=>{
       const saved=JSON.parse(localStorage.getItem('perme-app-offline-20261014')||'{}');
-      return saved.guides?.filter(g=>['pasta-madre-solida-da-zero.html','licoli-da-zero.html'].includes(g.path)).map(g=>({path:g.path,hasContent:g.content.includes('rinfresco')}))||[];
+      return saved.guides?.filter(g=>['pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html'].includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
     });
-    check(offlineEntries.length===2&&offlineEntries.every(x=>x.hasContent),'app: entrambe le guide scaricate per lettura offline');
+    check(offlineEntries.length===4&&offlineEntries.every(x=>x.hasContent),'app: quattro guide scaricate per lettura offline');
     await context.setOffline(true);
     await page.reload({waitUntil:'domcontentloaded'});
     await page.waitForTimeout(800);
@@ -84,6 +98,11 @@ async function run() {
     check((await page.locator('#guide-list .guide-card').count())>0,'app: LI.CO.LI. trovato offline');
     await page.locator('#guide-list .guide-card').first().click();
     check(await page.locator('#reader-content').innerText().then(t=>t.includes('50 g')),'app: testo LI.CO.LI. leggibile offline');
+    await page.locator('#back').click();
+    await page.locator('#search').fill('napoletana');
+    check((await page.locator('#guide-list .guide-card').count())>0,'app: pizza trovata offline');
+    await page.locator('#guide-list .guide-card').first().click();
+    check(await page.locator('#reader-content').innerText().then(t=>t.includes('AVPN')&&t.includes('STG')),'app: testo pizza leggibile offline');
     await context.close();
   } finally {
     await browser.close();

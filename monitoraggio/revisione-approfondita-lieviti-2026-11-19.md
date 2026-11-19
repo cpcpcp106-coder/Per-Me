@@ -24,6 +24,6 @@ Il metodo è originale e adattato alle pesature concordate da Enrico; non provie
 - Audit locale: **133 pagine, 3.400 link interni, zero errori**; **123 pagine** con componente Facebook; **99 asset** nel registro dei diritti, nessuna eccezione; audit editoriale senza anomalie; `git diff --check` senza errori.
 - Browser pubblico, 19 novembre 2026: entrambi gli URL mostrano le nuove schede, i calendari, i collegamenti alle sezioni, le fonti e i pulsanti Facebook; fotografie visibili e layout iniziale leggibile su desktop.
 - [Deploy GitHub Pages](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44492533004): completato con successo sul ramo aggiornato dopo il commit della revisione.
-- [Collaudo Playwright](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44492506307): **in corso al momento della prima registrazione**. Comprende viewport 320/390/768 px, contrasto minimo 7:1 per pulsanti e indice interno, fotografie, link e lettura offline. Verificarne l'esito finale prima di dichiararlo superato.
+- [Collaudo Playwright](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44492506307): **completato con successo** (verifica successiva il 19 novembre 2026). Comprende viewport 320/390/768 px, contrasto minimo 7:1 per pulsanti e indice interno, fotografie, link e lettura offline delle due guide iniziali.
 
 Non è stato inviato alcun nuovo post Facebook come parte di questa revisione.
