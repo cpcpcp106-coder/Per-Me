@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T09:07:31.311Z",
+  "checked_at_utc": "2026-11-19T09:30:55.796Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 134,
+        "count": 136,
         "failures": []
       }
     },
@@ -67,7 +67,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 134,
+        "checked": 136,
         "violations": []
       }
     },
@@ -87,7 +87,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 134,
+        "checked": 136,
         "failed": [],
         "errors": []
       }
@@ -126,11 +126,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 09:08.",
+        "status": "124 pagine salvate per la lettura offline · controllo online 19 nov, 09:32.",
         "stored": {
-          "guides": 122,
-          "updated": "2026-11-19T09:08:25.090Z",
-          "bytes": 2542730,
+          "guides": 124,
+          "updated": "2026-11-19T09:32:05.731Z",
+          "bytes": 2573441,
           "includesNew09": true
         }
       }
@@ -144,7 +144,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 122
+        "count": 124
       }
     },
     {
@@ -846,6 +846,12 @@
       "incomplete": 2
     },
     {
+      "page": "pane-500g-friggitrice-8-litri.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 3
+    },
+    {
       "page": "pasta-madre-solida-da-zero.html",
       "violations": [],
       "passes": 25,
@@ -880,6 +886,12 @@
       "violations": [],
       "passes": 25,
       "incomplete": 2
+    },
+    {
+      "page": "pizza-napoletana-con-licoli.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 3
     },
     {
       "page": "prova-lettori.html",

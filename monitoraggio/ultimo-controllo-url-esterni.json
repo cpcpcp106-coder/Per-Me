@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-19T09:09:29.966335+00:00",
+  "date_utc": "2026-11-19T09:33:37.264710+00:00",
   "scope": {
-    "pages": 137,
-    "unique_external_urls": 878,
-    "occurrences": 2011
+    "pages": 139,
+    "unique_external_urls": 884,
+    "occurrences": 2019
   },
   "counts": {
-    "raggiungibile": 735,
+    "raggiungibile": 747,
+    "non_verificato_trasporto": 14,
     "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 20,
     "errore_http": 1
   },
   "results": [
@@ -153,8 +153,9 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -162,8 +163,9 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -172,8 +174,9 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -184,8 +187,9 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -193,16 +197,18 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
@@ -1017,6 +1023,24 @@
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
+      "pages": [
+        "pizza-napoletana-con-licoli.html"
+      ]
+    },
+    {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R2313",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R2313",
+      "pages": [
+        "pizza-napoletana-con-licoli.html"
       ]
     },
     {
@@ -4728,7 +4752,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4754,7 +4778,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -4780,12 +4804,14 @@
         "lievito-madre.html",
         "metodo.html",
         "modelli-e-strumenti.html",
+        "pane-500g-friggitrice-8-litri.html",
         "pasta-madre-solida-da-zero.html",
         "pensionati-estero-budget.html",
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html",
         "pensione-invalidita.html",
+        "pizza-napoletana-con-licoli.html",
         "prova-lettori.html",
         "prova-lettori.html",
         "redditi-red-comunicazioni-obbligatorie-inps.html",
@@ -6717,6 +6743,15 @@
       ]
     },
     {
+      "url": "https://www.kingarthurbaking.com/recipes/crusty-dutch-oven-sourdough-bread-recipe",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/recipes/crusty-dutch-oven-sourdough-bread-recipe",
+      "pages": [
+        "pane-500g-friggitrice-8-litri.html"
+      ]
+    },
+    {
       "url": "https://www.kingarthurbaking.com/recipes/feeding-and-maintaining-your-sourdough-starter-recipe",
       "status": "raggiungibile",
       "http": 200,
@@ -6733,6 +6768,15 @@
       "final_url": "https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe",
       "pages": [
         "licoli-da-zero.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/whole-wheat-sourdough-bread-recipe",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/recipes/whole-wheat-sourdough-bread-recipe",
+      "pages": [
+        "pane-500g-friggitrice-8-litri.html"
       ]
     },
     {
@@ -6896,9 +6940,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -8116,6 +8159,24 @@
       ]
     },
     {
+      "url": "https://www.pizzanapoletana.org/it/371-i_lieviti_in_pizzeria",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pizzanapoletana.org/it/371-i_lieviti_in_pizzeria",
+      "pages": [
+        "pizza-napoletana-con-licoli.html"
+      ]
+    },
+    {
+      "url": "https://www.pizzanapoletana.org/public/pdf/Disciplinare-2024-ITA.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pizzanapoletana.org/public/pdf/Disciplinare-2024-ITA.pdf",
+      "pages": [
+        "pizza-napoletana-con-licoli.html"
+      ]
+    },
+    {
       "url": "https://www.poste.it/posta-raccomandata/raccomandata/",
       "status": "raggiungibile",
       "http": 200,
@@ -8811,8 +8872,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
