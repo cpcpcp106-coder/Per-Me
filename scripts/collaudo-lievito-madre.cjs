@@ -36,8 +36,14 @@ async function run() {
           const photos=await page.locator('main img[src*="originale.webp"]').evaluateAll(images=>images.map(img=>({loaded:img.complete&&img.naturalWidth>0,alt:!!img.alt.trim()})));
           check(photos.length>0&&photos.every(p=>p.loaded&&p.alt),file+' foto caricata e testo alternativo');
         }
-        if(file==='pasta-madre-solida-da-zero.html')check((await page.locator('#rinfresco').innerText()).includes('100 g')&&(await page.locator('#rinfresco').innerText()).includes('200 g'),'Pasta madre 100 + 200 + 100 g');
-        if(file==='licoli-da-zero.html')check((await page.locator('#rinfresco').innerText()).includes('150 g'),'LI.CO.LI. 50 + 50 + 50 g');
+        if(file==='pasta-madre-solida-da-zero.html'){
+          const pesi=await page.locator('.pesature').nth(1).innerText();
+          check(pesi.includes('100 g')&&pesi.includes('200 g')&&pesi.includes('400 g'),'Pasta madre 100 + 200 + 100 g');
+        }
+        if(file==='licoli-da-zero.html'){
+          const pesi=await page.locator('.pesature').nth(1).innerText();
+          check(pesi.includes('50 g')&&pesi.includes('150 g'),'LI.CO.LI. 50 + 50 + 50 g');
+        }
       }
       await page.close();
     }
