@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-19T08:50:29.750446+00:00",
+  "date_utc": "2026-11-19T09:09:29.966335+00:00",
   "scope": {
     "pages": 137,
-    "unique_external_urls": 876,
-    "occurrences": 2008
+    "unique_external_urls": 878,
+    "occurrences": 2011
   },
   "counts": {
-    "raggiungibile": 726,
+    "raggiungibile": 735,
     "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 27,
+    "non_verificato_trasporto": 20,
     "errore_http": 1
   },
   "results": [
@@ -153,9 +153,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/schede/ticket.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -163,9 +162,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/servizi/anagrafe_sanitaria.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -174,9 +172,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/servizi/esenzione.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
@@ -187,9 +184,8 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/servizi/richiesta_rimborso_ticket.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
@@ -197,18 +193,16 @@
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_cividale/servizi_amministrativi_cividale/cup_cividale/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
     },
     {
       "url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://asufc.sanita.fvg.it/it/strutture/dir_sanitaria/dip_assistenza_territoriale/distretto_tarcento/servizi_amministrativi/anagrafe_sanitaria/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
@@ -3146,24 +3140,27 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3171,8 +3168,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3181,8 +3179,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3190,8 +3189,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3199,8 +3199,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3208,8 +3209,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3217,8 +3219,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3226,8 +3229,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3235,8 +3239,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3249,8 +3254,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3258,8 +3264,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -4265,8 +4272,9 @@
     },
     {
       "url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf",
       "pages": [
         "agevolazioni-guida-09-locazioni-abitative.html"
       ]
@@ -4720,7 +4728,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4746,7 +4754,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -6697,6 +6705,25 @@
       "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/blog/2024/04/24/sourdough-myths",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/blog/2024/04/24/sourdough-myths",
+      "pages": [
+        "licoli-da-zero.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/feeding-and-maintaining-your-sourdough-starter-recipe",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/recipes/feeding-and-maintaining-your-sourdough-starter-recipe",
+      "pages": [
+        "licoli-da-zero.html",
+        "pasta-madre-solida-da-zero.html"
       ]
     },
     {
@@ -8784,9 +8811,8 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "tutor-ai.html"
       ]

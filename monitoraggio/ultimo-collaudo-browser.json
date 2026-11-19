@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T08:47:39.081Z",
+  "checked_at_utc": "2026-11-19T09:07:31.311Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -126,11 +126,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 08:48.",
+        "status": "122 pagine salvate per la lettura offline · controllo online 19 nov, 09:08.",
         "stored": {
           "guides": 122,
-          "updated": "2026-11-19T08:48:45.980Z",
-          "bytes": 2532545,
+          "updated": "2026-11-19T09:08:25.090Z",
+          "bytes": 2542730,
           "includesNew09": true
         }
       }
@@ -374,7 +374,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -812,7 +812,7 @@
     {
       "page": "licoli-da-zero.html",
       "violations": [],
-      "passes": 23,
+      "passes": 25,
       "incomplete": 3
     },
     {
@@ -848,7 +848,7 @@
     {
       "page": "pasta-madre-solida-da-zero.html",
       "violations": [],
-      "passes": 23,
+      "passes": 25,
       "incomplete": 3
     },
     {
