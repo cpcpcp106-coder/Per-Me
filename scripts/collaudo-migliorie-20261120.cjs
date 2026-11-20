@@ -108,6 +108,9 @@ async function main(){
     return{heroFirst:!!(hero.compareDocumentPosition(search)&Node.DOCUMENT_POSITION_FOLLOWING),inviteLater:!!(situations.compareDocumentPosition(invite)&Node.DOCUMENT_POSITION_FOLLOWING),mainLinks:document.querySelectorAll('.hero a[href="da-dove-cominciare.html"]').length};
    });
    check(order.heroFirst&&order.inviteLater&&order.mainLinks===1,'home con ingresso unico e invito alle prove spostato '+width);
+   await page.locator('#parole-guida').fill('paniere');
+   await page.locator('#risultati-guide a').first().waitFor();
+   check((await page.locator('#risultati-guide a').first().getAttribute('href')).endsWith('#spesa-settimana-documentata'),'ricerca della home trova il paniere documentato '+width);
    await page.goto(origin+'/dieta-guida-08-ricette-mediterranee-economiche-valori.html#spesa-settimana-documentata');
    check(await page.locator('.paniere-prodotto').count()===22&&await page.locator('.paniere-giorno').count()===7,'menu e lista completi leggibili nella guida '+width);
    check((await page.locator('#paniere-totali').innerText()).includes('149,06')&&(await page.locator('#paniere-totali').innerText()).includes('Spedizione esclusa'),'esborso e spese escluse visibili '+width);
@@ -153,7 +156,7 @@ async function main(){
   await page.locator('.guide-card').first().click();
   check(await page.locator('#reader-content .perme-lettura').count()===1,'comandi di lettura presenti nella PWA');
   await context.setOffline(true);await page.reload();
-  await page.locator('.guide-card').first().click();
+  await page.locator('#reader-content .perme-lettura').waitFor();
   check(await page.locator('#reader-content .perme-lettura').count()===1,'comandi conservati dopo riapertura offline');
   await page.getByRole('button',{name:'Aumenta la dimensione del testo',exact:true}).click();
   check((await page.locator('.perme-lettura').innerText()).includes('125%'),'ingrandimento utilizzabile offline');
