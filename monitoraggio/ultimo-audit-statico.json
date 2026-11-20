@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-19T09:42:08+00:00",
+  "date_utc": "2026-11-20T07:39:47+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 144,
@@ -8,9 +8,9 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5029,
-    "external_occurrences": 2029,
-    "external_unique": 885,
+    "local_occurrences": 5032,
+    "external_occurrences": 2035,
+    "external_unique": 890,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -714,7 +714,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 29,
+      "links_local": 30,
       "links_external": 1,
       "missing_local": 0,
       "noindex": false,
@@ -1824,7 +1824,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 26,
+      "links_local": 28,
       "links_external": 1,
       "missing_local": 0,
       "noindex": false,
@@ -2335,13 +2335,13 @@
       "images": 1,
       "images_without_alt": 0,
       "links_local": 9,
-      "links_external": 2,
+      "links_external": 7,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "strumenti/orientamento-benefici.html",
@@ -2350,7 +2350,7 @@
       "images": 1,
       "images_without_alt": 0,
       "links_local": 6,
-      "links_external": 3,
+      "links_external": 4,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
