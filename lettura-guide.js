@@ -218,9 +218,9 @@
   const heading = node('p', 'Leggi come preferisci', 'perme-lettura-titolo');
   const actions = node('div', '', 'perme-lettura-azioni');
   const size = node('span'); size.setAttribute('role', 'status'); size.setAttribute('aria-live', 'polite');
-  const minus = button('A−', 'Riduci la dimensione del testo', () => setScale(scales[Math.max(0, scales.indexOf(scale) - 1)], true));
-  const plus = button('A+', 'Aumenta la dimensione del testo', () => setScale(scales[Math.min(scales.length - 1, scales.indexOf(scale) + 1)], true));
-  const reset = button('Normale', 'Ripristina la dimensione iniziale del testo', () => setScale(100, true));
+  const minus = button('Riduci', 'Riduci la dimensione del testo', () => setScale(scales[Math.max(0, scales.indexOf(scale) - 1)], true));
+  const plus = button('Ingrandisci', 'Ingrandisci la dimensione del testo', () => setScale(scales[Math.min(scales.length - 1, scales.indexOf(scale) + 1)], true));
+  const reset = button('Normale', 'Normale: ripristina la dimensione iniziale del testo', () => setScale(100, true));
   const status = node('p', speech ? '' : 'La lettura vocale non è disponibile in questo browser.', 'perme-lettura-stato');
   status.setAttribute('role', 'status'); status.setAttribute('aria-live', 'polite');
   let ui;

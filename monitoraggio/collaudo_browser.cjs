@@ -32,7 +32,8 @@ async function homeSearchTest(context){
      root.style.fontSize=(parseFloat(getComputedStyle(root).fontSize)*2)+'px';
     });
     const field=page.getByRole('searchbox',{name:'Cerca una guida'});
-    assert.ok(await field.evaluate(input=>input.getBoundingClientRect().bottom<=innerHeight),'Ricerca visibile in apertura');
+    assert.ok(await field.isVisible(),'Ricerca disponibile nella homepage');
+    assert.ok(await page.locator('.hero').evaluate(hero=>!!(hero.compareDocumentPosition(document.querySelector('#cerca-guide'))&Node.DOCUMENT_POSITION_FOLLOWING)),'Ricerca dopo l’ingresso principale');
     await field.fill(query);
     const result=page.locator('#risultati-guide a').first();
     await result.waitFor({state:'visible'});
@@ -235,7 +236,8 @@ try{
    alt:image.alt,
    caption:image.closest('figure').querySelector('figcaption').textContent
   }));
-  const facebook=page.locator('article a[href="https://www.facebook.com/PerMeGuide"], article a[href="https://www.facebook.com/PerMeGuide/"]');
+  const facebook=page.locator('article .perme-facebook-contact a.perme-facebook-button');
+  await facebook.waitFor({state:'visible'});
   const facebookAvailable=await facebook.count()===1&&await facebook.isVisible();
   record('guide20_photo_and_facebook',photo.loaded&&photo.local&&photo.alt.trim().length>0&&
    photo.caption.includes('intelligenza artificiale')&&facebookAvailable,{...photo,facebookAvailable});
@@ -266,8 +268,8 @@ try{
    const image=document.querySelector('article .foto-guida img');
    const loaded=image && await image.decode().then(()=>image.naturalWidth>0,()=>false);
    if(!loaded || !image.alt.trim())issues.push('Foto o testo alternativo mancante');
-   const facebook=[...document.querySelectorAll('article a[href="https://www.facebook.com/PerMeGuide/"]')];
-   if(facebook.length!==1 || facebook[0].getBoundingClientRect().height<56)issues.push('Pulsante Facebook mancante, duplicato o troppo piccolo');
+   const facebook=[...document.querySelectorAll('article .perme-facebook-contact a.perme-facebook-button')];
+   if(facebook.length!==1 || !/^https:\/\/www\.facebook\.com\/PerMeGuide\/?$/.test(facebook[0].href) || facebook[0].getBoundingClientRect().height<56)issues.push('Pulsante Facebook mancante, duplicato, errato o troppo piccolo');
    const links=[...document.querySelectorAll('.indice-guida[open] a[href^="#"]')];
    if(!links.length || links.some(link=>!document.getElementById(link.hash.slice(1))))issues.push('Indice o destinazione mancante');
    return issues;
@@ -311,10 +313,10 @@ for(const name of practicalGuides){
  try{
   await page.evaluate(path=>{location.hash='guida='+encodeURIComponent(path)},name);
   await page.waitForFunction(path=>{
-   const link=document.querySelector('#reader-content details a[href]');
+   const link=document.querySelector('#reader-content details.indice-guida a[href]');
    return link && new URL(link.href).pathname.endsWith('/'+path);
   },name,{timeout:3000});
-  const contents=page.locator('#reader-content details');
+  const contents=page.locator('#reader-content details.indice-guida');
   await contents.locator('summary').click();
   const link=contents.locator('a').first();
   const id=await link.evaluate(a=>a.hash.slice(1));

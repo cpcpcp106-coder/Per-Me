@@ -1,6 +1,15 @@
 name: Per Me - Collaudo browser e fonti esterne
 on:
   workflow_dispatch:
+  pull_request:
+    paths:
+      - "*.html"
+      - "app/**"
+      - "style.css"
+      - "lettura-guide.js"
+      - "gradimento.js"
+      - "monitoraggio/collaudo_browser.cjs"
+      - ".github/workflows/collaudo-browser.yml"
   push:
     branches:
       - main
@@ -8,6 +17,8 @@ on:
       - "*.html"
       - "app/**"
       - "style.css"
+      - "lettura-guide.js"
+      - "gradimento.js"
       - "sitemap.xml"
       - "monitoraggio/collaudo_browser.cjs"
       - "monitoraggio/verifica_url_esterni.py"
@@ -16,11 +27,11 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: per-me-evidenze-main
+  group: per-me-evidenze-${{ github.ref }}
   cancel-in-progress: false
 jobs:
   collaudo:
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/main' || github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
@@ -38,8 +49,15 @@ jobs:
       - name: Test browser responsive, WCAG automatizzati, sincronizzazione e offline
         run: node monitoraggio/collaudo_browser.cjs
       - name: Controlla tutte le destinazioni HTTP esterne
+        if: github.ref == 'refs/heads/main'
         run: python monitoraggio/verifica_url_esterni.py
-      - name: Archivia risultati con controlli non superati espliciti
+      - name: Conserva le evidenze del collaudo
         if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collaudo-browser-${{ github.run_id }}
+          path: monitoraggio/ultimo-collaudo-browser.json
+      - name: Archivia risultati con controlli non superati espliciti
+        if: always() && github.ref == 'refs/heads/main'
         run: |
           bash monitoraggio/pubblica_report.sh "Per Me: evidenze browser e collegamenti esterni" monitoraggio/ultimo-collaudo-browser.json monitoraggio/ultimo-controllo-url-esterni.json

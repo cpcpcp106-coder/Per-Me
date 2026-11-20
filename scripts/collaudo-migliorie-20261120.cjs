@@ -54,7 +54,7 @@ async function main(){
    await page.goto(origin+'/agevolazioni-guida-09-locazioni-abitative.html');
    await page.locator('.perme-lettura').waitFor();
    const base=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
-   const grow=page.getByRole('button',{name:'Aumenta la dimensione del testo',exact:true});
+   const grow=page.getByRole('button',{name:'Ingrandisci la dimensione del testo',exact:true});
    for(let i=0;i<4;i++)await grow.click();
    check(Math.abs(await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize))-base*2)<0.1,'testo raddoppiato '+width);
    check(await grow.isDisabled?.()??!(await grow.isEnabled()),'limite massimo del testo '+width);
@@ -64,7 +64,7 @@ async function main(){
    check(overflow.scroll<=width+2,'guida e riscontri senza scorrimento orizzontale al 200% '+width);
    await page.reload();await page.locator('.perme-lettura').waitFor();
    check((await page.locator('.perme-lettura').innerText()).includes('Testo 200%'),'preferenza di lettura conservata '+width);
-   await page.getByRole('button',{name:'Ripristina la dimensione iniziale del testo',exact:true}).click();
+   await page.getByRole('button',{name:'Normale: ripristina la dimensione iniziale del testo',exact:true}).click();
    check(Math.abs(await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize))-base)<0.1,'ripristino del testo '+width);
    await page.getByRole('button',{name:'Ascolta la guida ad alta voce',exact:true}).click();
    check(await page.evaluate(()=>__voice.calls.length===1&&__voice.calls[0].length>10),'avvio della voce verificato con simulazione API '+width);
@@ -114,10 +114,10 @@ async function main(){
    await page.goto(origin+'/dieta-guida-08-ricette-mediterranee-economiche-valori.html#spesa-settimana-documentata');
    check(await page.locator('.paniere-prodotto').count()===22&&await page.locator('.paniere-giorno').count()===7,'menu e lista completi leggibili nella guida '+width);
    check((await page.locator('#paniere-totali').innerText()).includes('149,06')&&(await page.locator('#paniere-totali').innerText()).includes('Spedizione esclusa'),'esborso e spese escluse visibili '+width);
-   for(let i=0;i<4;i++)await page.getByRole('button',{name:'Aumenta la dimensione del testo',exact:true}).click();
+   for(let i=0;i<4;i++)await page.getByRole('button',{name:'Ingrandisci la dimensione del testo',exact:true}).click();
    await page.locator('.paniere-giorno summary').first().click();
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'paniere leggibile al 200% senza overflow '+width);
-   await page.getByRole('button',{name:'Ripristina la dimensione iniziale del testo',exact:true}).click();
+   await page.getByRole('button',{name:'Normale: ripristina la dimensione iniziale del testo',exact:true}).click();
    await page.locator('#importa-paniere').click();
    await page.waitForURL('**/strumenti/costo-spesa-settimanale.html?origine=paniere');
    check(await page.locator('.riga').count()===22,'trasferiti tutti gli ingredienti senza ricopiare '+width);
@@ -158,7 +158,7 @@ async function main(){
   await context.setOffline(true);await page.reload();
   await page.locator('#reader-content .perme-lettura').waitFor();
   check(await page.locator('#reader-content .perme-lettura').count()===1,'comandi conservati dopo riapertura offline');
-  await page.getByRole('button',{name:'Aumenta la dimensione del testo',exact:true}).click();
+  await page.getByRole('button',{name:'Ingrandisci la dimensione del testo',exact:true}).click();
   check((await page.locator('.perme-lettura').innerText()).includes('125%'),'ingrandimento utilizzabile offline');
   await page.locator('.perme-riscontro summary').click();
   await page.getByRole('button',{name:'Informazione da aggiornare',exact:true}).click();

@@ -4,7 +4,7 @@
 (()=>{'use strict';
 const root=new URL('./',document.currentScript.src);
 if(!window.PerMeLettura&&!document.querySelector('script[data-perme-lettura]')){
- const reading=document.createElement('script');reading.src=new URL('lettura-guide.js?v=1',root).href;reading.dataset.permeLettura='true';document.head.append(reading);
+ const reading=document.createElement('script');reading.src=new URL('lettura-guide.js?v=2',root).href;reading.dataset.permeLettura='true';document.head.append(reading);
 }
 const api='https://countapi.mileshilliard.com/api/v1/';
 const stars=[1,2,3,4,5];
