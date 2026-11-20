@@ -32,4 +32,12 @@ Resta una visita al massimo ogni 30 minuti nello stesso browser; esclusione del 
 
 Prima della pubblicazione: sintassi JavaScript e diff verificati; 30 verifiche isolate senza rete superate su attribuzione, esclusione, mancati doppioni, pannelli in sola lettura, errori del servizio e recupero della pagina offline. Audit di indicizzazione: 141 pagine pubbliche e 141 URL in sitemap, zero problemi.
 
-Il test browser del repository ora verifica anche Instagram, i link del canale, larghezze 320/390/768 pixel, nuovi contatori non ancora creati e ripristino offline del pannello. L'esecuzione locale di Chromium non è disponibile in questo ambiente per un limite sui socket; la verifica browser viene eseguita dal workflow GitHub «Per Me - Test browser contatori». L'esito dei workflow e la lettura pubblica vanno controllati sul commit pubblicato prima di comunicare la conclusione.
+Il test browser del repository verifica anche Instagram, i link del canale, larghezze 320/390/768 pixel, nuovi contatori non ancora creati e ripristino offline del pannello. L'esecuzione locale di Chromium non è disponibile in questo ambiente per un limite sui socket; il collaudo browser è stato completato su GitHub con 30 verifiche superate e nessun errore. Nessun incremento reale dei contatori nei test.
+
+## Esito verificato il 20 novembre 2026
+
+- Modifica pubblicata nel commit [02625d7](https://github.com/cpcpcp106-coder/Per-Me/commit/02625d7a18ffbff341187d4ecf51301a20e877aa).
+- [Test browser contatori concluso con successo](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44709235932): 30 verifiche, comprese larghezze 320/390/768 pixel e recupero dei valori salvati offline. Si tratta di un collaudo automatico, non di una prova fisica sul Samsung.
+- [Pubblicazione GitHub Pages conclusa con successo](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44709259949). Il commit distribuito 8cdead93cc0cb8bfda7266066e63f8921d99fa40 è lo snapshot automatico dell'audit e ha come genitore il commit della modifica.
+- Lettura HTTP pubblica: `analytics.js`, `contatori-personali/`, il suo `sw.js` e il pannello storico restituiscono tutti HTTP 200. I quattro contenuti pubblici coincidono esattamente con i file collaudati.
+- Nel browser pubblico verificati nuovi campi e pulsante «Aggiorna i numeri». Lettura alle 10:17 circa, ora italiana: Instagram 0 e link del canale WhatsApp 0. Nessun accesso passato attribuito o aggiunto artificialmente. L'apertura e l'aggiornamento del pannello non aumentano i contatori.
