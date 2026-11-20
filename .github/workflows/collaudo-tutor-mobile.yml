@@ -14,7 +14,8 @@ permissions:
   contents: read
 jobs:
   tutor-mobile:
-    runs-on: ubuntu-latest
+    # Playwright 1.56.1 supporta Ubuntu 24.04; ubuntu-latest può cambiare versione.
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
@@ -24,7 +25,7 @@ jobs:
       - name: Installa Chromium e Playwright
         run: |
           timeout 180s npm install --no-save playwright@1.56.1
-          timeout 180s npx playwright install chromium
+          timeout 180s npx playwright install --with-deps chromium
       - name: Prova copia prompt, soluzioni, layout mobile e PWA offline
         run: node monitoraggio/collaudo_tutor_mobile.cjs
       - name: Conserva rapporto tecnico del test

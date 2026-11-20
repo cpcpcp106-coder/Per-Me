@@ -87,16 +87,35 @@ for(const text of ['Carta acquisti ordinaria over 65','Pensione','Carta «Dedica
 const ledger=JSON.parse(read('FONTI/registro-dati-variabili-2026.json'));
 assert.equal(ledger.territorio,'Italia (nazionale)','Registro economico non nazionale');
 assert.ok(/^\d{4}-\d{2}-\d{2}$/.test(ledger.ultimo_controllo),'Manca data di controllo');
-const expected={'inps_trattamento_minimo':'611,85','inps_assegno_sociale':'546,24','inps_maggiorazione_sociale_incremento_2026':'+20','arera_bonus_sociali_isee_ordinario':'9.796','inps_carta_acquisti_anziani':'80','inps_carta_dedicata_a_te':'500','inps_adi_isee':'10.140','istat_alimenti_non_lavorati_settembre_2026':'+5,5'};
+const expected={'inps_trattamento_minimo':'611,85','inps_assegno_sociale':'546,24','inps_maggiorazione_sociale_incremento_2026':'+20','arera_bonus_sociali_isee_ordinario':'9.796','inps_carta_acquisti_anziani':'80','inps_carta_dedicata_a_te':'500','inps_adi_isee':'10.140'};
 for(const [key,value] of Object.entries(expected)){
  const item=ledger.dati.find(d=>d.chiave===key);
  assert.ok(item&&item.valore===value&&item.fonte.startsWith('https://')&&item.riesame,'Fonte, importo o revisione mancante: '+key);
 }
-const istat=ledger.dati.find(x=>x.chiave==='istat_alimenti_non_lavorati_settembre_2026');
-assert.ok(istat&&istat.stato.includes('DEFINITIVO')&&istat.fonte.includes('/prezzi-al-consumo-settembre-2026/')&&istat.pubblicato==='2026-10-16','Dato ISTAT settembre definitivo non aggiornato o non documentato');
-for(const str of ['id="dati-aggiornati"','611,85','546,24','5,5%','16 ottobre 2026','ogni mese'])
+// Il controllo segue l'ultimo mese definitivo registrato, conservando le voci storiche.
+// Si verifica lo stesso indicatore: alimentari non lavorati, non NIC o carrello della spesa.
+const istat=ledger.dati.filter(x=>/^istat_alimenti_non_lavorati_/.test(x.chiave)&&/^DEFINITIVO\b/.test(x.stato||''))
+ .sort((a,b)=>String(b.periodo).localeCompare(String(a.periodo)))[0];
+assert.ok(istat,'Manca il dato ISTAT definitivo degli alimentari non lavorati');
+assert.match(istat.periodo,/^\d{4}-(0[1-9]|1[0-2])$/,'Periodo ISTAT non valido');
+assert.match(istat.valore,/^[+-]?\d+(?:,\d+)?$/,'Valore ISTAT non valido');
+assert.match(istat.pubblicato,/^\d{4}-\d{2}-\d{2}$/,'Data pubblicazione ISTAT non valida');
+const istatSource=new URL(istat.fonte);
+assert.equal(istatSource.origin,'https://www.istat.it','Fonte ISTAT non ufficiale');
+const italianDate=date=>new Intl.DateTimeFormat('it-IT',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(date+'T12:00:00Z'));
+const monthLabel=new Intl.DateTimeFormat('it-IT',{month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(istat.periodo+'-01T12:00:00Z'));
+assert.equal(istatSource.pathname,'/comunicato-stampa/prezzi-al-consumo-'+monthLabel.replace(' ','-')+'/','Fonte ISTAT riferita a un mese diverso dal registro');
+assert.ok(istat.periodo<=istat.pubblicato.slice(0,7)&&istat.pubblicato<=ledger.ultimo_controllo,'Date ISTAT incoerenti con il registro');
+const istatPercent=istat.valore.replace(/^\+/,'')+'%';
+for(const [html,id,label] of [[rights,'dati-aggiornati','Agevolazioni'],[med,'costo-alimentare','Dieta mediterranea']]){
+ const section=html.match(new RegExp('<section\\b[^>]*\\bid="'+id+'"[^>]*>[\\s\\S]*?<\\/section>','i'))?.[0];
+ assert.ok(section,'Sezione dati assente: '+label);
+ for(const str of [istatPercent,istat.fonte,italianDate(istat.pubblicato),monthLabel,'alimentari non lavorati','definitivi'])
+  assert.ok(section.toLowerCase().includes(str.toLowerCase()),'Dato ISTAT corrente o fonte non coerente in '+label+': '+str);
+}
+for(const str of ['id="dati-aggiornati"','611,85','546,24','ogni mese'])
  assert.ok(rights.includes(str),'Dato variabile o data revisione assente in Agevolazioni: '+str);
-for(const str of ['id="costo-alimentare"','611,85','5,5%','definitivi','16 ottobre 2026','prezzo al kg','costo per porzione'])
+for(const str of ['id="costo-alimentare"','611,85','definitivi','prezzo al kg','costo per porzione'])
  assert.ok(med.toLowerCase().includes(str.toLowerCase()),'Costo alimentare o fonte non controllata: '+str);
 assert.ok(!med.includes('id="dieta-costo-reale"'),'Due capitoli duplicati sul costo del cibo');
 assert.ok(med.includes('agevolazioni-diritti.html#anziani-salute-reddito'),'Manca il rinvio alle tutele');
