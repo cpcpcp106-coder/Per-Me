@@ -1,3 +1,7 @@
+# Nota di aggiornamento del 20 novembre 2026
+
+Questo documento conserva la revisione storica del 23 ottobre. Il suo riferimento all’applicazione del D.Lgs. 33/2025 dal 2026 è superato: l’articolo 4, comma 4, del D.L. 200/2025 ha rinviato l’applicazione del Testo unico della riscossione al **1° gennaio 2027**. Le guide pubbliche sulla riscossione erano già state corrette il 18 novembre 2026. Questa nota corregge il registro storico e non attesta una nuova modifica delle relative guide. Verifica: [Normattiva, D.L. 200/2025, art. 4](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=4&atto.codiceRedazionale=25G00213&atto.dataPubblicazioneGazzetta=2025-12-31).
+
 # Per Me — Revisione di secondo livello delle 78 guide
 **Data di controllo:** 23 ottobre 2026. **Metodo:** lettura del contenuto sorgente e controllo di struttura, fonti, rischi e affermazioni ad alto impatto, con confronti documentali selettivi. Questo è un audit editoriale **non** un parere professionale, una verifica esaustiva di ogni frase o una certificazione esterna.
 
@@ -56,7 +60,3 @@ Non ci sono nuove guide inventate per aumentare il numero di pubblicazioni.
 - Restano necessari test di comprensione con lettori 50–70 anni, Android fisico e dati autenticati Google Search Console/Cloudflare per misurare l'effettivo utilizzo.
 
 **Conclusione:** il secondo livello ha migliorato un punto previdenziale ad alto rischio e reso automatico un controllo di usabilità già presente. Le verifiche campionate non hanno richiesto altre correzioni indiscriminate alle norme e agli importi confermati da fonti ufficiali. Non confondere assenza di errori trovati nel campione con assenza assoluta di errori nel sito.
-# Nota di aggiornamento del 20 novembre 2026
-
-Questo documento conserva la revisione storica del 23 ottobre. Il suo riferimento all’applicazione del D.Lgs. 33/2025 dal 2026 è superato: l’articolo 4, comma 4, del D.L. 200/2025 ha rinviato l’applicazione del Testo unico della riscossione al **1° gennaio 2027**. Le guide pubbliche sulla riscossione erano già state corrette il 18 novembre 2026. Questa nota corregge il registro storico e non attesta una nuova modifica delle relative guide. Verifica: [Normattiva, D.L. 200/2025, art. 4](https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=4&atto.codiceRedazionale=25G00213&atto.dataPubblicazioneGazzetta=2025-12-31).
-

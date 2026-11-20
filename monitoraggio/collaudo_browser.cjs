@@ -235,7 +235,7 @@ try{
    alt:image.alt,
    caption:image.closest('figure').querySelector('figcaption').textContent
   }));
-  const facebook=page.locator('article a[href="https://www.facebook.com/PerMeGuide/"]');
+  const facebook=page.locator('article a[href="https://www.facebook.com/PerMeGuide"], article a[href="https://www.facebook.com/PerMeGuide/"]');
   const facebookAvailable=await facebook.count()===1&&await facebook.isVisible();
   record('guide20_photo_and_facebook',photo.loaded&&photo.local&&photo.alt.trim().length>0&&
    photo.caption.includes('intelligenza artificiale')&&facebookAvailable,{...photo,facebookAvailable});
