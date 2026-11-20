@@ -28,7 +28,7 @@ permissions:
   contents: write
 concurrency:
   group: per-me-evidenze-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 jobs:
   collaudo:
     if: github.ref == 'refs/heads/main' || github.event_name == 'pull_request'
