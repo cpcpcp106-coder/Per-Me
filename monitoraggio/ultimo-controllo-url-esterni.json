@@ -1,12 +1,12 @@
 {
-  "date_utc": "2026-11-20T09:36:09.322335+00:00",
+  "date_utc": "2026-11-20T09:40:02.686554+00:00",
   "scope": {
-    "pages": 140,
-    "unique_external_urls": 893,
-    "occurrences": 2031
+    "pages": 141,
+    "unique_external_urls": 896,
+    "occurrences": 2036
   },
   "counts": {
-    "raggiungibile": 757,
+    "raggiungibile": 760,
     "bloccato_o_riservato": 122,
     "non_verificato_trasporto": 13,
     "errore_http": 1
@@ -4762,7 +4762,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4788,7 +4788,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -4802,6 +4802,7 @@
         "da-dove-cominciare.html",
         "dieta-mediterranea-scientifica.html",
         "dove-chiedere-aiuto.html",
+        "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -5473,6 +5474,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-app-mobile.app-mobile.inps-mobile.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-app-mobile.app-mobile.inps-mobile.html",
+      "pages": [
+        "inps-mobile-5-novita.html",
+        "inps-mobile-5-novita.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49854.prestazioni-inesportabili-.html",
       "status": "raggiungibile",
       "http": 200,
@@ -6024,6 +6035,15 @@
       "pages": [
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-cessione-del-quinto-della-pensione-52274.la-cessione-del-quinto-della-pensione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.la-cessione-del-quinto-della-pensione-52274.la-cessione-del-quinto-della-pensione.html",
+      "pages": [
+        "inps-mobile-5-novita.html"
       ]
     },
     {
@@ -6580,6 +6600,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.avvio-campagna-red-ordinaria-2026-e-dichiarazioni-di-responsabilit.html",
       "pages": [
         "redditi-red-comunicazioni-obbligatorie-inps.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.rilasciata-la-versione-5-0-dell-app-inps-mobile.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.rilasciata-la-versione-5-0-dell-app-inps-mobile.html",
+      "pages": [
+        "inps-mobile-5-novita.html"
       ]
     },
     {
