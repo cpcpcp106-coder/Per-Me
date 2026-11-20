@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-20",
+  "file": "assets/diabete-guida-20-colloquio-fegato-originale.webp",
+  "original_filename": "exec-3ba7c04b-5aa6-4c70-b2f6-1b4714813d4e.png",
+  "original_sha256": "158c3cf32430984e7fe8e5f152889939bd27ec5325fd49b79cad04b39ef0a83b",
+  "generator": "ChatGPT, generazione integrata di immagini",
+  "reference_images": [],
+  "prompt": "Use case: photorealistic-natural. Asset type: wide editorial photograph for the free Italian website Per Me, guide on type 2 diabetes and liver health (MASLD, MASH, fibrosis). Primary request: an original natural, realistic scene of a man aged around 60–70, fully dressed in everyday clothes, seated with a female physician in a simple contemporary Italian consulting room, calmly discussing a paper medical report on the desk. Both have natural expressions and realistic hands; the man is listening thoughtfully, physician points at the paper. Clear ordinary consultation, not a demonstration of any medical procedure. Paper is turned away or softly out of focus with no legible personal data. Warm daylight, neutral colours, documentary photography, landscape 3:2 composition, suitable as a 1200x800 web hero. No ultrasound screen, no fetus, no pregnancy, no liver diagram, no medical scan, no invented lab values, no logos, no text overlays, no watermarks. Do not imitate any existing photo or recognizable real person.",
+  "processing": "Ridimensionamento a 1200 × 800 e codifica WebP, qualità 86; nessuna modifica al soggetto.",
+  "git_blob_sha": "5e652aec926cd7d3d4293fc3f682de91b785dbb9",
+  "rights_source": "https://openai.com/it-IT/policies/eu-terms-of-use/",
+  "rights_source_checked": "2026-11-20",
+  "disclosure": "Immagine illustrativa generata con AI; non rappresenta un paziente reale né un caso clinico documentato."
+}

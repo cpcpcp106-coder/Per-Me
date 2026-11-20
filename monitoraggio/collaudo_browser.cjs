@@ -228,6 +228,18 @@ try{
  if(width390.scroll>width390.inner+3 || width320.scroll>width320.inner+3)
   allPageOverflow.push({name,width390,width320});
  await page.setViewportSize({width:390,height:844});
+ if(name==='diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html'){
+  const photo=await page.locator('.photo20 img').evaluate(async image=>({
+   loaded:await image.decode().then(()=>image.naturalWidth===1200&&image.naturalHeight===800,()=>false),
+   local:new URL(image.src).origin===location.origin,
+   alt:image.alt,
+   caption:image.closest('figure').querySelector('figcaption').textContent
+  }));
+  const facebook=page.locator('article a[href="https://www.facebook.com/PerMeGuide/"]');
+  const facebookAvailable=await facebook.count()===1&&await facebook.isVisible();
+  record('guide20_photo_and_facebook',photo.loaded&&photo.local&&photo.alt.trim().length>0&&
+   photo.caption.includes('intelligenza artificiale')&&facebookAvailable,{...photo,facebookAvailable});
+ }
  if(pensionerGuides.includes(name)){
   await page.locator('article details').evaluateAll(details=>{for(const detail of details)detail.open=true;});
   for(const width of [320,390]){
@@ -319,6 +331,14 @@ for(const name of practicalGuides){
  }catch(e){offlineGuideIssues.push({name,error:String(e).slice(0,260)})}
 }
 record('practical_guides_updated_and_readable_offline',practicalGuides.length===10 && !offlineGuideIssues.length,{checked:practicalGuides.length,issues:offlineGuideIssues});
+try{
+ await page.evaluate(()=>{location.hash='guida=diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html'});
+ await page.waitForFunction(()=>document.getElementById('reader-title').textContent.includes('fegato'));
+ const liverText=await page.locator('#reader-content').innerText();
+ record('guide20_text_updated_and_readable_offline',liverText.length>1000&&
+  liverText.includes('La scena non rappresenta un caso clinico documentato')&&liverText.includes('MASLD'),
+  {characters:liverText.length,mode:'Testi salvati; il lettore offline non conserva le fotografie delle guide'});
+}catch(e){record('guide20_text_updated_and_readable_offline',false,{error:String(e).slice(0,260)})}
 await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);

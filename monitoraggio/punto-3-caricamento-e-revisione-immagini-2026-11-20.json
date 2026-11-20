@@ -1,0 +1,475 @@
+{
+  "checked_at": "2026-11-20T11:38:28.823872+00:00",
+  "results": [
+    {
+      "url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "pages": [
+        "index.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 43608,
+      "final_url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=900"
+    },
+    {
+      "url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=900",
+      "pages": [
+        "index.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 65079,
+      "final_url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=900"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1758686254501-afb794642cf3?auto=format&fit=crop&w=1400&h=790&q=78",
+      "pages": [
+        "agevolazioni-guida-01-isee-corrente.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 155593,
+      "final_url": "https://images.unsplash.com/photo-1758686254501-afb794642cf3?auto=format&fit=crop&w=1400&h=790&q=78"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-02-bonus-sociali.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 100428,
+      "final_url": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-fvg.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 307901,
+      "final_url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 108145,
+      "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/23720159/pexels-photo-23720159.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-03-trasporti-italia.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 239881,
+      "final_url": "https://images.pexels.com/photos/23720159/pexels-photo-23720159.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 212386,
+      "final_url": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 129225,
+      "final_url": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8962383/pexels-photo-8962383.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 121131,
+      "final_url": "https://images.pexels.com/photos/8962383/pexels-photo-8962383.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 84942,
+      "final_url": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 157762,
+      "final_url": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 158299,
+      "final_url": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-tipo-2.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 104637,
+      "final_url": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "dieta-mediterranea-scientifica.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 120230,
+      "final_url": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 89156,
+      "final_url": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
+      ],
+      "http": 200,
+      "content_type": "image/png",
+      "bytes": 1351741,
+      "final_url": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 104432,
+      "final_url": "https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7108362/pexels-photo-7108362.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 64490,
+      "final_url": "https://images.pexels.com/photos/7108362/pexels-photo-7108362.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-03-farmaci-insulina-sicurezza.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 78655,
+      "final_url": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/11058247/pexels-photo-11058247.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 216296,
+      "final_url": "https://images.pexels.com/photos/11058247/pexels-photo-11058247.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8460126/pexels-photo-8460126.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-05-coronarie-rischio-prevenzione.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 125442,
+      "final_url": "https://images.pexels.com/photos/8460126/pexels-photo-8460126.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-06-scompenso-miocardio-aritmie.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 113394,
+      "final_url": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-07-ictus-tia-prevenzione.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 85004,
+      "final_url": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg?auto=compress&dpr=1&h=750&w=1260"
+    },
+    {
+      "url": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 118744,
+      "final_url": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/32209715/pexels-photo-32209715.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 141994,
+      "final_url": "https://images.pexels.com/photos/32209715/pexels-photo-32209715.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 122411,
+      "final_url": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 80137,
+      "final_url": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 116691,
+      "final_url": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 166945,
+      "final_url": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 93307,
+      "final_url": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 118918,
+      "final_url": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/13185359/pexels-photo-13185359.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 83672,
+      "final_url": "https://images.pexels.com/photos/13185359/pexels-photo-13185359.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 129726,
+      "final_url": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7446660/pexels-photo-7446660.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "pages": [
+        "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 73099,
+      "final_url": "https://images.pexels.com/photos/7446660/pexels-photo-7446660.jpeg?auto=compress&cs=tinysrgb&w=1400"
+    },
+    {
+      "url": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 91026,
+      "final_url": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg?auto=compress&dpr=1&h=750&w=1260"
+    },
+    {
+      "url": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 53936,
+      "final_url": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg?auto=compress&dpr=1&h=750&w=1260"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "pages": [
+        "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 57477,
+      "final_url": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg?auto=compress&cs=tinysrgb&w=1260"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8313180/pexels-photo-8313180.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 58945,
+      "final_url": "https://images.pexels.com/photos/8313180/pexels-photo-8313180.jpeg?auto=compress&dpr=1&h=750&w=1260"
+    },
+    {
+      "url": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg?auto=compress&dpr=1&h=750&w=1260",
+      "pages": [
+        "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 111839,
+      "final_url": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg?auto=compress&dpr=1&h=750&w=1260"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?cs=srgb&dl=pexels-cottonbro-8860200.jpg&fm=jpg",
+      "pages": [
+        "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 2151629,
+      "final_url": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?cs=srgb&dl=pexels-cottonbro-8860200.jpg&fm=jpg"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?cs=srgb&dl=pexels-shvets-production-8413410.jpg&fm=jpg",
+      "pages": [
+        "diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1719011,
+      "final_url": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?cs=srgb&dl=pexels-shvets-production-8413410.jpg&fm=jpg"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?cs=srgb&dl=pexels-shvets-production-8413217.jpg&fm=jpg",
+      "pages": [
+        "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1946832,
+      "final_url": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?cs=srgb&dl=pexels-shvets-production-8413217.jpg&fm=jpg"
+    },
+    {
+      "url": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg?cs=srgb&dl=pexels-artempodrez-6823568.jpg&fm=jpg",
+      "pages": [
+        "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 1904385,
+      "final_url": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg?cs=srgb&dl=pexels-artempodrez-6823568.jpg&fm=jpg"
+    },
+    {
+      "url": "https://images.pexels.com/photos/8657372/pexels-photo-8657372.jpeg?cs=srgb&dl=pexels-cottonbro-8657372.jpg&fm=jpg",
+      "pages": [
+        "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 3020923,
+      "final_url": "https://images.pexels.com/photos/8657372/pexels-photo-8657372.jpeg?cs=srgb&dl=pexels-cottonbro-8657372.jpg&fm=jpg"
+    },
+    {
+      "url": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg?auto=compress&cs=tinysrgb&w=1260",
+      "pages": [
+        "diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ],
+      "http": 200,
+      "content_type": "image/jpeg",
+      "bytes": 91103,
+      "final_url": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg?auto=compress&cs=tinysrgb&w=1260"
+    }
+  ],
+  "scope": "Caricamento di tutte le 43 fotografie stock in uso prima della sostituzione nella Guida 20; alcuni URL sono varianti dimensionali.",
+  "visual_review": {
+    "unique_images_reviewed": 127,
+    "method": "Ispezione visiva delle immagini effettive in tavole di revisione; esclusi loghi e icone tecniche. Nuova immagine sostitutiva osservata separatamente.",
+    "findings": [
+      "Descrizione della foto della home adeguata alla scena visibile.",
+      "Foto ostetrica sostituita nella guida sul fegato."
+    ]
+  },
+  "final_stock_used": 42
+}

@@ -1,0 +1,3970 @@
+{
+  "checked_at_utc": "2026-11-20T11:49:11.881756+00:00",
+  "base_commit": "29c5252f675b424af97dfc2ee9c84aed4703c5ab",
+  "pages": 143,
+  "pages_with_factual_points_reviewed_today": 14,
+  "scope": "Inventario e controlli formali sulle 143 URL in sitemap; confronto mirato con fonti primarie sui soli punti elencati in 14 pagine. Non è una verifica di ogni frase, né una revisione professionale indipendente.",
+  "rows": [
+    {
+      "file": "index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/",
+      "title": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me",
+      "sha256": "fffba58618a60b1b99446d86aa67d8a6a4323436bfbb0b665bb8eb425b729684",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/foto-1.webp",
+          "alt": "Una donna legge un documento al tavolo di casa",
+          "asset": "assets/foto-1.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/inps-mobile-5-originale.webp",
+          "alt": "Un uomo adulto con gli occhiali usa lo smartphone a casa.",
+          "asset": "assets/inps-mobile-5-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/foto-2.webp",
+          "alt": "Un uomo controlla i conti di casa",
+          "asset": "assets/foto-2.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/foto-3.webp",
+          "alt": "Un uomo esamina i documenti per la pensione",
+          "asset": "assets/foto-3.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensionati-estero-rubrica.webp",
+          "alt": "Una coppia di pensionati consulta una mappa e un quaderno",
+          "asset": "assets/pensionati-estero-rubrica.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/foto-4.webp",
+          "alt": "Un uomo legge le bollette",
+          "asset": "assets/foto-4.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/foto-5.webp",
+          "alt": "Una donna con una cartellina cammina in città",
+          "asset": "assets/foto-5.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/foto-6.webp",
+          "alt": "Colloquio con una professionista sanitaria",
+          "asset": "assets/foto-6.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-base-foto-originale.webp",
+          "alt": "Un uomo usa lo smartphone accanto al computer",
+          "asset": "assets/tutor-ai-base-foto-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=900",
+          "alt": "Misurazione della glicemia con un glucometro",
+          "asset": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        },
+        {
+          "src": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=900",
+          "alt": "Insalata con verdure, olive e formaggio",
+          "asset": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        },
+        {
+          "src": "ritratto-enrico.webp",
+          "alt": "Ritratto di Enrico, autore di Per Me",
+          "asset": "ritratto-enrico.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "modelli-e-strumenti.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/modelli-e-strumenti.html",
+      "title": "Modelli e strumenti gratuiti | Per Me",
+      "sha256": "d560ff3fcef14afb3fcced574454ee75e9da52b24592e87454069515fa6ad32f",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dove-chiedere-aiuto.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dove-chiedere-aiuto.html",
+      "title": "Dove chiedere aiuto per una pratica | Per Me",
+      "sha256": "feacab5fe727fda4a16fd0fde403e79b84c48f885ff6d79ff3330e82d4532278",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "scadenze-del-mese.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/scadenze-del-mese.html",
+      "title": "Scadenze del mese per le tue pratiche | Per Me",
+      "sha256": "09279284e442757150dcdeb233652ac3e09338d7f68a4483ded52742042f6fd4",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutorial-smartphone.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutorial-smartphone.html",
+      "title": "Tutorial per usare Per Me sul telefono | Per Me",
+      "sha256": "935f1c0343a49797c3db535ec3a7a5072491036c2bfb9cf356c190270dfd5922",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutorial-per-me-ricerca.png",
+          "alt": "Il campo Cerca una guida contiene cauzione. Il primo risultato è Come chiedere la restituzione della cauzione.",
+          "asset": "assets/tutorial-per-me-ricerca.png",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/tutorial-per-me-salva-guide.png",
+          "alt": "Nell’app Per Me, sotto Pagine e guide, c’è il pulsante Aggiorna le guide.",
+          "asset": "assets/tutorial-per-me-salva-guide.png",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/tutorial-per-me-indirizzo.png",
+          "alt": "Indirizzo dell’alloggio è l’etichetta del primo campo del verbale, qui lasciato vuoto.",
+          "asset": "assets/tutorial-per-me-indirizzo.png",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/tutorial-per-me-salva-verbale.png",
+          "alt": "Pulsante Stampa o salva in PDF, in fondo al modulo.",
+          "asset": "assets/tutorial-per-me-salva-verbale.png",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "metodo.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/metodo.html",
+      "title": "Il metodo | Per Me",
+      "sha256": "46a4728981078d02fba0bd1a9bc6cd1a49c64e947e861f47d80085668409e323",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "chi-siamo.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/chi-siamo.html",
+      "title": "Il progetto | Per Me",
+      "sha256": "9a16d986676500afe835a4682d47d95c55d539037949db945fd476ccad0e0363",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "soldi-lavoro.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/soldi-lavoro.html",
+      "title": "Busta paga, stipendio e lavoro: guide pratiche | Per Me",
+      "sha256": "2013198741c82894be89e7029991287a14f77c2a4baccf265929afa9d9720aad",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/Uomo%20pensieroso%20tra%20conti%20e%20campagna%20%E6%81%92%E4%B8%80.png",
+          "alt": "Uomo adulto controlla documenti, busta paga e conti a un tavolo di casa",
+          "asset": "assets/Uomo pensieroso tra conti e campagna 恒一.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pensione-invalidita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html",
+      "title": "Pensione e invalidità: AOI, contributi e ricorsi INPS | Per Me",
+      "sha256": "71e82dca878084979f022ce0e4791cc8b779215294fc7d9068c1e57fb18fa5d1",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-invalidita.jpg",
+          "alt": "Persona anziana osserva un panorama italiano davanti a cartelli che distinguono pensione, invalidità civile e assegno ordinario di invalidità",
+          "asset": "assets/pensione-invalidita.jpg",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pensionati-estero.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero.html",
+      "title": "Da pensionati conviene trasferirsi all’estero? | Per Me",
+      "sha256": "99536de4d48d239aec4607ec75e9b2d456405fd5816ef2dac2e5096a1c9bb563",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensionati-estero-rubrica.webp",
+          "alt": "Una coppia consulta una mappa e un quaderno al tavolo di casa",
+          "asset": "assets/pensionati-estero-rubrica.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pensionati-estero-budget.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-budget.html",
+      "title": "Come capire se conviene vivere all’estero da pensionati | Per Me",
+      "sha256": "7094db3affa6a521d0523e0b7e7706b5dca6cff443c33d83ad56305ef5933bf0",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensionati-estero-bilancio.webp",
+          "alt": "Una donna fa i conti su un quaderno con la calcolatrice accanto",
+          "asset": "assets/pensionati-estero-bilancio.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pensionati-estero-trasferimento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-trasferimento.html",
+      "title": "Come trasferirsi all’estero da pensionati | Per Me",
+      "sha256": "b5828617b789d346eee02c72ec97e2cbb3b96a7cc8407aee9e8dfd2464fd10a9",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensionati-estero-pratiche.webp",
+          "alt": "Un uomo esamina un modulo con un’impiegata allo sportello",
+          "asset": "assets/pensionati-estero-pratiche.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pensionati-estero-mete.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-mete.html",
+      "title": "Dove trasferirsi da pensionati | Per Me",
+      "sha256": "3efffb587356d7952d6f526158095d5f7cf6fb82d953e72eff3777d1dec048dc",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensionati-estero-mete.webp",
+          "alt": "Due persone camminano con la spesa in una via di un quartiere mediterraneo",
+          "asset": "assets/pensionati-estero-mete.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "come-leggere-busta-paga.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/come-leggere-busta-paga.html",
+      "title": "Come leggere una busta paga | Per Me",
+      "sha256": "00301d9bf40766607c032505ec4f51b3a3ceb0f15dd2813740883303f25664fe",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/Uomo%20concentrato%20tra%20pratiche%20e%20calcolatrice.png",
+          "alt": "Uomo che controlla una busta paga con calcolatrice al tavolo di casa",
+          "asset": "assets/Uomo concentrato tra pratiche e calcolatrice.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "title": "INPS: pagamento sospeso o domanda respinta, che fare? | Per Me",
+      "sha256": "b485ec41260cef9aaaf91f76e56d4f4d928f53b13491801f4c814bd4535678ea",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-01.jpg",
+          "alt": "Ufficio previdenziale con indicazioni per pensioni, invalidità, prestazioni e pagamenti e fascicoli informativi sul tavolo",
+          "asset": "assets/pensione-guida-01.jpg",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assegno-ordinario-invalidita-requisiti-conferma.html",
+      "title": "Assegno ordinario di invalidità: requisiti e conferma | Per Me",
+      "sha256": "d41e24d5c1c5aaaf24fe9aa950623c157ec56bd2293492b254a0dfe5525b7f52",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-02.jpg",
+          "alt": "Uomo anziano esamina una comunicazione illustrativa sull'assegno ordinario di invalidità insieme a fascicoli su requisiti, domanda e conferma",
+          "asset": "assets/pensione-guida-02.jpg",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "aoi-invalidita-civile-differenze.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/aoi-invalidita-civile-differenze.html",
+      "title": "AOI e invalidità civile: differenze, requisiti e compatibilità | Per Me",
+      "sha256": "38c6796e5cd6e1dc05897994ccf4bdc02815dc3f3a42f678022c1ecb2f0b636e",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-03.webp",
+          "alt": "Uomo maturo osserva due percorsi distinti, una bottega di lavoro e un ambiente di assistenza, in una piazza italiana",
+          "asset": "assets/pensione-guida-03.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "title": "Invalidità civile e legge 104: come leggere il verbale INPS | Per Me",
+      "sha256": "418ce796f348ae6b1fa3e1f5557e0c099fa8d998cf0bc487c2dc6f9b51bb9a0c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-04.webp?v=20261014-correzione-braccia",
+          "alt": "Uomo maturo legge un documento, con una mano sul mento e l’altra che tiene il foglio",
+          "asset": "assets/pensione-guida-04.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "title": "Cedolino pensione, OBIS/M e arretrati: guida ai controlli INPS | Per Me",
+      "sha256": "8f420f2e3a3f82a7c2a12f5e03d153e3c3aa53417d480d63a3444175e68a8193",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-05.webp?v=donna-20261014",
+          "alt": "Donna matura consulta un documento e controlla i conti con una calcolatrice nel soggiorno di casa",
+          "asset": "assets/pensione-guida-05.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "contributi-inps-estratto-conto-pensione-vicina.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html",
+      "title": "Contributi INPS, estratto conto e pensione vicina: guida 2026 | Per Me",
+      "sha256": "075219cfda7cbd23efa54ff58b669b2fd23a86dd08b3c68fdfdb925663eb2d6d",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-06.webp?v=pc-20261014",
+          "alt": "Persona matura consulta i contributi al computer nel proprio studio, con appunti e documenti a disposizione",
+          "asset": "assets/pensione-guida-06.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "redditi-red-comunicazioni-obbligatorie-inps.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/redditi-red-comunicazioni-obbligatorie-inps.html",
+      "title": "Redditi, RED e comunicazioni obbligatorie INPS | Guida 07 Per Me",
+      "sha256": "36786cb37435302b233cf50788c8a97d6ed88a002c4facb9378b07d15d2e8712",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-07.webp?v=20261014",
+          "alt": "Una donna matura verifica una comunicazione ricevuta mentre consulta il telefono, all'ingresso di casa",
+          "asset": "assets/pensione-guida-07.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "riesame-ricorso-inps-termini.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/riesame-ricorso-inps-termini.html",
+      "title": "Riesame e ricorso INPS: come scegliere e rispettare i termini | Per Me",
+      "sha256": "3ea2121337f3f3d575d389cde16ad57e489d7c344038d627a4c05c5419289bed",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pensione-guida-08.webp?v=20261014",
+          "alt": "Un uomo maturo e una professionista esaminano insieme un documento durante un colloquio di consulenza",
+          "asset": "assets/pensione-guida-08.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "INPS ricorsi: 90 giorni e specifiche eccezioni di 30 giorni; autotutela senza sospensione dei termini"
+      ]
+    },
+    {
+      "file": "debiti-cartelle.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-cartelle.html",
+      "title": "Debiti e cartelle: 9 guide pratiche | Per Me",
+      "sha256": "93141afa3e629a9985d0d6ef42d13c994c5ef67aa4bd63069f241460fa2b71c7",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-consulenza-approvata.png",
+          "alt": "Fotografia: un uomo anziano esamina un documento insieme a una consulente in un ufficio.",
+          "asset": "assets/debiti-consulenza-approvata.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "debiti-guida-01-leggere-cartella.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-01-leggere-cartella.html",
+      "title": "Ho ricevuto una cartella: cosa controllare | Per Me",
+      "sha256": "34dad359709180f751c50b8eb65b8495cb260a000394985faea85442b99b0d58",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-01-notifica.webp",
+          "alt": "Fotografia realistica: una donna adulta alla porta di casa riceve una busta da un addetto alla consegna.",
+          "asset": "assets/debiti-guida-01-notifica.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "debiti-guida-02-controllare-debiti.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-02-controllare-debiti.html",
+      "title": "Controllare quanto devo davvero: cartelle, pagamenti e rate | Per Me",
+      "sha256": "848d02ddaf89c7bb6916bdda43d6cc282901b813f53cc98a4b933d5ff16f3626",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-02-verifica-online.webp",
+          "alt": "Fotografia realistica: una donna anziana consulta un computer in biblioteca, con un taccuino per prendere appunti.",
+          "asset": "assets/debiti-guida-02-verifica-online.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "debiti-guida-03-cartella-errata.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-03-cartella-errata.html",
+      "title": "Debito sbagliato: sospensione e contestazione | Debiti e cartelle | Per Me",
+      "sha256": "9b409c5b5888c9484dfadd63d826499ba17b7bcf0c35fd76470f808a9adf637a",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-03-prove-documenti.webp",
+          "alt": "Fotografia realistica: un uomo anziano controlla una ricevuta e un documento davanti a un archivio di cartelle personali, alla ricerca delle prove di un pagamento.",
+          "asset": "assets/debiti-guida-03-prove-documenti.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Rinvio Testo unico della riscossione al 2027"
+      ]
+    },
+    {
+      "file": "debiti-guida-04-rateizzazione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-04-rateizzazione.html",
+      "title": "Rateizzare le cartelle nel 2026: rate, costi e rischi | Per Me",
+      "sha256": "b043fbe0c6e4442b0d93591998b7a43b8ed49c5f773252f0619dadb8c4f8a342",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-04-spesa-sostenibile.webp",
+          "alt": "Fotografia realistica: una donna anziana confronta i prezzi dei generi alimentari con la lista della spesa in un supermercato.",
+          "asset": "assets/debiti-guida-04-spesa-sostenibile.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "debiti-guida-05-rottamazione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-05-rottamazione.html",
+      "title": "Rottamazione 2026: enti aderenti, requisiti e scadenze | Per Me",
+      "sha256": "94a94a6f47d16e42c9761e3a2c5ececa9076dcbdb89f5eb603b5b648f7781219",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-05-avvisi-comunali.webp",
+          "alt": "Fotografia realistica: due donne consultano gli avvisi esposti all'esterno di un edificio comunale in una piazza italiana.",
+          "asset": "assets/debiti-guida-05-avvisi-comunali.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "debiti-guida-06-fermo-pignoramento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html",
+      "title": "Fermo amministrativo, ipoteca e pignoramento | Per Me",
+      "sha256": "e4265c28667889965e55de050f63c49ed75cd951283bf4227da2e55341359b4d",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-06-fermo-auto.webp",
+          "alt": "Fotografia realistica: un uomo anziano legge un documento accanto alla propria auto parcheggiata in una strada alberata.",
+          "asset": "assets/debiti-guida-06-fermo-auto.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "DPR 602/1973 e frazioni dello stipendio pignorabile da AdeR"
+      ]
+    },
+    {
+      "file": "debiti-guida-07-banche-bollette.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-07-banche-bollette.html",
+      "title": "Debiti con banche, bollette e creditori privati | Guida 07 Per Me",
+      "sha256": "64ee4bc2473d810d6be81a581eb5e81e079b2cd5f27b2b9fb5e46751fa6b4338",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-07-verifica-contatori.webp",
+          "alt": "Fotografia realistica: una donna controlla e fotografa i contatori nell'androne di un condominio, tenendo in mano una bolletta.",
+          "asset": "assets/debiti-guida-07-verifica-contatori.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "debiti-guida-08-sovraindebitamento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html",
+      "title": "Sovraindebitamento 2026: OCC, procedure e rischi | Guida 08 Per Me",
+      "sha256": "e7034fda7b5a6379472aa952062189b808f044bea794dfa7dd0cb21c55f71322",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-08-nuova-prospettiva.webp",
+          "alt": "Fotografia realistica: un uomo maturo affacciato a un balcone guarda un borgo italiano illuminato dal sole, con colline sullo sfondo.",
+          "asset": "assets/debiti-guida-08-nuova-prospettiva.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Articolo 283: tre anni per le nuove utilità e beneficio una volta"
+      ]
+    },
+    {
+      "file": "debiti-guida-09-a-chi-rivolgersi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html",
+      "title": "A chi rivolgersi per debiti e cartelle | Guida 09 Per Me",
+      "sha256": "d088e29e97e815d9468d7a0ad7c8ffd6bba3166d9996b07ab3a32a0a5e356de6",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "alt": "Fotografia realistica: un uomo maturo e una consulente esaminano insieme dei documenti in un ufficio luminoso.",
+          "asset": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-01-isee-corrente.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html",
+      "title": "ISEE ordinario e corrente 2026: requisiti, documenti e domanda | Per Me",
+      "sha256": "0944619ecf44cf5190cc9cf21423796d01b34f96f9e758847b1d836c4f2e722b",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.unsplash.com/photo-1758686254501-afb794642cf3?auto=format&fit=crop&w=1400&h=790&q=78",
+          "alt": "Fotografia realistica: una coppia anziana consulta insieme un computer portatile nella propria abitazione.",
+          "asset": "https://images.unsplash.com/photo-1758686254501-afb794642cf3",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-02-bonus-sociali.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html",
+      "title": "Bonus sociali 2026: luce, gas, acqua e TARI | Per Me",
+      "sha256": "427b871774f77e0d92f360b26a5d1659f5513ada2442d281f41ce07f2aa853f0",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica di una donna anziana seduta a casa che esamina documenti di spesa e bollette.",
+          "asset": "https://images.pexels.com/photos/7545331/pexels-photo-7545331.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-03-trasporti-fvg.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html",
+      "title": "Trasporti agevolati FVG 2026: invalidità e over 65 | Per Me",
+      "sha256": "3769315d26a238fa5c111ddc527a16e8a65d8baff6b9d21a91d2616c2b001cdc",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica: persone adulte, fra cui una persona anziana in carrozzina, attendono alla fermata di un autobus in una città europea.",
+          "asset": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Abbonamenti agevolati FVG: prezzo 1,5%; over 65 al 50%; non inventato il tetto reddituale 2026"
+      ]
+    },
+    {
+      "file": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "title": "Esenzioni ticket sanitari FVG 2026: reddito, diabete, invalidità | Per Me",
+      "sha256": "e1f8c8d1cd3f532ed4bbe516cfb9bd356c34af657e2abf65e59f0f5c0b2b7980",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica: un paziente anziano parla con una professionista sanitaria durante una visita in ambulatorio.",
+          "asset": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Codici E01-E04, reddito fiscale e validità E02"
+      ]
+    },
+    {
+      "file": "agevolazioni-diritti.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-diritti.html",
+      "title": "ISEE, bonus, ticket e aiuti: guide e diritti | Per Me",
+      "sha256": "2606c7432ad93b23a7a4f45013be57898bfb81f402cc64333f0dc3c6a9036326",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "alt": "Una persona adulta riceve orientamento sui propri documenti",
+          "asset": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "app/index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/",
+      "title": "Per Me · Guide offline",
+      "sha256": "81dc1df498e3b473cd2437a12001a23f5d6765862a48037d977ce1d679ad2440",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "icon-192.png",
+          "alt": "",
+          "asset": "app/icon-192.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ccnl-inquadramento-livello-superminimo.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ccnl-inquadramento-livello-superminimo.html",
+      "title": "CCNL, livello e superminimo: come controllarli | Per Me",
+      "sha256": "edbe88737b1b576e3a68ea0bc93a8c77cda88b755d8930830d096b62f6c98b4f",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "Donna%20anziana%20al%20lavoro%20tra%20documenti%20e%20piante.png",
+          "alt": "Donna con gli occhiali che esamina documenti contrattuali al tavolo, accanto a un computer",
+          "asset": "Donna anziana al lavoro tra documenti e piante.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "title": "Come controllare il cedolino con CIG o solidarietà | Per Me",
+      "sha256": "d271494ed90bb1615a559145fedbeffd568f738e183fd478ebe07e55c2843b48",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "Immagine%20ChatGPT%2012%20ott%202026%2C%2018_56_26-1.png",
+          "alt": "Persona adulta alle prese con conti e documenti sul tavolo",
+          "asset": "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dal-lordo-al-netto.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dal-lordo-al-netto.html",
+      "title": "Dal lordo al netto: contributi e imposte | Per Me",
+      "sha256": "922dbc15a859bb0b60f1a90a85a1e6eb855b9ea7fe7d2ba31b12550c83c3738a",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/foto-3.webp",
+          "alt": "Uomo che confronta documenti economici e calcoli per comprendere la busta paga",
+          "asset": "assets/foto-3.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-mediterranea-ricette.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-ricette.html",
+      "title": "Ricette mediterranee | Per Me",
+      "sha256": "9a027442f2c3108a39bc1d0b0e7952e8a2b2e2b94155e7331f628fdc576fa418",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-minestre-legumi-originale.webp",
+          "alt": "Pasta integrale corta con lenticchie, carote e pomodoro in una ciotola di terracotta.",
+          "asset": "assets/dieta-minestre-legumi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/dieta-piatti-legumi-originale.webp",
+          "alt": "Riso integrale, ceci e cimette di broccoli in una ciotola color avorio.",
+          "asset": "assets/dieta-piatti-legumi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/dieta-pesce-originale.webp",
+          "alt": "Filetto di sgombro cotto con patate a spicchi e broccoli su un piatto chiaro.",
+          "asset": "assets/dieta-pesce-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/dieta-uova-carne-bianca-originale.webp",
+          "alt": "Uova strapazzate ben rapprese con broccoli e due fette di pane integrale tostato.",
+          "asset": "assets/dieta-uova-carne-bianca-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/dieta-ricotta-originale.webp",
+          "alt": "Pasta integrale corta con foglie di spinaci e fiocchi di ricotta.",
+          "asset": "assets/dieta-ricotta-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/dieta-colazioni-originale.webp",
+          "alt": "Ciotola di yogurt bianco con fiocchi di avena, fettine di pera e noci.",
+          "asset": "assets/dieta-colazioni-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "monitoraggio.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/monitoraggio.html",
+      "title": "Monitoraggio delle fonti | Per Me",
+      "sha256": "9efe28c0e9b8582a45c5f6e7afb50ebc19ec2d7e119de4ab888e3c123ee13a19",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ore-ferie-permessi-malattia-straordinari.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ore-ferie-permessi-malattia-straordinari.html",
+      "title": "Ore, ferie, permessi e straordinari | Per Me",
+      "sha256": "5b78010b4f924a3f8d662b11e54a61f3a80df11db84660fac91b540b75883427",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "Uomo%20anziano%20pianifica%20il%20bilancio%20domestico.png",
+          "alt": "Uomo con gli occhiali che confronta calendario delle presenze e documenti a casa",
+          "asset": "Uomo anziano pianifica il bilancio domestico.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-autonomia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-autonomia.html",
+      "title": "Salute e autonomia: cuore, infarto e visite | Per Me",
+      "sha256": "2d10430ab38b156bffae9a57d79898e816a12ec40c73baebc90e791be5ad4299",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+          "alt": "Una donna anziana organizza il ritorno a casa con una familiare",
+          "asset": "assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "title": "Fascicolo sanitario elettronico: referti, SPID, CIE e privacy | Per Me",
+      "sha256": "3bdddbe753a4debacf666ac4d3cdb660fc11cc5f1d9b1db6223ec1a7ce21c156",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-01-visita-medica.jpg",
+          "alt": "Immagine illustrativa di una visita medica, già utilizzata nella Guida 01",
+          "asset": "assets/salute-guida-01-visita-medica.jpg",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-01-preparare-visita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-01-preparare-visita.html",
+      "title": "Diabete e cuore: come preparare una visita | Guida 01 Per Me",
+      "sha256": "7084ec17e05964b4ed4d0d9f8d67e8ba124fe70b654f6bd036332dd91a0278f5",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-01-visita-medica.jpg",
+          "alt": "Su una scrivania, mani durante un colloquio medico esaminano medicinali e documenti, con uno stetoscopio accanto.",
+          "asset": "assets/salute-guida-01-visita-medica.jpg",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "stipendio-diminuito-cosa-controllare.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/stipendio-diminuito-cosa-controllare.html",
+      "title": "Lo stipendio è diminuito: cosa controllare | Per Me",
+      "sha256": "275485151c269e9041a393b21f544ca4293ea75bf7c09032dde4507637ac4b76",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "Uomo%20pensieroso%20alle%20prese%20con%20i%20documenti.png",
+          "alt": "Uomo che esamina documenti e cedolini con una calcolatrice sul tavolo di casa",
+          "asset": "Uomo pensieroso alle prese con i documenti.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html",
+      "title": "Tutor AI essenziale · 30 richieste da copiare | Per Me",
+      "sha256": "73f9741d2968c9770cf39035fe7d53cd237a7772d9391783d3f8f902dae88544",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-base-foto-originale.webp",
+          "alt": "Uomo adulto con capelli e barba bianchi consulta uno smartphone al tavolo con quaderno e computer accanto",
+          "asset": "assets/tutor-ai-base-foto-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai-android-primi-passi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-android-primi-passi.html",
+      "title": "Usare una chat AI su Android: guida pratica | Per Me",
+      "sha256": "846434da204261b83801b941b39fc72eef8bd26f64560a7a161ae08e9dd16a03",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-android-foto-donna.webp",
+          "alt": "Donna adulta con capelli grigi e occhiali usa uno smartphone seduta al tavolo di cucina accanto a un quaderno",
+          "asset": "assets/tutor-ai-android-foto-donna.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/tutor-ai-android-foto-uomo.webp",
+          "alt": "Uomo adulto con capelli e barba bianchi legge un testo sul telefono e lo confronta con appunti su carta",
+          "asset": "assets/tutor-ai-android-foto-uomo.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai-conversazione-correzioni.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-conversazione-correzioni.html",
+      "title": "Come continuare una conversazione AI e correggere gli errori | Per Me",
+      "sha256": "435b414d742e5fc5278491b27f258a688672a7e1ec021f60c26e6c5f990e2c10",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-dialogo-originale.webp",
+          "alt": "Persona adulta riflette su un messaggio nel telefono",
+          "asset": "assets/tutor-ai-dialogo-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai-verifica-fonti-date.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-verifica-fonti-date.html",
+      "title": "Verificare date, numeri e fonti citate dall'intelligenza artificiale | Per Me",
+      "sha256": "b31643dfded21c5f66681df8e773df04aef54530a0afb43d8f2bddd0b8645d13",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-fonti-originale.webp",
+          "alt": "Persona adulta confronta un documento con il contenuto nel computer",
+          "asset": "assets/tutor-ai-fonti-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai-riassumere-confrontare.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-riassumere-confrontare.html",
+      "title": "Riassumere e confrontare due testi con l'AI | Per Me",
+      "sha256": "5e23306853f5a7875a2722ea49eddd04b1cc7bc040b40539a271b0ea0ed67c00",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-confronto-originale.webp",
+          "alt": "Persona adulta confronta due fogli sul tavolo",
+          "asset": "assets/tutor-ai-confronto-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai-privacy-truffe.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-privacy-truffe.html",
+      "title": "Privacy, truffe e messaggi ingannevoli: usare l'AI in sicurezza | Per Me",
+      "sha256": "1a53d88ce13db149bb19cda7ef1975636295d9d7ba079c62afea61f1fa4bdb5f",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-sicurezza-originale.webp",
+          "alt": "Persona adulta controlla con attenzione un messaggio sullo smartphone",
+          "asset": "assets/tutor-ai-sicurezza-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tutor-ai-quando-chiedere-aiuto.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-quando-chiedere-aiuto.html",
+      "title": "Quando fermare l'AI e rivolgersi a un professionista | Per Me",
+      "sha256": "b7856a055389824b4ff007a192fda636a529a854351d9d78b329fefef35250f3",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tutor-ai-professionisti-originale.webp",
+          "alt": "Colloquio tra persona adulta e professionista davanti a documenti",
+          "asset": "assets/tutor-ai-professionisti-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-03-trasporti-italia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-italia.html",
+      "title": "Agevolazioni trasporti in Italia | Per Me",
+      "sha256": "9245318813a060c84df568a3c1cbf8333d778a949f52004fa7abe1dab13f8ff7",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/23720159/pexels-photo-23720159.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica di un uomo anziano che cammina lungo una banchina ferroviaria.",
+          "asset": "https://images.pexels.com/photos/23720159/pexels-photo-23720159.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-italia.html",
+      "title": "Esenzioni ticket: guida nazionale | Per Me",
+      "sha256": "43908fb3f687eae5c0eb7c7f8a9977b51adeb110f3368eb25198569bab2b1865",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica di una persona che parla con una professionista sanitaria durante una visita.",
+          "asset": "https://images.pexels.com/photos/4266930/pexels-photo-4266930.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+      "title": "Comune e servizi sociali: come chiedere aiuto in Italia | Per Me",
+      "sha256": "2cd4cfb99834232c9ddcc1babf8b8bf9926ed77035765ba7dba28ae4b5162d24",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica di tre persone adulte sedute a un tavolo durante un colloquio di orientamento, con documenti davanti.",
+          "asset": "https://images.pexels.com/photos/9870140/pexels-photo-9870140.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "title": "Affitto non pagato, contributi e sfratto: cosa fare in Italia | Per Me",
+      "sha256": "f25e06d97a6e3bbc4b54d6db8627c36d151ed5b58502debe44e2c3b1fa85fb33",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8962383/pexels-photo-8962383.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia realistica: due donne esaminano documenti in una cucina, con scatoloni per un trasloco.",
+          "asset": "https://images.pexels.com/photos/8962383/pexels-photo-8962383.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "title": "Avvocato a spese dello Stato: requisiti e domanda 2026 | Per Me",
+      "sha256": "7c7bb98db5cd589558b1d7254f8b04af066563c97405ee8b8b47aa3a0834d2f2",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Un uomo anziano seduto a un tavolo d'ufficio ascolta un consulente che gli illustra alcuni documenti.",
+          "asset": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "title": "Assegno unico e aiuti alle famiglie nel 2026: guida nazionale | Per Me",
+      "sha256": "32ebd6b2715e8b98564176281da3ec3d923771204c26239cf979dc23aaeb4bcc",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Una madre seduta a un tavolo di casa lavora al computer mentre un bambino gioca accanto a lei.",
+          "asset": "https://images.pexels.com/photos/8035972/pexels-photo-8035972.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "agevolazioni-guida-09-locazioni-abitative.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-09-locazioni-abitative.html",
+      "title": "Casa in affitto, dal contratto alla riconsegna | Per Me",
+      "sha256": "2d3c1edadf72065c22a601966e95b47e9963f46c9b5d245b8fa9ee44a95892d2",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/agevolazioni-guida-09-locazioni.webp",
+          "alt": "Chiavi, penna e una cartellina sul tavolo di un appartamento.",
+          "asset": "assets/agevolazioni-guida-09-locazioni.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "strumenti/verbale-riconsegna-locazione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/verbale-riconsegna-locazione.html",
+      "title": "Verbale di riconsegna della casa in affitto | Per Me",
+      "sha256": "c756c541045b720163d2e0e513788e3503acb21f883119589382ae804fe9ea85",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "../assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "title": "Cardiopatia ischemica: infarto, stent e bypass | Per Me Guida 02",
+      "sha256": "09e81e7a6a1bb7a3ce8ef6c412641f5fd7e70d94770a8a1b6fd4a7bbe5978ea8",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Una persona anziana ascolta un medico durante un colloquio in ambulatorio, entrambi con mascherina.",
+          "asset": "https://images.pexels.com/photos/8413300/pexels-photo-8413300.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-tipo-2.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-tipo-2.html",
+      "title": "Diabete tipo 2: controlli, terapie e complicanze | Per Me",
+      "sha256": "404914357d2676ecc5b38b4debb778dac97dd93aa6701a7b7d357b5c82abf1c1",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Mani che usano un glucometro con striscia reattiva per misurare la glicemia.",
+          "asset": "https://images.pexels.com/photos/6941101/pexels-photo-6941101.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-mediterranea-scientifica.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-scientifica.html",
+      "title": "Dieta mediterranea scientifica | Per Me",
+      "sha256": "f6426c06436ff2e0d7a4dee20090ea85454a324dee61a3486b98c87c683081c0",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Insalata mediterranea colorata con verdure, olive e formaggio in un piatto.",
+          "asset": "https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "title": "Dieta mediterranea e cuore: prevenzione, studi e limiti | Per Me",
+      "sha256": "489f10b5f3dbaebf80cc0dc8c549c90022bd588f22ad70181ef73e086b97a1d7",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida02-originale.webp",
+          "alt": "Tavola mediterranea con fagioli, pesce, verdure, pane, olio extravergine e frutta in una cucina luminosa",
+          "asset": "assets/dieta-mediterranea-guida02-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "title": "Carboidrati, fibre, indice e carico glicemico: guida pratica | Per Me",
+      "sha256": "6ae2205f0348b5b1ffefdc192c7a88bcb64d733904b4d878cefc061e36d9f2df",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida01-originale.webp",
+          "alt": "Tavola mediterranea con fagioli, pesce, cereali, verdure, frutta e olio extravergine",
+          "asset": "assets/dieta-mediterranea-guida01-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "title": "Porzioni, pesi crudi e cotti e tabelle CREA: guida pratica | Per Me",
+      "sha256": "49a7ee698384ef23fb40f840525f0ece6214287608c8009bba65fd59b1ab6587",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp",
+          "alt": "Fotografia illustrativa con due ciotole di penne, una secca e una cotta, e una bilancia da cucina",
+          "asset": "assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "title": "Grassi alimentari e olio extravergine: origine, etichette, porzioni e costo | Per Me",
+      "sha256": "19f80162f2163766105c1df6da2c0fe58340f8d54f3324df8c76beaa4abf4898",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+          "alt": "Fotografia illustrativa di olio d'oliva in bottiglia scura, olive, bilancia con ciotolina d'olio, pomodori, borlotti, pesce e noci su un tavolo",
+          "asset": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "title": "Diabete tipo 2 e cuore: una dieta adatta a entrambi, senza ricette miracolose | Per Me",
+      "sha256": "b0dfc74cc83fa1ea01ce07bd231ebede925dc536248a5a288ccb9c096fba62d8",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida02-originale.webp",
+          "alt": "Tavola mediterranea con legumi, cereali, verdure, pesce e olio extravergine",
+          "asset": "assets/dieta-mediterranea-guida02-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "SGLT2, dieta chetogenica e assistenza urgente per sintomi compatibili con chetoacidosi"
+      ]
+    },
+    {
+      "file": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "title": "Leggere le etichette: carboidrati, zuccheri, sale e allergeni | Per Me",
+      "sha256": "70e36c9f7f0cd84e01ad48f3c06279de6ca1e7d517e89e18e14958948c5c66a5",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+          "alt": "Olio extravergine, verdure, legumi e altri alimenti sul tavolo",
+          "asset": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "title": "Ricette mediterranee economiche: foto, carboidrati e calorie per porzione | Per Me",
+      "sha256": "b3419b18deba4910931b9428dc419586fbd6c03ac7aa1f4212906a1751b8bf8c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+          "alt": "Zuppa mediterranea di lenticchie con patate e carote in una ciotola rustica",
+          "asset": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-zuppa-lenticchie-patate-carote.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-lenticchie-patate-carote.html",
+      "title": "Zuppa di lenticchie, patate e carote: 40 g di carboidrati e 298 kcal | Per Me",
+      "sha256": "8d8d76e8c3ad3ac047825fbf462eaec14b62f1156463c946f7159324fb656eb3",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+          "alt": "Ciotola di zuppa di lenticchie con tocchetti di patate e rondelle di carote, fotografia illustrativa realistica",
+          "asset": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "title": "Insalata tiepida di borlotti e riso integrale: 36,1 g carboidrati, 287 kcal | Per Me",
+      "sha256": "58223ca471f5c3b6c031f2ebdd35a7f8b75f2f294f09c61b948c598eb29745df",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-borlotti-riso-piatto-originale-hd.webp",
+          "alt": "Ciotola di insalata tiepida con borlotti, riso integrale e pomodori a pezzi, fotografia illustrativa originale",
+          "asset": "assets/ricetta-borlotti-riso-piatto-originale-hd.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "title": "Pasta integrale con crema di ceci, cavolfiore e rosmarino | Per Me",
+      "sha256": "cf68108311a2cf1401e9cf43635b939850552c34e39894d43a4317475be272e0",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-pasta-integrale-ceci-cavolfiore-originale.webp",
+          "alt": "Fusilli integrali con crema di ceci, ceci interi, cimette di cavolfiore e rosmarino tritato.",
+          "asset": "assets/ricetta-pasta-integrale-ceci-cavolfiore-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "title": "Riso integrale saltato con pollo, radicchio e noci | Per Me",
+      "sha256": "7fb9965881c2360f17ac1a2d947ee1e8f072f175836e11060b7d46210d150520",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-riso-integrale-pollo-radicchio-noci-originale.webp",
+          "alt": "Riso integrale saltato con bocconcini di pollo, strisce di radicchio rosso e noci tritate.",
+          "asset": "assets/ricetta-riso-integrale-pollo-radicchio-noci-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-merluzzo-patate-finocchio-limone.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-merluzzo-patate-finocchio-limone.html",
+      "title": "Merluzzo al forno con patate, finocchio e limone | Per Me",
+      "sha256": "c278a278aabe6f340eb1aa16e6079fc1cd7cc99cf8281b92f9fb752d0589c120",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-merluzzo-patate-finocchio-limone-originale.webp",
+          "alt": "Filetto di merluzzo al forno con fettine dorate di patate e spicchi di finocchio arrostito.",
+          "asset": "assets/ricetta-merluzzo-patate-finocchio-limone-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "title": "Zuppa di orzo, lenticchie, porro e carota | Per Me",
+      "sha256": "64e432599ec97eb6411fd29d4a89f50cfe95573369541b3e53065c0badb139a9",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-zuppa-orzo-lenticchie-porro-carota-originale.webp",
+          "alt": "Ciotola di zuppa con chicchi di orzo perlato, lenticchie, porro a rondelle e carota a dadini.",
+          "asset": "assets/ricetta-zuppa-orzo-lenticchie-porro-carota-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "title": "Frittata di zucca e spinaci con pane integrale tostato | Per Me",
+      "sha256": "6b875e5cb05ee317014e5d2704be0ecc9cf96335df1790766318a4f2e3aded09",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/ricetta-frittata-zucca-spinaci-pane-integrale-originale.webp",
+          "alt": "Due spicchi di frittata con cubetti di zucca e spinaci, accanto a pane integrale tostato.",
+          "asset": "assets/ricetta-frittata-zucca-spinaci-pane-integrale-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+      "title": "Dieta mediterranea e diabete tipo 2: prove, benefici e limiti | Per Me",
+      "sha256": "a7399c7cfd280284f1720284596022de6fb67be4cc86ee498683007dd0c8f1d5",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-mediterranea-guida01-originale.webp",
+          "alt": "Tavola di cucina con fagioli borlotti, verdure, cereali, pesce, noci, frutta e olio extravergine di oliva",
+          "asset": "assets/dieta-mediterranea-guida01-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "gradimento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento.html",
+      "title": "Gli articoli più votati — Per Me",
+      "sha256": "43818401fea0cb9b706ab629639acb0594fa0624b84928593bb7a67fc5c98624",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/classifica-stella-dorata.webp",
+          "alt": "Una stella dorata su base di legno, simbolo delle valutazioni degli articoli",
+          "asset": "assets/classifica-stella-dorata.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-01-cause-sintomi-diagnosi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-01-cause-sintomi-diagnosi.html",
+      "title": "Diabete tipo 2: cause, sintomi e diagnosi | Per Me Guida 01",
+      "sha256": "e7d4bd7c735097a9f0dbcaaf1a865b55df8317f06e1ac14669d0ee62555d4c4c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Dettaglio fotografico di un misuratore di glicemia e di un dito durante un controllo.",
+          "asset": "https://images.pexels.com/photos/11391942/pexels-photo-11391942.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "title": "Glicemia, HbA1c, sensori e regola del 15 | Per Me · Diabete Guida 02",
+      "sha256": "b813183e9896e14448df261869468bdefc799e2f2fe520cbfaaaf35bc8f04e28",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Donna adulta con capelli grigi e un sensore circolare per il monitoraggio del glucosio applicato al braccio, in un ambiente domestico.",
+          "asset": "https://images.pexels.com/photos/17947693/pexels-photo-17947693.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "title": "Dopo infarto, stent o bypass: riabilitazione e prevenzione | Per Me Guida 03",
+      "sha256": "8a472b2e5e956aaaf1b5d1bfa4303ff9595d912000b35e15e323dacb5d789524",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Un paziente esegue un test da sforzo cardiologico su tapis roulant, seguito da personale medico in ambulatorio, con monitoraggio dell'attività cardiaca.",
+          "asset": "https://images.pexels.com/photos/8460228/pexels-photo-8460228.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "title": "Esami cardiologici: ECG, ecocardiogramma, Holter e coronarografia | Per Me Guida 04",
+      "sha256": "65ec0626ff56ac8b961cc5fb7efa49697bc080bca48e45cdf44843b1c93299f8",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7108362/pexels-photo-7108362.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Fotografia ravvicinata degli elettrodi applicati al torace di una persona durante un elettrocardiogramma in un ambulatorio.",
+          "asset": "https://images.pexels.com/photos/7108362/pexels-photo-7108362.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "title": "Diabete tipo 2: farmaci, insulina e sicurezza | Per Me Guida 03",
+      "sha256": "3a727762c913853346ca56f3e933cfdbe90a58859ec3514326fc5d7e407a5062",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Persona adulta che tiene in mano una penna per la somministrazione di insulina in un ambiente interno.",
+          "asset": "https://images.pexels.com/photos/7653692/pexels-photo-7653692.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Metformina eGFR inferiore a 30; rischi SGLT2 e chirurgia elettiva"
+      ]
+    },
+    {
+      "file": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "title": "Diabete tipo 2: alimentazione, carboidrati e pasti sostenibili | Per Me Guida 04",
+      "sha256": "63051da65787b1a8ead99ad487cf227c83988fae762c07b4b42deb2608753c0f",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/11058247/pexels-photo-11058247.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Ciotole nere con ceci, broccoli e verdure miste su una tavola di legno, fotografate dall'alto.",
+          "asset": "https://images.pexels.com/photos/11058247/pexels-photo-11058247.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "title": "Diabete tipo 2 e coronarie: rischio, segnali e prevenzione | Per Me Guida 05",
+      "sha256": "0b4a531278aa8db4976f7987164c531e2b7ef3b406fb874c4937db6733863959",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8460126/pexels-photo-8460126.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Medico e paziente osservano e discutono un tracciato elettrocardiografico durante una visita cardiologica.",
+          "asset": "https://images.pexels.com/photos/8460126/pexels-photo-8460126.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "title": "Diabete tipo 2, scompenso cardiaco e aritmie | Per Me · Guida 06",
+      "sha256": "2233228aa56df468ecc34bddcc86ba1d32f79efe46cf884b4d2ac28c6e3018c9",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Un uomo anziano misura la propria pressione arteriosa con un apparecchio digitale mentre è seduto in casa.",
+          "asset": "https://images.pexels.com/photos/8900022/pexels-photo-8900022.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-07-ictus-tia-prevenzione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-07-ictus-tia-prevenzione.html",
+      "title": "Diabete tipo 2: ictus, TIA, segnali e prevenzione | Per Me Guida 07",
+      "sha256": "799ec0e7cbb77c7672cc23d3fd0081516ce808cf10f6488c1dd4d45294f7e55c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg?auto=compress&dpr=1&h=750&w=1260",
+          "alt": "Medico mostra e discute immagini di risonanza magnetica cerebrale con una donna adulta durante una visita.",
+          "asset": "https://images.pexels.com/photos/39192336/pexels-photo-39192336/free-photo-of-doctor-and-patient-reviewing-brain-mri-results.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "title": "Diabete tipo 2 e arteriopatia periferica: gambe, piedi e circolazione | Per Me · Guida 08",
+      "sha256": "322c5c88fb0f645d98c2176cc49faf27fb15e80002a30da20bc1e6a3184cda70",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Professionista sanitario esamina il piede di una persona durante una visita clinica.",
+          "asset": "https://images.pexels.com/photos/33934620/pexels-photo-33934620.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "title": "Diabete tipo 2: retinopatia, edema maculare e cura della vista | Per Me · Guida 09",
+      "sha256": "b85743b93a463d044a863a2cb309a7a90f4b277f1ec51fedd049f2690e571611",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/32209715/pexels-photo-32209715.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Visita oculistica in un ambulatorio: un operatore esamina gli occhi di una persona utilizzando una lampada a fessura.",
+          "asset": "https://images.pexels.com/photos/32209715/pexels-photo-32209715.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "title": "Diabete tipo 2: cataratta, glaucoma e altri disturbi oculari | Per Me · Guida 10",
+      "sha256": "7f2ed0cbead1b51892701eb13c85fa31f7467a74c95261cc994651678a0c60c9",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Uomo anziano durante un controllo della vista con lenti di prova in ambulatorio.",
+          "asset": "https://images.pexels.com/photos/7179233/pexels-photo-7179233.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-11-reni-albuminuria-funzione-renale.html",
+      "title": "Diabete tipo 2 e reni: albuminuria, eGFR, esami e cure | Per Me · Guida 11",
+      "sha256": "4b1143d6ef3041b934ee31c03c467162f899f23cd10f4d88aa47a3988d4aab57",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Mani che reggono un contenitore per campione di urine destinato agli esami di laboratorio.",
+          "asset": "https://images.pexels.com/photos/6520138/pexels-photo-6520138.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "SGLT2 e malattia renale: indicazioni generali KDIGO, digiuno e interventi"
+      ]
+    },
+    {
+      "file": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+      "title": "Diabete tipo 2 e neuropatie periferiche: sintomi, esami e piede | Per Me · Guida 12",
+      "sha256": "479ec1ed9f743076d15697201c44b807bbfdbe989f59d0baa8809a3ed6fa817f",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Professionista che si occupa del piede di una paziente in ambulatorio, durante una procedura podologica.",
+          "asset": "https://images.pexels.com/photos/5619447/pexels-photo-5619447.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+      "title": "Diabete e neuropatia autonomica cardiovascolare: polso, pressione, svenimenti | Per Me · Guida 13",
+      "sha256": "c5e850483584498b2079923c93b660c25b4e8a252486103b46c4b0630e5d020d",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Medico che misura la pressione del braccio di un paziente adulto in ambulatorio, con uno sfigmomanometro.",
+          "asset": "https://images.pexels.com/photos/7108334/pexels-photo-7108334.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+      "title": "Diabete tipo 2 e neuropatia digestiva: gastroparesi, intestino e deglutizione | Per Me · Guida 14",
+      "sha256": "d880eacf057b2bdb623629a948e1dbe0f22c46c1070dcb6561f2fa610af5af6c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Medico e paziente durante una consultazione clinica; la paziente tiene una mano sull'addome.",
+          "asset": "https://images.pexels.com/photos/6285389/pexels-photo-6285389.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "title": "Diabete tipo 2: vescica, incontinenza e sessualità | Guida 15 · Per Me",
+      "sha256": "546b899b11cfc2d2c7707a6b257259d8c3b33680d6fa75e194e966fa39edd930",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Due persone adulte dialogano con un professionista sanitario durante una consultazione in ambulatorio.",
+          "asset": "https://images.pexels.com/photos/7108332/pexels-photo-7108332.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+      "title": "Piede diabetico: ulcere, infezioni, Charcot e prevenzione delle amputazioni | Per Me · Guida 16",
+      "sha256": "fdfeb02b1b65ef780928bf714d4b37b0e3c7155e451168d194ec16a45165c94c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/13185359/pexels-photo-13185359.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Professionista sanitario esamina il piede di una persona con apparecchiature mediche in ambiente clinico; fotografia illustrativa.",
+          "asset": "https://images.pexels.com/photos/13185359/pexels-photo-13185359.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "title": "Diabete tipo 2, bocca e denti: gengive, parodontite, carie e secchezza | Per Me · Guida 17",
+      "sha256": "acf14fbb5083ff18a2b9df7b0b09881eb0bc418e138656c60f838ebd197036c9",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Donna anziana durante un controllo dei denti eseguito da un professionista con guanti in uno studio odontoiatrico.",
+          "asset": "https://images.pexels.com/photos/5622033/pexels-photo-5622033.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "title": "Diabete tipo 2 e pelle: dermopatia, necrobiosi, prurito, infezioni | Per Me · Guida 18",
+      "sha256": "d84482a11abc0b62ba3cccd26c7c22f5c27f03122976445f2c91906899cc8d48",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7446660/pexels-photo-7446660.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "alt": "Professionista sanitario con guanti esamina la cute del volto di una persona adulta utilizzando uno strumento digitale durante una visita dermatologica.",
+          "asset": "https://images.pexels.com/photos/7446660/pexels-photo-7446660.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "title": "Diabete tipo 2 e infezioni: sintomi, vaccini, antibiotici e giorni di malattia | Per Me · Guida 19",
+      "sha256": "57d2a3c4a988d107fed8c1e90b16d195ea604d25faae2da615b9ad4c11534875",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg?auto=compress&dpr=1&h=750&w=1260",
+          "alt": "Un adulto anziano parla con un medico durante un controllo sanitario in ambulatorio.",
+          "asset": "https://images.pexels.com/photos/39192353/pexels-photo-39192353/free-photo-of-medico-visita-un-paziente-anziano-in-un-moderno-studio-medico.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Piano individuale nei giorni di malattia, disidratazione e rischio chetoacidosi"
+      ]
+    },
+    {
+      "file": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "title": "Diabete tipo 2 e fegato: MASLD, MASH, fibrosi, cirrosi ed esami | Per Me · Guida 20",
+      "sha256": "2af967997a8825084a144604fc4bf51a0bdf0eb5158f9f6b5026e2a08352c206",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/diabete-guida-20-colloquio-fegato-originale.webp",
+          "alt": "Un uomo adulto e una professionista sanitaria esaminano un documento durante un colloquio in ambulatorio.",
+          "asset": "assets/diabete-guida-20-colloquio-fegato-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "title": "Diabete tipo 2 e pancreas: pancreatite, insufficienza esocrina, diabete pancreatico | Per Me · Guida 21",
+      "sha256": "71cb77cfdd4effb126cf94304729a6045e0a4d8592e1b3204814f2d395e0353a",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg?auto=compress&cs=tinysrgb&w=1260",
+          "alt": "Modello anatomico didattico trasparente del corpo umano, con diversi organi interni visibili.",
+          "asset": "https://images.pexels.com/photos/7723384/pexels-photo-7723384.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "title": "Diabete tipo 2, mani e spalle: spalla congelata, dito a scatto, Dupuytren e tunnel carpale | Per Me · Guida 22",
+      "sha256": "87d88fdda8f5b7b7635a3e96ed7253ed24611a0fb91bc174282538c267b8099b",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8313180/pexels-photo-8313180.jpeg?auto=compress&dpr=1&h=750&w=1260",
+          "alt": "Un terapista sanitario esamina delicatamente avambraccio e mano di una persona durante una seduta clinica.",
+          "asset": "https://images.pexels.com/photos/8313180/pexels-photo-8313180.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "title": "Diabete tipo 2, ossa e muscoli: osteoporosi, sarcopenia, fratture e cadute | Per Me · Guida 23",
+      "sha256": "bad0127a5e29fd56dcdeb2deb87eb5b4ea2b86acf790d861d2b81fc554be8e3b",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg?auto=compress&dpr=1&h=750&w=1260",
+          "alt": "Un uomo e una donna anziani eseguono esercizi con bande elastiche in una palestra, per allenare la forza.",
+          "asset": "https://images.pexels.com/photos/6815699/pexels-photo-6815699.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "title": "Diabete tipo 2, udito e sonno: ipoacusia, apnee notturne, insonnia e alterazioni sensoriali | Per Me · Guida 24",
+      "sha256": "0950d8ec59730158a27d1508580669df77ee50c2c3c30e476cb4fd32423d0002",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg?cs=srgb&dl=pexels-cottonbro-8860200.jpg&fm=jpg",
+          "alt": "Persona anziana a letto durante il riposo notturno: fotografia illustrativa o immagine di riserva.",
+          "asset": "https://images.pexels.com/photos/8860200/pexels-photo-8860200.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "title": "Diabete tipo 2 e salute mentale: distress, depressione, ansia, memoria e demenze | Per Me · Guida 25",
+      "sha256": "f39f7b2b6412b0ee6d993b33b03dd4cb916735b2552e6315b4b8c8de89906802",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg?cs=srgb&dl=pexels-shvets-production-8413410.jpg&fm=jpg",
+          "alt": "Persona anziana che parla con un professionista sanitario: fotografia illustrativa o illustrazione di riserva, senza diagnosi attribuita.",
+          "asset": "https://images.pexels.com/photos/8413410/pexels-photo-8413410.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "title": "Diabete tipo 2 e tumori: rischio reale, screening e prevenzione | Per Me · Guida 26",
+      "sha256": "55deb3a71f4acc6adacb0f12cdf1001765e1723a2ef450e3efa5da0610b0c026",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg?cs=srgb&dl=pexels-shvets-production-8413217.jpg&fm=jpg",
+          "alt": "Professionista sanitario e adulto anziano a colloquio in ambulatorio; fotografia o illustrazione di riserva, senza diagnosi attribuita.",
+          "asset": "https://images.pexels.com/photos/8413217/pexels-photo-8413217.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+      "title": "Diabete tipo 2, urgenze metaboliche: ipoglicemia grave, glucagone, DKA e stato iperosmolare | Per Me · Guida 27",
+      "sha256": "d8f19b6ca8050cb60ed64be2f2b281214e38669bcb8dc6da72b0b182a9381e01",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg?cs=srgb&dl=pexels-artempodrez-6823568.jpg&fm=jpg",
+          "alt": "Un professionista sanitario consegna un glucometro a una persona per il controllo glicemico; fotografia o illustrazione locale di riserva.",
+          "asset": "https://images.pexels.com/photos/6823568/pexels-photo-6823568.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Ipoglicemia cosciente: glucosio e ricontrollo; niente per bocca se non deglutisce; DKA anche con glicemie non molto alte"
+      ]
+    },
+    {
+      "file": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+      "title": "Diabete tipo 2: effetti indesiderati e sicurezza dei farmaci | Per Me · Guida 28",
+      "sha256": "5ab2e39fbc16b80e654cf5969fc4e7988edc770619852f8dacafcf4cdd92af69",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/8657372/pexels-photo-8657372.jpeg?cs=srgb&dl=pexels-cottonbro-8657372.jpg&fm=jpg",
+          "alt": "Una farmacista assiste una donna anziana nella scelta dei medicinali in farmacia, oppure appare un’illustrazione locale di riserva.",
+          "asset": "https://images.pexels.com/photos/8657372/pexels-photo-8657372.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-29-gravidanza-fertilita-ormoni.html",
+      "title": "Diabete tipo 2, gravidanza e fertilità: cure, rischi, PCOS e ormoni | Per Me · Guida 29",
+      "sha256": "4a9235ae761312b2e16154741d3647854082374ab84d6d101a6f8a364204611e",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg?auto=compress&cs=tinysrgb&w=1260",
+          "alt": "Una donna incinta parla con una dottoressa in un ambulatorio; foto illustrativa o illustrazione di riserva.",
+          "asset": "https://images.pexels.com/photos/7088531/pexels-photo-7088531.jpeg",
+          "rights_basis": "LICENZA_PIATTAFORMA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Tirzepatide e allattamento: aggiornamento EMA, decisione specialistica"
+      ]
+    },
+    {
+      "file": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "title": "Anziani, diabete, cuore e pensioni basse: cure, spesa e tutele | Per Me · Guida 30",
+      "sha256": "1666cb14178d9d2c417589317e1034f1af2ae0e5adc23a4289d5bcc923953b62",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-01-visita-medica.jpg",
+          "alt": "Fotografia illustrativa di medicinali e documenti su un tavolo, a richiamare l’organizzazione delle cure e delle prescrizioni.",
+          "asset": "assets/salute-guida-01-visita-medica.jpg",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Obiettivi glicemici differenziati per salute e fragilità, limiti personalizzati"
+      ]
+    },
+    {
+      "file": "prova-lettori.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html",
+      "title": "Aiutaci a migliorare Per Me | Prova le guide",
+      "sha256": "7ffe537b849874a7312560d7f82a081e3782a1ccf37cc0249474812336dcd372",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "title": "CIGO, CIGS, FIS e solidarietà: capire quale trattamento ti riguarda | Per Me",
+      "sha256": "687a063f3803fa59a9df487fe123e3d1cbfc7754da66036b7bafb79b91c15706",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-07-cigo-cigs-fis-solidarieta-originale.webp",
+          "alt": "Due lavoratori adulti esaminano un calendario di lavoro in un’officina",
+          "asset": "assets/lavoro-guida-07-cigo-cigs-fis-solidarieta-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "title": "Cassa integrazione non pagata: chi paga e quali controlli fare | Per Me",
+      "sha256": "c46f2fffaa244b92a1c03874c2cfc6586b4af18046a436418cb6977aa4594290",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi-originale.webp",
+          "alt": "Un uomo adulto controlla un pagamento al computer con un quaderno sul tavolo",
+          "asset": "assets/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "title": "Ferie, tredicesima e TFR durante CIG o solidarietà | Per Me",
+      "sha256": "08830f02f222ed3831edad526bc15bdc628ef7a9312ca635b9f8abfcffc5672b",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione-originale.webp",
+          "alt": "Una donna adulta confronta calendario, calcolatrice e documenti di lavoro",
+          "asset": "assets/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "title": "Fine del rapporto di lavoro: documenti, pagamenti e tutele | Per Me",
+      "sha256": "398145a0242e2e9ee7f2a2f787a70214f9d5cd555a70dd103935d8b1ebb9eaac",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-10-fine-rapporto-documenti-tutele-originale.webp",
+          "alt": "Una lavoratrice adulta raccoglie i documenti con l’aiuto di una consulente",
+          "asset": "assets/lavoro-guida-10-fine-rapporto-documenti-tutele-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-11-naspi-domanda-scadenze.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-11-naspi-domanda-scadenze.html",
+      "title": "NASpI: requisiti, domanda, scadenze e primi adempimenti | Per Me",
+      "sha256": "ba5e5303438014ace5957f0900358d5ad472ddf69e9e143b4d500545bd726562",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-11-naspi-domanda-scadenze-originale.webp",
+          "alt": "Una donna adulta prepara una domanda al computer con una cartella e una lista di controllo",
+          "asset": "assets/lavoro-guida-11-naspi-domanda-scadenze-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "title": "TFR non pagato: prospetto, tempi e Fondo di garanzia | Per Me",
+      "sha256": "a0fb3480f79169b18108a178364e4a9ef94ceedf5cfab2d5909629b03e1cc1fe",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-12-tfr-pagamento-fondo-garanzia-originale.webp",
+          "alt": "Un uomo adulto verifica i conti di fine rapporto con una consulente del lavoro",
+          "asset": "assets/lavoro-guida-12-tfr-pagamento-fondo-garanzia-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "title": "Cercare lavoro dopo i 50 anni: competenze, curriculum e servizi | Per Me",
+      "sha256": "8773bb2233a9eb05d2a2ddcd3ab2aef1d8717fc67e5d0ff591256afcad71bbd7",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/lavoro-guida-13-cercare-lavoro-dopo-50-anni-originale.webp",
+          "alt": "Una donna adulta discute le proprie competenze con un consulente per l’impiego",
+          "asset": "assets/lavoro-guida-13-cercare-lavoro-dopo-50-anni-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "title": "Tornare a casa dopo un ricovero: documenti, terapie e assistenza | Per Me",
+      "sha256": "7f4f328f8b426cf0627f00d16214e90a07814ca0221c1b201ef834db97cfc646",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+          "alt": "Una donna anziana e una familiare organizzano una cartella dopo il ritorno a casa",
+          "asset": "assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "title": "Prenotare visite ed esami: CUP, priorità e liste di attesa | Per Me",
+      "sha256": "7fb99825fa49d90a10cbaf8c3907fc095b2e0362486bb46fa23c6432585dc04c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-07-cup-prenotazioni-liste-attesa-originale.webp",
+          "alt": "Un uomo adulto prende un appuntamento sanitario al telefono con un foglio sul tavolo",
+          "asset": "assets/salute-guida-07-cup-prenotazioni-liste-attesa-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "salute-guida-08-patente-malattie-croniche-certificati.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-08-patente-malattie-croniche-certificati.html",
+      "title": "Rinnovare la patente con malattie croniche: visita e documenti | Per Me",
+      "sha256": "33ee1104701366309be924504d1df949524711b7d50ea4819703212382ca7b28",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/salute-guida-08-patente-malattie-croniche-certificati-originale.webp",
+          "alt": "Una donna adulta parla con un medico tenendo una cartella, con le chiavi dell’auto sul tavolo",
+          "asset": "assets/salute-guida-08-patente-malattie-croniche-certificati-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-ricette-minestre-legumi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-minestre-legumi.html",
+      "title": "Minestre di legumi e cereali | Per Me",
+      "sha256": "07f80b0d659a2cbd0037f1fdea6562f0924f120f30fa7406010b5eb05e1ec2fc",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-minestre-legumi-originale.webp",
+          "alt": "Pasta integrale corta con lenticchie, carote e pomodoro in una ciotola di terracotta.",
+          "asset": "assets/dieta-minestre-legumi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-ricette-piatti-legumi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-piatti-legumi.html",
+      "title": "Piatti unici con legumi | Per Me",
+      "sha256": "9a602f30f2ccf3461bd15bea8e8009a64cf127ff192b98aa1ab1d98991dfea0c",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-piatti-legumi-originale.webp",
+          "alt": "Riso integrale, ceci e cimette di broccoli in una ciotola color avorio.",
+          "asset": "assets/dieta-piatti-legumi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-ricette-pesce.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-pesce.html",
+      "title": "Pesce con verdure, cereali o patate | Per Me",
+      "sha256": "6fd86968dcebd37881fb48426311060da1ba5eecfec5106f42100630d2700435",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-pesce-originale.webp",
+          "alt": "Filetto di sgombro cotto con patate a spicchi e broccoli su un piatto chiaro.",
+          "asset": "assets/dieta-pesce-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-ricette-uova-carne-bianca.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-uova-carne-bianca.html",
+      "title": "Piatti unici con uova o carne bianca | Per Me",
+      "sha256": "1bd68c27f920a477e812091eee341bbdca57462534746c64ea9d590777d73ccd",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-uova-carne-bianca-originale.webp",
+          "alt": "Uova strapazzate ben rapprese con broccoli e due fette di pane integrale tostato.",
+          "asset": "assets/dieta-uova-carne-bianca-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-ricette-ricotta.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-ricotta.html",
+      "title": "Piatti unici con ricotta | Per Me",
+      "sha256": "ba41079367b1aa7ed1626a1874138e543177166be9da724f7afbb302bae94436",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-ricotta-originale.webp",
+          "alt": "Pasta integrale corta con foglie di spinaci e fiocchi di ricotta.",
+          "asset": "assets/dieta-ricotta-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "dieta-ricette-colazioni.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-colazioni.html",
+      "title": "Colazioni mediterranee | Per Me",
+      "sha256": "e793e4fffca612eab02395caf4d9569de1f0a766d9ab9270d8fc2c5d0112496a",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/dieta-colazioni-originale.webp",
+          "alt": "Ciotola di yogurt bianco con fiocchi di avena, fettine di pera e noci.",
+          "asset": "assets/dieta-colazioni-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "app/menu-mediterraneo.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html",
+      "title": "Menu mediterraneo e lista della spesa | Per Me",
+      "sha256": "6554059ddf3331bd9cd994bef25afd1c4aca1b73b743192fc356cf58f5ee3efa",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "../assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "../assets/dieta-menu-spesa-originale.webp",
+          "alt": "Una borsa di tela accanto a broccoli, carote, lenticchie, pane e un taccuino.",
+          "asset": "assets/dieta-menu-spesa-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "strumenti/orientamento-benefici.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/orientamento-benefici.html",
+      "title": "Quali aiuti posso verificare? | Per Me",
+      "sha256": "52688bbfa1acad86a7fbe5b2d870660bbdaa946cc72dba874faa8f171095bcb5",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "../assets/debiti-guida-09-consulenza-chiara.webp",
+          "alt": "Persona adulta che riceve orientamento su documenti e possibili aiuti",
+          "asset": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "strumenti/costo-pasto-mediterraneo.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-pasto-mediterraneo.html",
+      "title": "Costo reale di un pasto mediterraneo | Per Me",
+      "sha256": "0b220e578e89a9292c3f712bb789cf7609af9212d1cd8df7611c978b02699b38",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "../assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+          "alt": "Olio extravergine, ortaggi e altri ingredienti mediterranei su un tavolo",
+          "asset": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "strumenti/costo-spesa-settimanale.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-spesa-settimanale.html",
+      "title": "Quanto costa la spesa della settimana? | Per Me",
+      "sha256": "c7f84a9dfb347a073ad659a2c029ce6bffacf196af076d16c140ceaa905b8e6a",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "../assets/dieta-menu-spesa-originale.webp",
+          "alt": "Ingredienti di un menu mediterraneo con ortaggi, legumi e cereali",
+          "asset": "assets/dieta-menu-spesa-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "da-dove-cominciare.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/da-dove-cominciare.html",
+      "title": "Da dove cominciare? Trova la guida giusta | Per Me",
+      "sha256": "ebc677c913ee3ecf783a6ef667d930d6523f633bfdfdac6ebdee8ccad94044b9",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "alt": "Persona adulta che riceve aiuto a comprendere documenti e scegliere un percorso",
+          "asset": "assets/debiti-guida-09-consulenza-chiara.webp",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "lievito-madre.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lievito-madre.html",
+      "title": "Pasta madre e LI.CO.LI.: guide gratuite passo passo | Per Me",
+      "sha256": "e8344d3d5e4e19a116865b71b85bf2b52e28170828ebc569e67ae3e127445f3d",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tecniche-impasto-originale.webp",
+          "alt": "Pentolino con crema di farina e tre ciotole con impasti di consistenza diversa, immagine illustrativa generata con intelligenza artificiale",
+          "asset": "assets/tecniche-impasto-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/pasta-madre-solida-originale.webp",
+          "alt": "Pasta madre solida in un barattolo trasparente con indicatore del livello iniziale",
+          "asset": "assets/pasta-madre-solida-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/licoli-originale.webp",
+          "alt": "LI.CO.LI. con bolle nel barattolo di vetro",
+          "asset": "assets/licoli-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/pane-500g-friggitrice-8l-originale.webp",
+          "alt": "Pagnotta rotonda e dorata su un tagliere, davanti a una friggitrice ad aria da cucina",
+          "asset": "assets/pane-500g-friggitrice-8l-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        },
+        {
+          "src": "assets/pizza-napoletana-licoli-originale.webp",
+          "alt": "Pizza Margherita con cornicione gonfio, pomodoro, mozzarella e basilico",
+          "asset": "assets/pizza-napoletana-licoli-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pasta-madre-solida-da-zero.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pasta-madre-solida-da-zero.html",
+      "title": "Pasta madre solida da zero: dosi, rinfreschi e calendario | Per Me",
+      "sha256": "5c868b5a153ad8f7d8b65472902aa5aa2f84b2163048110bc214ea27b36c9851",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pasta-madre-solida-originale.webp",
+          "alt": "Pasta madre solida gonfia in un barattolo cilindrico trasparente, con elastico che indica il livello iniziale",
+          "asset": "assets/pasta-madre-solida-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "licoli-da-zero.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/licoli-da-zero.html",
+      "title": "LI.CO.LI. da zero: rinfreschi 50+50+50 g e calendario | Per Me",
+      "sha256": "929d006123c82856cf73746ac77a39fdfd238f68178f24e1c375ef611b3f190e",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/licoli-originale.webp",
+          "alt": "LI.CO.LI. denso e pieno di piccole bolle in un barattolo di vetro con un elastico sul livello di partenza",
+          "asset": "assets/licoli-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pane-500g-friggitrice-8-litri.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pane-500g-friggitrice-8-litri.html",
+      "title": "Pane semplice da circa 500 g: friggitrice ad aria da 8 litri e forno | Per Me",
+      "sha256": "731b522d31366f7af68b98c534358049597bf406a52b067bdcfd527e7bec69e1",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pane-500g-friggitrice-8l-originale.webp",
+          "alt": "Piccola pagnotta rotonda con crosta dorata e taglio aperto su tagliere, davanti a una friggitrice ad aria nera e una teglia tonda",
+          "asset": "assets/pane-500g-friggitrice-8l-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "pizza-napoletana-con-licoli.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pizza-napoletana-con-licoli.html",
+      "title": "Pizza napoletana con LI.CO.LI.: dosi, calendario e disciplinare AVPN | Per Me",
+      "sha256": "3ab58de323c9869ee88350cc422321121fcfce2b4d5a18f74d46fd6c190527ce",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/pizza-napoletana-licoli-originale.webp",
+          "alt": "Pizza Margherita tonda dal cornicione gonfio con leggere macchie scure, pomodoro, fior di latte, olio e basilico su un piatto, con forno a legna sullo sfondo",
+          "asset": "assets/pizza-napoletana-licoli-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "tangzhong-autolisi-biga-poolish.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tangzhong-autolisi-biga-poolish.html",
+      "title": "Tangzhong, autolisi, biga e poolish: differenze e utilizzi | Per Me",
+      "sha256": "7941a52fa40da2a167275338ee3082355694f1506b0953fca55f50f005476afa",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/tecniche-impasto-originale.webp",
+          "alt": "In una cucina domestica, un pentolino con crema di farina e tre ciotole con impasto compatto, frammenti di pasta e un composto liquido con bolle",
+          "asset": "assets/tecniche-impasto-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": []
+    },
+    {
+      "file": "inps-mobile-5-novita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/inps-mobile-5-novita.html",
+      "title": "INPS Mobile 5.0: le novità e come aggiornare l’app | Per Me",
+      "sha256": "04c3aa781ad3fce60f3c24e2d49b67ebdd1bee0cff148eb204e5a428832b17c1",
+      "formal_checks": {
+        "one_h1": true,
+        "main_present": true,
+        "images_registered": true,
+        "alt_attributes_present": true
+      },
+      "images": [
+        {
+          "src": "assets/logo-per-me.png",
+          "alt": "",
+          "asset": "assets/logo-per-me.png",
+          "rights_basis": "AI_CHATGPT_DICHIARATA_AUTORE"
+        },
+        {
+          "src": "assets/inps-mobile-5-originale.webp",
+          "alt": "Un uomo adulto con gli occhiali usa uno smartphone sul divano di casa, vicino a una finestra.",
+          "asset": "assets/inps-mobile-5-originale.webp",
+          "rights_basis": "PROVENIENZA_DOCUMENTATA"
+        }
+      ],
+      "factual_points_reviewed_today": [
+        "Date di rilascio e annuncio della versione 5.0; funzioni indicate da INPS"
+      ]
+    }
+  ]
+}

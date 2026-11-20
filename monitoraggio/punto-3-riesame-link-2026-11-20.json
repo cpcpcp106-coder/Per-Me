@@ -1,0 +1,195 @@
+{
+  "checked_at": "2026-11-20T11:37:20.620476+00:00",
+  "results": [
+    {
+      "url": "https://cnas.ro/case-judetene/",
+      "pages": [
+        "pensionati-estero-mete.html"
+      ],
+      "previous": {
+        "status": "errore_http",
+        "http": 503
+      },
+      "http": 200,
+      "final_url": "https://cnas.ro/case-judetene/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sample": 216313,
+      "status": "raggiungibile"
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mit.gov.it/temi/casa",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    },
+    {
+      "url": "https://www.mit.gov.it/urp-domande-frequenti",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "previous": {
+        "status": "non_verificato_trasporto",
+        "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>"
+      },
+      "http": 503,
+      "status": "http_error",
+      "error": "HTTP Error 503: Service Unavailable"
+    }
+  ],
+  "tls_verification": true,
+  "limitations": [
+    "Riesame di 14 link già segnalati; un risultato può dipendere dall’ambiente di accesso.",
+    "503 o errore TLS non dimostrano da soli che il link sia inutilizzabile per ogni visitatore.",
+    "Nessuna verifica TLS disabilitata; nessun link sostituito per il solo errore automatico."
+  ]
+}

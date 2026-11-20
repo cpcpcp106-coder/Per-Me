@@ -71,6 +71,7 @@ for(const file of names){
  }
  if(/Regola editoriale obbligatoria|Fotografia illustrativa diversa dalle altre guide/i.test(main)) warnings.push(file+': testo interno alla redazione visibile al lettore');
 }
-const out={date:'2026-10-19',pages:rows.length,issues:faults,warnings:unique(warnings),inventory:rows,scope:'statico completo di tutte le pagine; giuridico campionario, non certificazione articolo per articolo',limitation:'WCAG automatica non prova accessibilita reale; fonti esterne e fotografie vanno controllate; Android reale escluso'};
+const checkedAt=new Date().toISOString();
+const out={date:checkedAt.slice(0,10),checked_at_utc:checkedAt,pages:rows.length,issues:faults,warnings:unique(warnings),inventory:rows,scope:'Controllo statico delle pagine HTML nella radice del sito; app e strumenti nelle sottocartelle esclusi. Le verifiche di presenza non dimostrano una revisione fattuale o professionale articolo per articolo.',limitation:'WCAG automatica non prova accessibilita reale; fonti esterne e fotografie vanno controllate; Android reale escluso'};
 console.log(JSON.stringify(out,null,2));
 assert.equal(faults.length,0,'Audit editoriale automatico: problemi bloccanti '+faults.length);

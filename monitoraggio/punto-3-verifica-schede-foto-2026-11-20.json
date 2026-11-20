@@ -1,0 +1,404 @@
+{
+  "checked_at_utc": "2026-11-20T11:44:40.461612+00:00",
+  "scope": "Schede stock in inventario, incluse quelle storiche; la verifica non equivale a liberatoria individuale dei soggetti raffigurati.",
+  "license_sources": [
+    "https://www.pexels.com/license/",
+    "https://unsplash.com/license"
+  ],
+  "results": [
+    {
+      "photo_id": "Gi8-DM56n6Y",
+      "source": "https://unsplash.com/photos/elderly-couple-using-a-laptop-together-at-home-Gi8-DM56n6Y",
+      "author": "Vitaly Gariev",
+      "license": "https://unsplash.com/license",
+      "verification": "Scheda primaria letta tramite ricerca web; non HTTP 200 tramite fetch diretto"
+    },
+    {
+      "photo_id": "7545331",
+      "source": "https://www.pexels.com/photo/elderly-woman-reading-a-document-7545331/",
+      "http": 200,
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "2fc6ba4d0c23256738e6e7e34da70a27ebb0667122fdf93e4cb58fd63f912f91"
+    },
+    {
+      "photo_id": "15965909",
+      "source": "https://www.pexels.com/photo/men-and-woman-waiting-at-bus-stop-15965909/",
+      "http": 200,
+      "author": "Ernst-Günther Krause (NID)",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "714cba6e3117113174aaca6c19e786281a1cd0f5ff5d073d6c2545e3e19d7223"
+    },
+    {
+      "photo_id": "23720159",
+      "source": "https://www.pexels.com/photo/man-walking-at-railway-station-23720159/",
+      "http": 200,
+      "author": "Altamart",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "56483fdae93de827ed9a1f283031e510b3af410ea45a40ecb20f9911bb6539ae"
+    },
+    {
+      "photo_id": "8413217",
+      "source": "https://www.pexels.com/photo/a-man-consulting-a-doctor-8413217/",
+      "http": 200,
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "9894f64614a78cab794cd5bb8866988989979dfd065c9b0bc0ed7f77567a70f1"
+    },
+    {
+      "photo_id": "4266930",
+      "source": "https://www.pexels.com/photo/a-woman-talking-to-her-doctor-4266930/",
+      "http": 200,
+      "author": "Cedric Fauntleroy",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "e98e03cf979d62334e7214863824e9fe11fac5173468d599690e4bed4e56d1f4"
+    },
+    {
+      "photo_id": "9870140",
+      "source": "https://www.pexels.com/photo/couple-and-social-worker-sitting-at-table-9870140/",
+      "http": 200,
+      "author": "Ron Lach",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "96d9177b07134969ce57f9a1aa22fc8a2643f0cdd2ae52f8615bfd6321ef00d4"
+    },
+    {
+      "photo_id": "8962383",
+      "source": "https://www.pexels.com/photo/a-woman-holding-a-clipboard-8962383/",
+      "http": 200,
+      "author": "Ivan S",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "4d8ee2b9501799f91ed91288517851b3eb23cd5c3dcb42be7ff7ad0366447c26"
+    },
+    {
+      "photo_id": "8441780",
+      "source": "https://www.pexels.com/photo/an-elderly-man-consulting-an-insurance-agent-8441780/",
+      "http": 200,
+      "author": "Kampus Production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "b944f7379781a5100ae031501494bba58db550635b3c42ac561656923b039ef6"
+    },
+    {
+      "photo_id": "8035972",
+      "source": "https://www.pexels.com/photo/mother-and-child-sitting-at-the-table-8035972/",
+      "http": 200,
+      "author": "Kampus Production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "b7652bd44041681e35cc3d92d5c395fa53ed3e70db1d04685255a2ad38b7ffda"
+    },
+    {
+      "photo_id": "11370618",
+      "source": "https://www.pexels.com/photo/hand-holding-medicine-over-paper-on-desk-11370618/",
+      "http": 200,
+      "author": "Towfiqu barbhuiya",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "cd5bb6ae322f4fea3e196959456fd76459b3f762e6828e0bddc2f01101d22676"
+    },
+    {
+      "photo_id": "8413300",
+      "source": "https://www.pexels.com/photo/elderly-man-patient-looking-at-his-doctor-8413300/",
+      "http": 200,
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "b38e5e9291ccebb7b4d819779a017f1b473ff9ffcec724a9bf8f4acbae4f312d"
+    },
+    {
+      "photo_id": "6941101",
+      "source": "https://www.pexels.com/photo/person-holding-a-glucose-meter-6941101/",
+      "http": 200,
+      "author": "Nataliya Vaitkevich",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "dd3177b7499398488e210101d19738bcb8b295a5535a50c97a148f5bf351fd38"
+    },
+    {
+      "photo_id": "1059905",
+      "source": "https://www.pexels.com/photo/vegetable-salad-on-plate-1059905/",
+      "http": 200,
+      "author": "Chan Walrus",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "f4059ba90630d30b8deb73509354c6e5995d415701531347ea768adf99942da8"
+    },
+    {
+      "photo_id": "11391942",
+      "source": "https://www.pexels.com/photo/close-up-of-person-using-a-blood-glucose-monitor-11391942/",
+      "http": 200,
+      "author": "Towfiqu barbhuiya",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "fd8ae60e72789828953860e01d7a5bfd722599d80df774591acf21877eab3d95"
+    },
+    {
+      "photo_id": "17947693",
+      "source": "https://www.pexels.com/photo/woman-with-diabetes-wearing-a-cgm-device-on-her-arm-17947693/",
+      "http": 200,
+      "author": "Nutrisense Inc",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "01f272592dcfa70d81d3fa3dca51e21f221f76a6dc0ec6f070d034ec21ad1665"
+    },
+    {
+      "photo_id": "8460228",
+      "source": "https://www.pexels.com/photo/a-cardiologist-examining-a-patient-undergoing-cardiac-stress-test-8460228/",
+      "http": 200,
+      "author": "Los Muertos Crew",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "7d9ed9298afcfc87a25530e0813f4decdcf212148b9c1231ee8dbb72218c3abd"
+    },
+    {
+      "photo_id": "7108362",
+      "source": "https://www.pexels.com/photo/close-up-shot-of-a-medical-equipment-7108362/",
+      "http": 200,
+      "author": "Pavel Danilyuk",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "9b9dc7652b433fbcae61578860b4c6a90e5d4f20e418f398c4c84a7f70321261"
+    },
+    {
+      "photo_id": "7653692",
+      "source": "https://www.pexels.com/photo/a-woman-holding-an-insulin-injection-pen-7653692/",
+      "http": 200,
+      "author": "Pavel Danilyuk",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "8ee22b36629b21892884e46a82497a19ffde81ab6c9532a392b0a0c1d7d22aa7"
+    },
+    {
+      "photo_id": "11058247",
+      "source": "https://www.pexels.com/photo/black-ceramic-bowl-with-chickpeas-11058247/",
+      "http": 200,
+      "author": "Harish .P",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "ce4eb4c826ba7ef8f0150cb560cfc7195bb093a91f60a85cda572f156b052a5a"
+    },
+    {
+      "photo_id": "8460126",
+      "source": "https://www.pexels.com/photo/a-doctor-checking-a-patient-s-ecg-results-8460126/",
+      "http": 200,
+      "author": "Los Muertos Crew",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "4d69e2eaad6a135570fe6dd808627481322c61a9b9d726d53e8083c9d672381b"
+    },
+    {
+      "photo_id": "8900022",
+      "source": "https://www.pexels.com/photo/elderly-man-checking-his-blood-pressure-8900022/",
+      "http": 200,
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "5f26e902ec32460ef0b5a5d0c244db0a12d6a411838e2b34c8b1ef782faaedbb"
+    },
+    {
+      "photo_id": "39192336",
+      "source": "https://www.pexels.com/photo/doctor-and-patient-reviewing-brain-mri-results-39192336/",
+      "http": 200,
+      "author": "Vitaly Gariev",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "6a6105b32b735810a7f8ad160c6dd2d990353deccecdec34b8e9a3cad3910850"
+    },
+    {
+      "photo_id": "33934620",
+      "source": "https://www.pexels.com/photo/medical-consultation-with-doctor-examining-foot-33934620/",
+      "http": 200,
+      "author": "Natalia Lara",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "ed36545684b1ae205aa81cbe7f77c63f8aeb706c481a09f3c8b2d15139ad8ef3"
+    },
+    {
+      "photo_id": "32209715",
+      "source": "https://www.pexels.com/photo/optometrist-examining-patient-with-slit-lamp-32209715/",
+      "http": 200,
+      "author": "José Antonio Otegui Auzmendi",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "ddcd3e2374a397e108f8dad74108c3966e828438f911d67fa4a3c0a8bc0bfc31"
+    },
+    {
+      "photo_id": "7179233",
+      "source": "https://www.pexels.com/photo/a-person-giving-an-elderly-man-an-eye-examination-7179233/",
+      "http": 200,
+      "author": "Mike Sangma",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "bf0b9f2c23eb1e3b8c6a941ef1c7cd8eaa4f743abef8b2e7d72e5a6b39c79871"
+    },
+    {
+      "photo_id": "6520138",
+      "source": "https://www.pexels.com/photo/person-holding-a-container-6520138/",
+      "http": 200,
+      "author": "RDNE Stock project",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "a40614e913db93fa015277b16c4488670c69cb134874cdd045762f5dc1bd5c67"
+    },
+    {
+      "photo_id": "5619447",
+      "source": "https://www.pexels.com/photo/woman-on-a-procedure-in-a-clinic-5619447/",
+      "http": 200,
+      "author": "Nico Becker",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "79ee2bb709151d2db2a1b075f99143e87a099d176ced1f793d390477a4d5425b"
+    },
+    {
+      "photo_id": "7108334",
+      "source": "https://www.pexels.com/photo/doctor-checking-man-blood-pressure-7108334/",
+      "http": 200,
+      "author": "Pavel Danilyuk",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "e3d62089f37871e0006c028442d4fba814109c3c3cd6ed3e0e7b23282eab395f"
+    },
+    {
+      "photo_id": "6285389",
+      "source": "https://www.pexels.com/photo/doctor-and-his-patient-lying-on-the-bed-with-her-hand-on-the-stomach-6285389/",
+      "http": 200,
+      "author": "Gustavo Fring",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "c4d5b72a7402cdf7931248d8a8e10b7290481b3c22e00795a0f9ee06921bff2b"
+    },
+    {
+      "photo_id": "7108332",
+      "source": "https://www.pexels.com/photo/a-couple-sitting-at-a-doctor-s-clinic-7108332/",
+      "http": 200,
+      "author": "Pavel Danilyuk",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "2962a85798d37eadfe5045f44d7d0a8ffea4d61c57d740ff1a50f3b1b9887fb7"
+    },
+    {
+      "photo_id": "13185359",
+      "source": "https://www.pexels.com/photo/leg-of-patient-on-bed-13185359/",
+      "http": 200,
+      "author": "Juan Manuel Montejano Lopez",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "ac2eaf94db20f833539fa9058706f10b52cc10203dc0f16d0fdbb6c12dcbdf6b"
+    },
+    {
+      "photo_id": "5622033",
+      "source": "https://www.pexels.com/photo/close-up-of-dentist-patient-5622033/",
+      "http": 200,
+      "author": "Gustavo Fring",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "970d12756815f099b356a3b1994c6dfa41b41b578c588df1bb165730af3ffe39"
+    },
+    {
+      "photo_id": "7446660",
+      "source": "https://www.pexels.com/photo/a-tablet-with-a-magnifier-7446660/",
+      "http": 200,
+      "author": "Gustavo Fring",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "c83241b1a24ac077a101d3b0d415c68a3d988680683455706631a6a573492926"
+    },
+    {
+      "photo_id": "39192353",
+      "source": "https://www.pexels.com/it-it/foto/medico-visita-un-paziente-anziano-in-un-moderno-studio-medico-39192353/",
+      "http": 200,
+      "author": "Vitaly Gariev",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "05dc9f1a14e790e465b5756373b2aed2c6872909530516fe5c4cf24bd1ddf445"
+    },
+    {
+      "photo_id": "16388112",
+      "source": "https://www.pexels.com/photo/doctor-examining-stomach-with-ultrasound-16388112/",
+      "http": 200,
+      "author": "Jorge Chan",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "5a24a8e770d347e71f4e8524a1ed924b6b9889c00ed187f6a731e23049209004"
+    },
+    {
+      "photo_id": "7723384",
+      "source": "https://www.pexels.com/photo/woman-in-red-and-white-dress-figurine-7723384/",
+      "http": 200,
+      "author": "Tara Winstead",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "db70a90e2ac64b31f5ef536837a0e5778b31276b9d922d4a65d617406cae574b"
+    },
+    {
+      "photo_id": "8313180",
+      "source": "https://www.pexels.com/photo/a-therapist-examining-a-patient-8313180/",
+      "http": 200,
+      "author": "RDNE Stock project",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "ea514eb60baabe2ef9f9443bfe96448de2ca234bbe563a8211c5c9691013d7d1"
+    },
+    {
+      "photo_id": "6815699",
+      "source": "https://www.pexels.com/photo/elderly-people-working-out-at-the-gym-6815699/",
+      "http": 200,
+      "author": "Yan Krukau",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "09a84442e9bc3333aa44ab0aa21a1e6b5fc83e8e949258a1cd01578d58376f87"
+    },
+    {
+      "photo_id": "8860200",
+      "source": "https://www.pexels.com/photo/adult-man-sleeping-8860200/",
+      "http": 200,
+      "author": "cottonbro studio",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "fdeb0b2485a17a310f3647c4daaf77f0c70df2e74bb19c319c115e41912a4d59"
+    },
+    {
+      "photo_id": "8413410",
+      "source": "https://www.pexels.com/photo/elderly-man-patient-talking-at-his-doctor-8413410/",
+      "http": 200,
+      "author": "SHVETS production",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "7b7152a13a94d1026bab3cff32d981b1cd7b7f69a3b126e2056d890354f187be"
+    },
+    {
+      "photo_id": "6823568",
+      "source": "https://www.pexels.com/photo/person-s-hand-in-latex-gloves-holding-a-glucometer-6823568/",
+      "http": 200,
+      "author": "Artem Podrez",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "e612881b608939e61eb4ef609f316cf40e1a94fb5a430392f6c7438db5a19bbf"
+    },
+    {
+      "photo_id": "8657372",
+      "source": "https://www.pexels.com/photo/adult-woman-holding-a-white-medicine-bottle-8657372/",
+      "http": 200,
+      "author": "cottonbro studio",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "a1a9f5739ff42c2901622566182bcc5bd82ab891f05ec32248b1439e08a4db96"
+    },
+    {
+      "photo_id": "7088531",
+      "source": "https://www.pexels.com/photo/people-woman-sitting-technology-7088531/",
+      "http": 200,
+      "author": "MART PRODUCTION",
+      "license": "https://www.pexels.com/license/",
+      "isAccessibleForFree": true,
+      "source_html_sha256": "5e187df93fdc599a68e097eae452d1be4152e147150573aa25510b706b929fa5"
+    }
+  ]
+}
