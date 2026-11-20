@@ -59,6 +59,14 @@ Dati inseriti durante la prova guidata: nome «Pasta prova», prezzo fittizio 2 
 
 Il testo del risultato e il pulsante «Stampa o salva come PDF» sono visibili senza tagli orizzontali nella schermata. La dicitura «Fonte: non indicata; data: non indicata» è coerente con i dati fittizi della prova. Questa evidenza conferma il calcolo e la visualizzazione di questo scenario su dispositivo reale; restano da verificare TalkBack, stampa/PDF, zoom al 200%, offline e gli altri percorsi del piano 4A.
 
+**Zoom al 200% — difetto reale rilevato e corretto il 20 novembre.** La seconda schermata ricevuta dal Samsung (orario visibile 13:22) conferma il 200% e mostra l'unità «Grammi (€/kg)» tagliata nel selettore. La prova di leggibilità di questo campo non era quindi superata.
+
+La [correzione pubblicata](https://github.com/cpcpcp106-coder/Per-Me/pull/26), commit `c97497b6bfa4674aaca248a4c3b1e9e5e4681cc1`, usa opzioni brevi (Grammi, Millilitri, Pezzi), una spiegazione della base del prezzo associata al campo tramite `aria-describedby`, e una griglia che si adatta allo spazio e al testo ingrandito. La spiegazione si aggiorna anche per gli ingredienti importati dal menu.
+
+Prima della pubblicazione, il [collaudo sul commit 462bad4](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44736043772) ha superato **52 controlli, zero falliti**, inclusi le tre unità complete e l'assenza di overflow con testo al 200% a 320/390 px, i calcoli in grammi, millilitri e pezzi, le confezioni intere e il trasferimento dal menu. Superato anche il successivo controllo del percorso lieviti, fotografie e offline. La prova browser locale non è partita per il limite sui socket; non è conteggiata fra i successi.
+
+Dopo la pubblicazione, aperto il calcolatore nel browser pubblico: confermati l'opzione «Grammi», la spiegazione «Prezzo al chilogrammo. Quantità e confezione in grammi.», la fotografia caricata (1080 × 720), il canonical e il collegamento alla Pagina Facebook. Ripetuto il caso fittizio 2 €/kg, 500 g, confezione 500 g, due persone: **1,00 € totali, 0,50 € per persona, 1,00 € per la confezione**. **Resta da confermare sul Samsung il campo corretto al 200%**; non si dichiara concluso l'intero collaudo 4A.
+
 ### 4B — Certificazione editoriale, normativa, scientifica e fotografica
 - Inventariare e revisionare ciascuna delle 141 pagine con riferimento normativo/scientifico, validità temporale, destinatari, aggiornamento, rischio, versione e link diretto alla fonte. Priorità a INPS, ARERA, Ministero Salute/MEF, ISTAT, CREA, legge vigente e avvertenze cliniche. Registrare revisione indipendente solo quando esiste documentazione.
 - Completare matrice puntuale diritti immagini e attestazioni dove non documentate, senza presumere che un workflow verde equivalga a licenza completa.
