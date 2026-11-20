@@ -1,4 +1,5 @@
 /* Per Me - visite/installazioni dal 18 ottobre; origini aggregate dal 23 ottobre 2026.
+   Instagram e dettaglio canale WhatsApp dal 20 novembre 2026.
    API verificata in GitHub Actions: countapi.mileshilliard.com; le vecchie chiavi CounterAPI restano archiviate nella cronologia Git.
    Senza librerie e senza modifiche al service worker.
    Escludi questo browser aprendo /Per-Me/?perme_escludimi=1 */
@@ -16,17 +17,20 @@
   // Serie distinte dal 23 ottobre 2026: non ricostruiscono retroattivamente le visite.
   const SOURCE_KEYS = Object.freeze({
     facebook: 'perme-origine-facebook-dal-20261023-43bcc26da793',
+    instagram: 'perme-origine-instagram-dal-20261120-43bcc26da793',
     whatsapp: 'perme-origine-whatsapp-dal-20261115-43bcc26da793',
     google: 'perme-origine-google-dal-20261023-43bcc26da793',
     altri: 'perme-origine-altri-dal-20261023-43bcc26da793',
     sconosciuta: 'perme-origine-sconosciuta-dal-20261023-43bcc26da793'
   });
+  const WHATSAPP_CHANNEL_KEY = 'perme-canale-whatsapp-dal-20261120-43bcc26da793';
 
   function sourceForVisit() {
     const qs = new URL(location.href).searchParams;
     const campaign = (qs.get('utm_source') || '').trim().toLowerCase();
     // Le app social a volte non forniscono un referrer: usa anche i tag del link.
     if (campaign === 'whatsapp') return 'whatsapp';
+    if (campaign === 'instagram' || campaign === 'ig') return 'instagram';
     if (campaign === 'facebook' || campaign === 'fb' || qs.has('fbclid')) return 'facebook';
     if (campaign === 'google' || qs.has('gclid')) return 'google';
     if (campaign) return 'altri';
@@ -36,6 +40,9 @@
       const from = new URL(document.referrer);
       if (from.origin === location.origin) return 'sconosciuta';
       const host = from.hostname.toLowerCase();
+      if (host === 'instagram.com' || host.endsWith('.instagram.com')) return 'instagram';
+      if (host === 'whatsapp.com' || host.endsWith('.whatsapp.com') || host === 'wa.me')
+        return 'whatsapp';
       if (host === 'facebook.com' || host.endsWith('.facebook.com') ||
           host === 'fb.com' || host.endsWith('.fb.com')) return 'facebook';
       // Google Search in Italia e altri domini di ricerca Google più comuni.
@@ -138,6 +145,12 @@
     if (attemptedThisPage) {
       const source = sourceForVisit();
       track('origine-' + source, SOURCE_KEYS[source]);
+      // Sottoinsieme di WhatsApp, non un'ulteriore visita o provenienza.
+      // Il tag indica il link preparato per il canale, anche se poi viene inoltrato.
+      const medium = (new URL(location.href).searchParams.get('utm_medium') || '')
+        .trim().toLowerCase();
+      if (source === 'whatsapp' && medium === 'channel')
+        track('canale-whatsapp', WHATSAPP_CHANNEL_KEY);
     }
   }
 

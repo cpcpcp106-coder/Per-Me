@@ -6,6 +6,8 @@ on:
       - 'scripts/test-contatori-browser.cjs'
       - '.github/workflows/test-contatori-browser.yml'
       - 'analytics.js'
+      - 'contatori-personali/**'
+      - 'contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html'
       - 'app/index.html'
   workflow_dispatch:
 permissions:

@@ -5,13 +5,15 @@
 const { chromium }=require('playwright');
 const fs=require('node:fs');
 const path=require('node:path');
+const http=require('node:http');
 const analytics=fs.readFileSync(path.join(__dirname,'..','analytics.js'),'utf8');
 const site='https://cpcpcp106-coder.github.io/Per-Me/';
 const external=/^https:\/\/countapi\.mileshilliard\.com\/api\/v1\/hit\//;
 const results=[];
 function row(name,pass,details){results.push({name,pass,details});console.log((pass?'PASS':'FAIL')+' '+name+' '+JSON.stringify(details));}
 (async()=>{
- const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+ const browser=await chromium.launch({headless:true,args:['--no-sandbox'],
+   executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH||undefined});
  try{
   async function contextWithMock(){
    const ctx=await browser.newContext({serviceWorkers:'block'});
@@ -64,18 +66,25 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   await t.ctx.close();
 
   // Le diverse campagne e un referrer esterno vengono ripartiti correttamente.
-  for(const [source,query,referrer] of [
+  for(const [source,query,referrer,channel=false] of [
     ['facebook','?utm_source=facebook&utm_medium=social',undefined],
     ['whatsapp','?utm_source=whatsapp',undefined],
+    ['whatsapp','?utm_source=whatsapp&utm_medium=channel',undefined,true],
+    ['whatsapp','?test-contatori-browser=whatsapp','https://web.whatsapp.com/'],
+    ['instagram','?utm_source=instagram&utm_medium=social',undefined],
+    ['instagram','?utm_source=ig',undefined],
+    ['instagram','?test-contatori-browser=instagram','https://l.instagram.com/'],
+    ['instagram','?utm_source=instagram&utm_medium=channel&fbclid=prova',undefined],
     ['google','?utm_source=google',undefined],
     ['altri','?test-contatori-browser=esterno','https://example.org/articolo'],
   ]){
     t=await contextWithMock();
     const page=await t.ctx.newPage();
     await page.goto(site+'index.html'+query,{waitUntil:'domcontentloaded',timeout:35000,...(referrer?{referer:referrer}:{})});
-    await awaitHits(t.hits,2);
+    await awaitHits(t.hits,channel?3:2);
     const count=t.hits.filter(u=>u.includes('perme-origine-'+source+'-dal-')).length;
-    row('source_'+source,t.hits.length===2&&count===1,{hits:t.hits});
+    const channelHits=t.hits.filter(u=>u.includes('perme-canale-whatsapp-dal-20261120-')).length;
+    row('source_'+source+(channel?'_canale':''),t.hits.length===(channel?3:2)&&count===1&&channelHits===(channel?1:0),{hits:t.hits});
     await t.ctx.close();
   }
 
@@ -215,6 +224,74 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     note:'Script classico caricato dinamicamente: POST solo simulati'
   });
   await cfCtx.close();
+
+  // Collaudo dei pannelli del commit corrente, anche su schermi stretti e offline.
+  // Il server espone soltanto i file del checkout; tutti i contatori sono simulati.
+  const root=path.resolve(__dirname,'..');
+  const server=http.createServer((req,res)=>{
+    const pathname=new URL(req.url,'http://localhost').pathname;
+    const relative=pathname.replace(/^\/Per-Me\//,'');
+    let file=path.resolve(root,relative);
+    if(!file.startsWith(root+path.sep)){res.writeHead(404);res.end();return;}
+    if(pathname.endsWith('/'))file=path.join(file,'index.html');
+    fs.readFile(file,(error,data)=>{
+      if(error){res.writeHead(404);res.end();return;}
+      const mime={'.html':'text/html','.js':'application/javascript',
+        '.webmanifest':'application/manifest+json','.png':'image/png'};
+      res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream',
+        'Cache-Control':'no-store'});res.end(data);
+    });
+  });
+  await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
+  const panelCtx=await browser.newContext({viewport:{width:390,height:844}});
+  let offline=false,missingInstagram=false,panelHits=0;
+  await panelCtx.route('**/api/v1/hit/**',route=>{panelHits++;return route.abort();});
+  await panelCtx.route('**/api/v1/get/**',route=>{
+    if(offline)return route.abort();
+    const key=route.request().url();
+    const value=key.includes('origine-instagram')?13:
+      key.includes('canale-whatsapp')?8:key.includes('origine-whatsapp')?21:101;
+    return route.fulfill({status:missingInstagram&&key.includes('origine-instagram')?404:200,
+      contentType:'application/json',headers:{'Access-Control-Allow-Origin':'*'},
+      body:JSON.stringify({value})});
+  });
+  try{
+    const base='http://127.0.0.1:'+server.address().port+'/Per-Me/';
+    const panel=await panelCtx.newPage();
+    await panel.goto(base+'contatori-personali/',{waitUntil:'networkidle'});
+    row('social_panel_values',await panel.locator('#instagram').innerText()==='13'&&
+      await panel.locator('#whatsapp').innerText()==='21'&&
+      await panel.locator('#whatsapp-canale').innerText()==='8',{});
+    for(const width of [320,390,768]){
+      await panel.setViewportSize({width,height:844});
+      row('social_panel_width_'+width,await panel.evaluate(()=>
+        document.documentElement.scrollWidth<=innerWidth),{width});
+    }
+    missingInstagram=true;
+    await panel.locator('#refresh').click();
+    await panel.waitForFunction(()=>!document.getElementById('refresh').disabled);
+    row('new_counter_404_is_zero',await panel.locator('#instagram').innerText()==='0',{});
+    missingInstagram=false;
+    await panel.locator('#refresh').click();
+    await panel.waitForFunction(()=>!document.getElementById('refresh').disabled);
+    await panel.evaluate(()=>navigator.serviceWorker.ready);
+    await panel.reload({waitUntil:'networkidle'});
+    const controller=await panel.evaluate(()=>Boolean(navigator.serviceWorker.controller));
+    row('counter_service_worker_ready',controller,{});
+    offline=true;await panelCtx.setOffline(true);
+    await panel.reload({waitUntil:'domcontentloaded'});
+    await panel.waitForFunction(()=>document.getElementById('status').textContent.includes('Impossibile aggiornare'));
+    row('counter_offline_shell_and_saved_values',await panel.locator('#instagram').innerText()==='13'&&
+      await panel.locator('#whatsapp-canale').innerText()==='8',{});
+    await panelCtx.setOffline(false);offline=false;
+    await panel.goto(base+'contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html',{
+      waitUntil:'networkidle'});
+    row('legacy_panel_social_values',await panel.locator('#instagram').innerText()==='13'&&
+      await panel.locator('#whatsapp-canale').innerText()==='8',{});
+    row('panels_never_increment',panelHits===0,{panelHits});
+  }finally{
+    await panelCtx.close();await new Promise(resolve=>server.close(resolve));
+  }
  }finally{await browser.close()}
  console.log('Diagnostica con intercettazione HTTP, nessun incremento delle chiavi reali.');
  if(results.some(x=>!x.pass))process.exitCode=1;
