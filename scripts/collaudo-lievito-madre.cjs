@@ -57,7 +57,9 @@ async function run() {
           check(await page.locator('.scheda-rapida').count()===1,file+' pesi iniziali e rinfreschi in evidenza');
           check(await page.locator('.calendario .cal-row').count()>=5,file+' calendario completo');
           check(await page.locator('.problemi-lievito dt').count()===4,file+' quattro problemi pratici spiegati');
-          check(await page.locator('.indice-lievito a').count()===5,file+' indice rapido accessibile');
+          const expectedAnchors=file==='pizza-napoletana-con-licoli.html'?6:5;
+          const anchors=await page.locator('.indice-lievito a').evaluateAll(links=>links.map(a=>({hash:a.hash,id:!!document.getElementById(a.hash.slice(1))})));
+          check(anchors.length===expectedAnchors&&anchors.every(a=>a.hash&&a.id),file+' indice rapido accessibile e ancore valide');
         }
         if(file==='pasta-madre-solida-da-zero.html'){
           const pesi=await page.locator('.pesature').nth(1).innerText();
