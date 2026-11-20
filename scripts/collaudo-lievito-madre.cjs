@@ -45,7 +45,8 @@ async function run() {
         });
         check(buttons.length>0&&buttons.every(b=>b.ratio>=7),file+' pulsanti ad alto contrasto (minimo '+Math.min(...buttons.map(b=>b.ratio)).toFixed(1)+':1) a '+width+' px');
         if(file!=='index.html') {
-          check(await page.locator('main a[href="https://www.facebook.com/PerMeGuide/"]').count()===1,file+' collegamento Facebook');
+          const editorialFacebook=await page.locator('main a[href="https://www.facebook.com/PerMeGuide/"]').evaluateAll(links=>links.filter(link=>!link.closest('.perme-riscontro')).length);
+          check(editorialFacebook===1,file+' collegamento Facebook editoriale conservato');
           for(const img of await page.locator('main img[src*="originale.webp"]').all()){
             await img.scrollIntoViewIfNeeded();
             await img.evaluate(element=>element.decode().catch(()=>{}));
