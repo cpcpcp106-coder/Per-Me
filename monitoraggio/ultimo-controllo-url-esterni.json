@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-20T09:40:02.686554+00:00",
+  "date_utc": "2026-11-20T11:56:42.041900+00:00",
   "scope": {
     "pages": 141,
-    "unique_external_urls": 896,
-    "occurrences": 2036
+    "unique_external_urls": 894,
+    "occurrences": 2031
   },
   "counts": {
-    "raggiungibile": 760,
-    "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 13,
-    "errore_http": 1
+    "raggiungibile": 758,
+    "errore_http": 2,
+    "bloccato_o_riservato": 121,
+    "non_verificato_trasporto": 13
   },
   "results": [
     {
@@ -1295,15 +1295,6 @@
       "final_url": "https://images.pexels.com/photos/15965909/pexels-photo-15965909.jpeg?auto=compress&cs=tinysrgb&w=1400",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
-      ]
-    },
-    {
-      "url": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg?auto=compress&dpr=1&h=750&w=1260",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://images.pexels.com/photos/16388112/pexels-photo-16388112/free-photo-of-doctor-examining-stomach-with-ultrasound.jpeg?auto=compress&dpr=1&h=750&w=1260",
-      "pages": [
-        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
@@ -7034,9 +7025,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -7885,8 +7875,6 @@
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
-        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
-        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
@@ -8085,15 +8073,6 @@
       "http": 403,
       "pages": [
         "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
-      ]
-    },
-    {
-      "url": "https://www.pexels.com/photo/doctor-examining-stomach-with-ultrasound-16388112/",
-      "status": "bloccato_o_riservato",
-      "http": 403,
-      "pages": [
-        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
-        "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
       ]
     },
     {
