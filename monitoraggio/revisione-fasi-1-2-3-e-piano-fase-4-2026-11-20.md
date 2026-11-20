@@ -2,6 +2,10 @@
 **Data:** 20 novembre 2026. **Progetto:** https://github.com/cpcpcp106-coder/Per-Me
 **Metodo:** lettura dei registri del repository prima delle modifiche, controllo diretto di pagine e programmi delle tre fasi, riscontro con fonti primarie selezionate, consultazione dei log di GitHub Actions e verifica separata dei limiti. Non è una revisione indipendente certificata di tutte le affermazioni.
 
+## Consolidamento successivo del 20 novembre
+
+Corrette le etichette assistive dei comandi di lettura e completati i collaudi browser, stampa e offline: 30 PASS nel controllo esteso, 52 prove degli strumenti, 77 dei miglioramenti e 173 del percorso lieviti/offline. Il controllo giornaliero è aggiornato alla Fase 4. Google ha scansionato la guida INPS Mobile, che resta non indicizzata; l’errore sitemap e i 13 collegamenti inconcludenti rimangono aperti. [Rapporto di consolidamento, prove e limiti](fase-4-consolidamento-2026-11-20.md).
+
 ## Cinque miglioramenti successivi al collaudo Samsung
 
 Pubblicati i comandi di lettura e ascolto nelle guide, il PDF sintetico della spesa, l’ingresso semplificato nella homepage, il paniere dimostrativo di sette giorni per due e i riscontri classificati accanto alle stelle. [Rapporto completo dei cinque punti](migliorie-cinque-punti-2026-11-20.md), con prove e limiti.
