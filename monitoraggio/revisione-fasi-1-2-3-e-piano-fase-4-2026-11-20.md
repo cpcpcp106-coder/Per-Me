@@ -27,16 +27,16 @@
 - Il percorso per diabete e cardiopatia cita limiti per sale, carboidrati, terapia e funzione renale; non è una prescrizione individuale.
 - Test dedicati su commit [098ab7b2](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44694697087) e [b0c3e1c3](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44694755502): successi confermati. **Stato:** funzionalità principali sviluppate; manca un paniere realmente acquistabile e un collaudo clinico/editoriale completo.
 
-### Fase 3 — semplicità, smartphone, strumenti pratici
+### Fase 3 — semplicità, smartphone, strumenti pratici (implementazione testata in Chromium)
 - Dodici collegamenti per problemi erano già presenti; oggi aggiunti filtro locale, sinonimi, messaggi di stato, percorso INPS diretto e collegamenti dalla pagina degli strumenti.
-- Primo test ampliato [44696204860](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696204860): **32 PASS, 2 FAIL** per overflow al 200% a 320 e 390 px. Dopo una correzione, [run 44696402328](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696402328): **33 PASS e 1 FAIL** residuo a 320 px. Modifiche ulteriori e diagnostica su [1a82a643](https://github.com/cpcpcp106-coder/Per-Me/commit/1a82a6433b8ef201b81f51eeb5b749bb3cf821c5). **Non dichiarare superata la prova al 200% finché il workflow più recente non ne dà evidenza.**
+- Il primo collaudo ampliato ha rilevato un vero overflow al 200%: [run 44696204860](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696204860) con 32 PASS/2 FAIL, e [run 44696402328](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696402328) con 33 PASS/1 FAIL. Le correzioni CSS sono state quindi ri-testate su [run 44696696165](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696696165) del commit [1a82a643](https://github.com/cpcpcp106-coder/Per-Me/commit/1a82a6433b8ef201b81f51eeb5b749bb3cf821c5): **34 test superati, zero falliti**, inclusi testo al 200% a **320 e 390 px**; inoltre **156 controlli del percorso lieviti e offline superati**. È un collaudo Playwright/Chromium Linux, non prova su Samsung reale.
 - Restano prove reali Samsung/TalkBack, tastiera esterna, prova a zoom 200% su dispositivo, rilevazione dell'esperienza reale di lettori 50–70, verifica dell'offline sui percorsi interessati.
 
 ## Fase 4 — unico programma residuo di consolidamento
 Da questo registro in avanti, tutti i lavori NON certificati delle tre fasi confluiscono nella **Fase 4**, senza far apparire le Fasi 1–3 integralmente approvate.
 
 ### 4A — Blocchi tecnici/accessibilità (priorità immediata)
-- Chiudere il test 200% su 320 px, correggere solo elementi responsabili e registrare un'esecuzione GitHub Actions interamente verde.
+- **Completato nel browser automatizzato:** reflow al 200% su 320 e 390 px, workflow GitHub verde [44696696165](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696696165). Resta da ripetere su dispositivo reale e con impostazioni di accessibilità effettive; non è più un difetto aperto nel test Chromium.
 - Eseguire test su smartphone reale (Samsung) e con TalkBack / tastiera, attivazione e lettura delle 12 schede, filtro e percorso INPS, stampa/copia modelli, zoom e reflow. Registrare risultati reali; non simularne l'esito.
 - Verificare riproducibilmente all'esterno di GitHub la nuova pagina, CSS, immagine, pulsante Facebook e collegamenti, distinguendo deployment riuscito da HTTP 200 e contenuto effettivamente servito.
 
