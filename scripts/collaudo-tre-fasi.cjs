@@ -36,8 +36,16 @@ async function run(){
  await page.locator('.riga').first().locator('[data-key=quantita]').fill('250');
  await page.locator('.riga').first().locator('[data-key=nome]').fill('Ceci');
  while(await page.locator('.riga').count()>1) await page.locator('.riga').last().locator('button').click();
+ await page.locator('.riga').first().locator('[data-key=confezione]').fill('500');
  await page.locator('#f button[type=submit]').click();
  check((await page.locator('#totale').innerText()).includes('1,00'),'costo 250g a 4€/kg = 1 euro '+width);
+ check((await page.locator('#cassa').innerText()).includes('2,00'),'cassa confezione da 500g a 4€/kg = 2 euro '+width);
+ await page.locator('#aggiungi').click();
+ const seconda=page.locator('.riga').last();
+ await seconda.locator('[data-key=nome]').fill('Lenticchie');
+ await seconda.locator('[data-key=quantita]').fill('400');
+ await page.locator('#f button[type=submit]').click();
+ check((await page.locator('#copertura').innerText()).includes('Mancano prezzo'),'riepilogo parziale se manca un prezzo '+width);
  check(errors.length===0,'nessun errore JavaScript '+width+': '+errors.join(' | '));
  await page.close();
  }
