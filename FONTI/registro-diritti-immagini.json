@@ -1553,6 +1553,17 @@
       "license_or_ownership": "Output creato per Per Me secondo le condizioni di ChatGPT e il diritto applicabile; nessuna immagine di terzi in ingresso.",
       "source_history_verified": true,
       "used_in": "lievito-madre.html, tangzhong-autolisi-biga-poolish.html"
+    },
+    {
+      "file": "assets/inps-mobile-5-originale.webp",
+      "git_blob_sha": "af672bea9c9094c15b63298aed0ec2850877eb6d",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "note": "Foto iperrealistica illustrativa originale: uomo adulto usa uno smartphone in casa; nessuna schermata INPS, marchio o dato personale riprodotto.",
+      "origin": "Immagine generata con ChatGPT ImageGen il 20 novembre 2026, senza immagini di riferimento, e convertita in WebP 1200 × 800 per Per Me.",
+      "provenance_evidence": "Output originale: generated_images/exec-9ed82304-4a5f-4bc2-b2c7-40053bb3181b.png. Prompt photorealistic-natural: uomo italiano di circa 65 anni che consulta servizi previdenziali sullo smartphone in casa; nessun testo, logo o interfaccia inventata. Risultato visionato nella sessione di creazione; impronta Git del WebP registrata.",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni di ChatGPT e il diritto applicabile; nessuna immagine di terzi in ingresso.",
+      "source_history_verified": true,
+      "used_in": "index.html, inps-mobile-5-novita.html"
     }
   ],
   "notes": [
