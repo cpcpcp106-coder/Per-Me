@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T09:16:25.979Z",
+  "checked_at_utc": "2026-11-20T09:33:48.047Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 136,
+        "count": 137,
         "failures": []
       }
     },
@@ -67,7 +67,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 136,
+        "checked": 137,
         "violations": []
       }
     },
@@ -87,7 +87,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 136,
+        "checked": 137,
         "failed": [],
         "errors": []
       }
@@ -126,11 +126,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "124 pagine salvate per la lettura offline · controllo online 20 nov, 09:17.",
+        "status": "125 pagine salvate per la lettura offline · controllo online 20 nov, 09:34.",
         "stored": {
-          "guides": 124,
-          "updated": "2026-11-20T09:17:16.361Z",
-          "bytes": 2574261,
+          "guides": 125,
+          "updated": "2026-11-20T09:34:43.321Z",
+          "bytes": 2593498,
           "includesNew09": true
         }
       }
@@ -144,7 +144,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 124
+        "count": 125
       }
     },
     {
@@ -1024,6 +1024,12 @@
       "violations": [],
       "passes": 25,
       "incomplete": 2
+    },
+    {
+      "page": "tangzhong-autolisi-biga-poolish.html",
+      "violations": [],
+      "passes": 25,
+      "incomplete": 3
     },
     {
       "page": "tutor-ai-android-primi-passi.html",

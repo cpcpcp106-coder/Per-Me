@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-20T09:18:52.967056+00:00",
+  "date_utc": "2026-11-20T09:36:09.322335+00:00",
   "scope": {
-    "pages": 139,
-    "unique_external_urls": 884,
-    "occurrences": 2021
+    "pages": 140,
+    "unique_external_urls": 893,
+    "occurrences": 2031
   },
   "counts": {
-    "raggiungibile": 740,
+    "raggiungibile": 757,
     "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 21,
+    "non_verificato_trasporto": 13,
     "errore_http": 1
   },
   "results": [
@@ -3174,8 +3174,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
@@ -3243,8 +3244,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3262,8 +3264,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3286,8 +3289,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -4363,6 +4367,15 @@
       ]
     },
     {
+      "url": "https://www.dallagiovanna.it/post/lapala-con-biga-classica",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.dallagiovanna.it/post/lapala-con-biga-classica",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
       "url": "https://www.demenze.it/it-mappa",
       "status": "raggiungibile",
       "http": 200,
@@ -4749,7 +4762,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -4775,7 +4788,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -4823,6 +4836,7 @@
         "salute-guida-08-patente-malattie-croniche-certificati.html",
         "scadenze-del-mese.html",
         "soldi-lavoro.html",
+        "tangzhong-autolisi-biga-poolish.html",
         "tutorial-smartphone.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
@@ -5086,6 +5100,15 @@
       "final_url": "https://www.gazzettaufficiale.it/eli/id/2026/07/01/26G00130/sg",
       "pages": [
         "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
+      "url": "https://www.giorilli.com/wp-content/uploads/2015/04/rosetta_tutta_biga.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.giorilli.com/wp-content/uploads/2015/04/rosetta_tutta_biga.pdf",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
@@ -6731,12 +6754,57 @@
       ]
     },
     {
+      "url": "https://www.kingarthurbaking.com/blog/2017/09/29/using-the-autolyse-method",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/blog/2017/09/29/using-the-autolyse-method",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/blog/2018/07/23/how-to-convert-a-bread-recipe-to-tangzhong",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/blog/2018/07/23/how-to-convert-a-bread-recipe-to-tangzhong",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/blog/2019/01/08/using-tangzhong-in-sourdough-bread",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/blog/2019/01/08/using-tangzhong-in-sourdough-bread",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/blog/2021/02/05/tangzhong-method-soft-pillowy-cinnamon-rolls",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/blog/2021/02/05/tangzhong-method-soft-pillowy-cinnamon-rolls",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
       "url": "https://www.kingarthurbaking.com/blog/2024/04/24/sourdough-myths",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.kingarthurbaking.com/blog/2024/04/24/sourdough-myths",
       "pages": [
         "licoli-da-zero.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/pro/reference/preferment",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/pro/reference/preferment",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
@@ -6985,6 +7053,15 @@
       "final_url": "https://www.motac.gov.my/en/frequently-asked-questions-faqs/",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.mulinopadano.it/blog/ricette/ricetta-baguette-metodo-poolish/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.mulinopadano.it/blog/ricette/ricetta-baguette-metodo-poolish/",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
@@ -8325,16 +8402,18 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/multimedia/campagna-screening-oncologici-uno-screening-puo-salvarti-la-vita/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/multimedia/campagna-screening-oncologici-uno-screening-puo-salvarti-la-vita/",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
       "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
       ]
@@ -8562,8 +8641,9 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
@@ -8715,8 +8795,9 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/nuovo-approccio-ue-ai-tumori-tumore-polmonare-e-prostata/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno 101] Network is unreachable>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/nuovo-approccio-ue-ai-tumori-tumore-polmonare-e-prostata/",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -8821,6 +8902,15 @@
       "pages": [
         "diabete-guida-07-ictus-tia-prevenzione.html",
         "diabete-guida-07-ictus-tia-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.theperfectloaf.com/guides/how-to-autolyse/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.theperfectloaf.com/guides/how-to-autolyse/",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
