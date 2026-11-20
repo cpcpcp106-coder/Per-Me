@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-20T07:43:25.408721+00:00",
+  "date_utc": "2026-11-20T09:18:52.967056+00:00",
   "scope": {
     "pages": 139,
     "unique_external_urls": 884,
     "occurrences": 2021
   },
   "counts": {
-    "raggiungibile": 734,
+    "raggiungibile": 740,
     "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 27,
+    "non_verificato_trasporto": 21,
     "errore_http": 1
   },
   "results": [
@@ -88,8 +88,9 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -3164,8 +3165,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
@@ -3180,8 +3182,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3189,8 +3192,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3199,8 +3203,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3208,8 +3213,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3217,8 +3223,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3226,8 +3233,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3244,8 +3252,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3267,8 +3276,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -8315,18 +8325,16 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/multimedia/campagna-screening-oncologici-uno-screening-puo-salvarti-la-vita/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/multimedia/campagna-screening-oncologici-uno-screening-puo-salvarti-la-vita/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
       ]
     },
     {
       "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/giornata-mondiale-della-vista-2025/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
       ]
@@ -8554,9 +8562,8 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-reddito/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
         "agevolazioni-guida-04-esenzioni-ticket-italia.html",
@@ -8708,9 +8715,8 @@
     },
     {
       "url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/nuovo-approccio-ue-ai-tumori-tumore-polmonare-e-prostata/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.salute.gov.it/new/it/tema/tumori-e-screening/nuovo-approccio-ue-ai-tumori-tumore-polmonare-e-prostata/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [Errno 101] Network is unreachable>",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
