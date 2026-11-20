@@ -2,6 +2,12 @@
 **Data:** 20 novembre 2026. **Progetto:** https://github.com/cpcpcp106-coder/Per-Me
 **Metodo:** lettura dei registri del repository prima delle modifiche, controllo diretto di pagine e programmi delle tre fasi, riscontro con fonti primarie selezionate, consultazione dei log di GitHub Actions e verifica separata dei limiti. Non è una revisione indipendente certificata di tutte le affermazioni.
 
+## Cinque miglioramenti successivi al collaudo Samsung
+
+Pubblicati i comandi di lettura e ascolto nelle guide, il PDF sintetico della spesa, l’ingresso semplificato nella homepage, il paniere dimostrativo di sette giorni per due e i riscontri classificati accanto alle stelle. [Rapporto completo dei cinque punti](migliorie-cinque-punti-2026-11-20.md), con prove e limiti.
+
+Il paniere usa 22 prodotti con prezzo, formato e comando di acquisto osservati nel catalogo Cicalia il 20 novembre: 115,19 € per le quantità elencate e 149,06 € per tutte le confezioni, prima di spedizione e altre spese. Copre il precedente compito di documentare menu, quantità, prezzi e confezioni; disponibilità al CAP, etichetta fisica dell’olio e validazione dietistica indipendente restano distintamente non accertate. Le nuove prove browser non sostituiscono quelle assistive reali e non richiedono altre operazioni sul Samsung.
+
 ## Aggiornamento dei controlli sequenziali del 20 novembre
 I numeri riportati più sotto conservano gli snapshot del mattino. Per lo stato successivo consultare [punto 1 — controlli automatici](punto-1-controlli-automatici-2026-11-20.md), [punto 2 — indicizzazione](punto-2-indicizzazione-2026-11-20.md) e [punto 3 — contenuti e immagini](punto-3-revisione-contenuti-immagini-2026-11-20.md).
 
@@ -23,7 +29,7 @@ L’inventario corrente comprende **143 pagine**. Il punto 3 ha registrato i con
 - Fonti selezionate confrontate: [INPS Carta acquisti](https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html), [ARERA requisiti bonus 2026](https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti), [Ministero della Salute esenzioni](https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/), [CREA Linee guida](https://www.crea.gov.it/en/-/on-line-le-linee-guida-per-una-sana-alimentazione-2018), [ISTAT prezzi ottobre 2026](https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/). Fonti campionarie; non equivalgono a revisione di 141 pagine.
 - **Stato:** struttura robusta; la Fase 1 non è integralmente certificata dal punto di vista normativo, sanitario, dei diritti d'autore e della verifica su dispositivi assistivi. Search Console: il connettore GSC Wizard ha rifiutato l'accesso per abbonamento non attivo; non è stato richiesto alcun pagamento e non viene dichiarato alcuno stato Google aggiornato.
 
-### Fase 2 — strumenti e dieta economica
+### Fase 2 — strumenti e dieta economica (snapshot precedente ai cinque miglioramenti)
 - Disponibili: `strumenti/orientamento-benefici.html`, `strumenti/costo-pasto-mediterraneo.html`, `strumenti/costo-spesa-settimanale.html`, `app/menu-mediterraneo.html` e trasferimento locale dalla lista menu al calcolatore. L'orientatore non accerta un diritto.
 - Verifica soglie 2026: Carta acquisti over 65 con ISEE **inferiore a €8.230,81** e ulteriori criteri [INPS](https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html); soglie economiche bonus sociali **non superiore a €9.796**, oppure **€20.000** con almeno quattro figli a carico, più requisiti delle utenze [ARERA](https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti). L'ISEE a fasce non stabilisce la spettanza.
 - Calcolo spesa: subtotale anche con righe non prezzate, costo consumato distinto dall'esborso teorico per confezioni intere, campi facoltativi negozio/data; nessun prezzo preimpostato.
@@ -78,7 +84,7 @@ L'utente ha confermato «Funziona, non serve altro»: la prova guidata sul telef
 
 ### 4C — Orientamento e alimentazione con evidenze pratiche
 - Per i benefici, matrice ufficiale di requisiti, incompatibilità, annualità, procedura e fonti; nessuna conclusione personalizzata automatica con dati insufficienti.
-- Per la dieta economica, paniere di 7 giorni documentato con prodotti effettivamente acquistabili, negozio/luogo, prezzo, quantità e confezioni, data, costo consumato e costo alla cassa, senza presentare medie o listini non verificati.
+- **Completato per l’esempio dimostrativo:** paniere di sette giorni per due, 22 prodotti con prezzo, formato e comando di acquisto osservati nel catalogo Cicalia il 20 novembre 2026; prezzi consumati e confezioni intere distinti. [Rapporto e limiti](migliorie-cinque-punti-2026-11-20.md). Disponibilità al CAP, preventivo di consegna e validazione dietistica indipendente non accertati.
 - Per EVO italiano, almeno una documentazione d'etichetta/lotto realmente verificata quando disponibile; distinguere origine commerciale dichiarata, etichetta fisica e tracciabilità.
 - Testare tutte le transizioni menu → lista spesa → calcolatore e le avvertenze per diabete, cardiopatia, malattia renale, senza indicazioni individuali d'insulina.
 
