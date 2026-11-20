@@ -36,10 +36,22 @@
 <meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="lievito-madre.css?v=4">
 <script defer src="app/catalogo-guide.js?v=3"></script>
-<script defer src="ricerca-guide.js?v=2"></script>
+<script defer src="ricerca-guide.js?v=3"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://cpcpcp106-coder.github.io/Per-Me/#website","url":"https://cpcpcp106-coder.github.io/Per-Me/","name":"Per Me","inLanguage":"it-IT","description":"Guide gratuite su pensioni, lavoro, debiti, diritti, salute e alimentazione per chi vive in Italia."}</script>
 <script defer src="analytics.js?v=2"></script></head><body><a class="skip" href="#contenuto">Vai al contenuto</a><header data-shared="per-me"><div class="wrap top"><a class="brand" href="./"><img class="brand-logo" src="assets/logo-per-me.png" width="86" height="86" alt="" decoding="async">Per Me</a><nav aria-label="Navigazione principale"><a href="./">Home</a><a href="./#rubriche">Rubriche</a><a href="modelli-e-strumenti.html">Modelli e strumenti</a><a href="metodo.html">Il metodo</a><a href="chi-siamo.html">Il progetto</a></nav></div></header><main class="wrap home-main" id="contenuto">
-  <form class="ricerca-guide" id="cerca-guide" role="search" aria-label="Guide di Per Me" hidden>
+<section class="hero">
+    <div class="hero-copy">
+      <span class="eyebrow">Guide gratuite</span>
+      <h1>Pensioni, lavoro, salute e diritti</h1>
+      <p>Ti è arrivata una lettera dell’INPS, hai trovato una voce che non capisci in busta paga o devi preparare una visita? Nelle guide trovi cosa controllare, quali documenti ti servono e a chi puoi rivolgerti.</p>
+      <div class="actions">
+        <a class="button" href="da-dove-cominciare.html">Trova la guida per il tuo problema</a>
+        <a class="button quiet" href="#situazioni">Vedi le situazioni più frequenti</a>
+      </div>
+    </div>
+    <img alt="Una donna legge un documento al tavolo di casa" fetchpriority="high" src="assets/foto-1.webp"/>
+  </section>
+<form class="ricerca-guide" id="cerca-guide" role="search" aria-label="Guide di Per Me" hidden>
     <label for="parole-guida">Cerca una guida</label>
     <div class="ricerca-guide-controlli">
       <input id="parole-guida" type="search" placeholder="Es. cauzione o cedolino" autocomplete="off" aria-controls="risultati-guide">
@@ -49,27 +61,12 @@
     <ul id="risultati-guide" hidden></ul>
     <button id="altri-risultati" type="button" hidden>Mostra altri risultati</button>
   </form>
-  <section aria-labelledby="inizia-per-problema" style="margin:20px 0 28px;padding:20px;border:2px solid #42624d;border-radius:12px;background:#f4f8f4;color:#1b3024"><h2 id="inizia-per-problema" style="font-size:1.55rem;line-height:1.3;margin:0 0 10px">Hai un problema da risolvere?</h2><p style="font-size:1.16rem;line-height:1.65">Non devi cercare tra tutte le rubriche. Scegli la tua situazione e raggiungi la guida più utile.</p><a href="da-dove-cominciare.html" style="display:flex;align-items:center;justify-content:center;min-height:60px;padding:12px;background:#234438;color:white;font-size:1.2rem;font-weight:800;border-radius:10px;text-align:center;text-decoration:none">Trova la guida per il tuo problema</a></section>
-  <aside class="reader-invite" id="prova-15-minuti" aria-labelledby="prova-titolo">
-    <div class="reader-invite-copy">
-      <p class="reader-invite-title" id="prova-titolo">Aiutaci a migliorare Per Me</p>
-      <p>Hai tra i 50 e i 70 anni? Prova le guide sul telefono e raccontaci dove hai fatto fatica. Ci vogliono circa 15 minuti. La prova è gratuita e puoi farla senza iscriverti.</p>
-    </div>
-    <a class="reader-invite-link" href="prova-lettori.html">Prova le guide <span aria-hidden="true">→</span></a>
-  </aside>
 
-  <section class="hero">
-    <div class="hero-copy">
-      <span class="eyebrow">Guide gratuite</span>
-      <h1>Pensioni, lavoro, salute e diritti</h1>
-      <p>Ti è arrivata una lettera dell’INPS, hai trovato una voce che non capisci in busta paga o devi preparare una visita? Nelle guide trovi cosa controllare, quali documenti ti servono e a chi puoi rivolgerti.</p>
-      <div class="actions">
-        <a class="button" href="#situazioni">Scegli per situazione</a>
-        <a class="button quiet" href="#rubriche">Vedi tutte le rubriche</a>
-      </div>
-    </div>
-    <img alt="Una donna legge un documento al tavolo di casa" fetchpriority="high" src="assets/foto-1.webp"/>
-  </section>
+  
+  
+  
+
+  
 
   <section class="scelte-rapide" id="situazioni" aria-labelledby="scelte-titolo">
     <h2 id="scelte-titolo">Da dove cominciare</h2>
@@ -187,7 +184,7 @@
         <img alt="Insalata con verdure, olive e formaggio" loading="lazy" decoding="async" src="https://images.pexels.com/photos/1059905/pexels-photo-1059905.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=900"/>
         <div>
           <h3><a href="dieta-mediterranea-scientifica.html">Dieta mediterranea scientifica</a></h3>
-          <p><strong>8 guide di approfondimento</strong>, <a href="dieta-mediterranea-ricette.html">28 ricette</a> con calorie e carboidrati per porzione e un <a href="app/menu-mediterraneo.html">menu settimanale con lista della spesa</a>.</p>
+          <p><strong>8 guide di approfondimento</strong>, <a href="dieta-mediterranea-ricette.html">28 ricette</a> con calorie e carboidrati per porzione e un <a href="app/menu-mediterraneo.html">menu settimanale con lista della spesa</a>. Trovi anche <a href="dieta-guida-08-ricette-mediterranee-economiche-valori.html#spesa-settimana-documentata">sette giorni per due con prezzi, confezioni e residui documentati</a>.</p>
           <p class="rubric-action"><a class="button" href="dieta-mediterranea-scientifica.html" aria-label="Apri la rubrica Dieta mediterranea scientifica">Apri la rubrica →</a></p>
         </div>
       </article>
@@ -204,7 +201,14 @@
     </div>
   </section>
 
-  <section class="method">
+  <aside class="reader-invite" id="prova-15-minuti" aria-labelledby="prova-titolo">
+    <div class="reader-invite-copy">
+      <p class="reader-invite-title" id="prova-titolo">Aiutaci a migliorare Per Me</p>
+      <p>Hai tra i 50 e i 70 anni? Prova le guide sul telefono e raccontaci dove hai fatto fatica. Ci vogliono circa 15 minuti. La prova è gratuita e puoi farla senza iscriverti.</p>
+    </div>
+    <a class="reader-invite-link" href="prova-lettori.html">Prova le guide <span aria-hidden="true">→</span></a>
+  </aside>
+<section class="method">
     <h2>Come preparo le guide</h2>
     <p>Parto da una domanda concreta. Nelle guide trovi i riferimenti per controllare le informazioni e la data dell’ultima verifica.</p>
     <p>Per preparare e rivedere i testi uso anche ChatGPT. Nella pagina <a href="metodo.html">Il metodo</a> spiego come uso l’intelligenza artificiale, da dove arrivano le informazioni e quali verifiche faccio.</p>

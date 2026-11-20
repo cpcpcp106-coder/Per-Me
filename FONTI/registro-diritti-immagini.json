@@ -1512,7 +1512,8 @@
       "provenance_evidence": "Output originale ImageGen di questa sessione del 14 novembre 2026: exec-9cb09e7c-0d26-4141-9b01-990a2575c99f.png.",
       "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
       "source_history_verified": true,
-      "used_in": "app/menu-mediterraneo.html"
+      "used_in": "app/menu-mediterraneo.html",
+      "additional_uses": ["dieta-guida-08-ricette-mediterranee-economiche-valori.html"]
     },
     {
       "file": "assets/pensionati-estero-rubrica.webp",

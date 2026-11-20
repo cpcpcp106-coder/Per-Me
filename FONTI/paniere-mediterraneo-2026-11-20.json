@@ -1,0 +1,592 @@
+{
+  "versione": 1,
+  "rilevazione": "2026-11-20",
+  "persone": 2,
+  "giorni": 7,
+  "negozio": "Cicalia, catalogo pubblico senza CAP di consegna",
+  "metodo": "Schede prodotto aperte nel browser il 20 novembre 2026: prezzo della confezione, formato e presenza del comando AGGIUNGI AL CARRELLO. Nessun acquisto effettuato; disponibilità al CAP e preventivo di consegna non verificati.",
+  "natura": "Esempio contabile di menu e acquisti; nessuna validazione dietistica indipendente o verifica dei fabbisogni individuali.",
+  "colazione_quotidiana": {
+    "yogurt": 250,
+    "avena": 80,
+    "mele": 300
+  },
+  "spuntini_quotidiani": {
+    "clementine": 400,
+    "mandorle": 30
+  },
+  "settimana": [
+    {
+      "giorno": "Lunedì",
+      "pranzo": {
+        "piatto": "Pasta, ceci e broccoli",
+        "ingredienti": {
+          "pasta": 160,
+          "ceci": 120,
+          "broccoli": 300,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Pollo, patate e zucchine",
+        "ingredienti": {
+          "pollo": 300,
+          "patate": 600,
+          "zucchine": 300,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    },
+    {
+      "giorno": "Martedì",
+      "pranzo": {
+        "piatto": "Riso, lenticchie e carote",
+        "ingredienti": {
+          "riso": 140,
+          "lenticchie": 120,
+          "carote": 200,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Uova, spinaci e pane",
+        "ingredienti": {
+          "uova": 4,
+          "spinaci": 300,
+          "pane": 160,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    },
+    {
+      "giorno": "Mercoledì",
+      "pranzo": {
+        "piatto": "Pasta al pomodoro con broccoli",
+        "ingredienti": {
+          "pasta": 160,
+          "passata": 250,
+          "broccoli": 300,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Sgombro, patate e carote",
+        "ingredienti": {
+          "sgombro": 2,
+          "patate": 500,
+          "carote": 300,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    },
+    {
+      "giorno": "Giovedì",
+      "pranzo": {
+        "piatto": "Riso, ceci e spinaci",
+        "ingredienti": {
+          "riso": 140,
+          "ceci": 120,
+          "spinaci": 300,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Zuppa di lenticchie e carote con pane",
+        "ingredienti": {
+          "lenticchie": 120,
+          "carote": 200,
+          "passata": 200,
+          "pane": 160,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    },
+    {
+      "giorno": "Venerdì",
+      "pranzo": {
+        "piatto": "Pasta, lenticchie e pomodoro",
+        "ingredienti": {
+          "pasta": 160,
+          "lenticchie": 120,
+          "passata": 200,
+          "carote": 200,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Pollo, broccoli e pane",
+        "ingredienti": {
+          "pollo": 300,
+          "broccoli": 400,
+          "pane": 160,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    },
+    {
+      "giorno": "Sabato",
+      "pranzo": {
+        "piatto": "Riso con zucchine, carote e mandorle",
+        "ingredienti": {
+          "riso": 140,
+          "zucchine": 200,
+          "carote": 100,
+          "mandorle": 30,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Uova, zucchine e pane",
+        "ingredienti": {
+          "uova": 4,
+          "zucchine": 300,
+          "pane": 160,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    },
+    {
+      "giorno": "Domenica",
+      "pranzo": {
+        "piatto": "Pasta, ceci, pomodoro e broccoli",
+        "ingredienti": {
+          "pasta": 160,
+          "ceci": 120,
+          "passata": 200,
+          "broccoli": 200,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      },
+      "cena": {
+        "piatto": "Sgombro, spinaci e pane",
+        "ingredienti": {
+          "sgombro": 2,
+          "spinaci": 300,
+          "pane": 160,
+          "cipolle": 40,
+          "olio": 20,
+          "sale": 1
+        }
+      }
+    }
+  ],
+  "prodotti": [
+    {
+      "id": "pasta",
+      "nome": "Pasta integrale",
+      "prodotto": "Rummo penne integrali n. 66",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "2.55",
+      "fonte": "https://www.cicalia.com/it/pasta-integrale/68172-rummo-pasta-penne-rig-integr-n-66-gr500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 640,
+      "numero_confezioni": 2,
+      "residuo_nominale": 360,
+      "costo_quantita": "3.26",
+      "costo_confezioni": "5.10"
+    },
+    {
+      "id": "riso",
+      "nome": "Riso integrale",
+      "prodotto": "Scotti integrale 10 minuti",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "5.05",
+      "fonte": "https://www.cicalia.com/it/riso/46844-scotti-riso-integrale-10-kg-1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 420,
+      "numero_confezioni": 1,
+      "residuo_nominale": 580,
+      "costo_quantita": "2.12",
+      "costo_confezioni": "5.05"
+    },
+    {
+      "id": "pane",
+      "nome": "Pane integrale di segale",
+      "prodotto": "Pema",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "3.65",
+      "fonte": "https://www.cicalia.com/it/pane-confezionato/62372-pema-pane-di-segale-integrale-gr500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 800,
+      "numero_confezioni": 2,
+      "residuo_nominale": 200,
+      "costo_quantita": "5.84",
+      "costo_confezioni": "7.30"
+    },
+    {
+      "id": "avena",
+      "nome": "Fiocchi di avena",
+      "prodotto": "Fiorentini",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "2.45",
+      "fonte": "https://www.cicalia.com/it/cereali-muesli/14121-fiorentini-fiocchi-avena-gr-500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 560,
+      "numero_confezioni": 2,
+      "residuo_nominale": 440,
+      "costo_quantita": "2.74",
+      "costo_confezioni": "4.90"
+    },
+    {
+      "id": "ceci",
+      "nome": "Ceci secchi",
+      "prodotto": "La Conserviera",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "3.89",
+      "fonte": "https://www.cicalia.com/it/legumi-mais-e-cereali/8488-ceci-messicani-conserviera-gr500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 360,
+      "numero_confezioni": 1,
+      "residuo_nominale": 140,
+      "costo_quantita": "2.80",
+      "costo_confezioni": "3.89"
+    },
+    {
+      "id": "lenticchie",
+      "nome": "Lenticchie rosse secche",
+      "prodotto": "La Conserviera",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "2.59",
+      "fonte": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 360,
+      "numero_confezioni": 1,
+      "residuo_nominale": 140,
+      "costo_quantita": "1.86",
+      "costo_confezioni": "2.59"
+    },
+    {
+      "id": "yogurt",
+      "nome": "Yogurt bianco magro",
+      "prodotto": "Vipiteno",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "2.15",
+      "fonte": "https://www.cicalia.com/it/yogurt/49890-vipiteno-yogurt-magro-b-gr-500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 1750,
+      "numero_confezioni": 4,
+      "residuo_nominale": 250,
+      "costo_quantita": "7.53",
+      "costo_confezioni": "8.60"
+    },
+    {
+      "id": "pollo",
+      "nome": "Petto di pollo crudo",
+      "prodotto": "M. Mutti, a fette",
+      "confezione": 300,
+      "unita": "g",
+      "prezzo_confezione": "8.95",
+      "fonte": "https://www.cicalia.com/it/pollo-tacchino/51695-m-mutti-petto-pollo-fette-gr300.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 600,
+      "numero_confezioni": 2,
+      "residuo_nominale": 0,
+      "costo_quantita": "17.90",
+      "costo_confezioni": "17.90"
+    },
+    {
+      "id": "uova",
+      "nome": "Uova",
+      "prodotto": "Coccodì, confezione da 10",
+      "confezione": 10,
+      "unita": "pezzi",
+      "prezzo_confezione": "3.79",
+      "fonte": "https://www.cicalia.com/it/uova/44534-uova-coccodi-x10.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 8,
+      "numero_confezioni": 1,
+      "residuo_nominale": 2,
+      "costo_quantita": "3.03",
+      "costo_confezioni": "3.79"
+    },
+    {
+      "id": "sgombro",
+      "nome": "Scatole di sgombro al naturale",
+      "prodotto": "Rio Mare, scatola da 125 g totali",
+      "confezione": 1,
+      "unita": "pezzi",
+      "prezzo_confezione": "4.25",
+      "fonte": "https://www.cicalia.com/it/pesce-carne-in-scatola/17133-filet-sgombro-riomare-natur-gr-125.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "Si contano le scatole; il peso netto totale di 125 g non è il peso sgocciolato.",
+      "quantita_settimana": 4,
+      "numero_confezioni": 4,
+      "residuo_nominale": 0,
+      "costo_quantita": "17.00",
+      "costo_confezioni": "17.00"
+    },
+    {
+      "id": "carote",
+      "nome": "Carote",
+      "prodotto": "Confezione da circa 1 kg",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "2.29",
+      "fonte": "https://www.cicalia.com/it/verdura-fresca/50691-carote-kg-1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 1000,
+      "numero_confezioni": 1,
+      "residuo_nominale": 0,
+      "costo_quantita": "2.29",
+      "costo_confezioni": "2.29"
+    },
+    {
+      "id": "zucchine",
+      "nome": "Zucchine",
+      "prodotto": "Nostrane, circa 1 kg",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "3.65",
+      "fonte": "https://www.cicalia.com/it/verdura-fresca/53192-zucchine-nostrane-kg-1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 800,
+      "numero_confezioni": 1,
+      "residuo_nominale": 200,
+      "costo_quantita": "2.92",
+      "costo_confezioni": "3.65"
+    },
+    {
+      "id": "spinaci",
+      "nome": "Spinaci",
+      "prodotto": "Busta da circa 400 g",
+      "confezione": 400,
+      "unita": "g",
+      "prezzo_confezione": "2.85",
+      "fonte": "https://www.cicalia.com/it/verdura-fresca/50735-spinaci-busta-gr-400.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 900,
+      "numero_confezioni": 3,
+      "residuo_nominale": 300,
+      "costo_quantita": "6.41",
+      "costo_confezioni": "8.55"
+    },
+    {
+      "id": "broccoli",
+      "nome": "Broccoli",
+      "prodotto": "Verdi, circa 500 g",
+      "confezione": 500,
+      "unita": "g",
+      "prezzo_confezione": "2.05",
+      "fonte": "https://www.cicalia.com/it/verdura-fresca/50690-broccoli-verdi-gr-500.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 1200,
+      "numero_confezioni": 3,
+      "residuo_nominale": 300,
+      "costo_quantita": "4.92",
+      "costo_confezioni": "6.15"
+    },
+    {
+      "id": "passata",
+      "nome": "Passata di pomodoro",
+      "prodotto": "Santa Rosa",
+      "confezione": 700,
+      "unita": "g",
+      "prezzo_confezione": "1.59",
+      "fonte": "https://www.cicalia.com/it/pelati-passate-concentrati/1626-s-rosa-passata-gr-700.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "Prezzo promozionale osservato: 1,59 € invece di 1,79 €, fino a 3 pezzi. Nel paniere servono 2 bottiglie. Durata della promozione non accertata.",
+      "quantita_settimana": 850,
+      "numero_confezioni": 2,
+      "residuo_nominale": 550,
+      "costo_quantita": "1.93",
+      "costo_confezioni": "3.18"
+    },
+    {
+      "id": "patate",
+      "nome": "Patate",
+      "prodotto": "Rete da circa 2 kg",
+      "confezione": 2000,
+      "unita": "g",
+      "prezzo_confezione": "3.85",
+      "fonte": "https://www.cicalia.com/it/verdura-fresca/50718-patate-in-rete-kg-2.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 1100,
+      "numero_confezioni": 1,
+      "residuo_nominale": 900,
+      "costo_quantita": "2.12",
+      "costo_confezioni": "3.85"
+    },
+    {
+      "id": "cipolle",
+      "nome": "Cipolle dorate",
+      "prodotto": "Rete da circa 1 kg",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "2.19",
+      "fonte": "https://www.cicalia.com/it/verdura-fresca/50703-cipolle-dorate-in-rete-kg-1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 560,
+      "numero_confezioni": 1,
+      "residuo_nominale": 440,
+      "costo_quantita": "1.23",
+      "costo_confezioni": "2.19"
+    },
+    {
+      "id": "mele",
+      "nome": "Mele Golden",
+      "prodotto": "Melinda, calibro 75–80, circa 1 kg",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "4.05",
+      "fonte": "https://www.cicalia.com/it/frutta-fresca/51181-mele-golden-melinda-cal-75-80-kg-1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 2100,
+      "numero_confezioni": 3,
+      "residuo_nominale": 900,
+      "costo_quantita": "8.51",
+      "costo_confezioni": "12.15"
+    },
+    {
+      "id": "clementine",
+      "nome": "Clementine",
+      "prodotto": "Calibro 4, circa 1 kg",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "3.09",
+      "fonte": "https://www.cicalia.com/it/frutta-fresca/50967-clementine-cal-4-kg1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": true,
+      "note": "",
+      "quantita_settimana": 2800,
+      "numero_confezioni": 3,
+      "residuo_nominale": 200,
+      "costo_quantita": "8.65",
+      "costo_confezioni": "9.27"
+    },
+    {
+      "id": "mandorle",
+      "nome": "Mandorle pelate",
+      "prodotto": "Life",
+      "confezione": 200,
+      "unita": "g",
+      "prezzo_confezione": "4.69",
+      "fonte": "https://www.cicalia.com/it/frutta-secca-candita-e-sciroppata/22880-life-mandorle-pelate-gr-200.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 240,
+      "numero_confezioni": 2,
+      "residuo_nominale": 160,
+      "costo_quantita": "5.63",
+      "costo_confezioni": "9.38"
+    },
+    {
+      "id": "olio",
+      "nome": "Olio extravergine di oliva",
+      "prodotto": "Montezalto, 100% italiano dichiarato dal venditore",
+      "confezione": 500,
+      "unita": "ml",
+      "prezzo_confezione": "11.59",
+      "fonte": "https://www.cicalia.com/it/olio-aceto-sale/89028-montezalto-olio-evo-100-italiano-cl-50.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "Origine italiana dichiarata nella scheda commerciale; etichetta fisica e lotto non controllati. 500 ml, non 500 g.",
+      "quantita_settimana": 280,
+      "numero_confezioni": 1,
+      "residuo_nominale": 220,
+      "costo_quantita": "6.49",
+      "costo_confezioni": "11.59"
+    },
+    {
+      "id": "sale",
+      "nome": "Sale fino",
+      "prodotto": "Italkali",
+      "confezione": 1000,
+      "unita": "g",
+      "prezzo_confezione": "0.69",
+      "fonte": "https://www.cicalia.com/it/olio-aceto-sale/44824-italkali-sale-fino-kg-1.html",
+      "disponibilita_osservata": "AGGIUNGI AL CARRELLO",
+      "peso_approssimativo": false,
+      "note": "",
+      "quantita_settimana": 14,
+      "numero_confezioni": 1,
+      "residuo_nominale": 986,
+      "costo_quantita": "0.01",
+      "costo_confezioni": "0.69"
+    }
+  ],
+  "esclusioni": [
+    "Acqua potabile e sua tariffa",
+    "Energia di cottura",
+    "Spedizione e supplementi di consegna",
+    "Ulteriori bevande, spezie, ingredienti o pasti non elencati"
+  ],
+  "fonti_generali": [
+    "https://www.salute.gov.it/new/it/tema/dieta-mediterranea/come-seguire-la-dieta-mediterranea/",
+    "https://sapermangiare.an.crea.gov.it/483/linee-guida.html",
+    "https://www.cicalia.com/it/content/1-spedizione-corrieri"
+  ],
+  "totali": {
+    "quantita_usate_eur": "115.19",
+    "confezioni_eur": "149.06",
+    "rimanenza_valore_eur": "33.87",
+    "criterio": "Somma dei valori non arrotondati e arrotondamento del totale al centesimo; i singoli costi esposti sono arrotondati separatamente."
+  }
+}

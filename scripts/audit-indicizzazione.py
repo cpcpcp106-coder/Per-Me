@@ -19,7 +19,8 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://cpcpcp106-coder.github.io/Per-Me/"
-TECHNICAL = {"googled120465f7b693b08.html", "contatori-personali/index.html", "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html"}
+# I pannelli che leggono i contatori sono strumenti tecnici, esclusi dalla sitemap.
+TECHNICAL = {"googled120465f7b693b08.html", "contatori-personali/index.html", "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html", "monitoraggio/riscontri.html"}
 BLOCK = re.compile(r"\b(noindex|nofollow|none|noimageindex|unavailable_after)\b", re.I)
 DYNAMIC_BLOCK = re.compile(r"\b(noindex|nofollow|noimageindex|unavailable_after)\b", re.I)
 

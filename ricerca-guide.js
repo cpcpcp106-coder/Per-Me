@@ -13,6 +13,13 @@
   const paroleComuni = new Set('al alla alle che come con da dal dalla dei del della delle dello di ho il in la le nel non per posso si su sul un una'.split(' '));
   const collegamentiDiretti = [
     {
+      href: 'dieta-guida-08-ricette-mediterranee-economiche-valori.html#spesa-settimana-documentata',
+      titolo: 'Menu di sette giorni per due: prezzi e confezioni',
+      categoria: 'Menu e spesa',
+      parole: 'paniere spesa settimanale 2 due persone ingredienti prezzi confezioni costo menu mediterraneo',
+      priorita: ['paniere', 'spesa settimanale', 'spesa due']
+    },
+    {
       href: 'agevolazioni-guida-09-locazioni-abitative.html#cauzione',
       titolo: 'Come chiedere la restituzione della cauzione',
       categoria: 'Casa in affitto',

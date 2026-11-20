@@ -3,6 +3,9 @@
  */
 (()=>{'use strict';
 const root=new URL('./',document.currentScript.src);
+if(!window.PerMeLettura&&!document.querySelector('script[data-perme-lettura]')){
+ const reading=document.createElement('script');reading.src=new URL('lettura-guide.js?v=1',root).href;reading.dataset.permeLettura='true';document.head.append(reading);
+}
 const api='https://countapi.mileshilliard.com/api/v1/';
 const stars=[1,2,3,4,5];
 const css=document.createElement('link');css.rel='stylesheet';css.href=new URL('gradimento.css?v=4',root).href;document.head.append(css);
@@ -47,7 +50,7 @@ function mount(host,p){
  const summary=document.createElement('p');summary.className='perme-rating-summary';
  summary.textContent='Il conteggio aggiornato è disponibile nella classifica.';
  const note=document.createElement('p');note.className='perme-rating-note';
- note.textContent='Il sistema non conserva preferenze, profili o identificativi dei lettori. I soli risultati conservati sono i conteggi per articolo e numero di stelle. Il servizio esterno può comunque ricevere dati tecnici della connessione.';
+ note.textContent='Il sistema di voto non conserva preferenze, profili o identificativi dei lettori. I soli risultati conservati sono i conteggi per articolo e numero di stelle. Il servizio esterno può comunque ricevere dati tecnici della connessione.';
  const link=document.createElement('a');link.className='perme-rating-link';link.href=new URL('gradimento.html',root).href;link.textContent='Classifica di tutti gli articoli →';
  const btns=stars.map(n=>{const b=document.createElement('button');b.type='button';b.textContent='★';b.title=n+(n===1?' stella':' stelle');b.setAttribute('aria-label','Aggiungi un clic: '+n+(n===1?' stella':' stelle'));group.append(b);return b});
  section.append(heading,intro,group,status,summary,note,link);host.replaceChildren(section);
