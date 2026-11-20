@@ -4,11 +4,15 @@
 
 Inviare il ringraziamento a ogni iscrizione accettata della Pagina Per Me, comprese le adesioni arretrate. Operare esclusivamente come Pagina; controllare gli invii già pubblicati o in moderazione; rispettare il canale consentito dal gruppo. Non reinviare i grazie già in attesa. Non considerare una notifica letta come prova di invio.
 
-## Esito verificato prima dell’interruzione
+## Esito aggiornato dopo la ripresa
 
-**18 nuovi ringraziamenti inviati: 9 pubblicati (8 post e 1 commento) e 9 in moderazione.** Ulteriori 6 casi controllati senza invio per mancanza di un canale pertinente o disponibile; altre 12 voci rimangono da completare dopo l’interruzione della sessione del browser. Il prospetto riconcilia le 36 voci senza riscontro del controllo precedente: 18 + 6 + 12 = 36. Nessun invio è stato fatto nei 12 casi residui durante questa sessione.
+**Ricontrollati tutti i 12 casi residui: 6 nuovi ringraziamenti inviati (3 pubblicati e 3 in moderazione), 1 ringraziamento precedente ritrovato, 4 casi senza canale utilizzabile o conforme e 1 commento rifiutato automaticamente dal gruppo. Nessuno dei 12 resta da esaminare per l’interruzione del browser.**
 
-Le pubblicazioni sono state verificate leggendo il testo del grazie e l’identità Per Me nel gruppo; per i post in moderazione è stato letto l’avviso di attesa. I link sotto portano ai gruppi, salvo il benvenuto del Lario; i permalink dei nuovi singoli contenuti non sono stati raccolti prima dell’interruzione. Le pubblicazioni e le moderazioni sono riferite all’ultimo riscontro osservato, non a successivi cambiamenti.
+Riconciliazione delle 36 voci del controllo iniziale: **24 nuovi ringraziamenti inviati oggi** (12 pubblicati, fra post e commenti, e 12 in moderazione), **1 grazie già pubblicato il 23 ottobre**, **10 casi senza canale utilizzabile o conforme**, **1 rifiuto automatico**. Totale: 24 + 1 + 10 + 1 = 36. I casi con un grazie riscontrato sono quindi 25; gli altri 11 non vanno considerati ringraziati.
+
+Prima dell’interruzione erano stati inviati 18 grazie: 9 pubblicati e 9 in moderazione. La ripresa aggiunge 6 invii e documenta gli esiti dei restanti casi. I primi 18 esiti sotto restano riferiti all’ultimo riscontro precedente; non sono stati reinviati.
+
+Le pubblicazioni sono state verificate leggendo il testo del grazie e l’identità Per Me; i tre nuovi post pubblicati sono stati ritrovati anche nella sezione «Pubblicati» e aperti nel gruppo. Per le moderazioni è stato letto l’avviso di attesa o di invio agli amministratori. Gli esiti sono riferiti allo stato osservato e possono cambiare per intervento degli amministratori.
 
 ## Invii eseguiti — non duplicare
 
@@ -46,22 +50,26 @@ Non sono «ringraziati». Occorre individuare un canale consentito e disponibile
 | [Lagh de Com](https://www.facebook.com/groups/LaghDeCom/) | Regole riservate ai contenuti sul Lago di Como. Nessun benvenuto pertinente individuato nei risultati consultati. |
 | [I MILLE COLORI DEL LAGO DI COMO o LARIO](https://www.facebook.com/groups/354685802056740/posts/2260244804834154/) | Riaperto il benvenuto con menzione di Per Me: commenti ancora disattivati. Nessun compositore disponibile nel gruppo. |
 
-## Dodici voci da completare
+## Riprova dei dodici casi — completata il 20 novembre
 
-| Gruppo | Ultimo stato del lavoro |
-| --- | --- |
-| [Il Como](https://www.facebook.com/groups/207162046000233/) | Regole lette: gruppo riservato al Calcio Como; la ricerca del benvenuto non ha individuato un’accoglienza pertinente nei risultati consultati. Nessun invio. |
-| [Piacenza e provincia in Vetrina](https://www.facebook.com/groups/191265458971796/) | Regole lette; contenuti in sospeso vuoti. Scheda dei pubblicati con un post da leggere prima di qualsiasi nuovo invio. Nessun grazie inviato in questa sessione. |
-| [Cerco Offro Lavoro Trento](https://www.facebook.com/groups/CercooffroLavoroaTrento/) | Regole lette: i nuovi iscritti da meno di 14 giorni non possono pubblicare; adesione documentata il 10 novembre. Ricerca del benvenuto avviata; nessuna risposta inviata. |
-| [Portogruaro Eventi](https://www.facebook.com/groups/portogruaroeventi/) | Regole lette e controllo dei contenuti aperto; lettura delle code da completare. Nessun grazie inviato in questa sessione. |
-| [Legnago Eventi](https://www.facebook.com/groups/legnagoeventi/) | Regole lette; contenuti in sospeso vuoti e scheda dei pubblicati con un post da leggere. Nessun grazie inviato in questa sessione. |
-| [San Donà di Piave Eventi](https://www.facebook.com/groups/sandonadipiave/) | Regole lette; contenuti in sospeso vuoti e scheda dei pubblicati con un post da leggere. Nessun grazie inviato in questa sessione. |
-| [Sei di PORDENONE se ...](https://www.facebook.com/groups/1264254296986255/) | Non riaperto dopo il controllo precedente. |
-| [Sei di Attimis se......](https://www.facebook.com/groups/774037479290384/) | Non riaperto dopo il controllo precedente. |
-| [Blogger Community Italia](https://www.facebook.com/groups/219268238196991/) | Non riaperto dopo il controllo precedente. |
-| [Intelligenze Artificiali](https://www.facebook.com/groups/intelligenzeartificiali/) | Non riaperto dopo il controllo precedente. |
-| [Inps Pensioni e Diritti](https://www.facebook.com/groups/1680421453048536/) | Non riaperto dopo il controllo precedente. |
-| [Tramonti e paesaggi da tutto il mondo](https://www.facebook.com/groups/350403938461207/) | Non riaperto oggi: il precedente controllo richiede un canale coerente con le regole sulle foto proprie. |
+Tutti i nuovi messaggi sono stati inviati come Pagina Per Me, con il solo ringraziamento, senza link o inviti promozionali. Prima degli invii sono stati controllati i contenuti pubblicati e in attesa.
+
+| Gruppo | Esito della ripresa | Prova e note |
+| --- | --- | --- |
+| [Il Como](https://www.facebook.com/groups/207162046000233/) | Nessun canale conforme trovato | Iscrizione attiva. Regole riservate al Calcio Como e allo sport lariano; ricerche «benvenuto» e «benvenuti» senza accoglienza ai membri utilizzabile. Nessun post fuori tema inviato. |
+| [Piacenza e provincia in Vetrina](https://www.facebook.com/groups/191265458971796/) | Nuovo grazie in moderazione | Letto il precedente post pubblicato e verificata la coda vuota. Inviato: «Grazie agli amministratori per averci accolto nel gruppo. Un cordiale saluto a tutti i membri di Piacenza e provincia!». Testo visibile come Per Me con avviso «Il tuo post è in sospeso». |
+| [Cerco Offro Lavoro Trento](https://www.facebook.com/groups/CercooffroLavoroaTrento/) | Commento rifiutato automaticamente | Un solo tentativo sotto il post dell’amministratore del 19 novembre: «Grazie agli amministratori per averci accolto nel gruppo. Un cordiale saluto a tutti!». Il feedback mostra «Nuovo membro del gruppo» (14 giorni o meno) e «Nuovo profilo» (12 mesi o meno), con la regola «Puoi pubblicare post e commentare in questo gruppo solo dopo 14 giorni dall’iscrizione». Nessun reinvio. Non considerarlo pubblicato o in moderazione. |
+| [Portogruaro Eventi](https://www.facebook.com/groups/portogruaroeventi/) | Nuovo grazie in moderazione | Letti il post già pubblicato e la presentazione in attesa: non erano ringraziamenti. Inviato: «Grazie per averci accolto nel gruppo. Un saluto cordiale agli amministratori e alla comunità di Portogruaro!». Facebook conferma l’invio agli amministratori per approvazione. |
+| [Legnago Eventi — grazie](https://www.facebook.com/groups/3777663249186354/?multi_permalinks=4574037996215538) | Nuovo grazie pubblicato | Ritrovato fra i pubblicati e aperto nel gruppo. Testo: «Grazie agli amministratori per l’accoglienza nel gruppo. Un cordiale saluto a Legnago e a tutti i partecipanti!». |
+| [San Donà di Piave Eventi](https://www.facebook.com/groups/sandonadipiave/) | Nuovo grazie in moderazione | Letto il post già pubblicato e verificata la coda vuota. Testo: «Grazie agli amministratori per aver accettato la nostra iscrizione. Un cordiale saluto a San Donà di Piave e a tutti i membri!». Avviso «Il tuo post è in sospeso». |
+| [Sei di PORDENONE se ... — grazie](https://www.facebook.com/groups/1264254296986255/?multi_permalinks=29225332363785073) | Nuovo grazie pubblicato | Letti i due post precedenti, senza ringraziamenti, e verificata la coda vuota. Nuovo post ritrovato fra i pubblicati e aperto nel gruppo: «Grazie agli amministratori per averci accolto nel gruppo. Un cordiale saluto a Pordenone e a tutti i partecipanti!». |
+| [Sei di Attimis se......](https://www.facebook.com/groups/774037479290384/) | Nessun canale utilizzabile | Iscrizione attiva, compositore assente per la Pagina. Regole lette integralmente: no promozione e contenuti fuori tema. Ricerche «benvenuto» e «benvenuti» senza post di accoglienza ai membri a cui rispondere. |
+| [Blogger Community Italia — grazie già presente](https://www.facebook.com/groups/219268238196991/?multi_permalinks=26758628840500903) | Già ringraziato; nessun nuovo invio | Nella sezione «Pubblicati» trovato il post di Per Me del 23 ottobre 2026, testo «Graxie!», poi aperto nel gruppo. Corretto il precedente stato privo di riscontro; evitato il doppione. |
+| [Intelligenze Artificiali](https://www.facebook.com/groups/intelligenzeartificiali/) | Nessun canale utilizzabile | Iscrizione attiva. Regole lette; assenti compositore e campi per commentare come Pagina. Trovato un benvenuto ai nuovi membri di Marco Sigaudo del 9 marzo, senza comando per commentare. Le sezioni «Pubblicati» e «In sospeso» sono vuote. |
+| [Inps Pensioni e Diritti — grazie](https://www.facebook.com/groups/1680421453048536/?multi_permalinks=1757461988677815) | Nuovo grazie pubblicato | Letto il post precedente senza ringraziamento e verificata la coda vuota. Nuovo post ritrovato fra i pubblicati e aperto nel gruppo: «Grazie agli amministratori per aver accettato la nostra iscrizione. Un cordiale saluto a tutti i membri del gruppo!». |
+| [Tramonti e paesaggi da tutto il mondo](https://www.facebook.com/groups/350403938461207/) | Nessun canale conforme trovato | Iscrizione attiva. Regole lette: solo foto proprie di albe, tramonti e paesaggi. Ricerche «benvenuti» e «benvenuto» senza benvenuto ai membri utilizzabile. Nessun post fuori tema e nessuna foto generata spacciata per scatto proprio. |
+
+I 5 casi ancora senza un grazie dei dodici ricontrollati si aggiungono ai 6 della tabella precedente: **11 casi aperti**. Per Trento occorre ricontrollare i criteri del gruppo in un momento successivo; non basta presumere che il solo decorso dei 14 giorni rimuova tutti i criteri automatici mostrati. Per gli altri dieci occorre un canale conforme e disponibile. Non aggirare i limiti e non inserire ringraziamenti sotto contenuti estranei.
 
 ## Invii fermati e corretti
 
@@ -69,6 +77,8 @@ Il controllo automatico di approvazione ha rifiutato un lotto di quattro post ch
 
 ## Interruzione e ripresa
 
-Il browser ha perso la connessione al proprio ambiente, poi segnalato come indisponibile. Il lavoro si è fermato senza ulteriori invii. Alla ripresa ricontrollare lo stato dei contenuti esistenti prima di agire. L’ambiente non disponibile ha impedito di aggiornare il precedente documento HTML e di acquisire una schermata finale: questo registro conserva gli esiti osservati e la coda residua.
+Il browser aveva perso la connessione al proprio ambiente, poi segnalato come indisponibile. Il 20 novembre, su richiesta del curatore, l’ambiente è tornato disponibile e il browser ha consentito di riprendere il lavoro. Sono stati ricontrollati tutti i dodici casi e completati gli invii consentiti, con gli esiti distinti sopra. Il rifiuto del commento di Trento è un criterio automatico del singolo gruppo; non è un’interruzione tecnica del browser né una prova di sospensione generale dell’account.
+
+Il precedente documento HTML non è stato aggiornato dopo gli invii: il presente registro conserva lo stato riconciliato e prevale sul suo riepilogo precedente.
 
 Fonti precedenti: [riesame nazionale del 17 novembre](registro-facebook-riesame-nazionale-2026-11-17.md) e [invii del 18 novembre](registro-ringraziamenti-facebook-2026-11-18.md). Il presente registro aggiorna gli esiti del documento privato «Per-Me-Verifica-ringraziamenti-2026-11-20.html», che fotografava la situazione prima dei nuovi invii.
