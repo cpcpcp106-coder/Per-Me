@@ -1,4 +1,4 @@
-const CACHE='perme-reader-v28-20261119-lievito-madre';
+const CACHE='perme-reader-v29-20261120-tecniche-impasto';
 const SHELL=['./','./index.html','./app.css?v=15','./catalogo-guide.js?v=3','./main.js?v=18','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 const MENU='./menu-mediterraneo.html';
 const MENU_ASSETS=['./menu-mediterraneo.css?v=1','./menu-mediterraneo.js?v=1','./ricette-mediterranee.js?v=1','../assets/logo-per-me.png','../assets/dieta-menu-spesa-originale.webp'];

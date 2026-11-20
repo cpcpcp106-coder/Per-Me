@@ -1,0 +1,25 @@
+/* Confronti leggibili anche sui telefoni stretti, senza ridurre il testo. */
+.tecniche-impasto .tabella-tecniche{width:100%;table-layout:fixed;border-collapse:collapse;margin:1.25rem 0 1.65rem;font-size:1.06rem;line-height:1.55}
+.tecniche-impasto .tabella-tecniche caption{text-align:left;font-weight:750;color:#234438;margin-bottom:.7rem}
+.tecniche-impasto .tabella-tecniche th,.tecniche-impasto .tabella-tecniche td{border:1px solid #b7cabb;padding:13px;vertical-align:top;overflow-wrap:anywhere}
+.tecniche-impasto .tabella-tecniche thead th{background:#234438;color:#fff}
+.tecniche-impasto .tabella-tecniche tbody th{background:#edf6ee;text-align:left;color:#173e2c}
+.tecniche-impasto .tabella-tecniche tbody td{background:#fff}
+.pagina-interna.tecniche-impasto .article .indice-lievito a,
+.pagina-interna.tecniche-impasto .article .indice-lievito a:visited,
+.pagina-interna.tecniche-impasto .article a.button-lievito,
+.pagina-interna.tecniche-impasto .article a.button-lievito:visited{background:#234438;color:#fff;min-height:56px;font-size:1.08rem;border-color:#234438;box-sizing:border-box}
+.pagina-interna.tecniche-impasto .article .indice-lievito a:hover,
+.pagina-interna.tecniche-impasto .article .indice-lievito a:focus-visible,
+.pagina-interna.tecniche-impasto .article a.button-lievito:hover,
+.pagina-interna.tecniche-impasto .article a.button-lievito:focus-visible{background:#163529;color:#fff;outline:3px solid #b48c3f;outline-offset:3px}
+@media(max-width:600px){
+ .tecniche-impasto .tabella-tecniche{display:block;font-size:1.08rem}
+ .tecniche-impasto .tabella-tecniche caption{display:block}
+ .tecniche-impasto .tabella-tecniche thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .tecniche-impasto .tabella-tecniche tbody,.tecniche-impasto .tabella-tecniche tr{display:block}
+ .tecniche-impasto .tabella-tecniche tr{border:1px solid #b7cabb;border-radius:9px;overflow:hidden;margin-bottom:14px}
+ .tecniche-impasto .tabella-tecniche tbody th,.tecniche-impasto .tabella-tecniche tbody td{display:block;width:auto;border:0;padding:12px 14px}
+ .tecniche-impasto .tabella-tecniche td+td{border-top:1px solid #d4e2d8}
+ .tecniche-impasto .tabella-tecniche td::before{content:attr(data-label) ": ";font-weight:750;color:#234438}
+}

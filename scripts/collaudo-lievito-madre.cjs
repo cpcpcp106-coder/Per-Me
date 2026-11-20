@@ -27,7 +27,7 @@ async function run() {
     for(const width of [320,390,768]) {
       const page=await browser.newPage({viewport:{width,height:820},deviceScaleFactor:1});
       await page.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
-      for(const file of ['index.html','lievito-madre.html','pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html']) {
+      for(const file of ['index.html','lievito-madre.html','pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html','tangzhong-autolisi-biga-poolish.html']) {
         const response=await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
         check(response.status()===200,file+' HTTP 200 a '+width+' px');
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),file+' senza scorrimento orizzontale a '+width+' px');
@@ -89,9 +89,9 @@ async function run() {
     await page.waitForFunction(()=>document.querySelector('#sync-status').textContent.includes('pagine salvate'),null,{timeout:60000});
     const offlineEntries=await page.evaluate(()=>{
       const saved=JSON.parse(localStorage.getItem('perme-app-offline-20261014')||'{}');
-      return saved.guides?.filter(g=>['pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html'].includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
+      return saved.guides?.filter(g=>['pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html','tangzhong-autolisi-biga-poolish.html'].includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
     });
-    check(offlineEntries.length===4&&offlineEntries.every(x=>x.hasContent),'app: quattro guide scaricate per lettura offline');
+    check(offlineEntries.length===5&&offlineEntries.every(x=>x.hasContent),'app: cinque guide scaricate per lettura offline');
     await context.setOffline(true);
     await page.reload({waitUntil:'domcontentloaded'});
     await page.waitForTimeout(800);
@@ -105,6 +105,11 @@ async function run() {
     check((await page.locator('#guide-list .guide-card').count())>0,'app: pizza trovata offline');
     await page.locator('#guide-list .guide-card').first().click();
     check(await page.locator('#reader-content').innerText().then(t=>t.includes('AVPN')&&t.includes('STG')),'app: testo pizza leggibile offline');
+    await page.locator('#back').click();
+    await page.locator('#search').fill('tangzhong');
+    check((await page.locator('#guide-list .guide-card').count())>0,'app: tecniche di impasto trovate offline');
+    await page.locator('#guide-list .guide-card').filter({hasText:'Tangzhong, autolisi, biga e poolish'}).first().click();
+    check(await page.locator('#reader-content').innerText().then(t=>t.includes('Autolisi:')&&t.includes('Biga:')&&t.includes('Poolish:')&&t.includes('65 °C')),'app: le quattro tecniche sono leggibili offline');
     await context.close();
   } finally {
     await browser.close();
