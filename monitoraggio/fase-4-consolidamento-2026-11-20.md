@@ -45,3 +45,7 @@ L’attività giornaliera «Completamento Per Me» è attiva e aggiornata al pia
 La Fase 4 resta aperta per l’errore sitemap e l’indicizzazione delle guide, i collegamenti ancora inconcludenti, il tetto reddituale FVG 2026 non documentato, la provenienza individuale delle immagini storiche non integralmente documentata e le revisioni professionali indipendenti non attestate. Restano distinti i limiti di disponibilità al CAP, etichetta fisica/lotto dell’olio e validazione dietistica del paniere già pubblicato.
 
 Le prove assistive reali non vengono inventate. L’utente ha concluso il percorso sul Samsung: non sono richieste ulteriori operazioni manuali. «Offrimi un caffè» resta in bozza privata.
+
+## Verifica sul sito pubblico dopo la pubblicazione
+
+[Deployment 44772997468](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44772997468) completato con successo. Nel browser pubblico della Guida 20 confermati i tre testi visibili e i rispettivi nomi assistivi. «Ingrandisci» porta l’indicazione a 125%; «Normale» la riporta al 100%. Fotografia caricata a 1200 × 800, canonical corretto e collegamento editoriale Facebook `https://www.facebook.com/PerMeGuide` verificati. Nessun voto o riscontro fittizio inviato. Questi riscontri pubblici si aggiungono ai test offline e PDF effettivamente eseguiti in Actions; non rappresentano una nuova prova manuale sul Samsung.
