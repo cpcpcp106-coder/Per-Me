@@ -5,6 +5,12 @@ on:
       - 'app/menu-mediterraneo.js'
       - 'app/menu-mediterraneo.html'
       - 'strumenti/**'
+      - 'lettura-guide.js'
+      - 'spesa-riepilogo.js'
+      - 'paniere-mediterraneo.js'
+      - 'gradimento.js'
+      - 'monitoraggio/riscontri*'
+      - 'scripts/collaudo-migliorie-20261120.cjs'
       - 'da-dove-cominciare.html'
       - 'index.html'
       - 'scripts/collaudo-tre-fasi.cjs'
@@ -35,5 +41,7 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Esegui test locali su viewport 320 e 390
         run: node scripts/collaudo-tre-fasi.cjs
+      - name: Verifica lettura, riscontri, riepilogo PDF e app offline
+        run: node scripts/collaudo-migliorie-20261120.cjs
       - name: Verifica i lieviti, le fotografie e la lettura offline
         run: node scripts/collaudo-lievito-madre.cjs
