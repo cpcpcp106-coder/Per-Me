@@ -9,6 +9,8 @@ Articolo: https://cpcpcp106-coder.github.io/Per-Me/inps-mobile-5-novita.html
 | --- | --- | --- |
 | Facebook, Pagina Per Me | Pubblicato | https://www.facebook.com/PerMeGuide/posts/pfbid0fNV2xCNKuMmyHLkf9y2WG9m6ryNhW7DQHHUL5TYVw9WGTz4uvsYYJe2Va7zgrF7Pl — post ID 122103761372542978 |
 | Instagram, @permeguide | Pubblicato | Verificato nella tab Pubblicati di Meta Business Suite: foto, testo e account corretti; media ID 18119654591613363. Permalink pubblico non recuperato. |
+| Storia Facebook, Pagina Per Me | Pubblicata | Condivisione del post della Pagina; verificata in Meta Business Suite tra le storie attive, con 23 ore rimanenti. |
+| Gruppo Facebook Inps Pensioni e Diritti | Pubblicato | https://www.facebook.com/groups/1680421453048536/posts/1757508365339844 |
 | Canale WhatsApp Per Me Guide | Preparato per pubblicazione manuale, non inviato | WhatsApp Web richiede il collegamento del telefono. Enrico ha chiesto il messaggio copiabile con foto; nessun invio WhatsApp è dichiarato completato. |
 
 ## Foto e collegamenti
@@ -31,3 +33,11 @@ https://cpcpcp106-coder.github.io/Per-Me/inps-mobile-5-novita.html?utm_source=wh
 Condividila con chi usa i servizi INPS dal telefono.
 
 Immagine illustrativa originale creata con AI per Per Me.
+
+## Diffusione aggiuntiva dopo «Pubblica dove puoi»
+
+Il 20 novembre 2026 la storia Facebook è stata aggiunta attraverso il comando «Condividi nella tua storia (Tutti)» del post già pubblicato dalla Pagina. La presenza tra le storie attive è stata poi verificata in Meta Business Suite.
+
+Nel gruppo https://www.facebook.com/groups/1680421453048536/ è stata verificata l’iscrizione della Pagina Per Me. La sezione Informazioni descrive un gruppo su pensioni e prestazioni INPS e non mostrava ulteriori regole o divieti specifici. Controllato il profilo della Pagina nel gruppo: risultavano un ringraziamento e la precedente guida all’estratto contributivo; non la notizia INPS Mobile.
+
+Pubblicato un testo distinto e pertinente, come Pagina Per Me, con collegamento all’articolo e anteprima fotografica originale verificata visivamente. Controllato il post al permalink: autore Per Me, pubblico Gruppo pubblico, foto dell’anteprima, testo, link e comandi di commento/condivisione disponibili; nessun avviso di moderazione mostrato. Il permalink è quello riportato nella tabella. Nessuna sponsorizzazione attivata.
