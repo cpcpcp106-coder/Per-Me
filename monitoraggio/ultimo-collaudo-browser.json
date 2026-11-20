@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-19T09:46:01.018Z",
+  "checked_at_utc": "2026-11-20T07:36:35.722Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -126,10 +126,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "124 pagine salvate per la lettura offline · controllo online 19 nov, 09:46.",
+        "status": "124 pagine salvate per la lettura offline · controllo online 20 nov, 07:37.",
         "stored": {
           "guides": 124,
-          "updated": "2026-11-19T09:46:43.725Z",
+          "updated": "2026-11-20T07:37:47.468Z",
           "bytes": 2574261,
           "includesNew09": true
         }
@@ -392,7 +392,7 @@
     {
       "page": "da-dove-cominciare.html",
       "violations": [],
-      "passes": 17,
+      "passes": 26,
       "incomplete": 0
     },
     {

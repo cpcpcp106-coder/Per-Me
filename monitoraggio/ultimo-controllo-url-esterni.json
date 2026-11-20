@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-19T09:48:32.694851+00:00",
+  "date_utc": "2026-11-20T07:39:35.302965+00:00",
   "scope": {
     "pages": 139,
     "unique_external_urls": 884,
     "occurrences": 2021
   },
   "counts": {
-    "raggiungibile": 735,
+    "raggiungibile": 739,
     "bloccato_o_riservato": 122,
-    "non_verificato_trasporto": 26,
+    "non_verificato_trasporto": 22,
     "errore_http": 1
   },
   "results": [
@@ -88,9 +88,8 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -3190,8 +3189,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3200,8 +3200,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3218,8 +3219,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3227,8 +3229,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3245,8 +3248,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3268,8 +3272,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -8862,9 +8867,8 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "tutor-ai.html"
       ]
