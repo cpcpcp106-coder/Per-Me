@@ -1,0 +1,60 @@
+# Per Me — revisione trasversale delle Fasi 1, 2 e 3 e fase residua 4
+**Data:** 20 novembre 2026. **Progetto:** https://github.com/cpcpcp106-coder/Per-Me
+**Metodo:** lettura dei registri del repository prima delle modifiche, controllo diretto di pagine e programmi delle tre fasi, riscontro con fonti primarie selezionate, consultazione dei log di GitHub Actions e verifica separata dei limiti. Non è una revisione indipendente certificata di tutte le affermazioni.
+
+## Fase 3: interventi del 20 novembre
+- Pagina esistente [«Da dove cominciare?»](https://cpcpcp106-coder.github.io/Per-Me/da-dove-cominciare.html): restano 12 percorsi principali, ora ricercabili con parole chiave e sinonimi attraverso filtro locale, con conteggio accessibile e messaggio se non esistono corrispondenze. Senza JavaScript i 12 link restano disponibili. I dati della ricerca non sono inviati al server.
+- Percorso in primo piano «L'INPS ha sospeso un pagamento o respinto una domanda?» con tre primi controlli e accesso diretto a `inps-prestazione-sospesa-respinta-cosa-fare.html`; si specifica che procedura e termini dipendono dal caso e la richiesta chiarimenti non va considerata sospensiva dei termini.
+- `modelli-e-strumenti.html`: collegamenti diretti al selettore per problemi e al percorso INPS.
+- `scripts/collaudo-tre-fasi.cjs`: controlli per ricerca con risultato e senza risultati, ripristino dei 12 percorsi, tre passi INPS, altezza minima dei link e ingrandimento font al 200% a 320/390 px. Interventi CSS mirati su `da-dove-cominciare.html` per le parole lunghe e il reflow.
+- Commit: [0b1a4ddb](https://github.com/cpcpcp106-coder/Per-Me/commit/0b1a4ddb1e26b4275f29d07a5442cf836ee64212) (interfaccia), [debab7f1](https://github.com/cpcpcp106-coder/Per-Me/commit/debab7f1bed4a43d0e39858170e4593d4e49ba6b) (test), [5908b712](https://github.com/cpcpcp106-coder/Per-Me/commit/5908b712e74609dbba9511733f261d0bbb42e7cc) e [c9b68a39](https://github.com/cpcpcp106-coder/Per-Me/commit/c9b68a39f8ab82959ded0d729d2a6478da1b5fc2) (CSS reflow), [8d2595e6](https://github.com/cpcpcp106-coder/Per-Me/commit/8d2595e656ab231d55f8e080503e015d724c99ee) (collegamenti strumenti), [1a82a643](https://github.com/cpcpcp106-coder/Per-Me/commit/1a82a6433b8ef201b81f51eeb5b749bb3cf821c5) (diagnostica reflow).
+
+## Revisione congiunta: evidenze e limiti
+### Fase 1 — affidabilità
+- Audit statico del 20/11 (snapshot `monitoraggio/ultimo-audit-statico.json`, 07:39 UTC): **144 HTML, 141 pagine editoriali/indicizzabili, 141 URL in sitemap**, 5.032 occorrenze di link locali, nessun percorso o ancora interna interrotta nel controllo statico; shell offline e icone presenti. Sono dati della struttura del repository, **non** il conteggio delle pagine indicizzate da Google.
+- Controllo URL esterni del 20/11 (snapshot `monitoraggio/ultimo-controllo-url-esterni.json`, 07:39 UTC): **884 URL distinti**, 739 raggiungibili, 122 bloccati/riservati, 22 inconcludenti e 1 HTTP 503 su `https://cnas.ro/case-judetene/`. Uno status 403 non prova la rottura per l'utente. L'URL CNAS ha restituito anche 503 in una seconda verifica; non sostituire senza individuare la destinazione ufficiale corretta.
+- Audit immagini (workflow del 20/11 [44696436802](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696436802)): registra 101 file locali, 85 richiamati, 43 fotografie stock con licenze di piattaforma verificate, 34 immagini locali ChatGPT dichiarate dal proprietario. **Non** è prova di catena di licenza individuale completa per tutte le immagini.
+- Report automatico browser `monitoraggio/ultimo-collaudo-browser.json` del 20/11 alle 07:36 UTC: 28 test classificati PASS, inclusi homepage e alcune guide pubbliche HTTP 200 e app offline in Chromium simulato. **Non** è Android reale o una verifica semantica di fonti.
+- Fonti selezionate confrontate: [INPS Carta acquisti](https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html), [ARERA requisiti bonus 2026](https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti), [Ministero della Salute esenzioni](https://www.salute.gov.it/new/it/tema/esenzioni-dal-ticket/esenzioni-malattie-croniche/), [CREA Linee guida](https://www.crea.gov.it/en/-/on-line-le-linee-guida-per-una-sana-alimentazione-2018), [ISTAT prezzi ottobre 2026](https://www.istat.it/comunicato-stampa/prezzi-al-consumo-ottobre-2026/). Fonti campionarie; non equivalgono a revisione di 141 pagine.
+- **Stato:** struttura robusta; la Fase 1 non è integralmente certificata dal punto di vista normativo, sanitario, dei diritti d'autore e della verifica su dispositivi assistivi. Search Console: il connettore GSC Wizard ha rifiutato l'accesso per abbonamento non attivo; non è stato richiesto alcun pagamento e non viene dichiarato alcuno stato Google aggiornato.
+
+### Fase 2 — strumenti e dieta economica
+- Disponibili: `strumenti/orientamento-benefici.html`, `strumenti/costo-pasto-mediterraneo.html`, `strumenti/costo-spesa-settimanale.html`, `app/menu-mediterraneo.html` e trasferimento locale dalla lista menu al calcolatore. L'orientatore non accerta un diritto.
+- Verifica soglie 2026: Carta acquisti over 65 con ISEE **inferiore a €8.230,81** e ulteriori criteri [INPS](https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.la-carta-acquisti.html); soglie economiche bonus sociali **non superiore a €9.796**, oppure **€20.000** con almeno quattro figli a carico, più requisiti delle utenze [ARERA](https://www.arera.it/consumatori/bonus-sociale/bonus-sociale-per-disagio-economico/quali-sono-i-requisiti). L'ISEE a fasce non stabilisce la spettanza.
+- Calcolo spesa: subtotale anche con righe non prezzate, costo consumato distinto dall'esborso teorico per confezioni intere, campi facoltativi negozio/data; nessun prezzo preimpostato.
+- Tre prezzi pubblicati da Carrefour e verificati con schede dirette: [Penne integrali 500 g €0,89](https://www.carrefour.it/p/carrefour-classic-penne-rigate-integrali-n.137-500-g/8012666048694.html), [Lenticchie 800 g €2,48](https://www.carrefour.it/p/lenticchie-800-g/8020204325749.html), [Barbera EVO 1 L €11,99](https://www.carrefour.it/p/barbera-olio-extra-vergine-di-oliva-100-da-olive-italiane-filtrato-1-l/8002591201042.html). Tutti i prodotti risultavano **non disponibili** nelle schede: prezzi verificabili, **non** disponibili per un paniere acquistabile localmente. Prezzo consumato di esempio €2,88 vs tre confezioni €15,36, ma non è la spesa completa della settimana.
+- Olio: origine italiana dichiarata sia dalla scheda del rivenditore sia dal [produttore](https://oliobarbera.it/olio/filtrato/) (Sicilia/Puglia). Non è verificata la tracciabilità del lotto fisico. [Regolamento UE 2022/2104, art. 8](https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32022R2104). Origine nazionale non implica superiorità clinica.
+- Il percorso per diabete e cardiopatia cita limiti per sale, carboidrati, terapia e funzione renale; non è una prescrizione individuale.
+- Test dedicati su commit [098ab7b2](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44694697087) e [b0c3e1c3](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44694755502): successi confermati. **Stato:** funzionalità principali sviluppate; manca un paniere realmente acquistabile e un collaudo clinico/editoriale completo.
+
+### Fase 3 — semplicità, smartphone, strumenti pratici
+- Dodici collegamenti per problemi erano già presenti; oggi aggiunti filtro locale, sinonimi, messaggi di stato, percorso INPS diretto e collegamenti dalla pagina degli strumenti.
+- Primo test ampliato [44696204860](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696204860): **32 PASS, 2 FAIL** per overflow al 200% a 320 e 390 px. Dopo una correzione, [run 44696402328](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44696402328): **33 PASS e 1 FAIL** residuo a 320 px. Modifiche ulteriori e diagnostica su [1a82a643](https://github.com/cpcpcp106-coder/Per-Me/commit/1a82a6433b8ef201b81f51eeb5b749bb3cf821c5). **Non dichiarare superata la prova al 200% finché il workflow più recente non ne dà evidenza.**
+- Restano prove reali Samsung/TalkBack, tastiera esterna, prova a zoom 200% su dispositivo, rilevazione dell'esperienza reale di lettori 50–70, verifica dell'offline sui percorsi interessati.
+
+## Fase 4 — unico programma residuo di consolidamento
+Da questo registro in avanti, tutti i lavori NON certificati delle tre fasi confluiscono nella **Fase 4**, senza far apparire le Fasi 1–3 integralmente approvate.
+
+### 4A — Blocchi tecnici/accessibilità (priorità immediata)
+- Chiudere il test 200% su 320 px, correggere solo elementi responsabili e registrare un'esecuzione GitHub Actions interamente verde.
+- Eseguire test su smartphone reale (Samsung) e con TalkBack / tastiera, attivazione e lettura delle 12 schede, filtro e percorso INPS, stampa/copia modelli, zoom e reflow. Registrare risultati reali; non simularne l'esito.
+- Verificare riproducibilmente all'esterno di GitHub la nuova pagina, CSS, immagine, pulsante Facebook e collegamenti, distinguendo deployment riuscito da HTTP 200 e contenuto effettivamente servito.
+
+### 4B — Certificazione editoriale, normativa, scientifica e fotografica
+- Inventariare e revisionare ciascuna delle 141 pagine con riferimento normativo/scientifico, validità temporale, destinatari, aggiornamento, rischio, versione e link diretto alla fonte. Priorità a INPS, ARERA, Ministero Salute/MEF, ISTAT, CREA, legge vigente e avvertenze cliniche. Registrare revisione indipendente solo quando esiste documentazione.
+- Completare matrice puntuale diritti immagini e attestazioni dove non documentate, senza presumere che un workflow verde equivalga a licenza completa.
+- Riprendere i 22 URL inconcludenti e l'HTTP 503 CNAS, seguire redirect e risolvere il motivo prima di sostituire; i 122 bloccati/riservati non sono automaticamente link errati.
+
+### 4C — Orientamento e alimentazione con evidenze pratiche
+- Per i benefici, matrice ufficiale di requisiti, incompatibilità, annualità, procedura e fonti; nessuna conclusione personalizzata automatica con dati insufficienti.
+- Per la dieta economica, paniere di 7 giorni documentato con prodotti effettivamente acquistabili, negozio/luogo, prezzo, quantità e confezioni, data, costo consumato e costo alla cassa, senza presentare medie o listini non verificati.
+- Per EVO italiano, almeno una documentazione d'etichetta/lotto realmente verificata quando disponibile; distinguere origine commerciale dichiarata, etichetta fisica e tracciabilità.
+- Testare tutte le transizioni menu → lista spesa → calcolatore e le avvertenze per diabete, cardiopatia, malattia renale, senza indicazioni individuali d'insulina.
+
+### 4D — Indicizzazione e collaudo di chiusura
+- Verificare gratuitamente da **Google Search Console ufficiale** sitemap e URL campione, con stati individuali, data dell'ultima scansione, indicizzazione e dati di impressioni/clic. GSC Wizard è bloccato da abbonamento e **non si propone né si attiva un servizio a pagamento**.
+- Ripetere audit statico, collazione fonti, test Playwright, controllo HTTP pubblico, foto e diritti, navigazione mobile/offline e Facebook su commit definitivo. Per ogni prova archiviare data, commit, run e risultato effettivo.
+- Solo quando tutte le evidenze richieste esistono e i blocchi sono risolti, dichiarare il programma concluso. Altrimenti la Fase 4 rimane aperta con blocchi espliciti.
+
+## Vincoli preservati
+Per Me rimane gratuito. Nessun abbonamento o servizio esterno a pagamento attivato. Nessuna diffusione di dati personali del curatore. **«Offrimi un caffè» resta esclusivamente in bozza privata**: non pubblicare, non diffondere e non attivare incassi senza consenso esplicito.
