@@ -30,9 +30,11 @@
   el.addEventListener('click', action);
   return el;
  };
+ html.dataset.permeLetturaAttiva='true';
  const style = node('style');
  style.id = 'perme-lettura-style';
  style.textContent = [
+  'html[data-perme-lettura-attiva] main,html[data-perme-lettura-attiva] header{overflow-wrap:anywhere}html[data-perme-lettura-attiva] main article{min-width:0;max-width:100%}html[data-perme-lettura-attiva] nav a{max-width:100%;min-width:0;white-space:normal}html[data-perme-lettura-attiva] main pre,html[data-perme-lettura-attiva] main code{white-space:pre-wrap;overflow-wrap:anywhere}html[data-perme-lettura-attiva] main button,html[data-perme-lettura-attiva] main input,html[data-perme-lettura-attiva] main select,html[data-perme-lettura-attiva] main textarea{box-sizing:border-box;max-width:100%;min-width:0}',
   '.perme-lettura,.perme-riscontro{box-sizing:border-box;max-width:100%;min-width:0;margin:24px 0;padding:16px;border:2px solid #8ba998;border-radius:10px;background:#eef5ef;color:#17372a;overflow-wrap:anywhere;font-size:1rem;line-height:1.5}',
   '.perme-lettura p,.perme-riscontro p{margin:0 0 12px}.perme-lettura-titolo{font-weight:800}',
   '.perme-lettura-azioni,.perme-riscontro-azioni{display:flex;flex-wrap:wrap;gap:10px;align-items:center}',

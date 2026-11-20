@@ -48,7 +48,9 @@ async function main(){
    check(Math.abs(await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize))-base*2)<0.1,'testo raddoppiato '+width);
    check(await grow.isDisabled?.()??!(await grow.isEnabled()),'limite massimo del testo '+width);
    await page.locator('.perme-riscontro summary').click();
-   check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'guida e riscontri senza scorrimento orizzontale al 200% '+width);
+   const overflow=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,outliers:[...document.querySelectorAll('body *')].map(e=>({tag:e.tagName,cls:e.className,id:e.id,left:e.getBoundingClientRect().left,right:e.getBoundingClientRect().right,text:e.textContent.slice(0,70)})).filter(e=>e.right>innerWidth+2&&e.left>-5).slice(0,12)}));
+   if(overflow.scroll>width+2)console.log('DETTAGLI LETTURA 200%',JSON.stringify(overflow));
+   check(overflow.scroll<=width+2,'guida e riscontri senza scorrimento orizzontale al 200% '+width);
    await page.reload();await page.locator('.perme-lettura').waitFor();
    check((await page.locator('.perme-lettura').innerText()).includes('Testo 200%'),'preferenza di lettura conservata '+width);
    await page.getByRole('button',{name:'Ripristina la dimensione iniziale del testo',exact:true}).click();
