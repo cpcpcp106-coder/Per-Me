@@ -1,0 +1,1597 @@
+{
+  "date_utc": "2026-11-20T11:02:36.710603+00:00",
+  "source_commit": "0dbb2b1c91930a29d7bb182731c063dfbc0d061f",
+  "scope": "Verifica HTTP pubblica di tutte le URL nella sitemap: non è un censimento dell’indice Google.",
+  "sitemap_url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+  "sitemap_http": 200,
+  "sitemap_content_type": "application/xml",
+  "sitemap_bytes": 19762,
+  "counts": {
+    "sitemap_urls": 143,
+    "unique_urls": 143,
+    "http_200": 143,
+    "reachable_from_home": 143,
+    "issues": 0
+  },
+  "issues": [],
+  "robots_root": {
+    "url": "https://cpcpcp106-coder.github.io/robots.txt",
+    "http": 404,
+    "interpretation_source": "https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec"
+  },
+  "results": [
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/modelli-e-strumenti.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/modelli-e-strumenti.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/modelli-e-strumenti.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dove-chiedere-aiuto.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dove-chiedere-aiuto.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dove-chiedere-aiuto.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/scadenze-del-mese.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/scadenze-del-mese.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/scadenze-del-mese.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutorial-smartphone.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutorial-smartphone.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutorial-smartphone.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/metodo.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/metodo.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/metodo.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/chi-siamo.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/chi-siamo.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/chi-siamo.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/soldi-lavoro.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/soldi-lavoro.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/soldi-lavoro.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-budget.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-budget.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-budget.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-trasferimento.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-trasferimento.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-trasferimento.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-mete.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-mete.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-mete.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/come-leggere-busta-paga.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/come-leggere-busta-paga.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/come-leggere-busta-paga.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assegno-ordinario-invalidita-requisiti-conferma.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/assegno-ordinario-invalidita-requisiti-conferma.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/assegno-ordinario-invalidita-requisiti-conferma.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/aoi-invalidita-civile-differenze.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/aoi-invalidita-civile-differenze.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/aoi-invalidita-civile-differenze.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/verbale-invalidita-civile-legge-104-come-leggerlo.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/verbale-invalidita-civile-legge-104-come-leggerlo.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/cedolino-pensione-obism-arretrati-verificare-importi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/redditi-red-comunicazioni-obbligatorie-inps.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/redditi-red-comunicazioni-obbligatorie-inps.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/redditi-red-comunicazioni-obbligatorie-inps.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/riesame-ricorso-inps-termini.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/riesame-ricorso-inps-termini.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/riesame-ricorso-inps-termini.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-cartelle.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-cartelle.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-cartelle.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-01-leggere-cartella.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-01-leggere-cartella.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-01-leggere-cartella.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-02-controllare-debiti.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-02-controllare-debiti.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-02-controllare-debiti.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-03-cartella-errata.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-03-cartella-errata.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-03-cartella-errata.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-04-rateizzazione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-04-rateizzazione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-04-rateizzazione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-05-rottamazione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-05-rottamazione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-05-rottamazione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-07-banche-bollette.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-07-banche-bollette.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-07-banche-bollette.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-diritti.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-diritti.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-diritti.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/app/",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/app/"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ccnl-inquadramento-livello-superminimo.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ccnl-inquadramento-livello-superminimo.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ccnl-inquadramento-livello-superminimo.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/controllare-cedolino-cassa-integrazione-solidarieta.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/controllare-cedolino-cassa-integrazione-solidarieta.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dal-lordo-al-netto.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dal-lordo-al-netto.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dal-lordo-al-netto.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-ricette.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-ricette.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-ricette.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/monitoraggio.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/monitoraggio.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/monitoraggio.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ore-ferie-permessi-malattia-straordinari.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ore-ferie-permessi-malattia-straordinari.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ore-ferie-permessi-malattia-straordinari.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-autonomia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-autonomia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-autonomia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-01-preparare-visita.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-01-preparare-visita.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-01-preparare-visita.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/stipendio-diminuito-cosa-controllare.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/stipendio-diminuito-cosa-controllare.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/stipendio-diminuito-cosa-controllare.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-android-primi-passi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-android-primi-passi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-android-primi-passi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-conversazione-correzioni.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-conversazione-correzioni.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-conversazione-correzioni.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-verifica-fonti-date.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-verifica-fonti-date.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-verifica-fonti-date.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-riassumere-confrontare.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-riassumere-confrontare.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-riassumere-confrontare.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-privacy-truffe.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-privacy-truffe.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-privacy-truffe.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-quando-chiedere-aiuto.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-quando-chiedere-aiuto.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tutor-ai-quando-chiedere-aiuto.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-italia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-italia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-italia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-italia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-italia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-italia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-09-locazioni-abitative.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-09-locazioni-abitative.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-09-locazioni-abitative.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/verbale-riconsegna-locazione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/verbale-riconsegna-locazione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/strumenti/verbale-riconsegna-locazione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-tipo-2.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-tipo-2.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-tipo-2.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-scientifica.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-scientifica.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-mediterranea-scientifica.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-02-prevenzione-cardiovascolare-studi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-02-prevenzione-cardiovascolare-studi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-08-ricette-mediterranee-economiche-valori.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-08-ricette-mediterranee-economiche-valori.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-lenticchie-patate-carote.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-lenticchie-patate-carote.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-lenticchie-patate-carote.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-insalata-borlotti-riso-integrale-pomodori.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-insalata-borlotti-riso-integrale-pomodori.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-pasta-integrale-ceci-cavolfiore.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-pasta-integrale-ceci-cavolfiore.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-riso-integrale-pollo-radicchio-noci.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-riso-integrale-pollo-radicchio-noci.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-merluzzo-patate-finocchio-limone.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-merluzzo-patate-finocchio-limone.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-merluzzo-patate-finocchio-limone.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-orzo-lenticchie-porro-carota.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-zuppa-orzo-lenticchie-porro-carota.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/ricetta-frittata-zucca-spinaci-pane-integrale.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/ricetta-frittata-zucca-spinaci-pane-integrale.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-guida-01-modello-mediterraneo-diabete-evidenze.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/gradimento.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-01-cause-sintomi-diagnosi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-01-cause-sintomi-diagnosi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-01-cause-sintomi-diagnosi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-03-farmaci-insulina-sicurezza.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-03-farmaci-insulina-sicurezza.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-04-alimentazione-terapia-carboidrati.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-04-alimentazione-terapia-carboidrati.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-05-coronarie-rischio-prevenzione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-05-coronarie-rischio-prevenzione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-06-scompenso-miocardio-aritmie.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-06-scompenso-miocardio-aritmie.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-07-ictus-tia-prevenzione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-07-ictus-tia-prevenzione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-07-ictus-tia-prevenzione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-08-arteriopatia-periferica-gambe.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-09-retinopatia-edema-maculare-vista.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-11-reni-albuminuria-funzione-renale.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-11-reni-albuminuria-funzione-renale.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-11-reni-albuminuria-funzione-renale.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-13-neuropatia-autonomica-cardiovascolare.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-15-vescica-incontinenza-sessualita.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-17-bocca-denti-gengive-parodontite.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-25-salute-mentale-depressione-distress-demenza.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-26-tumori-rischio-screening-prevenzione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-29-gravidanza-fertilita-ormoni.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-29-gravidanza-fertilita-ormoni.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-29-gravidanza-fertilita-ormoni.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/prova-lettori.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-07-cigo-cigs-fis-solidarieta.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-10-fine-rapporto-documenti-tutele.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-10-fine-rapporto-documenti-tutele.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-11-naspi-domanda-scadenze.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-11-naspi-domanda-scadenze.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-11-naspi-domanda-scadenze.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-12-tfr-pagamento-fondo-garanzia.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lavoro-guida-13-cercare-lavoro-dopo-50-anni.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-06-dimissione-ospedale-ritorno-casa.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-06-dimissione-ospedale-ritorno-casa.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-08-patente-malattie-croniche-certificati.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-08-patente-malattie-croniche-certificati.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/salute-guida-08-patente-malattie-croniche-certificati.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-minestre-legumi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-minestre-legumi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-minestre-legumi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-piatti-legumi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-piatti-legumi.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-piatti-legumi.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-pesce.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-pesce.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-pesce.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-uova-carne-bianca.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-uova-carne-bianca.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-uova-carne-bianca.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-ricotta.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-ricotta.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-ricotta.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-colazioni.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-colazioni.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/dieta-ricette-colazioni.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/app/menu-mediterraneo.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/orientamento-benefici.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/orientamento-benefici.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/strumenti/orientamento-benefici.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-pasto-mediterraneo.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-pasto-mediterraneo.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-pasto-mediterraneo.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-spesa-settimanale.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-spesa-settimanale.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-spesa-settimanale.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/da-dove-cominciare.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/da-dove-cominciare.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/da-dove-cominciare.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lievito-madre.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/lievito-madre.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lievito-madre.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pasta-madre-solida-da-zero.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pasta-madre-solida-da-zero.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pasta-madre-solida-da-zero.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/licoli-da-zero.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/licoli-da-zero.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/licoli-da-zero.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pane-500g-friggitrice-8-litri.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pane-500g-friggitrice-8-litri.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pane-500g-friggitrice-8-litri.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pizza-napoletana-con-licoli.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pizza-napoletana-con-licoli.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/pizza-napoletana-con-licoli.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tangzhong-autolisi-biga-poolish.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/tangzhong-autolisi-biga-poolish.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tangzhong-autolisi-biga-poolish.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/inps-mobile-5-novita.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/inps-mobile-5-novita.html",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/inps-mobile-5-novita.html"
+      ],
+      "robots": [
+        "index,follow"
+      ]
+    }
+  ]
+}
