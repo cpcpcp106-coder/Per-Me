@@ -28,3 +28,12 @@ Richiamo fotografico in homepage, collegamento nella rubrica Pensione e invalidi
 
 ## Limiti
 Verifica delle fonti documentale: nessun accesso ai dati personali INPS, nessuna prova delle nuove funzioni nell’app INPS e nessuna revisione giuridica indipendente. Emulazione browser, non prova su Samsung fisico. I test offline sono la suite del programma Per Me; non è stata eseguita una nuova sincronizzazione offline completa di tutte le guide in questa sessione.
+
+## Pubblicazione verificata
+Pubblicazione completata tramite PR https://github.com/cpcpcp106-coder/Per-Me/pull/25 e merge 053918c8d187925582b8ceb5335a0b9749e99d81.
+GitHub Pages: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44712292115 — completato con successo.
+Verifica pubblica del 20 novembre 2026: articolo HTTP 200, contenuto aperto nel browser, foto caricata a 1200 × 800, pulsante Facebook diretto alla Pagina Per Me Guide e pulsante dell’app diretto alla scheda ufficiale INPS. Richiamo fotografico in homepage aperto e percorso homepage-articolo verificato sul sito pubblico. Ricerca in anteprima: “INPS Mobile” restituisce il nuovo articolo.
+
+Dopo l’integrazione degli aggiornamenti contemporanei della guida sulle tecniche di impasto sono stati rieseguiti i controlli sul contenuto completo: 143 pagine pubbliche raggiungibili e presenti nella sitemap; audit editoriale su 137 pagine senza problemi bloccanti; 103 file immagine registrati, controllo superato. Gli aggiornamenti contemporanei sono stati conservati.
+
+Controllo separato rilevato nel repository: il workflow Tutor AI per smartphone emulato https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44712293297 è fallito nello step “Installa Chromium e Playwright”, prima delle prove del sito. Questo esito non è indicato come test superato e non impedisce la pubblicazione Pages verificata sopra.
