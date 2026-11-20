@@ -45,6 +45,20 @@ Da questo registro in avanti, tutti i lavori NON certificati delle tre fasi conf
 - Eseguire test su smartphone reale (Samsung) e con TalkBack / tastiera, attivazione e lettura delle 12 schede, filtro e percorso INPS, stampa/copia modelli, zoom e reflow. Registrare risultati reali; non simularne l'esito.
 - Verificare riproducibilmente all'esterno di GitHub la nuova pagina, CSS, immagine, pulsante Facebook e collegamenti, distinguendo deployment riuscito da HTTP 200 e contenuto effettivamente servito.
 
+#### Prova reale Samsung — calcolatore della spesa, 20 novembre 2026
+
+**Esito: superato per il singolo scenario descritto.** La schermata inviata dall'utente mostra il risultato del [calcolatore della spesa settimanale](https://cpcpcp106-coder.github.io/Per-Me/strumenti/costo-spesa-settimanale.html) sul Samsung. L'orario visibile nella schermata è 13:14. L'evidenza originale rimane nella conversazione e non viene pubblicata nel repository.
+
+Dati inseriti durante la prova guidata: nome «Pasta prova», prezzo fittizio 2 €/kg, quantità 500 g, confezione 500 g, due persone. Non sono prezzi osservati né acquisti reali.
+
+| Verifica | Valore atteso | Valore visibile | Esito |
+| --- | --- | --- | --- |
+| Costo delle quantità inserite | 1,00 € | 1,00 € | Superato |
+| Quota aritmetica per persona | 0,50 € | 0,50 € | Superato |
+| Esborso per la confezione nota | 1,00 € | 1,00 €, 1 ingrediente su 1 con confezione specificata | Superato |
+
+Il testo del risultato e il pulsante «Stampa o salva come PDF» sono visibili senza tagli orizzontali nella schermata. La dicitura «Fonte: non indicata; data: non indicata» è coerente con i dati fittizi della prova. Questa evidenza conferma il calcolo e la visualizzazione di questo scenario su dispositivo reale; restano da verificare TalkBack, stampa/PDF, zoom al 200%, offline e gli altri percorsi del piano 4A.
+
 ### 4B — Certificazione editoriale, normativa, scientifica e fotografica
 - Inventariare e revisionare ciascuna delle 141 pagine con riferimento normativo/scientifico, validità temporale, destinatari, aggiornamento, rischio, versione e link diretto alla fonte. Priorità a INPS, ARERA, Ministero Salute/MEF, ISTAT, CREA, legge vigente e avvertenze cliniche. Registrare revisione indipendente solo quando esiste documentazione.
 - Completare matrice puntuale diritti immagini e attestazioni dove non documentate, senza presumere che un workflow verde equivalga a licenza completa.
