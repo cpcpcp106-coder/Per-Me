@@ -37,7 +37,15 @@ async function run(){
  const cardSizes=await page.locator('.problemi a').evaluateAll(items=>items.map(a=>a.getBoundingClientRect().height));
  check(cardSizes.every(h=>h>=54),'percorsi con superficie tattile almeno 54 px '+width);
  await page.evaluate(()=>{document.documentElement.style.fontSize='200%'});
- check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'reflow con caratteri al 200% '+width);
+ const zoomResult=await page.evaluate(()=>{
+ const viewport=window.innerWidth;
+ const elements=Array.from(document.querySelectorAll('body *'))
+ .map(e=>({tag:e.tagName,css:e.className?.toString().slice(0,75),right:Math.round(e.getBoundingClientRect().right),left:Math.round(e.getBoundingClientRect().left),width:Math.round(e.getBoundingClientRect().width)}))
+ .filter(x=>x.right>viewport+2||x.left<-2).slice(0,10);
+ return {ok:document.documentElement.scrollWidth<=viewport+2,viewport,scrollWidth:document.documentElement.scrollWidth,elements};
+ });
+ if(!zoomResult.ok)console.log('DETTAGLI REFLOW 200%',width,JSON.stringify(zoomResult));
+ check(zoomResult.ok,'reflow con caratteri al 200% '+width);
  await page.evaluate(()=>{document.documentElement.style.fontSize=''});
  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'nessun overflow orizzontale '+width);
  check(await page.locator('a[href="https://www.facebook.com/PerMeGuide/"]').count()===1,'Facebook '+width);
