@@ -8,6 +8,10 @@
 .filtro-problemi label{display:block;font-size:1.15rem;font-weight:750;margin-bottom:8px}
 .filtro-problemi input{width:100%;max-width:100%;box-sizing:border-box;min-height:58px;padding:12px 15px;font:inherit;font-size:1.14rem;color:#172b21;background:#fff;border:2px solid #42624d;border-radius:10px}
 .filtro-problemi p{margin:8px 0;font-size:1.04rem}
+.problemi,.problemi a{min-width:0}
+.problemi a,.problemi strong,.problemi span,.percorso-immediato,.percorso-immediato .azione-pratica{overflow-wrap:anywhere}
+header .top,header .top nav,header .top nav a{min-width:0;overflow-wrap:anywhere}
+@media(max-width:500px){.problemi{grid-template-columns:minmax(0,1fr)}}
 .problemi a[hidden]{display:none}
 @media(max-width:500px){.percorso-immediato{padding:17px 15px}.percorso-immediato .azione-pratica{width:100%;box-sizing:border-box}}
 @media print{.filtro-problemi{display:none}.problemi a[hidden]{display:flex}}
