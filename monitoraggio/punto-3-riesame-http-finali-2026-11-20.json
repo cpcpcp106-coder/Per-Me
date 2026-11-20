@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-11-20T11:57:50.203392+00:00",
+  "scope": "Riesame dei due errori HTTP nell’ultima esecuzione GitHub; non dimostra la raggiungibilità universale né conferma ogni affermazione.",
+  "results": [
+    {
+      "url": "https://cnas.ro/case-judetene/",
+      "http": 200,
+      "final_url": "https://cnas.ro/case-judetene/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_sample": 216313,
+      "has_expected_content": true
+    },
+    {
+      "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "content_type": "text/html; charset=iso-8859-1",
+      "bytes_sample": 67892,
+      "has_expected_content": true
+    }
+  ]
+}

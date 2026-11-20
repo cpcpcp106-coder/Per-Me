@@ -1,0 +1,50 @@
+{
+  "checked_at_utc": "2026-11-20T11:52:01.576618+00:00",
+  "results": [
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 22394,
+      "sha256": "fffba58618a60b1b99446d86aa67d8a6a4323436bfbb0b665bb8eb425b729684",
+      "corrected_alt": true
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 41927,
+      "sha256": "2af967997a8825084a144604fc4bf51a0bdf0eb5158f9f6b5026e2a08352c206",
+      "new_image": true,
+      "old_photo_absent": true,
+      "ai_disclosure": true,
+      "facebook_literal_in_html_source": false,
+      "facebook_rendered_in_browser": true,
+      "facebook_url_observed": "https://www.facebook.com/PerMeGuide",
+      "facebook_method": "Componente inserito da gradimento.js, riscontrato nel DOM del browser; la sola ricerca dell’URL nel sorgente HTML non lo rileva."
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/diabete-guida-20-colloquio-fegato-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "bytes": 103148,
+      "sha256": "6c1491c94b01b3eb313e0e5a266c79651b89429f73ca2fbf09bc59e97630f82f",
+      "identical_to_source": true
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "http": 200,
+      "content_type": "application/xml",
+      "bytes": 19762,
+      "sha256": "1740935f590ddf00c2bf355466769b1ab6706268d75f6a65e189d3a1c7191f9a"
+    }
+  ],
+  "browser_observation": {
+    "guide": "https://cpcpcp106-coder.github.io/Per-Me/diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
+    "new_image_loaded": true,
+    "natural_width": 1200,
+    "natural_height": 800,
+    "caption_visible": true,
+    "independent_clinical_review_claimed": false
+  }
+}

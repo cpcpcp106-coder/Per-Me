@@ -1,0 +1,352 @@
+{
+  "date": "2026-11-20",
+  "implementation_commit": "350ada8197145d7cd0efd0d3c2d6921c853f33ff",
+  "verification_commit": "f39ee8d77fba71262a2047c9392a441ba0b0a764",
+  "browser_workflow": {
+    "run_id": 44731266156,
+    "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44731266156",
+    "conclusion": "success",
+    "source_report_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/b9413a6a5c357667e2a73736237b7fb5553752d0/monitoraggio/ultimo-collaudo-browser.json",
+    "checked_at_utc": "2026-11-20T11:54:02.107Z",
+    "tests": [
+      {
+        "name": "home_load",
+        "result": "PASS",
+        "details": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me"
+      },
+      {
+        "name": "home_overflow_mobile",
+        "result": "PASS",
+        "details": {
+          "width": 390,
+          "scrollWidth": 390
+        }
+      },
+      {
+        "name": "home_search_and_first_steps",
+        "result": "PASS",
+        "details": {
+          "routes": 4,
+          "widths": [
+            320,
+            390
+          ],
+          "textZoom320": "200%",
+          "firstSteps": 3
+        }
+      },
+      {
+        "name": "reader_test_copy_and_preview",
+        "result": "PASS",
+        "details": {
+          "inviteWorks": true,
+          "startWorks": true,
+          "emptyBlocked": true,
+          "feedbackWorks": true,
+          "staleHidden": true,
+          "overflow": false,
+          "facebookLink": "https://www.facebook.com/PerMeGuide/"
+        }
+      },
+      {
+        "name": "reader_test_manual_copy",
+        "result": "PASS",
+        "details": {
+          "inviteWorks": true,
+          "startWorks": true,
+          "emptyBlocked": true,
+          "feedbackWorks": true,
+          "staleHidden": true,
+          "overflow": false,
+          "facebookLink": "https://www.facebook.com/PerMeGuide/"
+        }
+      },
+      {
+        "name": "published_html_http_local",
+        "result": "PASS",
+        "details": {
+          "count": 138,
+          "failures": []
+        }
+      },
+      {
+        "name": "guide20_photo_and_facebook",
+        "result": "PASS",
+        "details": {
+          "loaded": true,
+          "local": true,
+          "alt": "Un uomo adulto e una professionista sanitaria esaminano un documento durante un colloquio in ambulatorio.",
+          "caption": "Immagine illustrativa originale generata con intelligenza artificiale per Per Me. La scena non rappresenta un caso clinico documentato. L’app Per Me conserva i testi per la lettura offline.",
+          "facebookAvailable": true
+        }
+      },
+      {
+        "name": "all_root_html_mobile_reflow",
+        "result": "PASS",
+        "details": {
+          "checked": 138,
+          "violations": []
+        }
+      },
+      {
+        "name": "pensioner_guides_open_details_mobile_reflow",
+        "result": "PASS",
+        "details": {
+          "checked": 4,
+          "widths": [
+            320,
+            390
+          ],
+          "violations": []
+        }
+      },
+      {
+        "name": "all_root_html_axe_wcag_auto",
+        "result": "PASS",
+        "details": {
+          "checked": 138,
+          "failed": [],
+          "errors": []
+        }
+      },
+      {
+        "name": "practical_guides_photo_contents_and_facebook",
+        "result": "PASS",
+        "details": {
+          "checked": 10,
+          "issues": []
+        }
+      },
+      {
+        "name": "guide_09_load",
+        "result": "PASS",
+        "details": "A chi rivolgersi per debiti e cartelle"
+      },
+      {
+        "name": "guide09_overflow_mobile",
+        "result": "PASS",
+        "details": {
+          "width": 390,
+          "scrollWidth": 390
+        }
+      },
+      {
+        "name": "manifest_and_app_id",
+        "result": "PASS",
+        "details": {
+          "id": "./",
+          "start": "./",
+          "icons": 3
+        }
+      },
+      {
+        "name": "sync_and_persist_localStorage",
+        "result": "PASS",
+        "details": {
+          "status": "126 pagine salvate per la lettura offline · controllo online 20 nov, 11:55.",
+          "stored": {
+            "guides": 126,
+            "updated": "2026-11-20T11:55:10.056Z",
+            "bytes": 2601273,
+            "includesNew09": true
+          }
+        }
+      },
+      {
+        "name": "service_worker_registration",
+        "result": "PASS",
+        "details": true
+      },
+      {
+        "name": "offline_shell_and_catalogue",
+        "result": "PASS",
+        "details": {
+          "count": 126
+        }
+      },
+      {
+        "name": "offline_guide_readable",
+        "result": "PASS",
+        "details": {
+          "title": "Agevolazioni e diritti",
+          "chars": 11526
+        }
+      },
+      {
+        "name": "practical_guides_updated_and_readable_offline",
+        "result": "PASS",
+        "details": {
+          "checked": 10,
+          "issues": []
+        }
+      },
+      {
+        "name": "guide20_text_updated_and_readable_offline",
+        "result": "PASS",
+        "details": {
+          "characters": 27743,
+          "mode": "Testi salvati; il lettore offline non conserva le fotografie delle guide"
+        }
+      },
+      {
+        "name": "app_back_online_after_offline",
+        "result": "PASS",
+        "details": "App reopened after offline test"
+      },
+      {
+        "name": "mediterranean_menu_and_shopping_list",
+        "result": "PASS",
+        "details": {
+          "pasti": 21,
+          "manualStock": true,
+          "copied": true,
+          "print": true,
+          "offlineRecipes": true,
+          "widths": [
+            320,
+            390
+          ]
+        }
+      },
+      {
+        "name": "published_home",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/"
+        }
+      },
+      {
+        "name": "published_debt_guide09",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "A chi rivolgersi per debiti e cartelle | Guida 09 Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-09-a-chi-rivolgersi.html"
+        }
+      },
+      {
+        "name": "published_guide_01",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "ISEE ordinario e corrente 2026: requisiti, documenti e domanda | Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-01-isee-corrente.html"
+        }
+      },
+      {
+        "name": "published_guide_02",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "Bonus sociali 2026: luce, gas, acqua e TARI | Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-02-bonus-sociali.html"
+        }
+      },
+      {
+        "name": "published_guide_03",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "Trasporti agevolati FVG 2026: invalidità e over 65 | Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-03-trasporti-fvg.html"
+        }
+      },
+      {
+        "name": "published_guide_04",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "Esenzioni ticket sanitari FVG 2026: reddito, diabete, invalidità | Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-04-esenzioni-ticket-fvg.html"
+        }
+      },
+      {
+        "name": "published_guide_05",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "Comune e servizi sociali: come chiedere aiuto in Italia | Per Me",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+        }
+      },
+      {
+        "name": "published_app",
+        "result": "PASS",
+        "details": {
+          "http": 200,
+          "title": "Per Me · Guide offline",
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/app/"
+        }
+      }
+    ],
+    "axe_pages": 142,
+    "axe_errors": 0,
+    "page_errors": []
+  },
+  "external_check": {
+    "date_utc": "2026-11-20T11:56:42.041900+00:00",
+    "scope": {
+      "pages": 141,
+      "unique_external_urls": 894,
+      "occurrences": 2031
+    },
+    "counts": {
+      "raggiungibile": 758,
+      "errore_http": 2,
+      "bloccato_o_riservato": 121,
+      "non_verificato_trasporto": 13
+    },
+    "limitation": "Errori HTTP e TLS da riesaminare separatamente; il successo del workflow non certifica la correttezza semantica di ogni fonte."
+  },
+  "other_successful_runs": [
+    {
+      "id": 44730770063,
+      "name": "Audit editoriale",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730770063",
+      "conclusion": "success"
+    },
+    {
+      "id": 44730770052,
+      "name": "Registro immagini",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730770052",
+      "conclusion": "success"
+    },
+    {
+      "id": 44730770245,
+      "name": "Indicizzabilità tecnica",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730770245",
+      "conclusion": "success"
+    },
+    {
+      "id": 44730770106,
+      "name": "Tutor AI smartphone emulato",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730770106",
+      "conclusion": "success"
+    },
+    {
+      "id": 44730770154,
+      "name": "Calorie e carboidrati ricette",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730770154",
+      "conclusion": "success"
+    },
+    {
+      "id": 44730770153,
+      "name": "Strumenti",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730770153",
+      "conclusion": "success"
+    },
+    {
+      "id": 44730806846,
+      "name": "Pubblicazione GitHub Pages dopo il commit iniziale",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44730806846",
+      "conclusion": "success"
+    }
+  ],
+  "limitations": [
+    "Revisione documentale ed editoriale, non certificazione clinica o giuridica indipendente.",
+    "Chromium Linux e prove automatiche non equivalgono a Samsung fisico.",
+    "Le fotografie delle guide non vengono conservate dal lettore offline; è stata verificata la disponibilità dei testi aggiornati."
+  ]
+}

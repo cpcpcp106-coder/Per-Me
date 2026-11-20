@@ -2,6 +2,11 @@
 **Data:** 20 novembre 2026. **Progetto:** https://github.com/cpcpcp106-coder/Per-Me
 **Metodo:** lettura dei registri del repository prima delle modifiche, controllo diretto di pagine e programmi delle tre fasi, riscontro con fonti primarie selezionate, consultazione dei log di GitHub Actions e verifica separata dei limiti. Non è una revisione indipendente certificata di tutte le affermazioni.
 
+## Aggiornamento dei controlli sequenziali del 20 novembre
+I numeri riportati più sotto conservano gli snapshot del mattino. Per lo stato successivo consultare [punto 1 — controlli automatici](punto-1-controlli-automatici-2026-11-20.md), [punto 2 — indicizzazione](punto-2-indicizzazione-2026-11-20.md) e [punto 3 — contenuti e immagini](punto-3-revisione-contenuti-immagini-2026-11-20.md).
+
+L’inventario corrente comprende **143 pagine**. Il punto 3 ha registrato i controlli formali per tutte le 143, una verifica fattuale mirata su punti di 14 pagine e una revisione visiva di 127 immagini e schermate. Corrette la descrizione di una foto nella home e la foto non pertinente della guida sul fegato. Resta distinta la dichiarazione storica del curatore per 41 immagini dalla provenienza documentata individualmente. CNAS è nuovamente raggiungibile; altri 13 link del campione restano inconcludenti. Restano da accertare il tetto reddituale numerico FVG 2026 e le verifiche professionali indipendenti non documentate. Questi risultati non chiudono da soli l’intera Fase 4, né attestano una revisione di ogni frase delle 143 pagine.
+
 ## Fase 3: interventi del 20 novembre
 - Pagina esistente [«Da dove cominciare?»](https://cpcpcp106-coder.github.io/Per-Me/da-dove-cominciare.html): restano 12 percorsi principali, ora ricercabili con parole chiave e sinonimi attraverso filtro locale, con conteggio accessibile e messaggio se non esistono corrispondenze. Senza JavaScript i 12 link restano disponibili. I dati della ricerca non sono inviati al server.
 - Percorso in primo piano «L'INPS ha sospeso un pagamento o respinto una domanda?» con tre primi controlli e accesso diretto a `inps-prestazione-sospesa-respinta-cosa-fare.html`; si specifica che procedura e termini dipendono dal caso e la richiesta chiarimenti non va considerata sospensiva dei termini.
