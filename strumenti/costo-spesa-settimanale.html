@@ -26,7 +26,7 @@ if(new URLSearchParams(location.search).get('origine')==='menu'){
     }
   }catch(_){}
 }
-if(!importato)for(let i=0;i<6;i++)crea();
+if(!importato)crea();
 document.getElementById('f').addEventListener('submit',e=>{
 e.preventDefault();
 const euro=x=>x.toLocaleString('it-IT',{style:'currency',currency:'EUR'});
