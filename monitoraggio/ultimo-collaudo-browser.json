@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T09:37:54.730Z",
+  "checked_at_utc": "2026-11-20T11:50:37.589Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -61,6 +61,17 @@
       "details": {
         "count": 138,
         "failures": []
+      }
+    },
+    {
+      "name": "guide20_photo_and_facebook",
+      "result": "FAIL",
+      "details": {
+        "loaded": true,
+        "local": true,
+        "alt": "Un uomo adulto e una professionista sanitaria esaminano un documento durante un colloquio in ambulatorio.",
+        "caption": "Immagine illustrativa originale generata con intelligenza artificiale per Per Me. La scena non rappresenta un caso clinico documentato. L’app Per Me conserva i testi per la lettura offline.",
+        "facebookAvailable": false
       }
     },
     {
@@ -126,11 +137,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "126 pagine salvate per la lettura offline · controllo online 20 nov, 09:38.",
+        "status": "126 pagine salvate per la lettura offline · controllo online 20 nov, 11:51.",
         "stored": {
           "guides": 126,
-          "updated": "2026-11-20T09:38:40.466Z",
-          "bytes": 2601774,
+          "updated": "2026-11-20T11:51:47.590Z",
+          "bytes": 2601273,
           "includesNew09": true
         }
       }
@@ -161,6 +172,14 @@
       "details": {
         "checked": 10,
         "issues": []
+      }
+    },
+    {
+      "name": "guide20_text_updated_and_readable_offline",
+      "result": "PASS",
+      "details": {
+        "characters": 27743,
+        "mode": "Testi salvati; il lettore offline non conserva le fotografie delle guide"
       }
     },
     {
