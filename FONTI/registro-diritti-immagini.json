@@ -1513,7 +1513,9 @@
       "license_or_ownership": "Output originale per Per Me secondo le condizioni ChatGPT. Generato da descrizione testuale senza fotografie di terzi.",
       "source_history_verified": true,
       "used_in": "app/menu-mediterraneo.html",
-      "additional_uses": ["dieta-guida-08-ricette-mediterranee-economiche-valori.html"]
+      "additional_uses": [
+        "dieta-guida-08-ricette-mediterranee-economiche-valori.html"
+      ]
     },
     {
       "file": "assets/pensionati-estero-rubrica.webp",
@@ -1666,6 +1668,17 @@
       "license_or_ownership": "Output ChatGPT originale senza immagini di terzi. Condizioni d’uso OpenAI per l’Europa: https://openai.com/it-IT/policies/eu-terms-of-use/",
       "source_history_verified": true,
       "used_in": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html"
+    },
+    {
+      "file": "assets/malattia-inps-sr212-originale.webp",
+      "git_blob_sha": "949a982a67a9ec8cf844c225a3773922abb280b8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT ImageGen il 20 novembre 2026, senza immagini di riferimento, e convertita in WebP 1254 × 1254 per Per Me.",
+      "provenance_evidence": "Generazione diretta osservata nella sessione sul modulo SR212. Output originale: generated_images/exec-4fa6e02d-c2d2-4c22-864f-7931da4a9667.png. Prompt: uomo adulto che compila documenti in casa con una familiare; testi Malattia INPS, Modulo SR212 e Per Me; nessun logo istituzionale o modulo ufficiale riprodotto. Conversione di formato a contenuto invariato; impronta Git del WebP registrata.",
+      "license_or_ownership": "Output originale creato per Per Me secondo le condizioni di ChatGPT e il diritto applicabile; nessuna immagine di terzi in ingresso.",
+      "note": "Scena e persone inventate. Il documento nella foto non riproduce il modulo ufficiale INPS.",
+      "source_history_verified": true,
+      "used_in": "index.html, inps-malattia-pagamento-diretto-sr212.html"
     }
   ],
   "notes": [
