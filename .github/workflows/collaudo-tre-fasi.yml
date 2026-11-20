@@ -2,6 +2,7 @@ name: Collaudo strumenti Per Me
 on:
   push:
     paths:
+      - 'app/index.html'
       - 'app/menu-mediterraneo.js'
       - 'app/menu-mediterraneo.html'
       - 'strumenti/**'

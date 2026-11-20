@@ -1,0 +1,136 @@
+{
+  "checked_at_utc": "2026-11-20T16:13:56.352469+00:00",
+  "scope": "Riesame dei 13 link inconcludenti, nessuna sostituzione automatica",
+  "results": [
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+283&codiceOrdinamento=0000000000002830000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.879170+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getArticoloDetailFromResultList.do?FROM_SEARCH=true&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BEA060E5A-203F-4E5E-A6FC-46C2B02F9B3F%7D&idAttoNormativo=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D&numeroArticolo=Articolo+545",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.879992+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000670000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.880600+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000690000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.881396+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.finanze.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&codiceOrdinamento=0000000000000740000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BAD235697-1BA5-40CD-A0A5-05B8CDFE95B0%7D",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.882425+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/executePrintArticolo.do?articolo=Articolo+617&codiceOrdinamento=0000000000006170000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.883109+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+545&codiceOrdinamento=0000000000005450000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:45.886604+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+546&codiceOrdinamento=0000000000005460000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B57BBB567-1573-4FC0-BD87-BE4D68CB1B5F%7D",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:50.673208+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getAttoNormativoDetail.do?ACTION=getArticolo&articolo=Articolo+76&codiceOrdinamento=0000000000000760000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7B79FB509F-FF10-413B-9949-D26DACEF6AAE%7D",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:50.694501+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/d/diabete-di-tipo-2?width=wide",
+      "pages": [
+        "diabete-guida-01-cause-sintomi-diagnosi.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:51.234657+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://www.mit.gov.it/documentazione/fondo-per-la-morosita-incolpevole",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:51.235035+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://www.mit.gov.it/temi/casa",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:51.235640+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    },
+    {
+      "url": "https://www.mit.gov.it/urp-domande-frequenti",
+      "pages": [
+        "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ],
+      "checked_at_utc": "2026-11-20T16:13:51.263092+00:00",
+      "http": 503,
+      "error": "HTTP Error 503: Service Unavailable",
+      "tls_verification": true
+    }
+  ]
+}
