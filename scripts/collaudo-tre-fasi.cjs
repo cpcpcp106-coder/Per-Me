@@ -61,6 +61,39 @@ async function run(){
  await page.locator('#f button[type=submit]').click();
  check((await page.locator('#totale').innerText()).includes('1,00'),'costo 250g a 4€/kg = 1 euro '+width);
  check((await page.locator('#cassa').innerText()).includes('2,00'),'cassa confezione da 500g a 4€/kg = 2 euro '+width);
+ const unita=page.locator('.riga').first().locator('[data-key=unita]');
+ for(const [value,basis] of [['g','chilogrammo'],['ml','litro'],['pezzi','pezzo']]){
+  await unita.selectOption(value);
+  const helpId=await unita.getAttribute('aria-describedby');
+  check(!!helpId && (await page.locator('#'+helpId).innerText()).includes(basis),'unità e base del prezzo accessibili '+value+' '+width);
+ }
+ await unita.selectOption('ml');
+ await page.locator('#f button[type=submit]').click();
+ check((await page.locator('#totale').innerText()).includes('1,00'),'250 ml a 4 €/litro = 1 euro '+width);
+ await unita.selectOption('pezzi');
+ await page.locator('.riga').first().locator('[data-key=quantita]').fill('3');
+ await page.locator('.riga').first().locator('[data-key=confezione]').fill('2');
+ await page.locator('#f button[type=submit]').click();
+ check((await page.locator('#totale').innerText()).includes('12,00') && (await page.locator('#cassa').innerText()).includes('16,00'),'pezzi e confezioni intere conservano il calcolo '+width);
+ const baseFont=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
+ await page.evaluate(px=>document.documentElement.style.setProperty('font-size',px*2+'px','important'),baseFont);
+ for(const value of ['g','ml','pezzi']){
+  await unita.selectOption(value);
+  const fit=await unita.evaluate(el=>{
+   const css=getComputedStyle(el),canvas=document.createElement('canvas'),context=canvas.getContext('2d');
+   context.font=css.font;
+   const text=el.selectedOptions[0].textContent;
+   const available=el.clientWidth-parseFloat(css.paddingLeft)-parseFloat(css.paddingRight)-24;
+   return {ok:context.measureText(text).width<=available,text,available,textWidth:context.measureText(text).width};
+  });
+  if(!fit.ok)console.log('DETTAGLI UNITÀ 200%',width,JSON.stringify(fit));
+  check(fit.ok,'unità intera leggibile al 200% '+value+' '+width);
+ }
+ check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'calcolatore senza overflow al 200% '+width);
+ await page.evaluate(()=>document.documentElement.style.removeProperty('font-size'));
+ await unita.selectOption('g');
+ await page.locator('.riga').first().locator('[data-key=quantita]').fill('250');
+ await page.locator('.riga').first().locator('[data-key=confezione]').fill('500');
  await page.locator('#aggiungi').click();
  const seconda=page.locator('.riga').last();
  await seconda.locator('[data-key=nome]').fill('Lenticchie');
