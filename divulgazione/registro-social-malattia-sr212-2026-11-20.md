@@ -15,7 +15,7 @@ Facebook: identificativo del post rilevato nell’interfaccia 122103778166542978
 
 Pubblicazione organica tramite Meta Business Suite, con testi distinti per piattaforma e una foto quadrata 1254 × 1254. Nessuna promozione a pagamento attivata.
 
-Prima dell’invio è stata cercata la voce «SR212» nei contenuti pubblicati degli ultimi 90 giorni: nessuna corrispondenza. Sono stati consultati i registri social pertinenti. Non sono stati inviati ulteriori post a gruppi.
+Prima dell’invio è stata cercata la voce «SR212» nei contenuti pubblicati degli ultimi 90 giorni: nessuna corrispondenza. Sono stati consultati i registri social pertinenti. La successiva diffusione nei gruppi è documentata nel [registro dedicato](registro-gruppi-sr212-2026-11-20.md): 26 invii confermati, di cui 8 pubblicati e 18 in moderazione. Due ulteriori tentativi sono stati fermati dal limite di frequenza mostrato da Facebook; una bozza non è stata inviata. Il registro distingue anche 51 esclusioni per regole o pertinenza e 29 gruppi ancora da esaminare. La diffusione a tutte le iscrizioni non è conclusa.
 
 ## Foto e trasparenza
 
