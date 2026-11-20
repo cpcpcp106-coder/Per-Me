@@ -88,7 +88,7 @@ Le esclusioni di pertinenza sono valutazioni editoriali e non equivalgono sempre
 
 | Gruppo | Motivo documentato |
 | --- | --- |
-| [Piacenza e provincia in Vetrina \\| Attività, Servizi ed Eventi](https://www.facebook.com/groups/191265458971796/) | Letti descrizione e nove regole: richieste iniziative o servizi concretamente pertinenti al territorio piacentino. Esclusione editoriale per assenza di una proposta locale documentata. |
+| [Piacenza e provincia in Vetrina \| Attività, Servizi ed Eventi](https://www.facebook.com/groups/191265458971796/) | Letti descrizione e nove regole: richieste iniziative o servizi concretamente pertinenti al territorio piacentino. Esclusione editoriale per assenza di una proposta locale documentata. |
 | [🔴 Sei di PORTOGRUARO se... Pubblicità. Eventi.](https://www.facebook.com/groups/portogruaroeventi/) | Descrizione completa: promozione di servizi ed eventi locali, no contenuti fuori tema. La guida è nazionale; esclusione editoriale per pertinenza. |
 | [🔴 Sei di CHIOGGIA se... Pubblicità. Eventi.](https://www.facebook.com/groups/chioggiaeventi/) | Descrizione riservata ad attività, servizi o eventi a Chioggia e dintorni. Ricerca SR212 vuota; esclusione editoriale per pertinenza locale. |
 | [Inserzioni Verbania E Verbano Cusio Ossola 2.0](https://www.facebook.com/groups/186333125453169/) | Regole lette: vietate autopromozione e pubblicazioni uguali o simili. |
