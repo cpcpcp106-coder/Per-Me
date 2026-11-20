@@ -11,6 +11,8 @@
    const option=document.createElement('option');option.value=path;option.textContent=guide.titolo;el('guida').append(option);
   }
   if([...el('guida').options].some(option=>option.value===previous))el('guida').value=previous;
+  el('leggi').disabled=!navigator.onLine||!el('guida').value;
+  if([...el('guida').options].some(option=>option.value===previous))el('guida').value=previous;
   el('leggi').disabled=!el('guida').value||!navigator.onLine;
  }
  async function init(){

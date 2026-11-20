@@ -6,7 +6,7 @@ const mime={'.html':'text/html;charset=utf-8','.js':'application/javascript;char
 const server=http.createServer((req,res)=>{
  const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
  let file=path.resolve(root,'.'+pathname);
- if(!file.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}
+ if(file!==root&&!file.startsWith(root+path.sep)){res.writeHead(403);res.end();return;}
  if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
  if(!fs.existsSync(file)){res.writeHead(404);res.end();return;}
  res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream'});fs.createReadStream(file).pipe(res);
@@ -18,14 +18,25 @@ async function main(){
  const origin='http://127.0.0.1:'+server.address().port;
  const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
  try{
+  const basket=JSON.parse(fs.readFileSync(path.join(root,'FONTI/paniere-mediterraneo-2026-11-20.json'),'utf8'));
+  const quantities=Object.fromEntries(basket.prodotti.map(p=>[p.id,0]));
+  for(const group of ['colazione_quotidiana','spuntini_quotidiani'])for(const [id,q]of Object.entries(basket[group]))quantities[id]+=q*7;
+  for(const day of basket.settimana)for(const slot of ['pranzo','cena'])for(const [id,q]of Object.entries(day[slot].ingredienti))quantities[id]+=q;
+  check(basket.settimana.length===7&&basket.prodotti.length===22&&new Set(basket.prodotti.map(p=>p.id)).size===22,'paniere con sette giorni e 22 prodotti distinti');
+  check(basket.prodotti.every(p=>p.quantita_settimana===quantities[p.id]),'nessun ingrediente del menu omesso dalla spesa');
+  let used=0,paid=0;
+  for(const p of basket.prodotti){used+=Number(p.prezzo_confezione)*100*p.quantita_settimana/p.confezione;paid+=Number(p.prezzo_confezione)*100*Math.ceil(p.quantita_settimana/p.confezione);}
+  check(Math.round(used)===11519&&Math.round(paid)===14906,'conto indipendente del paniere: 115,19 usati e 149,06 in confezioni');
+  check(basket.prodotti.every(p=>p.fonte.startsWith('https://www.cicalia.com/it/')&&p.disponibilita_osservata==='AGGIUNGI AL CARRELLO'),'fonte diretta e disponibilità osservata per tutti i prodotti');
   for(const width of [320,390]){
    const context=await browser.newContext({viewport:{width,height:850}});
-   const hits=[];
+   const hits=[];let failCounters=false;
    await context.route('**/*',async route=>{
     const url=route.request().url();
     if(url.startsWith(origin))return route.continue();
     if(url.includes('countapi.mileshilliard.com')){
      if(url.includes('/hit/'))hits.push(url);
+     if(failCounters)return route.fulfill({status:503,body:'Temporaneamente non disponibile'});
      return route.fulfill({status:200,contentType:'application/json',body:'{"value":3}'});
     }
     return route.abort();
@@ -97,6 +108,39 @@ async function main(){
     return{heroFirst:!!(hero.compareDocumentPosition(search)&Node.DOCUMENT_POSITION_FOLLOWING),inviteLater:!!(situations.compareDocumentPosition(invite)&Node.DOCUMENT_POSITION_FOLLOWING),mainLinks:document.querySelectorAll('.hero a[href="da-dove-cominciare.html"]').length};
    });
    check(order.heroFirst&&order.inviteLater&&order.mainLinks===1,'home con ingresso unico e invito alle prove spostato '+width);
+   await page.goto(origin+'/dieta-guida-08-ricette-mediterranee-economiche-valori.html#spesa-settimana-documentata');
+   check(await page.locator('.paniere-prodotto').count()===22&&await page.locator('.paniere-giorno').count()===7,'menu e lista completi leggibili nella guida '+width);
+   check((await page.locator('#paniere-totali').innerText()).includes('149,06')&&(await page.locator('#paniere-totali').innerText()).includes('Spedizione esclusa'),'esborso e spese escluse visibili '+width);
+   for(let i=0;i<4;i++)await page.getByRole('button',{name:'Aumenta la dimensione del testo',exact:true}).click();
+   await page.locator('.paniere-giorno summary').first().click();
+   check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'paniere leggibile al 200% senza overflow '+width);
+   await page.getByRole('button',{name:'Ripristina la dimensione iniziale del testo',exact:true}).click();
+   await page.locator('#importa-paniere').click();
+   await page.waitForURL('**/strumenti/costo-spesa-settimanale.html?origine=paniere');
+   check(await page.locator('.riga').count()===22,'trasferiti tutti gli ingredienti senza ricopiare '+width);
+   check(await page.locator('#data-prezzi').inputValue()==='2026-11-20'&&(await page.locator('#fonte-prezzi').inputValue()).includes('Cicalia'),'fonte e data trasferite '+width);
+   const imported=await page.locator('.riga').evaluateAll(rows=>rows.map(row=>Object.fromEntries([...row.querySelectorAll('[data-key]')].map(el=>[el.dataset.key,el.value]))));
+   const oil=imported.find(r=>r.nome==='Olio extravergine di oliva'),eggs=imported.find(r=>r.nome==='Uova');
+   check(oil.unita==='ml'&&Number(oil.quantita)===280&&Number(oil.prezzo)===23.18&&Number(eggs.confezione)===10&&Math.abs(Number(eggs.prezzo)-0.379)<1e-10,'millilitri e pezzi mantengono unità e precisione '+width);
+   await page.locator('#f button[type=submit]').click();
+   check((await page.locator('#totale').innerText()).includes('115,19')&&(await page.locator('#cassa').innerText()).includes('149,06'),'calcolatore concorda con il conto documentato '+width);
+   await page.evaluate(()=>window.print=()=>{});await page.locator('#stampa').click();
+   check(await page.locator('#perme-riepilogo-stampa tbody tr').count()===22,'PDF completo con tutti i 22 ingredienti '+width);
+   await page.emulateMedia({media:'print'});
+   const basketPdf=await page.pdf({format:'A4',preferCSSPageSize:true});
+   const basketPages=(basketPdf.toString('latin1').match(/\/Type\s*\/Page\b/g)||[]).length;
+   check(basketPages<=2,'paniere stampato in massimo due pagine: '+basketPages+' '+width);
+   await page.emulateMedia({media:'screen'});await page.evaluate(()=>window.dispatchEvent(new Event('afterprint')));
+   await page.goto(origin+'/monitoraggio/riscontri.html');
+   await page.waitForFunction(()=>document.getElementById('guida').options.length>2);
+   await page.locator('#filtro').fill('locazioni');
+   check(await page.locator('#leggi').isEnabled(),'pannello riscontri pronto alla lettura '+width);
+   await page.locator('#leggi').click();
+   await page.locator('#esito').waitFor();
+   check(await page.locator('#conteggi tr').count()===3&&hits.length===1,'pannello legge tre categorie senza aggiungere segnalazioni '+width);
+   failCounters=true;await page.locator('#leggi').click();
+   await page.getByText('Conteggi non disponibili: non sono stati sostituiti con zero.',{exact:true}).waitFor();
+   check(!(await page.locator('#esito').isVisible()),'errore del servizio distinto da zero segnalazioni '+width);failCounters=false;
    check(errors.length===0,'nessun errore JavaScript '+width+': '+errors.join(' | '));
    await context.close();
   }
@@ -116,6 +160,10 @@ async function main(){
   await page.locator('.perme-riscontro summary').click();
   await page.getByRole('button',{name:'Informazione da aggiornare',exact:true}).click();
   check((await page.locator('.perme-riscontro').innerText()).includes('conteggio non è stato inviato'),'riscontro offline non dichiarato inviato');
+  await page.locator('#back').click();
+  await page.locator('#search').fill('Ricette mediterranee semplici');
+  await page.locator('.guide-card').first().click();
+  check(await page.locator('#reader-content #spesa-settimana-documentata').isVisible()&&(await page.locator('#reader-content #paniere-totali').innerText()).includes('149,06'),'menu, prezzi e totali del paniere conservati offline');
   await context.close();
   console.log('MIGLIORIE RISULTATO',passed,'superati, 0 falliti');
  }finally{await browser.close();await new Promise(resolve=>server.close(resolve));}
