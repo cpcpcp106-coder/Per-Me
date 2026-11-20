@@ -268,7 +268,7 @@ try{
    const image=document.querySelector('article .foto-guida img');
    const loaded=image && await image.decode().then(()=>image.naturalWidth>0,()=>false);
    if(!loaded || !image.alt.trim())issues.push('Foto o testo alternativo mancante');
-   const facebook=[...document.querySelectorAll('article .perme-facebook-contact a.perme-facebook-button')];
+   const facebook=[...document.querySelectorAll('article .perme-facebook-contact a[href]')];
    if(facebook.length!==1 || !/^https:\/\/www\.facebook\.com\/PerMeGuide\/?$/.test(facebook[0].href) || facebook[0].getBoundingClientRect().height<56)issues.push('Pulsante Facebook mancante, duplicato, errato o troppo piccolo');
    const links=[...document.querySelectorAll('.indice-guida[open] a[href^="#"]')];
    if(!links.length || links.some(link=>!document.getElementById(link.hash.slice(1))))issues.push('Indice o destinazione mancante');
@@ -313,10 +313,11 @@ for(const name of practicalGuides){
  try{
   await page.evaluate(path=>{location.hash='guida='+encodeURIComponent(path)},name);
   await page.waitForFunction(path=>{
-   const link=document.querySelector('#reader-content details.indice-guida a[href]');
+   const contents=[...document.querySelectorAll('#reader-content details')].find(detail=>detail.querySelector('summary')?.textContent.trim()==='In questa guida');
+   const link=contents?.querySelector('a[href]');
    return link && new URL(link.href).pathname.endsWith('/'+path);
   },name,{timeout:3000});
-  const contents=page.locator('#reader-content details.indice-guida');
+  const contents=page.locator('#reader-content details').filter({has:page.getByText('In questa guida',{exact:true})});
   await contents.locator('summary').click();
   const link=contents.locator('a').first();
   const id=await link.evaluate(a=>a.hash.slice(1));
