@@ -28,6 +28,13 @@ Non modificati i contenuti delle guide, il registro economico, l'app, i social o
 - Primo commit: [`ffa0a2ff`](https://github.com/cpcpcp106-coder/Per-Me/commit/ffa0a2ffebecc5c436b57d4b65afaf17ca068663).
 - [Audit rubriche](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44722509638): successo, log PASS verificato. Anche pubblicazione Pages, struttura nazionale e indicizzabilità tecnica hanno esito positivo su questo commit.
 - [Prima riprova del Tutor](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44722509447): non più errore di compatibilità; interruzione con codice 124 durante il download delle dipendenze Ubuntu, a causa del limite shell di 180 secondi. Le prove non sono iniziate. Questo esito ha motivato la separazione dei passaggi e i nuovi limiti di tempo sopra descritti.
-- Da completare con la nuova esecuzione del Tutor. Un avvio o l'installazione riuscita non equivalgono al superamento delle prove.
+- Commit definitivo del workflow: [`b9922c54`](https://github.com/cpcpcp106-coder/Per-Me/commit/b9922c54400a38519113b6207ffe52887b00aa28), che include anche l'audit già verificato nel commit precedente.
+- [Tutor AI, nuova esecuzione riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44723145440): tutti i passaggi completati, **51 controlli superati**, nessun fallimento e nessun errore nel rapporto. Log letto fino alla sintesi `TUTOR MOBILE REPORT {"overall":"PASS","checks":51,"failures":[],"errors":[]}`; rapporto JSON caricato come artefatto del workflow.
+- Le prove includono copia reale dei 30 prompt, esercizi al tocco, layout 320/390 px, guida Android, cinque approfondimenti, sincronizzazione app e lettura/copia offline.
+- [Pubblicazione Pages](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44723144920) e [indicizzabilità tecnica](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44723145545): successo sul commit `b9922c54`.
+- Controllo HTTP esterno del 20 novembre: `agevolazioni-diritti.html` e `dieta-mediterranea-scientifica.html` rispondono entrambe HTTP 200 e coincidono byte per byte con i sorgenti su cui è stato eseguito l'audit. Non si attribuisce a questa verifica uno stato Google.
+- Il tentativo browser nell'ambiente locale non ha eseguito le prove, per il limite `socket() failed: Operation not permitted`; non è conteggiato come prova riuscita. L'esito browser positivo sopra documentato proviene da GitHub Actions.
+
+**Punto 1 concluso:** ripristinati e verificati entrambi i controlli richiesti. Le sole modifiche sono workflow, audit e questo registro; i contenuti pubblici e i dati economici sono rimasti quelli già verificati.
 
 Limiti: le prove browser restano emulazione Chromium e non un collaudo fisico Samsung o una revisione clinica indipendente. I punti 2–7 non sono eseguiti nell'ambito di questo intervento.
