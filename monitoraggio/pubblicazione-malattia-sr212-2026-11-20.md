@@ -29,11 +29,27 @@ Richiamo fotografico in homepage; collegamento nella rubrica Soldi e Lavoro e ne
 - Indicizzabilità statica: 144 pagine pubbliche, 144 URL in sitemap, 144 raggiungibili dalla homepage, zero errori. Non attesta indicizzazione Google.
 - Componente Facebook: controllo superato su 128 pagine e guide.
 - Suite esistenti di sincronizzazione e offline: 13 test superati.
+- Browser dell’app in anteprima: sincronizzazione completa di 127 pagine; ricerca SR212 e apertura della nuova notizia dal testo salvato anche dopo l’arresto del server di anteprima.
 - git diff --check: superato.
 
 ## Limiti della verifica
-Controllo documentale sulle fonti INPS, senza accesso alle pratiche personali e senza revisione giuridica indipendente. Gli allegati del singolo caso vanno verificati nel modulo ufficiale e nelle richieste della sede: non è stata eseguita una compilazione o trasmissione reale del modulo. La prova browser usa frame stretti, non un Samsung fisico. Nessuna nuova prova completa offline di tutte le guide; eseguite le suite esistenti del programma.
+Controllo documentale sulle fonti INPS, senza accesso alle pratiche personali e senza revisione giuridica indipendente. Gli allegati del singolo caso vanno verificati nel modulo ufficiale e nelle richieste della sede: non è stata eseguita una compilazione o trasmissione reale del modulo. La prova browser usa frame stretti, non un Samsung fisico. La nuova notizia è stata aperta nella copia salvata dopo l’arresto del server di anteprima; non è stato simulato lo spegnimento della connessione del dispositivo né sono state rilette tutte le guide salvate. Eseguite anche le suite esistenti del programma.
 
 ## Esito pubblico
-Da completare dopo la pubblicazione GitHub Pages e la verifica HTTP e browser dell’indirizzo pubblico.
+Pubblicazione del contenuto: commit 7b5d69db8f5a03e83059b8866e5ad197dc46f831.
+https://github.com/cpcpcp106-coder/Per-Me/commit/7b5d69db8f5a03e83059b8866e5ad197dc46f831
+
+GitHub Pages completato con successo sul successivo commit automatico 1286b3d944fcef1e804060a84fb1d19b3e911cc5:
+https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44800430658
+
+Controlli GitHub superati sul contenuto pubblicato:
+- Audit editoriale: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44800381397
+- Indicizzabilità: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44800381285
+- Registro immagini: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44800381077
+- Audit statico: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/44800381255
+
+Verifica HTTP del 20 novembre 2026, ore 19:18 UTC: articolo HTTP 200 (14.260 byte), foto WebP HTTP 200 (180.022 byte), homepage HTTP 200 e rubrica Soldi e Lavoro HTTP 200; entrambe contengono il collegamento alla nuova pagina.
+Verifica nel browser sul sito pubblico: percorso homepage-articolo aperto; foto caricata a 1254 × 1254; pulsante Facebook diretto a https://www.facebook.com/PerMeGuide/ e pulsante dei moduli diretto a https://www.inps.it/it/it/moduli.html.
+
+Questa registrazione aggiorna il rapporto dopo la verifica; il contenuto HTML e la foto restano quelli collaudati e pubblicati.
 
