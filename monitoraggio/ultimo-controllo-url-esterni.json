@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-20T19:18:09.394265+00:00",
+  "date_utc": "2026-11-21T15:35:26.803527+00:00",
   "scope": {
-    "pages": 142,
-    "unique_external_urls": 923,
-    "occurrences": 2063
+    "pages": 143,
+    "unique_external_urls": 937,
+    "occurrences": 2078
   },
   "counts": {
-    "raggiungibile": 784,
-    "non_verificato_trasporto": 16,
-    "bloccato_o_riservato": 121,
-    "errore_http": 2
+    "raggiungibile": 800,
+    "bloccato_o_riservato": 118,
+    "non_verificato_trasporto": 18,
+    "errore_http": 1
   },
   "results": [
     {
@@ -88,9 +88,8 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -282,6 +281,15 @@
       "final_url": "https://conciliaweb.agcom.it/conciliaweb/cliente/index.htm?lang=it",
       "pages": [
         "debiti-guida-07-banche-bollette.html"
+      ]
+    },
+    {
+      "url": "https://creafuturo.crea.gov.it/15290/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://creafuturo.crea.gov.it/15290/",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -1000,16 +1008,25 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
       ]
     },
     {
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj?locale=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj?locale=it",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -1019,16 +1036,25 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
       ]
     },
     {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32014R0828",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32014R0828",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
       "pages": [
         "pizza-napoletana-con-licoli.html",
@@ -1038,7 +1064,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R2313",
       "status": "raggiungibile",
-      "http": 202,
+      "http": 200,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R2313",
       "pages": [
         "pizza-napoletana-con-licoli.html"
@@ -1100,6 +1126,15 @@
       "pages": [
         "licoli-da-zero.html",
         "pasta-madre-solida-da-zero.html"
+      ]
+    },
+    {
+      "url": "https://extension.usu.edu/news_sections/home_family_and_food/gearing-up-for-holiday-baking",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://extension.usu.edu/news_sections/home_family_and_food/gearing-up-for-holiday-baking",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -1172,8 +1207,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
@@ -1198,24 +1234,27 @@
     },
     {
       "url": "https://help.openai.com/it-it/articles/7730893-data-controls-in-chatgpt",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://help.openai.com/it-it/articles/7730893-data-controls-in-chatgpt",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
     },
     {
       "url": "https://help.openai.com/it-it/articles/8142208-faq-app-chatgpt-per-android",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://help.openai.com/it-it/articles/8142208-using-the-chatgpt-mobile-app-classic-experience",
       "pages": [
         "tutor-ai-android-primi-passi.html"
       ]
     },
     {
       "url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://help.openai.com/it-it/articles/8313428-does-chatgpt-tell-the-truth",
       "pages": [
         "tutor-ai-conversazione-correzioni.html",
         "tutor-ai-quando-chiedere-aiuto.html",
@@ -1746,6 +1785,15 @@
       "final_url": "https://lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -2920,8 +2968,9 @@
     },
     {
       "url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-la-sospensione-della-riscossione/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error _ssl.c:994: The handshake operation timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.agenziaentrateriscossione.gov.it/it/i-servizi-di-ader-a-portata-di-click/parte-seconda-quali-sono-i-servizi-di-ader/richiedere-la-sospensione-della-riscossione/",
       "pages": [
         "debiti-guida-03-cartella-errata.html",
         "debiti-guida-03-cartella-errata.html"
@@ -3191,9 +3240,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3252,9 +3300,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -4170,6 +4217,15 @@
       ]
     },
     {
+      "url": "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
       "url": "https://www.cdc.gov/diabetes/living-with/managing-sick-days.html",
       "status": "raggiungibile",
       "http": 200,
@@ -4212,6 +4268,24 @@
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
+      ]
+    },
+    {
+      "url": "https://www.celiachia.it/dieta-senza-glutine/gestire-dieta-senza-glutine/i-cereali-vietati/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.celiachia.it/dieta-senza-glutine/gestire-dieta-senza-glutine/i-cereali-vietati/",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
+      "url": "https://www.celiachia.it/faq/sono-celiaco-posso-consumare-avena/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.celiachia.it/faq/sono-celiaco-posso-consumare-avena/",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -4531,6 +4605,15 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html"
+      ]
+    },
+    {
+      "url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.crea.gov.it/documents/59764/0/LINEE-GUIDA%2BDEFINITIVO.pdf/",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -5007,6 +5090,7 @@
         "da-dove-cominciare.html",
         "dieta-mediterranea-scientifica.html",
         "dove-chiedere-aiuto.html",
+        "farine-quale-scegliere.html",
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -5064,6 +5148,15 @@
       "final_url": "https://www.fascicolosanitario.gov.it/portale/home",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -5228,6 +5321,15 @@
       "final_url": "https://www.gazzettaufficiale.it/eli/id/1981/07/24/081U0388/sg",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2001/05/22/001G0242/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2001/05/22/001G0242/sg",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -6940,6 +7042,15 @@
       ]
     },
     {
+      "url": "https://www.ireks-kompendium.com/en/flour-analysis/analysis-methods-for-testing-the-protein-quality/alveograph",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ireks-kompendium.com/en/flour-analysis/analysis-methods-for-testing-the-protein-quality/alveograph",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
       "url": "https://www.ispettorato.gov.it/",
       "status": "raggiungibile",
       "http": 200,
@@ -7054,6 +7165,15 @@
       ]
     },
     {
+      "url": "https://www.kingarthurbaking.com/blog/2020/06/22/how-to-substitute-whole-wheat-for-white-flour-in-baking",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/blog/2020/06/22/how-to-substitute-whole-wheat-for-white-flour-in-baking",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
       "url": "https://www.kingarthurbaking.com/blog/2021/02/05/tangzhong-method-soft-pillowy-cinnamon-rolls",
       "status": "raggiungibile",
       "http": 200,
@@ -7115,6 +7235,15 @@
       "final_url": "https://www.kingarthurbaking.com/recipes/whole-wheat-sourdough-bread-recipe",
       "pages": [
         "pane-500g-friggitrice-8-litri.html"
+      ]
+    },
+    {
+      "url": "https://www.kpmanalytics.com/blog/what-is-baking-strength",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kpmanalytics.com/blog/what-is-baking-strength",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -7278,8 +7407,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -8524,9 +8654,8 @@
     },
     {
       "url": "https://www.pra.gov.ph/srrvisa/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.pra.gov.ph/srrvisa/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "pensionati-estero-mete.html"
       ]
