@@ -1,0 +1,69 @@
+{
+  "start": "2026-11-21",
+  "end": "2026-12-21",
+  "timezone": "Europe/Rome",
+  "method": "Letture cumulative aggregate da /get/. Differenze rispetto alla prima lettura valida per ciascuna metrica. Non persone uniche, iscrizioni o utilizzi completati. Errori distinti da zero. Il dettaglio canale è incluso in WhatsApp.",
+  "snapshots": [
+    {
+      "at": "2026-11-21T14:09:47.278547+01:00",
+      "values": {
+        "aperture": {
+          "value": 536,
+          "status": "ok"
+        },
+        "facebook": {
+          "value": 278,
+          "status": "ok"
+        },
+        "instagram": {
+          "value": 4,
+          "status": "ok"
+        },
+        "whatsapp": {
+          "value": 3,
+          "status": "ok"
+        },
+        "canale_whatsapp": {
+          "value": 3,
+          "status": "ok"
+        },
+        "google": {
+          "value": 2,
+          "status": "ok"
+        },
+        "altri": {
+          "value": 3,
+          "status": "ok"
+        },
+        "sconosciuta": {
+          "value": 193,
+          "status": "ok"
+        },
+        "aperture_menu": {
+          "value": 0,
+          "status": "non_ancora_creato"
+        },
+        "aperture_calcolatore": {
+          "value": 0,
+          "status": "non_ancora_creato"
+        },
+        "aperture_modelli": {
+          "value": 0,
+          "status": "non_ancora_creato"
+        },
+        "clic_whatsapp": {
+          "value": 0,
+          "status": "non_ancora_creato"
+        },
+        "clic_facebook": {
+          "value": 0,
+          "status": "non_ancora_creato"
+        },
+        "giornate_ritorno": {
+          "value": 0,
+          "status": "non_ancora_creato"
+        }
+      }
+    }
+  ]
+}

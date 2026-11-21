@@ -10,6 +10,13 @@ on:
       - 'contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html'
       - 'app/index.html'
   workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'analytics.js'
+      - 'scripts/test-marketing.cjs'
+      - 'monitoraggio/marketing*'
+      - '.github/workflows/test-contatori-browser.yml'
 permissions:
   contents: read
 jobs:
@@ -27,3 +34,5 @@ jobs:
           npx playwright install --with-deps chromium
       - name: Simula lettore e nuova installazione senza incrementi reali
         run: node scripts/test-contatori-browser.cjs
+      - name: Verifica metriche marketing senza richieste reali
+        run: node scripts/test-marketing.cjs

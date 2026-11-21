@@ -1,0 +1,53 @@
+{
+  "source": "Google Search Console ufficiale, sessione autenticata, osservazione dell’interfaccia",
+  "property": "https://cpcpcp106-coder.github.io/Per-Me/",
+  "indexed_pages_reported": 3,
+  "not_indexed_pages_reported": 5,
+  "performance_28_days": {
+    "period_start": "2026-10-23",
+    "period_end": "2026-11-19",
+    "clicks": 3,
+    "impressions": 3,
+    "ctr_percent": 100,
+    "average_position": 1.7,
+    "url": "https://search.google.com/search-console/performance/search-analytics?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&num_of_days=28"
+  },
+  "performance_3_months_selected": {
+    "observed_chart_start": "2026-10-13",
+    "observed_chart_end": "2026-11-19",
+    "clicks": 3,
+    "impressions": 25,
+    "ctr_percent": 12,
+    "average_position": 1.1
+  },
+  "sitemaps": [
+    {
+      "path": "sitemap.xml",
+      "submitted": "2026-11-20",
+      "last_read": "2026-11-20",
+      "status": "Impossibile leggere la Sitemap",
+      "discovered_urls": 0
+    },
+    {
+      "path": "sitemap.txt",
+      "submitted": "2026-10-18",
+      "status": "Impossibile recuperare",
+      "discovered_urls": 0
+    }
+  ],
+  "http_checks": {
+    "sitemap.xml": {
+      "status": 200,
+      "content_type": "application/xml",
+      "urls": 144,
+      "xml_valid": true
+    },
+    "sitemap.txt": {
+      "status": 200,
+      "content_type": "text/plain; charset=utf-8"
+    }
+  },
+  "limits": "Gli stati sono quelli mostrati da Google, non un controllo di tutti i 144 URL. I conteggi delle pagine e le statistiche hanno latenze diverse. Nessuna causa dell’errore sitemap accertata; nessuna richiesta reinviata. Il campione di impressioni è troppo piccolo per giudicare il marketing.",
+  "observed_on": "2026-11-21",
+  "recorded_at": "2026-11-21T14:18:10.893354+01:00"
+}

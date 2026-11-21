@@ -1,0 +1,23 @@
+name: Per Me - Misurazione marketing trenta giorni
+on:
+  schedule:
+    - cron: '20 7 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: per-me-marketing-snapshot
+  cancel-in-progress: false
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Leggi i conteggi senza incrementi
+        run: python scripts/snapshot-marketing.py
+      - name: Archivia le letture effettive
+        run: bash monitoraggio/pubblica_report.sh "Per Me: lettura giornaliera marketing" monitoraggio/marketing-30-giorni.json

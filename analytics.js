@@ -154,6 +154,91 @@
     }
   }
 
+  // Serie marketing dal 21 novembre 2026: solo categorie aggregate.
+  // I dati inseriti negli strumenti e le date locali non vengono trasmessi.
+  const MARKETING_KEYS = Object.freeze({
+    menu: 'perme-marketing-menu-dal-20261121',
+    calcolatore: 'perme-marketing-calcolatore-dal-20261121',
+    modelli: 'perme-marketing-modelli-dal-20261121',
+    whatsapp: 'perme-marketing-segui-whatsapp-dal-20261121',
+    facebook: 'perme-marketing-segui-facebook-dal-20261121',
+    ritorni: 'perme-marketing-ritorni-giornalieri-dal-20261121'
+  });
+  const CONSENT_KEY = 'perme-marketing-consenso-v1';
+  let marketingConsent = false, savedChoice = null;
+  try {
+    savedChoice = JSON.parse(localStorage.getItem(CONSENT_KEY) || 'null');
+    if (!savedChoice || savedChoice.until <= Date.now()) savedChoice = null;
+    marketingConsent = savedChoice?.allowed === true;
+  } catch (_) {}
+  function marketingOnce(category, period) {
+    if (!marketingConsent || standalone || !navigator.onLine) return;
+    try {
+      const key = 'perme-marketing-v1-' + category;
+      if (localStorage.getItem(key) === period) return;
+      localStorage.setItem(key, period);
+    } catch (_) {
+      // Senza memoria locale non stimare frequenza e ritorni.
+      return;
+    }
+    track('marketing-' + category, MARKETING_KEYS[category]);
+  }
+  function marketingVisit() {
+    if (!marketingConsent || standalone || !navigator.onLine) return;
+    const today = new Intl.DateTimeFormat('sv-SE', {timeZone:'Europe/Rome'}).format(new Date());
+    try {
+      const firstKey = 'perme-marketing-primo-giorno-v1';
+      const first = localStorage.getItem(firstKey);
+      if (!first) localStorage.setItem(firstKey, today);
+      else if (first < today) marketingOnce('ritorni', today);
+    } catch (_) {}
+    const pathname = location.pathname;
+    const category = pathname === ROOT + 'app/menu-mediterraneo.html' ? 'menu' :
+      pathname === ROOT + 'strumenti/costo-spesa-settimanale.html' ? 'calcolatore' :
+      pathname === ROOT + 'modelli-e-strumenti.html' ? 'modelli' : null;
+    if (category) marketingOnce(category, String(Math.floor(Date.now() / VISIT_INTERVAL_MS)));
+  }
+  document.addEventListener('click', event => {
+    const link = event.target.closest?.('a[href]');
+    if (!link) return;
+    const href = link.href;
+    const category = href === 'https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J' ? 'whatsapp' :
+      href === 'https://www.facebook.com/PerMeGuide/' ? 'facebook' : null;
+    if (category) marketingOnce(category, String(Math.floor(Date.now() / VISIT_INTERVAL_MS)));
+  });
+  const choiceBox = document.querySelector('[data-marketing-scelta]');
+  const manage = document.querySelector('[data-marketing-gestisci]');
+  const choiceStatus = document.querySelector('[data-marketing-stato]');
+  if (choiceBox && manage) {
+    choiceBox.hidden = !!savedChoice;
+    manage.hidden = false;
+    manage.addEventListener('click', () => { choiceBox.hidden = false; });
+    for (const button of document.querySelectorAll('[data-marketing-consenso]')) {
+      button.addEventListener('click', () => {
+        const allowed = button.dataset.marketingConsenso === 'si';
+        const until = new Date(); until.setMonth(until.getMonth() + 6);
+        try {
+          if (!allowed) {
+            for (const key of Object.keys(localStorage))
+              if (key.startsWith('perme-marketing-') && key !== CONSENT_KEY) localStorage.removeItem(key);
+          }
+          localStorage.setItem(CONSENT_KEY, JSON.stringify({allowed, until:until.getTime()}));
+          marketingConsent = allowed;
+          choiceBox.hidden = true;
+          if (choiceStatus) choiceStatus.textContent = allowed ?
+            'Statistiche facoltative consentite. Puoi cambiare scelta qui.' :
+            'Statistiche facoltative disattivate. Puoi continuare a usare tutte le guide.';
+          if (allowed) marketingVisit();
+        } catch (_) {
+          marketingConsent = false;
+          if (choiceStatus) choiceStatus.textContent = 'Scelta non memorizzabile: le nuove statistiche restano disattivate.';
+        }
+      });
+    }
+  }
+  marketingVisit();
+  window.addEventListener('online', marketingVisit);
+
   visit();
   window.addEventListener('online', visit);
 

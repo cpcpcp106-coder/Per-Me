@@ -292,6 +292,42 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   }finally{
     await panelCtx.close();await new Promise(resolve=>server.close(resolve));
   }
+  // Il commit viene servito su un'origine virtuale: consenso e percorsi prima del deploy.
+  for(const width of [320,390]){
+    const test=await contextWithMock();
+    await test.ctx.setViewportSize?.({width,height:844});
+    const root=path.resolve(__dirname,'..');
+    await test.ctx.route('https://cpcpcp106-coder.github.io/Per-Me/**',async route=>{
+      const relative=decodeURIComponent(new URL(route.request().url()).pathname.slice('/Per-Me/'.length))||'index.html';
+      let file=path.resolve(root,relative);
+      if(!file.startsWith(root+path.sep))return route.abort();
+      if(fs.existsSync(file)&&fs.statSync(file).isDirectory())file=path.join(file,'index.html');
+      if(!fs.existsSync(file))return route.fulfill({status:404,body:'Non trovato'});
+      const types={'.html':'text/html','.js':'application/javascript','.css':'text/css','.json':'application/json','.webp':'image/webp','.png':'image/png'};
+      return route.fulfill({status:200,contentType:types[path.extname(file)]||'application/octet-stream',body:fs.readFileSync(file)});
+    });
+    const page=await test.ctx.newPage();await page.setViewportSize({width,height:844});
+    await page.goto(site+'index.html?test-marketing-ui=1',{waitUntil:'networkidle'});
+    const marketingHits=()=>test.hits.filter(u=>u.includes('/hit/perme-marketing-'));
+    row('marketing_default_off_'+width,marketingHits().length===0&&await page.locator('[data-marketing-scelta]').isVisible(),{});
+    row('marketing_home_tools_'+width,await page.locator('.home-strumenti-grid article').count()===3&&await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),{});
+    await page.getByRole('button',{name:'No grazie',exact:true}).click();
+    row('marketing_decline_'+width,!(await page.locator('[data-marketing-scelta]').isVisible())&&marketingHits().length===0,{});
+    await page.getByRole('button',{name:'Statistiche facoltative',exact:true}).click();
+    await page.getByRole('button',{name:'Consento',exact:true}).click();
+    await page.getByRole('link',{name:'Prepara il tuo menu',exact:true}).click();
+    await page.waitForLoadState('networkidle');
+    row('marketing_menu_with_consent_'+width,marketingHits().filter(u=>u.includes('marketing-menu-')).length===1,{hits:marketingHits().length});
+    await page.goto(site+'index.html?test-marketing-ui=2',{waitUntil:'networkidle'});
+    await page.getByRole('button',{name:'Statistiche facoltative',exact:true}).click();
+    await page.getByRole('button',{name:'No grazie',exact:true}).click();
+    await page.getByRole('link',{name:'Prepara il tuo menu',exact:true}).click();
+    await page.waitForLoadState('networkidle');
+    row('marketing_withdrawal_'+width,marketingHits().filter(u=>u.includes('marketing-menu-')).length===1&&await page.evaluate(()=>localStorage.getItem('perme-marketing-primo-giorno-v1'))===null,{});
+    await page.goto(site+'monitoraggio/marketing.html',{waitUntil:'networkidle'});
+    row('marketing_dashboard_'+width,await page.locator('.metrica').count()===14&&await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),{});
+    await test.ctx.close();
+  }
  }finally{await browser.close()}
  console.log('Diagnostica con intercettazione HTTP, nessun incremento delle chiavi reali.');
  if(results.some(x=>!x.pass))process.exitCode=1;
