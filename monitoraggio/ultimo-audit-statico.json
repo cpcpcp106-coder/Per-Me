@@ -1,16 +1,16 @@
 {
-  "date_utc": "2026-11-20T19:15:22+00:00",
+  "date_utc": "2026-11-21T15:32:02+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 148,
-    "editorial_pages": 144,
+    "html_total": 149,
+    "editorial_pages": 145,
     "technical_pages": 4,
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5172,
-    "external_occurrences": 2077,
-    "external_unique": 929,
+    "local_occurrences": 5251,
+    "external_occurrences": 2092,
+    "external_unique": 943,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -99,6 +99,7 @@
       "dieta-ricette-ricotta.html",
       "dieta-ricette-uova-carne-bianca.html",
       "dove-chiedere-aiuto.html",
+      "farine-quale-scegliere.html",
       "gradimento.html",
       "index.html",
       "inps-malattia-pagamento-diretto-sr212.html",
@@ -245,6 +246,7 @@
       "dieta-ricette-ricotta.html",
       "dieta-ricette-uova-carne-bianca.html",
       "dove-chiedere-aiuto.html",
+      "farine-quale-scegliere.html",
       "gradimento.html",
       "index.html",
       "inps-malattia-pagamento-diretto-sr212.html",
@@ -1615,6 +1617,21 @@
       "candidate_numeric_legal_mentions": 0
     },
     {
+      "file": "farine-quale-scegliere.html",
+      "title": "Farine: quale scegliere per pane, pizza e dolci | Per Me",
+      "h1": 1,
+      "images": 3,
+      "images_without_alt": 0,
+      "links_local": 76,
+      "links_external": 15,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 3
+    },
+    {
       "file": "googled120465f7b693b08.html",
       "title": "",
       "h1": 0,
@@ -1828,9 +1845,9 @@
       "file": "lievito-madre.html",
       "title": "Pasta madre e LI.CO.LI.: guide gratuite passo passo | Per Me",
       "h1": 1,
-      "images": 6,
+      "images": 7,
       "images_without_alt": 0,
-      "links_local": 34,
+      "links_local": 37,
       "links_external": 1,
       "missing_local": 0,
       "noindex": false,
