@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-21",
+  "images": [
+    {
+      "original_name": "exec-a41f7a03-6a2b-46c3-87de-3ba8f6d5d276.png",
+      "original_sha256": "629984249caca79fa913027a6888904d9ecc64cbcc2ba0b9e2658436f9179ef0",
+      "asset": "assets/farine-originale.webp",
+      "asset_sha256": "954f6692fcc2634bc2aae8f0b09a0e9fd72479f03740fe038f9af3f6531518c1",
+      "git_blob_sha": "9c2657d83eb3a9b0ac245c064ec8214c2082620c",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "purpose": "Illustrazione originale della guida; non documenta una prova pratica",
+      "reference_images": []
+    },
+    {
+      "original_name": "exec-41248309-de14-4dc7-a2b7-0bb6e78751d6.png",
+      "original_sha256": "1d2e1d5713539a5ad3298fa1c1fdd524ce635eec638bd5b5722d66b086328a5e",
+      "asset": "assets/farine-impasto-originale.webp",
+      "asset_sha256": "e9414c4c49fea4e600981fc2df00754608840a51afb0c9e11aef7614f8f51e97",
+      "git_blob_sha": "7ebe9ea01d962eb8a47ea3f005f802d371eb5394",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "purpose": "Illustrazione originale della guida; non documenta una prova pratica",
+      "reference_images": []
+    }
+  ],
+  "prompts_summary": [
+    "Fotografia editoriale originale di ciotole con farine e semola, spighe e pane in una cucina italiana; nessun testo, marchio o imitazione di BioRito o Molino Moras.",
+    "Fotografia editoriale originale di ciotola con impasto rustico, cucchiaio, acqua e integrale; nessun testo o marchio; scena illustrativa, non prova di ricetta."
+  ]
+}
