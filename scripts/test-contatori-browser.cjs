@@ -272,6 +272,13 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
       await links.setViewportSize({width,height:844});
       for(const file of ['index.html','farine-quale-scegliere.html']){
         await links.goto(base+file,{waitUntil:'networkidle'});
+        const position=await links.locator('header .perme-social-top').evaluate(el=>{
+          const r=el.getBoundingClientRect(),main=document.querySelector('main').getBoundingClientRect();
+          return {top:r.top,bottom:r.bottom,mainTop:main.top,viewportHeight:innerHeight};
+        });
+        row('social_links_first_screen_'+file+'_'+width,
+          position.top>=0&&position.bottom<=position.mainTop&&
+          position.bottom<=position.viewportHeight,position);
         for(const [social,label,destination] of [
           ['instagram','Per Me su Instagram','https://www.instagram.com/permeguide/'],
           ['whatsapp-canale','Canale WhatsApp','https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J'],
