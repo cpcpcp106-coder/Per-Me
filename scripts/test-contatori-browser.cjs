@@ -244,8 +244,9 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     if(pathname.endsWith('/'))file=path.join(file,'index.html');
     fs.readFile(file,(error,data)=>{
       if(error){res.writeHead(404);res.end();return;}
-      const mime={'.html':'text/html','.js':'application/javascript',
-        '.webmanifest':'application/manifest+json','.png':'image/png'};
+      const mime={'.html':'text/html','.js':'application/javascript','.css':'text/css',
+        '.webmanifest':'application/manifest+json','.png':'image/png','.webp':'image/webp',
+        '.jpg':'image/jpeg','.jpeg':'image/jpeg','.ico':'image/x-icon'};
       res.writeHead(200,{'Content-Type':mime[path.extname(file)]||'application/octet-stream',
         'Cache-Control':'no-store'});res.end(data);
     });
