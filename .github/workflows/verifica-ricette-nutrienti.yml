@@ -10,6 +10,7 @@ on:
       - 'sitemap.xml'
       - 'assets/dieta-mediterranea-guida02-originale.webp'
       - 'scripts/verifica-ricetta-carbo-calorie.cjs'
+      - 'scripts/genera-ricette-mediterranee.cjs'
       - '.github/workflows/verifica-ricette-nutrienti.yml'
 permissions:
   contents: read

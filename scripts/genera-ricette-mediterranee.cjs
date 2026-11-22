@@ -38,7 +38,7 @@ function pageHead(title, description, file, image, alt) {
 <link rel="stylesheet" href="style.css?v=20261015-a11y-global">
 <link rel="stylesheet" href="guide-pratiche.css?v=20261110">
 <link rel="stylesheet" href="ricette.css?v=20261114">
-<script defer src="analytics.js?v=2"></script>
+<script defer src="analytics.js?v=3"></script>
 <script defer src="gradimento.js?v=4"></script>
 <meta property="og:type" content="article">
 <meta property="og:locale" content="it_IT">
