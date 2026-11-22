@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-20T19:15:32.491Z",
+  "checked_at_utc": "2026-11-21T15:32:26.965Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 139,
+        "count": 140,
         "failures": []
       }
     },
@@ -78,7 +78,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 139,
+        "checked": 140,
         "violations": []
       }
     },
@@ -98,7 +98,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 139,
+        "checked": 140,
         "failed": [],
         "errors": []
       }
@@ -137,11 +137,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "127 pagine salvate per la lettura offline · controllo online 20 nov, 19:16.",
+        "status": "128 pagine salvate per la lettura offline · controllo online 21 nov, 15:33.",
         "stored": {
-          "guides": 127,
-          "updated": "2026-11-20T19:16:47.230Z",
-          "bytes": 2631535,
+          "guides": 128,
+          "updated": "2026-11-21T15:33:43.836Z",
+          "bytes": 2659134,
           "includesNew09": true
         }
       }
@@ -155,7 +155,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 127
+        "count": 128
       }
     },
     {
@@ -767,6 +767,12 @@
       "violations": [],
       "passes": 19,
       "incomplete": 1
+    },
+    {
+      "page": "farine-quale-scegliere.html",
+      "violations": [],
+      "passes": 28,
+      "incomplete": 2
     },
     {
       "page": "gradimento.html",

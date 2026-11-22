@@ -28,6 +28,16 @@ KEYS = {
  'clic_facebook': 'perme-marketing-segui-facebook-dal-20261121',
  'giornate_ritorno': 'perme-marketing-ritorni-giornalieri-dal-20261121',
 }
+MARKETING = {name for name, key in KEYS.items() if key.startswith('perme-marketing-')}
+
+def activation_time(data):
+ try:
+  value = dt.datetime.fromisoformat(data['marketing_activated_at'])
+  if value.tzinfo is not None and START <= value.astimezone(ZoneInfo('Europe/Rome')).date().isoformat() <= END:
+   return value
+ except (KeyError, TypeError, ValueError):
+  pass
+ return None
 
 def read(item):
  name, key = item
@@ -41,7 +51,7 @@ def read(item):
   return name, {'value': value, 'status': 'ok'}
  except HTTPError as exc:
   if exc.code == 404:
-   return name, {'value': 0, 'status': 'non_ancora_creato'}
+   return name, {'value': None, 'status': 'non_ancora_creato'}
   return name, {'value': None, 'status': 'non_disponibile', 'error': 'HTTP '+str(exc.code)}
  except Exception as exc:
   return name, {'value': None, 'status': 'non_disponibile', 'error': str(exc)[:180]}
@@ -55,8 +65,16 @@ def main():
   'start': START, 'end': END, 'timezone':'Europe/Rome',
   'method':'Letture cumulative aggregate da /get/. Differenze rispetto alla prima lettura valida per ciascuna metrica. Non persone uniche, iscrizioni o utilizzi completati. Errori distinti da zero. Il dettaglio canale è incluso in WhatsApp.',
   'snapshots': []}
+ # Valorizzare soltanto con la data effettiva di un’attivazione autorizzata.
+ # Un ramo di proposta e una risposta 404 non dimostrano un’attivazione.
+ data.setdefault('marketing_activated_at', None)
+ activated_at = activation_time(data)
+ active = activated_at is not None and activated_at <= now
+ items = [(name, key) for name, key in KEYS.items() if name not in MARKETING or active]
  with concurrent.futures.ThreadPoolExecutor(max_workers=5) as pool:
-  values = dict(pool.map(read, KEYS.items()))
+  values = dict(pool.map(read, items))
+ if not active:
+  values.update({name: {'value': None, 'status': 'non_attivata'} for name in MARKETING})
  snapshot = {'at': now.isoformat(), 'values': values}
  # Conserva la prima lettura e una lettura per ogni data successiva.
  day = now.date().isoformat()

@@ -120,6 +120,22 @@ async function main(){
    await page.goto(origin+'/monitoraggio/marketing.html');
    await page.locator('.metrica').first().waitFor();
    check(await page.locator('.metrica').count()===14,'pannello con quattordici confronti e dati archiviati '+width);
+   const metric=label=>page.locator('.metrica').filter({has:page.getByRole('heading',{name:label,exact:true})});
+   check(await page.locator('.metrica output').filter({hasText:/^Non attivata$/}).count()===6,'sei serie senza attivazione distinte da zero '+width);
+   const history=JSON.parse(fs.readFileSync(path.join(root,'monitoraggio/marketing-30-giorni.json'),'utf8'));
+   const sample=structuredClone(history.snapshots[0].values);
+   const fixtures={...history,marketing_activated_at:'2026-11-22T12:00:00+01:00',snapshots:[
+    history.snapshots[0],
+    {at:'2026-11-22T12:05:00+01:00',values:{...sample,aperture_menu:{value:5,status:'ok'},aperture_calcolatore:{value:0,status:'ok'},aperture_modelli:{value:2,status:'ok'}}},
+    {at:'2026-11-22T13:00:00+01:00',values:{...sample,aperture_menu:{value:8,status:'ok'},aperture_calcolatore:{value:0,status:'ok'},aperture_modelli:{value:null,status:'non_ancora_creato'},clic_whatsapp:{value:0,status:'non_disponibile'}}}
+   ]};
+   await page.route('**/monitoraggio/marketing-30-giorni.json',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify(fixtures)}));
+   await page.locator('#aggiorna').click();
+   await page.waitForFunction(()=>!document.getElementById('aggiorna').disabled);
+   check(await metric('Aperture del menu').locator('output').innerText()==='+3','confronto dalla prima lettura valida dopo l’attivazione '+width);
+   check(await metric('Aperture del calcolatore').locator('output').innerText()==='+0'&&(await metric('Aperture del calcolatore').innerText()).includes('recente: 0'),'zero restituito dal servizio riconosciuto '+width);
+   check(await metric('Aperture dei modelli').locator('output').innerText()==='Non disponibile'&&(await metric('Aperture dei modelli').innerText()).includes('non è ancora stato creato'),'serie non creata distinta da zero '+width);
+   check(await metric('Pressioni su Segui il canale WhatsApp').locator('output').innerText()==='Non disponibile','errore del servizio non interpretato come zero '+width);
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'pannello marketing leggibile su schermo stretto '+width);
    await page.goto(origin+'/dieta-guida-08-ricette-mediterranee-economiche-valori.html#spesa-settimana-documentata');
    check(await page.locator('.paniere-prodotto').count()===22&&await page.locator('.paniere-giorno').count()===7,'menu e lista completi leggibili nella guida '+width);

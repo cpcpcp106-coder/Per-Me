@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1679,6 +1679,26 @@
       "note": "Scena e persone inventate. Il documento nella foto non riproduce il modulo ufficiale INPS.",
       "source_history_verified": true,
       "used_in": "index.html, inps-malattia-pagamento-diretto-sr212.html"
+    },
+    {
+      "file": "assets/farine-originale.webp",
+      "git_blob_sha": "9c2657d83eb3a9b0ac245c064ec8214c2082620c",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT ImageGen il 21 novembre 2026; conversione di solo formato PNG-WebP a dimensioni invariate.",
+      "provenance_evidence": "Generazione osservata nella sessione della guida alle farine; originale exec-a41f7a03-6a2b-46c3-87de-3ba8f6d5d276.png. Nessuna immagine di riferimento. Prompt e impronte in FONTI/farine-immagini-2026-11-21.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT, secondo le condizioni del servizio e il diritto applicabile; nessuna immagine di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "farine-quale-scegliere.html, lievito-madre.html"
+    },
+    {
+      "file": "assets/farine-impasto-originale.webp",
+      "git_blob_sha": "7ebe9ea01d962eb8a47ea3f005f802d371eb5394",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine illustrativa originale generata con ChatGPT ImageGen il 21 novembre 2026; conversione di solo formato PNG-WebP a dimensioni invariate.",
+      "provenance_evidence": "Generazione osservata nella sessione della guida alle farine; originale exec-41248309-de14-4dc7-a2b7-0bb6e78751d6.png. Nessuna immagine di riferimento. Prompt e impronte in FONTI/farine-immagini-2026-11-21.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT, secondo le condizioni del servizio e il diritto applicabile; nessuna immagine di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "farine-quale-scegliere.html"
     }
   ],
   "notes": [

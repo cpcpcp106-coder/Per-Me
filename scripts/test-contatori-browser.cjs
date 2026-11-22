@@ -295,6 +295,14 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
   // Il commit viene servito su un'origine virtuale: consenso e percorsi prima del deploy.
   for(const width of [320,390]){
     const test=await contextWithMock();
+    // Il collaudo del consenso resta riproducibile anche dopo la fine del periodo.
+    await test.ctx.addInitScript(()=>{
+      const OriginalDate=Date,now=OriginalDate.parse('2026-11-22T12:00:00+01:00');
+      window.Date=class extends OriginalDate{
+        constructor(...args){super(...(args.length?args:[now]));}
+        static now(){return now;}
+      };
+    });
     await test.ctx.setViewportSize?.({width,height:844});
     const root=path.resolve(__dirname,'..');
     await test.ctx.route('https://cpcpcp106-coder.github.io/Per-Me/**',async route=>{
@@ -319,6 +327,24 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     await page.waitForLoadState('networkidle');
     row('marketing_menu_with_consent_'+width,marketingHits().filter(u=>u.includes('marketing-menu-')).length===1,{hits:marketingHits().length});
     await page.goto(site+'index.html?test-marketing-ui=2',{waitUntil:'networkidle'});
+    const other=await test.ctx.newPage();
+    await other.goto(site+'index.html?test-marketing-ui=altra-scheda',{waitUntil:'networkidle'});
+    await other.getByRole('button',{name:'Statistiche facoltative',exact:true}).click();
+    await other.getByRole('button',{name:'No grazie',exact:true}).click();
+    const clickFacebook=async()=>{
+      await page.locator('footer a[href="https://www.facebook.com/PerMeGuide/"]').evaluate(a=>{
+        a.addEventListener('click',event=>event.preventDefault(),{once:true});a.click();
+      });
+      await page.waitForTimeout(100);
+    };
+    await clickFacebook();
+    row('marketing_cross_tab_withdrawal_'+width,marketingHits().filter(u=>u.includes('segui-facebook')).length===0,{});
+    await other.close();
+    await page.getByRole('button',{name:'Statistiche facoltative',exact:true}).click();
+    await page.getByRole('button',{name:'Consento',exact:true}).click();
+    await page.evaluate(()=>localStorage.setItem('perme-marketing-consenso-v1',JSON.stringify({allowed:true,until:Date.now()-1})));
+    await clickFacebook();
+    row('marketing_expiry_on_open_page_'+width,marketingHits().filter(u=>u.includes('segui-facebook')).length===0,{});
     await page.getByRole('button',{name:'Statistiche facoltative',exact:true}).click();
     await page.getByRole('button',{name:'No grazie',exact:true}).click();
     await page.getByRole('link',{name:'Prepara il tuo menu',exact:true}).click();

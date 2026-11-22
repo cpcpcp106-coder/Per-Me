@@ -165,14 +165,30 @@
     ritorni: 'perme-marketing-ritorni-giornalieri-dal-20261121'
   });
   const CONSENT_KEY = 'perme-marketing-consenso-v1';
+  const MARKETING_START = Date.parse('2026-11-21T00:00:00+01:00');
+  const MARKETING_END = Date.parse('2026-12-22T00:00:00+01:00');
   let marketingConsent = false, savedChoice = null;
   try {
     savedChoice = JSON.parse(localStorage.getItem(CONSENT_KEY) || 'null');
-    if (!savedChoice || savedChoice.until <= Date.now()) savedChoice = null;
+    if (!savedChoice || typeof savedChoice.allowed !== 'boolean' ||
+        !Number.isFinite(savedChoice.until) || savedChoice.until <= Date.now())
+      savedChoice = null;
     marketingConsent = savedChoice?.allowed === true;
   } catch (_) {}
+  function hasMarketingConsent() {
+    if (!marketingConsent) return false;
+    const now = Date.now();
+    if (now < MARKETING_START || now >= MARKETING_END) return false;
+    try {
+      const choice = JSON.parse(localStorage.getItem(CONSENT_KEY) || 'null');
+      return choice?.allowed === true &&
+        Number.isFinite(choice.until) && choice.until > now;
+    } catch (_) {
+      return false;
+    }
+  }
   function marketingOnce(category, period) {
-    if (!marketingConsent || standalone || !navigator.onLine) return;
+    if (!hasMarketingConsent() || standalone || !navigator.onLine) return;
     try {
       const key = 'perme-marketing-v1-' + category;
       if (localStorage.getItem(key) === period) return;
@@ -184,7 +200,7 @@
     track('marketing-' + category, MARKETING_KEYS[category]);
   }
   function marketingVisit() {
-    if (!marketingConsent || standalone || !navigator.onLine) return;
+    if (!hasMarketingConsent() || standalone || !navigator.onLine) return;
     const today = new Intl.DateTimeFormat('sv-SE', {timeZone:'Europe/Rome'}).format(new Date());
     try {
       const firstKey = 'perme-marketing-primo-giorno-v1';

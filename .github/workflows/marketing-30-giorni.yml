@@ -10,6 +10,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   snapshot:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 4
     steps:
@@ -20,4 +21,5 @@ jobs:
       - name: Leggi i conteggi senza incrementi
         run: python scripts/snapshot-marketing.py
       - name: Archivia le letture effettive
-        run: bash monitoraggio/pubblica_report.sh "Per Me: lettura giornaliera marketing" monitoraggio/marketing-30-giorni.json
+        run: |
+          bash monitoraggio/pubblica_report.sh "Per Me: lettura giornaliera marketing" monitoraggio/marketing-30-giorni.json

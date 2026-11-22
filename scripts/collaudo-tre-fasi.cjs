@@ -48,7 +48,15 @@ async function run(){
  check(zoomResult.ok,'reflow con caratteri al 200% '+width);
  await page.evaluate(()=>{document.documentElement.style.fontSize=''});
  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'nessun overflow orizzontale '+width);
- check(await page.locator('a[href="https://www.facebook.com/PerMeGuide/"]').count()===1,'Facebook '+width);
+ const facebook='a[href="https://www.facebook.com/PerMeGuide/"]';
+ const fbContenuto=page.locator('main '+facebook),fbFooter=page.locator('footer '+facebook);
+ const waFooter=page.locator('footer a[href="https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J"]');
+ for(const [link,label] of [[fbContenuto,'Facebook nel contenuto'],[fbFooter,'Facebook nel footer'],[waFooter,'WhatsApp nel footer']]){
+  check(await link.count()===1&&await link.isVisible(),label+' '+width);
+  const safe=await link.evaluate(a=>a.target==='_blank'&&a.relList.contains('noopener')&&a.relList.contains('noreferrer'));
+  check(safe,label+' apertura sicura '+width);
+ }
+ check(await fbFooter.evaluate(a=>a.getBoundingClientRect().height>=54)&&await waFooter.evaluate(a=>a.getBoundingClientRect().height>=54),'link social nel footer facili da toccare '+width);
  await page.goto(origin+'/strumenti/orientamento-benefici.html');
  await page.locator('#verifica button').click();
  check(await page.locator('#risultati').isVisible(),'orientatore risultati '+width);
