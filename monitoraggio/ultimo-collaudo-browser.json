@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-22T15:49:58.030Z",
+  "checked_at_utc": "2026-11-22T16:09:03.345Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -137,10 +137,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "128 pagine salvate per la lettura offline · controllo online 22 nov, 15:50.",
+        "status": "128 pagine salvate per la lettura offline · controllo online 22 nov, 16:09.",
         "stored": {
           "guides": 128,
-          "updated": "2026-11-22T15:50:54.403Z",
+          "updated": "2026-11-22T16:09:55.609Z",
           "bytes": 2659134,
           "includesNew09": true
         }
@@ -291,7 +291,7 @@
     {
       "page": "agevolazioni-guida-01-isee-corrente.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -309,7 +309,7 @@
     {
       "page": "agevolazioni-guida-03-trasporti-italia.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -327,31 +327,31 @@
     {
       "page": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-07-patrocinio-spese-stato.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "agevolazioni-guida-09-locazioni-abitative.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
@@ -369,7 +369,7 @@
     {
       "page": "ccnl-inquadramento-livello-superminimo.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
@@ -405,19 +405,19 @@
     {
       "page": "controllare-cedolino-cassa-integrazione-solidarieta.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "da-dove-cominciare.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 0
     },
     {
       "page": "dal-lordo-al-netto.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
@@ -429,295 +429,295 @@
     {
       "page": "debiti-guida-01-leggere-cartella.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-02-controllare-debiti.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-03-cartella-errata.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-04-rateizzazione.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-05-rottamazione.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-06-fermo-pignoramento.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-07-banche-bollette.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-08-sovraindebitamento.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "debiti-guida-09-a-chi-rivolgersi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-01-cause-sintomi-diagnosi.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-03-farmaci-insulina-sicurezza.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-04-alimentazione-terapia-carboidrati.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-05-coronarie-rischio-prevenzione.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-06-scompenso-miocardio-aritmie.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-07-ictus-tia-prevenzione.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-08-arteriopatia-periferica-gambe.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-09-retinopatia-edema-maculare-vista.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-10-cataratta-glaucoma-occhio-secco.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-11-reni-albuminuria-funzione-renale.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-13-neuropatia-autonomica-cardiovascolare.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-15-vescica-incontinenza-sessualita.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-16-piede-diabetico-ulcere-infezioni-charcot.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-17-bocca-denti-gengive-parodontite.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 3
     },
     {
       "page": "diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-25-salute-mentale-depressione-distress-demenza.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-29-gravidanza-fertilita-ormoni.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "diabete-tipo-2.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 3
     },
     {
       "page": "dieta-guida-06-diabete-cuore-piano-alimentare-sicuro.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-07-etichette-sale-zuccheri-allergeni.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "dieta-guida-08-ricette-mediterranee-economiche-valori.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "dieta-mediterranea-ricette.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -729,55 +729,55 @@
     {
       "page": "dieta-ricette-colazioni.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-minestre-legumi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-pesce.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-piatti-legumi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-ricotta.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dieta-ricette-uova-carne-bianca.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "dove-chiedere-aiuto.html",
       "violations": [],
-      "passes": 20,
+      "passes": 19,
       "incomplete": 1
     },
     {
       "page": "farine-quale-scegliere.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "gradimento.html",
       "violations": [],
-      "passes": 22,
+      "passes": 21,
       "incomplete": 0
     },
     {
@@ -789,13 +789,13 @@
     {
       "page": "inps-malattia-pagamento-diretto-sr212.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "inps-mobile-5-novita.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -807,55 +807,55 @@
     {
       "page": "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-10-fine-rapporto-documenti-tutele.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-11-naspi-domanda-scadenze.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-12-tfr-pagamento-fondo-garanzia.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "licoli-da-zero.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 3
     },
     {
       "page": "lievito-madre.html",
       "violations": [],
-      "passes": 25,
+      "passes": 24,
       "incomplete": 2
     },
     {
@@ -867,55 +867,55 @@
     {
       "page": "modelli-e-strumenti.html",
       "violations": [],
-      "passes": 20,
+      "passes": 19,
       "incomplete": 1
     },
     {
       "page": "monitoraggio.html",
       "violations": [],
-      "passes": 25,
+      "passes": 24,
       "incomplete": 1
     },
     {
       "page": "ore-ferie-permessi-malattia-straordinari.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "pane-500g-friggitrice-8-litri.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 3
     },
     {
       "page": "pasta-madre-solida-da-zero.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 3
     },
     {
       "page": "pensionati-estero-budget.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "pensionati-estero-mete.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "pensionati-estero-trasferimento.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "pensionati-estero.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -927,13 +927,13 @@
     {
       "page": "pizza-napoletana-con-licoli.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 3
     },
     {
       "page": "prova-lettori.html",
       "violations": [],
-      "passes": 26,
+      "passes": 25,
       "incomplete": 1
     },
     {
@@ -945,43 +945,43 @@
     {
       "page": "ricetta-frittata-zucca-spinaci-pane-integrale.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 3
     },
     {
       "page": "ricetta-merluzzo-patate-finocchio-limone.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "ricetta-pasta-integrale-ceci-cavolfiore.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "ricetta-riso-integrale-pollo-radicchio-noci.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "ricetta-zuppa-lenticchie-patate-carote.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "ricetta-zuppa-orzo-lenticchie-porro-carota.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
@@ -993,61 +993,61 @@
     {
       "page": "salute-autonomia.html",
       "violations": [],
-      "passes": 25,
+      "passes": 24,
       "incomplete": 2
     },
     {
       "page": "salute-guida-01-preparare-visita.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-02-cardiopatia-ischemica-infarto-stent-bypass.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-03-dopo-infarto-stent-bypass-riabilitazione.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
       "violations": [],
-      "passes": 30,
+      "passes": 29,
       "incomplete": 2
     },
     {
       "page": "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "salute-guida-08-patente-malattie-croniche-certificati.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "scadenze-del-mese.html",
       "violations": [],
-      "passes": 18,
+      "passes": 17,
       "incomplete": 1
     },
     {
@@ -1059,61 +1059,61 @@
     {
       "page": "stipendio-diminuito-cosa-controllare.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 2
     },
     {
       "page": "tangzhong-autolisi-biga-poolish.html",
       "violations": [],
-      "passes": 29,
+      "passes": 28,
       "incomplete": 3
     },
     {
       "page": "tutor-ai-android-primi-passi.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-conversazione-correzioni.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-privacy-truffe.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-quando-chiedere-aiuto.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-riassumere-confrontare.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutor-ai-verifica-fonti-date.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutor-ai.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
       "page": "tutorial-smartphone.html",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
@@ -1125,7 +1125,7 @@
     {
       "page": "guida09",
       "violations": [],
-      "passes": 27,
+      "passes": 26,
       "incomplete": 2
     },
     {
