@@ -48,7 +48,13 @@ async function run(){
  check(zoomResult.ok,'reflow con caratteri al 200% '+width);
  await page.evaluate(()=>{document.documentElement.style.fontSize=''});
  check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'nessun overflow orizzontale '+width);
- check(await page.locator('a[href="https://www.facebook.com/PerMeGuide/"]').count()===1,'Facebook '+width);
+ const facebook='a[href="https://www.facebook.com/PerMeGuide/"]';
+ for(const [scope,label] of [['main','Facebook nel contenuto'],['footer','Facebook nel footer']]){
+  const link=page.locator(scope+' '+facebook);
+  check(await link.count()===1&&await link.isVisible(),label+' '+width);
+  check(await link.evaluate(a=>a.target==='_blank'&&a.relList.contains('noopener')&&a.relList.contains('noreferrer')),label+' apertura sicura '+width);
+ }
+ check(await page.locator('footer '+facebook).evaluate(a=>a.getBoundingClientRect().height>=54),'Facebook nel footer facile da toccare '+width);
  await page.goto(origin+'/strumenti/orientamento-benefici.html');
  await page.locator('#verifica button').click();
  check(await page.locator('#risultati').isVisible(),'orientatore risultati '+width);

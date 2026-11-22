@@ -552,6 +552,7 @@ header[data-shared="per-me"] a.perme-social-link:focus-visible{outline:3px solid
   background: #fff;
   color: #23382f;
 }
+
 .ricerca-guide input::placeholder {
   color: #495a52;
   opacity: 1;
@@ -613,4 +614,33 @@ header[data-shared="per-me"] a.perme-social-link:focus-visible{outline:3px solid
   border-radius: 8px;
   background: #f0f6f1;
   color: #23382f;
+}
+
+
+/* Presentazione e strumenti in homepage; invito Facebook nel footer condiviso. */
+.home-strumenti{margin:32px 0;padding:25px 0}
+.home-strumenti-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.home-strumenti-grid article{display:flex;flex-direction:column;padding:22px;background:#fffdf8;border:2px solid #9ebaae;border-radius:12px;min-width:0}
+.home-strumenti-grid h3{font-size:1.4rem;line-height:1.3}
+.home-strumenti-grid p{line-height:1.6}
+.home-strumenti-grid .button{margin-top:auto;display:flex;align-items:center;justify-content:center;min-height:56px;text-align:center;background:#234438;color:#fff;overflow-wrap:anywhere}
+.home-strumenti-grid .home-strumenti-extra{margin:16px 0 0;font-size:1rem}
+.home-strumenti-extra a{color:#174b3b;text-decoration:underline;text-underline-offset:3px}
+.segui-links{display:flex;gap:12px;flex-wrap:wrap}
+.segui-links a,.segui-links a:visited{display:inline-flex;align-items:center;justify-content:center;min-height:56px;max-width:100%;padding:13px 20px;border:2px solid #fffaf4;border-radius:9px;background:#fffaf4;color:#234438!important;text-align:center;text-decoration:none;font-size:1.08rem;font-weight:750;line-height:1.5;overflow-wrap:anywhere}
+.segui-links a:focus-visible{outline:4px solid #dda451;outline-offset:4px}
+.segui-links a:hover{background:#eaf2ed}
+.footer-segui{font-size:1rem;line-height:1.6;padding-bottom:24px;margin-bottom:20px;border-bottom:1px solid #c9bcad}
+.footer-segui-titolo{font-size:1.4rem;font-weight:750;margin:0 0 8px}
+.footer-info{margin:0;font-size:1rem}
+.home-notizie{border:1px solid #9ebaae;padding:18px;border-radius:12px;margin:26px 0}
+.home-notizie>summary{font-size:1.25rem;font-weight:750;cursor:pointer;min-height:52px;display:list-item;padding:10px 4px;line-height:1.5}
+.home-notizie>summary:focus-visible{outline:3px solid #9a5700;outline-offset:3px}
+.home-notizie .notizia-home{margin-top:20px}
+@media(max-width:840px){
+  .home-strumenti-grid{grid-template-columns:1fr}
+  .home-strumenti-grid article{padding:20px}
+  .segui-links{flex-direction:column}
+  .segui-links a{width:100%}
+  .hero-copy h1{font-size:clamp(2rem,7vw,3.3rem)}
 }

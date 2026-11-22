@@ -35,7 +35,7 @@ function pageHead(title, description, file, image, alt) {
 <title>${escapeHtml(title)} | Per Me</title>
 <link rel="canonical" href="${site}${file}">
 <link rel="icon" href="favicon.ico">
-<link rel="stylesheet" href="style.css?v=20261122-social-top">
+<link rel="stylesheet" href="style.css?v=20261122-home-strumenti">
 <link rel="stylesheet" href="guide-pratiche.css?v=20261110">
 <link rel="stylesheet" href="ricette.css?v=20261114">
 <script defer src="analytics.js?v=3"></script>

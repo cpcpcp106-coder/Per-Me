@@ -108,6 +108,29 @@ async function main(){
     return{heroFirst:!!(hero.compareDocumentPosition(search)&Node.DOCUMENT_POSITION_FOLLOWING),inviteLater:!!(situations.compareDocumentPosition(invite)&Node.DOCUMENT_POSITION_FOLLOWING),mainLinks:document.querySelectorAll('.hero a[href="da-dove-cominciare.html"]').length};
    });
    check(order.heroFirst&&order.inviteLater&&order.mainLinks===1,'home con ingresso unico e invito alle prove spostato '+width);
+   for(const destination of ['app/menu-mediterraneo.html','strumenti/costo-spesa-settimanale.html','modelli-e-strumenti.html']){
+    const action=page.locator('.home-strumenti a.button[href="'+destination+'"]');
+    check(await action.isVisible()&&await action.evaluate(a=>a.getBoundingClientRect().height>=54),'accesso allo strumento leggibile e facile da toccare '+destination+' '+width);
+    await action.click();
+    await page.waitForURL(origin+'/'+destination);
+    check(await page.locator('main h1').isVisible(),'strumento raggiungibile dalla home '+destination+' '+width);
+    await page.goto(origin+'/');
+   }
+   const news=page.locator('.home-notizie'),newsSummary=news.locator('summary');
+   check(!(await news.getAttribute('open'))&&!(await news.locator('.notizia-home').first().isVisible()),'notizie raccolte nel riepilogo chiuso '+width);
+   await newsSummary.focus();await page.keyboard.press('Enter');
+   check(await news.locator('a[href="inps-malattia-pagamento-diretto-sr212.html"]').isVisible()&&await news.locator('a[href="inps-mobile-5-novita.html"]').isVisible(),'entrambe le notizie raggiungibili con la tastiera '+width);
+   const baseHome=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
+   await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',baseHome);
+   check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'home, strumenti e notizie aperte senza scorrimento orizzontale al 200% '+width);
+   await page.evaluate(()=>document.documentElement.style.fontSize='');
+   await newsSummary.focus();await page.keyboard.press('Space');
+   check(!(await news.locator('.notizia-home').first().isVisible()),'riepilogo richiudibile con la tastiera '+width);
+   for(const fragment of ['notizia-sr212-titolo','notizia-inps-titolo']){
+    await page.goto(origin+'/?notizia='+fragment+'#'+fragment);
+    check(await page.locator('#'+fragment).isVisible(),'collegamento diretto alla notizia apre il riepilogo '+fragment+' '+width);
+   }
+   await page.goto(origin+'/');
    await page.locator('#parole-guida').fill('paniere');
    await page.locator('#risultati-guide a').first().waitFor();
    check((await page.locator('#risultati-guide a').first().getAttribute('href')).endsWith('#spesa-settimana-documentata'),'ricerca della home trova il paniere documentato '+width);
