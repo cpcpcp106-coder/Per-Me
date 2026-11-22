@@ -1,4 +1,4 @@
-const CACHE='perme-contatori-shell-v6-20261120-social';
+const CACHE='perme-contatori-shell-v7-20261122-pinterest';
 const SHELL=['./','./index.html','./manifest.webmanifest','../app/icon-192.png'];
 self.addEventListener('install',e=>{
  e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting()));

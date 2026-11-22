@@ -1,5 +1,5 @@
 /* Per Me - visite/installazioni dal 18 ottobre; origini aggregate dal 23 ottobre 2026.
-   Instagram e dettaglio canale WhatsApp dal 20 novembre 2026.
+   Instagram e dettaglio canale WhatsApp dal 20 novembre 2026; Pinterest dal 22 novembre.
    API verificata in GitHub Actions: countapi.mileshilliard.com; le vecchie chiavi CounterAPI restano archiviate nella cronologia Git.
    Senza librerie e senza modifiche al service worker.
    Escludi questo browser aprendo /Per-Me/?perme_escludimi=1 */
@@ -18,6 +18,7 @@
   const SOURCE_KEYS = Object.freeze({
     facebook: 'perme-origine-facebook-dal-20261023-43bcc26da793',
     instagram: 'perme-origine-instagram-dal-20261120-43bcc26da793',
+    pinterest: 'perme-origine-pinterest-dal-20261122-43bcc26da793',
     whatsapp: 'perme-origine-whatsapp-dal-20261115-43bcc26da793',
     google: 'perme-origine-google-dal-20261023-43bcc26da793',
     altri: 'perme-origine-altri-dal-20261023-43bcc26da793',
@@ -31,6 +32,7 @@
     // Le app social a volte non forniscono un referrer: usa anche i tag del link.
     if (campaign === 'whatsapp') return 'whatsapp';
     if (campaign === 'instagram' || campaign === 'ig') return 'instagram';
+    if (campaign === 'pinterest') return 'pinterest';
     if (campaign === 'facebook' || campaign === 'fb' || qs.has('fbclid')) return 'facebook';
     if (campaign === 'google' || qs.has('gclid')) return 'google';
     if (campaign) return 'altri';
@@ -41,6 +43,9 @@
       if (from.origin === location.origin) return 'sconosciuta';
       const host = from.hostname.toLowerCase();
       if (host === 'instagram.com' || host.endsWith('.instagram.com')) return 'instagram';
+      if (host === 'pinterest.com' || host.endsWith('.pinterest.com') ||
+          host === 'pinterest.it' || host.endsWith('.pinterest.it') || host === 'pin.it')
+        return 'pinterest';
       if (host === 'whatsapp.com' || host.endsWith('.whatsapp.com') || host === 'wa.me')
         return 'whatsapp';
       if (host === 'facebook.com' || host.endsWith('.facebook.com') ||

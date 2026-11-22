@@ -215,8 +215,12 @@ Stato di tutte le righe: **pubblicato e verificato**.
 
 I collegamenti pubblicati includono utm_source=pinterest, utm_medium=organic_social e un identificativo della pagina. I primi cinque appartengono alla campagna prova_5_guide_20261122; gli altri 128 a tutte_guide_20261122.
 
-I tag non provano da soli che siano arrivate visite. Nel contatore attuale del sito Pinterest confluisce in «altri»: non è stata attivata una serie separata. Non sono state accertate visite o clic derivanti dalle pubblicazioni. Le statistiche dei Pin appena creati richiedono tempo per stabilizzarsi.
+I tag non provano da soli che siano arrivate visite. Dal 22 novembre 2026 è predisposta una serie separata per le nuove aperture riconosciute da Pinterest; quelle precedenti restano nei conteggi storici. Il collegamento al profilo è aggiunto al piè di pagina condiviso del sito. L’esito di distribuzione è riportato nel registro di integrazione. Non sono state accertate visite o clic derivanti dalle pubblicazioni. Le statistiche dei Pin appena creati richiedono tempo per stabilizzarsi.
 
 Ambito: pagine di contenuto selezionate nella radice del sito, comprendenti guide, rubriche e aiuti. Homepage, pagine amministrative, file di verifica e contatori tecnici esclusi. Nessun pagamento attivato; «Offrimi un caffè» resta escluso.
 
 Fonti operative: [account business gratuito](https://help.pinterest.com/it/business/article/get-a-business-account), [caricamento collettivo](https://help.pinterest.com/it/business/article/bulk-upload-video-pins), [specifiche immagini](https://help.pinterest.com/it/article/review-pin-specs).
+
+## Collegamento al sito e misurazione
+
+[Registro di integrazione e collaudo](integrazione-pinterest-sito-2026-11-22.md). Il conteggio delle aperture sul sito è distinto dalle visualizzazioni, dai salvataggi e dalle statistiche interne di Pinterest.

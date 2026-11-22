@@ -6,6 +6,8 @@ const { chromium }=require('playwright');
 const fs=require('node:fs');
 const path=require('node:path');
 const http=require('node:http');
+require('node:child_process').execFileSync(process.execPath,
+  ['--test',path.join(__dirname,'test-origini-contatori.cjs')],{stdio:'inherit'});
 const analytics=fs.readFileSync(path.join(__dirname,'..','analytics.js'),'utf8');
 const site='https://cpcpcp106-coder.github.io/Per-Me/';
 const external=/^https:\/\/countapi\.mileshilliard\.com\/api\/v1\/hit\//;
@@ -75,6 +77,12 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     ['instagram','?utm_source=ig',undefined],
     ['instagram','?test-contatori-browser=instagram','https://l.instagram.com/'],
     ['instagram','?utm_source=instagram&utm_medium=channel&fbclid=prova',undefined],
+    ['pinterest','?utm_source=pinterest&utm_medium=organic_social',undefined],
+    ['pinterest','?utm_source=%20Pinterest%20&fbclid=prova',undefined],
+    ['pinterest','?test-contatori-browser=pinterest','https://it.pinterest.com/'],
+    ['pinterest','?test-contatori-browser=pinterest-it','https://www.pinterest.it/'],
+    ['pinterest','?test-contatori-browser=pin-it','https://pin.it/prova'],
+    ['altri','?test-contatori-browser=falso-pinterest','https://pinterest.com.example.org/'],
     ['google','?utm_source=google',undefined],
     ['altri','?test-contatori-browser=esterno','https://example.org/articolo'],
   ]){
@@ -250,16 +258,32 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     if(offline)return route.abort();
     const key=route.request().url();
     const value=key.includes('origine-instagram')?13:
+      key.includes('origine-pinterest')?17:
       key.includes('canale-whatsapp')?8:key.includes('origine-whatsapp')?21:101;
-    return route.fulfill({status:missingInstagram&&key.includes('origine-instagram')?404:200,
+    return route.fulfill({status:missingInstagram&&/origine-(instagram|pinterest)/.test(key)?404:200,
       contentType:'application/json',headers:{'Access-Control-Allow-Origin':'*'},
       body:JSON.stringify({value})});
   });
   try{
     const base='http://127.0.0.1:'+server.address().port+'/Per-Me/';
+    const links=await panelCtx.newPage();
+    for(const width of [320,390,768]){
+      await links.setViewportSize({width,height:844});
+      for(const file of ['index.html','farine-quale-scegliere.html']){
+        await links.goto(base+file,{waitUntil:'networkidle'});
+        const button=links.getByRole('link',{name:'Per Me su Pinterest',exact:true});
+        row('pinterest_link_'+file+'_'+width,
+          await button.count()===1&&
+          await button.getAttribute('href')==='https://it.pinterest.com/permeguide/'&&
+          await button.evaluate(el=>el.getBoundingClientRect().height>=48)&&
+          await links.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),{width});
+      }
+    }
+    await links.close();
     const panel=await panelCtx.newPage();
     await panel.goto(base+'contatori-personali/',{waitUntil:'networkidle'});
     row('social_panel_values',await panel.locator('#instagram').innerText()==='13'&&
+      await panel.locator('#pinterest').innerText()==='17'&&
       await panel.locator('#whatsapp').innerText()==='21'&&
       await panel.locator('#whatsapp-canale').innerText()==='8',{});
     for(const width of [320,390,768]){
@@ -270,7 +294,8 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     missingInstagram=true;
     await panel.locator('#refresh').click();
     await panel.waitForFunction(()=>!document.getElementById('refresh').disabled);
-    row('new_counter_404_is_zero',await panel.locator('#instagram').innerText()==='0',{});
+    row('new_counter_404_is_zero',await panel.locator('#instagram').innerText()==='0'&&
+      await panel.locator('#pinterest').innerText()==='0',{});
     missingInstagram=false;
     await panel.locator('#refresh').click();
     await panel.waitForFunction(()=>!document.getElementById('refresh').disabled);
@@ -282,11 +307,13 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
     await panel.reload({waitUntil:'domcontentloaded'});
     await panel.waitForFunction(()=>document.getElementById('status').textContent.includes('Impossibile aggiornare'));
     row('counter_offline_shell_and_saved_values',await panel.locator('#instagram').innerText()==='13'&&
+      await panel.locator('#pinterest').innerText()==='17'&&
       await panel.locator('#whatsapp-canale').innerText()==='8',{});
     await panelCtx.setOffline(false);offline=false;
     await panel.goto(base+'contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html',{
       waitUntil:'networkidle'});
     row('legacy_panel_social_values',await panel.locator('#instagram').innerText()==='13'&&
+      await panel.locator('#pinterest').innerText()==='17'&&
       await panel.locator('#whatsapp-canale').innerText()==='8',{});
     row('panels_never_increment',panelHits===0,{panelHits});
   }finally{

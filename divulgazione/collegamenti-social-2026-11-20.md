@@ -1,11 +1,12 @@
 # Per Me — Collegamenti per distinguere le provenienze social
 
-Aggiornamento: 20 novembre 2026. Riferimento per i prossimi invii autorizzati.
+Aggiornamento: 22 novembre 2026. Riferimento per i prossimi invii autorizzati.
 
 | Destinazione del messaggio | Collegamento alla home da usare |
 | --- | --- |
 | Facebook | https://cpcpcp106-coder.github.io/Per-Me/?utm_source=facebook&utm_medium=social |
 | Instagram | https://cpcpcp106-coder.github.io/Per-Me/?utm_source=instagram&utm_medium=social |
+| Pinterest | https://cpcpcp106-coder.github.io/Per-Me/?utm_source=pinterest&utm_medium=organic_social |
 | Canale WhatsApp «Per Me Guide» | https://cpcpcp106-coder.github.io/Per-Me/?utm_source=whatsapp&utm_medium=channel |
 | Stato WhatsApp | https://cpcpcp106-coder.github.io/Per-Me/?utm_source=whatsapp&utm_medium=status |
 | Chat o condivisione WhatsApp | https://cpcpcp106-coder.github.io/Per-Me/?utm_source=whatsapp |
@@ -21,6 +22,8 @@ Questi sono collegamenti al sito, non indirizzi dei profili social o del canale 
 ## Come leggere i contatori
 
 Il pannello è https://cpcpcp106-coder.github.io/Per-Me/contatori-personali/ . Anche il pannello storico contiene le nuove voci.
+
+Pinterest ha una nuova serie dal 22 novembre 2026, senza ricostruzione delle aperture precedenti già classificate in altre voci. Riconosce `utm_source=pinterest` e i domini `pinterest.com`, `pinterest.it` e loro sottodomini, oppure `pin.it`. Non riconosce domini che si limitano a contenere il nome Pinterest. Un link inoltrato conserva la sua etichetta.
 
 Instagram ha una nuova serie dal 20 novembre 2026. WhatsApp conserva il totale iniziato il 15 novembre e aggiunge dal 20 novembre un dettaglio per i link preparati per il canale. Quest'ultimo è un sottoinsieme: **non sommarlo di nuovo al totale WhatsApp**. Un link inoltrato conserva l'etichetta del canale, senza provare che l'apertura sia avvenuta dentro il canale.
 
