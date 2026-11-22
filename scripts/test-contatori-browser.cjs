@@ -272,11 +272,14 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
       for(const file of ['index.html','farine-quale-scegliere.html']){
         await links.goto(base+file,{waitUntil:'networkidle'});
         const button=links.getByRole('link',{name:'Per Me su Pinterest',exact:true});
+        const details={width,count:await button.count(),
+          href:await button.getAttribute('href'),
+          button:await button.evaluate(el=>({height:el.getBoundingClientRect().height,
+            width:el.getBoundingClientRect().width,font:getComputedStyle(el).fontSize})),
+          page:await links.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}))};
         row('pinterest_link_'+file+'_'+width,
-          await button.count()===1&&
-          await button.getAttribute('href')==='https://it.pinterest.com/permeguide/'&&
-          await button.evaluate(el=>el.getBoundingClientRect().height>=48)&&
-          await links.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),{width});
+          details.count===1&&details.href==='https://it.pinterest.com/permeguide/'&&
+          details.button.height>=48&&details.page.scrollWidth<=details.page.width+2,details);
       }
     }
     await links.close();
