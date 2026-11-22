@@ -24,4 +24,12 @@ Il collaudo browser comprende tutti e tre i pulsanti su homepage e guida alle fa
 
 ## Distribuzione
 
-Preparazione completata. Esiti di Actions, Pages e verifica pubblica da registrare dopo la distribuzione.
+**Pubblicato e verificato il 22 novembre 2026.**
+
+- Codice: [f17cce1](https://github.com/cpcpcp106-coder/Per-Me/commit/f17cce1e22c2778884462eb5aad7f4cd67ab9742).
+- [Collaudo browser riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45042152209): 60 verifiche browser e 25 test isolati superati, zero errori. Controllati i tre pulsanti su homepage e guida alle farine a 320/390/768 pixel; area tattile misurata circa 50,59 pixel, testo di almeno 19 pixel e pulsanti entro la larghezza dello schermo anche con caratteri di base al 200%.
+- [Pubblicazione GitHub Pages riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45042165312); [struttura nazionale](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45042152105), [indicizzabilità tecnica](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45042152166) e [coerenza delle ricette](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45042152176) superate.
+- Verifica HTTP pubblica conclusa alle 17:12 circa, ora italiana: 140 file (139 pagine e foglio di stile), tutti HTTP 200 e identici ai contenuti collaudati. Tutte le 139 pagine contengono i tre collegamenti esatti.
+- Nell’interfaccia pubblica verificati i testi e le destinazioni dei pulsanti. Instagram richiede l’accesso nel browser di verifica, mantenendo il profilo `/permeguide/` come destinazione. Il collegamento WhatsApp richiama l’app con l’identificativo corretto del canale; la schermata interna dell’app non è osservabile dal browser di verifica. Non è stata verificata una nuova iscrizione al canale: il pulsante serve ad aprirlo.
+
+Il pulsante Facebook già esistente nelle guide e nella pagina «Il progetto» è conservato. Il pulsante di condivisione WhatsApp mantiene il proprio scopo. Nessun costo attivato e nessuna operazione richiesta sul telefono per pubblicare questi collegamenti.

@@ -21,7 +21,7 @@ Le aperture passate non sono ricostruite né spostate da «altri». Un contatore
 - 25 test isolati di attribuzione, priorità delle campagne, domini ingannevoli, altre provenienze, esclusione del curatore, assenza di rete, app installata e mancati doppioni: superati senza richieste reali ai contatori.
 - Layout condiviso coerente su 139 pagine e 3.577 collegamenti locali validi.
 - Audit di indicizzabilità: 145 pagine pubbliche, 145 URL in sitemap, tutte raggiungibili dalla home, zero problemi. Questo verifica la struttura tecnica, non la presenza nell’indice di Google.
-- Componente Facebook verificato su 129 guide/pagine; copertura del conteggio verificata su 141 pagine. Instagram dispone della propria provenienza nel contatore ma non di un pulsante pubblico nel sito corrente.
+- Componente Facebook verificato su 129 guide/pagine; copertura del conteggio verificata su 141 pagine. Instagram dispone della propria provenienza nel contatore. I pulsanti per il profilo Instagram e per il canale WhatsApp sono stati aggiunti e verificati nel successivo intervento del 22 novembre: [registro dei pulsanti social](pulsanti-instagram-whatsapp-2026-11-22.md).
 - 19 test della PWA e dei dati delle ricette: superati, comprese lettura e navigazione offline già previste.
 - Sintassi JavaScript e diff: nessun errore.
 
