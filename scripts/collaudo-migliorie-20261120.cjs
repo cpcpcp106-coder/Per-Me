@@ -123,6 +123,7 @@ async function main(){
    const baseHome=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
    await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',baseHome);
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'home, strumenti e notizie aperte senza scorrimento orizzontale al 200% '+width);
+   check(await page.locator('.hero-copy h1').evaluate(h=>h.scrollWidth<=h.clientWidth+2),'titolo della home interamente leggibile al 200%, senza testo tagliato '+width);
    await page.evaluate(()=>document.documentElement.style.fontSize='');
    await newsSummary.focus();await page.keyboard.press('Space');
    check(!(await news.locator('.notizia-home').first().isVisible()),'riepilogo richiudibile con la tastiera '+width);

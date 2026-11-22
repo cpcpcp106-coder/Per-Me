@@ -620,7 +620,7 @@ header[data-shared="per-me"] a.perme-social-link:focus-visible{outline:3px solid
 /* Presentazione e strumenti in homepage; invito Facebook nel footer condiviso. */
 .home-strumenti{margin:32px 0;padding:25px 0}
 .home-strumenti-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-.home-strumenti-grid article{display:flex;flex-direction:column;padding:22px;background:#fffdf8;border:2px solid #9ebaae;border-radius:12px;min-width:0}
+.home-strumenti-grid article{display:flex;flex-direction:column;padding:22px;background:#fffdf8;border:2px solid #9ebaae;border-radius:12px;min-width:0;overflow-wrap:anywhere}
 .home-strumenti-grid h3{font-size:1.4rem;line-height:1.3}
 .home-strumenti-grid p{line-height:1.6}
 .home-strumenti-grid .button{margin-top:auto;display:flex;align-items:center;justify-content:center;min-height:56px;text-align:center;background:#234438;color:#fff;overflow-wrap:anywhere}
@@ -637,6 +637,8 @@ header[data-shared="per-me"] a.perme-social-link:focus-visible{outline:3px solid
 .home-notizie>summary{font-size:1.25rem;font-weight:750;cursor:pointer;min-height:52px;display:list-item;padding:10px 4px;line-height:1.5}
 .home-notizie>summary:focus-visible{outline:3px solid #9a5700;outline-offset:3px}
 .home-notizie .notizia-home{margin-top:20px}
+.hero-copy{min-width:0}
+.hero-copy h1{overflow-wrap:anywhere}
 @media(max-width:840px){
   .home-strumenti-grid{grid-template-columns:1fr}
   .home-strumenti-grid article{padding:20px}
