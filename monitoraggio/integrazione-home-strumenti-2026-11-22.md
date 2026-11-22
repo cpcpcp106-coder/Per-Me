@@ -70,4 +70,3 @@ Il browser del curatore è stato escluso dai conteggi mediante il comando già p
 La PR #29 è stata chiusa come proposta superata dalla nuova integrazione editoriale; il ramo originale resta conservato per lo storico. Le statistiche facoltative restano rinviate, con il problema di attivazione della proposta originaria documentato e senza attribuirne il completamento a questa pubblicazione.
 
 Nessuna nuova prova su Samsung fisico, nessuna certificazione assistiva o WCAG completa, nessuna revisione professionale articolo per articolo. Non è stata eseguita una nuova ispezione autenticata in Google Search Console: indicizzazione e problema sitemap rimangono verifiche separate.
-
