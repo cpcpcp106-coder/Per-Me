@@ -29,6 +29,15 @@ Il collaudo browser del repository è esteso a Pinterest, ai pulsanti della home
 
 ## Distribuzione
 
-Preparazione completata; esito di GitHub Actions, distribuzione Pages e lettura dei file pubblici da aggiungere dopo la pubblicazione.
+**Pubblicazione e collaudo completati il 22 novembre 2026.**
+
+- [Modifica del sito](https://github.com/cpcpcp106-coder/Per-Me/commit/204ab2388c3f2eb6fca166bfa90cdfcdea97c2f1), [allineamento del generatore ricette](https://github.com/cpcpcp106-coder/Per-Me/commit/cc2270b2a6fde1353cd165164ab380202ec7ee7d) e [collaudo finale](https://github.com/cpcpcp106-coder/Per-Me/commit/b825181a41a71da7bf14a4dfa09e168e11a3e547).
+- [Test browser contatori riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45040849306): 42 verifiche browser e 25 test isolati superati. Pulsante presente in un solo esemplare sulle pagine campione; altezza misurata 50,59 pixel; nessuno scorrimento orizzontale a 320/390/768 pixel. Verificati caricamento dei valori Pinterest, risposta zero per una nuova chiave assente, lettura offline degli ultimi valori e assenza di incrementi reali nei test.
+- [Controllo ricette riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45040570097): il generatore usa la nuova versione dello script e conserva i dati nutrizionali.
+- [Distribuzione GitHub Pages riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45040848756), [struttura nazionale riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45040849327), [indicizzabilità tecnica riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45040849305).
+- Controllo HTTP pubblico concluso alle 16:56 circa, ora italiana: 144 file letti, 144 risposte HTTP 200 e corrispondenza esatta con i contenuti collaudati. Tutte le 139 pagine del layout condiviso contengono il collegamento Pinterest.
+- Nell’interfaccia pubblica il pulsante apre il profilo Per Me Guide corretto. Nel pannello aggiornato è visibile la voce Pinterest, con lettura iniziale pari a 0. Una prima lettura parziale del servizio si è risolta aggiornando i valori; l’esito finale del pannello era «Aggiornato». La lettura non dimostra risultati futuri o persone uniche.
+
+Nessun intervento richiesto sul telefono per questa modifica. Nessuna spesa attivata.
 
 Registri collegati: [133 post Pinterest](registro-pinterest-2026-11-22.md), [collegamenti delle provenienze](collegamenti-social-2026-11-20.md).

@@ -215,7 +215,7 @@ Stato di tutte le righe: **pubblicato e verificato**.
 
 I collegamenti pubblicati includono utm_source=pinterest, utm_medium=organic_social e un identificativo della pagina. I primi cinque appartengono alla campagna prova_5_guide_20261122; gli altri 128 a tutte_guide_20261122.
 
-I tag non provano da soli che siano arrivate visite. Dal 22 novembre 2026 è predisposta una serie separata per le nuove aperture riconosciute da Pinterest; quelle precedenti restano nei conteggi storici. Il collegamento al profilo è aggiunto al piè di pagina condiviso del sito. L’esito di distribuzione è riportato nel registro di integrazione. Non sono state accertate visite o clic derivanti dalle pubblicazioni. Le statistiche dei Pin appena creati richiedono tempo per stabilizzarsi.
+I tag non provano da soli che siano arrivate visite. Dal 22 novembre 2026 è attiva e verificata una serie separata per le nuove aperture riconosciute da Pinterest; quelle precedenti restano nei conteggi storici. Il collegamento al profilo è aggiunto al piè di pagina condiviso del sito. L’esito di distribuzione è riportato nel registro di integrazione. Non sono state accertate visite o clic derivanti dalle pubblicazioni. Le statistiche dei Pin appena creati richiedono tempo per stabilizzarsi.
 
 Ambito: pagine di contenuto selezionate nella radice del sito, comprendenti guide, rubriche e aiuti. Homepage, pagine amministrative, file di verifica e contatori tecnici esclusi. Nessun pagamento attivato; «Offrimi un caffè» resta escluso.
 
@@ -224,3 +224,5 @@ Fonti operative: [account business gratuito](https://help.pinterest.com/it/busin
 ## Collegamento al sito e misurazione
 
 [Registro di integrazione e collaudo](integrazione-pinterest-sito-2026-11-22.md). Il conteggio delle aperture sul sito è distinto dalle visualizzazioni, dai salvataggi e dalle statistiche interne di Pinterest.
+
+Esito dell’integrazione sul sito: pulsante Pinterest verificato nel layout condiviso di 139 pagine; nuova provenienza presente nei contatori corrente e storico. [Collaudo completo riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45040849306): 42 verifiche browser e 25 isolate. Le aperture precedenti non vengono ricalcolate.
