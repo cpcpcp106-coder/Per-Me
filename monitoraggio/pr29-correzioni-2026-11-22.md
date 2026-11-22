@@ -28,6 +28,18 @@ Il pannello distingue serie non attivate, dati mancanti e zero osservato. Il con
 
 I tre script del collaudo strumenti sono stati avviati localmente, ma Chromium viene fermato dalle restrizioni dell'ambiente (`socket() failed: Operation not permitted`) prima di aprire le pagine. Questi tentativi non attestano l'esito delle prove funzionali.
 
-I collaudi da completare nei runner GitHub comprendono viewport 320/390, testo al 200%, ricerca, collegamenti social, trasferimento dal menu al calcolatore, riepilogo di spesa, fotografie e lettura offline; consenso/revoca tra schede e scadenza; pannello con serie non attivate, prima lettura valida, zero reale e risposte mancanti simulate.
+I collaudi sono stati completati nei runner GitHub sul commit `9ea24d724e8c3cac7ef213ab97db60b500a0af50`. Sono superate le prove a 320/390 pixel, testo al 200%, ricerca, collegamenti social, trasferimento dal menu al calcolatore, riepilogo di spesa, fotografie e lettura offline; consenso/revoca tra schede e scadenza; pannello con serie non attivate, prima lettura valida, zero reale e risposte mancanti simulate.
 
-Esiti GitHub: in attesa dell'aggiornamento del ramo e delle esecuzioni associate al commit corretto. Il workflow di raccolta marketing non viene avviato come prova e non è equiparato a una raccolta riuscita.
+## Esiti GitHub verificati
+
+Tutti i 23 check associati al commit funzionale `9ea24d724e8c3cac7ef213ab97db60b500a0af50` sono conclusi con `success`.
+
+| Esecuzione | Esito verificato |
+| --- | --- |
+| [Collaudo strumenti](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45023765074) | 64 controlli dei percorsi e strumenti, 99 delle migliorie e 173 dei lieviti/fotografie/offline; zero fallimenti. I due passi che in precedenza erano saltati sono stati eseguiti e superati. |
+| [Test browser contatori](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45023771440) | Browser, consenso/revoca tra schede e scadenza a 320/390; 25 prove JavaScript; 8 prove Python. Tutti i passi superati, invii dei contatori e Cloudflare intercettati. |
+| [Collaudo browser generale](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45023771415) | Test responsive, controlli automatici di accessibilità, sincronizzazione e offline superati. Artefatto conservato dal runner. Controllo delle destinazioni esterne e archiviazione su main saltati per la protezione di ramo. |
+
+La verifica YAML attesta la sintassi e la guardia del job marketing. Il workflow di raccolta marketing non è stato avviato come prova: nessuna raccolta o archiviazione reale viene dichiarata riuscita. Le prove automatiche non certificano un telefono Samsung fisico, accessibilità completa con tecnologie assistive o revisione professionale dei contenuti.
+
+Le correzioni sono limitate al ramo della PR; nessuna unione, pubblicazione o attivazione delle nuove metriche. Gli esiti si riferiscono al commit funzionale indicato; l'aggiornamento successivo di questo registro è soltanto documentale.
