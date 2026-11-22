@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-22T16:09:03.345Z",
+  "checked_at_utc": "2026-11-22T16:37:13.331Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -137,10 +137,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "128 pagine salvate per la lettura offline · controllo online 22 nov, 16:09.",
+        "status": "128 pagine salvate per la lettura offline · controllo online 22 nov, 16:38.",
         "stored": {
           "guides": 128,
-          "updated": "2026-11-22T16:09:55.609Z",
+          "updated": "2026-11-22T16:38:33.946Z",
           "bytes": 2659134,
           "includesNew09": true
         }
@@ -381,7 +381,7 @@
     {
       "page": "chi-siamo.html",
       "violations": [],
-      "passes": 17,
+      "passes": 18,
       "incomplete": 0
     },
     {
@@ -411,7 +411,7 @@
     {
       "page": "da-dove-cominciare.html",
       "violations": [],
-      "passes": 26,
+      "passes": 27,
       "incomplete": 0
     },
     {
@@ -765,7 +765,7 @@
     {
       "page": "dove-chiedere-aiuto.html",
       "violations": [],
-      "passes": 19,
+      "passes": 20,
       "incomplete": 1
     },
     {
@@ -777,7 +777,7 @@
     {
       "page": "gradimento.html",
       "violations": [],
-      "passes": 21,
+      "passes": 22,
       "incomplete": 0
     },
     {
@@ -861,19 +861,19 @@
     {
       "page": "metodo.html",
       "violations": [],
-      "passes": 17,
+      "passes": 18,
       "incomplete": 0
     },
     {
       "page": "modelli-e-strumenti.html",
       "violations": [],
-      "passes": 19,
+      "passes": 20,
       "incomplete": 1
     },
     {
       "page": "monitoraggio.html",
       "violations": [],
-      "passes": 24,
+      "passes": 25,
       "incomplete": 1
     },
     {
@@ -933,7 +933,7 @@
     {
       "page": "prova-lettori.html",
       "violations": [],
-      "passes": 25,
+      "passes": 26,
       "incomplete": 1
     },
     {
@@ -1047,7 +1047,7 @@
     {
       "page": "scadenze-del-mese.html",
       "violations": [],
-      "passes": 17,
+      "passes": 18,
       "incomplete": 1
     },
     {
