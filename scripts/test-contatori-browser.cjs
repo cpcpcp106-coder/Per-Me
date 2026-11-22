@@ -272,15 +272,28 @@ function row(name,pass,details){results.push({name,pass,details});console.log((p
       await links.setViewportSize({width,height:844});
       for(const file of ['index.html','farine-quale-scegliere.html']){
         await links.goto(base+file,{waitUntil:'networkidle'});
-        const button=links.getByRole('link',{name:'Per Me su Pinterest',exact:true});
+        for(const [social,label,destination] of [
+          ['instagram','Per Me su Instagram','https://www.instagram.com/permeguide/'],
+          ['whatsapp-canale','Canale WhatsApp','https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J'],
+          ['pinterest','Per Me su Pinterest','https://it.pinterest.com/permeguide/']
+        ]){
+        const button=links.getByRole('link',{name:label,exact:true});
         const details={width,count:await button.count(),
           href:await button.getAttribute('href'),
           button:await button.evaluate(el=>({height:el.getBoundingClientRect().height,
             width:el.getBoundingClientRect().width,font:getComputedStyle(el).fontSize})),
           page:await links.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth}))};
-        row('pinterest_link_'+file+'_'+width,
-          details.count===1&&details.href==='https://it.pinterest.com/permeguide/'&&
-          details.button.height>=48&&details.page.scrollWidth<=details.page.width+2,details);
+        row(social+'_link_'+file+'_'+width,
+          details.count===1&&details.href===destination&&
+          parseFloat(details.button.font)>=19&&details.button.height>=48&&
+          details.page.scrollWidth<=details.page.width+2,details);
+        }
+        await links.evaluate(()=>document.documentElement.style.fontSize='200%');
+        row('social_links_text_200_'+file+'_'+width,
+          await links.locator('.perme-social-link').evaluateAll(nodes=>
+            nodes.length===3&&nodes.every(el=>{const r=el.getBoundingClientRect();
+              return r.height>=48&&r.left>=0&&r.right<=innerWidth+2;})),{width});
+        await links.evaluate(()=>document.documentElement.style.removeProperty('font-size'));
       }
     }
     await links.close();
