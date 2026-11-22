@@ -4,7 +4,7 @@ Incarico autorizzato da Enrico il 22 novembre 2026: aggiungere il collegamento a
 
 ## Comportamento introdotto
 
-- Pulsante «Per Me su Pinterest» nel piè di pagina condiviso di 139 pagine pubbliche, compresa la homepage. Destinazione: https://it.pinterest.com/permeguide/ . Area tattile di almeno 48 pixel, carattere di 19 pixel, contrasto tra bianco e verde scuro; collegamento normale senza script di Pinterest.
+- Pulsante «Per Me su Pinterest» nella fascia social alta, subito sotto il menu, di 139 pagine pubbliche, compresa la homepage. Destinazione: https://it.pinterest.com/permeguide/ . Area tattile di almeno 48 pixel, carattere di 19 pixel, contrasto tra bianco e verde scuro; collegamento normale senza script di Pinterest.
 - Nuova provenienza `pinterest`, con conteggio dal 22 novembre 2026. Riconoscimento tramite `utm_source=pinterest`, domini `pinterest.com` e `pinterest.it` e sottodomini, oppure `pin.it`; confronto del dominio completo, senza corrispondenze con nomi ingannevoli.
 - La campagna esplicita Pinterest prevale su un eventuale `fbclid`. Le provenienze Facebook, Instagram, Google e WhatsApp conservano il proprio comportamento.
 - Voce Pinterest nel pannello corrente e in quello storico. Il pannello corrente conserva gli ultimi valori disponibili senza rete; nuova versione della cache per distribuire la schermata aggiornata.
@@ -41,3 +41,5 @@ Il collaudo browser del repository è esteso a Pinterest, ai pulsanti della home
 Nessun intervento richiesto sul telefono per questa modifica. Nessuna spesa attivata.
 
 Registri collegati: [133 post Pinterest](registro-pinterest-2026-11-22.md), [collegamenti delle provenienze](collegamenti-social-2026-11-20.md).
+
+Posizione attuale dei tre pulsanti: **subito sotto il menu e prima del contenuto**, come verificato nel [collaudo della fascia alta](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45044817087). Il registro dei pulsanti social documenta il successivo spostamento dalla posizione iniziale in fondo alle pagine.
