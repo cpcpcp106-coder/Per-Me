@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-23T07:31:33+00:00",
+  "date_utc": "2026-11-23T07:34:01+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 150,
@@ -8,8 +8,8 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5301,
-    "external_occurrences": 2677,
+    "local_occurrences": 5311,
+    "external_occurrences": 2681,
     "external_unique": 954,
     "actions": 8,
     "broken_local": [],
@@ -1862,10 +1862,10 @@
       "file": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
       "title": "Menù mediterraneo 30 novembre–6 dicembre 2026 | Per Me",
       "h1": 1,
-      "images": 1,
+      "images": 2,
       "images_without_alt": 0,
-      "links_local": 44,
-      "links_external": 29,
+      "links_local": 54,
+      "links_external": 33,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
