@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T07:49:29.182Z",
+  "checked_at_utc": "2026-11-23T11:55:44.424Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 141,
+        "count": 143,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 141,
+        "checked": 143,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 141,
+        "checked": 143,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:50.",
+        "status": "131 pagine salvate per la lettura offline · controllo online 23 nov, 11:56.",
         "stored": {
-          "guides": 129,
-          "updated": "2026-11-23T07:50:46.447Z",
-          "bytes": 2703531,
+          "guides": 131,
+          "updated": "2026-11-23T11:56:59.128Z",
+          "bytes": 2759882,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 129
+        "count": 131
       }
     },
     {
@@ -185,7 +185,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 11761
+        "chars": 12136
       }
     },
     {
@@ -202,6 +202,15 @@
       "details": {
         "characters": 27978,
         "mode": "Testi salvati; il lettore offline non conserva le fotografie delle guide"
+      }
+    },
+    {
+      "name": "caregiver_guides_updated_and_readable_offline",
+      "result": "PASS",
+      "details": {
+        "checked": 2,
+        "issues": [],
+        "mode": "Testi salvati; fotografie non conservate nel lettore offline"
       }
     },
     {
@@ -389,6 +398,18 @@
       "incomplete": 3
     },
     {
+      "page": "caregiver-familiari-anziani-disabilita-legge-104.html",
+      "violations": [],
+      "passes": 28,
+      "incomplete": 2
+    },
+    {
+      "page": "caregiver-familiari-fvg-contributi.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
       "page": "ccnl-inquadramento-livello-superminimo.html",
       "violations": [],
       "passes": 28,
@@ -415,7 +436,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {

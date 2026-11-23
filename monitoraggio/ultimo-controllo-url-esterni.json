@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-23T07:52:28.277375+00:00",
+  "date_utc": "2026-11-23T11:58:46.964789+00:00",
   "scope": {
-    "pages": 144,
-    "unique_external_urls": 948,
-    "occurrences": 2667
+    "pages": 146,
+    "unique_external_urls": 975,
+    "occurrences": 2719
   },
   "counts": {
     "bloccato_o_riservato": 120,
-    "raggiungibile": 799,
-    "non_verificato_trasporto": 28,
+    "raggiungibile": 825,
+    "non_verificato_trasporto": 29,
     "errore_http": 1
   },
   "results": [
@@ -88,8 +88,9 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -462,6 +463,16 @@
       "pages": [
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ]
+    },
+    {
+      "url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/fondo-caregiver",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://disabilita.regione.fvg.it/it/schede/contributi_agevolazioni/fondo-caregiver",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html"
       ]
     },
     {
@@ -1138,6 +1149,15 @@
       ]
     },
     {
+      "url": "https://famiglia.governo.it/it/politiche-e-attivita/natalita-e-conciliazione/conciliazione-famiglia-lavoro/altri-strumenti/permessi-lavorativi-ex-legge-104-del-1992/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://famiglia.governo.it/it/politiche-e-attivita/natalita-e-conciliazione/conciliazione-famiglia-lavoro/altri-strumenti/permessi-lavorativi-ex-legge-104-del-1992/",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/food-information-consumers-legislation/nutrition-labelling_en",
       "status": "raggiungibile",
       "http": 200,
@@ -1753,6 +1773,8 @@
         "agevolazioni-guida-09-locazioni-abitative.html",
         "aoi-invalidita-civile-differenze.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
@@ -1933,6 +1955,15 @@
       "final_url": "https://lavoro.gov.it/strumenti-e-servizi/pagine/piano-interventi-e-servizi-sociali",
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://lavoro.gov.it/strumenti-e-servizi/smart-working/Pagine/default",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lavoro.gov.it/strumenti-e-servizi/smart-working/Pagine/default",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -2399,6 +2430,15 @@
       ]
     },
     {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?Accessibile=yes&sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+127+del+08-07-2016.htm",
       "status": "raggiungibile",
       "http": 200,
@@ -2547,6 +2587,15 @@
       ]
     },
     {
+      "url": "https://temi.camera.it/leg19/temi/riconoscimento-e-tutela-delle-persone-che-assistono-e-si-prendono-cura-dei-prpri-cari.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://temi.camera.it/leg19/temi/riconoscimento-e-tutela-delle-persone-che-assistono-e-si-prendono-cura-dei-prpri-cari.html",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://tplfvg.it/it/abbonamenti/agevolazioni-e-sconti/",
       "status": "raggiungibile",
       "http": 200,
@@ -2603,6 +2652,15 @@
       "final_url": "https://tribunale-foggia.giustizia.it/cmsresources/cms/documents/SENT_5_6_2025_RISTRUTT_-_anonima.pdf",
       "pages": [
         "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://tribunale-verona.giustizia.it/it/dettaglio_comefareper.page?contentId=PRC7325&modelId=32",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://tribunale-verona.giustizia.it/it/dettaglio_comefareper.page?contentId=PRC7325&modelId=32",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -2672,6 +2730,8 @@
         "agevolazioni-guida-09-locazioni-abitative.html",
         "aoi-invalidita-civile-differenze.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
@@ -4489,11 +4549,29 @@
       ]
     },
     {
+      "url": "https://www.ats-pavia.it/riconciliazione-della-terapia-farmacologica-cosa-e-importante-sapere",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ats-pavia.it/riconciliazione-della-terapia-farmacologica-cosa-e-importante-sapere",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.auajournals.org/doi/10.1097/JU.0000000000003985",
       "status": "bloccato_o_riservato",
       "http": 403,
       "pages": [
         "diabete-guida-15-vescica-incontinenza-sessualita.html"
+      ]
+    },
+    {
+      "url": "https://www.ausl.bologna.it/guida-ai-servizi/luoghi/16626/323423",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ausl.bologna.it/guida-ai-servizi/luoghi/16626/323423",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -5350,6 +5428,15 @@
       ]
     },
     {
+      "url": "https://www.epicentro.iss.it/incidenti-domestici/rischi-cadute-anziani",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/incidenti-domestici/rischi-cadute-anziani",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/",
       "status": "raggiungibile",
       "http": 200,
@@ -5472,6 +5559,10 @@
         "aoi-invalidita-civile-differenze.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html",
+        "caregiver-familiari-fvg-contributi.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -5744,6 +5835,15 @@
       "final_url": "https://www.garanteprivacy.it/web/guest/home/docweb/-/docweb-display/docweb/10306949",
       "pages": [
         "tutor-ai-privacy-truffe.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/corte_costituzionale/caricaDettaglioAtto/originario?atto.codiceRedazionale=009C0646&atto.dataPubblicazioneGazzetta=2009-10-28",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/corte_costituzionale/caricaDettaglioAtto/originario?atto.codiceRedazionale=009C0646&atto.dataPubblicazioneGazzetta=2009-10-28",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -6193,6 +6293,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14125/Allegati/14124_Circolare-numero-39-del-04-04-2023.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2023/04/Circolare_14125/Allegati/14124_Circolare-numero-39-del-04-04-2023.pdf",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2024/07/Circolare_14621/Allegati/15225_Messaggio-numero-2563-del-09-07-2024_Allegato-n-1.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -6219,6 +6329,15 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/12/Circolare_15109/Allegati/16486_Circolare-numero-153-del-19-12-2025_Allegato-n-2.pdf",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/12/Circolare_15110/Allegati/16488_Circolare-numero-152-del-19-12-2025.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2025/12/Circolare_15110/Allegati/16488_Circolare-numero-152-del-19-12-2025.pdf",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -6276,6 +6395,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/content/dam/inps-site/pdf/allegati/en/INPS_per_la_disabilita.pdf",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -6384,6 +6504,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.51293.ricorso-giurisdizionale.html",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "riesame-ricorso-inps-termini.html",
         "riesame-ricorso-inps-termini.html",
@@ -6439,6 +6560,7 @@
       "pages": [
         "agevolazioni-diritti.html",
         "aoi-invalidita-civile-differenze.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
       ]
@@ -6486,11 +6608,21 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50097.indennit-per-congedi-straordinari-assistenza-familiari-disabili-.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50097.indennit-per-congedi-straordinari-assistenza-familiari-disabili-.html",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -6514,6 +6646,15 @@
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "soldi-lavoro.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50302.ape-sociale---anticipo-pensionistico---domanda.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50302.ape-sociale---anticipo-pensionistico---domanda.html",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -6800,8 +6941,18 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.decreto-anziani-prestazione-universale.html",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.delega-dell-identit-digitale-per-accedere-ai-servizi-online.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.delega-dell-identit-digitale-per-accedere-ai-servizi-online.html",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -7208,7 +7359,17 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.legge-di-bilancio-2026-le-novit-sulle-pensioni.html",
       "pages": [
-        "agevolazioni-diritti.html"
+        "agevolazioni-diritti.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.riforma-della-disabilit-al-via-la-terza-fase-sperimentale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.02.riforma-della-disabilit-al-via-la-terza-fase-sperimentale.html",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -7299,6 +7460,7 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.disabilit-over-70-le-novit-dal-1-giugno.html",
       "pages": [
         "aoi-invalidita-civile-differenze.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
@@ -7415,6 +7577,7 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.09.legge-104-permessi-e-superamento-dei-limiti-previsti.html",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -7576,6 +7739,8 @@
         "agevolazioni-guida-09-locazioni-abitative.html",
         "aoi-invalidita-civile-differenze.html",
         "assegno-ordinario-invalidita-requisiti-conferma.html",
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
@@ -7744,6 +7909,14 @@
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-guida-04-alimentazione-terapia-carboidrati.html",
         "diabete-tipo-2.html"
+      ]
+    },
+    {
+      "url": "https://www.issalute.it/index.php/la-salute-dalla-a-alla-z-menu/a/assistenza-a-familiari-con-disabilita-caregiver-familiari",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -8568,6 +8741,24 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=11A01923&atto.dataPubblicazioneGazzetta=2011-02-14",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=11A01923&atto.dataPubblicazioneGazzetta=2011-02-14",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=22G00114&atto.dataPubblicazioneGazzetta=2022-07-29",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=22G00114&atto.dataPubblicazioneGazzetta=2022-07-29",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=2&atto.codiceRedazionale=086U0917&atto.dataPubblicazioneGazzetta=1986-12-31&dataVigenza=15%2F11%2F2026",
       "status": "raggiungibile",
       "http": 200,
@@ -8583,6 +8774,15 @@
       "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=3&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=15G00095&atto.dataPubblicazioneGazzetta=2015-06-24",
       "pages": [
         "ccnl-inquadramento-livello-superminimo.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=4&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=22G00114&atto.dataPubblicazioneGazzetta=2022-07-29",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/atto/caricaDettaglioAtto?atto.articolo.numero=4&atto.articolo.sottoArticolo=1&atto.articolo.tipoArticolo=0&atto.codiceRedazionale=22G00114&atto.dataPubblicazioneGazzetta=2022-07-29",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -8754,6 +8954,7 @@
       "http": 200,
       "final_url": "https://www.normattiva.it/eli/stato/LEGGE/1992/02/05/104/CONSOLIDATED",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -8885,6 +9086,15 @@
       "final_url": "https://www.parlamento.it/parlam/leggi/98431l.htm",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.parlamento.it/parlam/leggi/deleghe/03066dl.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.parlamento.it/parlam/leggi/deleghe/03066dl.htm",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     },
     {
@@ -9325,6 +9535,15 @@
       ]
     },
     {
+      "url": "https://www.regione.emilia-romagna.it/caregiver/faq-caregiver/quale-tipo-di-supporto-posso-ricevere-dai-comuni-e-dai-servizi-della-aziende-sanitarie",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.emilia-romagna.it/caregiver/faq-caregiver/quale-tipo-di-supporto-posso-ricevere-dai-comuni-e-dai-servizi-della-aziende-sanitarie",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/infrastrutture-lavori-pubblici/infrastrutture-logistica-trasporti/FOGLIA105/",
       "status": "raggiungibile",
       "http": 200,
@@ -9344,6 +9563,36 @@
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html",
         "agevolazioni-guida-03-trasporti-fvg.html"
+      ]
+    },
+    {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html"
+      ]
+    },
+    {
+      "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html"
+      ]
+    },
+    {
+      "url": "https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20261120121725002",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20261120121725002",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "caregiver-familiari-fvg-contributi.html"
       ]
     },
     {
@@ -9803,6 +10052,7 @@
       "http": 200,
       "final_url": "https://www.salute.gov.it/new/it/tema/nuova-assistenza-distrettuale/assistenza-domiciliare/",
       "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
       ]
@@ -9931,6 +10181,15 @@
       ]
     },
     {
+      "url": "https://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?did=60529",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://www.senato.it/leggi-e-documenti/disegni-di-legge/scheda-ddl?did=60529",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
+      ]
+    },
+    {
       "url": "https://www.siditalia.it/sul-diabete/consigli-in-un-clic/alimentazione",
       "status": "bloccato_o_riservato",
       "http": 307,
@@ -10020,9 +10279,8 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "tutor-ai.html"
       ]
@@ -10112,6 +10370,15 @@
       "final_url": "https://www.who.int/publications/i/item/WHO-UHC-SDS-2019.9",
       "pages": [
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
+      ]
+    },
+    {
+      "url": "https://www1.agenziaentrate.gov.it/web_app_entrate/agevolazioni_disabilita.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www1.agenziaentrate.gov.it/web_app_entrate/agevolazioni_disabilita.html",
+      "pages": [
+        "caregiver-familiari-anziani-disabilita-legge-104.html"
       ]
     }
   ],
