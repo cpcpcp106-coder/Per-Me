@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-23T07:41:48.571083+00:00",
+  "date_utc": "2026-11-23T07:48:59.298775+00:00",
   "scope": {
     "pages": 144,
     "unique_external_urls": 948,
     "occurrences": 2667
   },
   "counts": {
-    "raggiungibile": 802,
+    "raggiungibile": 807,
     "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 26,
+    "non_verificato_trasporto": 21,
     "errore_http": 1
   },
   "results": [
@@ -3532,8 +3532,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3542,8 +3543,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3551,8 +3553,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3560,8 +3563,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3569,8 +3573,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3587,8 +3592,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3596,9 +3602,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/nota-100",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3611,8 +3616,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3620,9 +3626,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/nota-98",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
