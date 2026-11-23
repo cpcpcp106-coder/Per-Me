@@ -52,3 +52,20 @@ Non si dichiara una certificazione WCAG o una prova su Samsung reale.
 Run dopo la correzione: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45132637370
 
 Instagram: ID specifico del post 18147181492719601, rilevato nel menu Post di Instagram della riga pubblicata. Pagina di dettaglio offerta da Meta: https://business.facebook.com/latest/insights/object_insights/?content_id=18147181492719601&nav_ref=bizweb_content_published_posts_uta_dropdown
+
+
+## Correzione dopo segnalazione del lettore
+
+Il 23 novembre 2026 Enrico ha segnalato con uno screenshot il testo «Una persona · tutti i valori nutrizionali sono STIME CALCOLATE» disposto quasi lettera per lettera.
+
+Causa riprodotta nel browser pubblico a 340 pixel CSS: caption di tabella rimasta con display table-caption dentro la tabella trasformata in blocco per il mobile; larghezza della didascalia 36,97 pixel su 265 disponibili e altezza 1275,43 pixel. Il precedente controllo del solo scorrimento orizzontale non rilevava questo difetto.
+
+Correzione pubblicata nel commit ef091c6: descrizione spostata in un paragrafo prima della tabella, collegata semanticamente con aria-describedby. Nessun contenuto nutrizionale modificato.
+
+Verifica visiva e geometrica sulla pagina pubblica corretta: viewport 340 pixel, testo largo 265 pixel, pari alla sezione, e alto 93 pixel, ossia tre righe normali. La schermata corretta è stata ispezionata; lo zoom del browser è stato poi ripristinato.
+
+Pagina aggiornata: https://cpcpcp106-coder.github.io/Per-Me/menu-mediterraneo-30-novembre-6-dicembre-2026.html?v=20261123-mobile#settimana
+
+Aggiunto nel commit c48a870 un controllo specifico a 320 e 390 pixel: larghezza della descrizione almeno il 90% della sezione, altezza non oltre cinque righe. Il relativo workflow è stato avviato; al momento della verifica pubblica era in attesa, quindi non se ne dichiara ancora il superamento.
+
+Workflow: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45133558269
