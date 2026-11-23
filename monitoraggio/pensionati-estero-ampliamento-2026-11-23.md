@@ -50,4 +50,8 @@ Il bilancio comprende un caso con maggiori costi di casa, salute e viaggio, dist
 - App: sincronizzazione completa, 132 pagine salvate. Dopo arresto del server di anteprima, ricaricata l’app dalla cache e riaperte tutte le quattro guide: data 23 novembre e nuove sezioni presenti. Test di origine non raggiungibile, con connettività generale del browser attiva; nessuna certificazione dell’installazione Android.
 - Calcoli del nuovo esempio: 5.240 − 1.200 − 600 − 400 = 3.040; 3.040 − 1.400 = 1.640 euro.
 
-La verifica pubblica dopo l’aggiornamento è registrata nell’evidenza associata a questo intervento quando completata.
+## Pubblicazione verificata
+
+I contenuti del commit [fb779401b9](https://github.com/cpcpcp106-coder/Per-Me/commit/fb779401b9b3b1d75c2f41d67fd6935630b90d31) sono stati pubblicati dal [deployment completato](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45212269042), che include anche il successivo snapshot automatico dell’audit statico. Verificati HTTP 200 e corrispondenza byte per byte delle quattro pagine, del CSS e della sitemap; verificate le quattro foto pubbliche. Nel browser controllati ingresso della rubrica, collegamento alle pratiche, nuovi titoli e URL del pulsante Facebook.
+
+Risultati e limiti del test sono nell’[evidenza pubblica dell’intervento](pensionati-estero-verifica-pubblica-2026-11-23.json). Allineato anche il titolo della rubrica nel catalogo `gradimento-articoli.json` senza cambiare l’URL dell’articolo.

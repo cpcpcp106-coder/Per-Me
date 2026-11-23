@@ -1,0 +1,143 @@
+{
+  "checked_at_utc": "2026-11-23T16:05:36.055876+00:00",
+  "pages": [
+    {
+      "path": "pensionati-estero.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero.html",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_source": true,
+      "sha256": "8b21b38886df175d3ad7fe26ddaa013e9acb696e973907f8c425dded13e120d8"
+    },
+    {
+      "path": "pensionati-estero-trasferimento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-trasferimento.html",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_source": true,
+      "sha256": "b79a495a7c0cb50cbb62f24673c4dd8e017dc5a419dfbc43504a89f0a8f21b19"
+    },
+    {
+      "path": "pensionati-estero-budget.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-budget.html",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_source": true,
+      "sha256": "d46ccd20aeb58e477511941bfe4a32439afeecb2261e68baf58052762f51a4b6"
+    },
+    {
+      "path": "pensionati-estero-mete.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-mete.html",
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "matches_source": true,
+      "sha256": "19bae0d7a3a1d7ebdedaa2e8c8c798186304572b1d44b08afb9a83db14ab92bf"
+    },
+    {
+      "path": "guide-pratiche.css",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/guide-pratiche.css",
+      "http": 200,
+      "content_type": "text/css; charset=utf-8",
+      "matches_source": true,
+      "sha256": "20d2a73f2ad382be9295f7bd41d23af37c7724acdb5f7c1e4c5f5e5492079af5"
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "http": 200,
+      "content_type": "application/xml",
+      "matches_source": true,
+      "sha256": "5de2a3b8eb6552c17a79835a68c5fd35ddd68da04185af4d99b197166a3e3858"
+    }
+  ],
+  "content_commit": "fb779401b9b3b1d75c2f41d67fd6935630b90d31",
+  "public_deployment": {
+    "status": "success",
+    "head_sha": "b86362c946665d60b545f39771a21865bde5c263",
+    "workflow_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45212269042"
+  },
+  "images": [
+    {
+      "path": "assets/pensionati-estero-rubrica.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "bytes": 101842,
+      "matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-pratiche.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "bytes": 82506,
+      "matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-bilancio.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "bytes": 74340,
+      "matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-mete.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "bytes": 173600,
+      "matches_source": true
+    }
+  ],
+  "page_metadata": [
+    {
+      "path": "pensionati-estero.html",
+      "canonical": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero.html",
+      "robots": "index,follow",
+      "facebook_url": "https://www.facebook.com/PerMeGuide/"
+    },
+    {
+      "path": "pensionati-estero-trasferimento.html",
+      "canonical": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-trasferimento.html",
+      "robots": "index,follow",
+      "facebook_url": "https://www.facebook.com/PerMeGuide/"
+    },
+    {
+      "path": "pensionati-estero-budget.html",
+      "canonical": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-budget.html",
+      "robots": "index,follow",
+      "facebook_url": "https://www.facebook.com/PerMeGuide/"
+    },
+    {
+      "path": "pensionati-estero-mete.html",
+      "canonical": "https://cpcpcp106-coder.github.io/Per-Me/pensionati-estero-mete.html",
+      "robots": "index,follow",
+      "facebook_url": "https://www.facebook.com/PerMeGuide/"
+    }
+  ],
+  "mobile_browser": {
+    "engine": "Chrome cloud; iframe viewport 320 e 390 pixel",
+    "pages": [
+      "pensionati-estero.html",
+      "pensionati-estero-trasferimento.html",
+      "pensionati-estero-budget.html",
+      "pensionati-estero-mete.html"
+    ],
+    "horizontal_overflow": false,
+    "missing_local_anchors": 0,
+    "minimum_guide_button_height_px": 56
+  },
+  "reader_test": {
+    "synced_pages": 132,
+    "server_stopped": true,
+    "app_reloaded_from_cache": true,
+    "updated_guides_reopened": 4,
+    "updated_date_and_sections_present": true,
+    "limitation": "Origine non raggiungibile, connettività generale del browser attiva; nessun test su Samsung fisico."
+  },
+  "indexability": {
+    "public_pages": 149,
+    "sitemap_urls": 149,
+    "reachable_from_home": 149,
+    "issues": 0,
+    "does_not_confirm_google_indexing": true
+  },
+  "price_data_scope": "Raccolta del 16 novembre 2026 mantenuta; nessun nuovo preventivo per tutte le 15 città."
+}
