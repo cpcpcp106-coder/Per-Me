@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-22T21:37:19.973507+00:00",
+  "date_utc": "2026-11-23T07:34:24.116243+00:00",
   "scope": {
-    "pages": 143,
-    "unique_external_urls": 940,
-    "occurrences": 2634
+    "pages": 144,
+    "unique_external_urls": 948,
+    "occurrences": 2663
   },
   "counts": {
     "bloccato_o_riservato": 120,
-    "raggiungibile": 789,
-    "non_verificato_trasporto": 30,
+    "raggiungibile": 813,
+    "non_verificato_trasporto": 14,
     "errore_http": 1
   },
   "results": [
@@ -1008,7 +1008,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj/ita",
       "pages": [
         "dieta-guida-07-etichette-sale-zuccheri-allergeni.html"
@@ -1017,7 +1017,7 @@
     {
       "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj?locale=it",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj?locale=it",
       "pages": [
         "farine-quale-scegliere.html"
@@ -1026,7 +1026,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A02022R2104-20240610",
       "pages": [
         "dieta-guida-05-grassi-olio-evo-origine-etichette-costi.html",
@@ -1036,7 +1036,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/ALL/?uri=CELEX%3A32022R2104",
       "pages": [
         "dieta-mediterranea-scientifica.html"
@@ -1045,7 +1045,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32014R0828",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32014R0828",
       "pages": [
         "farine-quale-scegliere.html"
@@ -1054,7 +1054,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
       "pages": [
         "pizza-napoletana-con-licoli.html",
@@ -1064,7 +1064,7 @@
     {
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R2313",
       "status": "raggiungibile",
-      "http": 200,
+      "http": 202,
       "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32022R2313",
       "pages": [
         "pizza-napoletana-con-licoli.html"
@@ -3505,24 +3505,27 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3530,8 +3533,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3540,8 +3544,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3549,8 +3554,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3568,8 +3574,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3577,8 +3584,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3586,8 +3594,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3595,8 +3604,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3609,8 +3619,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3618,8 +3629,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -3632,7 +3644,8 @@
       "final_url": "https://www.alimentinutrizione.it/presentazione-dati",
       "pages": [
         "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
-        "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html"
+        "dieta-guida-04-porzioni-pesi-crudo-cotto-tabelle-crea.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -3684,6 +3697,7 @@
         "app/menu-mediterraneo.html",
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
       ]
     },
@@ -3709,6 +3723,7 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -3745,6 +3760,7 @@
         "dieta-ricette-minestre-legumi.html",
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-pasta-integrale-ceci-cavolfiore.html"
       ]
     },
@@ -3756,7 +3772,8 @@
       "pages": [
         "dieta-ricette-colazioni.html",
         "dieta-ricette-colazioni.html",
-        "dieta-ricette-colazioni.html"
+        "dieta-ricette-colazioni.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -3770,6 +3787,15 @@
         "dieta-ricette-minestre-legumi.html",
         "dieta-ricette-piatti-legumi.html",
         "ricetta-pasta-integrale-ceci-cavolfiore.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004010",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004010",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -3817,6 +3843,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004510",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004510",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/004730",
       "status": "raggiungibile",
       "http": 200,
@@ -3847,6 +3882,7 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-zuppa-orzo-lenticchie-porro-carota.html"
       ]
     },
@@ -3866,6 +3902,7 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005160",
       "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-pasta-integrale-ceci-cavolfiore.html"
       ]
     },
@@ -3889,6 +3926,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005300",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005300",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/005320",
       "status": "raggiungibile",
       "http": 200,
@@ -3897,6 +3943,7 @@
         "dieta-ricette-pesce.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
       ]
     },
@@ -3928,6 +3975,7 @@
         "dieta-ricette-pesce.html",
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -3939,6 +3987,7 @@
       "pages": [
         "dieta-ricette-minestre-legumi.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -3960,6 +4009,7 @@
       "pages": [
         "dieta-ricette-pesce.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
       ]
     },
@@ -3993,6 +4043,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006680",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006680",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/006850",
       "status": "raggiungibile",
       "http": 200,
@@ -4007,7 +4066,8 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/007120",
       "pages": [
-        "dieta-ricette-colazioni.html"
+        "dieta-ricette-colazioni.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -4034,7 +4094,8 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008000",
       "pages": [
-        "dieta-ricette-colazioni.html"
+        "dieta-ricette-colazioni.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -4045,6 +4106,7 @@
       "pages": [
         "dieta-ricette-pesce.html",
         "dieta-ricette-pesce.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-merluzzo-patate-finocchio-limone.html"
       ]
     },
@@ -4065,6 +4127,7 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/008570",
       "pages": [
         "dieta-ricette-colazioni.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
       ]
     },
@@ -4094,6 +4157,7 @@
         "dieta-ricette-uova-carne-bianca.html",
         "dieta-ricette-uova-carne-bianca.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html",
         "ricetta-insalata-borlotti-riso-integrale-pomodori.html",
         "ricetta-merluzzo-patate-finocchio-limone.html",
@@ -4110,6 +4174,7 @@
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/106500",
       "pages": [
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-riso-integrale-pollo-radicchio-noci.html"
       ]
     },
@@ -4133,6 +4198,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121430",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/121430",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/122700",
       "status": "raggiungibile",
       "http": 200,
@@ -4147,7 +4221,8 @@
       "http": 200,
       "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/123000",
       "pages": [
-        "dieta-ricette-pesce.html"
+        "dieta-ricette-pesce.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -4169,6 +4244,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/135820",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/135820",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/150010",
       "status": "raggiungibile",
       "http": 200,
@@ -4179,6 +4263,15 @@
       ]
     },
     {
+      "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/151000",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/151000",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.alimentinutrizione.it/tabelle-nutrizionali/166820",
       "status": "raggiungibile",
       "http": 200,
@@ -4186,7 +4279,8 @@
       "pages": [
         "dieta-ricette-colazioni.html",
         "dieta-ricette-ricotta.html",
-        "dieta-ricette-ricotta.html"
+        "dieta-ricette-ricotta.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
       ]
     },
     {
@@ -4197,6 +4291,7 @@
       "pages": [
         "dieta-ricette-uova-carne-bianca.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "ricetta-frittata-zucca-spinaci-pane-integrale.html"
       ]
     },
@@ -4967,6 +5062,15 @@
       ]
     },
     {
+      "url": "https://www.efsa.europa.eu/it/safe2eat/proper-food-handling",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.efsa.europa.eu/it/safe2eat/proper-food-handling",
+      "pages": [
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html"
+      ]
+    },
+    {
       "url": "https://www.ema.europa.eu/en/documents/medicine-qa/questions-answers-outcome-assessment-use-mounjaro-treatment-obstructive-sleep-apnoea_en.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -5333,7 +5437,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -5359,7 +5463,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-diritti.html",
@@ -5481,6 +5585,7 @@
         "licoli-da-zero.html",
         "lievito-madre.html",
         "lievito-madre.html",
+        "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "metodo.html",
         "metodo.html",
         "modelli-e-strumenti.html",
@@ -7975,8 +8080,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -9221,8 +9327,9 @@
     },
     {
       "url": "https://www.pra.gov.ph/srrvisa/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.pra.gov.ph/srrvisa/",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -9913,8 +10020,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
@@ -9922,8 +10030,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
