@@ -17,6 +17,6 @@ Pinterest: titolo Italia–Turchia: contributi e previdenza dei lavoratori dista
 
 Instagram: l'opzione di cross-post è stata bloccata prima dell'attivazione. Motivo comunicato a Enrico: il controllo automatico ha letto la regola sull'identità Facebook come limite ai canali. Non è stato tentato alcun aggiramento.
 
-Nessuna campagna a pagamento. Nessuna attestazione di invii nei gruppi Facebook o nel canale WhatsApp.
+Nessuna campagna a pagamento. Nessuna attestazione di invii nei gruppi Facebook. Il 23 novembre Enrico ha chiesto anche l'annuncio sul canale WhatsApp: testo e foto pronti; invio non effettuato perché WhatsApp Web richiede il collegamento dell'account (QR o numero di telefono). Testo in divulgazione/whatsapp-italia-turchia-2026-11-23.txt; foto originale già pubblicata nella guida.
 
 Verifiche: https://github.com/cpcpcp106-coder/Per-Me/blob/main/verifiche/italia-turchia-pubblicazione-2026-11-23.md
