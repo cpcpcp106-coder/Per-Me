@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-23T14:53:20+00:00",
+  "date_utc": "2026-11-23T16:04:05+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 153,
@@ -8,9 +8,9 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5449,
-    "external_occurrences": 2741,
-    "external_unique": 984,
+    "local_occurrences": 5486,
+    "external_occurrences": 2751,
+    "external_unique": 993,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -2035,14 +2035,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 40,
+      "links_local": 42,
       "links_external": 9,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 25
+      "candidate_numeric_legal_mentions": 33
     },
     {
       "file": "pensionati-estero-mete.html",
@@ -2050,7 +2050,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 81,
+      "links_local": 86,
       "links_external": 61,
       "missing_local": 0,
       "noindex": false,
@@ -2065,23 +2065,23 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 53,
-      "links_external": 26,
+      "links_local": 79,
+      "links_external": 35,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 15
+      "candidate_numeric_legal_mentions": 23
     },
     {
       "file": "pensionati-estero.html",
-      "title": "Da pensionati conviene trasferirsi all’estero? | Per Me",
+      "title": "Pensionati all’estero: pensione, tasse e sanità | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 28,
-      "links_external": 10,
+      "links_local": 32,
+      "links_external": 11,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
