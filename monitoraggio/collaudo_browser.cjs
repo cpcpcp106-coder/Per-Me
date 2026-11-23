@@ -365,7 +365,8 @@ for(const name of ['caregiver-familiari-anziani-disabilita-legge-104.html','care
    return path.includes('fvg')?title.includes('Friuli Venezia Giulia'):title.includes('Assistere un familiare');
   },name,{timeout:5000});
   const text=await page.locator('#reader-content').innerText();
-  if(text.length<1000 || !text.includes('23 novembre 2026') || !text.includes('INPS')) caregiverOfflineIssues.push({name,error:'Testo o riferimenti aggiornati assenti'});
+  const expected=name.includes('-fvg-')?'Fondo per l’autonomia possibile':'INPS';
+  if(text.length<1000 || !text.includes('23 novembre 2026') || !text.includes(expected)) caregiverOfflineIssues.push({name,error:'Testo o riferimenti aggiornati assenti'});
  }catch(e){caregiverOfflineIssues.push({name,error:String(e).slice(0,260)})}
 }
 record('caregiver_guides_updated_and_readable_offline',!caregiverOfflineIssues.length,{checked:2,issues:caregiverOfflineIssues,mode:'Testi salvati; fotografie non conservate nel lettore offline'});
