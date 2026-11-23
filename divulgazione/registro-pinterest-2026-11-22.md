@@ -1,5 +1,57 @@
 # Per Me — registro Pinterest del 22 novembre 2026
 
+## Aggiornamento del 23 novembre 2026
+
+**137 Pin complessivi in 12 bacheche, due nuove pubblicazioni completate in questo controllo.**
+
+Confrontati la sitemap corrente, il registro iniziale e i Pin più recenti del profilo. La guida nazionale sui caregiver e la guida Italia–Turchia erano già presenti: non sono state ripubblicate. Sono stati aggiunti soltanto il nuovo menù e la scheda caregiver per il Friuli Venezia Giulia.
+
+| Contenuto | Pin | Esito del controllo |
+| --- | --- | --- |
+| [Caregiver e Legge 104: diritti e aiuti per assistere un familiare](https://cpcpcp106-coder.github.io/Per-Me/caregiver-familiari-anziani-disabilita-legge-104.html) | [Apri Pin](https://it.pinterest.com/pin/269441990205494783/) | Già pubblicato; verificato, senza duplicarlo |
+| [Italia–Turchia: contributi e previdenza dei lavoratori distaccati](https://cpcpcp106-coder.github.io/Per-Me/italia-turchia-previdenza-distacco-contributi.html) | [Apri Pin](https://it.pinterest.com/pin/269441990205500846/) | Già pubblicato; verificato, senza duplicarlo |
+| [Menù mediterraneo 30 novembre–6 dicembre 2026: ricette e spesa](https://cpcpcp106-coder.github.io/Per-Me/menu-mediterraneo-30-novembre-6-dicembre-2026.html) | [Apri Pin](https://it.pinterest.com/pin/269441990205501994/) | Pubblicato e verificato in questo incarico |
+| [Caregiver in Friuli Venezia Giulia: contributi, FAP e a chi rivolgersi](https://cpcpcp106-coder.github.io/Per-Me/caregiver-familiari-fvg-contributi.html) | [Apri Pin](https://it.pinterest.com/pin/269441990205502035/) | Pubblicato e verificato in questo incarico |
+
+I due nuovi Pin sono nelle bacheche «Ricette mediterranee» e «Agevolazioni e diritti», rispettivamente. Verificati titolo, foto caricata, testo alternativo, dichiarazione dell’origine AI, bacheca e collegamento alla pagina corrispondente. Per la foto caregiver è stata dichiarata anche la presenza di persone generate. Le raccomandazioni di prodotti simili sono disattivate su questi due Pin; nessuna campagna pubblicitaria o servizio a pagamento attivato.
+
+Il tentativo di importazione del menù dal sito ha restituito «Sorry! Your request could not be completed». Dopo aver verificato che il Pin non risultava pubblicato, il caricamento diretto della foto originale ha risolto l’ostacolo. Il profilo mostra una sola pubblicazione per ciascuna delle due novità.
+
+Le due pagine di destinazione rispondono HTTP 200, con canonical coerente, foto raggiungibile e pulsante Facebook presente. I nuovi collegamenti contengono `utm_source=pinterest`, `utm_medium=organic_social`, `utm_campaign=novita_20261123` e identificativi distinti `menu_20261130` e `caregiver_fvg`.
+
+### Statistiche osservate
+
+Fonte: Pinterest Analytics, account Per Me Guide, filtro Organic, ultime 24 ore (22–23 novembre 2026). I dati giornalieri della piattaforma sono registrati in UTC.
+
+La panoramica mostra «Real-time data unavailable», «Not enough data to display» e trattini nelle metriche aggregate, compresi gli Outbound clicks. I dati non sono disponibili: non è corretto interpretarli come zero visite.
+
+Le schede dei Pin mostrano prime impressioni e clic sul Pin. Le aperture di controllo effettuate in questo incarico possono incidere su quei valori e non sono attribuite a nuovi lettori. Non è confermato un totale di visite esterne verso il sito.
+
+### Conteggi visibili delle bacheche
+
+| Bacheca | Pin |
+| --- | ---: |
+| Agevolazioni e diritti | 13 |
+| Ricette mediterranee | 15 |
+| Lavoro e stipendio | 16 |
+| Pensioni e invalidità | 10 |
+| Guide e strumenti | 5 |
+| Diabete tipo 2 | 31 |
+| Debiti e cartelle | 10 |
+| Salute e autonomia | 9 |
+| Tutor AI e smartphone | 8 |
+| Dieta mediterranea | 9 |
+| Pensionati all’estero | 4 |
+| Pane, pizza e farine | 7 |
+| Totale | 137 |
+
+Il collegamento del profilo è mostrato nella forma HTTP e conduce alla homepage HTTPS corretta. I tentativi di salvare la forma HTTPS nel campo del profilo non hanno prodotto una variazione persistente del valore mostrato; la causa non è accertata. L’apertura della destinazione è riuscita.
+
+Per il testo promozionale regionale sono state ricontrollate le fonti primarie della [Regione sul Fondo caregiver](https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/) e sul [Fondo per l’autonomia possibile](https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/). Il post distingue lo stanziamento dei fondi dall’apertura dei bandi locali, senza annunciare domande aperte non accertate.
+
+## Situazione storica del 22 novembre 2026
+
+
 **133 Pin pubblicati e verificati, collegati a 133 pagine distinte di Per Me. Nessuna pubblicazione in attesa.**
 
 Controllo concluso il 22/11/2026 alle 16:31, fuso Europe/Rome.
