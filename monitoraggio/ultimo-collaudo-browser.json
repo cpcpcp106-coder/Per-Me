@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T07:46:03.476Z",
+  "checked_at_utc": "2026-11-23T07:49:29.182Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -75,6 +75,28 @@
       }
     },
     {
+      "name": "weekly_menu_description_mobile_readability",
+      "result": "PASS",
+      "details": [
+        {
+          "viewport": 320,
+          "width": 248,
+          "height": 124,
+          "parentWidth": 248,
+          "lineHeight": 31,
+          "readable": true
+        },
+        {
+          "viewport": 390,
+          "width": 318,
+          "height": 93,
+          "parentWidth": 318,
+          "lineHeight": 31,
+          "readable": true
+        }
+      ]
+    },
+    {
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
@@ -137,10 +159,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:47.",
+        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:50.",
         "stored": {
           "guides": 129,
-          "updated": "2026-11-23T07:47:20.357Z",
+          "updated": "2026-11-23T07:50:46.447Z",
           "bytes": 2703531,
           "includesNew09": true
         }
