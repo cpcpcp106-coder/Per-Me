@@ -1,0 +1,124 @@
+{
+  "checked_at": "2026-11-23T17:44:30.003268+00:00",
+  "content_commit": "9d006a08c2fa48231fd5bc494399f6d706db8329",
+  "results": [
+    {
+      "path": "tangzhong-autolisi-biga-poolish.html",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/tangzhong-autolisi-biga-poolish.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 28493,
+      "same_bytes_as_validated_source": true,
+      "sha256": "6cec8d52eee80906eece20eb7d81f3cb08216b6bea15499ae900323f70cc593a",
+      "h1": "Impasti diretti e indiretti: biga, poolish, autolisi e tangzhong",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/tangzhong-autolisi-biga-poolish.html"
+      ],
+      "facebook_present": true,
+      "content_images": [
+        "assets/tecniche-impasto-originale.webp"
+      ],
+      "new_sections": true
+    },
+    {
+      "path": "farine-quale-scegliere.html",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/farine-quale-scegliere.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31999,
+      "same_bytes_as_validated_source": true,
+      "sha256": "01f4ca69cf01076faddc041b2c3a4680e879f3b9ab2103f561bf2f197d1b5ba8",
+      "h1": "Farine: quale scegliere per pane, pizza e dolci",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/farine-quale-scegliere.html"
+      ],
+      "facebook_present": true,
+      "content_images": [
+        "assets/farine-originale.webp",
+        "assets/farine-impasto-originale.webp"
+      ],
+      "new_sections": true
+    },
+    {
+      "path": "assets/tecniche-impasto-originale.webp",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tecniche-impasto-originale.webp",
+      "content_type": "image/webp",
+      "bytes": 173878,
+      "same_bytes_as_validated_source": true,
+      "sha256": "af8fd1c4c59cad5343408ea92499d8806f4e1654213eff0395095ede506f8652"
+    },
+    {
+      "path": "assets/farine-originale.webp",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/farine-originale.webp",
+      "content_type": "image/webp",
+      "bytes": 259650,
+      "same_bytes_as_validated_source": true,
+      "sha256": "954f6692fcc2634bc2aae8f0b09a0e9fd72479f03740fe038f9af3f6531518c1"
+    },
+    {
+      "path": "assets/farine-impasto-originale.webp",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/farine-impasto-originale.webp",
+      "content_type": "image/webp",
+      "bytes": 299374,
+      "same_bytes_as_validated_source": true,
+      "sha256": "e9414c4c49fea4e600981fc2df00754608840a51afb0c9e11aef7614f8f51e97"
+    },
+    {
+      "path": "farine.css?v=20261123",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/farine.css?v=20261123",
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 4336,
+      "same_bytes_as_validated_source": true,
+      "sha256": "df27786ff420f48ebaea8172a51921639f3ef2b596d7fc583dfaf1c787713d27"
+    },
+    {
+      "path": "lievito-madre.html",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/lievito-madre.html",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 9609,
+      "same_bytes_as_validated_source": true,
+      "sha256": "395854d9f01be433bd1f067ff34a3a49cfe3f1c374639229e04dce4a17e48edc",
+      "h1": "Dal lievito naturale alla pagnotta e alla pizza",
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/lievito-madre.html"
+      ],
+      "facebook_present": true,
+      "content_images": [
+        "assets/farine-originale.webp",
+        "assets/tecniche-impasto-originale.webp",
+        "assets/pasta-madre-solida-originale.webp",
+        "assets/licoli-originale.webp",
+        "assets/pane-500g-friggitrice-8l-originale.webp",
+        "assets/pizza-napoletana-licoli-originale.webp"
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "http": 200,
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "content_type": "application/xml",
+      "bytes": 20606,
+      "same_bytes_as_validated_source": true,
+      "sha256": "a6ba366e1532035f1d1111257536e426c123a2119a2e45357f873edac48c3736"
+    }
+  ],
+  "all_ok": true,
+  "pages_deployment": {
+    "run_id": 45230669454,
+    "conclusion": "success",
+    "head_sha": "215090c56d5bf16fbc4a58756f6cee89305f02e4",
+    "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45230669454"
+  },
+  "browser_public_verified": true,
+  "responsive_browser_step": {
+    "run_id": 45230639478,
+    "conclusion": "success",
+    "global_external_links_step": "in_progress_at_recording",
+    "real_samsung_tested": false
+  }
+}
