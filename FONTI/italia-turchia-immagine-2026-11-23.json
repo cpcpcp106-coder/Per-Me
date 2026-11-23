@@ -1,0 +1,15 @@
+{
+  "created": "2026-11-23",
+  "tool": "ChatGPT ImageGen built-in",
+  "original": "exec-e9c09021-043a-4604-869b-f7e642de7620.png",
+  "original_sha256": "7102851b857ff28976360721f0e9e33cf3e38536923a34d50e3f2e4e2f7e10d6",
+  "asset": "assets/italia-turchia-distacco-originale.webp",
+  "git_blob_sha": "c86bb8c2a46420380fef536a0a28632552870435",
+  "width": 1254,
+  "height": 1254,
+  "derivative": "Solo conversione PNG-WebP, senza ritocco né ritaglio.",
+  "context": "Fotografia illustrativa con persone immaginarie; nessun logo INPS o modulo reale.",
+  "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for the Italian free guide Per Me and social announcement about social security for employees temporarily posted between Italy and Turkey. Create a square, highly realistic natural photograph: a 58-year-old male industrial technician in a clean navy work jacket, seated beside a 52-year-old female payroll employee in an ordinary office at a small manufacturing company, reviewing generic blank papers and a calendar together, factory floor softly visible through glass behind them. Small Italian and Turkish desk flags, correctly drawn, as subtle setting cues. Calm collaborative everyday atmosphere, natural window light, authentic mature faces, realistic hands. Composition works at smartphone size, no collage, no stereotypes. No readable text, no logos, no watermark, no official INPS forms, no actual identifiable people. Do not imply this is a real case or an official INPS photo.",
+  "terms_verified_on": "2026-11-23",
+  "terms_url": "https://openai.com/it-IT/policies/terms-of-use/"
+}

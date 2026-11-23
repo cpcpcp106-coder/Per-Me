@@ -370,6 +370,13 @@ for(const name of ['caregiver-familiari-anziani-disabilita-legge-104.html','care
  }catch(e){caregiverOfflineIssues.push({name,error:String(e).slice(0,260)})}
 }
 record('caregiver_guides_updated_and_readable_offline',!caregiverOfflineIssues.length,{checked:2,issues:caregiverOfflineIssues,mode:'Testi salvati; fotografie non conservate nel lettore offline'});
+try{
+ await page.evaluate(()=>{location.hash='guida='+encodeURIComponent('italia-turchia-previdenza-distacco-contributi.html')});
+ await page.waitForFunction(()=>document.getElementById('reader-title')?.textContent.includes('Italia e Turchia'),{timeout:5000});
+ const text=await page.locator('#reader-content').innerText();
+ const tables=await page.locator('#reader-content table').count();
+ record('italia_turchia_guide_readable_offline',text.length>4000&&tables===2&&text.includes('DI01')&&text.includes('denuncia di regolarizzazione'),{characters:text.length,tables,mode:'Testo e tabelle salvati; foto richiede Internet'});
+}catch(e){record('italia_turchia_guide_readable_offline',false,{error:String(e).slice(0,260)})}
 await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);
