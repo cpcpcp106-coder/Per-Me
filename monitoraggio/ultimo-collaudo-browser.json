@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T07:34:54.025Z",
+  "checked_at_utc": "2026-11-23T07:39:22.219Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -96,20 +96,10 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "FAIL",
+      "result": "PASS",
       "details": {
         "checked": 141,
-        "failed": [
-          {
-            "page": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
-            "violations": [
-              {
-                "id": "color-contrast",
-                "nodes": 1
-              }
-            ]
-          }
-        ],
+        "failed": [],
         "errors": []
       }
     },
@@ -147,10 +137,10 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:36.",
+        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:40.",
         "stored": {
           "guides": 129,
-          "updated": "2026-11-23T07:36:11.378Z",
+          "updated": "2026-11-23T07:40:15.829Z",
           "bytes": 2703497,
           "includesNew09": true
         }
@@ -403,7 +393,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 17,
+      "passes": 16,
       "incomplete": 0
     },
     {
@@ -870,20 +860,7 @@
     },
     {
       "page": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
-      "violations": [
-        {
-          "id": "color-contrast",
-          "impact": "serious",
-          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
-          "help": "Elements must meet minimum color contrast ratio thresholds",
-          "affected": [
-            [
-              ".social-button"
-            ]
-          ],
-          "total": 1
-        }
-      ],
+      "violations": [],
       "passes": 28,
       "incomplete": 2
     },
