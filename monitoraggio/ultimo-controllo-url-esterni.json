@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-23T14:57:35.787992+00:00",
+  "date_utc": "2026-11-23T16:09:07.290627+00:00",
   "scope": {
     "pages": 147,
-    "unique_external_urls": 978,
-    "occurrences": 2727
+    "unique_external_urls": 987,
+    "occurrences": 2737
   },
   "counts": {
-    "raggiungibile": 829,
-    "bloccato_o_riservato": 119,
-    "non_verificato_trasporto": 29,
-    "errore_http": 1
+    "raggiungibile": 849,
+    "errore_http": 2,
+    "bloccato_o_riservato": 120,
+    "non_verificato_trasporto": 16
   },
   "results": [
     {
@@ -285,6 +285,25 @@
       ]
     },
     {
+      "url": "https://consfrancoforte.esteri.it/it/news/dal_consolato/2026/10/pagamento-delle-pensioni-inps-allestero-campagna-di-accertamento-dellesistenza-in-vita/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://consfrancoforte.esteri.it/it/news/dal_consolato/2026/10/pagamento-delle-pensioni-inps-allestero-campagna-di-accertamento-dellesistenza-in-vita/",
+      "pages": [
+        "pensionati-estero-trasferimento.html",
+        "pensionati-estero.html"
+      ]
+    },
+    {
+      "url": "https://consfrancoforte.esteri.it/wp-content/uploads/2026/10/INPS2026_Messaggio-n.2825_Accertamento.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://consfrancoforte.esteri.it/wp-content/uploads/2026/10/INPS2026_Messaggio-n.2825_Accertamento.pdf",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://creafuturo.crea.gov.it/15290/",
       "status": "raggiungibile",
       "http": 200,
@@ -459,7 +478,7 @@
       "url": "https://digital-strategy.ec.europa.eu/it/policies/112",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://digital-strategy.ec.europa.eu/it/policies/112",
+      "final_url": "https://digital-strategy.ec.europa.eu/en/page-not-found",
       "pages": [
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
@@ -1126,6 +1145,24 @@
       "final_url": "https://europa.eu/youreurope/citizens/residence/residence-rights/pensioners/index_it.htm",
       "pages": [
         "pensionati-estero-mete.html",
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/work/retire-abroad/state-pensions-abroad/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/work/retire-abroad/state-pensions-abroad/index_it.htm",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://europa.eu/youreurope/citizens/work/taxes/double-taxation/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/work/taxes/double-taxation/index_it.htm",
+      "pages": [
         "pensionati-estero-trasferimento.html"
       ]
     },
@@ -3577,24 +3614,27 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3602,8 +3642,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3612,8 +3653,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3621,8 +3663,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3630,8 +3673,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3639,8 +3683,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3648,8 +3693,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3657,8 +3703,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3666,8 +3713,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3680,8 +3728,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3689,8 +3738,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -5798,6 +5848,14 @@
       ]
     },
     {
+      "url": "https://www.fiscooggi.it/sites/default/files/file/2024/11/045_Com.%20st.%20Circolare%20residenza%20fiscale%2004.11.24.pdf",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
       "status": "raggiungibile",
       "http": 200,
@@ -5875,6 +5933,15 @@
       "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=17G00092&art.dataPubblicazioneGazzetta=2017-06-09&art.flagTipoArticolo=1&art.idArticolo=19&art.idGruppo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00127&art.dataPubblicazioneGazzetta=2026-06-27&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00127&art.dataPubblicazioneGazzetta=2026-06-27&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
       ]
     },
     {
@@ -6447,6 +6514,15 @@
       "pages": [
         "inps-mobile-5-novita.html",
         "inps-mobile-5-novita.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49797.accertamento-redditi-di-pensionati-residenti-all-estero.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-approfondimento.schede-informative.49797.accertamento-redditi-di-pensionati-residenti-all-estero.html",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
       ]
     },
     {
@@ -7262,6 +7338,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.04.pensionati-residenti-in-bulgaria-nuovi-criteri-di-esenzione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.04.pensionati-residenti-in-bulgaria-nuovi-criteri-di-esenzione.html",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.11.piattaforma-siisl-iscrizione-dei-percettori-naspi-e-dis-coll.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7504,6 +7589,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.05.pensionati-il-cedolino-di-pensione-di-giugno-2026.html",
       "pages": [
         "cedolino-pensione-obism-arretrati-verificare-importi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.06.al-via-la-campagna-redest-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.06.al-via-la-campagna-redest-2026.html",
+      "pages": [
+        "pensionati-estero-trasferimento.html"
       ]
     },
     {
@@ -7932,9 +8026,8 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -8276,9 +8369,8 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
+      "status": "errore_http",
+      "http": 502,
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -9600,8 +9692,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"

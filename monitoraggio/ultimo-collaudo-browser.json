@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T14:54:05.404Z",
+  "checked_at_utc": "2026-11-23T16:05:53.345Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "132 pagine salvate per la lettura offline · controllo online 23 nov, 14:55.",
+        "status": "132 pagine salvate per la lettura offline · controllo online 23 nov, 16:07.",
         "stored": {
           "guides": 132,
-          "updated": "2026-11-23T14:55:23.035Z",
-          "bytes": 2773097,
+          "updated": "2026-11-23T16:07:12.662Z",
+          "bytes": 2803831,
           "includesNew09": true
         }
       }
@@ -973,7 +973,7 @@
     {
       "page": "pensionati-estero-trasferimento.html",
       "violations": [],
-      "passes": 26,
+      "passes": 28,
       "incomplete": 2
     },
     {
