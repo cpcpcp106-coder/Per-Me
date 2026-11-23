@@ -42,8 +42,13 @@ Il profilo Instagram pubblico mostra una barriera di accesso quando si apre un p
 
 ## Collaudo finale
 
-I controlli struttura e generazione ricette hanno evidenziato due incompatibilità, risolte nel commit 696f55e. Il collaudo browser di tale commit ha superato il reflow a 320 e 390 px di tutte le 141 pagine controllate e i percorsi dell’app, ma ha segnalato un contrasto insufficiente su un elemento della nuova pagina. Ispezione diretta: stile globale sovrapposto al colore bianco del pulsante Facebook. Corretto con selettore esplicito. Il nuovo collaudo è in corso.
+I controlli struttura e generazione ricette hanno evidenziato due incompatibilità, risolte nel commit 696f55e. Il collaudo browser di tale commit ha superato il reflow a 320 e 390 px di tutte le 141 pagine controllate e i percorsi dell’app, ma ha segnalato un contrasto insufficiente su un elemento della nuova pagina. Ispezione diretta: stile globale sovrapposto al colore bianco del pulsante Facebook. Corretto con selettore esplicito. La correzione è pubblicata e verificata nel browser: testo rgb(255,255,255), fondo rgb(33,67,51). Il nuovo collaudo GitHub del commit 387c401 ha superato il passo «Test browser responsive, WCAG automatizzati, sincronizzazione e offline». Il successivo controllo globale delle destinazioni HTTP esterne è ancora in esecuzione al momento di questo aggiornamento.
 
 Run precedente: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45132024920
 
 Non si dichiara una certificazione WCAG o una prova su Samsung reale.
+
+
+Run dopo la correzione: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45132637370
+
+Instagram: ID specifico del post 18147181492719601, rilevato nel menu Post di Instagram della riga pubblicata. Pagina di dettaglio offerta da Meta: https://business.facebook.com/latest/insights/object_insights/?content_id=18147181492719601&nav_ref=bizweb_content_published_posts_uta_dropdown
