@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T07:32:00.000Z",
+  "checked_at_utc": "2026-11-23T07:34:54.025Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -96,10 +96,20 @@
     },
     {
       "name": "all_root_html_axe_wcag_auto",
-      "result": "PASS",
+      "result": "FAIL",
       "details": {
         "checked": 141,
-        "failed": [],
+        "failed": [
+          {
+            "page": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
+            "violations": [
+              {
+                "id": "color-contrast",
+                "nodes": 1
+              }
+            ]
+          }
+        ],
         "errors": []
       }
     },
@@ -137,11 +147,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:32.",
+        "status": "129 pagine salvate per la lettura offline · controllo online 23 nov, 07:36.",
         "stored": {
           "guides": 129,
-          "updated": "2026-11-23T07:32:51.691Z",
-          "bytes": 2702459,
+          "updated": "2026-11-23T07:36:11.378Z",
+          "bytes": 2703497,
           "includesNew09": true
         }
       }
@@ -393,7 +403,7 @@
     {
       "page": "contatori-per-me-41c83f9e6c2a4d08b5f71e236ba0d94c.html",
       "violations": [],
-      "passes": 16,
+      "passes": 17,
       "incomplete": 0
     },
     {
@@ -860,7 +870,20 @@
     },
     {
       "page": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
-      "violations": [],
+      "violations": [
+        {
+          "id": "color-contrast",
+          "impact": "serious",
+          "description": "Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds",
+          "help": "Elements must meet minimum color contrast ratio thresholds",
+          "affected": [
+            [
+              ".social-button"
+            ]
+          ],
+          "total": 1
+        }
+      ],
       "passes": 28,
       "incomplete": 2
     },
