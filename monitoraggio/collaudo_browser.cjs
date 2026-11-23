@@ -356,6 +356,19 @@ try{
   liverText.includes('La scena non rappresenta un caso clinico documentato')&&liverText.includes('MASLD'),
   {characters:liverText.length,mode:'Testi salvati; il lettore offline non conserva le fotografie delle guide'});
 }catch(e){record('guide20_text_updated_and_readable_offline',false,{error:String(e).slice(0,260)})}
+const caregiverOfflineIssues=[];
+for(const name of ['caregiver-familiari-anziani-disabilita-legge-104.html','caregiver-familiari-fvg-contributi.html']){
+ try{
+  await page.evaluate(path=>{location.hash='guida='+encodeURIComponent(path)},name);
+  await page.waitForFunction(path=>{
+   const title=document.getElementById('reader-title')?.textContent||'';
+   return path.includes('fvg')?title.includes('Friuli Venezia Giulia'):title.includes('Assistere un familiare');
+  },name,{timeout:5000});
+  const text=await page.locator('#reader-content').innerText();
+  if(text.length<1000 || !text.includes('23 novembre 2026') || !text.includes('INPS')) caregiverOfflineIssues.push({name,error:'Testo o riferimenti aggiornati assenti'});
+ }catch(e){caregiverOfflineIssues.push({name,error:String(e).slice(0,260)})}
+}
+record('caregiver_guides_updated_and_readable_offline',!caregiverOfflineIssues.length,{checked:2,issues:caregiverOfflineIssues,mode:'Testi salvati; fotografie non conservate nel lettore offline'});
 await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);
