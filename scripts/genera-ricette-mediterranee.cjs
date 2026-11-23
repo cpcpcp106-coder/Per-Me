@@ -157,6 +157,7 @@ ${header}
 <p class="lead"><strong>${ricette.length} ricette</strong> da mettere in rotazione. Scegli tra ${ricette.length - breakfasts} pranzi e cene con verdure, cereali o patate e una fonte di proteine. Completa la settimana con ${breakfasts} idee per colazione.</p>
 <p><a class="guida-button" href="app/menu-mediterraneo.html">Componi la settimana e fai la lista della spesa</a></p>
 <p>Nel menu puoi partire da due esempi pronti o scegliere ogni pasto. La lista somma gli ingredienti in base alle porzioni e a quello che hai già in casa.</p>
+<section aria-labelledby="menu-datato-titolo"><h2 id="menu-datato-titolo">La settimana dal 30 novembre al 6 dicembre</h2><p>Un esempio pronto per una persona, con colazioni, pranzi, cene, spuntini e lista della spesa. Calorie e carboidrati sono stime, non obiettivi personali.</p><p><a class="guida-button" href="menu-mediterraneo-30-novembre-6-dicembre-2026.html">Apri il menù e la lista della spesa</a></p></section>
 <section id="nuove-ricette" aria-labelledby="nuove-ricette-titolo">
 <h2 id="nuove-ricette-titolo">Scegli una ricetta</h2>
 <p>Le raccolte sono illustrate con un piatto di esempio. Ogni ricetta ha dosi, preparazione e stime per porzione tratte dalle tabelle CREA.</p>
