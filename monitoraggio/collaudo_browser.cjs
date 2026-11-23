@@ -229,6 +229,20 @@ try{
  if(width390.scroll>width390.inner+3 || width320.scroll>width320.inner+3)
   allPageOverflow.push({name,width390,width320});
  await page.setViewportSize({width:390,height:844});
+ if(name==='menu-mediterraneo-30-novembre-6-dicembre-2026.html'){
+  const measurements=[];
+  for(const width of [320,390]){
+   await page.setViewportSize({width,height:844});
+   measurements.push(await page.locator('#settimana-descrizione').evaluate(el=>{
+    const rect=el.getBoundingClientRect(),parent=el.parentElement.getBoundingClientRect();
+    const lineHeight=parseFloat(getComputedStyle(el).lineHeight);
+    return {viewport:innerWidth,width:rect.width,height:rect.height,parentWidth:parent.width,lineHeight,
+     readable:rect.width>=parent.width*0.9&&rect.height<=lineHeight*5};
+   }));
+  }
+  record('weekly_menu_description_mobile_readability',measurements.every(x=>x.readable),measurements);
+  await page.setViewportSize({width:390,height:844});
+ }
  if(name==='diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html'){
   const photo=await page.locator('.photo20 img').evaluate(async image=>({
    loaded:await image.decode().then(()=>image.naturalWidth===1200&&image.naturalHeight===800,()=>false),
