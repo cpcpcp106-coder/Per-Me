@@ -1,0 +1,548 @@
+{
+  "week": "2026-11-30/2026-12-06",
+  "persons": 1,
+  "recipes": {
+    "C1": {
+      "title": "Porridge all'arancia con noci",
+      "ing": {
+        "avena": "50",
+        "latte": "200",
+        "arancia": "150",
+        "noci": "15"
+      },
+      "time": "10 minuti",
+      "steps": [
+        "Scalda il latte, versa l'avena e cuoci a fuoco dolce per 5-7 minuti mescolando. Se occorre aggiungi 50 ml d'acqua.",
+        "Sbuccia l'arancia, taglia la polpa a pezzetti e aggiungila fuori dal fuoco con le noci spezzettate."
+      ],
+      "water": "",
+      "salt": "0"
+    },
+    "C2": {
+      "title": "Toast di ricotta con mela e noci",
+      "ing": {
+        "pane": "80",
+        "ricotta": "80",
+        "mela": "150",
+        "noci": "10"
+      },
+      "time": "8 minuti",
+      "steps": [
+        "Lava la mela, elimina il torsolo e tagliala a fettine sottili. Tosta il pane senza aggiungere grassi.",
+        "Spalma la ricotta, aggiungi mela e noci. Servi la mela che non entra sul pane a parte."
+      ],
+      "water": "",
+      "salt": "0"
+    },
+    "C3": {
+      "title": "Yogurt con avena, arancia e noci",
+      "ing": {
+        "yogurt": "200",
+        "avena": "50",
+        "arancia": "150",
+        "noci": "15"
+      },
+      "time": "5 minuti",
+      "steps": [
+        "Mescola avena e yogurt al naturale.",
+        "Sbuccia l'arancia e unisci gli spicchi a pezzetti e le noci. Servi subito."
+      ],
+      "water": "",
+      "salt": "0"
+    },
+    "S1": {
+      "title": "Due spuntini: yogurt; mela e noci",
+      "ing": {
+        "yogurt": "125",
+        "mela": "150",
+        "noci": "10"
+      },
+      "time": "3 minuti",
+      "steps": [
+        "A metà mattina: yogurt al naturale, 125 g.",
+        "Nel pomeriggio: mela lavata, 150 g senza torsolo, e noci, 10 g."
+      ],
+      "water": "",
+      "salt": "0"
+    },
+    "S2": {
+      "title": "Due spuntini: yogurt; arancia e noci",
+      "ing": {
+        "yogurt": "125",
+        "arancia": "150",
+        "noci": "10"
+      },
+      "time": "3 minuti",
+      "steps": [
+        "A metà mattina: yogurt al naturale, 125 g.",
+        "Nel pomeriggio: arancia a spicchi, 150 g di polpa, e noci, 10 g."
+      ],
+      "water": "",
+      "salt": "0"
+    },
+    "P1": {
+      "title": "Pasta con crema di zucca e ceci",
+      "ing": {
+        "pasta": "50",
+        "ceci": "150",
+        "zucca": "250",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "30 minuti",
+      "steps": [
+        "Taglia zucca e cipolla a dadini. Cuocile coperte con 100 ml d'acqua per circa 15 minuti; schiacciane una parte.",
+        "Aggiungi i ceci sgocciolati e il sale previsto, poi scalda per 5 minuti.",
+        "Cuoci la pasta secondo la confezione, scolala e mescolala alla crema, aggiungendo poca acqua di cottura se serve. Completa con tutti i 15 g d'olio."
+      ],
+      "water": "Acqua: circa 700 ml per la pasta e 100 ml per le verdure, senza altro sale.",
+      "salt": "0.3"
+    },
+    "D1": {
+      "title": "Sgombro al forno con finocchi e patate",
+      "ing": {
+        "sgombro": "150",
+        "finocchi": "250",
+        "patate": "250",
+        "olio": "10",
+        "limone": "20"
+      },
+      "time": "40 minuti",
+      "steps": [
+        "Scalda il forno statico a 200 °C. Taglia patate a cubetti piccoli e finocchi a fettine; mettili in teglia con 50 ml d'acqua, 5 g d'olio e il sale previsto.",
+        "Cuoci le verdure per 20 minuti, aggiungi i filetti di sgombro controllati per le lische e cuoci altri 12-15 minuti, fino a polpa opaca e facilmente separabile.",
+        "Condisci con il succo di limone e i 5 g d'olio rimasti."
+      ],
+      "water": "Acqua: 50 ml.",
+      "salt": "0.3"
+    },
+    "P2": {
+      "title": "Riso e lenticchie con finocchi e carote",
+      "ing": {
+        "riso": "50",
+        "lenticchie": "180",
+        "finocchi": "200",
+        "carote": "80",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "35-45 minuti, circa 15 di lavoro",
+      "steps": [
+        "Cuoci il riso secondo la confezione. Taglia finocchio, carota e cipolla e cuocili coperti con 100 ml d'acqua per 15 minuti.",
+        "Aggiungi lenticchie sgocciolate e sale, poi scalda bene per 5 minuti.",
+        "Unisci il riso scolato e condisci con tutto l'olio."
+      ],
+      "water": "Acqua: circa 700 ml per il riso e 100 ml per le verdure, senza altro sale.",
+      "salt": "0.3"
+    },
+    "D2": {
+      "title": "Uova al pomodoro con spinaci e pane",
+      "ing": {
+        "uova": "100",
+        "pelati": "200",
+        "spinaci": "150",
+        "pane": "100",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "25 minuti",
+      "steps": [
+        "Ammorbidisci la cipolla tritata con 50 ml d'acqua. Aggiungi pelati schiacciati e sale e cuoci per 10 minuti.",
+        "Unisci gli spinaci lavati, copri per 5 minuti, poi aggiungi le uova, circa 2 medie per 100 g netti. Copri e cuoci fino ad albume e tuorlo completamente rappresi.",
+        "Condisci con tutto l'olio e servi con i 100 g di pane."
+      ],
+      "water": "Acqua: 50 ml.",
+      "salt": "0.3"
+    },
+    "P3": {
+      "title": "Pasta con cavolfiore e merluzzo",
+      "ing": {
+        "pasta": "80",
+        "cavolfiore": "250",
+        "merluzzo": "150",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "30 minuti, oltre allo scongelamento se necessario",
+      "steps": [
+        "Segui la confezione per scongelare e cuocere il pesce. Cuoci il cavolfiore a vapore per 10-12 minuti e schiacciane metà.",
+        "Ammorbidisci la cipolla con 50 ml d'acqua; aggiungi il merluzzo a pezzetti, il sale e il cavolfiore. Cuoci coperto circa 10 minuti, fino a polpa del pesce opaca e sfaldabile.",
+        "Cuoci la pasta secondo la confezione e mescolala al condimento. Completa con tutti i 15 g d'olio."
+      ],
+      "water": "Acqua: circa 800 ml per pasta, 300 ml sotto il cestello del vapore e 50 ml in padella.",
+      "salt": "0.3"
+    },
+    "D3": {
+      "title": "Pollo con crema di cavolfiore e pane",
+      "ing": {
+        "pollo": "150",
+        "cavolfiore": "250",
+        "pane": "100",
+        "olio": "15",
+        "limone": "20"
+      },
+      "time": "30 minuti",
+      "steps": [
+        "Cuoci il cavolfiore al vapore per 12-15 minuti. Schiaccialo con una forchetta, 5 g d'olio e il sale previsto, aggiungendo poca acqua calda se serve.",
+        "Taglia il pollo a strisce, usando utensili separati dai cibi pronti. Cuocilo in una padella antiaderente con 50 ml d'acqua per circa 10-12 minuti, fino a completa cottura al centro.",
+        "Servi con crema di cavolfiore e pane; aggiungi succo di limone e i 10 g d'olio rimasti."
+      ],
+      "water": "Acqua: circa 300 ml per il vapore e 50 ml in padella.",
+      "salt": "0.3"
+    },
+    "P4": {
+      "title": "Zuppa di lenticchie e zucca con crostini",
+      "ing": {
+        "lenticchie": "200",
+        "zucca": "250",
+        "cipolla": "30",
+        "pane": "80",
+        "olio": "15"
+      },
+      "time": "30 minuti",
+      "steps": [
+        "Cuoci la zucca a dadini e la cipolla tritata con 300 ml d'acqua per circa 15 minuti.",
+        "Aggiungi lenticchie sgocciolate e sale; fai sobbollire altri 8 minuti e schiaccia qualche cucchiaio di zuppa per renderla cremosa.",
+        "Tosta il pane senza altri grassi e taglialo a cubetti. Servi tutta la zuppa con crostini e tutti i 15 g d'olio."
+      ],
+      "water": "Acqua: 300 ml, più poca al bisogno.",
+      "salt": "0.3"
+    },
+    "D4": {
+      "title": "Ceci in umido con finocchi, patate e carote",
+      "ing": {
+        "ceci": "180",
+        "finocchi": "250",
+        "patate": "200",
+        "carote": "80",
+        "cipolla": "30",
+        "olio": "15",
+        "limone": "20"
+      },
+      "time": "35 minuti",
+      "steps": [
+        "Taglia patate e carote a cubetti e finocchi e cipolla a fettine. Cuoci coperto con 200 ml d'acqua per 20 minuti.",
+        "Aggiungi ceci già cotti e sgocciolati e sale; continua per 5-8 minuti, finché le patate sono morbide.",
+        "Completa con tutto l'olio e il succo di limone."
+      ],
+      "water": "Acqua: 200 ml, poca in più se il fondo asciuga.",
+      "salt": "0.3"
+    },
+    "P5": {
+      "title": "Riso verde con ceci e spinaci",
+      "ing": {
+        "riso": "50",
+        "ceci": "150",
+        "spinaci": "200",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "35-45 minuti, circa 15 di lavoro",
+      "steps": [
+        "Cuoci il riso secondo la confezione. Lava gli spinaci e cuocili coperti con la cipolla tritata e 50 ml d'acqua per 8-10 minuti.",
+        "Schiaccia parte dei ceci con una forchetta, aggiungili agli spinaci con quelli interi e il sale e scalda bene.",
+        "Unisci il riso scolato e completa con tutto l'olio."
+      ],
+      "water": "Acqua: circa 700 ml per il riso e 50 ml per gli spinaci.",
+      "salt": "0.3"
+    },
+    "D5": {
+      "title": "Merluzzo al cartoccio con spinaci e riso",
+      "ing": {
+        "merluzzo": "200",
+        "spinaci": "200",
+        "riso": "65",
+        "olio": "15",
+        "limone": "20"
+      },
+      "time": "35-45 minuti, oltre allo scongelamento se necessario",
+      "steps": [
+        "Cuoci il riso secondo la confezione. Scalda il forno statico a 190 °C. Segui l'etichetta per l'eventuale scongelamento del pesce in frigorifero.",
+        "Lava gli spinaci e falli appassire coperti per 4 minuti con 50 ml d'acqua. Disponili su carta forno con il pesce, il sale, il limone e 5 g d'olio.",
+        "Chiudi il cartoccio e cuoci per circa 18-22 minuti, fino a pesce opaco e sfaldabile. Apri con cautela per il vapore e servi con il riso e i 10 g d'olio rimasti."
+      ],
+      "water": "Acqua: circa 800 ml per il riso e 50 ml per gli spinaci.",
+      "salt": "0.3"
+    },
+    "P6": {
+      "title": "Schiacciatine di ceci e carote con pane",
+      "ing": {
+        "ceci": "180",
+        "avena": "25",
+        "carote": "150",
+        "pane": "60",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "40 minuti",
+      "steps": [
+        "Cuoci carote e cipolla tritate con 50 ml d'acqua per 10 minuti; fai asciugare il fondo. Schiaccia i ceci sgocciolati e riduci l'avena in farina con un piccolo mixer.",
+        "Mescola ceci, verdure, avena e sale. Lascia riposare 5 minuti; forma 4 schiacciatine sottili su carta forno. Se l'impasto è morbido, distribuiscilo con il cucchiaio, senza aggiungere altri ingredienti.",
+        "Spennella con 5 g d'olio e cuoci nel forno statico a 190 °C per circa 20 minuti, girando delicatamente a metà cottura. Servi con pane e i 10 g d'olio rimasti."
+      ],
+      "water": "Acqua: 50 ml.",
+      "salt": "0.3"
+    },
+    "D6": {
+      "title": "Ricotta e zucca gratinate con pane",
+      "ing": {
+        "ricotta": "150",
+        "zucca": "300",
+        "pane": "90",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "35 minuti",
+      "steps": [
+        "Scalda il forno statico a 190 °C. Cuoci zucca a fettine sottili e cipolla con 100 ml d'acqua in una padella coperta per 10 minuti; elimina soltanto l'acqua libera in eccesso.",
+        "Metti zucca e ricotta in una piccola pirofila con il sale e 5 g d'olio. Sbriciola sopra 20 g del pane previsto.",
+        "Cuoci per circa 20 minuti. Completa con i 10 g d'olio rimasti e servi con i restanti 70 g di pane."
+      ],
+      "water": "Acqua: 100 ml.",
+      "salt": "0.3"
+    },
+    "P7": {
+      "title": "Pasta con pollo e zucca morbida",
+      "ing": {
+        "pasta": "70",
+        "pollo": "150",
+        "zucca": "250",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "30 minuti",
+      "steps": [
+        "Taglia zucca e cipolla e cuocile coperte con 100 ml d'acqua per 12 minuti.",
+        "Aggiungi il pollo a strisce sottili e il sale; cuoci circa 10-12 minuti, controllando la completa cottura al centro.",
+        "Cuoci la pasta secondo la confezione; mescolala al condimento e completa con tutto l'olio."
+      ],
+      "water": "Acqua: circa 800 ml per la pasta e 100 ml per il condimento.",
+      "salt": "0.3"
+    },
+    "D7": {
+      "title": "Minestra rustica di lenticchie e verdure con pane",
+      "ing": {
+        "lenticchie": "200",
+        "carote": "150",
+        "pelati": "100",
+        "spinaci": "100",
+        "pane": "70",
+        "cipolla": "30",
+        "olio": "15"
+      },
+      "time": "30 minuti",
+      "steps": [
+        "Cuoci carota e cipolla a pezzetti con i pelati schiacciati e 300 ml d'acqua per 15 minuti.",
+        "Aggiungi lenticchie sgocciolate, spinaci lavati e sale. Cuoci ancora per 8-10 minuti.",
+        "Servi la minestra con i 70 g di pane e tutto l'olio aggiunto a fine cottura."
+      ],
+      "water": "Acqua: 300 ml, poca in più se necessario.",
+      "salt": "0.3"
+    }
+  },
+  "recipe_values": {
+    "C1": {
+      "energy": "436.3",
+      "carbs": "56.065"
+    },
+    "C2": {
+      "energy": "432.2",
+      "carbs": "53.59"
+    },
+    "C3": {
+      "energy": "430.3",
+      "carbs": "53.465"
+    },
+    "S1": {
+      "energy": "189.95",
+      "carbs": "20.26"
+    },
+    "S2": {
+      "energy": "179.45",
+      "carbs": "16.96"
+    },
+    "P1": {
+      "energy": "547.25",
+      "carbs": "63.71"
+    },
+    "D1": {
+      "energy": "564.4",
+      "carbs": "45.00"
+    },
+    "P2": {
+      "energy": "540.35",
+      "carbs": "77.21"
+    },
+    "D2": {
+      "energy": "591.75",
+      "carbs": "56.16"
+    },
+    "P3": {
+      "energy": "584.25",
+      "carbs": "60.30"
+    },
+    "D3": {
+      "energy": "585.85",
+      "carbs": "51.35"
+    },
+    "P4": {
+      "energy": "576.95",
+      "carbs": "76.54"
+    },
+    "D4": {
+      "energy": "559.35",
+      "carbs": "69.06"
+    },
+    "P5": {
+      "energy": "550.25",
+      "carbs": "67.06"
+    },
+    "D5": {
+      "energy": "564.50",
+      "carbs": "56.61"
+    },
+    "P6": {
+      "energy": "630.70",
+      "carbs": "81.29"
+    },
+    "D6": {
+      "energy": "650.85",
+      "carbs": "57.15"
+    },
+    "P7": {
+      "energy": "596.75",
+      "carbs": "55.82"
+    },
+    "D7": {
+      "energy": "600.55",
+      "carbs": "80.68"
+    }
+  },
+  "days": [
+    {
+      "day": "Lunedì 30 novembre",
+      "recipes": [
+        "C1",
+        "P1",
+        "D1",
+        "S1"
+      ],
+      "values": {
+        "energy": "1737.90",
+        "carbs": "185.035"
+      }
+    },
+    {
+      "day": "Martedì 1 dicembre",
+      "recipes": [
+        "C2",
+        "P2",
+        "D2",
+        "S2"
+      ],
+      "values": {
+        "energy": "1743.75",
+        "carbs": "203.92"
+      }
+    },
+    {
+      "day": "Mercoledì 2 dicembre",
+      "recipes": [
+        "C3",
+        "P3",
+        "D3",
+        "S1"
+      ],
+      "values": {
+        "energy": "1790.35",
+        "carbs": "185.375"
+      }
+    },
+    {
+      "day": "Giovedì 3 dicembre",
+      "recipes": [
+        "C1",
+        "P4",
+        "D4",
+        "S1"
+      ],
+      "values": {
+        "energy": "1762.55",
+        "carbs": "221.925"
+      }
+    },
+    {
+      "day": "Venerdì 4 dicembre",
+      "recipes": [
+        "C2",
+        "P5",
+        "D5",
+        "S2"
+      ],
+      "values": {
+        "energy": "1726.40",
+        "carbs": "194.22"
+      }
+    },
+    {
+      "day": "Sabato 5 dicembre",
+      "recipes": [
+        "C3",
+        "P6",
+        "D6",
+        "S1"
+      ],
+      "values": {
+        "energy": "1901.80",
+        "carbs": "212.165"
+      }
+    },
+    {
+      "day": "Domenica 6 dicembre",
+      "recipes": [
+        "C1",
+        "P7",
+        "D7",
+        "S1"
+      ],
+      "values": {
+        "energy": "1823.55",
+        "carbs": "212.825"
+      }
+    }
+  ],
+  "shopping": {
+    "avena": "275",
+    "latte": "600",
+    "arancia": "1050",
+    "noci": "165",
+    "pasta": "200",
+    "ceci": "660",
+    "zucca": "1050",
+    "cipolla": "330",
+    "olio": "205",
+    "sgombro": "150",
+    "finocchi": "700",
+    "patate": "450",
+    "limone": "80",
+    "yogurt": "1275",
+    "mela": "1050",
+    "pane": "660",
+    "ricotta": "310",
+    "riso": "165",
+    "lenticchie": "580",
+    "carote": "460",
+    "uova": "100",
+    "pelati": "300",
+    "spinaci": "650",
+    "cavolfiore": "500",
+    "merluzzo": "350",
+    "pollo": "300"
+  },
+  "salt": "4.2",
+  "mean": {
+    "energy": "1783.757142857142857142857143",
+    "carbs": "202.2092857142857142857142857"
+  },
+  "checked": true
+}

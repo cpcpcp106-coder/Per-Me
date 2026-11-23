@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-23",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1699,6 +1699,16 @@
       "license_or_ownership": "Output creato per Per Me con ChatGPT, secondo le condizioni del servizio e il diritto applicabile; nessuna immagine di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "farine-quale-scegliere.html"
+    },
+    {
+      "file": "assets/menu-mediterraneo-2026-11-30-originale.jpg",
+      "git_blob_sha": "5930396b0794d227e4dc0b5ddbda7e6b341b3add",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Generata con ChatGPT per il menù Per Me il 23 novembre 2026.",
+      "provenance_evidence": "Generazione originale eseguita in questa sessione il 23 novembre 2026 con image_gen; sorgente exec-0902292c-f2b5-4f6e-b533-3910a4a996d8.png. Nessuna immagine di terzi fornita come riferimento.",
+      "license_or_ownership": "Immagine generata per il progetto su richiesta del curatore; nessuna risorsa stock o marchio utilizzato.",
+      "used_in": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
+      "notes": "Uso editoriale illustrativo. Non rappresenta una prova della ricetta in cucina."
     }
   ],
   "notes": [

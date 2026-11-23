@@ -1,16 +1,16 @@
 {
-  "date_utc": "2026-11-22T21:34:04+00:00",
+  "date_utc": "2026-11-23T07:29:10+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 149,
-    "editorial_pages": 145,
+    "html_total": 150,
+    "editorial_pages": 146,
     "technical_pages": 4,
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5255,
-    "external_occurrences": 2648,
-    "external_unique": 946,
+    "local_occurrences": 5301,
+    "external_occurrences": 2677,
+    "external_unique": 954,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -114,6 +114,7 @@
       "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
       "licoli-da-zero.html",
       "lievito-madre.html",
+      "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
       "metodo.html",
       "modelli-e-strumenti.html",
       "monitoraggio.html",
@@ -261,6 +262,7 @@
       "lavoro-guida-13-cercare-lavoro-dopo-50-anni.html",
       "licoli-da-zero.html",
       "lievito-madre.html",
+      "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
       "metodo.html",
       "modelli-e-strumenti.html",
       "monitoraggio.html",
@@ -1487,7 +1489,7 @@
       "h1": 1,
       "images": 7,
       "images_without_alt": 0,
-      "links_local": 63,
+      "links_local": 64,
       "links_external": 5,
       "missing_local": 0,
       "noindex": false,
@@ -1667,7 +1669,7 @@
       "h1": 1,
       "images": 14,
       "images_without_alt": 0,
-      "links_local": 80,
+      "links_local": 81,
       "links_external": 7,
       "missing_local": 0,
       "noindex": false,
@@ -1855,6 +1857,21 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
+      "title": "Menù mediterraneo 30 novembre–6 dicembre 2026 | Per Me",
+      "h1": 1,
+      "images": 1,
+      "images_without_alt": 0,
+      "links_local": 44,
+      "links_external": 29,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "metodo.html",
