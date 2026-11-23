@@ -76,3 +76,10 @@
     overflow-wrap: anywhere;
   }
 }
+
+/* Schede descrittive della rubrica: testo allineato per la lettura su telefono. */
+.pensionati-estero .pensionati-check table {table-layout: fixed; width: 100%}
+.pensionati-estero .pensionati-check th,
+.pensionati-estero .pensionati-check td {text-align: left; overflow-wrap: anywhere; hyphens: auto}
+.pensionati-estero .pensionati-check th:first-child {width: 38%}
+.pensionati-estero .editorial-info {font-size: 1rem; line-height: 1.6}
