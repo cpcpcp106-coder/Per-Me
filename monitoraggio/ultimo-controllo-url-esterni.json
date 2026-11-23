@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-11-23T11:58:46.964789+00:00",
+  "date_utc": "2026-11-23T14:57:35.787992+00:00",
   "scope": {
-    "pages": 146,
-    "unique_external_urls": 975,
-    "occurrences": 2719
+    "pages": 147,
+    "unique_external_urls": 978,
+    "occurrences": 2727
   },
   "counts": {
-    "bloccato_o_riservato": 120,
-    "raggiungibile": 825,
+    "raggiungibile": 829,
+    "bloccato_o_riservato": 119,
     "non_verificato_trasporto": 29,
     "errore_http": 1
   },
@@ -1847,6 +1847,7 @@
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
@@ -2448,6 +2449,15 @@
       ]
     },
     {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+168+del+09-10-2015.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+168+del+09-10-2015.htm",
+      "pages": [
+        "italia-turchia-previdenza-distacco-contributi.html"
+      ]
+    },
+    {
       "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+253+del+9-10-1993.htm",
       "status": "raggiungibile",
       "http": 200,
@@ -2804,6 +2814,7 @@
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
@@ -5646,6 +5657,8 @@
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "italia-turchia-previdenza-distacco-contributi.html",
+        "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -6368,6 +6381,15 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf",
       "pages": [
         "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16419/Allegati/18063_Messaggio-numero-3768-del-18-11-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16419/Allegati/18063_Messaggio-numero-3768-del-18-11-2026.pdf",
+      "pages": [
+        "italia-turchia-previdenza-distacco-contributi.html"
       ]
     },
     {
@@ -7591,6 +7613,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.accordo-italia-turchia-sulla-previdenza-sociale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.accordo-italia-turchia-sulla-previdenza-sociale.html",
+      "pages": [
+        "italia-turchia-previdenza-distacco-contributi.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.avvio-campagna-red-ordinaria-2026-e-dichiarazioni-di-responsabilit.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7722,8 +7753,9 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
@@ -7813,6 +7845,7 @@
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
         "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
@@ -9567,9 +9600,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10279,8 +10311,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
