@@ -1,5 +1,9 @@
 # Per Me — registro Pinterest del 22 novembre 2026
 
+## Aggiornamento guide impasti e farine — 23 novembre 2026
+
+Aggiornati e verificati i due Pin esistenti: [impasti diretti e indiretti, biga e poolish](https://it.pinterest.com/pin/269441990205462636/) e [farine deboli e forti, forza W](https://it.pinterest.com/pin/269441990205461877/). Titoli e descrizioni annunciano l’ampliamento del 23 novembre; aggiunti testi alternativi e dichiarazione AI, raccomandazioni commerciali disattivate. Conservati foto, bacheca e collegamenti originari. Nessun nuovo Pin: totale invariato di 137. [Annunci Facebook e Instagram e verifica dei Pin](impasti-farine-social-2026-11-23.md).
+
 ## Aggiornamento rubrica Pensionati all’estero — 23 novembre 2026
 
 Aggiornato e verificato il [Pin esistente della rubrica](https://it.pinterest.com/pin/269441990205462607/): titolo «Pensionati all’estero: guida ampliata su pensione, tasse e sanità», descrizione dell’ampliamento del 23 novembre, testo alternativo e dichiarazioni AI. Conservati foto, bacheca e URL originari per preservare le metriche; raccomandazioni commerciali disattivate. Nessun nuovo Pin creato: il totale di questo registro resta invariato. [Esiti Facebook, Instagram e Pinterest dell’annuncio](pensionati-estero-social-2026-11-23.md).
