@@ -1709,6 +1709,26 @@
       "license_or_ownership": "Immagine generata per il progetto su richiesta del curatore; nessuna risorsa stock o marchio utilizzato.",
       "used_in": "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
       "notes": "Uso editoriale illustrativo. Non rappresenta una prova della ricetta in cucina."
+    },
+    {
+      "file": "assets/caregiver-familiari-originale.webp",
+      "git_blob_sha": "de006ba8069bb45be33a1bb4254033a745ef4311",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine originale generata con ChatGPT ImageGen il 23 novembre 2026; conversione di solo formato PNG-WebP, a dimensioni e composizione invariate.",
+      "provenance_evidence": "Generazione osservata in questa sessione; originale exec-fd80cace-02f7-4319-a435-b6368c97a357.png. Nessuna immagine di riferimento. Prompt e impronte in FONTI/caregiver-immagini-2026-11-23.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT, secondo le condizioni del servizio e il diritto applicabile; nessuna immagine di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "caregiver-familiari-anziani-disabilita-legge-104.html"
+    },
+    {
+      "file": "assets/caregiver-fvg-sollievo-originale.webp",
+      "git_blob_sha": "2fb4640581141817415df60dc9d40604cf1c3062",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Immagine originale generata con ChatGPT ImageGen il 23 novembre 2026; conversione di solo formato PNG-WebP, a dimensioni e composizione invariate.",
+      "provenance_evidence": "Generazione osservata in questa sessione; originale exec-641a67de-cb69-4eac-b320-0cbce45ee70e.png. Nessuna immagine di riferimento. Prompt e impronte in FONTI/caregiver-immagini-2026-11-23.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT, secondo le condizioni del servizio e il diritto applicabile; nessuna immagine di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "caregiver-familiari-fvg-contributi.html"
     }
   ],
   "notes": [

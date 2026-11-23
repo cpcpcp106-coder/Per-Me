@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-23",
+  "images": [
+    {
+      "original_name": "exec-fd80cace-02f7-4319-a435-b6368c97a357.png",
+      "original_sha256": "d4523864aa2c1a9122516e6fdd748f6336b1d91988c0d47c341f48e30e1cd4b2",
+      "asset": "assets/caregiver-familiari-originale.webp",
+      "asset_sha256": "d1d977e8b650d8d95d2e343cb1fc183496e6fe3d77fde7b3049698e3028ca704",
+      "git_blob_sha": "de006ba8069bb45be33a1bb4254033a745ef4311",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "used_in": "caregiver-familiari-anziani-disabilita-legge-104.html",
+      "alt": "Un figlio adulto e sua madre organizzano insieme gli appuntamenti al tavolo di casa.",
+      "reference_images": [],
+      "purpose": "Fotografia illustrativa originale generata per Per Me; persone immaginarie, nessun caso clinico reale. Conversione di solo formato, senza ritaglio o modifica della composizione."
+    },
+    {
+      "original_name": "exec-641a67de-cb69-4eac-b320-0cbce45ee70e.png",
+      "original_sha256": "f660e352d36df021a9bfe20d7c42e1b6090d5b9ae6fed6201f1b458b9a6198e6",
+      "asset": "assets/caregiver-fvg-sollievo-originale.webp",
+      "asset_sha256": "ef6ea27f29adce45ab03b0baba00bd67645a2ffe1ded7b05d61b2017f82e798d",
+      "git_blob_sha": "2fb4640581141817415df60dc9d40604cf1c3062",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "used_in": "caregiver-familiari-fvg-contributi.html",
+      "alt": "Una figlia adulta conversa con il padre anziano nel soggiorno di casa.",
+      "reference_images": [],
+      "purpose": "Fotografia illustrativa originale generata per Per Me; persone immaginarie, nessun caso clinico reale. Conversione di solo formato, senza ritaglio o modifica della composizione."
+    }
+  ],
+  "prompts_summary": [
+    "Fotografia iperrealistica di un figlio adulto e della madre anziana che organizzano insieme gli appuntamenti a casa. Persone immaginarie, nessun testo o marchio.",
+    "Fotografia iperrealistica di una figlia adulta che conversa con il padre anziano in soggiorno. Persone immaginarie, nessun testo o marchio."
+  ],
+  "social": {
+    "file_name": "per-me-caregiver-social-2026-11-23.jpg",
+    "sha256": "028ddc69989f91d63bf40f18d2c110b8142c310e96a654e6e5d8ccc63feb9da5",
+    "derivation": "Conversione di solo formato della fotografia nazionale; nessun ritaglio."
+  }
+}

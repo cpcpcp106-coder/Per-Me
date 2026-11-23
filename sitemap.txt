@@ -3,3 +3,5 @@ layout: null
 ---
 {% capture xml %}{% include_relative sitemap.xml %}{% endcapture %}{% assign urls = xml | split: '<loc>' %}{% for item in urls offset:1 %}{{ item | split: '</loc>' | first | strip }}
 {% endfor %}
+https://cpcpcp106-coder.github.io/Per-Me/caregiver-familiari-anziani-disabilita-legge-104.html
+https://cpcpcp106-coder.github.io/Per-Me/caregiver-familiari-fvg-contributi.html
