@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-23T16:07:29+00:00",
+  "date_utc": "2026-11-23T17:43:06+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 153,
@@ -8,9 +8,9 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5486,
-    "external_occurrences": 2751,
-    "external_unique": 993,
+    "local_occurrences": 5511,
+    "external_occurrences": 2760,
+    "external_unique": 1001,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -1660,8 +1660,8 @@
       "h1": 1,
       "images": 3,
       "images_without_alt": 0,
-      "links_local": 76,
-      "links_external": 19,
+      "links_local": 83,
+      "links_external": 23,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
@@ -2511,12 +2511,12 @@
     },
     {
       "file": "tangzhong-autolisi-biga-poolish.html",
-      "title": "Tangzhong, autolisi, biga e poolish: differenze e utilizzi | Per Me",
+      "title": "Impasti diretti e indiretti, biga e poolish | Per Me",
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 51,
-      "links_external": 14,
+      "links_local": 69,
+      "links_external": 19,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
