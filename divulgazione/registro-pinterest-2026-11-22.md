@@ -1,5 +1,9 @@
 # Per Me — registro Pinterest del 22 novembre 2026
 
+## Aggiornamento rubrica Pensionati all’estero — 23 novembre 2026
+
+Aggiornato e verificato il [Pin esistente della rubrica](https://it.pinterest.com/pin/269441990205462607/): titolo «Pensionati all’estero: guida ampliata su pensione, tasse e sanità», descrizione dell’ampliamento del 23 novembre, testo alternativo e dichiarazioni AI. Conservati foto, bacheca e URL originari per preservare le metriche; raccomandazioni commerciali disattivate. Nessun nuovo Pin creato: il totale di questo registro resta invariato. [Esiti Facebook, Instagram e Pinterest dell’annuncio](pensionati-estero-social-2026-11-23.md).
+
 ## Aggiornamento del 23 novembre 2026
 
 **137 Pin complessivi in 12 bacheche, due nuove pubblicazioni completate in questo controllo.**
