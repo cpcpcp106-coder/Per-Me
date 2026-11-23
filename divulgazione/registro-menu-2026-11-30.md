@@ -30,8 +30,20 @@ Foto illustrativa originale generata con intelligenza artificiale.
 
 ## Stato degli invii
 
-Sito: pronto per pubblicazione, verifica pubblica ancora da eseguire.
+Sito: pubblicato e verificato HTTP 200, foto HTTP 200 (1254 × 1254), pagina corrispondente al file locale per SHA-256. Home e raccolta ricette contengono il collegamento. Percorsi ricetta P1 e lista spesa provati nel browser pubblico; pulsante Facebook con destinazione corretta.
 
-Facebook: non ancora inviato.
+Facebook: pubblicato come Pagina Per Me il 23 novembre 2026. ID 122103882938542978. Conferma «Il tuo post è stato pubblicato» e presenza nell’elenco Pubblicati di Meta Business Suite.
 
-Instagram: non ancora inviato. L'accesso diretto non è autenticato; Meta Business Suite mostra collegati la Pagina Per Me e l'account permeguide. Verifica in corso della pubblicazione da tale gestione.
+Instagram: pubblicato su permeguide insieme a Facebook da Meta Business Suite. La riga del post nell’elenco Pubblicati mostra entrambe le icone, «Con cross-posting» e «Per Me, permeguide». Testo adattato: invito ad aprire il link nella biografia e scegliere il menù dalla home; aggiunti #PerMeGuide #MenuSettimanale #RicetteMediterranee #ListaDellaSpesa. Non sono state attivate promozioni a pagamento.
+
+Gestione verificata: https://business.facebook.com/latest/posts/published_posts/?business_id=1116645454603609&asset_id=1075712805623980
+
+Il profilo Instagram pubblico mostra una barriera di accesso quando si apre un post. La prova dell’invio deriva dalla gestione autenticata Meta, non dalla lettura pubblica della didascalia.
+
+## Collaudo finale
+
+I controlli struttura e generazione ricette hanno evidenziato due incompatibilità, risolte nel commit 696f55e. Il collaudo browser di tale commit ha superato il reflow a 320 e 390 px di tutte le 141 pagine controllate e i percorsi dell’app, ma ha segnalato un contrasto insufficiente su un elemento della nuova pagina. Ispezione diretta: stile globale sovrapposto al colore bianco del pulsante Facebook. Corretto con selettore esplicito. Il nuovo collaudo è in corso.
+
+Run precedente: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45132024920
+
+Non si dichiara una certificazione WCAG o una prova su Samsung reale.
