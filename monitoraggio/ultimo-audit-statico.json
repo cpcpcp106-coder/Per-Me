@@ -1,16 +1,16 @@
 {
-  "date_utc": "2026-11-23T07:45:52+00:00",
+  "date_utc": "2026-11-23T11:55:10+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 150,
-    "editorial_pages": 146,
+    "html_total": 152,
+    "editorial_pages": 148,
     "technical_pages": 4,
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5311,
-    "external_occurrences": 2681,
-    "external_unique": 954,
+    "local_occurrences": 5420,
+    "external_occurrences": 2733,
+    "external_unique": 981,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -33,6 +33,8 @@
       "app/index.html",
       "app/menu-mediterraneo.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "caregiver-familiari-anziani-disabilita-legge-104.html",
+      "caregiver-familiari-fvg-contributi.html",
       "ccnl-inquadramento-livello-superminimo.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
       "chi-siamo.html",
@@ -181,6 +183,8 @@
       "app/index.html",
       "app/menu-mediterraneo.html",
       "assegno-ordinario-invalidita-requisiti-conferma.html",
+      "caregiver-familiari-anziani-disabilita-legge-104.html",
+      "caregiver-familiari-fvg-contributi.html",
       "ccnl-inquadramento-livello-superminimo.html",
       "cedolino-pensione-obism-arretrati-verificare-importi.html",
       "chi-siamo.html",
@@ -364,14 +368,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 34,
+      "links_local": 36,
       "links_external": 21,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 6
+      "candidate_numeric_legal_mentions": 7
     },
     {
       "file": "agevolazioni-guida-01-isee-corrente.html",
@@ -597,6 +601,36 @@
       "description": true,
       "skip_link": true,
       "candidate_numeric_legal_mentions": 28
+    },
+    {
+      "file": "caregiver-familiari-anziani-disabilita-legge-104.html",
+      "title": "Caregiver familiari: Legge 104 e assistenza ad anziani e persone con disabilità | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 74,
+      "links_external": 43,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 48
+    },
+    {
+      "file": "caregiver-familiari-fvg-contributi.html",
+      "title": "Caregiver in Friuli Venezia Giulia: contributi e FAP | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 27,
+      "links_external": 9,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 4
     },
     {
       "file": "ccnl-inquadramento-livello-superminimo.html",
@@ -1667,16 +1701,16 @@
       "file": "index.html",
       "title": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me",
       "h1": 1,
-      "images": 14,
+      "images": 15,
       "images_without_alt": 0,
-      "links_local": 81,
+      "links_local": 84,
       "links_external": 7,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 5
+      "candidate_numeric_legal_mentions": 7
     },
     {
       "file": "inps-malattia-pagamento-diretto-sr212.html",
@@ -2044,14 +2078,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 39,
+      "links_local": 40,
       "links_external": 11,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 3
+      "candidate_numeric_legal_mentions": 5
     },
     {
       "file": "pizza-napoletana-con-licoli.html",
@@ -2224,14 +2258,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 33,
+      "links_local": 34,
       "links_external": 6,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 2
     },
     {
       "file": "salute-guida-01-preparare-visita.html",
@@ -2599,7 +2633,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 59,
+      "links_local": 60,
       "links_external": 30,
       "missing_local": 0,
       "noindex": false,
