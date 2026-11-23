@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-23T16:09:07.290627+00:00",
+  "date_utc": "2026-11-23T17:46:32.037970+00:00",
   "scope": {
     "pages": 147,
-    "unique_external_urls": 987,
-    "occurrences": 2737
+    "unique_external_urls": 995,
+    "occurrences": 2746
   },
   "counts": {
-    "raggiungibile": 849,
-    "errore_http": 2,
-    "bloccato_o_riservato": 120,
-    "non_verificato_trasporto": 16
+    "bloccato_o_riservato": 121,
+    "raggiungibile": 845,
+    "non_verificato_trasporto": 28,
+    "errore_http": 1
   },
   "results": [
     {
@@ -2005,6 +2005,15 @@
       ]
     },
     {
+      "url": "https://lesaffre.it/faq/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lesaffre.it/faq/",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
       "url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
       "status": "raggiungibile",
       "http": 200,
@@ -2212,6 +2221,15 @@
       "pages": [
         "diabete-guida-17-bocca-denti-gengive-parodontite.html",
         "diabete-guida-17-bocca-denti-gengive-parodontite.html"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7935897/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7935897/",
+      "pages": [
+        "farine-quale-scegliere.html"
       ]
     },
     {
@@ -2442,8 +2460,9 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.regione.fvg.it/portale/",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -3614,27 +3633,24 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3642,9 +3658,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3663,9 +3678,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3693,9 +3707,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/it/note-aifa",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3703,9 +3716,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3713,9 +3725,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/nota-100",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3728,9 +3739,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/nota-79",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3738,9 +3748,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/nota-98",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -4682,6 +4691,15 @@
       ]
     },
     {
+      "url": "https://www.canada.ca/en/grain-commission/services/science/methods/methods-tests-wheat.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.canada.ca/en/grain-commission/services/science/methods/methods-tests-wheat.html",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
       "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
       "status": "raggiungibile",
       "http": 200,
@@ -4789,6 +4807,15 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.celiachia.it/faq/sono-celiaco-posso-consumare-avena/",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
+      "url": "https://www.cerealsgrains.org/resources/Methods/Pages/54PhysicalDoughTests.aspx",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cerealsgrains.org/resources/Methods/Pages/54PhysicalDoughTests.aspx",
       "pages": [
         "farine-quale-scegliere.html"
       ]
@@ -5826,7 +5853,8 @@
       "http": 200,
       "final_url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
       "pages": [
-        "farine-quale-scegliere.html"
+        "farine-quale-scegliere.html",
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
@@ -7847,9 +7875,8 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
@@ -8026,8 +8053,9 @@
     },
     {
       "url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.iss.it/-/snlg-terapia-diabete-tipo2",
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -8082,9 +8110,8 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -8092,9 +8119,8 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.kidney.org/what-criteria-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -8154,6 +8180,15 @@
       ]
     },
     {
+      "url": "https://www.kingarthurbaking.com/pro/reference/bakers-percentage",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/pro/reference/bakers-percentage",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
+      ]
+    },
+    {
       "url": "https://www.kingarthurbaking.com/pro/reference/preferment",
       "status": "raggiungibile",
       "http": 200,
@@ -8179,6 +8214,15 @@
       "pages": [
         "licoli-da-zero.html",
         "pasta-madre-solida-da-zero.html"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/no-knead-crusty-white-bread-recipe",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kingarthurbaking.com/recipes/no-knead-crusty-white-bread-recipe",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
@@ -8369,8 +8413,9 @@
     },
     {
       "url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
-      "status": "errore_http",
-      "http": 502,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.masaf.gov.it/flex/cm/pages/ServeBLOB.php/L/IT/SU_/Carta_Dedicata_a_te_2026-info/GPI/1",
       "pages": [
         "agevolazioni-diritti.html"
       ]
@@ -8407,6 +8452,24 @@
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.molinomoras.it/blogs/consigli-e-benessere/la-forza-della-farina",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.molinomoras.it/blogs/consigli-e-benessere/la-forza-della-farina",
+      "pages": [
+        "farine-quale-scegliere.html"
+      ]
+    },
+    {
+      "url": "https://www.molinomoras.it/blogs/consigli-e-benessere/metodo-impasti-diretti-indiretti",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.molinomoras.it/blogs/consigli-e-benessere/metodo-impasti-diretti-indiretti",
+      "pages": [
+        "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
@@ -9702,9 +9765,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10394,9 +10456,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
