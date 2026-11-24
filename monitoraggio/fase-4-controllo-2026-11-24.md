@@ -34,3 +34,5 @@ Su richiesta di Enrico è stato eseguito un ulteriore controllo con agente dedic
 Queste nuove evidenze superano il precedente riscontro di mancato accesso pubblico del controllo mattutino. La Fase 4 rimane aperta per i punti già elencati su Search Console, verifiche assistive/professionali e ulteriori riscontri specifici: non è stata attestata una revisione integrale di ogni affermazione del sito.
 
 Individuata inoltre la causa del fallimento del controllo settimanale del 23/11: connessione remota chiusa senza risposta. Corretta la gestione dell’eccezione e verificato con due errori indotti che il processo conservi il rapporto e gli esiti non verificabili. Il rapporto di integrazione raccoglie anche il successivo esito del processo pubblicato.
+
+**Esito del ripristino:** il [controllo 45386383014](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45386383014) è completed/success; alle 12:43 italiane ha salvato nel commit `1725c33` il rapporto aggiornato: nove fonti, 146 pagine della radice, 1.004 URL esterni e nessun problema interno. La pianificazione settimanale esistente resta invariata.
