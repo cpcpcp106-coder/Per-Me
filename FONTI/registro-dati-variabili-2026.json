@@ -165,6 +165,26 @@
       "fonte": "https://www.colavita.it/products/olio-extra-vergine-di-oliva-non-filtrato",
       "formula": "euro = 14.90 * ml_usati / 1000; 10 ml=0.149 EUR (~0.15), 15 ml=0.2235 (~0.22), 20 ml=0.298 (~0.30). Per g pesati servono peso netto o densità attendibile, non trattare g e ml uguali.",
       "pubblicato": "prezzo osservato nella ricognizione del 2026-11-18"
+    },
+    {
+      "chiave": "inps_bonus_mamme_importo_2026",
+      "anno": 2026,
+      "valore": "60",
+      "unita": "EUR/mese, massimo 720 EUR per il 2026",
+      "stato": "Numero dei mesi riconosciuti con tutti i requisiti; non importo per figlio",
+      "fonte": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.circolare-numero-106-del-16-10-2026_16394.html",
+      "verificato_il": "2026-11-24",
+      "riesame": "Alla scadenza dell’annualità o a nuove istruzioni INPS; non estendere automaticamente al 2027"
+    },
+    {
+      "chiave": "inps_bonus_mamme_reddito_2026",
+      "anno": 2026,
+      "valore": "40.000",
+      "unita": "EUR/anno di reddito da lavoro personale della madre",
+      "stato": "Soglia inclusiva, secondo i criteri della circolare INPS 106/2026; non soglia ISEE",
+      "fonte": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.circolare-numero-106-del-16-10-2026_16394.html",
+      "verificato_il": "2026-11-24",
+      "riesame": "Alla scadenza dell’annualità o a nuove istruzioni INPS; non estendere automaticamente al 2027"
     }
   ],
   "politica_ricette": "Nessun costo totale di ricetta o spesa settimanale senza prezzi osservati per TUTTI gli ingredienti, quantità edibili, luogo, data e oneri accessori. Indicare costo dell'olio solo per ml effettivamente usati; il peso in g non coincide con il volume in ml. La dichiarazione di origine 100% italiana va verificata in etichetta fisica: la descrizione commerciale da sola non basta. Distinguere scelta editoriale da validità nutrizionale: anche extravergine non italiano può essere idoneo. Non trattare il reddito nominale come disponibilità dopo affitto, farmaci e utenze; evitare rischio di malnutrizione.",

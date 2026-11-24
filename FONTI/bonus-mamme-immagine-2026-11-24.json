@@ -1,0 +1,32 @@
+{
+  "generated_on": "2026-11-24",
+  "tool": "ChatGPT ImageGen, built-in",
+  "input_images": [],
+  "original_name": "exec-1b7adc7e-dacd-4a8e-9b3c-e135c1734ebe.png",
+  "original_sha256": "9dfe4ec7a74ba8c5a74888f9fe7ea47f1337aa94efbc8e26acbb70d3e9d4d064",
+  "technical_processing": "Sola conversione PNG in WebP e JPEG; dimensioni e composizione invariate.",
+  "outputs": [
+    {
+      "file": "assets/bonus-mamme-2026-originale.webp",
+      "size_bytes": 131032,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2fab3a097bf1e1ce964669a4df87da0c2236f80a0830d98ec70e14559b583486",
+      "git_blob_sha": "a7126020e529a4a612abcbca3a2d42300aa46ea8"
+    },
+    {
+      "file": "assets/bonus-mamme-2026-originale.jpg",
+      "size_bytes": 245769,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "32cfb47fb1f622a22013fae80e3dce7a15068d8a0d18f21010f1c9bd03afc7cf",
+      "git_blob_sha": "33031594ca43ab4925d94097c8374a6c97179829"
+    }
+  ],
+  "disclosure": "Immagine illustrativa generata con intelligenza artificiale. Persone immaginarie.",
+  "prompt": "Use case: photorealistic-natural. Asset type: original cover photograph for the Italian practical guide website Per Me, article Nuovo Bonus mamme 2026. Create a sober, hyperrealistic editorial lifestyle photo in landscape 3:2 composition. A working mother aged about 38, still wearing a plain sage green shirt after work, is checking an ordinary open laptop at a small desk near a window in a modest Italian living room. Two children, about 6 and 12 years old, are together reading a book on a sofa in the background. Warm natural daylight, realistic skin and anatomically correct hands, cognac wood and soft natural greens, candid unposed moment. The computer is seen obliquely so the screen content is not readable. Show a calm practical family scene, not luxury, pity, advertising or staged celebration. All people imaginary. No text, letters, official forms, government symbols, logos, banknotes, watermarks, or claims about an actual benefit recipient."
+}

@@ -1759,6 +1759,26 @@
       "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "inps-send-indebiti-notifiche-2027.html, index.html e annunci social"
+    },
+    {
+      "file": "assets/bonus-mamme-2026-originale.webp",
+      "git_blob_sha": "a7126020e529a4a612abcbca3a2d42300aa46ea8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 24 novembre 2026; sola conversione di formato.",
+      "provenance_evidence": "Generazione osservata in questa sessione, senza immagini di riferimento; originale exec-1b7adc7e-dacd-4a8e-9b3c-e135c1734ebe.png. Prompt e impronte in FONTI/bonus-mamme-immagine-2026-11-24.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "bonus-mamme-2026-domanda-requisiti.html, index.html e anteprime di condivisione"
+    },
+    {
+      "file": "assets/bonus-mamme-2026-originale.jpg",
+      "git_blob_sha": "33031594ca43ab4925d94097c8374a6c97179829",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 24 novembre 2026; sola conversione di formato.",
+      "provenance_evidence": "Generazione osservata in questa sessione, senza immagini di riferimento; originale exec-1b7adc7e-dacd-4a8e-9b3c-e135c1734ebe.png. Prompt e impronte in FONTI/bonus-mamme-immagine-2026-11-24.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "bonus-mamme-2026-domanda-requisiti.html, index.html e anteprime di condivisione"
     }
   ],
   "notes": [
