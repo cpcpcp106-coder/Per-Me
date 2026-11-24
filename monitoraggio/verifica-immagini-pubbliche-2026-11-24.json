@@ -1,0 +1,680 @@
+{
+  "checked_at_utc": "2026-11-24T11:26:48.198513+00:00",
+  "scope": "Tutte le immagini locali richiamate dagli HTML; confrontati HTTP, tipo MIME e primi64byte con i sorgenti. Non è un controllo visivo né una verifica nuova dei diritti.",
+  "images_checked": 96,
+  "issues": [],
+  "results": [
+    {
+      "path": "Donna anziana al lavoro tra documenti e piante.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/Donna%20anziana%20al%20lavoro%20tra%20documenti%20e%20piante.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "Immagine ChatGPT 12 ott 2026, 18_56_26-1.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/Immagine%20ChatGPT%2012%20ott%202026%2C%2018_56_26-1.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "Uomo anziano pianifica il bilancio domestico.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/Uomo%20anziano%20pianifica%20il%20bilancio%20domestico.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "Uomo pensieroso alle prese con i documenti.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/Uomo%20pensieroso%20alle%20prese%20con%20i%20documenti.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "app/icon-192.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/icon-192.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/Uomo concentrato tra pratiche e calcolatrice.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/Uomo%20concentrato%20tra%20pratiche%20e%20calcolatrice.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/Uomo pensieroso tra conti e campagna 恒一.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/Uomo%20pensieroso%20tra%20conti%20e%20campagna%20%E6%81%92%E4%B8%80.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/agevolazioni-guida-09-locazioni.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/agevolazioni-guida-09-locazioni.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/caregiver-familiari-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/caregiver-familiari-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/caregiver-fvg-sollievo-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/caregiver-fvg-sollievo-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/classifica-stella-dorata.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/classifica-stella-dorata.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-consulenza-approvata.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-consulenza-approvata.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-01-notifica.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-01-notifica.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-02-verifica-online.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-02-verifica-online.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-03-prove-documenti.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-03-prove-documenti.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-04-spesa-sostenibile.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-04-spesa-sostenibile.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-05-avvisi-comunali.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-05-avvisi-comunali.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-06-fermo-auto.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-06-fermo-auto.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-07-verifica-contatori.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-07-verifica-contatori.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-08-nuova-prospettiva.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-08-nuova-prospettiva.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/debiti-guida-09-consulenza-chiara.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-09-consulenza-chiara.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/diabete-guida-20-colloquio-fegato-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/diabete-guida-20-colloquio-fegato-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-colazioni-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-colazioni-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-mediterranea-guida01-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-mediterranea-guida01-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-mediterranea-guida02-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-mediterranea-guida02-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-mediterranea-guida04-crudo-cotto-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-mediterranea-guida05-olio-grassi-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-menu-spesa-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-menu-spesa-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-minestre-legumi-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-minestre-legumi-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-pesce-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-pesce-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-piatti-legumi-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-piatti-legumi-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-ricotta-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-ricotta-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/dieta-uova-carne-bianca-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/dieta-uova-carne-bianca-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/farine-impasto-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/farine-impasto-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/farine-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/farine-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/foto-1.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/foto-1.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/foto-2.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/foto-2.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/foto-3.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/foto-3.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/foto-4.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/foto-4.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/foto-5.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/foto-5.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/foto-6.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/foto-6.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/inps-mobile-5-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/inps-mobile-5-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/inps-send-indebiti-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/inps-send-indebiti-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/italia-turchia-distacco-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/italia-turchia-distacco-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-07-cigo-cigs-fis-solidarieta-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-07-cigo-cigs-fis-solidarieta-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-10-fine-rapporto-documenti-tutele-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-10-fine-rapporto-documenti-tutele-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-11-naspi-domanda-scadenze-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-11-naspi-domanda-scadenze-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-12-tfr-pagamento-fondo-garanzia-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-12-tfr-pagamento-fondo-garanzia-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/lavoro-guida-13-cercare-lavoro-dopo-50-anni-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/lavoro-guida-13-cercare-lavoro-dopo-50-anni-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/licoli-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/licoli-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/logo-per-me.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/logo-per-me.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/malattia-inps-sr212-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/malattia-inps-sr212-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/menu-mediterraneo-2026-11-30-originale.jpg",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/menu-mediterraneo-2026-11-30-originale.jpg",
+      "http": 200,
+      "content_type": "image/jpeg",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pane-500g-friggitrice-8l-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pane-500g-friggitrice-8l-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pasta-madre-solida-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pasta-madre-solida-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-bilancio.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensionati-estero-bilancio.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-mete.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensionati-estero-mete.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-pratiche.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensionati-estero-pratiche.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensionati-estero-rubrica.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensionati-estero-rubrica.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-01.jpg",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-01.jpg",
+      "http": 200,
+      "content_type": "image/jpeg",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-02.jpg",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-02.jpg",
+      "http": 200,
+      "content_type": "image/jpeg",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-03.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-03.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-04.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-04.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-05.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-05.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-06.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-06.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-07.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-07.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-guida-08.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-guida-08.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pensione-invalidita.jpg",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pensione-invalidita.jpg",
+      "http": 200,
+      "content_type": "image/jpeg",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/pizza-napoletana-licoli-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/pizza-napoletana-licoli-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-borlotti-riso-piatto-originale-hd.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-borlotti-riso-piatto-originale-hd.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-frittata-zucca-spinaci-pane-integrale-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-frittata-zucca-spinaci-pane-integrale-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-merluzzo-patate-finocchio-limone-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-merluzzo-patate-finocchio-limone-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-pasta-integrale-ceci-cavolfiore-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-pasta-integrale-ceci-cavolfiore-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-riso-integrale-pollo-radicchio-noci-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-riso-integrale-pollo-radicchio-noci-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-zuppa-lenticchie-patate-carote-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/ricetta-zuppa-orzo-lenticchie-porro-carota-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/ricetta-zuppa-orzo-lenticchie-porro-carota-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/salute-guida-01-visita-medica.jpg",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/salute-guida-01-visita-medica.jpg",
+      "http": 200,
+      "content_type": "image/jpeg",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/salute-guida-06-dimissione-ospedale-ritorno-casa-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/salute-guida-07-cup-prenotazioni-liste-attesa-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/salute-guida-07-cup-prenotazioni-liste-attesa-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/salute-guida-08-patente-malattie-croniche-certificati-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/salute-guida-08-patente-malattie-croniche-certificati-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tecniche-impasto-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tecniche-impasto-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-android-foto-donna.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-android-foto-donna.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-android-foto-uomo.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-android-foto-uomo.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-base-foto-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-base-foto-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-confronto-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-confronto-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-dialogo-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-dialogo-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-fonti-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-fonti-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-professionisti-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-professionisti-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutor-ai-sicurezza-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutor-ai-sicurezza-originale.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutorial-per-me-indirizzo.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutorial-per-me-indirizzo.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutorial-per-me-ricerca.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutorial-per-me-ricerca.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutorial-per-me-salva-guide.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutorial-per-me-salva-guide.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "assets/tutorial-per-me-salva-verbale.png",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/tutorial-per-me-salva-verbale.png",
+      "http": 200,
+      "content_type": "image/png",
+      "prefix_matches_source": true
+    },
+    {
+      "path": "ritratto-enrico.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/ritratto-enrico.webp",
+      "http": 200,
+      "content_type": "image/webp",
+      "prefix_matches_source": true
+    }
+  ]
+}

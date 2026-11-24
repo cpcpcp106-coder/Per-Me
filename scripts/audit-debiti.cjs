@@ -39,7 +39,11 @@ for(const file of all){
   assert.ok(image,file+': fotografia mancante');
   assert.ok(fs.existsSync(path.join(root,image[0])),file+': file fotografia inesistente '+image[0]);
   heroes.push(image[0]);
-  assert.match(document,/15 ottobre 2026/i,file+': data verifica non aggiornata');
+  const dates=[...document.matchAll(/<time\b[^>]*\bdatetime=["'](\d{4}-\d{2}-\d{2})["']/gi)].map(m=>m[1]);
+  assert.ok(dates.some(date=>{
+   const parsed=new Date(date+'T12:00:00Z');
+   return !Number.isNaN(parsed.getTime())&&parsed.toISOString().slice(0,10)===date&&date>='2026-10-15';
+  }),file+': data verifica assente o anteriore alla revisione del 15 ottobre 2026');
   assert.ok(document.includes('debiti-cartelle.html'),file+': manca ritorno alla rubrica');
  }
  inspected++;
