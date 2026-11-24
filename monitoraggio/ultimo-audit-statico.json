@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-24T11:33:40+00:00",
+  "date_utc": "2026-11-24T14:13:18+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 154,
@@ -9,8 +9,8 @@
   },
   "links": {
     "local_occurrences": 5555,
-    "external_occurrences": 2776,
-    "external_unique": 1012,
+    "external_occurrences": 2792,
+    "external_unique": 1021,
     "actions": 8,
     "broken_local": [],
     "broken_anchors": []
@@ -508,13 +508,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 28,
-      "links_external": 15,
+      "links_external": 16,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 14
+      "candidate_numeric_legal_mentions": 16
     },
     {
       "file": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
@@ -883,13 +883,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 31,
-      "links_external": 30,
+      "links_external": 35,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 19
+      "candidate_numeric_legal_mentions": 24
     },
     {
       "file": "debiti-guida-07-banche-bollette.html",
@@ -913,13 +913,13 @@
       "images": 2,
       "images_without_alt": 0,
       "links_local": 34,
-      "links_external": 25,
+      "links_external": 35,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 31
+      "candidate_numeric_legal_mentions": 42
     },
     {
       "file": "debiti-guida-09-a-chi-rivolgersi.html",
