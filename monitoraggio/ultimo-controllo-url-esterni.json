@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-24T11:37:25.697746+00:00",
+  "date_utc": "2026-11-24T14:16:04.794418+00:00",
   "scope": {
     "pages": 154,
-    "unique_external_urls": 1012,
-    "occurrences": 2776
+    "unique_external_urls": 1021,
+    "occurrences": 2792
   },
   "counts": {
-    "bloccato_o_riservato": 125,
-    "raggiungibile": 857,
-    "non_verificato_trasporto": 29,
+    "raggiungibile": 881,
+    "bloccato_o_riservato": 124,
+    "non_verificato_trasporto": 15,
     "errore_http": 1
   },
   "results": [
@@ -3739,24 +3739,27 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3764,8 +3767,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3774,8 +3778,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3793,8 +3798,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3802,8 +3808,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3811,8 +3818,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3830,8 +3838,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3844,8 +3853,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3853,8 +3863,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -5732,8 +5743,9 @@
     },
     {
       "url": "https://www.esur.org/esur-guidelines-2025/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.esur.org/esur-guidelines-2025/",
       "pages": [
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
@@ -8034,8 +8046,9 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
@@ -8759,8 +8772,9 @@
     },
     {
       "url": "https://www.nhif.bg/bg/rzok/plovdiv",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nhif.bg/bg/rzok/plovdiv",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -9307,6 +9321,15 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115~art76",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115~art76",
+      "pages": [
+        "agevolazioni-guida-07-patrocinio-spese-stato.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-06-07;73~art3",
       "status": "raggiungibile",
       "http": 200,
@@ -9372,6 +9395,56 @@
       ]
     },
     {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art283",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art283",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art67",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art67",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art69",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art69",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art70",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art70",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art74",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art74",
+      "pages": [
+        "debiti-guida-08-sovraindebitamento.html",
+        "debiti-guida-08-sovraindebitamento.html"
+      ]
+    },
+    {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1966-07-15;604~art6",
       "status": "raggiungibile",
       "http": 200,
@@ -9388,6 +9461,35 @@
       "pages": [
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
         "agevolazioni-guida-05-comune-servizi-sociali-italia.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art545",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art545",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art546",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art546",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art617",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art617",
+      "pages": [
+        "debiti-guida-06-fermo-pignoramento.html",
+        "debiti-guida-06-fermo-pignoramento.html"
       ]
     },
     {
@@ -9915,8 +10017,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
