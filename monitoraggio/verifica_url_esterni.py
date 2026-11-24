@@ -13,13 +13,19 @@ class P(html.parser.HTMLParser):
   a=dict(attrs)
   if tag in ("a","link","img","script") and a.get("href" if tag in ("a","link") else "src"):
    self.links.append(a.get("href" if tag in ("a","link") else "src"))
-pages=sorted(list(ROOT.glob("*.html"))+list((ROOT/"app").glob("*.html")))
-found={}
-for p in pages:
- q=P();q.feed(p.read_text("utf-8"))
- for u in q.links:
-  if u.startswith(("https://","http://")) and urlsplit(u).hostname!="cpcpcp106-coder.github.io":
-   found.setdefault(u,[]).append(str(p.relative_to(ROOT)))
+def collect_urls(root):
+ # Includi anche strumenti, pannelli tecnici e nuove sottocartelle pubblicate.
+ # Dipendenze e directory di build non appartengono al sito sorgente.
+ pages=sorted(p for p in root.rglob("*.html") if not any(
+  part.startswith(".") or part in {"node_modules","_site"}
+  for part in p.relative_to(root).parts))
+ found={}
+ for p in pages:
+  q=P();q.feed(p.read_text("utf-8"))
+  for u in q.links:
+   if u.startswith(("https://","http://")) and urlsplit(u).hostname!="cpcpcp106-coder.github.io":
+    found.setdefault(u,[]).append(str(p.relative_to(root)))
+ return pages,found
 def check(item):
  u,pages=item
  req=urllib.request.Request(u,headers={"User-Agent":"Mozilla/5.0 (compatible; PerMe-audit/2026-10-15)","Accept":"text/html,application/pdf,*/*"})
@@ -41,9 +47,13 @@ def check(item):
       classification = "bloccato_o_riservato"
   return {"url":u,"status":classification,"http":e.code,"pages":pages}
  except Exception as e:return {"url":u,"status":"non_verificato_trasporto","error":str(e)[:160],"pages":pages}
-with cf.ThreadPoolExecutor(max_workers=8) as pool:results=list(pool.map(check,found.items()))
-counts={}
-for x in results:counts[x["status"]]=counts.get(x["status"],0)+1
-j={"date_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"scope":{"pages":len(pages),"unique_external_urls":len(found),"occurrences":sum(map(len,found.values()))},"counts":counts,"results":sorted(results,key=lambda x:x["url"]),"limitations":["Un HTTP 200 non prova che la fonte supporti il testo della guida.","403/429 possono essere un blocco di rete automatizzata, non un errore per il visitatore.","Non certifica pulsanti o interazioni nel browser."]}
-OUT.write_text(json.dumps(j,ensure_ascii=False,indent=2)+"\n","utf-8")
-print(json.dumps({"unique":len(found),"counts":counts},ensure_ascii=False))
+def main():
+ pages,found=collect_urls(ROOT)
+ with cf.ThreadPoolExecutor(max_workers=8) as pool:results=list(pool.map(check,found.items()))
+ counts={}
+ for x in results:counts[x["status"]]=counts.get(x["status"],0)+1
+ j={"date_utc":datetime.datetime.now(datetime.timezone.utc).isoformat(),"scope":{"pages":len(pages),"unique_external_urls":len(found),"occurrences":sum(map(len,found.values()))},"counts":counts,"results":sorted(results,key=lambda x:x["url"]),"limitations":["Un HTTP 200 non prova che la fonte supporti il testo della guida.","403/429 possono essere un blocco di rete automatizzata, non un errore per il visitatore.","Non certifica pulsanti o interazioni nel browser."]}
+ OUT.write_text(json.dumps(j,ensure_ascii=False,indent=2)+"\n","utf-8")
+ print(json.dumps({"unique":len(found),"counts":counts},ensure_ascii=False))
+
+if __name__=="__main__":main()

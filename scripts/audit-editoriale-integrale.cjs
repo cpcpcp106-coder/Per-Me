@@ -8,6 +8,8 @@ const menuPath='app/menu-mediterraneo.html';
 const recipeIds=new Set(JSON.parse(codeFor('dati/ricette-mediterranee.json')).ricette.map(recipe=>recipe.id));
 const unique=x=>[...new Set(x)];
 const getIds=html=>new Set([...html.matchAll(/\bid=["']([^"']+)["']/g)].map(m=>m[1]));
+const months='gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre'.split(' ');
+const italianDate=new RegExp('^(\\d{1,2})\\s+('+months.join('|')+')\\s+(\\d{4})$','i');
 const faults=[],warnings=[],rows=[],idsCache=new Map();
 for(const f of names)idsCache.set(f,getIds(codeFor(f)));
 for(const file of names){
@@ -29,6 +31,16 @@ for(const file of names){
  if(!/href=["']#contenuto["']/i.test(html))faults.push(file+': collegamento Salta al contenuto assente');
  if(imgs.some(x=>!/\balt=["'][^"']*["']/i.test(x)))faults.push(file+': immagine senza alt');
  if(idsCache.get(file).size!==[...html.matchAll(/\bid=["']([^"']+)["']/g)].length)faults.push(file+': ID duplicati');
+ for(const match of html.matchAll(/<time\b([^>]*)>([\s\S]*?)<\/time>/gi)){
+   const iso=match[1].match(/\bdatetime=["'](\d{4}-\d{2}-\d{2})["']/i)?.[1];
+   if(!iso)continue;
+   const parsed=new Date(iso+'T12:00:00Z');
+   if(Number.isNaN(parsed.getTime())||parsed.toISOString().slice(0,10)!==iso){faults.push(file+': data datetime non valida '+iso);continue;}
+   const visible=match[2].replace(/<[^>]+>/g,'').replace(/&nbsp;|&#160;/g,' ').trim().match(italianDate);
+   if(!visible)continue;
+   const expected=visible[3]+'-'+String(months.indexOf(visible[2].toLowerCase())+1).padStart(2,'0')+'-'+visible[1].padStart(2,'0');
+   if(iso!==expected)faults.push(file+': datetime '+iso+' diverso dalla data visibile '+visible[0]);
+ }
  for(const link of a){
    if(!link||/^(https?:|mailto:|tel:|javascript:|data:)/i.test(link))continue;
    const [target,anchor]=link.split('#'),base=target.split('?')[0];
