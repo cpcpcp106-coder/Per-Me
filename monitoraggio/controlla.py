@@ -9,6 +9,7 @@ import ssl
 import urllib.error
 import urllib.request
 from html.parser import HTMLParser
+from http.client import HTTPException
 from pathlib import Path
 from urllib.parse import urldefrag, urljoin, urlsplit, unquote
 
@@ -60,7 +61,7 @@ def main():
             status = "prima_verifica" if before is None else ("variata" if before != digest else "invariata")
             next_state[key] = {"url":url, "sha256":digest, "last_checked":now}
             events.append({"id":key, "rubrica":entry["rubrica"], "status":status, "http":code, "url":url, "final_url":final_url})
-        except (urllib.error.URLError, TimeoutError, ValueError, ssl.SSLError) as exc:
+        except (urllib.error.URLError, OSError, ValueError, HTTPException) as exc:
             events.append({"id":key, "rubrica":entry["rubrica"], "status":"non_raggiungibile", "url":url, "error":str(exc)[:180]})
     pages = {p.name:p for p in ROOT.glob("*.html")}
     parsed = {}
@@ -91,7 +92,7 @@ def main():
         try:
             code, _, final_url = request(url)
             return {"url":url,"status":"raggiungibile","http":code,"final_url":final_url}
-        except (urllib.error.URLError, TimeoutError, ValueError, ssl.SSLError) as exc:
+        except (urllib.error.URLError, OSError, ValueError, HTTPException) as exc:
             return {"url":url,"status":"da_verificare","error":str(exc)[:180]}
 
     # I controlli HTTP sono indipendenti: li parallelizziamo con un limite prudente.

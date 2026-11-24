@@ -39,7 +39,7 @@ Sitemap aggiornata soltanto per le pagine modificate. Nessuna nuova fotografia o
 
 ## Collegamenti esterni e pubblicazione
 
-Il [controllo HTTP iniziale](verifica-url-esterni-iniziale-2026-11-24.json) ha esaminato 1.005 indirizzi distinti della radice e dell’app: 848 raggiungibili, 135 bloccati o riservati, 15 risposte HTTP 503 e sette errori di trasporto. Il controllo integrativo delle sei destinazioni individuate nelle ulteriori sottocartelle ha ottenuto cinque risposte 200 e una 202. La raccolta ora comprende ricorsivamente tutti i 154 HTML. Gli esiti finali e la verifica successiva alla pubblicazione saranno aggiunti prima della chiusura del lavoro. Un HTTP 200 da solo non dimostra che una fonte sostenga una frase; una risposta 403, 429 o un problema di trasporto non dimostra che l’URL sia sbagliato.
+Il [controllo HTTP iniziale](verifica-url-esterni-iniziale-2026-11-24.json) ha esaminato 1.005 indirizzi distinti della radice e dell’app: 848 raggiungibili, 135 bloccati o riservati, 15 risposte HTTP 503 e sette errori di trasporto. Il controllo integrativo delle sei destinazioni individuate nelle ulteriori sottocartelle ha ottenuto cinque risposte 200 e una 202. La raccolta ora comprende ricorsivamente tutti i 154 HTML. Il [rapporto ricorsivo finale](verifica-url-esterni-finale-2026-11-24.json) comprende **1.012 indirizzi distinti su 154 HTML** (2.776 occorrenze): **855 risposte positive**, 135 accessi bloccati/riservati, 15 risposte HTTP 503 e sette errori di trasporto. Non resta alcun URL omesso dalla raccolta HTML del sito; i limiti delle risposte remote rimangono espliciti. Un HTTP 200 da solo non dimostra che una fonte sostenga una frase; una risposta 403, 429 o un problema di trasporto non dimostra che l’URL sia sbagliato.
 
 
 Il riesame tramite fonti ufficiali ha recuperato le pagine AIFA che erano terminate in timeout (Nota 100, Nota 98, elenco Note, nuove formulazioni di semaglutide, aggiornamento anti-VEGF e restrizioni della metoclopramide) e la pagina UNESCO. I contenuti delle due guide aggiuntive su retinopatia e gastroparesi risultano coerenti con i punti AIFA confrontati, senza nuova revisione integrale. NICE e la pagina MIT sulla morosità sono presenti nella ricerca ufficiale, ma non completamente accessibili in apertura diretta. Restano non risolti in questo canale gli accessi a nove URL DEF, due ISSalute, tre MIT e al capitolo NICE. Non risultano 404 o 410 nel controllo esteso. Nessun URL è stato eliminato sulla base di un 503.
@@ -47,6 +47,22 @@ Il riesame tramite fonti ufficiali ha recuperato le pagine AIFA che erano termin
 La nuova scansione ha invece ottenuto una risposta positiva da CNAS: la segnalazione 503 descritta nei rapporti precedenti non si è riprodotta. Per AIFA e UNESCO il riscontro documentale attraverso ricerca/apertura è distinto dall’esito del verificatore HTTP, che resta conservato senza trasformarlo in un successo fittizio.
 
 CNAS, AIFA e alcune pagine AdeR sono state controllate anche attraverso il canale di ricerca: i risultati e i limiti sono documentati nel rapporto delle fonti. Nessun collegamento è stato sostituito soltanto per un blocco del controllo automatico.
+
+## Pubblicazione e verifica conclusiva
+
+La [PR 34](https://github.com/cpcpcp106-coder/Per-Me/pull/34) è stata integrata in `main` al commit `8296b4c57c7be48d43a5192edd9ae8131e152a86`, dopo **20 controlli GitHub superati sul commit funzionale `d4233e7152f0854f222f134a553bbbf61aa829df`**. Le [evidenze dei controlli](controlli-pr34-2026-11-24.json) riportano i collegamenti a ciascun job. Il [deployment Pages 45385304264](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45385304264), sul successivo aggiornamento automatico dello snapshot `9452736`, è terminato con successo.
+
+La [verifica online conclusiva](verifica-live-finale-2026-11-24.json) ha ricontrollato **157 URL**, dopo la pubblicazione: tutte le pagine rispondono HTTP 200 e coincidono con i sorgenti modificati; nessuna anomalia su canonical, sitemap, intestazioni o scansione. Il confronto comprende i 154 HTML e i tre alias espliciti index.html. Nessun errore locale o di ancoraggio nell’audit statico conclusivo.
+
+Nel browser pubblico sono state aperte tutte le **dieci pagine HTML modificate**: le nove guide/indici mostrano la fotografia e il collegamento Facebook nel contenuto; le tre date Debiti corrette mostrano 15 ottobre anche nell’attributo datetime. La pagina Controllo delle fonti mostra il riepilogo aggiornato a 150 pagine pubbliche. È stata inoltre provata la ricerca SEND e l’apertura del risultato corretto. Nessuna nuova prova di installazione su smartphone fisico.
+
+Gli interventi successivi a questo rilascio aggiornano i registri, le evidenze e la gestione delle interruzioni di connessione nel monitoraggio settimanale; non modificano le pagine appena collaudate. Il controllo automatico delle destinazioni esterne avviato anche dal workflow di `main` può pubblicare un rapporto più recente: i risultati HTTP cambiano nel tempo e vanno letti insieme alla loro data.
+
+## Riparazione del controllo settimanale
+
+Il [controllo pianificato del 23 novembre](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45246725730/job/137945313023) si era interrotto per `http.client.RemoteDisconnected`: una fonte remota aveva chiuso la connessione senza risposta, impedendo di salvare tutto il rapporto. Il vecchio report visibile nella sezione automatica era quindi rimasto al 16 novembre.
+
+Il verificatore `monitoraggio/controlla.py` ora intercetta gli errori di connessione del sistema e le risposte HTTP incomplete sia nelle fonti monitorate sia nei link esterni: registra l’indirizzo da verificare e continua. Due prove con errori indotti (`RemoteDisconnected` e `IncompleteRead`) hanno verificato che il rapporto venga comunque salvato, con gli errori espliciti e senza esiti positivi fittizi. Il riesame del controllo pubblicato verrà registrato al suo completamento.
 
 ## Limiti
 

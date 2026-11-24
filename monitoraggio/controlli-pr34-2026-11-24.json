@@ -1,0 +1,132 @@
+{
+  "checked_at_utc": "2026-11-24T11:34:09.720Z",
+  "repository": "cpcpcp106-coder/Per-Me",
+  "pr_number": 34,
+  "pr_url": "https://github.com/cpcpcp106-coder/Per-Me/pull/34",
+  "tested_head_sha": "d4233e7152f0854f222f134a553bbbf61aa829df",
+  "merge_sha": "8296b4c57c7be48d43a5192edd9ae8131e152a86",
+  "total": 20,
+  "success": 20,
+  "checks": [
+    {
+      "name": "indicizzazione",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907187/job/138413195880"
+    },
+    {
+      "name": "collaudo",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907133/job/138413195625"
+    },
+    {
+      "name": "structure",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907288/job/138413195541"
+    },
+    {
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907239/job/138413195505"
+    },
+    {
+      "name": "check",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907163/job/138413195440"
+    },
+    {
+      "name": "controllo",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907189/job/138413195218"
+    },
+    {
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907066/job/138413195210"
+    },
+    {
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907127/job/138413195193"
+    },
+    {
+      "name": "editorial",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907097/job/138413195181"
+    },
+    {
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906991/job/138413195129"
+    },
+    {
+      "name": "structure",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907030/job/138413194897"
+    },
+    {
+      "name": "test",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906945/job/138413194837"
+    },
+    {
+      "name": "audit-immagini",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907011/job/138413194619"
+    },
+    {
+      "name": "check",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907014/job/138413194615"
+    },
+    {
+      "name": "verifica-pages-live",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384907005/job/138413194585"
+    },
+    {
+      "name": "check-bonus",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906960/job/138413194473"
+    },
+    {
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906861/job/138413194126"
+    },
+    {
+      "name": "coerenza",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906854/job/138413193896"
+    },
+    {
+      "name": "territorio",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906853/job/138413193889"
+    },
+    {
+      "name": "guide",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45384906877/job/138413193860"
+    }
+  ]
+}
