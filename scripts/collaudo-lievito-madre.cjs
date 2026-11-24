@@ -109,7 +109,7 @@ async function run() {
     await page.locator('#back').click();
     await page.locator('#search').fill('tangzhong');
     check((await page.locator('#guide-list .guide-card').count())>0,'app: tecniche di impasto trovate offline');
-    await page.locator('#guide-list .guide-card').filter({hasText:'Tangzhong, autolisi, biga e poolish'}).first().click();
+    await page.locator('#guide-list .guide-card').filter({hasText:'Impasti diretti e indiretti'}).first().click();
     check(await page.locator('#reader-content').innerText().then(t=>t.includes('Autolisi:')&&t.includes('Biga:')&&t.includes('Poolish:')&&t.includes('65 °C')),'app: le quattro tecniche sono leggibili offline');
     await context.close();
   } finally {
