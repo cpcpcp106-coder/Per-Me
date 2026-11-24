@@ -4,7 +4,6 @@
   "input_images": [],
   "original_name": "exec-882f20b3-71ae-4627-99a7-26c7904a67a0.png",
   "original_sha256": "e38b489eb42adfab9feec7c85e5700b5732dac15659af5cd01f5375734839816",
-  "prompt": "Fotografia editoriale iperrealistica originale, composizione quadrata: una donna di circa 66 anni con occhiali e una familiare adulta di circa 40 anni leggono insieme uno smartphone al tavolo di una casa italiana. Alcuni fogli e una busta neutra; luce naturale, espressioni serene e attente. Persone immaginarie, schermo verso le donne, nessun dato leggibile, testo, marchio, logo o filigrana. Scena illustrativa senza rappresentare un caso reale di debito o un’approvazione ufficiale.",
   "technical_processing": "Sola conversione PNG in WebP e JPEG; nessun ritaglio e nessuna modifica della composizione.",
   "outputs": [
     {
@@ -28,5 +27,6 @@
       "git_blob_sha": "f968cc2b852a0f19140cbd8f7115f1f18dd571b2"
     }
   ],
-  "disclosure": "Foto illustrativa generata con intelligenza artificiale. Persone immaginarie."
+  "disclosure": "Foto illustrativa generata con intelligenza artificiale. Persone immaginarie.",
+  "prompt_summary": "Fotografia editoriale iperrealistica originale, composizione quadrata: una donna di circa 66 anni con occhiali e una familiare adulta di circa 40 anni leggono insieme uno smartphone al tavolo di una casa italiana. Alcuni fogli e una busta neutra; luce naturale, espressioni serene e attente. Persone immaginarie, schermo verso le donne, nessun dato leggibile, testo, marchio, logo o filigrana. Scena illustrativa senza rappresentare un caso reale di debito o un’approvazione ufficiale."
 }

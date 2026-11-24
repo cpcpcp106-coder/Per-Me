@@ -1,0 +1,44 @@
+[
+  {
+    "path": "inps-send-indebiti-notifiche-2027.html",
+    "http": 200,
+    "matches_tested_file": true,
+    "bytes": 21512,
+    "sha256": "72cbe7f49d8f1901c4f2b16af4ed77dde89ee929306b578485d5f20548cd49e2"
+  },
+  {
+    "path": "assets/inps-send-indebiti-originale.webp",
+    "http": 200,
+    "matches_tested_file": true,
+    "bytes": 270818,
+    "sha256": "af8a8d5ec45e0610717bf14f2ea05b7c61660450b163d7016541a9a71cd78ed2"
+  },
+  {
+    "path": "assets/inps-send-indebiti-originale.jpg",
+    "http": 200,
+    "matches_tested_file": true,
+    "bytes": 405250,
+    "sha256": "4650cfa7977a8997b66e93938d9d952bfffcfce0431c2a550ff988bf46033aa2"
+  },
+  {
+    "path": "pensione-invalidita.html",
+    "http": 200,
+    "matches_tested_file": true,
+    "bytes": 13328,
+    "sha256": "4c41f55967ee7b877c89142743582285005ae90d1822192aab51ecc037454f88"
+  },
+  {
+    "path": "index.html",
+    "http": 200,
+    "matches_tested_file": true,
+    "bytes": 27675,
+    "sha256": "dc0e84c19d75086e0e1ecd86af77a50c0ea75eb62f458397abd3b536d00f8deb"
+  },
+  {
+    "path": "sitemap.xml",
+    "http": 200,
+    "matches_tested_file": true,
+    "bytes": 20739,
+    "sha256": "cd21c92dd365ebd87988c8f6ae141835c020a67f02f1632cfb72e8f3e5b15b40"
+  }
+]

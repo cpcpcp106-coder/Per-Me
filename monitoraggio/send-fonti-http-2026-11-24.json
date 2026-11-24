@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://assistenza.notifichedigitali.it/hc/it",
+    "http": 200,
+    "final": "https://assistenza.notifichedigitali.it/hc/it"
+  },
+  {
+    "url": "https://assistenza.notifichedigitali.it/hc/it/articles/32452602728977-Quando-si-perfeziona-una-notifica-a-valore-legale",
+    "http": 200,
+    "final": "https://assistenza.notifichedigitali.it/hc/it/articles/32452602728977-Quando-si-perfeziona-una-notifica-a-valore-legale"
+  },
+  {
+    "url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche-SEND",
+    "http": 200,
+    "final": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche-SEND"
+  },
+  {
+    "url": "https://assistenza.notifichedigitali.it/hc/it/articles/33545157719441-Cosa-sono-i-costi-di-notifica",
+    "http": 200,
+    "final": "https://assistenza.notifichedigitali.it/hc/it/articles/33545157719441-Cosa-sono-i-costi-di-notifica"
+  },
+  {
+    "url": "https://notifichedigitali.it/",
+    "http": 200,
+    "final": "https://notifichedigitali.it/"
+  },
+  {
+    "url": "https://notifichedigitali.it/cittadini",
+    "http": 200,
+    "final": "https://notifichedigitali.it/cittadini"
+  },
+  {
+    "url": "https://notifichedigitali.it/faq",
+    "http": 200,
+    "final": "https://notifichedigitali.it/faq"
+  },
+  {
+    "url": "https://notifichedigitali.it/punti-di-ritiro/",
+    "http": 200,
+    "final": "https://notifichedigitali.it/punti-di-ritiro/"
+  },
+  {
+    "url": "https://notifichedigitali.it/sicurezza",
+    "http": 200,
+    "final": "https://notifichedigitali.it/sicurezza"
+  },
+  {
+    "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3801-del-19-11-2026_16422.html",
+    "http": 200,
+    "final": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3801-del-19-11-2026_16422.html"
+  }
+]
