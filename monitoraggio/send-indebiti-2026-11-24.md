@@ -39,6 +39,6 @@ Guida aperta sul sito pubblico nel browser: titolo, data, contenuto, fotografia,
 
 ## Annunci, riscontro finale
 
-Facebook e Instagram pubblicati tramite Meta Business Suite e aperti nei rispettivi post pubblici; link e stato nel registro divulgazione/send-indebiti-social-2026-11-24.md. Pinterest pronto in bozza: pubblicazione non avvenuta per rifiuto automatico di approvazione, in attesa di consenso esplicito che nomini il canale. WhatsApp non inviato: telefono non collegato a WhatsApp Web. Nessun invio nei gruppi Facebook dichiarato.
+Facebook e Instagram pubblicati tramite Meta Business Suite e aperti nei rispettivi post pubblici; link e stato nel registro divulgazione/send-indebiti-social-2026-11-24.md. Pinterest pubblicato e verificato dopo il consenso esplicito di Enrico del 24 novembre 2026: https://it.pinterest.com/pin/269441990205533050/ . Il precedente rifiuto automatico di approvazione è stato risolto con tale consenso. WhatsApp non inviato: telefono non collegato a WhatsApp Web. Nessun invio nei gruppi Facebook dichiarato.
 
 Nel browser pubblico verificate la fotografia caricata a 1254 pixel, l’alternativa testuale, il titolo, canonical, index,follow e due collegamenti alla Pagina Facebook. I sei file verificati in HTTP coincidono esattamente con quelli collaudati.

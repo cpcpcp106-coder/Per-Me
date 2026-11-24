@@ -1,5 +1,11 @@
 # Per Me — registro Pinterest del 22 novembre 2026
 
+## Nuova guida SEND e indebiti INPS — 24 novembre 2026
+
+Un nuovo Pin pubblicato e verificato dopo il consenso esplicito di Enrico: [INPS e SEND: notifiche degli indebiti dal 2027, come leggerle](https://it.pinterest.com/pin/269441990205533050/). Bacheca «Pensioni e invalidità | Per Me»; [guida di destinazione](https://cpcpcp106-coder.github.io/Per-Me/inps-send-indebiti-notifiche-2027.html?utm_source=pinterest&utm_medium=organic_social&utm_campaign=send_indebiti_20261124).
+
+Verificati nel Pin pubblico titolo, foto originale, descrizione, etichetta AI e collegamento alla guida corretta. Nella bozza poi pubblicata erano attive le dichiarazioni AI/persona generata, presente il testo alternativo e disattivati i suggerimenti di prodotti simili. Nessuna pubblicità a pagamento. Le statistiche appena pubblicato non sono disponibili e non vengono interpretate come visite ricevute. I conteggi nelle sezioni del 22–23 novembre sotto restano riferiti a quei controlli storici. [Registro della campagna e degli annunci Facebook/Instagram](send-indebiti-social-2026-11-24.md).
+
 ## Aggiornamento guide impasti e farine — 23 novembre 2026
 
 Aggiornati e verificati i due Pin esistenti: [impasti diretti e indiretti, biga e poolish](https://it.pinterest.com/pin/269441990205462636/) e [farine deboli e forti, forza W](https://it.pinterest.com/pin/269441990205461877/). Titoli e descrizioni annunciano l’ampliamento del 23 novembre; aggiunti testi alternativi e dichiarazione AI, raccomandazioni commerciali disattivate. Conservati foto, bacheca e collegamenti originari. Nessun nuovo Pin: totale invariato di 137. [Annunci Facebook e Instagram e verifica dei Pin](impasti-farine-social-2026-11-23.md).

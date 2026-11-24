@@ -1,6 +1,6 @@
 # SEND e indebiti INPS — esiti verificati del 24 novembre 2026
 
-Ultimo aggiornamento: 2026-11-24T11:20+01:00, ora italiana.
+Ultimo aggiornamento: 2026-11-24 11:25:41, ora italiana.
 
 ## Stato attuale
 
@@ -9,12 +9,12 @@ Ultimo aggiornamento: 2026-11-24T11:20+01:00, ora italiana.
 | Sito Per Me | Pubblicato e verificato | https://cpcpcp106-coder.github.io/Per-Me/inps-send-indebiti-notifiche-2027.html |
 | Facebook, Pagina Per Me | Pubblicato e verificato | https://www.facebook.com/PerMeGuide/posts/pfbid02hSBNDbiRN4CY3bwcQCQ2cbLUu2GiVC6BvwV7BSSTygcXq8JR9DGsZxQ9VEL3zUG6l |
 | Instagram, permeguide | Pubblicato e verificato | https://www.instagram.com/p/DgHuJcbBpVd/?fbclid=IwY2xjawVyQ-1leHRuA2FlbQIxMABwZG9mA3NydGMGYXBwX2lkDzUxNDc3MTU2OTIyODA2MQABHy8SiZ6vNZ3plpsDm4JgjTu6QENCTw-h2MWjxj9IDcIMCXLmEUrKcste1M2f_aem_iUfvHdiPTCzbth63fKiCkA |
-| Pinterest | Bozza completa, non pubblicata | https://it.pinterest.com/pin-creation-tool/ ; bacheca Pensioni e invalidità, titolo, foto, descrizione, link e testo alternativo compilati |
+| Pinterest | Pubblicato e verificato dopo il consenso esplicito di Enrico | https://it.pinterest.com/pin/269441990205533050/ |
 | Canale WhatsApp | Non inviato | WhatsApp Web richiede il collegamento del telefono; nessun accesso al canale disponibile in questa sessione |
 
 Meta Business Suite ha mostrato «Il tuo post è stato pubblicato» e l’annuncio nella scheda Pubblicati, con entrambi i canali e la dicitura «Attualmente non promosso». ID Facebook 122103914072542978; foto 122103913754542978. Aperti separatamente il post pubblico Facebook e il post pubblico Instagram: testi distinti, fotografia, testo alternativo e dichiarazione dell’origine AI presenti. Il collegamento alla guida nel testo Facebook e il riferimento al sito nel profilo Instagram sono presenti. Nessuna pubblicità a pagamento attivata. Nessun invio nei gruppi Facebook eseguito.
 
-Per Pinterest il controllo automatico di approvazione ha rifiutato la pubblicazione perché la richiesta generica sui social non nominava esplicitamente quel canale. La bozza è pronta, con dichiarazioni AI e persona generata attive e suggerimenti commerciali disattivati. Non è stato eseguito alcun tentativo alternativo di invio. Serve consenso esplicito di Enrico per pubblicare il Pin.
+Pinterest pubblicato il 24 novembre 2026 dopo il «Sì» esplicito di Enrico alla richiesta di autorizzazione per questo canale. Il precedente rifiuto automatico è stato risolto con il consenso, senza tentativi alternativi. Pin: https://it.pinterest.com/pin/269441990205533050/ . Verificati il titolo, la fotografia, la descrizione, la bacheca «Pensioni e invalidità | Per Me», l’etichetta «AI modified» e il collegamento diretto alla guida con i parametri Pinterest. Testo alternativo e dichiarazione della presenza di persone generate impostati nella bozza pubblicata; suggerimenti commerciali disattivati. Nessuna inserzione a pagamento attivata.
 
 I collegamenti ai post sopra sono quelli osservati nel browser; il link Instagram conserva i parametri del reindirizzamento verificato.
 
