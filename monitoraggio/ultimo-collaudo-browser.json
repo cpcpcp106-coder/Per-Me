@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-24T14:13:27.870Z",
+  "checked_at_utc": "2026-11-24T14:48:01.716Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 145,
+        "count": 146,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 145,
+        "checked": 146,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 145,
+        "checked": 146,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "133 pagine salvate per la lettura offline · controllo online 24 nov, 14:14.",
+        "status": "134 pagine salvate per la lettura offline · controllo online 24 nov, 14:48.",
         "stored": {
-          "guides": 133,
-          "updated": "2026-11-24T14:14:23.575Z",
-          "bytes": 2842381,
+          "guides": 134,
+          "updated": "2026-11-24T14:48:59.416Z",
+          "bytes": 2858537,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 133
+        "count": 134
       }
     },
     {
@@ -185,7 +185,7 @@
       "result": "PASS",
       "details": {
         "title": "Agevolazioni e diritti",
-        "chars": 12136
+        "chars": 12310
       }
     },
     {
@@ -413,6 +413,12 @@
       "violations": [],
       "passes": 29,
       "incomplete": 3
+    },
+    {
+      "page": "bonus-mamme-2026-domanda-requisiti.html",
+      "violations": [],
+      "passes": 30,
+      "incomplete": 2
     },
     {
       "page": "caregiver-familiari-anziani-disabilita-legge-104.html",
