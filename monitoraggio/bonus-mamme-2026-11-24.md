@@ -43,3 +43,25 @@ PR: https://github.com/cpcpcp106-coder/Per-Me/pull/36
 La prima esecuzione ha rilevato quattro controlli delle guide Agevolazioni 05–08 ancora riferiti ai precedenti conteggi (10 guide nazionali e 13 risorse complessive). Aggiornate le sole attese numeriche a 11 guide nazionali e 14 risorse, mantenendo i controlli sulle tre schede locali e le altre verifiche. La homepage riporta il conteggio effettivo. Nessuna fonte o contenuto delle guide 05–07 modificato.
 
 Nel browser la PWA ha sincronizzato la guida, restituito il risultato cercando «bonus mamme» e aperto il testo salvato: 9324 caratteri, una tabella, cinque collegamenti INPS e entrambe le scadenze presenti. Questo riscontro non comprende una nuova disconnessione della rete né una prova sul Samsung fisico.
+
+## Pubblicazione completata e verificata
+
+Il commit finale della proposta `66bcc3d87252a2ba90e865c2b88a8321cc40156c` ha superato tutti i 19 workflow della PR prima dell’integrazione. PR #36 integrata nel commit `16d683d93ae62fdf5866879efef69329237d04f2`.
+
+Distribuzione GitHub Pages conclusa con successo: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45418120072 . Il commit distribuito `484b1a89189c0976385d83b8b1a495f4c2cd5011` include lo snapshot automatico dell’audit successivo all’integrazione. La distribuzione iniziale sul commit di merge è stata sostituita automaticamente da questa.
+
+Verifica HTTP pubblica: 2026-11-24T14:49:34.136127+00:00. Nove risorse restituite con HTTP 200 e byte identici ai file collaudati:
+
+| Risorsa | HTTP | Confronto | Byte |
+| --- | --- | --- | ---: |
+| bonus-mamme-2026-domanda-requisiti.html | 200 | identico | 20066 |
+| assets/bonus-mamme-2026-originale.webp | 200 | identico | 131032 |
+| assets/bonus-mamme-2026-originale.jpg | 200 | identico | 245769 |
+| agevolazioni-diritti.html | 200 | identico | 22876 |
+| agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html | 200 | identico | 28843 |
+| index.html | 200 | identico | 28377 |
+| sitemap.xml | 200 | identico | 20873 |
+| gradimento-articoli.json | 200 | identico | 20637 |
+| scadenze-del-mese.html | 200 | identico | 7652 |
+
+Pagina pubblica aperta nel browser: https://cpcpcp106-coder.github.io/Per-Me/bonus-mamme-2026-domanda-requisiti.html . Confermati titolo, fotografia caricata a 1536 pixel di larghezza, quattro collegamenti alle fonti ufficiali e contenuti. La verifica pubblica conferma la pubblicazione; non è una prova sul telefono fisico. Nessun annuncio social richiesto o inviato in questo incarico.
