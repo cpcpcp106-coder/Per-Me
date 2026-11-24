@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-24T10:18:41.689605+00:00",
+  "date_utc": "2026-11-24T11:37:25.697746+00:00",
   "scope": {
-    "pages": 148,
-    "unique_external_urls": 1005,
-    "occurrences": 2761
+    "pages": 154,
+    "unique_external_urls": 1012,
+    "occurrences": 2776
   },
   "counts": {
     "bloccato_o_riservato": 125,
-    "raggiungibile": 853,
-    "non_verificato_trasporto": 26,
+    "raggiungibile": 857,
+    "non_verificato_trasporto": 29,
     "errore_http": 1
   },
   "results": [
@@ -1114,6 +1114,15 @@
       ]
     },
     {
+      "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32022R2104",
+      "status": "raggiungibile",
+      "http": 202,
+      "final_url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX%3A32022R2104",
+      "pages": [
+        "strumenti/costo-spesa-settimanale.html"
+      ]
+    },
+    {
       "url": "https://eur-lex.europa.eu/legal-content/IT/TXT/?uri=CELEX:32010R0097",
       "status": "raggiungibile",
       "http": 202,
@@ -1299,6 +1308,15 @@
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
+      "pages": [
+        "monitoraggio.html"
+      ]
+    },
+    {
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
       "pages": [
         "monitoraggio.html"
       ]
@@ -2039,16 +2057,18 @@
     },
     {
       "url": "https://lesaffre.it/faq/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lesaffre.it/faq/",
       "pages": [
         "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
       "url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
       "pages": [
         "farine-quale-scegliere.html"
       ]
@@ -2114,6 +2134,15 @@
       "final_url": "https://notifichedigitali.it/sicurezza",
       "pages": [
         "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://oliobarbera.it/olio/filtrato/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://oliobarbera.it/olio/filtrato/",
+      "pages": [
+        "strumenti/costo-spesa-settimanale.html"
       ]
     },
     {
@@ -3735,9 +3764,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3765,9 +3793,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3817,9 +3844,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/nota-79",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3832,6 +3858,15 @@
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
+      ]
+    },
+    {
+      "url": "https://www.alimentinutrizione.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.alimentinutrizione.it/",
+      "pages": [
+        "strumenti/costo-pasto-mediterraneo.html"
       ]
     },
     {
@@ -4579,7 +4614,8 @@
       "http": 200,
       "final_url": "https://www.arera.it/consumatori/bonus-sociale",
       "pages": [
-        "agevolazioni-guida-02-bonus-sociali.html"
+        "agevolazioni-guida-02-bonus-sociali.html",
+        "strumenti/orientamento-benefici.html"
       ]
     },
     {
@@ -4786,6 +4822,33 @@
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
+      ]
+    },
+    {
+      "url": "https://www.carrefour.it/p/barbera-olio-extra-vergine-di-oliva-100-da-olive-italiane-filtrato-1-l/8002591201042.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.carrefour.it/p/barbera-olio-extra-vergine-di-oliva-100-da-olive-italiane-filtrato-1-l/8002591201042.html",
+      "pages": [
+        "strumenti/costo-spesa-settimanale.html"
+      ]
+    },
+    {
+      "url": "https://www.carrefour.it/p/carrefour-classic-penne-rigate-integrali-n.137-500-g/8012666048694.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.carrefour.it/p/carrefour-classic-penne-rigate-integrali-n.137-500-g/8012666048694.html",
+      "pages": [
+        "strumenti/costo-spesa-settimanale.html"
+      ]
+    },
+    {
+      "url": "https://www.carrefour.it/p/lenticchie-800-g/8020204325749.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.carrefour.it/p/lenticchie-800-g/8020204325749.html",
+      "pages": [
+        "strumenti/costo-spesa-settimanale.html"
       ]
     },
     {
@@ -5186,10 +5249,10 @@
       ]
     },
     {
-      "url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf",
+      "url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf#page=104",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf",
+      "final_url": "https://www.cortedicassazione.it/resources/cms/documents/Rassegna_mensile_GENNAIO_2023.pdf#page=104",
       "pages": [
         "agevolazioni-guida-09-locazioni-abitative.html"
       ]
@@ -5253,7 +5316,9 @@
         "dieta-mediterranea-scientifica.html",
         "dieta-mediterranea-scientifica.html",
         "dieta-mediterranea-scientifica.html",
-        "salute-guida-01-preparare-visita.html"
+        "salute-guida-01-preparare-visita.html",
+        "strumenti/costo-pasto-mediterraneo.html",
+        "strumenti/costo-spesa-settimanale.html"
       ]
     },
     {
@@ -5667,9 +5732,8 @@
     },
     {
       "url": "https://www.esur.org/esur-guidelines-2025/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.esur.org/esur-guidelines-2025/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html",
         "salute-guida-04-esami-cardiologici-ecg-eco-holter.html"
@@ -5895,6 +5959,9 @@
         "soldi-lavoro.html",
         "soldi-lavoro.html",
         "stipendio-diminuito-cosa-controllare.html",
+        "strumenti/costo-pasto-mediterraneo.html",
+        "strumenti/costo-spesa-settimanale.html",
+        "strumenti/orientamento-benefici.html",
         "tangzhong-autolisi-biga-poolish.html",
         "tangzhong-autolisi-biga-poolish.html",
         "tutor-ai-android-primi-passi.html",
@@ -6441,6 +6508,7 @@
         "riesame-ricorso-inps-termini.html",
         "soldi-lavoro.html",
         "stipendio-diminuito-cosa-controllare.html",
+        "strumenti/orientamento-benefici.html",
         "verbale-invalidita-civile-legge-104-come-leggerlo.html"
       ]
     },
@@ -6781,7 +6849,8 @@
         "agevolazioni-diritti.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html",
-        "dieta-mediterranea-scientifica.html"
+        "dieta-mediterranea-scientifica.html",
+        "strumenti/orientamento-benefici.html"
       ]
     },
     {
@@ -8201,8 +8270,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -8210,8 +8280,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -8680,18 +8751,16 @@
     },
     {
       "url": "https://www.nhif.bg/bg/euro/answers/49607",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nhif.bg/bg/euro/answers/49607",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "pensionati-estero-mete.html"
       ]
     },
     {
       "url": "https://www.nhif.bg/bg/rzok/plovdiv",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.nhif.bg/bg/rzok/plovdiv",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -9846,9 +9915,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
