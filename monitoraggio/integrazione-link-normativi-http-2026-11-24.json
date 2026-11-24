@@ -1,0 +1,115 @@
+{
+  "scope": "Nove URL Normattiva aggiunti alle tre guide, verifica diretta senza riscrittura delle query URN",
+  "results": [
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115~art76",
+      "checked_at": "2026-11-24T15:08:50.660800+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.del.presidente.della.repubblica:2002-05-30;115~art76",
+      "sha256": "44da990493f87e81224aa01dcd6ccf26091ff13dfa002006d5bd91e05e4b469e",
+      "article": 76,
+      "correct_article": true,
+      "article_sha256": "e75ba383b46cff9678845df19e0ea958eb387b01210ec30dbfbe5eab1c2507d1",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art283",
+      "checked_at": "2026-11-24T15:08:50.661635+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art283",
+      "sha256": "f69b375135942b0ef07270fd6aaaccd2fb4d7aaf2a9fc81602c6330a4242ae0f",
+      "article": 283,
+      "correct_article": true,
+      "article_sha256": "ccf422fb5e1893abfdf5a6aeaf5257f418de9a31aec7d302263ff23e53dd1046",
+      "date_selected": "24/11/2026",
+      "error_page": false,
+      "condition_confirmed": true
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art67",
+      "checked_at": "2026-11-24T15:08:50.662299+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art67",
+      "sha256": "d29fad8ab8624b0c668f279c982c2c6ca4279a69222b8b90266bbb6e366f7e2e",
+      "article": 67,
+      "correct_article": true,
+      "article_sha256": "8b06f5dc63a2b02d4dc05b1fe4618da7a12c5cc6e6c7cedccfc9efcde5e6d0ee",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art69",
+      "checked_at": "2026-11-24T15:08:50.663063+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art69",
+      "sha256": "532e81015898da1a0c762002d50beadb7e309eadc7297d47e8910a282e8c3e7c",
+      "article": 69,
+      "correct_article": true,
+      "article_sha256": "9c4b02c60fb6e39f0c26550c0baaa67a7a1d6ae09ecd8fc152e1d9913f95f10b",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art70",
+      "checked_at": "2026-11-24T15:08:56.421086+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art70",
+      "sha256": "0aef62479431e8213107f323b73fcfbece62fc3d812a94623f290037ff74c1cc",
+      "article": 70,
+      "correct_article": true,
+      "article_sha256": "f1ad614bd044c34201a20f70f09cc7da64bff308aa91a0f847eed3fd5f4202ee",
+      "date_selected": "24/11/2026",
+      "error_page": false,
+      "omologazione_confirmed": true
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art74",
+      "checked_at": "2026-11-24T15:08:56.461603+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2019-01-12;14~art74",
+      "sha256": "2131a0d8196891e1e8d40060e286fe62d3fede6d2cd509b25e8b3e6693360308",
+      "article": 74,
+      "correct_article": true,
+      "article_sha256": "5602536c7d8e29edc4cac83296dfd1e988015192605e705b60812762a96a8590",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art545",
+      "checked_at": "2026-11-24T15:08:56.818360+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art545",
+      "sha256": "26b6d68a9d609b67fdbad2e4de178a748228fbb8bbd3471f8eaa6d2292e2bc6c",
+      "article": 545,
+      "correct_article": true,
+      "article_sha256": "01c03be00c9dfe1d2d9f5572be3b3376dbbfa1366c40a2e281a651ef1cdb962a",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art546",
+      "checked_at": "2026-11-24T15:08:57.031381+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art546",
+      "sha256": "9b272a4d38d53c255e2083c4fb9a1b4989a4f550daa16d5b2e8bc0f56aaae127",
+      "article": 546,
+      "correct_article": true,
+      "article_sha256": "1be5bd29d5739dbfa77492e816b97dbe57cc8202128418e6fc28078e50df43e3",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art617",
+      "checked_at": "2026-11-24T15:09:00.913654+01:00",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art617",
+      "sha256": "d634c014ffe9cfbe3e6631530ce1fd0459c48d9746a053e8f52f39c8afaf6352",
+      "article": 617,
+      "correct_article": true,
+      "article_sha256": "91bc2ec42562bee5d48a5f2b488ab692a99a158dac66d4cd3722f1fa3aebdd32",
+      "date_selected": "24/11/2026",
+      "error_page": false
+    }
+  ]
+}
