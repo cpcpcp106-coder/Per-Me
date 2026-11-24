@@ -25,9 +25,9 @@ for(const m of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){
 }
 assert.match(hub,/href="agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"/,'Card Guida 08 assente');
 const guideLinks=[...hub.matchAll(/<a class="a04-guide-card" href="([^"]+\.html)"/g)].map(match=>match[1]);
-assert.equal(guideLinks.filter(link=>!/-fvg(?:-|\.html)/.test(link)).length,10,'Dieci guide nazionali');
+assert.equal(guideLinks.filter(link=>!/-fvg(?:-|\.html)/.test(link)).length,11,'Undici guide nazionali');
 assert.equal(guideLinks.filter(link=>/-fvg(?:-|\.html)/.test(link)).length,3,'Tre schede per il Friuli Venezia Giulia');
-assert.match(home,/13 risorse disponibili/,'Conteggio home: 13');
+assert.match(home,/14 risorse disponibili/,'Conteggio home: 14');
 assert.match(map,/agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html/,'Sitemap');
 assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica PWA assente');
 assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'PWA non sincronizza guide collegate');

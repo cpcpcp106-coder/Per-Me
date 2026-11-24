@@ -35,3 +35,11 @@ Foto originale realistica generata appositamente con ImageGen; persone immaginar
 - Anteprima aperta nel browser: raggiunta dalla nuova scheda in homepage, titolo, fotografia, tabella, testi, fonti e comandi di lettura presenti. Nessuna prova fisica su Samsung.
 
 Collaudi della proposta, integrazione e riscontro HTTP pubblico vengono registrati dopo l’esito effettivo; questo paragrafo non attesta ancora la distribuzione.
+
+## Collaudo della proposta e correzione dei conteggi
+
+PR: https://github.com/cpcpcp106-coder/Per-Me/pull/36
+
+La prima esecuzione ha rilevato quattro controlli delle guide Agevolazioni 05–08 ancora riferiti ai precedenti conteggi (10 guide nazionali e 13 risorse complessive). Aggiornate le sole attese numeriche a 11 guide nazionali e 14 risorse, mantenendo i controlli sulle tre schede locali e le altre verifiche. La homepage riporta il conteggio effettivo. Nessuna fonte o contenuto delle guide 05–07 modificato.
+
+Nel browser la PWA ha sincronizzato la guida, restituito il risultato cercando «bonus mamme» e aperto il testo salvato: 9324 caratteri, una tabella, cinque collegamenti INPS e entrambe le scadenze presenti. Questo riscontro non comprende una nuova disconnessione della rete né una prova sul Samsung fisico.
