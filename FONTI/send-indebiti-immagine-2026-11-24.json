@@ -1,0 +1,32 @@
+{
+  "generated_on": "2026-11-24",
+  "tool": "ChatGPT ImageGen, built-in",
+  "input_images": [],
+  "original_name": "exec-882f20b3-71ae-4627-99a7-26c7904a67a0.png",
+  "original_sha256": "e38b489eb42adfab9feec7c85e5700b5732dac15659af5cd01f5375734839816",
+  "prompt": "Fotografia editoriale iperrealistica originale, composizione quadrata: una donna di circa 66 anni con occhiali e una familiare adulta di circa 40 anni leggono insieme uno smartphone al tavolo di una casa italiana. Alcuni fogli e una busta neutra; luce naturale, espressioni serene e attente. Persone immaginarie, schermo verso le donne, nessun dato leggibile, testo, marchio, logo o filigrana. Scena illustrativa senza rappresentare un caso reale di debito o un’approvazione ufficiale.",
+  "technical_processing": "Sola conversione PNG in WebP e JPEG; nessun ritaglio e nessuna modifica della composizione.",
+  "outputs": [
+    {
+      "file": "assets/inps-send-indebiti-originale.webp",
+      "sha256": "af8a8d5ec45e0610717bf14f2ea05b7c61660450b163d7016541a9a71cd78ed2",
+      "size_bytes": 270818,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "git_blob_sha": "5a49ac4ab4f4bf202e98d662314015cda20eaabe"
+    },
+    {
+      "file": "assets/inps-send-indebiti-originale.jpg",
+      "sha256": "4650cfa7977a8997b66e93938d9d952bfffcfce0431c2a550ff988bf46033aa2",
+      "size_bytes": 405250,
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "git_blob_sha": "f968cc2b852a0f19140cbd8f7115f1f18dd571b2"
+    }
+  ],
+  "disclosure": "Foto illustrativa generata con intelligenza artificiale. Persone immaginarie."
+}

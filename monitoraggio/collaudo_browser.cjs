@@ -377,6 +377,13 @@ try{
  const tables=await page.locator('#reader-content table').count();
  record('italia_turchia_guide_readable_offline',text.length>4000&&tables===2&&text.includes('DI01')&&text.includes('denuncia di regolarizzazione'),{characters:text.length,tables,mode:'Testo e tabelle salvati; foto richiede Internet'});
 }catch(e){record('italia_turchia_guide_readable_offline',false,{error:String(e).slice(0,260)})}
+try{
+ await page.evaluate(()=>{location.hash='guida='+encodeURIComponent('inps-send-indebiti-notifiche-2027.html')});
+ await page.waitForFunction(()=>document.getElementById('reader-title')?.textContent.includes('INPS e SEND'),{timeout:5000});
+ const text=await page.locator('#reader-content').innerText();
+ const facebook=page.locator('#reader-content a[href="https://www.facebook.com/PerMeGuide/"]');
+ record('send_indebiti_guide_readable_offline',text.length>5000&&text.includes('24 novembre 2026')&&text.includes('più di 75 anni')&&text.includes('invalidità civile')&&await facebook.count()>0,{characters:text.length,mode:'Testo e collegamento Facebook salvati; foto e destinazioni esterne richiedono Internet'});
+}catch(e){record('send_indebiti_guide_readable_offline',false,{error:String(e).slice(0,260)})}
 await context.setOffline(false);
 await page.reload({waitUntil:'domcontentloaded'});
 await page.waitForTimeout(800);
