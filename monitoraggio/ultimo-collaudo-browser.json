@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-23T17:43:25.640Z",
+  "checked_at_utc": "2026-11-24T10:15:49.876Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 144,
+        "count": 145,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 144,
+        "checked": 145,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 144,
+        "checked": 145,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "132 pagine salvate per la lettura offline · controllo online 23 nov, 17:44.",
+        "status": "133 pagine salvate per la lettura offline · controllo online 24 nov, 10:16.",
         "stored": {
-          "guides": 132,
-          "updated": "2026-11-23T17:44:44.494Z",
-          "bytes": 2819277,
+          "guides": 133,
+          "updated": "2026-11-24T10:16:54.577Z",
+          "bytes": 2837915,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 132
+        "count": 133
       }
     },
     {
@@ -220,6 +220,14 @@
         "characters": 9346,
         "tables": 2,
         "mode": "Testo e tabelle salvati; foto richiede Internet"
+      }
+    },
+    {
+      "name": "send_indebiti_guide_readable_offline",
+      "result": "PASS",
+      "details": {
+        "characters": 10983,
+        "mode": "Testo e collegamento Facebook salvati; foto e destinazioni esterne richiedono Internet"
       }
     },
     {
@@ -854,6 +862,12 @@
       "page": "inps-prestazione-sospesa-respinta-cosa-fare.html",
       "violations": [],
       "passes": 29,
+      "incomplete": 2
+    },
+    {
+      "page": "inps-send-indebiti-notifiche-2027.html",
+      "violations": [],
+      "passes": 28,
       "incomplete": 2
     },
     {

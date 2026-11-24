@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-23T17:46:32.037970+00:00",
+  "date_utc": "2026-11-24T10:18:41.689605+00:00",
   "scope": {
-    "pages": 147,
-    "unique_external_urls": 995,
-    "occurrences": 2746
+    "pages": 148,
+    "unique_external_urls": 1005,
+    "occurrences": 2761
   },
   "counts": {
-    "bloccato_o_riservato": 121,
-    "raggiungibile": 845,
-    "non_verificato_trasporto": 28,
+    "bloccato_o_riservato": 125,
+    "raggiungibile": 853,
+    "non_verificato_trasporto": 26,
     "errore_http": 1
   },
   "results": [
@@ -149,6 +149,38 @@
       "final_url": "https://asp.gov.al/wp-content/uploads/2025/11/Ligj-PER-TE-HUAJT-2021-06-24-79-perditesuar-2025-PDF.pdf",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.notifichedigitali.it/hc/it",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.notifichedigitali.it/hc/it/articles/32452602728977-Quando-si-perfeziona-una-notifica-a-valore-legale",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.notifichedigitali.it/hc/it/articles/32453819931537-Delegare-qualcuno-a-visualizzare-le-tue-notifiche-SEND",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.notifichedigitali.it/hc/it/articles/33545157719441-Cosa-sono-i-costi-di-notifica",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
       ]
     },
     {
@@ -478,7 +510,7 @@
       "url": "https://digital-strategy.ec.europa.eu/it/policies/112",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://digital-strategy.ec.europa.eu/en/page-not-found",
+      "final_url": "https://digital-strategy.ec.europa.eu/it/policies/112",
       "pages": [
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
@@ -1884,6 +1916,7 @@
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-send-indebiti-notifiche-2027.html",
         "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -2006,18 +2039,16 @@
     },
     {
       "url": "https://lesaffre.it/faq/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lesaffre.it/faq/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "tangzhong-autolisi-biga-poolish.html"
       ]
     },
     {
       "url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lesaffre.it/lesaffre-cat/estensibilita-e-macchinabilita/",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "farine-quale-scegliere.html"
       ]
@@ -2038,6 +2069,51 @@
       "final_url": "https://mvr.bg/migration/en/legislation/citizens-of-eu",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://notifichedigitali.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://notifichedigitali.it/",
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://notifichedigitali.it/cittadini",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://notifichedigitali.it/cittadini",
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://notifichedigitali.it/faq",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://notifichedigitali.it/faq",
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://notifichedigitali.it/punti-di-ritiro/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://notifichedigitali.it/punti-di-ritiro/",
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://notifichedigitali.it/sicurezza",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://notifichedigitali.it/sicurezza",
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
       ]
     },
     {
@@ -2870,6 +2946,7 @@
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-send-indebiti-notifiche-2027.html",
         "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -3658,8 +3735,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3668,9 +3746,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3678,8 +3755,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3697,9 +3775,8 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3716,8 +3793,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3739,8 +3817,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -5734,6 +5813,8 @@
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-send-indebiti-notifiche-2027.html",
+        "inps-send-indebiti-notifiche-2027.html",
         "italia-turchia-previdenza-distacco-contributi.html",
         "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
@@ -7330,6 +7411,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3801-del-19-11-2026_16422.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3801-del-19-11-2026_16422.html",
+      "pages": [
+        "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/aliquote-contributive.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7966,6 +8056,7 @@
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "inps-send-indebiti-notifiche-2027.html",
         "italia-turchia-previdenza-distacco-contributi.html",
         "lavoro-guida-07-cigo-cigs-fis-solidarieta.html",
         "lavoro-guida-08-pagamento-cassa-integrazione-inps-ritardi.html",
@@ -9765,8 +9856,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10456,8 +10548,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
