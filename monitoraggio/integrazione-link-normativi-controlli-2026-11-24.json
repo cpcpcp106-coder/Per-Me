@@ -1,0 +1,178 @@
+{
+  "functional_commit": "dd58ffbcd78162a2590f17b8b137debdace2232a",
+  "pull_request": "https://github.com/cpcpcp106-coder/Per-Me/pull/35",
+  "merge_commit": "8797103e691aa69424c668bb9369dec182a05082",
+  "checks": [
+    {
+      "id": 138505203588,
+      "name": "controllo",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219877/job/138505203588"
+    },
+    {
+      "id": 138505201918,
+      "name": "collaudo",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219955/job/138505201918"
+    },
+    {
+      "id": 138505201846,
+      "name": "coerenza",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411220133/job/138505201846"
+    },
+    {
+      "id": 138505201663,
+      "name": "check",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219916/job/138505201663"
+    },
+    {
+      "id": 138505201445,
+      "name": "structure",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219964/job/138505201445"
+    },
+    {
+      "id": 138505201134,
+      "name": "verifica-pages-live",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411220059/job/138505201134"
+    },
+    {
+      "id": 138505201123,
+      "name": "territorio",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219881/job/138505201123"
+    },
+    {
+      "id": 138505201093,
+      "name": "editorial",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219886/job/138505201093"
+    },
+    {
+      "id": 138505201055,
+      "name": "check-bonus",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219927/job/138505201055"
+    },
+    {
+      "id": 138505200990,
+      "name": "check",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219876/job/138505200990"
+    },
+    {
+      "id": 138505200567,
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219802/job/138505200567"
+    },
+    {
+      "id": 138505200338,
+      "name": "guide",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219724/job/138505200338"
+    },
+    {
+      "id": 138505200288,
+      "name": "indicizzazione",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219783/job/138505200288"
+    },
+    {
+      "id": 138505200224,
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219563/job/138505200224"
+    },
+    {
+      "id": 138505200043,
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219693/job/138505200043"
+    },
+    {
+      "id": 138505200036,
+      "name": "test",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219660/job/138505200036"
+    },
+    {
+      "id": 138505200034,
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219667/job/138505200034"
+    },
+    {
+      "id": 138505200006,
+      "name": "audit-immagini",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219765/job/138505200006"
+    },
+    {
+      "id": 138505199860,
+      "name": "structure",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219641/job/138505199860"
+    },
+    {
+      "id": 138505199504,
+      "name": "audit",
+      "status": "completed",
+      "conclusion": "success",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411219674/job/138505199504"
+    }
+  ],
+  "publication": {
+    "run_id": 45411670980,
+    "sha": "b6d0d0bc01e85ea1b12adf9451b92095dfd20e8c",
+    "status": "completed",
+    "conclusion": "success",
+    "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411670980"
+  },
+  "browser": [
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html",
+      "date": true,
+      "condition": true,
+      "normattiva": 10,
+      "photos_loaded": true,
+      "facebook": true
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html",
+      "date": true,
+      "normattiva": 5,
+      "photos_loaded": true,
+      "facebook": true
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "date": true,
+      "normattiva": 1,
+      "photos_loaded": true,
+      "facebook": true
+    }
+  ]
+}

@@ -30,4 +30,10 @@ Il controllo editoriale automatico non certifica i contenuti giuridici. Nessuna 
 
 ## Pubblicazione
 
-Le modifiche hanno superato i controlli locali e sono pronte per l'integrazione. Commit, controlli GitHub e verifica del sito pubblico saranno registrati dopo il rispettivo esito.
+La [PR 35](https://github.com/cpcpcp106-coder/Per-Me/pull/35) è stata integrata in `main` al commit `8797103e691aa69424c668bb9369dec182a05082`, dopo **20 controlli GitHub superati** sul commit funzionale `dd58ffbcd78162a2590f17b8b137debdace2232a`. Tra questi, il collaudo browser comprende prove responsive, controlli di accessibilità automatici, sincronizzazione e offline. Le [evidenze dei controlli e del browser](integrazione-link-normativi-controlli-2026-11-24.json) riportano esiti e collegamenti diretti.
+
+Il primo deployment, relativo al merge, è stato annullato e sostituito da quello del successivo snapshot automatico. Il [deployment Pages 45411670980](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45411670980), sul commit `b6d0d0bc01e85ea1b12adf9451b92095dfd20e8c`, è terminato con successo.
+
+La [verifica pubblica](integrazione-link-normativi-pubblico-2026-11-24.json), avviata alle **15:14, ora italiana**, ha confermato HTTP 200 e corrispondenza completa ai sorgenti per tutte e tre le guide e per la sitemap. Le due fotografie locali corrispondono ai file del repository; la fotografia Pexels del patrocinio risponde HTTP 200 come immagine JPEG. Nel browser pubblico sono stati confermati la data mirata, le fotografie caricate e il collegamento Facebook di ciascuna guida, oltre ai dieci richiami puntuali Normattiva nel sovraindebitamento, ai cinque nel pignoramento e a quello nel patrocinio. Non sono stati inviati voti, commenti o messaggi.
+
+Le evidenze si riferiscono alla pubblicazione verificata. Gli aggiornamenti successivi di soli registri non cambiano le tre pagine già collaudate.

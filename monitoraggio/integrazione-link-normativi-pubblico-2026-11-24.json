@@ -1,0 +1,77 @@
+{
+  "scope": "Tre guide modificate, fotografie, collegamento Facebook, alternative Normattiva e sitemap pubblica",
+  "results": [
+    {
+      "path": "debiti-guida-08-sovraindebitamento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html",
+      "checked_at": "2026-11-24T15:14:44.491915+01:00",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-08-sovraindebitamento.html",
+      "sha256": "1968cdaa8e899054d8974b14a54c02f772347a8a79691011542a951c82e8b16b",
+      "matches_source": true,
+      "date_note": true,
+      "facebook": true,
+      "normattiva_articles": 10,
+      "images": [
+        {
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-08-nuova-prospettiva.webp",
+          "http": 200,
+          "content_type": "image/webp",
+          "external": false,
+          "matches_source": true
+        }
+      ]
+    },
+    {
+      "path": "debiti-guida-06-fermo-pignoramento.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html",
+      "checked_at": "2026-11-24T15:14:44.491283+01:00",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/debiti-guida-06-fermo-pignoramento.html",
+      "sha256": "16656e5cfbf39c85c7723b8b09d8547e61c4a322f40749a236307446ec334b5c",
+      "matches_source": true,
+      "date_note": true,
+      "facebook": true,
+      "normattiva_articles": 5,
+      "images": [
+        {
+          "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/debiti-guida-06-fermo-auto.webp",
+          "http": 200,
+          "content_type": "image/webp",
+          "external": false,
+          "matches_source": true
+        }
+      ]
+    },
+    {
+      "path": "agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "checked_at": "2026-11-24T15:14:44.492465+01:00",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/agevolazioni-guida-07-patrocinio-spese-stato.html",
+      "sha256": "3f5e230277311b1c6a24a02fcd400d95a202614bb40fe6426db43f9674af70d1",
+      "matches_source": true,
+      "date_note": true,
+      "facebook": true,
+      "normattiva_articles": 1,
+      "images": [
+        {
+          "url": "https://images.pexels.com/photos/8441780/pexels-photo-8441780.jpeg?auto=compress&cs=tinysrgb&w=1400",
+          "http": 200,
+          "content_type": "image/jpeg",
+          "external": true,
+          "matches_source": null
+        }
+      ]
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "checked_at": "2026-11-24T15:14:44.492977+01:00",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "sha256": "fa9ca8c380ef6a0caf158506448229a1211bfe06dbb85e617acd22fc91ed0800",
+      "matches_source": true
+    }
+  ]
+}
