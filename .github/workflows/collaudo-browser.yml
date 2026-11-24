@@ -5,6 +5,9 @@ on:
     paths:
       - "*.html"
       - "app/**"
+      - "strumenti/**"
+      - "contatori-personali/**"
+      - "monitoraggio/riscontri*"
       - "style.css"
       - "site/**"
       - "scripts/genera-ricette-mediterranee.cjs"
@@ -18,6 +21,9 @@ on:
     paths:
       - "*.html"
       - "app/**"
+      - "strumenti/**"
+      - "contatori-personali/**"
+      - "monitoraggio/riscontri*"
       - "style.css"
       - "site/**"
       - "scripts/genera-ricette-mediterranee.cjs"
