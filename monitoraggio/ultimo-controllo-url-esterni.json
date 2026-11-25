@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-24T14:51:08.697979+00:00",
+  "date_utc": "2026-11-25T08:48:19.312899+00:00",
   "scope": {
-    "pages": 155,
-    "unique_external_urls": 1025,
-    "occurrences": 2804
+    "pages": 158,
+    "unique_external_urls": 1038,
+    "occurrences": 2840
   },
   "counts": {
-    "raggiungibile": 868,
     "bloccato_o_riservato": 124,
-    "non_verificato_trasporto": 32,
+    "raggiungibile": 899,
+    "non_verificato_trasporto": 14,
     "errore_http": 1
   },
   "results": [
@@ -508,8 +508,9 @@
     },
     {
       "url": "https://digital-strategy.ec.europa.eu/it/policies/112",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://digital-strategy.ec.europa.eu/it/policies/112",
       "pages": [
         "salute-guida-06-dimissione-ospedale-ritorno-casa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
@@ -1370,6 +1371,16 @@
       ]
     },
     {
+      "url": "https://helpdesk.spid.gov.it/knowledgebase.php?article=9",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://helpdesk.spid.gov.it/knowledgebase.php?article=9",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
       "url": "https://igi.mai.gov.ro/en/residence-registration/",
       "status": "raggiungibile",
       "http": 200,
@@ -1927,6 +1938,9 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-quotidiano.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
         "gradimento.html",
@@ -2565,8 +2579,9 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.regione.fvg.it/portale/",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -2704,8 +2719,9 @@
     },
     {
       "url": "https://sps.nhs.uk/articles/managing-interactions-between-macrolides-and-statins/",
-      "status": "bloccato_o_riservato",
-      "http": 403,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://sps.nhs.uk/articles/managing-interactions-between-macrolides-and-statins/",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -2721,12 +2737,40 @@
       ]
     },
     {
+      "url": "https://support.apple.com/it-it/guide/iphone/iph3c076905a/ios",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/guide/iphone/iph3c076905a/ios",
+      "pages": [
+        "digitale-telefono-leggibile.html"
+      ]
+    },
+    {
       "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
       "pages": [
+        "digitale-telefono-leggibile.html",
         "tutor-ai-android-primi-passi.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/accessibility/android/answer/13532420?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accessibility/android/answer/13532420?hl=it",
+      "pages": [
+        "digitale-telefono-leggibile.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/accessibility/android/answer/6006949?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accessibility/android/answer/6006949?hl=it",
+      "pages": [
+        "digitale-telefono-leggibile.html"
       ]
     },
     {
@@ -2968,6 +3012,9 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-quotidiano.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
         "gradimento.html",
@@ -3739,24 +3786,27 @@
     },
     {
       "url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/aggiornamento-scheda-multifarmaco-di-monitoraggio-semplificato-intravitreali-anti-vegf_eydenzelt",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/diabete-mellito-2-nuove-posologie-semaglutide",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
       ]
     },
     {
       "url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/-/metoclopramide-il-chmp-conferma-restrizioni-d-uso",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -3764,8 +3814,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/content/segnalazioni%E2%80%93reazioni%E2%80%93avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
@@ -3774,8 +3825,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/1810048/2023.10.25_NII_Creon-Creonipe_IT.pdf",
       "pages": [
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html",
         "diabete-guida-21-pancreas-pancreatite-insufficienza-esocrina.html"
@@ -3783,8 +3835,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/2694929/Comunicato_AIFA_4-2025.pdf",
       "pages": [
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html",
         "diabete-guida-27-urgenze-metaboliche-ipoglicemia-chetoacidosi-stato-iperosmolare.html"
@@ -3792,8 +3845,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/documents/20142/516919/nii_pioglitazone.pdf",
       "pages": [
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html",
         "diabete-guida-26-tumori-rischio-screening-prevenzione.html"
@@ -3801,8 +3855,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/en/-/chiusura-registro-di-monitoraggio-xiapex",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -3810,8 +3865,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/it/note-aifa",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/it/note-aifa",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html"
@@ -3819,8 +3875,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/moduli-segnalazione-reazioni-avverse",
       "pages": [
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html",
         "diabete-guida-28-effetti-indesiderati-sicurezza-farmaci.html"
@@ -3828,8 +3885,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-100",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-100",
       "pages": [
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
         "diabete-guida-03-farmaci-insulina-sicurezza.html",
@@ -3842,8 +3900,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-79",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-79",
       "pages": [
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html",
         "diabete-guida-23-ossa-osteoporosi-sarcopenia-fratture-fragilita.html"
@@ -3851,8 +3910,9 @@
     },
     {
       "url": "https://www.aifa.gov.it/nota-98",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.aifa.gov.it/nota-98",
       "pages": [
         "diabete-guida-09-retinopatia-edema-maculare-vista.html",
         "diabete-guida-09-retinopatia-edema-maculare-vista.html"
@@ -4850,6 +4910,54 @@
       ]
     },
     {
+      "url": "https://www.cartaidentita.interno.gov.it/assistenza/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/assistenza/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/codici-di-sicurezza-pin-e-puk/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/codici-di-sicurezza-pin-e-puk/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-3/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-3/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/recupero-puk/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/recupero-puk/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-hearing-loss.html",
       "status": "raggiungibile",
       "http": 200,
@@ -5742,7 +5850,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -5768,7 +5876,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-diritti.html",
@@ -5866,6 +5974,12 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-quotidiano.html",
+        "digitale-quotidiano.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-telefono-leggibile.html",
+        "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
@@ -8074,9 +8188,8 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
@@ -8160,6 +8273,9 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-quotidiano.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
         "gradimento.html",
@@ -8312,8 +8428,9 @@
     },
     {
       "url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/kidney-failure-risk-factor-urine-albumin-creatinine-ratio-uacr",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html",
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
@@ -8321,8 +8438,9 @@
     },
     {
       "url": "https://www.kidney.org/what-criteria-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.kidney.org/what-criteria-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
@@ -10649,6 +10767,15 @@
       ]
     },
     {
+      "url": "https://www.samsung.com/it/support/mobile-devices/fixing-galaxy-device-display-issues/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.samsung.com/it/support/mobile-devices/fixing-galaxy-device-display-issues/",
+      "pages": [
+        "digitale-telefono-leggibile.html"
+      ]
+    },
+    {
       "url": "https://www.san.gva.es/es/web/portal-del-paciente/buscador-recursos",
       "status": "raggiungibile",
       "http": 200,
@@ -10693,6 +10820,36 @@
       "pages": [
         "pensionati-estero-mete.html",
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
+      "pages": [
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-spid-cie-accesso-recupero.html"
       ]
     },
     {
@@ -10757,8 +10914,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
