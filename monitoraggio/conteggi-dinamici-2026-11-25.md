@@ -12,7 +12,7 @@ Il registro iniziale conserva le identità già pubblicate. Il nuovo workflow co
 
 Restano i requisiti editoriali e funzionali: un solo H1 quando richiesto, sette giorni e tre pasti nel menù, regole nutrizionali, importi e dosi, soglie di accessibilità, fonti e controlli delle fotografie. I totali visibili nei contenuti devono ancora essere aggiornati da chi aggiunge una guida. Rimozioni e rinomine intenzionali richiedono una decisione editoriale esplicita.
 
-Il solo adattamento della patch alla base aggiornata riguarda `gradimento-articoli.json`: aggiunti i metadati di ambito alle voci previste, preservando tutte le voci nuove. Nessuna pagina della rubrica Digitale quotidiano è stata rimossa o sovrascritta.
+L'adattamento della patch alla base aggiornata riguarda `gradimento-articoli.json`: aggiunti i metadati di ambito alle voci previste, preservando tutte le voci nuove. Nessuna pagina della rubrica Digitale quotidiano è stata rimossa o sovrascritta. Il collaudo Lievito riconosce sia i pulsanti specifici del percorso sia quelli condivisi delle guide, usati dalla pagina Farine; conserva il requisito di almeno un pulsante e la soglia di contrasto 7:1.
 
 ## Verifica locale sulla base aggiornata
 
@@ -31,5 +31,7 @@ Le mutazioni dei test avvengono in memoria o in cartelle temporanee. La cancella
 I workflow della PR eseguono l'inventario e i collaudi browser, Tutor AI e strumenti, compresi i percorsi offline interessati. Gli esiti effettivi e i collegamenti alle esecuzioni sono riportati nella descrizione della PR. Questo registro documenta i risultati locali disponibili alla creazione della proposta di modifica; non attribuisce ai controlli ancora da eseguire un esito positivo.
 
 Le prove automatiche non certificano un Samsung fisico, una revisione indipendente dei contenuti o l'indicizzazione Google. L'incarico riguarda la preparazione della PR; non comprende il merge in main, il rilascio del sito o cambiamenti alle regole di protezione del repository.
+
+PR dedicata: [#38 — Conteggi automatici e protezione da cancellazioni delle guide](https://github.com/cpcpcp106-coder/Per-Me/pull/38).
 
 Ramo dedicato: [audit/conteggi-dinamici-2026-11-25](https://github.com/cpcpcp106-coder/Per-Me/tree/audit/conteggi-dinamici-2026-11-25).

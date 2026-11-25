@@ -32,7 +32,8 @@ async function run() {
         const response=await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
         check(response.status()===200,file+' HTTP 200 a '+width+' px');
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),file+' senza scorrimento orizzontale a '+width+' px');
-        const buttons=await page.locator('.lievito-home-links a, .lievito-page a.button-lievito, .indice-lievito a').evaluateAll(links=>{
+        // Le guide del percorso possono usare anche i pulsanti condivisi .button.
+        const buttons=await page.locator('.lievito-home-links a, .lievito-page a.button-lievito, .indice-lievito a, .article a.button').evaluateAll(links=>{
           const luminance=color=>{
             const rgb=(color.match(/[\d.]+/g)||[]).slice(0,3).map(Number).map(v=>{
               const s=v/255;return s<=0.04045?s/12.92:((s+0.055)/1.055)**2.4;
