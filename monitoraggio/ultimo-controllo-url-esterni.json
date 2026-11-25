@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-25T14:09:45.176767+00:00",
+  "date_utc": "2026-11-25T14:55:47.910860+00:00",
   "scope": {
-    "pages": 158,
-    "unique_external_urls": 1041,
-    "occurrences": 2845
+    "pages": 159,
+    "unique_external_urls": 1046,
+    "occurrences": 2856
   },
   "counts": {
-    "bloccato_o_riservato": 124,
-    "raggiungibile": 899,
-    "non_verificato_trasporto": 16,
-    "errore_http": 2
+    "raggiungibile": 908,
+    "bloccato_o_riservato": 123,
+    "non_verificato_trasporto": 14,
+    "errore_http": 1
   },
   "results": [
     {
@@ -1287,8 +1287,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -1969,6 +1970,7 @@
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html",
+        "pensione-cumulo-organizzazioni-internazionali.html",
         "pensione-invalidita.html",
         "pizza-napoletana-con-licoli.html",
         "prova-lettori.html",
@@ -2659,6 +2661,15 @@
       ]
     },
     {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+71+del+11-04-2017.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+71+del+11-04-2017.htm",
+      "pages": [
+        "pensione-cumulo-organizzazioni-internazionali.html"
+      ]
+    },
+    {
       "url": "https://servizi2.inps.it/servizi/Bussola/visualizzadoc.aspx?sVirtuAlURL=%2Fcircolari%2FCircolare+numero+119+del+27-5-1993.htm",
       "status": "raggiungibile",
       "http": 200,
@@ -3043,6 +3054,7 @@
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html",
+        "pensione-cumulo-organizzazioni-internazionali.html",
         "pensione-invalidita.html",
         "pizza-napoletana-con-licoli.html",
         "prova-lettori.html",
@@ -6033,6 +6045,8 @@
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html",
         "pensionati-estero.html",
+        "pensione-cumulo-organizzazioni-internazionali.html",
+        "pensione-cumulo-organizzazioni-internazionali.html",
         "pensione-invalidita.html",
         "pensione-invalidita.html",
         "pizza-napoletana-con-licoli.html",
@@ -6627,6 +6641,7 @@
         "debiti-guida-09-a-chi-rivolgersi.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
+        "pensione-cumulo-organizzazioni-internazionali.html",
         "pensione-invalidita.html",
         "redditi-red-comunicazioni-obbligatorie-inps.html",
         "riesame-ricorso-inps-termini.html",
@@ -7643,6 +7658,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3859-del-24-11-2026_16425.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3859-del-24-11-2026_16425.html",
+      "pages": [
+        "pensione-cumulo-organizzazioni-internazionali.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/diritti-e-obblighi-in-materia-di-sicurezza-sociale-nell-unione-e/aliquote-contributive.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7679,12 +7703,30 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2022.04.organizzazioni-internazionali-cumulo-con-pensione-estera.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2022.04.organizzazioni-internazionali-cumulo-con-pensione-estera.html",
+      "pages": [
+        "pensione-cumulo-organizzazioni-internazionali.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.04.pensionati-residenti-in-bulgaria-nuovi-criteri-di-esenzione.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2023.04.pensionati-residenti-in-bulgaria-nuovi-criteri-di-esenzione.html",
       "pages": [
         "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.08.organizzazioni-internazionali-cumulo-per-la-pensione-anticipata.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.08.organizzazioni-internazionali-cumulo-per-la-pensione-anticipata.html",
+      "pages": [
+        "pensione-cumulo-organizzazioni-internazionali.html"
       ]
     },
     {
@@ -8075,6 +8117,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pensioni-aggiornate-le-domande-per-il-cumulo-dei-periodi-assicurativi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pensioni-aggiornate-le-domande-per-il-cumulo-dei-periodi-assicurativi.html",
+      "pages": [
+        "pensione-cumulo-organizzazioni-internazionali.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.rilasciata-la-versione-5-0-dell-app-inps-mobile.html",
       "status": "raggiungibile",
       "http": 200,
@@ -8197,8 +8248,9 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
@@ -8314,6 +8366,7 @@
         "pensionati-estero-mete.html",
         "pensionati-estero-trasferimento.html",
         "pensionati-estero.html",
+        "pensione-cumulo-organizzazioni-internazionali.html",
         "pensione-invalidita.html",
         "pizza-napoletana-con-licoli.html",
         "prova-lettori.html",
@@ -10172,8 +10225,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10181,8 +10235,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
