@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-24",
+  "as_of": "2026-11-25",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1779,6 +1779,36 @@
       "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "bonus-mamme-2026-domanda-requisiti.html, index.html e anteprime di condivisione"
+    },
+    {
+      "file": "assets/digitale-telefono-leggibile-originale.webp",
+      "git_blob_sha": "e39abcccabbad2cfbad19121082fb88454a04504",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 25 novembre 2026; sola conversione in WebP, senza ritocchi o materiali di riferimento.",
+      "provenance_evidence": "Generazione osservata nella sessione Per Me; originale exec-c12af2b4-b27a-482e-bde9-0ec5ce8e41eb.png. Specifiche, impronte e controllo visivo in FONTI/digitale-immagini-2026-11-25.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "digitale-telefono-leggibile.html"
+    },
+    {
+      "file": "assets/digitale-spid-cie-originale.webp",
+      "git_blob_sha": "8134e9829366a214e9d4b214c2e7519155d7baaa",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 25 novembre 2026; sola conversione in WebP, senza ritocchi o materiali di riferimento.",
+      "provenance_evidence": "Generazione osservata nella sessione Per Me; originale exec-f60650a4-7de5-49ad-ae1e-02370b1e11f0.png. Specifiche, impronte e controllo visivo in FONTI/digitale-immagini-2026-11-25.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "digitale-spid-cie-accesso-recupero.html"
+    },
+    {
+      "file": "assets/digitale-quotidiano-rubrica-originale.webp",
+      "git_blob_sha": "2b1b10edae778dee263d4d373aa773152939c15c",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 25 novembre 2026; sola conversione in WebP, senza ritocchi o materiali di riferimento.",
+      "provenance_evidence": "Generazione osservata nella sessione Per Me; originale exec-32c8846d-dd7e-482c-9575-6d4f9f94f2d5.png. Specifiche, impronte e controllo visivo in FONTI/digitale-immagini-2026-11-25.json.",
+      "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "digitale-quotidiano.html, index.html"
     }
   ],
   "notes": [

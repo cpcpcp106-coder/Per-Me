@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-25",
+  "results": [
+    {
+      "url": "https://helpdesk.spid.gov.it/knowledgebase.php?article=9",
+      "status": 200,
+      "final_url": "https://helpdesk.spid.gov.it/knowledgebase.php?article=9",
+      "bytes": 25639
+    },
+    {
+      "url": "https://support.apple.com/it-it/guide/iphone/iph3c076905a/ios",
+      "status": 200,
+      "final_url": "https://support.apple.com/it-it/guide/iphone/iph3c076905a/ios",
+      "bytes": 977510,
+      "contains_settings": true
+    },
+    {
+      "url": "https://support.google.com/accessibility/android/answer/11183305?hl=it",
+      "status": 429
+    },
+    {
+      "url": "https://support.google.com/accessibility/android/answer/13532420?hl=it",
+      "status": 429
+    },
+    {
+      "url": "https://support.google.com/accessibility/android/answer/6006949?hl=it",
+      "status": 429
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/assistenza/",
+      "status": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/assistenza/",
+      "bytes": 170751
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/codici-di-sicurezza-pin-e-puk/",
+      "status": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/codici-di-sicurezza-pin-e-puk/",
+      "bytes": 83378
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/",
+      "status": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-livelli-1-e-2/",
+      "bytes": 89996
+    },
+    {
+      "url": "https://www.cartaidentita.interno.gov.it/info-utili/recupero-puk/",
+      "status": 200,
+      "final_url": "https://www.cartaidentita.interno.gov.it/info-utili/recupero-puk/",
+      "bytes": 82087
+    },
+    {
+      "url": "https://www.samsung.com/it/support/mobile-devices/fixing-galaxy-device-display-issues/",
+      "status": 200,
+      "final_url": "https://www.samsung.com/it/support/mobile-devices/fixing-galaxy-device-display-issues/",
+      "bytes": 505598
+    },
+    {
+      "url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
+      "status": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
+      "bytes": 47054
+    },
+    {
+      "url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
+      "status": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
+      "bytes": 183035
+    },
+    {
+      "url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
+      "status": 200,
+      "final_url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
+      "bytes": 42366
+    }
+  ],
+  "scope": "Controllo HTTP diretto delle fonti esterne delle nuove guide. Fonti Google lette anche tramite ricerca web ufficiale: la risposta 429 da questa sessione indica una limitazione del controllo, non un collegamento da sostituire.",
+  "web_documentation_checked": {
+    "Google": "Testo, zoom di pagina e ingrandimento letti tramite ricerca web ufficiale il 25 novembre 2026.",
+    "CIE livello 3": "https://www.cartaidentita.interno.gov.it/info-utili/entra-con-cie-3/"
+  }
+}

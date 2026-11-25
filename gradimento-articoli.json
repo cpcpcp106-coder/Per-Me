@@ -563,5 +563,20 @@
     "path": "bonus-mamme-2026-domanda-requisiti.html",
     "title": "Bonus mamme 2026: a chi spettano i 60 euro e come fare domanda",
     "category": "Agevolazioni e diritti"
+  },
+  {
+    "path": "digitale-quotidiano.html",
+    "title": "Digitale quotidiano",
+    "category": "Digitale quotidiano"
+  },
+  {
+    "path": "digitale-telefono-leggibile.html",
+    "title": "Telefono più leggibile e facile da usare",
+    "category": "Digitale quotidiano"
+  },
+  {
+    "path": "digitale-spid-cie-accesso-recupero.html",
+    "title": "SPID e CIE: accesso, recupero e assistenza",
+    "category": "Digitale quotidiano"
   }
 ]

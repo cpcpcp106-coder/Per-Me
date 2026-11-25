@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-25",
+  "scope": "Tre fotografie originali per Digitale quotidiano e le prime due guide",
+  "images": [
+    {
+      "key": "telefono",
+      "original_filename": "exec-c12af2b4-b27a-482e-bde9-0ec5ce8e41eb.png",
+      "original_sha256": "5164680b24cd5db08a4db8da074f349b0538d219fc78a80d09cbd8e86035946d",
+      "output_file": "assets/digitale-telefono-leggibile-originale.webp",
+      "output_sha256": "950a18fa75374bccd124e8a022bcc4efb66e67c5cbd4dbd2cdd399e01b46823e",
+      "git_blob_sha": "e39abcccabbad2cfbad19121082fb88454a04504",
+      "generation_date": "2026-11-25",
+      "generator": "ChatGPT ImageGen integrato",
+      "reference_images": [],
+      "brief": "Un uomo adulto legge comodamente sullo smartphone vicino a una finestra; foto editoriale realistica, nessun marchio, nessun dato personale.",
+      "visual_check": "Scena, anatomia e mani controllate sul risultato mostrato; assenza di credenziali, dati personali, marchi e scritte leggibili.",
+      "conversion": "ImageMagick, WebP qualità 83, nessun ritaglio o ridimensionamento.",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "identita",
+      "original_filename": "exec-f60650a4-7de5-49ad-ae1e-02370b1e11f0.png",
+      "original_sha256": "0380a8863cca163aaec3253289ac4f3e302996fbc5df7e5770c7115f9e7a08e2",
+      "output_file": "assets/digitale-spid-cie-originale.webp",
+      "output_sha256": "b78ce4ef517532a96aed9d593c47e1a56c866d60a4bfb044863f263783a907e7",
+      "git_blob_sha": "8134e9829366a214e9d4b214c2e7519155d7baaa",
+      "generation_date": "2026-11-25",
+      "generator": "ChatGPT ImageGen integrato",
+      "reference_images": [],
+      "brief": "Una donna adulta usa lo smartphone alla scrivania con un portatile e una tessera capovolta; foto realistica, nessun dato o codice leggibile.",
+      "visual_check": "Scena, anatomia e mani controllate sul risultato mostrato; assenza di credenziali, dati personali, marchi e scritte leggibili.",
+      "conversion": "ImageMagick, WebP qualità 83, nessun ritaglio o ridimensionamento.",
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "key": "rubrica",
+      "original_filename": "exec-32c8846d-dd7e-482c-9575-6d4f9f94f2d5.png",
+      "original_sha256": "b9f6ce7c8b70e84e11de8ba9ff798d0d407f82bab580989dd0c104af7bfc893e",
+      "output_file": "assets/digitale-quotidiano-rubrica-originale.webp",
+      "output_sha256": "f0f8929ce39923e4265b1fdc4b16a0bf6e196d5c7fcd020a662f584f820b008c",
+      "git_blob_sha": "2b1b10edae778dee263d4d373aa773152939c15c",
+      "generation_date": "2026-11-25",
+      "generator": "ChatGPT ImageGen integrato",
+      "reference_images": [],
+      "brief": "Due adulti tra 60 e 70 anni consultano insieme uno smartphone in biblioteca; fotografia documentaria realistica, nessun marchio o dato personale.",
+      "visual_check": "Scena, anatomia e mani controllate sul risultato mostrato; assenza di credenziali, dati personali, marchi e scritte leggibili.",
+      "conversion": "ImageMagick, WebP qualità 83, nessun ritaglio o ridimensionamento.",
+      "dimensions": [
+        1672,
+        941
+      ]
+    }
+  ]
+}
