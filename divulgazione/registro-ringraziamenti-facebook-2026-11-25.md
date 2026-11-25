@@ -1,5 +1,43 @@
 # Per Me — Ringraziamenti Facebook del 25 novembre 2026
 
+## Esito dopo l’autorizzazione: dieci iscrizioni completate
+
+Il 25 novembre 2026, dopo «Invja tutte le iscrizioni», sono state inviate una volta le richieste ai sette gruppi prioritari e ai tre candidati condizionati. **Tutte e dieci mostrano Iscrizione effettuata. Nessuna richiesta resta in attesa fra queste dieci destinazioni.** Identità verificata dal menu account: Pagina Per Me / Per Me Guide, con identificativo 61566289361135. Nessun uso del profilo personale.
+
+| Gruppo | Esito della richiesta |
+| --- | --- |
+| [FORZA DEI CONSUMATORI](https://www.facebook.com/groups/490029181094105/about) | Iscrizione effettuata come Pagina Per Me |
+| [Trucchi e soluzioni per smartphone e PC](https://www.facebook.com/groups/trucchieconsigliWhatsApp/about) | Iscrizione effettuata come Pagina Per Me |
+| [INPS - Pensioni e Prestazioni: ADI NASPI SFL Assegno Unico](https://www.facebook.com/groups/963872182199554/about) | Iscrizione effettuata come Pagina Per Me |
+| [GRUPPO TUTELA CONSUMATORI](https://www.facebook.com/groups/603454806699150/about) | Iscrizione effettuata come Pagina Per Me |
+| [Tutelandoci - Gruppo Difesa Consumatori](https://www.facebook.com/groups/tutelandoci/about) | Iscrizione effettuata come Pagina Per Me |
+| [Ricette facili ed economiche](https://www.facebook.com/groups/3036837619946660/about) | Iscrizione effettuata come Pagina Per Me |
+| [PENSIONATI ITALIANI ALL' ESTERO](https://www.facebook.com/groups/1102420409946196/about) | Iscrizione effettuata come Pagina Per Me |
+| [Android Italy](https://www.facebook.com/groups/Android.Italy/about) | Iscrizione effettuata come Pagina Per Me |
+| [Intelligenza Artificiale 🇮🇹 AI e ChatGPT Community Italia](https://www.facebook.com/groups/1614848349007261/about) | Iscrizione effettuata come Pagina Per Me |
+| [Rete Caregiver e Disabilità Italia](https://www.facebook.com/groups/24197874199836995/about) | Iscrizione effettuata come Pagina Per Me |
+
+È stato pubblicato e verificato un solo [ringraziamento collettivo sulla Pagina Per Me](https://www.facebook.com/PerMeGuide/posts/pfbid04KsJoswLL2zJrVdvYSqaSfTatWhu1tAUtBKk2J39Fcu3vkk7xKvAoq8XdM1gcqLpl), con tutti i dieci nomi. Il post singolo mostra autore Per Me, visibilità Tutti e testo completo. Non sono dieci post nei gruppi e non si presume la lettura degli amministratori. Prima del post sono stati consultati i registri correnti dei gruppi e dei ringraziamenti; nessun ringraziamento precedente per queste dieci destinazioni risultava registrato.
+
+Testo pubblicato:
+
+> Un grazie alle community di cui la Pagina Per Me Guide è entrata a far parte oggi:
+>
+> • FORZA DEI CONSUMATORI
+> • Trucchi e soluzioni per smartphone e PC
+> • INPS - Pensioni e Prestazioni: ADI NASPI SFL Assegno Unico
+> • GRUPPO TUTELA CONSUMATORI
+> • Tutelandoci - Gruppo Difesa Consumatori
+> • Ricette facili ed economiche
+> • PENSIONATI ITALIANI ALL’ESTERO
+> • Android Italy
+> • Intelligenza Artificiale – AI e ChatGPT Community Italia
+> • Rete Caregiver e Disabilità Italia
+>
+> Un saluto agli amministratori, ai moderatori e a tutte le persone che condividono conoscenze e aiuto pratico. Grazie per l’accoglienza!
+
+Le condizioni di condivisione delle guide restano quelle della ricerca: Android Italy richiede contatto con l’amministrazione prima di introdurre un sito; la community AI ammette progetti e guide utili spiegati concretamente e vieta promozioni; Rete Caregiver vieta autopromozione; per ricette, link propri e immagini illustrative IA vanno chiariti prima dei post. Nessuna nuova guida, presentazione promozionale, messaggio privato, spesa o abbonamento in questa operazione.
+
 Operazioni eseguite come Pagina Per Me / PerMeGuide. Il primo controllo ha prodotto un nuovo ringraziamento; la successiva autorizzazione ha portato a quattro nuove iscrizioni e altri quattro ringraziamenti, documentati sotto. Controllo esteso alle adesioni storiche dal 22 ottobre 2026 e ai registri precedenti; nessun reinvio di contenuti pendenti o rifiutati.
 
 ## Quattro nuove iscrizioni e relativi ringraziamenti
