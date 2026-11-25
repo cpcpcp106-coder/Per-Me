@@ -1,5 +1,91 @@
 # Per Me — Ricerca nazionale di gruppi Facebook, 25 novembre 2026
 
+## Correzione richiesta: ringraziare individualmente
+
+**Regola di Enrico del 25 novembre 2026: ringraziare ogni iscrizione accettata singolarmente nel gruppo o nella Pagina destinataria, come Pagina Per Me Guide. Il collettivo sulla nostra Pagina non sostituisce l’invio individuale e non chiude la voce. Se il canale manca, la voce resta aperta con il motivo.**
+
+**9 nuovi invii individuali verificati: 3 pubblicati e 6 in moderazione.** Otto sono post nei nuovi gruppi; il nono è un commento nel Club Amici del Cervino, fra i vecchi casi. I tre ringraziamenti già presenti nei primi gruppi di oggi (Risparmiare a 360°, Assistenza Informatica Italia e Ricette MEDITERRANEE e NON) non sono stati ripetuti.
+
+| Destinazione | Tipo | Stato verificato |
+| --- | --- | --- |
+| [FORZA DEI CONSUMATORI](https://www.facebook.com/groups/490029181094105/pending_posts/29111456595191315/) | Post nel gruppo | In moderazione |
+| [Trucchi e soluzioni per smartphone e PC](https://www.facebook.com/groups/trucchieconsigliWhatsApp/permalink/4223347491302052/) | Post nel gruppo | Pubblicato |
+| [INPS - Pensioni e Prestazioni: ADI NASPI SFL Assegno Unico](https://www.facebook.com/groups/963872182199554/permalink/1685297796723652/) | Post nel gruppo | Pubblicato |
+| [GRUPPO TUTELA CONSUMATORI](https://www.facebook.com/groups/603454806699150/pending_posts/2989338938110713/) | Post nel gruppo | In moderazione |
+| [Tutelandoci - Gruppo Difesa Consumatori](https://www.facebook.com/groups/tutelandoci/permalink/3313017578903788/) | Post nel gruppo | In moderazione |
+| [Ricette facili ed economiche](https://www.facebook.com/groups/3036837619946660/permalink/4212009242429486/) | Post nel gruppo | In moderazione |
+| [PENSIONATI ITALIANI ALL' ESTERO](https://www.facebook.com/groups/1102420409946196/permalink/3449336001921280/) | Post nel gruppo | In moderazione |
+| [Rete Caregiver e Disabilità Italia](https://www.facebook.com/groups/24197874199836995/pending_posts/29783961621228197/) | Post nel gruppo | In moderazione |
+| [CLUB AMICI DEL CERVINO](https://www.facebook.com/groups/231622537089/permalink/10166154073492090/) | Commento al benvenuto del 23 novembre; ID commento 10166175883472090 | Pubblicato |
+
+Prima degli otto post nuovi, controllate le schede Post e Commenti della Pagina nei rispettivi gruppi: entrambe senza precedenti. Autore Per Me, testo e destinazione verificati; un solo invio per ciascuno. Tutti gli indirizzi sopra sono stati aperti e il testo è stato ritrovato. Per i sei in moderazione, letto l’avviso nel post singolo o nella coda. Il formato permalink non è prova di pubblicazione: anche tre permalink mostravano l’avviso di attesa.
+
+Il benvenuto del Club Amici del Cervino del 23 novembre cita Per Me. Aprendolo per intero è stato trovato il canale di risposta. Il solo commento già presente era di un altro membro. Il nuovo commento di Per Me è stato ritrovato con identificativo definitivo **10166175883472090**, senza identificativo provvisorio.
+
+### Testi inviati
+
+**FORZA DEI CONSUMATORI**
+
+> Grazie agli amministratori e ai moderatori per aver accolto la Pagina Per Me nel gruppo. Un cordiale saluto a tutti e grazie per il confronto sui diritti dei consumatori!
+
+**Trucchi e soluzioni per smartphone e PC**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un saluto a tutti e grazie a chi condivide consigli e aiuto pratico per usare meglio smartphone e computer!
+
+**INPS - Pensioni e Prestazioni: ADI NASPI SFL Assegno Unico**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un cordiale saluto a tutti e grazie a chi aiuta a orientarsi fra pratiche, prestazioni e servizi INPS!
+
+**GRUPPO TUTELA CONSUMATORI**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un cordiale saluto a tutti e grazie per le informazioni e il confronto sulla tutela dei consumatori!
+
+**Tutelandoci - Gruppo Difesa Consumatori**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un cordiale saluto a tutti e grazie per il confronto sui diritti dei cittadini e dei consumatori!
+
+**Ricette facili ed economiche**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un saluto a tutti e grazie a chi condivide ricette semplici e idee per cucinare bene spendendo meno!
+
+**PENSIONATI ITALIANI ALL' ESTERO**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un cordiale saluto a tutti i connazionali e grazie a chi condivide esperienze e informazioni utili per la vita all’estero!
+
+**Rete Caregiver e Disabilità Italia**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un cordiale saluto alle persone e alle famiglie della Rete e grazie per questo spazio di confronto e sostegno reciproco!
+
+**CLUB AMICI DEL CERVINO**
+
+> Grazie Gianluigi e grazie agli amministratori per aver accolto la Pagina Per Me nel Club Amici del Cervino. Un cordiale saluto a tutti!
+
+### Quindici voci ancora aperte
+
+Tre riguardano i quattordici gruppi iscritti oggi; dodici sono i residui dei tredici casi vecchi citati soltanto nel collettivo. Nessun invio individuale verificato per queste quindici destinazioni. Il collettivo non viene più conteggiato come adempimento individuale.
+
+| Destinazione | Riscontro e limite |
+| --- | --- |
+| [Android Italy](https://www.facebook.com/groups/Android.Italy/about) | Iscrizione confermata; nella discussione caricata mancano creazione post e campi di commento. Non trovato nel selettore di gruppi consentiti. Controllata la Pagina amministratrice TuttoxAndroid e la ricerca del destinatario in Messenger, senza inviare messaggi né individuare un canale diretto utilizzabile come Per Me. |
+| [Intelligenza Artificiale AI e ChatGPT Community Italia](https://www.facebook.com/groups/1614848349007261/about) | Letto il benvenuto e completata la presa visione delle regole. Nella discussione caricata mancano creazione post e campi di commento; non trovato nel selettore dei gruppi consentiti. Controllata la Pagina amministratrice MSP In Cloud, senza un comando diretto di messaggistica disponibile. Nessun grazie individuale inviato. |
+| [Cucina di tutte le Regioni Italiane!](https://www.facebook.com/groups/1467753303331979/) | Iscrizione confermata; manca la creazione di post, i commenti caricati sono disattivati e il gruppo non è apparso nel selettore consentito. Controllato anche il profilo dell’amministratore, senza un comando di messaggio utilizzabile come Pagina. Il precedente grazie su Per Me non chiude questo caso. |
+| [I MILLE COLORI DEL LAGO DI COMO o LARIO](https://www.facebook.com/groups/354685802056740/posts/2260244804834154/) | Riaperto il benvenuto che cita Per Me: commenti disattivati. Nessun altro canale individuale pertinente individuato. |
+| [Amazing ITALY and EUROPE](https://www.facebook.com/groups/amazing.italy.it/) | Iscrizione effettuata. Nella discussione caricata non compaiono creazione di post o caselle di commento. Il successivo controllo mirato dei benvenuti è stato impedito dall’errore tecnico di approvazione. |
+| [Sei di Attimis se......](https://www.facebook.com/groups/774037479290384/) | Iscrizione effettuata. Nella discussione caricata non compaiono creazione di post o caselle di commento. Il successivo controllo mirato dei benvenuti non è stato eseguito per il blocco tecnico. |
+| [Intelligenze Artificiali](https://www.facebook.com/groups/intelligenzeartificiali/) | Iscrizione effettuata. Nella discussione caricata non compaiono creazione di post o caselle di commento. Controllo mirato dei benvenuti da riprendere dopo il blocco tecnico. |
+| [Salviamo la ferrovia Aosta–Pré-Saint-Didier](https://www.facebook.com/groups/aosta.presaintdidier/) | Iscrizione effettuata. Nessun comando per scrivere o campo di commento nella discussione caricata. Controllo mirato dei benvenuti da riprendere. |
+| [Matterhorn photo group](https://www.facebook.com/groups/153741315278714/) | Iscrizione effettuata. Nessun comando per scrivere o campo di commento nella discussione caricata. Controllo mirato dei benvenuti da riprendere. |
+| [Lake Como Travel Tips](https://www.facebook.com/groups/lakecomotips/) | Iscrizione effettuata. Nessun comando per scrivere; nei post caricati i commenti sono disattivati. Controllo mirato dei benvenuti da riprendere. |
+| [VALLE D’AOSTA nel cuore Official Group](https://www.facebook.com/groups/438190656339376/search/?q=benvenuto) | Ricerca benvenuto riesaminata: nei risultati caricati non è stato identificato un benvenuto rivolto a Per Me. Una casella di commento è presente su altri contenuti, senza un contesto pertinente per il ringraziamento. |
+| [PARCO NAZIONALE DEL GRAN PARADISO](https://www.facebook.com/groups/315282472216265/search/?q=benvenuto) | Nei risultati caricati della ricerca benvenuto non identificato un benvenuto rivolto a Per Me. Restano le regole tematiche del parco. |
+| [Il Como](https://www.facebook.com/groups/207162046000233/search/?q=benvenuto) | Ricerca benvenuto riesaminata senza un riscontro pertinente a Per Me nei contenuti caricati. Gruppo calcistico. |
+| [Lagh de Com](https://www.facebook.com/groups/465217414416863/search/?q=benvenuto) | Ricerca benvenuto riesaminata senza un riscontro pertinente a Per Me nei contenuti caricati. Restano le limitazioni tematiche già registrate. |
+| [Tramonti e paesaggi da tutto il mondo](https://www.facebook.com/groups/350403938461207/search/?q=benvenuto) | Ricerca benvenuto riesaminata senza un benvenuto pertinente identificato nei risultati caricati; i post richiedono fotografie proprie. |
+
+Il mancato campo di scrittura iniziale non è prova assoluta che ogni canale sia indisponibile. Per questo si è provato a proseguire con una ricerca mirata nei sei gruppi storici senza casella iniziale; il controllo aggiuntivo è stato impedito prima dell’esecuzione dalla revisione automatica degli accessi, con errore tecnico interno **HTTP 500**. Non si tratta di un rifiuto manuale dell’utente o di una prova di blocco da parte di Facebook. Il controllo mirato va ripreso; nessuna osservazione di quell’azione viene attestata.
+
+Nessun messaggio privato inviato; nessun commento sotto post estranei delle Pagine amministratrici; nessun uso del profilo personale; nessun ulteriore collettivo in sostituzione degli invii individuali; nessuna spesa. I nove invii precedenti al blocco sono verificati.
+
 ## Esito dopo l’autorizzazione: dieci iscrizioni completate
 
 Il 25 novembre 2026, dopo «Invja tutte le iscrizioni», sono state inviate una volta le richieste ai sette gruppi prioritari e ai tre candidati condizionati. **Tutte e dieci mostrano Iscrizione effettuata. Nessuna richiesta resta in attesa fra queste dieci destinazioni.** Identità verificata dal menu account: Pagina Per Me / Per Me Guide, con identificativo 61566289361135. Nessun uso del profilo personale.
