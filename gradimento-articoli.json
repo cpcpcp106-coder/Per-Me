@@ -578,5 +578,10 @@
     "path": "digitale-spid-cie-accesso-recupero.html",
     "title": "SPID e CIE: accesso, recupero e assistenza",
     "category": "Digitale quotidiano"
+  },
+  {
+    "path": "pensione-cumulo-organizzazioni-internazionali.html",
+    "title": "Pensione e contributi nelle organizzazioni internazionali",
+    "category": "Pensione e invalidità"
   }
 ]

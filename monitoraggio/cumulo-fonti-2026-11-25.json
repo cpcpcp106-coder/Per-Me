@@ -1,0 +1,41 @@
+{
+  "checked_at_utc": "2026-11-25T14:47:48.082270+00:00",
+  "scope": "Destinazioni ufficiali INPS richiamate dalla nuova guida; lo stato HTTP non certifica da solo la correttezza dei contenuti.",
+  "results": [
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3859-del-24-11-2026_16425.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3859-del-24-11-2026_16425.html",
+      "title": "",
+      "contains_error_page": false
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pensioni-aggiornate-le-domande-per-il-cumulo-dei-periodi-assicurativi.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pensioni-aggiornate-le-domande-per-il-cumulo-dei-periodi-assicurativi.html",
+      "title": "Portale Inps - Pensioni: aggiornate le domande per il cumulo dei periodi assicurativi",
+      "contains_error_page": false
+    },
+    {
+      "url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+71+del+11-04-2017.htm",
+      "status": 200,
+      "final_url": "https://servizi2.inps.it/servizi/Bussola/VisualizzaDoc.aspx?sVirtualURL=%2FCircolari%2FCircolare+numero+71+del+11-04-2017.htm",
+      "title": null,
+      "contains_error_page": false
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2022.04.organizzazioni-internazionali-cumulo-con-pensione-estera.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2022.04.organizzazioni-internazionali-cumulo-con-pensione-estera.html",
+      "title": "Portale Inps - Organizzazioni internazionali: cumulo con pensione estera",
+      "contains_error_page": false
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.08.organizzazioni-internazionali-cumulo-per-la-pensione-anticipata.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2024.08.organizzazioni-internazionali-cumulo-per-la-pensione-anticipata.html",
+      "title": "Portale Inps - Organizzazioni internazionali: cumulo per la pensione anticipata",
+      "contains_error_page": false
+    }
+  ]
+}
