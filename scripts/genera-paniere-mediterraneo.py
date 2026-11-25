@@ -27,7 +27,7 @@ parts = ['''<section id="spesa-settimana-documentata" aria-labelledby="paniere-t
 <div class="important"><strong>Prima adatta i pasti, poi calcola la spesa.</strong><p>Questo esempio non è un piano alimentare validato: non abbiamo verificato i fabbisogni individuali né calcolato calorie e nutrienti dell’intera settimana. Per diabete, terapie o altre esigenze cliniche usa le quantità concordate con il professionista. I valori delle due ricette precedenti non si applicano a questo menu.</p></div>
 <p>La scelta di cereali integrali, legumi, ortaggi, frutta, olio extravergine e fonti proteiche alternate si ispira alle indicazioni generali del <a href="https://www.salute.gov.it/new/it/tema/dieta-mediterranea/come-seguire-la-dieta-mediterranea/" target="_blank" rel="noopener noreferrer">Ministero della Salute</a> e alle <a href="https://sapermangiare.an.crea.gov.it/483/linee-guida.html" target="_blank" rel="noopener noreferrer">Linee guida CREA</a>. Queste fonti non hanno approvato il nostro menu o i prodotti scelti.</p>
 <h3>Come sono stati raccolti i prezzi</h3>
-<p><strong>Rilevazione: 20 novembre 2026, catalogo pubblico Cicalia.</strong> Per ciascuno dei 22 prodotti abbiamo letto prezzo, formato e presenza del comando «Aggiungi al carrello». È una disponibilità osservata nel catalogo: consegna al tuo CAP, scorte al momento dell’ordine e prezzo finale possono cambiare. Non abbiamo effettuato acquisti o ricevuto compensi. Il confronto non dimostra che questo sia il negozio più conveniente.</p>
+<p><strong>Rilevazione: 20 novembre 2026, catalogo pubblico Cicalia.</strong> Per ciascuno dei __NUMERO_PRODOTTI__ prodotti abbiamo letto prezzo, formato e presenza del comando «Aggiungi al carrello». È una disponibilità osservata nel catalogo: consegna al tuo CAP, scorte al momento dell’ordine e prezzo finale possono cambiare. Non abbiamo effettuato acquisti o ricevuto compensi. Il confronto non dimostra che questo sia il negozio più conveniente.</p>
 <p>Per frutta e ortaggi il venditore indica pesi «circa»: il conto usa quel peso nominale. Mele, clementine, ortaggi e patate sono pesati prima di pulizia e scarti; cereali e legumi sono pesati secchi, pollo crudo. Lo sgombro è contato a scatole da 125 g totali: non attribuiamo 125 g al prodotto sgocciolato.</p>
 <h3>Colazione e spuntini, ogni giorno</h3>''']
 parts.append('<p><strong>Per due:</strong> colazione con '+esc(ingredients(data['colazione_quotidiana']))+'. Spuntini con '+esc(ingredients(data['spuntini_quotidiani']))+'. Sono quantità del conto dimostrativo, da adattare al proprio piano.</p>')
@@ -59,11 +59,11 @@ parts.append('''<h3>Usa questo conto come punto di partenza</h3>
 </section>''')
 payload={'versione':1,'persone':2,'fonte':'Cicalia · paniere Per Me del 20/11/2026; spedizione esclusa','data':data['rilevazione'],'elenco':[{'nome':p['nome'],'quantita':p['quantita_settimana'],'unita':p['unita'],'prezzo':float(p['prezzo_confezione'])*(1 if p['unita']=='pezzi' else 1000)/p['confezione'],'confezione':p['confezione']}for p in data['prodotti']]}
 parts.append('<script type="application/json" id="paniere-dati">'+json.dumps(payload,ensure_ascii=False,separators=(',',':')).replace('<','\\u003c')+'</script>')
-section='\n'.join(parts)
+section='\n'.join(parts).replace('__NUMERO_PRODOTTI__',str(len(data['prodotti'])))
 start='<!-- INIZIO PANIERE DOCUMENTATO -->'
 end='<!-- FINE PANIERE DOCUMENTATO -->'
 page=PAGE.read_text()
 if start in page: page=page[:page.index(start)]+start+'\n'+section+'\n'+page[page.index(end):]
 else: page=page.replace('<h2 id="fonti">',start+'\n'+section+'\n'+end+'\n<h2 id="fonti">',1)
 PAGE.write_text(page)
-print('Rigenerati menu, 22 prodotti e dati per il calcolatore.')
+print(f"Rigenerati menu, {len(data['prodotti'])} prodotti e dati per il calcolatore.")

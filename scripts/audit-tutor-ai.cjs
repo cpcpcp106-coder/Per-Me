@@ -12,19 +12,20 @@ assert.equal(ids.length,new Set(ids).size,'ID duplicati');
 for(const m of html.matchAll(/href="#([^"]+)"/g))assert.ok(ids.includes(m[1]),'Ancora non valida: '+m[1]);
 const prompts=[...html.matchAll(/<blockquote id="(prompt-[^"]+)" aria-label="([^"]+)">([\s\S]*?)<\/blockquote>/g)];
 const buttons=[...html.matchAll(/<button\b[^>]*data-copy="([^"]+)"[^>]*>/g)];
-assert.equal(prompts.length,30,'Trenta richieste con etichetta');
+const inventory=require('./lib/inventario-sito.cjs').inventario(root).insiemi;
+assert.deepEqual(prompts.map(m=>m[1]),inventory['prompt:tutor-ai.html'],'Tutte le richieste con etichetta');
 assert.deepEqual(buttons.map(m=>m[1]),prompts.map(m=>m[1]),'Un pulsante per richiesta, nello stesso ordine');
 for(const [,id,,content] of prompts){
  assert.ok(content.replace(/<[^>]+>/g,' ').trim().length>35,'Prompt troppo breve '+id);
 }
 const base=html.split('<section id="richieste-base"')[1].split('<h2 id="formula">')[0];
 const baseIds=[...base.matchAll(/<blockquote id="(prompt-[^"]+)"/g)].map(m=>m[1]);
-assert.deepEqual(baseIds,['prompt-avviso','prompt-messaggio','prompt-lista','prompt-domande','prompt-verifica','prompt-correzione']);
+assert.deepEqual(baseIds,inventory['tutor-base']);
 const monthly=html.split('<section id="mese"')[1].split('<section id="richieste-base"')[0];
-const weeks=[...monthly.matchAll(/<details id="(settimana-[1-4]|fine-mese)"[^>]*>([\s\S]*?)<\/details>/g)];
-assert.deepEqual(weeks.map(m=>m[1]),['settimana-1','settimana-2','settimana-3','settimana-4','fine-mese']);
-assert.deepEqual(weeks.map(m=>(m[2].match(/<blockquote id="prompt-/g)||[]).length),[5,6,5,6,2]);
-assert.equal((html.match(/<strong>Da controllare\.<\/strong>/g)||[]).length,30);
+const weeks=[...monthly.matchAll(/<details id="(settimana-\d+|fine-mese)"[^>]*>([\s\S]*?)<\/details>/g)];
+assert.deepEqual(weeks.map(m=>m[1]),Object.keys(inventory).filter(key=>key.startsWith('mese:')).map(key=>key.slice(5)));
+assert.deepEqual(weeks.map(m=>(m[2].match(/<blockquote id="prompt-/g)||[]).length),weeks.map(m=>inventory['mese:'+m[1]].length));
+assert.equal((html.match(/<strong>Da controllare\.<\/strong>/g)||[]).length,prompts.length,'Una nota di controllo per ogni richiesta');
 for(const a of html.matchAll(/<img\b[^>]*>/gi))assert.match(a[0],/\balt="[^"]*"/i,'Alt obbligatorio');
 for(const tag of ['p','h2','blockquote','article','main','nav','div']){
  const opens=(html.match(new RegExp('<'+tag+'(?:\\s|>)','gi'))||[]).length;
@@ -50,7 +51,7 @@ for(const term of ['rivolgiti a un sanitario','verifica destinatario e coordinat
  assert.ok(html.includes(term),'Controllo di sicurezza mancante: '+term);
 for(const host of ['joint-research-centre.ec.europa.eu','www.unesco.org','www.garanteprivacy.it'])
  assert.ok(html.includes(host),'Fonte pedagogica/etica assente: '+host);
-assert.match(html,/copiare tutte e 30 le richieste anche senza rete/i,'Capacità offline non spiegata');
+assert.ok(html.toLowerCase().includes('copiare tutte e '+prompts.length+' le richieste anche senza rete'),'Capacità offline non spiegata');
 
 assert.match(html,/https:\/\/help.openai.com\/it-it\/articles\//,'Fonte errori AI in italiano');
 assert.match(html,/www.garanteprivacy.it\/temi\/assistenti-digitali/,'Fonte Garante Privacy');
@@ -81,5 +82,5 @@ assert.ok(sw.includes("'./"+versionJS+"'"),'La cache PWA non usa il JavaScript r
 assert.ok(sw.includes("'./"+versionCSS+"'"),'La cache PWA non usa il CSS richiesto');
 assert.match(sw,/const CACHE='perme-reader-v\d+-\d{8}-[^']+';/,'Nome cache PWA versionato mancante');
 
-console.log('PASS Tutor AI: 30 richieste, percorso mensile, copia, privacy, SEO e salvataggio testo PWA.');
+console.log('PASS Tutor AI: '+prompts.length+' richieste, percorso mensile, copia, privacy, SEO e salvataggio testo PWA.');
 console.log('LIMITI: test statico. Per il dispositivo Android reale verificare manualmente copia e incolla e salvataggio offline aggiornato.');

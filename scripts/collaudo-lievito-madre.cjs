@@ -6,6 +6,7 @@ const http = require('node:http');
 const { chromium } = require('playwright');
 
 const root = path.resolve(__dirname, '..');
+const expectedGuides=require('./lib/inventario-sito.cjs').inventario(root).insiemi.lievito;
 const types = {'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.webp':'image/webp','.png':'image/png','.ico':'image/x-icon','.webmanifest':'application/manifest+json'};
 const server = http.createServer((req,res) => {
   const pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
@@ -27,7 +28,7 @@ async function run() {
     for(const width of [320,390,768]) {
       const page=await browser.newPage({viewport:{width,height:820},deviceScaleFactor:1});
       await page.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
-      for(const file of ['index.html','lievito-madre.html','pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html','tangzhong-autolisi-biga-poolish.html']) {
+      for(const file of ['index.html','lievito-madre.html',...expectedGuides]) {
         const response=await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
         check(response.status()===200,file+' HTTP 200 a '+width+' px');
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),file+' senza scorrimento orizzontale a '+width+' px');
@@ -88,11 +89,11 @@ async function run() {
     await page.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
     await page.goto(base+'/app/');
     await page.waitForFunction(()=>document.querySelector('#sync-status').textContent.includes('pagine salvate'),null,{timeout:60000});
-    const offlineEntries=await page.evaluate(()=>{
+    const offlineEntries=await page.evaluate(expected=>{
       const saved=JSON.parse(localStorage.getItem('perme-app-offline-20261014')||'{}');
-      return saved.guides?.filter(g=>['pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html','tangzhong-autolisi-biga-poolish.html'].includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
-    });
-    check(offlineEntries.length===5&&offlineEntries.every(x=>x.hasContent),'app: cinque guide scaricate per lettura offline');
+      return saved.guides?.filter(g=>expected.includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
+    },expectedGuides);
+    check(new Set(offlineEntries.map(x=>x.path)).size===offlineEntries.length&&expectedGuides.every(file=>offlineEntries.some(x=>x.path===file&&x.hasContent)),'app: tutte le guide del percorso scaricate per lettura offline');
     await context.setOffline(true);
     await page.reload({waitUntil:'domcontentloaded'});
     await page.waitForTimeout(800);

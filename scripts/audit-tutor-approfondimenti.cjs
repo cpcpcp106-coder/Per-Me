@@ -2,28 +2,30 @@
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),vm=require('node:vm');
 const root=path.resolve(__dirname,'..');
 const read=f=>fs.readFileSync(path.join(root,f),'utf8');
-const guides=[
- ['tutor-ai-conversazione-correzioni.html','dialogo'],
- ['tutor-ai-verifica-fonti-date.html','fonti'],
- ['tutor-ai-riassumere-confrontare.html','confronto'],
- ['tutor-ai-privacy-truffe.html','sicurezza'],
- ['tutor-ai-quando-chiedere-aiuto.html','professionisti']
-];
+const inventory=require('./lib/inventario-sito.cjs').inventario(root).insiemi;
+const photoNames={
+ 'tutor-ai-conversazione-correzioni.html':'dialogo','tutor-ai-verifica-fonti-date.html':'fonti',
+ 'tutor-ai-riassumere-confrontare.html':'confronto','tutor-ai-privacy-truffe.html':'sicurezza',
+ 'tutor-ai-quando-chiedere-aiuto.html':'professionisti'
+};
+const guides=Object.keys(inventory).filter(key=>key.startsWith('prompt:tutor-ai-')&&!key.includes('android-primi-passi')).map(key=>key.slice('prompt:'.length));
 const home=read('tutor-ai.html'),sitemap=read('sitemap.xml'),app=read('app/main.js'),appHtml=read('app/index.html'),sw=read('app/sw.js');
 let checked=0;
-for(const [file,photo] of guides){
+for(const file of guides){
  const html=read(file);
- const asset='assets/tutor-ai-'+photo+'-originale.webp';
+ const asset=photoNames[file]?'assets/tutor-ai-'+photoNames[file]+'-originale.webp':html.match(/<figure[^>]*class="tutor-hero"[^>]*>[\s\S]*?<img[^>]*src="([^"]+)"/)?.[1];
+ assert.ok(asset,'Fotografia editoriale mancante: '+file);
  assert.ok(fs.existsSync(path.join(root,asset)),'Foto originale mancante: '+asset);
  const img=html.match(/<img\b[^>]*src="([^"]*tutor-ai-[^"]*)"[^>]*>/g)||[];
  assert.equal(img.length,1,'Una foto per guida '+file);
  assert.ok(img[0].includes(asset),'Foto non coerente '+file);
  assert.ok(/\balt="[^"]+"/.test(img[0]),'Alt obbligatorio '+file);
  assert.equal((html.match(/<h1\b/g)||[]).length,1,'Un solo h1 '+file);
- assert.equal((html.match(/<blockquote id="prompt-/g)||[]).length,2,'Due esercizi '+file);
+ assert.equal((html.match(/<blockquote id="prompt-/g)||[]).length,inventory['prompt:'+file].length,'Esercizi completi '+file);
  const prompts=[...html.matchAll(/<blockquote id="(prompt-[^"]+)"/g)].map(m=>m[1]);
  const buttons=[...html.matchAll(/<button\b[^>]*data-copy="([^"]+)"/g)].map(m=>m[1]);
  assert.deepEqual(prompts,buttons,'Corrispondenza prompt e pulsanti '+file);
+ assert.deepEqual(prompts,inventory['prompt:'+file],'Tutti gli identificatori di prompt attesi '+file);
  assert.ok(html.includes('role="status"'),'Manca messaggio accessibile '+file);
  assert.ok(html.includes('<details>')&&html.includes('<summary>'),'Manca autoverifica '+file);
  assert.ok(html.includes('www.facebook.com/PerMeGuide'),'Manca canale FB '+file);
@@ -44,5 +46,5 @@ assert.ok(versionJS&&sw.includes("'./"+versionJS+"'"),'Il lettore e la cache dev
 const cacheVersion=Number(sw.match(/\bconst CACHE='perme-reader-v(\d+)-[^']+';/)?.[1]);
 assert.ok(cacheVersion>=17,'La cache deve includere la revisione Tutor AI o una versione successiva');
 new vm.Script(app,{filename:'app/main.js'});
-console.log('PASS Tutor AI approfondimenti: '+checked+' guide originali, 10 prompt e controlli di accessibilita, privacy, PWA, sitemap e sintassi.');
+console.log('PASS Tutor AI approfondimenti: '+checked+' guide originali, '+guides.reduce((sum,file)=>sum+inventory['prompt:'+file].length,0)+' prompt e controlli di accessibilita, privacy, PWA, sitemap e sintassi.');
 console.log('LIMITI: non certifica Android fisico, caricamento visivo o comprensione con lettori.');

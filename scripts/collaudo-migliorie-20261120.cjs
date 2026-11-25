@@ -19,10 +19,11 @@ async function main(){
  const browser=await chromium.launch({headless:true,args:['--no-sandbox']});
  try{
   const basket=JSON.parse(fs.readFileSync(path.join(root,'FONTI/paniere-mediterraneo-2026-11-20.json'),'utf8'));
-  const quantities=Object.fromEntries(basket.prodotti.map(p=>[p.id,0]));
+  const site=require('./lib/inventario-sito.cjs').inventario(root).insiemi;
+  const quantities=Object.fromEntries(site['prodotti-paniere'].map(id=>[id,0]));
   for(const group of ['colazione_quotidiana','spuntini_quotidiani'])for(const [id,q]of Object.entries(basket[group]))quantities[id]+=q*7;
   for(const day of basket.settimana)for(const slot of ['pranzo','cena'])for(const [id,q]of Object.entries(day[slot].ingredienti))quantities[id]+=q;
-  check(basket.settimana.length===7&&basket.prodotti.length===22&&new Set(basket.prodotti.map(p=>p.id)).size===22,'paniere con sette giorni e 22 prodotti distinti');
+  check(basket.settimana.length===7&&new Set(basket.prodotti.map(p=>p.id)).size===basket.prodotti.length,'paniere settimanale con tutti i prodotti distinti e tutti gli ingredienti coperti');
   check(basket.prodotti.every(p=>p.quantita_settimana===quantities[p.id]),'nessun ingrediente del menu omesso dalla spesa');
   let used=0,paid=0;
   for(const p of basket.prodotti){used+=Number(p.prezzo_confezione)*100*p.quantita_settimana/p.confezione;paid+=Number(p.prezzo_confezione)*100*Math.ceil(p.quantita_settimana/p.confezione);}

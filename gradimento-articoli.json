@@ -7,57 +7,68 @@
   {
     "path": "agevolazioni-guida-01-isee-corrente.html",
     "title": "Il reddito è diminuito: devo rifare l’ISEE?",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-02-bonus-sociali.html",
     "title": "Bonus luce, gas, acqua e TARI: come capire se ti spettano",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-03-trasporti-fvg.html",
     "title": "Trasporti in Friuli Venezia Giulia: agevolazioni per invalidità e dopo i 65 anni",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "regionale"
   },
   {
     "path": "agevolazioni-guida-03-trasporti-italia.html",
     "title": "Trasporti agevolati in Italia: come controllare gli sconti",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-04-esenzioni-ticket-fvg.html",
     "title": "Ticket sanitari: come capire se hai diritto all'esenzione in Friuli Venezia Giulia",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "regionale"
   },
   {
     "path": "agevolazioni-guida-04-esenzioni-ticket-italia.html",
     "title": "Esenzioni ticket in Italia: reddito, patologie e invalidità",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-05-comune-servizi-sociali-italia.html",
     "title": "Comune e servizi sociali: come chiedere aiuto",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
     "title": "Non riesci a pagare l'affitto? Aiuti e rischio di sfratto",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-07-patrocinio-spese-stato.html",
     "title": "Avvocato a spese dello Stato: chi ne ha diritto e come fare domanda",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
     "title": "Assegno unico e aiuti alle famiglie: cosa chiedere nel 2026",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "agevolazioni-guida-09-locazioni-abitative.html",
     "title": "Casa in affitto, dalla firma alla riconsegna delle chiavi",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "aoi-invalidita-civile-differenze.html",
@@ -552,17 +563,20 @@
   {
     "path": "caregiver-familiari-anziani-disabilita-legge-104.html",
     "title": "Caregiver familiari: Legge 104, diritti e aiuti per assistere anziani e persone con disabilità",
-    "category": "Pensione e invalidità"
+    "category": "Pensione e invalidità",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "caregiver-familiari-fvg-contributi.html",
     "title": "Caregiver in Friuli Venezia Giulia: contributi e FAP",
-    "category": "Agevolazioni e diritti — Scheda locale FVG"
+    "category": "Agevolazioni e diritti — Scheda locale FVG",
+    "ambito_agevolazioni": "regionale"
   },
   {
     "path": "bonus-mamme-2026-domanda-requisiti.html",
     "title": "Bonus mamme 2026: a chi spettano i 60 euro e come fare domanda",
-    "category": "Agevolazioni e diritti"
+    "category": "Agevolazioni e diritti",
+    "ambito_agevolazioni": "nazionale"
   },
   {
     "path": "digitale-quotidiano.html",

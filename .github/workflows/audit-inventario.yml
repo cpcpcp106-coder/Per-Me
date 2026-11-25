@@ -1,0 +1,54 @@
+name: Per Me - Inventario e conservazione delle guide
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  inventario:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verifica conteggi, identità, sitemap e cancellazioni rispetto alla base
+        env:
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PUSH_BEFORE_SHA: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          case "$EVENT_NAME" in
+            pull_request) base_sha="$PR_BASE_SHA" ;;
+            push) base_sha="$PUSH_BEFORE_SHA" ;;
+            workflow_dispatch) base_sha="$(git rev-parse HEAD^)" ;;
+            *) exit 1 ;;
+          esac
+          test -n "$base_sha"
+          python3 scripts/inventario_sito.py --base-ref "$base_sha"
+      - name: Test aggiunte e rimozioni simulate
+        run: python3 -m unittest discover -s scripts/tests -p 'test_inventario_sito.py' -v
+      - name: Controlli editoriali che dipendevano da totali fissi
+        run: |
+          node scripts/audit-agevolazioni-05.cjs
+          node scripts/audit-agevolazioni-06.cjs
+          node scripts/audit-agevolazioni-07.cjs
+          node scripts/audit-agevolazioni-08.cjs
+          node scripts/audit-debiti.cjs
+          node scripts/audit-salute-02-rubriche.cjs
+          node scripts/audit-tutor-ai.cjs
+          node scripts/audit-tutor-approfondimenti.cjs
+          node scripts/controlla-registro-normativo.cjs
+          node scripts/verifica-ricetta-carbo-calorie.cjs
+          node --test scripts/tests/*.test.cjs app/tests/*.test.cjs
