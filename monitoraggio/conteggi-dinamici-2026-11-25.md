@@ -12,7 +12,7 @@ Il registro iniziale conserva le identità già pubblicate. Il nuovo workflow co
 
 Restano i requisiti editoriali e funzionali: un solo H1 quando richiesto, sette giorni e tre pasti nel menù, regole nutrizionali, importi e dosi, soglie di accessibilità, fonti e controlli delle fotografie. I totali visibili nei contenuti devono ancora essere aggiornati da chi aggiunge una guida. Rimozioni e rinomine intenzionali richiedono una decisione editoriale esplicita.
 
-L'adattamento della patch alla base aggiornata riguarda `gradimento-articoli.json`: aggiunti i metadati di ambito alle voci previste, preservando tutte le voci nuove. Nessuna pagina della rubrica Digitale quotidiano è stata rimossa o sovrascritta. Il collaudo Lievito riconosce sia i pulsanti specifici del percorso sia quelli condivisi delle guide, usati dalla pagina Farine; conserva il requisito di almeno un pulsante e la soglia di contrasto 7:1.
+L'adattamento della patch alla base aggiornata riguarda `gradimento-articoli.json`: aggiunti i metadati di ambito alle voci previste, preservando tutte le voci nuove. Nessuna pagina della rubrica Digitale quotidiano è stata rimossa o sovrascritta. Il collaudo Lievito riconosce sia i pulsanti specifici del percorso sia quelli condivisi delle guide, usati dalla pagina Farine; conserva il requisito di almeno un pulsante e la soglia di contrasto 7:1. Dopo lo scorrimento attende inoltre il caricamento effettivo delle fotografie lazy prima di decodificarle: immagini mancanti o non caricate continuano a produrre un errore.
 
 ## Verifica locale sulla base aggiornata
 

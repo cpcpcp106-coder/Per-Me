@@ -51,7 +51,12 @@ async function run() {
           check(editorialFacebook===1,file+' collegamento Facebook editoriale conservato');
           for(const img of await page.locator('main img[src*="originale.webp"]').all()){
             await img.scrollIntoViewIfNeeded();
-            await img.evaluate(element=>element.decode().catch(()=>{}));
+            // Lo scroll avvia le foto lazy: attendere il caricamento effettivo
+            // prima della decodifica, che puo' fallire se richiesta troppo presto.
+            const element=await img.elementHandle();
+            await page.waitForFunction(image=>image.complete&&image.naturalWidth>0,element,{timeout:15000});
+            await element.dispose();
+            await img.evaluate(image=>image.decode());
           }
           const photos=await page.locator('main img[src*="originale.webp"]').evaluateAll(images=>images.map(img=>({loaded:img.complete&&img.naturalWidth>0,alt:!!img.alt.trim()})));
           check(photos.length>0&&photos.every(p=>p.loaded&&p.alt),file+' foto caricata e testo alternativo');
