@@ -1,0 +1,42 @@
+{
+  "avvio": "2026-11-25",
+  "timezone": "Europe/Rome",
+  "criterio": "Una rubrica per ciclo, almeno due guide originali complete, fonti primarie, fotografie distinte, accessibilità, test e verifica pubblica. Se un controllo non passa, completare la correzione prima di passare alla rubrica successiva.",
+  "rubriche": [
+    {
+      "nome": "Digitale quotidiano",
+      "data_obiettivo": "2026-11-25",
+      "path": "digitale-quotidiano.html",
+      "stato": "verifiche_prepubblicazione",
+      "guide": [
+        "digitale-telefono-leggibile.html",
+        "digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "nome": "Acquisti e contratti senza sorprese",
+      "data_obiettivo": "2026-11-26",
+      "stato": "da_preparare"
+    },
+    {
+      "nome": "Fisco semplice",
+      "data_obiettivo": "2026-11-27",
+      "stato": "da_preparare"
+    },
+    {
+      "nome": "Casa e autonomia quotidiana",
+      "data_obiettivo": "2026-11-28",
+      "stato": "da_preparare"
+    },
+    {
+      "nome": "Relazioni, cultura e tempo libero",
+      "data_obiettivo": "2026-11-29",
+      "stato": "da_preparare"
+    },
+    {
+      "nome": "Viaggi e piccole partenze",
+      "data_obiettivo": "2026-11-30",
+      "stato": "da_preparare"
+    }
+  ]
+}
