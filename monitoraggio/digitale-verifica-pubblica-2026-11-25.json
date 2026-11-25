@@ -1,0 +1,130 @@
+{
+  "checked_at_utc": "2026-11-25T08:47:20.834548+00:00",
+  "pr": 37,
+  "source_commit": "dcd8f54ed539dc433fb833c352bd93b740017a19",
+  "merge_commit": "b2d1fa2eeda541ba132b6681b2f05be10b3cc5cb",
+  "deployment_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45579064508",
+  "premerge_checks_success": 22,
+  "dedicated_browser_checks": 50,
+  "results": [
+    {
+      "path": "digitale-quotidiano.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html",
+      "status": 200,
+      "bytes": 8968,
+      "content_type": "text/html; charset=utf-8",
+      "h1": [
+        "Digitale quotidiano"
+      ],
+      "photo": true,
+      "facebook_in_main": true,
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html"
+      ]
+    },
+    {
+      "path": "digitale-telefono-leggibile.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-telefono-leggibile.html",
+      "status": 200,
+      "bytes": 13650,
+      "content_type": "text/html; charset=utf-8",
+      "h1": [
+        "Telefono più leggibile e facile da usare"
+      ],
+      "photo": true,
+      "facebook_in_main": true,
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/digitale-telefono-leggibile.html"
+      ]
+    },
+    {
+      "path": "digitale-spid-cie-accesso-recupero.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-spid-cie-accesso-recupero.html",
+      "status": 200,
+      "bytes": 16878,
+      "content_type": "text/html; charset=utf-8",
+      "h1": [
+        "SPID e CIE: accesso, recupero e assistenza"
+      ],
+      "photo": true,
+      "facebook_in_main": true,
+      "canonical": [
+        "https://cpcpcp106-coder.github.io/Per-Me/digitale-spid-cie-accesso-recupero.html"
+      ]
+    },
+    {
+      "path": "assets/digitale-quotidiano-rubrica-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-quotidiano-rubrica-originale.webp",
+      "status": 200,
+      "bytes": 174102,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "assets/digitale-telefono-leggibile-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-telefono-leggibile-originale.webp",
+      "status": 200,
+      "bytes": 148340,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "assets/digitale-spid-cie-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-spid-cie-originale.webp",
+      "status": 200,
+      "bytes": 105506,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "digitale-quotidiano.css",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.css",
+      "status": 200,
+      "bytes": 1883,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "path": "index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/index.html",
+      "status": 200,
+      "bytes": 29025,
+      "content_type": "text/html; charset=utf-8",
+      "h1": [
+        "Pensioni, salute e spese di casa: capisci da dove cominciare."
+      ],
+      "rubric_cards": 10,
+      "links_digitale": true
+    },
+    {
+      "path": "app/catalogo-guide.js?v=4",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/catalogo-guide.js?v=4",
+      "status": 200,
+      "bytes": 2826,
+      "content_type": "application/javascript; charset=utf-8",
+      "digitale_registered": true
+    },
+    {
+      "path": "app/index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/index.html",
+      "status": 200,
+      "bytes": 5671,
+      "content_type": "text/html; charset=utf-8",
+      "h1": [
+        "Per Me"
+      ]
+    },
+    {
+      "path": "app/sw.js",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/sw.js",
+      "status": 200,
+      "bytes": 2103,
+      "content_type": "application/javascript; charset=utf-8",
+      "cache_32": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "status": 200,
+      "bytes": 21253,
+      "content_type": "application/xml",
+      "new_urls": 3
+    }
+  ]
+}

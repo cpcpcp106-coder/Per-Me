@@ -7,11 +7,14 @@
       "nome": "Digitale quotidiano",
       "data_obiettivo": "2026-11-25",
       "path": "digitale-quotidiano.html",
-      "stato": "verifiche_prepubblicazione",
+      "stato": "pubblicato_verificato",
       "guide": [
         "digitale-telefono-leggibile.html",
         "digitale-spid-cie-accesso-recupero.html"
-      ]
+      ],
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html",
+      "verificato_il_utc": "2026-11-25T08:47:20.834548+00:00",
+      "pr": 37
     },
     {
       "nome": "Acquisti e contratti senza sorprese",
@@ -38,5 +41,14 @@
       "data_obiettivo": "2026-11-30",
       "stato": "da_preparare"
     }
-  ]
+  ],
+  "pianificazione": {
+    "stato": "attiva_verificata",
+    "dal": "2026-11-26",
+    "al": "2026-11-30",
+    "esecuzioni": 5,
+    "frequenza": "giornaliera",
+    "orario": "mattina, indicativamente ore 08:00 Europe/Rome",
+    "criterio": "Prima rubrica incompleta del piano; pubblicazione dopo controlli superati."
+  }
 }

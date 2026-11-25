@@ -15,7 +15,7 @@ Layout condiviso, struttura e link interni, indicizzabilità statica, audit edit
 
 Nel browser è stata aperta la rubrica e sono stati seguiti i percorsi delle guide; foto caricate e pulsanti Facebook presenti. Nell'app la sincronizzazione ha salvato 138 pagine, comprese le tre nuove; aperto il testo SPID/CIE dal lettore. Queste prove non certificano il funzionamento dei servizi SPID/CIE o delle impostazioni su telefoni fisici.
 
-Il collaudo dedicato in GitHub verifica viewport 320/390, ingrandimento del testo, navigazione, foto, Facebook e riapertura delle guide senza rete. Esito da registrare dopo l'esecuzione.
+Il collaudo dedicato in GitHub ha superato tutte le 50 verifiche: viewport 320/390, ingrandimento del testo, navigazione, foto, Facebook e riapertura delle guide senza rete. Log: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45578708524/job/139083005336 .
 
 ## Fonti
 
@@ -23,8 +23,18 @@ Documentazione primaria Google, Samsung, Apple, portale SPID e Ministero dell'In
 
 ## Pubblicazione
 
-In attesa dell'esito dei controlli GitHub e della verifica sul sito pubblico. I riferimenti canonici delle nuove pagine non costituiscono ancora prova di avvenuta pubblicazione.
+Pubblicazione completata e verificata. PR #37 integrata dopo 22 controlli superati sul commit dcd8f54ed539dc433fb833c352bd93b740017a19. Merge b2d1fa2eeda541ba132b6681b2f05be10b3cc5cb. La pubblicazione Pages riuscita riguarda il successivo snapshot automatico b796cda0bf420c5aa62bd64ef4aba5397b6e0201, che comprende le stesse modifiche.
+
+- PR: https://github.com/cpcpcp106-coder/Per-Me/pull/37
+- Deployment riuscito: https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45579064508
+- Rubrica: https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html
+- Telefono: https://cpcpcp106-coder.github.io/Per-Me/digitale-telefono-leggibile.html
+- SPID e CIE: https://cpcpcp106-coder.github.io/Per-Me/digitale-spid-cie-accesso-recupero.html
+
+Verifica HTTP pubblica completata: 12 risorse con risposta 200, comprese le tre pagine, le tre fotografie, CSS, homepage, catalogo app, app, service worker e sitemap. Homepage con 10 rubriche; sitemap con 154 URL. Foto e Facebook verificati anche nel browser pubblico. Dettagli in `digitale-verifica-pubblica-2026-11-25.json`.
+
+Annunci social preparati in `divulgazione/digitale-quotidiano-2026-11-25.md`; non risulta un invio social effettuato in questo intervento.
 
 ## Prosecuzione
 
-Calendario aggiornato in `piano-rubriche-2026-11-25.json`, con avvio oggi e obiettivo di completamento il 30 novembre. L'eventuale esecuzione programmata va verificata tramite lo strumento delle attività, non dedotta dalla sola presenza del calendario.
+Calendario aggiornato in `piano-rubriche-2026-11-25.json`, con avvio oggi e obiettivo di completamento il 30 novembre. Pianificazione creata e verificata come attiva: cinque esecuzioni giornaliere dal 26 al 30 novembre, indicativamente alle 08:00 Europe/Rome, partendo da Acquisti e contratti. Le date sono obiettivi subordinati al completamento dei controlli.
