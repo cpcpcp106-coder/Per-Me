@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-25T08:45:43.859Z",
+  "checked_at_utc": "2026-11-25T14:07:06.628Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "138 pagine salvate per la lettura offline · controllo online 25 nov, 08:46.",
+        "status": "138 pagine salvate per la lettura offline · controllo online 25 nov, 14:08.",
         "stored": {
           "guides": 138,
-          "updated": "2026-11-25T08:46:43.450Z",
-          "bytes": 2888589,
+          "updated": "2026-11-25T14:08:17.033Z",
+          "bytes": 2904253,
           "includesNew09": true
         }
       }
@@ -1137,7 +1137,7 @@
     {
       "page": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
       "violations": [],
-      "passes": 26,
+      "passes": 28,
       "incomplete": 2
     },
     {

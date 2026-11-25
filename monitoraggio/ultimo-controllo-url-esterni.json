@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-25T08:48:19.312899+00:00",
+  "date_utc": "2026-11-25T14:09:45.176767+00:00",
   "scope": {
     "pages": 158,
-    "unique_external_urls": 1038,
-    "occurrences": 2840
+    "unique_external_urls": 1041,
+    "occurrences": 2845
   },
   "counts": {
     "bloccato_o_riservato": 124,
     "raggiungibile": 899,
-    "non_verificato_trasporto": 14,
-    "errore_http": 1
+    "non_verificato_trasporto": 16,
+    "errore_http": 2
   },
   "results": [
     {
@@ -1287,9 +1287,8 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -5117,7 +5116,7 @@
       "url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
+      "final_url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-intere-gr-500.html",
       "pages": [
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html"
       ]
@@ -5850,7 +5849,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -5876,7 +5875,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "agevolazioni-diritti.html",
         "agevolazioni-diritti.html",
@@ -6298,6 +6297,7 @@
       "http": 200,
       "final_url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf",
       "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html",
         "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
     },
@@ -6336,6 +6336,15 @@
       "final_url": "https://www.gazzettaufficiale.it/eli/id/2017/03/15/17A01858/sg",
       "pages": [
         "agevolazioni-guida-09-locazioni-abitative.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/2024/07/31/24A04088/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/2024/07/31/24A04088/sg",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
     },
     {
@@ -10163,9 +10172,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10173,9 +10181,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10340,6 +10347,15 @@
       ]
     },
     {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
+      ]
+    },
+    {
       "url": "https://www.salute.gov.it/new/it/pubblicazione/linee-guida-una-sana-alimentazione/",
       "status": "raggiungibile",
       "http": 200,
@@ -10355,7 +10371,8 @@
       "final_url": "https://www.salute.gov.it/new/it/pubblicazione/raccomandazione-n-17-riconciliazione-della-terapia-farmacologica/",
       "pages": [
         "salute-guida-01-preparare-visita.html",
-        "salute-guida-01-preparare-visita.html"
+        "salute-guida-01-preparare-visita.html",
+        "salute-guida-06-dimissione-ospedale-ritorno-casa.html"
       ]
     },
     {
@@ -10764,6 +10781,15 @@
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-30-anziani-fragilita-pensioni-basse-cure-tutele.html"
+      ]
+    },
+    {
+      "url": "https://www.salute.gov.it/new/sites/default/files/2026-09/PNGLA_26_28_Allegato_E.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.salute.gov.it/new/sites/default/files/2026-09/PNGLA_26_28_Allegato_E.pdf",
+      "pages": [
+        "salute-guida-07-cup-prenotazioni-liste-attesa.html"
       ]
     },
     {
