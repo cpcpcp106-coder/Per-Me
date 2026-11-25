@@ -1,6 +1,20 @@
 # Per Me — Piano editoriale e priorità
 
-**Stato corrente: 11 novembre 2026.** Le sezioni successive sul lavoro del 22/15 ottobre sono archivio storico e contengono previsioni superate.
+**Aggiornamento del 25 novembre 2026.** Il sito comprende 154 pagine pubbliche nella sitemap, dieci rubriche principali nella homepage e il percorso dedicato a pasta madre e LI.CO.LI. Le pagine comprendono anche indici, strumenti, ricette e servizi: non sono 154 guide distinte.
+
+## Approfondimento delle guide esistenti
+
+Dopo il confronto trasversale degli indici, il primo intervento approfondisce le guide Salute 06 (dimissione e ritorno a casa) e 07 (CUP, priorità e liste d’attesa). Il testo viene integrato con schede operative, esempi dichiarati inventati, domande ai servizi e fonti primarie. La data di revisione riguarda le guide effettivamente rilette. La guida 08 sulla patente è una successiva candidata: non è stata revisionata in questo intervento.
+
+Il [rapporto dell’intervento](approfondimento-salute-rientro-cup-2026-11-25.md) distingue controllo tecnico complessivo, approfondimento documentale delle due guide e attività da svolgere. Nessuna verifica automatica equivale a una revisione clinica o giuridica indipendente.
+
+## Piano delle nuove rubriche già avviato
+
+Digitale quotidiano e le guide Telefono più leggibile e SPID/CIE sono pubblicate. Il piano editoriale esistente prevede dal 26 al 30 novembre, nell’ordine: Acquisti e contratti, Fisco semplice, Casa e autonomia, Relazioni e tempo libero, Viaggi e piccole partenze. Questo intervento riguarda gli approfondimenti delle guide esistenti e conserva tale sequenza. La pubblicazione dei nuovi contenuti dipende dal completamento delle verifiche di ogni esecuzione.
+
+## Archivio — stato dell’11 novembre 2026
+
+I conteggi e le previsioni che seguono descrivono lo stato storico alle date indicate. Sono superati dove differiscono dall’aggiornamento corrente.
 
 ## Percorsi di base pubblicati
 
