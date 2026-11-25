@@ -83,3 +83,12 @@
 .pensionati-estero .pensionati-check td {text-align: left; overflow-wrap: anywhere; hyphens: auto}
 .pensionati-estero .pensionati-check th:first-child {width: 38%}
 .pensionati-estero .editorial-info {font-size: 1rem; line-height: 1.6}
+
+/* Le due tabelle CUP devono restare leggibili anche con testo ingrandito. */
+.guida-cup .sample-pay table {font-size:1rem;table-layout:fixed}
+.guida-cup .sample-pay th,
+.guida-cup .sample-pay td {overflow-wrap:anywhere;hyphens:auto;vertical-align:top}
+@media (max-width:420px) {
+  .guida-cup .sample-pay th,
+  .guida-cup .sample-pay td {padding:10px 6px}
+}
