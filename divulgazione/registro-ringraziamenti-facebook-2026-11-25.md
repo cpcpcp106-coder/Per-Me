@@ -1,8 +1,43 @@
 # Per Me — Ringraziamenti Facebook del 25 novembre 2026
 
-Operazioni eseguite come Pagina Per Me / PerMeGuide. Un nuovo invio, pubblicato e verificato. Controllo esteso alle adesioni storiche dal 22 ottobre 2026 e ai registri precedenti; nessun reinvio di contenuti pendenti o rifiutati.
+Operazioni eseguite come Pagina Per Me / PerMeGuide. Il primo controllo ha prodotto un nuovo ringraziamento; la successiva autorizzazione ha portato a quattro nuove iscrizioni e altri quattro ringraziamenti, documentati sotto. Controllo esteso alle adesioni storiche dal 22 ottobre 2026 e ai registri precedenti; nessun reinvio di contenuti pendenti o rifiutati.
 
-## Nuovo invio e due verifiche richieste
+## Quattro nuove iscrizioni e relativi ringraziamenti
+
+Dopo l’autorizzazione di Enrico «Iscriviamo», sono state completate le quattro iscrizioni selezionate come Pagina Per Me Guide. Facebook mostra «Iscrizione effettuata» per ciascuna. Nessuna delle quattro richieste resta in attesa.
+
+| Gruppo | Iscrizione | Ringraziamento verificato |
+| --- | --- | --- |
+| [Risparmiare a 360°](https://www.facebook.com/groups/1511051245697011/) | Effettuata come Pagina Per Me | Pubblicato nel gruppo pubblico; verificato nel post singolo. [Apri il post](https://www.facebook.com/groups/1511051245697011/permalink/4342814085854032/) |
+| [Assistenza Informatica Italia - Guide Supporto Consigli Hardware Software](https://www.facebook.com/groups/supportoinformatico/) | Effettuata come Pagina Per Me | Pubblicato nel gruppo pubblico; verificato nel post singolo. [Apri il post](https://www.facebook.com/groups/supportoinformatico/permalink/4707271339556549/) |
+| [Ricette MEDITERRANEE e NON](https://www.facebook.com/groups/1992525488810725/) | Effettuata come Pagina Per Me | Pubblicato nel gruppo pubblico; verificato nel post singolo. [Apri il post](https://www.facebook.com/groups/1992525488810725/permalink/2204928330903772/) |
+| [Cucina di tutte le Regioni Italiane!](https://www.facebook.com/groups/1467753303331979/) | Effettuata come Pagina Per Me | Pubblicato sulla Pagina Per Me; verificato nel post singolo. Nessun invio nel gruppo. [Apri il post](https://www.facebook.com/PerMeGuide/posts/pfbid0fPMrdZ6tZzrnt2gKMq2oC7mrUQ1oRAHaYYDLdwxuBJ92EsKZDD1vWUCNf8a33ugjl) |
+
+Prima degli invii, le schede dei post della Pagina nei quattro gruppi mostravano nessun post. I tre grazie nei gruppi compaiono anche nel Registro attività della Pagina; i rispettivi post singoli sono stati aperti e mostrano autore Per Me e visibilità di gruppo pubblico. Il quarto post mostra autore Per Me e condivisione con Tutti sulla Pagina.
+
+Per Cucina di tutte le Regioni Italiane!, la discussione caricata non mostra il comando per creare un post e i post caricati hanno commenti disattivati. Controllato «I tuoi contenuti», senza post da mostrare, e ricaricata una volta la pagina del gruppo. Causa della limitazione non accertata. Il ringraziamento è stato quindi pubblicato sulla Pagina Per Me; nessun invio nel gruppo e nessuna prova che gli amministratori lo abbiano letto.
+
+Testi pubblicati:
+
+**Risparmiare a 360°**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un saluto a tutti e grazie a chi condivide consigli utili per risparmiare nella vita quotidiana!
+
+**Assistenza Informatica Italia - Guide Supporto Consigli Hardware Software**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un saluto a tutti e grazie a chi mette a disposizione le proprie conoscenze per aiutare le persone con computer e smartphone!
+
+**Ricette MEDITERRANEE e NON**
+
+> Grazie agli amministratori per aver accolto la Pagina Per Me nel gruppo. Un saluto a tutti e grazie a chi condivide ricette, idee e consigli per la cucina di ogni giorno!
+
+**Cucina di tutte le Regioni Italiane!**
+
+> Grazie agli amministratori del gruppo «Cucina di tutte le Regioni Italiane!» per aver accolto la Pagina Per Me. Un cordiale saluto a tutti e a chi condivide ricette e tradizioni della nostra cucina!
+
+Nessuna spesa, messaggio privato, nuova guida o promozione inviata ai gruppi in questa operazione. Le iscrizioni non equivalgono ad approvazione delle guide. Per i due gruppi di cucina restano da chiarire link esterni e foto illustrative generate con intelligenza artificiale prima della diffusione delle guide; per l’assistenza informatica resta il vincolo di pertinenza.
+
+## Primo controllo: nuovo invio e due verifiche richieste
 
 | Gruppo | Data del grazie | Esito verificato il 25 novembre |
 | --- | --- | --- |
