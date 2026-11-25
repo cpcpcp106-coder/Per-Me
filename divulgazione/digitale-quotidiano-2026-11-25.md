@@ -2,20 +2,20 @@
 
 Autorizzazione di Enrico: «Pubblica su tutti i social ora».
 
-## Esiti verificati
+## Esiti e fonti della conferma
 
 | Canale | Stato | Collegamento diretto |
 | --- | --- | --- |
 | Facebook, Pagina Per Me / PerMeGuide | Pubblicato e verificato | [Post](https://www.facebook.com/PerMeGuide/posts/pfbid02vdR2xvnLHixkuGgfKospSMDSpvToWqPFzUkvwM6kp7fAHZBxPTujN4NtRA9psCB2l) |
 | Instagram, permeguide | Pubblicato e verificato | [Post](https://www.instagram.com/p/DgKMTYHhtJw/?fbclid=IwY2xjawVziB5leHRuA2FlbQIxMABwZG9mA3NydGMGYXBwX2lkDzUxNDc3MTU2OTIyODA2MQABH4cDgL_e4G6xiuBrZUbfW9U7Fk8v9Lsxb2WeM-st-5sKTGpJo3WCn2kSmEBS_aem_I-9yw8eyUPYMQS3b7X-0ng) |
 | Pinterest, Per Me Guide | Pubblicato e verificato nella bacheca «Tutor AI e smartphone \| Per Me» | [Pin](https://it.pinterest.com/pin/269441990205573482/) |
-| WhatsApp, canale Per Me Guide | Non pubblicato: WhatsApp Web richiede il collegamento del telefono | [Canale](https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J) |
+| WhatsApp, canale Per Me Guide | Pubblicato da Enrico; confermato in chat il 25 novembre 2026 con «Fatto» | [Canale](https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J) |
 
 Facebook e Instagram: pubblicazione congiunta tramite Meta Business Suite, testi distinti; conferma «Il tuo post è stato pubblicato» e voce presente fra i contenuti pubblicati. ID Facebook: 122103939536542978. ID Instagram: DgKMTYHhtJw. Testi, collegamento alla rubrica e descrizione della foto riscontrati nei post pubblici. Collegamento al sito presente nel profilo Instagram.
 
 Pinterest: Pin nuovo con titolo, descrizione, foto, testo alternativo e destinazione alla rubrica verificati. Dichiarati contenuto modificato con IA e persone generate con IA; suggerimenti di prodotti simili disattivati per questo Pin.
 
-Un annuncio per ciascuno dei tre canali sopra, senza invii ai gruppi. Nessuna inserzione a pagamento attivata.
+Un annuncio verificato direttamente per Facebook, Instagram e Pinterest. Pubblicazione manuale su WhatsApp confermata da Enrico in chat. Nessun invio ai gruppi e nessuna inserzione a pagamento attivati dall’assistente.
 
 Rubrica: https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html
 
@@ -61,8 +61,19 @@ Titolo: Digitale quotidiano: telefono leggibile, SPID e CIE
 
 Le prime due guide gratuite di Per Me per usare il digitale con più autonomia: telefono più leggibile su Samsung, altri Android e iPhone; accesso, recupero e assistenza per SPID (Sistema Pubblico di Identità Digitale) e CIE (Carta d’Identità Elettronica). Istruzioni brevi e fonti ufficiali collegate, senza registrazione. Grazie a chi condividerà queste guide con una persona a cui possono essere utili. Foto illustrativa originale generata con intelligenza artificiale; persone immaginarie.
 
-## WhatsApp — materiale pronto, invio ancora da eseguire
+## WhatsApp — pubblicazione manuale confermata da Enrico
 
-Usare la stessa foto e il testo Facebook sopra. Nessun aggiornamento WhatsApp è attestato da questo registro. La sessione Web mostra la richiesta di scansione del codice QR per collegare l’account; non è stato effettuato alcun invio a contatti privati.
+Dopo avere chiesto il testo da copiare e incollare personalmente, Enrico ha risposto «Fatto» il 25 novembre 2026. Lo stato è registrato sulla base di questa conferma, senza una verifica diretta dell’aggiornamento nel canale. Collegamento al singolo aggiornamento non disponibile; il collegamento nella tabella apre il canale. Non si attesta la presenza di una foto allegata nel messaggio WhatsApp.
 
-Aggiornare questa riga soltanto dopo avere verificato la presenza effettiva dell’annuncio nel canale.
+### Testo consegnato per la pubblicazione manuale
+
+📱 **Arriva “Digitale quotidiano”, la nuova rubrica gratuita di Per Me.**
+
+Le prime due guide spiegano come rendere il telefono più leggibile e come accedere ai servizi pubblici con SPID (Sistema Pubblico di Identità Digitale) e CIE (Carta d’Identità Elettronica), recuperare le credenziali e trovare l’assistenza ufficiale.
+
+Trovi istruzioni semplici per Samsung, altri telefoni Android e iPhone.
+
+Leggi le guide gratuitamente, senza registrarti:
+https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html
+
+Grazie a chi condividerà questo messaggio con una persona a cui può essere utile. 💚
