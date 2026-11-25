@@ -24,6 +24,24 @@ Riutilizzata una foto illustrativa originale già presente: `assets/inps-send-in
 
 Superati controllo struttura e link locali, componente Facebook, provenienza e integrità immagini, audit editoriale, verifica tecnica di indicizzabilità e 19 test dell'app. Il nuovo URL è raggiungibile dalla home e in sitemap. L'indicizzabilità tecnica non dimostra l'indicizzazione in Google.
 
-L'anteprima locale non è raggiungibile dal browser cloud. Il collaudo browser prima del rilascio viene eseguito nel workflow GitHub; l'esito è da registrare dopo la conclusione. La pubblicazione e la verifica del sito pubblico sono ancora da completare al momento di questa prima registrazione.
+Tutti i 20 workflow della [PR #40](https://github.com/cpcpcp106-coder/Per-Me/pull/40) sono terminati con successo sul commit `bbea6b098afc8740f23a4ac2699f9d5d5f834ac9`, compreso il [collaudo browser prima del rilascio](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45638399949). La PR è stata integrata in main nel commit `21959a80d2abd25463963be00f5587c7c3798c75`. Il [deployment Pages](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45638858743) è concluso con successo.
+
+## Verifica del sito pubblico
+
+Controllo HTTP concluso il 25 novembre 2026 alle 14:54 UTC (15:54 in Italia). Tutti e sette i file sotto rispondono HTTP 200 e sono identici, byte per byte, ai file collaudati.
+
+| File | HTTP | Identico al contenuto collaudato |
+| --- | --- | --- |
+| [pensione-cumulo-organizzazioni-internazionali.html](https://cpcpcp106-coder.github.io/Per-Me/pensione-cumulo-organizzazioni-internazionali.html) | 200 | Sì |
+| [index.html](https://cpcpcp106-coder.github.io/Per-Me/index.html) | 200 | Sì |
+| [pensione-invalidita.html](https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html) | 200 | Sì |
+| [assets/inps-send-indebiti-originale.webp](https://cpcpcp106-coder.github.io/Per-Me/assets/inps-send-indebiti-originale.webp) | 200 | Sì |
+| [assets/inps-send-indebiti-originale.jpg](https://cpcpcp106-coder.github.io/Per-Me/assets/inps-send-indebiti-originale.jpg) | 200 | Sì |
+| [gradimento-articoli.json](https://cpcpcp106-coder.github.io/Per-Me/gradimento-articoli.json) | 200 | Sì |
+| [sitemap.xml](https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml) | 200 | Sì |
+
+Controllo nel browser pubblico: fotografia caricata a 1254 × 1254 pixel, testo alternativo presente, pulsante «Scrivi sulla Pagina Facebook» visibile e destinato a `https://www.facebook.com/PerMeGuide/`. L'indice apre il paragrafo richiesto. Provati il collegamento dalla homepage, la ricerca «organizzazioni internazionali» e il percorso dalla rubrica Pensione e invalidità alla nuova guida. Il testo del corpo risulta di 19,55 px nel viewport osservato; nessuna fuoriuscita orizzontale rilevata. Il collaudo GitHub ha verificato anche le larghezze di 320 e 390 pixel.
+
+La pagina pubblica è verificata: https://cpcpcp106-coder.github.io/Per-Me/pensione-cumulo-organizzazioni-internazionali.html .
 
 Non è una prova su Samsung fisico. La disponibilità offline riguarda il testo salvato dal lettore; i collegamenti esterni richiedono rete.
