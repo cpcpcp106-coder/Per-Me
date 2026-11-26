@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T09:40:28.126Z",
+  "checked_at_utc": "2026-11-26T11:41:02.991Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "143 pagine salvate per la lettura offline · controllo online 26 nov, 09:41.",
+        "status": "143 pagine salvate per la lettura offline · controllo online 26 nov, 11:42.",
         "stored": {
           "guides": 143,
-          "updated": "2026-11-26T09:41:35.930Z",
-          "bytes": 2962045,
+          "updated": "2026-11-26T11:42:20.975Z",
+          "bytes": 2963617,
           "includesNew09": true
         }
       }
@@ -1066,7 +1066,7 @@
       "page": "prova-lettori.html",
       "violations": [],
       "passes": 26,
-      "incomplete": 1
+      "incomplete": 0
     },
     {
       "page": "redditi-red-comunicazioni-obbligatorie-inps.html",

@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-26T09:43:44.845600+00:00",
+  "date_utc": "2026-11-26T11:43:59.182872+00:00",
   "scope": {
     "pages": 163,
     "unique_external_urls": 1059,
-    "occurrences": 2891
+    "occurrences": 2893
   },
   "counts": {
-    "raggiungibile": 916,
-    "non_verificato_trasporto": 19,
-    "bloccato_o_riservato": 123,
+    "bloccato_o_riservato": 124,
+    "raggiungibile": 917,
+    "non_verificato_trasporto": 17,
     "errore_http": 1
   },
   "results": [
@@ -2574,8 +2574,9 @@
     },
     {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
@@ -5717,8 +5718,9 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
@@ -6069,6 +6071,7 @@
         "menu-mediterraneo-30-novembre-6-dicembre-2026.html",
         "metodo.html",
         "metodo.html",
+        "metodo.html",
         "modelli-e-strumenti.html",
         "modelli-e-strumenti.html",
         "monitoraggio.html",
@@ -6091,6 +6094,7 @@
         "pensione-invalidita.html",
         "pizza-napoletana-con-licoli.html",
         "pizza-napoletana-con-licoli.html",
+        "prova-lettori.html",
         "prova-lettori.html",
         "prova-lettori.html",
         "prova-lettori.html",
@@ -8351,9 +8355,8 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "acquisti-contratti.html",
         "acquisti-garanzia-prodotto-difettoso.html",
