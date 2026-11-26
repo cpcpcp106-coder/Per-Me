@@ -1,13 +1,13 @@
 {
-  "date_utc": "2026-11-26T09:25:14.101508+00:00",
+  "date_utc": "2026-11-26T09:43:44.845600+00:00",
   "scope": {
     "pages": 163,
     "unique_external_urls": 1059,
     "occurrences": 2891
   },
   "counts": {
-    "raggiungibile": 917,
-    "non_verificato_trasporto": 18,
+    "raggiungibile": 916,
+    "non_verificato_trasporto": 19,
     "bloccato_o_riservato": 123,
     "errore_http": 1
   },
@@ -2574,9 +2574,8 @@
     },
     {
       "url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://salute.regione.emilia-romagna.it/cure-primarie/ticket-esenzioni/esenzioni/esenzione-ticket-per-reddito/faq",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-04-esenzioni-ticket-fvg.html"
       ]
@@ -2601,8 +2600,9 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.regione.fvg.it/portale/",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -5717,9 +5717,8 @@
     },
     {
       "url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.ema.europa.eu/en/medicines/human/referrals/sglt2-inhibitors",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
