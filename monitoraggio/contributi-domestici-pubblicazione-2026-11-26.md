@@ -21,3 +21,12 @@ Pagina coerente con il layout condiviso e pulsante Facebook; tabelle leggibili s
 La [pull request #43](https://github.com/cpcpcp106-coder/Per-Me/pull/43) è stata integrata in `main` con il commit `0a51c91`. Il 26 novembre 2026 la guida, la foto WebP, la homepage e la sitemap pubbliche hanno risposto HTTP 200. La homepage e la sitemap riportano il collegamento alla guida. La pagina pubblica contiene il pulsante per la Pagina Facebook Per Me Guide.
 
 Nessun post social inviato in questo incarico. L'inserimento di collegamenti social nella guida non dimostra l'avvenuta pubblicazione di un post.
+
+## Verifiche conclusive
+
+- Tutti i 21 workflow della PR #43 sul commit `4b7dfec5f3dcd55800dc1e4a688a45e2f8baf31f` sono superati, incluso il [collaudo browser responsive, accessibilità automatizzata e lettura offline](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45789028388). Superati anche i 19 test locali dell'app.
+- [Deployment Pages riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45789414657) sul commit `b9b2c5c814ea77e77ebef5b96c14a37367b7ca4d`, successivo al merge; il commit aggiunge soltanto lo snapshot automatico dell'audit statico.
+- HTTP 200 e corrispondenza con le sorgenti validate per 9 risorse pubbliche: guida, CSS dedicato, homepage, Soldi e lavoro, guida caregiver, sitemap, catalogo del gradimento e foto WebP/JPEG.
+- Browser sul sito pubblico: fotografia caricata a 1254 × 1254 pixel, testo alternativo e indice espandibile funzionante; pulsante Facebook, fonti e navigazione presenti. Canonical corretto e noindex assente.
+
+La verifica tecnica di indicizzabilità è superata; non equivale a una conferma dell'indicizzazione in Google.
