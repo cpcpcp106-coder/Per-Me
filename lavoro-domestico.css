@@ -1,0 +1,18 @@
+/* Tabelle della guida ai contributi domestici: caratteri ereditati e righe leggibili su telefono. */
+.guida-domestici table{width:100%;border-collapse:collapse;font-size:inherit;margin:1rem 0}
+.guida-domestici th,.guida-domestici td{text-align:left;vertical-align:top;padding:.65rem;border:1px solid #9aaea2;overflow-wrap:anywhere}
+.guida-domestici thead th{background:#234438;color:#fff}
+.guida-domestici tbody tr:nth-child(even){background:#f1f7f3}
+.guida-domestici .sources>li{margin-block:1.1rem}
+.guida-domestici .sources p{margin:.3rem 0}
+.guida-domestici .sources summary{min-height:48px;padding:.5rem 0;cursor:pointer;font-weight:650}
+.guida-domestici .url{overflow-wrap:anywhere}
+.guida-domestici .editorial-info{font-size:1rem;line-height:1.6}
+@media(max-width:600px){
+ .guida-domestici table,.guida-domestici tbody,.guida-domestici tr,.guida-domestici td{display:block;width:100%}
+ .guida-domestici thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .guida-domestici tr{margin:.8rem 0;border:1px solid #9aaea2;border-radius:6px;overflow:hidden}
+ .guida-domestici td{border:0;border-top:1px solid #d3dfd7}
+ .guida-domestici td:first-child{border-top:0}
+ .guida-domestici td::before{content:attr(data-label) ': ';font-weight:750;display:block}
+}

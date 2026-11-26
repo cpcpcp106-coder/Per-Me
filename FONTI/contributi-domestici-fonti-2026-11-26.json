@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-26",
+  "topic": "Contributi domestici e avvisi pagoPA",
+  "sources": [
+    {
+      "title": "Messaggio INPS n. 3691 del 12 novembre 2026",
+      "description": "Cessazione degli invii cartacei, canali di pagamento e servizio di emissione massiva.",
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16412/Allegati/18051_Messaggio-numero-3691-del-12-11-2026.pdf"
+    },
+    {
+      "title": "INPS - Lavoro domestico: pagamento dei contributi 2026",
+      "description": "Notizia del 19 dicembre 2025, aggiornata il 25 febbraio 2026: eccezione dai 76 anni, nuovi rapporti, accesso e ricevute.",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.lavoro-domestico-dematerializzazione-del-pagamento-contributi-2026.html"
+    },
+    {
+      "title": "INPS - Il versamento online dei contributi dei lavoratori domestici",
+      "description": "Scheda del servizio: dati necessari, calcolo e modalità di versamento.",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50603.il-versamento-online-dei-contributi-dei-lavoratori-domestici.html"
+    },
+    {
+      "title": "INPS - Pagamento dei contributi al lavoratore domestico",
+      "description": "Scheda del servizio: obbligo del datore, calendario ordinario e slittamento per domeniche e festività.",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50061.pagamento-dei-contributi-al-lavoratore-domestico.html"
+    },
+    {
+      "title": "INPS - Contact Center Multicanale",
+      "description": "Numeri e tariffe per chiedere assistenza.",
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html"
+    },
+    {
+      "title": "INPS - Campagna informativa sul lavoro domestico",
+      "description": "Notizia del 9 marzo 2026: assistenza telefonica e dati che gli operatori non chiedono.",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.contributi-lavoro-domestico-nuova-campagna-di-informazione-telefonica.html"
+    }
+  ],
+  "http_checks": [
+    {
+      "id": "messaggio",
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16412/Allegati/18051_Messaggio-numero-3691-del-12-11-2026.pdf",
+      "status": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16412/Allegati/18051_Messaggio-numero-3691-del-12-11-2026.pdf",
+      "bytes": 106657,
+      "title": null,
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "dematerializzazione",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.lavoro-domestico-dematerializzazione-del-pagamento-contributi-2026.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.lavoro-domestico-dematerializzazione-del-pagamento-contributi-2026.html",
+      "bytes": 659838,
+      "title": "Portale Inps - Lavoro domestico: dematerializzazione del pagamento contributi 2026",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "pagamento",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50603.il-versamento-online-dei-contributi-dei-lavoratori-domestici.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50603.il-versamento-online-dei-contributi-dei-lavoratori-domestici.html",
+      "bytes": 674380,
+      "title": "Portale Inps - Il versamento online dei contributi dei lavoratori domestici",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "scadenze",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50061.pagamento-dei-contributi-al-lavoratore-domestico.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50061.pagamento-dei-contributi-al-lavoratore-domestico.html",
+      "bytes": 674549,
+      "title": "Portale Inps - Pagamento dei contributi al lavoratore domestico",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "telefono",
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
+      "bytes": 678850,
+      "title": "Portale Inps - Contact Center Multicanale",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "sicurezza",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.contributi-lavoro-domestico-nuova-campagna-di-informazione-telefonica.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.contributi-lavoro-domestico-nuova-campagna-di-informazione-telefonica.html",
+      "bytes": 658624,
+      "title": "Portale Inps - Contributi lavoro domestico: nuova campagna di informazione telefonica",
+      "content_type": "text/html;charset=utf-8"
+    },
+    {
+      "id": "portale",
+      "url": "https://serviziweb2.inps.it/PortalePagamenti/caricaPagina.do?idMenuVoce=4",
+      "status": 200,
+      "final_url": "https://serviziweb2.inps.it/PortalePagamenti/caricaPagina.do?idMenuVoce=4",
+      "bytes": 27568,
+      "title": "Portale dei pagamenti",
+      "content_type": "text/html;charset=iso-8859-1"
+    },
+    {
+      "id": "facebook",
+      "url": "https://www.facebook.com/PerMeGuide/",
+      "status": 200,
+      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "bytes": 524078,
+      "title": "Per Me",
+      "content_type": "text/html; charset=\"utf-8\""
+    }
+  ],
+  "scope": "Confronto del messaggio 3691/2026 con le schede di servizio e le notizie INPS; nessun pagamento o accesso personale eseguito.",
+  "image": {
+    "asset": "assets/inps-send-indebiti-originale.webp",
+    "provenance": "FONTI/send-indebiti-immagine-2026-11-24.json",
+    "reuse": "senza modifica della composizione; persone immaginarie"
+  },
+  "key_distinctions": [
+    "La soglia riguarda il datore di lavoro.",
+    "Lettera per chi ha almeno 76 anni già destinatario: eccezione solo per il 2026.",
+    "Nuovi rapporti: nessuna opzione per spedizione cartacea.",
+    "Ottenere l’avviso online e pagare allo sportello sono compatibili.",
+    "La soglia di 200 rapporti riguarda il servizio di emissione massiva."
+  ]
+}
