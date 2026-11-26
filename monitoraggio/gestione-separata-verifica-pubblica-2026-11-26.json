@@ -1,0 +1,287 @@
+{
+  "checked_at_utc": "2026-11-26T14:27:47.394702+00:00",
+  "public_url": "https://cpcpcp106-coder.github.io/Per-Me/gestione-separata-rimborso-contributi-massimale.html",
+  "resources": [
+    {
+      "path": "gestione-separata-rimborso-contributi-massimale.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/gestione-separata-rimborso-contributi-massimale.html",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/gestione-separata-rimborso-contributi-massimale.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 23041,
+      "sha256": "21d9e1746e421618a8cf4040d38c281881b70bbe9fee50d575e27b524228bc45",
+      "matches_validated_source": true
+    },
+    {
+      "path": "gestione-separata.css",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/gestione-separata.css",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/gestione-separata.css",
+      "http_status": 200,
+      "content_type": "text/css; charset=utf-8",
+      "bytes": 1483,
+      "sha256": "5d3c11c89559811cd4d98c6963a05e099353d77059bf43578bb3425fd13564b7",
+      "matches_validated_source": true
+    },
+    {
+      "path": "assets/gestione-separata-rimborso-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/gestione-separata-rimborso-originale.webp",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/assets/gestione-separata-rimborso-originale.webp",
+      "http_status": 200,
+      "content_type": "image/webp",
+      "bytes": 171246,
+      "sha256": "d01a8882bb84b431f14b3d766087d766c7b81de6fa7e2041d02637cea2b24f53",
+      "matches_validated_source": true
+    },
+    {
+      "path": "assets/gestione-separata-rimborso-originale.jpg",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/gestione-separata-rimborso-originale.jpg",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/assets/gestione-separata-rimborso-originale.jpg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 272417,
+      "sha256": "a4b056e32a4b6bbf7e05bea459f34a911dce3b24e23f3bf27c91c0b97f56c65b",
+      "matches_validated_source": true
+    },
+    {
+      "path": "index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/index.html",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/index.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 33925,
+      "sha256": "a82261580d1b11462a1a053ad2480c465954afdadde2ab759b712e654756c1ac",
+      "matches_validated_source": true
+    },
+    {
+      "path": "soldi-lavoro.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/soldi-lavoro.html",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/soldi-lavoro.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 15642,
+      "sha256": "cb540bf4194c61a649175d7b8fcaf0991ebce09b641b0be7c2369256ea7395b1",
+      "matches_validated_source": true
+    },
+    {
+      "path": "pensione-invalidita.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 14674,
+      "sha256": "f504a1ce69a5afb0e6d42948da5a9d840f875d106c6f9b299efa00c73c28338c",
+      "matches_validated_source": true
+    },
+    {
+      "path": "contributi-inps-estratto-conto-pensione-vicina.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/contributi-inps-estratto-conto-pensione-vicina.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 31650,
+      "sha256": "f43fb7123f14978d90fca7f152d99bd1003b8aaccdca2c653a06db81594b41be",
+      "matches_validated_source": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "http_status": 200,
+      "content_type": "application/xml",
+      "bytes": 22219,
+      "sha256": "3bb65d0a952e3c6123deb7e5d8bea59294b78b81482b8d94585853172b9b4167",
+      "matches_validated_source": true
+    },
+    {
+      "path": "gradimento-articoli.json",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento-articoli.json",
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento-articoli.json",
+      "http_status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "bytes": 22353,
+      "sha256": "12217bdfe32590f952a4db50032a8e54f4bd87fdb61e82f20bbc463db43164a8",
+      "matches_validated_source": true
+    }
+  ],
+  "checks": {
+    "all_http_200": true,
+    "all_match_validated_source": true,
+    "canonical_correct": true,
+    "robots_index_follow": true,
+    "photo_with_alt": true,
+    "facebook_link_present": true,
+    "sources_present": true,
+    "catalogue_present": true,
+    "sitemap_present": true,
+    "incoming_links_present": true
+  },
+  "status": "PASS",
+  "limits": [
+    "HTTP, dati e corrispondenza con le sorgenti non provano l’indicizzazione effettiva in Google.",
+    "Nessuna domanda previdenziale personale inviata."
+  ],
+  "ci": {
+    "pr": "https://github.com/cpcpcp106-coder/Per-Me/pull/49",
+    "head_sha": "4b9580f7639fa1b3de3ad80a4cb0d1a2f93f0878",
+    "merge_sha": "7f79a09bec65fe5576d405743cad44a66e78a4c8",
+    "total": 21,
+    "successful": 21,
+    "workflows": [
+      {
+        "id": 45838515912,
+        "name": "Per Me - Guida 05 Servizi sociali nazionali",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515912"
+      },
+      {
+        "id": 45838515532,
+        "name": "Per Me - Salute Guida 01 sicurezza e fonti",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515532"
+      },
+      {
+        "id": 45838515577,
+        "name": "Per Me - Guida ISEE 2026",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515577"
+      },
+      {
+        "id": 45838515647,
+        "name": "Per Me - Verifica tecnica di indicizzabilità",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515647"
+      },
+      {
+        "id": 45838515843,
+        "name": "Per Me - Guida 08 Assegno unico e famiglie",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515843"
+      },
+      {
+        "id": 45838515938,
+        "name": "Per Me - Verifica HTTP pagine pubbliche",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515938"
+      },
+      {
+        "id": 45838516023,
+        "name": "Per Me - Guida 03 Trasporti FVG",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838516023"
+      },
+      {
+        "id": 45838515569,
+        "name": "Per Me - Guida 02 Bonus sociali",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515569"
+      },
+      {
+        "id": 45838515824,
+        "name": "Per Me - Tutor AI essenziale",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515824"
+      },
+      {
+        "id": 45838515400,
+        "name": "Per Me - Guida 07 Patrocinio a spese dello Stato",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515400"
+      },
+      {
+        "id": 45838516036,
+        "name": "Per Me - Audit editoriale intero sito",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838516036"
+      },
+      {
+        "id": 45838515822,
+        "name": "Per Me - Collaudo struttura nazionale",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515822"
+      },
+      {
+        "id": 45838515844,
+        "name": "Per Me - Cardiopatia, diabete, dieta scientifica",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515844"
+      },
+      {
+        "id": 45838515388,
+        "name": "Per Me - Controllo diritti e immagini",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515388"
+      },
+      {
+        "id": 45838515794,
+        "name": "Per Me - Guida 06 Affitto e sfratto",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515794"
+      },
+      {
+        "id": 45838515792,
+        "name": "Per Me - Registro revisione normativa",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515792"
+      },
+      {
+        "id": 45838515751,
+        "name": "Per Me - Guida 04 Esenzioni FVG",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515751"
+      },
+      {
+        "id": 45838515883,
+        "name": "Per Me - Perimetro nazionale",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515883"
+      },
+      {
+        "id": 45838515789,
+        "name": "Per Me - Acquisti e contratti e lettura offline",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515789"
+      },
+      {
+        "id": 45838515428,
+        "name": "Per Me - Digitale quotidiano e lettura offline",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515428"
+      },
+      {
+        "id": 45838515904,
+        "name": "Per Me - Collaudo browser e fonti esterne",
+        "conclusion": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515904"
+      }
+    ]
+  },
+  "publication": {
+    "id": 45838974507,
+    "sha": "deb035204333b62f126bade3d8f58e4755a8566e",
+    "conclusion": "success",
+    "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838974507"
+  },
+  "public_browser": {
+    "home_link_opened": true,
+    "image_dimensions": [
+      1536,
+      1024
+    ],
+    "image_loaded": true,
+    "alt_present": true,
+    "facebook_url": "https://www.facebook.com/PerMeGuide/",
+    "facebook_button_height_px": 56,
+    "index_expansion_and_anchor_navigation": true,
+    "source_links": 4,
+    "viewport_width_px": 1363,
+    "document_width_px": 1348
+  },
+  "reader_preview": {
+    "saved_pages": 145,
+    "new_guide_characters": 13006,
+    "table_preserved": true,
+    "source_links_preserved": 4,
+    "facebook_link_preserved": true,
+    "scope": "Copia salvata aperta nel lettore durante la connessione; non è una prova di nuova guida su Samsung fisico."
+  }
+}
