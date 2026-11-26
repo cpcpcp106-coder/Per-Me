@@ -639,6 +639,8 @@ header[data-shared="per-me"] a.perme-social-link:focus-visible{outline:3px solid
 .home-notizie .notizia-home{margin-top:20px}
 .hero-copy{min-width:0}
 .hero-copy h1{overflow-wrap:anywhere}
+/* Testo al 200%: manda a capo le parole lunghe prima dei bordi dei riquadri. */
+.home-main .hero-copy,.home-main .topics .card>div{overflow-wrap:anywhere}
 @media(max-width:840px){
   .home-strumenti-grid{grid-template-columns:1fr}
   .home-strumenti-grid article{padding:20px}
