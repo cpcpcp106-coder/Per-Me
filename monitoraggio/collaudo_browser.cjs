@@ -73,7 +73,10 @@ async function readersTest(page){
   clipboardDenied=denied;
   await page.setViewportSize({width:denied?320:390,height:844});
   await page.goto(URL+'prova-lettori.html',{waitUntil:'domcontentloaded'});
-  await page.getByRole('link',{name:'Inizia la prova'}).click();
+  const direct=page.getByRole('link',{name:'Segnala una difficoltà su Facebook',exact:true});
+  assert.equal(await direct.getAttribute('href'),'https://www.facebook.com/PerMeGuide/');
+  assert.ok(await direct.isVisible(),'Riscontro diretto disponibile senza compilare le prove');
+  await page.getByRole('link',{name:'Scegli una prova',exact:true}).click();
   const startWorks=page.url().endsWith('#inizia');
   const feedback=page.locator('#risultato');
   const copy=feedback.getByRole('button',{name:'Copia il messaggio'});
@@ -412,6 +415,6 @@ await browserInstance.close();browserInstance=null;
 report.status='COMPLETED';
 } 
 (async()=>{try{await start()}catch(e){report.status='ERROR';report.error=String(e.stack||e).slice(0,1800)}
-finally{try{await browserInstance?.close()}catch(e){};try{server?.kill()}catch(e){};save();console.log(JSON.stringify({status:report.status,tests:report.tests,axe:report.axe.map(x=>({page:x.page,violations:x.violations?.length,error:x.error})),errors:report.page_errors},null,2));
+finally{try{await browserInstance?.close()}catch(e){};try{server?.kill()}catch(e){};save();console.log(JSON.stringify({status:report.status,error:report.error,tests:report.tests,axe:report.axe.map(x=>({page:x.page,violations:x.violations?.length,error:x.error})),errors:report.page_errors},null,2));
 const failed=report.status!=='COMPLETED'||report.tests.some(x=>x.result!=='PASS')||report.axe.some(x=>x.error||(x.violations&&x.violations.length>0))||report.page_errors.length>0;
 if(failed){console.error('COLLAUDO NON SUPERATO: esiti FAIL o violazioni axe presenti nel rapporto');process.exitCode=1;}}})();

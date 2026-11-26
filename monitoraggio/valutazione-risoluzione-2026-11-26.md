@@ -50,3 +50,9 @@ Non sono stati confusi HTTP 200, validità della sitemap, indicizzabilità tecni
 ## Stato
 
 Candidato predisposto e verifiche preliminari completate. Pubblicazione, controlli sul commit candidato, prove offline del comportamento modificato e riscontro finale saranno annotati con collegamenti solo dopo l’esito effettivo. Restano esterni al lavoro software la certificazione professionale delle guide, una prova su Samsung reale e la decisione di indicizzazione di Google.
+
+## Correzione del collaudo della prova lettori
+
+Il [primo collaudo browser](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45809861913) sul candidato 712ca9b si è interrotto perché cercava il vecchio collegamento «Inizia la prova», sostituito nell’interfaccia con «Scegli una prova». La causa è confermata dall’errore nell’artefatto del workflow. I quattro percorsi di ricerca a 320/390 e testo 200% erano già superati, con zero violazioni automatiche sulla homepage; il resto del collaudo non era stato completato.
+
+Il test ora usa il nome visibile aggiornato e verifica anche l’ingresso Facebook diretto. Aggiunta la stampa dell’errore fatale nei log: nessun requisito di prova rimosso e nessuna soglia di accessibilità allentata. Nuovo esito da attendere prima dell’integrazione.
