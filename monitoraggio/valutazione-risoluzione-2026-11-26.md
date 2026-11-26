@@ -56,3 +56,9 @@ Candidato predisposto e verifiche preliminari completate. Pubblicazione, control
 Il [primo collaudo browser](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45809861913) sul candidato 712ca9b si è interrotto perché cercava il vecchio collegamento «Inizia la prova», sostituito nell’interfaccia con «Scegli una prova». La causa è confermata dall’errore nell’artefatto del workflow. I quattro percorsi di ricerca a 320/390 e testo 200% erano già superati, con zero violazioni automatiche sulla homepage; il resto del collaudo non era stato completato.
 
 Il test ora usa il nome visibile aggiornato e verifica anche l’ingresso Facebook diretto. Aggiunta la stampa dell’errore fatale nei log: nessun requisito di prova rimosso e nessuna soglia di accessibilità allentata. Nuovo esito da attendere prima dell’integrazione.
+
+## Nuova prova delle guide lunghe al 200%
+
+Il [collaudo strumenti 45809854613](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45809854613) ha superato 60 prove di percorsi e strumenti, poi ha rilevato scorrimento orizzontale nella guida caregiver a 320 px con testo al 200%. I due nuovi collegamenti iniziali funzionano. Questo controllo più esteso ha fatto emergere un difetto non coperto dalle precedenti prove di sola homepage. Il resto della suite è rimasto ineseguito e non è conteggiato come superato.
+
+L’agente ha aggiunto ritorno a capo ereditabile alla pagina caregiver e didascalia, permesso il restringimento dei contenitori interessati e rimosso il ritaglio delle righe-tabella mobile. Font e foto invariati. Versione CSS aggiornata in entrambe le guide caregiver. Il menù riceve un’analoga regola di ritorno a capo, senza cambiare le dimensioni del testo. Il test conserva la soglia di due pixel e ora stampa gli elementi fuori schermo in caso di errore. Verifica finale del nuovo candidato da attendere.

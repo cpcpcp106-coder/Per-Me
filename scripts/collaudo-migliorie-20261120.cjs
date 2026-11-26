@@ -65,7 +65,9 @@ async function main(){
     }
     const base=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
     await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',base);
-    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'apertura e guida senza overflow al 200%: '+label+' '+width);
+    const geometry=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,outliers:[...document.querySelectorAll('body *')].map(e=>({tag:e.tagName,id:e.id,cls:e.className,left:Math.round(e.getBoundingClientRect().left),right:Math.round(e.getBoundingClientRect().right),text:e.textContent.trim().slice(0,65)})).filter(e=>e.right>innerWidth+2&&e.left>=0).slice(0,15)}));
+    if(geometry.scroll>geometry.width+2)console.log('DETTAGLI GUIDA 200%',file,JSON.stringify(geometry));
+    check(geometry.scroll<=geometry.width+2,'apertura e guida senza overflow al 200%: '+label+' '+width);
     await page.evaluate(()=>document.documentElement.style.fontSize='');
    }
    await page.goto(origin+'/agevolazioni-guida-09-locazioni-abitative.html');
