@@ -18,6 +18,7 @@ on:
       - 'da-dove-cominciare.html'
       - 'index.html'
       - 'style.css'
+      - 'notizie.css'
       - 'site/**'
       - 'scripts/genera-ricette-mediterranee.cjs'
       - 'scripts/collaudo-tre-fasi.cjs'
