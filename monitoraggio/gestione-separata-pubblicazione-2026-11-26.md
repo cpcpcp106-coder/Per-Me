@@ -28,6 +28,17 @@ Collegamenti da homepage, Soldi e lavoro, Pensione e invalidità, guida all’es
 
 ## Pubblicazione
 
-Pubblicazione sul sito Per Me autorizzata esplicitamente da Enrico il 26 novembre 2026, dopo la lettura della copia completa con foto. Sono in corso i workflow della proposta; integrazione e verifica pubblica saranno registrate con gli esiti effettivi. Nessuna diffusione sui social richiesta o eseguita in questo incarico.
+Pubblicazione sul sito Per Me autorizzata esplicitamente da Enrico il 26 novembre 2026, dopo la presentazione della copia completa con foto. Tutti i 21 workflow della proposta sono superati; pubblicazione e verifica pubblica completate. Nessuna diffusione sui social richiesta o eseguita in questo incarico.
 
 Integrazione preventiva con `ab7b001dbae75d5cd47c6ddfa72323b5d9e0ae33`: conservata la guida ai contatti INPS e tutti i relativi collegamenti, dati e immagini. I registri e la homepage mantengono entrambe le nuove guide.
+
+## Esito della pubblicazione
+
+- [PR #49](https://github.com/cpcpcp106-coder/Per-Me/pull/49) integrata con commit `7f79a09bec65fe5576d405743cad44a66e78a4c8`. Tutti i 21 workflow sul commit proposto `4b9580f7639fa1b3de3ad80a4cb0d1a2f93f0878` sono superati, incluso il [collaudo browser, responsive e offline](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838515904).
+- [Deployment Pages riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838974507) sul commit `deb035204333b62f126bade3d8f58e4755a8566e`, che aggiunge soltanto lo snapshot automatico all’audit statico dopo il merge.
+- [Guida pubblicata](https://cpcpcp106-coder.github.io/Per-Me/gestione-separata-rimborso-contributi-massimale.html): dieci risorse pubbliche verificate HTTP 200 e identiche alle sorgenti validate, comprese pagina, due foto, CSS, home, rubriche, guida collegata, catalogo e sitemap. Canonical corretto e direttive `index,follow`.
+- Browser sul sito pubblico: aperta la guida dal nuovo collegamento in home, fotografia caricata a 1536 × 1024, pulsante Facebook alto 56 px con destinazione corretta, indice espandibile e collegamento alla sezione della domanda funzionanti, quattro fonti ufficiali presenti.
+- Nel lettore in anteprima la ricerca “massimale” trova la nuova guida: testo di 13.006 caratteri, tabella, fonti e collegamento Facebook conservati nella copia salvata. Non è una prova di rete assente su Samsung fisico.
+- Anche il [collaudo degli strumenti sul ramo principale](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45838944887), che include il controllo della home a 320 px con testo al 200%, è superato.
+
+Evidenze dettagliate: `monitoraggio/gestione-separata-verifica-pubblica-2026-11-26.json`. Nessuna conferma di indicizzazione Google attribuita a questi controlli tecnici.
