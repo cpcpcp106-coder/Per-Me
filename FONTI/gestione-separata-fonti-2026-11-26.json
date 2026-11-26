@@ -1,0 +1,100 @@
+{
+  "date": "2026-11-26",
+  "topic": "Gestione Separata: rimborso dei contributi oltre il massimale",
+  "guide": "gestione-separata-rimborso-contributi-massimale.html",
+  "sources": [
+    {
+      "id": "messaggio3575",
+      "title": "Messaggio INPS n. 3575 del 4 novembre 2026 (PDF)",
+      "description": "Riattivazione degli avvisi MyINPS, annualità 2024 e 2025, sportivi temporaneamente esclusi, domande già inviate e ripartizione del rimborso.",
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16407/Allegati/18041_Messaggio-numero-3575-del-04-11-2026.pdf"
+    },
+    {
+      "id": "notizia_rimborsi",
+      "title": "INPS: nuovo canale per chiedere i rimborsi, 13 ottobre 2026",
+      "description": "Spiegazione ufficiale del messaggio 3247/2026: accesso, utenti, causali, più committenti e consultazione delle domande.",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.gestione-separata-nuovo-canale-per-chiedere-i-rimborsi.html"
+    },
+    {
+      "id": "circolare8",
+      "title": "Circolare INPS n. 8 del 3 febbraio 2026 (PDF), paragrafo 6.1",
+      "description": "Massimale annuo della Gestione Separata per il 2026: 122.295 euro.",
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15153/Allegati/16573_Circolare-numero-8-del-03-02-2026.pdf"
+    },
+    {
+      "id": "messaggio3247",
+      "title": "Messaggio INPS n. 3247 del 13 ottobre 2026",
+      "description": "Istruzioni della Domanda Rimborso Unico e percorso “Altri Servizi”. Se il portale non mostra il testo, consulta la sintesi ufficiale alla fonte 2.",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3247-del-13-10-2026_16391.html"
+    }
+  ],
+  "http_checks": [
+    {
+      "id": "messaggio3575",
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16407/Allegati/18041_Messaggio-numero-3575-del-04-11-2026.pdf",
+      "status": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16407/Allegati/18041_Messaggio-numero-3575-del-04-11-2026.pdf",
+      "bytes": 109502,
+      "content_type": "application/pdf",
+      "title": null
+    },
+    {
+      "id": "messaggio3247",
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3247-del-13-10-2026_16391.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3247-del-13-10-2026_16391.html",
+      "bytes": 661644,
+      "content_type": "text/html;charset=utf-8",
+      "title": ""
+    },
+    {
+      "id": "notizia_rimborsi",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.gestione-separata-nuovo-canale-per-chiedere-i-rimborsi.html",
+      "status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.gestione-separata-nuovo-canale-per-chiedere-i-rimborsi.html",
+      "bytes": 661219,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Portale Inps - Gestione Separata: nuovo canale per chiedere i rimborsi"
+    },
+    {
+      "id": "circolare8",
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15153/Allegati/16573_Circolare-numero-8-del-03-02-2026.pdf",
+      "status": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15153/Allegati/16573_Circolare-numero-8-del-03-02-2026.pdf",
+      "bytes": 275584,
+      "content_type": "application/pdf",
+      "title": null
+    },
+    {
+      "id": "myinps",
+      "url": "https://www.inps.it/",
+      "status": 200,
+      "final_url": "https://www.inps.it/",
+      "bytes": 915549,
+      "content_type": "text/html;charset=utf-8",
+      "title": "Portale Inps - INPS - Istituto Nazionale della Previdenza Sociale"
+    },
+    {
+      "id": "facebook",
+      "url": "https://www.facebook.com/PerMeGuide/",
+      "status": 200,
+      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "bytes": 525440,
+      "content_type": "text/html; charset=\"utf-8\"",
+      "title": "Per Me"
+    }
+  ],
+  "verification_notes": [
+    "Messaggio 3575 e circolare 8 letti anche nel PDF ufficiale.",
+    "La pagina HTML del messaggio 3247 risponde 200 ma il testo non era restituito nel corpo dall’accesso diretto; contenuto consultato nell’indice di ricerca e confrontato con la notizia ufficiale completa del 13 ottobre. La guida offre entrambe le fonti.",
+    "Nessun accesso a una posizione personale, nessuna domanda di rimborso presentata."
+  ],
+  "key_distinctions": [
+    "Avviso sul massimale 2026 distinto da comunicazioni importi 2024/2025.",
+    "Sportivi dilettantistici temporaneamente esclusi dal primo invio.",
+    "Niente seconda domanda per le stesse somme già richieste.",
+    "Quote sul contributo eccedente: un terzo al parasubordinato, due terzi ai committenti.",
+    "Il messaggio 3575 non fissa una nuova scadenza unica né un termine comune di accredito.",
+    "Il canale nasce unificato ma l’attivazione del messaggio 3247 è inizialmente riferita alla Gestione Separata."
+  ]
+}
