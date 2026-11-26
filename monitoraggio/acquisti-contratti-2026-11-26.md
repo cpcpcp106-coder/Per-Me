@@ -14,3 +14,5 @@ URL previsti:
 - https://cpcpcp106-coder.github.io/Per-Me/acquisti-contratti.html
 - https://cpcpcp106-coder.github.io/Per-Me/acquisti-recesso-resi-rimborsi.html
 - https://cpcpcp106-coder.github.io/Per-Me/acquisti-garanzia-prodotto-difettoso.html
+
+CI iniziale: corretta omissione della voce nella navigazione statica delle rubriche dell’app. Confermato anche il difetto preesistente della home al 200%/320px già documentato dalla Fase 4 e PR41: ripresa qui la correzione CSS minima necessaria per completare il collaudo della homepage, senza integrare altri contenuti o ridurre le soglie.
