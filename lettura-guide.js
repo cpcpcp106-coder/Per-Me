@@ -37,10 +37,12 @@
   'html[data-perme-lettura-attiva] main,html[data-perme-lettura-attiva] header{overflow-wrap:anywhere}html[data-perme-lettura-attiva] main article{min-width:0;max-width:100%}html[data-perme-lettura-attiva] nav a{max-width:100%;min-width:0;white-space:normal}html[data-perme-lettura-attiva] main pre,html[data-perme-lettura-attiva] main code{white-space:pre-wrap;overflow-wrap:anywhere}html[data-perme-lettura-attiva] main button,html[data-perme-lettura-attiva] main input,html[data-perme-lettura-attiva] main select,html[data-perme-lettura-attiva] main textarea{box-sizing:border-box;max-width:100%;min-width:0}',
   '.perme-lettura,.perme-riscontro{box-sizing:border-box;max-width:100%;min-width:0;margin:24px 0;padding:16px;border:2px solid #8ba998;border-radius:10px;background:#eef5ef;color:#17372a;overflow-wrap:anywhere;font-size:1rem;line-height:1.5}',
   '.perme-lettura p,.perme-riscontro p{margin:0 0 12px}.perme-lettura-titolo{font-weight:800}',
+  '.perme-lettura summary{font:inherit;font-weight:800;cursor:pointer;min-height:48px;padding:8px 0}.perme-lettura[open] summary{margin-bottom:12px}',
   '.perme-lettura-azioni,.perme-riscontro-azioni{display:flex;flex-wrap:wrap;gap:10px;align-items:center}',
   '.perme-lettura button,.perme-riscontro button,.perme-riscontro a{box-sizing:border-box;min-height:52px;max-width:100%;min-width:0;padding:10px 14px;border:2px solid #234438;border-radius:8px;background:#234438;color:#fff;font:inherit;font-weight:750;line-height:1.4;white-space:normal;overflow-wrap:anywhere;text-align:center;text-decoration:none;cursor:pointer}',
   '.perme-lettura button:disabled,.perme-riscontro button:disabled{background:#e0e8e2;color:#354b3d;border-color:#718376;cursor:default}',
   '.perme-lettura button:focus-visible,.perme-riscontro button:focus-visible,.perme-riscontro a:focus-visible,.perme-riscontro input:focus-visible{outline:4px solid #a56a20;outline-offset:3px}',
+  '.perme-lettura summary:focus-visible{outline:4px solid #a56a20;outline-offset:3px}',
   '.perme-lettura-stato{margin:12px 0 0!important}.perme-lettura-nota{font-size:1em;margin-top:12px!important}',
   '.perme-riscontro summary{font:inherit;font-size:1.08em;font-weight:800;cursor:pointer;min-height:44px;padding:8px 0}',
   '.perme-riscontro-categorie{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,12rem),1fr));gap:10px;margin:14px 0}',
@@ -213,9 +215,10 @@
   if (content.querySelector('.perme-lettura')) return;
   const title = options.title || content.querySelector('h1,h2')?.textContent || document.title;
   const path = options.path || decodeURIComponent(location.pathname.split('/').pop());
-  const bar = node('section', '', 'perme-lettura');
+  const compact = content.dataset.letturaCompatta === 'true';
+  const bar = node(compact ? 'details' : 'section', '', 'perme-lettura');
   bar.setAttribute('aria-label', 'Aiuti alla lettura');
-  const heading = node('p', 'Leggi come preferisci', 'perme-lettura-titolo');
+  const heading = node(compact ? 'summary' : 'p', compact ? 'Ingrandisci il testo o ascolta' : 'Leggi come preferisci', 'perme-lettura-titolo');
   const actions = node('div', '', 'perme-lettura-azioni');
   const size = node('span'); size.setAttribute('role', 'status'); size.setAttribute('aria-live', 'polite');
   const minus = button('Riduci', 'Riduci la dimensione del testo', () => setScale(scales[Math.max(0, scales.indexOf(scale) - 1)], true));
