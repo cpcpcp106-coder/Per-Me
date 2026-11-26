@@ -66,3 +66,9 @@ L’agente ha aggiunto ritorno a capo ereditabile alla pagina caregiver e didasc
 ### Ingrandimento effettivo dei testi
 
 Il controllo del widget ha mostrato che imposta la dimensione della radice: le dimensioni assolute del corpo nelle due guide non seguivano questa impostazione. Convertite in rem mantenendo le dimensioni di partenza: caregiver 22 px su radice 20 px; menù 21 px desktop e 20 px mobile su radice 17 px, metadati 19 px e tabella 18 px. Il test verifica ora che il testo del corpo raddoppi effettivamente, oltre all’assenza di scorrimento orizzontale. Nessuna riduzione della leggibilità iniziale.
+
+## Ordine dei risultati dell’app
+
+Sul candidato 3b61eb7 sono passati ricerca al singolare/plurale online e offline, effettivo raddoppio dei caratteri e reflow delle due guide a 320/390, home 200%, stampa e calcoli. Il collaudo si è poi fermato nella ricerca offline della frase «Ricette mediterranee semplici»: la ricerca per parole separata trovava più guide e non dava precedenza alla corrispondenza completa del titolo.
+
+L’app ora ordina prima il titolo che contiene l’intera frase, poi la frase nel contenuto, quindi le parole separate, conservando l’ordine quando non si cerca nulla. Il requisito precedente sul paniere non è stato rimosso. Nuove versioni main.js/cache per distribuire la correzione. Il comportamento va confermato dal prossimo collaudo completo.

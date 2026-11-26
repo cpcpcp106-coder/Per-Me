@@ -117,12 +117,15 @@ async function sync(){
 function renderList(){
  const area=element('guide-list');area.replaceChildren();
  const norm=window.PerMeCatalogo.normalizza;
- const words=norm(model.query).split(' ').filter(Boolean);
- const found=model.guides.filter(g=>{
-  if(model.filter==='favorite'&&!model.favorites.includes(g.path))return false;
-  const text=norm(g.title+' '+g.category+' '+g.content.replace(/<[^>]*>/g,' '));
-  return words.every(word=>text.includes(word));
- });
+ const phrase=norm(model.query),words=phrase.split(' ').filter(Boolean);
+ const found=model.guides.flatMap(guide=>{
+  if(model.filter==='favorite'&&!model.favorites.includes(guide.path))return [];
+  const title=norm(guide.title);
+  const text=norm(guide.title+' '+guide.category+' '+guide.content.replace(/<[^>]*>/g,' '));
+  if(!words.every(word=>text.includes(word)))return [];
+  const priority=phrase?(title.includes(phrase)?3:text.includes(phrase)?2:1):0;
+  return [{guide,priority}];
+ }).sort((a,b)=>b.priority-a.priority).map(({guide})=>guide);
  if(!found.length){let p=document.createElement('p');p.className='empty';p.textContent=model.guides.length?'Non trovo guide con queste parole.':'Nessuna guida ancora salvata: collegati a Internet e premi «Aggiorna le guide». Poi potrai leggerle anche offline.';area.appendChild(p);return}
  for(let guide of found){
   const btn=document.createElement('button');btn.type='button';btn.className='guide-card';
