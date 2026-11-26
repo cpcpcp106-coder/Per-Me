@@ -1829,6 +1829,26 @@
       "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessuna esclusività attestata rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "acquisti-garanzia-prodotto-difettoso.html"
+    },
+    {
+      "file": "assets/inps-contatti-originale.webp",
+      "git_blob_sha": "f7773aec3e3eebc49ec964da0070b4c99c5fcafd",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 26 novembre 2026 senza immagini di riferimento; conversione in formato web senza modifiche alla scena.",
+      "provenance_evidence": "FONTI/inps-contatti-immagine-2026-11-26.json; originale exec-065c9207-6221-4693-b3a2-86afcbd62d61.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito, nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "inps-contatti-telefono-richieste-appuntamenti.html, index.html"
+    },
+    {
+      "file": "assets/inps-contatti-originale.jpg",
+      "git_blob_sha": "e27e3dd34047f0fff3bd550ea7769b3e39c62672",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 26 novembre 2026 senza immagini di riferimento; conversione in formato web senza modifiche alla scena.",
+      "provenance_evidence": "FONTI/inps-contatti-immagine-2026-11-26.json; originale exec-065c9207-6221-4693-b3a2-86afcbd62d61.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito, nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "inps-contatti-telefono-richieste-appuntamenti.html (metadati di condivisione)"
     }
   ],
   "notes": [

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-26",
+  "generator": "ChatGPT ImageGen integrato",
+  "original_filename": "exec-065c9207-6221-4693-b3a2-86afcbd62d61.png",
+  "original_sha256": "8a0c3ba1e38acd6b89f3e0e929a4fd202c256286c66d2337266c0751f4fcd79a",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "reference_images": [],
+  "prompt": "Scena fotografica iperrealistica originale: donna di circa 64 anni al telefono al tavolo di casa, con appunti e una familiare davanti a un portatile. Luce naturale, nessun logo o dato leggibile; persone immaginarie, nessun avallo INPS.",
+  "visual_check": "Controllata immagine generata: scena coerente, volti e telefono visibili, mani plausibili, nessun marchio né testo leggibile.",
+  "files": [
+    {
+      "file": "assets/inps-contatti-originale.webp",
+      "git_blob_sha": "f7773aec3e3eebc49ec964da0070b4c99c5fcafd",
+      "sha256": "c76142b4bacb3bbed292e33d6938e0dc82a2ff1ec2c5d838d92b033d81933d91",
+      "size_bytes": 179142
+    },
+    {
+      "file": "assets/inps-contatti-originale.jpg",
+      "git_blob_sha": "e27e3dd34047f0fff3bd550ea7769b3e39c62672",
+      "sha256": "1507bd7b138428207d28a4af6cd3cede767cfcc9a426823907a97716114ca062",
+      "size_bytes": 302103
+    }
+  ]
+}
