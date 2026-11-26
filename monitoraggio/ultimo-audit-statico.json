@@ -1,22 +1,25 @@
 {
-  "date_utc": "2026-11-25T14:52:35+00:00",
+  "date_utc": "2026-11-26T08:00:20+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
-    "html_total": 159,
-    "editorial_pages": 155,
+    "html_total": 162,
+    "editorial_pages": 158,
     "technical_pages": 4,
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 5758,
-    "external_occurrences": 2856,
-    "external_unique": 1046,
+    "local_occurrences": 5836,
+    "external_occurrences": 2879,
+    "external_unique": 1052,
     "actions": 10,
     "broken_local": [],
     "broken_anchors": []
   },
   "seo": {
     "indexable_pages": [
+      "acquisti-contratti.html",
+      "acquisti-garanzia-prodotto-difettoso.html",
+      "acquisti-recesso-resi-rimborsi.html",
       "agevolazioni-diritti.html",
       "agevolazioni-guida-01-isee-corrente.html",
       "agevolazioni-guida-02-bonus-sociali.html",
@@ -174,6 +177,9 @@
       "verbale-invalidita-civile-legge-104-come-leggerlo.html"
     ],
     "sitemap_pages": [
+      "acquisti-contratti.html",
+      "acquisti-garanzia-prodotto-difettoso.html",
+      "acquisti-recesso-resi-rimborsi.html",
       "agevolazioni-diritti.html",
       "agevolazioni-guida-01-isee-corrente.html",
       "agevolazioni-guida-02-bonus-sociali.html",
@@ -356,7 +362,7 @@
       "./",
       "./index.html",
       "./app.css?v=15",
-      "./catalogo-guide.js?v=4",
+      "./catalogo-guide.js?v=5",
       "./main.js?v=19",
       "./manifest.webmanifest",
       "./icon-192.png",
@@ -376,6 +382,51 @@
     "one_icon_verified": "NON_ESEGUITO"
   },
   "inventario": [
+    {
+      "file": "acquisti-contratti.html",
+      "title": "Acquisti e contratti senza sorprese | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 28,
+      "links_external": 7,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 0
+    },
+    {
+      "file": "acquisti-garanzia-prodotto-difettoso.html",
+      "title": "Garanzia legale: che cosa fare se il prodotto è difettoso | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 23,
+      "links_external": 8,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 3
+    },
+    {
+      "file": "acquisti-recesso-resi-rimborsi.html",
+      "title": "Recesso, resi e rimborsi: come cambiare idea | Per Me",
+      "h1": 1,
+      "images": 2,
+      "images_without_alt": 0,
+      "links_local": 23,
+      "links_external": 8,
+      "missing_local": 0,
+      "noindex": false,
+      "canonical": true,
+      "description": true,
+      "skip_link": true,
+      "candidate_numeric_legal_mentions": 9
+    },
     {
       "file": "agevolazioni-diritti.html",
       "title": "ISEE, bonus, ticket e aiuti: guide e diritti | Per Me",
@@ -577,7 +628,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 24,
+      "links_local": 25,
       "links_external": 0,
       "missing_local": 0,
       "noindex": false,
@@ -1775,9 +1826,9 @@
       "file": "index.html",
       "title": "Guide gratuite su pensioni, INPS, lavoro e salute | Per Me",
       "h1": 1,
-      "images": 20,
+      "images": 21,
       "images_without_alt": 0,
-      "links_local": 95,
+      "links_local": 98,
       "links_external": 7,
       "missing_local": 0,
       "noindex": false,
