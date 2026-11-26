@@ -1849,6 +1849,26 @@
       "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito, nessuna esclusività attestata rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "inps-contatti-telefono-richieste-appuntamenti.html (metadati di condivisione)"
+    },
+    {
+      "file": "assets/gestione-separata-rimborso-originale.webp",
+      "git_blob_sha": "2e3dcdcce39f8eb9e0def9b221bce4b11fe9bfbc",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 26 novembre 2026 senza immagini di riferimento; conversione WEBP senza modifiche alla composizione.",
+      "provenance_evidence": "FONTI/gestione-separata-immagine-2026-11-26.json; originale exec-fefaf6f9-076f-4908-bb04-28f827ebbf6c.png",
+      "license_or_ownership": "Output generato per Per Me; uso secondo le condizioni del servizio e la legge applicabile. Nessuna esclusività rispetto ad altri output AI o approvazione INPS attestata.",
+      "source_history_verified": true,
+      "used_in": "gestione-separata-rimborso-contributi-massimale.html; index.html"
+    },
+    {
+      "file": "assets/gestione-separata-rimborso-originale.jpg",
+      "git_blob_sha": "71682ceb7a82e9b61964d6aab66caf3b2b2c21da",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 26 novembre 2026 senza immagini di riferimento; conversione JPG senza modifiche alla composizione.",
+      "provenance_evidence": "FONTI/gestione-separata-immagine-2026-11-26.json; originale exec-fefaf6f9-076f-4908-bb04-28f827ebbf6c.png",
+      "license_or_ownership": "Output generato per Per Me; uso secondo le condizioni del servizio e la legge applicabile. Nessuna esclusività rispetto ad altri output AI o approvazione INPS attestata.",
+      "source_history_verified": true,
+      "used_in": "gestione-separata-rimborso-contributi-massimale.html; index.html"
     }
   ],
   "notes": [

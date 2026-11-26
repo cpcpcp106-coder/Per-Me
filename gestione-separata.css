@@ -1,0 +1,19 @@
+/* Tabella e fonti della guida alla Gestione Separata. */
+.guida-gestione-separata table{width:100%;border-collapse:collapse;font-size:inherit;margin:1rem 0}
+.guida-gestione-separata caption{text-align:left;font-weight:700;margin-bottom:.6rem}
+.guida-gestione-separata th,.guida-gestione-separata td{text-align:left;vertical-align:top;padding:.65rem;border:1px solid #8ba998;overflow-wrap:anywhere}
+.guida-gestione-separata thead th{background:#234438;color:#fff}
+.guida-gestione-separata tbody tr:nth-child(even){background:#f1f7f3}
+.guida-gestione-separata .sources>li{margin-block:1.1rem}
+.guida-gestione-separata .sources p{margin:.3rem 0}
+.guida-gestione-separata .sources summary{min-height:48px;padding:.5rem 0;cursor:pointer;font-weight:650}
+.guida-gestione-separata .url{overflow-wrap:anywhere}
+.guida-gestione-separata .editorial-info{font-size:1rem;line-height:1.6}
+@media(max-width:600px){
+ .guida-gestione-separata table,.guida-gestione-separata tbody,.guida-gestione-separata tr,.guida-gestione-separata td{display:block;width:100%}
+ .guida-gestione-separata thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .guida-gestione-separata tr{margin:.8rem 0;border:1px solid #8ba998;border-radius:6px;overflow:hidden}
+ .guida-gestione-separata td{border:0;border-top:1px solid #d3dfd7}
+ .guida-gestione-separata td:first-child{border-top:0}
+ .guida-gestione-separata td::before{content:attr(data-label) ': ';font-weight:750;display:block}
+}

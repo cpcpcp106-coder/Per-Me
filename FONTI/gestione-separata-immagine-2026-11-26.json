@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-26",
+  "topic": "Gestione Separata: rimborso dei contributi oltre il massimale",
+  "guide": "gestione-separata-rimborso-contributi-massimale.html",
+  "generation": {
+    "tool": "ChatGPT ImageGen, built-in",
+    "input_images": [],
+    "original_filename": "exec-fefaf6f9-076f-4908-bb04-28f827ebbf6c.png",
+    "original_sha256": "a7d00acda06365c42e3bdad891fecc03c00f35e82c9fe565e6074c812cb89e5d",
+    "prompt": "Original hyper-realistic editorial photograph. An imaginary Italian woman around 58 at a modest home desk checks a digital communication on a laptop with a calculator, generic contribution statements and smartphone. Horizontal 3:2, natural daylight, realistic anatomy; no logos, readable personal data, official documents, watermark or overlaid text.",
+    "observed": "Output generato in questa sessione; composizione visionata, persona e documenti immaginari. Nessuna immagine di terzi fornita come riferimento."
+  },
+  "assets": [
+    {
+      "file": "assets/gestione-separata-rimborso-originale.webp",
+      "git_blob_sha": "2e3dcdcce39f8eb9e0def9b221bce4b11fe9bfbc",
+      "sha256": "d01a8882bb84b431f14b3d766087d766c7b81de6fa7e2041d02637cea2b24f53",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 171246
+    },
+    {
+      "file": "assets/gestione-separata-rimborso-originale.jpg",
+      "git_blob_sha": "71682ceb7a82e9b61964d6aab66caf3b2b2c21da",
+      "sha256": "a4b056e32a4b6bbf7e05bea459f34a911dce3b24e23f3bf27c91c0b97f56c65b",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "bytes": 272417
+    }
+  ],
+  "rights": "Output generato per Per Me; uso secondo le condizioni del servizio e la legge applicabile. Nessuna esclusività rispetto ad altri output AI o approvazione INPS attestata."
+}

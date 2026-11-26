@@ -185,6 +185,16 @@
       "fonte": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.circolare-numero-106-del-16-10-2026_16394.html",
       "verificato_il": "2026-11-24",
       "riesame": "Alla scadenza dell’annualità o a nuove istruzioni INPS; non estendere automaticamente al 2027"
+    },
+    {
+      "chiave": "inps_gestione_separata_massimale",
+      "anno": 2026,
+      "valore": "122295,00",
+      "unita": "EUR/anno di base contributiva e pensionabile",
+      "stato": "Massimale 2026, non somma rimborsabile; per annualità precedenti valgono i rispettivi massimali.",
+      "fonte": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15153/Allegati/16573_Circolare-numero-8-del-03-02-2026.pdf",
+      "verificato_il": "2026-11-26",
+      "riesame": "Annuale o nuova circolare INPS"
     }
   ],
   "politica_ricette": "Nessun costo totale di ricetta o spesa settimanale senza prezzi osservati per TUTTI gli ingredienti, quantità edibili, luogo, data e oneri accessori. Indicare costo dell'olio solo per ml effettivamente usati; il peso in g non coincide con il volume in ml. La dichiarazione di origine 100% italiana va verificata in etichetta fisica: la descrizione commerciale da sola non basta. Distinguere scelta editoriale da validità nutrizionale: anche extravergine non italiano può essere idoneo. Non trattare il reddito nominale come disponibilità dopo affitto, farmaci e utenze; evitare rischio di malnutrizione.",
