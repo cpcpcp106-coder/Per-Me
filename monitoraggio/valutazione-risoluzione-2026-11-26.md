@@ -2,7 +2,37 @@
 
 Base di lavoro: `9a3936273b08c805d723d499cffb36e7267ae85a`. Incarico autorizzato da Enrico: procedere alle correzioni con un agente dedicato fino alla risoluzione delle parti concretamente verificabili.
 
-## Modifiche predisposte
+## Esito finale verificato il 26 novembre 2026
+
+Le correzioni software sono integrate e pubblicate nella [PR #47](https://github.com/cpcpcp106-coder/Per-Me/pull/47). Tutti i **23 workflow sul candidato finale `a23f3c9d981ec88a0d2154eb71f679d5b8084ad1` sono riusciti** prima dell'integrazione. Il commit di integrazione è `712d31a17f7644d43cb9e35cb5bb605ec489b958`.
+
+- [Collaudo strumenti](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45812249993): 60 verifiche ordinarie e 148 verifiche delle migliorie superate; riuscita anche la fase finale sui percorsi lievito, foto e offline.
+- [Collaudo browser completo](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45812258734): riuscito, inclusi accessibilità automatica, ricerche, stampa e percorsi offline. Le nuove prove controllano il raddoppio effettivo del testo e l'assenza di scorrimento orizzontale nelle guide caregiver e menù a 320/390 px e testo 200%.
+- [Pubblicazione Pages](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45812734384): riuscita sul commit `bd2ebc8267aa062d4f4998ed7847ab2d9c8cb984`. La prima pubblicazione sull'integrazione è stata sostituita da questo avvio successivo, non conteggiata come riuscita.
+- Verifica sul sito pubblico dopo la pubblicazione: 13 risorse modificate HTTP 200 e contenuto SHA-256 identico al candidato verificato; tre fotografie HTTP 200 con tipo immagine e contenuto attesi. La ricerca pubblica «badante» trova e apre la guida colf/badanti; foto e collegamento Facebook osservati.
+- Audit di indicizzabilità: 159 pagine pubbliche, quattro tecniche, 159 URL nella sitemap e nessun problema rilevato. Questo controllo non misura l'indicizzazione di Google.
+
+### Google: interventi completati ed esito ancora aperto
+
+È stato usato l'accesso gratuito ufficiale a Search Console, già autorizzato. Il test pubblicato della sitemap dà HTTP 200, XML valido e 159 URL; anche il [test live di Google](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&id=G70APXZLh9dCSKPrbRFUGw&alt_id=uCHftzlvWbqz4_LGVqfyJg) ha restituito recupero positivo e disponibilità per Google.
+
+Dopo la pubblicazione è stata reinviata **una sola volta** `sitemap.xml`, con ricevuta «Sitemap inviata». Al successivo controllo il [rapporto Sitemap](https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F) mostrava ancora «Impossibile recuperare» e zero URL rilevati. Il reinvio è accettato, la lettura della sitemap non è confermata. La causa resta da accertare: non è stata attribuita all'AI o ad altri fattori senza prova.
+
+Accettate da Google le richieste di indicizzazione della [homepage](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&id=1lHQs2Ygjo8t7CvQl9HBFA) e della [guida caregiver](https://search.google.com/search-console/inspect?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F&id=NxPS_y3LvwbVLwq0J_ZqQg), con ricevuta «URL aggiunto a coda di scansione prioritaria». Non significa indicizzazione completata. All'ispezione la homepage risulta già su Google; caregiver risulta sconosciuta a Google, ma il suo test live è positivo. Il rapporto Pagine aggregato consultato è aggiornato al 16 novembre (tre indicizzate, cinque scansionate ma non indicizzate): non descrive lo stato attuale di tutte le 159 pagine.
+
+Riferimenti ufficiali: [gestione sitemap](https://support.google.com/webmasters/answer/7451001?hl=it) e [problemi di scansione](https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors?hl=it). Non sono state ripetute richieste a raffica e non sono stati acquistati servizi.
+
+### Limiti che restano dichiarati
+
+Non è confermata l'indicizzazione delle 159 pagine, né è risolta la segnalazione di recupero della sitemap. La revisione AI delle fonti sensibili è documentale e campionaria: non equivale a revisione indipendente di un medico, professionista previdenziale o legale. Le prove mobili sono simulate; Samsung fisico, TalkBack e riscontri con lettori reali non sono stati collaudati in questa sessione. Nessuna certificazione o collaborazione attribuita senza prova.
+
+Il controllo periodico «Stato del progetto Per Me» è risultato attivo: prossima esecuzione configurata venerdì 27 novembre 2026 alle 09:00, Europe/Rome. Non ne sono stati modificati frequenza o contenuto.
+
+## Cronologia delle verifiche e delle correzioni
+
+Le sezioni successive documentano gli stati intermedi. Le indicazioni di attesa qui sotto sono superate dagli esiti finali riportati sopra.
+
+## Modifiche realizzate
 
 | Problema osservato | Correzione | Verifica |
 | --- | --- | --- |
@@ -12,7 +42,7 @@ Base di lavoro: `9a3936273b08c805d723d499cffb36e7267ae85a`. Incarico autorizzato
 | Guide lunghe | Aperture operative brevi caregiver e menù, con collegamenti alle sezioni. Approfondimenti mantenuti. | Verificate ancore caregiver#da-dove/#casi e menù#settimana. Prove a 320/390 e 200% aggiunte al collaudo. |
 | Riscontri poco uniformi | Facebook come primo canale nel metodo; GitHub alternativa. In Prova lettori ingresso diretto per un solo riscontro, prove facoltative. | Collegamenti e testo verificati, nessun messaggio inviato. |
 
-Sitemap: aggiornate le date delle sei pagine HTML modificate. Il numero di URL resta 159. Cache dell’app aggiornata per distribuire la ricerca corretta. Nessun nuovo dato personale, nessun pagamento o attivazione di abbonamenti.
+Sitemap: aggiornate le date delle sette pagine HTML modificate. Il numero di URL resta 159. Cache dell’app aggiornata per distribuire la ricerca corretta. Nessun nuovo dato personale, nessun pagamento o attivazione di abbonamenti.
 
 ## Verifiche preliminari
 
