@@ -24,6 +24,13 @@
 .reader-invite-link:focus-visible,.nav-prova:focus-visible{outline:3px solid #a66b35;outline-offset:4px}
 .nav-prova,.nav-prova:visited{color:#234438!important;text-decoration:underline;text-underline-offset:4px;font-weight:750}
 @media(max-width:650px){.reader-invite{padding:18px 16px;gap:15px}.reader-invite-copy{flex-basis:100%}.reader-invite-title{font-size:1.35rem!important}.reader-invite-link{width:100%}}
+
+/* Accessi immediati: ricerca e scelte prima dell'archivio delle novità. */
+.home-accessi{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0 28px}
+.home-accessi a:link,.home-accessi a:visited,.home-accessi a:hover,.home-accessi a:focus-visible{display:inline-flex;align-items:center;justify-content:center;min-height:56px;max-width:100%;padding:12px 18px;background:#234438;color:#fff;border-radius:9px;font-size:1.08rem;font-weight:750;line-height:1.45;text-align:center;text-decoration:none;overflow-wrap:anywhere}
+.home-accessi a:hover{background:#173027}.home-accessi a:focus-visible{outline:3px solid #966314;outline-offset:4px}
+.home-main>.hero .hero-copy{padding:clamp(24px,3vw,40px)}
+@media(max-width:840px){.home-main>.hero>img{min-height:0;height:230px;max-height:230px;object-fit:cover}.home-accessi{flex-direction:column}.home-accessi a{width:100%}}
 </style><link rel="icon" type="image/png" sizes="192x192" href="app/icon-192.png"><link rel="icon" type="image/png" sizes="512x512" href="app/icon-512.png"><link rel="apple-touch-icon" sizes="192x192" href="app/icon-192.png"><meta name="theme-color" content="#492d1e"><link rel="canonical" href="https://cpcpcp106-coder.github.io/Per-Me/"><meta property="og:locale" content="it_IT">
 <meta property="og:site_name" content="Per Me">
 <meta property="og:type" content="website">
@@ -35,8 +42,8 @@
 <meta property="og:image:alt" content="Logo di Per Me con una strada verso il sole">
 <meta name="twitter:card" content="summary">
 <link rel="stylesheet" href="lievito-madre.css?v=4">
-<script defer src="app/catalogo-guide.js?v=5"></script>
-<script defer src="ricerca-guide.js?v=3"></script>
+<script defer src="app/catalogo-guide.js?v=6"></script>
+<script defer src="ricerca-guide.js?v=4"></script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","@id":"https://cpcpcp106-coder.github.io/Per-Me/#website","url":"https://cpcpcp106-coder.github.io/Per-Me/","name":"Per Me","inLanguage":"it-IT","description":"Guide gratuite su pensioni, lavoro, debiti, diritti, salute e alimentazione per chi vive in Italia."}</script>
 <script defer src="analytics.js?v=3"></script></head><body><a class="skip" href="#contenuto">Vai al contenuto</a><header data-shared="per-me"><div class="wrap top"><a class="brand" href="./"><img class="brand-logo" src="assets/logo-per-me.png" width="86" height="86" alt="" decoding="async">Per Me</a><nav aria-label="Navigazione principale"><a href="./">Home</a><a href="./#rubriche">Rubriche</a><a href="modelli-e-strumenti.html">Modelli e strumenti</a><a href="metodo.html">Il metodo</a><a href="chi-siamo.html">Il progetto</a></nav></div><div class="wrap perme-social-top"><p class="perme-social-label">Segui le novità di Per Me</p><nav class="perme-social-links" aria-label="Per Me sui social"><a class="perme-social-link" href="https://www.instagram.com/permeguide/" target="_blank" rel="noopener noreferrer" aria-label="Per Me su Instagram">Instagram</a><a class="perme-social-link" href="https://whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J" target="_blank" rel="noopener noreferrer">Canale WhatsApp</a><a class="perme-social-link" href="https://it.pinterest.com/permeguide/" target="_blank" rel="noopener noreferrer" aria-label="Per Me su Pinterest">Pinterest</a></nav></div></header><main class="wrap home-main" id="contenuto">
 <section class="hero">
@@ -54,13 +61,21 @@
 <form class="ricerca-guide" id="cerca-guide" role="search" aria-label="Guide di Per Me" hidden>
     <label for="parole-guida">Cerca una guida</label>
     <div class="ricerca-guide-controlli">
-      <input id="parole-guida" type="search" placeholder="Es. cauzione o cedolino" autocomplete="off" aria-controls="risultati-guide">
+      <input id="parole-guida" type="search" placeholder="Es. badante o cedolino" autocomplete="off" aria-controls="risultati-guide">
       <button type="submit">Cerca</button>
     </div>
     <p class="ricerca-guide-stato" id="stato-ricerca" role="status"></p>
     <ul id="risultati-guide" hidden></ul>
     <button id="altri-risultati" type="button" hidden>Mostra altri risultati</button>
+    <p id="aiuto-ricerca" hidden>Non trovi la guida? <a href="da-dove-cominciare.html">Scegli la tua situazione</a>.</p>
   </form>
+
+  <nav class="home-accessi" aria-label="Vai subito a una sezione">
+    <a href="#situazioni">Situazioni frequenti</a>
+    <a href="#rubriche">Tutte le rubriche</a>
+    <a href="#ultime-guide">Guide e notizie recenti</a>
+  </nav>
+
 
   
   
@@ -78,7 +93,7 @@
       <li><a href="debiti-guida-01-leggere-cartella.html"><strong>Ho ricevuto una cartella di pagamento</strong><span>Dove trovare l’importo, il motivo del debito e le scadenze.</span></a></li>
       <li><a href="agevolazioni-guida-01-isee-corrente.html"><strong>Il mio reddito è cambiato. Mi serve l’ISEE corrente?</strong><span>Quando puoi aggiornare l’ISEE e quali documenti ti servono.</span></a></li>
       <li><a href="caregiver-familiari-anziani-disabilita-legge-104.html"><strong>Assisto un familiare anziano o con disabilità</strong><span>Legge 104, diritti del caregiver, congedi e aiuti a domicilio.</span></a></li>
-      <li><a href="salute-guida-01-preparare-visita.html"><strong>Devo preparare una visita medica</strong><span>Quali referti portare e cosa chiedere durante la visita.</span></a></li>
+      <li><a href="salute-guida-01-preparare-visita.html"><strong>Devo preparare un controllo per diabete o cuore</strong><span>Referti, elenco dei farmaci e domande da portare al medico.</span></a></li>
       <li><a href="diabete-tipo-2.html"><strong>Convivo con il diabete di tipo 2</strong><span>Guide su glicemia, controlli, terapie e complicanze.</span></a></li>
     </ul>
     <p class="scelte-nota">Per le scelte sulla tua salute, confrontati con il medico. Per una pratica o una scadenza, verifica i documenti con l’ente o con chi ti assiste.</p>
@@ -98,50 +113,6 @@
     <strong>Installa o apri l’app Per Me</strong>
     <span>Apri l’app e tocca «Aggiorna le guide» mentre sei online. Puoi leggere i testi salvati anche senza connessione. Per le foto e i link esterni serve Internet.</span>
   </a>
-
-<section class="notizia-home" aria-labelledby="domestici-home-titolo"><img src="assets/inps-send-indebiti-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Due donne adulte consultano insieme uno smartphone al tavolo di casa, accanto a fogli e a una busta neutra."><div><p class="notizia-data"><time datetime="2026-11-26">26 novembre 2026</time> · Nuova guida</p><h2 id="domestici-home-titolo">Contributi per colf e badanti: avvisi e pagamenti</h2><p>Come recuperare l’avviso pagoPA, chi riceve ancora la lettera nel 2026 e come pagare anche in banca o alle Poste.</p><a class="notizia-button" href="contributi-colf-badanti-pagamenti-2026.html">Leggi la guida ai contributi domestici</a></div></section>
-<section class="notizia-home" aria-labelledby="cumulo-home-titolo"><img src="assets/inps-send-indebiti-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Una donna anziana e una familiare adulta consultano insieme uno smartphone al tavolo di casa, accanto a documenti e una busta."><div><p class="notizia-data"><time datetime="2026-11-25">25 novembre 2026</time> · Nuova guida</p><h2 id="cumulo-home-titolo">Pensione e lavoro nelle organizzazioni internazionali</h2><p>Come utilizzare i periodi assicurativi con quelli italiani: condizioni, domanda aggiornata e aiuto del patronato.</p><a class="notizia-button" href="pensione-cumulo-organizzazioni-internazionali.html">Leggi la guida al cumulo</a></div></section>
-<section class="notizia-home" aria-labelledby="bonus-mamme-home-titolo"><img src="assets/bonus-mamme-2026-originale.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Una madre consulta un computer mentre due figli leggono insieme sul divano."><div><p class="notizia-data"><time datetime="2026-11-24">24 novembre 2026</time> · Nuova guida</p><h2 id="bonus-mamme-home-titolo">Bonus mamme 2026: requisiti, domanda e scadenze</h2><p>60 euro per mese riconosciuto, fino a 720 euro. Chi può richiederlo, come contano i figli e quando arriva il pagamento.</p><a class="notizia-button" href="bonus-mamme-2026-domanda-requisiti.html">Leggi la guida al Bonus mamme 2026</a></div></section>
-<section class="notizia-home" aria-labelledby="send-home-titolo"><img src="assets/inps-send-indebiti-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Una donna anziana con gli occhiali e una familiare adulta leggono insieme lo smartphone al tavolo di casa."><div><p class="notizia-data"><time datetime="2026-11-24">24 novembre 2026</time> · Nuova guida</p><h2 id="send-home-titolo">Richieste di restituzione INPS: come leggerle con SEND</h2><p>Da gennaio 2027 il passaggio sarà graduale. Avvisi, date, deleghe e ritiro cartaceo spiegati anche per chi aiuta un familiare.</p><a class="notizia-button" href="inps-send-indebiti-notifiche-2027.html">Leggi la guida a SEND e agli indebiti INPS</a></div></section>
-<section class="notizia-home" aria-labelledby="italia-turchia-home-titolo"><img src="assets/italia-turchia-distacco-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Un tecnico adulto e una collega controllano documenti in ufficio; sul tavolo le bandiere di Italia e Turchia."><div><p class="notizia-data"><time datetime="2026-11-23">23 novembre 2026</time> · Nuova guida</p><h2 id="italia-turchia-home-titolo">Lavorare in distacco tra Italia e Turchia: i contributi</h2><p>Che cosa controllare, chi deve versare e come correggere i periodi precedenti. Le istruzioni INPS spiegate con due esempi.</p><a class="notizia-button" href="italia-turchia-previdenza-distacco-contributi.html">Leggi la guida sul distacco Italia–Turchia</a></div></section>
-<section class="notizia-home" aria-labelledby="caregiver-home-titolo"><img src="assets/caregiver-familiari-originale.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Un figlio adulto e sua madre organizzano insieme gli appuntamenti al tavolo di casa."><div><p class="notizia-data"><time datetime="2026-11-23">23 novembre 2026</time> · Nuova guida</p><h2 id="caregiver-home-titolo">Assistere un familiare: Legge 104 e diritti del caregiver</h2><p>Permessi, congedi, sostegni economici, assistenza a domicilio e deleghe spiegati con esempi e fonti ufficiali.</p><a class="notizia-button" href="caregiver-familiari-anziani-disabilita-legge-104.html">Leggi la guida per assistere un familiare</a></div></section>
-  <details class="home-notizie"><summary>Ultime notizie su INPS e lavoro</summary>
-  <section class="notizia-home" aria-labelledby="notizia-sr212-titolo">
-    <img src="assets/malattia-inps-sr212-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Un uomo adulto compila documenti con l’aiuto di una familiare; notizia sul modulo SR212.">
-    <div>
-      <p class="eyebrow">NOTIZIE UTILI · LAVORO E INPS</p>
-      <h2 id="notizia-sr212-titolo">Malattia pagata dall’INPS: il modulo SR212 senza identità digitale</h2>
-      <p class="notizia-data"><time datetime="2026-11-20">20 novembre 2026</time></p>
-      <p>A chi è riservato il modulo cartaceo, quali documenti preparare e come inviarlo alla sede competente.</p>
-      <a class="notizia-button" href="inps-malattia-pagamento-diretto-sr212.html">Leggi la notizia sul modulo SR212</a>
-    </div>
-  </section>
-
-  <section class="notizia-home" aria-labelledby="notizia-inps-titolo">
-    <img src="assets/inps-mobile-5-originale.webp" width="1200" height="800" loading="lazy" decoding="async" alt="Un uomo adulto con gli occhiali usa lo smartphone a casa.">
-    <div>
-      <p class="eyebrow">NOTIZIE UTILI · INPS</p>
-      <h2 id="notizia-inps-titolo">INPS Mobile 5.0: le novità e come aggiornare l’app</h2>
-      <p class="notizia-data"><time datetime="2026-11-20">20 novembre 2026</time></p>
-      <p>Arianna, domanda NASpI dal telefono e nuove informazioni sulla pensione. Ecco cosa cambia e come iniziare.</p>
-      <a class="notizia-button" href="inps-mobile-5-novita.html">Leggi la notizia su INPS Mobile</a>
-    </div>
-  </section>
-
-  </details>
-
-  <section class="lievito-home" aria-labelledby="lievito-home-titolo">
-    <h2 id="lievito-home-titolo">Pasta madre, pane e pizza: guide passo passo</h2>
-    <p>Parti dai lieviti naturali, poi prepara una pagnotta in friggitrice da 8 litri o una pizza alla napoletana con LI.CO.LI. Pesi esatti, calendari e controlli pratici.</p>
-    <div class="lievito-home-links">
-      <a href="pasta-madre-solida-da-zero.html">Crea la pasta madre solida</a>
-      <a href="licoli-da-zero.html">Crea il LI.CO.LI.</a>
-      <a href="pane-500g-friggitrice-8-litri.html">Prepara il pane da 500 g</a>
-      <a href="pizza-napoletana-con-licoli.html">Prepara la pizza con LI.CO.LI.</a>
-      <a href="tangzhong-autolisi-biga-poolish.html">Impasti diretti e indiretti, biga e poolish</a>
-      <a href="lievito-madre.html">Vedi il percorso completo</a>
-    </div>
-  </section>
 
   <section class="topics" id="rubriche">
     <h2>Le rubriche</h2>
@@ -229,6 +200,56 @@
       </article>
     </div>
   </section>
+
+<div id="ultime-guide" role="region" aria-label="Guide e notizie recenti">
+<section class="notizia-home" aria-labelledby="domestici-home-titolo"><img src="assets/inps-send-indebiti-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Due donne adulte consultano insieme uno smartphone al tavolo di casa, accanto a fogli e a una busta neutra."><div><p class="notizia-data"><time datetime="2026-11-26">26 novembre 2026</time> · Nuova guida</p><h2 id="domestici-home-titolo">Contributi per colf e badanti: avvisi e pagamenti</h2><p>Come recuperare l’avviso pagoPA, chi riceve ancora la lettera nel 2026 e come pagare anche in banca o alle Poste.</p><a class="notizia-button" href="contributi-colf-badanti-pagamenti-2026.html">Leggi la guida ai contributi domestici</a></div></section>
+  <details class="home-notizie"><summary>Altre guide e notizie recenti</summary>
+
+<section class="notizia-home" aria-labelledby="cumulo-home-titolo"><img src="assets/inps-send-indebiti-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Una donna anziana e una familiare adulta consultano insieme uno smartphone al tavolo di casa, accanto a documenti e una busta."><div><p class="notizia-data"><time datetime="2026-11-25">25 novembre 2026</time> · Nuova guida</p><h2 id="cumulo-home-titolo">Pensione e lavoro nelle organizzazioni internazionali</h2><p>Come utilizzare i periodi assicurativi con quelli italiani: condizioni, domanda aggiornata e aiuto del patronato.</p><a class="notizia-button" href="pensione-cumulo-organizzazioni-internazionali.html">Leggi la guida al cumulo</a></div></section>
+<section class="notizia-home" aria-labelledby="bonus-mamme-home-titolo"><img src="assets/bonus-mamme-2026-originale.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Una madre consulta un computer mentre due figli leggono insieme sul divano."><div><p class="notizia-data"><time datetime="2026-11-24">24 novembre 2026</time> · Nuova guida</p><h2 id="bonus-mamme-home-titolo">Bonus mamme 2026: requisiti, domanda e scadenze</h2><p>60 euro per mese riconosciuto, fino a 720 euro. Chi può richiederlo, come contano i figli e quando arriva il pagamento.</p><a class="notizia-button" href="bonus-mamme-2026-domanda-requisiti.html">Leggi la guida al Bonus mamme 2026</a></div></section>
+<section class="notizia-home" aria-labelledby="send-home-titolo"><img src="assets/inps-send-indebiti-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Una donna anziana con gli occhiali e una familiare adulta leggono insieme lo smartphone al tavolo di casa."><div><p class="notizia-data"><time datetime="2026-11-24">24 novembre 2026</time> · Nuova guida</p><h2 id="send-home-titolo">Richieste di restituzione INPS: come leggerle con SEND</h2><p>Da gennaio 2027 il passaggio sarà graduale. Avvisi, date, deleghe e ritiro cartaceo spiegati anche per chi aiuta un familiare.</p><a class="notizia-button" href="inps-send-indebiti-notifiche-2027.html">Leggi la guida a SEND e agli indebiti INPS</a></div></section>
+<section class="notizia-home" aria-labelledby="italia-turchia-home-titolo"><img src="assets/italia-turchia-distacco-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Un tecnico adulto e una collega controllano documenti in ufficio; sul tavolo le bandiere di Italia e Turchia."><div><p class="notizia-data"><time datetime="2026-11-23">23 novembre 2026</time> · Nuova guida</p><h2 id="italia-turchia-home-titolo">Lavorare in distacco tra Italia e Turchia: i contributi</h2><p>Che cosa controllare, chi deve versare e come correggere i periodi precedenti. Le istruzioni INPS spiegate con due esempi.</p><a class="notizia-button" href="italia-turchia-previdenza-distacco-contributi.html">Leggi la guida sul distacco Italia–Turchia</a></div></section>
+<section class="notizia-home" aria-labelledby="caregiver-home-titolo"><img src="assets/caregiver-familiari-originale.webp" width="1536" height="1024" loading="lazy" decoding="async" alt="Un figlio adulto e sua madre organizzano insieme gli appuntamenti al tavolo di casa."><div><p class="notizia-data"><time datetime="2026-11-23">23 novembre 2026</time> · Nuova guida</p><h2 id="caregiver-home-titolo">Assistere un familiare: Legge 104 e diritti del caregiver</h2><p>Permessi, congedi, sostegni economici, assistenza a domicilio e deleghe spiegati con esempi e fonti ufficiali.</p><a class="notizia-button" href="caregiver-familiari-anziani-disabilita-legge-104.html">Leggi la guida per assistere un familiare</a></div></section>
+
+  <section class="notizia-home" aria-labelledby="notizia-sr212-titolo">
+    <img src="assets/malattia-inps-sr212-originale.webp" width="1254" height="1254" loading="lazy" decoding="async" alt="Un uomo adulto compila documenti con l’aiuto di una familiare; notizia sul modulo SR212.">
+    <div>
+      <p class="eyebrow">NOTIZIE UTILI · LAVORO E INPS</p>
+      <h2 id="notizia-sr212-titolo">Malattia pagata dall’INPS: il modulo SR212 senza identità digitale</h2>
+      <p class="notizia-data"><time datetime="2026-11-20">20 novembre 2026</time></p>
+      <p>A chi è riservato il modulo cartaceo, quali documenti preparare e come inviarlo alla sede competente.</p>
+      <a class="notizia-button" href="inps-malattia-pagamento-diretto-sr212.html">Leggi la notizia sul modulo SR212</a>
+    </div>
+  </section>
+
+  <section class="notizia-home" aria-labelledby="notizia-inps-titolo">
+    <img src="assets/inps-mobile-5-originale.webp" width="1200" height="800" loading="lazy" decoding="async" alt="Un uomo adulto con gli occhiali usa lo smartphone a casa.">
+    <div>
+      <p class="eyebrow">NOTIZIE UTILI · INPS</p>
+      <h2 id="notizia-inps-titolo">INPS Mobile 5.0: le novità e come aggiornare l’app</h2>
+      <p class="notizia-data"><time datetime="2026-11-20">20 novembre 2026</time></p>
+      <p>Arianna, domanda NASpI dal telefono e nuove informazioni sulla pensione. Ecco cosa cambia e come iniziare.</p>
+      <a class="notizia-button" href="inps-mobile-5-novita.html">Leggi la notizia su INPS Mobile</a>
+    </div>
+  </section>
+
+    </details>
+</div>
+
+  <section class="lievito-home" aria-labelledby="lievito-home-titolo">
+    <h2 id="lievito-home-titolo">Pasta madre, pane e pizza: guide passo passo</h2>
+    <p>Parti dai lieviti naturali, poi prepara una pagnotta in friggitrice da 8 litri o una pizza alla napoletana con LI.CO.LI. Pesi esatti, calendari e controlli pratici.</p>
+    <div class="lievito-home-links">
+      <a href="pasta-madre-solida-da-zero.html">Crea la pasta madre solida</a>
+      <a href="licoli-da-zero.html">Crea il LI.CO.LI.</a>
+      <a href="pane-500g-friggitrice-8-litri.html">Prepara il pane da 500 g</a>
+      <a href="pizza-napoletana-con-licoli.html">Prepara la pizza con LI.CO.LI.</a>
+      <a href="tangzhong-autolisi-biga-poolish.html">Impasti diretti e indiretti, biga e poolish</a>
+      <a href="lievito-madre.html">Vedi il percorso completo</a>
+    </div>
+  </section>
+
+
 
   <section class="about author-section" aria-labelledby="autore-titolo">
     <figure class="author-photo"><img src="ritratto-enrico.webp" alt="Ritratto di Enrico, autore di Per Me" loading="lazy"><figcaption>Enrico TIRABASSO<br><time datetime="1961-01-10">10/gennaio/1961</time></figcaption></figure>

@@ -9,6 +9,7 @@
   const stato = document.getElementById('stato-ricerca');
   const risultati = document.getElementById('risultati-guide');
   const altri = document.getElementById('altri-risultati');
+  const aiuto = document.getElementById('aiuto-ricerca');
   const perPagina = 6;
   const paroleComuni = new Set('al alla alle che come con da dal dalla dei del della delle dello di ho il in la le nel non per posso si su sul un una'.split(' '));
   const collegamentiDiretti = [
@@ -75,8 +76,7 @@
   let mostrate = 0;
 
   function normalizza(testo) {
-    return testo.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-      .replace(/[^a-z0-9]+/g, ' ').trim().replace(/\bbust[ae] pag[ae]\b/g, 'cedolino');
+    return catalogo.normalizza(testo);
   }
 
   function leggiRicerca() {
@@ -86,6 +86,7 @@
   function prepara(voce) {
     return {
       ...voce,
+      priorita: voce.priorita?.map(normalizza),
       titoloNormalizzato: normalizza(voce.titolo),
       testo: normalizza(`${voce.titolo} ${voce.parole || ''} ${voce.href.replace(/\.html|[-/#]/g, ' ')} ${voce.categoria}`)
     };
@@ -138,6 +139,7 @@
     risultati.replaceChildren();
     risultati.hidden = true;
     altri.hidden = true;
+    if (aiuto) aiuto.hidden = true;
     mostrate = 0;
     if (!parole.length) {
       stato.textContent = '';
@@ -153,6 +155,7 @@
       .map(({ voce }) => voce);
     mostraAltri();
     const numero = corrispondenze.length;
+    if (aiuto) aiuto.hidden = numero > 0;
     const messaggio = numero ? `${numero} ${numero === 1 ? 'risultato' : 'risultati'}.` : 'Nessun risultato. Prova con un’altra parola.';
     stato.textContent = indice.parziale
       ? `${messaggio} Alcune rubriche non si sono caricate. Premi «Cerca» per riprovare.`

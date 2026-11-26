@@ -116,8 +116,13 @@ async function sync(){
 }
 function renderList(){
  const area=element('guide-list');area.replaceChildren();
- let norm=s=>String(s).toLocaleLowerCase('it').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
- const found=model.guides.filter(g=>(model.filter!=='favorite'||model.favorites.includes(g.path))&&norm(g.title+' '+g.category+' '+g.content.replace(/<[^>]*>/g,' ')).includes(norm(model.query)));
+ const norm=window.PerMeCatalogo.normalizza;
+ const words=norm(model.query).split(' ').filter(Boolean);
+ const found=model.guides.filter(g=>{
+  if(model.filter==='favorite'&&!model.favorites.includes(g.path))return false;
+  const text=norm(g.title+' '+g.category+' '+g.content.replace(/<[^>]*>/g,' '));
+  return words.every(word=>text.includes(word));
+ });
  if(!found.length){let p=document.createElement('p');p.className='empty';p.textContent=model.guides.length?'Non trovo guide con queste parole.':'Nessuna guida ancora salvata: collegati a Internet e premi «Aggiorna le guide». Poi potrai leggerle anche offline.';area.appendChild(p);return}
  for(let guide of found){
   const btn=document.createElement('button');btn.type='button';btn.className='guide-card';

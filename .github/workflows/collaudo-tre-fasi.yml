@@ -28,6 +28,7 @@ on:
       - 'licoli-da-zero.html'
       - 'lievito-madre.css'
       - 'app/catalogo-guide.js'
+      - 'ricerca-guide.js'
       - 'app/main.js'
       - 'app/sw.js'
       - '.github/workflows/collaudo-tre-fasi.yml'
