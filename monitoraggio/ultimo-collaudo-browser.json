@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T14:10:27.020Z",
+  "checked_at_utc": "2026-11-26T14:26:23.892Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 155,
+        "count": 156,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 155,
+        "checked": 156,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 155,
+        "checked": 156,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "144 pagine salvate per la lettura offline · controllo online 26 nov, 14:11.",
+        "status": "145 pagine salvate per la lettura offline · controllo online 26 nov, 14:27.",
         "stored": {
-          "guides": 144,
-          "updated": "2026-11-26T14:11:36.847Z",
-          "bytes": 2983060,
+          "guides": 145,
+          "updated": "2026-11-26T14:27:32.489Z",
+          "bytes": 3004626,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 144
+        "count": 145
       }
     },
     {
@@ -878,6 +878,12 @@
     },
     {
       "page": "farine-quale-scegliere.html",
+      "violations": [],
+      "passes": 28,
+      "incomplete": 2
+    },
+    {
+      "page": "gestione-separata-rimborso-contributi-massimale.html",
       "violations": [],
       "passes": 28,
       "incomplete": 2

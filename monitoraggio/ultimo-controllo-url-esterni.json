@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-26T14:13:32.337033+00:00",
+  "date_utc": "2026-11-26T14:29:14.813631+00:00",
   "scope": {
-    "pages": 164,
-    "unique_external_urls": 1062,
-    "occurrences": 2909
+    "pages": 165,
+    "unique_external_urls": 1066,
+    "occurrences": 2919
   },
   "counts": {
-    "raggiungibile": 917,
+    "bloccato_o_riservato": 124,
+    "raggiungibile": 923,
     "non_verificato_trasporto": 18,
-    "bloccato_o_riservato": 123,
-    "errore_http": 4
+    "errore_http": 1
   },
   "results": [
     {
@@ -1964,6 +1964,7 @@
         "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
+        "gestione-separata-rimborso-contributi-massimale.html",
         "gradimento.html",
         "index.html",
         "inps-contatti-telefono-richieste-appuntamenti.html",
@@ -2602,9 +2603,8 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://servizi.regione.fvg.it/portale/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -3062,6 +3062,7 @@
         "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
+        "gestione-separata-rimborso-contributi-massimale.html",
         "gradimento.html",
         "index.html",
         "inps-contatti-telefono-richieste-appuntamenti.html",
@@ -6039,6 +6040,8 @@
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
         "farine-quale-scegliere.html",
+        "gestione-separata-rimborso-contributi-massimale.html",
+        "gestione-separata-rimborso-contributi-massimale.html",
         "gradimento.html",
         "index.html",
         "inps-contatti-telefono-richieste-appuntamenti.html",
@@ -6696,6 +6699,7 @@
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
         "debiti-guida-09-a-chi-rivolgersi.html",
+        "gestione-separata-rimborso-contributi-massimale.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
         "pensione-cumulo-organizzazioni-internazionali.html",
@@ -6806,6 +6810,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15153/Allegati/16573_Circolare-numero-8-del-03-02-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15153/Allegati/16573_Circolare-numero-8-del-03-02-2026.pdf",
+      "pages": [
+        "gestione-separata-rimborso-contributi-massimale.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15180/Allegati/16592_Circolare-numero-20-del-25-02-2026.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -6821,6 +6834,15 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/04/Circolare_15247/Allegati/16739_Messaggio-numero-1377-del-23-04-2026.pdf",
       "pages": [
         "inps-prestazione-sospesa-respinta-cosa-fare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16407/Allegati/18041_Messaggio-numero-3575-del-04-11-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16407/Allegati/18041_Messaggio-numero-3575-del-04-11-2026.pdf",
+      "pages": [
+        "gestione-separata-rimborso-contributi-massimale.html"
       ]
     },
     {
@@ -7736,6 +7758,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3247-del-13-10-2026_16391.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3247-del-13-10-2026_16391.html",
+      "pages": [
+        "gestione-separata-rimborso-contributi-massimale.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.10.messaggio-numero-3343-del-20-10-2026_16395.html",
       "status": "raggiungibile",
       "http": 200,
@@ -8204,6 +8235,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.gestione-separata-nuovo-canale-per-chiedere-i-rimborsi.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.gestione-separata-nuovo-canale-per-chiedere-i-rimborsi.html",
+      "pages": [
+        "gestione-separata-rimborso-contributi-massimale.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.10.nuovo-bonus-mamme-2026-aggiornamenti.html",
       "status": "raggiungibile",
       "http": 200,
@@ -8394,9 +8434,8 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "acquisti-contratti.html",
         "acquisti-garanzia-prodotto-difettoso.html",
@@ -8489,6 +8528,7 @@
         "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
         "farine-quale-scegliere.html",
+        "gestione-separata-rimborso-contributi-massimale.html",
         "gradimento.html",
         "index.html",
         "inps-contatti-telefono-richieste-appuntamenti.html",
@@ -10423,8 +10463,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20261120121725002",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20261120121725002",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -11082,8 +11123,9 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html"
@@ -11091,16 +11133,18 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
       "pages": [
         "digitale-spid-cie-accesso-recupero.html"
       ]
     },
     {
       "url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html",
