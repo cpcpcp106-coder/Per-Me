@@ -1,14 +1,14 @@
 {
-  "date_utc": "2026-11-25T14:55:47.910860+00:00",
+  "date_utc": "2026-11-26T08:03:17.004463+00:00",
   "scope": {
-    "pages": 159,
-    "unique_external_urls": 1046,
-    "occurrences": 2856
+    "pages": 162,
+    "unique_external_urls": 1052,
+    "occurrences": 2879
   },
   "counts": {
-    "raggiungibile": 908,
-    "bloccato_o_riservato": 123,
-    "non_verificato_trasporto": 14,
+    "bloccato_o_riservato": 124,
+    "raggiungibile": 910,
+    "non_verificato_trasporto": 17,
     "errore_http": 1
   },
   "results": [
@@ -396,6 +396,14 @@
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html",
         "debiti-guida-06-fermo-pignoramento.html"
+      ]
+    },
+    {
+      "url": "https://def.giustiziatributaria.gov.it/DocTribFrontend/getArticoloDetailFromResultList.do?codiceOrdinamento=0000000000000549999900002000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000&id=%7BE352EC5F-9B93-4D9B-9B29-A203419F29F5%7D&idAttoNormativo=%7B6EBD3529-A5B5-4438-82C1-3BC33F360844%7D",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1011)>",
+      "pages": [
+        "acquisti-recesso-resi-rimborsi.html"
       ]
     },
     {
@@ -1142,6 +1150,15 @@
       ]
     },
     {
+      "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_it.htm",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_it.htm",
+      "pages": [
+        "acquisti-recesso-resi-rimborsi.html"
+      ]
+    },
+    {
       "url": "https://europa.eu/youreurope/citizens/health/planned-healthcare/right-to-treatment/index_it.htm",
       "status": "raggiungibile",
       "http": 200,
@@ -1856,6 +1873,9 @@
       "http": 200,
       "final_url": "https://it.pinterest.com/permeguide/",
       "pages": [
+        "acquisti-contratti.html",
+        "acquisti-garanzia-prodotto-difettoso.html",
+        "acquisti-recesso-resi-rimborsi.html",
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -2940,6 +2960,9 @@
       "http": 200,
       "final_url": "https://www.whatsapp.com/channel/0029VbDxWTg4dTnMxrqamP3J",
       "pages": [
+        "acquisti-contratti.html",
+        "acquisti-garanzia-prodotto-difettoso.html",
+        "acquisti-recesso-resi-rimborsi.html",
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -5889,6 +5912,12 @@
       "http": 200,
       "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
+        "acquisti-contratti.html",
+        "acquisti-contratti.html",
+        "acquisti-garanzia-prodotto-difettoso.html",
+        "acquisti-garanzia-prodotto-difettoso.html",
+        "acquisti-recesso-resi-rimborsi.html",
+        "acquisti-recesso-resi-rimborsi.html",
         "agevolazioni-diritti.html",
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
@@ -6246,6 +6275,15 @@
       "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.codiceRedazionale=26G00127&art.dataPubblicazioneGazzetta=2026-06-27&art.flagTipoArticolo=0&art.idArticolo=2&art.idGruppo=0&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.progressivo=0&art.versione=1",
       "pages": [
         "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=26G00191&art.idArticolo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2026-10-07&art.progressivo=0",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=26G00191&art.idArticolo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2026-10-07&art.progressivo=0",
+      "pages": [
+        "acquisti-garanzia-prodotto-difettoso.html"
       ]
     },
     {
@@ -8248,10 +8286,12 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
+        "acquisti-contratti.html",
+        "acquisti-garanzia-prodotto-difettoso.html",
+        "acquisti-recesso-resi-rimborsi.html",
         "agevolazioni-diritti.html",
         "agevolazioni-guida-01-isee-corrente.html",
         "agevolazioni-guida-02-bonus-sociali.html",
@@ -8809,6 +8849,24 @@
       "final_url": "https://www.migracion.gob.pa/?jet_download=b303341991472f96a930b9c73e0e48f172bb40e9",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.mimit.gov.it/it/assistenza/domande-frequenti/le-garanzie-post-vendita-domande-frequenti-faq",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
+      "pages": [
+        "acquisti-contratti.html",
+        "acquisti-garanzia-prodotto-difettoso.html"
+      ]
+    },
+    {
+      "url": "https://www.mimit.gov.it/it/mercato-e-consumatori/tutela-del-consumatore/diritti-del-consumatore/diritto-di-recesso",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
+      "pages": [
+        "acquisti-contratti.html",
+        "acquisti-recesso-resi-rimborsi.html"
       ]
     },
     {
@@ -9507,6 +9565,15 @@
       "final_url": "https://www.normattiva.it/eli/id/2026/07/03/26G00131/CONSOLIDATED",
       "pages": [
         "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://www.normattiva.it/eli/id/2026/10/07/26G00191/ORIGINAL",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.normattiva.it/eli/id/2026/10/07/26G00191/ORIGINAL",
+      "pages": [
+        "acquisti-garanzia-prodotto-difettoso.html"
       ]
     },
     {
