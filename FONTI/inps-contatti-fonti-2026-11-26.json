@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-11-26",
+  "sources": [
+    {
+      "id": 1,
+      "title": "INPS — Contact Center: chiusura del fax dal 20 novembre",
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.contact-center-multicanale-dismesso-il-fax-dal-20-novembre.html",
+      "verified_claims": "Avviso pubblicato il 26 novembre 2026: numero del fax e data della disattivazione.",
+      "http_status": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.contact-center-multicanale-dismesso-il-fax-dal-20-novembre.html",
+      "checked_at_utc": "2026-11-26T14:03:40.925547+00:00",
+      "response_bytes": 656716,
+      "response_sha256": "24705b8ed2a182024389dc1bce195fbe0486b701373005329cf4b1779cc2d705"
+    },
+    {
+      "id": 2,
+      "title": "INPS — Contact Center Multicanale",
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
+      "verified_claims": "Numeri, tariffe, orari degli operatori, PIN telefonico e servizi automatici.",
+      "http_status": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
+      "checked_at_utc": "2026-11-26T14:03:41.897795+00:00",
+      "response_bytes": 678850,
+      "response_sha256": "459fba86080d8cd31639601693b884c88cba7e2cdfa2551404c40e864c5a4435"
+    },
+    {
+      "id": 3,
+      "title": "INPS — INPS Risponde",
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html",
+      "verified_claims": "Richieste di informazioni e controllo dello stato delle segnalazioni.",
+      "http_status": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html",
+      "checked_at_utc": "2026-11-26T14:03:40.937967+00:00",
+      "response_bytes": 665105,
+      "response_sha256": "c56d7df18f463d7ba249c1e2ad5b6b9050efd8fb47be383b8e96d13fc4fd1718"
+    },
+    {
+      "id": 4,
+      "title": "INPS — Sportelli di sede e appuntamenti",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.52562.sportelli-di-sede-informazioni-sugli-orari-di-apertura-e-servizio-di-prenotazione.html",
+      "verified_claims": "Ricerca della sede, “Scrivi alla sede”, prenotazioni e modalità disponibili.",
+      "http_status": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.52562.sportelli-di-sede-informazioni-sugli-orari-di-apertura-e-servizio-di-prenotazione.html",
+      "checked_at_utc": "2026-11-26T14:03:40.910538+00:00",
+      "response_bytes": 675621,
+      "response_sha256": "defdd59fc5335424573021f3d2065595460f44d49febc4948ca2bfac45796613"
+    },
+    {
+      "id": 5,
+      "title": "INPS — Delega dell’identità digitale",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.delega-dell-identit-digitale-per-accedere-ai-servizi-online.html",
+      "verified_claims": "Assistenza a una persona di fiducia, registrazione della delega e casi particolari.",
+      "http_status": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.delega-dell-identit-digitale-per-accedere-ai-servizi-online.html",
+      "checked_at_utc": "2026-11-26T14:03:40.913947+00:00",
+      "response_bytes": 691043,
+      "response_sha256": "6aba86bfad8986cbad76ff9458b799b1a66bf0b78b6137d593fa6eaafd6fb67f"
+    },
+    {
+      "id": 6,
+      "title": "INPS — Contatti ufficiali",
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti.html",
+      "verified_claims": "Riepilogo dei canali e accesso all’elenco delle caselle PEC.",
+      "http_status": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti.html",
+      "checked_at_utc": "2026-11-26T14:03:41.913533+00:00",
+      "response_bytes": 668787,
+      "response_sha256": "f077ea6f0b01196b89107e899c1b1922325e7aad4b4ea6722b782faf8e458472"
+    }
+  ],
+  "scope": "Verifica documentale delle fonti ufficiali. Nessuna posizione personale consultata; nessuna chiamata, richiesta o prenotazione effettuata."
+}

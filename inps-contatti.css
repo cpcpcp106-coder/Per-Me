@@ -1,0 +1,25 @@
+/* Guide ai contatti INPS: tabelle leggibili anche con testo ingrandito. */
+.guida-contatti-inps table{width:100%;border-collapse:collapse;font-size:inherit;margin:1rem 0}
+.guida-contatti-inps th,.guida-contatti-inps td{text-align:left;vertical-align:top;padding:.7rem;border:1px solid #9aaea2;overflow-wrap:anywhere}
+.guida-contatti-inps thead th{background:#234438;color:#fff}
+.guida-contatti-inps tbody tr:nth-child(even){background:#f1f7f3}
+.guida-contatti-inps .contatti-azioni{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem}
+.guida-contatti-inps .contatti-azioni>*{min-width:0}
+.guida-contatti-inps a.guida-button:link,.guida-contatti-inps a.guida-button:visited,.guida-contatti-inps a.guida-button:hover,.guida-contatti-inps a.guida-button:focus-visible{box-sizing:border-box;display:flex;align-items:center;justify-content:center;min-height:56px;max-width:100%;padding:.8rem 1rem;background:#234438;color:#fff;font-size:1.08rem;line-height:1.4;text-align:center;text-decoration:none;border-radius:9px;font-weight:750}
+.guida-contatti-inps a.guida-button:hover{background:#173027}
+.guida-contatti-inps a.guida-button:focus-visible{outline:3px solid #966314;outline-offset:4px}
+.guida-contatti-inps .sources>li{margin-block:1.2rem}
+.guida-contatti-inps .sources p{margin:.3rem 0}
+.guida-contatti-inps .sources summary{min-height:48px;padding:.6rem 0;cursor:pointer;font-weight:650}
+.guida-contatti-inps .url{overflow-wrap:anywhere}
+.guida-contatti-inps blockquote{margin:1rem 0;padding:1rem;border-left:4px solid #234438;background:#f1f7f3}
+.guida-contatti-inps .editorial-info{font-size:1rem;line-height:1.6}
+@media(max-width:650px){
+ .guida-contatti-inps .contatti-azioni{grid-template-columns:minmax(0,1fr)}
+ .guida-contatti-inps table,.guida-contatti-inps tbody,.guida-contatti-inps tr,.guida-contatti-inps td{display:block;width:100%;box-sizing:border-box}
+ .guida-contatti-inps thead{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+ .guida-contatti-inps tr{margin:.8rem 0;border:1px solid #9aaea2;border-radius:6px;overflow:hidden}
+ .guida-contatti-inps td{border:0;border-top:1px solid #d3dfd7}
+ .guida-contatti-inps td:first-child{border-top:0}
+ .guida-contatti-inps td::before{content:attr(data-label) ': ';font-weight:750;display:block}
+}

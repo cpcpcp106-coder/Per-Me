@@ -64,6 +64,7 @@
     }
   ];
   const dettagliPerGuida = new Map([
+    ['inps-contatti-telefono-richieste-appuntamenti.html', { parole: 'fax dismesso numero verde 803164 06164164 PIN telefonico INPS Risponde chiamare assistenza delega familiare', priorita: ['fax inps', 'telefono inps', 'contatti inps'] }],
     ['come-leggere-busta-paga.html', { parole: 'stipendio', priorita: ['cedolino'] }],
     ['controllare-cedolino-cassa-integrazione-solidarieta.html', { parole: 'busta paga CIG solidarietà' }],
     ['stipendio-diminuito-cosa-controllare.html', { parole: 'busta paga stipendio ridotto' }],
