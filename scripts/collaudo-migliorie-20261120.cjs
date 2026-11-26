@@ -125,6 +125,26 @@ async function main(){
    const reflow=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+2&&e.getBoundingClientRect().width>0).slice(0,12).map(e=>({tag:e.tagName,id:e.id,cls:e.getAttribute('class'),right:Math.round(e.getBoundingClientRect().right)}))}));
    check(reflow.scrollWidth<=reflow.width+2,'home, strumenti e notizie aperte senza scorrimento orizzontale al 200% '+width+' '+JSON.stringify(reflow));
    check(await page.locator('.hero-copy h1').evaluate(h=>h.scrollWidth<=h.clientWidth+2),'titolo della home interamente leggibile al 200%, senza testo tagliato '+width);
+   // La larghezza del documento non rivela il testo ritagliato dentro i riquadri.
+   const clippedTexts=await page.evaluate(()=>{
+    const main=document.querySelector('.home-main'),clipped=[];
+    const walker=document.createTreeWalker(main,NodeFilter.SHOW_TEXT);
+    for(let node;(node=walker.nextNode());){
+     const element=node.parentElement;
+     if(!node.textContent.trim()||element.closest('script,style')||!element.getClientRects().length)continue;
+     const range=document.createRange();range.selectNodeContents(node);
+     for(let ancestor=element;ancestor&&main.contains(ancestor);ancestor=ancestor.parentElement){
+      const style=getComputedStyle(ancestor),box=ancestor.getBoundingClientRect();
+      const clipsX=['hidden','clip'].includes(style.overflowX),clipsY=['hidden','clip'].includes(style.overflowY);
+      if(!clipsX&&!clipsY)continue;
+      if([...range.getClientRects()].some(rect=>(clipsX&&(rect.left<box.left-2||rect.right>box.right+2))||(clipsY&&(rect.top<box.top-2||rect.bottom>box.bottom+2)))){
+       clipped.push({text:node.textContent.trim().slice(0,100),container:ancestor.className});break;
+      }
+     }
+    }
+    return clipped;
+   });
+   check(clippedTexts.length===0,'testi della home interamente visibili nei riquadri al 200% '+width+' '+JSON.stringify(clippedTexts));
    await page.evaluate(()=>document.documentElement.style.fontSize='');
    await newsSummary.focus();await page.keyboard.press('Space');
    check(!(await news.locator('.notizia-home').first().isVisible()),'riepilogo richiudibile con la tastiera '+width);
