@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T11:41:02.991Z",
+  "checked_at_utc": "2026-11-26T14:10:27.020Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 154,
+        "count": 155,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 154,
+        "checked": 155,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 154,
+        "checked": 155,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "143 pagine salvate per la lettura offline · controllo online 26 nov, 11:42.",
+        "status": "144 pagine salvate per la lettura offline · controllo online 26 nov, 14:11.",
         "stored": {
-          "guides": 143,
-          "updated": "2026-11-26T11:42:20.975Z",
-          "bytes": 2963617,
+          "guides": 144,
+          "updated": "2026-11-26T14:11:36.847Z",
+          "bytes": 2983060,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 143
+        "count": 144
       }
     },
     {
@@ -893,6 +893,12 @@
       "violations": [],
       "passes": 31,
       "incomplete": 1
+    },
+    {
+      "page": "inps-contatti-telefono-richieste-appuntamenti.html",
+      "violations": [],
+      "passes": 28,
+      "incomplete": 2
     },
     {
       "page": "inps-malattia-pagamento-diretto-sr212.html",

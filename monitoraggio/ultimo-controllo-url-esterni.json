@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-26T11:43:59.182872+00:00",
+  "date_utc": "2026-11-26T14:13:32.337033+00:00",
   "scope": {
-    "pages": 163,
-    "unique_external_urls": 1059,
-    "occurrences": 2893
+    "pages": 164,
+    "unique_external_urls": 1062,
+    "occurrences": 2909
   },
   "counts": {
-    "bloccato_o_riservato": 124,
     "raggiungibile": 917,
-    "non_verificato_trasporto": 17,
-    "errore_http": 1
+    "non_verificato_trasporto": 18,
+    "bloccato_o_riservato": 123,
+    "errore_http": 4
   },
   "results": [
     {
@@ -1966,6 +1966,7 @@
         "farine-quale-scegliere.html",
         "gradimento.html",
         "index.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -3063,6 +3064,7 @@
         "farine-quale-scegliere.html",
         "gradimento.html",
         "index.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -6039,6 +6041,8 @@
         "farine-quale-scegliere.html",
         "gradimento.html",
         "index.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
@@ -7190,6 +7194,16 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.52562.sportelli-di-sede-informazioni-sugli-orari-di-apertura-e-servizio-di-prenotazione.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.52562.sportelli-di-sede-informazioni-sugli-orari-di-apertura-e-servizio-di-prenotazione.html",
+      "pages": [
+        "inps-contatti-telefono-richieste-appuntamenti.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.55608.gestione-dei-ricorsi-amministrativi-rivolti-agli-organismi-centrali-in-materia-di-entrate-contributive.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7447,7 +7461,9 @@
       "http": 200,
       "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.delega-dell-identit-digitale-per-accedere-ai-servizi-online.html",
       "pages": [
-        "caregiver-familiari-anziani-disabilita-legge-104.html"
+        "caregiver-familiari-anziani-disabilita-legge-104.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html"
       ]
     },
     {
@@ -8215,6 +8231,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.contact-center-multicanale-dismesso-il-fax-dal-20-novembre.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.contact-center-multicanale-dismesso-il-fax-dal-20-novembre.html",
+      "pages": [
+        "inps-contatti-telefono-richieste-appuntamenti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.11.pensioni-aggiornate-le-domande-per-il-cumulo-dei-periodi-assicurativi.html",
       "status": "raggiungibile",
       "http": 200,
@@ -8314,12 +8339,24 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti.html",
+      "pages": [
+        "inps-contatti-telefono-richieste-appuntamenti.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
       "pages": [
-        "contributi-colf-badanti-pagamenti-2026.html"
+        "contributi-colf-badanti-pagamenti-2026.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html"
       ]
     },
     {
@@ -8330,6 +8367,8 @@
       "pages": [
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
         "riesame-ricorso-inps-termini.html"
       ]
     },
@@ -8355,8 +8394,9 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
       "pages": [
         "acquisti-contratti.html",
         "acquisti-garanzia-prodotto-difettoso.html",
@@ -8451,6 +8491,7 @@
         "farine-quale-scegliere.html",
         "gradimento.html",
         "index.html",
+        "inps-contatti-telefono-richieste-appuntamenti.html",
         "inps-malattia-pagamento-diretto-sr212.html",
         "inps-mobile-5-novita.html",
         "inps-prestazione-sospesa-respinta-cosa-fare.html",
@@ -10382,9 +10423,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20261120121725002",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/comunicati/comunicato.act?dir=/rafvg/cms/RAFVG/notiziedallagiunta/&nm=20261120121725002",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -11042,9 +11082,8 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html"
@@ -11052,18 +11091,16 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "digitale-spid-cie-accesso-recupero.html"
       ]
     },
     {
       "url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html",
