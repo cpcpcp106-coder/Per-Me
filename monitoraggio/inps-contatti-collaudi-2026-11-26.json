@@ -1,0 +1,170 @@
+{
+  "checked_date": "2026-11-26",
+  "pr_url": "https://github.com/cpcpcp106-coder/Per-Me/pull/48",
+  "validated_commit": "002f81c3851d7ee8fead084c9c050e3c70660e9a",
+  "merge_commit": "5b28de68ff1d3e4b078049d6a657dea44801b3c2",
+  "workflows": [
+    {
+      "name": "Per Me - Collaudo struttura nazionale",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835763658",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Cardiopatia, diabete, dieta scientifica",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762380",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida ISEE 2026",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762595",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 03 Trasporti FVG",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762408",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Perimetro nazionale",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762470",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Verifica HTTP pagine pubbliche",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762369",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 04 Esenzioni FVG",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762609",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Tutor AI essenziale",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762180",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 02 Bonus sociali",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762090",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 05 Servizi sociali nazionali",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762538",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Salute Guida 01 sicurezza e fonti",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762474",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Controllo diritti e immagini",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762990",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Audit editoriale intero sito",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762275",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Registro revisione normativa",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835761996",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 07 Patrocinio a spese dello Stato",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762134",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 08 Assegno unico e famiglie",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762099",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Verifica tecnica di indicizzabilità",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762197",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Guida 06 Affitto e sfratto",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762316",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Digitale quotidiano e lettura offline",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762442",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Acquisti e contratti e lettura offline",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762465",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Per Me - Collaudo browser e fonti esterne",
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762173",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ],
+  "browser_preview": {
+    "viewport_frames": [
+      320,
+      390
+    ],
+    "text_zoom_percent": [
+      100,
+      200
+    ],
+    "horizontal_overflow": false,
+    "client_and_scroll_widths": [
+      [
+        305,
+        305
+      ],
+      [
+        375,
+        375
+      ]
+    ],
+    "opened": "Indice e primo URL completo",
+    "search_query": "fax inps",
+    "search_match": true,
+    "photo_dimensions": [
+      1536,
+      1024
+    ],
+    "app_saved_guide": {
+      "title": "Come contattare l’INPS: telefono, richieste e appuntamenti",
+      "characters": 8305,
+      "has_fax_date": true,
+      "has_telephone_number": true,
+      "has_sources": true
+    },
+    "limitation": "Browser desktop con riquadri stretti, non prova su Samsung fisico. Salvato il testo nell'app; il distacco della rete non è stato provato per la singola nuova guida. I 19 test generali dell'app e il workflow di lettura offline sono superati."
+  }
+}

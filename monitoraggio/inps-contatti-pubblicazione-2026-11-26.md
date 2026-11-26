@@ -2,7 +2,7 @@
 
 Richiesta di Enrico: preparare e pubblicare una guida originale per Per Me con fotografia iperrealistica coerente e originale.
 
-Pagina prevista: https://cpcpcp106-coder.github.io/Per-Me/inps-contatti-telefono-richieste-appuntamenti.html
+Pagina pubblicata: https://cpcpcp106-coder.github.io/Per-Me/inps-contatti-telefono-richieste-appuntamenti.html
 
 ## Contenuti verificati
 
@@ -28,4 +28,10 @@ La guida è collegata da homepage, Pensione e invalidità, Digitale quotidiano e
 
 ## Stato della pubblicazione
 
-Contenuti completati e verificati sul ramo `contenuti/contatti-inps-20261126`. Pubblicazione e riscontro sul sito pubblico da completare dopo i controlli della proposta.
+La [PR #48](https://github.com/cpcpcp106-coder/Per-Me/pull/48) è stata integrata in `main` con commit `5b28de68ff1d3e4b078049d6a657dea44801b3c2`. Tutti i 21 workflow sul commit della proposta `002f81c3851d7ee8fead084c9c050e3c70660e9a` sono superati, incluso il [collaudo browser, accessibilità automatizzata, sincronizzazione e offline](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45835762173). [Evidenze dei collaudi](inps-contatti-collaudi-2026-11-26.json).
+
+Il [deployment Pages riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45836260204) sul commit `71ed938332e12699971b9c81305df769921e630c`, successivo al merge, ha pubblicato i contenuti. Il primo deployment era stato sostituito da quello relativo allo snapshot automatico dell'audit.
+
+Il 26 novembre alle 14:11 UTC sono state verificate 11 risorse pubbliche: tutte rispondono HTTP 200 e sono identiche alle sorgenti validate, incluse guida, entrambe le foto, CSS, homepage, tre pagine di accesso, sitemap, catalogo del gradimento e ricerca. [Riscontro pubblico con impronte](inps-contatti-verifica-pubblica-2026-11-26.json).
+
+Nel browser pubblico sono confermati titolo, foto caricata a 1536 × 1024 pixel con testo alternativo, entrambi i collegamenti telefonici, sei fonti, pulsante Facebook, canonical corretto e direttiva `index,follow`. Nell'anteprima l'app ha salvato e aperto il testo della nuova guida (8.305 caratteri, con avviso sul fax, telefoni e fonti). La specifica guida non è stata provata con distacco della rete; i collaudi generali offline risultano superati.
