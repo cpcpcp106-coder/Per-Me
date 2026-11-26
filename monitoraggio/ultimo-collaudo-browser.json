@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-26T08:00:32.585Z",
+  "checked_at_utc": "2026-11-26T09:09:58.349Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 153,
+        "count": 154,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 153,
+        "checked": 154,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 153,
+        "checked": 154,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "142 pagine salvate per la lettura offline · controllo online 26 nov, 08:01.",
+        "status": "143 pagine salvate per la lettura offline · controllo online 26 nov, 09:11.",
         "stored": {
-          "guides": 142,
-          "updated": "2026-11-26T08:01:53.745Z",
-          "bytes": 2944040,
+          "guides": 143,
+          "updated": "2026-11-26T09:11:23.275Z",
+          "bytes": 2962025,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 142
+        "count": 143
       }
     },
     {
@@ -479,6 +479,12 @@
       "violations": [],
       "passes": 17,
       "incomplete": 0
+    },
+    {
+      "page": "contributi-colf-badanti-pagamenti-2026.html",
+      "violations": [],
+      "passes": 28,
+      "incomplete": 2
     },
     {
       "page": "contributi-inps-estratto-conto-pensione-vicina.html",

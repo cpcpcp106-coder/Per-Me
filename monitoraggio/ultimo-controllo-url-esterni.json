@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-26T08:03:17.004463+00:00",
+  "date_utc": "2026-11-26T09:13:03.393212+00:00",
   "scope": {
-    "pages": 162,
-    "unique_external_urls": 1052,
-    "occurrences": 2879
+    "pages": 163,
+    "unique_external_urls": 1059,
+    "occurrences": 2891
   },
   "counts": {
     "bloccato_o_riservato": 124,
-    "raggiungibile": 910,
-    "non_verificato_trasporto": 17,
-    "errore_http": 1
+    "raggiungibile": 915,
+    "non_verificato_trasporto": 18,
+    "errore_http": 2
   },
   "results": [
     {
@@ -1897,6 +1897,7 @@
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
         "come-leggere-busta-paga.html",
+        "contributi-colf-badanti-pagamenti-2026.html",
         "contributi-inps-estratto-conto-pensione-vicina.html",
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
         "da-dove-cominciare.html",
@@ -2211,9 +2212,8 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/trigger-finger/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/trigger-finger/",
+      "status": "errore_http",
+      "http": 520,
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -2600,9 +2600,8 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://servizi.regione.fvg.it/portale/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -2716,6 +2715,15 @@
       "pages": [
         "pensionati-estero-trasferimento.html",
         "pensionati-estero-trasferimento.html"
+      ]
+    },
+    {
+      "url": "https://serviziweb2.inps.it/PortalePagamenti/caricaPagina.do?idMenuVoce=4",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://serviziweb2.inps.it/PortalePagamenti/caricaPagina.do?idMenuVoce=4",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
       ]
     },
     {
@@ -2984,6 +2992,7 @@
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
         "come-leggere-busta-paga.html",
+        "contributi-colf-badanti-pagamenti-2026.html",
         "contributi-inps-estratto-conto-pensione-vicina.html",
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
         "da-dove-cominciare.html",
@@ -5950,6 +5959,8 @@
         "chi-siamo.html",
         "come-leggere-busta-paga.html",
         "come-leggere-busta-paga.html",
+        "contributi-colf-badanti-pagamenti-2026.html",
+        "contributi-colf-badanti-pagamenti-2026.html",
         "contributi-inps-estratto-conto-pensione-vicina.html",
         "contributi-inps-estratto-conto-pensione-vicina.html",
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
@@ -6805,6 +6816,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16412/Allegati/18051_Messaggio-numero-3691-del-12-11-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16412/Allegati/18051_Messaggio-numero-3691-del-12-11-2026.pdf",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16419/Allegati/18063_Messaggio-numero-3768-del-18-11-2026.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -7061,6 +7081,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50061.pagamento-dei-contributi-al-lavoratore-domestico.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50061.pagamento-dei-contributi-al-lavoratore-domestico.html",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50097.indennit-per-congedi-straordinari-assistenza-familiari-disabili-.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7145,6 +7174,15 @@
         "lavoro-guida-09-ferie-tredicesima-tfr-cassa-integrazione.html",
         "soldi-lavoro.html",
         "stipendio-diminuito-cosa-controllare.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50603.il-versamento-online-dei-contributi-dei-lavoratori-domestici.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50603.il-versamento-online-dei-contributi-dei-lavoratori-domestici.html",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
       ]
     },
     {
@@ -7822,6 +7860,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.lavoro-domestico-dematerializzazione-del-pagamento-contributi-2026.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.lavoro-domestico-dematerializzazione-del-pagamento-contributi-2026.html",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2025.12.pensioni-2026-i-nuovi-importi-e-le-date-di-pagamento.html",
       "status": "raggiungibile",
       "http": 200,
@@ -7921,6 +7968,15 @@
       "pages": [
         "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html",
         "agevolazioni-guida-08-assegno-unico-aiuti-famiglie-2026.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.contributi-lavoro-domestico-nuova-campagna-di-informazione-telefonica.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/notizie/dettaglio-news-page.news.2026.03.contributi-lavoro-domestico-nuova-campagna-di-informazione-telefonica.html",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
       ]
     },
     {
@@ -8254,6 +8310,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/contact-center-multicanale.html",
+      "pages": [
+        "contributi-colf-badanti-pagamenti-2026.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/it/it/sedi-e-contatti/contatti/inps-risponde.html",
       "status": "raggiungibile",
       "http": 200,
@@ -8313,6 +8378,7 @@
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
         "come-leggere-busta-paga.html",
+        "contributi-colf-badanti-pagamenti-2026.html",
         "contributi-inps-estratto-conto-pensione-vicina.html",
         "controllare-cedolino-cassa-integrazione-solidarieta.html",
         "da-dove-cominciare.html",
