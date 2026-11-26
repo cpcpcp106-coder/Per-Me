@@ -51,6 +51,26 @@ async function main(){
     }});
    });
    const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
+   for(const [file,label]of [
+    ['caregiver-familiari-anziani-disabilita-legge-104.html','Il primo passo'],
+    ['menu-mediterraneo-30-novembre-6-dicembre-2026.html','Come usare il menù']
+   ]){
+    await page.goto(origin+'/'+file);
+    const first=page.locator('[aria-label="'+label+'"]');
+    check(await first.isVisible(),'apertura operativa della guida: '+label+' '+width);
+    for(const href of await first.locator('a').evaluateAll(links=>links.map(a=>a.getAttribute('href')))){
+     await first.locator('a[href="'+href+'"]').press('Enter');
+     await page.waitForURL('**/'+file+href);
+     check(await page.locator(href).isVisible(),'collegamento iniziale raggiunge '+file+href+' '+width);
+    }
+    const base=await page.evaluate(()=>({root:parseFloat(getComputedStyle(document.documentElement).fontSize),body:parseFloat(getComputedStyle(document.body).fontSize)}));
+    await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',base.root);
+    check(await page.evaluate(size=>Math.abs(parseFloat(getComputedStyle(document.body).fontSize)-size*2)<0.1,base.body),'testo del corpo effettivamente raddoppiato: '+label+' '+width);
+    const geometry=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,outliers:[...document.querySelectorAll('body *')].map(e=>({tag:e.tagName,id:e.id,cls:e.className,left:Math.round(e.getBoundingClientRect().left),right:Math.round(e.getBoundingClientRect().right),text:e.textContent.trim().slice(0,65)})).filter(e=>e.right>innerWidth+2&&e.left>=0).slice(0,15)}));
+    if(geometry.scroll>geometry.width+2)console.log('DETTAGLI GUIDA 200%',file,JSON.stringify(geometry));
+    check(geometry.scroll<=geometry.width+2,'apertura e guida senza overflow al 200%: '+label+' '+width);
+    await page.evaluate(()=>document.documentElement.style.fontSize='');
+   }
    await page.goto(origin+'/agevolazioni-guida-09-locazioni-abitative.html');
    await page.locator('.perme-lettura').waitFor();
    const base=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
@@ -108,6 +128,21 @@ async function main(){
     return{heroFirst:!!(hero.compareDocumentPosition(search)&Node.DOCUMENT_POSITION_FOLLOWING),inviteLater:!!(situations.compareDocumentPosition(invite)&Node.DOCUMENT_POSITION_FOLLOWING),mainLinks:document.querySelectorAll('.hero a[href="da-dove-cominciare.html"]').length};
    });
    check(order.heroFirst&&order.inviteLater&&order.mainLinks===1,'home con ingresso unico e invito alle prove spostato '+width);
+   check(await page.locator('#rubriche').evaluate(e=>!!(e.compareDocumentPosition(document.querySelector('#ultime-guide'))&Node.DOCUMENT_POSITION_FOLLOWING)),'rubriche prima dell’archivio delle novità '+width);
+   check(await page.locator('.home-accessi a[href="#rubriche"]').isVisible(),'accesso immediato a tutte le rubriche '+width);
+   check((await page.locator('#situazioni a[href="salute-guida-01-preparare-visita.html"]').innerText()).includes('diabete o cuore'),'visita descritta secondo il contenuto della guida '+width);
+   const domestic='contributi-colf-badanti-pagamenti-2026.html';
+   for(const query of ['badante','badanti','contributo colf','contributi colf']){
+    await page.locator('#parole-guida').fill(query);
+    await page.locator('#risultati-guide a[href$="'+domestic+'"]').waitFor();
+    check(await page.locator('#risultati-guide a[href$="'+domestic+'"]').isVisible(),'ricerca trova la guida domestici: '+query+' '+width);
+   }
+   await page.locator('#parole-guida').fill('busta paga');
+   await page.locator('#risultati-guide a').first().waitFor();
+   check((await page.locator('#risultati-guide a').first().getAttribute('href')).endsWith('come-leggere-busta-paga.html'),'busta paga mantiene il risultato prioritario '+width);
+   await page.locator('#parole-guida').fill('nessunarisorsaxyz');
+   check(await page.locator('#risultati-guide a').count()===0&&await page.locator('#aiuto-ricerca a').isVisible(),'ricerca vuota propone il percorso per situazioni '+width);
+   await page.locator('#parole-guida').fill('');
    for(const destination of ['app/menu-mediterraneo.html','strumenti/costo-spesa-settimanale.html','modelli-e-strumenti.html']){
     const action=page.locator('.home-strumenti a.button[href="'+destination+'"]');
     check(await action.isVisible()&&await action.evaluate(a=>a.getBoundingClientRect().height>=54),'accesso allo strumento leggibile e facile da toccare '+destination+' '+width);
@@ -208,6 +243,14 @@ async function main(){
   await page.locator('.perme-riscontro summary').click();
   await page.getByRole('button',{name:'Informazione da aggiornare',exact:true}).click();
   check((await page.locator('.perme-riscontro').innerText()).includes('conteggio non è stato inviato'),'riscontro offline non dichiarato inviato');
+  await page.locator('#back').click();
+  for(const query of ['badante colf','badanti contributi']){
+   await page.locator('#search').fill(query);
+   const domestic=page.locator('.guide-card').filter({hasText:'Contributi per colf e badanti'});
+   check(await domestic.count()===1&&await domestic.isVisible(),'ricerca al singolare e plurale disponibile offline: '+query);
+  }
+  await page.locator('.guide-card').filter({hasText:'Contributi per colf e badanti'}).click();
+  check((await page.locator('#reader-content').innerText()).includes('codice del rapporto'),'guida trovata e aperta senza rete');
   await page.locator('#back').click();
   await page.locator('#search').fill('Ricette mediterranee semplici');
   await page.locator('.guide-card').first().click();
