@@ -30,3 +30,11 @@ Nessun post social inviato in questo incarico. L'inserimento di collegamenti soc
 - Browser sul sito pubblico: fotografia caricata a 1254 × 1254 pixel, testo alternativo e indice espandibile funzionante; pulsante Facebook, fonti e navigazione presenti. Canonical corretto e noindex assente.
 
 La verifica tecnica di indicizzabilità è superata; non equivale a una conferma dell'indicizzazione in Google.
+
+## Correzione dell'ingresso nella guida su telefono
+
+Il riquadro dei comandi di lettura occupava gran parte dello schermo dopo il titolo e spingeva l'introduzione più in basso. Nella [PR #44](https://github.com/cpcpcp106-coder/Per-Me/pull/44), integrata con commit `decdf878628aef25bc605374c97c6bf95c3931bf`, la sola guida ai contributi domestici attiva i comandi in una sezione espandibile, inizialmente chiusa, intitolata «Ingrandisci il testo o ascolta». I comandi e le spiegazioni sono accessibili aprendola; l'introduzione segue la barra. Aggiunta l'ancora `inizio-guida` per aprire direttamente il testo.
+
+Tutti gli 8 workflow della proposta sul commit `80b68abc13c64f80f7a8cc1d02fcd492d0ded223` sono superati, incluso il [collaudo browser](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45790899779). Sintassi, struttura, ancore, componente Facebook e 19 test locali dell'app superati.
+
+[Deployment riuscito](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45791289661) sul commit `87f16414f16b7bca6a032faa1cec87d9e05f2e2f`. Pagina e script versionato pubblici verificati HTTP 200 e identici alle sorgenti validate. Nel browser pubblico la sezione è inizialmente chiusa, l'apertura mostra tutti i pulsanti e la chiusura ripristina la barra; verificato il collegamento diretto [all'inizio del testo](https://cpcpcp106-coder.github.io/Per-Me/contributi-colf-badanti-pagamenti-2026.html#inizio-guida). La prova browser non equivale a una verifica su Samsung fisico.
