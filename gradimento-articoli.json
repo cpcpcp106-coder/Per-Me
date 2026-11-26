@@ -583,5 +583,20 @@
     "path": "pensione-cumulo-organizzazioni-internazionali.html",
     "title": "Pensione e contributi nelle organizzazioni internazionali",
     "category": "Pensione e invalidità"
+  },
+  {
+    "path": "acquisti-contratti.html",
+    "title": "Acquisti e contratti senza sorprese",
+    "category": "Acquisti e contratti senza sorprese"
+  },
+  {
+    "path": "acquisti-recesso-resi-rimborsi.html",
+    "title": "Recesso, resi e rimborsi: come cambiare idea",
+    "category": "Acquisti e contratti senza sorprese"
+  },
+  {
+    "path": "acquisti-garanzia-prodotto-difettoso.html",
+    "title": "Garanzia legale: che cosa fare se il prodotto è difettoso",
+    "category": "Acquisti e contratti senza sorprese"
   }
 ]

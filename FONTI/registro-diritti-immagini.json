@@ -1809,6 +1809,26 @@
       "license_or_ownership": "Output creato per Per Me con ChatGPT secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi in ingresso. Non è attestata esclusività rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "digitale-quotidiano.html, index.html"
+    },
+    {
+      "file": "assets/acquisti-recesso-originale.webp",
+      "git_blob_sha": "c51479189319d64c920690f97670e8d717447ea9",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 26 novembre 2026, senza immagini di riferimento; conversione WebP qualità 83.",
+      "provenance_evidence": "FONTI/acquisti-immagini-2026-11-26.json; originale exec-f6270243-c80d-48f1-b11f-450a5bf83574.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "acquisti-recesso-resi-rimborsi.html, acquisti-contratti.html, index.html"
+    },
+    {
+      "file": "assets/acquisti-garanzia-originale.webp",
+      "git_blob_sha": "af79a5d619a916ed22ee2e72bf48f0874bdc809e",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 26 novembre 2026, senza immagini di riferimento; conversione WebP qualità 83.",
+      "provenance_evidence": "FONTI/acquisti-immagini-2026-11-26.json; originale exec-84b34b2f-b2d5-47ec-ab65-09750cb026a6.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "acquisti-garanzia-prodotto-difettoso.html"
     }
   ],
   "notes": [

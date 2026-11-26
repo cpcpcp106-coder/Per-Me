@@ -1,5 +1,5 @@
-const CACHE='perme-reader-v32-20261125-digitale';
-const SHELL=['./','./index.html','./app.css?v=15','./catalogo-guide.js?v=4','./main.js?v=19','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
+const CACHE='perme-reader-v33-20261126-acquisti';
+const SHELL=['./','./index.html','./app.css?v=15','./catalogo-guide.js?v=5','./main.js?v=19','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 const MENU='./menu-mediterraneo.html';
 const MENU_ASSETS=['./menu-mediterraneo.css?v=1','./menu-mediterraneo.js?v=1','./ricette-mediterranee.js?v=1','../assets/logo-per-me.png','../assets/dieta-menu-spesa-originale.webp'];
 const GUIDE_ASSETS=['../gradimento.js?v=4','../gradimento.css?v=4','../lettura-guide.js?v=2'];
