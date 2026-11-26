@@ -1,0 +1,146 @@
+{
+  "checked_at_utc": "2026-11-26T08:09:06.179774+00:00",
+  "pr": 42,
+  "results": [
+    {
+      "path": "acquisti-contratti.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/acquisti-contratti.html",
+      "status": 200,
+      "bytes": 9025,
+      "content_type": "text/html; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "219edbef2ad20246481178f035053913a17e396300b2aba89f919035c3d8487a",
+      "h1": [
+        "Acquisti e contratti senza sorprese"
+      ],
+      "facebook_in_main": true,
+      "canonical": true
+    },
+    {
+      "path": "acquisti-recesso-resi-rimborsi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/acquisti-recesso-resi-rimborsi.html",
+      "status": 200,
+      "bytes": 13634,
+      "content_type": "text/html; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "5ef28663a0d693193b9114973a70ce7fbc0c48d60bbce417278ae06219533ffd",
+      "h1": [
+        "Recesso, resi e rimborsi: come cambiare idea"
+      ],
+      "facebook_in_main": true,
+      "canonical": true
+    },
+    {
+      "path": "acquisti-garanzia-prodotto-difettoso.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/acquisti-garanzia-prodotto-difettoso.html",
+      "status": 200,
+      "bytes": 14005,
+      "content_type": "text/html; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "5ad0a4437d5a59ef55e30dafd59ae35ed908d3d5ed68259989bdcf5758d96fd9",
+      "h1": [
+        "Garanzia legale: che cosa fare se il prodotto è difettoso"
+      ],
+      "facebook_in_main": true,
+      "canonical": true
+    },
+    {
+      "path": "assets/acquisti-recesso-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/acquisti-recesso-originale.webp",
+      "status": 200,
+      "bytes": 119530,
+      "content_type": "image/webp",
+      "identical_to_source": true,
+      "sha256": "1d9eeeb745b3bb3ac921aa2ea61e7716079154dddff2bb2f898507c6ee6eccc1",
+      "decoded_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "assets/acquisti-garanzia-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/acquisti-garanzia-originale.webp",
+      "status": 200,
+      "bytes": 117118,
+      "content_type": "image/webp",
+      "identical_to_source": true,
+      "sha256": "eb250d29269691e0b17b876e4286edcbf777ce2bd64a0a2b4d7b6af020faece1",
+      "decoded_dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/index.html",
+      "status": 200,
+      "bytes": 30334,
+      "content_type": "text/html; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "59fe4389cc59cdeb1c1789b0add18bcf6f8da448eab6e0da1ab14328b7c1620c"
+    },
+    {
+      "path": "app/catalogo-guide.js",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/catalogo-guide.js",
+      "status": 200,
+      "bytes": 2898,
+      "content_type": "application/javascript; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "9ba752f62416c9c2c90336a8be6d8072ac16f80ab021e73466ce98a854c68729"
+    },
+    {
+      "path": "app/index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/index.html",
+      "status": 200,
+      "bytes": 5762,
+      "content_type": "text/html; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "ccf184707573f8e16d5ddd79dcba0c500d59e704b6ac60131e8cb1d9e6ac8151"
+    },
+    {
+      "path": "app/sw.js",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/sw.js",
+      "status": 200,
+      "bytes": 2103,
+      "content_type": "application/javascript; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "635ae361bbdf146bb0009300b3b180c546303073b1b5a3afd238f41ea19db242"
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "status": 200,
+      "bytes": 21776,
+      "content_type": "application/xml",
+      "identical_to_source": true,
+      "sha256": "c43fd73c4e30299370e4f3fd32d0866101fb787428d6c4d817a98e994d81fa6b"
+    },
+    {
+      "path": "sitemap.txt",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.txt",
+      "status": 200,
+      "bytes": 13634,
+      "content_type": "text/plain; charset=utf-8",
+      "identical_to_source": false,
+      "sha256": "ddf4aa5c36e504eec708acb143c52031e6c79f8fcf9da3fd761ce72a283a1824",
+      "generated_from_xml": true,
+      "new_urls_once": true
+    },
+    {
+      "path": "notizie.css",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/notizie.css",
+      "status": 200,
+      "bytes": 1672,
+      "content_type": "text/css; charset=utf-8",
+      "identical_to_source": true,
+      "sha256": "f7671048db609c8177eb1feb3935e0a288847ed89a9429cb1921e9a8b525bbf5"
+    }
+  ],
+  "limits": "Verifica HTTP, corrispondenza sorgenti, decodifica foto e destinazione pulsante Facebook; nessun invio e nessuna prova su telefono fisico.",
+  "source_commit": "549b43564d48b52945784c12b434b4ec932d4023",
+  "merge_commit": "2d4846e06cd081d49b6945528ad6301d84dc4891",
+  "deployment_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45780640638",
+  "premerge_workflows_success": 23,
+  "dedicated_browser_checks": 50,
+  "dedicated_browser_run": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45779183542"
+}

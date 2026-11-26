@@ -19,13 +19,17 @@
     {
       "nome": "Acquisti e contratti senza sorprese",
       "data_obiettivo": "2026-11-26",
-      "stato": "implementato_in_verifica",
+      "stato": "pubblicato_verificato",
       "path": "acquisti-contratti.html",
       "guide": [
         "acquisti-recesso-resi-rimborsi.html",
         "acquisti-garanzia-prodotto-difettoso.html"
       ],
-      "url": "https://cpcpcp106-coder.github.io/Per-Me/acquisti-contratti.html"
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/acquisti-contratti.html",
+      "verificato_il_utc": "2026-11-26T08:09:06.179774+00:00",
+      "pr": 42,
+      "registro": "monitoraggio/acquisti-contratti-2026-11-26.md",
+      "evidenza_pubblica": "monitoraggio/acquisti-verifica-pubblica-2026-11-26.json"
     },
     {
       "nome": "Fisco semplice",
