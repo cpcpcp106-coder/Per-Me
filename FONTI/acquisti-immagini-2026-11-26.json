@@ -1,0 +1,28 @@
+[
+  {
+    "file": "assets/acquisti-recesso-originale.webp",
+    "original_filename": "exec-f6270243-c80d-48f1-b11f-450a5bf83574.png",
+    "sha256": "1d9eeeb745b3bb3ac921aa2ea61e7716079154dddff2bb2f898507c6ee6eccc1",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generator": "ChatGPT ImageGen integrato",
+    "date": "2026-11-26",
+    "reference_images": [],
+    "visual_check": "Scena e mani controllate; nessun marchio o dato leggibile; nessuna operazione di riparazione."
+  },
+  {
+    "file": "assets/acquisti-garanzia-originale.webp",
+    "original_filename": "exec-84b34b2f-b2d5-47ec-ab65-09750cb026a6.png",
+    "sha256": "eb250d29269691e0b17b876e4286edcbf777ce2bd64a0a2b4d7b6af020faece1",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "generator": "ChatGPT ImageGen integrato",
+    "date": "2026-11-26",
+    "reference_images": [],
+    "visual_check": "Scena e mani controllate; nessun marchio o dato leggibile; nessuna operazione di riparazione."
+  }
+]

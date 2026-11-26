@@ -1,0 +1,25 @@
+name: Per Me - Acquisti e contratti e lettura offline
+on:
+  pull_request:
+    paths: ['acquisti-*.html', 'digitale-quotidiano.css', 'assets/acquisti-*.webp', 'app/**', 'index.html', 'scripts/collaudo-acquisti.cjs', '.github/workflows/collaudo-acquisti.yml']
+  push:
+    branches: [main]
+    paths: ['acquisti-*.html', 'digitale-quotidiano.css', 'assets/acquisti-*.webp', 'app/**', 'index.html', 'scripts/collaudo-acquisti.cjs', '.github/workflows/collaudo-acquisti.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  digitale:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Installa il browser di collaudo
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Verifica guide, percorsi e lettura offline
+        run: node scripts/collaudo-acquisti.cjs

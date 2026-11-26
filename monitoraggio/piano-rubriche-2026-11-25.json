@@ -19,7 +19,13 @@
     {
       "nome": "Acquisti e contratti senza sorprese",
       "data_obiettivo": "2026-11-26",
-      "stato": "da_preparare"
+      "stato": "implementato_in_verifica",
+      "path": "acquisti-contratti.html",
+      "guide": [
+        "acquisti-recesso-resi-rimborsi.html",
+        "acquisti-garanzia-prodotto-difettoso.html"
+      ],
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/acquisti-contratti.html"
     },
     {
       "nome": "Fisco semplice",

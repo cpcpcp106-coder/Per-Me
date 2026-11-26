@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://europa.eu/youreurope/citizens/consumers/shopping/returns/index_it.htm",
+    "status": 200,
+    "bytes": 157820
+  },
+  {
+    "url": "https://www.gazzettaufficiale.it/atto/serie_generale/caricaArticolo?art.versione=1&art.idGruppo=0&art.flagTipoArticolo=0&art.codiceRedazionale=26G00191&art.idArticolo=3&art.idSottoArticolo=1&art.idSottoArticolo1=10&art.dataPubblicazioneGazzetta=2026-10-07&art.progressivo=0",
+    "status": 200,
+    "bytes": 1826
+  },
+  {
+    "url": "https://www.mimit.gov.it/it/assistenza/domande-frequenti/le-garanzie-post-vendita-domande-frequenti-faq",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "url": "https://www.mimit.gov.it/it/mercato-e-consumatori/tutela-del-consumatore/diritti-del-consumatore/diritto-di-recesso",
+    "error": "HTTP Error 503: Service Unavailable"
+  },
+  {
+    "url": "https://www.normattiva.it/eli/id/2026/10/07/26G00191/ORIGINAL",
+    "status": 200,
+    "bytes": 165324
+  }
+]
