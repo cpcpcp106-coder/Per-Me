@@ -122,7 +122,8 @@ async function main(){
    check(await news.locator('a[href="inps-malattia-pagamento-diretto-sr212.html"]').isVisible()&&await news.locator('a[href="inps-mobile-5-novita.html"]').isVisible(),'entrambe le notizie raggiungibili con la tastiera '+width);
    const baseHome=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
    await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',baseHome);
-   check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+2),'home, strumenti e notizie aperte senza scorrimento orizzontale al 200% '+width);
+   const reflow=await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:[...document.querySelectorAll('body *')].filter(e=>e.getBoundingClientRect().right>innerWidth+2&&e.getBoundingClientRect().width>0).slice(0,12).map(e=>({tag:e.tagName,id:e.id,cls:e.getAttribute('class'),right:Math.round(e.getBoundingClientRect().right)}))}));
+   check(reflow.scrollWidth<=reflow.width+2,'home, strumenti e notizie aperte senza scorrimento orizzontale al 200% '+width+' '+JSON.stringify(reflow));
    check(await page.locator('.hero-copy h1').evaluate(h=>h.scrollWidth<=h.clientWidth+2),'titolo della home interamente leggibile al 200%, senza testo tagliato '+width);
    await page.evaluate(()=>document.documentElement.style.fontSize='');
    await newsSummary.focus();await page.keyboard.press('Space');
