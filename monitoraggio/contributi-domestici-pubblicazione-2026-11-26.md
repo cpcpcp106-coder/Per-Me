@@ -2,7 +2,7 @@
 
 Richiesta di Enrico: integrare e pubblicare sul sito Per Me la guida originale agli avvisi e ai pagamenti dei contributi per colf, badanti e baby-sitter.
 
-Pagina prevista: https://cpcpcp106-coder.github.io/Per-Me/contributi-colf-badanti-pagamenti-2026.html
+Pagina pubblicata: https://cpcpcp106-coder.github.io/Per-Me/contributi-colf-badanti-pagamenti-2026.html
 
 ## Contenuti e riscontri
 
@@ -18,6 +18,6 @@ Pagina coerente con il layout condiviso e pulsante Facebook; tabelle leggibili s
 
 ## Stato della pubblicazione
 
-Preparazione completata; in attesa dei controlli della proposta, dell'integrazione e del riscontro sul sito pubblico. I riferimenti al deployment e i risultati finali verranno aggiunti dopo la verifica.
+La [pull request #43](https://github.com/cpcpcp106-coder/Per-Me/pull/43) è stata integrata in `main` con il commit `0a51c91`. Il 26 novembre 2026 la guida, la foto WebP, la homepage e la sitemap pubbliche hanno risposto HTTP 200. La homepage e la sitemap riportano il collegamento alla guida. La pagina pubblica contiene il pulsante per la Pagina Facebook Per Me Guide.
 
 Nessun post social inviato in questo incarico. L'inserimento di collegamenti social nella guida non dimostra l'avvenuta pubblicazione di un post.
