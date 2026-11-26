@@ -63,8 +63,9 @@ async function main(){
      await page.waitForURL('**/'+file+href);
      check(await page.locator(href).isVisible(),'collegamento iniziale raggiunge '+file+href+' '+width);
     }
-    const base=await page.evaluate(()=>parseFloat(getComputedStyle(document.documentElement).fontSize));
-    await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',base);
+    const base=await page.evaluate(()=>({root:parseFloat(getComputedStyle(document.documentElement).fontSize),body:parseFloat(getComputedStyle(document.body).fontSize)}));
+    await page.evaluate(size=>document.documentElement.style.fontSize=(size*2)+'px',base.root);
+    check(await page.evaluate(size=>Math.abs(parseFloat(getComputedStyle(document.body).fontSize)-size*2)<0.1,base.body),'testo del corpo effettivamente raddoppiato: '+label+' '+width);
     const geometry=await page.evaluate(()=>({width:innerWidth,scroll:document.documentElement.scrollWidth,outliers:[...document.querySelectorAll('body *')].map(e=>({tag:e.tagName,id:e.id,cls:e.className,left:Math.round(e.getBoundingClientRect().left),right:Math.round(e.getBoundingClientRect().right),text:e.textContent.trim().slice(0,65)})).filter(e=>e.right>innerWidth+2&&e.left>=0).slice(0,15)}));
     if(geometry.scroll>geometry.width+2)console.log('DETTAGLI GUIDA 200%',file,JSON.stringify(geometry));
     check(geometry.scroll<=geometry.width+2,'apertura e guida senza overflow al 200%: '+label+' '+width);
