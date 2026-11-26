@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-26T09:13:03.393212+00:00",
+  "date_utc": "2026-11-26T09:25:14.101508+00:00",
   "scope": {
     "pages": 163,
     "unique_external_urls": 1059,
     "occurrences": 2891
   },
   "counts": {
-    "bloccato_o_riservato": 124,
-    "raggiungibile": 915,
+    "raggiungibile": 917,
     "non_verificato_trasporto": 18,
-    "errore_http": 2
+    "bloccato_o_riservato": 123,
+    "errore_http": 1
   },
   "results": [
     {
@@ -2212,8 +2212,9 @@
     },
     {
       "url": "https://orthoinfo.aaos.org/en/diseases--conditions/trigger-finger/",
-      "status": "errore_http",
-      "http": 520,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.orthoinfo.org/bodypart/hand-wrist/trigger-finger/",
       "pages": [
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html",
         "diabete-guida-22-mani-spalle-dito-scatto-dupuytren-tunnel-carpale.html"
@@ -8351,8 +8352,9 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
       "pages": [
         "acquisti-contratti.html",
         "acquisti-garanzia-prodotto-difettoso.html",
