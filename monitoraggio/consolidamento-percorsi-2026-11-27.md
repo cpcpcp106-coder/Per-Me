@@ -27,6 +27,19 @@ Verifica successiva sul sito pubblico: quattro HTML, due JavaScript, CSS dei per
 
 ## Recupero aggiuntivo della copia
 
-La verifica nel browser pubblico ha rilevato un’API degli appunti che resta in attesa senza risolversi: il pulsante rimaneva disabilitato. Aggiunto un recupero dopo 1,5 secondi, con testo selezionato per la copia manuale e pulsante nuovamente disponibile. Il collaudo include ora anche un’API simulata che non risponde. Il messaggio di preparazione informa del lavoro in corso. Il passaggio richiede collaudo e verifica pubblica prima di dichiarare concluso il recupero.
+La verifica nel browser pubblico ha rilevato un’API degli appunti che resta in attesa senza risolversi: il pulsante rimaneva disabilitato. Aggiunto un recupero dopo 1,5 secondi, con testo selezionato per la copia manuale e pulsante nuovamente disponibile. Il collaudo include ora anche un’API simulata che non risponde. Il messaggio di preparazione informa del lavoro in corso. [PR 54](https://github.com/cpcpcp106-coder/Per-Me/pull/54) integrata nel commit `cd4af4f03f65a9a6c82f5e88b43cee57c119fd51`: tutti i nove controlli del candidato `859487da087658b8546cd575249ca590b4ab1d2b` superati. Il [collaudo strumenti](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46014326940) comprende ora 85 verifiche dei percorsi/riepiloghi, oltre ai 60 controlli ordinari e alle 148 migliorie. Il riferimento allo script è versionato per aggiornarlo anche nei browser con cache.
+
+[Pubblicazione riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46015831142). HTML e script pubblici rispondono HTTP 200 con byte identici al candidato. Nel browser pubblico il caso di attesa ora mostra il testo per la copia manuale e rende nuovamente disponibile il pulsante: entrambi osservati dopo la pubblicazione.
+
+## Monitoraggio e archiviazione dei rapporti
+
+Il controllo del 27 novembre ha esaminato 15 fonti e 1.104 indirizzi esterni, senza anomalie interne, ma il salvataggio è stato rifiutato perché main era avanzato durante il controllo. [Esecuzione iniziale](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46013544798). Il successo della raccolta è distinto dal fallimento dell’archiviazione.
+
+La [PR 55](https://github.com/cpcpcp106-coder/Per-Me/pull/55), integrata nel commit `6dc0ee9105f586cab5b11e1eb20534457104a7d3`, usa il pubblicatore dei rapporti già disponibile: recupera main corrente e riporta soltanto i due JSON. Nessun force push. Prova isolata con repository bare e main avanzato riuscita: preservata una modifica editoriale concorrente e committati solo i due rapporti. La pianificazione del lunedì è invariata.
 
 La misura del rendimento Google è stata registrata nel rapporto privato di Enrico con fonte e periodo. Nessun dato di indicizzazione, impressioni, clic o visite è dedotto dai controlli tecnici.
+
+
+## Verifica Google del percorso aggiornato
+
+Il test live di Da dove cominciare del 27 novembre indica URL disponibile per Google e pagina indicizzabile. L’ispezione ordinaria indicava URL sconosciuto. La singola richiesta inviata dopo l’aggiornamento ha ricevuto «Indicizzazione richiesta» e conferma di aggiunta alla coda prioritaria. Non è una conferma d’indicizzazione; rapporto aggregato Pagine e sitemap non sono stati nuovamente verificati in questa operazione. I dettagli sono conservati nel rapporto privato del curatore.

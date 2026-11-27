@@ -446,7 +446,7 @@
       "rilievo": "Il rinvio della tabella priorità dice sezione 3.2. Il contenuto è nella sezione 2.2 del PNGLA.",
       "azione_suggerita": "Sostituire soltanto il testo del rinvio con PNGLA, sezione 2.2.",
       "fonte": "PNGLA_2026",
-      "stato": "corretto nel candidato: rinvio PNGLA, sezione 2.2; pubblicazione da verificare"
+      "stato": "corretto e pubblicato nella PR 53; pagina pubblica HTTP 200 e sorgente verificato il 27 novembre 2026"
     }
   ],
   "accessi_non_conclusivi": [
@@ -462,7 +462,7 @@
     }
   ],
   "monitoraggio_proposto": {
-    "stato": "integrato nel candidato del monitoraggio esistente; pubblicazione da verificare",
+    "stato": "sei fonti specifiche integrate nella configurazione del monitoraggio settimanale esistente; due delle otto fonti erano già presenti; nessuna revisione documentale futura è data per eseguita",
     "frequenza": "settimanale",
     "fonti": [
       {

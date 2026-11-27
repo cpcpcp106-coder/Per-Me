@@ -222,4 +222,4 @@ Il nuovo controllo documentale non deve trasformarsi automaticamente in una nuov
 
 ## Integrazione del coordinatore
 
-Il candidato corregge il rinvio CUP in «PNGLA, sezione 2.2» e integra sei fonti specifiche nel monitoraggio settimanale già esistente. Due delle otto fonti proposte erano già presenti. La pubblicazione e il primo esito della nuova configurazione saranno registrati nel rapporto dell’intervento. Il confronto selettivo non comporta una nuova data di revisione integrale di tutte le guide.
+Il rinvio CUP è stato corretto in «PNGLA, sezione 2.2» e sei fonti specifiche sono state integrate nel monitoraggio settimanale esistente con la PR 53. Due delle otto fonti proposte erano già presenti. La pagina pubblica è stata verificata HTTP 200 con contenuto corrispondente ai sorgenti. La PR 55 corregge l’archiviazione del rapporto quando main avanza durante i controlli. Il confronto selettivo non comporta una nuova data di revisione integrale di tutte le guide. Esiti tecnici e pubblicazione sono nel [registro dell’intervento](consolidamento-percorsi-2026-11-27.md).
