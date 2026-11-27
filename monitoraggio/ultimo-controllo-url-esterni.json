@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-27T07:27:21.539913+00:00",
+  "date_utc": "2026-11-27T08:58:56.650643+00:00",
   "scope": {
     "pages": 171,
-    "unique_external_urls": 1109,
-    "occurrences": 2997
+    "unique_external_urls": 1112,
+    "occurrences": 3000
   },
   "counts": {
     "bloccato_o_riservato": 135,
-    "raggiungibile": 953,
-    "non_verificato_trasporto": 20,
-    "errore_http": 1
+    "raggiungibile": 950,
+    "non_verificato_trasporto": 22,
+    "errore_http": 5
   },
   "results": [
     {
@@ -88,8 +88,9 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -1401,27 +1402,24 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "diabete-tipo-2.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "monitoraggio.html"
       ]
@@ -2303,7 +2301,7 @@
       "url": "https://myaccount.google.com/security",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-2063440311:1795764403444650",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S606709447:1795769899500221",
       "pages": [
         "digitale-sicurezza-messaggi-accessi.html"
       ]
@@ -2791,8 +2789,9 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://servizi.regione.fvg.it/portale/",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -7187,6 +7186,15 @@
       ]
     },
     {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15163/Allegati/16562_Circolare-numero-15-del-09-02-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15163/Allegati/16562_Circolare-numero-15-del-09-02-2026.pdf",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
+      ]
+    },
+    {
       "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15180/Allegati/16592_Circolare-numero-20-del-25-02-2026.pdf",
       "status": "raggiungibile",
       "http": 200,
@@ -7229,6 +7237,15 @@
       "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16419/Allegati/18063_Messaggio-numero-3768-del-18-11-2026.pdf",
       "pages": [
         "italia-turchia-previdenza-distacco-contributi.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16428/Allegati/18085_Messaggio-numero-3900-del-26-11-2026.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16428/Allegati/18085_Messaggio-numero-3900-del-26-11-2026.pdf",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
       ]
     },
     {
@@ -8159,6 +8176,15 @@
       "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3859-del-24-11-2026_16425.html",
       "pages": [
         "pensione-cumulo-organizzazioni-internazionali.html"
+      ]
+    },
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3900-del-26-11-2026_16428.html",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3900-del-26-11-2026_16428.html",
+      "pages": [
+        "contributi-inps-estratto-conto-pensione-vicina.html"
       ]
     },
     {
@@ -9795,9 +9821,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
@@ -9847,9 +9872,8 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -9876,18 +9900,16 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -11586,8 +11608,9 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
@@ -11595,9 +11618,8 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
+      "status": "non_verificato_trasporto",
+      "error": "Remote end closed connection without response",
       "pages": [
         "tutor-ai.html"
       ]
@@ -11718,9 +11740,8 @@
     },
     {
       "url": "https://www1.agenziaentrate.gov.it/web_app_entrate/fisco_a_portata_di_click.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www1.agenziaentrate.gov.it/web_app_entrate/fisco_a_portata_di_click.html",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "fisco-semplice.html"
       ]
