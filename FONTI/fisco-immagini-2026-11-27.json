@@ -1,0 +1,30 @@
+[
+  {
+    "file": "assets/fisco-730-controlli-originale.webp",
+    "original_filename": "exec-266a88a3-834d-41d0-8dcd-f43921727349.png",
+    "sha256": "bc180b47eadb0fe5b0305941fe0e7c64f46a16f7372816c4b84255a6120213b3",
+    "dimensions": [
+      1440,
+      960
+    ],
+    "generator": "ChatGPT ImageGen",
+    "date": "2026-11-27",
+    "reference_images": [],
+    "scene": "Donna adulta confronta documenti anonimi a un tavolo chiaro e prende appunti.",
+    "visual_check": "Foto distinta, senza loghi o dati personali leggibili."
+  },
+  {
+    "file": "assets/fisco-f24-ricevuta-originale.webp",
+    "original_filename": "exec-24f74d75-5ac3-48e0-bfa8-b33ba913ff5b.png",
+    "sha256": "c215d70438723559c5f0e17d451014df8d15968f7ac8abd7d76320454fa87f9b",
+    "dimensions": [
+      1440,
+      960
+    ],
+    "generator": "ChatGPT ImageGen",
+    "date": "2026-11-27",
+    "reference_images": [],
+    "scene": "Uomo adulto appoggia una ricevuta accanto a un portatile e una cartellina verde.",
+    "visual_check": "Foto distinta, senza loghi o dati personali leggibili."
+  }
+]

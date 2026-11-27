@@ -10,6 +10,7 @@ window.PerMeCatalogo = (() => {
     ['salute-autonomia.html', 'Salute e autonomia'],
     ['digitale-quotidiano.html', 'Digitale quotidiano'],
     ['acquisti-contratti.html', 'Acquisti e contratti senza sorprese'],
+    ['fisco-semplice.html', 'Fisco semplice'],
     ['tutor-ai.html', 'Tutor AI essenziale'],
     ['diabete-tipo-2.html', 'Diabete tipo 2'],
     ['dieta-mediterranea-scientifica.html', 'Dieta mediterranea scientifica'],
