@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-27T14:14:13.536785+00:00",
+  "date_utc": "2026-11-27T14:29:12.933830+00:00",
   "scope": {
     "pages": 171,
     "unique_external_urls": 1112,
     "occurrences": 3000
   },
   "counts": {
+    "bloccato_o_riservato": 135,
     "raggiungibile": 957,
     "non_verificato_trasporto": 18,
-    "bloccato_o_riservato": 134,
-    "errore_http": 3
+    "errore_http": 2
   },
   "results": [
     {
@@ -1402,8 +1402,9 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -2283,8 +2284,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2302,7 +2304,7 @@
       "url": "https://myaccount.google.com/security",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S2016190588:1795788821959566",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1763511840:1795789722068038",
       "pages": [
         "digitale-sicurezza-messaggi-accessi.html"
       ]
@@ -6246,7 +6248,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -6272,7 +6274,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/PerMeGuide/",
+      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
       "pages": [
         "acquisti-contratti.html",
         "acquisti-contratti.html",
@@ -8829,9 +8831,8 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
+      "status": "bloccato_o_riservato",
+      "http": 429,
       "pages": [
         "acquisti-contratti.html",
         "acquisti-garanzia-prodotto-difettoso.html",
@@ -11604,9 +11605,8 @@
     },
     {
       "url": "https://www.tribunale.pisa.giustizia.it/carta_servizi.aspx?cfp_id_scheda=3849",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.pisa.giustizia.it/carta_servizi.aspx?cfp_id_scheda=3849",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
