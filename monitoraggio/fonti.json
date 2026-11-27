@@ -1,15 +1,88 @@
 {
   "schema": 1,
-  "description": "Fonti iniziali da monitorare. Una variazione web non prova un cambio normativo.",
+  "description": "Fonti da seguire nel controllo settimanale già esistente. Una variazione tecnica richiede lettura documentale; non prova un cambiamento delle regole.",
   "sources": [
-    {"id":"busta-paga","rubrica":"Soldi e lavoro","url":"https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"},
-    {"id":"cigo","rubrica":"Soldi e lavoro","url":"https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"},
-    {"id":"fis","rubrica":"Soldi e lavoro","url":"https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"},
-    {"id":"lavoro","rubrica":"Soldi e lavoro","url":"https://www.lavoro.gov.it/"},
-    {"id":"pensioni","rubrica":"Pensione e invalidità","url":"https://www.inps.it/"},
-    {"id":"cartelle","rubrica":"Debiti e cartelle","url":"https://www.agenziaentrateriscossione.gov.it/"},
-    {"id":"agevolazioni","rubrica":"Agevolazioni e diritti","url":"https://www.regione.fvg.it/"},
-    {"id":"salute","rubrica":"Salute e autonomia","url":"https://www.salute.gov.it/"},
-    {"id":"ai","rubrica":"Tutor AI essenziale","url":"https://www.agid.gov.it/"}
-  ]
+    {
+      "id": "busta-paga",
+      "rubrica": "Soldi e lavoro",
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"
+    },
+    {
+      "id": "cigo",
+      "rubrica": "Soldi e lavoro",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"
+    },
+    {
+      "id": "fis",
+      "rubrica": "Soldi e lavoro",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html"
+    },
+    {
+      "id": "lavoro",
+      "rubrica": "Soldi e lavoro",
+      "url": "https://www.lavoro.gov.it/"
+    },
+    {
+      "id": "pensioni",
+      "rubrica": "Pensione e invalidità",
+      "url": "https://www.inps.it/"
+    },
+    {
+      "id": "cartelle",
+      "rubrica": "Debiti e cartelle",
+      "url": "https://www.agenziaentrateriscossione.gov.it/"
+    },
+    {
+      "id": "agevolazioni",
+      "rubrica": "Agevolazioni e diritti",
+      "url": "https://www.regione.fvg.it/"
+    },
+    {
+      "id": "salute",
+      "rubrica": "Salute e autonomia",
+      "url": "https://www.salute.gov.it/"
+    },
+    {
+      "id": "ai",
+      "rubrica": "Tutor AI essenziale",
+      "url": "https://www.agid.gov.it/"
+    },
+    {
+      "id": "priorita-inps-ricorsi",
+      "rubrica": "Pensione e invalidità",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "titolo": "Istanza di riesame e ricorso amministrativo pensionistico, TFS/TFR"
+    },
+    {
+      "id": "priorita-inps-permessi",
+      "rubrica": "Caregiver",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
+      "titolo": "Permessi legge 104/1992"
+    },
+    {
+      "id": "priorita-inps-universale",
+      "rubrica": "Caregiver",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.decreto-anziani-prestazione-universale.html",
+      "titolo": "Decreto Anziani — Prestazione Universale"
+    },
+    {
+      "id": "priorita-pngla-2026",
+      "rubrica": "Salute e autonomia",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf",
+      "titolo": "PNGLA 2026–2028 e allegati — Supplemento ordinario n. 32, GU n. 195 del 24 agosto 2026"
+    },
+    {
+      "id": "priorita-gmail-allegati",
+      "rubrica": "Digitale quotidiano",
+      "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it",
+      "titolo": "Invia allegati con un messaggio Gmail — Android"
+    },
+    {
+      "id": "priorita-samsung-file",
+      "rubrica": "Digitale quotidiano",
+      "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+      "titolo": "Come trovare e gestire file sul tuo dispositivo Samsung Galaxy"
+    }
+  ],
+  "dossier_prioritario": "FONTI/percorsi-prioritari-verifica-2026-11-27.json"
 }

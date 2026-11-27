@@ -1,5 +1,13 @@
 # Per Me — Piano editoriale e priorità
 
+## Consolidamento dei percorsi — 27 novembre 2026
+
+Su incarico di Enrico si completa il lavoro realizzabile senza coinvolgere specialisti o lettori: cinque percorsi con documenti, tre passi, alternativa, copia e stampa; riepiloghi tecnici aggiornati dai rapporti; confronto documentale di 15 affermazioni selezionate e manutenzione delle fonti specifiche. [Dossier e limiti](dossier-percorsi-prioritari-2026-11-27.md). Nessuna revisione professionale o prova con pubblico reale è attribuita a questo lavoro.
+
+La pianificazione settimanale delle fonti resta quella esistente, il lunedì alle 07:15 UTC. Sei fonti specifiche sono aggiunte alle nove già configurate; CIGO e legge sul prospetto paga erano già presenti. Le variazioni richiedono una lettura, senza aggiornamento automatico delle guide. Il PNGLA pubblicato in PDF è una versione fissa: il suo hash non segnala nuovi piani. La Prestazione universale richiede un controllo di contenuto prima del 31 dicembre 2026 e alla ripresa del 2027; il dossier conserva i successivi riesami proposti, senza attribuirli a revisioni già eseguite.
+
+Per Google resta autorevole il Rapporto Google del 27 novembre: cinque URL nel rapporto Pagine aggiornato al 23 novembre, recupero ordinario della sitemap non confermato. Questo intervento non modifica robots o canonical e non inventa impressioni, clic o visite.
+
 ## Ampliamento Digitale quotidiano — 27 novembre 2026
 
 Su incarico di Enrico, il percorso essenziale passa da due a cinque guide con app IO e pagoPA, documenti sul telefono e sicurezza di messaggi e accessi. Collegati i contenuti esistenti su INPS, SEND, Fascicolo sanitario e Tutor AI. Le prove e lo stato effettivo della pubblicazione sono registrati in [digitale-completamento-2026-11-27.md](digitale-completamento-2026-11-27.md). L’aggiunta non esaurisce ogni possibile argomento digitale e non modifica il calendario delle altre rubriche.
