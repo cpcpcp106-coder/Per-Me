@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-27",
+  "guide": "contributi-inps-estratto-conto-pensione-vicina.html",
+  "section": "ricongiunzione-gestione-separata",
+  "verification": "Testo completo del messaggio letto sul portale ufficiale nel browser; pagina dinamica. La sola risposta HTTP 200 senza caricamento del testo non e considerata verifica della fonte. Circolare 15 letta nel PDF ufficiale.",
+  "sources": [
+    {
+      "url": "https://www.inps.it/it/it/inps-comunica/atti/circolari-messaggi-e-normativa/dettaglio.circolari-e-messaggi.2026.11.messaggio-numero-3900-del-26-11-2026_16428.html",
+      "document": "Messaggio INPS 3900 del 26-11-2026",
+      "paragraphs": [
+        "2",
+        "3",
+        "3.1"
+      ],
+      "verified_in": "browser pubblico INPS",
+      "pdf_url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/11/Circolare_16428/Allegati/18085_Messaggio-numero-3900-del-26-11-2026.pdf"
+    },
+    {
+      "url": "https://www.inps.it/content/dam/inps-site/it/scorporati/circolari-e-messaggi/2026/02/Circolare_15163/Allegati/16562_Circolare-numero-15-del-09-02-2026.pdf",
+      "document": "Circolare INPS 15 del 09-02-2026",
+      "verified_in": "PDF ufficiale via lettura web"
+    }
+  ],
+  "scope": "Domande anteriori al 09-02-2026 verso enti privati: pendenti oppure definite con accettazione e Gestione Separata esclusa esclusivamente per il precedente orientamento. Non beneficio generalizzato per tutti gli iscritti.",
+  "deadline": {
+    "period_months": 24,
+    "basis": "data di pubblicazione del messaggio del 26-11-2026",
+    "recipient": "ente privato competente",
+    "exact_calendar_deadline": "Non introdotta una data calendario o proroghe non esplicitate dalla fonte; chiedere conferma alla cassa."
+  },
+  "editorial_advice": "Lista documenti e tre passi sono consigli pratici Per Me; non allegati obbligatori indicati da INPS. Nessun canale PEC/modulo universale inventato.",
+  "image": "Foto esistente assets/pensione-guida-06.webp conservata; provenienza dichiarata dal curatore nel registro diritti immagini.",
+  "limits": [
+    "Controllo editoriale; nessuna revisione professionale indipendente attribuita.",
+    "Nessun accesso a pratiche personali, invio di domande previdenziali o pagamento."
+  ]
+}
