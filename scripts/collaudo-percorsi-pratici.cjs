@@ -65,6 +65,7 @@ async function main() {
     await page.emulateMedia({media:'print'});
     check(await page.locator('#percorso-documenti').isVisible() && !(await page.locator('#percorso-inps').isVisible()), 'Stampa del solo percorso scelto');
     check(!(await page.locator('header').isVisible()) && !(await page.locator('#percorso-documenti .percorso-azioni').isVisible()), 'Stampa senza navigazione e pulsanti');
+    check((await page.locator('#percorso-documenti a').first().evaluate(link => getComputedStyle(link,'::after').content)).includes(origin + 'digitale-documenti-telefono-pdf-allegati.html'), 'Stampa con indirizzo completo della guida');
     await page.evaluate(() => window.dispatchEvent(new Event('afterprint')));
     await page.emulateMedia({media:'screen'});
     check(await page.locator('#percorso-inps').isVisible(), 'Navigazione ripristinata dopo la stampa');

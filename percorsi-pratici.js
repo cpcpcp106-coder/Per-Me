@@ -32,6 +32,7 @@
   });
   window.addEventListener('afterprint', resetPrint);
   for (const card of cards) {
+    card.querySelectorAll('a[href]').forEach(link => { link.dataset.indirizzoStampa = link.href; });
     const controls = card.querySelector('.percorso-azioni');
     const status = controls.querySelector('[role="status"]');
     const fallback = controls.querySelector('.percorso-copia-manuale');
