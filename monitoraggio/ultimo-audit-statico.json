@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-27T07:24:19+00:00",
+  "date_utc": "2026-11-27T08:55:05+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 171,
@@ -8,9 +8,9 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 6214,
-    "external_occurrences": 2997,
-    "external_unique": 1109,
+    "local_occurrences": 6219,
+    "external_occurrences": 3000,
+    "external_unique": 1112,
     "actions": 14,
     "broken_local": [],
     "broken_anchors": []
@@ -841,14 +841,14 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 57,
-      "links_external": 31,
+      "links_local": 61,
+      "links_external": 34,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 26
+      "candidate_numeric_legal_mentions": 28
     },
     {
       "file": "controllare-cedolino-cassa-integrazione-solidarieta.html",
@@ -2401,7 +2401,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 44,
+      "links_local": 45,
       "links_external": 11,
       "missing_local": 0,
       "noindex": false,
