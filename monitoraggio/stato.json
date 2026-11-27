@@ -1,47 +1,77 @@
 {
   "busta-paga": {
     "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
-    "sha256": "2dbc1cf89f81c1c8f3deb7b81c7b627dbbbe1fa2b833d4f65811db183ae5d3c4",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "0697c1fc758010434f95c32f9674b0963f336dab57355220386d1d49c7c1bd4f",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "cigo": {
     "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
-    "sha256": "94b5c62a267547a0d450580c2808e75702e8ed1b9c576d0a94ea7c441c2cdec0",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "9764c7c24396bab78de0f846f87b2aba10e4aa19d16c6197bbef53e687d5cf52",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "fis": {
     "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50262.fondo-d-integrazione-salariale-fis-.html",
-    "sha256": "948a53c3bab45366918cbeeb1a758b1c911eb5f431f4b96bf3182162c2fad153",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "61250bc9b022309f3885f935efd3595006a28cb0440c813a740fe3fc0693e55a",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "lavoro": {
     "url": "https://www.lavoro.gov.it/",
-    "sha256": "1de76ea19d2682e7305bcf339f1776294ed4130af3a9b9f72d7b49300f0e58bd",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "3ab3296bfcd75903e460a6aa7cce3e4c4e97ff6a306184a1b64d6a1ccdd8842f",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "pensioni": {
     "url": "https://www.inps.it/",
-    "sha256": "a3a7385e7546e8eb6f5b5d41e5d8e4cee793aef4c414e998dcbe822b9507d826",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "b36f49e845dcf421a5681dce096194c2d4a461ecd7904742ac7f4e4a4ea76319",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "cartelle": {
     "url": "https://www.agenziaentrateriscossione.gov.it/",
     "sha256": "02c1feea9d74c2880b39799a10573a755053470db66836a8a27c9c8a429ed6fe",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "agevolazioni": {
     "url": "https://www.regione.fvg.it/",
-    "sha256": "3a6c9466e3c357a73ca202ab1f1f332d905a30f202e94b602528a2f565ad087d",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "cdc3c0cfdc54f08eaf1a88a972d0a7a8bbbf819e581b99c5c48a1b7d41d95121",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "salute": {
     "url": "https://www.salute.gov.it/",
-    "sha256": "7376a3cb1f9e1e73450e87c223ca5f3656940e4e2575064895433c589b76f799",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "fcdd68463977acdebc33467291325661f6f5fd1ca76eebf5f15b1bace3a61c3c",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   },
   "ai": {
     "url": "https://www.agid.gov.it/",
-    "sha256": "7fe10b8b8b28c8b54c3593952677d1211e40246140f8f2062e64ed1d74ceed2a",
-    "last_checked": "2026-11-24T11:41:02+00:00"
+    "sha256": "45df890d609d1b0d50e137735d9319bb5491b4a2590db80abd2f7562c9359b4d",
+    "last_checked": "2026-11-27T14:34:46+00:00"
+  },
+  "priorita-inps-ricorsi": {
+    "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+    "sha256": "73c640836b73201b8c5d0b554ddc037647673b16f40fbd1f7d1457876354dcd3",
+    "last_checked": "2026-11-27T14:34:46+00:00"
+  },
+  "priorita-inps-permessi": {
+    "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
+    "sha256": "cf3bff8e861865ce209ce05158c2049b064751e5e745c5baf2a4990e4fadcb99",
+    "last_checked": "2026-11-27T14:34:46+00:00"
+  },
+  "priorita-inps-universale": {
+    "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.decreto-anziani-prestazione-universale.html",
+    "sha256": "80e9ab1f69a4795c89e6cd81375b8a2482cdbb835cef7da3358578c7c0495f83",
+    "last_checked": "2026-11-27T14:34:46+00:00"
+  },
+  "priorita-pngla-2026": {
+    "url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf",
+    "sha256": "e3495b4aa8b369bed302f7af427c35b77d801246f1bd930fb00d076866dd91a4",
+    "last_checked": "2026-11-27T14:34:46+00:00"
+  },
+  "priorita-gmail-allegati": {
+    "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it",
+    "sha256": "a24dd7cf9536e8e0fa76763159a69fab28fbd1fbb5a912bb8766d59d52419b88",
+    "last_checked": "2026-11-27T14:34:46+00:00"
+  },
+  "priorita-samsung-file": {
+    "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+    "sha256": "fca32ed3f59584ea27da88944c8dc37b4c47192cb64444adf3258498a4c480be",
+    "last_checked": "2026-11-27T14:34:46+00:00"
   }
 }
