@@ -4,8 +4,8 @@
 .digitale-page .foto-guida img{display:block;width:100%;max-width:100%;height:auto;border-radius:8px}
 .digitale-page figcaption,.digitale-page .digitale-data{font-size:1rem;line-height:1.5;color:#46564f;margin-top:10px}
 .digitale-page .digitale-scelte{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0}
-.digitale-page .digitale-button,.digitale-page .digitale-button:visited,.digitale-page .digitale-button:hover,.digitale-page .digitale-button:focus-visible{display:inline-flex;align-items:center;justify-content:center;min-height:56px;min-width:0;max-width:100%;padding:14px 18px;border:2px solid #234438;border-radius:8px;background:#234438;color:#fff;font-size:1.08rem;font-weight:750;text-decoration:none;text-align:center;line-height:1.5}
-.digitale-page .digitale-button:hover{background:#172e25}
+.digitale-page .article .digitale-button,.digitale-page .article .digitale-button:visited,.digitale-page .article .digitale-button:hover,.digitale-page .article .digitale-button:focus-visible{display:inline-flex;align-items:center;justify-content:center;min-height:56px;min-width:0;max-width:100%;padding:14px 18px;border:2px solid #234438;border-radius:8px;background:#234438;color:#fff;font-size:1.08rem;font-weight:750;text-decoration:none;text-align:center;line-height:1.5}
+.digitale-page .article .digitale-button:hover{background:#172e25}
 .digitale-page .digitale-button:focus-visible{outline:3px solid #9a5900;outline-offset:4px}
 .digitale-page section[id]{scroll-margin-top:20px}
 .digitale-page ol{padding-left:1.5em}

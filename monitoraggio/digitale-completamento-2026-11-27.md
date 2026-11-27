@@ -35,6 +35,12 @@ Esiti in `digitale-completamento-collaudi-2026-11-27.json`. La ricerca condivisa
 
 Candidato preparato e verificato localmente. Controlli GitHub e verifica della pubblicazione pubblica ancora da completare al momento di questo commit. Aggiornare questa sezione con gli esiti reali dopo la pubblicazione.
 
+## Integrazione con gli aggiornamenti contemporanei
+
+Il candidato è stato integrato con `f2662db`, che comprende la pubblicazione di Fisco semplice nella PR 50. Conservati i relativi contenuti, i record delle immagini, la categoria nell’app, gli indirizzi della sitemap e lo stato del piano editoriale. Le liste condivise sono state unite per identificatore; l’audit statico è stato rigenerato. Cache app versione 37 e catalogo condiviso versione 8, per rendere disponibile la versione unificata. Aggiornati i riferimenti al foglio di stile nelle sei pagine digitali, conservando la correzione di contrasto già presente su main. Le date editoriali delle due guide iniziali restano quelle della verifica dei loro contenuti.
+
+Ripetuti sulla versione integrata gli otto controlli statici, i 19 test dell’app, le 146 verifiche Digitale e i controlli axe sulle pagine interessate.
+
 ## Limiti
 
 Nessun pagamento reale, accesso ai servizi del lettore o prova su telefono fisico. I controlli automatici e le viewport simulate non certificano accessibilità o comprensione da parte di lettori reali. Il percorso essenziale non esaurisce tutti gli argomenti digitali e resta soggetto ad aggiornamento. La presenza in sitemap e l’indicizzabilità non dimostrano indicizzazione su Google. Nessun invio social effettuato in questo intervento.

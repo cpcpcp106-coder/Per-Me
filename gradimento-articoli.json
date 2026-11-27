@@ -615,6 +615,21 @@
     "category": "Soldi & Lavoro"
   },
   {
+    "path": "fisco-semplice.html",
+    "title": "Fisco semplice",
+    "category": "Fisco semplice"
+  },
+  {
+    "path": "fisco-730-precompilato-controlli.html",
+    "title": "730 precompilato: cosa controllare prima di inviarlo",
+    "category": "Fisco semplice"
+  },
+  {
+    "path": "fisco-f24-verifica-pagamento.html",
+    "title": "F24: come verificare il pagamento e trovare la quietanza",
+    "category": "Fisco semplice"
+  },
+  {
     "path": "digitale-io-pagopa-avvisi-ricevute.html",
     "title": "App IO e pagoPA: avvisi, pagamenti e ricevute",
     "category": "Digitale quotidiano"

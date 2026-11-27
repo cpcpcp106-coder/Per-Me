@@ -1,0 +1,120 @@
+{
+  "verificato_il_utc": "2026-11-27T07:17:09.280234+00:00",
+  "risorse": {
+    "https://cpcpcp106-coder.github.io/Per-Me/fisco-semplice.html": {
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "html_corrispondente_al_candidato": true
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/fisco-730-precompilato-controlli.html": {
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "html_corrispondente_al_candidato": true
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/fisco-f24-verifica-pagamento.html": {
+      "http": 200,
+      "content_type": "text/html; charset=utf-8",
+      "html_corrispondente_al_candidato": true
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/assets/fisco-730-controlli-originale.webp": {
+      "http": 200,
+      "content_type": "image/webp",
+      "sha256": "bc180b47eadb0fe5b0305941fe0e7c64f46a16f7372816c4b84255a6120213b3",
+      "dimensioni": [
+        1440,
+        960
+      ]
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/assets/fisco-f24-ricevuta-originale.webp": {
+      "http": 200,
+      "content_type": "image/webp",
+      "sha256": "c215d70438723559c5f0e17d451014df8d15968f7ac8abd7d76320454fa87f9b",
+      "dimensioni": [
+        1440,
+        960
+      ]
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/": {
+      "http": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/app/": {
+      "http": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/app/catalogo-guide.js?v=7": {
+      "http": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/app/sw.js": {
+      "http": 200,
+      "content_type": "application/javascript; charset=utf-8"
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml": {
+      "http": 200,
+      "content_type": "application/xml"
+    },
+    "https://cpcpcp106-coder.github.io/Per-Me/sitemap.txt": {
+      "http": 200,
+      "content_type": "text/plain; charset=utf-8"
+    }
+  },
+  "sitemap": {
+    "xml": 164,
+    "txt": 164,
+    "nuovi_url": 3
+  },
+  "pr": 50,
+  "merge_sha": "6ed7dce052597088f6e97268351e6b0484c28bb0",
+  "pages_sha": "94f5784b48ba029f2341575edb4b6bd1b456569d",
+  "pages_workflow": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957262751",
+  "controlli_pr_superati": 23,
+  "browser_mobile_390": [
+    {
+      "page": "https://cpcpcp106-coder.github.io/Per-Me/fisco-semplice.html",
+      "http": 200,
+      "title": "Fisco semplice",
+      "photo": "https://cpcpcp106-coder.github.io/Per-Me/assets/fisco-730-controlli-originale.webp",
+      "facebook": "https://www.facebook.com/PerMeGuide/",
+      "button": {
+        "height": 59.53125,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(35, 68, 56)"
+      }
+    },
+    {
+      "page": "https://cpcpcp106-coder.github.io/Per-Me/fisco-730-precompilato-controlli.html",
+      "http": 200,
+      "title": "730 precompilato: cosa controllare prima di inviarlo",
+      "photo": "https://cpcpcp106-coder.github.io/Per-Me/assets/fisco-730-controlli-originale.webp",
+      "facebook": "https://www.facebook.com/PerMeGuide/",
+      "button": {
+        "height": 59.53125,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(35, 68, 56)"
+      }
+    },
+    {
+      "page": "https://cpcpcp106-coder.github.io/Per-Me/fisco-f24-verifica-pagamento.html",
+      "http": 200,
+      "title": "F24: come verificare il pagamento e trovare la quietanza",
+      "photo": "https://cpcpcp106-coder.github.io/Per-Me/assets/fisco-f24-ricevuta-originale.webp",
+      "facebook": "https://www.facebook.com/PerMeGuide/",
+      "button": {
+        "height": 59.53125,
+        "color": "rgb(255, 255, 255)",
+        "bg": "rgb(35, 68, 56)"
+      }
+    }
+  ],
+  "collaudo_locale": {
+    "verifiche_browser": 58,
+    "viewport_px": [
+      320,
+      390
+    ],
+    "ingrandimento_testo_percentuale": 200,
+    "test_app": 19,
+    "lettura_offline_guide": 2
+  }
+}
