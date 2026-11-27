@@ -94,6 +94,7 @@ async function main() {
   await page.waitForFunction(() => document.getElementById('statico-stato').textContent.startsWith('Controllo statico del'));
   check(Number(await page.locator('#statico-pagine').innerText()) > 0 && (await page.locator('#browser-stato').innerText()).includes('riuscite su'), 'Riepiloghi aggiornati dalle evidenze');
   await page.evaluate(() => document.documentElement.style.fontSize = '200%');
+  if (!(await fit(page))) console.log('Dettagli reflow monitoraggio', await page.evaluate(() => ({viewport:innerWidth,scrollWidth:document.documentElement.scrollWidth,elements:[...document.querySelectorAll('body *')].map(e => ({tag:e.tagName,id:e.id,text:e.textContent.slice(0,80),right:e.getBoundingClientRect().right,left:e.getBoundingClientRect().left})).filter(e => e.right > innerWidth + 2 || e.left < -2).slice(0,10)})));
   check(await fit(page), 'Monitoraggio leggibile al 200%');
   await page.route('**/ultimo-audit-statico.json', route => route.fulfill({json:{date_utc:null,scope:{editorial_pages:999}}}));
   await page.route('**/ultimo-collaudo-browser.json', route => route.fulfill({json:{checked_at_utc:'2026-11-27T12:00:00Z',status:'STARTED',tests:[{result:'PASS'}]}}));
