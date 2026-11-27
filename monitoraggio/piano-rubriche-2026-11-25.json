@@ -34,7 +34,18 @@
     {
       "nome": "Fisco semplice",
       "data_obiettivo": "2026-11-27",
-      "stato": "da_preparare"
+      "stato": "candidato_al_collaudo",
+      "path": "fisco-semplice.html",
+      "guide": [
+        "fisco-730-precompilato-controlli.html",
+        "fisco-f24-verifica-pagamento.html"
+      ],
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/fisco-semplice.html",
+      "url_guide": [
+        "https://cpcpcp106-coder.github.io/Per-Me/fisco-730-precompilato-controlli.html",
+        "https://cpcpcp106-coder.github.io/Per-Me/fisco-f24-verifica-pagamento.html"
+      ],
+      "registro": "monitoraggio/fisco-semplice-2026-11-27.md"
     },
     {
       "nome": "Casa e autonomia quotidiana",
