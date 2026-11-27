@@ -22,6 +22,11 @@ on:
       - 'site/**'
       - 'scripts/genera-ricette-mediterranee.cjs'
       - 'scripts/collaudo-tre-fasi.cjs'
+      - 'scripts/collaudo-percorsi-pratici.cjs'
+      - 'percorsi-pratici.js'
+      - 'percorsi-pratici.css'
+      - 'monitoraggio.html'
+      - 'monitoraggio/riepilogo-controlli.js'
       - 'scripts/collaudo-lievito-madre.cjs'
       - 'lievito-madre.html'
       - 'pasta-madre-solida-da-zero.html'
@@ -46,10 +51,12 @@ jobs:
           node-version: '22'
       - name: Installa Playwright Chromium
         run: |
-          npm install --no-save playwright@1.56.1
+          npm install --no-save playwright@1.56.1 axe-core
           npx playwright install --with-deps chromium
       - name: Esegui test locali su viewport 320 e 390
         run: node scripts/collaudo-tre-fasi.cjs
+      - name: Verifica percorsi, copia, stampa e riepiloghi dei controlli
+        run: node scripts/collaudo-percorsi-pratici.cjs
       - name: Verifica lettura, riscontri, riepilogo PDF e app offline
         run: node scripts/collaudo-migliorie-20261120.cjs
       - name: Verifica i lieviti, le fotografie e la lettura offline

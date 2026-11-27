@@ -2,6 +2,7 @@ name: Per Me - Controllo fonti e collegamenti
 on:
   workflow_dispatch:
   push:
+    branches: [main]
     paths:
       - '.github/workflows/monitoraggio.yml'
       - 'monitoraggio/controlla.py'

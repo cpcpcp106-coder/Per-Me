@@ -1,0 +1,523 @@
+{
+  "schema_version": 1,
+  "data_verifica": "2026-11-27",
+  "progetto": "Per Me",
+  "tipo_controllo": "confronto_documentale_AI",
+  "scopo": "Tre affermazioni operative selezionate per ciascuna di cinque guide locali. Il riscontro non è una validazione integrale delle guide.",
+  "esiti_ammessi": {
+    "verificato": "Affermazione riscontrata nel contenuto primario letto, entro ambito e limiti indicati.",
+    "parziale": "Solo parte dell'affermazione riscontrata oppure fonte non sufficiente per l'intera formulazione.",
+    "non_accertato": "Contenuto primario pertinente non letto o prova insufficiente."
+  },
+  "limiti_generali": [
+    "Non è una revisione clinica, previdenziale o giuridica indipendente da professionisti.",
+    "Non sono stati coinvolti lettori o specialisti, né analizzate pratiche personali.",
+    "Nessuna affermazione è attestata dal solo stato HTTP o da uno snippet di ricerca.",
+    "Non sono state eseguite prove su telefoni fisici, richieste nei CUP o accessi a fascicoli INPS personali.",
+    "Le date di controllo non sono nuove date di revisione integrale da applicare automaticamente alle guide."
+  ],
+  "riepilogo": {
+    "guide": 5,
+    "affermazioni": 15,
+    "verificato": 15,
+    "parziale": 0,
+    "non_accertato": 0,
+    "errori_sostanziali_accertati": 0,
+    "rinvii_editoriali_da_correggere": 1
+  },
+  "fonti": [
+    {
+      "id": "INPS_AOI",
+      "ente": "INPS",
+      "titolo": "Assegno ordinario di invalidità: richiesta di conferma",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.assegno-ordinario-di-invalidit-richiesta-di-conferma.html",
+      "aggiornamento_dichiarato": "2025-03-04",
+      "riferimento": "Come funziona",
+      "lettura": "Testo della scheda, paragrafo su durata e finestra della conferma.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INPS_RICORSI",
+      "ente": "INPS",
+      "titolo": "Istanza di riesame e ricorso amministrativo pensionistico, TFS/TFR",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html",
+      "riferimento": "Domanda — Quando fare domanda",
+      "lettura": "Testo su autotutela, mancata sospensione dei termini, termine generale e gestioni con termini diversi.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INPS_PAGAMENTI",
+      "ente": "INPS",
+      "titolo": "Stato di un pagamento",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.stato-di-un-pagamento.html",
+      "aggiornamento_dichiarato": "2026-11-13",
+      "riferimento": "Come funziona",
+      "lettura": "Testo della limitazione ai pagamenti disposti nei due mesi precedenti.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INPS_PERMESSI",
+      "ente": "INPS",
+      "titolo": "Permessi legge 104/1992",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html",
+      "aggiornamento_dichiarato": "2026-10-21",
+      "riferimento": "A chi è rivolto; Come funziona",
+      "lettura": "Beneficiari, competenza per dipendenti privati e pubblici, tre giorni complessivi e alternanza.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INPS_CONGEDO",
+      "ente": "INPS",
+      "titolo": "Domande di congedi straordinari",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50097.indennit-per-congedi-straordinari-assistenza-familiari-disabili-.html",
+      "aggiornamento_dichiarato": "2026-10-21",
+      "riferimento": "A chi è rivolto; Come funziona — Decorrenza e durata; Quanto spetta",
+      "lettura": "Ordine dei familiari, convivenza entro l'inizio, durata complessiva nella vita lavorativa e base dell'indennità.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INPS_UNIVERSALE",
+      "ente": "INPS",
+      "titolo": "Decreto Anziani — Prestazione Universale",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.decreto-anziani-prestazione-universale.html",
+      "aggiornamento_dichiarato": "2026-06-08",
+      "riferimento": "Cos'è; Come funziona; Domanda — Requisiti",
+      "lettura": "Durata della sperimentazione, requisiti cumulativi, quota integrativa e destinazioni di spesa ammesse.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "NORMA_PAGA",
+      "ente": "Normattiva",
+      "titolo": "Legge 5 gennaio 1953, n. 4 — articolo 1",
+      "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED",
+      "aggiornamento_dichiarato": "2026-06-27",
+      "riferimento": "Articolo 1, testo in vigore dal 28 giugno 2026",
+      "lettura": "Testo vigente dell'articolo sugli elementi del prospetto paga e sulle singole trattenute.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INPS_CIGO",
+      "ente": "INPS",
+      "titolo": "Cassa Integrazione Guadagni Ordinaria",
+      "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html",
+      "aggiornamento_dichiarato": "2026-08-10",
+      "riferimento": "Come funziona — Quanto spetta; Come avviene il pagamento",
+      "lettura": "Regola dell'80% della retribuzione per ore non prestate, massimali e pagamento ordinariamente anticipato dall'impresa o diretto se autorizzato.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "INL_PAGAMENTO",
+      "ente": "Ispettorato Nazionale del Lavoro",
+      "titolo": "Nota del 22 marzo 2021 — Tracciabilità della retribuzione",
+      "url": "https://www.ispettorato.gov.it/files/2023/01/INL-nota-22-marzo-2021-sanzioni-tracciabilita-retribuzioni.pdf",
+      "riferimento": "PDF, pagine 1–2",
+      "lettura": "Nota integrale sulla prova dei versamenti e sul valore della firma sulla busta paga.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "PNGLA_2026",
+      "ente": "Gazzetta Ufficiale / Ministero della Salute",
+      "titolo": "PNGLA 2026–2028 e allegati — Supplemento ordinario n. 32, GU n. 195 del 24 agosto 2026",
+      "url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf",
+      "aggiornamento_dichiarato": "2026-08-24",
+      "riferimento": "Decreto 26 giugno 2026; PNGLA sezioni 2.2 e 4.2",
+      "lettura": "Testo del decreto nella copia ufficiale; lettura visiva del PDF scaricato alle pagine 17–18 e 24, dopo aver riscontrato una mappatura font errata nell'estrazione automatica.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "GMAIL_DOWNLOAD",
+      "ente": "Google",
+      "titolo": "Aprire e scaricare gli allegati in Gmail — Android",
+      "url": "https://support.google.com/mail/answer/30719?co=GENIE.Platform%3DAndroid&hl=it",
+      "riferimento": "Scarica allegati; Informazioni sugli allegati sospetti",
+      "lettura": "Istruzioni per aprire il messaggio e scaricare l'allegato sul dispositivo Android.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "SAMSUNG_FILE",
+      "ente": "Samsung Italia",
+      "titolo": "Come trovare e gestire file sul tuo dispositivo Samsung Galaxy",
+      "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+      "aggiornamento_dichiarato": "2026-05-26",
+      "riferimento": "Come trovare i file scaricati; note sulle variazioni dei menu",
+      "lettura": "Procedura Archivio, Download, Cerca e nota sulle differenze secondo modello e versione.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    },
+    {
+      "id": "GMAIL_ALLEGATI",
+      "ente": "Google",
+      "titolo": "Invia allegati con un messaggio Gmail — Android",
+      "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it",
+      "riferimento": "Scopri come funzionano gli allegati nell'app Gmail; Inviare un allegato",
+      "lettura": "Limite degli account personali, limiti amministrati Workspace, conversione oltre limite in link Drive e selezione File.",
+      "consultato_il": "2026-11-27",
+      "tipo_fonte": "primaria",
+      "accesso": "contenuto_letto"
+    }
+  ],
+  "guide": [
+    {
+      "guida": "inps-prestazione-sospesa-respinta-cosa-fare.html",
+      "ambito": "Italia; orientamento iniziale su prestazioni e pagamenti INPS, senza valutazione del provvedimento personale",
+      "affermazioni": [
+        {
+          "id": "inps-01",
+          "sezione_guida": "2. Prima identifica il nome esatto della prestazione",
+          "affermazione": "L'AOI dura tre anni; se persistono i requisiti, la conferma si può richiedere nel semestre precedente la scadenza oppure entro 120 giorni dopo.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_AOI"
+          ],
+          "riscontro": "La sezione Come funziona riporta durata triennale e le due finestre temporali.",
+          "limiti": "Questo riscontro riguarda durata e finestra della domanda. Non rivaluta qui le ulteriori regole della guida su decorrenza, conferma dopo il terzo riconoscimento e domande oltre 120 giorni.",
+          "trigger_aggiornamento": [
+            "Modifica della scheda INPS o della legge 222/1984",
+            "Cambiamento del servizio di conferma AOI"
+          ]
+        },
+        {
+          "id": "inps-02",
+          "sezione_guida": "7. Chiarimenti, riesame e ricorso: quale strada?",
+          "affermazione": "L'avvio del riesame in autotutela non sospende i termini dei ricorsi amministrativi o giudiziari; il termine generale di 90 giorni non vale indistintamente per ogni gestione.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_RICORSI"
+          ],
+          "riscontro": "La scheda distingue riesame e ricorso, esclude la sospensione e descrive i 90 giorni generali con eccezioni di 30 giorni per specifiche gestioni.",
+          "limiti": "Non è un calcolo del termine individuale e non sostituisce la lettura del provvedimento, della notifica e del rimedio applicabile. La tutela sanitaria dell'invalidità civile non è oggetto di questo riscontro.",
+          "trigger_aggiornamento": [
+            "Modifica dei termini o delle gestioni competenti",
+            "Nuova circolare o modifica della scheda ricorsi"
+          ]
+        },
+        {
+          "id": "inps-03",
+          "sezione_guida": "3. Come verificare il problema in MyINPS",
+          "affermazione": "Nel servizio Stato di un pagamento non si visualizzano i dati dei pagamenti disposti oltre i due mesi precedenti la consultazione.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_PAGAMENTI"
+          ],
+          "riscontro": "Il limite temporale è esplicito nella sezione Come funziona.",
+          "limiti": "Riguarda questo specifico servizio, non tutta la documentazione INPS. Non è stato effettuato accesso a un fascicolo personale e non si conferma alcun pagamento effettivo.",
+          "trigger_aggiornamento": [
+            "Modifica del periodo esposto o dell'interfaccia MyINPS",
+            "Sostituzione del servizio ultimi pagamenti"
+          ]
+        }
+      ]
+    },
+    {
+      "guida": "caregiver-familiari-anziani-disabilita-legge-104.html",
+      "ambito": "Italia; diritti nazionali del familiare e orientamento alle prestazioni, con requisiti individuali da accertare",
+      "affermazioni": [
+        {
+          "id": "caregiver-01",
+          "sezione_guida": "3. Permessi per assistere un familiare",
+          "affermazione": "Per l'assistenza alla stessa persona i tre giorni mensili restano complessivi, anche quando più familiari aventi diritto sono autorizzati e li usano in alternativa.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_PERMESSI"
+          ],
+          "riscontro": "La scheda INPS consente più aventi diritto ma mantiene il limite complessivo mensile e l'alternanza.",
+          "limiti": "Occorrono i requisiti sanitari e lavorativi. Dipendenti pubblici: domanda al datore; privati: competenza INPS. Non sono tre giorni per ciascun familiare. Riproporzionamenti e casi particolari non sono ricalcolati.",
+          "trigger_aggiornamento": [
+            "Modifiche all'articolo 33 della legge 104/1992",
+            "Nuove istruzioni INPS su alternanza, part-time o requisiti"
+          ]
+        },
+        {
+          "id": "caregiver-02",
+          "sezione_guida": "4. Congedo e altre tutele sul lavoro",
+          "affermazione": "Il congedo straordinario ha durata massima complessiva di due anni nella vita lavorativa; l'accesso segue l'ordine dei familiari e la convivenza quando richiesta deve iniziare entro l'avvio del congedo.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_CONGEDO"
+          ],
+          "riscontro": "Sono riportati il limite nella vita lavorativa, l'ordine di priorità e la decorrenza della convivenza. L'indennità ha base e massimale specifici.",
+          "limiti": "La verifica non assegna il diritto a un familiare concreto né ricostruisce i periodi usati da più persone per lo stesso assistito. La semplice indisponibilità dei familiari precedenti non è un requisito sostitutivo.",
+          "trigger_aggiornamento": [
+            "Modifiche all'articolo 42 del d.lgs. 151/2001",
+            "Aggiornamento annuo dei massimali",
+            "Nuove istruzioni o pronunce su priorità e convivenza"
+          ]
+        },
+        {
+          "id": "caregiver-03",
+          "sezione_guida": "5. Accompagnamento e sostegni economici — Prestazione universale",
+          "affermazione": "La sperimentazione termina il 31 dicembre 2026; servono almeno 80 anni, accompagnamento, bisogno assistenziale gravissimo, ISEE sociosanitario non oltre 6.000 euro e assenza di ricovero in RSA o struttura analoga. La quota integrativa di circa 850 euro è vincolata a spese ammesse.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_UNIVERSALE"
+          ],
+          "riscontro": "La scheda conferma periodo, requisiti cumulativi e destinazioni della quota integrativa nei limiti delle risorse.",
+          "limiti": "Non è un compenso generale al caregiver. Valutazione INPS e uso documentato della quota restano necessari; non è verificata l'ammissibilità di una spesa concreta o la compatibilità con un singolo contributo territoriale.",
+          "trigger_aggiornamento": [
+            "Ricontrollo prima del 31 dicembre 2026 e dal 1 gennaio 2027",
+            "Proroga o modifica della sperimentazione",
+            "Modifica di requisiti, spese ammesse o risorse"
+          ]
+        }
+      ]
+    },
+    {
+      "guida": "stipendio-diminuito-cosa-controllare.html",
+      "ambito": "Italia; confronto documentale di cedolini di lavoro dipendente, senza ricostruzione di un credito individuale",
+      "affermazioni": [
+        {
+          "id": "stipendio-01",
+          "sezione_guida": "1. Metti a confronto i documenti giusti",
+          "affermazione": "La legge 4/1953 impone, nel proprio ambito, di distinguere gli elementi retributivi e le singole trattenute nel prospetto paga.",
+          "esito": "verificato",
+          "fonti": [
+            "NORMA_PAGA"
+          ],
+          "riscontro": "L'articolo 1 vigente elenca gli elementi del prospetto e le trattenute da indicare distintamente.",
+          "limiti": "Sono previste esclusioni e ambiti applicativi: il riscontro non estende l'obbligo a ogni rapporto. Il testo attuale comprende anche l'identificazione del CCNL; non dimostra che un cedolino reale sia corretto.",
+          "trigger_aggiornamento": [
+            "Nuova modifica della legge 4/1953",
+            "Cambiamento degli obblighi sul prospetto o sul codice CCNL"
+          ]
+        },
+        {
+          "id": "stipendio-02",
+          "sezione_guida": "5. Cassa integrazione e contratto di solidarietà",
+          "affermazione": "La CIGO è in linea generale l'80% della retribuzione globale per le ore non prestate, entro massimali: non è una promessa dell'80% del precedente netto.",
+          "esito": "verificato",
+          "fonti": [
+            "INPS_CIGO"
+          ],
+          "riscontro": "La scheda calcola il trattamento sulle ore non prestate e applica massimali mensili rivalutati annualmente.",
+          "limiti": "Non sono calcolati massimali, imposte o importi del lavoratore. CIGO, altri fondi e solidarietà richiedono l'identificazione del trattamento effettivo. Pagamento diretto e anticipo aziendale possono dare documenti separati.",
+          "trigger_aggiornamento": [
+            "Aggiornamento annuo dei massimali",
+            "Modifica della disciplina CIGO o delle modalità di pagamento"
+          ]
+        },
+        {
+          "id": "stipendio-03",
+          "sezione_guida": "6. Se il bonifico non coincide con il netto",
+          "affermazione": "Il cedolino, da solo, non dimostra che la retribuzione sia stata effettivamente pagata; occorre riscontrare i pagamenti.",
+          "esito": "verificato",
+          "fonti": [
+            "INL_PAGAMENTO"
+          ],
+          "riscontro": "La nota INL richiede prova delle operazioni tracciabili e chiarisce che la firma sulla busta paga non prova il pagamento.",
+          "limiti": "La nota riguarda la disciplina della tracciabilità e il relativo controllo ispettivo. Una differenza tra netto e singolo accredito richiede prima la ricerca di anticipi, saldi e rettifiche; non accerta automaticamente un inadempimento.",
+          "trigger_aggiornamento": [
+            "Modifiche alla legge 205/2017, commi 910–913",
+            "Nuove istruzioni INL sulla prova del pagamento"
+          ]
+        }
+      ]
+    },
+    {
+      "guida": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "ambito": "Italia; specialistica ambulatoriale SSN, con procedure operative definite anche a livello regionale e aziendale",
+      "affermazioni": [
+        {
+          "id": "cup-01",
+          "sezione_guida": "1. Leggi la prescrizione: priorità e tipo di accesso",
+          "affermazione": "Per i primi accessi il PNGLA indica U entro 72 ore, B entro 10 giorni, D entro 30 giorni per visite e 60 per diagnostica, P entro 120 giorni.",
+          "esito": "verificato",
+          "fonti": [
+            "PNGLA_2026"
+          ],
+          "riscontro": "Tabella letta visivamente a pagina PDF 18, pagina stampata 14, nella sezione 2.2 che inizia alla pagina PDF 17.",
+          "limiti": "Sono tempi della prestazione per primi accessi, non validità uniforme della ricetta o tempi dei controlli. La verifica non controlla ogni piano regionale. Il rinvio originale della guida alla sezione 3.2 va corretto in 2.2; le soglie della tabella sono corrette.",
+          "trigger_aggiornamento": [
+            "Nuovo PNGLA o modifica dei tempi nazionali",
+            "Nuovo piano regionale o mutamento del percorso di accesso"
+          ]
+        },
+        {
+          "id": "cup-02",
+          "sezione_guida": "3. Come chiedere il percorso di tutela",
+          "affermazione": "Quando non è garantita una prestazione di primo accesso nei tempi, il percorso di tutela è organizzato dall'azienda sanitaria; il PNGLA esclude il rimborso a posteriori di prestazioni prenotate autonomamente su agende private o libero professionali.",
+          "esito": "verificato",
+          "fonti": [
+            "PNGLA_2026"
+          ],
+          "riscontro": "Sezione 4.2 letta visivamente, pagina PDF 24, pagina stampata 20: presa in carico aziendale ed esclusione del rimborso a posteriori.",
+          "limiti": "Il canale, il modulo e l'ambito di garanzia dipendono dalle regole locali. Non è verificata una richiesta reale né si promettono disponibilità immediata o rimborso.",
+          "trigger_aggiornamento": [
+            "Modifica della sezione 4.2 o dell'articolo 3 del d.l. 73/2024",
+            "Nuove procedure regionali o aziendali di tutela"
+          ]
+        },
+        {
+          "id": "cup-03",
+          "sezione_guida": "5. Conferma o disdici nei tempi",
+          "affermazione": "Il sistema nazionale richiede conferma o cancellazione almeno due giorni lavorativi prima; la mancata presenza senza giustificata disdetta può comportare la quota prevista anche per esenti, salvo le eccezioni indicate.",
+          "esito": "verificato",
+          "fonti": [
+            "PNGLA_2026"
+          ],
+          "riscontro": "Il decreto di adozione riproduce e attua i commi 5 e 7 dell'articolo 3 del d.l. 73/2024; testo letto alle pagine PDF 6–7, stampate 2–3.",
+          "limiti": "Verificare sempre termine preciso, canale e giustificativi locali. Non è stata ricostruita la disciplina sanzionatoria di ogni Regione né la data di adeguamento dei singoli CUP.",
+          "trigger_aggiornamento": [
+            "Modifica dei commi 5 e 7 o delle linee CUP",
+            "Modifica di termini, canali o giustificativi nella Regione dell'utente"
+          ]
+        }
+      ]
+    },
+    {
+      "guida": "digitale-documenti-telefono-pdf-allegati.html",
+      "ambito": "Documentazione dei produttori per Gmail su Android e Archivio Samsung; nessuna prova su telefono fisico",
+      "affermazioni": [
+        {
+          "id": "digitale-01",
+          "sezione_guida": "Scaricare un allegato da Gmail su Android",
+          "affermazione": "In Gmail Android si apre il messaggio e si usa il comando Scarica sull'allegato per salvarlo sul dispositivo.",
+          "esito": "verificato",
+          "fonti": [
+            "GMAIL_DOWNLOAD"
+          ],
+          "riscontro": "La procedura ufficiale distingue il download sul dispositivo dal salvataggio in Drive.",
+          "limiti": "Non è stato eseguito un download su un telefono fisico. Account, blocchi di sicurezza, spazio e versione possono modificare il percorso. Le anteprime non attestano un salvataggio completato.",
+          "trigger_aggiornamento": [
+            "Aggiornamento dell'app Gmail o dei comandi allegati",
+            "Modifica della pagina di assistenza o dei blocchi di sicurezza"
+          ]
+        },
+        {
+          "id": "digitale-02",
+          "sezione_guida": "Su Samsung: cercare in Archivio",
+          "affermazione": "Per cercare un file scaricato su Galaxy si può aprire Archivio, selezionare Download e usare la lente con parte del nome.",
+          "esito": "verificato",
+          "fonti": [
+            "SAMSUNG_FILE"
+          ],
+          "riscontro": "La pagina Samsung elenca Archivio, Download, Cerca, nome del file e apertura del risultato.",
+          "limiti": "Samsung dichiara differenze secondo dispositivo, software e app. Non tutti i contenuti sono accessibili fuori dall'app che li ha salvati. Nessun dispositivo fisico è stato provato.",
+          "trigger_aggiornamento": [
+            "Nuova versione di One UI o Archivio",
+            "Variazione delle posizioni dei download o delle autorizzazioni"
+          ]
+        },
+        {
+          "id": "digitale-03",
+          "sezione_guida": "Inviare il documento — Con Gmail su Android",
+          "affermazione": "Negli account Gmail personali gli allegati hanno limite complessivo di 25 MB; oltre il limite vengono inseriti link Drive. Per lavoro o scuola i limiti sono stabiliti dall'amministratore Workspace.",
+          "esito": "verificato",
+          "fonti": [
+            "GMAIL_ALLEGATI"
+          ],
+          "riscontro": "La documentazione distingue i due tipi di account e descrive la sostituzione degli allegati oltre limite con collegamenti Drive.",
+          "limiti": "Il limite del destinatario e le autorizzazioni del collegamento restano da controllare. La verifica non prova la consegna di un messaggio né un caricamento su un portale.",
+          "trigger_aggiornamento": [
+            "Modifica dei limiti Gmail o Workspace",
+            "Modifica dell'integrazione con Drive o dei permessi di condivisione"
+          ]
+        }
+      ]
+    }
+  ],
+  "rilievi": [
+    {
+      "id": "cup-rinvio-sezione",
+      "guida": "salute-guida-07-cup-prenotazioni-liste-attesa.html",
+      "tipo": "rinvio_editoriale",
+      "rilievo": "Il rinvio della tabella priorità dice sezione 3.2. Il contenuto è nella sezione 2.2 del PNGLA.",
+      "azione_suggerita": "Sostituire soltanto il testo del rinvio con PNGLA, sezione 2.2.",
+      "fonte": "PNGLA_2026",
+      "stato": "corretto nel candidato: rinvio PNGLA, sezione 2.2; pubblicazione da verificare"
+    }
+  ],
+  "accessi_non_conclusivi": [
+    {
+      "url": "https://www.salute.gov.it/new/it/news-e-media/notizie/pubblicato-il-nuovo-piano-nazionale-governo-liste-di-attesa-2026-2028/",
+      "esito": "non_accertato",
+      "motivo": "La pagina restituisce al lettore automatico una protezione browser Gcore; non ne è stato letto il corpo. Per le affermazioni CUP è stato usato il PDF ufficiale della Gazzetta."
+    },
+    {
+      "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2024-06-07;73~art3",
+      "esito": "non_accertato",
+      "motivo": "Il lettore web ha riscritto il parametro URI-res e raggiunto una pagina di errore; non prova che il collegamento pubblico originale sia errato. Regole selezionate riscontrate nel decreto PNGLA pubblicato in Gazzetta."
+    }
+  ],
+  "monitoraggio_proposto": {
+    "stato": "integrato nel candidato del monitoraggio esistente; pubblicazione da verificare",
+    "frequenza": "settimanale",
+    "fonti": [
+      {
+        "fonte_id": "INPS_RICORSI",
+        "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.ricorso-amministrativo-pensionistico-51189.ricorso-amministrativo-pensionistico.html"
+      },
+      {
+        "fonte_id": "INPS_PERMESSI",
+        "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50098.indennit-per-permessi-fruiti-dai-lavoratori-per-assistere-familiari-disabili-in-situazione-di-gravit-o-fruiti-dai-lavoratori-disabili.html"
+      },
+      {
+        "fonte_id": "INPS_UNIVERSALE",
+        "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.decreto-anziani-prestazione-universale.html"
+      },
+      {
+        "fonte_id": "INPS_CIGO",
+        "url": "https://www.inps.it/it/it/dettaglio-scheda.it.schede-servizio-strumento.schede-servizi.50599.cassa-integrazione-guadagni-ordinaria.html"
+      },
+      {
+        "fonte_id": "NORMA_PAGA",
+        "url": "https://www.normattiva.it/eli/id/1953/01/27/053U0004/CONSOLIDATED"
+      },
+      {
+        "fonte_id": "PNGLA_2026",
+        "url": "https://www.gazzettaufficiale.it/eli/gu/2026/08/24/195/so/32/sg/pdf"
+      },
+      {
+        "fonte_id": "GMAIL_ALLEGATI",
+        "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it"
+      },
+      {
+        "fonte_id": "SAMSUNG_FILE",
+        "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/"
+      }
+    ],
+    "limiti": [
+      "Verificare stato, destinazione finale, titolo e corpo effettivo: HTTP 200 può essere una protezione o una pagina di errore.",
+      "Le differenze tecniche e gli hash segnalano la necessità di lettura; non dimostrano da soli una modifica normativa.",
+      "PNGLA_2026 è una pubblicazione a versione fissa: il controllo della sua disponibilità non scopre piani successivi.",
+      "Il termine del 31 dicembre 2026 della Prestazione universale richiede un ricontrollo di contenuto anche in assenza di variazioni HTTP.",
+      "Queste otto fonti non coprono ogni affermazione delle cinque guide; le altre fonti restano nel dossier e nelle guide."
+    ],
+    "riesami_documentali_proposti": [
+      {
+        "entro": "2026-12-04",
+        "motivo": "Primo ricontrollo delle fonti selezionate nel ciclo settimanale."
+      },
+      {
+        "entro": "2026-12-15",
+        "motivo": "Verifica di eventuali novità sulla Prestazione universale prima del termine sperimentale."
+      },
+      {
+        "entro": "2027-01-01",
+        "motivo": "Non presentare la sperimentazione 2025–2026 come ancora operativa senza nuova fonte."
+      }
+    ]
+  }
+}
