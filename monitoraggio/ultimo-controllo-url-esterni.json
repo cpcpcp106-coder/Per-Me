@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-27T08:58:56.650643+00:00",
+  "date_utc": "2026-11-27T14:14:13.536785+00:00",
   "scope": {
     "pages": 171,
     "unique_external_urls": 1112,
     "occurrences": 3000
   },
   "counts": {
-    "bloccato_o_riservato": 135,
-    "raggiungibile": 950,
-    "non_verificato_trasporto": 22,
-    "errore_http": 5
+    "raggiungibile": 957,
+    "non_verificato_trasporto": 18,
+    "bloccato_o_riservato": 134,
+    "errore_http": 3
   },
   "results": [
     {
@@ -1410,16 +1410,18 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
-      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
-      "status": "errore_http",
-      "http": 503,
+      "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/dossier-percorsi-prioritari-2026-11-27.md",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/dossier-percorsi-prioritari-2026-11-27.md",
       "pages": [
         "monitoraggio.html"
       ]
@@ -2281,9 +2283,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2301,7 +2302,7 @@
       "url": "https://myaccount.google.com/security",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S606709447:1795769899500221",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S2016190588:1795788821959566",
       "pages": [
         "digitale-sicurezza-messaggi-accessi.html"
       ]
@@ -8828,8 +8829,9 @@
     },
     {
       "url": "https://www.instagram.com/permeguide/",
-      "status": "bloccato_o_riservato",
-      "http": 429,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fpermeguide%2F&is_from_rle",
       "pages": [
         "acquisti-contratti.html",
         "acquisti-garanzia-prodotto-difettoso.html",
@@ -9821,8 +9823,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/nerve-damage-diabetic-neuropathies",
       "pages": [
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html",
         "diabete-guida-12-neuropatie-periferiche-piede-sensibilita.html"
@@ -9872,8 +9875,9 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/digestive-diseases/gastroparesis/eating-diet-nutrition",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -9900,16 +9904,18 @@
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/evaluate-ckd",
       "pages": [
         "diabete-guida-11-reni-albuminuria-funzione-renale.html"
       ]
     },
     {
       "url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.niddk.nih.gov/health-information/professionals/diabetes-discoveries-practice/how-gastroparesis-affect-people-with-diabetes",
       "pages": [
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html",
         "diabete-guida-14-neuropatia-digestiva-gastroparesi-intestino.html"
@@ -11618,8 +11624,9 @@
     },
     {
       "url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
-      "status": "non_verificato_trasporto",
-      "error": "Remote end closed connection without response",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.unesco.org/en/articles/ai-competency-framework-students",
       "pages": [
         "tutor-ai.html"
       ]
