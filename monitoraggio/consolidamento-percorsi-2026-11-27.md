@@ -43,3 +43,12 @@ La misura del rendimento Google è stata registrata nel rapporto privato di Enri
 ## Verifica Google del percorso aggiornato
 
 Il test live di Da dove cominciare del 27 novembre indica URL disponibile per Google e pagina indicizzabile. L’ispezione ordinaria indicava URL sconosciuto. La singola richiesta inviata dopo l’aggiornamento ha ricevuto «Indicizzazione richiesta» e conferma di aggiunta alla coda prioritaria. Non è una conferma d’indicizzazione; rapporto aggregato Pagine e sitemap non sono stati nuovamente verificati in questa operazione. I dettagli sono conservati nel rapporto privato del curatore.
+
+
+## Ultimo esito verificato del monitoraggio
+
+Il comando di archiviazione è stato convertito in blocco YAML nel commit `704ba8f20fafde91dd839f243fdd6ae8f7845b6d`; il formato precedente non era valido per il carattere due punti nel messaggio. Parsing YAML completo e sintassi Bash superati.
+
+La [nuova esecuzione](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46017177690) è **riuscita**, compreso il salvataggio: 15 fonti, 163 HTML nella radice, 1.104 URL esterni e zero anomalie interne. Il perimetro dei 163 HTML alla radice è diverso dalle 167 pagine pubbliche complessive. Il log conferma «Rapporti archiviati su main» al primo tentativo. Il JSON pubblico aggiornato risponde HTTP 200 e contiene 15 fonti. Gli otto segnali di variazione sono confronti tecnici da interpretare, non otto modifiche normative accertate.
+
+Conclusi pubblicazione, verifica dei percorsi e recupero della copia, controllo documentale selettivo, aggiornamento dei dati Google e riparazione del monitoraggio. Restano distinte revisioni professionali e prove con lettori reali, non eseguite in questo intervento.
