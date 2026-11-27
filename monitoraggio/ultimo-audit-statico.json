@@ -1,5 +1,5 @@
 {
-  "date_utc": "2026-11-27T08:55:05+00:00",
+  "date_utc": "2026-11-27T14:10:47+00:00",
   "method": "HTMLParser su sorgente main + risoluzione locale; verifica solamente statica",
   "scope": {
     "html_total": 171,
@@ -8,7 +8,7 @@
     "guide_pages": 34
   },
   "links": {
-    "local_occurrences": 6219,
+    "local_occurrences": 6248,
     "external_occurrences": 3000,
     "external_unique": 1112,
     "actions": 14,
@@ -871,7 +871,7 @@
       "h1": 1,
       "images": 2,
       "images_without_alt": 0,
-      "links_local": 30,
+      "links_local": 47,
       "links_external": 5,
       "missing_local": 0,
       "noindex": false,
@@ -2236,7 +2236,7 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 29,
+      "links_local": 33,
       "links_external": 5,
       "missing_local": 0,
       "noindex": false,
@@ -2266,14 +2266,14 @@
       "h1": 1,
       "images": 1,
       "images_without_alt": 0,
-      "links_local": 28,
+      "links_local": 36,
       "links_external": 8,
       "missing_local": 0,
       "noindex": false,
       "canonical": true,
       "description": true,
       "skip_link": true,
-      "candidate_numeric_legal_mentions": 0
+      "candidate_numeric_legal_mentions": 1
     },
     {
       "file": "ore-ferie-permessi-malattia-straordinari.html",
