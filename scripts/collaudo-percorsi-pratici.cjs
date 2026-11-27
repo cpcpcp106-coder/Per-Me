@@ -83,6 +83,16 @@ async function main() {
   check(await field.evaluate(input => document.activeElement === input && input.selectionEnd === input.value.length), 'Testo già selezionato per la copia manuale');
   check(await fit(fallbackPage), 'Copia manuale senza scorrimento orizzontale');
   await fallbackContext.close();
+  const pendingContext = await browser.newContext({viewport:{width:320,height:844}});
+  await pendingContext.addInitScript(() => Object.defineProperty(navigator,'clipboard',{configurable:true,value:{writeText:() => new Promise(() => {})}}));
+  const pendingPage = await pendingContext.newPage();
+  await pendingPage.goto(origin + 'da-dove-cominciare.html#percorso-documenti');
+  const pendingCard = pendingPage.locator('#percorso-documenti');
+  await pendingCard.getByRole('button',{name:'Copia i passi',exact:true}).click();
+  await pendingCard.getByRole('textbox',{name:'Passi da copiare'}).waitFor({state:'visible',timeout:6000});
+  check((await pendingCard.getByRole('textbox',{name:'Passi da copiare'}).inputValue()).includes('digitale-documenti-telefono-pdf-allegati.html'), 'Copia manuale anche quando gli appunti restano in attesa');
+  check(await pendingCard.getByRole('button',{name:'Copia i passi',exact:true}).isEnabled(), 'Pulsante nuovamente disponibile dopo attesa degli appunti');
+  await pendingContext.close();
   const noJs = await browser.newContext({javaScriptEnabled:false});
   const plain = await noJs.newPage();
   await plain.goto(origin + 'da-dove-cominciare.html');
