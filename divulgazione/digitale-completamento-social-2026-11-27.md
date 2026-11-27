@@ -1,6 +1,6 @@
 # Digitale quotidiano — aggiornamento social
 
-27 novembre 2026, Europe/Rome. Stato: **preparato in bozza, non pubblicato**.
+27 novembre 2026, Europe/Rome. Stato: **pubblicato e verificato su Facebook, Instagram e Pinterest**. WhatsApp: foto e testo consegnati a Enrico, invio non confermato.
 
 ## Annuncio distinto dal lancio precedente
 
@@ -10,16 +10,16 @@ Il lancio del 25 novembre è documentato in [digitale-quotidiano-2026-11-25.md](
 
 | Canale | Esito osservato | Collegamento e seguito |
 | --- | --- | --- |
-| Facebook, Pagina Per Me all'URL PerMeGuide | Bozza privata con foto salvata in Meta Business Suite e riletta dopo il ricaricamento. Non pubblicata. | [Elenco bozze](https://business.facebook.com/latest/posts/draft_posts/?asset_id=1075712805623980&business_id=1116645454603609&nav_ref=internal_nav). Bozza business_content_id 1772546033815720. |
-| Instagram, permeguide | La stessa bozza Meta comprende entrambe le destinazioni, con icone Instagram e Facebook e dicitura «Foto · Per Me, permeguide». Non pubblicata. | Stessa bozza Meta, personalizzazione per canale disattivata. |
-| Pinterest, Per Me Guide / permeguide | Bozza salvata automaticamente: «Pin drafts (1)» e «Changes stored!». Non pubblicata. | [Creazione Pin e bozze](https://it.pinterest.com/pin-creation-tool/). Titolo «Digitale quotidiano: IO, pagoPA, PDF e messaggi sospetti». Bacheca «Tutor AI e smartphone | Per Me». |
-| WhatsApp | Testo e foto preparati per la consegna in chat a Enrico. Nessun invio effettuato e nessuna conferma di pubblicazione. | Copiabile: testo sottostante più URL WhatsApp. |
+| Facebook, Pagina Per Me all'URL PerMeGuide | Pubblicato con la foto approvata. Riaperto il permalink e verificati testo completo, foto e pubblico «Tutti». | [Post pubblico](https://www.facebook.com/PerMeGuide/posts/pfbid02kAY32Qe2rmmULn3zbZ1iGaX6KKpwVnVYU4jJKbsDw3tKzfGhA3kJUYGRa2sMy5yzl). ID 122104007324542978. |
+| Instagram, permeguide | Pubblicato con la foto approvata. Meta Business Suite mostra la data di pubblicazione; il post pubblico è stato aperto, letto e controllato visivamente. | [Post pubblico](https://www.instagram.com/permeguide/p/DgPQTpfQQ0p/). ID Meta 18438707443194964. |
+| Pinterest, Per Me Guide / permeguide | Pubblicato; verificati titolo, descrizione, foto, etichetta «AI modified» e destinazione «Visit site». | [Pin pubblico](https://it.pinterest.com/pin/269441990205667026/). Bacheca «Tutor AI e smartphone \| Per Me». |
+| WhatsApp | Foto scaricabile e testo copiabile consegnati in chat a Enrico. Nessun invio effettuato dall'assistente e nessuna conferma di pubblicazione ricevuta. | Testo comune sottostante più URL WhatsApp. |
 
-Il clic finale «Pubblica» per Facebook e Instagram è stato respinto dalla revisione automatica dell'azione prima dell'esecuzione: richiesta approvazione esplicita del testo e della pubblicazione sulle due destinazioni. Il rifiuto non è stato aggirato. Completate le attività non bloccate e salvate le bozze. Pubblicazione di questo specifico annuncio su Facebook, Instagram e Pinterest da sottoporre insieme a Enrico con testo e foto. Non esistono nuovi URL di post pubblicati.
+Le bozze sono state preparate prima della richiesta di approvazione. Il primo clic finale su Facebook e Instagram era stato respinto dalla revisione automatica, che richiedeva l'approvazione esplicita dello specifico annuncio. Enrico ha poi risposto «Si» alla domanda contenente testo, foto e le tre destinazioni. Dopo tale conferma il Pin e il post Meta sono stati pubblicati e verificati: il blocco è risolto. Non sono stati ripetuti gli invii dopo la comparsa dei post.
 
-L'interfaccia Meta ha mostrato anche «0 link rimanenti» durante un primo tentativo di personalizzazione; non è stata accertata una regola generale né una causa di account. La bozza finale usa il rimando al sito nel profilo e non inserisce URL nel testo. Non sono state modificate le bozze più vecchie. Nessun gruppo Facebook coinvolto, nessuna spesa.
+Facebook è stato gestito esclusivamente come Pagina Per Me. La pubblicazione Meta ha prodotto un post Facebook e un post Instagram distinti; il testo rimanda al sito nel profilo, mentre Pinterest ha un collegamento diretto alla rubrica. Nessuna bozza precedente modificata, nessun gruppo Facebook coinvolto e nessuna spesa.
 
-## Testo definitivo comune delle tre bozze
+## Testo pubblicato comune ai tre canali
 
 Digitale quotidiano: tre nuove guide gratuite di Per Me.
 
@@ -33,15 +33,15 @@ Foto illustrativa originale generata con intelligenza artificiale; persona immag
 
 ## Foto e accessibilità
 
-Foto coerente con la guida IO/pagoPA, originale generata per Per Me: [immagine del sito](https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-io-pagopa-originale.webp). Provenienza in [FONTI/digitale-completamento-immagini-2026-11-27.json](../FONTI/digitale-completamento-immagini-2026-11-27.json). Per la consegna a Enrico è pronta anche «Per-Me-digitale-quotidiano-2026-11-27.jpg», 1536 × 1024 pixel.
+Foto coerente con la guida IO/pagoPA, originale generata per Per Me: [immagine del sito](https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-io-pagopa-originale.webp). Provenienza in [FONTI/digitale-completamento-immagini-2026-11-27.json](../FONTI/digitale-completamento-immagini-2026-11-27.json). Consegnata a Enrico anche «Per-Me-digitale-quotidiano-2026-11-27.jpg», 1536 × 1024 pixel.
 
 Pinterest: etichette «Mark as AI-Modified» e «This Pin includes an AI-generated person» entrambe attivate; suggerimenti di prodotti simili disattivati; commenti consentiti. Testo alternativo: «Una donna con capelli grigi consulta uno smartphone al tavolo di casa, accanto a un foglio. Foto illustrativa originale generata con intelligenza artificiale; persona immaginaria.»
 
 ## Destinazioni delle guide
 
 - Rubrica: https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html
-- Campo Link della bozza Pinterest: https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html?utm_source=pinterest&utm_medium=organic_social
+- Collegamento del Pin pubblicato: https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html?utm_source=pinterest&utm_medium=organic_social
 - URL da aggiungere al testo WhatsApp: https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html?utm_source=whatsapp&utm_medium=channel
 
-Aggiornare questo registro solo dopo esito osservabile della pubblicazione o conferma di Enrico per WhatsApp. Una bozza salvata non dimostra un invio.
+Le tre pubblicazioni sono state osservate nei rispettivi post, con testo e foto presenti. La conferma di pubblicazione su WhatsApp resta da acquisire da Enrico.
 
