@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-27",
+  "scope": "Tre guide del percorso essenziale Digitale quotidiano",
+  "method": "Lettura della documentazione primaria mediante ricerca web e apertura delle pagine; rielaborazione originale. Controllo HTTP separato quando disponibile.",
+  "guides": [
+    {
+      "path": "digitale-io-pagopa-avvisi-ricevute.html",
+      "sources": [
+        {
+          "id": "installa",
+          "title": "IO: scaricare e aggiornare l’app ufficiale",
+          "url": "https://assistenza.ioapp.it/hc/it/articles/30723003488529-Scaricare-aggiornare-e-disinstallare-IO"
+        },
+        {
+          "id": "accesso",
+          "title": "IO: identità digitali e requisiti per accedere",
+          "url": "https://assistenza.ioapp.it/hc/it/articles/30722960328337-Cosa-serve-per-accedere-a-IO"
+        },
+        {
+          "id": "messaggi",
+          "title": "IO: verificare un messaggio che non arriva",
+          "url": "https://assistenza.ioapp.it/hc/it/articles/30868634510481-Sto-aspettando-un-messaggio-che-non-arriva"
+        },
+        {
+          "id": "pagare",
+          "title": "IO: pagare dal messaggio, dall’avviso o dal codice QR",
+          "url": "https://assistenza.ioapp.it/hc/it/articles/31007589141393-Pagare-con-IO"
+        },
+        {
+          "id": "costi",
+          "title": "IO: scegliere il gestore del pagamento e controllare i costi",
+          "url": "https://assistenza.ioapp.it/hc/it/articles/39315555582225-Come-scegliere-un-gestore-del-pagamento-PSP"
+        },
+        {
+          "id": "ricevute",
+          "title": "IO: dove trovare le ricevute secondo il canale utilizzato",
+          "url": "https://assistenza.ioapp.it/hc/it/articles/32186215314705-Dove-trovare-la-ricevuta-di-un-pagamento"
+        },
+        {
+          "id": "esito",
+          "title": "pagoPA: verificare se il pagamento è riuscito",
+          "url": "https://assistenza.pagopa.gov.it/hc/it/articles/31958822685585-Come-sapere-se-il-pagamento-%C3%A8-andato-a-buon-fine"
+        },
+        {
+          "id": "aiuto",
+          "title": "pagoPA: scegliere l’assistenza competente",
+          "url": "https://assistenza.pagopa.gov.it/hc/it/articles/34047454046097-Contattare-l-assistenza-di-pagoPA"
+        }
+      ]
+    },
+    {
+      "path": "digitale-documenti-telefono-pdf-allegati.html",
+      "sources": [
+        {
+          "id": "gmail-download",
+          "title": "Google: aprire e scaricare gli allegati in Gmail su Android",
+          "url": "https://support.google.com/mail/answer/30719?co=GENIE.Platform%3DAndroid&hl=it"
+        },
+        {
+          "id": "samsung",
+          "title": "Samsung Italia: trovare download e gestire i file su Galaxy",
+          "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/"
+        },
+        {
+          "id": "android",
+          "title": "Google Android: aprire e condividere file",
+          "url": "https://support.google.com/android/answer/9110661?hl=it"
+        },
+        {
+          "id": "iphone",
+          "title": "Apple: trovare i download su iPhone e iPad",
+          "url": "https://support.apple.com/it-it/102440"
+        },
+        {
+          "id": "gmail-invio",
+          "title": "Google: inviare allegati con Gmail su Android e limiti applicabili",
+          "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it"
+        },
+        {
+          "id": "iphone-invio",
+          "title": "Apple: inviare file dall’app File su iPhone",
+          "url": "https://support.apple.com/it-it/guide/iphone/iphf2746307f/ios"
+        },
+        {
+          "id": "scan-android",
+          "title": "Google Drive: scansionare documenti su Android",
+          "url": "https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=it-IT"
+        },
+        {
+          "id": "scan-iphone",
+          "title": "Apple: scansionare documenti con Note o File",
+          "url": "https://support.apple.com/it-it/108963"
+        }
+      ]
+    },
+    {
+      "path": "digitale-sicurezza-messaggi-accessi.html",
+      "sources": [
+        {
+          "id": "polizia",
+          "title": "Polizia di Stato: raccomandazioni su phishing, SMS e telefonate",
+          "url": "https://questure.poliziadistato.it/it/Taranto/articolo/12606611370360b3e512138924"
+        },
+        {
+          "id": "apple",
+          "title": "Apple: riconoscere messaggi, chiamate e supporto falsi",
+          "url": "https://support.apple.com/it-it/102568"
+        },
+        {
+          "id": "pagopa",
+          "title": "pagoPA: riconoscere richieste e siti ingannevoli",
+          "url": "https://assistenza.pagopa.gov.it/hc/it/articles/34467698417297-Come-evitare-tentativi-di-phishing-o-truffa-a-nome-di-pagoPA"
+        },
+        {
+          "id": "connessione",
+          "title": "Google Chrome: connessione privata e identità del sito",
+          "url": "https://support.google.com/chrome/answer/95617?co=GENIE.Platform%3DAndroid&hl=it"
+        },
+        {
+          "id": "password",
+          "title": "Google: password diverse e opzioni di recupero",
+          "url": "https://support.google.com/accounts/answer/32040?hl=it"
+        },
+        {
+          "id": "due-passaggi",
+          "title": "Google: verifica in due passaggi e protezione dei codici",
+          "url": "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DAndroid&hl=it"
+        },
+        {
+          "id": "compromesso",
+          "title": "Google: proteggere un account violato o compromesso",
+          "url": "https://support.google.com/accounts/answer/6294825?hl=it"
+        },
+        {
+          "id": "banca",
+          "title": "Banca d’Italia: cosa fare se si è vittima di truffe o frodi",
+          "url": "https://www.bancaditalia.it/focus/cybersicurezza/truffe-cyber/"
+        },
+        {
+          "id": "truffa-pagopa",
+          "title": "pagoPA: cosa fare dopo una truffa",
+          "url": "https://assistenza.pagopa.gov.it/hc/it/articles/36354438782865-Cosa-fare-se-hai-sub%C3%ACto-una-truffa"
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Nessun pagamento reale eseguito.",
+    "Procedure non provate su telefoni fisici.",
+    "Le pagine Apple per download e invio file, inizialmente limitate da HTTP 429 durante la ricerca web, sono state lette anche tramite GET diretto HTTP 200. Le fonti Google sono state lette nella documentazione primaria tramite ricerca web, mentre i GET locali hanno ricevuto 429; i collegamenti non sono stati sostituiti per tale limite."
+  ]
+}

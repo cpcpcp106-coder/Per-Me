@@ -1,5 +1,9 @@
 # Per Me — Piano editoriale e priorità
 
+## Ampliamento Digitale quotidiano — 27 novembre 2026
+
+Su incarico di Enrico, il percorso essenziale passa da due a cinque guide con app IO e pagoPA, documenti sul telefono e sicurezza di messaggi e accessi. Collegati i contenuti esistenti su INPS, SEND, Fascicolo sanitario e Tutor AI. Le prove e lo stato effettivo della pubblicazione sono registrati in [digitale-completamento-2026-11-27.md](digitale-completamento-2026-11-27.md). L’aggiunta non esaurisce ogni possibile argomento digitale e non modifica il calendario delle altre rubriche.
+
 **Aggiornamento del 25 novembre 2026.** Il sito comprende 154 pagine pubbliche nella sitemap, dieci rubriche principali nella homepage e il percorso dedicato a pasta madre e LI.CO.LI. Le pagine comprendono anche indici, strumenti, ricette e servizi: non sono 154 guide distinte.
 
 ## Approfondimento delle guide esistenti

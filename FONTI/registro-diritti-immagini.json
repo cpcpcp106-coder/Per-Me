@@ -1,6 +1,6 @@
 {
   "scope": "Per Me",
-  "as_of": "2026-11-26",
+  "as_of": "2026-11-27",
   "rule": "Per Me usa immagini create o elaborate con ChatGPT per il progetto (origini dichiarate dall'autore) e fotografie stock Pexels/Unsplash con licenza gratuita. Nessun abbonamento o acquisto immagini. Le nuove immagini devono avere fonte documentata prima della pubblicazione.",
   "stock": [
     {
@@ -1889,6 +1889,36 @@
       "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile.",
       "source_history_verified": true,
       "used_in": "fisco-f24-verifica-pagamento.html"
+    },
+    {
+      "file": "assets/digitale-io-pagopa-originale.webp",
+      "git_blob_sha": "97d1e3d0f9e221fc4b7b94d41de5c208409209d8",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 27 novembre 2026 senza immagini di riferimento; conversione in WebP senza modifiche alla scena.",
+      "provenance_evidence": "FONTI/digitale-completamento-immagini-2026-11-27.json; originale exec-39079e98-46e8-4c66-a2f9-724a1ab07eab.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito e nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "digitale-io-pagopa-avvisi-ricevute.html; index.html"
+    },
+    {
+      "file": "assets/digitale-documenti-originale.webp",
+      "git_blob_sha": "b78627d726ef8ac90db3430405aa01e06fb8ca51",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 27 novembre 2026 senza immagini di riferimento; conversione in WebP senza modifiche alla scena.",
+      "provenance_evidence": "FONTI/digitale-completamento-immagini-2026-11-27.json; originale exec-0500ca6a-9754-4f52-82e1-cb7b6901c7e6.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito e nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "digitale-documenti-telefono-pdf-allegati.html"
+    },
+    {
+      "file": "assets/digitale-sicurezza-originale.webp",
+      "git_blob_sha": "8cdd3dacb9f3ec213dd53e95a853427782cfebc9",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Foto originale generata con ChatGPT ImageGen il 27 novembre 2026 senza immagini di riferimento; conversione in WebP senza modifiche alla scena.",
+      "provenance_evidence": "FONTI/digitale-completamento-immagini-2026-11-27.json; originale exec-0d031f8e-8994-41e4-9d62-29aa5f03973e.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito e nessuna esclusività attestata rispetto ad altri output AI.",
+      "source_history_verified": true,
+      "used_in": "digitale-sicurezza-messaggi-accessi.html"
     }
   ],
   "notes": [

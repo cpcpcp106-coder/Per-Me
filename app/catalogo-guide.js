@@ -30,7 +30,8 @@ window.PerMeCatalogo = (() => {
     'documento documenti', 'modulo moduli', 'modello modelli',
     'pagamento pagamenti', 'domanda domande', 'requisito requisiti',
     'permesso permessi', 'congedo congedi', 'aiuto aiuti',
-    'contratto contratti', 'acquisto acquisti', 'cedolino cedolini'
+    'contratto contratti', 'acquisto acquisti', 'cedolino cedolini',
+    'ricevuta ricevute', 'allegato allegati', 'truffa truffe', 'avviso avvisi'
   ].flatMap(gruppo => {
     const parole = gruppo.split(' ');
     return parole.map(parola => [parola, parole[0]]);

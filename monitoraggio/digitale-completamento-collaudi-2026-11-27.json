@@ -1,0 +1,158 @@
+{
+  "checked_at_utc": "2026-11-27T07:20:07.603860+00:00",
+  "scope": "Controlli statici locali del candidato, prima della pubblicazione",
+  "checks": [
+    {
+      "command": [
+        "node",
+        "scripts/sincronizza-layout.cjs",
+        "--check"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/controlla-struttura.cjs"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/audit-perimetro-nazionale.cjs"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "python",
+        "scripts/audit-indicizzazione.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/audit-diritti-immagini.cjs"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/controlla-facebook-guide.cjs"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "python",
+        "monitoraggio/audit_statico.py"
+      ],
+      "exit_code": 0,
+      "result": "PASS"
+    },
+    {
+      "command": [
+        "node",
+        "scripts/audit-editoriale-integrale.cjs"
+      ],
+      "exit_code": 0,
+      "result": "PASS",
+      "pages": 161,
+      "issues": 0,
+      "warnings": 44
+    }
+  ],
+  "app_tests": {
+    "command": "node --test app/tests/*.test.cjs",
+    "passed": 19,
+    "failed": 0,
+    "integration_retested": true
+  },
+  "axe": {
+    "method": "Chromium locale, schermi simulati; nessuna certificazione di accessibilità",
+    "checks": [
+      {
+        "file": "index.html",
+        "width": 320,
+        "violations": [],
+        "passes": 31
+      },
+      {
+        "file": "digitale-quotidiano.html",
+        "width": 320,
+        "violations": [],
+        "passes": 24
+      },
+      {
+        "file": "digitale-io-pagopa-avvisi-ricevute.html",
+        "width": 320,
+        "violations": [],
+        "passes": 26
+      },
+      {
+        "file": "digitale-documenti-telefono-pdf-allegati.html",
+        "width": 320,
+        "violations": [],
+        "passes": 26
+      },
+      {
+        "file": "digitale-sicurezza-messaggi-accessi.html",
+        "width": 320,
+        "violations": [],
+        "passes": 27
+      },
+      {
+        "file": "index.html",
+        "width": 390,
+        "violations": [],
+        "passes": 31
+      },
+      {
+        "file": "digitale-quotidiano.html",
+        "width": 390,
+        "violations": [],
+        "passes": 24
+      },
+      {
+        "file": "digitale-io-pagopa-avvisi-ricevute.html",
+        "width": 390,
+        "violations": [],
+        "passes": 26
+      },
+      {
+        "file": "digitale-documenti-telefono-pdf-allegati.html",
+        "width": 390,
+        "violations": [],
+        "passes": 26
+      },
+      {
+        "file": "digitale-sicurezza-messaggi-accessi.html",
+        "width": 390,
+        "violations": [],
+        "passes": 26
+      }
+    ]
+  },
+  "browser_digitale": {
+    "command": "node scripts/collaudo-digitale.cjs",
+    "passed": 146,
+    "failed": 0,
+    "viewports": [
+      320,
+      390
+    ],
+    "text_scale": "100% e 200%, misurati",
+    "scope": "Tutte le sei pagine digitale-*.html; navigazione dall’indice, foto, Facebook, reflow, testo senza ritagli, salvataggio e apertura offline di tutte le guide nuove. Verificata anche la ricerca homepage: pagamento ricevuta, PDF allegato, truffa.",
+    "integration_retested": true
+  },
+  "integration_base": "f2662db42914bea5c007f7a3b01c9a8d44ec7c6b"
+}
