@@ -26,10 +26,10 @@ Distinti avviso, autorizzazione, esito, ricevuta del gestore e quietanza dell’
 
 - Otto controlli statici superati: layout, struttura, perimetro nazionale, indicizzabilità, diritti delle immagini, Facebook, audit statico e audit editoriale. Nessun errore bloccante. I 44 avvisi editoriali sulle fotografie remote riguardano pagine preesistenti.
 - 19 test esistenti dell’app superati.
-- 140 verifiche del collaudo Digitale superate: tutte le sei pagine `digitale-*.html`, schermi da 320 e 390 pixel, foto caricate, pulsanti Facebook, percorsi dall’indice, testo realmente al 200%, assenza di scorrimento orizzontale e testo ritagliato, salvataggio e apertura offline delle nuove guide con fonti conservate.
+- 146 verifiche del collaudo Digitale superate: tutte le sei pagine `digitale-*.html`, schermi da 320 e 390 pixel, foto caricate, pulsanti Facebook, percorsi dall’indice, testo realmente al 200%, assenza di scorrimento orizzontale e testo ritagliato, ricerche homepage «pagamento ricevuta», «PDF allegato» e «truffa», salvataggio e apertura offline delle nuove guide con fonti conservate.
 - Dieci verifiche axe sulle cinque pagine modificate a 320 e 390 pixel, senza violazioni rilevate. Controllati visivamente anche due screenshot locali di lettura.
 
-Esiti in `digitale-completamento-collaudi-2026-11-27.json`. Il collaudo dedicato ora include automaticamente le pagine `digitale-*.html` e controlla i nuovi percorsi anche offline.
+Esiti in `digitale-completamento-collaudi-2026-11-27.json`. La ricerca condivisa riconosce anche le coppie ricevuta/ricevute, allegato/allegati, truffa/truffe e avviso/avvisi. Le etichette nell’indice espongono gli argomenti utili alla ricerca. Il collaudo dedicato ora include automaticamente le pagine `digitale-*.html` e controlla i nuovi percorsi anche offline.
 
 ## Stato della pubblicazione
 

@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-27T07:08:52.539792+00:00",
+  "checked_at_utc": "2026-11-27T07:16:15.843061+00:00",
   "scope": "Controlli statici locali del candidato, prima della pubblicazione",
   "checks": [
     {
@@ -143,13 +143,13 @@
   },
   "browser_digitale": {
     "command": "node scripts/collaudo-digitale.cjs",
-    "passed": 140,
+    "passed": 146,
     "failed": 0,
     "viewports": [
       320,
       390
     ],
     "text_scale": "100% e 200%, misurati",
-    "scope": "Tutte le sei pagine digitale-*.html; navigazione dall’indice, foto, Facebook, reflow, testo senza ritagli, salvataggio e apertura offline di tutte le guide nuove."
+    "scope": "Tutte le sei pagine digitale-*.html; navigazione dall’indice, foto, Facebook, reflow, testo senza ritagli, salvataggio e apertura offline di tutte le guide nuove. Verificata anche la ricerca homepage: pagamento ricevuta, PDF allegato, truffa."
   }
 }

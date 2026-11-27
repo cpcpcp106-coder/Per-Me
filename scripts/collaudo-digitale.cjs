@@ -7,9 +7,9 @@ const root=path.resolve(__dirname,'..');
 const types={'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.webp':'image/webp','.png':'image/png','.webmanifest':'application/manifest+json'};
 const files=fs.readdirSync(root).filter(file=>/^digitale-.*\.html$/.test(file)).sort();
 const nuoviPercorsi=[
- {file:'digitale-io-pagopa-avvisi-ricevute.html',link:'Usa IO e pagoPA',query:'App IO e pagoPA',text:/Prestatore di Servizi di Pagamento/,fonte:'31007589141393'},
- {file:'digitale-documenti-telefono-pdf-allegati.html',link:'Trova e invia un documento',query:'Documenti sul telefono',text:/25 MB/,fonte:'6584'},
- {file:'digitale-sicurezza-messaggi-accessi.html',link:'Verifica messaggi e accessi',query:'Messaggi sospetti e accessi',text:/Contatta subito la banca/,fonte:'bancaditalia.it'}
+ {file:'digitale-io-pagopa-avvisi-ricevute.html',link:'IO e pagoPA: pagamenti e ricevute',query:'App IO e pagoPA',ricerca:'pagamento ricevuta',text:/Prestatore di Servizi di Pagamento/,fonte:'31007589141393'},
+ {file:'digitale-documenti-telefono-pdf-allegati.html',link:'Documenti sul telefono: PDF e allegati',query:'Documenti sul telefono',ricerca:'PDF allegato',text:/25 MB/,fonte:'6584'},
+ {file:'digitale-sicurezza-messaggi-accessi.html',link:'Messaggi sospetti, truffe e accessi',query:'Messaggi sospetti e accessi',ricerca:'truffa',text:/Contatta subito la banca/,fonte:'bancaditalia.it'}
 ];
 const server=http.createServer((req,res)=>{
  const pathname=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
@@ -61,6 +61,14 @@ async function run(){
     await page.goto(origin+'/digitale-quotidiano.html');
     await page.getByRole('link',{name:percorso.link,exact:true}).click();
     assert.ok(page.url().endsWith('/'+percorso.file),'percorso dall’indice: '+percorso.file);checks++;
+   }
+   await page.goto(origin+'/');
+   await page.locator('#parole-guida').waitFor({state:'visible'});
+   for(const percorso of nuoviPercorsi){
+    await page.locator('#parole-guida').fill(percorso.ricerca);
+    const risultato=page.locator('#risultati-guide a[href$="/'+percorso.file+'"]');
+    await risultato.waitFor({state:'visible'});
+    assert.equal(await risultato.count(),1,'ricerca homepage: '+percorso.ricerca);checks++;
    }
    await page.goto(origin+'/app/');
    await page.waitForFunction(()=>!document.querySelector('#refresh').disabled,undefined,{timeout:60000});
