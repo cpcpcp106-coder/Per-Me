@@ -33,4 +33,5 @@ jobs:
       - name: Controlla fonti e collegamenti
         run: python monitoraggio/controlla.py
       - name: Registra il rapporto sul main corrente
-        run: bash monitoraggio/pubblica_report.sh "Per Me: rapporto automatico controllo fonti" monitoraggio/stato.json monitoraggio/ultimo-controllo.json
+        run: |
+          bash monitoraggio/pubblica_report.sh "Per Me: rapporto automatico controllo fonti" monitoraggio/stato.json monitoraggio/ultimo-controllo.json
