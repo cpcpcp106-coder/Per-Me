@@ -1,0 +1,182 @@
+{
+  "checked_at_utc": "2026-11-27T07:09:07.353264+00:00",
+  "method": "GET con redirect, massimo un milione di byte per risposta; raggiungibilità distinta dalla verifica documentale primaria. 429 o 403 possono essere limiti di accesso.",
+  "sources": [
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/30722960328337-Cosa-serve-per-accedere-a-IO",
+      "http": 200,
+      "final_url": "https://assistenza.ioapp.it/hc/it/articles/30722960328337-Cosa-serve-per-accedere-a-IO",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 35378,
+      "response_sha256": "a17f9550706ce9924e770ffd0d250b3d051f684de1515fab261ee5c9fd0c7c6e"
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/30723003488529-Scaricare-aggiornare-e-disinstallare-IO",
+      "http": 200,
+      "final_url": "https://assistenza.ioapp.it/hc/it/articles/30723003488529-Scaricare-aggiornare-e-disinstallare-IO",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 36943,
+      "response_sha256": "9ba2ab1881780430c2baad34796133741cd56b42825523b1a421bf929efdecfa"
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/30868634510481-Sto-aspettando-un-messaggio-che-non-arriva",
+      "http": 200,
+      "final_url": "https://assistenza.ioapp.it/hc/it/articles/30868634510481-Sto-aspettando-un-messaggio-che-non-arriva",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 34240,
+      "response_sha256": "c814fb11248abfebb05022bc222c602edf7b8a186f700702ed7dd1a3cde480d3"
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/31007589141393-Pagare-con-IO",
+      "http": 200,
+      "final_url": "https://assistenza.ioapp.it/hc/it/articles/31007589141393-Pagare-con-IO",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 34911,
+      "response_sha256": "3336ca415413bb069ee80734b198b31f51787d169861dda384614da4105bdaa2"
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/32186215314705-Dove-trovare-la-ricevuta-di-un-pagamento",
+      "http": 200,
+      "final_url": "https://assistenza.ioapp.it/hc/it/articles/32186215314705-Dove-trovare-la-ricevuta-di-un-pagamento",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 33931,
+      "response_sha256": "9e8088d707f2ceaf061a8531ca50bdd87016231a58a0aea43acbfe68e2b9c003"
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/39315555582225-Come-scegliere-un-gestore-del-pagamento-PSP",
+      "http": 200,
+      "final_url": "https://assistenza.ioapp.it/hc/it/articles/39315555582225-Come-scegliere-un-gestore-del-pagamento-PSP",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 34230,
+      "response_sha256": "b1f7545fa1437d5536cb1aab516520c00487b2cb164ec7df134f6ef24e1ee0ad"
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/31958822685585-Come-sapere-se-il-pagamento-%C3%A8-andato-a-buon-fine",
+      "http": 200,
+      "final_url": "https://assistenza.pagopa.gov.it/hc/it/articles/31958822685585-Come-sapere-se-il-pagamento-%C3%A8-andato-a-buon-fine",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 36816,
+      "response_sha256": "aa74c2847482a56fd736a461a963b2767ec0145b0afb83acf370bce74e004548"
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/34047454046097-Contattare-l-assistenza-di-pagoPA",
+      "http": 200,
+      "final_url": "https://assistenza.pagopa.gov.it/hc/it/articles/34047454046097-Contattare-l-assistenza-di-pagoPA",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 37731,
+      "response_sha256": "00e5799a753115aaadaf771f16a5ff82df9b2015f6d236a99f71b36754230304"
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/34467698417297-Come-evitare-tentativi-di-phishing-o-truffa-a-nome-di-pagoPA",
+      "http": 200,
+      "final_url": "https://assistenza.pagopa.gov.it/hc/it/articles/34467698417297-Come-evitare-tentativi-di-phishing-o-truffa-a-nome-di-pagoPA",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 40176,
+      "response_sha256": "825321250535c0c78f956add135dab46ac9a4f94171d969ffad6a4d588ebfb9e"
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/36354438782865-Cosa-fare-se-hai-sub%C3%ACto-una-truffa",
+      "http": 200,
+      "final_url": "https://assistenza.pagopa.gov.it/hc/it/articles/36354438782865-Cosa-fare-se-hai-sub%C3%ACto-una-truffa",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 35619,
+      "response_sha256": "fe51943cd876da5b37b1b5c1f7c1d6ede6170661e9382212fdadd56f69e2157f"
+    },
+    {
+      "url": "https://questure.poliziadistato.it/it/Taranto/articolo/12606611370360b3e512138924",
+      "http": 200,
+      "final_url": "https://questure.poliziadistato.it/it/Taranto/articolo/12606611370360b3e512138924",
+      "content_type": "text/html",
+      "bytes_read": 24988,
+      "response_sha256": "ba2dec1efb0ffe15776e6fa253e730a1b73af94eab932eba8b4d21f3a172abab"
+    },
+    {
+      "url": "https://support.apple.com/it-it/102440",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/102440",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 114482,
+      "response_sha256": "65b266118e3f1f1921cb93de1fa709c48702ddfdab1634f886cb221418e2a77e"
+    },
+    {
+      "url": "https://support.apple.com/it-it/102568",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/102568",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 135091,
+      "response_sha256": "4ee2f48c5bc5cafa911337af98f12ae6611fa1974891e0c7a97bbc1e84b90615"
+    },
+    {
+      "url": "https://support.apple.com/it-it/108963",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/108963",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 119978,
+      "response_sha256": "550b554f2ee937cac26e28299811ef137e65ef9509306e9bb26ab38b6947f417"
+    },
+    {
+      "url": "https://support.apple.com/it-it/guide/iphone/iphf2746307f/ios",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/guide/iphone/iphf2746307f/ios",
+      "content_type": "text/html;charset=utf-8",
+      "bytes_read": 979014,
+      "response_sha256": "fc676dc749a3d196ebf495b1af8b566e51fab766fbe1b09fece1dee8181344a8"
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DAndroid&hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/32040?hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/6294825?hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/android/answer/9110661?hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/chrome/answer/95617?co=GENIE.Platform%3DAndroid&hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=it-IT",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/mail/answer/30719?co=GENIE.Platform%3DAndroid&hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it",
+      "http": 429,
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "url": "https://www.bancaditalia.it/focus/cybersicurezza/truffe-cyber/",
+      "http": 200,
+      "final_url": "https://www.bancaditalia.it/focus/cybersicurezza/truffe-cyber/",
+      "content_type": "text/html;charset=UTF-8",
+      "bytes_read": 107403,
+      "response_sha256": "96a0cd9730c5561a5f5193c41e287cdb2556336f7f5aefb923c827051d075715"
+    },
+    {
+      "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+      "http": 200,
+      "final_url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+      "content_type": "text/html; charset=UTF-8",
+      "bytes_read": 544373,
+      "response_sha256": "af3623b12f7f31ffb76e3aa2300c0ba040a9b6cc40cf5e27dfd1bd5c11c4a4e7"
+    }
+  ]
+}

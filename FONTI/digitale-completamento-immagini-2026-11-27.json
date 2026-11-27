@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-27",
+  "scope": "Tre fotografie originali per le nuove guide Digitale quotidiano",
+  "images": [
+    {
+      "key": "io",
+      "output_file": "assets/digitale-io-pagopa-originale.webp",
+      "used_in": "digitale-io-pagopa-avvisi-ricevute.html; index.html",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for a free Italian practical guide for adults aged 50 to 70 about app IO and pagoPA payments. Landscape 3:2. A naturally dressed Italian woman about 63 years old with short grey hair and glasses sits at a modest bright kitchen table, calmly using a smartphone while comparing a plain paper payment notice lying on the table; a pen and closed folder nearby. Camera at three-quarter view, realistic human hands and skin, warm daylight, candid documentary photo, believable everyday Italian home. Phone display turned away from camera and paper text fully unreadable, no actual QR code, no payment card numbers, no real document or personal information, no company logos, no text overlay or watermark. Show autonomy and calm concentration. Generate one photograph, not a collage.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "original_filename": "exec-39079e98-46e8-4c66-a2f9-724a1ab07eab.png",
+      "original_sha256": "75eab730d7d20c6fac2d563fd91a8c4272012707b2ff9c5b6de6eb33baa7d422",
+      "output_sha256": "6a37d7f256ae266bb1b4140867a6bc2032642a42fe7a5e81a5700591592ba754",
+      "git_blob_sha": "97d1e3d0f9e221fc4b7b94d41de5c208409209d8",
+      "generator": "ChatGPT ImageGen integrato",
+      "generation_date": "2026-11-27",
+      "reference_images": [],
+      "visual_check": "Esito mostrato e ispezionato: scena pertinente, mani e anatomia plausibili, nessun dato personale o testo leggibile, nessun marchio o approvazione implicita.",
+      "conversion": "Pillow WebP qualità 83; nessun ritaglio, ridimensionamento o modifica alla scena."
+    },
+    {
+      "key": "documenti",
+      "output_file": "assets/digitale-documenti-originale.webp",
+      "used_in": "digitale-documenti-telefono-pdf-allegati.html",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for an Italian free guide about downloading, finding and sending documents on a smartphone. Landscape 3:2. An Italian man about 60, salt-and-pepper beard and simple green shirt, sitting at a tidy wooden desk by a window, looking attentively at his smartphone with a laptop and neatly organised paper folders beside him. Rear three-quarter view from slightly above so device screens are angled away and unreadable. Realistic daylight, natural skin texture and anatomically credible hands, modest lived-in home, useful calm everyday activity. No logos, no legible screen interface or paper text, no codes, no real identity document, no watermark, no collage. One realistic documentary photograph.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "original_filename": "exec-0500ca6a-9754-4f52-82e1-cb7b6901c7e6.png",
+      "original_sha256": "1f0bb10051b03633bc6445c8b9340fdb5add14963d5e70be559fe3353b0d1957",
+      "output_sha256": "c115796712dfbc7936c53cb11cf79cf61318783ddeaaf331148ef712ac34c1b5",
+      "git_blob_sha": "b78627d726ef8ac90db3430405aa01e06fb8ca51",
+      "generator": "ChatGPT ImageGen integrato",
+      "generation_date": "2026-11-27",
+      "reference_images": [],
+      "visual_check": "Esito mostrato e ispezionato: scena pertinente, mani e anatomia plausibili, nessun dato personale o testo leggibile, nessun marchio o approvazione implicita.",
+      "conversion": "Pillow WebP qualità 83; nessun ritaglio, ridimensionamento o modifica alla scena."
+    },
+    {
+      "key": "sicurezza",
+      "output_file": "assets/digitale-sicurezza-originale.webp",
+      "used_in": "digitale-sicurezza-messaggi-accessi.html",
+      "prompt": "Use case: photorealistic-natural. Asset type: original editorial photograph for a free Italian guide on recognising suspicious messages and protecting digital access. Landscape 3:2. A thoughtful Italian woman aged about 58 with curly dark hair with some grey and a simple ochre blouse at a small living-room desk. She has put her smartphone face down and calmly checks something on a laptop, holding a small blank notebook, conveying a deliberate pause before answering a message. Natural documentary photography with soft afternoon window light, realistic skin, believable hands, modest everyday Italian apartment. No hacker clichés, no padlock symbols, no police or bank branding, no alarm imagery, no fear expression, no legible personal information or screen text, no text overlay, no watermark, no collage. Single original realistic photograph.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "original_filename": "exec-0d031f8e-8994-41e4-9d62-29aa5f03973e.png",
+      "original_sha256": "ba16646cbdda95a39798969b8bf6c9661a28467433056079a3d908ea753b554f",
+      "output_sha256": "ac3b029ee8d2649a8d656643ec8c22d4259edc440a4701af4d1000a43a161c51",
+      "git_blob_sha": "8cdd3dacb9f3ec213dd53e95a853427782cfebc9",
+      "generator": "ChatGPT ImageGen integrato",
+      "generation_date": "2026-11-27",
+      "reference_images": [],
+      "visual_check": "Esito mostrato e ispezionato: scena pertinente, mani e anatomia plausibili, nessun dato personale o testo leggibile, nessun marchio o approvazione implicita.",
+      "conversion": "Pillow WebP qualità 83; nessun ritaglio, ridimensionamento o modifica alla scena."
+    }
+  ]
+}

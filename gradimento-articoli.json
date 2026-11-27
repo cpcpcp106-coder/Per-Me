@@ -613,5 +613,20 @@
     "path": "gestione-separata-rimborso-contributi-massimale.html",
     "title": "Gestione Separata: rimborso dei contributi oltre il massimale",
     "category": "Soldi & Lavoro"
+  },
+  {
+    "path": "digitale-io-pagopa-avvisi-ricevute.html",
+    "title": "App IO e pagoPA: avvisi, pagamenti e ricevute",
+    "category": "Digitale quotidiano"
+  },
+  {
+    "path": "digitale-documenti-telefono-pdf-allegati.html",
+    "title": "Documenti sul telefono: scaricare, ritrovare e inviare PDF",
+    "category": "Digitale quotidiano"
+  },
+  {
+    "path": "digitale-sicurezza-messaggi-accessi.html",
+    "title": "Messaggi sospetti e accessi: proteggersi dalle truffe",
+    "category": "Digitale quotidiano"
   }
 ]

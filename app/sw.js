@@ -1,4 +1,4 @@
-const CACHE='perme-reader-v35-20261126-ricerca';
+const CACHE='perme-reader-v36-20261127-digitale';
 const SHELL=['./','./index.html','./app.css?v=15','./catalogo-guide.js?v=6','./main.js?v=21','./manifest.webmanifest','./icon-192.png','./icon-512.png','./icon-maskable-512.png'];
 const MENU='./menu-mediterraneo.html';
 const MENU_ASSETS=['./menu-mediterraneo.css?v=1','./menu-mediterraneo.js?v=1','./ricette-mediterranee.js?v=1','../assets/logo-per-me.png','../assets/dieta-menu-spesa-originale.webp'];

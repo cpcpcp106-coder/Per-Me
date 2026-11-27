@@ -10,11 +10,20 @@
       "stato": "pubblicato_verificato",
       "guide": [
         "digitale-telefono-leggibile.html",
-        "digitale-spid-cie-accesso-recupero.html"
+        "digitale-spid-cie-accesso-recupero.html",
+        "digitale-io-pagopa-avvisi-ricevute.html",
+        "digitale-documenti-telefono-pdf-allegati.html",
+        "digitale-sicurezza-messaggi-accessi.html"
       ],
       "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html",
       "verificato_il_utc": "2026-11-25T08:47:20.834548+00:00",
-      "pr": 37
+      "pr": 37,
+      "ampliamento": {
+        "data": "2026-11-27",
+        "ambito": "Percorso essenziale in cinque guide",
+        "stato": "in_collaudo",
+        "registro": "monitoraggio/digitale-completamento-2026-11-27.md"
+      }
     },
     {
       "nome": "Acquisti e contratti senza sorprese",
