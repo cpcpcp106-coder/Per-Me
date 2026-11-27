@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-27T07:19:26.606631+00:00",
+  "date_utc": "2026-11-27T07:27:21.539913+00:00",
   "scope": {
-    "pages": 168,
-    "unique_external_urls": 1081,
-    "occurrences": 2954
+    "pages": 171,
+    "unique_external_urls": 1109,
+    "occurrences": 2997
   },
   "counts": {
-    "bloccato_o_riservato": 125,
-    "raggiungibile": 932,
+    "bloccato_o_riservato": 135,
+    "raggiungibile": 953,
     "non_verificato_trasporto": 20,
-    "errore_http": 4
+    "errore_http": 1
   },
   "results": [
     {
@@ -151,6 +151,54 @@
       ]
     },
     {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/30722960328337-Cosa-serve-per-accedere-a-IO",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/30723003488529-Scaricare-aggiornare-e-disinstallare-IO",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/30868634510481-Sto-aspettando-un-messaggio-che-non-arriva",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/31007589141393-Pagare-con-IO",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/32186215314705-Dove-trovare-la-ricevuta-di-un-pagamento",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.ioapp.it/hc/it/articles/39315555582225-Come-scegliere-un-gestore-del-pagamento-PSP",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
       "url": "https://assistenza.notifichedigitali.it/hc/it",
       "status": "bloccato_o_riservato",
       "http": 403,
@@ -180,6 +228,38 @@
       "http": 403,
       "pages": [
         "inps-send-indebiti-notifiche-2027.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/31958822685585-Come-sapere-se-il-pagamento-%C3%A8-andato-a-buon-fine",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/34047454046097-Contattare-l-assistenza-di-pagoPA",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/34467698417297-Come-evitare-tentativi-di-phishing-o-truffa-a-nome-di-pagoPA",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
+      "url": "https://assistenza.pagopa.gov.it/hc/it/articles/36354438782865-Cosa-fare-se-hai-sub%C3%ACto-una-truffa",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
       ]
     },
     {
@@ -296,6 +376,15 @@
       "final_url": "https://chatgpt.com/",
       "pages": [
         "tutor-ai-android-primi-passi.html"
+      ]
+    },
+    {
+      "url": "https://checkout.pagopa.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://checkout.pagopa.it/",
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
       ]
     },
     {
@@ -1321,16 +1410,18 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/audit-completamento-2026-10-15.md",
       "pages": [
         "monitoraggio.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/monitoraggio/verifica-sito-fonti-link-2026-11-24.md",
       "pages": [
         "monitoraggio.html"
       ]
@@ -1932,6 +2023,15 @@
       ]
     },
     {
+      "url": "https://ioapp.it/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://ioapp.it/",
+      "pages": [
+        "digitale-io-pagopa-avvisi-ricevute.html"
+      ]
+    },
+    {
       "url": "https://it.pinterest.com/permeguide/",
       "status": "raggiungibile",
       "http": 200,
@@ -2023,7 +2123,10 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-documenti-telefono-pdf-allegati.html",
+        "digitale-io-pagopa-avvisi-ricevute.html",
         "digitale-quotidiano.html",
+        "digitale-sicurezza-messaggi-accessi.html",
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
@@ -2180,8 +2283,9 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "non_verificato_trasporto",
-      "error": "The read operation timed out",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2193,6 +2297,15 @@
       "final_url": "https://mvr.bg/migration/en/legislation/citizens-of-eu",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://myaccount.google.com/security",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-2063440311:1795764403444650",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
       ]
     },
     {
@@ -2623,6 +2736,15 @@
       ]
     },
     {
+      "url": "https://questure.poliziadistato.it/it/Taranto/articolo/12606611370360b3e512138924",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://questure.poliziadistato.it/it/Taranto/articolo/12606611370360b3e512138924",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
       "url": "https://refertionline.sanita.fvg.it/SERVIZIFVG_RefertiOnLine/cercaRichiesta",
       "status": "raggiungibile",
       "http": 200,
@@ -2669,9 +2791,8 @@
     },
     {
       "url": "https://servizi.regione.fvg.it/portale/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://servizi.regione.fvg.it/portale/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html",
         "salute-guida-05-fascicolo-sanitario-elettronico-privacy-referti.html"
@@ -2845,12 +2966,48 @@
       ]
     },
     {
+      "url": "https://support.apple.com/it-it/102440",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/102440",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
+      ]
+    },
+    {
+      "url": "https://support.apple.com/it-it/102568",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/102568",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
+      "url": "https://support.apple.com/it-it/108963",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/108963",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
+      ]
+    },
+    {
       "url": "https://support.apple.com/it-it/guide/iphone/iph3c076905a/ios",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://support.apple.com/it-it/guide/iphone/iph3c076905a/ios",
       "pages": [
         "digitale-telefono-leggibile.html"
+      ]
+    },
+    {
+      "url": "https://support.apple.com/it-it/guide/iphone/iphf2746307f/ios",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.apple.com/it-it/guide/iphone/iphf2746307f/ios",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
       ]
     },
     {
@@ -2882,6 +3039,42 @@
       ]
     },
     {
+      "url": "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DAndroid&hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accounts/answer/185839?co=GENIE.Platform%3DAndroid&hl=it",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/32040?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accounts/answer/32040?hl=it",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/accounts/answer/6294825?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/accounts/answer/6294825?hl=it",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/android/answer/9110661?hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/android/answer/9110661?hl=it",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
+      ]
+    },
+    {
       "url": "https://support.google.com/chrome/answer/1069693?co=GENIE.Platform%3DAndroid&hl=it",
       "status": "raggiungibile",
       "http": 200,
@@ -2891,12 +3084,48 @@
       ]
     },
     {
+      "url": "https://support.google.com/chrome/answer/95617?co=GENIE.Platform%3DAndroid&hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/chrome/answer/95617?co=GENIE.Platform%3DAndroid&hl=it",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
       "url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
       "status": "raggiungibile",
       "http": 200,
       "final_url": "https://support.google.com/docs/answer/161768?co=GENIE.Platform%3DAndroid",
       "pages": [
         "tutor-ai-android-primi-passi.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=it-IT",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/drive/answer/3145835?co=GENIE.Platform%3DAndroid&hl=it-IT",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/mail/answer/30719?co=GENIE.Platform%3DAndroid&hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/mail/answer/30719?co=GENIE.Platform%3DAndroid&hl=it",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
+      ]
+    },
+    {
+      "url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://support.google.com/mail/answer/6584?co=GENIE.Platform%3DAndroid&hl=it",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
       ]
     },
     {
@@ -3161,7 +3390,10 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-documenti-telefono-pdf-allegati.html",
+        "digitale-io-pagopa-avvisi-ricevute.html",
         "digitale-quotidiano.html",
+        "digitale-sicurezza-messaggi-accessi.html",
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
@@ -4973,6 +5205,15 @@
       ]
     },
     {
+      "url": "https://www.bancaditalia.it/focus/cybersicurezza/truffe-cyber/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.bancaditalia.it/focus/cybersicurezza/truffe-cyber/",
+      "pages": [
+        "digitale-sicurezza-messaggi-accessi.html"
+      ]
+    },
+    {
       "url": "https://www.bancaditalia.it/servizi-cittadino/servizi/accesso-cr/",
       "status": "raggiungibile",
       "http": 200,
@@ -5272,7 +5513,7 @@
       "url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
+      "final_url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-intere-gr-500.html",
       "pages": [
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html"
       ]
@@ -6005,7 +6246,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -6031,7 +6272,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "acquisti-contratti.html",
         "acquisti-contratti.html",
@@ -6137,8 +6378,14 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-documenti-telefono-pdf-allegati.html",
+        "digitale-documenti-telefono-pdf-allegati.html",
+        "digitale-io-pagopa-avvisi-ricevute.html",
+        "digitale-io-pagopa-avvisi-ricevute.html",
         "digitale-quotidiano.html",
         "digitale-quotidiano.html",
+        "digitale-sicurezza-messaggi-accessi.html",
+        "digitale-sicurezza-messaggi-accessi.html",
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-telefono-leggibile.html",
@@ -8644,7 +8891,10 @@
         "dieta-ricette-piatti-legumi.html",
         "dieta-ricette-ricotta.html",
         "dieta-ricette-uova-carne-bianca.html",
+        "digitale-documenti-telefono-pdf-allegati.html",
+        "digitale-io-pagopa-avvisi-ricevute.html",
         "digitale-quotidiano.html",
+        "digitale-sicurezza-messaggi-accessi.html",
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-telefono-leggibile.html",
         "dove-chiedere-aiuto.html",
@@ -11199,6 +11449,15 @@
       ]
     },
     {
+      "url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.samsung.com/it/support/mobile-devices/how-to-find-and-manage-files-on-your-samsung-galaxy-device/",
+      "pages": [
+        "digitale-documenti-telefono-pdf-allegati.html"
+      ]
+    },
+    {
       "url": "https://www.san.gva.es/es/web/portal-del-paciente/buscador-recursos",
       "status": "raggiungibile",
       "http": 200,
@@ -11459,8 +11718,9 @@
     },
     {
       "url": "https://www1.agenziaentrate.gov.it/web_app_entrate/fisco_a_portata_di_click.html",
-      "status": "errore_http",
-      "http": 404,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www1.agenziaentrate.gov.it/web_app_entrate/fisco_a_portata_di_click.html",
       "pages": [
         "fisco-semplice.html"
       ]

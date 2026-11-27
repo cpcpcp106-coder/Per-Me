@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-27T07:16:29.053Z",
+  "checked_at_utc": "2026-11-27T07:24:33.219Z",
   "engine": "Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android",
   "status": "COMPLETED",
   "tests": [
@@ -59,7 +59,7 @@
       "name": "published_html_http_local",
       "result": "PASS",
       "details": {
-        "count": 159,
+        "count": 162,
         "failures": []
       }
     },
@@ -100,7 +100,7 @@
       "name": "all_root_html_mobile_reflow",
       "result": "PASS",
       "details": {
-        "checked": 159,
+        "checked": 162,
         "violations": []
       }
     },
@@ -120,7 +120,7 @@
       "name": "all_root_html_axe_wcag_auto",
       "result": "PASS",
       "details": {
-        "checked": 159,
+        "checked": 162,
         "failed": [],
         "errors": []
       }
@@ -159,11 +159,11 @@
       "name": "sync_and_persist_localStorage",
       "result": "PASS",
       "details": {
-        "status": "148 pagine salvate per la lettura offline · controllo online 27 nov, 07:17.",
+        "status": "151 pagine salvate per la lettura offline · controllo online 27 nov, 07:25.",
         "stored": {
-          "guides": 148,
-          "updated": "2026-11-27T07:17:33.699Z",
-          "bytes": 3021500,
+          "guides": 151,
+          "updated": "2026-11-27T07:25:28.838Z",
+          "bytes": 3061706,
           "includesNew09": true
         }
       }
@@ -177,7 +177,7 @@
       "name": "offline_shell_and_catalogue",
       "result": "PASS",
       "details": {
-        "count": 148
+        "count": 151
       }
     },
     {
@@ -853,9 +853,27 @@
       "incomplete": 2
     },
     {
+      "page": "digitale-documenti-telefono-pdf-allegati.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
+      "page": "digitale-io-pagopa-avvisi-ricevute.html",
+      "violations": [],
+      "passes": 26,
+      "incomplete": 2
+    },
+    {
       "page": "digitale-quotidiano.html",
       "violations": [],
       "passes": 24,
+      "incomplete": 2
+    },
+    {
+      "page": "digitale-sicurezza-messaggi-accessi.html",
+      "violations": [],
+      "passes": 26,
       "incomplete": 2
     },
     {
