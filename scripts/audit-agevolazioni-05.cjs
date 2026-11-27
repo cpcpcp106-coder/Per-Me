@@ -1,4 +1,5 @@
 'use strict';
+const {inventario}=require('./lib/inventario-sito.cjs');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
@@ -16,7 +17,6 @@ let open=false;
 for(const t of guide.matchAll(/<\/?p\b[^>]*>/gi)){if(t[0].startsWith('</')){assert.ok(open,'Paragrafo chiuso senza apertura');open=false;}else{assert.ok(!open,'Paragrafo annidato');open=true;}}
 assert.ok(!open,'Paragrafo non chiuso');
 assert.match(index,/href="agevolazioni-guida-05-comune-servizi-sociali-italia.html"/,'Card Guida 05 assente');
-assert.match(home,/14 risorse disponibili/,'Homepage da aggiornare a quattordici risorse');
 assert.match(map,/agevolazioni-guida-05-comune-servizi-sociali-italia.html/,'Sitemap manca Guida 05');
 assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica 04 non nella PWA');
 assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'PWA non scarica guide linkate');
@@ -29,3 +29,6 @@ for(const link of [...guide.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)].map(m=
 assert.ok(!/Attimis|Tarcento|Cividale|ASUFC|CAF UIL|ITAL UIL|sconti FVG|Comune di Udine/i.test(guide),'Personalizzazione o localismo nella guida nazionale');
 console.log('PASS: Guida 05 nazionale, LEPS, Comune/ATS, segretariato, PUA, ADI/SFL 2026, foto, navigazione, SEO e PWA');
 console.log('LIMITI: un test statico non sostituisce fact-check indipendente, lettura Android reale, verifiche individuali dei bandi o servizi locali');
+
+// Conteggi e completezza sono verificati anche per guide future, senza totali fissi.
+inventario(root);

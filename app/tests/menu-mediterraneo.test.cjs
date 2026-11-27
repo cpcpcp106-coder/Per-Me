@@ -12,9 +12,10 @@ const ricette = new Map(data.ricette.map(recipe => [recipe.id, recipe]));
 const stato = initial => normalizzaStato(data, ricette, initial);
 const lista = initial => new Map(ingredientiNecessari(stato(initial), data, ricette).map(row => [row.id, row]));
 
-test('Archivio con 28 ricette, riferimenti CREA e pagine raggiungibili', () => {
-  assert.equal(ricette.size, 28);
-  assert.equal(data.ricette.filter(r => r.gruppo === 'colazione').length, 4);
+test('Archivio completo, riferimenti CREA e pagine raggiungibili', () => {
+  require('../../scripts/lib/inventario-sito.cjs').inventario(root);
+  assert.equal(ricette.size, data.ricette.length, 'Identificatori di ricetta unici');
+  assert.ok(data.ricette.some(r => r.gruppo === 'colazione'), 'Colazioni disponibili');
   const sitemap = read('sitemap.xml');
   for (const recipe of data.ricette) {
     const [file, anchor] = recipe.path.split('#');
@@ -32,7 +33,7 @@ test('Archivio con 28 ricette, riferimenti CREA e pagine raggiungibili', () => {
 });
 
 test('Ogni esempio propone 21 pasti e alterna le cinque fonti proteiche principali', () => {
-  assert.equal(data.settimane.length, 2);
+  assert.equal(new Set(data.settimane.map(w => w.id)).size, data.settimane.length, 'Identificatori di settimana unici');
   for (const settimana of data.settimane) {
     assert.equal(settimana.giorni.length, 7);
     const counts = new Map();

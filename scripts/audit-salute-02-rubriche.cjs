@@ -32,6 +32,7 @@ for(const file of [guide,diabetes,diet]){
  assert.equal(listed[0].verification,'LICENZA_PIATTAFORMA_VERIFICATA','Licenza non documentata '+file);
  assert.ok(!/Tarcento|Attimis|Racchiuso|ASUFC|Udine/i.test(html),'Personalizzazione geografica indebita');
 }
+const site=require('./lib/inventario-sito.cjs').inventario(root).insiemi;
 const cardiology=read(guide),diab=read(diabetes),med=read(diet);
 for(const x of ['112 o il 118','angioplastica','bypass','angina','scompenso','diabete tipo 2','antiaggreganti','Heart Team','ictus','maculopatia','neuropatia']){
  assert.ok(cardiology.toLowerCase().includes(x.toLowerCase()),'Argomento Guida 02 assente: '+x);
@@ -40,12 +41,12 @@ for(const host of ['www.salute.gov.it','www.escardio.org'])assert.ok(cardiology.
 assert.ok(/non significa che ogni cardiopatia/i.test(cardiology),'Confusione causa diabete');
 assert.ok(diab.includes('non tutte le neuropatie')&&diab.includes('rischio aumenta'),'Differenze causali patologie non chiarite');
 const plannedDiabetesGuides=[...diab.matchAll(/<li\b[^>]*>\s*<strong>Guida (\d\d):<\/strong>/g)].map(match=>Number(match[1]));
-assert.deepEqual(plannedDiabetesGuides,Array.from({length:30},(_,index)=>index+1),'Trenta guide diabete, in ordine e senza numeri mancanti o duplicati');
-assert.ok(diab.includes('95 condizioni')&&diab.includes('CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2'),'Mancano repertorio critico e fonti');
+assert.deepEqual(plannedDiabetesGuides,site.diabete.map(file=>Number(file.match(/-guida-(\d+)-/)[1])),'Guide diabete in ordine e senza voci mancanti o duplicate');
+assert.ok(diab.includes(site.clinica.length+' condizioni')&&diab.includes('CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2'),'Mancano repertorio critico e fonti');
 const inventory=read('FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md');
 const clinicItems=[...inventory.split('## Revisioni critiche finali')[0].matchAll(/^(\d+)\. /gm)].map(m=>Number(m[1]));
-assert.equal(clinicItems.length,95,'Il censimento deve mantenere 95 voci cliniche');
-assert.ok(clinicItems.every((value,index)=>value===index+1),'Il censimento deve avere numerazione continua da 1 a 95');
+assert.equal(clinicItems.length,site.clinica.length,'Censimento clinico completo');
+assert.ok(clinicItems.every((value,index)=>value===index+1),'Il censimento deve avere numerazione continua senza voci mancanti');
 for(const crucial of ['Retinopatia','Macular','Necrobiosi','Piede diabetico','Pancreatite','Metformina','Ipoacusia','Neuropatia','Parodontite'])assert.ok(inventory.toLowerCase().includes(crucial.toLowerCase()),'Patologia mancante dal censimento: '+crucial);
 
 for(const cue of ['id="regola-15"','15 grammi','15 minuti','inferiore a 70 mg/dL','non darle cibo né bevande per bocca','112/118','glucagone','sistemi di somministrazione automatizzata','acarbosio','Guida 02:','Guida 27:']){
@@ -55,8 +56,8 @@ for(const cue of ['Regola del 15 (15–15)','15 g di glucosio','ADA 2026','CDC, 
  assert.ok(inventory.includes(cue),'Regola del 15 non documentata nel censimento: '+cue);
 }
 const publishedDietGuides=[...med.matchAll(/<li><strong>Guida (\d\d)<\/strong>\s*<a href="dieta-guida-\1-[^"]+\.html"/g)].map(match=>Number(match[1]));
-assert.deepEqual(publishedDietGuides,Array.from({length:8},(_,i)=>i+1),'Otto guide Dieta mediterranea pubblicate in ordine, senza numeri mancanti o duplicati');
-for(let i=1;i<=8;i++)assert.ok(med.includes('dieta-guida-'+String(i).padStart(2,'0')+'-'),'La rubrica non collega la Guida Dieta '+i);
+assert.deepEqual(publishedDietGuides,site.dieta.map(file=>Number(file.match(/-guida-(\d+)-/)[1])),'Guide Dieta mediterranea in ordine, senza voci mancanti o duplicate');
+for(const file of site.dieta)assert.ok(med.includes(file),'La rubrica non collega la Guida Dieta '+file);
 
 for(const x of ['id="anziani-reddito"','pensionistico','cardiopatia','malnutrizione','agevolazioni-diritti.html#anziani-salute-reddito'])
  assert.ok(diab.toLowerCase().includes(x.toLowerCase()),'Anziani e accessibilita economica mancanti dalla rubrica diabete: '+x);

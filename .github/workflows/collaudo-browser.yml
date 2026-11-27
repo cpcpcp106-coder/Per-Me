@@ -3,6 +3,10 @@ on:
   workflow_dispatch:
   pull_request:
     paths:
+      - 'scripts/inventario_sito.py'
+      - 'scripts/lib/**'
+      - 'FONTI/inventario-contenuti.json'
+      - 'gradimento-articoli.json'
       - "*.html"
       - "app/**"
       - "strumenti/**"
@@ -19,6 +23,10 @@ on:
     branches:
       - main
     paths:
+      - 'scripts/inventario_sito.py'
+      - 'scripts/lib/**'
+      - 'FONTI/inventario-contenuti.json'
+      - 'gradimento-articoli.json'
       - "*.html"
       - "app/**"
       - "strumenti/**"

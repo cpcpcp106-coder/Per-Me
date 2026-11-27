@@ -3,6 +3,10 @@ on:
   push:
     branches: [main]
     paths:
+      - 'scripts/inventario_sito.py'
+      - 'scripts/lib/**'
+      - 'FONTI/inventario-contenuti.json'
+      - 'gradimento-articoli.json'
       - 'agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html'
       - 'agevolazioni-diritti.html'
       - 'index.html'
@@ -12,6 +16,10 @@ on:
   pull_request:
     branches: [main]
     paths:
+      - 'scripts/inventario_sito.py'
+      - 'scripts/lib/**'
+      - 'FONTI/inventario-contenuti.json'
+      - 'gradimento-articoli.json'
       - 'agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html'
       - 'agevolazioni-diritti.html'
       - 'index.html'
@@ -27,6 +35,9 @@ jobs:
     timeout-minutes: 5
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - uses: actions/setup-node@v4
         with:
           node-version: '22'

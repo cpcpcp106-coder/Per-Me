@@ -6,6 +6,7 @@ const http = require('node:http');
 const { chromium } = require('playwright');
 
 const root = path.resolve(__dirname, '..');
+const expectedGuides=require('./lib/inventario-sito.cjs').inventario(root).insiemi.lievito;
 const types = {'.html':'text/html; charset=utf-8','.js':'application/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.webp':'image/webp','.png':'image/png','.ico':'image/x-icon','.webmanifest':'application/manifest+json'};
 const server = http.createServer((req,res) => {
   const pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
@@ -27,11 +28,12 @@ async function run() {
     for(const width of [320,390,768]) {
       const page=await browser.newPage({viewport:{width,height:820},deviceScaleFactor:1});
       await page.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
-      for(const file of ['index.html','lievito-madre.html','pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html','tangzhong-autolisi-biga-poolish.html']) {
+      for(const file of ['index.html','lievito-madre.html',...expectedGuides]) {
         const response=await page.goto(base+'/'+file,{waitUntil:'domcontentloaded'});
         check(response.status()===200,file+' HTTP 200 a '+width+' px');
         check(await page.evaluate(()=>document.documentElement.scrollWidth<=window.innerWidth+2),file+' senza scorrimento orizzontale a '+width+' px');
-        const buttons=await page.locator('.lievito-home-links a, .lievito-page a.button-lievito, .indice-lievito a').evaluateAll(links=>{
+        // Le guide del percorso possono usare anche i pulsanti condivisi .button.
+        const buttons=await page.locator('.lievito-home-links a, .lievito-page a.button-lievito, .indice-lievito a, .article a.button').evaluateAll(links=>{
           const luminance=color=>{
             const rgb=(color.match(/[\d.]+/g)||[]).slice(0,3).map(Number).map(v=>{
               const s=v/255;return s<=0.04045?s/12.92:((s+0.055)/1.055)**2.4;
@@ -49,7 +51,12 @@ async function run() {
           check(editorialFacebook===1,file+' collegamento Facebook editoriale conservato');
           for(const img of await page.locator('main img[src*="originale.webp"]').all()){
             await img.scrollIntoViewIfNeeded();
-            await img.evaluate(element=>element.decode().catch(()=>{}));
+            // Lo scroll avvia le foto lazy: attendere il caricamento effettivo
+            // prima della decodifica, che puo' fallire se richiesta troppo presto.
+            const element=await img.elementHandle();
+            await page.waitForFunction(image=>image.complete&&image.naturalWidth>0,element,{timeout:15000});
+            await element.dispose();
+            await img.evaluate(image=>image.decode());
           }
           const photos=await page.locator('main img[src*="originale.webp"]').evaluateAll(images=>images.map(img=>({loaded:img.complete&&img.naturalWidth>0,alt:!!img.alt.trim()})));
           check(photos.length>0&&photos.every(p=>p.loaded&&p.alt),file+' foto caricata e testo alternativo');
@@ -88,11 +95,11 @@ async function run() {
     await page.route(/^https?:\/\/(?!127\.0\.0\.1)/,route=>route.abort());
     await page.goto(base+'/app/');
     await page.waitForFunction(()=>document.querySelector('#sync-status').textContent.includes('pagine salvate'),null,{timeout:60000});
-    const offlineEntries=await page.evaluate(()=>{
+    const offlineEntries=await page.evaluate(expected=>{
       const saved=JSON.parse(localStorage.getItem('perme-app-offline-20261014')||'{}');
-      return saved.guides?.filter(g=>['pasta-madre-solida-da-zero.html','licoli-da-zero.html','pane-500g-friggitrice-8-litri.html','pizza-napoletana-con-licoli.html','tangzhong-autolisi-biga-poolish.html'].includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
-    });
-    check(offlineEntries.length===5&&offlineEntries.every(x=>x.hasContent),'app: cinque guide scaricate per lettura offline');
+      return saved.guides?.filter(g=>expected.includes(g.path)).map(g=>({path:g.path,hasContent:g.content.length>800&&g.content.includes('g')}))||[];
+    },expectedGuides);
+    check(new Set(offlineEntries.map(x=>x.path)).size===offlineEntries.length&&expectedGuides.every(file=>offlineEntries.some(x=>x.path===file&&x.hasContent)),'app: tutte le guide del percorso scaricate per lettura offline');
     await context.setOffline(true);
     await page.reload({waitUntil:'domcontentloaded'});
     await page.waitForTimeout(800);

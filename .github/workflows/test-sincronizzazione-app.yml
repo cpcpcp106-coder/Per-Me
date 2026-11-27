@@ -4,12 +4,20 @@ on:
     branches:
       - main
     paths:
+      - 'scripts/inventario_sito.py'
+      - 'scripts/lib/**'
+      - 'FONTI/inventario-contenuti.json'
+      - 'gradimento-articoli.json'
       - 'app/**'
       - '.github/workflows/test-sincronizzazione-app.yml'
   pull_request:
     branches:
       - main
     paths:
+      - 'scripts/inventario_sito.py'
+      - 'scripts/lib/**'
+      - 'FONTI/inventario-contenuti.json'
+      - 'gradimento-articoli.json'
       - 'app/**'
       - '.github/workflows/test-sincronizzazione-app.yml'
 permissions:
@@ -21,6 +29,9 @@ jobs:
     steps:
       - name: Preleva il repository
         uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Configura Node.js
         uses: actions/setup-node@v4
         with:

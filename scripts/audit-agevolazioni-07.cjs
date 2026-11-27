@@ -1,4 +1,5 @@
 'use strict';
+const {inventario}=require('./lib/inventario-sito.cjs');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..'),get=p=>fs.readFileSync(path.join(root,p),'utf8');
 const page='agevolazioni-guida-07-patrocinio-spese-stato.html',html=get(page),rubric=get('agevolazioni-diritti.html'),home=get('index.html'),site=get('sitemap.xml'),catalogo=get('app/catalogo-guide.js');
@@ -20,12 +21,11 @@ assert.ok(images.stock.some(item=>item.photo_id==='8441780'&&item.used_in===page
 assert.ok(!/Tarcento|Attimis|Racchiuso|CAF UIL|Comune di Udine/i.test(html),'Personalizzazione geografica');
 for(const a of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const u=a[1];if(!/^https?:/i.test(u))assert.ok(fs.existsSync(path.join(root,u)),'Link locale assente '+u);}
 assert.match(rubric,/href="agevolazioni-guida-07-patrocinio-spese-stato.html"/,'Scheda Guida 07 assente');
-const guideLinks=[...rubric.matchAll(/<a class="a04-guide-card" href="([^"]+\.html)"/g)].map(match=>match[1]);
-assert.equal(guideLinks.filter(link=>!/-fvg(?:-|\.html)/.test(link)).length,11,'Undici guide nazionali');
-assert.equal(guideLinks.filter(link=>/-fvg(?:-|\.html)/.test(link)).length,3,'Tre schede per il Friuli Venezia Giulia');
-assert.match(home,/14 risorse disponibili/,'Conteggio home');
 assert.match(site,/agevolazioni-guida-07-patrocinio-spese-stato.html/,'URL sitemap');
 assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica app assente');
 assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione guide app assente');
 console.log('PASS Guida 07: legge vigente, soglie 2026, gestione redditi, rischi economici, foto documentata, struttura nazionale, sitemap, PWA.');
 console.log('LIMITI: test statico, non sostituisce consulenza legale, prova Android reale o indicizzazione Google.');
+
+// Conteggi e completezza sono verificati anche per guide future, senza totali fissi.
+inventario(root);

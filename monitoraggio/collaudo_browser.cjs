@@ -3,6 +3,8 @@ const fs=require('node:fs'),path=require('node:path'),{spawn}=require('node:chil
 const assert=require('node:assert/strict');
 const {chromium}=require('playwright');
 const axe=require('axe-core');
+const site=require('../scripts/lib/inventario-sito.cjs').inventario(path.resolve(__dirname,'..')).insiemi;
+const expectedPwa=require('../scripts/lib/inventario-sito.cjs').attesePwa(path.resolve(__dirname,'..'));
 const URL='http://127.0.0.1:8765/';
 const out=path.join('monitoraggio','ultimo-collaudo-browser.json');
 const report={checked_at_utc:new Date().toISOString(),engine:'Playwright Chromium Linux, viewport 390x844, touch emulated; NOT real Android',status:'STARTED',tests:[],axe:[],page_errors:[],limitations:['Non certifica installazione di icona PWA su telefono Samsung','Non certifica WCAG 2.2 AA con lettore schermo e tastiera fisica','Non verifica semanticamente ogni fonte normativa']};
@@ -215,9 +217,9 @@ try{
  await readersPage.close();
 }
 let htmls=fs.readdirSync('.').filter(x=>x.endsWith('.html')&&!x.startsWith('google'));
-const practicalGuides=htmls.filter(name=>/^(lavoro-guida-(0[7-9]|1[0-3])|salute-guida-0[6-8])-/.test(name));
+const practicalGuides=site['guide-pratiche'];
 const practicalGuideIssues=[];
-const pensionerGuides=htmls.filter(name=>/^pensionati-estero(?:-budget|-mete|-trasferimento)?\.html$/.test(name));
+const pensionerGuides=site['pensionati-estero'];
 const pensionerGuideIssues=[];
 let failures=[];
 for(let name of htmls){let resp=await context.request.get(URL+name,{timeout:15000});if(!resp.ok())failures.push({page:name,status:resp.status()});}
@@ -299,11 +301,11 @@ try{
 }catch(e){allPageBrowserErrors.push({name,error:String(e).slice(0,260)})}
 }
 record('all_root_html_mobile_reflow',allPageOverflow.length===0,{checked:htmls.length,violations:allPageOverflow});
-record('pensioner_guides_open_details_mobile_reflow',pensionerGuides.length===4 && !pensionerGuideIssues.length &&
+record('pensioner_guides_open_details_mobile_reflow',!pensionerGuideIssues.length &&
  !allPageBrowserErrors.some(error=>pensionerGuides.includes(error.name)),
  {checked:pensionerGuides.length,widths:[320,390],violations:pensionerGuideIssues});
 record('all_root_html_axe_wcag_auto',!report.axe.some(x=>x.error||(x.violations||[]).length) && !allPageBrowserErrors.length,{checked:htmls.length,failed:report.axe.filter(x=>x.error||(x.violations||[]).length).map(x=>({page:x.page,violations:x.violations?.map(y=>({id:y.id,nodes:y.total})),error:x.error})),errors:allPageBrowserErrors});
-record('practical_guides_photo_contents_and_facebook',practicalGuides.length===10 && !practicalGuideIssues.length,{checked:practicalGuides.length,issues:practicalGuideIssues});
+record('practical_guides_photo_contents_and_facebook',!practicalGuideIssues.length,{checked:practicalGuides.length,issues:practicalGuideIssues});
 
 await page.goto(URL+'debiti-guida-09-a-chi-rivolgersi.html',{waitUntil:'domcontentloaded'});
 record('guide_09_load',await page.locator('article h1').count()===1,await page.locator('article h1').textContent());
@@ -314,7 +316,7 @@ const manifest=await page.evaluate(async()=>{let u=document.querySelector('link[
 record('manifest_and_app_id',!!(manifest&&manifest.id&&manifest.start_url&&manifest.icons?.length>=2),manifest&&{id:manifest.id,start:manifest.start_url,icons:manifest.icons.length});
 await page.waitForFunction(()=>{let x=document.getElementById('sync-status');return x&&/pagine salvate|NON sono state salvate|Impossibile aggiornare/.test(x.textContent||'')},{timeout:90000}).catch(()=>{});
 const status=await page.locator('#sync-status').innerText();
-let stored=await page.evaluate(()=>{let k=Object.keys(localStorage).find(x=>x.startsWith('perme-app-offline'));let o=k?JSON.parse(localStorage.getItem(k)):{};return {guides:o.guides?.length||0,updated:o.updated,bytes:k?localStorage.getItem(k).length:0,includesNew09:!!o.guides?.some(g=>g.path==='debiti-guida-09-a-chi-rivolgersi.html')}});
+let stored=await page.evaluate(()=>{let k=Object.keys(localStorage).find(x=>x.startsWith('perme-app-offline'));let o=k?JSON.parse(localStorage.getItem(k)):{};return {paths:(o.guides||[]).map(g=>g.path).sort(),guides:o.guides?.length||0,updated:o.updated,bytes:k?localStorage.getItem(k).length:0,includesNew09:!!o.guides?.some(g=>g.path==='debiti-guida-09-a-chi-rivolgersi.html')}});
 record('sync_and_persist_localStorage',stored.guides>=23 && stored.includesNew09,{status,stored});
 await axeTest(page,'app-catalogue');
 const reg=await page.evaluate(async()=>{await navigator.serviceWorker.ready;return !!(await navigator.serviceWorker.getRegistration('./'))});
@@ -323,7 +325,7 @@ await context.setOffline(true);
 await page.reload({waitUntil:'domcontentloaded',timeout:30000}).catch(e=>report.page_errors.push('Offline reload: '+String(e).slice(0,180)));
 await page.waitForTimeout(500);
 const offlinePage=await page.locator('#guide-list .guide-card').count();
-record('offline_shell_and_catalogue',offlinePage>=23,{count:offlinePage});
+record('offline_shell_and_catalogue',offlinePage===expectedPwa.length&&JSON.stringify(stored.paths)===JSON.stringify(expectedPwa),{count:offlinePage,expected:expectedPwa.length,missing:expectedPwa.filter(file=>!stored.paths.includes(file)),unexpected:stored.paths.filter(file=>!expectedPwa.includes(file))});
 if(offlinePage){await page.locator('#guide-list .guide-card').first().click();record('offline_guide_readable',(await page.locator('#reader-content').innerText()).trim().length>250,{title:await page.locator('#reader-title').innerText(),chars:(await page.locator('#reader-content').innerText()).length})}
 const offlineGuideIssues=[];
 for(const name of practicalGuides){
@@ -350,7 +352,7 @@ for(const name of practicalGuides){
   }
  }catch(e){offlineGuideIssues.push({name,error:String(e).slice(0,260)})}
 }
-record('practical_guides_updated_and_readable_offline',practicalGuides.length===10 && !offlineGuideIssues.length,{checked:practicalGuides.length,issues:offlineGuideIssues});
+record('practical_guides_updated_and_readable_offline',!offlineGuideIssues.length,{checked:practicalGuides.length,issues:offlineGuideIssues});
 try{
  await page.evaluate(()=>{location.hash='guida=diabete-guida-20-fegato-masld-mash-fibrosi-cirrosi.html'});
  await page.waitForFunction(()=>document.getElementById('reader-title').textContent.includes('fegato'));

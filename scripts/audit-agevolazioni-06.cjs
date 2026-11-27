@@ -1,4 +1,5 @@
 'use strict';
+const {inventario}=require('./lib/inventario-sito.cjs');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
 const read=p=>fs.readFileSync(path.join(root,p),'utf8');
@@ -24,9 +25,11 @@ assert.ok(!html.includes('mit.gov.it/temi/casa/accesso-allabitazione'),'Collegam
 assert.ok(!/Tarcento|Attimis|Racchiuso|ASUFC|CAF UIL|Comune di Udine/i.test(html),'Localismo in guida nazionale');
 for(const match of html.matchAll(/href="([^"]+\.html)(?:#[^"]*)?"/g)){const href=match[1];if(!/^https?:/.test(href))assert.ok(fs.existsSync(path.join(root,href)),'Link locale inesistente: '+href);}
 assert.match(rubric,/href="agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"/,'Card Guida 06 assente');
-assert.match(home,/14 risorse disponibili/,'Conteggio 11 guide nazionali + 3 schede');
 assert.match(site,/agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html/,'Sitemap senza Guida 06');
 assert.ok(catalogo.includes("['agevolazioni-diritti.html', 'Agevolazioni e diritti']"),'Rubrica 04 non indicizzata dalla PWA');
 assert.ok(catalogo.includes("doc.querySelectorAll('main a[href]')"),'Sincronizzazione collegamenti PWA assente');
 console.log('PASS Guida 06: normativa nazionale, sezioni, fotorealismo distinto, SEO, ancore, collegamenti, sitemap e PWA');
 console.log('LIMITI: test statico. Non sostituisce verifiche dei bandi locali, analisi legale individuale, lettura Android e controllo HTTP dopo deploy.');
+
+// Conteggi e completezza sono verificati anche per guide future, senza totali fissi.
+inventario(root);

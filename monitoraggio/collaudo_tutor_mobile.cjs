@@ -6,7 +6,10 @@ const {chromium}=require('playwright');
 const assert=require('node:assert/strict');
 const BASE='http://127.0.0.1:8787/';
 const OUT='monitoraggio/ultimo-collaudo-tutor-mobile.json';
-const expectedPrompts=30;
+const path=require('node:path');
+const site=require('../scripts/lib/inventario-sito.cjs').inventario(path.resolve(__dirname,'..'));
+const expectedPwa=require('../scripts/lib/inventario-sito.cjs').attesePwa(path.resolve(__dirname,'..'));
+const expectedPrompts=site.insiemi['prompt:tutor-ai.html'].length;
 const report={date:new Date().toISOString(),environment:'Chromium Linux + viewport 390x844 / 320x720 + touch Android emulato',physical_android_test:false,checks:[],errors:[]};
 let server,browser;
 const step=async(label,task)=>{
@@ -50,9 +53,10 @@ async function checkSavedPrompt(page,id){
    assert.match(await page.locator('main h1').innerText(),/Tutor AI essenziale/);
   });
   let ids=[];
-  await step('Trenta riquadri e trenta pulsanti distinti nella pagina',async()=>{
+  await step('Tutti i riquadri e i pulsanti distinti nella pagina',async()=>{
    const values=await page.locator('button[data-copy]').evaluateAll(nodes=>nodes.map(x=>x.getAttribute('data-copy')));
    assert.equal(values.length,expectedPrompts);
+   assert.deepEqual([...values].sort(),[...site.insiemi['prompt:tutor-ai.html']].sort());
    assert.equal(new Set(values).size,expectedPrompts);
    ids=values;
    for(const id of ids)assert.equal(await page.locator('blockquote#'+id).count(),1);
@@ -90,7 +94,7 @@ async function checkSavedPrompt(page,id){
    assert.match(await solution.locator('p').innerText(),/martedì/);
    await guided.locator(':scope > summary').tap();
    assert.equal(await guided.evaluate(e=>e.open),false);
-   assert.equal(await page.locator('#verifica-apprendimento details:not([open])').count(),4);
+   assert.equal(await page.locator('#verifica-apprendimento details:not([open])').count(),site.insiemi['autoverifiche-tutor'].length);
   });
   for(const width of [390,320])await step('Leggibilita geometrica a '+width+' px',async()=>{
    await page.setViewportSize({width,height:720});
@@ -131,14 +135,14 @@ async function checkSavedPrompt(page,id){
    }
    await page.setViewportSize({width:390,height:844});
   });
-  const nuoviApprofondimenti=[{"path":"tutor-ai-conversazione-correzioni.html","title":"Come continuare una conversazione AI e correggere gli errori"},{"path":"tutor-ai-verifica-fonti-date.html","title":"Verificare date, numeri e fonti citate dall'intelligenza artificiale"},{"path":"tutor-ai-riassumere-confrontare.html","title":"Riassumere e confrontare due testi con l'AI"},{"path":"tutor-ai-privacy-truffe.html","title":"Privacy, truffe e messaggi ingannevoli: usare l'AI in sicurezza"},{"path":"tutor-ai-quando-chiedere-aiuto.html","title":"Quando fermare l'AI e rivolgersi a un professionista"}];
+  const nuoviApprofondimenti=Object.keys(site.insiemi).filter(key=>key.startsWith('prompt:tutor-ai-')&&!key.includes('android-primi-passi')).map(key=>({path:key.slice('prompt:'.length),title:site.titoli[key.slice('prompt:'.length)]}));
   for (const guida of nuoviApprofondimenti) {
    await step('Sito mobile: '+guida.path,async()=>{
     await page.goto(BASE+'tutor-ai.html',{waitUntil:'domcontentloaded'});
     await page.locator('a[href="'+guida.path+'"]').first().click();
     await page.waitForURL('**/'+guida.path);
     assert.equal((await page.locator('article h1').innerText()).trim(),guida.title);
-    assert.equal(await page.locator('button[data-copy]').count(),2);
+    assert.equal(await page.locator('button[data-copy]').count(),site.insiemi['prompt:'+guida.path].length);
     assert.ok(await page.locator('details summary').count()>=1);
     const photo=page.locator('.tutor-hero img');
     await photo.waitFor({state:'visible'});
@@ -159,7 +163,7 @@ async function checkSavedPrompt(page,id){
       await page.waitForTimeout(60);
       assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
     }
-    return {title:guida.title,photo:metrics,prompts:2};
+    return {title:guida.title,photo:metrics,prompts:site.insiemi['prompt:'+guida.path].length};
    });
   }
   await step('Sincronizzazione PWA comprende la pagina Tutor AI',async()=>{
@@ -171,14 +175,14 @@ async function checkSavedPrompt(page,id){
    },undefined,{timeout:120000});
    const saved=await page.evaluate(()=>{
     let s=JSON.parse(localStorage.getItem('perme-app-offline-20261014'));
-    return {total:s.guides.length,tutor:s.guides.find(g=>g.path==='tutor-ai.html')};
+    return {paths:s.guides.map(g=>g.path).sort(),total:s.guides.length,tutor:s.guides.find(g=>g.path==='tutor-ai.html')};
    });
-   assert.ok(saved.total>=8);
+   assert.deepEqual(saved.paths,expectedPwa,'Tutte le guide attese devono essere salvate');
    assert.equal((saved.tutor.content.match(/<blockquote id="prompt-/g)||[]).length,expectedPrompts);
    assert.ok(saved.tutor.content.includes('aria-label="Agenda della settimana"'));
    return {totalSaved:saved.total,tutorContentLength:saved.tutor.content.length};
   });
-  await step('PWA online: trenta tasti di copia, percorso mensile navigabile',async()=>{
+  await step('PWA online: tutti i tasti di copia, percorso mensile navigabile',async()=>{
    await page.locator('#guide-list .guide-card').filter({has:page.locator('strong').filter({hasText:/^Tutor AI essenziale$/})}).first().click();
    assert.match(await page.locator('#reader-title').innerText(),/Tutor AI/);
    assert.equal(await page.locator('#reader-content .prompt-copy').count(),expectedPrompts);
@@ -191,26 +195,26 @@ async function checkSavedPrompt(page,id){
   await step('PWA online: nuova guida Android ha copia funzionante',async()=>{
    await page.locator('#back').click();
    await page.locator('#guide-list .guide-card').filter({hasText:'Usare una chat AI sul telefono Android'}).first().click();
-   assert.equal(await page.locator('#reader-content .prompt-copy').count(),1);
+   assert.equal(await page.locator('#reader-content .prompt-copy').count(),site.insiemi['prompt:tutor-ai-android-primi-passi.html'].length);
    const expected=(await page.locator('#reader-content blockquote#prompt-avviso p').allTextContents()).map(x=>x.trim()).join('\n\n');
    await page.locator('#reader-content .prompt-copy').click();
    await page.waitForTimeout(100);
    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
    return {characters:expected.length};
   });
-  await step('PWA online: cinque nuovi approfondimenti, due prompt ciascuno',async()=>{
+  await step('PWA online: tutti gli approfondimenti e i rispettivi prompt',async()=>{
    let checked=0;
    for(const g of nuoviApprofondimenti){
     await page.locator('#back').click();
     await page.locator('#guide-list .guide-card').filter({hasText:g.title}).first().click();
-    assert.equal(await page.locator('#reader-content .prompt-copy').count(),2,g.path);
+    assert.equal(await page.locator('#reader-content .prompt-copy').count(),site.insiemi['prompt:'+g.path].length,g.path);
     const p=page.locator('#reader-content blockquote[id^="prompt-"]').first();
     const expected=(await p.locator('p').allTextContents()).map(x=>x.trim()).join('\n\n');
     await page.locator('#reader-content .prompt-copy').first().click();
     assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected,g.path);
     checked++;
    }
-   return {checked,prompts:10};
+   return {checked,prompts:nuoviApprofondimenti.reduce((sum,g)=>sum+site.insiemi['prompt:'+g.path].length,0)};
   });
   await step('PWA offline: riapertura, lettura e copia',async()=>{
    await page.evaluate(async()=>{await navigator.serviceWorker.ready;});
@@ -228,7 +232,7 @@ async function checkSavedPrompt(page,id){
   await step('PWA offline: nuova guida Android leggibile e copiabile',async()=>{
    await page.locator('#back').click();
    await page.locator('#guide-list .guide-card').filter({hasText:'Usare una chat AI sul telefono Android'}).first().click();
-   assert.equal(await page.locator('#reader-content .prompt-copy').count(),1);
+   assert.equal(await page.locator('#reader-content .prompt-copy').count(),site.insiemi['prompt:tutor-ai-android-primi-passi.html'].length);
    assert.match(await page.locator('#reader-title').innerText(),/Android/);
    const expected=(await page.locator('#reader-content blockquote#prompt-avviso p').allTextContents()).map(x=>x.trim()).join('\n\n');
    await page.locator('#reader-content .prompt-copy').click();
@@ -236,19 +240,19 @@ async function checkSavedPrompt(page,id){
    assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected);
    return {characters:expected.length};
   });
-  await step('PWA offline: cinque nuovi approfondimenti leggibili e copiabili',async()=>{
+  await step('PWA offline: tutti gli approfondimenti leggibili e copiabili',async()=>{
    let checked=0;
    for(const g of nuoviApprofondimenti){
     await page.locator('#back').click();
     await page.locator('#guide-list .guide-card').filter({hasText:g.title}).first().click();
-    assert.equal(await page.locator('#reader-content .prompt-copy').count(),2,g.path);
+    assert.equal(await page.locator('#reader-content .prompt-copy').count(),site.insiemi['prompt:'+g.path].length,g.path);
     const p=page.locator('#reader-content blockquote[id^="prompt-"]').last();
     const expected=(await p.locator('p').allTextContents()).map(x=>x.trim()).join('\n\n');
     await page.locator('#reader-content .prompt-copy').last().click();
     assert.equal(await page.evaluate(()=>navigator.clipboard.readText()),expected,g.path);
     checked++;
    }
-   return {checked,prompts:10};
+   return {checked,prompts:nuoviApprofondimenti.reduce((sum,g)=>sum+site.insiemi['prompt:'+g.path].length,0)};
   });
   await context.setOffline(false);
   await context.close();

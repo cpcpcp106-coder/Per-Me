@@ -3,17 +3,7 @@ const fs=require('node:fs');
 const path=require('node:path');
 const assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'..');
-const filenames=[
- 'debiti-guida-01-leggere-cartella.html',
- 'debiti-guida-02-controllare-debiti.html',
- 'debiti-guida-03-cartella-errata.html',
- 'debiti-guida-04-rateizzazione.html',
- 'debiti-guida-05-rottamazione.html',
- 'debiti-guida-06-fermo-pignoramento.html',
- 'debiti-guida-07-banche-bollette.html',
- 'debiti-guida-08-sovraindebitamento.html',
- 'debiti-guida-09-a-chi-rivolgersi.html'
-];
+const filenames=require('./lib/inventario-sito.cjs').inventario(root).insiemi.debiti;
 let inspected=0;
 const heroes=[];
 const all=[ 'debiti-cartelle.html',...filenames ];
@@ -48,7 +38,7 @@ for(const file of all){
  }
  inspected++;
 }
-assert.equal(new Set(heroes).size,9,'Le 9 guide devono avere file fotografici distinti');
+assert.equal(new Set(heroes).size,filenames.length,'Ogni guida deve avere un file fotografico distinto');
 const guide04=fs.readFileSync(path.join(root,filenames[3]),'utf8');
 assert.match(guide04,/otto rate, anche non consecutive/i);
 assert.match(guide04,/Non si applica qui la regola speciale/i);
@@ -70,5 +60,5 @@ assert.match(guida08,/Presentare una domanda all.OCC non equivale/i,'Guida 08 se
 assert.match(guida08,/Tre anni di controlli sulle nuove utilità/i,'Guida 08 senza limite all.esdebitazione incapiente');
 const css=fs.readFileSync(path.join(root,'style.css'),'utf8');
 assert.ok(css.includes('.rubrica-debiti'),'Stili dedicati Rubrica 03');
-console.log('OK: '+inspected+' pagine HTML, 9 immagini presenti con percorsi distinti, navigazione interna e riferimenti critici.');
+console.log('OK: '+inspected+' pagine HTML, '+heroes.length+' immagini presenti con percorsi distinti, navigazione interna e riferimenti critici.');
 console.log('NB: il controllo non verifica somiglianza visiva delle immagini, HTTP dei link esterni o navigazione offline su dispositivo reale.');

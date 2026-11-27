@@ -35,7 +35,8 @@ assert.ok(rubric.includes('Carboidrati')||rubric.includes('carboidrati'));
 assert.ok(rubric.includes('calorie (kcal) per porzione'),'Rubrica non specifica calorie a porzione');
 assert.ok(index.includes('carboidrati disponibili in grammi e le calorie per porzione'),'Valori nutrizionali per porzione non spiegati al lettore');
 assert.ok(!index.includes('Regola editoriale obbligatoria'),'Istruzione redazionale esposta nella raccolta ricette');
-assert.ok(home.includes('8 guide di approfondimento'),'Stato editoriale homepage non aggiornato');
+const site=require('./lib/inventario-sito.cjs').inventario(root).insiemi;
+assert.ok(home.includes(site.dieta.length+' guide di approfondimento'),'Stato editoriale homepage non aggiornato');
 assert.ok(sitemap.includes(recipePath));
 assert.ok(sitemap.includes('dieta-guida-02-prevenzione-cardiovascolare-studi.html'));
 const guide03Path='dieta-guida-03-carboidrati-fibre-indice-carico-glicemico.html';
@@ -143,5 +144,5 @@ for(const name of recipes){
  assert.ok(imagePath && imagePath.startsWith('assets/') && fs.existsSync(path.join(root,imagePath)),'Foto del piatto non salvata nel repository: '+name);
  assert.ok(html.includes('figcaption'),'Didascalia immagine mancante: '+name);
 }
-console.log('PASS: 8 guide, 2 ricette, 4 schede CREA per la nuova zuppa, 40.0 g CHO e 298 kcal per porzione, immagini originali, sitemap e link.');
+console.log('PASS: '+site.dieta.length+' guide, '+recipes.length+' ricette su pagina singola; '+soupData.length+' schede CREA per la nuova zuppa, 40.0 g CHO e 298 kcal per porzione, immagini originali, sitemap e link.');
 console.log('LIMITI: valori stimati; il test non equivale a valutazione dietistica indipendente.');
