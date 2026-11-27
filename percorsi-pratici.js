@@ -49,9 +49,16 @@
         links.map(([url, title]) => title + '\n' + url).join('\n\n');
       copyButton.disabled = true;
       fallback.hidden = true;
+      status.textContent = 'Preparazione dei passi…';
+      let clipboardTimer;
       try {
         if (!navigator.clipboard || !navigator.clipboard.writeText) throw new Error('Appunti non disponibili');
-        await navigator.clipboard.writeText(text);
+        await Promise.race([
+          navigator.clipboard.writeText(text),
+          new Promise((resolve, reject) => {
+            clipboardTimer = window.setTimeout(() => reject(new Error('Appunti in attesa')), 1500);
+          })
+        ]);
         status.textContent = 'Passi copiati. Puoi incollarli nelle note o in un messaggio.';
       } catch {
         output.value = text;
@@ -60,6 +67,7 @@
         output.select();
         status.textContent = 'Copia il testo selezionato dal riquadro qui sotto.';
       } finally {
+        window.clearTimeout(clipboardTimer);
         copyButton.disabled = false;
       }
     });
