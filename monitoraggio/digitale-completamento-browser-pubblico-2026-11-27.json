@@ -1,0 +1,76 @@
+{
+  "checked_at_utc": "2026-11-27T07:28:30.292Z",
+  "scope": "Browser sul sito pubblico, schermo simulato da 390 pixel. Navigazione, foto, Facebook, ricerca e riapertura offline; nessuna operazione sui servizi pubblici.",
+  "environment": "Browser effimero di collaudo attraverso il proxy del runtime, con eccezione TLS per la CA del proxy; i GET HTTPS e le risorse pubbliche sono verificati separatamente con il certificato controllato dal runtime Python. Nessuna impostazione del browser dell’utente è stata modificata.",
+  "pages": [
+    {
+      "path": "digitale-io-pagopa-avvisi-ricevute.html",
+      "photo_loaded": true,
+      "facebook_button": true,
+      "reached_from_rubric": true
+    },
+    {
+      "path": "digitale-documenti-telefono-pdf-allegati.html",
+      "photo_loaded": true,
+      "facebook_button": true,
+      "reached_from_rubric": true
+    },
+    {
+      "path": "digitale-sicurezza-messaggi-accessi.html",
+      "photo_loaded": true,
+      "facebook_button": true,
+      "reached_from_rubric": true
+    },
+    {
+      "path": "digitale-quotidiano.html",
+      "photo_loaded": true,
+      "facebook_button": true
+    },
+    {
+      "path": "digitale-telefono-leggibile.html",
+      "photo_loaded": true,
+      "facebook_button": true
+    },
+    {
+      "path": "digitale-spid-cie-accesso-recupero.html",
+      "photo_loaded": true,
+      "facebook_button": true
+    }
+  ],
+  "searches": [
+    {
+      "query": "pagamento ricevuta",
+      "path": "digitale-io-pagopa-avvisi-ricevute.html",
+      "found": true
+    },
+    {
+      "query": "PDF allegato",
+      "path": "digitale-documenti-telefono-pdf-allegati.html",
+      "found": true
+    },
+    {
+      "query": "truffa",
+      "path": "digitale-sicurezza-messaggi-accessi.html",
+      "found": true
+    }
+  ],
+  "offline": [
+    {
+      "path": "digitale-io-pagopa-avvisi-ricevute.html",
+      "reopened_after_reload": true,
+      "content_checked": true
+    },
+    {
+      "path": "digitale-documenti-telefono-pdf-allegati.html",
+      "reopened_after_reload": true,
+      "content_checked": true
+    },
+    {
+      "path": "digitale-sicurezza-messaggi-accessi.html",
+      "reopened_after_reload": true,
+      "content_checked": true
+    }
+  ],
+  "service_worker_controlled": true,
+  "status": "PASS"
+}

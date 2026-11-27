@@ -1,0 +1,174 @@
+{
+  "checked_at_utc": "2026-11-27T07:26:08.724976+00:00",
+  "scope": "GET sul sito pubblico e confronto byte per byte con le risorse collaudate. Il controllo non conferma indicizzazione su Google.",
+  "resources": [
+    {
+      "path": "index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/index.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/index.html",
+      "size_bytes": 35143,
+      "sha256": "be39589da100393e7b20426b42c6c65c206fb0e02f4eb85f06ee32501c0967fa",
+      "matches_verified_source": true
+    },
+    {
+      "path": "digitale-quotidiano.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.html",
+      "size_bytes": 10445,
+      "sha256": "6960c1640b3e2f780f3e73e3150320945bb78e730af9a7e83a1d72446ccaa65d",
+      "matches_verified_source": true,
+      "facebook_button": true,
+      "canonical": true,
+      "allows_indexing": true
+    },
+    {
+      "path": "digitale-io-pagopa-avvisi-ricevute.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-io-pagopa-avvisi-ricevute.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-io-pagopa-avvisi-ricevute.html",
+      "size_bytes": 16527,
+      "sha256": "6aea53b9098f4c7f071df13eacb9a849389e3dcf884cb9e2866a289b842e2b8f",
+      "matches_verified_source": true,
+      "facebook_button": true,
+      "canonical": true,
+      "allows_indexing": true
+    },
+    {
+      "path": "digitale-documenti-telefono-pdf-allegati.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-documenti-telefono-pdf-allegati.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-documenti-telefono-pdf-allegati.html",
+      "size_bytes": 17451,
+      "sha256": "50555170910b5384d5fd2fbf0d257e47db70fe0cba3f9b77d3c0215ca3367e48",
+      "matches_verified_source": true,
+      "facebook_button": true,
+      "canonical": true,
+      "allows_indexing": true
+    },
+    {
+      "path": "digitale-sicurezza-messaggi-accessi.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-sicurezza-messaggi-accessi.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-sicurezza-messaggi-accessi.html",
+      "size_bytes": 17543,
+      "sha256": "ce0aecb5d691f26d2ffe06af49e43794faca0464076bd0bb42b505dd2cc074e3",
+      "matches_verified_source": true,
+      "facebook_button": true,
+      "canonical": true,
+      "allows_indexing": true
+    },
+    {
+      "path": "assets/digitale-io-pagopa-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-io-pagopa-originale.webp",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-io-pagopa-originale.webp",
+      "size_bytes": 147116,
+      "sha256": "6a37d7f256ae266bb1b4140867a6bc2032642a42fe7a5e81a5700591592ba754",
+      "matches_verified_source": true
+    },
+    {
+      "path": "assets/digitale-documenti-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-documenti-originale.webp",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-documenti-originale.webp",
+      "size_bytes": 151050,
+      "sha256": "c115796712dfbc7936c53cb11cf79cf61318783ddeaaf331148ef712ac34c1b5",
+      "matches_verified_source": true
+    },
+    {
+      "path": "assets/digitale-sicurezza-originale.webp",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-sicurezza-originale.webp",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/assets/digitale-sicurezza-originale.webp",
+      "size_bytes": 139732,
+      "sha256": "ac3b029ee8d2649a8d656643ec8c22d4259edc440a4701af4d1000a43a161c51",
+      "matches_verified_source": true
+    },
+    {
+      "path": "gradimento-articoli.json",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento-articoli.json",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/gradimento-articoli.json",
+      "size_bytes": 23309,
+      "sha256": "9803ca86d87cacbbc71edffadddec8982c672853c3a980d6c9d7a935649f9910",
+      "matches_verified_source": true
+    },
+    {
+      "path": "sitemap.xml",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+      "size_bytes": 23002,
+      "sha256": "57df7daeb1e5d95d41bdc3fa9eb3fa513bacdf6697fb82de1b0ae82f94f947fd",
+      "matches_verified_source": true
+    },
+    {
+      "path": "app/index.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/index.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/app/index.html",
+      "size_bytes": 5828,
+      "sha256": "c0ba3ff193a5a4ba4562dd0cdd2ea38fbef1dc9f0bbcbf938a190388f6651166",
+      "matches_verified_source": true
+    },
+    {
+      "path": "app/sw.js",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/sw.js",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/app/sw.js",
+      "size_bytes": 2103,
+      "sha256": "a461d5afdcb53ff42f4b47475739eaf92074dbd158cb8bf5c8505ffcfb1fc7a7",
+      "matches_verified_source": true
+    },
+    {
+      "path": "app/catalogo-guide.js",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/app/catalogo-guide.js",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/app/catalogo-guide.js",
+      "size_bytes": 4275,
+      "sha256": "a4f8a5e3db49ae71e1deaa28c580f6bf612c869c9fe4db49ecbe65795ae0c4e4",
+      "matches_verified_source": true
+    },
+    {
+      "path": "digitale-telefono-leggibile.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-telefono-leggibile.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-telefono-leggibile.html",
+      "size_bytes": 13659,
+      "sha256": "532bd77bc96233f429724bc997799f84a34ba24285cabdbfe416091d74c1f5d6",
+      "matches_verified_source": true,
+      "facebook_button": true,
+      "canonical": true,
+      "allows_indexing": true
+    },
+    {
+      "path": "digitale-spid-cie-accesso-recupero.html",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-spid-cie-accesso-recupero.html",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-spid-cie-accesso-recupero.html",
+      "size_bytes": 16887,
+      "sha256": "48ee1368707ca3dba5f01a78be637f19767b656a4a7677d0aaf0bc885abd3a23",
+      "matches_verified_source": true,
+      "facebook_button": true,
+      "canonical": true,
+      "allows_indexing": true
+    },
+    {
+      "path": "digitale-quotidiano.css",
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.css",
+      "http": 200,
+      "final_url": "https://cpcpcp106-coder.github.io/Per-Me/digitale-quotidiano.css",
+      "size_bytes": 1928,
+      "sha256": "5d891e354cc0b9407f6e9fdf16c88f43dd522ef0524b045ec55155254fefd3c2",
+      "matches_verified_source": true
+    }
+  ],
+  "sitemap_text": {
+    "url": "https://cpcpcp106-coder.github.io/Per-Me/sitemap.txt",
+    "http": 200,
+    "urls": 167,
+    "matches_sitemap_xml": true
+  }
+}

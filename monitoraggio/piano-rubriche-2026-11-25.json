@@ -21,8 +21,12 @@
       "ampliamento": {
         "data": "2026-11-27",
         "ambito": "Percorso essenziale in cinque guide",
-        "stato": "in_collaudo",
-        "registro": "monitoraggio/digitale-completamento-2026-11-27.md"
+        "stato": "pubblicato_verificato",
+        "registro": "monitoraggio/digitale-completamento-2026-11-27.md",
+        "pr": 51,
+        "verificato_il_utc": "2026-11-27T07:30:03.873574+00:00",
+        "evidenza_pubblica": "monitoraggio/digitale-completamento-verifica-pubblica-2026-11-27.json",
+        "evidenza_browser": "monitoraggio/digitale-completamento-browser-pubblico-2026-11-27.json"
       }
     },
     {

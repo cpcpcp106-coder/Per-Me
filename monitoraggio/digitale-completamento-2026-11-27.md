@@ -33,7 +33,13 @@ Esiti in `digitale-completamento-collaudi-2026-11-27.json`. La ricerca condivisa
 
 ## Stato della pubblicazione
 
-Candidato preparato e verificato localmente. Controlli GitHub e verifica della pubblicazione pubblica ancora da completare al momento di questo commit. Aggiornare questa sezione con gli esiti reali dopo la pubblicazione.
+Pubblicato e verificato il 27 novembre 2026. La [PR 51](https://github.com/cpcpcp106-coder/Per-Me/pull/51) è stata integrata dopo **23 controlli GitHub superati** sul candidato `f06fc6e5f91f9daaa061cda8b170744870d51588`. Merge `787ab844bed1508f8e81876c4a84f5b03d3fd183`.
+
+La [pubblicazione Pages riuscita](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45958226428) riguarda `329ec12c384216d59cefcf8ac1eb1bfb3bf5d63b`, figlio del merge che aggiorna soltanto lo snapshot dell’audit. La precedente esecuzione Pages sul merge è stata annullata a favore di questa esecuzione più recente.
+
+**16 risorse pubbliche HTTP 200 e identiche byte per byte al candidato verificato**, comprese le sei pagine digitali, le tre fotografie nuove, homepage, cataloghi, app, foglio di stile e sitemap. La sitemap testuale pubblica contiene 167 URL e coincide con quella XML. Evidenze in `digitale-completamento-verifica-pubblica-2026-11-27.json`.
+
+Nel browser pubblico sono state verificate le fotografie e i pulsanti Facebook delle sei pagine digitali, i percorsi dall’indice e le tre ricerche della homepage. Nell’app pubblica sono state sincronizzate le nuove guide e riaperte tutte e tre senza rete dopo un ricaricamento, con service worker attivo. Esito PASS in `digitale-completamento-browser-pubblico-2026-11-27.json`. Il browser effimero ha usato il proxy del runtime con l’eccezione TLS necessaria alla sua CA; i GET HTTPS sono stati verificati separatamente. Nessuna impostazione del dispositivo del lettore è stata modificata.
 
 ## Integrazione con gli aggiornamenti contemporanei
 

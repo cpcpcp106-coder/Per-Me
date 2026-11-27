@@ -154,5 +154,185 @@
     "scope": "Tutte le sei pagine digitale-*.html; navigazione dall’indice, foto, Facebook, reflow, testo senza ritagli, salvataggio e apertura offline di tutte le guide nuove. Verificata anche la ricerca homepage: pagamento ricevuta, PDF allegato, truffa.",
     "integration_retested": true
   },
-  "integration_base": "f2662db42914bea5c007f7a3b01c9a8d44ec7c6b"
+  "integration_base": "f2662db42914bea5c007f7a3b01c9a8d44ec7c6b",
+  "github_ci": {
+    "head_sha": "f06fc6e5f91f9daaa061cda8b170744870d51588",
+    "pr": 51,
+    "pr_url": "https://github.com/cpcpcp106-coder/Per-Me/pull/51",
+    "merge_sha": "787ab844bed1508f8e81876c4a84f5b03d3fd183",
+    "checks": [
+      {
+        "name": "check-bonus",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863458/job/140368432438",
+        "completed_at": "2026-11-27T07:21:27Z"
+      },
+      {
+        "name": "audit",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863359/job/140368432315",
+        "completed_at": "2026-11-27T07:21:25Z"
+      },
+      {
+        "name": "digitale",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863445/job/140368432129",
+        "completed_at": "2026-11-27T07:22:12Z"
+      },
+      {
+        "name": "check",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863425/job/140368432107",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "audit",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863420/job/140368431958",
+        "completed_at": "2026-11-27T07:21:23Z"
+      },
+      {
+        "name": "controllo",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863515/job/140368431954",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "territorio",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863329/job/140368431879",
+        "completed_at": "2026-11-27T07:21:20Z"
+      },
+      {
+        "name": "audit",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863417/job/140368431862",
+        "completed_at": "2026-11-27T07:21:20Z"
+      },
+      {
+        "name": "collaudo",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863337/job/140368431842",
+        "completed_at": "2026-11-27T07:23:28Z"
+      },
+      {
+        "name": "audit",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863398/job/140368431769",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "audit-immagini",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863376/job/140368431675",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "tests",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863284/job/140368431628",
+        "completed_at": "2026-11-27T07:21:20Z"
+      },
+      {
+        "name": "structure",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863341/job/140368431577",
+        "completed_at": "2026-11-27T07:21:24Z"
+      },
+      {
+        "name": "guide",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863305/job/140368431562",
+        "completed_at": "2026-11-27T07:21:23Z"
+      },
+      {
+        "name": "editorial",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863219/job/140368431522",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "audit",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863247/job/140368431498",
+        "completed_at": "2026-11-27T07:21:20Z"
+      },
+      {
+        "name": "indicizzazione",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863249/job/140368431426",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "test",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863281/job/140368431423",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "coerenza",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863228/job/140368431365",
+        "completed_at": "2026-11-27T07:21:25Z"
+      },
+      {
+        "name": "digitale",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863263/job/140368431330",
+        "completed_at": "2026-11-27T07:22:06Z"
+      },
+      {
+        "name": "verifica-pages-live",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863220/job/140368431298",
+        "completed_at": "2026-11-27T07:21:17Z"
+      },
+      {
+        "name": "check",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957863229/job/140368431130",
+        "completed_at": "2026-11-27T07:21:21Z"
+      },
+      {
+        "name": "collaudo",
+        "status": "completed",
+        "result": "success",
+        "url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45957856841/job/140368412058",
+        "completed_at": "2026-11-27T07:21:51Z"
+      }
+    ]
+  },
+  "publication": {
+    "workflow_url": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/45958226428",
+    "status": "success",
+    "published_sha": "329ec12c384216d59cefcf8ac1eb1bfb3bf5d63b",
+    "source_contains_merge": "787ab844bed1508f8e81876c4a84f5b03d3fd183",
+    "verified_at_utc": "2026-11-27T07:30:03.873574+00:00",
+    "public_resources_identical": 16,
+    "sitemap_text_urls": 167,
+    "public_browser": "PASS",
+    "offline_new_guides": 3
+  }
 }
