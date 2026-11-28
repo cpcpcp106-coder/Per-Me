@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-27T14:29:12.933830+00:00",
+  "date_utc": "2026-11-28T07:56:18.618369+00:00",
   "scope": {
     "pages": 171,
-    "unique_external_urls": 1112,
+    "unique_external_urls": 1111,
     "occurrences": 3000
   },
   "counts": {
-    "bloccato_o_riservato": 135,
-    "raggiungibile": 957,
-    "non_verificato_trasporto": 18,
-    "errore_http": 2
+    "bloccato_o_riservato": 146,
+    "raggiungibile": 936,
+    "non_verificato_trasporto": 22,
+    "errore_http": 7
   },
   "results": [
     {
@@ -88,9 +88,8 @@
     },
     {
       "url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://adala.justice.gov.ma/api/uploads/2024/04/30/Entr%C3%A9e%20et%20au%20s%C3%A9jour%20des%20%C3%A9trangers%20au%20Maroc-1714463632505.pdf",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -1393,18 +1392,16 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "diabete-tipo-2.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
+      "status": "errore_http",
+      "http": 503,
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -2284,9 +2281,8 @@
     },
     {
       "url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://lexview-int.regione.fvg.it/FontiNormative/xml/xmlLex.aspx?anno=2007&legge=0023&id=art34&fx=art",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "agevolazioni-guida-03-trasporti-fvg.html"
       ]
@@ -2304,7 +2300,7 @@
       "url": "https://myaccount.google.com/security",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1763511840:1795789722068038",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1714546077:1795852544372323",
       "pages": [
         "digitale-sicurezza-messaggi-accessi.html"
       ]
@@ -3164,7 +3160,8 @@
       "http": 200,
       "final_url": "https://telematici.agenziaentrate.gov.it/Main/F24web.jsp",
       "pages": [
-        "fisco-f24-verifica-pagamento.html"
+        "fisco-f24-verifica-pagamento.html",
+        "fisco-semplice.html"
       ]
     },
     {
@@ -3492,9 +3489,8 @@
     },
     {
       "url": "https://www.aade.gr/egkyklioi-kai-apofaseis/1192-22-09-2026",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.aade.gr/egkyklioi-kai-apofaseis/1192-22-09-2026",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "pensionati-estero-mete.html"
       ]
@@ -5263,9 +5259,8 @@
     },
     {
       "url": "https://www.canada.ca/en/grain-commission/services/science/methods/methods-tests-wheat.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.canada.ca/en/grain-commission/services/science/methods/methods-tests-wheat.html",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "farine-quale-scegliere.html"
       ]
@@ -5357,9 +5352,8 @@
     },
     {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-hearing-loss.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-hearing-loss.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html",
         "diabete-guida-24-udito-apnee-sonno-alterazioni-sensoriali.html"
@@ -5367,18 +5361,16 @@
     },
     {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-your-feet.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-and-your-feet.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html"
       ]
     },
     {
       "url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/diabetes-complications/diabetes-immune-system.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
@@ -5387,18 +5379,16 @@
     },
     {
       "url": "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/healthy-eating/carb-counting-manage-blood-sugar.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "farine-quale-scegliere.html"
       ]
     },
     {
       "url": "https://www.cdc.gov/diabetes/living-with/managing-sick-days.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/living-with/managing-sick-days.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
@@ -5406,9 +5396,8 @@
     },
     {
       "url": "https://www.cdc.gov/diabetes/signs-symptoms/diabetes-and-your-skin.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/signs-symptoms/diabetes-and-your-skin.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
         "diabete-guida-18-cute-dermopatia-necrobiosi-infezioni.html",
@@ -5421,9 +5410,8 @@
     },
     {
       "url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/diabetes/treatment/treatment-low-blood-sugar-hypoglycemia.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-02-glicemia-hba1c-sensori-ipoglicemia.html",
         "diabete-tipo-2.html"
@@ -5431,9 +5419,8 @@
     },
     {
       "url": "https://www.cdc.gov/flu/highrisk/diabetes.html",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.cdc.gov/flu/highrisk/diabetes.html",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html",
         "diabete-guida-19-infezioni-vaccini-giorni-malattia.html"
@@ -6248,7 +6235,7 @@
       "url": "https://www.facebook.com/PerMeGuide",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide",
+      "final_url": "https://www.facebook.com/PerMeGuide",
       "pages": [
         "dieta-guida-01-modello-mediterraneo-diabete-evidenze.html",
         "dieta-guida-02-prevenzione-cardiovascolare-studi.html",
@@ -6274,7 +6261,7 @@
       "url": "https://www.facebook.com/PerMeGuide/",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2FPerMeGuide%2F",
+      "final_url": "https://www.facebook.com/PerMeGuide/",
       "pages": [
         "acquisti-contratti.html",
         "acquisti-contratti.html",
@@ -6538,9 +6525,8 @@
     },
     {
       "url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know",
+      "status": "errore_http",
+      "http": 404,
       "pages": [
         "farine-quale-scegliere.html",
         "tangzhong-autolisi-biga-poolish.html"
@@ -6582,9 +6568,8 @@
     },
     {
       "url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "dieta-ricette-pesce.html",
         "dieta-ricette-uova-carne-bianca.html",
@@ -6926,9 +6911,8 @@
     },
     {
       "url": "https://www.gov.gr/en/services/1002241/eggraphe-se-prosopiko-iatro",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.gov.gr/en/services/1002241/eggraphe-se-prosopiko-iatro",
+      "status": "bloccato_o_riservato",
+      "http": 403,
       "pages": [
         "pensionati-estero-mete.html",
         "pensionati-estero-mete.html"
@@ -10846,9 +10830,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -11535,9 +11518,8 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html"
@@ -11545,18 +11527,16 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "digitale-spid-cie-accesso-recupero.html"
       ]
     },
     {
       "url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
+      "status": "errore_http",
+      "http": 500,
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html",
@@ -11605,8 +11585,9 @@
     },
     {
       "url": "https://www.tribunale.pisa.giustizia.it/carta_servizi.aspx?cfp_id_scheda=3849",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error [Errno -3] Temporary failure in name resolution>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.tribunale.pisa.giustizia.it/carta_servizi.aspx?cfp_id_scheda=3849",
       "pages": [
         "debiti-guida-07-banche-bollette.html",
         "debiti-guida-07-banche-bollette.html"
@@ -11614,9 +11595,8 @@
     },
     {
       "url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.tribunale.torino.giustizia.it/it/Content/Index/44274",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html",
         "agevolazioni-guida-06-affitto-sfratto-aiuti-italia.html"
@@ -11743,14 +11723,6 @@
       "final_url": "https://www1.agenziaentrate.gov.it/web_app_entrate/agevolazioni_disabilita.html",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html"
-      ]
-    },
-    {
-      "url": "https://www1.agenziaentrate.gov.it/web_app_entrate/fisco_a_portata_di_click.html",
-      "status": "errore_http",
-      "http": 404,
-      "pages": [
-        "fisco-semplice.html"
       ]
     }
   ],
