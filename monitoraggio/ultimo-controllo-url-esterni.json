@@ -1,15 +1,15 @@
 {
-  "date_utc": "2026-11-28T07:56:18.618369+00:00",
+  "date_utc": "2026-11-28T08:05:45.645344+00:00",
   "scope": {
-    "pages": 171,
-    "unique_external_urls": 1111,
-    "occurrences": 3000
+    "pages": 174,
+    "unique_external_urls": 1122,
+    "occurrences": 3029
   },
   "counts": {
-    "bloccato_o_riservato": 146,
-    "raggiungibile": 936,
-    "non_verificato_trasporto": 22,
-    "errore_http": 7
+    "bloccato_o_riservato": 147,
+    "raggiungibile": 948,
+    "non_verificato_trasporto": 25,
+    "errore_http": 2
   },
   "results": [
     {
@@ -1392,16 +1392,18 @@
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/CENSIMENTO-PATOLOGIE-DIABETE-TIPO-2-2026-10-15.md",
       "pages": [
         "diabete-tipo-2.html"
       ]
     },
     {
       "url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
-      "status": "errore_http",
-      "http": 503,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://github.com/cpcpcp106-coder/Per-Me/blob/main/FONTI/QUADRO-TRASVERSALE-ANZIANI-DIABETE-CARDIOPATIA-REDDITO-CIBO-TUTELE-2026-10-15.md",
       "pages": [
         "diabete-tipo-2.html"
       ]
@@ -2055,6 +2057,9 @@
         "bonus-mamme-2026-domanda-requisiti.html",
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html",
+        "casa-autonomia-quotidiana.html",
+        "casa-luce-contrasti.html",
+        "casa-perdita-acqua-rubinetti.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
@@ -2288,6 +2293,23 @@
       ]
     },
     {
+      "url": "https://louisvillewaterhelp.zendesk.com/hc/en-us/articles/10319989459860-How-do-I-turn-off-the-water-in-my-home-if-I-have-a-major-leak",
+      "status": "bloccato_o_riservato",
+      "http": 403,
+      "pages": [
+        "casa-perdita-acqua-rubinetti.html"
+      ]
+    },
+    {
+      "url": "https://media.rnib.org.uk/documents/Top_tips_for_Learning_Disabilities-ENVIRONMENT.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://media.rnib.org.uk/documents/Top_tips_for_Learning_Disabilities-ENVIRONMENT.pdf",
+      "pages": [
+        "casa-luce-contrasti.html"
+      ]
+    },
+    {
       "url": "https://mvr.bg/migration/en/legislation/citizens-of-eu",
       "status": "raggiungibile",
       "http": 200,
@@ -2300,7 +2322,7 @@
       "url": "https://myaccount.google.com/security",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1714546077:1795852544372323",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://myaccount.google.com/general-light&followup=https://myaccount.google.com/general-light&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-367869448:1795853118000288",
       "pages": [
         "digitale-sicurezza-messaggi-accessi.html"
       ]
@@ -3323,6 +3345,9 @@
         "bonus-mamme-2026-domanda-requisiti.html",
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html",
+        "casa-autonomia-quotidiana.html",
+        "casa-luce-contrasti.html",
+        "casa-perdita-acqua-rubinetti.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
@@ -3542,6 +3567,15 @@
       "final_url": "https://www.acc.org/Latest-in-Cardiology/ten-points-to-remember/2024/05/09/15/00/2024-guideline-for-lower-extremity-pad",
       "pages": [
         "diabete-guida-08-arteriopatia-periferica-gambe.html"
+      ]
+    },
+    {
+      "url": "https://www.acque.net/come-fare-per/faq-page/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.acque.net/come-fare-per/faq-page/",
+      "pages": [
+        "casa-perdita-acqua-rubinetti.html"
       ]
     },
     {
@@ -4167,6 +4201,15 @@
       "final_url": "https://www.agid.gov.it/sites/agid/files/2024-07/Guida_dei_diritti_di_cittadinanza_digitale.pdf#page=18",
       "pages": [
         "agevolazioni-guida-09-locazioni-abitative.html"
+      ]
+    },
+    {
+      "url": "https://www.ags.vr.it/ciclo-integrato/perdite-occulte",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.ags.vr.it/ciclo-integrato/perdite-occulte",
+      "pages": [
+        "casa-perdita-acqua-rubinetti.html"
       ]
     },
     {
@@ -4992,6 +5035,16 @@
       ]
     },
     {
+      "url": "https://www.arera.it/allegati/docs/15/655-15rqsii.pdf",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.arera.it/fileadmin/allegati/docs/15/655-15rqsii.pdf",
+      "pages": [
+        "casa-autonomia-quotidiana.html",
+        "casa-perdita-acqua-rubinetti.html"
+      ]
+    },
+    {
       "url": "https://www.arera.it/atti-e-provvedimenti/dettaglio/26/123-26",
       "status": "raggiungibile",
       "http": 200,
@@ -5502,7 +5555,7 @@
       "url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
       "status": "raggiungibile",
       "http": 200,
-      "final_url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-intere-gr-500.html",
+      "final_url": "https://www.cicalia.com/it/legumi-mais-e-cereali/81361-la-conserviera-lenticchie-rosse-gr-500.html",
       "pages": [
         "dieta-guida-08-ricette-mediterranee-economiche-valori.html"
       ]
@@ -6160,6 +6213,16 @@
       ]
     },
     {
+      "url": "https://www.epicentro.iss.it/passi-argento/dati/cadute",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.epicentro.iss.it/passi-argento/dati/cadute",
+      "pages": [
+        "casa-autonomia-quotidiana.html",
+        "casa-luce-contrasti.html"
+      ]
+    },
+    {
       "url": "https://www.escardio.org/guidelines/clinical-practice-guidelines/all-esc-practice-guidelines/atrial-fibrillation/",
       "status": "raggiungibile",
       "http": 200,
@@ -6294,6 +6357,12 @@
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html",
         "caregiver-familiari-fvg-contributi.html",
+        "casa-autonomia-quotidiana.html",
+        "casa-autonomia-quotidiana.html",
+        "casa-luce-contrasti.html",
+        "casa-luce-contrasti.html",
+        "casa-perdita-acqua-rubinetti.html",
+        "casa-perdita-acqua-rubinetti.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
@@ -6737,6 +6806,15 @@
       "final_url": "https://www.gazzettaufficiale.it/eli/id/1981/07/24/081U0388/sg",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.gazzettaufficiale.it/eli/id/1998/02/18/098A1210/sg",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.gazzettaufficiale.it/eli/id/1998/02/18/098A1210/sg",
+      "pages": [
+        "casa-luce-contrasti.html"
       ]
     },
     {
@@ -8838,6 +8916,9 @@
         "bonus-mamme-2026-domanda-requisiti.html",
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html",
+        "casa-autonomia-quotidiana.html",
+        "casa-luce-contrasti.html",
+        "casa-perdita-acqua-rubinetti.html",
         "ccnl-inquadramento-livello-superminimo.html",
         "cedolino-pensione-obism-arretrati-verificare-importi.html",
         "chi-siamo.html",
@@ -9554,6 +9635,15 @@
       "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
       "pages": [
         "diabete-guida-10-cataratta-glaucoma-occhio-secco.html"
+      ]
+    },
+    {
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision",
+      "pages": [
+        "casa-luce-contrasti.html"
       ]
     },
     {
@@ -10288,9 +10378,8 @@
     },
     {
       "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art546",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:regio.decreto:1940-10-28;1443:1~art546",
+      "status": "non_verificato_trasporto",
+      "error": "The read operation timed out",
       "pages": [
         "debiti-guida-06-fermo-pignoramento.html"
       ]
@@ -10830,8 +10919,9 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
-      "status": "non_verificato_trasporto",
-      "error": "<urlopen error timed out>",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA23/",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10839,9 +10929,8 @@
     },
     {
       "url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
-      "status": "raggiungibile",
-      "http": 200,
-      "final_url": "https://www.regione.fvg.it/rafvg/cms/RAFVG/salute-sociale/interventi-socio-sanitari/FOGLIA30/",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
       "pages": [
         "caregiver-familiari-anziani-disabilita-legge-104.html",
         "caregiver-familiari-fvg-contributi.html"
@@ -10864,6 +10953,15 @@
       "final_url": "https://www.regione.umbria.it/link",
       "pages": [
         "dove-chiedere-aiuto.html"
+      ]
+    },
+    {
+      "url": "https://www.rnib.org.uk/living-with-sight-loss/independent-living/cooking/",
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.rnib.org.uk/living-with-sight-loss/independent-living/cooking/",
+      "pages": [
+        "casa-luce-contrasti.html"
       ]
     },
     {
@@ -11518,8 +11616,9 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-attivare-spid/",
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html"
@@ -11527,16 +11626,18 @@
     },
     {
       "url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/cos-e-spid/come-scegliere-tra-gli-idp/",
       "pages": [
         "digitale-spid-cie-accesso-recupero.html"
       ]
     },
     {
       "url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
-      "status": "errore_http",
-      "http": 500,
+      "status": "raggiungibile",
+      "http": 200,
+      "final_url": "https://www.spid.gov.it/ottieni-assistenza-dagli-identity-provider/",
       "pages": [
         "digitale-spid-cie-accesso-recupero.html",
         "digitale-spid-cie-accesso-recupero.html",
@@ -11637,6 +11738,23 @@
       "final_url": "https://www.viaggiaresicuri.it/find-country/country/TUN",
       "pages": [
         "pensionati-estero-mete.html"
+      ]
+    },
+    {
+      "url": "https://www.vigilfuoco.it/emergenza-115",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
+      "pages": [
+        "casa-autonomia-quotidiana.html",
+        "casa-perdita-acqua-rubinetti.html"
+      ]
+    },
+    {
+      "url": "https://www.vigilfuoco.it/servizi-ai-cittadini/sicurezza-nel-quotidiano/i-pericoli-dellambiente-naturale",
+      "status": "non_verificato_trasporto",
+      "error": "<urlopen error timed out>",
+      "pages": [
+        "casa-perdita-acqua-rubinetti.html"
       ]
     },
     {
