@@ -643,5 +643,20 @@
     "path": "digitale-sicurezza-messaggi-accessi.html",
     "title": "Messaggi sospetti e accessi: proteggersi dalle truffe",
     "category": "Digitale quotidiano"
+  },
+  {
+    "path": "casa-autonomia-quotidiana.html",
+    "title": "Casa e autonomia quotidiana",
+    "category": "Casa e autonomia quotidiana"
+  },
+  {
+    "path": "casa-luce-contrasti.html",
+    "title": "Casa più leggibile: luce, contrasti ed etichette",
+    "category": "Casa e autonomia quotidiana"
+  },
+  {
+    "path": "casa-perdita-acqua-rubinetti.html",
+    "title": "Perdita d’acqua: quali rubinetti chiudere e chi chiamare",
+    "category": "Casa e autonomia quotidiana"
   }
 ]

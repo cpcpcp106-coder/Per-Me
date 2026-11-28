@@ -1,0 +1,30 @@
+[
+  {
+    "file": "assets/casa-luce-contrasti-originale.webp",
+    "original_filename": "exec-cebc230b-380a-4160-97af-c661b33b4e4a.png",
+    "sha256": "8e2ace71adabeceb5ccd7d7ee056baef964c8dc6cd267d67f51e3c63f9d3d76d",
+    "dimensions": [
+      1440,
+      960
+    ],
+    "generator": "ChatGPT ImageGen",
+    "date": "2026-11-28",
+    "reference_images": [],
+    "scene": "Una donna al tavolo usa una lampada per leggere un calendario.",
+    "visual_check": "Scena controllata, priva di marchi e dati leggibili."
+  },
+  {
+    "file": "assets/casa-perdita-acqua-originale.webp",
+    "original_filename": "exec-9c4f788c-f7b4-4ac5-b46a-79659d2f5094.png",
+    "sha256": "9c8694d504e33a42d6d447b538c877a8afb96ab020597dfef91bc0d727b5712c",
+    "dimensions": [
+      1440,
+      960
+    ],
+    "generator": "ChatGPT ImageGen",
+    "date": "2026-11-28",
+    "reference_images": [],
+    "scene": "Un uomo prepara appunti in cucina, accanto a una torcia e a dei fogli.",
+    "visual_check": "Scena controllata, priva di marchi e dati leggibili."
+  }
+]
