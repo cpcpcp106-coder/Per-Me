@@ -1919,6 +1919,26 @@
       "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile; nessun materiale di terzi fornito e nessuna esclusività attestata rispetto ad altri output AI.",
       "source_history_verified": true,
       "used_in": "digitale-sicurezza-messaggi-accessi.html"
+    },
+    {
+      "file": "assets/casa-luce-contrasti-originale.webp",
+      "git_blob_sha": "f97e00bdb2ee0fc57b9d40e782f846bfcc7a9ec5",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Originale generata con ChatGPT ImageGen il 28 novembre 2026 senza immagini di riferimento, ridimensionata e convertita in WebP.",
+      "provenance_evidence": "FONTI/casa-autonomia-immagini-2026-11-28.json; originale exec-cebc230b-380a-4160-97af-c661b33b4e4a.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile.",
+      "source_history_verified": true,
+      "used_in": "casa-luce-contrasti.html; casa-autonomia-quotidiana.html; index.html; annuncio Facebook"
+    },
+    {
+      "file": "assets/casa-perdita-acqua-originale.webp",
+      "git_blob_sha": "c18caa46ad948d510e6dd8335d48c9d8eec87d52",
+      "licensing": "PROVENIENZA_DOCUMENTATA",
+      "origin": "Originale generata con ChatGPT ImageGen il 28 novembre 2026 senza immagini di riferimento, ridimensionata e convertita in WebP.",
+      "provenance_evidence": "FONTI/casa-autonomia-immagini-2026-11-28.json; originale exec-9c4f788c-f7b4-4ac5-b46a-79659d2f5094.png",
+      "license_or_ownership": "Output creato per Per Me secondo le condizioni del servizio e il diritto applicabile.",
+      "source_history_verified": true,
+      "used_in": "casa-perdita-acqua-rubinetti.html"
     }
   ],
   "notes": [

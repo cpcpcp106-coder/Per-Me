@@ -11,6 +11,7 @@ window.PerMeCatalogo = (() => {
     ['digitale-quotidiano.html', 'Digitale quotidiano'],
     ['acquisti-contratti.html', 'Acquisti e contratti senza sorprese'],
     ['fisco-semplice.html', 'Fisco semplice'],
+    ['casa-autonomia-quotidiana.html', 'Casa e autonomia quotidiana'],
     ['tutor-ai.html', 'Tutor AI essenziale'],
     ['diabete-tipo-2.html', 'Diabete tipo 2'],
     ['dieta-mediterranea-scientifica.html', 'Dieta mediterranea scientifica'],
