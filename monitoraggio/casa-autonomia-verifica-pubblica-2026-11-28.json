@@ -1,0 +1,160 @@
+{
+  "verificato_il_utc": "2026-11-28T08:03:45.570Z",
+  "http_200": [
+    "https://cpcpcp106-coder.github.io/Per-Me/casa-autonomia-quotidiana.html",
+    "https://cpcpcp106-coder.github.io/Per-Me/casa-luce-contrasti.html",
+    "https://cpcpcp106-coder.github.io/Per-Me/casa-perdita-acqua-rubinetti.html",
+    "https://cpcpcp106-coder.github.io/Per-Me/",
+    "https://cpcpcp106-coder.github.io/Per-Me/app/",
+    "https://cpcpcp106-coder.github.io/Per-Me/app/catalogo-guide.js?v=9",
+    "https://cpcpcp106-coder.github.io/Per-Me/app/sw.js",
+    "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-luce-contrasti-originale.webp",
+    "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-perdita-acqua-originale.webp",
+    "https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml",
+    "https://cpcpcp106-coder.github.io/Per-Me/sitemap.txt"
+  ],
+  "testo_uguale_al_candidato": [
+    "https://cpcpcp106-coder.github.io/Per-Me/casa-autonomia-quotidiana.html",
+    "https://cpcpcp106-coder.github.io/Per-Me/casa-luce-contrasti.html",
+    "https://cpcpcp106-coder.github.io/Per-Me/casa-perdita-acqua-rubinetti.html"
+  ],
+  "impronte_foto": {
+    "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-luce-contrasti-originale.webp": "8e2ace71adabeceb5ccd7d7ee056baef964c8dc6cd267d67f51e3c63f9d3d76d",
+    "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-perdita-acqua-originale.webp": "9c8694d504e33a42d6d447b538c877a8afb96ab020597dfef91bc0d727b5712c"
+  },
+  "browser_mobile_390": [
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/casa-autonomia-quotidiana.html",
+      "http": 200,
+      "titolo": "Casa e autonomia quotidiana",
+      "photo": "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-luce-contrasti-originale.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Una donna legge un calendario al tavolo di casa, con una lampada orientata sul foglio.",
+      "facebook": "https://www.facebook.com/PerMeGuide/",
+      "style": {
+        "height": 59.53125,
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(35, 68, 56)"
+      }
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/casa-luce-contrasti.html",
+      "http": 200,
+      "titolo": "Casa più leggibile: luce, contrasti ed etichette",
+      "photo": "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-luce-contrasti-originale.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Una donna legge un calendario al tavolo di casa, con una lampada orientata sul foglio.",
+      "facebook": "https://www.facebook.com/PerMeGuide/",
+      "style": {
+        "height": 59.53125,
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(35, 68, 56)"
+      }
+    },
+    {
+      "url": "https://cpcpcp106-coder.github.io/Per-Me/casa-perdita-acqua-rubinetti.html",
+      "http": 200,
+      "titolo": "Perdita d’acqua: quali rubinetti chiudere e chi chiamare",
+      "photo": "https://cpcpcp106-coder.github.io/Per-Me/assets/casa-perdita-acqua-originale.webp",
+      "width": 1440,
+      "height": 960,
+      "alt": "Un uomo prende appunti in cucina, accanto a una torcia e ad alcuni fogli.",
+      "facebook": "https://www.facebook.com/PerMeGuide/",
+      "style": {
+        "height": 59.53125,
+        "color": "rgb(255, 255, 255)",
+        "background": "rgb(35, 68, 56)"
+      }
+    }
+  ],
+  "sitemap_url_univoci": 170,
+  "ricerca_pubblica": [
+    "luce contrasti",
+    "perdita acqua"
+  ],
+  "pr": 57,
+  "merge_sha": "79cd2b706fc5b23ab2846017d875048cf0986a2e",
+  "pages_sha": "07ff002fa7a4dd13abb177dff784be6aadf64bc9",
+  "pages_workflow": "https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46123966033",
+  "controlli_pr_superati": 23,
+  "collaudi_locali": {
+    "verifiche_browser": 58,
+    "viewport_px": [
+      320,
+      390
+    ],
+    "testo_percentuale": 200,
+    "test_app": 19,
+    "guide_lette_offline": 2
+  },
+  "fonti_http": [
+    {
+      "titolo": "National Eye Institute (Stati Uniti) · Accorgimenti e riabilitazione per l’ipovisione",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision",
+      "http": "200 https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision",
+      "error": ""
+    },
+    {
+      "titolo": "Royal National Institute of Blind People (Regno Unito) · Contrasto e organizzazione in cucina",
+      "url": "https://www.rnib.org.uk/living-with-sight-loss/independent-living/cooking/",
+      "http": "200 https://www.rnib.org.uk/living-with-sight-loss/independent-living/cooking/",
+      "error": ""
+    },
+    {
+      "titolo": "Royal National Institute of Blind People · Luce, riflessi e ambienti più riconoscibili",
+      "url": "https://media.rnib.org.uk/documents/Top_tips_for_Learning_Disabilities-ENVIRONMENT.pdf",
+      "http": "200 https://media.rnib.org.uk/documents/Top_tips_for_Learning_Disabilities-ENVIRONMENT.pdf",
+      "error": ""
+    },
+    {
+      "titolo": "Istituto Superiore di Sanità · Cadute e fattori di rischio in casa",
+      "url": "https://www.epicentro.iss.it/passi-argento/dati/cadute",
+      "http": "200 https://www.epicentro.iss.it/passi-argento/dati/cadute",
+      "error": ""
+    },
+    {
+      "titolo": "Gazzetta Ufficiale · Centri per l’educazione e la riabilitazione visiva",
+      "url": "https://www.gazzettaufficiale.it/eli/id/1998/02/18/098A1210/sg",
+      "http": "200 https://www.gazzettaufficiale.it/eli/id/1998/02/18/098A1210/sg",
+      "error": ""
+    },
+    {
+      "titolo": "Corpo nazionale dei Vigili del Fuoco · Emergenza 115",
+      "url": "https://www.vigilfuoco.it/emergenza-115",
+      "http": "200 https://www.vigilfuoco.it/emergenza-115",
+      "error": ""
+    },
+    {
+      "titolo": "Vigili del Fuoco · Sicurezza elettrica nei locali inondati",
+      "url": "https://www.vigilfuoco.it/servizi-ai-cittadini/sicurezza-nel-quotidiano/i-pericoli-dellambiente-naturale",
+      "http": "200 https://www.vigilfuoco.it/servizi-ai-cittadini/sicurezza-nel-quotidiano/i-pericoli-dellambiente-naturale",
+      "error": ""
+    },
+    {
+      "titolo": "Autorità di Regolazione per Energia Reti e Ambiente · Pronto intervento idrico, articolo 61",
+      "url": "https://www.arera.it/allegati/docs/15/655-15rqsii.pdf",
+      "http": "200 https://www.arera.it/fileadmin/allegati/docs/15/655-15rqsii.pdf",
+      "error": ""
+    },
+    {
+      "titolo": "Azienda Gardesana Servizi · Impianto privato, contatore e perdite occulte",
+      "url": "https://www.ags.vr.it/ciclo-integrato/perdite-occulte",
+      "http": "200 https://www.ags.vr.it/ciclo-integrato/perdite-occulte",
+      "error": ""
+    },
+    {
+      "titolo": "Acque SpA · Verifica della lettura a impianto inutilizzato",
+      "url": "https://www.acque.net/come-fare-per/faq-page/",
+      "http": "200 https://www.acque.net/come-fare-per/faq-page/",
+      "error": ""
+    },
+    {
+      "titolo": "Louisville Water (Stati Uniti) · Valvola generale e valvole dei singoli apparecchi",
+      "url": "https://louisvillewaterhelp.zendesk.com/hc/en-us/articles/10319989459860-How-do-I-turn-off-the-water-in-my-home-if-I-have-a-major-leak",
+      "http": "200 https://louisvillewaterhelp.zendesk.com/hc/en-us/articles/10319989459860-How-do-I-turn-off-the-water-in-my-home-if-I-have-a-major-leak",
+      "error": ""
+    }
+  ]
+}

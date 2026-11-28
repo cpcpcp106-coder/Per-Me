@@ -66,7 +66,7 @@
     {
       "nome": "Casa e autonomia quotidiana",
       "data_obiettivo": "2026-11-28",
-      "stato": "candidato_al_collaudo",
+      "stato": "pubblicato_verificato",
       "path": "casa-autonomia-quotidiana.html",
       "guide": [
         "casa-luce-contrasti.html",
@@ -77,7 +77,10 @@
         "https://cpcpcp106-coder.github.io/Per-Me/casa-luce-contrasti.html",
         "https://cpcpcp106-coder.github.io/Per-Me/casa-perdita-acqua-rubinetti.html"
       ],
-      "registro": "monitoraggio/casa-autonomia-2026-11-28.md"
+      "registro": "monitoraggio/casa-autonomia-2026-11-28.md",
+      "pr": 57,
+      "verificato_il_utc": "2026-11-28T08:03:45.570Z",
+      "evidenza_pubblica": "monitoraggio/casa-autonomia-verifica-pubblica-2026-11-28.json"
     },
     {
       "nome": "Relazioni, cultura e tempo libero",

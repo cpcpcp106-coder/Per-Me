@@ -15,3 +15,9 @@ Indirizzi diretti:
 Tutte le 11 fonti collegate hanno risposto HTTP 200 il 28 novembre. Verificati i consigli sull’abbagliamento e sui contrasti, i fattori domestici di caduta dell’Istituto Superiore di Sanità e i riferimenti italiani ai centri di riabilitazione visiva. Per l’acqua sono stati verificati il 115 e le indicazioni dei Vigili del Fuoco sul rischio elettrico, l’articolo 61 della regolazione nazionale sulla reperibilità del pronto intervento idrico e le spiegazioni dei gestori sulla distinzione tra rete e impianto privato. Le indicazioni di sicurezza non richiedono interventi elettrici o riparazioni dell’impianto.
 
 Superati layout, struttura (4.241 legami interni), perimetro nazionale, audit editoriale, diritti immagini, Facebook, audit tecnico della sitemap (170 URL pubblici) e 19 test automatici dell’app. Superate 58 verifiche Chromium su viewport da 320 e 390 px, compresi testo al 200%, foto, contrasto e altezza del pulsante Facebook, ricerca e lettura offline di entrambe le guide dopo la sincronizzazione. Prove in browser, senza verifica su telefono fisico.
+
+## Pubblicazione verificata
+
+Unita la [PR #57](https://github.com/cpcpcp106-coder/Per-Me/pull/57) dopo 23 workflow riusciti. Il [deploy GitHub Pages](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46123966033) ha pubblicato il commit `07ff002`, che include il merge `79cd2b7`.
+
+Il 28 novembre alle 09:03 ora italiana, rubrica, guide, immagini, homepage, app, catalogo, service worker e sitemap hanno risposto HTTP 200. I testi e le fotografie pubbliche corrispondono ai file collaudati. Su Chromium a 390 px si sono caricate le immagini con testo alternativo e i pulsanti Facebook puntano alla Pagina Per Me Guide. La ricerca pubblica restituisce entrambe le guide. Sitemap XML e TXT riportano gli stessi 170 URL univoci. [Esiti e indirizzi diretti](casa-autonomia-verifica-pubblica-2026-11-28.json).
