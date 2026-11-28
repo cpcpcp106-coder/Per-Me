@@ -1,5 +1,30 @@
 # Fase 4 — controllo incrementale del 28 novembre 2026
 
+## Aggiornamento successivo — verifica pubblica e Search Console
+
+Questo aggiornamento supera gli stati precedenti «candidato non verificato» e «nessun dato proprietà corrente ottenuto» riportati sotto, che restano come cronologia.
+
+- Sorgente verificato: main `ac31de83fd0eb9a1f68901277e427bad71366b7b`. Pubblicazione [46124202654](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46124202654) riuscita. I 28 workflow di controllo sul commit editoriale `79cd2b706fc5b23ab2846017d875048cf0986a2e` risultano riusciti; il deployment di quel commit è stato cancellato e sostituito da pubblicazioni successive riuscite. [Collaudo browser e fonti](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46123940706) e [collaudo strumenti](https://github.com/cpcpcp106-coder/Per-Me/actions/runs/46123940797). Le prove browser archiviate sono emulazioni Chromium Linux, non TalkBack o telefono fisico.
+- Eseguito nuovamente `python scripts/audit-indicizzazione.py --live`: 170 pagine pubbliche, 4 tecniche, 170 URL in sitemap, 170 pagine raggiungibili dalla home, 177 controlli online, **zero problemi**. Il robots.txt alla radice host risponde 404; non è una causa accertata del mancato recupero Google.
+- GET indipendente della [sitemap XML](https://cpcpcp106-coder.github.io/Per-Me/sitemap.xml): HTTP 200, XML analizzato, 170 URL distinti. GET di [Fisco semplice](https://cpcpcp106-coder.github.io/Per-Me/fisco-semplice.html): HTTP 200, nuovo riferimento F24 Web presente e vecchio URL assente. [F24 Web](https://telematici.agenziaentrate.gov.it/Main/F24web.jsp) risponde HTTP 200. La correzione è quindi confermata sul sito pubblico.
+- Audit esterni archiviato alle 08:05:45 UTC del 28/11: 1.122 URL, 948 raggiungibili, 147 bloccati/riservati, 25 inconclusivi per trasporto, due errori HTTP. Il 404 FDA sulle farine non è confermato nel ricontrollo: la [stessa pagina](https://www.fda.gov/food/buy-store-serve-safe-food/handling-flour-safely-what-you-need-know) è stata letta con contenuto pertinente tramite il canale web e restituisce anche HTTP 200 nel GET indipendente. Nessuna sostituzione. [CNAS](https://cnas.ro/case-judetene/) restituisce ancora 503 nel ricontrollo web: resta indisponibilità osservata, non URL definitivamente errato.
+
+### Dati Google letti nella sessione autenticata
+
+Consultata direttamente la proprietà `https://cpcpcp106-coder.github.io/Per-Me/` in Google Search Console il 28/11/2026. Il [rapporto Pagine](https://search.google.com/search-console/index?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F), ultimo aggiornamento **23/11/2026**, mostra **5 pagine indicizzate** e **5 scansionate ma attualmente non indicizzate**. Il rapporto riguarda le pagine note a Google e non tutte le 170 pagine tecnicamente disponibili.
+
+| URL indicizzato nel rapporto | Ultima scansione mostrata |
+|---|---|
+| https://cpcpcp106-coder.github.io/Per-Me/pensione-invalidita.html | 23/11/2026 |
+| https://cpcpcp106-coder.github.io/Per-Me/salute-autonomia.html | 20/11/2026 |
+| https://cpcpcp106-coder.github.io/Per-Me/ | 15/11/2026 |
+| https://cpcpcp106-coder.github.io/Per-Me/app/ | 15/10/2026 |
+| https://cpcpcp106-coder.github.io/Per-Me/tutor-ai.html | 15/10/2026 |
+
+Il [rapporto Sitemap](https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fcpcpcp106-coder.github.io%2FPer-Me%2F) mostra ancora «Impossibile recuperare» e zero pagine rilevate per `/sitemap.xml`, `/sitemap.xml?verifica=20261123` e `/sitemap.txt`. Il dettaglio XML indica ultima lettura 27/11/2026 e «Impossibile leggere la Sitemap», senza causa tecnica aggiuntiva visibile. Nessun nuovo invio o richiesta di indicizzazione eseguito. Il test HTTP positivo non prova che il recupero da parte di Google sia riuscito, né permette di attribuire l'errore a una causa precisa. Nessun dato aggiornato su impressioni, clic o visite raccolto in questa verifica.
+
+Risolta la verifica del candidato F24; accertato lo stato corrente dei rapporti Google disponibili. Restano aperti l'esito del recupero sitemap da Google, le verifiche documentali residue e le prove indipendenti già elencate. Nessuna nuova pubblicazione social, spesa, modifica ai dati personali o attivazione commerciale.
+
 Base main b2db75ad4682be292ee494b0fe74580b5453a261. Letti piano 20/11, cinque miglioramenti, controllo 26/11, consolidamento e dossier 27/11. Fasi 1–3 non riaperte.
 
 ## Riscontri tecnici
